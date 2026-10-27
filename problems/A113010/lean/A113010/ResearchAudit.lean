@@ -1,0 +1,74 @@
+import A113010.Finite
+import A113010.FilterSurvivors
+import A113010.Sparsity
+import A113010.BlockWeights
+import A113010.ModularBarrier
+import A113010.PolynomialSupport
+import A113010.SuffixCertificate
+import A113010.SuffixDigitSum2000
+import A113010.StrongSparsity
+import A113010.AdjacentResidues
+import A113010.InverseLengthSharpening
+
+/-! Audits of intermediate results only; neither frozen target is proved. -/
+#print axioms OeisA113010.fixed_reduction
+#print axioms OeisA113010.candidate_exponent_unique
+#print axioms OeisA113010.fixed_below_ten_pow_1000
+#print axioms OeisA113010.fixed_iff_normalized_parameters
+#print axioms OeisA113010.fixed_digitCount_ne_ten_pow
+#print axioms OeisA113010.normalized_scale_unique
+#print axioms OeisA113010.sparse_coprime_filter_survivors_unbounded
+
+#print axioms OeisA113010.fixed_of_digitSum_le_333
+#print axioms OeisA113010.additional_fixedPoint_nonzeroDigits_ge_38
+#print axioms OeisA113010.fixed_scaled_digitSum_lt_count
+#print axioms OeisA113010.additional_fixedPoint_zero_majority
+
+#print axioms OeisA113010.digitSum_mul_ten_pow_sub_one
+
+#print axioms OeisA113010.fixed_modulus_survivors_unbounded
+
+#print axioms OeisA113010.rootMultiplicity_lt_support_card
+#print axioms OeisA113010.support_card_power_of_nonzero_root
+#print axioms OeisA113010.exists_nonzero_root_of_two_le_support_card
+#print axioms OeisA113010.support_card_power_of_two_le_support_card
+
+#print axioms OeisA113010.digitSum_mod_ten_pow_le
+#print axioms OeisA113010.not_fixed_of_suffix_excess
+#print axioms OeisA113010.representative_suffix_digitSum
+#print axioms OeisA113010.representative_power_not_fixed
+
+#print axioms OeisA113010.fixed_below_ten_pow_2000
+#print axioms OeisA113010.fixed_of_digitSum_le_605
+#print axioms OeisA113010.additional_fixedPoint_digitSum_ge_606
+#print axioms OeisA113010.additional_fixedPoint_nonzeroDigits_ge_68
+
+#print axioms OeisA113010.fixed_of_digitCount_le_10000
+#print axioms OeisA113010.fixed_of_digitCount_le_10001
+#print axioms OeisA113010.fixed_of_digitSum_le_2500
+#print axioms OeisA113010.additional_fixedPoint_digitSum_ge_2501
+#print axioms OeisA113010.additional_fixedPoint_nonzeroDigits_ge_278
+#print axioms OeisA113010.additional_fixedPoint_digitCount_ge_10005
+#print axioms OeisA113010.additional_fixedPoint_ge_ten_pow_10004
+#print axioms OeisA113010.additional_fixedPoint_zero_three_quarters
+#print axioms OeisA113010.fixed_of_digitCount_le_10004
+#print axioms OeisA113010.fixed_below_ten_pow_10004
+
+#print axioms OeisA113010.digitCount_mono
+#print axioms OeisA113010.exists_length_compatible_base
+#print axioms OeisA113010.power_below_digit_lower_of_gap_two
+#print axioms OeisA113010.not_length_compatible_of_gap_two
+#print axioms OeisA113010.length_compatible_eq_or_succ
+#print axioms OeisA113010.additional_fixedPoint_count_eq_or_succ
+#print axioms OeisA113010.additional_fixedPoint_digitCounts_two_consecutive
+#print axioms OeisA113010.fixedPoints_per_digitSum_at_most_two
+#print axioms OeisA113010.adjacent_power_mod_nine_iff
+#print axioms OeisA113010.fixed_eq_of_same_digitSum_mod_ne_four
+#print axioms OeisA113010.distinct_fixed_same_digitSum_mod_eighteen
+
+#print axioms OeisA113010.succ_pow_lt_three_mul_pow
+#print axioms OeisA113010.power_exclusion_step_of_exponent_le_base
+#print axioms OeisA113010.power_exclusion_above_of_exponent_le_base
+#print axioms OeisA113010.power_below_digit_lower_of_gap_two_of_exponent_le_base
+#print axioms OeisA113010.not_length_compatible_of_gap_two_of_exponent_le_base
+#print axioms OeisA113010.length_compatible_eq_or_succ_of_exponent_le_base

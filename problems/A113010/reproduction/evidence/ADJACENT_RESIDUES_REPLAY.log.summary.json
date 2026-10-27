@@ -1,0 +1,10 @@
+{
+  "scope": "Structured extraction from historical command output; raw terminal output is intentionally not published.",
+  "build_pass_modules": [],
+  "axiom_audits": [],
+  "result_markers": [],
+  "numeric_records": [],
+  "historical_error_marker_present": false,
+  "known_negative_control_in_this_log": false,
+  "interpretation": "Error markers alone do not establish success or whether a failure was expected; consult the corresponding retained review and result markers."
+}

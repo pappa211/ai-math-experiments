@@ -1,0 +1,12 @@
+{"type":"start","limit":1000,"max_seconds":60,"memory_bytes":456}
+{"type":"equal","u":2,"s":5,"digit_sum":5,"core_digits":2}
+{"type":"equal","u":2,"s":70,"digit_sum":70,"core_digits":22}
+{"type":"progress","u":2,"s":1000,"blocks":34,"low_block":668069376,"high_block":10715,"elapsed":0.000}
+{"type":"progress","u":3,"s":1000,"blocks":54,"low_block":855220001,"high_block":1,"elapsed":0.000}
+{"type":"progress","u":4,"s":1000,"blocks":67,"low_block":149029376,"high_block":114813069,"elapsed":0.000}
+{"type":"progress","u":5,"s":1000,"blocks":78,"low_block":650390625,"high_block":933263,"elapsed":0.000}
+{"type":"progress","u":6,"s":1000,"blocks":87,"low_block":410789376,"high_block":14166,"elapsed":0.000}
+{"type":"progress","u":7,"s":1000,"blocks":94,"low_block":280600001,"high_block":125325663,"elapsed":0.001}
+{"type":"progress","u":8,"s":1000,"blocks":101,"low_block":229989376,"high_block":1230,"elapsed":0.001}
+{"type":"progress","u":9,"s":1000,"blocks":107,"low_block":110440001,"high_block":1,"elapsed":0.001}
+{"type":"finish","complete":true,"last_u":9,"last_s":1000,"mod9_checked":888,"equalities":2,"below":0,"elapsed":0.001}

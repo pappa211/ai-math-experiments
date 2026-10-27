@@ -1,0 +1,182 @@
+{
+  "low_weight_lifting_checks": 274,
+  "sharp_witnesses": [
+    {
+      "T": 1,
+      "N": "209",
+      "weight": 11,
+      "remainder": [
+        11
+      ]
+    },
+    {
+      "T": 2,
+      "N": "11009",
+      "weight": 11,
+      "remainder": [
+        10,
+        -1
+      ]
+    },
+    {
+      "T": 3,
+      "N": "1010009",
+      "weight": 11,
+      "remainder": [
+        10,
+        -1,
+        0
+      ]
+    },
+    {
+      "T": 4,
+      "N": "100100009",
+      "weight": 11,
+      "remainder": [
+        10,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "T": 5,
+      "N": "10001000009",
+      "weight": 11,
+      "remainder": [
+        10,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "T": 6,
+      "N": "1000010000009",
+      "weight": 11,
+      "remainder": [
+        10,
+        -1,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "weight_two_order_checks": [
+    {
+      "T": 1,
+      "s": 1,
+      "E": 1,
+      "minus_one": true
+    },
+    {
+      "T": 1,
+      "s": 2,
+      "E": 11,
+      "minus_one": true
+    },
+    {
+      "T": 1,
+      "s": 3,
+      "E": 121,
+      "minus_one": true
+    },
+    {
+      "T": 2,
+      "s": 1,
+      "E": 2,
+      "minus_one": true
+    },
+    {
+      "T": 2,
+      "s": 2,
+      "E": 202,
+      "minus_one": true
+    },
+    {
+      "T": 2,
+      "s": 3,
+      "E": 20402,
+      "minus_one": true
+    },
+    {
+      "T": 3,
+      "s": 1,
+      "E": 3,
+      "minus_one": true
+    },
+    {
+      "T": 3,
+      "s": 2,
+      "E": 3003,
+      "minus_one": true
+    },
+    {
+      "T": 3,
+      "s": 3,
+      "E": 3006003,
+      "minus_one": true
+    }
+  ],
+  "block_counterexamples": [
+    {
+      "B": 35,
+      "s": 7,
+      "positions": 8,
+      "nonzero": 7,
+      "zero_positions": [
+        3
+      ]
+    },
+    {
+      "B": 100,
+      "s": 41,
+      "positions": 42,
+      "nonzero": 40,
+      "zero_positions": [
+        9,
+        12
+      ]
+    },
+    {
+      "B": 100,
+      "s": 63,
+      "positions": 64,
+      "nonzero": 61,
+      "zero_positions": [
+        14,
+        25,
+        46
+      ]
+    }
+  ],
+  "radix_five_example": {
+    "n": 256,
+    "digits_low_first": [
+      1,
+      1,
+      0,
+      2
+    ],
+    "digit_sum": 4
+  },
+  "inverse_monotonicity_counterexample": [
+    {
+      "s": 52,
+      "k": 106,
+      "length": 106,
+      "digit_sum": 493,
+      "excess": 441
+    },
+    {
+      "s": 54,
+      "k": 111,
+      "length": 111,
+      "digit_sum": 486,
+      "excess": 432
+    }
+  ]
+}

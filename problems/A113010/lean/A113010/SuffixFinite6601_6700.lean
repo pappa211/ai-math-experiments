@@ -1,0 +1,391 @@
+import A113010.SuffixFiniteNormalizedCore
+
+/-! Generated bounded exclusion certificates; no uniform conclusion. -/
+namespace OeisA113010
+set_option exponentiation.threshold 6701
+set_option maxRecDepth 20000
+set_option maxHeartbeats 4000000
+
+private theorem cert_6601 : ExponentCertificate 6601 1728 1728 := by decide
+private theorem cert_6602 : ExponentCertificate 6602 1729 1728 := by decide
+private theorem cert_6603 : ExponentCertificate 6603 1729 1728 := by decide
+private theorem cert_6604 : ExponentCertificate 6604 1729 1728 := by decide
+private theorem cert_6605 : ExponentCertificate 6605 1729 1729 := by decide
+private theorem cert_6606 : ExponentCertificate 6606 1730 1729 := by decide
+private theorem cert_6607 : ExponentCertificate 6607 1730 1729 := by decide
+private theorem cert_6608 : ExponentCertificate 6608 1730 1729 := by decide
+private theorem cert_6609 : ExponentCertificate 6609 1730 1730 := by decide
+private theorem cert_6610 : ExponentCertificate 6610 1731 1730 := by decide
+private theorem cert_6611 : ExponentCertificate 6611 1731 1730 := by decide
+private theorem cert_6612 : ExponentCertificate 6612 1731 1730 := by decide
+private theorem cert_6613 : ExponentCertificate 6613 1731 1730 := by decide
+private theorem cert_6614 : ExponentCertificate 6614 1731 1731 := by decide
+private theorem cert_6615 : ExponentCertificate 6615 1732 1731 := by decide
+private theorem cert_6616 : ExponentCertificate 6616 1732 1731 := by decide
+private theorem cert_6617 : ExponentCertificate 6617 1732 1731 := by decide
+private theorem cert_6618 : ExponentCertificate 6618 1732 1732 := by decide
+private theorem cert_6619 : ExponentCertificate 6619 1733 1732 := by decide
+private theorem cert_6620 : ExponentCertificate 6620 1733 1732 := by decide
+private theorem cert_6621 : ExponentCertificate 6621 1733 1732 := by decide
+private theorem cert_6622 : ExponentCertificate 6622 1733 1733 := by decide
+private theorem cert_6623 : ExponentCertificate 6623 1734 1733 := by decide
+private theorem cert_6624 : ExponentCertificate 6624 1734 1733 := by decide
+private theorem cert_6625 : ExponentCertificate 6625 1734 1733 := by decide
+private theorem cert_6626 : ExponentCertificate 6626 1734 1733 := by decide
+private theorem cert_6627 : ExponentCertificate 6627 1734 1734 := by decide
+private theorem cert_6628 : ExponentCertificate 6628 1735 1734 := by decide
+private theorem cert_6629 : ExponentCertificate 6629 1735 1734 := by decide
+private theorem cert_6630 : ExponentCertificate 6630 1735 1734 := by decide
+private theorem suffix_6631 : 1735 < digitSum ((6631 : ℕ) ^ 1735 % 10 ^ 434) := by
+  have hmod : (6631 : ℕ) ^ 1735 % 10 ^ 434 = 89113907068164727755985175470479277242107158130801093132389407656572449315601637419013952237962459618898293709951543139996960190027355213430568974803240446855185402412636858369714916736421888823531276265797233557914588529255459111853703977717336104789513575299975955439390472030868417030598750503425885475033578354578078480170365152634253943292621072744966806925035103223052006184317960651357397203806479943796437325870983685923158551 := by
+    have h1 : (6631 : ℕ) ^ 1 % 10 ^ 434 = 6631 := by decide
+    have h3 : (6631 : ℕ) ^ 3 % 10 ^ 434 = 291566137591 := by
+      have step := pow_mod_double_add_one (k := 6631) (e := 1) (m := 10 ^ 434) h1
+      have he : 2 * 1 + 1 = 3 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h6 : (6631 : ℕ) ^ 6 % 10 ^ 434 = 85010812589733943283281 := by
+      have step := pow_mod_double (k := 6631) (e := 3) (m := 10 ^ 434) h3
+      have he : 2 * 3 = 6 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h13 : (6631 : ℕ) ^ 13 % 10 ^ 434 = 47921164483273495824535517087420357371933862616391 := by
+      have step := pow_mod_double_add_one (k := 6631) (e := 6) (m := 10 ^ 434) h6
+      have he : 2 * 6 + 1 = 13 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h27 : (6631 : ℕ) ^ 27 % 10 ^ 434 = 15227680414025912232051558695069757591301209843834256152964462125663514489567909215709531504508986025911 := by
+      have step := pow_mod_double_add_one (k := 6631) (e := 13) (m := 10 ^ 434) h13
+      have he : 2 * 13 + 1 = 27 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h54 : (6631 : ℕ) ^ 54 % 10 ^ 434 = 231882250791708377772989758201940185899309687755734214673972623512470940669466320548948745880153564929954343009544965531198682919044347817905726529371255811810033544521325233690956596948296374860673163379921 := by
+      have step := pow_mod_double (k := 6631) (e := 27) (m := 10 ^ 434) h27
+      have he : 2 * 27 = 54 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h108 : (6631 : ℕ) ^ 108 % 10 ^ 434 = 53769378232228740590503864153582752748374579631129671726450446334519092041522141840955595907426578053302486151797526970143612735077131148252004635110743409667549937166128843740561162968094143514312454151875520304103689163090616553697277312333001648125363822186253215989371630205698221435483068418789755133812808198980652599292243613333738377870667654337733479480898256824186742164494623167631575308186664585966241 := by
+      have step := pow_mod_double (k := 6631) (e := 54) (m := 10 ^ 434) h54
+      have he : 2 * 54 = 108 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h216 : (6631 : ℕ) ^ 216 % 10 ^ 434 = 15152061268894373159339564858122751416285243987623317146832373663740497890667258090492097170405595572056381625838078571688074078683065367123325530489018079676287804427781599820556252790780053475531042555449002809836464032370699223731986602583748402541394171703305674896085264773179250902160983163657466126716141224584832143100035427707022754203303605855997832269123019890212886273363992875633249836860107793979942008404176483591670081 := by
+      have step := pow_mod_double (k := 6631) (e := 108) (m := 10 ^ 434) h108
+      have he : 2 * 108 = 216 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h433 : (6631 : ℕ) ^ 433 % 10 ^ 434 = 56229476722393820480323384760913397150990708768981026065005029182035692440534743203470007080194986300177512350395204960488908203950234137986306741492821132892341404887135969538035347429335037485163596593503710183692184566382126816686626843097707832941898833767055101384561420268953141361192378141302269272512306133561167130568470894898644042776810926286003212463316121592503346109189519013337798517573373656590249808049018606874245991 := by
+      have step := pow_mod_double_add_one (k := 6631) (e := 216) (m := 10 ^ 434) h216
+      have he : 2 * 216 + 1 = 433 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h867 : (6631 : ℕ) ^ 867 % 10 ^ 434 = 68576474198002876021149106843662657589751657993925738353825216475907729569796331473422342820118629926985409275989450016522640843455364680790287273384751200300615717435317498490844569765859561804961853340619838728509146883684334370712728366100774447319775393622151738353723926919542557291065144138224478820963574540444666570859330290328888259373489985133991218902624258238460280026709197059320620702997304423579664641260573033342469111 := by
+      have step := pow_mod_double_add_one (k := 6631) (e := 433) (m := 10 ^ 434) h433
+      have he : 2 * 433 + 1 = 867 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h1735 : (6631 : ℕ) ^ 1735 % 10 ^ 434 = 89113907068164727755985175470479277242107158130801093132389407656572449315601637419013952237962459618898293709951543139996960190027355213430568974803240446855185402412636858369714916736421888823531276265797233557914588529255459111853703977717336104789513575299975955439390472030868417030598750503425885475033578354578078480170365152634253943292621072744966806925035103223052006184317960651357397203806479943796437325870983685923158551 := by
+      have step := pow_mod_double_add_one (k := 6631) (e := 867) (m := 10 ^ 434) h867
+      have he : 2 * 867 + 1 = 1735 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    exact h1735
+  rw [hmod]
+  decide
+private theorem cert_6631 : ExponentCertificate 6631 1735 1735 :=
+  exponentCertificate_of_normalized_suffix (t := 0) (u := 6631) (by decide) (by decide) (by decide) suffix_6631
+private theorem cert_6632 : ExponentCertificate 6632 1736 1735 := by decide
+private theorem cert_6633 : ExponentCertificate 6633 1736 1735 := by decide
+private theorem cert_6634 : ExponentCertificate 6634 1736 1735 := by decide
+private theorem cert_6635 : ExponentCertificate 6635 1736 1736 := by decide
+private theorem cert_6636 : ExponentCertificate 6636 1737 1736 := by decide
+private theorem cert_6637 : ExponentCertificate 6637 1737 1736 := by decide
+private theorem cert_6638 : ExponentCertificate 6638 1737 1736 := by decide
+private theorem suffix_6639 : 1737 < digitSum ((6639 : ℕ) ^ 1737 % 10 ^ 435) := by
+  have hmod : (6639 : ℕ) ^ 1737 % 10 ^ 435 = 102308726531323784852034032577267517298808726538662986141979298378351980844013453244504527162188045391969787752717275219366048565880981410627093008616558398858214233156597908116382425091732128877205678212464355035503819782372512983460538328326311076143143288888183250050112104603011262600181824035461205561962635759968624165562247589800094311160975444791056475471086458397882898541725130119404234130273237670672957679190942005334260079 := by
+    have h1 : (6639 : ℕ) ^ 1 % 10 ^ 435 = 6639 := by decide
+    have h3 : (6639 : ℕ) ^ 3 % 10 ^ 435 = 292622695119 := by
+      have step := pow_mod_double_add_one (k := 6639) (e := 1) (m := 10 ^ 435) h1
+      have he : 2 * 1 + 1 = 3 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h6 : (6639 : ℕ) ^ 6 % 10 ^ 435 = 85628041698707226424161 := by
+      have step := pow_mod_double (k := 6639) (e := 3) (m := 10 ^ 435) h3
+      have he : 2 * 3 = 6 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h13 : (6639 : ℕ) ^ 13 % 10 ^ 435 = 48678220365507653632967648658929483575550753481519 := by
+      have step := pow_mod_double_add_one (k := 6639) (e := 6) (m := 10 ^ 435) h6
+      have he : 2 * 6 + 1 = 13 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h27 : (6639 : ℕ) ^ 27 % 10 ^ 435 = 15731569506869462994038766730160925836425042468174618357021087009735879574676885036505916933211519929679 := by
+      have step := pow_mod_double_add_one (k := 6639) (e := 13) (m := 10 ^ 435) h13
+      have he : 2 * 13 + 1 = 27 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h54 : (6639 : ℕ) ^ 54 % 10 ^ 435 = 247482279149465119083987410846096759232611604512649116655841338283706824498022227869919359004819426688563048575034030342183173660033810280623810321658443029355416855067115423233124284115891389665409105043041 := by
+      have step := pow_mod_double (k := 6639) (e := 27) (m := 10 ^ 435) h27
+      have he : 2 * 27 = 54 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h108 : (6639 : ℕ) ^ 108 % 10 ^ 435 = 61247478493013777626163015509793226179083392802338511283738018955995195848050629975382327281675658082575356994245634543873645066642048727626484116204903937269409074663369442194955501171592144154019101252273950828104589611517128433318042051890737945229216334292602398969026056409651944419825856492524163199403466683345553917242133121833766446981330757045990751352915306598068401745136931427129622078771578462527681 := by
+      have step := pow_mod_double (k := 6639) (e := 54) (m := 10 ^ 435) h54
+      have he : 2 * 54 = 108 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h217 : (6639 : ℕ) ^ 217 % 10 ^ 435 = 230200542859089074447799201000471364381537337535518028118256094937974062451025401221641871692826837332847443388606308874695491040081646527529968353413088952626940098896180967774586794511411111429979508509325579613497590712555113992081827319559048024067367182959902662350049747934060412300406133107614238829039571083545286107038554642202943326543126730961149375174255468919667771046589827850789938055430631590105545619643695738127495279 := by
+      have step := pow_mod_double_add_one (k := 6639) (e := 108) (m := 10 ^ 435) h108
+      have he : 2 * 108 + 1 = 217 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h434 : (6639 : ℕ) ^ 434 % 10 ^ 435 = 255056953737974336352592027857629805691917769634292548351562036496331975214648835075376988485808201261382397382927650165319602153014924317072085660842945971856580936617562973671789139036904095531226387616833576750414283073819293521826397326861707386849528469169202762412958072846152506906630098697276184404775748411794506890498686418413433959142034602090684259477344971125570643065392425961627990211097528203566766381431096850167287841 := by
+      have step := pow_mod_double (k := 6639) (e := 217) (m := 10 ^ 435) h217
+      have he : 2 * 217 = 434 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h868 : (6639 : ℕ) ^ 868 % 10 ^ 435 = 700905518154286316625182724788192927216854339624212604289253540294868066383947777581880584773545417251430901920127911152464877231960380129672053700444577243819574923675528248235569660591174273087625547672013642265395526311424400054633213044214934332903379899958409023417452602854450317858241541064323204608169724085885923127080345565884657991230338955487285072034273178411489089822056860374486700131478429888681903864624786921746441281 := by
+      have step := pow_mod_double (k := 6639) (e := 434) (m := 10 ^ 435) h434
+      have he : 2 * 434 = 868 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h1737 : (6639 : ℕ) ^ 1737 % 10 ^ 435 = 102308726531323784852034032577267517298808726538662986141979298378351980844013453244504527162188045391969787752717275219366048565880981410627093008616558398858214233156597908116382425091732128877205678212464355035503819782372512983460538328326311076143143288888183250050112104603011262600181824035461205561962635759968624165562247589800094311160975444791056475471086458397882898541725130119404234130273237670672957679190942005334260079 := by
+      have step := pow_mod_double_add_one (k := 6639) (e := 868) (m := 10 ^ 435) h868
+      have he : 2 * 868 + 1 = 1737 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    exact h1737
+  rw [hmod]
+  decide
+private theorem cert_6639 : ExponentCertificate 6639 1737 1737 :=
+  exponentCertificate_of_normalized_suffix (t := 0) (u := 6639) (by decide) (by decide) (by decide) suffix_6639
+private theorem cert_6640 : ExponentCertificate 6640 1737 1737 := by decide
+private theorem cert_6641 : ExponentCertificate 6641 1738 1737 := by decide
+private theorem cert_6642 : ExponentCertificate 6642 1738 1737 := by decide
+private theorem cert_6643 : ExponentCertificate 6643 1738 1737 := by decide
+private theorem cert_6644 : ExponentCertificate 6644 1738 1738 := by decide
+private theorem cert_6645 : ExponentCertificate 6645 1739 1738 := by decide
+private theorem cert_6646 : ExponentCertificate 6646 1739 1738 := by decide
+private theorem cert_6647 : ExponentCertificate 6647 1739 1738 := by decide
+private theorem cert_6648 : ExponentCertificate 6648 1739 1739 := by decide
+private theorem cert_6649 : ExponentCertificate 6649 1740 1739 := by decide
+private theorem cert_6650 : ExponentCertificate 6650 1740 1739 := by decide
+private theorem cert_6651 : ExponentCertificate 6651 1740 1739 := by decide
+private theorem cert_6652 : ExponentCertificate 6652 1740 1740 := by decide
+private theorem cert_6653 : ExponentCertificate 6653 1740 1740 := by decide
+private theorem cert_6654 : ExponentCertificate 6654 1741 1740 := by decide
+private theorem cert_6655 : ExponentCertificate 6655 1741 1740 := by decide
+private theorem cert_6656 : ExponentCertificate 6656 1741 1740 := by decide
+private theorem cert_6657 : ExponentCertificate 6657 1741 1741 := by decide
+private theorem cert_6658 : ExponentCertificate 6658 1742 1741 := by decide
+private theorem cert_6659 : ExponentCertificate 6659 1742 1741 := by decide
+private theorem cert_6660 : ExponentCertificate 6660 1742 1741 := by decide
+private theorem cert_6661 : ExponentCertificate 6661 1742 1742 := by decide
+private theorem cert_6662 : ExponentCertificate 6662 1743 1742 := by decide
+private theorem cert_6663 : ExponentCertificate 6663 1743 1742 := by decide
+private theorem cert_6664 : ExponentCertificate 6664 1743 1742 := by decide
+private theorem cert_6665 : ExponentCertificate 6665 1743 1743 := by decide
+private theorem cert_6666 : ExponentCertificate 6666 1744 1743 := by decide
+private theorem cert_6667 : ExponentCertificate 6667 1744 1743 := by decide
+private theorem cert_6668 : ExponentCertificate 6668 1744 1743 := by decide
+private theorem cert_6669 : ExponentCertificate 6669 1744 1743 := by decide
+private theorem cert_6670 : ExponentCertificate 6670 1744 1744 := by decide
+private theorem cert_6671 : ExponentCertificate 6671 1745 1744 := by decide
+private theorem cert_6672 : ExponentCertificate 6672 1745 1744 := by decide
+private theorem cert_6673 : ExponentCertificate 6673 1745 1744 := by decide
+private theorem cert_6674 : ExponentCertificate 6674 1745 1745 := by decide
+private theorem cert_6675 : ExponentCertificate 6675 1746 1745 := by decide
+private theorem cert_6676 : ExponentCertificate 6676 1746 1745 := by decide
+private theorem cert_6677 : ExponentCertificate 6677 1746 1745 := by decide
+private theorem suffix_6678 : 1746 < digitSum ((6678 : ℕ) ^ 1746 % 10 ^ 437) := by
+  have hmod : (6678 : ℕ) ^ 1746 % 10 ^ 437 = 40104511396691776039942318755075309823730161685987111305700769880790593511724667668274126946086412062384640775059753297478300719853058931627537313359741910875554194539216426882648613185006779745223667485638115389472477726754057224750615515857918436825525156225377076339222610628455925966411826238860727557507169398119573802324721137734127215057971409679091220725889023362090078193160057357518477389765294591604355327661370817520760520704 := by
+    have h1 : (6678 : ℕ) ^ 1 % 10 ^ 437 = 6678 := by decide
+    have h3 : (6678 : ℕ) ^ 3 % 10 ^ 437 = 297809977752 := by
+      have step := pow_mod_double_add_one (k := 6678) (e := 1) (m := 10 ^ 437) h1
+      have he : 2 * 1 + 1 = 3 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h6 : (6678 : ℕ) ^ 6 % 10 ^ 437 = 88690782848646734973504 := by
+      have step := pow_mod_double (k := 6678) (e := 3) (m := 10 ^ 437) h3
+      have he : 2 * 3 = 6 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h13 : (6678 : ℕ) ^ 13 % 10 ^ 437 = 52529515038278198200303468156727955152368849870848 := by
+      have step := pow_mod_double_add_one (k := 6678) (e := 6) (m := 10 ^ 437) h6
+      have he : 2 * 6 + 1 = 13 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h27 : (6678 : ℕ) ^ 27 % 10 ^ 437 = 18426938967146411711157074467602909754205906188842226608463978759100457463619853649823420763179436736512 := by
+      have step := pow_mod_double_add_one (k := 6678) (e := 13) (m := 10 ^ 437) h13
+      have he : 2 * 13 + 1 = 27 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h54 : (6678 : ℕ) ^ 54 % 10 ^ 437 = 339552079698938866420112324718749616268859394345203062101871531054892341830382122227615461213017370399797107127392280819961817305988427959969786157637159968144171484970289137130235502586079539722076913926144 := by
+      have step := pow_mod_double (k := 6678) (e := 27) (m := 10 ^ 437) h27
+      have he : 2 * 27 = 54 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h109 : (6678 : ℕ) ^ 109 % 10 ^ 437 = 769944115820546123775907788034614479592328160501684926816890178992398442731023397799175210785689142035376829044707560288426563979841726860466891111025784854526910838710864561066462169336368435089244334979455092874611854945690845259671195415041544629778940386917188574758731581492315554949564810921267502888080218331640596987569354513397087531968040444704886955599424632247295190013372346360092717523613567937840939008 := by
+      have step := pow_mod_double_add_one (k := 6678) (e := 54) (m := 10 ^ 437) h54
+      have he : 2 * 54 + 1 = 109 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h218 : (6678 : ℕ) ^ 218 % 10 ^ 437 = 70753861651155704485502533452615866699770384255678308431986156237643650065826362572125061450677867406689664976705030241286486750326483801213978260284566726893327637268198021817735636603807555881799009527037763610076181222799087774568481855517627901955527655442216227807042153890165363240114747773365132855500080257689788567528719756045140955692620720614050416736995858832485267249621069330583128046533375747039978056762269951407176024064 := by
+      have step := pow_mod_double (k := 6678) (e := 109) (m := 10 ^ 437) h109
+      have he : 2 * 109 = 218 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h436 : (6678 : ℕ) ^ 436 % 10 ^ 437 = 93580245293358761609054629095131107602224009318511605015261341345520705042168885279551604405360809562767273573105092589080276082018012332059031176937356857534798251667402987915566323944113033353652074937917272193391976866898887088490211619025215695541798594079957961746327014341877144113061881178751397399190424973700992795320467277276762505097877669376976126774010842383538688144114243338378302069254154218074376157072516300567107076096 := by
+      have step := pow_mod_double (k := 6678) (e := 218) (m := 10 ^ 437) h218
+      have he : 2 * 218 = 436 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h873 : (6678 : ℕ) ^ 873 % 10 ^ 437 = 55526483608225987370870659276128261164918267461119206276399207642191445889762462414128268085320696901102080702436001839385977304795981986132529279808001115231408988969885080307127504373066941812333946843611625985632727071748646209455435382893590149551863427164402137917324281922855078597045814283712375346417584028142660746672155484234617197892322818475980602731949157949994270622491826575656144989558954955923070230162261754646466920448 := by
+      have step := pow_mod_double_add_one (k := 6678) (e := 436) (m := 10 ^ 437) h436
+      have he : 2 * 436 + 1 = 873 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    have h1746 : (6678 : ℕ) ^ 1746 % 10 ^ 437 = 40104511396691776039942318755075309823730161685987111305700769880790593511724667668274126946086412062384640775059753297478300719853058931627537313359741910875554194539216426882648613185006779745223667485638115389472477726754057224750615515857918436825525156225377076339222610628455925966411826238860727557507169398119573802324721137734127215057971409679091220725889023362090078193160057357518477389765294591604355327661370817520760520704 := by
+      have step := pow_mod_double (k := 6678) (e := 873) (m := 10 ^ 437) h873
+      have he : 2 * 873 = 1746 := by decide
+      rw [he] at step
+      exact step.trans (by decide)
+    exact h1746
+  rw [hmod]
+  decide
+private theorem cert_6678 : ExponentCertificate 6678 1746 1746 :=
+  exponentCertificate_of_normalized_suffix (t := 0) (u := 6678) (by decide) (by decide) (by decide) suffix_6678
+private theorem cert_6679 : ExponentCertificate 6679 1747 1746 := by decide
+private theorem cert_6680 : ExponentCertificate 6680 1747 1746 := by decide
+private theorem cert_6681 : ExponentCertificate 6681 1747 1746 := by decide
+private theorem cert_6682 : ExponentCertificate 6682 1747 1746 := by decide
+private theorem cert_6683 : ExponentCertificate 6683 1747 1747 := by decide
+private theorem cert_6684 : ExponentCertificate 6684 1748 1747 := by decide
+private theorem cert_6685 : ExponentCertificate 6685 1748 1747 := by decide
+private theorem cert_6686 : ExponentCertificate 6686 1748 1747 := by decide
+private theorem cert_6687 : ExponentCertificate 6687 1748 1748 := by decide
+private theorem cert_6688 : ExponentCertificate 6688 1749 1748 := by decide
+private theorem cert_6689 : ExponentCertificate 6689 1749 1748 := by decide
+private theorem cert_6690 : ExponentCertificate 6690 1749 1748 := by decide
+private theorem cert_6691 : ExponentCertificate 6691 1749 1749 := by decide
+private theorem cert_6692 : ExponentCertificate 6692 1750 1749 := by decide
+private theorem cert_6693 : ExponentCertificate 6693 1750 1749 := by decide
+private theorem cert_6694 : ExponentCertificate 6694 1750 1749 := by decide
+private theorem cert_6695 : ExponentCertificate 6695 1750 1749 := by decide
+private theorem cert_6696 : ExponentCertificate 6696 1750 1750 := by decide
+private theorem cert_6697 : ExponentCertificate 6697 1751 1750 := by decide
+private theorem cert_6698 : ExponentCertificate 6698 1751 1750 := by decide
+private theorem cert_6699 : ExponentCertificate 6699 1751 1750 := by decide
+private theorem cert_6700 : ExponentCertificate 6700 1751 1751 := by decide
+
+private theorem certificates_6601_6700 {k : ℕ} (hlo : 6601 ≤ k) (hhi : k ≤ 6700) :
+    ∃ lo hi, ExponentCertificate k lo hi := by
+  interval_cases k
+  · exact ⟨1728, 1728, cert_6601⟩
+  · exact ⟨1729, 1728, cert_6602⟩
+  · exact ⟨1729, 1728, cert_6603⟩
+  · exact ⟨1729, 1728, cert_6604⟩
+  · exact ⟨1729, 1729, cert_6605⟩
+  · exact ⟨1730, 1729, cert_6606⟩
+  · exact ⟨1730, 1729, cert_6607⟩
+  · exact ⟨1730, 1729, cert_6608⟩
+  · exact ⟨1730, 1730, cert_6609⟩
+  · exact ⟨1731, 1730, cert_6610⟩
+  · exact ⟨1731, 1730, cert_6611⟩
+  · exact ⟨1731, 1730, cert_6612⟩
+  · exact ⟨1731, 1730, cert_6613⟩
+  · exact ⟨1731, 1731, cert_6614⟩
+  · exact ⟨1732, 1731, cert_6615⟩
+  · exact ⟨1732, 1731, cert_6616⟩
+  · exact ⟨1732, 1731, cert_6617⟩
+  · exact ⟨1732, 1732, cert_6618⟩
+  · exact ⟨1733, 1732, cert_6619⟩
+  · exact ⟨1733, 1732, cert_6620⟩
+  · exact ⟨1733, 1732, cert_6621⟩
+  · exact ⟨1733, 1733, cert_6622⟩
+  · exact ⟨1734, 1733, cert_6623⟩
+  · exact ⟨1734, 1733, cert_6624⟩
+  · exact ⟨1734, 1733, cert_6625⟩
+  · exact ⟨1734, 1733, cert_6626⟩
+  · exact ⟨1734, 1734, cert_6627⟩
+  · exact ⟨1735, 1734, cert_6628⟩
+  · exact ⟨1735, 1734, cert_6629⟩
+  · exact ⟨1735, 1734, cert_6630⟩
+  · exact ⟨1735, 1735, cert_6631⟩
+  · exact ⟨1736, 1735, cert_6632⟩
+  · exact ⟨1736, 1735, cert_6633⟩
+  · exact ⟨1736, 1735, cert_6634⟩
+  · exact ⟨1736, 1736, cert_6635⟩
+  · exact ⟨1737, 1736, cert_6636⟩
+  · exact ⟨1737, 1736, cert_6637⟩
+  · exact ⟨1737, 1736, cert_6638⟩
+  · exact ⟨1737, 1737, cert_6639⟩
+  · exact ⟨1737, 1737, cert_6640⟩
+  · exact ⟨1738, 1737, cert_6641⟩
+  · exact ⟨1738, 1737, cert_6642⟩
+  · exact ⟨1738, 1737, cert_6643⟩
+  · exact ⟨1738, 1738, cert_6644⟩
+  · exact ⟨1739, 1738, cert_6645⟩
+  · exact ⟨1739, 1738, cert_6646⟩
+  · exact ⟨1739, 1738, cert_6647⟩
+  · exact ⟨1739, 1739, cert_6648⟩
+  · exact ⟨1740, 1739, cert_6649⟩
+  · exact ⟨1740, 1739, cert_6650⟩
+  · exact ⟨1740, 1739, cert_6651⟩
+  · exact ⟨1740, 1740, cert_6652⟩
+  · exact ⟨1740, 1740, cert_6653⟩
+  · exact ⟨1741, 1740, cert_6654⟩
+  · exact ⟨1741, 1740, cert_6655⟩
+  · exact ⟨1741, 1740, cert_6656⟩
+  · exact ⟨1741, 1741, cert_6657⟩
+  · exact ⟨1742, 1741, cert_6658⟩
+  · exact ⟨1742, 1741, cert_6659⟩
+  · exact ⟨1742, 1741, cert_6660⟩
+  · exact ⟨1742, 1742, cert_6661⟩
+  · exact ⟨1743, 1742, cert_6662⟩
+  · exact ⟨1743, 1742, cert_6663⟩
+  · exact ⟨1743, 1742, cert_6664⟩
+  · exact ⟨1743, 1743, cert_6665⟩
+  · exact ⟨1744, 1743, cert_6666⟩
+  · exact ⟨1744, 1743, cert_6667⟩
+  · exact ⟨1744, 1743, cert_6668⟩
+  · exact ⟨1744, 1743, cert_6669⟩
+  · exact ⟨1744, 1744, cert_6670⟩
+  · exact ⟨1745, 1744, cert_6671⟩
+  · exact ⟨1745, 1744, cert_6672⟩
+  · exact ⟨1745, 1744, cert_6673⟩
+  · exact ⟨1745, 1745, cert_6674⟩
+  · exact ⟨1746, 1745, cert_6675⟩
+  · exact ⟨1746, 1745, cert_6676⟩
+  · exact ⟨1746, 1745, cert_6677⟩
+  · exact ⟨1746, 1746, cert_6678⟩
+  · exact ⟨1747, 1746, cert_6679⟩
+  · exact ⟨1747, 1746, cert_6680⟩
+  · exact ⟨1747, 1746, cert_6681⟩
+  · exact ⟨1747, 1746, cert_6682⟩
+  · exact ⟨1747, 1747, cert_6683⟩
+  · exact ⟨1748, 1747, cert_6684⟩
+  · exact ⟨1748, 1747, cert_6685⟩
+  · exact ⟨1748, 1747, cert_6686⟩
+  · exact ⟨1748, 1748, cert_6687⟩
+  · exact ⟨1749, 1748, cert_6688⟩
+  · exact ⟨1749, 1748, cert_6689⟩
+  · exact ⟨1749, 1748, cert_6690⟩
+  · exact ⟨1749, 1749, cert_6691⟩
+  · exact ⟨1750, 1749, cert_6692⟩
+  · exact ⟨1750, 1749, cert_6693⟩
+  · exact ⟨1750, 1749, cert_6694⟩
+  · exact ⟨1750, 1749, cert_6695⟩
+  · exact ⟨1750, 1750, cert_6696⟩
+  · exact ⟨1751, 1750, cert_6697⟩
+  · exact ⟨1751, 1750, cert_6698⟩
+  · exact ⟨1751, 1750, cert_6699⟩
+  · exact ⟨1751, 1751, cert_6700⟩
+
+theorem no_fixed_digitCount_6601_6700 {n : ℕ} (hn : a n = n)
+    (hlo : 6601 ≤ digitCount n) (hhi : digitCount n ≤ 6700) : False := by
+  obtain ⟨lo, hi, hc⟩ := certificates_6601_6700 hlo hhi
+  exact no_fixed_of_certificate (digitCount_pos (fixed_pos hn)) hc hn rfl
+
+#print axioms no_fixed_digitCount_6601_6700
+end OeisA113010

@@ -1,0 +1,6 @@
+{"type": "start", "elapsed": 0.0038735982961952686, "max_rss_kib": 18048, "utc": "2026-10-27T10:37:45.680632+00:00", "base": 6, "exponent": 613612926, "tail_digits": 140000000, "memory_mib": 1536, "gmp_version": "6.3.0", "source_sha256": "f313566343237927f2627bd3be6b41cf56b924e68803c48fe2d774bdae11b4f5"}
+{"type": "selftest_pass", "elapsed": 0.022373502142727375, "max_rss_kib": 18560, "cases": 100}
+{"type": "modulus_ready", "elapsed": 1.5738606443628669, "max_rss_kib": 176936}
+{"type": "power_ready", "elapsed": 272.30759370001033, "max_rss_kib": 696508}
+{"type": "decimal_ready", "elapsed": 307.1869292319752, "max_rss_kib": 696508, "digits": 139999999}
+{"type": "finish", "elapsed": 309.17913782410324, "max_rss_kib": 696508, "base": 6, "exponent": 613612926, "tail_digits": 140000000, "digits": 139999999, "suffix_digit_sum": 630014399, "excludes_core_equality": true, "sha256": "6168554f40cc72b3f78cac850120386300d074721903f270684641b7d7caf88c", "first30": "514475435752317159822821557015", "last30": "556208136598550772915955040256", "scope": "Exact numerical suffix; not a Lean certificate."}

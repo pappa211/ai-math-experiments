@@ -1,0 +1,25 @@
+{
+  "start_utc": "2026-10-27T10:59:55.307339+00:00",
+  "start_k": 1001,
+  "requested_limit": 100000,
+  "last_completed_k": 100000,
+  "complete": true,
+  "enclosed_exponent_candidates": 21775,
+  "mod9_survivors": 2433,
+  "suffix_exclusions": 2433,
+  "pure_ten_exclusions": 0,
+  "full_core_checks": 0,
+  "known": [],
+  "additional_candidates": [],
+  "gmp_version": "6.3.0",
+  "mpfr_version": "4.2.1",
+  "precision_bits": 128,
+  "source_sha256": "a47100157a65a594c8805401ba69eaa972cc1950c67d1d23c411d4fc8612857a",
+  "scope": "MPFR/GMP computational evidence, not Lean kernel verification.",
+  "elapsed_seconds": 4.487220341805369,
+  "max_rss_kib": 19584,
+  "selftest": {
+    "exact_length_candidates": 2856,
+    "enclosed_candidates": 2856
+  }
+}

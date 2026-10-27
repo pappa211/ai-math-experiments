@@ -1,0 +1,41 @@
+{
+  "scope": "Tracked working-tree cleanliness only; does not establish cached olean provenance",
+  "packages": [
+    {
+      "package": "mathlib",
+      "tracked_changes": []
+    },
+    {
+      "package": "plausible",
+      "tracked_changes": []
+    },
+    {
+      "package": "LeanSearchClient",
+      "tracked_changes": []
+    },
+    {
+      "package": "importGraph",
+      "tracked_changes": []
+    },
+    {
+      "package": "proofwidgets",
+      "tracked_changes": []
+    },
+    {
+      "package": "aesop",
+      "tracked_changes": []
+    },
+    {
+      "package": "Qq",
+      "tracked_changes": []
+    },
+    {
+      "package": "batteries",
+      "tracked_changes": []
+    },
+    {
+      "package": "Cli",
+      "tracked_changes": []
+    }
+  ]
+}

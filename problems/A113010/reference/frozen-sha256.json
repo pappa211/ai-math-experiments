@@ -1,0 +1,10 @@
+{
+  "reference/113010.lean": "183e6d93fc400367f758cd60317317beff0eb3c8f194d7a2e50b8da76b1a9915",
+  "reference/lake-manifest.upstream.json": "c8ffc0d59f492007162fe54c68396e4b9f2f305fcf69210a7fbaf0b18fcd8cd9",
+  "reference/lakefile.upstream.toml": "738c804c3de5a7e7146e87ae08e0274dd117d52f477e08cd3dd9f3260cdc579c",
+  "proof/lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "proof/lakefile.toml": "4bbabf168326af9de21b5fb18b277a85486e0a40f128a1245667294056bfdbdc",
+  "proof/lake-manifest.json": "378942c9e90488bb0e12d39c07cde5221c0bdb9aa847e30627f18df835f3f0f8",
+  "proof/A113010/Definition.lean": "59506482b8665d3c70b5d3f4c4bf0d88323e1fd56c52bbd8e2bb559f1c900bda",
+  "proof/A113010/Targets.lean": "7e9903ff6fb7a8a21bfc29b85fa0e6492507440b283c7887a84859f962454625"
+}

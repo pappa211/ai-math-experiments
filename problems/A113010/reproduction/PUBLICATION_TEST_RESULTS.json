@@ -1,0 +1,730 @@
+{
+  "recorded_utc": "2026-10-27T16:52:20.593619+00:00",
+  "publication_scope": "Archival reproduction only; no new mathematical research and no original proof changes.",
+  "formal_reproduction": {
+    "status": "PASS",
+    "completed_utc": "2026-10-27T16:46:54.402707+00:00",
+    "source_only_checks": "PASS",
+    "infrastructure_checks": "PASS including expected negative control",
+    "build_module_count": 110,
+    "named_axiom_audit_count": 52,
+    "module_only_replay_count": 110,
+    "build_modules": [
+      "A113010.Basic",
+      "A113010.Finite",
+      "A113010.TrailingZeros",
+      "A113010.FilterSurvivors",
+      "A113010.DigitSumBound",
+      "A113010.Sparsity",
+      "A113010.BlockWeights",
+      "A113010.ModularBarrier",
+      "A113010.PolynomialSupport",
+      "A113010.SuffixCertificate",
+      "A113010.SuffixFiniteCore",
+      "A113010.SuffixFinite1001_1100",
+      "A113010.SuffixFinite1101_1200",
+      "A113010.SuffixFinite1201_1300",
+      "A113010.SuffixFinite1301_1400",
+      "A113010.SuffixFinite1401_1500",
+      "A113010.SuffixFinite1501_1600",
+      "A113010.SuffixFinite1601_1700",
+      "A113010.SuffixFinite1701_1800",
+      "A113010.SuffixFinite1801_1900",
+      "A113010.SuffixFinite1901_2000",
+      "A113010.SuffixFinite2000",
+      "A113010.SuffixDigitSum2000",
+      "A113010.SuffixFiniteNormalizedCore",
+      "A113010.SuffixFinite2001_2100",
+      "A113010.SuffixFinite2101_2200",
+      "A113010.SuffixFinite2201_2300",
+      "A113010.SuffixFinite2301_2400",
+      "A113010.SuffixFinite2401_2500",
+      "A113010.SuffixFinite2501_2600",
+      "A113010.SuffixFinite2601_2700",
+      "A113010.SuffixFinite2701_2800",
+      "A113010.SuffixFinite2801_2900",
+      "A113010.SuffixFinite2901_3000",
+      "A113010.SuffixFinite3001_3100",
+      "A113010.SuffixFinite3101_3200",
+      "A113010.SuffixFinite3201_3300",
+      "A113010.SuffixFinite3301_3400",
+      "A113010.SuffixFinite3401_3500",
+      "A113010.SuffixFinite3501_3600",
+      "A113010.SuffixFinite3601_3700",
+      "A113010.SuffixFinite3701_3800",
+      "A113010.SuffixFinite3801_3900",
+      "A113010.SuffixFinite3901_4000",
+      "A113010.SuffixFinite4001_4100",
+      "A113010.SuffixFinite4101_4200",
+      "A113010.SuffixFinite4201_4300",
+      "A113010.SuffixFinite4301_4400",
+      "A113010.SuffixFinite4401_4500",
+      "A113010.SuffixFinite4501_4600",
+      "A113010.SuffixFinite4601_4700",
+      "A113010.SuffixFinite4701_4800",
+      "A113010.SuffixFinite4801_4900",
+      "A113010.SuffixFinite4901_5000",
+      "A113010.SuffixFinite5001_5100",
+      "A113010.SuffixFinite5101_5200",
+      "A113010.SuffixFinite5201_5300",
+      "A113010.SuffixFinite5301_5400",
+      "A113010.SuffixFinite5401_5500",
+      "A113010.SuffixFinite5501_5600",
+      "A113010.SuffixFinite5601_5700",
+      "A113010.SuffixFinite5701_5800",
+      "A113010.SuffixFinite5801_5900",
+      "A113010.SuffixFinite5901_6000",
+      "A113010.SuffixFinite6001_6100",
+      "A113010.SuffixFinite6101_6200",
+      "A113010.SuffixFinite6201_6300",
+      "A113010.SuffixFinite6301_6400",
+      "A113010.SuffixFinite6401_6500",
+      "A113010.SuffixFinite6501_6600",
+      "A113010.SuffixFinite6601_6700",
+      "A113010.SuffixFinite6701_6800",
+      "A113010.SuffixFinite6801_6900",
+      "A113010.SuffixFinite6901_7000",
+      "A113010.SuffixFinite7001_7100",
+      "A113010.SuffixFinite7101_7200",
+      "A113010.SuffixFinite7201_7300",
+      "A113010.SuffixFinite7301_7400",
+      "A113010.SuffixFinite7401_7500",
+      "A113010.SuffixFinite7501_7600",
+      "A113010.SuffixFinite7601_7700",
+      "A113010.SuffixFinite7701_7800",
+      "A113010.SuffixFinite7801_7900",
+      "A113010.SuffixFinite7901_8000",
+      "A113010.SuffixFinite8001_8100",
+      "A113010.SuffixFinite8101_8200",
+      "A113010.SuffixFinite8201_8300",
+      "A113010.SuffixFinite8301_8400",
+      "A113010.SuffixFinite8401_8500",
+      "A113010.SuffixFinite8501_8600",
+      "A113010.SuffixFinite8601_8700",
+      "A113010.SuffixFinite8701_8800",
+      "A113010.SuffixFinite8801_8900",
+      "A113010.SuffixFinite8901_9000",
+      "A113010.SuffixFinite9001_9100",
+      "A113010.SuffixFinite9101_9200",
+      "A113010.SuffixFinite9201_9300",
+      "A113010.SuffixFinite9301_9400",
+      "A113010.SuffixFinite9401_9500",
+      "A113010.SuffixFinite9501_9600",
+      "A113010.SuffixFinite9601_9700",
+      "A113010.SuffixFinite9701_9800",
+      "A113010.SuffixFinite9801_9900",
+      "A113010.SuffixFinite9901_10000",
+      "A113010.SuffixFinite10000",
+      "A113010.SuffixDigitSum10000",
+      "A113010.StrongSparsity",
+      "A113010.InverseLength",
+      "A113010.AdjacentResidues",
+      "A113010.InverseLengthSharpening"
+    ],
+    "axiom_audits": [
+      {
+        "declaration": "OeisA113010.fixed_reduction",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.candidate_exponent_unique",
+        "axioms": [
+          "propext",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_below_ten_pow_1000",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_iff_normalized_parameters",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_digitCount_ne_ten_pow",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.normalized_scale_unique",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.sparse_coprime_filter_survivors_unbounded",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_of_digitSum_le_333",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_nonzeroDigits_ge_38",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_scaled_digitSum_lt_count",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_zero_majority",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.digitSum_mul_ten_pow_sub_one",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_modulus_survivors_unbounded",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.rootMultiplicity_lt_support_card",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.support_card_power_of_nonzero_root",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.exists_nonzero_root_of_two_le_support_card",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.support_card_power_of_two_le_support_card",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.digitSum_mod_ten_pow_le",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.not_fixed_of_suffix_excess",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.representative_suffix_digitSum",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.representative_power_not_fixed",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_below_ten_pow_2000",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_of_digitSum_le_605",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_digitSum_ge_606",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_nonzeroDigits_ge_68",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_of_digitCount_le_10000",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_of_digitCount_le_10001",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_of_digitSum_le_2500",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_digitSum_ge_2501",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_nonzeroDigits_ge_278",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_digitCount_ge_10005",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_ge_ten_pow_10004",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_zero_three_quarters",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_of_digitCount_le_10004",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_below_ten_pow_10004",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.digitCount_mono",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.exists_length_compatible_base",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.power_below_digit_lower_of_gap_two",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.not_length_compatible_of_gap_two",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.length_compatible_eq_or_succ",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_count_eq_or_succ",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.additional_fixedPoint_digitCounts_two_consecutive",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixedPoints_per_digitSum_at_most_two",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.adjacent_power_mod_nine_iff",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.fixed_eq_of_same_digitSum_mod_ne_four",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.distinct_fixed_same_digitSum_mod_eighteen",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.succ_pow_lt_three_mul_pow",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.power_exclusion_step_of_exponent_le_base",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.power_exclusion_above_of_exponent_le_base",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.power_below_digit_lower_of_gap_two_of_exponent_le_base",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.not_length_compatible_of_gap_two_of_exponent_le_base",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "OeisA113010.length_compatible_eq_or_succ_of_exponent_le_base",
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ],
+    "module_replays": [
+      "A113010.Basic",
+      "A113010.Finite",
+      "A113010.TrailingZeros",
+      "A113010.FilterSurvivors",
+      "A113010.DigitSumBound",
+      "A113010.Sparsity",
+      "A113010.BlockWeights",
+      "A113010.ModularBarrier",
+      "A113010.PolynomialSupport",
+      "A113010.SuffixCertificate",
+      "A113010.SuffixFiniteCore",
+      "A113010.SuffixFinite1001_1100",
+      "A113010.SuffixFinite1101_1200",
+      "A113010.SuffixFinite1201_1300",
+      "A113010.SuffixFinite1301_1400",
+      "A113010.SuffixFinite1401_1500",
+      "A113010.SuffixFinite1501_1600",
+      "A113010.SuffixFinite1601_1700",
+      "A113010.SuffixFinite1701_1800",
+      "A113010.SuffixFinite1801_1900",
+      "A113010.SuffixFinite1901_2000",
+      "A113010.SuffixFinite2000",
+      "A113010.SuffixDigitSum2000",
+      "A113010.SuffixFiniteNormalizedCore",
+      "A113010.SuffixFinite2001_2100",
+      "A113010.SuffixFinite2101_2200",
+      "A113010.SuffixFinite2201_2300",
+      "A113010.SuffixFinite2301_2400",
+      "A113010.SuffixFinite2401_2500",
+      "A113010.SuffixFinite2501_2600",
+      "A113010.SuffixFinite2601_2700",
+      "A113010.SuffixFinite2701_2800",
+      "A113010.SuffixFinite2801_2900",
+      "A113010.SuffixFinite2901_3000",
+      "A113010.SuffixFinite3001_3100",
+      "A113010.SuffixFinite3101_3200",
+      "A113010.SuffixFinite3201_3300",
+      "A113010.SuffixFinite3301_3400",
+      "A113010.SuffixFinite3401_3500",
+      "A113010.SuffixFinite3501_3600",
+      "A113010.SuffixFinite3601_3700",
+      "A113010.SuffixFinite3701_3800",
+      "A113010.SuffixFinite3801_3900",
+      "A113010.SuffixFinite3901_4000",
+      "A113010.SuffixFinite4001_4100",
+      "A113010.SuffixFinite4101_4200",
+      "A113010.SuffixFinite4201_4300",
+      "A113010.SuffixFinite4301_4400",
+      "A113010.SuffixFinite4401_4500",
+      "A113010.SuffixFinite4501_4600",
+      "A113010.SuffixFinite4601_4700",
+      "A113010.SuffixFinite4701_4800",
+      "A113010.SuffixFinite4801_4900",
+      "A113010.SuffixFinite4901_5000",
+      "A113010.SuffixFinite5001_5100",
+      "A113010.SuffixFinite5101_5200",
+      "A113010.SuffixFinite5201_5300",
+      "A113010.SuffixFinite5301_5400",
+      "A113010.SuffixFinite5401_5500",
+      "A113010.SuffixFinite5501_5600",
+      "A113010.SuffixFinite5601_5700",
+      "A113010.SuffixFinite5701_5800",
+      "A113010.SuffixFinite5801_5900",
+      "A113010.SuffixFinite5901_6000",
+      "A113010.SuffixFinite6001_6100",
+      "A113010.SuffixFinite6101_6200",
+      "A113010.SuffixFinite6201_6300",
+      "A113010.SuffixFinite6301_6400",
+      "A113010.SuffixFinite6401_6500",
+      "A113010.SuffixFinite6501_6600",
+      "A113010.SuffixFinite6601_6700",
+      "A113010.SuffixFinite6701_6800",
+      "A113010.SuffixFinite6801_6900",
+      "A113010.SuffixFinite6901_7000",
+      "A113010.SuffixFinite7001_7100",
+      "A113010.SuffixFinite7101_7200",
+      "A113010.SuffixFinite7201_7300",
+      "A113010.SuffixFinite7301_7400",
+      "A113010.SuffixFinite7401_7500",
+      "A113010.SuffixFinite7501_7600",
+      "A113010.SuffixFinite7601_7700",
+      "A113010.SuffixFinite7701_7800",
+      "A113010.SuffixFinite7801_7900",
+      "A113010.SuffixFinite7901_8000",
+      "A113010.SuffixFinite8001_8100",
+      "A113010.SuffixFinite8101_8200",
+      "A113010.SuffixFinite8201_8300",
+      "A113010.SuffixFinite8301_8400",
+      "A113010.SuffixFinite8401_8500",
+      "A113010.SuffixFinite8501_8600",
+      "A113010.SuffixFinite8601_8700",
+      "A113010.SuffixFinite8701_8800",
+      "A113010.SuffixFinite8801_8900",
+      "A113010.SuffixFinite8901_9000",
+      "A113010.SuffixFinite9001_9100",
+      "A113010.SuffixFinite9101_9200",
+      "A113010.SuffixFinite9201_9300",
+      "A113010.SuffixFinite9301_9400",
+      "A113010.SuffixFinite9401_9500",
+      "A113010.SuffixFinite9501_9600",
+      "A113010.SuffixFinite9601_9700",
+      "A113010.SuffixFinite9701_9800",
+      "A113010.SuffixFinite9801_9900",
+      "A113010.SuffixFinite9901_10000",
+      "A113010.SuffixFinite10000",
+      "A113010.SuffixDigitSum10000",
+      "A113010.StrongSparsity",
+      "A113010.InverseLength",
+      "A113010.AdjacentResidues",
+      "A113010.InverseLengthSharpening"
+    ],
+    "resources": {
+      "User time (seconds)": "726.56",
+      "System time (seconds)": "501.81",
+      "Percent of CPU this job got": "112%",
+      "Elapsed (wall clock) time (h:mm:ss or m:ss)": "18:11.14",
+      "Average shared text size (kbytes)": "0",
+      "Average unshared data size (kbytes)": "0",
+      "Average stack size (kbytes)": "0",
+      "Average total size (kbytes)": "0",
+      "Maximum resident set size (kbytes)": "2260468",
+      "Average resident set size (kbytes)": "0",
+      "Major (requiring I/O) page faults": "144242",
+      "Minor (reclaiming a frame) page faults": "22419922",
+      "Voluntary context switches": "2218154",
+      "Involuntary context switches": "346870",
+      "Swaps": "0",
+      "File system inputs": "23870120",
+      "File system outputs": "16249448",
+      "Socket messages sent": "0",
+      "Socket messages received": "0",
+      "Signals delivered": "0",
+      "Page size (bytes)": "4096",
+      "Exit status": "0"
+    },
+    "fresh_project_build_directory": true,
+    "fresh_dependency_checkouts": true,
+    "isolated_official_dependency_cache": true,
+    "existing_pinned_compiler_reused": true,
+    "external_independent_kernel_verification": false,
+    "dependency_source_rebuild": false,
+    "original_research_repository_unchanged": true,
+    "unattended_reproduction_processes": false,
+    "private_log_sha256": "57554bbaac97438b75735798e594ac4b4c34d3fe09f728b46b073da35b80d38a",
+    "private_resource_record_sha256": "091dca610926d2ce461241cce3ee9cfbbf15a855606c6c325ee9b03af935a322",
+    "lean_source_manifest_sha256": "42fb35af0171c540a7dc7047a76e4eaa786d8f79c38c4c4993b82a7bb18d337d"
+  },
+  "certificate_regeneration": {
+    "generated_files": 97,
+    "byte_identical_files": 97,
+    "different_files": [],
+    "compared_against_frozen_publication_sources": true,
+    "published_sources_modified": false
+  },
+  "session02_diagnostics": {
+    "status": "PASS",
+    "comparison": "Exact JSON equality with the preserved output",
+    "python_version": "3.13.7"
+  },
+  "privacy_checks": {
+    "official_scanner": "Gitleaks 8.30.1",
+    "scanner_archive_sha256": "b40ab0ae55c505963e365f271a8d3846efbc170aa17f2607f13df610a9aeb6a5",
+    "directory_scans": "PASS: no leaks found",
+    "targeted_private_identifier_and_path_scan": "PASS: no findings",
+    "public_history_policy": "One fresh sanitized initial commit; no original Git objects/history copied"
+  },
+  "other_checks": {
+    "all_116_working_lean_sources_byte_identical": true,
+    "all_numerical_python_and_c_sources_byte_identical": true,
+    "all_97_regenerated_certificates_byte_identical": true,
+    "json_jsonl_and_script_syntax": "PASS",
+    "publication_source_mapping_hashes": "PASS",
+    "local_markdown_links": "PASS after adding this result record"
+  },
+  "not_repeated": [
+    "Five-million-digit-count numerical search",
+    "140-million-position normalized-core arithmetic",
+    "Full source rebuild of Mathlib and every dependency",
+    "Independent rebuild of Lean compiler",
+    "External independent proof-kernel verification",
+    "Separate novelty review"
+  ],
+  "limitations": [
+    "Existing pinned Lean compiler reused.",
+    "Official precompiled dependency artifacts fetched into an isolated cache.",
+    "Module-only replay uses the imported environment.",
+    "No complete A113010 proof or counterexample exists in this archive."
+  ]
+}

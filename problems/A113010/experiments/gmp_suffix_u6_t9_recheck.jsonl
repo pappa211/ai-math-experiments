@@ -1,0 +1,6 @@
+{"type": "start", "elapsed": 8.992943912744522e-05, "max_rss_kib": 16896, "base": 6, "exponent": 613612926, "tail_digits": 140000000, "memory_mib": 1536, "gmp_version": "6.3.0", "method": "full mpz_ui_pow_ui then mpz_fdiv_r", "source_sha256": "960de87bc4a103f551a5492d85e6d6ed04eba59550f1ae9a860681b56104c128"}
+{"type": "selftest_pass", "elapsed": 0.0004137801006436348, "max_rss_kib": 17152, "cases": 6}
+{"type": "full_power_ready", "elapsed": 4.999837793409824, "max_rss_kib": 512156, "estimated_digits": 477483666}
+{"type": "remainder_ready", "elapsed": 23.91696482244879, "max_rss_kib": 1046828}
+{"type": "decimal_ready", "elapsed": 58.493387662339956, "max_rss_kib": 1046828, "digits": 139999999}
+{"type": "finish", "elapsed": 60.37180081522092, "max_rss_kib": 1046828, "digits": 139999999, "suffix_digit_sum": 630014399, "sha256": "6168554f40cc72b3f78cac850120386300d074721903f270684641b7d7caf88c", "matches_modular_exponentiation_path": true, "excludes_core_equality": true, "scope": "Second numerical path using same GMP library; not a Lean certificate."}

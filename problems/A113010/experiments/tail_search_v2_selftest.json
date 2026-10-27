@@ -1,0 +1,9 @@
+{
+  "exact_length_candidates": 2856,
+  "enclosed_candidates": 2856,
+  "enclosure_extras": 0,
+  "elapsed_seconds": 1.48539476422593,
+  "source_sha256": "5479577cb02d131edb35caace25138c03cd48e67101e4d47221888939caf0adc",
+  "gmp_helper_sha256": "f313566343237927f2627bd3be6b41cf56b924e68803c48fe2d774bdae11b4f5",
+  "scope": "diagnostic/provenance revision selftest; no extension of production coverage"
+}

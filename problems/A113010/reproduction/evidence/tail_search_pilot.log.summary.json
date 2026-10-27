@@ -1,0 +1,96 @@
+{
+  "scope": "Structured extraction from historical command output; raw terminal output is intentionally not published.",
+  "build_pass_modules": [],
+  "axiom_audits": [],
+  "result_markers": [],
+  "numeric_records": [
+    {
+      "k": 10000,
+      "elapsed": 1.938199505675584,
+      "survivors": 264,
+      "found": 0
+    },
+    {
+      "k": 20000,
+      "elapsed": 2.1618537078611553,
+      "survivors": 524,
+      "found": 0
+    },
+    {
+      "k": 30000,
+      "elapsed": 2.4079455290921032,
+      "survivors": 776,
+      "found": 0
+    },
+    {
+      "k": 40000,
+      "elapsed": 2.674450298771262,
+      "survivors": 1063,
+      "found": 0
+    },
+    {
+      "k": 50000,
+      "elapsed": 2.94838099880144,
+      "survivors": 1303,
+      "found": 0
+    },
+    {
+      "k": 60000,
+      "elapsed": 3.2426143577322364,
+      "survivors": 1539,
+      "found": 0
+    },
+    {
+      "k": 70000,
+      "elapsed": 3.5323323900811374,
+      "survivors": 1774,
+      "found": 0
+    },
+    {
+      "k": 80000,
+      "elapsed": 3.8256215187720954,
+      "survivors": 1988,
+      "found": 0
+    },
+    {
+      "k": 90000,
+      "elapsed": 4.147928218822926,
+      "survivors": 2209,
+      "found": 0
+    },
+    {
+      "k": 100000,
+      "elapsed": 4.486872776877135,
+      "survivors": 2433,
+      "found": 0
+    },
+    {
+      "start_utc": "2026-10-27T10:59:55.307339+00:00",
+      "start_k": 1001,
+      "requested_limit": 100000,
+      "last_completed_k": 100000,
+      "complete": true,
+      "enclosed_exponent_candidates": 21775,
+      "mod9_survivors": 2433,
+      "suffix_exclusions": 2433,
+      "pure_ten_exclusions": 0,
+      "full_core_checks": 0,
+      "known": [],
+      "additional_candidates": [],
+      "gmp_version": "6.3.0",
+      "mpfr_version": "4.2.1",
+      "precision_bits": 128,
+      "source_sha256": "a47100157a65a594c8805401ba69eaa972cc1950c67d1d23c411d4fc8612857a",
+      "scope": "MPFR/GMP computational evidence, not Lean kernel verification.",
+      "elapsed_seconds": 4.487220341805369,
+      "max_rss_kib": 19584,
+      "selftest": {
+        "exact_length_candidates": 2856,
+        "enclosed_candidates": 2856
+      }
+    }
+  ],
+  "historical_error_marker_present": false,
+  "known_negative_control_in_this_log": false,
+  "interpretation": "Error markers alone do not establish success or whether a failure was expected; consult the corresponding retained review and result markers."
+}

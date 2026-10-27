@@ -1,0 +1,34 @@
+# Local environments and generated output
+.DS_Store
+._*
+**/.lake/
+**/.elan/
+**/.download-cache/
+**/.xdg-cache/
+**/__pycache__/
+*.pyc
+**/reproduction-output/
+*.olean
+*.ilean
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.bundle
+*.tar.gz
+*.zip
+*.db
+*.sqlite*
+*.private.*
+
+# Credentials and application state
+.env
+.env.*
+**/.ssh/
+**/.aws/
+**/.codex/
+**/.codex-home/
+*.pem
+*.key
+credentials*

@@ -1,0 +1,6 @@
+{"type": "start", "elapsed": 0.0037464769557118416, "max_rss_kib": 17920, "utc": "2026-10-27T10:36:17.270380+00:00", "base": 6, "exponent": 6136129, "tail_digits": 1400000, "memory_mib": 256, "gmp_version": "6.3.0", "source_sha256": "f313566343237927f2627bd3be6b41cf56b924e68803c48fe2d774bdae11b4f5"}
+{"type": "selftest_pass", "elapsed": 0.022766150999814272, "max_rss_kib": 18432, "cases": 100}
+{"type": "modulus_ready", "elapsed": 0.03227786626666784, "max_rss_kib": 19932}
+{"type": "power_ready", "elapsed": 1.100298420060426, "max_rss_kib": 26604}
+{"type": "decimal_ready", "elapsed": 1.226154186297208, "max_rss_kib": 26604, "digits": 1400000}
+{"type": "finish", "elapsed": 1.243099223356694, "max_rss_kib": 26604, "base": 6, "exponent": 6136129, "tail_digits": 1400000, "digits": 1400000, "suffix_digit_sum": 6298883, "excludes_core_equality": true, "sha256": "535169891430b1def827731ceb1ed27453ddcac13791a5f4c1bd538ca5d62184", "first30": "227107078534966126714869998833", "last30": "030032853050265673377351991296", "scope": "Exact numerical suffix; not a Lean certificate."}

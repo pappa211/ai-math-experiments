@@ -1,0 +1,572 @@
+{
+  "scope": "Structured extraction from historical command output; raw terminal output is intentionally not published.",
+  "build_pass_modules": [],
+  "axiom_audits": [],
+  "result_markers": [],
+  "numeric_records": [
+    {
+      "k": 110000,
+      "elapsed": 0.38492819480597973,
+      "survivors": 241,
+      "found": 0
+    },
+    {
+      "k": 120000,
+      "elapsed": 0.7961596748791635,
+      "survivors": 462,
+      "found": 0
+    },
+    {
+      "k": 130000,
+      "elapsed": 1.1908487756736577,
+      "survivors": 675,
+      "found": 0
+    },
+    {
+      "k": 140000,
+      "elapsed": 1.6153205246664584,
+      "survivors": 886,
+      "found": 0
+    },
+    {
+      "k": 150000,
+      "elapsed": 2.083592379000038,
+      "survivors": 1096,
+      "found": 0
+    },
+    {
+      "k": 160000,
+      "elapsed": 2.5377899296581745,
+      "survivors": 1294,
+      "found": 0
+    },
+    {
+      "k": 170000,
+      "elapsed": 3.0112373689189553,
+      "survivors": 1510,
+      "found": 0
+    },
+    {
+      "k": 180000,
+      "elapsed": 3.5265989336185157,
+      "survivors": 1721,
+      "found": 0
+    },
+    {
+      "k": 190000,
+      "elapsed": 4.064853237941861,
+      "survivors": 1933,
+      "found": 0
+    },
+    {
+      "k": 200000,
+      "elapsed": 4.657893144059926,
+      "survivors": 2153,
+      "found": 0
+    },
+    {
+      "k": 210000,
+      "elapsed": 5.252547714859247,
+      "survivors": 2370,
+      "found": 0
+    },
+    {
+      "k": 220000,
+      "elapsed": 5.901362196076661,
+      "survivors": 2581,
+      "found": 0
+    },
+    {
+      "k": 230000,
+      "elapsed": 6.487602011766285,
+      "survivors": 2779,
+      "found": 0
+    },
+    {
+      "k": 240000,
+      "elapsed": 7.13548829080537,
+      "survivors": 2982,
+      "found": 0
+    },
+    {
+      "k": 250000,
+      "elapsed": 7.821783893741667,
+      "survivors": 3191,
+      "found": 0
+    },
+    {
+      "k": 260000,
+      "elapsed": 8.523015566635877,
+      "survivors": 3398,
+      "found": 0
+    },
+    {
+      "k": 270000,
+      "elapsed": 9.286977167706937,
+      "survivors": 3621,
+      "found": 0
+    },
+    {
+      "k": 280000,
+      "elapsed": 10.022469207644463,
+      "survivors": 3822,
+      "found": 0
+    },
+    {
+      "k": 290000,
+      "elapsed": 10.718327462673187,
+      "survivors": 4018,
+      "found": 0
+    },
+    {
+      "k": 300000,
+      "elapsed": 11.458949320949614,
+      "survivors": 4217,
+      "found": 0
+    },
+    {
+      "k": 310000,
+      "elapsed": 12.203687192872167,
+      "survivors": 4415,
+      "found": 0
+    },
+    {
+      "k": 320000,
+      "elapsed": 13.019945478998125,
+      "survivors": 4618,
+      "found": 0
+    },
+    {
+      "k": 330000,
+      "elapsed": 13.890292729716748,
+      "survivors": 4822,
+      "found": 0
+    },
+    {
+      "k": 340000,
+      "elapsed": 14.72351627284661,
+      "survivors": 5017,
+      "found": 0
+    },
+    {
+      "k": 350000,
+      "elapsed": 15.614393356721848,
+      "survivors": 5220,
+      "found": 0
+    },
+    {
+      "k": 360000,
+      "elapsed": 16.55693290801719,
+      "survivors": 5418,
+      "found": 0
+    },
+    {
+      "k": 370000,
+      "elapsed": 17.497543120756745,
+      "survivors": 5614,
+      "found": 0
+    },
+    {
+      "k": 380000,
+      "elapsed": 18.481760513968766,
+      "survivors": 5812,
+      "found": 0
+    },
+    {
+      "k": 390000,
+      "elapsed": 19.468551159836352,
+      "survivors": 6007,
+      "found": 0
+    },
+    {
+      "k": 400000,
+      "elapsed": 20.520829217974097,
+      "survivors": 6208,
+      "found": 0
+    },
+    {
+      "k": 410000,
+      "elapsed": 21.64221556764096,
+      "survivors": 6406,
+      "found": 0
+    },
+    {
+      "k": 420000,
+      "elapsed": 22.716545128729194,
+      "survivors": 6599,
+      "found": 0
+    },
+    {
+      "k": 430000,
+      "elapsed": 23.82196930469945,
+      "survivors": 6787,
+      "found": 0
+    },
+    {
+      "k": 440000,
+      "elapsed": 25.019929330796003,
+      "survivors": 6988,
+      "found": 0
+    },
+    {
+      "k": 450000,
+      "elapsed": 26.259121275972575,
+      "survivors": 7194,
+      "found": 0
+    },
+    {
+      "k": 460000,
+      "elapsed": 27.67349191987887,
+      "survivors": 7416,
+      "found": 0
+    },
+    {
+      "k": 470000,
+      "elapsed": 28.96286034071818,
+      "survivors": 7611,
+      "found": 0
+    },
+    {
+      "k": 480000,
+      "elapsed": 30.245021644048393,
+      "survivors": 7809,
+      "found": 0
+    },
+    {
+      "k": 490000,
+      "elapsed": 31.55887254467234,
+      "survivors": 8006,
+      "found": 0
+    },
+    {
+      "k": 500000,
+      "elapsed": 32.76776554901153,
+      "survivors": 8173,
+      "found": 0
+    },
+    {
+      "k": 510000,
+      "elapsed": 34.188159046694636,
+      "survivors": 8369,
+      "found": 0
+    },
+    {
+      "k": 520000,
+      "elapsed": 35.70876156166196,
+      "survivors": 8569,
+      "found": 0
+    },
+    {
+      "k": 530000,
+      "elapsed": 37.10639692284167,
+      "survivors": 8763,
+      "found": 0
+    },
+    {
+      "k": 540000,
+      "elapsed": 38.489971718750894,
+      "survivors": 8941,
+      "found": 0
+    },
+    {
+      "k": 550000,
+      "elapsed": 40.02227540966123,
+      "survivors": 9137,
+      "found": 0
+    },
+    {
+      "k": 560000,
+      "elapsed": 41.559052079916,
+      "survivors": 9330,
+      "found": 0
+    },
+    {
+      "k": 570000,
+      "elapsed": 43.08569575473666,
+      "survivors": 9526,
+      "found": 0
+    },
+    {
+      "k": 580000,
+      "elapsed": 44.53684246307239,
+      "survivors": 9715,
+      "found": 0
+    },
+    {
+      "k": 590000,
+      "elapsed": 46.015010382048786,
+      "survivors": 9902,
+      "found": 0
+    },
+    {
+      "k": 600000,
+      "elapsed": 47.494738733861595,
+      "survivors": 10088,
+      "found": 0
+    },
+    {
+      "k": 610000,
+      "elapsed": 49.34001261694357,
+      "survivors": 10317,
+      "found": 0
+    },
+    {
+      "k": 620000,
+      "elapsed": 50.94695100886747,
+      "survivors": 10507,
+      "found": 0
+    },
+    {
+      "k": 630000,
+      "elapsed": 52.60208504879847,
+      "survivors": 10699,
+      "found": 0
+    },
+    {
+      "k": 640000,
+      "elapsed": 54.335077087860554,
+      "survivors": 10890,
+      "found": 0
+    },
+    {
+      "k": 650000,
+      "elapsed": 56.036760369781405,
+      "survivors": 11086,
+      "found": 0
+    },
+    {
+      "k": 660000,
+      "elapsed": 57.84324375167489,
+      "survivors": 11285,
+      "found": 0
+    },
+    {
+      "k": 670000,
+      "elapsed": 59.61914386367425,
+      "survivors": 11473,
+      "found": 0
+    },
+    {
+      "k": 680000,
+      "elapsed": 61.411804066970944,
+      "survivors": 11663,
+      "found": 0
+    },
+    {
+      "k": 690000,
+      "elapsed": 63.260157010983676,
+      "survivors": 11851,
+      "found": 0
+    },
+    {
+      "k": 700000,
+      "elapsed": 65.16287055471912,
+      "survivors": 12037,
+      "found": 0
+    },
+    {
+      "k": 710000,
+      "elapsed": 67.12598151480779,
+      "survivors": 12226,
+      "found": 0
+    },
+    {
+      "k": 720000,
+      "elapsed": 69.16801650775596,
+      "survivors": 12411,
+      "found": 0
+    },
+    {
+      "k": 730000,
+      "elapsed": 70.97808590205386,
+      "survivors": 12589,
+      "found": 0
+    },
+    {
+      "k": 740000,
+      "elapsed": 72.70561674097553,
+      "survivors": 12747,
+      "found": 0
+    },
+    {
+      "k": 750000,
+      "elapsed": 74.68553663184866,
+      "survivors": 12930,
+      "found": 0
+    },
+    {
+      "k": 760000,
+      "elapsed": 76.82036526594311,
+      "survivors": 13117,
+      "found": 0
+    },
+    {
+      "k": 770000,
+      "elapsed": 78.94325490389019,
+      "survivors": 13304,
+      "found": 0
+    },
+    {
+      "k": 780000,
+      "elapsed": 81.10252514202148,
+      "survivors": 13495,
+      "found": 0
+    },
+    {
+      "k": 790000,
+      "elapsed": 83.39738314272836,
+      "survivors": 13683,
+      "found": 0
+    },
+    {
+      "k": 800000,
+      "elapsed": 85.79204803099856,
+      "survivors": 13870,
+      "found": 0
+    },
+    {
+      "k": 810000,
+      "elapsed": 88.12555810902268,
+      "survivors": 14056,
+      "found": 0
+    },
+    {
+      "k": 820000,
+      "elapsed": 90.51888914080337,
+      "survivors": 14243,
+      "found": 0
+    },
+    {
+      "k": 830000,
+      "elapsed": 92.96510107070208,
+      "survivors": 14426,
+      "found": 0
+    },
+    {
+      "k": 840000,
+      "elapsed": 95.52187257492915,
+      "survivors": 14614,
+      "found": 0
+    },
+    {
+      "k": 850000,
+      "elapsed": 98.15494164591655,
+      "survivors": 14806,
+      "found": 0
+    },
+    {
+      "k": 860000,
+      "elapsed": 100.60403663478792,
+      "survivors": 14990,
+      "found": 0
+    },
+    {
+      "k": 870000,
+      "elapsed": 103.15353487199172,
+      "survivors": 15178,
+      "found": 0
+    },
+    {
+      "k": 880000,
+      "elapsed": 105.70662898290902,
+      "survivors": 15362,
+      "found": 0
+    },
+    {
+      "k": 890000,
+      "elapsed": 108.49958235491067,
+      "survivors": 15555,
+      "found": 0
+    },
+    {
+      "k": 900000,
+      "elapsed": 111.40057504596189,
+      "survivors": 15747,
+      "found": 0
+    },
+    {
+      "k": 910000,
+      "elapsed": 114.13495276076719,
+      "survivors": 15932,
+      "found": 0
+    },
+    {
+      "k": 920000,
+      "elapsed": 116.91489539807662,
+      "survivors": 16119,
+      "found": 0
+    },
+    {
+      "k": 930000,
+      "elapsed": 119.71810380881652,
+      "survivors": 16300,
+      "found": 0
+    },
+    {
+      "k": 940000,
+      "elapsed": 122.52712976187468,
+      "survivors": 16487,
+      "found": 0
+    },
+    {
+      "k": 950000,
+      "elapsed": 125.38230499206111,
+      "survivors": 16673,
+      "found": 0
+    },
+    {
+      "k": 960000,
+      "elapsed": 128.203768634703,
+      "survivors": 16860,
+      "found": 0
+    },
+    {
+      "k": 970000,
+      "elapsed": 131.34403011295944,
+      "survivors": 17060,
+      "found": 0
+    },
+    {
+      "k": 980000,
+      "elapsed": 134.27317726705223,
+      "survivors": 17248,
+      "found": 0
+    },
+    {
+      "k": 990000,
+      "elapsed": 137.16465547773987,
+      "survivors": 17434,
+      "found": 0
+    },
+    {
+      "k": 1000000,
+      "elapsed": 139.93987656291574,
+      "survivors": 17616,
+      "found": 0
+    },
+    {
+      "start_utc": "2026-10-27T11:09:16.022537+00:00",
+      "start_k": 100001,
+      "requested_limit": 1000000,
+      "last_completed_k": 1000000,
+      "complete": true,
+      "enclosed_exponent_candidates": 158877,
+      "mod9_survivors": 17616,
+      "suffix_exclusions": 17616,
+      "pure_ten_exclusions": 0,
+      "full_core_checks": 0,
+      "known": [],
+      "additional_candidates": [],
+      "gmp_version": "6.3.0",
+      "mpfr_version": "4.2.1",
+      "precision_bits": 128,
+      "source_sha256": "a47100157a65a594c8805401ba69eaa972cc1950c67d1d23c411d4fc8612857a",
+      "scope": "MPFR/GMP computational evidence, not Lean kernel verification.",
+      "elapsed_seconds": 139.94023963762447,
+      "max_rss_kib": 19712
+    }
+  ],
+  "historical_error_marker_present": false,
+  "known_negative_control_in_this_log": false,
+  "interpretation": "Error markers alone do not establish success or whether a failure was expected; consult the corresponding retained review and result markers."
+}

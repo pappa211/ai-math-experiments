@@ -1,0 +1,22 @@
+{
+  "status": "all exact arithmetic checks passed",
+  "randomized_cases": 1000,
+  "seed": 113010,
+  "example": {
+    "M": "90000000630000000000",
+    "s": 2500,
+    "k": 10001,
+    "prefix": 128,
+    "residue": "52226232335025000001",
+    "R": "76912965555025000001",
+    "a": 0,
+    "h": 269,
+    "lower_width": 309,
+    "sha256": "fc58b279e1cd465104b91c3c341682e6e9ffa23f223cbcb243c36ed75b2feaa4",
+    "actual_power_digit_sum": 45151,
+    "distinct_from_power": true,
+    "matched_suffix_digits": 10,
+    "matched_additional_modulus": 1000000007
+  },
+  "scope": "Constructed N is not asserted equal to k**s."
+}

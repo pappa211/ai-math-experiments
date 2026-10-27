@@ -1,0 +1,374 @@
+{
+  "scope": "Structured extraction from historical command output; raw terminal output is intentionally not published.",
+  "build_pass_modules": [],
+  "axiom_audits": [],
+  "result_markers": [],
+  "numeric_records": [
+    {
+      "k": 2,
+      "exact_exponents": [
+        4,
+        5,
+        6
+      ],
+      "enclosure": [
+        4,
+        6
+      ],
+      "suffixes": [],
+      "seconds": 0.0001308061182498932
+    },
+    {
+      "k": 9,
+      "exact_exponents": [
+        9
+      ],
+      "enclosure": [
+        9,
+        9
+      ],
+      "suffixes": [],
+      "seconds": 4.0708109736442566e-05
+    },
+    {
+      "k": 10,
+      "exact_exponents": [
+        9
+      ],
+      "enclosure": [
+        9,
+        9
+      ],
+      "suffixes": [],
+      "seconds": 8.3977822214365e-05
+    },
+    {
+      "k": 11,
+      "exact_exponents": [
+        10
+      ],
+      "enclosure": [
+        10,
+        10
+      ],
+      "suffixes": [],
+      "seconds": 4.0957704186439514e-05
+    },
+    {
+      "k": 99,
+      "exact_exponents": [],
+      "enclosure": [
+        50,
+        49
+      ],
+      "suffixes": [],
+      "seconds": 6.185704842209816e-05
+    },
+    {
+      "k": 100,
+      "exact_exponents": [],
+      "enclosure": [
+        50,
+        49
+      ],
+      "suffixes": [],
+      "seconds": 4.081614315509796e-05
+    },
+    {
+      "k": 101,
+      "exact_exponents": [
+        50
+      ],
+      "enclosure": [
+        50,
+        50
+      ],
+      "suffixes": [],
+      "seconds": 7.148459553718567e-05
+    },
+    {
+      "k": 999,
+      "exact_exponents": [
+        333
+      ],
+      "enclosure": [
+        333,
+        333
+      ],
+      "suffixes": [],
+      "seconds": 8.38693231344223e-05
+    },
+    {
+      "k": 1000,
+      "exact_exponents": [
+        333
+      ],
+      "enclosure": [
+        333,
+        333
+      ],
+      "suffixes": [],
+      "seconds": 0.00014293799176812172
+    },
+    {
+      "k": 121,
+      "exact_exponents": [
+        58
+      ],
+      "enclosure": [
+        58,
+        58
+      ],
+      "suffixes": [
+        {
+          "s": 58,
+          "u": 121,
+          "t": 0,
+          "width": 47,
+          "digits": 46,
+          "digit_sum": 175,
+          "excludes": true,
+          "sha256": "17422432576af2ebb82281a6c43a1aca64a96c13a2987711778081a8eb5fac93"
+        }
+      ],
+      "seconds": 0.00015517324209213257
+    },
+    {
+      "k": 122,
+      "exact_exponents": [
+        58
+      ],
+      "enclosure": [
+        58,
+        58
+      ],
+      "suffixes": [
+        {
+          "s": 58,
+          "u": 122,
+          "t": 0,
+          "width": 47,
+          "digits": 47,
+          "digit_sum": 205,
+          "excludes": true,
+          "sha256": "864d40ff30c0e6e7d5c3883301aba7f496b9da2efbc3f5574bb4817f6962e63d"
+        }
+      ],
+      "seconds": 0.0001481599174439907
+    },
+    {
+      "start_utc": "2026-10-27T12:51:14.447478+00:00",
+      "scope": "Sampled CPython-integer cross-check, not exhaustive coverage or Lean verification",
+      "source_sha256": "439cec0e7fb2b32cb635d4d7d70e52567d784bde83426a2b881094e59c6dbb98",
+      "tail_source_sha256": "5479577cb02d131edb35caace25138c03cd48e67101e4d47221888939caf0adc",
+      "gmp_helper_sha256": "f313566343237927f2627bd3be6b41cf56b924e68803c48fe2d774bdae11b4f5",
+      "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+      "complete": true,
+      "cases": [
+        {
+          "k": 2,
+          "exact_exponents": [
+            4,
+            5,
+            6
+          ],
+          "enclosure": [
+            4,
+            6
+          ],
+          "suffixes": [],
+          "seconds": 0.0001308061182498932
+        },
+        {
+          "k": 9,
+          "exact_exponents": [
+            9
+          ],
+          "enclosure": [
+            9,
+            9
+          ],
+          "suffixes": [],
+          "seconds": 4.0708109736442566e-05
+        },
+        {
+          "k": 10,
+          "exact_exponents": [
+            9
+          ],
+          "enclosure": [
+            9,
+            9
+          ],
+          "suffixes": [],
+          "seconds": 8.3977822214365e-05
+        },
+        {
+          "k": 11,
+          "exact_exponents": [
+            10
+          ],
+          "enclosure": [
+            10,
+            10
+          ],
+          "suffixes": [],
+          "seconds": 4.0957704186439514e-05
+        },
+        {
+          "k": 99,
+          "exact_exponents": [],
+          "enclosure": [
+            50,
+            49
+          ],
+          "suffixes": [],
+          "seconds": 6.185704842209816e-05
+        },
+        {
+          "k": 100,
+          "exact_exponents": [],
+          "enclosure": [
+            50,
+            49
+          ],
+          "suffixes": [],
+          "seconds": 4.081614315509796e-05
+        },
+        {
+          "k": 101,
+          "exact_exponents": [
+            50
+          ],
+          "enclosure": [
+            50,
+            50
+          ],
+          "suffixes": [],
+          "seconds": 7.148459553718567e-05
+        },
+        {
+          "k": 999,
+          "exact_exponents": [
+            333
+          ],
+          "enclosure": [
+            333,
+            333
+          ],
+          "suffixes": [],
+          "seconds": 8.38693231344223e-05
+        },
+        {
+          "k": 1000,
+          "exact_exponents": [
+            333
+          ],
+          "enclosure": [
+            333,
+            333
+          ],
+          "suffixes": [],
+          "seconds": 0.00014293799176812172
+        },
+        {
+          "k": 121,
+          "exact_exponents": [
+            58
+          ],
+          "enclosure": [
+            58,
+            58
+          ],
+          "suffixes": [
+            {
+              "s": 58,
+              "u": 121,
+              "t": 0,
+              "width": 47,
+              "digits": 46,
+              "digit_sum": 175,
+              "excludes": true,
+              "sha256": "17422432576af2ebb82281a6c43a1aca64a96c13a2987711778081a8eb5fac93"
+            }
+          ],
+          "seconds": 0.00015517324209213257
+        },
+        {
+          "k": 122,
+          "exact_exponents": [
+            58
+          ],
+          "enclosure": [
+            58,
+            58
+          ],
+          "suffixes": [
+            {
+              "s": 58,
+              "u": 122,
+              "t": 0,
+              "width": 47,
+              "digits": 47,
+              "digit_sum": 205,
+              "excludes": true,
+              "sha256": "864d40ff30c0e6e7d5c3883301aba7f496b9da2efbc3f5574bb4817f6962e63d"
+            }
+          ],
+          "seconds": 0.0001481599174439907
+        }
+      ],
+      "planned_cases": [
+        {
+          "k": 2,
+          "check_suffix": false
+        },
+        {
+          "k": 9,
+          "check_suffix": false
+        },
+        {
+          "k": 10,
+          "check_suffix": false
+        },
+        {
+          "k": 11,
+          "check_suffix": false
+        },
+        {
+          "k": 99,
+          "check_suffix": false
+        },
+        {
+          "k": 100,
+          "check_suffix": false
+        },
+        {
+          "k": 101,
+          "check_suffix": false
+        },
+        {
+          "k": 999,
+          "check_suffix": false
+        },
+        {
+          "k": 1000,
+          "check_suffix": false
+        },
+        {
+          "k": 121,
+          "check_suffix": true
+        },
+        {
+          "k": 122,
+          "check_suffix": true
+        }
+      ],
+      "elapsed_seconds": 0.005477651953697205,
+      "max_rss_kib": 19200
+    }
+  ],
+  "historical_error_marker_present": false,
+  "known_negative_control_in_this_log": false,
+  "interpretation": "Error markers alone do not establish success or whether a failure was expected; consult the corresponding retained review and result markers."
+}
