@@ -94,6 +94,7 @@ body = body.replace(r'\noindent', '').replace(r'\D', r'\mathcal{D}').replace(r'\
 # preserve set delimiters, thin spacing, and strict inequalities in the UI.
 body = body.replace(r'\{', r'\lbrace{}').replace(r'\}', r'\rbrace{}')
 body = body.replace(r'\,', r'\thinspace ').replace('<', r'\lt ')
+body = body.replace('^*', r'^{\ast}')
 body = body.replace('~', ' ')
 for old, new in [(r"Szab\'o", 'Szabó'), (r"Bujt\'as", 'Bujtás'),
                  (r'R\"odl', 'Rödl')]:

@@ -19,7 +19,7 @@ Final manuscript source SHA-256 values. The critic reviewed the canonical TeX/Bi
 ```text
 c1ab985e04ad3efec315555d230ea92052500523c53bd25bdb139aef92421f17  manuscript/TuzaTriangleDeletion.tex
 d5a7eb1ff401b5064e52c47fe52431b2380d88c92baf9c4903a4a33c198a733e  manuscript/references.bib
-d716ab4964cac360b6fbbfb78d7f15dc2815ce1cddd7e2448191637518d2052d  manuscript/README.md
+48f5962abcd7aa9d5a98064fd2094c891db24c101c44c636220b618c0b18800f  manuscript/README.md
 ```
 
 This finding does not independently reprove the published deep theorems, certify novelty, discharge the Lean hypotheses, formalize density, or imply specialist endorsement. The actual proof and cited input statements, rather than agreement among agents, are the mathematical evidence.

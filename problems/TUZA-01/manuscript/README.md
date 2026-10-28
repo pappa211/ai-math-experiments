@@ -58,7 +58,7 @@ classification of all graphical equality cases.
 
 There are antecedents for $K_4$ equality arguments in planar graphs
 [CHM](https://doi.org/10.1007/s00373-010-0881-5) and for fractional triangle covers [HKT](https://doi.org/10.1016/j.ejc.2011.09.024). The latter concerns
-$\tau^*$, and integer equality $\tau=2\nu$ cannot simply be substituted for
+$\tau^{\ast}$, and integer equality $\tau=2\nu$ cannot simply be substituted for
 fractional equality. The elementary intersecting-family lemma below is also
 known [AZ](https://doi.org/10.1002/jgt.22533). No novelty is claimed for these inputs. Liu–Zeng's
 preprint [LZ](https://doi.org/10.48550/arXiv.2610.15539) proves the odd-cycle-transversal-three case and the
@@ -255,14 +255,14 @@ $e(G)\ge n^2/4-cn$ implies $\tau(G)\le2\nu(G)$.
 
 ### Imported approximation and elementary estimates.
 
-Let $\nu^*(G)$ be the fractional triangle-packing optimum. We use
-$\nu^*(G)-\nu(G)=o(n^2)$, due to Haxell–Rödl [HR](https://doi.org/10.1007/s004930170003); alternatively
+Let $\nu^{\ast}(G)$ be the fractional triangle-packing optimum. We use
+$\nu^{\ast}(G)-\nu(G)=o(n^2)$, due to Haxell–Rödl [HR](https://doi.org/10.1007/s004930170003); alternatively
 Yuster's Theorem 1.2 [Yuster](https://doi.org/10.1002/rsa.20048), with graph family $\lbrace{}K_3\rbrace{}$, suffices.
 Removing isolates leaves both optima unchanged. If the remaining order
 is large, its $o(m^2)$ error is bounded by the desired error in $n^2$;
 if bounded, its whole fractional optimum is a fixed constant. This
 handles Yuster's convention excluding isolated vertices.
-Finite linear-programming duality identifies $\nu^*$ with the fractional
+Finite linear-programming duality identifies $\nu^{\ast}$ with the fractional
 edge-cover optimum.
 
 We also use Liu–Zeng Lemma 2.4: if $S\subseteq E(J)$ has at most one
@@ -292,7 +292,7 @@ sufficiently large, as specified below.
 This is Liu–Zeng's Section 3, Case 1, unchanged: it uses no edge-count
 assumption or bound on $c$. Here is its quantitative core. If $t>2k$,
 choose the approximation error at most $10^{-18}n^2$ and write
-$d=\nu^*(G)-t/2$. The fractional-cover threshold argument in their
+$d=\nu^{\ast}(G)-t/2$. The fractional-cover threshold argument in their
 equations (2)–(6), applied to weights in decreasing order, gives
 $0\le d\lt 10^{-18}n^2$. Partition the edges into $L,M,F$ according as
 their weights lie in $[0,1/6)$, $[1/6,2/3)$, $[2/3,1]$. The same
