@@ -88,7 +88,12 @@ body = command(body, 'emph', lambda x: '*' + x + '*')
 body = command(body, 'textbf', lambda x: '**' + x + '**')
 body = command(body, 'texttt', lambda x: '`' + x.replace(r'\_', '_') + '`')
 body = command(body, 'cite', lambda x: ', '.join('[' + k + '](https://doi.org/' + refs[k]['doi'] + ')' for k in x.split(',')))
-body = body.replace(r'\noindent', '').replace(r'\D', r'\mathcal{D}').replace(r'\oct', r'\operatorname{oct}')
+body = body.replace(r'\noindent', '').replace(r'\D', r'\mathcal{D}').replace(r'\oct', r'\mathrm{oct}')
+# GitHub's Markdown pass consumes backslash-escaped punctuation before math
+# rendering and can interpret '<t' as HTML. Equivalent named TeX commands
+# preserve set delimiters, thin spacing, and strict inequalities in the UI.
+body = body.replace(r'\{', r'\lbrace ').replace(r'\}', r'\rbrace ')
+body = body.replace(r'\,', r'\thinspace ').replace('<', r'\lt ')
 body = body.replace('~', ' ')
 for old, new in [(r"Szab\'o", 'Szabó'), (r"Bujt\'as", 'Bujtás'),
                  (r'R\"odl', 'Rödl')]:

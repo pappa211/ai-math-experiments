@@ -13,7 +13,7 @@ Haxell–Narins–Szabó characterization of equality. Its graphical
 consequence supplies a maximum packing whose triangles avoid a prescribed
 independent vertex set. In particular, Tuza's inequality holds when deleting
 at most four vertices makes $G$ bipartite. Adapting the proof of Liu–Zeng
-then gives, for every fixed real $c<5/2$, the inequality for all sufficiently
+then gives, for every fixed real $c\lt 5/2$, the inequality for all sufficiently
 large $n$-vertex graphs with $e(G)\ge n^2/4-cn$.
 
 **Status.** This is an AI-assisted, unrefereed proof manuscript.
@@ -32,7 +32,7 @@ For a triangle family $\mathcal F$, let $\nu(\mathcal F)$ be the maximum
 number of pairwise edge-disjoint members, and let $\tau(\mathcal F)$ be the
 minimum number of graph edges meeting every member. Both parameters are zero
 for the empty family. Write $\nu(G),\tau(G)$ for the full triangle family.
-The odd-cycle transversal number $\operatorname{oct}(G)$ is the minimum number of
+The odd-cycle transversal number $\mathrm{oct}(G)$ is the minimum number of
 *vertices* whose deletion leaves a bipartite graph.
 
 The triangle hypergraph $\mathcal{D}(G)$ has vertex set $E(G)$ and a hyperedge for
@@ -62,8 +62,8 @@ $\tau^*$, and integer equality $\tau=2\nu$ cannot simply be substituted for
 fractional equality. The elementary intersecting-family lemma below is also
 known [AZ](https://doi.org/10.1002/jgt.22533). No novelty is claimed for these inputs. Liu–Zeng's
 preprint [LZ](https://doi.org/10.48550/arXiv.2610.15539) proves the odd-cycle-transversal-three case and the
-fixed-deficit density range $c<2$; our corollaries concern four vertices and
-$c<5/2$, respectively.
+fixed-deficit density range $c\lt 2$; our corollaries concern four vertices and
+$c\lt 5/2$, respectively.
 
 ## 2. The equality consequence of the published inputs
 
@@ -89,10 +89,10 @@ in $\mathcal A$, the disjoint triples in $\mathcal R$, and $W$ partition
 the hypervertices, and $|\mathcal A|+|\mathcal R|=\nu(\mathcal H)$.
 Each $\mathcal A$-piece is a truncated multi-Fano configuration on six
 vertices, containing four distinct underlying triples, any three of which
-form a loose 3-cycle. For a triple $R=\{r_1,r_2,r_3\}\in\mathcal R$,
+form a loose 3-cycle. For a triple $R=\lbrace r_1,r_2,r_3\rbrace \in\mathcal R$,
 with $r_i$ in part $V_i$, each auxiliary bipartite graph $B_i$ has a
 matching saturating $\mathcal R$. A neighbor $w\in W\cap V_i$ of $R$
-means that $(R\setminus\{r_i\})\cup\{w\}$ is a hyperedge.
+means that $(R\setminus\lbrace r_i\rbrace )\cup\lbrace w\rbrace $ is a hyperedge.
 These are consequences of the cited definitions, not additional hypotheses.
 
 **Lemma 2.1 (Disjoint loose cycles).**
@@ -109,9 +109,9 @@ vertex matched to $R$. For each $R$ the hyperedges
 
 $$
 \tag{1}
-\{r_2,r_3,w_1(R)\},\quad
-\{r_1,r_3,w_2(R)\},\quad
-\{r_1,r_2,w_3(R)\}
+\lbrace r_2,r_3,w_1(R)\rbrace ,\quad
+\lbrace r_1,r_3,w_2(R)\rbrace ,\quad
+\lbrace r_1,r_2,w_3(R)\rbrace
 $$
 
 form the required loose cycle. Its six vertices are distinct since
@@ -134,7 +134,7 @@ $h$ pairwise edge-disjoint copies of $K_4$.
 Apply Lemma 2.1 to $\mathcal{D}(J)$. Consider one loose cycle.
 Name two graph triangles $uvx$ and $uvy$, where the four vertices are
 distinct. The third shares with each an edge other than $uv$.
-Its two shared edges lie in $\{ux,vx\}$ and $\{uy,vy\}$, respectively.
+Its two shared edges lie in $\lbrace ux,vx\rbrace $ and $\lbrace uy,vy\rbrace $, respectively.
 They must meet, since they belong to one triangle. The cross choices
 $ux,vy$ and $vx,uy$ are disjoint, so the third triangle is $uxy$ or $vxy$.
 The union therefore contains exactly the six edges
@@ -163,10 +163,10 @@ the full triangle family of its ambient graph.
 **Proof.**
 A single triangle needs one edge. Otherwise choose distinct members
 $abc,abd$ sharing $ab$. Any member avoiding $ab$ must share an edge from
-$\{ac,bc\}$ and one from $\{ad,bd\}$. The disjoint cross pairs cannot
+$\lbrace ac,bc\rbrace $ and one from $\lbrace ad,bd\rbrace $. The disjoint cross pairs cannot
 be edges of one triangle; hence it must be $acd$ or $bcd$.
 If there is no such member, $ab$ covers the family. Otherwise $cd$ is
-an actual graph edge and $\{ab,cd\}$ covers the family.
+an actual graph edge and $\lbrace ab,cd\rbrace $ covers the family.
 This also gives the $k=3$ case of the known intersecting-family result
 in Aharoni–Zerbib, Propositions 3.2 and 3.7 [AZ](https://doi.org/10.1002/jgt.22533).
  ∎
@@ -213,7 +213,7 @@ with no triangle cannot satisfy the stated premise on $T$.
 For clarity, the choice of packing matters: an arbitrary maximum packing
 of $H$ need not avoid the new triangles. For example, take a $K_4$ on
 $a,d,e,f$, add the edge $bd$, and then add $T=abc$. The old maximum
-packing $\{ade\}$ meets the new triangle $abd$, whereas the face $def$
+packing $\lbrace ade\rbrace $ meets the new triangle $abd$, whereas the face $def$
 avoids every new triangle. Lemma 2.3 supplies the needed choice.
 
 **Lemma 3.2 (Four colors give three edge labels).**
@@ -227,7 +227,7 @@ three edge labels are distinct. Empty edge classes cause no difficulty.
  ∎
 
 **Corollary 3.3.**
-If $\operatorname{oct}(G)\le4$, then $\tau(G)\le2\nu(G)$.
+If $\mathrm{oct}(G)\le4$, then $\tau(G)\le2\nu(G)$.
 
 **Proof.**
 Choose $S\subseteq V(G)$ with $|S|\le4$ and $G-S$ bipartite. If
@@ -249,7 +249,7 @@ estimates and the small-packing argument in detail, identifying the
 unchanged inputs. This section has not been formalized in Lean.
 
 **Corollary 4.1 (Adaptation of Liu–Zeng).**
-For every fixed real $c<5/2$ there exists $N(c)$ such that, for every
+For every fixed real $c\lt 5/2$ there exists $N(c)$ such that, for every
 integer $n\ge N(c)$ and every $n$-vertex graph $G$,
 $e(G)\ge n^2/4-cn$ implies $\tau(G)\le2\nu(G)$.
 
@@ -257,7 +257,7 @@ $e(G)\ge n^2/4-cn$ implies $\tau(G)\le2\nu(G)$.
 
 Let $\nu^*(G)$ be the fractional triangle-packing optimum. We use
 $\nu^*(G)-\nu(G)=o(n^2)$, due to Haxell–Rödl [HR](https://doi.org/10.1007/s004930170003); alternatively
-Yuster's Theorem 1.2 [Yuster](https://doi.org/10.1002/rsa.20048), with graph family $\{K_3\}$, suffices.
+Yuster's Theorem 1.2 [Yuster](https://doi.org/10.1002/rsa.20048), with graph family $\lbrace K_3\rbrace $, suffices.
 Removing isolates leaves both optima unchanged. If the remaining order
 is large, its $o(m^2)$ error is bounded by the desired error in $n^2$;
 if bounded, its whole fractional optimum is a fixed constant. This
@@ -267,7 +267,7 @@ edge-cover optimum.
 
 We also use Liu–Zeng Lemma 2.4: if $S\subseteq E(J)$ has at most one
 edge per triangle, $C=E(J)\setminus S$, and $|C|\ge\beta n^2$ for
-$0<\beta<1/2$, then
+$0\lt \beta\lt 1/2$, then
 
 $$
 \tag{5}
@@ -283,7 +283,7 @@ location of a large class of $C$-edges. Thus the common constant in
 (5) remains unchanged here.
 
 **Proof of Corollary 4.1.**
-It suffices to treat $0\le c<5/2$, since a negative $c$ has a stronger
+It suffices to treat $0\le c\lt 5/2$, since a negative $c$ has a stronger
 hypothesis than $c=0$. Put $k=\nu(G)$, $t=\tau(G)$ and take $n$
 sufficiently large, as specified below.
 
@@ -294,7 +294,7 @@ assumption or bound on $c$. Here is its quantitative core. If $t>2k$,
 choose the approximation error at most $10^{-18}n^2$ and write
 $d=\nu^*(G)-t/2$. The fractional-cover threshold argument in their
 equations (2)–(6), applied to weights in decreasing order, gives
-$0\le d<10^{-18}n^2$. Partition the edges into $L,M,F$ according as
+$0\le d\lt 10^{-18}n^2$. Partition the edges into $L,M,F$ according as
 their weights lie in $[0,1/6)$, $[1/6,2/3)$, $[2/3,1]$. The same
 argument gives
 
@@ -315,7 +315,7 @@ $$
 \tag{7}
 \begin{aligned}
 t&\le |F|+|M|-10^{-15}n^2/36\\
- &<t+(12\cdot10^{-18}-10^{-15}/36)n^2<t,
+ &\lt t+(12\cdot10^{-18}-10^{-15}/36)n^2\lt t,
 \end{aligned}
 $$
 
@@ -343,7 +343,7 @@ in $C$, and conversely. Hence $B,C$ are independent in $H$ and the
 missing $B,C$-pairs number at most $2\delta$. These are Liu–Zeng's
 equations (7)–(13), with the deficit retained explicitly.
 
-### Intermediate packing: $n^{2/3}<k<10^{-5}n^2$.
+### Intermediate packing: $n^{2/3}\lt k\lt 10^{-5}n^2$.
 
 Remove a maximum packing $\mathcal P$ to form $H$. Then
 
@@ -362,8 +362,8 @@ triangle in $H$. If $xbb'$ is packed and $xc$ is in $H$, replace
 $xbb'$ by $xbc$ and $bb'z$, choosing a common $H$-neighbor $z\in C$
 of $b,b'$ with $z\ne c$. The symmetric case is identical. If
 $xbb'$ and $xcc'$ are both packed, replace them by $xbc,bb'z,cc'w$,
-where $z\in C\setminus\{c,c'\}$ and
-$w\in B\setminus\{b,b'\}$ are appropriate common $H$-neighbors.
+where $z\in C\setminus\lbrace c,c'\rbrace $ and
+$w\in B\setminus\lbrace b,b'\rbrace $ are appropriate common $H$-neighbors.
 The $n/20$ lower bounds permit these choices. The inserted triangles
 are edge-disjoint, and their new edges lie in $H$, so none meets a
 retained packing triangle. A packed triangle entirely in $B$ or $C$
@@ -392,9 +392,9 @@ $(a+b)^2\le2(a^2+b^2)$, and (9), we obtain
 $$
 \tag{11}
 \begin{aligned}
-\frac{t-k}{k}\le{}&120\sqrt3\,n^{-1/6}
+\frac{t-k}{k}\le{}&120\sqrt3\thinspace n^{-1/6}
  +120\sqrt{3\cdot10^{-5}}\\
- &+7200n^{-2/3}+7200\cdot10^{-5}<1
+ &+7200n^{-2/3}+7200\cdot10^{-5}\lt 1
 \end{aligned}
 $$
 
@@ -426,7 +426,7 @@ $$
 e(H)=e(G)-k-2k'\ge n^2/4-cn-3k\ge n^2/4-5n
 $$
 
-eventually. Thus the source's constant $5n$ is unchanged for $c<5/2$.
+eventually. Thus the source's constant $5n$ is unchanged for $c\lt 5/2$.
 The decomposition gives $|A|\le100$. Since $n/20>2k'$ eventually,
 its common-neighbor property and the codegree bound make $B,C$
 independent even in $G'$.
@@ -512,7 +512,7 @@ $\tau(G)\le k+k'\le2k$.
 One sufficient $N(c)$ is the maximum of $10^{18}$, the threshold for
 the imported fractional approximation with error $10^{-18}n^2$, and
 an integer strictly exceeding $(106,000,000/(5/2-c))^3$.
-For $c<0$ use $N(0)$. No numerical threshold for the deep approximation
+For $c\lt 0$ use $N(0)$. No numerical threshold for the deep approximation
 is asserted. The strict positivity of $5/2-c$ is essential to the
 last step: this proof establishes neither the endpoint $c=5/2$ nor a
 threshold uniform as $c$ approaches it. This completes the adaptation.
