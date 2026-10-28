@@ -92,7 +92,7 @@ body = body.replace(r'\noindent', '').replace(r'\D', r'\mathcal{D}').replace(r'\
 # GitHub's Markdown pass consumes backslash-escaped punctuation before math
 # rendering and can interpret '<t' as HTML. Equivalent named TeX commands
 # preserve set delimiters, thin spacing, and strict inequalities in the UI.
-body = body.replace(r'\{', r'\lbrace ').replace(r'\}', r'\rbrace ')
+body = body.replace(r'\{', r'\lbrace{}').replace(r'\}', r'\rbrace{}')
 body = body.replace(r'\,', r'\thinspace ').replace('<', r'\lt ')
 body = body.replace('~', ' ')
 for old, new in [(r"Szab\'o", 'Szabó'), (r"Bujt\'as", 'Bujtás'),

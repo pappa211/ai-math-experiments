@@ -89,10 +89,10 @@ in $\mathcal A$, the disjoint triples in $\mathcal R$, and $W$ partition
 the hypervertices, and $|\mathcal A|+|\mathcal R|=\nu(\mathcal H)$.
 Each $\mathcal A$-piece is a truncated multi-Fano configuration on six
 vertices, containing four distinct underlying triples, any three of which
-form a loose 3-cycle. For a triple $R=\lbrace r_1,r_2,r_3\rbrace \in\mathcal R$,
+form a loose 3-cycle. For a triple $R=\lbrace{}r_1,r_2,r_3\rbrace{}\in\mathcal R$,
 with $r_i$ in part $V_i$, each auxiliary bipartite graph $B_i$ has a
 matching saturating $\mathcal R$. A neighbor $w\in W\cap V_i$ of $R$
-means that $(R\setminus\lbrace r_i\rbrace )\cup\lbrace w\rbrace $ is a hyperedge.
+means that $(R\setminus\lbrace{}r_i\rbrace{})\cup\lbrace{}w\rbrace{}$ is a hyperedge.
 These are consequences of the cited definitions, not additional hypotheses.
 
 **Lemma 2.1 (Disjoint loose cycles).**
@@ -109,9 +109,9 @@ vertex matched to $R$. For each $R$ the hyperedges
 
 $$
 \tag{1}
-\lbrace r_2,r_3,w_1(R)\rbrace ,\quad
-\lbrace r_1,r_3,w_2(R)\rbrace ,\quad
-\lbrace r_1,r_2,w_3(R)\rbrace
+\lbrace{}r_2,r_3,w_1(R)\rbrace{},\quad
+\lbrace{}r_1,r_3,w_2(R)\rbrace{},\quad
+\lbrace{}r_1,r_2,w_3(R)\rbrace{}
 $$
 
 form the required loose cycle. Its six vertices are distinct since
@@ -134,7 +134,7 @@ $h$ pairwise edge-disjoint copies of $K_4$.
 Apply Lemma 2.1 to $\mathcal{D}(J)$. Consider one loose cycle.
 Name two graph triangles $uvx$ and $uvy$, where the four vertices are
 distinct. The third shares with each an edge other than $uv$.
-Its two shared edges lie in $\lbrace ux,vx\rbrace $ and $\lbrace uy,vy\rbrace $, respectively.
+Its two shared edges lie in $\lbrace{}ux,vx\rbrace{}$ and $\lbrace{}uy,vy\rbrace{}$, respectively.
 They must meet, since they belong to one triangle. The cross choices
 $ux,vy$ and $vx,uy$ are disjoint, so the third triangle is $uxy$ or $vxy$.
 The union therefore contains exactly the six edges
@@ -163,10 +163,10 @@ the full triangle family of its ambient graph.
 **Proof.**
 A single triangle needs one edge. Otherwise choose distinct members
 $abc,abd$ sharing $ab$. Any member avoiding $ab$ must share an edge from
-$\lbrace ac,bc\rbrace $ and one from $\lbrace ad,bd\rbrace $. The disjoint cross pairs cannot
+$\lbrace{}ac,bc\rbrace{}$ and one from $\lbrace{}ad,bd\rbrace{}$. The disjoint cross pairs cannot
 be edges of one triangle; hence it must be $acd$ or $bcd$.
 If there is no such member, $ab$ covers the family. Otherwise $cd$ is
-an actual graph edge and $\lbrace ab,cd\rbrace $ covers the family.
+an actual graph edge and $\lbrace{}ab,cd\rbrace{}$ covers the family.
 This also gives the $k=3$ case of the known intersecting-family result
 in Aharoni–Zerbib, Propositions 3.2 and 3.7 [AZ](https://doi.org/10.1002/jgt.22533).
  ∎
@@ -213,7 +213,7 @@ with no triangle cannot satisfy the stated premise on $T$.
 For clarity, the choice of packing matters: an arbitrary maximum packing
 of $H$ need not avoid the new triangles. For example, take a $K_4$ on
 $a,d,e,f$, add the edge $bd$, and then add $T=abc$. The old maximum
-packing $\lbrace ade\rbrace $ meets the new triangle $abd$, whereas the face $def$
+packing $\lbrace{}ade\rbrace{}$ meets the new triangle $abd$, whereas the face $def$
 avoids every new triangle. Lemma 2.3 supplies the needed choice.
 
 **Lemma 3.2 (Four colors give three edge labels).**
@@ -257,7 +257,7 @@ $e(G)\ge n^2/4-cn$ implies $\tau(G)\le2\nu(G)$.
 
 Let $\nu^*(G)$ be the fractional triangle-packing optimum. We use
 $\nu^*(G)-\nu(G)=o(n^2)$, due to Haxell–Rödl [HR](https://doi.org/10.1007/s004930170003); alternatively
-Yuster's Theorem 1.2 [Yuster](https://doi.org/10.1002/rsa.20048), with graph family $\lbrace K_3\rbrace $, suffices.
+Yuster's Theorem 1.2 [Yuster](https://doi.org/10.1002/rsa.20048), with graph family $\lbrace{}K_3\rbrace{}$, suffices.
 Removing isolates leaves both optima unchanged. If the remaining order
 is large, its $o(m^2)$ error is bounded by the desired error in $n^2$;
 if bounded, its whole fractional optimum is a fixed constant. This
@@ -362,8 +362,8 @@ triangle in $H$. If $xbb'$ is packed and $xc$ is in $H$, replace
 $xbb'$ by $xbc$ and $bb'z$, choosing a common $H$-neighbor $z\in C$
 of $b,b'$ with $z\ne c$. The symmetric case is identical. If
 $xbb'$ and $xcc'$ are both packed, replace them by $xbc,bb'z,cc'w$,
-where $z\in C\setminus\lbrace c,c'\rbrace $ and
-$w\in B\setminus\lbrace b,b'\rbrace $ are appropriate common $H$-neighbors.
+where $z\in C\setminus\lbrace{}c,c'\rbrace{}$ and
+$w\in B\setminus\lbrace{}b,b'\rbrace{}$ are appropriate common $H$-neighbors.
 The $n/20$ lower bounds permit these choices. The inserted triangles
 are edge-disjoint, and their new edges lie in $H$, so none meets a
 retained packing triangle. A packed triangle entirely in $B$ or $C$
