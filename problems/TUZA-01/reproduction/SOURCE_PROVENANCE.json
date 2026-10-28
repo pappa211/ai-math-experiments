@@ -1,0 +1,166 @@
+{
+  "format_version": 1,
+  "source_snapshot": {
+    "final_validation_commit": "7762e33585835183afd9a950c6edbbfed822283a",
+    "evidence_commit": "0fea78cf5701d90030b008c20710805b5bbc96f1",
+    "intermediate_documentation_commit": "6d5ee6e814668f2831f7f502f4cfb741bdb66b14",
+    "validation_git_state": "clean; reconciled against actual Git log",
+    "phase1_baseline": "16 original files matched bytes, sizes and nanosecond modification times"
+  },
+  "publication_base": "7f313355dc8c9a942bb5af54682f8fc3bc3831a4",
+  "new_material": "Manuscript, bibliography, Markdown renderer, portable verifier, guides, integrated findings/reviews and manifests authored for this publication. Neutral project attribution; no human byline or external review invented.",
+  "mappings": [
+    {
+      "source": "validation/lean/Tuza/Basic.lean",
+      "source_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "published": "lean/Tuza/Basic.lean",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/Tuza/Coloring.lean",
+      "source_sha256": "0253a4a8955dc374dae31c4db6757600ecb902be77f2be85ec5e0936e2c9402c",
+      "published": "lean/Tuza/Coloring.lean",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/Tuza/Graph.lean",
+      "source_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "published": "lean/Tuza/Graph.lean",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/Tuza/Intersecting.lean",
+      "source_sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923",
+      "published": "lean/Tuza/Intersecting.lean",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/Tuza/Lifting.lean",
+      "source_sha256": "d5fa7c64911d88b3171c47f01c4c5d5267a81fca0792c6b629d9e209f4632f7e",
+      "published": "lean/Tuza/Lifting.lean",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/Tuza/OCT.lean",
+      "source_sha256": "0e47fde5b590c6cd1e82ecfee6e3362d704eebdd91b47c46c110522fba37f15b",
+      "published": "lean/Tuza/OCT.lean",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/Tuza/Sanity.lean",
+      "source_sha256": "89592b771275244c3640930fe22916873f16a7ddf642dae0891233d3fcc65912",
+      "published": "lean/Tuza/Sanity.lean",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/Tuza.lean",
+      "source_sha256": "0fb1d358685f343374c651f11a5431552bcbd20e06dd150e2fbe517c255c19b2",
+      "published": "lean/Tuza.lean",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/lean-toolchain",
+      "source_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "published": "lean/lean-toolchain",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/lakefile.toml",
+      "source_sha256": "0d0a3ba092fb505bd91076ceb8662012d995ded8c2931ebb0180460ffb2e9ba7",
+      "published": "lean/lakefile.toml",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/lake-manifest.json",
+      "source_sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d",
+      "published": "lean/lake-manifest.json",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/lean/build.sh",
+      "source_sha256": "289278fc95c4c44626170024cb1eaa9bad42760752b83631b24fa5f3024ea243",
+      "published": "lean/build.sh",
+      "transformation": "Replaced private executable/cache paths with local Lake resolution; build logic moved to new verify.py with Python timeouts. Mathematical Lean files unchanged."
+    },
+    {
+      "source": "validation/lean/check.sh",
+      "source_sha256": "1af3701db6c0ae56de256dda1cd01d5c2b3ebc2897658f7de2ab49d3e16dbd07",
+      "published": "lean/check.sh",
+      "transformation": "Replaced private executable/cache paths with local Lake resolution; build logic moved to new verify.py with Python timeouts. Mathematical Lean files unchanged."
+    },
+    {
+      "source": "notes/PHASE1_RESEARCH_REPORT.md",
+      "source_sha256": "d232dfd67e8d494d8f35ad333d807ede810c17b48abc216009893fb1188f380d",
+      "published": "reports/PHASE1_FINDINGS.md",
+      "transformation": "Retain mathematical sections 1\u20134; add historical-status header and explicit correction of small-case equality boundary; adjust navigation; omit governance and infrastructure."
+    },
+    {
+      "source": "validation/FINAL_REPORT.md",
+      "source_sha256": "e3fa5b43b50aa6bbac33a419c6f5ccc834227750fb0f9074ce4576105cd2343c",
+      "published": "reports/VALIDATION_V1_FINDINGS.md",
+      "transformation": "New concise faithful integration of findings and limitations; omit private paths, operations and historical authorization recommendations."
+    },
+    {
+      "source": "validation/MATHEMATICAL_AUDIT.md",
+      "source_sha256": "0fef50b37965a64c1066005b058fa1147bf70ba878b1ff551a5c04f034de2c89",
+      "published": "reports/MATHEMATICAL_AUDIT.md",
+      "transformation": "Retain reconstruction, OCT, separation and density sections; omit operational preamble and later duplicated build discussion."
+    },
+    {
+      "source": "validation/INDEPENDENT_MATH_AUDIT.md",
+      "source_sha256": "7c66318366fde095c53f13707e952052e287f913aff951e2fa6101600ba3b94b",
+      "published": "research-notes/INDEPENDENT_MATH_AUDIT.md",
+      "transformation": "Retain verdict, source/input and proof reconstruction sections; replace private controlling-source path with provenance pointer; omit operational and superseded incremental Lean review."
+    },
+    {
+      "source": "validation/INDEPENDENT_DENSITY_AUDIT.md",
+      "source_sha256": "8e8d080c21966fcad2e3a5e55af718a46bb7ae82b95da328cd7014211994bfcd",
+      "published": "research-notes/INDEPENDENT_DENSITY_AUDIT.md",
+      "transformation": "Retain mathematical content from verdict onward; replace reviewer/campaign preamble with sanitized historical-status note."
+    },
+    {
+      "source": "validation/NOVELTY_REVIEW.md",
+      "source_sha256": "8b6726e14d94ea75ff089ba543750690976a71196611d16f44881569ba9cea41",
+      "published": "research-notes/NOVELTY_REVIEW.md",
+      "transformation": "Retain claim comparisons, non-implications and current-literature sections; add qualified historical status and fresh-check navigation; omit governance."
+    },
+    {
+      "source": "validation/INDEPENDENT_NOVELTY_REVIEW.md",
+      "source_sha256": "a173ddc7993f1c2b6af87cbb9c21f46ddab7c3c6c43b3f853ef78eafdd7ddc94",
+      "published": null,
+      "transformation": "Consulted as controlling independent bibliographic input; not redistributed separately; integrated qualified comparisons appear in novelty/source notes and manuscript."
+    },
+    {
+      "source": "validation/sanity_checks.py",
+      "source_sha256": "2ec8a3570839009407928a55e8e61d42a492bd5a1259b91111bdb5a7074104fc",
+      "published": "experiments/sanity_checks.py",
+      "transformation": "none; byte-identical"
+    },
+    {
+      "source": "validation/sanity_results.json",
+      "source_sha256": "4cf9c19ac8b0fef8560a5af158927ed517a652448507a4ab168718083a2cb73a",
+      "published": "experiments/sanity_results.json",
+      "transformation": "Replaced by fresh run; all substantive data and witnesses equal after ignoring started_utc/elapsed_seconds fields."
+    },
+    {
+      "source": "validation/sources/hns-2018.pdf",
+      "source_sha256": "27938a622b0c28d867c2c61500da606ee319a069f39967e5076afcd35ea060f5",
+      "published": null,
+      "transformation": "Primary reference consulted privately; not redistributed."
+    },
+    {
+      "source": "validation/sources/liu-zeng-v1.html",
+      "source_sha256": "c7975ab3b1845cb6f07d87a6699b74cb7995fd9f45e0cc06cdeb2a32ce6dc58d",
+      "published": null,
+      "transformation": "Primary reference consulted privately; not redistributed."
+    }
+  ],
+  "exclusions": [
+    "private Git history and access information",
+    "private handoff",
+    "third-party full text and images",
+    "generated PDF and render/build artifacts",
+    "dependencies and caches",
+    "raw agent conversations and application metadata"
+  ]
+}

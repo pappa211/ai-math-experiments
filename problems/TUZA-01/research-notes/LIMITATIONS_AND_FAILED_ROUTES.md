@@ -1,0 +1,14 @@
+# Critical distinctions and retained failed routes
+
+These are sanitized research findings, not additional claims of novelty. The complete proof is in the [manuscript](../manuscript/README.md).
+
+- **An arbitrary maximum old packing is insufficient.** In a remainder consisting of a $K_4$ on $a,d,e,f$ plus $bd$, adding $abc$ creates $abd$, which meets the old maximum packing $\{ade\}$. The face $def$ works. Equality structure supplies a single packing compatible with every new triangle at once.
+- **Integer equality does not imply fractional equality.** $K_5$ has $(\nu,\tau)=(2,4)$ but fractional cover number $10/3$. Haxell–Kostochka–Thomassé's fractional equality result cannot replace HNS merely by substituting integer equality.
+- **Ordinary four-colorability is only a sufficient condition.** The hypothesis is three-partiteness of the full triangle hypergraph. Attaching a triangle-free graph of chromatic number five by a bridge shows the remainder need not be four-colorable. The computational example also has a tripartite full triangle hypergraph; it does not separate this theorem from every prior direct Aharoni application.
+- **Arbitrary triangle subfamilies differ from full triangle hypergraphs.** The two-edge lemma applies to arbitrary pairwise edge-intersecting families; three faces of a $K_4$ are a useful test. HNS is applied to the full triangle hypergraph of the remainder. No unnecessary assertion that every triangle decomposes into $K_4$ components is used.
+- **Tripartite slack does not by itself give a small practical search.** The earlier ordinary tripartite bound gave finite packing thresholds and at best a very large minimal-counterexample order bound. No small enumeration was promoted to an infinite proof.
+- **An exact mask formulation is not a finite kernel.** At most sixteen masks per outside vertex leave an unbounded bipartite interaction graph. A partial edge-coloring formulation likewise expresses the problem without proving integral duality.
+- **Density is a reduction argument.** The edge-count assumption does not itself imply OCT at most four. A small transversal occurs only in the reduced small-packing branch. The branch includes $\nu=n^{2/3}$. The endpoint $c=5/2$, a uniform threshold as $c\uparrow5/2$, and unrestricted varying $c(n)$ are not established.
+- **Review and formalization remain limited.** Internal independent critics are not external specialist review. Lean checks the new deduction conditional on two named external inputs. There is no full Aharoni/HNS or density formalization, novelty certification, or proof of the general Tuza conjecture.
+
+The original private research and validation archives were preserved. No two-triangle extension, open-ended discovery campaign, specialist correspondence, journal/arXiv submission, or GitHub Release was undertaken in manuscript preparation.

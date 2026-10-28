@@ -1,0 +1,577 @@
+# A Triangle-Deletion Criterion for Tuza’s Conjecture via Equality in Ryser’s Bound
+
+AI Math Experiments: TUZA-01 · 28 October 2026
+
+Complete Markdown rendering of the [canonical LaTeX manuscript](TuzaTriangleDeletion.tex), with [BibTeX references](references.bib). [Build and checking instructions](../reproduction/README.md).
+
+## Abstract
+
+Let $G$ be a finite simple graph and $T$ a triangle. We show that
+$\tau(G)\le2\nu(G)$ whenever the triangle hypergraph of $G-E(T)$ is
+3-partite. The proof combines Aharoni's tripartite bound with the
+Haxell–Narins–Szabó characterization of equality. Its graphical
+consequence supplies a maximum packing whose triangles avoid a prescribed
+independent vertex set. In particular, Tuza's inequality holds when deleting
+at most four vertices makes $G$ bipartite. Adapting the proof of Liu–Zeng
+then gives, for every fixed real $c<5/2$, the inequality for all sufficiently
+large $n$-vertex graphs with $e(G)\ge n^2/4-cn$.
+
+**Status.** This is an AI-assisted, unrefereed proof manuscript.
+No external specialist review has occurred. Originality is unconfirmed:
+the searches recorded with this archive found no exact prior equivalent.
+The ordinary mathematical proof uses published deep theorems. The accompanying
+Lean development checks the new deduction conditionally on named
+`AharoniInput` and `HNSInput` hypotheses; it does not formalize
+those theorems or the density corollary. The general Tuza conjecture remains open.
+
+## 1. Definitions, statement, and context
+
+All graphs are finite, simple, and undirected. A triangle is a three-vertex
+clique, identified with its three edges when discussing packing and covering.
+For a triangle family $\mathcal F$, let $\nu(\mathcal F)$ be the maximum
+number of pairwise edge-disjoint members, and let $\tau(\mathcal F)$ be the
+minimum number of graph edges meeting every member. Both parameters are zero
+for the empty family. Write $\nu(G),\tau(G)$ for the full triangle family.
+The odd-cycle transversal number $\operatorname{oct}(G)$ is the minimum number of
+*vertices* whose deletion leaves a bipartite graph.
+
+The triangle hypergraph $\mathcal{D}(G)$ has vertex set $E(G)$ and a hyperedge for
+the edge set of every triangle. Its matching and vertex-cover numbers are
+$\nu(G)$ and $\tau(G)$. It is linear: distinct triangles share at most one
+edge. It is 3-partite precisely when the graph edges can be labeled with
+three labels so that every triangle receives all three. Labels on other
+incident edges need not differ. This condition is often called
+triangle-3-colorability and is broader than ordinary four-colorability.
+
+**Theorem 1.1 (Triangle-deletion criterion).**
+Let $T$ be a triangle of $G$ and put $H=G-E(T)$, retaining all vertices.
+If $\mathcal{D}(H)$ is 3-partite, then $\tau(G)\le2\nu(G)$.
+
+Tuza's inequality for triangle-3-colorable graphs, including four-colorable
+graphs, is known from Lakshmanan–Bujtás–Tuza [LBT](https://doi.org/10.1007/s00373-011-1048-8) and follows from
+Aharoni's theorem [Aharoni](https://doi.org/10.1007/s004930170001). The new deduction considered here is the
+addition of the three edges of a triangle to such a remainder. Merely
+adding these three edges to a cover loses one unit in the critical case.
+Equality structure repairs that loss. We use only the specific consequence
+of Haxell–Narins–Szabó (HNS) [HNS](https://doi.org/10.1016/j.jcta.2018.04.004) proved below, rather than a
+classification of all graphical equality cases.
+
+There are antecedents for $K_4$ equality arguments in planar graphs
+[CHM](https://doi.org/10.1007/s00373-010-0881-5) and for fractional triangle covers [HKT](https://doi.org/10.1016/j.ejc.2011.09.024). The latter concerns
+$\tau^*$, and integer equality $\tau=2\nu$ cannot simply be substituted for
+fractional equality. The elementary intersecting-family lemma below is also
+known [AZ](https://doi.org/10.1002/jgt.22533). No novelty is claimed for these inputs. Liu–Zeng's
+preprint [LZ](https://doi.org/10.48550/arXiv.2610.15539) proves the odd-cycle-transversal-three case and the
+fixed-deficit density range $c<2$; our corollaries concern four vertices and
+$c<5/2$, respectively.
+
+## 2. The equality consequence of the published inputs
+
+### Aharoni's bound.
+
+Every finite 3-partite 3-uniform hypergraph $\mathcal H$ satisfies
+$\tau(\mathcal H)\le2\nu(\mathcal H)$ [Aharoni](https://doi.org/10.1007/s004930170001).
+An accessible formulation and derivation also appear in HNS, Section 3,
+Proposition 3.2(iii) and the following paragraph (author-manuscript p. 9).
+Thus $\mathcal{D}(J)$ 3-partite implies $\tau(J)\le2\nu(J)$.
+
+### HNS's equality characterization.
+
+HNS Theorem 1.1 characterizes 3-partite 3-uniform hypergraphs with
+$\tau=2\nu$ as home-base hypergraphs [HNS](https://doi.org/10.1016/j.jcta.2018.04.004). We use the 18 March 2018
+author manuscript: Definitions 7.1–7.4, pp. 19–20, and Proposition 7.5,
+p. 21. The earlier arXiv version has different numbering. HNS permits
+parallel hyperedges; simple hypergraphs are included.
+
+Here are exactly the features of a home-base partition needed for extraction.
+The partition is denoted $(\mathcal A,\mathcal R,W)$: the disjoint pieces
+in $\mathcal A$, the disjoint triples in $\mathcal R$, and $W$ partition
+the hypervertices, and $|\mathcal A|+|\mathcal R|=\nu(\mathcal H)$.
+Each $\mathcal A$-piece is a truncated multi-Fano configuration on six
+vertices, containing four distinct underlying triples, any three of which
+form a loose 3-cycle. For a triple $R=\{r_1,r_2,r_3\}\in\mathcal R$,
+with $r_i$ in part $V_i$, each auxiliary bipartite graph $B_i$ has a
+matching saturating $\mathcal R$. A neighbor $w\in W\cap V_i$ of $R$
+means that $(R\setminus\{r_i\})\cup\{w\}$ is a hyperedge.
+These are consequences of the cited definitions, not additional hypotheses.
+
+**Lemma 2.1 (Disjoint loose cycles).**
+If $\mathcal H$ is 3-partite and 3-uniform with
+$\tau(\mathcal H)=2\nu(\mathcal H)=2h$, then it contains $h$ loose
+3-cycles with pairwise disjoint vertex supports. A loose 3-cycle here consists
+of three hyperedges on six vertices whose pairwise intersections are three
+distinct singletons.
+
+**Proof.**
+For $h=0$, take the empty collection. Otherwise use the HNS partition.
+Choose a saturating matching in each $B_i$, and write $w_i(R)$ for the
+vertex matched to $R$. For each $R$ the hyperedges
+
+$$
+\tag{1}
+\{r_2,r_3,w_1(R)\},\quad
+\{r_1,r_3,w_2(R)\},\quad
+\{r_1,r_2,w_3(R)\}
+$$
+
+form the required loose cycle. Its six vertices are distinct since
+$W$ is disjoint from the central triples and the three $w_i(R)$ lie in
+different parts. Across different $R$'s, the same-part chosen vertices
+differ by the matching property; different-part vertices differ by the
+tripartition. None belongs to any central triple or $\mathcal A$-piece.
+Thus these supports are disjoint simultaneously; no compatibility between
+the three matchings is missing. Choose also three distinct underlying
+hyperedges in each $\mathcal A$-piece. These give disjoint cycles, for a
+total of $|\mathcal A|+|\mathcal R|=h$. This is the extraction also used
+in the proof of HNS Proposition 7.5. Isolated vertices may remain in $W$.
+ ∎
+
+**Lemma 2.2 (Graphical equality consequence).**
+If $\mathcal{D}(J)$ is 3-partite and $\tau(J)=2\nu(J)=2h$, then $J$ contains
+$h$ pairwise edge-disjoint copies of $K_4$.
+
+**Proof.**
+Apply Lemma 2.1 to $\mathcal{D}(J)$. Consider one loose cycle.
+Name two graph triangles $uvx$ and $uvy$, where the four vertices are
+distinct. The third shares with each an edge other than $uv$.
+Its two shared edges lie in $\{ux,vx\}$ and $\{uy,vy\}$, respectively.
+They must meet, since they belong to one triangle. The cross choices
+$ux,vy$ and $vx,uy$ are disjoint, so the third triangle is $uxy$ or $vxy$.
+The union therefore contains exactly the six edges
+$uv,ux,vx,uy,vy,xy$ of a $K_4$. Disjoint hypervertex supports mean disjoint
+graph-edge sets. The resulting $K_4$ copies may share graph vertices.
+ ∎
+
+**Lemma 2.3 (Faces avoiding an independent set).**
+Under the hypotheses of Lemma 2.2, for every independent vertex
+set $U$ in $J$ there is a maximum triangle packing all of whose vertices
+lie outside $U$.
+
+**Proof.**
+Each $K_4$ meets $U$ in at most one vertex. Choose its opposite face if
+it meets $U$, and any face otherwise. The chosen faces are edge-disjoint,
+avoid $U$, and number $h=\nu(J)$. For $h=0$ use the empty packing.
+ ∎
+
+## 3. The triangle-deletion proof and the OCT corollary
+
+**Lemma 3.1 (Two-edge cover).**
+Every nonempty pairwise edge-intersecting family of graph triangles has
+a cover consisting of at most two graph edges. The family need not be
+the full triangle family of its ambient graph.
+
+**Proof.**
+A single triangle needs one edge. Otherwise choose distinct members
+$abc,abd$ sharing $ab$. Any member avoiding $ab$ must share an edge from
+$\{ac,bc\}$ and one from $\{ad,bd\}$. The disjoint cross pairs cannot
+be edges of one triangle; hence it must be $acd$ or $bcd$.
+If there is no such member, $ab$ covers the family. Otherwise $cd$ is
+an actual graph edge and $\{ab,cd\}$ covers the family.
+This also gives the $k=3$ case of the known intersecting-family result
+in Aharoni–Zerbib, Propositions 3.2 and 3.7 [AZ](https://doi.org/10.1002/jgt.22533).
+ ∎
+
+**Proof of Theorem 1.1.**
+Put $h=\nu(H)$ and $U=V(T)$. A maximum packing in $H$ together with
+$T$ gives $\nu(G)\ge h+1$. Aharoni gives $\tau(H)\le2h$.
+If the inequality is strict, integrality and a cover augmented by $E(T)$ give
+
+$$
+\tag{2}
+\tau(G)\le\tau(H)+3\le2h+2\le2\nu(G).
+$$
+
+Suppose instead $\tau(H)=2h$. The set $U$ is independent in $H$, since
+all three possible edges on it have been removed. Lemma 2.3
+gives a packing $\mathcal P$ of size $h$ avoiding $U$.
+Let $\mathcal F$ be the triangles of $G$ absent from $H$, and put
+$r=\nu(\mathcal F)$. Every member of $\mathcal F$ contains an edge of
+$T$, hence at least two vertices of $U$. Consequently every edge of
+every member touches $U$. Every edge of $\mathcal P$ has both endpoints
+outside $U$. The single fixed packing $\mathcal P$ is therefore
+edge-disjoint from *all* members of $\mathcal F$ simultaneously, and
+
+$$
+\tag{3}
+\nu(G)\ge h+r.
+$$
+
+Since $T\in\mathcal F$, we have $r\ge1$. If $r=1$, any two members
+intersect in an edge, so Lemma 3.1 gives
+$\tau(\mathcal F)\le2=2r$. If $r\ge2$, the three edges of $T$ give
+$\tau(\mathcal F)\le3\le2r$. Combining covers of $H$ and $\mathcal F$ yields
+
+$$
+\tag{4}
+\tau(G)\le\tau(H)+\tau(\mathcal F)\le2h+2r\le2\nu(G).
+$$
+
+This includes $h=0$, using an empty packing and no HNS invocation. A graph
+with no triangle cannot satisfy the stated premise on $T$.
+ ∎
+
+For clarity, the choice of packing matters: an arbitrary maximum packing
+of $H$ need not avoid the new triangles. For example, take a $K_4$ on
+$a,d,e,f$, add the edge $bd$, and then add $T=abc$. The old maximum
+packing $\{ade\}$ meets the new triangle $abd$, whereas the face $def$
+avoids every new triangle. Lemma 2.3 supplies the needed choice.
+
+**Lemma 3.2 (Four colors give three edge labels).**
+If $J$ is four-colorable, then $\mathcal{D}(J)$ is 3-partite.
+
+**Proof.**
+Identify vertex colors with $\mathbb F_2^2$ and label an edge by the
+sum of its endpoint colors. Properness makes this one of the three
+nonzero vectors. A triangle has three distinct vertex colors, so its
+three edge labels are distinct. Empty edge classes cause no difficulty.
+ ∎
+
+**Corollary 3.3.**
+If $\operatorname{oct}(G)\le4$, then $\tau(G)\le2\nu(G)$.
+
+**Proof.**
+Choose $S\subseteq V(G)$ with $|S|\le4$ and $G-S$ bipartite. If
+$G[S]$ is bipartite, use two colors on $S$ and two different colors on
+its complement. Apply Lemma 3.2 and Aharoni directly.
+Otherwise $G[S]$ contains an odd cycle, which on at most four vertices
+must be a triangle $T$. After deleting $E(T)$ the only remaining edges
+inside $S$ join the possible fourth vertex to $V(T)$, so they form a
+subgraph of a star. Both $H[S]$ and $H-S$ are bipartite. Thus $H$ is
+four-colorable, and Lemma 3.2 and Theorem 1.1 apply.
+The argument includes all smaller transversals and all configurations on $S$.
+ ∎
+
+## 4. A fixed-deficit density corollary
+
+The following is a derived corollary using the proof of Liu–Zeng
+[LZ](https://doi.org/10.48550/arXiv.2610.15539), not a theorem quoted from their preprint. We give the modified
+estimates and the small-packing argument in detail, identifying the
+unchanged inputs. This section has not been formalized in Lean.
+
+**Corollary 4.1 (Adaptation of Liu–Zeng).**
+For every fixed real $c<5/2$ there exists $N(c)$ such that, for every
+integer $n\ge N(c)$ and every $n$-vertex graph $G$,
+$e(G)\ge n^2/4-cn$ implies $\tau(G)\le2\nu(G)$.
+
+### Imported approximation and elementary estimates.
+
+Let $\nu^*(G)$ be the fractional triangle-packing optimum. We use
+$\nu^*(G)-\nu(G)=o(n^2)$, due to Haxell–Rödl [HR](https://doi.org/10.1007/s004930170003); alternatively
+Yuster's Theorem 1.2 [Yuster](https://doi.org/10.1002/rsa.20048), with graph family $\{K_3\}$, suffices.
+Removing isolates leaves both optima unchanged. If the remaining order
+is large, its $o(m^2)$ error is bounded by the desired error in $n^2$;
+if bounded, its whole fractional optimum is a fixed constant. This
+handles Yuster's convention excluding isolated vertices.
+Finite linear-programming duality identifies $\nu^*$ with the fractional
+edge-cover optimum.
+
+We also use Liu–Zeng Lemma 2.4: if $S\subseteq E(J)$ has at most one
+edge per triangle, $C=E(J)\setminus S$, and $|C|\ge\beta n^2$ for
+$0<\beta<1/2$, then
+
+$$
+\tag{5}
+\tau(J)\le |C|-\beta^3n^2/36.
+$$
+
+This lemma has no density-deficit parameter. Their proof deletes a
+suitable cut complement, starting from
+$\tau(J)\le|C|-e_C(A,B)+e_S(A)+e_S(B)$ for disjoint $A,B$.
+Its independent-neighborhood partition gives savings at least
+$\beta^3n^2/6$, $\beta^3n^2/36$, or $\beta n^2/24$ according to the
+location of a large class of $C$-edges. Thus the common constant in
+(5) remains unchanged here.
+
+**Proof of Corollary 4.1.**
+It suffices to treat $0\le c<5/2$, since a negative $c$ has a stronger
+hypothesis than $c=0$. Put $k=\nu(G)$, $t=\tau(G)$ and take $n$
+sufficiently large, as specified below.
+
+### Large packing: $k\ge10^{-5}n^2$.
+
+This is Liu–Zeng's Section 3, Case 1, unchanged: it uses no edge-count
+assumption or bound on $c$. Here is its quantitative core. If $t>2k$,
+choose the approximation error at most $10^{-18}n^2$ and write
+$d=\nu^*(G)-t/2$. The fractional-cover threshold argument in their
+equations (2)–(6), applied to weights in decreasing order, gives
+$0\le d<10^{-18}n^2$. Partition the edges into $L,M,F$ according as
+their weights lie in $[0,1/6)$, $[1/6,2/3)$, $[2/3,1]$. The same
+argument gives
+
+$$
+\tag{6}
+|F|+|M|-t\le12d,\qquad |F|\le6d,\qquad |M|>10^{-5}n^2.
+$$
+
+For precision, the threshold inequalities are
+$2f_i+f_{2t+1-i}\ge1$ for $1\le i\le t$; summing bounds the weight
+after the first $t$ edges by $2d$, and clipping weights at $1/2$ bounds
+their total excess by $d$. These yield (6) exactly as in
+the cited case. A triangle in $G-F$ cannot have two $L$-edges, since
+their weights together with the third weight would sum to less than one.
+Apply (5) with $\beta=10^{-5}$ to obtain
+
+$$
+\tag{7}
+\begin{aligned}
+t&\le |F|+|M|-10^{-15}n^2/36\\
+ &<t+(12\cdot10^{-18}-10^{-15}/36)n^2<t,
+\end{aligned}
+$$
+
+a contradiction. All inputs to this case are independent of $c$.
+
+### A triangle-free decomposition.
+
+For subsequent cases let $H$ be triangle-free and put
+$\delta=n^2/4-e(H)$, where $0\le\delta\le10^{-4}n^2$.
+Take a maximum-degree vertex of degree $q$, set $V_1=N_H(v)$ and
+$V_2=V(H)\setminus V_1$. Since $V_1$ is independent,
+$e(H)+e_H(V_2)\le q(n-q)\le n^2/4$. The number of missing cross
+pairs is at most $2\delta$, and each part differs from $n/2$ by at
+most $\sqrt{2\delta}$. Remove into $A$ every vertex missing more
+than $n/5$ neighbors in the other part; put $B=V_1\setminus A$,
+$C=V_2\setminus A$. Counting missing pairs twice gives
+
+$$
+\tag{8}
+|A|\le20\delta/n\le n/500,\quad |B|,|C|>9n/20.
+$$
+
+Every distinct pair in $B$ has more than $n/20$ common $H$-neighbors
+in $C$, and conversely. Hence $B,C$ are independent in $H$ and the
+missing $B,C$-pairs number at most $2\delta$. These are Liu–Zeng's
+equations (7)–(13), with the deficit retained explicitly.
+
+### Intermediate packing: $n^{2/3}<k<10^{-5}n^2$.
+
+Remove a maximum packing $\mathcal P$ to form $H$. Then
+
+$$
+\tag{9}
+0\le\delta\le cn+3k\le3n+3k\le10^{-4}n^2
+$$
+
+eventually. The replacement of $2n$ by $3n$ is the first change to the
+source. Use the preceding decomposition. For $x\in A$, augment its
+$H$-neighbors in $B$ by the two vertices of each packing triangle
+$xbb'$; call this set $L_x$. Define $R_x$ analogously on $C$.
+There is no $H$-edge from $L_x$ to $R_x$. To see the exchange when
+such an edge $bc$ exists, if both $xb,xc$ are $H$-edges there is a
+triangle in $H$. If $xbb'$ is packed and $xc$ is in $H$, replace
+$xbb'$ by $xbc$ and $bb'z$, choosing a common $H$-neighbor $z\in C$
+of $b,b'$ with $z\ne c$. The symmetric case is identical. If
+$xbb'$ and $xcc'$ are both packed, replace them by $xbc,bb'z,cc'w$,
+where $z\in C\setminus\{c,c'\}$ and
+$w\in B\setminus\{b,b'\}$ are appropriate common $H$-neighbors.
+The $n/20$ lower bounds permit these choices. The inserted triangles
+are edge-disjoint, and their new edges lie in $H$, so none meets a
+retained packing triangle. A packed triangle entirely in $B$ or $C$
+similarly has a one-to-two exchange using two distinct common neighbors.
+
+Place each $x\in A$ on the side of the smaller of $L_x,R_x$.
+Their product counts missing $B,C$-pairs, so its smaller size is at
+most $\sqrt{2\delta}$. A packed triangle contributes one internal
+edge, plus two if all its vertices lie on one side. The extra
+contributions from triangles meeting $A$ once are already counted
+by the augmented sets. Let $Q$ be the wholly internal packed triangles
+meeting $A$ at least twice. They can be charged to distinct edges on
+$A$ outside $H$. Thus the internal $H$-edges on $A$ plus $|Q|$ number
+at most $\binom{|A|}{2}$, and these edges plus $2|Q|$ number at most
+$|A|^2$. Deleting all internal edges therefore gives
+$t\le k+|A|\sqrt{2\delta}+|A|^2$, hence
+
+$$
+\tag{10}
+t\le k+\frac{20\sqrt2}{n}\delta^{3/2}+\frac{400}{n^2}\delta^2.
+$$
+
+Using $(a+b)^{3/2}\le\sqrt2(a^{3/2}+b^{3/2})$,
+$(a+b)^2\le2(a^2+b^2)$, and (9), we obtain
+
+$$
+\tag{11}
+\begin{aligned}
+\frac{t-k}{k}\le{}&120\sqrt3\,n^{-1/6}
+ +120\sqrt{3\cdot10^{-5}}\\
+ &+7200n^{-2/3}+7200\cdot10^{-5}<1
+\end{aligned}
+$$
+
+eventually. The two constant terms sum to approximately $0.729267069$.
+For example $n\ge10^{18}$ suffices for this estimate and the elementary
+size conditions here. This proves $t\le2k$ in the intermediate case.
+
+### Small packing: $k\le n^{2/3}$, including equality.
+
+Choose a spanning subgraph $G'$ with the fewest edges subject to
+$e(G)-e(G')=k-k'$, where $k'=\nu(G')$. Such a graph exists since $G$
+qualifies, and
+
+$$
+\tag{12}
+\tau(G)\le k-k'+\tau(G').
+$$
+
+Every edge of $G'$ has codegree at most $2k'$. Indeed, if $uv$ had more
+common neighbors, any packing in $G'-uv$ rules out at most two such
+neighbors per packed triangle. One further page $uvw$ extends it,
+forcing $\nu(G'-uv)=k'-1$. This would contradict the edge-minimal
+choice of $G'$ (Liu–Zeng Lemma 2.5).
+If $k'=0$, (12) settles the claim. Otherwise remove a
+maximum packing from $G'$ to obtain a triangle-free $H$ with
+
+$$
+\tag{13}
+e(H)=e(G)-k-2k'\ge n^2/4-cn-3k\ge n^2/4-5n
+$$
+
+eventually. Thus the source's constant $5n$ is unchanged for $c<5/2$.
+The decomposition gives $|A|\le100$. Since $n/20>2k'$ eventually,
+its common-neighbor property and the codegree bound make $B,C$
+independent even in $G'$.
+
+Place each $x\in A$ on the side with fewer $H$-neighbors. Their product
+is at most $10n$, since all pairs between these neighbor sets are missing
+cross pairs. The resulting parts $X,Y$ satisfy
+
+$$
+\tag{14}
+\begin{aligned}
+\bigl||X|-n/2\bigr|,\ \bigl||Y|-n/2\bigr|&\le\sqrt{10n}+100,\\
+e_{G'}(X)+e_{G'}(Y)&\le4950+100\sqrt{10n}+3k'.
+\end{aligned}
+$$
+
+The first term $4950$ bounds edges inside $A$; at most
+$100\sqrt{10n}$ internal $H$-edges meet its complement, and all
+remaining edges removed in forming $H$ number $3k'$.
+
+Let $S_1,S_2$ be minimum vertex covers of the internal graphs on $X,Y$,
+and write $s=|S_1|+|S_2|\le100$; the parts of $A$ themselves cover
+these graphs. The following finite-witness fact is Liu–Zeng Lemma 2.6.
+A graph with a vertex cover of size $a$ has an induced subgraph on at
+most $a^2+2a$ vertices with the same minimum vertex-cover number:
+retain the cover and up to $a+1$ outside neighbors of each cover
+vertex. A cover of the retained graph of size at most $a$ extends
+to the whole graph. Otherwise a missed cover vertex with an omitted
+neighbor would have $a+1$ retained neighbors, a contradiction.
+The assertion also holds for $a=0$.
+Apply this to get witnesses $T_1\subseteq X,T_2\subseteq Y$ with their
+respective vertex-cover numbers $|S_1|,|S_2|$ and
+$|T_1|+|T_2|\le s^2+2s\le10200$.
+
+For $y\in Y\setminus T_2$, its nonneighbors in $T_1$, together with
+one endpoint of each edge among its neighbors in $T_1$, cover $G'[T_1]$.
+Summing and using the codegree bound gives at least
+
+$$
+\tag{15}
+|S_1|(|Y|-|T_2|)-2k'e_{G'}(T_1)
+$$
+
+missing pairs in $T_1\times(Y\setminus T_2)$. The symmetric count
+lies in $(X\setminus T_1)\times T_2$, a disjoint set of pairs.
+Use
+
+$$
+\tag{16}
+\begin{aligned}
+e_{G'}(T_1)+e_{G'}(T_2)&\le\binom{10200}{2}=52,014,900,\\
+|S_1||T_2|+|S_2||T_1|&\le1,020,000.
+\end{aligned}
+$$
+
+Subtracting both missing-pair counts from $|X||Y|\le n^2/4$ and
+adding the internal edges from (14) yields
+
+$$
+\tag{17}
+e(G')\le\frac{n^2}{4}-\frac{s}{2}n
+ +200\sqrt{10n}+1,034,950+104,029,803k'.
+$$
+
+The constant terms are $100s+1,020,000+4950\le1,034,950$;
+the coefficient of $k'$ is $2\cdot52,014,900+3$.
+Compare with $e(G')\ge n^2/4-cn-k+k'$ and use
+$k'\le k\le n^{2/3}$ to obtain
+
+$$
+\tag{18}
+\left(\frac{s}{2}-c\right)n
+\le104,029,803n^{2/3}+200\sqrt{10n}+1,034,950.
+$$
+
+For $n\ge1$ the right side is less than $106,000,000n^{2/3}$.
+Put $\varepsilon=5/2-c>0$. If $s\ge5$, (18) is impossible
+for $n>(106,000,000/\varepsilon)^3$. Hence $s\le4$.
+Deleting $S_1\cup S_2$ makes $G'$ bipartite. Corollary 3.3
+gives $\tau(G')\le2k'$, and (12) gives
+$\tau(G)\le k+k'\le2k$.
+
+One sufficient $N(c)$ is the maximum of $10^{18}$, the threshold for
+the imported fractional approximation with error $10^{-18}n^2$, and
+an integer strictly exceeding $(106,000,000/(5/2-c))^3$.
+For $c<0$ use $N(0)$. No numerical threshold for the deep approximation
+is asserted. The strict positivity of $5/2-c$ is essential to the
+last step: this proof establishes neither the endpoint $c=5/2$ nor a
+threshold uniform as $c$ approaches it. This completes the adaptation.
+ ∎
+
+## 5. Formal verification, limitations, and provenance
+
+The accompanying Lean 4.33.1 project uses Mathlib v4.33.1, with its full
+revision and every transitive dependency pinned in the lockfile.
+Its declarations `Tuza.triangle_deletion` and
+`Tuza.oct_four` quantify over arbitrary finite simple graphs.
+They use actual finite packing maxima and cover minima. A support-trimming
+lemma and `Tuza.graph_min_cover` ensure a minimum consists of
+actual graph edges despite a permissive intermediate set representation.
+
+Both main declarations explicitly take `AharoniInput`, the
+graphical tripartite inequality, and `HNSInput`, the graphical
+equality consequence in Lemma 2.2. The home-base extraction and
+graphical loose-cycle conversion remain inside this external mathematical
+boundary. Face selection, simultaneous compatibility, the arbitrary-family
+cover lemma, the strict/equality arithmetic, and the OCT reduction are
+proved in Lean. The deep input theorems and the density argument are not.
+The recorded transitive axioms are only `propext`,
+`Classical.choice`, and `Quot.sound`. That report does not
+discharge parameterized hypotheses. Small exact tests corroborate finite
+definitions and examples; they do not establish an infinite theorem.
+
+The archive records separate Phase 1 research, Validation V1, manuscript
+criticism, and publication/reproduction criticism. Those internal reviews
+are not external specialist review or peer review. Bounded literature
+searches, including alternative formulations and related HNS applications,
+found no exact predecessor; inaccessible or unindexed material and
+specialist knowledge remain possible sources of prior art. We do not
+claim priority or a solution of the general conjecture.
+
+This manuscript was prepared with AI assistance under the neutral project
+attribution AI Math Experiments. No human author, affiliation, external
+reviewer, or unsupported model configuration is asserted. All reused
+mathematics is attributed to the cited sources. The repository retains
+the proof sources, a complete Markdown exposition, reproducible checks,
+and sanitized research findings; generated PDFs and dependency caches
+are excluded from its text-only publication tree.
+
+## References
+
+**[Aharoni]** Ron Aharoni. [Ryser's conjecture for tripartite 3-graphs](https://doi.org/10.1007/s004930170001). *Combinatorica* 21 (2001), 1-4.
+
+**[HNS]** Penny Haxell, Lothar Narins, Tibor Szabó. [Extremal hypergraphs for Ryser's conjecture](https://doi.org/10.1016/j.jcta.2018.04.004). *Journal of Combinatorial Theory, Series A* 158 (2018), 492-547. Author manuscript dated 18 March 2018. [Source](https://page.mi.fu-berlin.de/szabo/PDF/ryser.pdf).
+
+**[LBT]** S. Aparna Lakshmanan, Csilla Bujtás, Zsolt Tuza. [Small edge sets meeting all triangles of a graph](https://doi.org/10.1007/s00373-011-1048-8). *Graphs and Combinatorics* 28 (2012), 381-392.
+
+**[AZ]** Ron Aharoni, Shira Zerbib. [A generalization of Tuza's conjecture](https://doi.org/10.1002/jgt.22533). *Journal of Graph Theory* 94 (2020), 445-462. See also arXiv:1611.07497v7, Propositions 3.2 and 3.7. [Source](https://arxiv.org/abs/1611.07497v7).
+
+**[CHM]** Qing Cui, Penny Haxell, Will Ma. [Packing and covering triangles in planar graphs](https://doi.org/10.1007/s00373-010-0881-5). *Graphs and Combinatorics* 25 (2009), 817-824.
+
+**[HKT]** Penny Haxell, Alexandr Kostochka, Stéphan Thomassé. [A stability theorem on fractional covering of triangles by edges](https://doi.org/10.1016/j.ejc.2011.09.024). *European Journal of Combinatorics* 33 (2012), 799-806.
+
+**[LZ]** Zhen Liu, Qinghou Zeng. [Tuza's Conjecture under an Edge-Count Condition](https://doi.org/10.48550/arXiv.2610.15539). 2026. Preprint, arXiv:2610.15539v1, submitted 11 October 2026. [Source](https://arxiv.org/abs/2610.15539v1).
+
+**[HR]** Penny Haxell, Vojtěch Rödl. [Integer and fractional packings in dense graphs](https://doi.org/10.1007/s004930170003). *Combinatorica* 21 (2001), 13-38.
+
+**[Yuster]** Raphael Yuster. [Integer and fractional packing of families of graphs](https://doi.org/10.1002/rsa.20048). *Random Structures and Algorithms* 26 (2005), 110-118. [Source](https://math.haifa.ac.il/raphy/papers/fracpack.pdf).

@@ -1,0 +1,1113 @@
+{
+  "status": "all_parameter_and_witness_assertions_passed",
+  "started_utc": "2026-10-28T08:40:53Z",
+  "elapsed_seconds": 0.007204,
+  "script_sha256": "2ec8a3570839009407928a55e8e61d42a492bd5a1259b91111bdb5a7074104fc",
+  "methods": {
+    "triangles": "direct enumeration of all three-vertex subsets",
+    "packing": "exact include/exclude recursion on triangles",
+    "covering": "exact recursion branching on the three edges of an uncovered triangle",
+    "non_four_colorability": "bounded exhaustive DSATUR search; only unused color labels identified by symmetry",
+    "formal_status": "Ordinary Python computation, not a Lean or independently checked proof certificate"
+  },
+  "coloring_solver_sanity": {
+    "K4_three_colors": {
+      "colors": 3,
+      "status": "unsatisfiable",
+      "search_nodes": 4,
+      "elapsed_seconds": 1.1e-05,
+      "node_limit": 1000000,
+      "time_limit_seconds": 15,
+      "witness": null
+    },
+    "K4_four_colors": {
+      "colors": 4,
+      "status": "satisfiable",
+      "search_nodes": 5,
+      "elapsed_seconds": 6e-06,
+      "node_limit": 1000000,
+      "time_limit_seconds": 15,
+      "witness": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "K5_four_colors": {
+      "colors": 4,
+      "status": "unsatisfiable",
+      "search_nodes": 5,
+      "elapsed_seconds": 7e-06,
+      "node_limit": 1000000,
+      "time_limit_seconds": 15,
+      "witness": null
+    },
+    "C5_two_colors": {
+      "colors": 2,
+      "status": "unsatisfiable",
+      "search_nodes": 5,
+      "elapsed_seconds": 6e-06,
+      "node_limit": 1000000,
+      "time_limit_seconds": 15,
+      "witness": null
+    },
+    "C5_three_colors": {
+      "colors": 3,
+      "status": "satisfiable",
+      "search_nodes": 6,
+      "elapsed_seconds": 6e-06,
+      "node_limit": 1000000,
+      "time_limit_seconds": 15,
+      "witness": [
+        0,
+        1,
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  "cases": {
+    "K4": {
+      "vertices": 4,
+      "edges": 6,
+      "triangles": 4,
+      "nu": 1,
+      "tau": 2,
+      "packing_witness": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "cover_witness": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "packing_recursion_states": 5,
+      "cover_recursion_states": 7
+    },
+    "K5": {
+      "vertices": 5,
+      "edges": 10,
+      "triangles": 10,
+      "nu": 2,
+      "tau": 4,
+      "packing_witness": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "cover_witness": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "packing_recursion_states": 21,
+      "cover_recursion_states": 35
+    },
+    "C5": {
+      "vertices": 5,
+      "edges": 5,
+      "triangles": 0,
+      "nu": 0,
+      "tau": 0,
+      "packing_witness": [],
+      "cover_witness": [],
+      "packing_recursion_states": 1,
+      "cover_recursion_states": 1
+    },
+    "Mycielski_component": {
+      "construction": "M(M(C5)); original vertices, twins, then apex at each step",
+      "vertices": 23,
+      "edges": 71,
+      "triangles": 0,
+      "four_color_search": {
+        "colors": 4,
+        "status": "unsatisfiable",
+        "search_nodes": 884,
+        "elapsed_seconds": 0.003727,
+        "node_limit": 1000000,
+        "time_limit_seconds": 15,
+        "witness": null
+      },
+      "explicit_five_coloring_verified": true,
+      "five_coloring": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "chromatic_number": 5
+    },
+    "G_Mycielski_K4_T": {
+      "construction": "M(M(C5)) on 0..22, K4 on 23..26, T on 27..29; bridges 0-23 and 26-27",
+      "G": {
+        "vertices": 30,
+        "edges": 82,
+        "triangles": 5,
+        "nu": 2,
+        "tau": 3,
+        "packing_witness": [
+          [
+            24,
+            25,
+            26
+          ],
+          [
+            27,
+            28,
+            29
+          ]
+        ],
+        "cover_witness": [
+          [
+            23,
+            24
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            27,
+            28
+          ]
+        ],
+        "packing_recursion_states": 6,
+        "cover_recursion_states": 8
+      },
+      "H_equals_G_minus_E_T": {
+        "vertices": 30,
+        "edges": 79,
+        "triangles": 4,
+        "nu": 1,
+        "tau": 2,
+        "packing_witness": [
+          [
+            24,
+            25,
+            26
+          ]
+        ],
+        "cover_witness": [
+          [
+            23,
+            24
+          ],
+          [
+            25,
+            26
+          ]
+        ],
+        "packing_recursion_states": 5,
+        "cover_recursion_states": 7
+      },
+      "distinguished_triangle": [
+        27,
+        28,
+        29
+      ],
+      "U_independent_in_H_verified": true,
+      "H_triangle_hypergraph_three_partite_witness": {
+        "verified": true,
+        "triangles_checked": 4,
+        "edge_labels": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            9,
+            0
+          ],
+          [
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            15,
+            0
+          ],
+          [
+            0,
+            17,
+            0
+          ],
+          [
+            0,
+            20,
+            0
+          ],
+          [
+            0,
+            23,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            5,
+            0
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            1,
+            11,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            1,
+            16,
+            0
+          ],
+          [
+            1,
+            18,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            6,
+            0
+          ],
+          [
+            2,
+            8,
+            0
+          ],
+          [
+            2,
+            12,
+            0
+          ],
+          [
+            2,
+            14,
+            0
+          ],
+          [
+            2,
+            17,
+            0
+          ],
+          [
+            2,
+            19,
+            0
+          ],
+          [
+            3,
+            4,
+            0
+          ],
+          [
+            3,
+            7,
+            0
+          ],
+          [
+            3,
+            9,
+            0
+          ],
+          [
+            3,
+            13,
+            0
+          ],
+          [
+            3,
+            15,
+            0
+          ],
+          [
+            3,
+            18,
+            0
+          ],
+          [
+            3,
+            20,
+            0
+          ],
+          [
+            4,
+            5,
+            0
+          ],
+          [
+            4,
+            8,
+            0
+          ],
+          [
+            4,
+            11,
+            0
+          ],
+          [
+            4,
+            14,
+            0
+          ],
+          [
+            4,
+            16,
+            0
+          ],
+          [
+            4,
+            19,
+            0
+          ],
+          [
+            5,
+            10,
+            0
+          ],
+          [
+            5,
+            12,
+            0
+          ],
+          [
+            5,
+            15,
+            0
+          ],
+          [
+            5,
+            21,
+            0
+          ],
+          [
+            6,
+            10,
+            0
+          ],
+          [
+            6,
+            11,
+            0
+          ],
+          [
+            6,
+            13,
+            0
+          ],
+          [
+            6,
+            21,
+            0
+          ],
+          [
+            7,
+            10,
+            0
+          ],
+          [
+            7,
+            12,
+            0
+          ],
+          [
+            7,
+            14,
+            0
+          ],
+          [
+            7,
+            21,
+            0
+          ],
+          [
+            8,
+            10,
+            0
+          ],
+          [
+            8,
+            13,
+            0
+          ],
+          [
+            8,
+            15,
+            0
+          ],
+          [
+            8,
+            21,
+            0
+          ],
+          [
+            9,
+            10,
+            0
+          ],
+          [
+            9,
+            11,
+            0
+          ],
+          [
+            9,
+            14,
+            0
+          ],
+          [
+            9,
+            21,
+            0
+          ],
+          [
+            10,
+            16,
+            0
+          ],
+          [
+            10,
+            17,
+            0
+          ],
+          [
+            10,
+            18,
+            0
+          ],
+          [
+            10,
+            19,
+            0
+          ],
+          [
+            10,
+            20,
+            0
+          ],
+          [
+            11,
+            22,
+            0
+          ],
+          [
+            12,
+            22,
+            0
+          ],
+          [
+            13,
+            22,
+            0
+          ],
+          [
+            14,
+            22,
+            0
+          ],
+          [
+            15,
+            22,
+            0
+          ],
+          [
+            16,
+            22,
+            0
+          ],
+          [
+            17,
+            22,
+            0
+          ],
+          [
+            18,
+            22,
+            0
+          ],
+          [
+            19,
+            22,
+            0
+          ],
+          [
+            20,
+            22,
+            0
+          ],
+          [
+            21,
+            22,
+            0
+          ],
+          [
+            23,
+            24,
+            0
+          ],
+          [
+            23,
+            25,
+            1
+          ],
+          [
+            23,
+            26,
+            2
+          ],
+          [
+            24,
+            25,
+            2
+          ],
+          [
+            24,
+            26,
+            1
+          ],
+          [
+            25,
+            26,
+            0
+          ],
+          [
+            26,
+            27,
+            0
+          ]
+        ]
+      },
+      "G_triangle_hypergraph_three_partite_witness": {
+        "verified": true,
+        "triangles_checked": 5,
+        "edge_labels": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            9,
+            0
+          ],
+          [
+            0,
+            12,
+            0
+          ],
+          [
+            0,
+            15,
+            0
+          ],
+          [
+            0,
+            17,
+            0
+          ],
+          [
+            0,
+            20,
+            0
+          ],
+          [
+            0,
+            23,
+            0
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            5,
+            0
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            1,
+            11,
+            0
+          ],
+          [
+            1,
+            13,
+            0
+          ],
+          [
+            1,
+            16,
+            0
+          ],
+          [
+            1,
+            18,
+            0
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            2,
+            6,
+            0
+          ],
+          [
+            2,
+            8,
+            0
+          ],
+          [
+            2,
+            12,
+            0
+          ],
+          [
+            2,
+            14,
+            0
+          ],
+          [
+            2,
+            17,
+            0
+          ],
+          [
+            2,
+            19,
+            0
+          ],
+          [
+            3,
+            4,
+            0
+          ],
+          [
+            3,
+            7,
+            0
+          ],
+          [
+            3,
+            9,
+            0
+          ],
+          [
+            3,
+            13,
+            0
+          ],
+          [
+            3,
+            15,
+            0
+          ],
+          [
+            3,
+            18,
+            0
+          ],
+          [
+            3,
+            20,
+            0
+          ],
+          [
+            4,
+            5,
+            0
+          ],
+          [
+            4,
+            8,
+            0
+          ],
+          [
+            4,
+            11,
+            0
+          ],
+          [
+            4,
+            14,
+            0
+          ],
+          [
+            4,
+            16,
+            0
+          ],
+          [
+            4,
+            19,
+            0
+          ],
+          [
+            5,
+            10,
+            0
+          ],
+          [
+            5,
+            12,
+            0
+          ],
+          [
+            5,
+            15,
+            0
+          ],
+          [
+            5,
+            21,
+            0
+          ],
+          [
+            6,
+            10,
+            0
+          ],
+          [
+            6,
+            11,
+            0
+          ],
+          [
+            6,
+            13,
+            0
+          ],
+          [
+            6,
+            21,
+            0
+          ],
+          [
+            7,
+            10,
+            0
+          ],
+          [
+            7,
+            12,
+            0
+          ],
+          [
+            7,
+            14,
+            0
+          ],
+          [
+            7,
+            21,
+            0
+          ],
+          [
+            8,
+            10,
+            0
+          ],
+          [
+            8,
+            13,
+            0
+          ],
+          [
+            8,
+            15,
+            0
+          ],
+          [
+            8,
+            21,
+            0
+          ],
+          [
+            9,
+            10,
+            0
+          ],
+          [
+            9,
+            11,
+            0
+          ],
+          [
+            9,
+            14,
+            0
+          ],
+          [
+            9,
+            21,
+            0
+          ],
+          [
+            10,
+            16,
+            0
+          ],
+          [
+            10,
+            17,
+            0
+          ],
+          [
+            10,
+            18,
+            0
+          ],
+          [
+            10,
+            19,
+            0
+          ],
+          [
+            10,
+            20,
+            0
+          ],
+          [
+            11,
+            22,
+            0
+          ],
+          [
+            12,
+            22,
+            0
+          ],
+          [
+            13,
+            22,
+            0
+          ],
+          [
+            14,
+            22,
+            0
+          ],
+          [
+            15,
+            22,
+            0
+          ],
+          [
+            16,
+            22,
+            0
+          ],
+          [
+            17,
+            22,
+            0
+          ],
+          [
+            18,
+            22,
+            0
+          ],
+          [
+            19,
+            22,
+            0
+          ],
+          [
+            20,
+            22,
+            0
+          ],
+          [
+            21,
+            22,
+            0
+          ],
+          [
+            23,
+            24,
+            0
+          ],
+          [
+            23,
+            25,
+            1
+          ],
+          [
+            23,
+            26,
+            2
+          ],
+          [
+            24,
+            25,
+            2
+          ],
+          [
+            24,
+            26,
+            1
+          ],
+          [
+            25,
+            26,
+            0
+          ],
+          [
+            26,
+            27,
+            0
+          ],
+          [
+            27,
+            28,
+            0
+          ],
+          [
+            27,
+            29,
+            1
+          ],
+          [
+            28,
+            29,
+            2
+          ]
+        ]
+      },
+      "explicit_five_coloring_G_and_H_verified": true,
+      "five_coloring": [
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        1,
+        0,
+        2,
+        3,
+        0,
+        1,
+        2
+      ],
+      "G_and_H_not_four_colorable_computationally_certified": true,
+      "scope": "Shows that H need not be four-colorable. G also has a tripartite triangle hypergraph; this example alone does not separate the new theorem from all previous tripartite-hypergraph applications."
+    }
+  }
+}

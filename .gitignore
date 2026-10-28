@@ -32,3 +32,13 @@
 *.pem
 *.key
 credentials*
+
+# TUZA-01 manuscript build products (source-only publication)
+problems/TUZA-01/manuscript/*.pdf
+problems/TUZA-01/manuscript/*.aux
+problems/TUZA-01/manuscript/*.bbl
+problems/TUZA-01/manuscript/*.blg
+problems/TUZA-01/manuscript/*.log
+problems/TUZA-01/manuscript/*.out
+problems/TUZA-01/manuscript/*.xdv
+problems/TUZA-01/manuscript/*.synctex.gz
