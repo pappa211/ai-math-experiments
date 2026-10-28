@@ -29,7 +29,7 @@ The Lean theorem files, root import file, toolchain, Lake configuration, and tra
 
 ## Formal proof status
 
-`Tuza.triangle_deletion` and `Tuza.oct_four` are kernel-checked **conditional deductions**. Both take explicit `AharoniInput` and `HNSInput` hypotheses. The latter includes the home-base extraction and graphical loose-cycle-to-$K_4$ consequence, which are justified in ordinary mathematics but remain outside the Lean proof boundary. The deep input theorems themselves have not been formalized or discharged here.
+`Tuza.triangle_deletion` and `Tuza.oct_four` are kernel-checked **conditional deductions**. Both take explicit `AharoniInput` and `HNSInput` hypotheses. The latter includes the home-base extraction and graphical conversion from loose cycles to $K_4$ copies, which are justified in ordinary mathematics but remain outside the Lean proof boundary. The deep input theorems themselves have not been formalized or discharged here.
 
 The new face selection, simultaneous packing compatibility, arbitrary-family two-edge cover, strict/equality case split, and OCT-four reduction are proved. Axiom reports list only `propext`, `Classical.choice`, and `Quot.sound`; this does **not** discharge parameterized hypotheses. The density corollary is not Lean-formalized. See the [executed checks](reproduction/VERIFIED_RESULTS.md) and [exact declaration output](reproduction/lean-declarations.txt) for the precise verification scope.
 
