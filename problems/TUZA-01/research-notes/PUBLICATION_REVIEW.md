@@ -4,7 +4,7 @@ An independent critic inspected the live repository conventions, formal-package 
 
 **Finding: no substantive publication blocker found.** The review verified:
 
-- The live public repository, default main branch, public baseline commit, contribution policy and established neutral attribution. Public commit metadata uses the repository owner's established GitHub noreply identity.
+- The live public repository, default main branch, public baseline commit, contribution policy and established neutral attribution. The inspected publication source commit uses the repository owner's established GitHub noreply identity; this review does not certify metadata generated later by GitHub's merge workflow.
 - All eight Lean files plus toolchain, Lake configuration and lockfile are byte-identical to the validated source. The actual finite graph targets, deletion operation, edge-cover support trimming and OCT predicate have the intended meaning.
 - Portable wrappers remove server-specific paths and cache defaults, use local Lake dependency resolution and portable Python timeouts, check pins and tracked dependency state, and audit the intended declarations.
 - Retained private build/type/cache/PDF logs support the exact reproduction claims. Dependency artifact reuse is disclosed; no cold dependency build, native macOS Lean build, independent kernel, deep-input formalization or density formalization is claimed.
