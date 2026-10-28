@@ -16,14 +16,6 @@ at most four vertices makes $G$ bipartite. Adapting the proof of Liu–Zeng
 then gives, for every fixed real $c\lt 5/2$, the inequality for all sufficiently
 large $n$-vertex graphs with $e(G)\ge n^2/4-cn$.
 
-**Status.** This is an AI-assisted, unrefereed proof manuscript.
-No external specialist review has occurred. Originality is unconfirmed:
-the searches recorded with this archive found no exact prior equivalent.
-The ordinary mathematical proof uses published deep theorems. The accompanying
-Lean development checks the new deduction conditionally on named
-`AharoniInput` and `HNSInput` hypotheses; it does not formalize
-those theorems or the density corollary. The general Tuza conjecture remains open.
-
 ## 1. Definitions, statement, and context
 
 All graphs are finite, simple, and undirected. A triangle is a three-vertex
@@ -518,7 +510,7 @@ last step: this proof establishes neither the endpoint $c=5/2$ nor a
 threshold uniform as $c$ approaches it. This completes the adaptation.
  ∎
 
-## 5. Formal verification, limitations, and provenance
+## 5. Verification, attribution, and research provenance
 
 The accompanying Lean 4.33.1 project uses Mathlib v4.33.1, with its full
 revision and every transitive dependency pinned in the lockfile.
@@ -540,18 +532,20 @@ The recorded transitive axioms are only `propext`,
 discharge parameterized hypotheses. Small exact tests corroborate finite
 definitions and examples; they do not establish an infinite theorem.
 
-The archive records separate Phase 1 research, Validation V1, manuscript
-criticism, and publication/reproduction criticism. Those internal reviews
-are not external specialist review or peer review. Bounded literature
-searches, including alternative formulations and related HNS applications,
-found no exact predecessor; inaccessible or unindexed material and
-specialist knowledge remain possible sources of prior art. We do not
-claim priority or a solution of the general conjecture.
+This manuscript reports AI-assisted research under the neutral project
+attribution AI Math Experiments. It has not undergone external specialist
+review or peer review. The archive records separate Phase 1 research,
+Validation V1, manuscript criticism, and publication/reproduction criticism;
+these are internal reviews. No human author, affiliation, expert reviewer,
+or unsupported model configuration is asserted.
 
-This manuscript was prepared with AI assistance under the neutral project
-attribution AI Math Experiments. No human author, affiliation, external
-reviewer, or unsupported model configuration is asserted. All reused
-mathematics is attributed to the cited sources. The repository retains
+Recorded literature searches, including alternative formulations and related
+HNS applications, found no exact prior equivalent. Originality and priority
+are not established: inaccessible or unindexed material and specialist
+knowledge remain possible sources of prior art. The general Tuza conjecture
+remains open.
+
+All reused mathematics is attributed to the cited sources. The repository retains
 the proof sources, a complete Markdown exposition, reproducible checks,
 and sanitized research findings; generated PDFs and dependency caches
 are excluded from its text-only publication tree.

@@ -20,7 +20,9 @@ The original Phase 1 and Validation V1 private archives remain preserved. Git re
 
 ## Hashes and transformations
 
-[SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json) records the exact hashes of controlling private research/validation inputs using archive-relative source names, the unchanged Lean/configuration mappings, and the specific report selections/portability edits. [FILES.sha256](FILES.sha256) hashes every retained TUZA-01 file except itself; run [verify_inventory.py](verify_inventory.py) to check both completeness and content. The [reviewed manuscript hashes](../research-notes/MANUSCRIPT_REVIEW.md) bind the mathematical review to the exact final source.
+[SOURCE_PROVENANCE.json](SOURCE_PROVENANCE.json) records the exact hashes of controlling private research/validation inputs using archive-relative source names, the unchanged Lean/configuration mappings, and the specific report selections/portability edits. [FILES.sha256](FILES.sha256) hashes every retained TUZA-01 file except itself; run [verify_inventory.py](verify_inventory.py) to check both completeness and content. The [original publication's manuscript-review record](../research-notes/MANUSCRIPT_REVIEW.md) retains the hashes and scope of that review unchanged.
+
+The [editorial revision record](EDITORIAL_REVISION.md) documents the later result-first presentation, relocation of manuscript disclosures, regenerated Markdown and private PDF, and checks that the abstract, mathematical sections, Lean package, bibliography and earlier research/verification records remain unchanged. It distinguishes the current manuscript bytes from the original publication's preserved review hashes; this editorial correction is not a new mathematical or novelty review.
 
 ## Intentionally excluded
 

@@ -9,7 +9,7 @@ The method is to identify a problem and check its reported open status, let AI s
 | Experiment | Outcome | Read |
 |---|---|---|
 | A113010: digit-count fixed points | Original conjecture unresolved; partial Lean results and finite evidence | [Archive](problems/A113010/README.md) |
-| TUZA-01: triangle deletion and Tuza | Unrefereed proof manuscript; conditional Lean checking; novelty unconfirmed | [Paper and archive](problems/TUZA-01/README.md) |
+| TUZA-01: triangle deletion and Tuza | Triangle-deletion criterion for Tuza's inequality; OCT ≤ 4 and fixed c < 5/2 density corollaries | [Paper and archive](problems/TUZA-01/README.md) |
 
 ## A113010: digit-count fixed points
 
@@ -27,9 +27,11 @@ Successful in-session Lean checks are **not the same as independent external pro
 
 ## TUZA-01: triangle-deletion criterion
 
-The [TUZA-01 manuscript](problems/TUZA-01/manuscript/README.md) derives Tuza's inequality when deleting the edges of one triangle leaves a 3-partite triangle hypergraph, and consequently when deleting at most four vertices leaves a bipartite graph. A detailed adaptation of Liu–Zeng's preprint gives a fixed-deficit density corollary for each fixed real `c < 5/2` and sufficiently large order depending on `c`; the endpoint is not established.
+The [TUZA-01 manuscript](problems/TUZA-01/manuscript/README.md) proves the following criterion: for a finite simple graph $G$ and a triangle $T$, if the triangle hypergraph of $G-E(T)$ is 3-partite, then $\tau(G)\le2\nu(G)$. Its ordinary mathematical proof derives this result from [Aharoni's published bound](https://doi.org/10.1007/s004930170001) and the [Haxell–Narins–Szabó equality characterization](https://doi.org/10.1016/j.jcta.2018.04.004). The key step selects a maximum packing in the remainder that is compatible with every triangle introduced by restoring $T$.
 
-**This is an AI-assisted, unrefereed manuscript.** No external specialist review occurred; novelty remains unconfirmed. Lean checks the new triangle-deletion and OCT-four deductions conditionally on explicitly named published Aharoni/HNS inputs, whose deep proofs and graphical HNS extraction are not formalized. The density corollary is not Lean-formalized. The general Tuza conjecture remains open. [Reproduction and trust boundary](problems/TUZA-01/reproduction/README.md).
+Two consequences follow: Tuza's inequality holds when deleting at most four vertices leaves a bipartite graph; and, by a detailed adaptation of [Liu–Zeng's proof](https://arxiv.org/abs/2610.15539v1), for every fixed real `c < 5/2` there is `N(c)` such that every `n ≥ N(c)` and every `n`-vertex graph with `e(G) ≥ n²/4 − cn` satisfies the inequality. The endpoint `c = 5/2` is not established.
+
+**Verification and provenance.** This is AI-assisted research with no external specialist review. Recorded searches found no prior equivalent, but originality is not established. Lean checks the new triangle-deletion and OCT-four deductions with the published Aharoni/HNS inputs represented by explicit theorem parameters; their deep proofs, the graphical HNS extraction, and the density corollary are not formalized. The general Tuza conjecture remains open. [Reproduction scope](problems/TUZA-01/reproduction/README.md).
 
 ## Further experiments
 
