@@ -1,0 +1,27 @@
+def Tuza.AharoniInput.{u_1} : {V : Type u_1} → [Fintype V] → [DecidableEq V] → Prop :=
+fun {V} [Fintype V] [DecidableEq V] =>
+  ∀ (G : SimpleGraph V), Tuza.TriangleTripartite G → Tuza.tau (Tuza.triangles G) ≤ 2 * Tuza.nu (Tuza.triangles G)
+def Tuza.HNSInput.{u_1} : {V : Type u_1} → [Fintype V] → [DecidableEq V] → Prop :=
+fun {V} [Fintype V] [DecidableEq V] =>
+  ∀ (G : SimpleGraph V),
+    Tuza.TriangleTripartite G →
+      Tuza.tau (Tuza.triangles G) = 2 * Tuza.nu (Tuza.triangles G) →
+        ∃ K, (∀ k ∈ K, G.IsNClique 4 k) ∧ Tuza.Independent K ∧ K.card = Tuza.nu (Tuza.triangles G)
+def Tuza.OCTAtMostFour.{u_1} : {V : Type u_1} → SimpleGraph V → Prop :=
+fun {V} G => ∃ S, S.card ≤ 4 ∧ (SimpleGraph.induce (↑S)ᶜ G).Colorable 2
+Tuza.triangle_deletion.{u_1} {V : Type u_1} [Fintype V] [DecidableEq V] (aharoni : Tuza.AharoniInput)
+  (hns : Tuza.HNSInput) (G : SimpleGraph V) (U : Finset V) (hT : G.IsNClique 3 U)
+  (htrip : Tuza.TriangleTripartite (Tuza.deleteTriangle G U)) :
+  Tuza.tau (Tuza.triangles G) ≤ 2 * Tuza.nu (Tuza.triangles G)
+Tuza.oct_four.{u_1} {V : Type u_1} [Fintype V] [DecidableEq V] (aharoni : Tuza.AharoniInput) (hns : Tuza.HNSInput)
+  (G : SimpleGraph V) (hOCT : Tuza.OCTAtMostFour G) : Tuza.tau (Tuza.triangles G) ≤ 2 * Tuza.nu (Tuza.triangles G)
+Tuza.graph_min_cover.{u_1} {V : Type u_1} [Fintype V] [DecidableEq V] (G : SimpleGraph V) :
+  ∃ C, Tuza.Covers (Tuza.triangles G) C ∧ C.card = Tuza.tau (Tuza.triangles G) ∧ ∀ e ∈ C, G.IsNClique 2 e
+'Tuza.triangle_deletion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza.oct_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza.graph_min_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza.Sanity.K4_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza.Sanity.K5_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza.Sanity.C5_parameters' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza.Sanity.K5_not_four_colorable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza.Sanity.K5_deletion_tripartite' depends on axioms: [propext, Classical.choice, Quot.sound]
