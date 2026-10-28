@@ -40,7 +40,7 @@ tectonic --reruns 2 --keep-logs --keep-intermediates TuzaTriangleDeletion.tex
 
 Exit code: **0**. It ran TeX, BibTeX, two requested TeX reruns, and xdvipdfmx. The final engine log has no missing-glyph, undefined-reference/citation, overfull, or underfull warning. Tectonic's initial automatic-rerun mode issued a bibliography change-bookkeeping warning despite populated references; fixed reruns produced the final PDF without that warning. No source theorem was weakened to obtain compilation.
 
-All eight rendered pages were visually inspected, including display equations and bibliography. Text extraction found no replacement characters, unfilled citation markers, or missing bibliography items. The Markdown rendering was regenerated from the canonical TeX/BibTeX and independently compared for mathematical fidelity. Display blocks have no internal blank lines. The generated PDF, page images, build logs and Tectonic executable remain private build artifacts.
+All eight rendered pages were visually inspected, including display equations and bibliography. Text extraction found no replacement characters, unfilled citation markers, or missing bibliography items. The Markdown rendering was regenerated from the canonical TeX/BibTeX and independently compared for mathematical fidelity. Display blocks have no internal blank lines. The renderer uses equivalent named set delimiters, roman `oct`, thin-space and less-than commands to avoid GitHub-specific Markdown/math parsing issues found during live inspection; the canonical TeX/PDF and mathematical content are unchanged. The generated PDF, page images, build logs and Tectonic executable remain private build artifacts.
 
 ## Review and integrity
 

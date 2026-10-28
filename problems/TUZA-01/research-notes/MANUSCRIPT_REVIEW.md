@@ -14,12 +14,12 @@ An independent mathematical critic was assigned a skeptical read of the complete
 
 Two DOI typos were identified and corrected. The middle-case internal-edge count was made more explicit by naming the packed triangles meeting the exceptional set at least twice. Blank lines inside Markdown display blocks were removed. A final review of those changes found no objection.
 
-Reviewed source SHA-256 values (Markdown subsequently normalized only by stripping trailing whitespace):
+Final manuscript source SHA-256 values. The critic reviewed the canonical TeX/BibTeX and the same Markdown proof text before final whitespace and equivalent GitHub-notation normalization; the principal checked those deterministic rendering substitutions.
 
 ```text
 c1ab985e04ad3efec315555d230ea92052500523c53bd25bdb139aef92421f17  manuscript/TuzaTriangleDeletion.tex
 d5a7eb1ff401b5064e52c47fe52431b2380d88c92baf9c4903a4a33c198a733e  manuscript/references.bib
-b48feec918fb26945a8e877f9bcda43b245e0a1a9c80fd6c8d1146d82f4dc5e4  manuscript/README.md
+23e20b01cfa361da6b3decff538b6ae86a318c76ae8174fb678dbd8cf0386ceb  manuscript/README.md
 ```
 
 This finding does not independently reprove the published deep theorems, certify novelty, discharge the Lean hypotheses, formalize density, or imply specialist endorsement. The actual proof and cited input statements, rather than agreement among agents, are the mathematical evidence.
