@@ -1,0 +1,2355 @@
+{
+  "status": "PASS",
+  "finished_utc": "2026-10-29T09:54:21.479749+00:00",
+  "seconds": 158.628,
+  "compiler": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "dependency_pins": [
+    {
+      "name": "mathlib",
+      "rev": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "tracked_clean": true
+    },
+    {
+      "name": "plausible",
+      "rev": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+      "tracked_clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "rev": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+      "tracked_clean": true
+    },
+    {
+      "name": "importGraph",
+      "rev": "16f02aa7642864af59f1ff0e384a015994db9118",
+      "tracked_clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "rev": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+      "tracked_clean": true
+    },
+    {
+      "name": "aesop",
+      "rev": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+      "tracked_clean": true
+    },
+    {
+      "name": "Qq",
+      "rev": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+      "tracked_clean": true
+    },
+    {
+      "name": "batteries",
+      "rev": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+      "tracked_clean": true
+    },
+    {
+      "name": "Cli",
+      "rev": "6130a47896ce867c6a4a55373441e59e565bad0f",
+      "tracked_clean": true
+    }
+  ],
+  "source_hashes": [
+    {
+      "file": "Tuza/Basic.lean",
+      "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc"
+    },
+    {
+      "file": "Tuza/Boundary.lean",
+      "sha256": "805b80d77b1e70da637816dc0211b31a84b9dc23747f00821c35e117251b2621"
+    },
+    {
+      "file": "Tuza/BoundaryIntegral.lean",
+      "sha256": "de722cea4573ffb26c61e177eabcb2de55f749f4dbfb33149e038f713f44fc37"
+    },
+    {
+      "file": "Tuza/BowtieEquality.lean",
+      "sha256": "851a8b1ceaf3949f8c5d2b531402a8ba5699126233ae3bf619ddebd208b0028c"
+    },
+    {
+      "file": "Tuza/Coloring.lean",
+      "sha256": "0253a4a8955dc374dae31c4db6757600ecb902be77f2be85ec5e0936e2c9402c"
+    },
+    {
+      "file": "Tuza/Equality.lean",
+      "sha256": "5eec327e1ae1705249f677df0d50f3f09e19e8767d5367163a33d0ba5910990f"
+    },
+    {
+      "file": "Tuza/Essential.lean",
+      "sha256": "29be74c373d344da265a8dbd83fd5ed419a4e12c621c2ceccc217aded77474c6"
+    },
+    {
+      "file": "Tuza/EssentialFourPages.lean",
+      "sha256": "a6193e0ee4076f4556b4c10afd4f6dc4407b84c127f85781e6a8867845c9fff0"
+    },
+    {
+      "file": "Tuza/EssentialPages.lean",
+      "sha256": "e7a5bb4f339e337494329626e582ee10bb3fb7749d70a593ad0c5caaf71a713b"
+    },
+    {
+      "file": "Tuza/EssentialRestoration.lean",
+      "sha256": "cb12c674907184e0df9d5e74c04f465c622c1c6c5fab660fbd92de045e5c10b0"
+    },
+    {
+      "file": "Tuza/Graph.lean",
+      "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a"
+    },
+    {
+      "file": "Tuza/Intersecting.lean",
+      "sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923"
+    },
+    {
+      "file": "Tuza/IntersectingStructure.lean",
+      "sha256": "15669245659268212e376d29cd37ac60d854139c5337907c5d5c5c94f3d11357"
+    },
+    {
+      "file": "Tuza/Lifting.lean",
+      "sha256": "d5fa7c64911d88b3171c47f01c4c5d5267a81fca0792c6b629d9e209f4632f7e"
+    },
+    {
+      "file": "Tuza/OCT.lean",
+      "sha256": "0e47fde5b590c6cd1e82ecfee6e3362d704eebdd91b47c46c110522fba37f15b"
+    },
+    {
+      "file": "Tuza/Sanity.lean",
+      "sha256": "89592b771275244c3640930fe22916873f16a7ddf642dae0891233d3fcc65912"
+    },
+    {
+      "file": "Tuza/TwoTriangle.lean",
+      "sha256": "bfc974d2156973d6899717f1dc3a564a34cffd8e115ca7890c0442b7b58a0849"
+    },
+    {
+      "file": "Tuza.lean",
+      "sha256": "0fb1d358685f343374c651f11a5431552bcbd20e06dd150e2fbe517c255c19b2"
+    },
+    {
+      "file": "lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+    },
+    {
+      "file": "lake-manifest.json",
+      "sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d"
+    },
+    {
+      "file": "lakefile.toml",
+      "sha256": "0d0a3ba092fb505bd91076ceb8662012d995ded8c2931ebb0180460ffb2e9ba7"
+    }
+  ],
+  "theorems": [
+    {
+      "name": "Tuza.mem_edges",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.edges_mono",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.edges_nonempty",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.packing_empty",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.packing_card_le",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.exists_max_packing",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.packing_mono",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.nu_mono",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.covers_mono",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.tau_le_card",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.exists_cover",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.exists_min_cover",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.triangles_mono",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.tau_mono",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.covers_union",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.tau_union_le",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.independent_mono",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.packing_singleton",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.nu_pos",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.packing_union",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.cross_disjoint",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.nu_union_lower",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.covers_trim",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.exists_min_cover_supported",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.nu_le_of_packings",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.le_tau_of_covers",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.nu_empty",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.tau_empty",
+      "file": "Tuza/Basic.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.deleteEdges_le",
+      "file": "Tuza/Boundary.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.tripartite_mono",
+      "file": "Tuza/Boundary.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.deleted_pair_not_in_triangle",
+      "file": "Tuza/Boundary.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.lost_has_deleted_edge",
+      "file": "Tuza/Boundary.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_lost_triangle",
+      "file": "Tuza/Boundary.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_boundary_face",
+      "file": "Tuza/Boundary.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_boundary_faces",
+      "file": "Tuza/Boundary.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.tau_deleteEdges_le",
+      "file": "Tuza/Boundary.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_boundary_stability",
+      "file": "Tuza/Boundary.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.terminalSpokes_sub",
+      "file": "Tuza/BoundaryIntegral.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.terminalSpokes_eq",
+      "file": "Tuza/BoundaryIntegral.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_lost_spokes",
+      "file": "Tuza/BoundaryIntegral.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_spokes_recover",
+      "file": "Tuza/BoundaryIntegral.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_spokes_injective",
+      "file": "Tuza/BoundaryIntegral.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_spokes_disjoint",
+      "file": "Tuza/BoundaryIntegral.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_lost_cover_le_packing",
+      "file": "Tuza/BoundaryIntegral.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_boundary_equality_deletion",
+      "file": "Tuza/BoundaryIntegral.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.closed_boundary_packing_loss",
+      "file": "Tuza/BoundaryIntegral.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.bowtie_mixed_triple",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.bowtie_column_exclusion",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.cover_enlarge_restoration",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.new_cover_of_individuals_and_mixed",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.triple_first_edge",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.triple_second_edge",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.bowtie_edges_disjoint",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.bowtie_new_cover_first_nontrivial",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.bowtie_new_cover",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.two_triangle_equality_bowtie",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.edge_disjoint_triangle_vertex_cases",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.two_triangle_exact_equality",
+      "file": "Tuza/BowtieEquality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.four_color_tripartite",
+      "file": "Tuza/Coloring.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.small_trianglefree_bipartite",
+      "file": "Tuza/Coloring.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.k4_face_avoiding_external_triangle",
+      "file": "Tuza/Equality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.maximum_k4_exhaustion",
+      "file": "Tuza/Equality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.equality_k4_exhaustion",
+      "file": "Tuza/Equality.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_cover_deletion",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_deletion_equality",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_opposite_cover",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_lost_page",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_not_both_endpoints",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_spoke_identity",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_block_same",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_same_page_at_endpoint",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_block_touch_unique_oriented",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_block_touch_unique",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_block_cover",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_cover_when_all_pages_touch",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_free_page",
+      "file": "Tuza/Essential.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_same_apex_disjoint",
+      "file": "Tuza/EssentialFourPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_triangles_ne",
+      "file": "Tuza/EssentialFourPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_four_packing",
+      "file": "Tuza/EssentialFourPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_four_pages_from_bases",
+      "file": "Tuza/EssentialFourPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_two_bases",
+      "file": "Tuza/EssentialFourPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_four_pages",
+      "file": "Tuza/EssentialFourPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_three_set_hall",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_mem_apices",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_new_page_decomposition",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_page_mem",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_distinct_pages_disjoint",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_injective_apices_packing",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_empty_base_cover",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_same_apex_cover",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_apices_nonempty",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_apices_pair_large",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_apices_union_small",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_apices_union_large",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_apex_universal",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.essential_two_apex_classification",
+      "file": "Tuza/EssentialPages.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_independent_inter_card",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_base_avoiding",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_other_base",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_page_avoids_old",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_two_bases_avoid_old",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_packings_sum",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_three_packing",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_nonadjacent_apex_gain",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_two_terminals_avoid_edge",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_adjacent_apex_pair",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_tight_essential_endpoints",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.two_triangle_essential_family_saving",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_cover_by_new",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.two_triangle_essential_edge_restoration",
+      "file": "Tuza/EssentialRestoration.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.mem_triangles",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.triangles_valid",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.supported_edge_is_graph_edge",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.graph_min_cover",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.delete_le",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.delete_independent",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.triangles_mono_graph",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.deleted_edges_disjoint",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.new_triangle_removed_edge",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.avoid_new_triangle",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.k4_face_avoiding",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.k4_packing_faces",
+      "file": "Tuza/Graph.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.third_vertex",
+      "file": "Tuza/Intersecting.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.outside_common_edge",
+      "file": "Tuza/Intersecting.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.intersecting_cover",
+      "file": "Tuza/Intersecting.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.nu_one_intersecting",
+      "file": "Tuza/Intersecting.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.tau_le_two_of_nu_one",
+      "file": "Tuza/Intersecting.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.intersecting_k4_structure",
+      "file": "Tuza/IntersectingStructure.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.k4_opposite_cover",
+      "file": "Tuza/IntersectingStructure.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.intersecting_prescribed_cover",
+      "file": "Tuza/IntersectingStructure.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.triangle_deletion",
+      "file": "Tuza/Lifting.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.merge_colors_proper",
+      "file": "Tuza/OCT.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.deleted_small_set_bipartite",
+      "file": "Tuza/OCT.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.oct_four",
+      "file": "Tuza/OCT.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.Sanity.triangles_K4",
+      "file": "Tuza/Sanity.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.Sanity.triangles_K5",
+      "file": "Tuza/Sanity.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.Sanity.K4_parameters",
+      "file": "Tuza/Sanity.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.Sanity.K5_parameters",
+      "file": "Tuza/Sanity.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.Sanity.triangles_C5",
+      "file": "Tuza/Sanity.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.Sanity.C5_parameters",
+      "file": "Tuza/Sanity.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.Sanity.K5_not_four_colorable",
+      "file": "Tuza/Sanity.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.Sanity.K5_deletion_tripartite",
+      "file": "Tuza/Sanity.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.deleteTriangle_comm",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.triangle_survives_delete",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.one_restoration_packing_gain",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restoration_new_cover_three",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.one_restoration_cover_bound",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.equality_restoration_packing_separation",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.restored_triangle_in_new_family",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.equality_individual_family_nu_one",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.triangles_union_of_vertex_disjoint",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    {
+      "name": "Tuza.two_triangle_equality_vertex_disjoint",
+      "file": "Tuza/TwoTriangle.lean",
+      "raw_axioms": "propext, Classical.choice.{u}, Quot.sound.{u}",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    }
+  ],
+  "build_order": [
+    "Tuza.Basic",
+    "Tuza.Intersecting",
+    "Tuza.Graph",
+    "Tuza.Lifting",
+    "Tuza.Boundary",
+    "Tuza.BoundaryIntegral",
+    "Tuza.TwoTriangle",
+    "Tuza.IntersectingStructure",
+    "Tuza.BowtieEquality",
+    "Tuza.Coloring",
+    "Tuza.Equality",
+    "Tuza.Essential",
+    "Tuza.EssentialPages",
+    "Tuza.EssentialFourPages",
+    "Tuza.EssentialRestoration",
+    "Tuza.OCT",
+    "Tuza.Sanity",
+    "Tuza"
+  ],
+  "kernel_replay": true,
+  "method": "fresh project source rebuild; existing pinned compiled dependencies reused; per-module replay is Lean kernel replay, not an external verifier or a cold dependency rebuild",
+  "commands": [
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "exit_code": 0,
+      "seconds": 2.145
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/mathlib",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/mathlib",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "seconds": 0.013
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/plausible",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/plausible",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/LeanSearchClient",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "seconds": 0.001
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/LeanSearchClient",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/importGraph",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "seconds": 0.001
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/importGraph",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/proofwidgets",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "seconds": 0.001
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/proofwidgets",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/aesop",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "seconds": 0.001
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/aesop",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/Qq",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "seconds": 0.001
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/Qq",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/batteries",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "seconds": 0.001
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/batteries",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/Cli",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "seconds": 0.001
+    },
+    {
+      "command": [
+        "git",
+        "-C",
+        "<dependency-cache>/Cli",
+        "status",
+        "--porcelain",
+        "--untracked-files=no"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/Basic.olean",
+        "Tuza/Basic.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 2.531
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/Intersecting.olean",
+        "Tuza/Intersecting.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 2.25
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/Graph.olean",
+        "Tuza/Graph.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 2.532
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/Lifting.olean",
+        "Tuza/Lifting.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 2.5
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/Boundary.olean",
+        "Tuza/Boundary.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 6.263
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/BoundaryIntegral.olean",
+        "Tuza/BoundaryIntegral.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 4.575
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/TwoTriangle.olean",
+        "Tuza/TwoTriangle.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 2.864
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/IntersectingStructure.olean",
+        "Tuza/IntersectingStructure.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 3.558
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/BowtieEquality.olean",
+        "Tuza/BowtieEquality.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 7.483
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/Coloring.olean",
+        "Tuza/Coloring.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 7.445
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/Equality.olean",
+        "Tuza/Equality.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 2.365
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/Essential.olean",
+        "Tuza/Essential.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 3.504
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/EssentialPages.olean",
+        "Tuza/EssentialPages.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 3.758
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/EssentialFourPages.olean",
+        "Tuza/EssentialFourPages.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 3.223
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/EssentialRestoration.olean",
+        "Tuza/EssentialRestoration.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 4.542
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/OCT.olean",
+        "Tuza/OCT.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 2.109
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza/Sanity.olean",
+        "Tuza/Sanity.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 9.317
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Tuza.olean",
+        "Tuza.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 1.873
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "-j",
+        "1",
+        "-o",
+        ".lake/build/lib/lean/Verification.olean",
+        "Verification.lean"
+      ],
+      "exit_code": 0,
+      "seconds": 2.59
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.Basic"
+      ],
+      "exit_code": 0,
+      "seconds": 5.054
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.Intersecting"
+      ],
+      "exit_code": 0,
+      "seconds": 4.27
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.Graph"
+      ],
+      "exit_code": 0,
+      "seconds": 4.359
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.Lifting"
+      ],
+      "exit_code": 0,
+      "seconds": 4.65
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.Boundary"
+      ],
+      "exit_code": 0,
+      "seconds": 4.533
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.BoundaryIntegral"
+      ],
+      "exit_code": 0,
+      "seconds": 4.435
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.TwoTriangle"
+      ],
+      "exit_code": 0,
+      "seconds": 4.269
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.IntersectingStructure"
+      ],
+      "exit_code": 0,
+      "seconds": 4.236
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.BowtieEquality"
+      ],
+      "exit_code": 0,
+      "seconds": 4.951
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.Coloring"
+      ],
+      "exit_code": 0,
+      "seconds": 6.345
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.Equality"
+      ],
+      "exit_code": 0,
+      "seconds": 4.606
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.Essential"
+      ],
+      "exit_code": 0,
+      "seconds": 4.536
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.EssentialPages"
+      ],
+      "exit_code": 0,
+      "seconds": 4.51
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.EssentialFourPages"
+      ],
+      "exit_code": 0,
+      "seconds": 4.488
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.EssentialRestoration"
+      ],
+      "exit_code": 0,
+      "seconds": 4.85
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.OCT"
+      ],
+      "exit_code": 0,
+      "seconds": 4.397
+    },
+    {
+      "command": [
+        "lake",
+        "env",
+        "leanchecker",
+        "-v",
+        "Tuza.Sanity"
+      ],
+      "exit_code": 0,
+      "seconds": 6.614
+    }
+  ]
+}

@@ -1,0 +1,526 @@
+{
+  "base_repository": "https://github.com/pappa211/ai-math-experiments",
+  "base_commit": "78462f29a64ef04714f0f2e42aaf42684057e7d9",
+  "proposed_branch": "codex/tuza-consolidated-verification",
+  "git_history_included": false,
+  "tuza01_changes": false,
+  "publication_authorized": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "transformation": "existing public repository license retained",
+      "source": "provenance/PUBLIC_LICENSE",
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "problems/TUZA-02/README.md",
+      "sha256": "9e7f3e94ae9c097af06af7336aa13d3d729cd14b58086355d1382e391e298517",
+      "transformation": "generated verification artifact"
+    },
+    {
+      "path": "problems/TUZA-02/experiments/independent_certificates.json",
+      "sha256": "34165125a47e40dab93c8294eb81582bd7872da571b976327be26239103774a2",
+      "transformation": "independent checker/reproduced certificate; text only",
+      "source": "certificates/replay/baseline/TUZA-02/checks/independent_certificates.json",
+      "original_sha256": "34165125a47e40dab93c8294eb81582bd7872da571b976327be26239103774a2"
+    },
+    {
+      "path": "problems/TUZA-02/experiments/independent_certificates.py",
+      "sha256": "40e63e89c0a9f57fb91566ab26aca10e1546914cabda6b31462dd129a82ecd52",
+      "transformation": "independent checker/reproduced certificate; text only",
+      "source": "certificates/replay/baseline/TUZA-02/checks/independent_certificates.py",
+      "original_sha256": "40e63e89c0a9f57fb91566ab26aca10e1546914cabda6b31462dd129a82ecd52"
+    },
+    {
+      "path": "problems/TUZA-02/provenance/ORIGINAL_REPORT_EXCERPT.md",
+      "sha256": "e9a154e0f12b137a76c2daf7a410423bf9ff24c04874e94b051b7c26233e1051",
+      "transformation": "selected original report sections; planning/private context omitted",
+      "source": "snapshots/TUZA-02/REPORT.md",
+      "original_sha256": "22d80945adf9ed6264b87f2a0e500969ceca66caba6642f32ca60fc4d035b43f"
+    },
+    {
+      "path": "problems/TUZA-02/research/adversarial/FAMILY_CLASSIFICATION.md",
+      "sha256": "7bdb2ddbac12df260640c4654ba89c6181b517091e844cd72504d6cdddc0a836",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/adversarial/FAMILY_CLASSIFICATION.md",
+      "original_sha256": "90bbc757238436fceb1e68a9b5734ee42dfc22c41f833487224d7eb5bfa47887"
+    },
+    {
+      "path": "problems/TUZA-02/research/adversarial/FULL_FAMILY_DEFINITION_COUNTEREXAMPLE.md",
+      "sha256": "c464f5d3da6bc925c74e6c751681f57f695494b184031ab17f668907881e0ad1",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/adversarial/FULL_FAMILY_DEFINITION_COUNTEREXAMPLE.md",
+      "original_sha256": "a63e40379124fca46e5c5caf8085ce82e22ca85c410e5f94610f2fc3f069ee3c"
+    },
+    {
+      "path": "problems/TUZA-02/research/adversarial/STAR_CORE_OBSTRUCTION.md",
+      "sha256": "ae817cce00efee24004bb427710744b5ebf0a5e23d5921d9665892a1b098b8d0",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/adversarial/STAR_CORE_OBSTRUCTION.md",
+      "original_sha256": "bec98cc819ab5e71ee966fed970475ca3950334c8b0c5e942defd117c64c55a8"
+    },
+    {
+      "path": "problems/TUZA-02/research/literature/FLAT_REMAINDER_DEDUCTION.md",
+      "sha256": "fcc211c755b984792add85438bd2af1652b9b705573885cb680fb8731b73c5f6",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/literature/FLAT_REMAINDER_DEDUCTION.md",
+      "original_sha256": "d7a08c82ba990a4f3b2965a45a504b66c39a2f9576883c8c4cb9b93f6b0df010"
+    },
+    {
+      "path": "problems/TUZA-02/research/proof/BOOK_COMPONENT_BOWTIE.md",
+      "sha256": "6316fa4ccd2180d453d9666663427fd875616fad2b5e9b3f23a8acebda669252",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/proof/BOOK_COMPONENT_BOWTIE.md",
+      "original_sha256": "558632af4bc17f96379332012066c9c98ddc2c43ff56114233bd13ce8acd5d29"
+    },
+    {
+      "path": "problems/TUZA-02/research/proof/ESSENTIAL_EDGE_RESTORATION.md",
+      "sha256": "5e8c9c9c8b96464eb71b1bd8586621f8792e8d8973c285ce4e08375303ce25f1",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/proof/ESSENTIAL_EDGE_RESTORATION.md",
+      "original_sha256": "993dc3707ff6f58ca52b8c889e078653fb87c896edcf65b3c2ebfccb0eda68de"
+    },
+    {
+      "path": "problems/TUZA-02/research/proof/K4_STAR_DEFECTS.md",
+      "sha256": "3a785ad652dee2ec1e6ec715738a165a59b3ac6ace7b5a1eeefd9d910059fe5d",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/proof/K4_STAR_DEFECTS.md",
+      "original_sha256": "ef3a0c2006943f9a243b61a45c27524ee04f798565f8dc44ffb1273ff61c1db0"
+    },
+    {
+      "path": "problems/TUZA-02/research/proof/SHARED_EDGE_K4_DEFECT.md",
+      "sha256": "d3fb85b442e6337c6d715bbe51193cc6adf331ceff0f7a59858b4b061dea2fc0",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/proof/SHARED_EDGE_K4_DEFECT.md",
+      "original_sha256": "d7bef8edb647d651fd5db8aab7c89289b5141b9f763ff56e1cda049aa9112a26"
+    },
+    {
+      "path": "problems/TUZA-02/research/proof/STRUCTURAL_REDUCTION.md",
+      "sha256": "72d48034fe70e49e58d0eb42956efdca8a927664e19cfa4707e68c5600657195",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/proof/STRUCTURAL_REDUCTION.md",
+      "original_sha256": "7302c4c58806b6540e4932f75113ffd93e4d44dc9e96d5dccd95b35f8545f90f"
+    },
+    {
+      "path": "problems/TUZA-02/research/review/INDEPENDENT_PROOF_AND_SCOPE_AUDIT.md",
+      "sha256": "f892d260e192ecfb1bccfe4202eea69d90c0c7d19997d00ce312c0d586774057",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-02/review/INDEPENDENT_PROOF_AND_SCOPE_AUDIT.md",
+      "original_sha256": "8d62b88abeedd8897cda2206a5a0b41a797af40f14de268ed4c48132a696801a"
+    },
+    {
+      "path": "problems/TUZA-03/CONSOLIDATED_MANUSCRIPT.md",
+      "sha256": "e7191ab1cedee8bc5a089a1a7a8c80b9892c79d779f1bf9accc89fd6df380e59",
+      "transformation": "verification report, execution context sanitized",
+      "source": "CONSOLIDATED_MANUSCRIPT.md",
+      "original_sha256": "e7191ab1cedee8bc5a089a1a7a8c80b9892c79d779f1bf9accc89fd6df380e59"
+    },
+    {
+      "path": "problems/TUZA-03/FINAL_ASSESSMENT.md",
+      "sha256": "0c751fca5d69d81defd247b970292141a55a19064eb688658f4992417efb2551",
+      "transformation": "verification report, execution context sanitized",
+      "source": "FINAL_ASSESSMENT.md",
+      "original_sha256": "0c751fca5d69d81defd247b970292141a55a19064eb688658f4992417efb2551"
+    },
+    {
+      "path": "problems/TUZA-03/LEAN_VERIFICATION.md",
+      "sha256": "22c2b237220619a8a0dbeead90669b6918d1233ce55817388d062281723041bb",
+      "transformation": "verification report, execution context sanitized",
+      "source": "LEAN_VERIFICATION.md",
+      "original_sha256": "717835d9e700265caff25ba0d7b7ceb3685e866512daa4e9963aa612ed084114"
+    },
+    {
+      "path": "problems/TUZA-03/MATHEMATICAL_AUDIT.md",
+      "sha256": "606386e9ac9c36ec37a83c57169783cbfd58f2acc96bde16c517e70d716e72d5",
+      "transformation": "verification report, execution context sanitized",
+      "source": "MATHEMATICAL_AUDIT.md",
+      "original_sha256": "606386e9ac9c36ec37a83c57169783cbfd58f2acc96bde16c517e70d716e72d5"
+    },
+    {
+      "path": "problems/TUZA-03/PUBLICATION_READINESS.md",
+      "sha256": "49eb366ac8dd255b1e451757e47a3ffc603335b5b233b8f76e8633eb7bb31ad4",
+      "transformation": "verification report, execution context sanitized",
+      "source": "PUBLICATION_READINESS.md",
+      "original_sha256": "49eb366ac8dd255b1e451757e47a3ffc603335b5b233b8f76e8633eb7bb31ad4"
+    },
+    {
+      "path": "problems/TUZA-03/README.md",
+      "transformation": "generated publication navigation/reproduction instructions",
+      "sha256": "9b582083a0d5288ec21d81b78cf9acdb4c1f98795731062cc60aeb86a0a0a5af"
+    },
+    {
+      "path": "problems/TUZA-03/THEOREM_INVENTORY.md",
+      "sha256": "63d5c3cc8da8c2cc1b83c794dd93aabff736561e65e8e3de984218d927ee21d0",
+      "transformation": "verification report, execution context sanitized",
+      "source": "THEOREM_INVENTORY.md",
+      "original_sha256": "63d5c3cc8da8c2cc1b83c794dd93aabff736561e65e8e3de984218d927ee21d0"
+    },
+    {
+      "path": "problems/TUZA-03/experiments/baseline/TUZA-02/checks/independent_certificates.json",
+      "sha256": "34165125a47e40dab93c8294eb81582bd7872da571b976327be26239103774a2",
+      "transformation": "independent checker or reviewed witness result; output path made portable where needed",
+      "source": "certificates/replay/baseline/TUZA-02/checks/independent_certificates.json",
+      "original_sha256": "34165125a47e40dab93c8294eb81582bd7872da571b976327be26239103774a2"
+    },
+    {
+      "path": "problems/TUZA-03/experiments/bowtie_witness_checks.json",
+      "sha256": "1b12102058424741a06615071cd162245fb48b4fd68903a4bb578186b3fcc380",
+      "transformation": "independent checker or reviewed witness result; output path made portable where needed",
+      "source": "certificates/bowtie_witness_checks.json",
+      "original_sha256": "1b12102058424741a06615071cd162245fb48b4fd68903a4bb578186b3fcc380"
+    },
+    {
+      "path": "problems/TUZA-03/experiments/certificates/selected.json",
+      "sha256": "54a8d2476a7c376191b63cb686855b5359006080bfa403d3dd39409da5a1a46e",
+      "transformation": "35 selected graph recurrence certificates, preserved exact certificate hashes"
+    },
+    {
+      "path": "problems/TUZA-03/experiments/check_bowtie_witnesses.py",
+      "sha256": "797394e0fe8857b432a9b90d98ae444cb7d45aabb438d77c9723f0675666144b",
+      "transformation": "independent checker or reviewed witness result; output path made portable where needed",
+      "source": "scripts/check_bowtie_witnesses.py",
+      "original_sha256": "ade7512159e8d10d5824bafd328bebaf8528ed7ac6be71fc14e078c7d5651957"
+    },
+    {
+      "path": "problems/TUZA-03/experiments/checks/verify_certificates.py",
+      "sha256": "6829252dcb3d75b280a5af900c7f245cdb7779e2d756c412dd28080ac754fb84",
+      "transformation": "independent checker or reviewed witness result; output path made portable where needed",
+      "source": "certificates/replay/checks/verify_certificates.py",
+      "original_sha256": "6829252dcb3d75b280a5af900c7f245cdb7779e2d756c412dd28080ac754fb84"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/Basic.lean",
+      "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/Basic.lean",
+      "original_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/Boundary.lean",
+      "sha256": "805b80d77b1e70da637816dc0211b31a84b9dc23747f00821c35e117251b2621",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/Boundary.lean",
+      "original_sha256": "805b80d77b1e70da637816dc0211b31a84b9dc23747f00821c35e117251b2621"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/BoundaryIntegral.lean",
+      "sha256": "de722cea4573ffb26c61e177eabcb2de55f749f4dbfb33149e038f713f44fc37",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/BoundaryIntegral.lean",
+      "original_sha256": "de722cea4573ffb26c61e177eabcb2de55f749f4dbfb33149e038f713f44fc37"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/BowtieEquality.lean",
+      "sha256": "851a8b1ceaf3949f8c5d2b531402a8ba5699126233ae3bf619ddebd208b0028c",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/BowtieEquality.lean",
+      "original_sha256": "851a8b1ceaf3949f8c5d2b531402a8ba5699126233ae3bf619ddebd208b0028c"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/Coloring.lean",
+      "sha256": "0253a4a8955dc374dae31c4db6757600ecb902be77f2be85ec5e0936e2c9402c",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/Coloring.lean",
+      "original_sha256": "0253a4a8955dc374dae31c4db6757600ecb902be77f2be85ec5e0936e2c9402c"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/Equality.lean",
+      "sha256": "5eec327e1ae1705249f677df0d50f3f09e19e8767d5367163a33d0ba5910990f",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/Equality.lean",
+      "original_sha256": "5eec327e1ae1705249f677df0d50f3f09e19e8767d5367163a33d0ba5910990f"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/Essential.lean",
+      "sha256": "29be74c373d344da265a8dbd83fd5ed419a4e12c621c2ceccc217aded77474c6",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/Essential.lean",
+      "original_sha256": "29be74c373d344da265a8dbd83fd5ed419a4e12c621c2ceccc217aded77474c6"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/EssentialFourPages.lean",
+      "sha256": "a6193e0ee4076f4556b4c10afd4f6dc4407b84c127f85781e6a8867845c9fff0",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/EssentialFourPages.lean",
+      "original_sha256": "a6193e0ee4076f4556b4c10afd4f6dc4407b84c127f85781e6a8867845c9fff0"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/EssentialPages.lean",
+      "sha256": "e7a5bb4f339e337494329626e582ee10bb3fb7749d70a593ad0c5caaf71a713b",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/EssentialPages.lean",
+      "original_sha256": "e7a5bb4f339e337494329626e582ee10bb3fb7749d70a593ad0c5caaf71a713b"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/EssentialRestoration.lean",
+      "sha256": "cb12c674907184e0df9d5e74c04f465c622c1c6c5fab660fbd92de045e5c10b0",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/EssentialRestoration.lean",
+      "original_sha256": "cb12c674907184e0df9d5e74c04f465c622c1c6c5fab660fbd92de045e5c10b0"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/Graph.lean",
+      "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/Graph.lean",
+      "original_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/Intersecting.lean",
+      "sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/Intersecting.lean",
+      "original_sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/IntersectingStructure.lean",
+      "sha256": "15669245659268212e376d29cd37ac60d854139c5337907c5d5c5c94f3d11357",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/IntersectingStructure.lean",
+      "original_sha256": "15669245659268212e376d29cd37ac60d854139c5337907c5d5c5c94f3d11357"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/Lifting.lean",
+      "sha256": "d5fa7c64911d88b3171c47f01c4c5d5267a81fca0792c6b629d9e209f4632f7e",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/Lifting.lean",
+      "original_sha256": "d5fa7c64911d88b3171c47f01c4c5d5267a81fca0792c6b629d9e209f4632f7e"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/OCT.lean",
+      "sha256": "0e47fde5b590c6cd1e82ecfee6e3362d704eebdd91b47c46c110522fba37f15b",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/OCT.lean",
+      "original_sha256": "0e47fde5b590c6cd1e82ecfee6e3362d704eebdd91b47c46c110522fba37f15b"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/Sanity.lean",
+      "sha256": "89592b771275244c3640930fe22916873f16a7ddf642dae0891233d3fcc65912",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/Sanity.lean",
+      "original_sha256": "89592b771275244c3640930fe22916873f16a7ddf642dae0891233d3fcc65912"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza/TwoTriangle.lean",
+      "sha256": "bfc974d2156973d6899717f1dc3a564a34cffd8e115ca7890c0442b7b58a0849",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza/TwoTriangle.lean",
+      "original_sha256": "bfc974d2156973d6899717f1dc3a564a34cffd8e115ca7890c0442b7b58a0849"
+    },
+    {
+      "path": "problems/TUZA-03/lean/Tuza.lean",
+      "sha256": "0fb1d358685f343374c651f11a5431552bcbd20e06dd150e2fbe517c255c19b2",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/Tuza.lean",
+      "original_sha256": "0fb1d358685f343374c651f11a5431552bcbd20e06dd150e2fbe517c255c19b2"
+    },
+    {
+      "path": "problems/TUZA-03/lean/lake-manifest.json",
+      "sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/lake-manifest.json",
+      "original_sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d"
+    },
+    {
+      "path": "problems/TUZA-03/lean/lakefile.toml",
+      "sha256": "0d0a3ba092fb505bd91076ceb8662012d995ded8c2931ebb0180460ffb2e9ba7",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/lakefile.toml",
+      "original_sha256": "0d0a3ba092fb505bd91076ceb8662012d995ded8c2931ebb0180460ffb2e9ba7"
+    },
+    {
+      "path": "problems/TUZA-03/lean/lean-toolchain",
+      "sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "transformation": "clean reproduced source; no compiled artifacts",
+      "source": "clean-reproduction-final/lean-toolchain",
+      "original_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71"
+    },
+    {
+      "path": "problems/TUZA-03/literature/SOURCE_AUDIT.md",
+      "sha256": "602cc357d46553be45d07391a29ad1e1d2366b087eacb56436b6a9d08b2ec052",
+      "transformation": "source scope and originality comparison; no third-party PDFs/HTML redistributed",
+      "source": "literature/FRESH_SOURCE_AUDIT.md",
+      "original_sha256": "602cc357d46553be45d07391a29ad1e1d2366b087eacb56436b6a9d08b2ec052"
+    },
+    {
+      "path": "problems/TUZA-03/provenance/CAMPAIGNS.md",
+      "sha256": "857ac4a31f179137edfe170161306c36acc9326b2afb7aea241552badf738887",
+      "transformation": "generated verification artifact"
+    },
+    {
+      "path": "problems/TUZA-03/reproduction/README.md",
+      "transformation": "generated publication navigation/reproduction instructions",
+      "sha256": "82864e699374c7081b34a7edd8ebfbc0b6175665d4c577ae261a6de08033ef52"
+    },
+    {
+      "path": "problems/TUZA-03/reproduction/build.log",
+      "sha256": "6dea413d0862c106db9b7222fc8ca79a285350b78d7643094dc2d1d6771c82ef",
+      "transformation": "executed build and replay log; absolute paths sanitized",
+      "source": "clean-reproduction-final/reproduction-output/build.log",
+      "original_sha256": "e403036d130a6c00f4d48965821c02ab095eab442398e2577b08706699bbb8ef"
+    },
+    {
+      "path": "problems/TUZA-03/reproduction/declarations-and-axioms.txt",
+      "sha256": "ccc5c403aa3952e6462138f319455d206a74a7561c8d78efe653d7b99199f336",
+      "transformation": "exact declaration and transitive axiom output",
+      "source": "clean-reproduction-final/reproduction-output/declarations-and-axioms.txt",
+      "original_sha256": "ccc5c403aa3952e6462138f319455d206a74a7561c8d78efe653d7b99199f336"
+    },
+    {
+      "path": "problems/TUZA-03/reproduction/reproduce_lean.py",
+      "sha256": "0c31bcbb96c5b8daa70d96d0c6f39f4024a2d3369d8f7e259c5a72805d560089",
+      "transformation": "portable serial reproduction script",
+      "source": "scripts/reproduce_lean.py",
+      "original_sha256": "0c31bcbb96c5b8daa70d96d0c6f39f4024a2d3369d8f7e259c5a72805d560089"
+    },
+    {
+      "path": "problems/TUZA-03/reproduction/verification.json",
+      "sha256": "e240a7d629e1fc115707e875a210541d2294169d7cc59de168469848530d80c6",
+      "transformation": "executed reproduction summary; absolute paths sanitized",
+      "source": "clean-reproduction-final/reproduction-output/verification.json",
+      "original_sha256": "c8b430eb53dc6ce7fbe9f4bac2a6982038e0aa59d40dae8ca6a938bc75f80ca1"
+    },
+    {
+      "path": "problems/TUZA-03/research/alternative/ADJACENT_APEX_MAXIMAL_COST.md",
+      "sha256": "c90a0b685b9c8123308315409159c40e69ec0257f018078bda60095a48848262",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/alternative/ADJACENT_APEX_MAXIMAL_COST.md",
+      "original_sha256": "09d3626c745c277abfca4ce71969ad84498fe36f856a5cc641be76732182dd05"
+    },
+    {
+      "path": "problems/TUZA-03/research/alternative/COMMON_APEX_BOWTIE_RESTORATION.md",
+      "sha256": "cd495540b5a1536f4a5455536121bb46bc2b6e53499c0c7e8ceb48b619697775",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/alternative/COMMON_APEX_BOWTIE_RESTORATION.md",
+      "original_sha256": "535c6d08c115e7e66c286f522eb023034fed585cf7fcf5290aac003245558a0b"
+    },
+    {
+      "path": "problems/TUZA-03/research/alternative/CROSS_APEX_DOUBLE_MIXED_BOWTIE.md",
+      "sha256": "6adfe148341cb6240e61cb48640b5a5023f43f9a737c11595641e04401002cef",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/alternative/CROSS_APEX_DOUBLE_MIXED_BOWTIE.md",
+      "original_sha256": "814c7f7ac6df5876e89967942f81d0cf70e9a3ae4a914615e56a1d3abdf901d3"
+    },
+    {
+      "path": "problems/TUZA-03/research/alternative/CROSS_APEX_MATCHING_FROM_TWO_EQUALITY_REMAINDERS.md",
+      "sha256": "22391579996ad2a9013bc984f35c4f313dfd538410d5fadf6d1b532aa4516198",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/alternative/CROSS_APEX_MATCHING_FROM_TWO_EQUALITY_REMAINDERS.md",
+      "original_sha256": "76dfe97ace069966a2598230686969d04d3693e33e497311b73728be852f5daa"
+    },
+    {
+      "path": "problems/TUZA-03/research/alternative/DOUBLE_MIXED_NO_CROSS_APEX_BOWTIE.md",
+      "sha256": "b0f2df4af9a08b3f9825deb61d10ef58b66ae5c551cb286e22615a1fd604f953",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/alternative/DOUBLE_MIXED_NO_CROSS_APEX_BOWTIE.md",
+      "original_sha256": "f5b14a208f88e6087dfa8841c3f68a69fec51295d231df56bbe5ea50dbd7a6e1"
+    },
+    {
+      "path": "problems/TUZA-03/research/alternative/NINE_CYCLE_PAGE_INTEGRALITY.md",
+      "sha256": "ace3e3ac77025eaaec4e3769a6aff1b5112a6aec7b5b846fcef268018b02d074",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/alternative/NINE_CYCLE_PAGE_INTEGRALITY.md",
+      "original_sha256": "9e162f39b3b60a465a3b263a188faa3b6e5ccfb919f1f882213aa4e70afa0430"
+    },
+    {
+      "path": "problems/TUZA-03/research/alternative/SINGLE_CROSS_APEX_SINGLE_MIXED_BOWTIE.md",
+      "sha256": "1b216d0031a27f18081d5e884dd2292de368af9caedc50fc241e620a9c6e6b57",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/alternative/SINGLE_CROSS_APEX_SINGLE_MIXED_BOWTIE.md",
+      "original_sha256": "59cb843ea9d7d347d32e112d3e6c24c6d45337bc799483167aaa6e7da1c57d8c"
+    },
+    {
+      "path": "problems/TUZA-03/research/alternative/SINGLE_MIXED_TWO_CROSS_APEX_BOWTIE.md",
+      "sha256": "331c5b8d28f3d251f7a84dd77e0812e3bf82c31853b015b109870f54c68e919b",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/alternative/SINGLE_MIXED_TWO_CROSS_APEX_BOWTIE.md",
+      "original_sha256": "192433dd17c26561c7e45d0a9760eec402bde1a7f09ca3c5ce6b11dd01fad38d"
+    },
+    {
+      "path": "problems/TUZA-03/research/proof/CLOSED_BOUNDARY_DESCENT_STABILITY.md",
+      "sha256": "95a38838937014438aee334a997092dee50ce5632cee292d7c055dad18532299",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/proof/CLOSED_BOUNDARY_DESCENT_STABILITY.md",
+      "original_sha256": "2214c28ae17b3e87cbe8f0119b7793bda0d6765c94539eb9d2e99876010045ff"
+    },
+    {
+      "path": "problems/TUZA-03/research/proof/MIXED_TWO_APEX_BOWTIE_THEOREM.md",
+      "sha256": "f0c3281cd3f877fbfbb2ba3ad689e5667d1feb4d1270b7f2f5f8f81c85992e4f",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/proof/MIXED_TWO_APEX_BOWTIE_THEOREM.md",
+      "original_sha256": "9466a6085b60be69f185fd063ee5c69b1994019dc0f297a927d5978844605ba1"
+    },
+    {
+      "path": "problems/TUZA-03/research/proof/PARAMETERIZED_RESTORATION_COMPRESSION.md",
+      "sha256": "9575f8894c1aabd4170a9329b7efa5c6efba75429fd73bfb5851f5c0799fe872",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/proof/PARAMETERIZED_RESTORATION_COMPRESSION.md",
+      "original_sha256": "7407519d38593b3d8287cd3925a946efbbe6342702f5d4acd45883da36eba8b2"
+    },
+    {
+      "path": "problems/TUZA-03/research/rigidity/CLOSED_BIPARTITE_BOUNDARY_EQUALITY_DELETION.md",
+      "sha256": "4983fe6a35393e4401bb360eb6785e36051713170e6167ac33ca9a653f0defc3",
+      "transformation": "curated source; private context removed; original hash retained",
+      "source": "snapshots/TUZA-03/rigidity/CLOSED_BIPARTITE_BOUNDARY_EQUALITY_DELETION.md",
+      "original_sha256": "976d2d43831f6fbe23457c023e4751ca20ed27437461608f280d5164d2abb7ba"
+    },
+    {
+      "path": "problems/TUZA-03/review/INDEPENDENT_REPRODUCTION.md",
+      "sha256": "3b653d717f7afee58282b51e02a5848eded10af153c3a80d9a8c9b1c56d528e2",
+      "transformation": "fresh independent review; execution context sanitized; final scope signposted",
+      "source": "audit/INDEPENDENT_REPRODUCTION.md",
+      "original_sha256": "9cccb29357e9c0b65654b5927fc27c28a42ee4cf94b953c1f7942eec3ca08020"
+    },
+    {
+      "path": "problems/TUZA-03/review/LEAN_STATEMENT_FIDELITY.md",
+      "sha256": "6955984c8ba67c9cbf87910f59eeb63c27859c41c85286bf3e26e8a72a2af0b3",
+      "transformation": "fresh independent review; execution context sanitized; final scope signposted",
+      "source": "audit/LEAN_STATEMENT_FIDELITY.md",
+      "original_sha256": "472bb73f4785174240ecf0f29170eaec7a63dc11e02603c40c12da2ed0e2bd12"
+    },
+    {
+      "path": "problems/TUZA-03/review/MANUSCRIPT_REVIEW.md",
+      "sha256": "cd1b6ee8b043e2751339eeb7430b6af91fed1ad8cd547a3fa018d954372067c7",
+      "transformation": "fresh independent review; execution context sanitized; final scope signposted",
+      "source": "audit/MANUSCRIPT_REVIEW.md",
+      "original_sha256": "cd1b6ee8b043e2751339eeb7430b6af91fed1ad8cd547a3fa018d954372067c7"
+    }
+  ],
+  "unavailable_source_links_rendered_as_text": [
+    {
+      "file": "problems/TUZA-02/provenance/ORIGINAL_REPORT_EXCERPT.md",
+      "unavailable_target": "proof/ESSENTIAL_EDGE_RESTORATION.md"
+    },
+    {
+      "file": "problems/TUZA-02/provenance/ORIGINAL_REPORT_EXCERPT.md",
+      "unavailable_target": "literature/FLAT_REMAINDER_DEDUCTION.md"
+    },
+    {
+      "file": "problems/TUZA-02/provenance/ORIGINAL_REPORT_EXCERPT.md",
+      "unavailable_target": "proof/K4_STAR_DEFECTS.md"
+    },
+    {
+      "file": "problems/TUZA-02/provenance/ORIGINAL_REPORT_EXCERPT.md",
+      "unavailable_target": "review/INDEPENDENT_PROOF_AND_SCOPE_AUDIT.md"
+    },
+    {
+      "file": "problems/TUZA-02/provenance/ORIGINAL_REPORT_EXCERPT.md",
+      "unavailable_target": "checks/independent_certificates.json"
+    },
+    {
+      "file": "problems/TUZA-02/provenance/ORIGINAL_REPORT_EXCERPT.md",
+      "unavailable_target": "adversarial/README.md"
+    },
+    {
+      "file": "problems/TUZA-02/provenance/ORIGINAL_REPORT_EXCERPT.md",
+      "unavailable_target": "checks/independent_certificates.py"
+    },
+    {
+      "file": "problems/TUZA-02/provenance/ORIGINAL_REPORT_EXCERPT.md",
+      "unavailable_target": "literature/LITERATURE_AND_NOVELTY.md"
+    }
+  ],
+  "finalized_utc": "2026-10-29T10:06:30.574298+00:00",
+  "source_checks": "Every staged Lean/pin source exactly matches the successful final clean reproduction."
+}
