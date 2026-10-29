@@ -18,7 +18,7 @@ The ordinary arguments use published mathematical theorems. Conditional Lean ver
 
 ## 2. Definitions and the one-triangle criterion
 
-All graphs are finite, simple, and undirected. A triangle is a three-vertex clique, identified with its three edges when discussing packing and covering. For a triangle family $`\mathcal F`$, let $`\nu(\mathcal F)`$ be the maximum number of pairwise edge-disjoint members, and let $`\tau(\mathcal F)`$ be the minimum number of graph edges meeting every member. Both parameters are zero for the empty family. Write $`\nu(G),\tau(G)`$ for the full triangle family. The odd-cycle transversal number $`\operatorname{oct}(G)`$ is the minimum number of *vertices* whose deletion leaves a bipartite graph.
+All graphs are finite, simple, and undirected. A triangle is a three-vertex clique, identified with its three edges when discussing packing and covering. For a triangle family $`\mathcal F`$, let $`\nu(\mathcal F)`$ be the maximum number of pairwise edge-disjoint members, and let $`\tau(\mathcal F)`$ be the minimum number of graph edges meeting every member. Both parameters are zero for the empty family. Write $`\nu(G),\tau(G)`$ for the full triangle family. The odd-cycle transversal number $`\mathrm{oct}(G)`$ is the minimum number of *vertices* whose deletion leaves a bipartite graph.
 
 The triangle hypergraph $`\mathcal D(G)`$ has vertex set $`E(G)`$ and a hyperedge for the edge set of every triangle. Its matching and vertex-cover numbers are $`\nu(G)`$ and $`\tau(G)`$. It is linear: distinct triangles share at most one edge. It is 3-partite precisely when the graph edges can be labeled with three labels so that every triangle receives all three. Labels on other incident edges need not differ. This condition is often called triangle-3-colorability and is broader than ordinary four-colorability.
 
@@ -58,9 +58,9 @@ For $`h=0`$, take the empty collection. Otherwise use the HNS partition. Choose 
 \{r_2,r_3,w_1(R)\},\quad
 \{r_1,r_3,w_2(R)\},\quad
 \{r_1,r_2,w_3(R)\}
-
-\tag{1}
 ```
+
+**(1)**
 
 form the required loose cycle. Its six vertices are distinct since $`W`$ is disjoint from the central triples and the three $`w_i(R)`$ lie in different parts. Across different $`R`$’s, the same-part chosen vertices differ by the matching property; different-part vertices differ by the tripartition. None belongs to any central triple or $`\mathcal A`$-piece. Thus these supports are disjoint simultaneously; no compatibility between the three matchings is missing. Choose also three distinct underlying hyperedges in each $`\mathcal A`$-piece. These give disjoint cycles, for a total of $`|\mathcal A|+|\mathcal R|=h`$. This is the extraction also used in the proof of HNS Proposition 7.5. Isolated vertices may remain in $`W`$.
 
@@ -124,9 +124,9 @@ Put $`h=\nu(H)`$ and $`U=V(T)`$. A maximum packing in $`H`$ together with $`T`$ 
 
 ``` math
 \tau(G)\le\tau(H)+3\le2h+2\le2\nu(G).
-
-\tag{2}
 ```
+
+**(2)**
 
 Suppose instead $`\tau(H)=2h`$. The set $`U`$ is independent in $`H`$, since all three possible edges on it have been removed. Lemma [3.3](#lem-faces) gives a packing $`\mathcal P`$ of size $`h`$ avoiding $`U`$. Let $`\mathcal F`$ be the triangles of $`G`$ absent from $`H`$, and put $`r=\nu(\mathcal F)`$. Every member of $`\mathcal F`$ contains an edge of $`T`$, hence at least two vertices of $`U`$. Consequently every edge of every member touches $`U`$. Every edge of $`\mathcal P`$ has both endpoints outside $`U`$. The single fixed packing $`\mathcal P`$ is therefore edge-disjoint from *all* members of $`\mathcal F`$ simultaneously, and
 
@@ -134,9 +134,9 @@ Suppose instead $`\tau(H)=2h`$. The set $`U`$ is independent in $`H`$, since all
 
 ``` math
 \nu(G)\ge h+r.
-
-\tag{3}
 ```
+
+**(3)**
 
 Since $`T\in\mathcal F`$, we have $`r\ge1`$. If $`r=1`$, any two members intersect in an edge, so Lemma [4.1](#lem-intersecting) gives $`\tau(\mathcal F)\le2=2r`$. If $`r\ge2`$, the three edges of $`T`$ give $`\tau(\mathcal F)\le3\le2r`$. Combining covers of $`H`$ and $`\mathcal F`$ yields
 
@@ -144,9 +144,9 @@ Since $`T\in\mathcal F`$, we have $`r\ge1`$. If $`r=1`$, any two members interse
 
 ``` math
 \tau(G)\le\tau(H)+\tau(\mathcal F)\le2h+2r\le2\nu(G).
-
-\tag{4}
 ```
+
+**(4)**
 
 This includes $`h=0`$, using an empty packing and no HNS invocation. A graph with no triangle cannot satisfy the stated premise on $`T`$.
 
@@ -170,7 +170,7 @@ $`\square`$
 
 <a name="cor-oct"></a>
 
-If $`\operatorname{oct}(G)\le4`$, then $`\tau(G)\le2\nu(G)`$.
+If $`\mathrm{oct}(G)\le4`$, then $`\tau(G)\le2\nu(G)`$.
 
 *Proof.*
 
@@ -268,9 +268,9 @@ For each triangle component $`C_j`$, let $`E_j`$ be the union of its triangle ed
 
 ``` math
 \nu(H)=\sum_j\nu(H_j),\qquad \tau(H)=\sum_j\tau(H_j).
-
-\tag{5}
 ```
+
+**(5)**
 
 The tripartition restricts to $`H_j`$. Aharoni gives nonnegative integer slacks $`\delta_j=2\nu(H_j)-\tau(H_j)`$. Their sum is one, so precisely one equals one and all others vanish. Equality extraction and Lemma [3.4](#lem-exhaustion) show that each equality component consists of edge-disjoint $`K_4`$ face families. Distinct such families are disconnected in the triangle-intersection graph; connectedness therefore leaves exactly one $`K_4`$.
 
@@ -349,9 +349,9 @@ Suppose $`H`$ has triangle components consisting of any $`k`$ isolated $`K_4`$ f
 ``` math
 \tau(F)=3\quad\Longrightarrow\quad
 \nu(H+E(T))\ge\nu(H)+2.
-
-\tag{6}
 ```
+
+**(6)**
 
 It suffices to find $`d+2`$ compatible triangles from $`R`$ and $`F`$. Indeed, one face in each of the other $`k`$ $`K_4`$ copies can be chosen to avoid $`U`$, and these faces are compatible with every $`F`$-triangle and with $`R`$. The isolated copy of $`R`$ is induced on its vertices: any additional edge between two nonhub vertices would form a new hub triangle sharing an R-spoke, contrary to isolation. Its listed neighborhoods can therefore be used as $`H`$-neighborhoods restricted to $`R`$.
 
@@ -377,9 +377,9 @@ Apply the two-edge avoidance fact. If its exception does not occur, the two page
 
 ``` math
 azc,\quad pzq,\quad apb
-
-\tag{7}
 ```
+
+**(7)**
 
 are edge-disjoint. Omit the central $`F_0`$ triangle, replace the leaf $`bpq`$ by the hub face $`vbq`$, and retain every other leaf triangle. These $`d-1`$ old triangles are compatible with all three pages and with each other. Their total is $`d+2`$.
 
@@ -395,9 +395,9 @@ Thus, after relabeling, $`U=\{a,p_b,p_c\}`$, where $`p_b`$ and $`p_c`$ are priva
 
 ``` math
 a p_b b,\quad a p_c c,\quad p_b p_c v
-
-\tag{8}
 ```
+
+**(8)**
 
 are edge-disjoint. Omit the central triangle $`abc`$; replace the b-leaf by $`vbq_b`$ and the c-leaf by $`vcq_c`$; retain the a-leaf triangle if it exists. These $`d-1`$ old triangles are edge-disjoint and compatible with the three pages. Again the total is $`d+2`$. This completes the lemma.
 
@@ -427,9 +427,9 @@ Suppose $`\mathcal D(H)`$ is 3-partite, $`\nu(H)=h`$, $`\tau(H)=2h-1`$. Let $`U,
 \begin{gathered}
 \nu(H-A) \ge  h-\lfloor |A|/2\rfloor
 \end{gathered}
-
-\tag{9}
 ```
+
+**(9)**
 
 Independence of $`P`$ and the local uniqueness condition are both retained hypotheses; no theorem without them is asserted. The condition is not asserted automatically for the union of two restoration boundaries.
 
@@ -448,9 +448,9 @@ The compatible $`k`$-packing and a maximum L-packing prove $`\nu(H)\ge k+\nu(L)`
 2h-1 \le  2k+d, \\
 2d-1 \le  d
 \end{gathered}
-
-\tag{10}
 ```
+
+**(10)**
 
 Thus $`d=1`$ and $`\tau(L)=1`$. Take an edge $`g`$ meeting all L-triangles. Every triangle of $`H-g`$ belongs to $`K`$, so $`\nu(H-g)\le k=h-1`$; deletion of one edge gives equality. This proves essentiality. For stable $`H`$ equality in $`K`$ is impossible, so Aharoni gives $`\tau(K)\le 2\nu(K)-1`$. Together with $`\tau(K)\ge 2h-1-|A|`$ this yields the floor bound.
 
@@ -466,9 +466,9 @@ Assume $`\mathcal D(H)`$ is 3-partite and $`\nu(H)=h`$. Let $`U,P,A`$ satisfy ex
 \begin{gathered}
 \nu(K)=h-d, \tau(K)=2(h-d)-1
 \end{gathered}
-
-\tag{11}
 ```
+
+**(11)**
 
 Let $`L_A`$ be the **full** family of $`H`$-triangles using A, including triangles that might also use an edge $`g`$ considered later. If $`\nu(L_A)\ge d+2`$, then $`K`$ is packing-edge-stable.
 
@@ -550,9 +550,9 @@ Let $`h=\nu(H)`$. Appending $`T_1,T_2`$ gives $`\nu(G)\ge h+2`$; adding their si
 \begin{gathered}
 \tau(H)=2h-1, \nu(G)=h+2, \tau(G)=2h+5
 \end{gathered}
-
-\tag{12}
 ```
+
+**(12)**
 
 Theorem [7.2](#thm-essential) excludes essential edges of $`H`$. Each individual restoration must have actual cover increase three, since adding the other restored triangle’s three edges completes a cover of $`G`$. This uses actual tau of intermediate graphs, not just the cover number of a chosen new-family subcollection.
 
@@ -571,9 +571,9 @@ If $`Q`$ is a q-packing of $`G`$, all of its old edges lie in A, and $`B`$ is a 
 \nu(J)\le h+2-q, \\
 \tau(J)\ge \tau(G)-|B|=2(h+2-q)
 \end{gathered}
-
-\tag{13}
 ```
+
+**(13)**
 
 Aharoni forces equality. If the right side for packing is negative, $`Q`$ itself already contradicts $`\nu(G)=h+2`$. The A subset $`B`$ requirement ensures that a $`J`$-cover plus $`B`$ also covers old triangles destroyed by A. Equality exhaustion, not just extraction, is needed subsequently.
 
@@ -591,9 +591,9 @@ Q = \{vac,vbd,abq,cdr\}, \\
 A = \{ac,bd,aq,bq,cr,dr,vp\}, \\
 B = A\cup \{ab,cd\}
 \end{gathered}
-
-\tag{14}
 ```
+
+**(14)**
 
 For $`m=1`$ and $`r`$ distinct from $`q`$ use
 
@@ -603,9 +603,9 @@ Q = \{vac,abq,cdr,vbp\}, \\
 A = \{ac,aq,bq,cr,dr,vp,bp\}, \\
 B = A\cup \{vb,cd\}
 \end{gathered}
-
-\tag{15}
 ```
+
+**(15)**
 
 In each case $`Q`$ is edge-disjoint, A contains all old edges of $`Q`$, and $`B`$ covers the full new family. Equality gives $`h-2`$ blocks in $`J`$. All $`H`$-edges inside $`W_0`$ were removed, so $`W_0`$ is independent in $`J`$; choose each block’s face avoiding $`W_0`$. If $`r`$ differs from $`q`$, the five-packing $`\{vac,abp,vbq,cdp,vdr\}`$ uses only edges touching $`W_0`$. If $`r=q`$ in the $`m=2`$ case, use $`\{vcp,vaq,vbd,abp,cdq\}`$. These are compatible with all selected faces and give $`h+3`$ triangles, contradiction. Optional edges between apices affect only old triangles and do not invalidate either the new-family covers or these packings.
 
@@ -621,9 +621,9 @@ Q = \{vpr,vac,vbd,abq,cds\}, \\
 A = \{vp,vr,pr,ac,bd,aq,bq,cs,ds\}, \\
 B = A\cup \{ab,cd\}
 \end{gathered}
-
-\tag{16}
 ```
+
+**(16)**
 
 The first $`Q`$ triangle is old, which is allowed. Equality gives $`h-3`$ blocks, and $`W_0`$ is independent in $`J`$. Select faces avoiding $`W_0`$. The six-packing $`\{vpr,vac,abp,vbq,cdr,vds\}`$ is compatible: every edge touches $`W_0`$ except $`pr`$, and $`pr`$ was deleted. This contradicts critical packing.
 
@@ -638,9 +638,9 @@ For $`m=1`$ or 2 use
 Q = \{vac,abp,vbq,cdr,vds\}, \\
 A = \{ac,ap,bp,bq,vq,cr,dr,ds,vs\}
 \end{gathered}
-
-\tag{17}
 ```
+
+**(17)**
 
 The edge set A is the $`C_9`$ in order a-p-b-q-v-s-d-r-c-a. For $`m=1`$ let $`B=A \cup \{ab,cd\}`$; for $`m=2`$ let $`B=A \cup \{vb,cd\}`$. The second choice hits $`vbd`$ as well as the first restored base. Equality gives $`k=h-3`$ blocks in $`J`$.
 
@@ -688,9 +688,9 @@ Let $`H`$ be finite simple, $`\nu(H)=h`$, and $`\nu(H-e)=h`$ for every $`e`$ in 
 \nu(H')=\nu(H), \tau(H')=\tau(H), \\
 |V(G')| \le  6h^2+3h+454
 \end{gathered}
-
-\tag{18}
 ```
+
+**(18)**
 
 $`H'`$ remains packing-edge-stable. If $`\mathcal D(H)`$ is 3-partite, so is $`\mathcal D(H')`$. More precisely, the nonisolated part of the old full triangle hypergraph is retained unchanged; deleted old graph edges are triangle-free hypergraph vertices. No claim of preserving the whole graph, induced structure, all covers, or all packings as literal subsets is made.
 
@@ -706,9 +706,9 @@ Retain $`A \cup S`$. An outside vertex $`w`$ belongs to no old triangle. Any $`G
 \begin{gathered}
 |A|+|S|+7\cdot 64 \le  6h^2+3h+454
 \end{gathered}
-
-\tag{19}
 ```
+
+**(19)**
 
 All old triangles survive, so both old optimization parameters remain equal. For any retained old edge $`e`$, its old triangle incidence is unchanged; an $`h`$-packing avoiding $`e`$ still lies wholly within A. Hence old packing-edge stability is preserved, including retained triangle-free edges. Tripartiteness restricts directly.
 
@@ -738,9 +738,9 @@ We also use Liu–Zeng Lemma 2.4: if $`S\subseteq E(J)`$ has at most one edge pe
 
 ``` math
 \tau(J)\le |C|-\beta^3n^2/36.
-
-\tag{20}
 ```
+
+**(20)**
 
 This lemma has no density-deficit parameter. Their proof deletes a suitable cut complement, starting from $`\tau(J)\le|C|-e_C(A,B)+e_S(A)+e_S(B)`$ for disjoint $`A,B`$. Its independent-neighborhood partition gives savings at least $`\beta^3n^2/6`$, $`\beta^3n^2/36`$, or $`\beta n^2/24`$ according to the location of a large class of $`C`$-edges. Thus the common constant in [(20)](#eq-saving) remains unchanged here.
 
@@ -754,22 +754,19 @@ It suffices to treat $`0\le c<5/2`$, since a negative $`c`$ has a stronger hypot
 
 ``` math
 |F|+|M|-t\le12d,\qquad |F|\le6d,\qquad |M|>10^{-5}n^2.
-
-\tag{21}
 ```
+
+**(21)**
 
 For precision, the threshold inequalities are $`2f_i+f_{2t+1-i}\ge1`$ for $`1\le i\le t`$; summing bounds the weight after the first $`t`$ edges by $`2d`$, and clipping weights at $`1/2`$ bounds their total excess by $`d`$. These yield [(21)](#eq-large) exactly as in the cited case. A triangle in $`G-F`$ cannot have two $`L`$-edges, since their weights together with the third weight would sum to less than one. Apply [(20)](#eq-saving) with $`\beta=10^{-5}`$ to obtain
 
 <a name="eq-contradiction"></a>
 
 ``` math
-\begin{aligned}
-t&\le |F|+|M|-10^{-15}n^2/36\\
- &<t+(12\cdot10^{-18}-10^{-15}/36)n^2<t,
-\end{aligned}
-
-\tag{22}
+t\le |F|+|M|-10^{-15}n^2/36 <t+(12\cdot10^{-18}-10^{-15}/36)n^2<t,
 ```
+
+**(22)**
 
 a contradiction. All inputs to this case are independent of $`c`$.
 
@@ -779,9 +776,9 @@ a contradiction. All inputs to this case are independent of $`c`$.
 
 ``` math
 |A|\le20\delta/n\le n/500,\quad |B|,|C|>9n/20.
-
-\tag{23}
 ```
+
+**(23)**
 
 Every distinct pair in $`B`$ has more than $`n/20`$ common $`H`$-neighbors in $`C`$, and conversely. Hence $`B,C`$ are independent in $`H`$ and the missing $`B,C`$-pairs number at most $`2\delta`$. These are Liu–Zeng’s equations (7)–(13), with the deficit retained explicitly.
 
@@ -791,9 +788,9 @@ Every distinct pair in $`B`$ has more than $`n/20`$ common $`H`$-neighbors in $`
 
 ``` math
 0\le\delta\le cn+3k\le3n+3k\le10^{-4}n^2
-
-\tag{24}
 ```
+
+**(24)**
 
 eventually. The replacement of $`2n`$ by $`3n`$ is the first change to the source. Use the preceding decomposition. For $`x\in A`$, augment its $`H`$-neighbors in $`B`$ by the two vertices of each packing triangle $`xbb'`$; call this set $`L_x`$. Define $`R_x`$ analogously on $`C`$. There is no $`H`$-edge from $`L_x`$ to $`R_x`$. To see the exchange when such an edge $`bc`$ exists, if both $`xb,xc`$ are $`H`$-edges there is a triangle in $`H`$. If $`xbb'`$ is packed and $`xc`$ is in $`H`$, replace $`xbb'`$ by $`xbc`$ and $`bb'z`$, choosing a common $`H`$-neighbor $`z\in C`$ of $`b,b'`$ with $`z\ne c`$. The symmetric case is identical. If $`xbb'`$ and $`xcc'`$ are both packed, replace them by $`xbc,bb'z,cc'w`$, where $`z\in C\setminus\{c,c'\}`$ and $`w\in B\setminus\{b,b'\}`$ are appropriate common $`H`$-neighbors. The $`n/20`$ lower bounds permit these choices. The inserted triangles are edge-disjoint, and their new edges lie in $`H`$, so none meets a retained packing triangle. A packed triangle entirely in $`B`$ or $`C`$ similarly has a one-to-two exchange using two distinct common neighbors.
 
@@ -803,9 +800,9 @@ Place each $`x\in A`$ on the side of the smaller of $`L_x,R_x`$. Their product c
 
 ``` math
 t\le k+\frac{20\sqrt2}{n}\delta^{3/2}+\frac{400}{n^2}\delta^2.
-
-\tag{25}
 ```
+
+**(25)**
 
 Using $`(a+b)^{3/2}\le\sqrt2(a^{3/2}+b^{3/2})`$, $`(a+b)^2\le2(a^2+b^2)`$, and [(24)](#eq-delta), we obtain
 
@@ -817,9 +814,9 @@ Using $`(a+b)^{3/2}\le\sqrt2(a^{3/2}+b^{3/2})`$, $`(a+b)^2\le2(a^2+b^2)`$, and [
  +120\sqrt{3\cdot10^{-5}}\\
  &+7200n^{-2/3}+7200\cdot10^{-5}<1
 \end{aligned}
-
-\tag{26}
 ```
+
+**(26)**
 
 eventually. The two constant terms sum to approximately $`0.729267069`$. For example $`n\ge10^{18}`$ suffices for this estimate and the elementary size conditions here. This proves $`t\le2k`$ in the intermediate case.
 
@@ -829,9 +826,9 @@ eventually. The two constant terms sum to approximately $`0.729267069`$. For exa
 
 ``` math
 \tau(G)\le k-k'+\tau(G').
-
-\tag{27}
 ```
+
+**(27)**
 
 Every edge of $`G'`$ has codegree at most $`2k'`$. Indeed, if $`uv`$ had more common neighbors, any packing in $`G'-uv`$ rules out at most two such neighbors per packed triangle. One further page $`uvw`$ extends it, forcing $`\nu(G'-uv)=k'-1`$. This would contradict the edge-minimal choice of $`G'`$ (Liu–Zeng Lemma 2.5). If $`k'=0`$, [(27)](#eq-restore) settles the claim. Otherwise remove a maximum packing from $`G'`$ to obtain a triangle-free $`H`$ with
 
@@ -839,9 +836,9 @@ Every edge of $`G'`$ has codegree at most $`2k'`$. Indeed, if $`uv`$ had more co
 
 ``` math
 e(H)=e(G)-k-2k'\ge n^2/4-cn-3k\ge n^2/4-5n
-
-\tag{28}
 ```
+
+**(28)**
 
 eventually. Thus the source’s constant $`5n`$ is unchanged for $`c<5/2`$. The decomposition gives $`|A|\le100`$. Since $`n/20>2k'`$ eventually, its common-neighbor property and the codegree bound make $`B,C`$ independent even in $`G'`$.
 
@@ -854,9 +851,9 @@ Place each $`x\in A`$ on the side with fewer $`H`$-neighbors. Their product is a
 \bigl||X|-n/2\bigr|,\ \bigl||Y|-n/2\bigr|&\le\sqrt{10n}+100,\\
 e_{G'}(X)+e_{G'}(Y)&\le4950+100\sqrt{10n}+3k'.
 \end{aligned}
-
-\tag{29}
 ```
+
+**(29)**
 
 The first term $`4950`$ bounds edges inside $`A`$; at most $`100\sqrt{10n}`$ internal $`H`$-edges meet its complement, and all remaining edges removed in forming $`H`$ number $`3k'`$.
 
@@ -868,9 +865,9 @@ For $`y\in Y\setminus T_2`$, its nonneighbors in $`T_1`$, together with one endp
 
 ``` math
 |S_1|(|Y|-|T_2|)-2k'e_{G'}(T_1)
-
-\tag{30}
 ```
+
+**(30)**
 
 missing pairs in $`T_1\times(Y\setminus T_2)`$. The symmetric count lies in $`(X\setminus T_1)\times T_2`$, a disjoint set of pairs. Use
 
@@ -881,9 +878,9 @@ missing pairs in $`T_1\times(Y\setminus T_2)`$. The symmetric count lies in $`(X
 e_{G'}(T_1)+e_{G'}(T_2)&\le\binom{10200}{2}=52,014,900,\\
 |S_1||T_2|+|S_2||T_1|&\le1,020,000.
 \end{aligned}
-
-\tag{31}
 ```
+
+**(31)**
 
 Subtracting both missing-pair counts from $`|X||Y|\le n^2/4`$ and adding the internal edges from [(29)](#eq-small-partition) yields
 
@@ -892,9 +889,9 @@ Subtracting both missing-pair counts from $`|X||Y|\le n^2/4`$ and adding the int
 ``` math
 e(G')\le\frac{n^2}{4}-\frac{s}{2}n
  +200\sqrt{10n}+1,034,950+104,029,803k'.
-
-\tag{32}
 ```
+
+**(32)**
 
 The constant terms are $`100s+1,020,000+4950\le1,034,950`$; the coefficient of $`k'`$ is $`2\cdot52,014,900+3`$. Compare with $`e(G')\ge n^2/4-cn-k+k'`$ and use $`k'\le k\le n^{2/3}`$ to obtain
 
@@ -903,9 +900,9 @@ The constant terms are $`100s+1,020,000+4950\le1,034,950`$; the coefficient of $
 ``` math
 \left(\frac{s}{2}-c\right)n
 \le104,029,803n^{2/3}+200\sqrt{10n}+1,034,950.
-
-\tag{33}
 ```
+
+**(33)**
 
 For $`n\ge1`$ the right side is less than $`106,000,000n^{2/3}`$. Put $`\varepsilon=5/2-c>0`$. If $`s\ge5`$, [(33)](#eq-key) is impossible for $`n>(106,000,000/\varepsilon)^3`$. Hence $`s\le4`$. Deleting $`S_1\cup S_2`$ makes $`G'`$ bipartite. Corollary [4.3](#cor-oct) gives $`\tau(G')\le2k'`$, and [(27)](#eq-restore) gives $`\tau(G)\le k+k'\le2k`$.
 

@@ -15,7 +15,7 @@ tex=(root/'main.tex').read_text()
 tex=tex.split(r'\begin{document}',1)[1].split(r'\end{document}',1)[0]
 tex=tex.replace(r'\begin{abstract}',r'\section*{Abstract}').replace(r'\end{abstract}','')
 tex=tex.replace(r'\maketitle','').replace(r'\tableofcontents','')
-tex=tex.replace(r'\D(',r'\mathcal D(').replace(r'\oct',r'\operatorname{oct}')
+tex=tex.replace(r'\D(',r'\mathcal D(').replace(r'\oct',r'\mathrm{oct}')
 anchors={}
 def anchor(label):
  marker='EDITORIALANCHOR'+str(len(anchors))+'TOKEN'
@@ -41,7 +41,7 @@ tex=re.sub(pat,numbered,tex)
 tex=re.sub(r'\\end\{(?:theorem|lemma|corollary|proposition|definition|remark)\}', '\n\n',tex)
 tex=re.sub(r'\\begin\{proof\}\[([^\]]+)\]\\leavevmode',lambda m:'\n\n'+r'\emph{'+m[1]+'.}'+'\n\n',tex)
 tex=tex.replace(r'\begin{proof}\leavevmode','\n\n'+r'\emph{Proof.}'+'\n\n').replace(r'\end{proof}','\n\n'+r'\(\square\)'+'\n\n')
-# Number displayed equations exactly as in the PDF; unnumbered displays remain so.
+# Keep PDF equation numbers outside math for GitHub native MathML compatibility.
 eq=0
 def equation(m):
  global eq
@@ -49,7 +49,12 @@ def equation(m):
  body=m[1];found=re.findall(r'\\label\{([^}]+)\}',body)
  for lab in found:assert labels[lab]==str(eq),(lab,labels[lab],eq)
  body=re.sub(r'\\label\{[^}]+\}','',body)
- return ''.join(anchor(lab) for lab in found)+'\n\\[\n'+body+'\n\\tag{'+str(eq)+'}\n\\]\n'
+ # GitHub escapes this aligned row break incorrectly; keep its identical chain.
+ if 'eq:contradiction' in found:
+  body=body.replace(r'\begin{aligned}','').replace(r'\end{aligned}','')
+  body=body.replace(chr(92)*2,' ').replace('&','')
+  body=' '.join(body.split())
+ return ''.join(anchor(lab) for lab in found)+'\n\\[\n'+body+'\n\\]\n\n'+r'\textbf{('+str(eq)+')}'+'\n\n'
 tex=re.sub(r'\\begin\{equation\}([\s\S]*?)\\end\{equation\}',equation,tex)
 tex=re.sub(r'\\label\{([^}]+)\}',lambda m:anchor(m[1]),tex)
 tex=tex.replace(r'\bibliographystyle{plain}','').replace(r'\bibliography{references}','')
