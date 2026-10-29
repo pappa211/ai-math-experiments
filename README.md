@@ -4,12 +4,32 @@ A personal experiment in whether a non-mathematician can use commercially access
 
 The method is to identify a problem and check its reported open status, let AI systems investigate it, test proposed arguments with computation and Lean where useful, and preserve critical reviews alongside successful and failed approaches. Evidence is labelled by what was actually checked. Unverified claims are not presented as discoveries.
 
+## Triangle restoration and Tuza’s conjecture
+
+The TUZA-01–03 program studies when restoring one or two deleted triangles preserves the inequality $\tau(G)\le 2\nu(G)$ and how near-equality remainders behave. The canonical paper, **[Triangle Restoration and Packing–Covering Stability in Tuza’s Conjecture](papers/tuza-triangle-restoration/main.md)**, integrates the complete selected proofs in logical order.
+
+- **[Read the complete paper (PDF)](papers/tuza-triangle-restoration/main.pdf)**
+- **[Read the paper on GitHub (Markdown)](papers/tuza-triangle-restoration/main.md)**
+- **[LaTeX source](papers/tuza-triangle-restoration/main.tex)** and **[BibTeX bibliography](papers/tuza-triangle-restoration/references.bib)**
+- Research archives: **[TUZA-01](problems/TUZA-01/README.md)** · **[TUZA-02](problems/TUZA-02/README.md)** · **[TUZA-03](problems/TUZA-03/README.md)**
+- **[Lean verification](problems/TUZA-03/LEAN_VERIFICATION.md)** and **[reproduction instructions](problems/TUZA-03/reproduction/README.md)**
+
+The results include one-triangle restoration, OCT-four, the fixed-$c<5/2$ density consequence, specified two-triangle restoration classes, closed-boundary deletion and stability, and exact parameterized compression. Selected deductions have conditional Lean verification with explicit Aharoni, graphical HNS and, where applicable, classical bipartite König inputs. The inherited graphical HNS conversion remains an assumed Lean interface. The flat, star-core, mixed/shared-apex bowtie, qualified four-spoke and compression arguments and the density consequence have audited ordinary proofs without full Lean formalization.
+
+**Unrestricted two-triangle restoration, OCT-five, and the fixed-$c<3$ density extension remain unproved.** These results do not resolve Tuza’s general conjecture. External specialist peer review and historical originality are not claimed.
+
+The original [TUZA-01](problems/TUZA-01/README.md), [TUZA-02](problems/TUZA-02/README.md) and [TUZA-03](problems/TUZA-03/README.md) archives retain their proof sources, experiments, reviews, Lean files and reproduction evidence. [Editorial provenance and scope](papers/tuza-triangle-restoration/README.md) distinguish the canonical paper from those historical records.
+
 ## Experiments
 
 | Experiment | Outcome | Read |
 |---|---|---|
 | A113010: digit-count fixed points | Original conjecture unresolved; partial Lean results and finite evidence | [Archive](problems/A113010/README.md) |
-| TUZA-01: triangle deletion and Tuza | Triangle-deletion criterion for Tuza's inequality; OCT ≤ 4 and fixed c < 5/2 density corollaries | [Paper and archive](problems/TUZA-01/README.md) |
+| TUZA-01: one-triangle restoration | One-triangle criterion, OCT-four, and the fixed-c < 5/2 density result | [Research archive](problems/TUZA-01/README.md) |
+| TUZA-02: two-triangle restoration | Exact-equality, essential-edge and flat-remainder restoration; selected star cores | [Research archive](problems/TUZA-02/README.md) |
+| TUZA-03: boundary and stability | Closed-boundary deletion and stability, restricted bowtie restoration, and compression | [Research archive](problems/TUZA-03/README.md) |
+
+Exact-equality restoration is a pre-TUZA-02 follow-up integrated with the later two-triangle results; the paper retains this provenance.
 
 ## A113010: digit-count fixed points
 

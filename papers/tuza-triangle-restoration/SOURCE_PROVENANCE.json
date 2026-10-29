@@ -1,0 +1,96 @@
+{
+  "repository": "https://github.com/pappa211/ai-math-experiments",
+  "archive_baseline_commit": "86d117262c71e8351c63438d9c05a33f9f56e0ec",
+  "editorial_date": "2026-10-29",
+  "status": "final scholarly publication",
+  "canonical_sources": [
+    "main.tex",
+    "references.bib"
+  ],
+  "generated_deliverables": [
+    "main.pdf",
+    "main.md"
+  ],
+  "sources": [
+    {
+      "path": "problems/TUZA-01/manuscript/TuzaTriangleDeletion.tex",
+      "sha256": "8eae334bc6a90f21dbf8a340ca6c8b538db172d797b6172e9f912f9438c243b0"
+    },
+    {
+      "path": "problems/TUZA-02/research/proof/K4_STAR_DEFECTS.md",
+      "sha256": "3a785ad652dee2ec1e6ec715738a165a59b3ac6ace7b5a1eeefd9d910059fe5d"
+    },
+    {
+      "path": "problems/TUZA-02/research/proof/STRUCTURAL_REDUCTION.md",
+      "sha256": "72d48034fe70e49e58d0eb42956efdca8a927664e19cfa4707e68c5600657195"
+    },
+    {
+      "path": "problems/TUZA-03/CONSOLIDATED_MANUSCRIPT.md",
+      "sha256": "146abc5ab2d83efc0991f6ca0b2e3b8890235e02cb5ed7530145434ff9b95315"
+    },
+    {
+      "path": "problems/TUZA-03/FINAL_ASSESSMENT.md",
+      "sha256": "d56a5d3371bc475cd1810435bb8d5fc9265fff23449fdac85896f78f30e55508"
+    },
+    {
+      "path": "problems/TUZA-03/LEAN_VERIFICATION.md",
+      "sha256": "a9a2dd44b44070d85cdf9f9b4276fefc47c84f094e1155a2043a6ca175259380"
+    },
+    {
+      "path": "problems/TUZA-03/MATHEMATICAL_AUDIT.md",
+      "sha256": "606386e9ac9c36ec37a83c57169783cbfd58f2acc96bde16c517e70d716e72d5"
+    },
+    {
+      "path": "problems/TUZA-03/PUBLICATION_READINESS.md",
+      "sha256": "49eb366ac8dd255b1e451757e47a3ffc603335b5b233b8f76e8633eb7bb31ad4"
+    },
+    {
+      "path": "problems/TUZA-03/THEOREM_INVENTORY.md",
+      "sha256": "b4eed3a5a987c31e06414a90b454bb63d259e91beb68d755e6c08bcd00a3edb6"
+    },
+    {
+      "path": "problems/TUZA-03/provenance/CAMPAIGNS.md",
+      "sha256": "857ac4a31f179137edfe170161306c36acc9326b2afb7aea241552badf738887"
+    },
+    {
+      "path": "problems/TUZA-03/provenance/PUBLICATION_MANIFEST.json",
+      "sha256": "5b1985226ebee5237bf08f12cf19e9c41fb02726f6c34c3c380a4e1cac67e6de"
+    }
+  ],
+  "navigation_changes": [
+    {
+      "path": "README.md",
+      "baseline_sha256": "195b968ba568c3cf66e89d9d6332a2fed27751940ed177e5fefdc342442d4de7",
+      "change": "editorial navigation and current-status wording only",
+      "publication_sha256": "ae8b26c9f793b0dafc13135544b2d4862f61d1f1f2797c7295f8d536cdc45c6f"
+    },
+    {
+      "path": "problems/TUZA-02/README.md",
+      "baseline_sha256": "9e7f3e94ae9c097af06af7336aa13d3d729cd14b58086355d1382e391e298517",
+      "change": "editorial navigation and current-status wording only",
+      "publication_sha256": "060d9f983ddcaf8bee1b04071607864d914e056f80fd2b80a95d0510ded1bdac"
+    },
+    {
+      "path": "problems/TUZA-03/README.md",
+      "baseline_sha256": "9b582083a0d5288ec21d81b78cf9acdb4c1f98795731062cc60aeb86a0a0a5af",
+      "change": "editorial navigation and current-status wording only",
+      "publication_sha256": "a2c568c6d11b06edf78f8687dac7c1baeeb63412adf085413684dbc3a08b4a4e"
+    }
+  ],
+  "archive_preservation": "All baseline archive files remain byte-identical except the two listed landing pages. Existing mathematical statements, Lean sources, computational certificates and verification reports are unchanged.",
+  "checksum_policy": "Root FILES.sha256 updates only the two landing-page hashes; its previous version and the frozen TUZA-03 publication manifest retain the historical publication inventory.",
+  "scope_change": false,
+  "new_lean_formalization": false,
+  "new_mathematical_research": false,
+  "private_git_history_included": false,
+  "publication_date": "2026-10-29",
+  "reviewed_source_tree": "8faeff3ff368415d9e8b194228bbf2ee66556ab6",
+  "reviewed_manuscript_sha256": "d00f1a21fa7cf39a0118d0a66a61efdb48bbec8b2c3afc4d1d5c55b8a28a3db8",
+  "final_editorial_changes": [
+    "Remove review-status label from the title page and Markdown heading",
+    "Update publication-status documentation and prominent homepage/archive navigation",
+    "Recompile PDF and regenerate Markdown without changing the mathematical body or bibliography",
+    "Refresh distribution hashes and record the single scholarly PDF exception"
+  ],
+  "pdf_policy": "Exactly one compiled canonical paper PDF is included; historical research archives remain text-only and unchanged."
+}
