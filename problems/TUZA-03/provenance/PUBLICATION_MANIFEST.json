@@ -111,24 +111,30 @@
     },
     {
       "path": "problems/TUZA-03/CONSOLIDATED_MANUSCRIPT.md",
-      "sha256": "e7191ab1cedee8bc5a089a1a7a8c80b9892c79d779f1bf9accc89fd6df380e59",
+      "sha256": "146abc5ab2d83efc0991f6ca0b2e3b8890235e02cb5ed7530145434ff9b95315",
       "transformation": "verification report, execution context sanitized",
       "source": "CONSOLIDATED_MANUSCRIPT.md",
-      "original_sha256": "e7191ab1cedee8bc5a089a1a7a8c80b9892c79d779f1bf9accc89fd6df380e59"
+      "original_sha256": "e7191ab1cedee8bc5a089a1a7a8c80b9892c79d779f1bf9accc89fd6df380e59",
+      "frozen_publication_sha256": "e7191ab1cedee8bc5a089a1a7a8c80b9892c79d779f1bf9accc89fd6df380e59",
+      "presentation_amendment": "Escape absolute-value pipe characters inside the Markdown table only; mathematical text and original source hash unchanged."
     },
     {
       "path": "problems/TUZA-03/FINAL_ASSESSMENT.md",
-      "sha256": "0c751fca5d69d81defd247b970292141a55a19064eb688658f4992417efb2551",
+      "sha256": "d56a5d3371bc475cd1810435bb8d5fc9265fff23449fdac85896f78f30e55508",
       "transformation": "verification report, execution context sanitized",
       "source": "FINAL_ASSESSMENT.md",
-      "original_sha256": "0c751fca5d69d81defd247b970292141a55a19064eb688658f4992417efb2551"
+      "original_sha256": "0c751fca5d69d81defd247b970292141a55a19064eb688658f4992417efb2551",
+      "frozen_publication_sha256": "0c751fca5d69d81defd247b970292141a55a19064eb688658f4992417efb2551",
+      "presentation_amendment": "Escape absolute-value pipe characters inside the Markdown table only; mathematical text and original source hash unchanged."
     },
     {
       "path": "problems/TUZA-03/LEAN_VERIFICATION.md",
-      "sha256": "22c2b237220619a8a0dbeead90669b6918d1233ce55817388d062281723041bb",
+      "sha256": "a9a2dd44b44070d85cdf9f9b4276fefc47c84f094e1155a2043a6ca175259380",
       "transformation": "verification report, execution context sanitized",
       "source": "LEAN_VERIFICATION.md",
-      "original_sha256": "717835d9e700265caff25ba0d7b7ceb3685e866512daa4e9963aa612ed084114"
+      "original_sha256": "717835d9e700265caff25ba0d7b7ceb3685e866512daa4e9963aa612ed084114",
+      "frozen_publication_sha256": "22c2b237220619a8a0dbeead90669b6918d1233ce55817388d062281723041bb",
+      "presentation_amendment": "Escape absolute-value pipe characters inside the Markdown table only; mathematical text and original source hash unchanged."
     },
     {
       "path": "problems/TUZA-03/MATHEMATICAL_AUDIT.md",
@@ -151,10 +157,12 @@
     },
     {
       "path": "problems/TUZA-03/THEOREM_INVENTORY.md",
-      "sha256": "63d5c3cc8da8c2cc1b83c794dd93aabff736561e65e8e3de984218d927ee21d0",
+      "sha256": "b4eed3a5a987c31e06414a90b454bb63d259e91beb68d755e6c08bcd00a3edb6",
       "transformation": "verification report, execution context sanitized",
       "source": "THEOREM_INVENTORY.md",
-      "original_sha256": "63d5c3cc8da8c2cc1b83c794dd93aabff736561e65e8e3de984218d927ee21d0"
+      "original_sha256": "63d5c3cc8da8c2cc1b83c794dd93aabff736561e65e8e3de984218d927ee21d0",
+      "frozen_publication_sha256": "63d5c3cc8da8c2cc1b83c794dd93aabff736561e65e8e3de984218d927ee21d0",
+      "presentation_amendment": "Escape absolute-value pipe characters inside the Markdown table only; mathematical text and original source hash unchanged."
     },
     {
       "path": "problems/TUZA-03/experiments/baseline/TUZA-02/checks/independent_certificates.json",
@@ -522,5 +530,11 @@
     }
   ],
   "finalized_utc": "2026-10-29T10:06:30.574298+00:00",
-  "source_checks": "Every staged Lean/pin source exactly matches the successful final clean reproduction."
+  "source_checks": "Every staged Lean/pin source exactly matches the successful final clean reproduction.",
+  "post_verification_presentation_amendment": {
+    "base_publication_commit": "5d7e806898d0ba16adc150fef5df15bb4d2d4e25",
+    "reason": "GitHub Markdown interprets unescaped absolute-value pipes as table column delimiters.",
+    "scope": "Four table rows only, plus updated distribution hashes and this provenance record. No mathematical, Lean, experiment, or reproduction source change.",
+    "original_verification_manifest_retained": true
+  }
 }
