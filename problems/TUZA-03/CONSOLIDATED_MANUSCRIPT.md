@@ -278,7 +278,7 @@ The new verification replay regenerated all graph triangles and checked 35 recur
 | Full essential-edge restoration, no slack premise | `Tuza.two_triangle_essential_edge_restoration` | `AharoniInput`, `HNSInput` |
 | Stronger individual-family cover saving in the critical branch | `Tuza.two_triangle_essential_family_saving` | `AharoniInput`, `HNSInput` |
 | Closed-boundary equality deletion, arbitrary A | `Tuza.closed_boundary_equality_deletion` | `AharoniInput`, `HNSInput`, `BipartiteKonigInput (Finset V)` |
-| Stable boundary packing loss at most floor(|A|/2) | `Tuza.closed_boundary_packing_loss` | Same as equality deletion |
+| Stable boundary packing loss at most floor(\|A\|/2) | `Tuza.closed_boundary_packing_loss` | Same as equality deletion |
 | General companion stability criterion | `Tuza.closed_boundary_stability` | `AharoniInput`, `HNSInput` |
 
 `AharoniInput` states the tripartite full-graph triangle bound tau<=2nu. The frozen `HNSInput` states that a tripartite equality graph has nu edge-disjoint actual K4s; this interface includes the published home-base extraction and the ordinary graphical loose-cycle conversion inherited from TUZA-01. Those deep inputs and the conversion inside that frozen interface remain assumed in Lean. New equality exhaustion, face compatibility, mixed-family covers, Hall classification, free-page and apex arguments are proved.
