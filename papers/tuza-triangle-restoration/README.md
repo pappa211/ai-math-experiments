@@ -4,9 +4,9 @@
 
 **[Read the full paper](main.md) · [Inspect the PDF](main.pdf) · [LaTeX source](main.tex) · [BibTeX bibliography](references.bib)**
 
-The paper proves the one-triangle criterion, OCT-four and the fixed-$c<5/2$ density consequence; selected two-triangle restoration theorems; closed-boundary equality deletion, packing loss and stability; the qualified four-spoke consequence; and exact parameterized compression. Its [proof coverage map](PROOF_COVERAGE.md) identifies the original sources and formal status.
+The paper proves the one-triangle criterion, OCT-four and the fixed-$`c<5/2`$ density consequence; selected two-triangle restoration theorems; closed-boundary equality deletion, packing loss and stability; the qualified four-spoke consequence; and exact parameterized compression. Its [proof coverage map](PROOF_COVERAGE.md) identifies the original sources and formal status.
 
-**Unrestricted two-triangle restoration, OCT-five, and the fixed-$c<3$ density extension remain unproved.** The endpoint $c=5/2$, a uniform density threshold there, unrestricted stable slack-one remainders, and general iterative descent are not established.
+**Unrestricted two-triangle restoration, OCT-five, and the fixed-$`c<3`$ density extension remain unproved.** The endpoint $`c=5/2`$, a uniform density threshold there, unrestricted stable slack-one remainders, and general iterative descent are not established.
 
 Selected deductions have conditional Lean verification with explicit published Aharoni and HNS inputs and, where applicable, classical bipartite König. The inherited HNS interface includes the graphical conversion used in TUZA-01; it has not been independently discharged in Lean. Flat restoration, the three star cores, mixed/shared-apex bowties, qualified four-spoke descent, compression and the density argument have audited ordinary proofs without full Lean formalization. A standard-axiom report does not discharge theorem parameters.
 

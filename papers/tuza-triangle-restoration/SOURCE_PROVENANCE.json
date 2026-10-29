@@ -62,19 +62,19 @@
       "path": "README.md",
       "baseline_sha256": "195b968ba568c3cf66e89d9d6332a2fed27751940ed177e5fefdc342442d4de7",
       "change": "editorial navigation and current-status wording only",
-      "publication_sha256": "ae8b26c9f793b0dafc13135544b2d4862f61d1f1f2797c7295f8d536cdc45c6f"
+      "publication_sha256": "45024867551718d6cab6f19047d62cfd1ede1dab93329f2edaa31c8010a73c5d"
     },
     {
       "path": "problems/TUZA-02/README.md",
       "baseline_sha256": "9e7f3e94ae9c097af06af7336aa13d3d729cd14b58086355d1382e391e298517",
       "change": "editorial navigation and current-status wording only",
-      "publication_sha256": "060d9f983ddcaf8bee1b04071607864d914e056f80fd2b80a95d0510ded1bdac"
+      "publication_sha256": "56b7ebc67008e3d421c62b3ca3036d3b3621e1de0887b686825988979e5aa733"
     },
     {
       "path": "problems/TUZA-03/README.md",
       "baseline_sha256": "9b582083a0d5288ec21d81b78cf9acdb4c1f98795731062cc60aeb86a0a0a5af",
       "change": "editorial navigation and current-status wording only",
-      "publication_sha256": "a2c568c6d11b06edf78f8687dac7c1baeeb63412adf085413684dbc3a08b4a4e"
+      "publication_sha256": "82cea3016739c1485e4e579c7b6a3ab710a87f6d9416c1efa1405c110848c2ce"
     }
   ],
   "archive_preservation": "All baseline archive files remain byte-identical except the two listed landing pages. Existing mathematical statements, Lean sources, computational certificates and verification reports are unchanged.",
@@ -90,7 +90,8 @@
     "Remove review-status label from the title page and Markdown heading",
     "Update publication-status documentation and prominent homepage/archive navigation",
     "Recompile PDF and regenerate Markdown without changing the mathematical body or bibliography",
-    "Refresh distribution hashes and record the single scholarly PDF exception"
+    "Refresh distribution hashes and record the single scholarly PDF exception",
+    "Normalize landing-page inline math to GitHub-supported code-delimited math after live rendering inspection; formulas unchanged"
   ],
   "pdf_policy": "Exactly one compiled canonical paper PDF is included; historical research archives remain text-only and unchanged."
 }

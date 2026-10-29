@@ -2,7 +2,7 @@
 
 The most complete mathematical presentation of TUZA-01–03 is [Triangle Restoration and Packing–Covering Stability in Tuza’s Conjecture](../../papers/tuza-triangle-restoration/main.md) ([PDF](../../papers/tuza-triangle-restoration/main.pdf), [sources and scope](../../papers/tuza-triangle-restoration/README.md)). It includes the complete selected proofs from all three archives.
 
-The earlier [TUZA-02/03 consolidated manuscript](CONSOLIDATED_MANUSCRIPT.md) and its verification reports are preserved below. **Unrestricted two-triangle restoration, OCT-five, and the fixed-$c<3$ density extension remain UNPROVED.** Historical originality is not established.
+The earlier [TUZA-02/03 consolidated manuscript](CONSOLIDATED_MANUSCRIPT.md) and its verification reports are preserved below. **Unrestricted two-triangle restoration, OCT-five, and the fixed-$`c<3`$ density extension remain UNPROVED.** Historical originality is not established.
 
 Completed conditional Lean deductions are full exact-equality restoration, full essential-edge restoration, closed-boundary equality deletion, the stable floor packing-loss bound, and the companion stability criterion. Their exact published inputs are in [Lean verification](LEAN_VERIFICATION.md). Flat restoration, the mixed/shared-apex exact-two-apex bowtie theorem, and exact compression have complete audited ordinary proofs and are not Lean-formalized here.
 

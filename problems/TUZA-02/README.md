@@ -16,4 +16,4 @@ The completed verification accepts restoration from a tripartite remainder with 
 
 The checker uses direct subset enumeration, regenerates full graph-triangle families, and verifies the star parameters, surviving packings after every single-edge deletion, and individual-versus-full-family example. Run `python3 experiments/independent_certificates.py` from this directory. It does not rerun the original broad searches or prove an unbounded theorem.
 
-Unrestricted two-triangle restoration, OCT-five, and the fixed-$c<3$ density extension remain **UNPROVED**. Archived candidate wording is historical; the canonical paper and TUZA-03 verification reports give the accepted scope. The repository's Apache-2.0 license and published-source attribution are retained.
+Unrestricted two-triangle restoration, OCT-five, and the fixed-$`c<3`$ density extension remain **UNPROVED**. Archived candidate wording is historical; the canonical paper and TUZA-03 verification reports give the accepted scope. The repository's Apache-2.0 license and published-source attribution are retained.
