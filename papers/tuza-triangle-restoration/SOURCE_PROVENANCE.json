@@ -92,7 +92,8 @@
     "Recompile PDF and regenerate Markdown without changing the mathematical body or bibliography",
     "Refresh distribution hashes and record the single scholarly PDF exception",
     "Normalize landing-page inline math to GitHub-supported code-delimited math after live rendering inspection; formulas unchanged",
-    "Adapt generated Markdown to GitHub math rendering: upright oct notation, equation numbers outside math, and the unchanged inequality chain of equation (22) on one line; canonical LaTeX and PDF unchanged"
+    "Adapt generated Markdown to GitHub math rendering: upright oct notation, equation numbers outside math, and the unchanged inequality chain of equation (22) on one line; canonical LaTeX and PDF unchanged",
+    "Spell less-than comparisons as equivalent TeX lt commands inside generated Markdown math to prevent silent GitHub HTML truncation; all comparison symbols and operands preserved"
   ],
   "pdf_policy": "Exactly one compiled canonical paper PDF is included; historical research archives remain text-only and unchanged."
 }

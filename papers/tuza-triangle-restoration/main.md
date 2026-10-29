@@ -6,7 +6,7 @@ AI Math Experiments · 29 October 2026
 
 ## Abstract
 
-For a finite simple graph $`G`$, let $`\nu(G)`$ be the maximum number of edge-disjoint triangles and $`\tau(G)`$ the minimum size of a triangle edge cover. We integrate triangle-restoration criteria and packing–covering stability results. Restoring one triangle to a remainder with tripartite full triangle hypergraph preserves Tuza’s inequality; consequently the inequality holds for odd-cycle transversal at most four and, by an adaptation of Liu–Zeng, for sufficiently large graphs with $`e(G)\ge n^2/4-cn`$ for every fixed $`c<5/2`$. For two restored triangles we give complete proofs for exact-equality and essential-edge tripartite remainders, flat remainders, three specified nonflat star cores, and exact two-apex bowties with shared apices or mixed triangles. We prove closed-boundary deletion and stability criteria and a compression preserving four exact optimization values. Selected deductions are conditionally checked in Lean with their external mathematical inputs explicit; the remaining results have audited ordinary proofs. Unrestricted two-triangle restoration, OCT-five, and the fixed-$`c<3`$ density extension remain unproved.
+For a finite simple graph $`G`$, let $`\nu(G)`$ be the maximum number of edge-disjoint triangles and $`\tau(G)`$ the minimum size of a triangle edge cover. We integrate triangle-restoration criteria and packing–covering stability results. Restoring one triangle to a remainder with tripartite full triangle hypergraph preserves Tuza’s inequality; consequently the inequality holds for odd-cycle transversal at most four and, by an adaptation of Liu–Zeng, for sufficiently large graphs with $`e(G)\ge n^2/4-cn`$ for every fixed $`c\lt 5/2`$. For two restored triangles we give complete proofs for exact-equality and essential-edge tripartite remainders, flat remainders, three specified nonflat star cores, and exact two-apex bowties with shared apices or mixed triangles. We prove closed-boundary deletion and stability criteria and a compression preserving four exact optimization values. Selected deductions are conditionally checked in Lean with their external mathematical inputs explicit; the remaining results have audited ordinary proofs. Unrestricted two-triangle restoration, OCT-five, and the fixed-$`c\lt 3`$ density extension remain unproved.
 
 ## 1. Introduction and contribution
 
@@ -30,7 +30,7 @@ Let $`T`$ be a triangle of $`G`$ and put $`H=G-E(T)`$, retaining all vertices. I
 
 Tuza’s inequality for triangle-3-colorable graphs, including four-colorable graphs, is known from Lakshmanan–Bujtás–Tuza \[[3](#reference-3)\] and follows from Aharoni’s theorem \[[1](#reference-1)\]. The new deduction considered here is the addition of the three edges of a triangle to such a remainder. Merely adding these three edges to a cover loses one unit in the critical case. Equality structure repairs that loss. We use only the specific consequence of Haxell–Narins–Szabó (HNS) \[[9](#reference-9)\] proved below, rather than a classification of all graphical equality cases.
 
-There are antecedents for $`K_4`$ equality arguments in planar graphs \[[5](#reference-5)\] and for fractional triangle covers \[[8](#reference-8)\]. The latter concerns $`\tau^*`$, and integer equality $`\tau=2\nu`$ cannot simply be substituted for fractional equality. The elementary intersecting-family lemma below is also known \[[2](#reference-2)\]. No novelty is claimed for these inputs. Liu–Zeng’s preprint \[[12](#reference-12)\] proves the odd-cycle-transversal-three case and the fixed-deficit density range $`c<2`$; our corollaries concern four vertices and $`c<5/2`$, respectively.
+There are antecedents for $`K_4`$ equality arguments in planar graphs \[[5](#reference-5)\] and for fractional triangle covers \[[8](#reference-8)\]. The latter concerns $`\tau^*`$, and integer equality $`\tau=2\nu`$ cannot simply be substituted for fractional equality. The elementary intersecting-family lemma below is also known \[[2](#reference-2)\]. No novelty is claimed for these inputs. Liu–Zeng’s preprint \[[12](#reference-12)\] proves the odd-cycle-transversal-three case and the fixed-deficit density range $`c\lt 2`$; our corollaries concern four vertices and $`c\lt 5/2`$, respectively.
 
 ## 3. Equality structure and compatible packings
 
@@ -728,11 +728,11 @@ The following is a derived corollary using the proof of Liu–Zeng \[[12](#refer
 
 <a name="cor-density"></a>
 
-For every fixed real $`c<5/2`$ there exists $`N(c)`$ such that, for every integer $`n\ge N(c)`$ and every $`n`$-vertex graph $`G`$, $`e(G)\ge n^2/4-cn`$ implies $`\tau(G)\le2\nu(G)`$.
+For every fixed real $`c\lt 5/2`$ there exists $`N(c)`$ such that, for every integer $`n\ge N(c)`$ and every $`n`$-vertex graph $`G`$, $`e(G)\ge n^2/4-cn`$ implies $`\tau(G)\le2\nu(G)`$.
 
 **Imported approximation and elementary estimates.** Let $`\nu^*(G)`$ be the fractional triangle-packing optimum. We use $`\nu^*(G)-\nu(G)=o(n^2)`$, due to Haxell–Rödl \[[10](#reference-10)\]; alternatively Yuster’s Theorem 1.2 \[[15](#reference-15)\], with graph family $`\{K_3\}`$, suffices. Removing isolates leaves both optima unchanged. If the remaining order is large, its $`o(m^2)`$ error is bounded by the desired error in $`n^2`$; if bounded, its whole fractional optimum is a fixed constant. This handles Yuster’s convention excluding isolated vertices. Finite linear-programming duality identifies $`\nu^*`$ with the fractional edge-cover optimum.
 
-We also use Liu–Zeng Lemma 2.4: if $`S\subseteq E(J)`$ has at most one edge per triangle, $`C=E(J)\setminus S`$, and $`|C|\ge\beta n^2`$ for $`0<\beta<1/2`$, then
+We also use Liu–Zeng Lemma 2.4: if $`S\subseteq E(J)`$ has at most one edge per triangle, $`C=E(J)\setminus S`$, and $`|C|\ge\beta n^2`$ for $`0\lt \beta\lt 1/2`$, then
 
 <a name="eq-saving"></a>
 
@@ -746,9 +746,9 @@ This lemma has no density-deficit parameter. Their proof deletes a suitable cut 
 
 *Proof of Corollary [14.1](#cor-density).*
 
-It suffices to treat $`0\le c<5/2`$, since a negative $`c`$ has a stronger hypothesis than $`c=0`$. Put $`k=\nu(G)`$, $`t=\tau(G)`$ and take $`n`$ sufficiently large, as specified below.
+It suffices to treat $`0\le c\lt 5/2`$, since a negative $`c`$ has a stronger hypothesis than $`c=0`$. Put $`k=\nu(G)`$, $`t=\tau(G)`$ and take $`n`$ sufficiently large, as specified below.
 
-**Large packing: $`k\ge10^{-5}n^2`$.** This is Liu–Zeng’s Section 3, Case 1, unchanged: it uses no edge-count assumption or bound on $`c`$. Here is its quantitative core. If $`t>2k`$, choose the approximation error at most $`10^{-18}n^2`$ and write $`d=\nu^*(G)-t/2`$. The fractional-cover threshold argument in their equations (2)–(6), applied to weights in decreasing order, gives $`0\le d<10^{-18}n^2`$. Partition the edges into $`L,M,F`$ according as their weights lie in $`[0,1/6)`$, $`[1/6,2/3)`$, $`[2/3,1]`$. The same argument gives
+**Large packing: $`k\ge10^{-5}n^2`$.** This is Liu–Zeng’s Section 3, Case 1, unchanged: it uses no edge-count assumption or bound on $`c`$. Here is its quantitative core. If $`t>2k`$, choose the approximation error at most $`10^{-18}n^2`$ and write $`d=\nu^*(G)-t/2`$. The fractional-cover threshold argument in their equations (2)–(6), applied to weights in decreasing order, gives $`0\le d\lt 10^{-18}n^2`$. Partition the edges into $`L,M,F`$ according as their weights lie in $`[0,1/6)`$, $`[1/6,2/3)`$, $`[2/3,1]`$. The same argument gives
 
 <a name="eq-large"></a>
 
@@ -763,7 +763,7 @@ For precision, the threshold inequalities are $`2f_i+f_{2t+1-i}\ge1`$ for $`1\le
 <a name="eq-contradiction"></a>
 
 ``` math
-t\le |F|+|M|-10^{-15}n^2/36 <t+(12\cdot10^{-18}-10^{-15}/36)n^2<t,
+t\le |F|+|M|-10^{-15}n^2/36 \lt t+(12\cdot10^{-18}-10^{-15}/36)n^2\lt t,
 ```
 
 **(22)**
@@ -782,7 +782,7 @@ a contradiction. All inputs to this case are independent of $`c`$.
 
 Every distinct pair in $`B`$ has more than $`n/20`$ common $`H`$-neighbors in $`C`$, and conversely. Hence $`B,C`$ are independent in $`H`$ and the missing $`B,C`$-pairs number at most $`2\delta`$. These are Liu–Zeng’s equations (7)–(13), with the deficit retained explicitly.
 
-**Intermediate packing: $`n^{2/3}<k<10^{-5}n^2`$.** Remove a maximum packing $`\mathcal P`$ to form $`H`$. Then
+**Intermediate packing: $`n^{2/3}\lt k\lt 10^{-5}n^2`$.** Remove a maximum packing $`\mathcal P`$ to form $`H`$. Then
 
 <a name="eq-delta"></a>
 
@@ -812,7 +812,7 @@ Using $`(a+b)^{3/2}\le\sqrt2(a^{3/2}+b^{3/2})`$, $`(a+b)^2\le2(a^2+b^2)`$, and [
 \begin{aligned}
 \frac{t-k}{k}\le{}&120\sqrt3\,n^{-1/6}
  +120\sqrt{3\cdot10^{-5}}\\
- &+7200n^{-2/3}+7200\cdot10^{-5}<1
+ &+7200n^{-2/3}+7200\cdot10^{-5}\lt 1
 \end{aligned}
 ```
 
@@ -840,7 +840,7 @@ e(H)=e(G)-k-2k'\ge n^2/4-cn-3k\ge n^2/4-5n
 
 **(28)**
 
-eventually. Thus the source’s constant $`5n`$ is unchanged for $`c<5/2`$. The decomposition gives $`|A|\le100`$. Since $`n/20>2k'`$ eventually, its common-neighbor property and the codegree bound make $`B,C`$ independent even in $`G'`$.
+eventually. Thus the source’s constant $`5n`$ is unchanged for $`c\lt 5/2`$. The decomposition gives $`|A|\le100`$. Since $`n/20>2k'`$ eventually, its common-neighbor property and the codegree bound make $`B,C`$ independent even in $`G'`$.
 
 Place each $`x\in A`$ on the side with fewer $`H`$-neighbors. Their product is at most $`10n`$, since all pairs between these neighbor sets are missing cross pairs. The resulting parts $`X,Y`$ satisfy
 
@@ -906,7 +906,7 @@ The constant terms are $`100s+1,020,000+4950\le1,034,950`$; the coefficient of $
 
 For $`n\ge1`$ the right side is less than $`106,000,000n^{2/3}`$. Put $`\varepsilon=5/2-c>0`$. If $`s\ge5`$, [(33)](#eq-key) is impossible for $`n>(106,000,000/\varepsilon)^3`$. Hence $`s\le4`$. Deleting $`S_1\cup S_2`$ makes $`G'`$ bipartite. Corollary [4.3](#cor-oct) gives $`\tau(G')\le2k'`$, and [(27)](#eq-restore) gives $`\tau(G)\le k+k'\le2k`$.
 
-One sufficient $`N(c)`$ is the maximum of $`10^{18}`$, the threshold for the imported fractional approximation with error $`10^{-18}n^2`$, and an integer strictly exceeding $`(106,000,000/(5/2-c))^3`$. For $`c<0`$ use $`N(0)`$. No numerical threshold for the deep approximation is asserted. The strict positivity of $`5/2-c`$ is essential to the last step: this proof establishes neither the endpoint $`c=5/2`$ nor a threshold uniform as $`c`$ approaches it. This completes the adaptation.
+One sufficient $`N(c)`$ is the maximum of $`10^{18}`$, the threshold for the imported fractional approximation with error $`10^{-18}n^2`$, and an integer strictly exceeding $`(106,000,000/(5/2-c))^3`$. For $`c\lt 0`$ use $`N(0)`$. No numerical threshold for the deep approximation is asserted. The strict positivity of $`5/2-c`$ is essential to the last step: this proof establishes neither the endpoint $`c=5/2`$ nor a threshold uniform as $`c`$ approaches it. This completes the adaptation.
 
 $`\square`$
 
@@ -959,7 +959,7 @@ The archived verification replay regenerated all graph triangles and checked 35 
 
 ### 15.3 Scope, originality and remaining questions
 
-**Unrestricted two-triangle restoration, OCT-five and the fixed-$`c<3`$ density extension remain unproved.** The density proof also establishes neither its endpoint $`c=5/2`$ nor a threshold uniform near that endpoint. General stable, nonflat, slack-one remainders remain outside the restoration theorems. Exact bowties with disjoint apices and no mixed triangle, and arbitrary individual families of packing three, are not settled here.
+**Unrestricted two-triangle restoration, OCT-five and the fixed-$`c\lt 3`$ density extension remain unproved.** The density proof also establishes neither its endpoint $`c=5/2`$ nor a threshold uniform near that endpoint. General stable, nonflat, slack-one remainders remain outside the restoration theorems. Exact bowties with disjoint apices and no mixed triangle, and arbitrary individual families of packing three, are not settled here.
 
 The compression theorem does not bound $`h`$ or reduce unrestricted restoration to one finite computation. Existing linear-size decision kernels for individual edge-triangle packing and covering \[[13](#reference-13)\] preclude an improved-kernel-size claim for this quadratic simultaneous-preservation argument. Fractional stability results \[[8](#reference-8)\] have a fractional-cover hypothesis and cannot be invoked from integer slack one.
 

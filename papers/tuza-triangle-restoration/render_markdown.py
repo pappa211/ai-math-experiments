@@ -81,5 +81,9 @@ for marker,html in anchors.items():out=out.replace(marker,html)
 # GitHub display math is kept on separate lines.
 out=re.sub(r'(?m)^\\\[(.*?)\\\]$',r'$$\1$$',out)
 out=re.sub(r' {2,}\n','<br>\n',out)
+# Protect comparisons from GitHub's HTML interpretation of display math.
+tick=chr(96)
+out=re.sub(r'\$'+tick+r'(.*?)'+tick+r'\$',lambda m:'$'+tick+m[1].replace('<',r'\lt ')+tick+'$',out,flags=re.S)
+out=re.sub(r'(?ms)^'+tick*3+r' math\n(.*?)^'+tick*3,lambda m:tick*3+' math\n'+m[1].replace('<',r'\lt ')+tick*3,out)
 args.output.write_text(out)
 print(f'{args.output}: {len(out.encode())} bytes; {sec} sections; {eq} numbered equations; {len(citations)} references')
