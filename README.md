@@ -1,5 +1,11 @@
 # AI math experiments
 
+**AI-developed mathematical research report — AI Math Experiments**
+
+Current technical report: **[Equality in Tuza’s Inequality for 5-Degenerate Graphs](papers/tuza-five-degenerate/main.md)**.
+
+The mathematical development, proofs, code, formalization, manuscript and internal reviews were produced through AI systems. The human participant supplied goals, budgets, coordination and authorization.
+
 A personal experiment in whether a non-mathematician can use commercially accessible frontier AI models, computational mathematics, and formal verification to investigate open mathematical questions.
 
 The method is to identify a problem and check its reported open status, let AI systems investigate it, test proposed arguments with computation and Lean where useful, and preserve critical reviews alongside successful and failed approaches. Evidence is labelled by what was actually checked. Unverified claims are not presented as discoveries.
@@ -20,14 +26,14 @@ The results include one-triangle restoration, OCT-four, the fixed-$`c<5/2`$ dens
 
 The original [TUZA-01](problems/TUZA-01/README.md), [TUZA-02](problems/TUZA-02/README.md) and [TUZA-03](problems/TUZA-03/README.md) archives retain their proof sources, experiments, reviews, Lean files and reproduction evidence. [Editorial provenance and scope](papers/tuza-triangle-restoration/README.md) distinguish the canonical paper from those historical records.
 
-## Tuza’s inequality and equality for five-degenerate graphs
+## Equality in Tuza’s inequality for five-degenerate graphs
 
 Every finite simple **5-degenerate** graph $G$ satisfies $\tau(G)\le 2\nu(G)$, with equality if and only if every nonempty triangle component connected through shared graph edges has edge support exactly $K_4$ or $K_5$. Here $\nu$ counts edge-disjoint triangles and $\tau$ counts graph edges hitting all triangles. Graph order and maximum degree are unrestricted; empty and triangle-free graphs, background edges and blocks sharing vertices are included.
 
-- **[Read the complete paper (PDF)](papers/tuza-five-degenerate/main.pdf)** · **[Markdown](papers/tuza-five-degenerate/main.md)** · [LaTeX](papers/tuza-five-degenerate/main.tex) · [bibliography](papers/tuza-five-degenerate/references.bib).
+- **[Read the technical report: Equality in Tuza’s Inequality for 5-Degenerate Graphs (PDF)](papers/tuza-five-degenerate/main.pdf)** · **[Markdown](papers/tuza-five-degenerate/main.md)** · [LaTeX](papers/tuza-five-degenerate/main.tex) · [bibliography](papers/tuza-five-degenerate/references.bib).
 - **[TUZA-06 research and Lean archive](problems/TUZA-06/README.md)**, including [curated TUZA-04–05 ordinary proofs/history](problems/TUZA-06/history/README.md), [precise formal statement](problems/TUZA-06/FORMAL_STATEMENT.md), [verification coverage](problems/TUZA-06/PROOF_STATUS.md) and [portable reproduction](problems/TUZA-06/REPRODUCTION.md).
 
-The exact combined theorem is formalized without additional unproved mathematical inputs in all 280 frozen mathematical modules. Publication reproduction rebuilds those modules, audits all 618 public theorem types/transitive axioms and replays the fresh local objects using the standard Lean kernel, against reused pinned compiled dependencies. It is not a cold Mathlib rebuild or a separate kernel implementation. Published local inequality reductions are credited; historical priority and external specialist peer review are not claimed. The combined equality classification is the principal contribution proposed here.
+The exact combined theorem is formalized without additional unproved mathematical inputs in all 280 frozen mathematical modules. Publication reproduction rebuilds those modules, audits all 618 public theorem types/transitive axioms and replays the fresh local objects using the standard Lean kernel, against reused pinned compiled dependencies. It is not a cold Mathlib rebuild or a separate kernel implementation. Published local inequality reductions are credited; historical priority and external specialist peer review are not claimed. The combined equality classification is the principal contribution proposed here. Its inequality has a short deduction from published local reductions; this does not by itself establish prior knowledge. The editorial release retains the existing mathematical verification and introduces no new Lean run.
 
 This is a separate canonical work from the TUZA-01–03 restoration paper above. It establishes no general Tuza, six-degenerate, OCT-five, unrestricted restoration or fixed-$c<3$ density theorem. [Attribution, provenance and publication scope](papers/tuza-five-degenerate/README.md).
 

@@ -5,3 +5,5 @@ These selected records are public derivatives of internal AI reviews. They are n
 The complete final theorem was reviewed in [FINAL_THEOREM_REVIEW.md](FINAL_THEOREM_REVIEW.md); [FINAL_CORE_SEMANTIC_REVIEW.md](FINAL_CORE_SEMANTIC_REVIEW.md) examines arbitrary outside pages. Link classification, low-neighbor and overlap reviews are also retained. Intermediate conditional/PENDING milestones are superseded by [the final public status](../PROOF_STATUS.md). The publication-specific final review and reproduction outcomes are linked there.
 
 The [final publication-specific internal AI review](PUBLICATION_REVIEW.md) checks the exact canonical paper, all 280 frozen sources, complete fresh build/replay evidence, attribution, public derivatives, privacy and reproduction boundaries.
+
+The original publication review above concerns the original 20-page PDF and remains historical evidence. The [current editorial record](../editorial/CURRENT_ARTIFACT.json) and [editorial review](../editorial/EDITORIAL_REVIEW.md) identify the present revision and its review limits.
