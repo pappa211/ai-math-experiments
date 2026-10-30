@@ -1,0 +1,5 @@
+@Tuza06.four_degenerate_combined : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V},
+  Tuza06.Degenerate G 4 →
+    Tuza.tau (Tuza.triangles G) ≤ 2 * Tuza.nu (Tuza.triangles G) ∧
+      (Tuza.tau (Tuza.triangles G) = 2 * Tuza.nu (Tuza.triangles G) ↔ Tuza06.ComponentCliques G)
+'Tuza06.four_degenerate_combined' depends on axioms: [propext, Classical.choice, Quot.sound]

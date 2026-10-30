@@ -1,0 +1,1153 @@
+$ lake env lean --version
+Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+$ lake env lean --print-prefix
+LEAN_TOOLCHAIN
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/mathlib rev-parse HEAD
+0df444a360eaa60ab8c11dca51a86af692955474
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/mathlib status --porcelain --untracked-files=no
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/plausible rev-parse HEAD
+b7eb3304aeae834b12dda98993a37f6a41f6f0bb
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/plausible status --porcelain --untracked-files=no
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/LeanSearchClient rev-parse HEAD
+5f4d51b81cbd3f6b32b156bfad9056621a040404
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/LeanSearchClient status --porcelain --untracked-files=no
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/importGraph rev-parse HEAD
+16f02aa7642864af59f1ff0e384a015994db9118
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/importGraph status --porcelain --untracked-files=no
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/proofwidgets rev-parse HEAD
+4be2e3d5087eeb272cf5a8853b8f9dd025ef5957
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/proofwidgets status --porcelain --untracked-files=no
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/aesop rev-parse HEAD
+3448c0bcc5ce01b2d1546e483ec3620e32df3d0e
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/aesop status --porcelain --untracked-files=no
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/Qq rev-parse HEAD
+92c15be17b7caf78c2ad767ec40f89052d908d81
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/Qq status --porcelain --untracked-files=no
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/batteries rev-parse HEAD
+4488d40d070b9700d4d5a6aa342f0d40c31b2a2d
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/batteries status --porcelain --untracked-files=no
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/Cli rev-parse HEAD
+6130a47896ce867c6a4a55373441e59e565bad0f
+$ git --no-optional-locks -C PINNED_DEPENDENCY_PACKAGES/Cli status --porcelain --untracked-files=no
+$ lake env lean -j 1 -M 1900 -o FRESH_PROJECT/.lake/replay-tools/ReplayExactNative.olean -c FRESH_PROJECT/.lake/replay-tools/ReplayExactNative.c FRESH_PROJECT/tools/ReplayExactNative.lean
+$ lake env leanc -o FRESH_PROJECT/.lake/replay-tools/replay-exact FRESH_PROJECT/.lake/replay-tools/ReplayExactNative.c
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza.Basic
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza.Basic; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza.Basic
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza.Graph
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza.Graph; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza.Graph
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Transport
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Transport; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Transport
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Basic
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Basic; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Basic
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk00
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk00; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk00
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk01
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk01; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk01
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk02
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk02; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk02
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk03
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk03; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk03
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk04
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk04; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk04
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk05
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk05; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk05
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk06
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk06; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk06
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk07
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk07; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk07
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Group0
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Group0; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Group0
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk08
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk08; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk08
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk09
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk09; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk09
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk10
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk10; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk10
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk11
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk11; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk11
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk12
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk12; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk12
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk13
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk13; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk13
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk14
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk14; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk14
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk15
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk15; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk15
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Group1
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Group1; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Group1
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk16
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk16; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk16
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk17
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk17; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk17
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk18
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk18; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk18
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk19
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk19; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk19
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk20
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk20; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk20
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk21
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk21; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk21
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk22
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk22; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk22
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk23
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk23; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk23
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Group2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Group2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Group2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk24
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk24; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk24
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk25
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk25; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk25
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk26
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk26; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk26
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk27
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk27; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk27
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk28
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk28; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk28
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk29
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk29; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk29
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk30
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk30; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk30
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk31
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk31; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk31
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Group3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Group3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Group3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk32
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk32; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk32
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk33
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk33; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk33
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk34
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk34; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk34
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk35
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk35; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk35
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk36
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk36; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk36
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk37
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk37; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk37
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk38
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk38; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk38
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk39
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk39; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk39
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Group4
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Group4; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Group4
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk40
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk40; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk40
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk41
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk41; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk41
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk42
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk42; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk42
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk43
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk43; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk43
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk44
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk44; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk44
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk45
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk45; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk45
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk46
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk46; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk46
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk47
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk47; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk47
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Group5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Group5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Group5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk48
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk48; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk48
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk49
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk49; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk49
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk50
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk50; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk50
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk51
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk51; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk51
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk52
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk52; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk52
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk53
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk53; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk53
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk54
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk54; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk54
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk55
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk55; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk55
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Group6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Group6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Group6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk56
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk56; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk56
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk57
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk57; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk57
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk58
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk58; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk58
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk59
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk59; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk59
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk60
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk60; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk60
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk61
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk61; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk61
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk62
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk62; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk62
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Chunk63
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Chunk63; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Chunk63
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage.Group7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage.Group7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage.Group7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveCoverage
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveCoverage; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveCoverage
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Statement
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Statement; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Statement
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiniteCliques
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiniteCliques; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiniteCliques
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Pages
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Pages; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Pages
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Reduction
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Reduction; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Reduction
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Additivity
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Additivity; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Additivity
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.BlockAggregation
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.BlockAggregation; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.BlockAggregation
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Components
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Components; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Components
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Critical
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Critical; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Critical
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.MinimalObstruction
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.MinimalObstruction; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.MinimalObstruction
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.GraphOperations
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.GraphOperations; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.GraphOperations
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.PageAugmentation
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.PageAugmentation; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.PageAugmentation
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza.Intersecting
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza.Intersecting; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza.Intersecting
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza.IntersectingStructure
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza.IntersectingStructure; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza.IntersectingStructure
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.UniqueEdge
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.UniqueEdge; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.UniqueEdge
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SmallLinksBase
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SmallLinksBase; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SmallLinksBase
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SmallLinksOperations
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SmallLinksOperations; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SmallLinksOperations
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SmallLinksK3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SmallLinksK3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SmallLinksK3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Footprints
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Footprints; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Footprints
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SmallLinksPatterns
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SmallLinksPatterns; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SmallLinksPatterns
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SmallLinksK4
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SmallLinksK4; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SmallLinksK4
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SmallLinksCross
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SmallLinksCross; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SmallLinksCross
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SmallLinksFour
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SmallLinksFour; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SmallLinksFour
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SmallLinks
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SmallLinks; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SmallLinks
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Reducible
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Reducible; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Reducible
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SetPeeling
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SetPeeling; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SetPeeling
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.GraphPeeling
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.GraphPeeling; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.GraphPeeling
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.MatchingReduction
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.MatchingReduction; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.MatchingReduction
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.PatternTools
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.PatternTools; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.PatternTools
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiniteAugmentation
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiniteAugmentation; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiniteAugmentation
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SparseLinksK23Page
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SparseLinksK23Page; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SparseLinksK23Page
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SparseLinksC5Page
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SparseLinksC5Page; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SparseLinksC5Page
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SparseLinksTools
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SparseLinksTools; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SparseLinksTools
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SparseLinksPage
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SparseLinksPage; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SparseLinksPage
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveLinkLabeling
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveLinkLabeling; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveLinkLabeling
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.DenseLinkOne
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.DenseLinkOne; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.DenseLinkOne
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.DenseLinkTwo
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.DenseLinkTwo; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.DenseLinkTwo
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.DenseLinkThree
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.DenseLinkThree; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.DenseLinkThree
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.DenseLinkFour
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.DenseLinkFour; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.DenseLinkFour
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.DenseExtraLink
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.DenseExtraLink; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.DenseExtraLink
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.BowtieLink
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.BowtieLink; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.BowtieLink
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SparseLinksK23
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SparseLinksK23; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SparseLinksK23
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SparseLinksC5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SparseLinksC5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SparseLinksC5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.ExternalPageGeometry
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.ExternalPageGeometry; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.ExternalPageGeometry
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SparseLinksBadPages
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SparseLinksBadPages; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SparseLinksBadPages
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.K221Finite
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.K221Finite; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.K221Finite
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FinalCoreReduction
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FinalCoreReduction; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FinalCoreReduction
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SparseLinksK221
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SparseLinksK221; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SparseLinksK221
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveLinkClassification
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveLinkClassification; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveLinkClassification
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowVertexArms
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowVertexArms; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowVertexArms
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.NearClique
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.NearClique; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.NearClique
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.MultiReduction
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.MultiReduction; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.MultiReduction
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.DominatingFive
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.DominatingFive; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.DominatingFive
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.DominatingNearSix
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.DominatingNearSix; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.DominatingNearSix
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.DominatingCliqueSix
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.DominatingCliqueSix; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.DominatingCliqueSix
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.AdjacentLow
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.AdjacentLow; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.AdjacentLow
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowDegreeStructureTools
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowDegreeStructureTools; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowDegreeStructureTools
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowDegreeStructureDominatingFive
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowDegreeStructureDominatingFive; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowDegreeStructureDominatingFive
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowDegreeStructureAdjacent
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowDegreeStructureAdjacent; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowDegreeStructureAdjacent
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowDegreeStructure
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowDegreeStructure; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowDegreeStructure
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowNeighborTools
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowNeighborTools; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowNeighborTools
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowNeighborDominatingNear
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowNeighborDominatingNear; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowNeighborDominatingNear
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowNeighborDominatingClique
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowNeighborDominatingClique; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowNeighborDominatingClique
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.Support
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.Support; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.Support
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FourDegenerate
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FourDegenerate; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FourDegenerate
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowNeighborEndpointTools
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowNeighborEndpointTools; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowNeighborEndpointTools
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowNeighborResidual
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowNeighborResidual; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowNeighborResidual
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowNeighborEndpointPatterns
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowNeighborEndpointPatterns; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowNeighborEndpointPatterns
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowNeighborEndpoint
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowNeighborEndpoint; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowNeighborEndpoint
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowNeighborEndpointUniversal
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowNeighborEndpointUniversal; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowNeighborEndpointUniversal
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.LowNeighborStructure
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.LowNeighborStructure; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.LowNeighborStructure
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapTools
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapTools; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapTools
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapFiveClique
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapFiveClique; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapFiveClique
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapFiveNear
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapFiveNear; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapFiveNear
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapFive
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapFive; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapFive
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapReorder
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapReorder; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapReorder
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapFourNear
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapFourNear; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapFourNear
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapFourClique
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapFourClique; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapFourClique
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapFourTools
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapFourTools; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapFourTools
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapFourFinite
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapFourFinite; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapFourFinite
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapFour
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapFour; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapFour
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SupportStructure
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SupportStructure; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SupportStructure
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualLabeling
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualLabeling; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualLabeling
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeInside
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeInside; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeInside
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeOutsideArm
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeOutsideArm; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeOutsideArm
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeOutsidePair
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeOutsidePair; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeOutsidePair
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteBasic
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteBasic; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteBasic
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase0_0
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase0_0; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase0_0
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow0
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow0; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow0
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase1_1
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase1_1; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase1_1
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow1
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow1; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow1
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase2_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase2_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase2_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase3_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase3_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase3_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase5_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase5_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase5_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase6_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase6_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase6_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase7_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase7_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase7_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase8_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase8_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase8_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase9_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase9_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase9_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase10_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase10_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase10_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase2_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase2_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase2_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase3_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase3_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase3_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase5_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase5_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase5_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase6_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase6_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase6_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase7_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase7_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase7_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase8_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase8_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase8_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase9_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase9_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase9_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase10_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase10_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase10_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase4_4
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase4_4; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase4_4
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow4
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow4; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow4
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase2_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase2_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase2_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase3_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase3_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase3_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase5_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase5_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase5_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase6_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase6_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase6_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase7_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase7_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase7_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase8_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase8_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase8_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase9_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase9_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase9_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase10_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase10_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase10_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase2_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase2_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase2_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase3_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase3_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase3_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase5_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase5_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase5_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase6_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase6_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase6_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase7_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase7_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase7_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase8_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase8_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase8_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase9_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase9_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase9_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase10_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase10_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase10_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase2_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase2_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase2_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase3_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase3_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase3_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase5_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase5_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase5_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase6_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase6_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase6_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase7_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase7_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase7_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase8_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase8_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase8_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase9_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase9_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase9_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase10_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase10_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase10_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase2_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase2_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase2_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase3_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase3_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase3_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase5_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase5_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase5_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase6_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase6_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase6_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase7_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase7_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase7_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase8_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase8_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase8_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase9_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase9_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase9_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase10_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase10_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase10_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase2_9
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase2_9; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase2_9
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase3_9
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase3_9; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase3_9
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase5_9
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase5_9; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase5_9
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase6_9
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase6_9; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase6_9
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase7_9
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase7_9; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase7_9
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase8_9
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase8_9; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase8_9
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase9_9
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase9_9; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase9_9
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualCase10_9
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualCase10_9; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualCase10_9
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFiniteRow9
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFiniteRow9; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFiniteRow9
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualFinite
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualFinite; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualFinite
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualKnown
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualKnown; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualKnown
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpperBasic
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpperBasic; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpperBasic
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper0_0
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper0_0; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper0_0
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper0_1
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper0_1; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper0_1
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper0_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper0_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper0_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper0_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper0_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper0_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper0_4
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper0_4; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper0_4
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper0_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper0_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper0_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper0_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper0_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper0_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper0_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper0_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper0_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper0_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper0_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper0_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpperGroup0
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpperGroup0; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpperGroup0
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper1_0
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper1_0; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper1_0
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper1_1
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper1_1; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper1_1
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper1_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper1_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper1_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper1_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper1_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper1_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper1_4
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper1_4; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper1_4
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper1_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper1_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper1_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper1_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper1_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper1_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper1_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper1_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper1_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper1_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper1_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper1_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpperGroup1
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpperGroup1; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpperGroup1
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper2_0
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper2_0; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper2_0
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper2_1
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper2_1; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper2_1
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper2_2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper2_2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper2_2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper2_3
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper2_3; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper2_3
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper2_4
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper2_4; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper2_4
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper2_5
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper2_5; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper2_5
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper2_6
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper2_6; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper2_6
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper2_7
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper2_7; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper2_7
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpper2_8
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpper2_8; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpper2_8
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualUpperGroup2
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualUpperGroup2; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualUpperGroup2
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActualRealization
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActualRealization; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActualRealization
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.OverlapThreeActual
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.OverlapThreeActual; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.OverlapThreeActual
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.SupportPeeling
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.SupportPeeling; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.SupportPeeling
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.TwoArmLabels
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.TwoArmLabels; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.TwoArmLabels
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FinalCoreFinite
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FinalCoreFinite; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FinalCoreFinite
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FinalConfiguration
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FinalConfiguration; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FinalConfiguration
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.ForcedCross
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.ForcedCross; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.ForcedCross
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FinalReconstructionFrame
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FinalReconstructionFrame; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FinalReconstructionFrame
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.PeelingConfiguration
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.PeelingConfiguration; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.PeelingConfiguration
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FinalReconstructionCliques
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FinalReconstructionCliques; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FinalReconstructionCliques
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FinalReconstructionCross
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FinalReconstructionCross; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FinalReconstructionCross
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FinalReconstruction
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FinalReconstruction; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FinalReconstruction
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.MinimalFinalCore
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.MinimalFinalCore; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.MinimalFinalCore
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06.FiveDegenerate
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06.FiveDegenerate; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06.FiveDegenerate
+$ lake env FRESH_PROJECT/.lake/replay-tools/replay-exact Tuza06
+ENV {"LEAN_SYSROOT": "LEAN_TOOLCHAIN", "TUZA06_REPLAY_MEMORY_MB": "2200"}
+replaying exactly Tuza06; standard LeanChecker body; limit 2200 MiB
+PASS exact replay Tuza06

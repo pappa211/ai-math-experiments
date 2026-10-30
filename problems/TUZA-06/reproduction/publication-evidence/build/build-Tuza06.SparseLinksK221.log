@@ -1,0 +1,3 @@
+@Tuza06.minimal_no_k221_link : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V},
+  Tuza06.MinimalObstruction G → ∀ (i : Fin 6 ↪ V), Tuza06.FiveLinkConfiguration G i Tuza06.K221Finite.BEdges → False
+'Tuza06.minimal_no_k221_link' depends on axioms: [propext, Classical.choice, Quot.sound]

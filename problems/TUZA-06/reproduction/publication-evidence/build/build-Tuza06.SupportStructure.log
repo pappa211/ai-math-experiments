@@ -1,0 +1,1 @@
+'Tuza06.minimal_degree_five_common_le_three' depends on axioms: [propext, Classical.choice, Quot.sound]

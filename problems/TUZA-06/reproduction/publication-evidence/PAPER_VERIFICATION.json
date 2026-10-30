@@ -1,0 +1,162 @@
+{
+  "utc": "2026-10-30T21:30:32.602693+00:00",
+  "pdf_sha256": "41c4c50178cf81a7fe46fe5b7c9dce9509017bcf99d140c2c9557568ecb415bd",
+  "pages": 20,
+  "metadata": {
+    "Title": "Tuza's Inequality and Equality Characterization for 5-Degenerate Graphs",
+    "Author": "AI Math Experiments",
+    "Subject": "Triangle edge packing, covering, equality, and formal verification",
+    "Keywords": "Tuza, five-degenerate graphs, triangle packing, Lean",
+    "Creator": "LaTeX with Tectonic",
+    "Producer": "Tectonic",
+    "CreationDate": "D:20261030213028-00'00'",
+    "ModDate": ""
+  },
+  "all_pages_rendered": true,
+  "rendered_page_sizes": [
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ],
+    [
+      1102,
+      1426
+    ]
+  ],
+  "missing_glyph_warnings": 0,
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "replacement_character_in_pdf_text": false,
+  "private_identifiers_found": [],
+  "final_visual_review_utc": "2026-10-30T21:32:13.710736+00:00",
+  "all_final_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "visual_review": "All twenty final pages inspected in server-generated four-page sheets after the final point-of-use attribution correction; formal statement and coverage table additionally inspected at full rendered resolution. No clipping, table overlap, missing formulas, malformed headings or unreadable typography found.",
+  "pdf_link_count": 17,
+  "pdf_link_uris": [
+    "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-triangle-restoration/main.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-06/lean/Tuza06/FiveDegenerate.lean",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-06/PROOF_STATUS.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-06/REPRODUCTION.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-06/REPRODUCTION.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-06/README.md",
+    "https://doi.org/10.1016/j.ejc.2015.03.006",
+    "https://arxiv.org/pdf/1308.2211v3",
+    "https://doi.org/10.1016/j.disc.2020.112281",
+    "https://arxiv.org/pdf/2002.07925v2",
+    "https://doi.org/10.1007/s00373-010-0881-5",
+    "https://www.columbia.edu/~wm2428/papers/packing_covering_triangles.pdf",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-06/README.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-06/FORMAL_STATEMENT.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-06/REPRODUCTION.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-triangle-restoration/main.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-five-degenerate/references.bib"
+  ],
+  "pdf_links_absolute_https": true,
+  "paper_relative_links_checked": 19,
+  "paper_relative_links_missing": [],
+  "paper_files_sha256": {
+    "main.pdf": "41c4c50178cf81a7fe46fe5b7c9dce9509017bcf99d140c2c9557568ecb415bd",
+    "main.tex": "07ae081faee60cf9a839b23d08cbe98be91b0a3fb9852d3a5afad32820835277",
+    "references.bib": "b9ddb0cb63205ed24639103e33dd24dd4f37695a38a635292c63e518d7e6eb8a",
+    "README.md": "934451f9b77a61a9963895e230941772711cb69646cb1a8ba77a87296ca85dd8",
+    "main.md": "4983fe1ab46693640d8f5f131d2165c18f7c8f16315783926b4ba294d7422e0e"
+  },
+  "source_transformation_boundary": "Paper assembly, corrections, typesetting, mathematical checks and rendering occurred on the external verification server; the client received render images for visual inspection. Frozen mathematical sources unchanged.",
+  "internal_ai_content_review": "Separate reviewer reported PASS after corrections, with ordinary detail and declaration mapping boundary explicit; last revision adds precise Puleo Proposition5.1 proofCase1 attribution in Section5.3 only.",
+  "last_revision_reason": "At-point-use attribution correction for K221 singleton four/eight witness, distinct from Proposition5.2 Case1 adjacent-pair reduction.",
+  "typesetting_serialization": "Final attribution rebuild and rendering acquired the shared private/lean-build.lock through flock after resource inspection.",
+  "evidence_kind": "Public derivative of actual paper-authoring and final visual-review evidence; no operational identifiers included."
+}

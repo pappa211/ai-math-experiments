@@ -1,0 +1,2466 @@
+{
+  "scope": "1024 graphs on five labeled vertices; 253 minimum-degree-two graphs, eleven types. No arbitrary-attachment enumeration.",
+  "utc": "2026-10-30T18:47:27.034308+00:00",
+  "representative_names": [
+    "dense_one",
+    "dense_two",
+    "dense_three",
+    "dense_four",
+    "bowtie",
+    "K23",
+    "C5",
+    "K221",
+    "dense_extra",
+    "K5_minus_edge",
+    "K5"
+  ],
+  "representatives": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  ],
+  "permutations": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      0,
+      2,
+      3,
+      4
+    ],
+    [
+      2,
+      1,
+      0,
+      3,
+      4
+    ],
+    [
+      3,
+      1,
+      2,
+      0,
+      4
+    ],
+    [
+      4,
+      1,
+      2,
+      3,
+      0
+    ],
+    [
+      0,
+      2,
+      1,
+      3,
+      4
+    ],
+    [
+      2,
+      0,
+      1,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      0,
+      3,
+      4
+    ],
+    [
+      3,
+      2,
+      1,
+      0,
+      4
+    ],
+    [
+      4,
+      2,
+      1,
+      3,
+      0
+    ],
+    [
+      0,
+      3,
+      2,
+      1,
+      4
+    ],
+    [
+      3,
+      0,
+      2,
+      1,
+      4
+    ],
+    [
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    [
+      1,
+      3,
+      2,
+      0,
+      4
+    ],
+    [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      4,
+      2,
+      3,
+      1
+    ],
+    [
+      4,
+      0,
+      2,
+      3,
+      1
+    ],
+    [
+      2,
+      4,
+      0,
+      3,
+      1
+    ],
+    [
+      3,
+      4,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      4,
+      2,
+      3,
+      0
+    ],
+    [
+      0,
+      1,
+      3,
+      2,
+      4
+    ],
+    [
+      1,
+      0,
+      3,
+      2,
+      4
+    ],
+    [
+      3,
+      1,
+      0,
+      2,
+      4
+    ],
+    [
+      2,
+      1,
+      3,
+      0,
+      4
+    ],
+    [
+      4,
+      1,
+      3,
+      2,
+      0
+    ],
+    [
+      0,
+      3,
+      1,
+      2,
+      4
+    ],
+    [
+      3,
+      0,
+      1,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      0,
+      2,
+      4
+    ],
+    [
+      2,
+      3,
+      1,
+      0,
+      4
+    ],
+    [
+      4,
+      3,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      4
+    ],
+    [
+      2,
+      0,
+      3,
+      1,
+      4
+    ],
+    [
+      3,
+      2,
+      0,
+      1,
+      4
+    ],
+    [
+      1,
+      2,
+      3,
+      0,
+      4
+    ],
+    [
+      4,
+      2,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      4,
+      3,
+      2,
+      1
+    ],
+    [
+      4,
+      0,
+      3,
+      2,
+      1
+    ],
+    [
+      3,
+      4,
+      0,
+      2,
+      1
+    ],
+    [
+      2,
+      4,
+      3,
+      0,
+      1
+    ],
+    [
+      1,
+      4,
+      3,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      4,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      4,
+      3,
+      2
+    ],
+    [
+      4,
+      1,
+      0,
+      3,
+      2
+    ],
+    [
+      3,
+      1,
+      4,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      4,
+      3,
+      0
+    ],
+    [
+      0,
+      4,
+      1,
+      3,
+      2
+    ],
+    [
+      4,
+      0,
+      1,
+      3,
+      2
+    ],
+    [
+      1,
+      4,
+      0,
+      3,
+      2
+    ],
+    [
+      3,
+      4,
+      1,
+      0,
+      2
+    ],
+    [
+      2,
+      4,
+      1,
+      3,
+      0
+    ],
+    [
+      0,
+      3,
+      4,
+      1,
+      2
+    ],
+    [
+      3,
+      0,
+      4,
+      1,
+      2
+    ],
+    [
+      4,
+      3,
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      3,
+      4,
+      0,
+      2
+    ],
+    [
+      2,
+      3,
+      4,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      4,
+      3,
+      1
+    ],
+    [
+      2,
+      0,
+      4,
+      3,
+      1
+    ],
+    [
+      4,
+      2,
+      0,
+      3,
+      1
+    ],
+    [
+      3,
+      2,
+      4,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      4,
+      3,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    [
+      1,
+      0,
+      2,
+      4,
+      3
+    ],
+    [
+      2,
+      1,
+      0,
+      4,
+      3
+    ],
+    [
+      4,
+      1,
+      2,
+      0,
+      3
+    ],
+    [
+      3,
+      1,
+      2,
+      4,
+      0
+    ],
+    [
+      0,
+      2,
+      1,
+      4,
+      3
+    ],
+    [
+      2,
+      0,
+      1,
+      4,
+      3
+    ],
+    [
+      1,
+      2,
+      0,
+      4,
+      3
+    ],
+    [
+      4,
+      2,
+      1,
+      0,
+      3
+    ],
+    [
+      3,
+      2,
+      1,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      2,
+      1,
+      3
+    ],
+    [
+      4,
+      0,
+      2,
+      1,
+      3
+    ],
+    [
+      2,
+      4,
+      0,
+      1,
+      3
+    ],
+    [
+      1,
+      4,
+      2,
+      0,
+      3
+    ],
+    [
+      3,
+      4,
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      3,
+      2,
+      4,
+      1
+    ],
+    [
+      3,
+      0,
+      2,
+      4,
+      1
+    ],
+    [
+      2,
+      3,
+      0,
+      4,
+      1
+    ],
+    [
+      4,
+      3,
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      3,
+      2,
+      4,
+      0
+    ],
+    [
+      0,
+      1,
+      4,
+      2,
+      3
+    ],
+    [
+      1,
+      0,
+      4,
+      2,
+      3
+    ],
+    [
+      4,
+      1,
+      0,
+      2,
+      3
+    ],
+    [
+      2,
+      1,
+      4,
+      0,
+      3
+    ],
+    [
+      3,
+      1,
+      4,
+      2,
+      0
+    ],
+    [
+      0,
+      4,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      4,
+      0,
+      2,
+      3
+    ],
+    [
+      2,
+      4,
+      1,
+      0,
+      3
+    ],
+    [
+      3,
+      4,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      4,
+      1,
+      3
+    ],
+    [
+      2,
+      0,
+      4,
+      1,
+      3
+    ],
+    [
+      4,
+      2,
+      0,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      4,
+      0,
+      3
+    ],
+    [
+      3,
+      2,
+      4,
+      1,
+      0
+    ],
+    [
+      0,
+      3,
+      4,
+      2,
+      1
+    ],
+    [
+      3,
+      0,
+      4,
+      2,
+      1
+    ],
+    [
+      4,
+      3,
+      0,
+      2,
+      1
+    ],
+    [
+      2,
+      3,
+      4,
+      0,
+      1
+    ],
+    [
+      1,
+      3,
+      4,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      3,
+      4,
+      2
+    ],
+    [
+      1,
+      0,
+      3,
+      4,
+      2
+    ],
+    [
+      3,
+      1,
+      0,
+      4,
+      2
+    ],
+    [
+      4,
+      1,
+      3,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      3,
+      4,
+      0
+    ],
+    [
+      0,
+      3,
+      1,
+      4,
+      2
+    ],
+    [
+      3,
+      0,
+      1,
+      4,
+      2
+    ],
+    [
+      1,
+      3,
+      0,
+      4,
+      2
+    ],
+    [
+      4,
+      3,
+      1,
+      0,
+      2
+    ],
+    [
+      2,
+      3,
+      1,
+      4,
+      0
+    ],
+    [
+      0,
+      4,
+      3,
+      1,
+      2
+    ],
+    [
+      4,
+      0,
+      3,
+      1,
+      2
+    ],
+    [
+      3,
+      4,
+      0,
+      1,
+      2
+    ],
+    [
+      1,
+      4,
+      3,
+      0,
+      2
+    ],
+    [
+      2,
+      4,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      3,
+      4,
+      1
+    ],
+    [
+      2,
+      0,
+      3,
+      4,
+      1
+    ],
+    [
+      3,
+      2,
+      0,
+      4,
+      1
+    ],
+    [
+      4,
+      2,
+      3,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      0
+    ]
+  ],
+  "witnesses": [
+    {
+      "code": 126,
+      "representative": 5,
+      "permutation": 101
+    },
+    {
+      "code": 127,
+      "representative": 3,
+      "permutation": 101
+    },
+    {
+      "code": 207,
+      "representative": 4,
+      "permutation": 115
+    },
+    {
+      "code": 220,
+      "representative": 6,
+      "permutation": 115
+    },
+    {
+      "code": 221,
+      "representative": 2,
+      "permutation": 111
+    },
+    {
+      "code": 222,
+      "representative": 2,
+      "permutation": 97
+    },
+    {
+      "code": 223,
+      "representative": 1,
+      "permutation": 111
+    },
+    {
+      "code": 234,
+      "representative": 6,
+      "permutation": 116
+    },
+    {
+      "code": 235,
+      "representative": 2,
+      "permutation": 110
+    },
+    {
+      "code": 238,
+      "representative": 2,
+      "permutation": 78
+    },
+    {
+      "code": 239,
+      "representative": 1,
+      "permutation": 78
+    },
+    {
+      "code": 249,
+      "representative": 4,
+      "permutation": 116
+    },
+    {
+      "code": 250,
+      "representative": 2,
+      "permutation": 81
+    },
+    {
+      "code": 251,
+      "representative": 1,
+      "permutation": 110
+    },
+    {
+      "code": 252,
+      "representative": 2,
+      "permutation": 61
+    },
+    {
+      "code": 253,
+      "representative": 1,
+      "permutation": 45
+    },
+    {
+      "code": 254,
+      "representative": 0,
+      "permutation": 21
+    },
+    {
+      "code": 255,
+      "representative": 8,
+      "permutation": 21
+    },
+    {
+      "code": 303,
+      "representative": 4,
+      "permutation": 105
+    },
+    {
+      "code": 316,
+      "representative": 6,
+      "permutation": 113
+    },
+    {
+      "code": 317,
+      "representative": 2,
+      "permutation": 85
+    },
+    {
+      "code": 318,
+      "representative": 2,
+      "permutation": 52
+    },
+    {
+      "code": 319,
+      "representative": 1,
+      "permutation": 52
+    },
+    {
+      "code": 358,
+      "representative": 6,
+      "permutation": 105
+    },
+    {
+      "code": 359,
+      "representative": 2,
+      "permutation": 86
+    },
+    {
+      "code": 366,
+      "representative": 2,
+      "permutation": 14
+    },
+    {
+      "code": 367,
+      "representative": 1,
+      "permutation": 86
+    },
+    {
+      "code": 373,
+      "representative": 4,
+      "permutation": 106
+    },
+    {
+      "code": 374,
+      "representative": 2,
+      "permutation": 112
+    },
+    {
+      "code": 375,
+      "representative": 1,
+      "permutation": 112
+    },
+    {
+      "code": 380,
+      "representative": 2,
+      "permutation": 74
+    },
+    {
+      "code": 381,
+      "representative": 1,
+      "permutation": 85
+    },
+    {
+      "code": 382,
+      "representative": 0,
+      "permutation": 101
+    },
+    {
+      "code": 383,
+      "representative": 8,
+      "permutation": 101
+    },
+    {
+      "code": 413,
+      "representative": 5,
+      "permutation": 107
+    },
+    {
+      "code": 415,
+      "representative": 3,
+      "permutation": 107
+    },
+    {
+      "code": 425,
+      "representative": 6,
+      "permutation": 101
+    },
+    {
+      "code": 427,
+      "representative": 2,
+      "permutation": 50
+    },
+    {
+      "code": 429,
+      "representative": 2,
+      "permutation": 118
+    },
+    {
+      "code": 431,
+      "representative": 1,
+      "permutation": 118
+    },
+    {
+      "code": 441,
+      "representative": 2,
+      "permutation": 96
+    },
+    {
+      "code": 442,
+      "representative": 4,
+      "permutation": 107
+    },
+    {
+      "code": 443,
+      "representative": 1,
+      "permutation": 96
+    },
+    {
+      "code": 444,
+      "representative": 2,
+      "permutation": 67
+    },
+    {
+      "code": 445,
+      "representative": 0,
+      "permutation": 27
+    },
+    {
+      "code": 446,
+      "representative": 1,
+      "permutation": 58
+    },
+    {
+      "code": 447,
+      "representative": 8,
+      "permutation": 27
+    },
+    {
+      "code": 453,
+      "representative": 6,
+      "permutation": 117
+    },
+    {
+      "code": 455,
+      "representative": 2,
+      "permutation": 95
+    },
+    {
+      "code": 461,
+      "representative": 2,
+      "permutation": 34
+    },
+    {
+      "code": 463,
+      "representative": 1,
+      "permutation": 82
+    },
+    {
+      "code": 469,
+      "representative": 2,
+      "permutation": 51
+    },
+    {
+      "code": 470,
+      "representative": 4,
+      "permutation": 117
+    },
+    {
+      "code": 471,
+      "representative": 1,
+      "permutation": 95
+    },
+    {
+      "code": 476,
+      "representative": 2,
+      "permutation": 94
+    },
+    {
+      "code": 477,
+      "representative": 0,
+      "permutation": 107
+    },
+    {
+      "code": 478,
+      "representative": 1,
+      "permutation": 94
+    },
+    {
+      "code": 479,
+      "representative": 8,
+      "permutation": 107
+    },
+    {
+      "code": 483,
+      "representative": 5,
+      "permutation": 106
+    },
+    {
+      "code": 485,
+      "representative": 2,
+      "permutation": 66
+    },
+    {
+      "code": 486,
+      "representative": 2,
+      "permutation": 98
+    },
+    {
+      "code": 487,
+      "representative": 0,
+      "permutation": 26
+    },
+    {
+      "code": 489,
+      "representative": 2,
+      "permutation": 114
+    },
+    {
+      "code": 490,
+      "representative": 2,
+      "permutation": 54
+    },
+    {
+      "code": 491,
+      "representative": 0,
+      "permutation": 106
+    },
+    {
+      "code": 492,
+      "representative": 5,
+      "permutation": 118
+    },
+    {
+      "code": 493,
+      "representative": 0,
+      "permutation": 98
+    },
+    {
+      "code": 494,
+      "representative": 0,
+      "permutation": 114
+    },
+    {
+      "code": 495,
+      "representative": 7,
+      "permutation": 118
+    },
+    {
+      "code": 499,
+      "representative": 3,
+      "permutation": 106
+    },
+    {
+      "code": 501,
+      "representative": 1,
+      "permutation": 47
+    },
+    {
+      "code": 502,
+      "representative": 1,
+      "permutation": 98
+    },
+    {
+      "code": 503,
+      "representative": 8,
+      "permutation": 26
+    },
+    {
+      "code": 505,
+      "representative": 1,
+      "permutation": 114
+    },
+    {
+      "code": 506,
+      "representative": 1,
+      "permutation": 81
+    },
+    {
+      "code": 507,
+      "representative": 8,
+      "permutation": 106
+    },
+    {
+      "code": 508,
+      "representative": 0,
+      "permutation": 118
+    },
+    {
+      "code": 509,
+      "representative": 7,
+      "permutation": 114
+    },
+    {
+      "code": 510,
+      "representative": 7,
+      "permutation": 98
+    },
+    {
+      "code": 511,
+      "representative": 9,
+      "permutation": 118
+    },
+    {
+      "code": 543,
+      "representative": 4,
+      "permutation": 110
+    },
+    {
+      "code": 570,
+      "representative": 6,
+      "permutation": 95
+    },
+    {
+      "code": 571,
+      "representative": 2,
+      "permutation": 70
+    },
+    {
+      "code": 574,
+      "representative": 2,
+      "permutation": 108
+    },
+    {
+      "code": 575,
+      "representative": 1,
+      "permutation": 108
+    },
+    {
+      "code": 598,
+      "representative": 6,
+      "permutation": 118
+    },
+    {
+      "code": 599,
+      "representative": 2,
+      "permutation": 71
+    },
+    {
+      "code": 606,
+      "representative": 2,
+      "permutation": 29
+    },
+    {
+      "code": 607,
+      "representative": 1,
+      "permutation": 71
+    },
+    {
+      "code": 627,
+      "representative": 4,
+      "permutation": 111
+    },
+    {
+      "code": 630,
+      "representative": 2,
+      "permutation": 101
+    },
+    {
+      "code": 631,
+      "representative": 1,
+      "permutation": 48
+    },
+    {
+      "code": 634,
+      "representative": 2,
+      "permutation": 89
+    },
+    {
+      "code": 635,
+      "representative": 1,
+      "permutation": 89
+    },
+    {
+      "code": 638,
+      "representative": 0,
+      "permutation": 81
+    },
+    {
+      "code": 639,
+      "representative": 8,
+      "permutation": 81
+    },
+    {
+      "code": 665,
+      "representative": 6,
+      "permutation": 119
+    },
+    {
+      "code": 667,
+      "representative": 2,
+      "permutation": 90
+    },
+    {
+      "code": 669,
+      "representative": 2,
+      "permutation": 105
+    },
+    {
+      "code": 671,
+      "representative": 1,
+      "permutation": 103
+    },
+    {
+      "code": 683,
+      "representative": 5,
+      "permutation": 113
+    },
+    {
+      "code": 687,
+      "representative": 3,
+      "permutation": 113
+    },
+    {
+      "code": 697,
+      "representative": 2,
+      "permutation": 76
+    },
+    {
+      "code": 698,
+      "representative": 2,
+      "permutation": 117
+    },
+    {
+      "code": 699,
+      "representative": 0,
+      "permutation": 33
+    },
+    {
+      "code": 700,
+      "representative": 4,
+      "permutation": 113
+    },
+    {
+      "code": 701,
+      "representative": 1,
+      "permutation": 105
+    },
+    {
+      "code": 702,
+      "representative": 1,
+      "permutation": 117
+    },
+    {
+      "code": 703,
+      "representative": 8,
+      "permutation": 33
+    },
+    {
+      "code": 707,
+      "representative": 6,
+      "permutation": 104
+    },
+    {
+      "code": 711,
+      "representative": 2,
+      "permutation": 75
+    },
+    {
+      "code": 715,
+      "representative": 2,
+      "permutation": 30
+    },
+    {
+      "code": 719,
+      "representative": 1,
+      "permutation": 63
+    },
+    {
+      "code": 723,
+      "representative": 2,
+      "permutation": 91
+    },
+    {
+      "code": 725,
+      "representative": 5,
+      "permutation": 111
+    },
+    {
+      "code": 726,
+      "representative": 2,
+      "permutation": 83
+    },
+    {
+      "code": 727,
+      "representative": 0,
+      "permutation": 31
+    },
+    {
+      "code": 729,
+      "representative": 2,
+      "permutation": 49
+    },
+    {
+      "code": 730,
+      "representative": 5,
+      "permutation": 117
+    },
+    {
+      "code": 731,
+      "representative": 0,
+      "permutation": 117
+    },
+    {
+      "code": 732,
+      "representative": 2,
+      "permutation": 109
+    },
+    {
+      "code": 733,
+      "representative": 0,
+      "permutation": 91
+    },
+    {
+      "code": 734,
+      "representative": 0,
+      "permutation": 89
+    },
+    {
+      "code": 735,
+      "representative": 7,
+      "permutation": 111
+    },
+    {
+      "code": 739,
+      "representative": 2,
+      "permutation": 113
+    },
+    {
+      "code": 742,
+      "representative": 4,
+      "permutation": 118
+    },
+    {
+      "code": 743,
+      "representative": 1,
+      "permutation": 106
+    },
+    {
+      "code": 746,
+      "representative": 2,
+      "permutation": 69
+    },
+    {
+      "code": 747,
+      "representative": 0,
+      "permutation": 93
+    },
+    {
+      "code": 750,
+      "representative": 1,
+      "permutation": 69
+    },
+    {
+      "code": 751,
+      "representative": 8,
+      "permutation": 93
+    },
+    {
+      "code": 755,
+      "representative": 1,
+      "permutation": 113
+    },
+    {
+      "code": 757,
+      "representative": 3,
+      "permutation": 111
+    },
+    {
+      "code": 758,
+      "representative": 1,
+      "permutation": 101
+    },
+    {
+      "code": 759,
+      "representative": 8,
+      "permutation": 31
+    },
+    {
+      "code": 761,
+      "representative": 1,
+      "permutation": 73
+    },
+    {
+      "code": 762,
+      "representative": 0,
+      "permutation": 97
+    },
+    {
+      "code": 763,
+      "representative": 7,
+      "permutation": 113
+    },
+    {
+      "code": 764,
+      "representative": 1,
+      "permutation": 109
+    },
+    {
+      "code": 765,
+      "representative": 8,
+      "permutation": 91
+    },
+    {
+      "code": 766,
+      "representative": 7,
+      "permutation": 117
+    },
+    {
+      "code": 767,
+      "representative": 9,
+      "permutation": 117
+    },
+    {
+      "code": 789,
+      "representative": 6,
+      "permutation": 110
+    },
+    {
+      "code": 791,
+      "representative": 2,
+      "permutation": 92
+    },
+    {
+      "code": 797,
+      "representative": 2,
+      "permutation": 25
+    },
+    {
+      "code": 799,
+      "representative": 1,
+      "permutation": 92
+    },
+    {
+      "code": 803,
+      "representative": 6,
+      "permutation": 111
+    },
+    {
+      "code": 807,
+      "representative": 2,
+      "permutation": 115
+    },
+    {
+      "code": 811,
+      "representative": 2,
+      "permutation": 10
+    },
+    {
+      "code": 815,
+      "representative": 1,
+      "permutation": 68
+    },
+    {
+      "code": 819,
+      "representative": 2,
+      "permutation": 72
+    },
+    {
+      "code": 821,
+      "representative": 2,
+      "permutation": 116
+    },
+    {
+      "code": 822,
+      "representative": 5,
+      "permutation": 112
+    },
+    {
+      "code": 823,
+      "representative": 0,
+      "permutation": 32
+    },
+    {
+      "code": 825,
+      "representative": 5,
+      "permutation": 116
+    },
+    {
+      "code": 826,
+      "representative": 2,
+      "permutation": 44
+    },
+    {
+      "code": 827,
+      "representative": 0,
+      "permutation": 116
+    },
+    {
+      "code": 828,
+      "representative": 2,
+      "permutation": 104
+    },
+    {
+      "code": 829,
+      "representative": 0,
+      "permutation": 96
+    },
+    {
+      "code": 830,
+      "representative": 0,
+      "permutation": 112
+    },
+    {
+      "code": 831,
+      "representative": 7,
+      "permutation": 108
+    },
+    {
+      "code": 839,
+      "representative": 5,
+      "permutation": 119
+    },
+    {
+      "code": 847,
+      "representative": 3,
+      "permutation": 119
+    },
+    {
+      "code": 853,
+      "representative": 2,
+      "permutation": 19
+    },
+    {
+      "code": 854,
+      "representative": 2,
+      "permutation": 59
+    },
+    {
+      "code": 855,
+      "representative": 0,
+      "permutation": 119
+    },
+    {
+      "code": 860,
+      "representative": 4,
+      "permutation": 114
+    },
+    {
+      "code": 861,
+      "representative": 1,
+      "permutation": 25
+    },
+    {
+      "code": 862,
+      "representative": 1,
+      "permutation": 32
+    },
+    {
+      "code": 863,
+      "representative": 8,
+      "permutation": 119
+    },
+    {
+      "code": 867,
+      "representative": 2,
+      "permutation": 39
+    },
+    {
+      "code": 870,
+      "representative": 2,
+      "permutation": 119
+    },
+    {
+      "code": 871,
+      "representative": 0,
+      "permutation": 99
+    },
+    {
+      "code": 874,
+      "representative": 4,
+      "permutation": 109
+    },
+    {
+      "code": 875,
+      "representative": 1,
+      "permutation": 26
+    },
+    {
+      "code": 878,
+      "representative": 1,
+      "permutation": 8
+    },
+    {
+      "code": 879,
+      "representative": 8,
+      "permutation": 99
+    },
+    {
+      "code": 883,
+      "representative": 1,
+      "permutation": 72
+    },
+    {
+      "code": 885,
+      "representative": 1,
+      "permutation": 88
+    },
+    {
+      "code": 886,
+      "representative": 0,
+      "permutation": 108
+    },
+    {
+      "code": 887,
+      "representative": 7,
+      "permutation": 112
+    },
+    {
+      "code": 889,
+      "representative": 3,
+      "permutation": 116
+    },
+    {
+      "code": 890,
+      "representative": 1,
+      "permutation": 21
+    },
+    {
+      "code": 891,
+      "representative": 8,
+      "permutation": 116
+    },
+    {
+      "code": 892,
+      "representative": 1,
+      "permutation": 28
+    },
+    {
+      "code": 893,
+      "representative": 8,
+      "permutation": 96
+    },
+    {
+      "code": 894,
+      "representative": 7,
+      "permutation": 32
+    },
+    {
+      "code": 895,
+      "representative": 9,
+      "permutation": 112
+    },
+    {
+      "code": 915,
+      "representative": 4,
+      "permutation": 112
+    },
+    {
+      "code": 917,
+      "representative": 2,
+      "permutation": 107
+    },
+    {
+      "code": 919,
+      "representative": 1,
+      "permutation": 55
+    },
+    {
+      "code": 921,
+      "representative": 2,
+      "permutation": 84
+    },
+    {
+      "code": 923,
+      "representative": 1,
+      "permutation": 90
+    },
+    {
+      "code": 925,
+      "representative": 0,
+      "permutation": 87
+    },
+    {
+      "code": 927,
+      "representative": 8,
+      "permutation": 87
+    },
+    {
+      "code": 931,
+      "representative": 2,
+      "permutation": 102
+    },
+    {
+      "code": 933,
+      "representative": 4,
+      "permutation": 108
+    },
+    {
+      "code": 935,
+      "representative": 1,
+      "permutation": 115
+    },
+    {
+      "code": 937,
+      "representative": 2,
+      "permutation": 64
+    },
+    {
+      "code": 939,
+      "representative": 0,
+      "permutation": 113
+    },
+    {
+      "code": 941,
+      "representative": 1,
+      "permutation": 65
+    },
+    {
+      "code": 943,
+      "representative": 8,
+      "permutation": 113
+    },
+    {
+      "code": 947,
+      "representative": 1,
+      "permutation": 56
+    },
+    {
+      "code": 949,
+      "representative": 1,
+      "permutation": 116
+    },
+    {
+      "code": 950,
+      "representative": 3,
+      "permutation": 112
+    },
+    {
+      "code": 951,
+      "representative": 8,
+      "permutation": 32
+    },
+    {
+      "code": 953,
+      "representative": 0,
+      "permutation": 36
+    },
+    {
+      "code": 954,
+      "representative": 1,
+      "permutation": 93
+    },
+    {
+      "code": 955,
+      "representative": 7,
+      "permutation": 96
+    },
+    {
+      "code": 956,
+      "representative": 1,
+      "permutation": 104
+    },
+    {
+      "code": 957,
+      "representative": 7,
+      "permutation": 116
+    },
+    {
+      "code": 958,
+      "representative": 8,
+      "permutation": 112
+    },
+    {
+      "code": 959,
+      "representative": 9,
+      "permutation": 116
+    },
+    {
+      "code": 963,
+      "representative": 2,
+      "permutation": 99
+    },
+    {
+      "code": 965,
+      "representative": 2,
+      "permutation": 79
+    },
+    {
+      "code": 967,
+      "representative": 0,
+      "permutation": 39
+    },
+    {
+      "code": 969,
+      "representative": 4,
+      "permutation": 119
+    },
+    {
+      "code": 971,
+      "representative": 1,
+      "permutation": 30
+    },
+    {
+      "code": 973,
+      "representative": 1,
+      "permutation": 5
+    },
+    {
+      "code": 975,
+      "representative": 8,
+      "permutation": 39
+    },
+    {
+      "code": 979,
+      "representative": 1,
+      "permutation": 99
+    },
+    {
+      "code": 981,
+      "representative": 0,
+      "permutation": 111
+    },
+    {
+      "code": 982,
+      "representative": 1,
+      "permutation": 83
+    },
+    {
+      "code": 983,
+      "representative": 7,
+      "permutation": 99
+    },
+    {
+      "code": 985,
+      "representative": 1,
+      "permutation": 31
+    },
+    {
+      "code": 986,
+      "representative": 3,
+      "permutation": 117
+    },
+    {
+      "code": 987,
+      "representative": 8,
+      "permutation": 117
+    },
+    {
+      "code": 988,
+      "representative": 1,
+      "permutation": 23
+    },
+    {
+      "code": 989,
+      "representative": 7,
+      "permutation": 31
+    },
+    {
+      "code": 990,
+      "representative": 8,
+      "permutation": 89
+    },
+    {
+      "code": 991,
+      "representative": 9,
+      "permutation": 111
+    },
+    {
+      "code": 995,
+      "representative": 0,
+      "permutation": 86
+    },
+    {
+      "code": 997,
+      "representative": 1,
+      "permutation": 79
+    },
+    {
+      "code": 998,
+      "representative": 1,
+      "permutation": 119
+    },
+    {
+      "code": 999,
+      "representative": 7,
+      "permutation": 119
+    },
+    {
+      "code": 1001,
+      "representative": 1,
+      "permutation": 13
+    },
+    {
+      "code": 1002,
+      "representative": 1,
+      "permutation": 33
+    },
+    {
+      "code": 1003,
+      "representative": 7,
+      "permutation": 33
+    },
+    {
+      "code": 1004,
+      "representative": 3,
+      "permutation": 118
+    },
+    {
+      "code": 1005,
+      "representative": 8,
+      "permutation": 98
+    },
+    {
+      "code": 1006,
+      "representative": 8,
+      "permutation": 114
+    },
+    {
+      "code": 1007,
+      "representative": 9,
+      "permutation": 106
+    },
+    {
+      "code": 1011,
+      "representative": 8,
+      "permutation": 86
+    },
+    {
+      "code": 1013,
+      "representative": 8,
+      "permutation": 111
+    },
+    {
+      "code": 1014,
+      "representative": 8,
+      "permutation": 108
+    },
+    {
+      "code": 1015,
+      "representative": 9,
+      "permutation": 119
+    },
+    {
+      "code": 1017,
+      "representative": 8,
+      "permutation": 36
+    },
+    {
+      "code": 1018,
+      "representative": 8,
+      "permutation": 97
+    },
+    {
+      "code": 1019,
+      "representative": 9,
+      "permutation": 113
+    },
+    {
+      "code": 1020,
+      "representative": 8,
+      "permutation": 118
+    },
+    {
+      "code": 1021,
+      "representative": 9,
+      "permutation": 107
+    },
+    {
+      "code": 1022,
+      "representative": 9,
+      "permutation": 101
+    },
+    {
+      "code": 1023,
+      "representative": 10,
+      "permutation": 119
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Tuza06.FiveCoverage.classify : ∀ E ⊆ Tuza.edges Finset.univ,
+  (∀ (a : Fin 5), 2 ≤ {b | {a, b} ∈ E}.card) →
+    ∃ r p,
+      Tuza06.liftFamily (Equiv.toEmbedding (Tuza06.FiveCoverage.permutation p)) E = Tuza06.FiveCoverage.representative r
+'Tuza06.FiveCoverage.classify' depends on axioms: [propext, Classical.choice, Quot.sound]

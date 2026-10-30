@@ -1,0 +1,3 @@
+Tuza06/LowNeighborEndpoint.lean:43:20: warning: Unused tactic linter: `change g.map (sixIntoEight.trans e) = _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

@@ -1,0 +1,242 @@
+@Tuza06.covers_liftFamily.{u_1,
+    u_2} : ∀ {V : Type u_1} {W : Type u_2} [DecidableEq.{u_1 + 1} V] [DecidableEq.{u_2 + 1} W]
+  (f : Function.Embedding.{u_1 + 1, u_2 + 1} V W) (F C : Finset.{u_1} (Finset.{u_1} V)),
+  Tuza.Covers.{u_2} (Tuza06.liftFamily.{u_1, u_2} f F) (Tuza06.liftFamily.{u_1, u_2} f C) ↔ Tuza.Covers.{u_1} F C
+'Tuza06.covers_liftFamily' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.support_liftFamily.{u_1,
+    u_2} : ∀ {V : Type u_1} {W : Type u_2} [inst : DecidableEq.{u_1 + 1} V] [inst_1 : DecidableEq.{u_2 + 1} W]
+  (f : Function.Embedding.{u_1 + 1, u_2 + 1} V W) (F : Finset.{u_1} (Finset.{u_1} V)),
+  Eq.{u_2 + 1} (Tuza.support.{u_2} (Tuza06.liftFamily.{u_1, u_2} f F))
+    (Tuza06.liftFamily.{u_1, u_2} f (Tuza.support.{u_1} F))
+'Tuza06.support_liftFamily' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.tau_liftFamily.{u_1,
+    u_2} : ∀ {V : Type u_1} {W : Type u_2} [DecidableEq.{u_1 + 1} V] [DecidableEq.{u_2 + 1} W]
+  (f : Function.Embedding.{u_1 + 1, u_2 + 1} V W) {F : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza.Triangles.{u_1} F → Eq.{1} (Tuza.tau.{u_2} (Tuza06.liftFamily.{u_1, u_2} f F)) (Tuza.tau.{u_1} F)
+'Tuza06.tau_liftFamily' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.exists_fin_embedding.{u_1} : ∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] (k : Finset.{u_1} V) {n : ℕ},
+  Eq.{1} (Finset.card.{u_1} k) n → ∃ f, Eq.{u_1 + 1} (Finset.map.{0, u_1} f Finset.univ.{0}) k
+'Tuza06.exists_fin_embedding' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.exists_graph_encoding : ∀ E ⊆ Tuza.edges.{0} Finset.univ.{0},
+  ∃ f, Eq.{1} (Tuza06.FiveCoverage.graphEdges f) E
+'Tuza06.FiveCoverage.exists_graph_encoding' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk00.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk00.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk00.join b) (Tuza06.FiveCoverage.Chunk00.witness b).1
+      (Tuza06.FiveCoverage.Chunk00.witness b).2
+'Tuza06.FiveCoverage.Chunk00.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk01.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk01.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk01.join b) (Tuza06.FiveCoverage.Chunk01.witness b).1
+      (Tuza06.FiveCoverage.Chunk01.witness b).2
+'Tuza06.FiveCoverage.Chunk01.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk02.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk02.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk02.join b) (Tuza06.FiveCoverage.Chunk02.witness b).1
+      (Tuza06.FiveCoverage.Chunk02.witness b).2
+'Tuza06.FiveCoverage.Chunk02.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk03.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk03.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk03.join b) (Tuza06.FiveCoverage.Chunk03.witness b).1
+      (Tuza06.FiveCoverage.Chunk03.witness b).2
+'Tuza06.FiveCoverage.Chunk03.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk04.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk04.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk04.join b) (Tuza06.FiveCoverage.Chunk04.witness b).1
+      (Tuza06.FiveCoverage.Chunk04.witness b).2
+'Tuza06.FiveCoverage.Chunk04.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk05.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk05.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk05.join b) (Tuza06.FiveCoverage.Chunk05.witness b).1
+      (Tuza06.FiveCoverage.Chunk05.witness b).2
+'Tuza06.FiveCoverage.Chunk05.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk06.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk06.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk06.join b) (Tuza06.FiveCoverage.Chunk06.witness b).1
+      (Tuza06.FiveCoverage.Chunk06.witness b).2
+'Tuza06.FiveCoverage.Chunk06.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk07.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk07.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk07.join b) (Tuza06.FiveCoverage.Chunk07.witness b).1
+      (Tuza06.FiveCoverage.Chunk07.witness b).2
+'Tuza06.FiveCoverage.Chunk07.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Group0.classify : ∀ (f : Fin 10 → Bool),
+  Tuza06.FiveCoverage.Eligible f →
+    Eq.{1} (f 7) false → Eq.{1} (f 8) false → Eq.{1} (f 9) false → ∃ r p, Tuza06.FiveCoverage.Relabel f r p
+'Tuza06.FiveCoverage.Group0.classify' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk08.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk08.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk08.join b) (Tuza06.FiveCoverage.Chunk08.witness b).1
+      (Tuza06.FiveCoverage.Chunk08.witness b).2
+'Tuza06.FiveCoverage.Chunk08.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk09.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk09.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk09.join b) (Tuza06.FiveCoverage.Chunk09.witness b).1
+      (Tuza06.FiveCoverage.Chunk09.witness b).2
+'Tuza06.FiveCoverage.Chunk09.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk10.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk10.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk10.join b) (Tuza06.FiveCoverage.Chunk10.witness b).1
+      (Tuza06.FiveCoverage.Chunk10.witness b).2
+'Tuza06.FiveCoverage.Chunk10.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk11.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk11.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk11.join b) (Tuza06.FiveCoverage.Chunk11.witness b).1
+      (Tuza06.FiveCoverage.Chunk11.witness b).2
+'Tuza06.FiveCoverage.Chunk11.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk12.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk12.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk12.join b) (Tuza06.FiveCoverage.Chunk12.witness b).1
+      (Tuza06.FiveCoverage.Chunk12.witness b).2
+'Tuza06.FiveCoverage.Chunk12.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk13.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk13.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk13.join b) (Tuza06.FiveCoverage.Chunk13.witness b).1
+      (Tuza06.FiveCoverage.Chunk13.witness b).2
+'Tuza06.FiveCoverage.Chunk13.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk14.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk14.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk14.join b) (Tuza06.FiveCoverage.Chunk14.witness b).1
+      (Tuza06.FiveCoverage.Chunk14.witness b).2
+'Tuza06.FiveCoverage.Chunk14.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk15.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk15.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk15.join b) (Tuza06.FiveCoverage.Chunk15.witness b).1
+      (Tuza06.FiveCoverage.Chunk15.witness b).2
+'Tuza06.FiveCoverage.Chunk15.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Group1.classify : ∀ (f : Fin 10 → Bool),
+  Tuza06.FiveCoverage.Eligible f →
+    Eq.{1} (f 7) true → Eq.{1} (f 8) false → Eq.{1} (f 9) false → ∃ r p, Tuza06.FiveCoverage.Relabel f r p
+'Tuza06.FiveCoverage.Group1.classify' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk16.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk16.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk16.join b) (Tuza06.FiveCoverage.Chunk16.witness b).1
+      (Tuza06.FiveCoverage.Chunk16.witness b).2
+'Tuza06.FiveCoverage.Chunk16.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk17.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk17.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk17.join b) (Tuza06.FiveCoverage.Chunk17.witness b).1
+      (Tuza06.FiveCoverage.Chunk17.witness b).2
+'Tuza06.FiveCoverage.Chunk17.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk18.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk18.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk18.join b) (Tuza06.FiveCoverage.Chunk18.witness b).1
+      (Tuza06.FiveCoverage.Chunk18.witness b).2
+'Tuza06.FiveCoverage.Chunk18.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk19.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk19.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk19.join b) (Tuza06.FiveCoverage.Chunk19.witness b).1
+      (Tuza06.FiveCoverage.Chunk19.witness b).2
+'Tuza06.FiveCoverage.Chunk19.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk20.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk20.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk20.join b) (Tuza06.FiveCoverage.Chunk20.witness b).1
+      (Tuza06.FiveCoverage.Chunk20.witness b).2
+'Tuza06.FiveCoverage.Chunk20.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk21.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk21.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk21.join b) (Tuza06.FiveCoverage.Chunk21.witness b).1
+      (Tuza06.FiveCoverage.Chunk21.witness b).2
+'Tuza06.FiveCoverage.Chunk21.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk22.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk22.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk22.join b) (Tuza06.FiveCoverage.Chunk22.witness b).1
+      (Tuza06.FiveCoverage.Chunk22.witness b).2
+'Tuza06.FiveCoverage.Chunk22.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk23.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk23.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk23.join b) (Tuza06.FiveCoverage.Chunk23.witness b).1
+      (Tuza06.FiveCoverage.Chunk23.witness b).2
+'Tuza06.FiveCoverage.Chunk23.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Group2.classify : ∀ (f : Fin 10 → Bool),
+  Tuza06.FiveCoverage.Eligible f →
+    Eq.{1} (f 7) false → Eq.{1} (f 8) true → Eq.{1} (f 9) false → ∃ r p, Tuza06.FiveCoverage.Relabel f r p
+'Tuza06.FiveCoverage.Group2.classify' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk24.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk24.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk24.join b) (Tuza06.FiveCoverage.Chunk24.witness b).1
+      (Tuza06.FiveCoverage.Chunk24.witness b).2
+'Tuza06.FiveCoverage.Chunk24.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk25.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk25.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk25.join b) (Tuza06.FiveCoverage.Chunk25.witness b).1
+      (Tuza06.FiveCoverage.Chunk25.witness b).2
+'Tuza06.FiveCoverage.Chunk25.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk26.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk26.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk26.join b) (Tuza06.FiveCoverage.Chunk26.witness b).1
+      (Tuza06.FiveCoverage.Chunk26.witness b).2
+'Tuza06.FiveCoverage.Chunk26.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk27.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk27.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk27.join b) (Tuza06.FiveCoverage.Chunk27.witness b).1
+      (Tuza06.FiveCoverage.Chunk27.witness b).2
+'Tuza06.FiveCoverage.Chunk27.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk28.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk28.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk28.join b) (Tuza06.FiveCoverage.Chunk28.witness b).1
+      (Tuza06.FiveCoverage.Chunk28.witness b).2
+'Tuza06.FiveCoverage.Chunk28.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk29.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk29.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk29.join b) (Tuza06.FiveCoverage.Chunk29.witness b).1
+      (Tuza06.FiveCoverage.Chunk29.witness b).2
+'Tuza06.FiveCoverage.Chunk29.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk30.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk30.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk30.join b) (Tuza06.FiveCoverage.Chunk30.witness b).1
+      (Tuza06.FiveCoverage.Chunk30.witness b).2
+'Tuza06.FiveCoverage.Chunk30.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk31.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk31.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk31.join b) (Tuza06.FiveCoverage.Chunk31.witness b).1
+      (Tuza06.FiveCoverage.Chunk31.witness b).2
+'Tuza06.FiveCoverage.Chunk31.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Group3.classify : ∀ (f : Fin 10 → Bool),
+  Tuza06.FiveCoverage.Eligible f →
+    Eq.{1} (f 7) true → Eq.{1} (f 8) true → Eq.{1} (f 9) false → ∃ r p, Tuza06.FiveCoverage.Relabel f r p
+'Tuza06.FiveCoverage.Group3.classify' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk32.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk32.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk32.join b) (Tuza06.FiveCoverage.Chunk32.witness b).1
+      (Tuza06.FiveCoverage.Chunk32.witness b).2
+'Tuza06.FiveCoverage.Chunk32.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk33.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk33.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk33.join b) (Tuza06.FiveCoverage.Chunk33.witness b).1
+      (Tuza06.FiveCoverage.Chunk33.witness b).2
+'Tuza06.FiveCoverage.Chunk33.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk34.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk34.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk34.join b) (Tuza06.FiveCoverage.Chunk34.witness b).1
+      (Tuza06.FiveCoverage.Chunk34.witness b).2
+'Tuza06.FiveCoverage.Chunk34.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk35.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk35.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk35.join b) (Tuza06.FiveCoverage.Chunk35.witness b).1
+      (Tuza06.FiveCoverage.Chunk35.witness b).2
+'Tuza06.FiveCoverage.Chunk35.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk36.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk36.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk36.join b) (Tuza06.FiveCoverage.Chunk36.witness b).1
+      (Tuza06.FiveCoverage.Chunk36.witness b).2
+'Tuza06.FiveCoverage.Chunk36.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk37.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk37.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk37.join b) (Tuza06.FiveCoverage.Chunk37.witness b).1
+      (Tuza06.FiveCoverage.Chunk37.witness b).2
+'Tuza06.FiveCoverage.Chunk37.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk38.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk38.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk38.join b) (Tuza06.FiveCoverage.Chunk38.witness b).1
+      (Tuza06.FiveCoverage.Chunk38.witness b).2
+'Tuza06.FiveCoverage.Chunk38.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk39.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk39.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk39.join b) (Tuza06.FiveCoverage.Chunk39.witness b).1
+      (Tuza06.FiveCoverage.Chunk39.witness b).2
+'Tuza06.FiveCoverage.Chunk39.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Group4.classify : ∀ (f : Fin 10 → Bool),
+  Tuza06.FiveCoverage.Eligible f →
+    Eq.{1} (f 7) false → Eq.{1} (f 8) false → Eq.{1} (f 9) true → ∃ r p, Tuza06.FiveCoverage.Relabel f r p
+'Tuza06.FiveCoverage.Group4.classify' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

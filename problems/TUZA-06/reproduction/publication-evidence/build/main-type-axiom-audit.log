@@ -1,0 +1,65 @@
+def Tuza06.Degenerate.{u_1} : {V : Type u_1} → SimpleGraph.{u_1} V → ℕ → Prop :=
+fun {V} G d =>
+  ∀ (U : Finset.{u_1} V),
+    Finset.Nonempty.{u_1} U → ∃ v, Membership.mem.{u_1, u_1} U v ∧ LE.le.{0} (Tuza06.degreeWithin.{u_1} G U v) d
+def Tuza06.ComponentCliques.{u_1} : {V : Type u_1} →
+  [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → SimpleGraph.{u_1} V → Prop :=
+fun {V} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] G =>
+  ∀ (t : Finset.{u_1} V),
+    Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} G) t →
+      ∃ k,
+        (Eq.{1} (Finset.card.{u_1} k) 4 ∨ Eq.{1} (Finset.card.{u_1} k) 5) ∧
+          Eq.{u_1 + 1} (Tuza.support.{u_1} (Tuza06.triangleComponent.{u_1} G t)) (Tuza.edges.{u_1} k)
+def Tuza06.CombinedStatement.{u_1} : {V : Type u_1} →
+  [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → SimpleGraph.{u_1} V → Prop :=
+fun {V} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] G =>
+  Tuza06.Degenerate.{u_1} G 5 →
+    LE.le.{0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+        (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ∧
+      (Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+          (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ↔
+        Tuza06.ComponentCliques.{u_1} G)
+def Tuza06.Good.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → SimpleGraph.{u_1} V → Prop :=
+fun {V} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] G =>
+  LE.le.{0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G)) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ∧
+    (Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G)) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) →
+      Tuza06.ComponentCliques.{u_1} G)
+def Tuza06.MinimalObstruction.{u_1} : {V : Type u_1} →
+  [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → SimpleGraph.{u_1} V → Prop :=
+fun {V} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] G =>
+  ¬Tuza06.Good.{u_1} G ∧
+    ∀ (H : SimpleGraph.{u_1} V),
+      LE.le.{u_1} H G → LT.lt.{0} (Tuza06.edgeCount.{u_1} H) (Tuza06.edgeCount.{u_1} G) → Tuza06.Good.{u_1} H
+structure Tuza06.FinalConfiguration.{u_1} {V : Type u_1} (G : SimpleGraph.{u_1} V)
+  (i : Function.Embedding.{1, u_1 + 1} (Fin 8) V) (p q : V) : Prop
+number of parameters: 5
+fields:
+  Tuza06.FinalConfiguration.core_edges.{u_1} : ∀ (a b : Fin 8),
+      SimpleGraph.Adj.{u_1} G (i a) (i b) ↔
+        Membership.mem.{0, 0} Tuza06.Core.BEdges (insert.{0, 0} a (singleton.{0, 0} b))
+  Tuza06.FinalConfiguration.u_neighbors.{u_1} : ∀ (z : V),
+      SimpleGraph.Adj.{u_1} G (i 0) z → Membership.mem.{u_1, u_1} (Finset.map.{0, u_1} i Finset.univ.{0}) z
+  Tuza06.FinalConfiguration.v_neighbors.{u_1} : ∀ (z : V),
+      SimpleGraph.Adj.{u_1} G (i 1) z →
+        Membership.mem.{u_1, u_1} (Finset.map.{0, u_1} i Finset.univ.{0}) z ∨ Eq.{u_1 + 1} z p
+  Tuza06.FinalConfiguration.w_neighbors.{u_1} : ∀ (z : V),
+      SimpleGraph.Adj.{u_1} G (i 2) z →
+        Membership.mem.{u_1, u_1} (Finset.map.{0, u_1} i Finset.univ.{0}) z ∨ Eq.{u_1 + 1} z q
+constructor:
+  Tuza06.FinalConfiguration.mk.{u_1} {V : Type u_1} {G : SimpleGraph.{u_1} V}
+    {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V} {p q : V}
+    (core_edges :
+      ∀ (a b : Fin 8),
+        SimpleGraph.Adj.{u_1} G (i a) (i b) ↔
+          Membership.mem.{0, 0} Tuza06.Core.BEdges (insert.{0, 0} a (singleton.{0, 0} b)))
+    (u_neighbors :
+      ∀ (z : V), SimpleGraph.Adj.{u_1} G (i 0) z → Membership.mem.{u_1, u_1} (Finset.map.{0, u_1} i Finset.univ.{0}) z)
+    (v_neighbors :
+      ∀ (z : V),
+        SimpleGraph.Adj.{u_1} G (i 1) z →
+          Membership.mem.{u_1, u_1} (Finset.map.{0, u_1} i Finset.univ.{0}) z ∨ Eq.{u_1 + 1} z p)
+    (w_neighbors :
+      ∀ (z : V),
+        SimpleGraph.Adj.{u_1} G (i 2) z →
+          Membership.mem.{u_1, u_1} (Finset.map.{0, u_1} i Finset.univ.{0}) z ∨ Eq.{u_1 + 1} z q) :
+    Tuza06.FinalConfiguration.{u_1} G i p q

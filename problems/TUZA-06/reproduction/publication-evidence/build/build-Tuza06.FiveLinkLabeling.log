@@ -1,0 +1,3 @@
+Tuza06/FiveLinkLabeling.lean:98:6: warning: Unused tactic linter: `change (univ : Finset (Fin 5)).map (fiveIntoSix.trans j) = _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

@@ -1,0 +1,28 @@
+Tuza06/OverlapFive.lean:112:30: warning: This simp argument is unused:
+  fiveCliqueCore
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fiveNearCore, mem_sdiff, mem_edges, mem_singleton, subset_univ, true_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/OverlapFive.lean:128:17: warning: This simp argument is unused:
+  fiveNearCore
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fiveCliqueCore, mem_sdiff, mem_edges, mem_singleton, subset_univ, true_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/OverlapFive.lean:128:45: warning: This simp argument is unused:
+  mem_sdiff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fiveNearCore, fiveCliqueCore, mem_edges, mem_singleton, subset_univ, true_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/OverlapFive.lean:128:65: warning: This simp argument is unused:
+  mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [fiveNearCore, fiveCliqueCore, mem_sdiff, mem_edges, subset_univ, true_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

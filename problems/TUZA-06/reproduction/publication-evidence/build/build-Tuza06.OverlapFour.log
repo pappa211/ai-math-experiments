@@ -1,0 +1,8 @@
+@Tuza06.minimal_no_four_common : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V},
+  Tuza06.MinimalObstruction G →
+    ∀ {x y : V},
+      Tuza06.degreeWithin G Finset.univ x = 5 →
+        Tuza06.degreeWithin G Finset.univ y = 5 →
+          x ≠ y →
+            ¬G.Adj x y → (Tuza06.peelNeighbors G Finset.univ x ∩ Tuza06.peelNeighbors G Finset.univ y).card = 4 → False
+'Tuza06.minimal_no_four_common' depends on axioms: [propext, Classical.choice, Quot.sound]

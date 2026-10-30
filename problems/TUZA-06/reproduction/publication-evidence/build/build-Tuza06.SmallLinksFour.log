@@ -1,0 +1,84 @@
+Tuza06/SmallLinksFour.lean:112:43: warning: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [A, M, hab.symm, had, had.symm, hbc, hbc.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:112:56: warning: This simp argument is unused:
+  had
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [A, M, hab, hab.symm, had.symm, hbc, hbc.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:112:73: warning: This simp argument is unused:
+  hbc.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [A, M, hab, hab.symm, had, had.symm, hbc, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:112:82: warning: This simp argument is unused:
+  hcd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [A, M, hab, hab.symm, had, had.symm, hbc, hbc.symm, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:164:63: warning: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab.symm, had, had.symm, hbc, hbc.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:164:76: warning: This simp argument is unused:
+  had
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab, hab.symm, had.symm, hbc, hbc.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:164:93: warning: This simp argument is unused:
+  hbc.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab, hab.symm, had, had.symm, hbc, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:164:102: warning: This simp argument is unused:
+  hcd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab, hab.symm, had, had.symm, hbc, hbc.symm, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:182:67: warning: This simp argument is unused:
+  hab.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab, had, had.symm, hbc, hbc.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:182:80: warning: This simp argument is unused:
+  had.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab, hab.symm, had, hbc, hbc.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:182:89: warning: This simp argument is unused:
+  hbc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab, hab.symm, had, had.symm, hbc.symm, hcd, hcd.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Tuza06/SmallLinksFour.lean:182:106: warning: This simp argument is unused:
+  hcd.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hab, hab.symm, had, had.symm, hbc, hbc.symm, hcd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

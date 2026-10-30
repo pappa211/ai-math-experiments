@@ -1,0 +1,4 @@
+@Tuza06.final_configuration_of_arm_data : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V]
+  {G : SimpleGraph V},
+  Tuza06.MinimalObstruction G → ∀ {i : Fin 8 ↪ V}, Tuza06.FinalArmData G i → ∃ p q, Tuza06.FinalConfiguration G i p q
+'Tuza06.final_configuration_of_arm_data' depends on axioms: [propext, Classical.choice, Quot.sound]

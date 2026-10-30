@@ -46,3 +46,8 @@ python3 build.py --tectonic /path/to/tectonic --pandoc /path/to/pandoc --output-
 The prior publication checks reported in the paper are archived checks, not new computations conducted for this editorial mission. The publication checks concern proof completeness, statement fidelity, bibliography, compilation, rendering, source preservation and privacy.
 
 Newly authored material retains the repository’s [Apache-2.0 license](../../LICENSE); published mathematical attribution and [third-party notices](../../THIRD_PARTY_NOTICES.md) remain applicable.
+
+
+## Relationship to the five-degenerate result
+
+The separate [five-degenerate paper](../tuza-five-degenerate/README.md) and [TUZA-04–06 archive](../../problems/TUZA-06/README.md) prove Tuza’s inequality and a literal K4/K5 triangle-component equality characterization for all finite simple five-degenerate graphs. That theorem belongs to the later investigation; this restoration paper retains its own statements, proofs and formal-coverage limits. It is not retroactively a proof of the later result. General Tuza, OCT-five, unrestricted restoration and the fixed-$c<3$ density extension remain outside the proved consequences of these papers.

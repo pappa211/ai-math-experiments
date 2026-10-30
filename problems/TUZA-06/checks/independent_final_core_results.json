@@ -1,0 +1,928 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-30T21:11:44.629305+00:00",
+  "source_sha256": "9b2bc3c642f759da1e632fb444d1f50f5e8dcc3fa30f02e21174e0d088350791",
+  "vertices": 8,
+  "edges": 23,
+  "triangles": 32,
+  "source_pair_witnesses_checked": 45,
+  "independently_reconstructed_pair_witnesses": 45,
+  "packing_search_nodes": 1300,
+  "cliques": {
+    "4": {
+      "nu": 1,
+      "tau": 2,
+      "maximum_packings": 4,
+      "minimum_covers": 3
+    },
+    "5": {
+      "nu": 2,
+      "tau": 4,
+      "maximum_packings": 15,
+      "minimum_covers": 10
+    }
+  },
+  "scope": "Fixed final core and K4/K5 local certificate checks only; arbitrary attachments handled by symbolic ordinary proof, not this computation.",
+  "pair_witnesses": [
+    {
+      "omitted": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "a",
+          "c"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "cde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "a",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "cde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "a",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "uce",
+        "vbc",
+        "acd",
+        "bde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "uce",
+        "wae",
+        "acd",
+        "bde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "acd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "uce",
+        "vbc",
+        "wae",
+        "acd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "uce",
+        "vbc",
+        "wae",
+        "bde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ubc",
+        "wae",
+        "acd",
+        "bde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "d",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "acd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "a",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "cde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "a",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "abd",
+        "cde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "wae",
+        "abd",
+        "cde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "cde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "b",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ubc",
+        "wae",
+        "abd",
+        "cde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "c"
+        ],
+        [
+          "d",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "d"
+        ],
+        [
+          "a",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "wde",
+        "bce"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "d"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "wde",
+        "abe"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "d"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "cde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "d"
+        ],
+        [
+          "b",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "uce",
+        "vac",
+        "wde",
+        "bcd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "d"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "uce",
+        "vbc",
+        "wae",
+        "bde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "d"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "wde",
+        "abe"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "d"
+        ],
+        [
+          "d",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "uce",
+        "vac",
+        "abe",
+        "bcd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "e"
+        ],
+        [
+          "b",
+          "c"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "wde",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "e"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "wde",
+        "bce"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "e"
+        ],
+        [
+          "b",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwe",
+        "ubd",
+        "vbc",
+        "wad",
+        "cde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "e"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "uce",
+        "vac",
+        "wde",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "e"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwe",
+        "ucd",
+        "vbc",
+        "wad",
+        "bde"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "a",
+          "e"
+        ],
+        [
+          "d",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "abd",
+        "bce"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "wde",
+        "abe"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "c"
+        ],
+        [
+          "b",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "wde",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "c"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "uce",
+        "vac",
+        "wde",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "c"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "wde",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "c"
+        ],
+        [
+          "d",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwd",
+        "uce",
+        "vac",
+        "wae",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "d"
+        ],
+        [
+          "b",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "uce",
+        "vbc",
+        "wae",
+        "acd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "d"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "uce",
+        "vac",
+        "wde",
+        "abe"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "d"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "acd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "d"
+        ],
+        [
+          "d",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "acd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "e"
+        ],
+        [
+          "c",
+          "d"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "uce",
+        "vbc",
+        "wae",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "e"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uvb",
+        "uwa",
+        "ucd",
+        "vac",
+        "wde",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "b",
+          "e"
+        ],
+        [
+          "d",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "uce",
+        "vbc",
+        "wae",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "c",
+          "d"
+        ],
+        [
+          "c",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "c",
+          "d"
+        ],
+        [
+          "d",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "abd"
+      ]
+    },
+    {
+      "omitted": [
+        [
+          "c",
+          "e"
+        ],
+        [
+          "d",
+          "e"
+        ]
+      ],
+      "packing": [
+        "uva",
+        "uwd",
+        "ube",
+        "vbc",
+        "wae",
+        "abd"
+      ]
+    }
+  ]
+}
