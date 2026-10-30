@@ -1,0 +1,40 @@
+{
+  "checked_utc": "2026-10-30T22:52:13.194506+00:00",
+  "sources": [
+    {
+      "primary_url": "https://arxiv.org/abs/2608.06538v1",
+      "version": "2608.06538v1",
+      "sections_read": [
+        "Theorem1.3",
+        "Question12.3"
+      ],
+      "full_text_obtained": true,
+      "PDF_sha256": "c069ff4ff9a31023b71406c8ecc098ecdebe16797a5e99328e58a79addff45bf",
+      "HTML_sha256": "d810d84c6bb6e4d5beb3995d5e3dfa73276337ed38b9128fe84dc5fda5f74fc3",
+      "redistributed": false
+    },
+    {
+      "primary_url": "https://arxiv.org/abs/2610.15539v1",
+      "version": "2610.15539v1",
+      "sections_read": [
+        "Theorem1.3"
+      ],
+      "full_text_obtained": true,
+      "PDF_sha256": "25ac91f2ab3da459c409bff335dbd106081e08063df6e032411b6c81a34ac34f",
+      "HTML_sha256": "c7975ab3b1845cb6f07d87a6699b74cb7995fd9f45e0cc06cdeb2a32ce6dc58d",
+      "redistributed": false
+    }
+  ],
+  "Tuza1990": {
+    "DOI": "10.1007/BF01787705",
+    "title": "A conjecture on triangles of graphs",
+    "journal": "Graphs and Combinatorics",
+    "volume": 6,
+    "year": 1990,
+    "pages": "373\u2013380",
+    "bibliographic_metadata_source": "https://api.crossref.org/works/10.1007/BF01787705",
+    "metadata_sha256": "879a951ac2f72086a53854349f81622af6b39cc39d23b516b0a13b3725330efd",
+    "full_text_obtained_in_this_revision": false
+  },
+  "scope": "Bounded primary-source positioning check; not a historical-priority investigation or independent validation of cited computer-assisted results."
+}

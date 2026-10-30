@@ -1,0 +1,85 @@
+{
+  "release_kind": "editorial technical-report revision",
+  "title": "Equality in Tuza's Inequality for 5-Degenerate Graphs",
+  "report_label": "AI-developed mathematical research report \u2014 AI Math Experiments",
+  "development_disclosure": "The mathematical development, proofs, code, formalization, manuscript and internal reviews were produced through AI systems. The human participant supplied goals, budgets, coordination and authorization.",
+  "revision_date": "2026-10-30",
+  "baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230",
+  "current_PDF": {
+    "path": "papers/tuza-five-degenerate/main.pdf",
+    "sha256": "139ca81a36ef2f48a5f96a968daedd989a37aa5d9cf4dd72c430b91acb45e1e6",
+    "pages": 22
+  },
+  "paper_files_sha256": {
+    "README.md": "9bd82b2bda8591f042d227d02a9e171fb0544431f4c6ae201646bd2e9baa2dfd",
+    "final-core.svg": "3a710080670c36b31525979131834d963206926b10a00a8adde01624e944f88c",
+    "main.md": "6f89ec20ce3d954a5912cd19e5e2156fbcab87460bdc6eeb4d09b9bcdc55d59f",
+    "main.pdf": "139ca81a36ef2f48a5f96a968daedd989a37aa5d9cf4dd72c430b91acb45e1e6",
+    "main.tex": "4252b75af96489bb0a82f193fb8042f91cbbb77e27729c027cf8bc4db53beb6d",
+    "references.bib": "475dee023a6f9631978d3569ebd10900356e430e3b10536fd855b0fc7cc71b3c"
+  },
+  "historical_original_PDF": {
+    "sha256": "41c4c50178cf81a7fe46fe5b7c9dce9509017bcf99d140c2c9557568ecb415bd",
+    "pages": 20,
+    "QA": "../reproduction/publication-evidence/PAPER_VERIFICATION.json",
+    "record_unchanged": true
+  },
+  "mathematical_sources": {
+    "modules": 280,
+    "all_source_hashes_match_accepted_inventory": true,
+    "pinned_project_configuration_unchanged": true,
+    "main_declaration": "Tuza06.five_degenerate_combined",
+    "combined_statement_unchanged": true
+  },
+  "historical_verification": {
+    "fresh_project_modules": 280,
+    "public_theorem_type_and_axiom_audits": 618,
+    "fresh_module_objects_replayed": 280,
+    "compiled_pinned_dependencies_reused": true,
+    "same_standard_Lean_kernel": true,
+    "new_Lean_build_or_replay_for_this_editorial_release": false,
+    "all_historical_evidence_files_preserved": 627
+  },
+  "editorial_review": {
+    "kind": "AI editorial self-review",
+    "record": "EDITORIAL_REVIEW.md",
+    "external_specialist_review": false,
+    "historical_priority_established": false
+  },
+  "checks": {
+    "rendered_and_visually_inspected_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "missing_glyphs": 0,
+    "overfull_boxes": 0,
+    "undefined_references": 0,
+    "primary_sources": "PRIMARY_SOURCE_CHECKS.json",
+    "finite_examples_footprints": "EXAMPLE_AND_FOOTPRINT_CHECKS.json",
+    "links_and_metadata": "LINKS_AND_METADATA.json",
+    "relative_links_checked": 122,
+    "PDF_URI_links": 25,
+    "coverage_names_checked": 34
+  },
+  "self_reference_boundary": "This current-artifact record is authenticated by enclosing public manifests and Git; it does not contain its own hash."
+}

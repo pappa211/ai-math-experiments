@@ -1,4 +1,8 @@
-# TUZA-06: five-degenerate graphs
+# TUZA-06: equality in Tuza’s inequality for five-degenerate graphs
+
+**AI-developed mathematical research report — AI Math Experiments**
+
+The mathematical development, proofs, code, formalization, manuscript and internal reviews were produced through AI systems. The human participant supplied goals, budgets, coordination and authorization.
 
 For every finite simple 5-degenerate graph $G$,
 
@@ -18,3 +22,5 @@ The declaration `Tuza06.five_degenerate_combined` has only `Degenerate G 5` as i
 The principal contribution proposed here is the combined equality classification, with its complete proof and formalization. Earlier local inequality reductions are credited where used. Historical priority and external specialist peer review are not established. Mathematics, code, reviews and formalization were developed through AI systems; the human supplied goals, budgets, coordination and publication authorization.
 
 This is separate from the [TUZA-01–03 triangle-restoration paper](../../papers/tuza-triangle-restoration/README.md). General Tuza, six-degenerate graphs, OCT-five, unrestricted restoration and the fixed-$c<3$ density extension are not established here. Mathematical facts and third-party literature remain subject to their own attribution and rights; see [notices](../../THIRD_PARTY_NOTICES.md).
+
+The current [editorial artifact record](editorial/CURRENT_ARTIFACT.json) identifies the revised technical-report PDF. The earlier paper QA, publication review and publication-verification PDF hash remain dated historical evidence for the original release; the Lean sources and mathematical verification are unchanged. [Editorial release notes](editorial/README.md).

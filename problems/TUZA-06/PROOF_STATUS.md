@@ -1,5 +1,7 @@
 # Final formal proof and publication verification status
 
+**Current paper artifact.** The [revised technical report](../../papers/tuza-five-degenerate/README.md) is identified by the [current editorial artifact record](editorial/CURRENT_ARTIFACT.json). The original paper QA/publication-verification PDF hash and original publication review below refer to the earlier 20-page PDF (`41c4c501…415bd`). Those historical records are preserved unchanged. This editorial revision verifies source identities and presentation; it performs no new Lean build/replay and changes none of the 280 mathematical source files.
+
 **COMPLETE.** Every finite simple five-degenerate graph satisfies $\tau(G)\le2\nu(G)$, with equality exactly when every nonempty triangle component connected through shared graph edges has literal edge support $K_4$ or $K_5$. Graph order and maximum degree are unrestricted. Empty/triangle-free graphs, background edges and blocks sharing vertices are included.
 
 The exact declaration [Tuza06.five_degenerate_combined](lean/Tuza06/FiveDegenerate.lean) is:

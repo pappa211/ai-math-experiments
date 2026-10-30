@@ -1,15 +1,18 @@
-# Tuza's Inequality and Equality Characterization for 5-Degenerate Graphs
+# Equality in Tuza's Inequality for 5-Degenerate Graphs
 
-**AI Math Experiments**  
-30 October 2026
+**AI-developed mathematical research report — AI Math Experiments**  
+Technical report · Editorial revision, 30 October 2026
+
+The mathematical development, proofs, code, formalization, manuscript and internal reviews were produced through AI systems. The human participant supplied goals, budgets, coordination and authorization.
 
 ## Abstract
 
-For a finite simple graph $G$, let $\nu(G)$ be the maximum number of pairwise edge-disjoint triangles and let $\tau(G)$ be the minimum number of graph edges meeting every triangle. We prove $\tau(G)\le 2\nu(G)$ for every 5-degenerate graph. Equality holds precisely when every nonempty triangle component, where adjacency means sharing a graph edge, has edge support $K_4$ or $K_5$. Triangle-free background edges and clique blocks sharing vertices are allowed; graph order and maximum degree are unrestricted. The ordinary proof extends local reducibility arguments to minimal failures of the combined inequality and equality statement. A second degeneracy argument forces an eight-vertex core; a symbolic compatibility argument handles arbitrary outside attachments and saves one edge in a final cover. The exact combined theorem is checked in Lean 4.33.1 with pinned Mathlib, with all 280 mathematical modules rebuilt and replayed by the standard Lean kernel. The equality classification is the principal contribution proposed here. Historical priority and external specialist peer review are not claimed.
+We characterize equality in Tuza's triangle packing–covering inequality for finite simple 5-degenerate graphs. Equality holds exactly when every nonempty triangle component, connected through shared graph edges, has edge support $K_4$ or $K_5$. We prove the combined statement, including $\tau(G)\le2\nu(G)$, where $\nu(G)$ is the maximum number of edge-disjoint triangles and $\tau(G)$ is the minimum number of graph edges meeting every triangle. Triangle-free background edges and clique blocks sharing vertices are allowed; graph order and maximum degree are unrestricted. The inequality has a short deduction from published local reductions. The equality classification requires additional residual-packing compatibility and a strict-cover saving for arbitrary outside attachments. The exact combined theorem has been checked in Lean with pinned dependencies. Historical priority and external specialist peer review remain unestablished.
+
 
 ## Introduction and precise contribution
 
-Tuza's conjecture asks whether $\tau(G)\le2\nu(G)$ holds for every finite simple graph. This paper treats the subgraph-closed class of 5-degenerate graphs and proves an exact equality characterization within that class.
+The equality classification is the principal contribution proposed in this report. Tuza's conjecture [1] asks whether $\tau(G)\le2\nu(G)$ holds for every finite simple graph. We establish the inequality together with its exact equality characterization in the subgraph-closed class of 5-degenerate graphs. The inequality admits a short deduction using published local reductions, given in Appendix A; a short proof does not by itself establish that the resulting inequality was previously known. Historical priority remains unestablished.
 
 **Theorem 1 (Main theorem).** Every finite simple 5-degenerate graph $G$ satisfies
 
@@ -23,17 +26,17 @@ Two triangles are adjacent if they share an **edge**. Their connected components
 
 **Equivalent block formulation.** The component condition is equivalent to the existence of a finite family of pairwise edge-disjoint actual $K_4$ and $K_5$ subgraphs containing every graph triangle. To prove this, component supports give such a family directly. Conversely, assign each triangle to a containing block. Triangles in different blocks cannot share an edge, by edge disjointness. Within $K_4$ or $K_5$ its triangles are connected by shared edges: two triangles sharing only a vertex are joined by a triangle using that vertex and one other vertex from each. Every block edge belongs to a triangle. Thus a triangle component consists exactly of one block's full triangle family, and its literal edge support is that clique. This argument checks the literal component condition rather than assuming it from a supplied decomposition. Since packing and covering numbers add over edge-disjoint triangle supports, the elementary parameters in Lemma 2 prove the equality converse for arbitrary graphs.
 
-The proof's starting framework is due to Puleo [1, Definition 2.1 and Lemma 2.2]. His robustness and local low-degree results [1, Lemmas 2.6--2.7 and Propositions 5.1--5.2] are predecessors of Sections 3--6; the four/eight reducing pair in Section 6.2 is the witness in his Proposition 5.2, Case 1. Botler, Fernandes and Gutiérrez [2, Lemma 3.3] provide the direct predecessor of Proposition 8 for irreducible robust graphs. The extra requirement here is that balanced reductions need not contradict a minimal failure of the **combined** statement. We therefore derive exact residual equality, classify its clique supports, and prove compatibility and strict improvements at each balanced case. These extensions, especially arbitrary outside-page compatibility and the thirteen-versus-fourteen cover saving, remain explicit below. Appendix A gives the shorter credited inequality deduction, for which balanced reductions suffice.
+The proof's starting framework is due to Puleo [2, Definition 2.1 and Lemma 2.2]. His robustness and local low-degree results [2, Lemmas 2.6--2.7 and Propositions 5.1--5.2] are predecessors of Sections 3--6; the four/eight reducing pair in Section 6.2 is the witness in his Proposition 5.2, Case 1. Botler, Fernandes and Gutiérrez [3, Lemma 3.3] provide the direct predecessor of Proposition 8 for irreducible robust graphs. The extra requirement here is that balanced reductions need not contradict a minimal failure of the **combined** statement. We therefore derive exact residual equality, classify its clique supports, and prove compatibility and strict improvements at each balanced case. These extensions, especially arbitrary outside-page compatibility and the thirteen-versus-fourteen cover saving, remain explicit below. Appendix A gives the shorter credited inequality deduction, for which balanced reductions suffice.
 
-Cui, Haxell and Ma [3, Theorem 1.2 and Section 2] characterize planar equality using edge-disjoint $K_4$ copies containing every triangle, with triangle-free background edges allowed. Theorem 1 recovers their known case because planar graphs are 5-degenerate and contain no $K_5$. Their theorem is not claimed as a new consequence in historical terms. Puleo's main sparsity theorem assumes maximum average degree less than seven; we use his local framework rather than an unsupported implication from degeneracy. Botler--Fernandes--Gutiérrez prove a treewidth theorem; their local lemma is the antecedent used here, not an invented degeneracy version of their main result.
+Cui, Haxell and Ma [4, Theorem 1.2 and Section 2] characterize planar equality using edge-disjoint $K_4$ copies containing every triangle, with triangle-free background edges allowed. Theorem 1 recovers their known case because planar graphs are 5-degenerate and contain no $K_5$. Their theorem is not claimed as a new consequence in historical terms. Puleo's main sparsity theorem assumes maximum average degree less than seven. This class and the class of all five-degenerate graphs are incomparable. The graph $K_7$ has maximum average degree six but is not five-degenerate. In the other direction, start with $K_5$ and add five pairwise nonadjacent vertices, each joined to every original clique vertex. There are ten vertices and $10+25=35$ edges, so the average degree is seven and the maximum average degree is at least seven. Removing the five new degree-five vertices first and then the clique gives a five-degeneracy ordering. Thus this graph is outside Puleo's hypothesis. We use his local framework rather than a containment between these classes. Botler--Fernandes--Gutiérrez prove a treewidth theorem; their local lemma is the antecedent used here, not an invented degeneracy version of their main result.
 
-The project developed the research strategy, mathematics, code, internal reviews and formalization through AI systems. The human supplied goals, budgets, coordination and publication authorization, and is not named as a mathematical author. The author designation follows the project's existing **AI Math Experiments** convention. Internal AI review is not external human peer review. A bounded primary-source attribution and literature-position check was carried out; historical priority remains unestablished. No first-ever claim or general-Tuza resolution is made.
+**Recent context.** Gupta [5, Theorem 1.3], arXiv:2608.06538v1 (6 August 2026), proves Tuza's inequality for graphs of maximum degree at most seven. His Question 12.3 asks for the equality cases in that class. Theorem 1 supplies the equality classification on its intersection with the five-degenerate class. It does not answer the whole question: in particular, a nonempty seven-regular graph is not five-degenerate. Gupta's maximum-degree theorem is not used to prove Theorem 1.
 
-The earlier [triangle-restoration paper](../tuza-triangle-restoration/main.md) remains a separate canonical work with its own conditional formal-verification boundary. Its restoration, odd-cycle-transversal and density results are not retroactively claimed to have established this theorem. General Tuza, six-degenerate graphs, OCT-five, unrestricted two-triangle restoration and the fixed-$c<3$ density extension are not established here.
+Liu and Zeng [6, Theorem 1.3], arXiv:2610.15539v1 (11 October 2026), establish the inequality for every fixed $c<2$ and sufficiently large $n$ under $e(G)\ge n^2/4-cn$. This is an edge-count condition, distinct from the degeneracy assumption here; no density-class conclusion is inferred from Theorem 1. The [separate triangle-restoration report](../tuza-triangle-restoration/main.md) [8] retains its own statements and verification boundary.
 
 ### Reading the proof
 
-Sections 1--5 establish clique compatibility, tight criticality, robustness, and the two possible degree-five links. Sections 6--7 prove all degree-five adjacency, neighbor and overlap restrictions for a minimal combined obstruction. Section 8 applies degeneracy a second time, reconstructs the final core, and excludes arbitrary outside attachments. Section 9 closes the induction. Section 10 states the exact formal target and verification boundary; appendices give the short inequality proof, a formally used local proof simplification, and primary references. Every ordinary proof needed for Theorem 1 is contained here.
+Sections 1--5 establish clique compatibility, tight criticality, robustness, and the two possible degree-five links. Sections 6--7 prove all degree-five adjacency, neighbor and overlap restrictions for a minimal combined obstruction. Section 8 applies degeneracy a second time, reconstructs the final core, and excludes arbitrary outside attachments. Section 9 closes the induction. Section 10 gives a concise verification account. Appendix A contains the short inequality proof, Appendix B the small-link proof organization used in Lean, and Appendix C the detailed declaration coverage and verification provenance. Every ordinary proof needed for Theorem 1 is contained here.
 
 For a local vertex set $W$, an **external page** is a triangle with base edge in $W$ and apex outside the specified core; its apex-to-base edges are its spokes. Different pages may share an apex. A *surviving footprint* means only edges actually remaining in the explicitly named residual graph. No bound is imposed on outside vertices or edges. Partial spoke deletion at a closed link component removes just its spokes, retaining all other neighbors; closure ensures that no unlisted hub triangle crosses to another link component.
 
@@ -43,13 +46,19 @@ For a local vertex set $W$, an **external page** is a triangle with base edge in
 
 *Proof.*
 
-$K_4$ has $(\nu,\tau)=(1,2)$. $K_5$ has $(\nu,\tau)=(2,4)$: two disjoint triangles exist; three disjoint triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from $K_5$ creates two odd degrees. Each edge of $K_5$ meets three of its ten triangles, so three cover edges cannot cover them all; four edges inside a vertex bipartition of sizes two and three do cover all triangles.
+$K_4$ has $(\nu,\tau)=(1,2)$. $K_5$ has $(\nu,\tau)=(2,4)$: two edge-disjoint triangles exist; three edge-disjoint triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from $K_5$ creates two odd degrees. Each edge of $K_5$ meets three of its ten triangles, so three cover edges cannot cover them all; four edges inside a vertex bipartition of sizes two and three do cover all triangles.
 
 A $K_4$ maximum packing can avoid any star of forbidden edges by choosing the face opposite the star center. A $K_5$ maximum packing can avoid any two edges. Up to relabeling, for forbidden adjacent edges 12,13 choose 145,234; for forbidden disjoint edges 12,34 choose 135,245. Each displayed pair is edge-disjoint. Zero or one forbidden edge follows by enlarging the forbidden set.
 
 In either block there is a minimum cover containing any specified edge. In $K_4$ take it and its opposite edge. In $K_5$ take the four edges inside a $2+3$ vertex partition whose two-vertex class is that edge's endpoints. Independent choices combine across triangle components, whose edge supports are disjoint.
 
 We also use the elementary intersecting-triangle lemma: a pairwise edge-intersecting triangle family has a two-edge cover; if it has no common edge, all its triangles are faces of a single $K_4$. Indeed, two distinct triangles can be written $abc$,$abd$. A triangle avoiding $ab$ must share another edge with each, hence is $acd$ or $bcd$. Once such a triangle is present, every further triangle lies among those four faces. The pair $ab$,$cd$ covers the family. Families with a common edge, or a single triangle, are immediate.
+
+**Lemma 2A (Block-packing compatibility).** Let $K$ be a subgraph of $G$ whose full triangle components have $K_4$ or $K_5$ supports, and let $P$ be a family of $k$ pairwise edge-disjoint $G$-triangles. For each component block $B$, let $D_B=E(B)\cap\bigcup_{T\in P}E(T)$. Suppose $D_B$ is contained in a star when $B$ is $K_4$, and $|D_B|\le2$ when $B$ is $K_5$. Then $\nu(G)\ge\nu(K)+k$.
+
+*Proof.* By Lemma 2 choose a maximum packing in each block avoiding $D_B$. The blocks have disjoint edge supports, so these packings combine into a packing of size $\nu(K)$. It is edge-disjoint from every member of $P$ by the definition of $D_B$. Appending $P$ proves the bound.
+
+**Two-page use and its bound.** If a terminal set $S$ is independent in $K$, each clique block meets $S$ in at most one vertex. For two pages with bases in $S$, each page contributes at most one surviving edge to a block: a block containing both spokes would contain both base endpoints. The union of the surviving spokes is therefore a star with at most two edges, satisfying both cases of Lemma 2A. A star alone is not sufficient for a $K_5$ block. In every application below we state the bound on the entire surviving footprint, including any contribution from local packed triangles.
 
 ## 2. Minimal-obstruction framework in a hereditary class
 
@@ -59,11 +68,11 @@ We also use the elementary intersecting-triangle lemma: a pairwise edge-intersec
 
 Call $S$ the assertion that Tuza's inequality holds and equality implies the $K_4$/$K_5$ component condition. The converse has already been proved in the introduction. A failure therefore means either $\tau(G)>2\nu(G)$, or $\tau(G)=2\nu(G)$ with an unclassified component. Let $C$ be any class closed under taking subgraphs, and suppose $G$ is a failure of $S$ in $C$ with as few edges as possible. Discard isolated vertices. Then every proper edge-subgraph satisfies $S$.
 
-There are no triangle-free edges: deleting one preserves the triangle family and the failure. There is only one nonempty triangle component: otherwise apply $S$ to each component support, sum the inequalities, and observe that equality of the sum forces equality and the block classification in every component. Thus $G$ has connected nonempty triangle support.
+There are no triangle-free edges: deleting one preserves the triangle family and the failure. There is only one nonempty triangle component. Indeed, the support subgraph of a triangle component has exactly that component as its full triangle family: any triangle using its support edges shares an edge with a component member, so belongs to the same shared-edge component. If there were several nonempty components, each support subgraph would have fewer edges and minimality would apply $S$ to it. Summing their inequalities, equality of the sum forces equality and the block classification in every component. Thus $G$ has connected nonempty triangle support.
 
 Write $h=\nu(G)$. A failure of $S$ has $\tau(G)\ge 2h$. If $\nu(G-f)=h-1$ for an edge $f$, induction gives $\tau(G)\le \tau(G-f)+1\le 2h-1$, impossible. Hence every edge deletion preserves $\nu$.
 
-If $\tau(G-f)=2h$ for $f=xy$, then $G-f$ has only $K_4$/$K_5$ triangle components. Choose a triangle $xyw$ of $G$. The wedge edges $xw$,$yw$ cannot lie in the same residual clique block, since $xy$ is absent. Choose in each block a maximum packing avoiding its possible single wedge edge and append $xyw$. This gives $h+1$ triangles, contradiction. Therefore $\tau(G-f)\le 2h-1$ for every edge $f$. Cover deletion changes $\tau$ by at most one, so
+If $\tau(G-f)=2h$ for $f=xy$, then $G-f$ has only $K_4$/$K_5$ triangle components. Choose a triangle $xyw$ of $G$. The wedge edges $xw$,$yw$ cannot lie in the same residual clique block, since $xy$ is absent. Each residual block contains at most one of $xw,yw$ because $xy$ is absent. Thus its forbidden footprint is a star of size at most one. Lemma 2A, with $P=\{xyw\}$, gives $h+1$ triangles, contradiction. Therefore $\tau(G-f)\le 2h-1$ for every edge $f$. Cover deletion changes $\tau$ by at most one, so
 
 
 $$
@@ -73,15 +82,19 @@ $$
 
 Thus every minimal $S$-obstruction in a hereditary class is tight-critical. This argument proves the reduction; it does not presume global Tuza.
 
-Whenever a local deletion produces $K$ and supplies $r$ triangles disjoint from every $K$-packing and a cover increment of size $2r$, equality forces
+**Lemma 3A (Balanced-reduction accounting).** Let $G$ be the edge-minimal combined obstruction of Lemma 3, write $h=\nu(G)$, and let $K$ be a proper subgraph in the same subgraph-closed class. Suppose that $P$ consists of $r$ pairwise edge-disjoint $G$-triangles, no edge used by $P$ lies in the triangle support of $K$, and $X\subseteq E(G)$ meets every $G$-triangle not belonging to the full triangle family of $K$. If $|X|\le2r$, then
 
+$$\nu(K)=h-r,\qquad \tau(K)=2\nu(K),\qquad |X|=2r,$$
 
-$$
-\nu(K)=h-r, \tau(K)=2(h-r),
-$$
+and $K$ has the component-block classification. In particular, $|X|<2r$ is impossible.
 
+*Proof.* The support condition lets every $K$-packing append $P$, so $\nu(K)+r\le h$. A minimum $K$-cover together with $X$ covers every $G$-triangle by the stated lost-triangle condition. Minimality supplies both the inequality and the equality conclusion for $K$. Consequently
 
-and the inductive hypothesis classifies $K$ into $K_4$/$K_5$ triangle components. We will always give the actual local packing and cover increment.
+$$2h=\tau(G)\le\tau(K)+|X|\le2\nu(K)+2r\le2h.$$
+
+Every inequality is an equality. This gives the displayed accounting and licenses the residual component classification. No residual equality is assumed before this chain is proved.
+
+A useful instance is the reducible-set framework of Puleo [2, Definition 2.1 and Lemma 2.2]. For a nonempty vertex set $U$, a packing $P$ of size $r$, and an edge set $X$ hitting every triangle incident with $U$ and containing every $P$-edge with neither end in $U$, put $K=(G-X)-U$. The packing and lost-triangle hypotheses of Lemma 3A then follow directly. The partial-spoke deletions below use the same hypotheses, checked on their displayed witnesses.
 
 ## 3. An edge cannot belong to just one triangle
 
@@ -93,7 +106,7 @@ Suppose $uv$ belongs only to $uvw$. Delete $uw$,$vw$ to get $K$. The edge $uv$ i
 
 Let $F$ be the full family of triangles lost in this deletion. They all contain $w$. If $F$ is intersecting, the preceding lemma says that $F$ has a common edge or is contained in $K_4$ faces. In the latter case, since $uvw$ belongs to $F$ and all $F$-triangles contain $w$, absence of a common edge forces $wuv$,$wux$,$wvx$ for a fourth vertex $x$. Their edges force the triangle $uvx$, contradicting uniqueness of $uvw$. Thus $F$ has a one-edge cover, giving $\tau(G)\le \tau(K)+1<2h$.
 
-If $F$ is not intersecting, take two disjoint members. A $K_4$ block has a face avoiding its possible $U_0$ vertex, hence avoiding both members. Each member uses at most one edge of a given $K_5$ block, so that block can avoid the at most two forbidden edges. These maximum block packings combine with the two $F$-triangles to give $h+1$ triangles, contradiction. Therefore every $G$-edge has triangle codegree at least two. Equivalently every vertex in every link $G[N(v)]$ has degree at least two.
+If $F$ is not intersecting, take two disjoint members. Each block meets $U_0$ in at most one vertex. The two selected triangles therefore have a star footprint there, with each triangle contributing at most one surviving edge. Its size is at most two, including for $K_5$. Lemma 2A gives $h+1$ triangles, contradiction. Therefore every $G$-edge has triangle codegree at least two. Equivalently every vertex in every link $G[N(v)]$ has degree at least two.
 
 ## 4. Every link component has at least five vertices
 
@@ -107,19 +120,19 @@ Let $C_0$ be a connected component of the link at $v$. In the following cases, d
 
 Write $C_0=abc$. Delete its three $v$-spokes and $ab$. The triangle $vab$ appends to any residual $K$-packing, and $\{ab,vc\}$ is a cover increment, so $K$ has equality blocks and $\nu(K)=h-1$.
 
-An external $abx$ combines with $vbc$. Their edges present in $K$ are $bc$,$ax$,$bx$. Since $ab$ is deleted, no block contains both $a$ and $b$; the only possible two-edge overlap is $bc$,$bx$, a star at $b$. Block avoidance yields $h+1$ triangles, contradiction. By symmetry no rim edge of $abc$ has an external triangle. Thus the $K_4$ on $v$,$a$,$b$,$c$ is an isolated triangle component. Connectedness makes it the whole triangle support, which satisfies $S$, contradiction.
+An external $abx$ combines with $vbc$. Their edges present in $K$ are $bc$,$ax$,$bx$. Since $ab$ is deleted, no block contains both $a$ and $b$; the only possible two-edge overlap is $bc$,$bx$, a star at $b$. The whole footprint in a block is thus a star of size at most two; Lemma 2A yields $h+1$ triangles, contradiction. By symmetry no rim edge of $abc$ has an external triangle. Thus the $K_4$ on $v$,$a$,$b$,$c$ is an isolated triangle component. Connectedness makes it the whole triangle support, which satisfies $S$, contradiction.
 
 ### 4.2 Link component $K_4$
 
 Write $C_0=abcd$. Delete its $v$-spokes and $ab$,$cd$. The packing $vab$,$vcd$ appends, and $\{ab,cd,va,vb\}$ is a four-edge cover increment. Hence $\nu(K)=h-2$ and $K$ has equality blocks.
 
-An external $abx$ combines with $vac$,$vbd$. Its old forbidden edges are $ac$,$bd$,$ax$,$bx$. Because $ab$ is absent, a block sees at most two of these edges, necessarily adjacent at $a$ or $b$. Block avoidance gives $h+1$ triangles. Varying the perfect matching $ab$,$cd$ excludes external triangles on every rim edge. The $K_5$ on $v$,$a$,$b$,$c$,$d$ is therefore an isolated triangle component, again impossible.
+An external $abx$ combines with $vac$,$vbd$. Its old forbidden edges are $ac$,$bd$,$ax$,$bx$. Because $ab$ is absent, a block sees at most two of these edges, necessarily adjacent at $a$ or $b$. The whole footprint is a star with at most two edges, so Lemma 2A gives $h+1$ triangles. Varying the perfect matching $ab$,$cd$ excludes external triangles on every rim edge. The $K_5$ on $v$,$a$,$b$,$c$,$d$ is therefore an isolated triangle component, again impossible.
 
 ### 4.3 Diamond link component
 
 Write $C_0=K_4-ab$ on $a$,$b$,$c$,$d$. Delete its $v$-spokes and $ac$,$bd$. Use packing $vac$,$vbd$ and cover increment $\{ac,bd,vc,vd\}$; equality gives $\nu(K)=h-2$ and blocks.
 
-An external $acx$ combines with $vad$,$vbc$. Its old forbidden edges are $ad$,$bc$,$ax$,$cx$. Since $ac$ is absent in $K$, a block sees at most two of these, with the only possible pairs $ad$,$ax$ or $bc$,$cx$. Block avoidance contradicts maximality. By symmetry, including use of the other matching $ad$,$bc$, no external triangle uses $ac$,$ad$,$bc$,$bd$. Returning to $K$ above, a $K$-cover plus $\{vc,vd,cd\}$ covers $G$: $vc$,$vd$ cover all $v$-triangles, and the only other lost triangles are $acd$,$bcd$, hit by $cd$. This gives $2h-1$ cover edges, contradiction.
+An external $acx$ combines with $vad$,$vbc$. Its old forbidden edges are $ad$,$bc$,$ax$,$cx$. Since $ac$ is absent in $K$, a block sees at most two of these, with the only possible pairs $ad$,$ax$ or $bc$,$cx$. Each full block footprint is a star of size at most two; Lemma 2A contradicts maximality. By symmetry, including use of the other matching $ad$,$bc$, no external triangle uses $ac$,$ad$,$bc$,$bd$. Returning to $K$ above, a $K$-cover plus $\{vc,vd,cd\}$ covers $G$: $vc$,$vd$ cover all $v$-triangles, and the only other lost triangles are $acd$,$bcd$, hit by $cd$. This gives $2h-1$ cover edges, contradiction.
 
 ### 4.4 Four-cycle link component
 
@@ -129,13 +142,15 @@ By Section 3, $bc$ has a triangle $bcx$ other than $vbc$. It survives in $K$: $x
 
 Since every link has minimum degree at least two, its connected components of order at most four are exactly $K_3$,$C_4$,diamond,$K_4$. All are excluded. Hence every link component has order at least five, and $\delta(G)\ge 5$.
 
-## 5. A 3-colorable link component cannot have five vertices
+## 5. Complete classification of five-vertex links
 
 **Lemma 6 (Degree-five links).** The link of every degree-five vertex in a minimal combined obstruction is $K_5$ or $K_5$ minus one edge.
 
 *Proof.*
 
-Suppose a link component $L$ has five vertices, minimum degree at least two, and is 3-colorable. Its complement has maximum degree at most two. A 3-coloring gives either a size-three color class (a triangle in the complement) or two size-two classes (a matching of size two). There are **eleven**, not thirteen, unlabeled graphs on five vertices of maximum degree at most two: $5I$, $K_2+3I$, $2K_2+I$, $P_3+2I$, $P_3+K_2$, $P_4+I$, $P_5$, $C_3+2I$, $C_3+K_2$, $C_4+I$, and $C_5$. Here $I=K_1$ and $+$ denotes disjoint union. The first, second, and fourth entries have non-3-colorable complements; the other eight are the possible complements here. Thus the possible complements are exactly
+Robustness forces the link of a degree-five vertex to be connected: its components each have at least five vertices, and its total order is five. We first exclude its 3-colorable possibilities, and then treat the non-3-colorable case.
+
+Suppose a link component $L$ has five vertices, minimum degree at least two, and is 3-colorable. Its complement has maximum degree at most two. A 3-coloring gives either a size-three color class (a triangle in the complement) or two size-two classes (a matching of size two). There are eleven unlabeled graphs on five vertices of maximum degree at most two: $5I$, $K_2+3I$, $2K_2+I$, $P_3+2I$, $P_3+K_2$, $P_4+I$, $P_5$, $C_3+2I$, $C_3+K_2$, $C_4+I$, and $C_5$. Here $I=K_1$ and $+$ denotes disjoint union. The first, second, and fourth entries have non-3-colorable complements; the other eight are the possible complements here. Thus the possible complements are exactly
 
 
 $$
@@ -147,7 +162,7 @@ For a matching $M$ and vertex set $Q$ with $L-Q$ a subgraph of $M$, delete the l
 
 ### 5.1 Four dense types
 
-In each dense case $|M|=|Q|=2$. The listed three triangles are mutually edge-disjoint. Their edges present in the residual are listed as their surviving footprint. The missing and deleted edges restrict a block's intersection as shown, so maximum block packings avoid that set and append all three triangles, contradiction.
+In each dense case $|M|=|Q|=2$. The listed three triangles are mutually edge-disjoint. Their edges present in the residual are listed as their surviving footprint. The missing and deleted edges restrict a block's intersection as shown, so every whole block footprint is a star with at most two edges. Lemma 2A appends all three triangles, contradiction.
 
 **Dense case 1.** Let $L$ be $K_{2,3}$ with sides $\{p,q\}$,$\{b,c,x\}$, plus $bc$. Take $M=\{bc,px\}$ and $Q=\{p,q\}$. The three triangles are $pbc$; $vqb$; $vpx$; their surviving footprint is $\{pb,pc,qb\}$. Possible two-edge overlap in a block: none: $bc$ deleted and $pq$ absent.
 
@@ -163,13 +178,13 @@ Both allowed pairs are adjacent. For completeness, in dense case 2 $ac$ with $ae
 
 For a bowtie $L=abc\cup ade$, take $M=\{bc,de\}$, $Q=\{a\}$. The cover increment has size three for a compatible two-packing, immediately strict.
 
-For $L=K_{2,3}$ with sides $\{a,b\}$,$\{c,d,e\}$, take $M=\{ac,bd\}$, $Q=\{a,b\}$. An external $acx$ combines with $vad$,$vbe$. The old forbidden edges are $ad$,$be$,$ax$,$cx$. Missing/deleted $ac$,$ab$,$cd$,$ce$ exclude every pair except $ad$,$ax$, adjacent at $a$. Hence no external $ac$-page exists; symmetry handles every rim edge. There are no triangles within $L$, so each rim edge belongs only to its $v$-triangle, contradicting Section 3.
+For $L=K_{2,3}$ with sides $\{a,b\}$,$\{c,d,e\}$, take $M=\{ac,bd\}$, $Q=\{a,b\}$. An external $acx$ combines with $vad$,$vbe$. The old forbidden edges are $ad$,$be$,$ax$,$cx$. Missing/deleted $ac$,$ab$,$cd$,$ce$ exclude every pair except $ad$,$ax$, adjacent at $a$. The footprint has at most two edges in each block and is a star, so Lemma 2A excludes an external $ac$-page; symmetry handles every rim edge. There are no triangles within $L$, so each rim edge belongs only to its $v$-triangle, contradicting Section 3.
 
-For $L=C_5$ with rim $abcde$, take $M=\{ab,cd\}$, $Q=\{c,e\}$. An external $abx$ combines with $vbc$,$vde$. Old forbidden edges are $bc$,$de$,$ax$,$bx$. Deleted $ab$,$cd$ and absent $ad$,$bd$ leave only the possible pair $bc$,$bx$. Thus no rim edge has an external page, by symmetry. Again each rim edge belongs to just its $v$-triangle, contradiction.
+For $L=C_5$ with rim $abcde$, take $M=\{ab,cd\}$, $Q=\{c,e\}$. An external $abx$ combines with $vbc$,$vde$. Old forbidden edges are $bc$,$de$,$ax$,$bx$. Deleted $ab$,$cd$ and absent $ad$,$bd$ leave only the possible pair $bc$,$bx$. The footprint in each block is a star of size at most two. Lemma 2A excludes such an external page, and symmetry excludes all rim pages. Again each rim edge belongs to just its $v$-triangle, contradiction.
 
 ### 5.3 The remaining type $K_{2,2,1}$
 
-The local four-triangle/eight-edge witness is Puleo's [1, Proposition 5.1, proof Case 1]; the residual-equality and external-page compatibility extension is proved here.
+The local four-triangle/eight-edge witness is Puleo's [2, Proposition 5.1, proof Case 1]; the residual-equality and external-page compatibility extension is proved here.
 
 Write the missing link edges $ab$,$cd$ and the fifth link vertex $e$. The local graph $B$ on $W=\{v,a,b,c,d,e\}$ is $K_6$ minus $ab$,$cd$. Delete all $B$-edges to $K$. The four edge-disjoint triangles $vac$,$vbd$,$ade$,$bce$ append to every $K$-packing. All eight rim edges cover every lost triangle through $v$ and every other lost triangle. Hence equality forces $\nu(K)=h-4$ and $\tau(K)=2h-8$, and $K$ has equality blocks. Each block meets $W$ at most once, since $W$ is independent in $K$.
 
@@ -183,6 +198,8 @@ $$
 $$
 
 
+These four bad pairs form a perfect matching on the eight rim edges: every rim edge has exactly one bad partner. A third, distinct base is therefore good with both members of a bad pair.
+
 Every other pair $f$,$g$ is good and $B-\{f,g\}$ has three edge-disjoint triangles. The symmetries swapping $a$,$b$, swapping $c$,$d$ and exchanging the two two-vertex parts reduce all good pairs to four cases:
 
 | $f$,$g$ | Three triangles avoiding them |
@@ -190,23 +207,21 @@ Every other pair $f$,$g$ is good and $B-\{f,g\}$ has three edge-disjoint triangl
 | $ac$,$ad$ | $vae$; $bce$; $vbd$ |
 | $ae$,$ce$ | $bde$; $vad$; $vbc$ |
 | $ac$,$ae$ | $bde$; $vad$; $vbc$ |
-| $ac$,be | $ade$; $vbd$; $vce$ |
+| $ac$,$be$ | $ade$; $vbd$; $vce$ |
 
 The four cases are adjacent pairs of cycle edges, spokes at $e$ to different parts, an incident mixed pair, and a nonincident mixed pair. The remaining cycle pairs and spoke pairs are precisely those listed as bad. Thus the list covers every good pair without an appeal to enumeration.
 
 If $F$ has no edge-disjoint pair on good bases, then $\tau(F)\le 2$. To prove this, an intersecting $F$ already has a two-edge cover. Otherwise choose disjoint pages on bases $f$,$g$, which must be bad partners. Every page on a third base must intersect both, since a third base is good with each bad partner. Such intersections require a common external apex and bases meeting both $f$ and $g$.
 
-For adjacent bad partners $ae$,be (or $ce$,$de$), disjointness requires distinct apices, so no third base occurs; $f$,$g$ cover $F$. The same holds for disjoint partners with distinct apices. For disjoint partners $ac$,$bd$ with common apex $x$, a third base meeting both is only $ad$ or $bc$, and its page has apex $x$. Its presence forces every page on $ac$ or $bd$ to have apex $x$, or else it would form a good disjoint pair with that third page. The other possible third base likewise has apex $x$. Thus $F$ lies in the four pages at $x$ over the cycle $ac$,$cb$,$bd$,$da$, covered by $xa$,$xb$. If there is no third base, $ac$,$bd$ cover $F$. This proves the claim; symmetry handles $ad$,$bc$.
+For adjacent bad partners $ae$,$be$ (or $ce$,$de$), disjointness requires distinct apices, so no third base occurs; $f$,$g$ cover $F$. The same holds for disjoint partners with distinct apices. For disjoint partners $ac$,$bd$ with common apex $x$, a third base meeting both is only $ad$ or $bc$, and its page has apex $x$. Its presence forces every page on $ac$ or $bd$ to have apex $x$, or else it would form a good disjoint pair with that third page. The other possible third base likewise has apex $x$. Thus $F$ lies in the four pages at $x$ over the cycle $ac$,$cb$,$bd$,$da$, covered by $xa$,$xb$. If there is no third base, $ac$,$bd$ cover $F$. This proves the claim; symmetry handles $ad$,$bc$.
 
-Since $\tau(F)\ge 4$, $F$ has a disjoint pair on good bases $f$,$g$. Combine these two pages with the displayed local three-packing avoiding $f$,$g$. Each residual block meets $W$ at most once, and hence meets each external page in at most one old spoke. If it meets both, the forbidden spokes share its unique $W$ vertex. A $K_4$ avoids that star and a $K_5$ avoids the at most two edges. Maximum residual block packings thus append to all five selected triangles, yielding $h+1$, contradiction.
+Since $\tau(F)\ge 4$, $F$ has a disjoint pair on good bases $f$,$g$. Combine these two pages with the displayed local three-packing avoiding $f$,$g$. Each residual block meets $W$ at most once, and hence meets each external page in at most one old spoke. If it meets both, the forbidden spokes share its unique $W$ vertex. The local three-packing has no surviving edges because all $B$-edges were deleted. Thus the entire footprint is the indicated star of at most two spokes, including for $K_5$. Lemma 2A appends all five selected triangles, yielding $h+1$, contradiction.
 
 This completes exclusion of every 3-colorable five-vertex link component.
 
 ### 5.4 One additional non-3-colorable link
 
-The link consisting of $K_4$ on $a$,$b$,$c$,$d$ and a fifth vertex $x$ adjacent exactly to $a$,$b$ is also excluded. Take $M=\{cd,ax\}$ and $Q=\{a,b\}$; $L-Q$ is the single edge $cd$. Deleting the local $v$-spokes and $M$ forces equality blocks with packing $h-2$. The triangles $acd$,$vax$,$vbd$ are edge-disjoint and have old forbidden edges $ac$,$ad$,$bd$. A block cannot contain both $ac$,$ad$ or both $ac$,$bd$ because $cd$ is deleted; the only possible pair is $ad$,$bd$, adjacent at $d$. Maximum block packings avoid this pair and append the three triangles, giving $h+1$, contradiction.
-
-This local certificate belongs to the retained AI-developed proof record; no external human review is asserted.
+The link consisting of $K_4$ on $a$,$b$,$c$,$d$ and a fifth vertex $x$ adjacent exactly to $a$,$b$ is also excluded. Take $M=\{cd,ax\}$ and $Q=\{a,b\}$; $L-Q$ is the single edge $cd$. Deleting the local $v$-spokes and $M$ forces equality blocks with packing $h-2$. The triangles $acd$,$vax$,$vbd$ are edge-disjoint and have old forbidden edges $ac$,$ad$,$bd$. A block cannot contain both $ac$,$ad$ or both $ac$,$bd$ because $cd$ is deleted; the only possible pair is $ad$,$bd$, adjacent at $d$. The entire footprint is consequently a star with at most two edges. Lemma 2A appends the three triangles, giving $h+1$, contradiction.
 
 ### 5.5 The two remaining degree-five links
 
@@ -222,11 +237,11 @@ Thus a degree-five link not already excluded contains $K_4$. Its fifth vertex ha
 
 **Attribution and extension.** The following packing/cover accounting is Puleo's reducible-set framework (Definition 2.1, Lemma 2.2). His Proposition 5.2 is the antecedent for low-degree adjacency, including the precise balanced witnesses in Section 6.2. For the combined obstruction, only a strict reduction is an immediate contradiction. Every balanced case below explicitly supplies the additional equality argument.
 
-We use a general reduction only with its actual witnesses. For a vertex set $U$, let $P$ be $r$ edge-disjoint triangles and $X$ an edge set meeting every triangle incident to $U$ and containing every $P$-edge with neither endpoint in $U$. In $K=G-U-X$, every $K$-packing can be appended by $P$, and every $K$-cover plus $X$ covers $G$. Thus $|X|<2r$ is impossible in a minimal $S$ obstruction. If $|X|=2r$, equality forces $\nu(K)=h-r$, $\tau(K)=2(h-r)$, and the residual clique-block classification.
+We use the reducible-set instance of Lemma 3A with the actual packing and cover witnesses displayed in each case. A strict cover bound contradicts that lemma; a balanced bound yields its exact residual equality and classification.
 
-The singleton matching version takes a matching $M$ in a link and a vertex set $Q$ such that the link minus $Q$ is a subgraph of $M$. Delete the central vertex and $M$. The hub triangles on $M$ give $|M|$ packed triangles, and $M$ plus the spokes to $Q$ give a cover increment $|M|+|Q|$. No assumption that $Q$ and $M$ are disjoint is needed.
+The singleton matching version takes a matching $M$ in a link and a vertex set $Q$ such that the link minus $Q$ is a subgraph of $M$. Delete the central vertex and $M$. The hub triangles on $M$ give $|M|$ packed triangles, and $M$ plus the spokes to $Q$ give a cover increment $|M|+|Q|$. The set $Q$ may contain endpoints of edges in $M$.
 
-**Residual-support observation.** We will repeatedly exclude a residual containing $K_5$ minus one edge or minus two independent edges. In each graph all remaining edges lie in one triangle component with five vertices. It cannot lie in a $K_4$ block; it cannot lie in a $K_5$ block because the specified missing edge was deleted from the whole residual. This can also be seen by listing their triangles or starting with two overlapping $K_4$ copies in the one-edge case.
+**Residual-support observation.** In each application, the residual graph $K$ has a five-vertex set $R$ such that $K[R]$ is $K_5$ with one edge or two independent edges deleted. These deleted pairs are nonedges of $K$. In each such induced graph all remaining edges lie in one triangle component with five vertices. It cannot lie in a $K_4$ block; it cannot lie in a $K_5$ block because the specified missing edge was deleted from the whole residual. This can also be seen by listing their triangles or starting with two overlapping $K_4$ copies in the one-edge case.
 
 ### 6.1 Dominating neighbors of degree five or six
 
@@ -263,7 +278,7 @@ uvw_1, upw_2, vqw_3, pw_1w_3, qw_1w_2
 $$
 
 
-are edge-disjoint. Their surviving edges in $K$ are exactly $pw_1$,$pw_2$,$qw_1$,$qw_3$. A residual block meets $W$ at most once; it therefore sees at most two of these edges, and any pair shares that $W$ vertex. Block avoidance lets us append all five to a maximum $K$-packing, contradiction. Hence the degree-five vertices form an independent set.
+are edge-disjoint. Their surviving edges in $K$ are exactly $pw_1$,$pw_2$,$qw_1$,$qw_3$. A residual block meets $W$ at most once, so its whole surviving footprint has at most two edges sharing that vertex. Lemma 2A appends all five triangles, contradiction. Hence the degree-five vertices form an independent set.
 
 ### 6.3 A nondominating degree-six neighbor
 
@@ -271,9 +286,9 @@ Suppose $v$ has degree 5 with link $K_5-ut$, and $u$ is one of the missing-edge 
 
 If $pq$ is present, in the link at $u$ take $M=\{pq,va,bc\}$ and $Q=W$. Outside $Q$ the only link edge is $pq$. This balanced three/six singleton reduction leaves that $K_5$ minus the two independent edges $va$,$bc$, impossible for residual equality blocks.
 
-If $pq$ is absent, triangle codegree at least 2 for $up$ and $uq$ implies that $p$,$q$ each have at least two neighbors in $W$. Choose distinct a in $N(p)\cap W$ and $b$ in $N(q)\cap W$, with $c$ the third vertex. Take $M=\{pa,qb,vc\}$ and $Q=W$. The link outside $Q$ is independent. This balanced three/six reduction leaves the $K_5$ with only $vc$ deleted, again impossible.
+If $pq$ is absent, triangle codegree at least 2 for $up$ and $uq$ implies that $p$,$q$ each have at least two neighbors in $W$. Choose distinct $a\in N(p)\cap W$ and $b\in N(q)\cap W$, with $c$ the third vertex. Take $M=\{pa,qb,vc\}$ and $Q=W$. The link outside $Q$ is independent. This balanced three/six reduction leaves the $K_5$ with only $vc$ deleted, again impossible.
 
-Together with minimum degree 5,6.1 and Section 6.2, this proves:
+Together with the minimum-degree bound in Lemma 5 and Sections 6.1–6.2, this proves:
 
 **Low-neighbor restriction.** Every neighbor of a degree-five vertex has degree at least 7.
 
@@ -283,7 +298,7 @@ Together with minimum degree 5,6.1 and Section 6.2, this proves:
 
 *Proof.*
 
-**Attribution and extension.** Botler–Fernandes–Gutierrez Lemma 3.3 proves the corresponding implication in irreducible robust graphs: degrees at most six and a neighborhood union of size at most seven force both degrees to be five, an intersection of size three, and both links $K_5$. For two degree-five vertices, an intersection of at least three meets that union hypothesis. Its balanced reductions cannot simply exclude a minimal combined-$S$ failure. The residual-block arguments in Sections 7.2–7.4 discharge that extra requirement; this is the precise distinction between the predecessor and the version needed here.
+**Attribution and extension.** Botler–Fernandes–Gutiérrez Lemma 3.3 proves the corresponding implication in irreducible robust graphs: degrees at most six and a neighborhood union of size at most seven force both degrees to be five, an intersection of size three, and both links $K_5$. For two degree-five vertices, an intersection of at least three meets that union hypothesis. Its balanced reductions cannot simply exclude a minimal combined-$S$ failure. The residual-block arguments in Sections 7.2–7.4 discharge that extra requirement; this is the precise distinction between the predecessor and the version needed here.
 
 Write $C=N(x)\cap N(y)$. The two links are $K_5$ or $K_5$ minus one edge by Section 5. No assumption is made about other degrees.
 
@@ -303,7 +318,7 @@ Write $W=C$ and let $p$,$q$ be the respective unique neighbors outside the commo
 
 Take $X=E(W)\cup \{xp,yq\}$. It meets all triangles at $x$,$y$ and contains the noncentral edges of this four-packing. If $W$ has five edges this is strict, with $|X|=7$.
 
-If $W=K_4$, the reduction is balanced four/eight and the residual has equality blocks with $W$ independent. The vertex $p$ has at least three neighbors in $W$, because the link at $x$ misses at most one edge. Thus there is a page $p$ $f$ on some $W$-edge $f$. The graph on $\{x,y\}\cup W$ is $K_6-xy$. Since $xy$ and $f$ are disjoint, it has a four-packing avoiding $f$. Append the page and compatible residual block packings, giving $\nu(G)+1$. Contradiction.
+If $W=K_4$, the reduction is balanced four/eight and the residual has equality blocks with $W$ independent. The vertex $p$ has at least three neighbors in $W$, because the link at $x$ misses at most one edge. Thus there is a page $p$ $f$ on some $W$-edge $f$. The graph on $\{x,y\}\cup W$ is $K_6-xy$. Since $xy$ and $f$ are disjoint, it has a four-packing avoiding $f$. The local four-packing has no surviving residual edges: all its edges are incident with $x,y$ or lie in $W$. A residual block meets the independent set $W$ at most once, so the page contributes at most one surviving spoke. Thus the whole footprint is a star of size at most one, also below the $K_5$ two-edge bound. Lemma 2A appends the page and four-packing, giving $\nu(G)+1$, a contradiction.
 
 ### 7.3 Three common neighbors, a missing edge inside $C$
 
@@ -317,7 +332,7 @@ The six triangles are disjoint and $|X|=12$. It covers every triangle incident t
 
 Now use the seven edge-disjoint triangles
 $xpa$, $qab$, $pbc$, $xqc$, $yar$, $ysb$, $rsc$.
-Their edges surviving in the residual are exactly $pb$,$pc$,$sb$,$rs$. Every pair of these except $pb$,$sb$ requires an absent residual edge to be in a common clique block: $pb$/$pc$ requires $bc$, $sb$/$rs$ requires $br$, $pb$/$rs$ requires $br$, $pc$/$sb$ requires $bc$, and $pc$/$rs$ requires $cr$. Those edges were deleted. Hence each block contains at most two forbidden edges and the only possible pair shares $b$. Standard block avoidance appends the seven-packing, contradiction.
+Their edges surviving in the residual are exactly $pb$,$pc$,$sb$,$rs$. Every pair of these except $pb$,$sb$ requires an absent residual edge to be in a common clique block: $pb$/$pc$ requires $bc$, $sb$/$rs$ requires $br$, $pb$/$rs$ requires $br$, $pc$/$sb$ requires $bc$, and $pc$/$rs$ requires $cr$. Those edges were deleted. Hence each block contains at most two forbidden edges and the only possible pair shares $b$. The entire footprint therefore meets both hypotheses of Lemma 2A, which appends the seven-packing, contradiction.
 
 ### 7.4 Three common neighbors, a missing edge outside $C$
 
@@ -333,7 +348,7 @@ This is a balanced six/twelve reduction deleting $x$,$y$. The nine edges of the 
 
 The residual has equality blocks and $N(y)$ is independent in it. Replace the two $x$-triangles by three triangles
 $pac$, $xpb$, $xqa$.
-Together with $P_0$ they form a seven-packing. Its surviving edges are $pa$,$pc$,$qa$: $pb$ and $ac$ were deleted. A residual block meets $N(y)$ at most once, so its only possible two-edge footprint is $pa$,$qa$, sharing $a$. Avoidance gives the contradiction.
+Together with $P_0$ they form a seven-packing. Its surviving edges are $pa$,$pc$,$qa$: $pb$ and $ac$ were deleted. A residual block meets $N(y)$ at most once, so the whole footprint has at most two edges, with the only possible pair $pa$,$qa$, sharing $a$. Lemma 2A gives the contradiction.
 
 All cases with a near-clique link are excluded, proving Proposition $O$.
 
@@ -347,11 +362,11 @@ We now exclude the minimal obstruction in the subgraph-closed class of all 5-deg
 
 Let $G$ be a minimal $S$ failure among 5-degenerate graphs. Let $L$ be its set of degree-five vertices. It is nonempty by degeneracy and Section 4. Section 6 makes $L$ independent and gives degree at least 7 for all its neighbors.
 
-The subgraph $G-L$ is nonempty and 5-degenerate. Choose $u$ in it with at most five neighbors in $G-L$. Set $A=N(u)-L$, $d=d(u)$, $r=|N(u)\cap L|$. Then $|A|\le 5$ and $r\ge d-5$. Since $u$ is outside $L$ and $\delta(G)\ge 5$, $d\ge 6$, so $r\ge 1$. Thus $u$ does have a neighbor in $L$, and the low-neighbor restriction gives $d\ge 7$ and $r\ge 2$.
+The subgraph $G-L$ is nonempty and 5-degenerate. Choose $u$ in it with at most five neighbors in $G-L$. Set $A=N(u)-L$, $D=d(u)$, $r=|N(u)\cap L|$. Then $|A|\le 5$ and $r\ge D-5$. Since $u$ is outside $L$ and $\delta(G)\ge 5$, $D\ge 6$, so $r\ge 1$. Thus $u$ does have a neighbor in $L$, and the low-neighbor restriction gives $D\ge 7$ and $r\ge 2$.
 
-For each $v$ in $N(u)\cap L$, put $A_v=N(v)\cap A$. If $u$ dominates $v$, $|A_v|=4$; otherwise $|A_v|=3$, and $v$ has one further neighbor $p_v$ outside $N[u]$. These descriptions use the precise $K_5$/$K_5$-minus-edge links. For distinct low vertices $v$,$w$, the sets $A_v$,$A_w$ intersect in at most one vertex. Indeed two common A vertices together with $u$ give at least three common neighbors. Proposition $O$ excludes this if either link is a near-clique. If both links are cliques, both A sets have size four in an at-most-five-element set, so their intersection has size at least three and there are at least four common neighbors, again excluded.
+For each $v$ in $N(u)\cap L$, put $A_v=N(v)\cap A$. If $u$ dominates $v$, $|A_v|=4$; otherwise $|A_v|=3$, and $v$ has one further neighbor $p_v$ outside $N[u]$. These descriptions use the precise $K_5$/$K_5$-minus-edge links. For distinct low vertices $v$,$w$, the sets $A_v$,$A_w$ intersect in at most one vertex. Indeed two common $A$ vertices together with $u$ give at least three common neighbors. Proposition $O$ excludes this if either link is a near-clique. If both links are cliques, both $A$ sets have size four in an at-most-five-element set, so their intersection has size at least three and there are at least four common neighbors, again excluded.
 
-There can be at most two subsets of an at-most-five-element set, each of size at least three, whose pairwise intersections have size at most one. To see this, two must each have size three, meet in one point and exhaust five points. Any third three-set would have total intersection size at least three with their union, whereas meeting each in at most one allows at most two. Thus $r=2$, $d=7$, $|A|=5$, and both A sets are triples meeting in exactly one vertex.
+There can be at most two subsets of an at-most-five-element set, each of size at least three, whose pairwise intersections have size at most one. To see this, two must each have size three, meet in one point and exhaust five points. Any third three-set would have total intersection size at least three with their union, whereas meeting each in at most one allows at most two. Thus $r=2$, $D=7$, $|A|=5$, and both $A$ sets are triples meeting in exactly one vertex.
 
 Label
 $A=\{a,b,c,d,e\}$,
@@ -366,14 +381,18 @@ Suppose one of the four edges joining $\{b,c\}$ to $\{d,e\}$ is absent. Relabel 
 
 In the link at $u$, choose $M=\{vc,we,ab\}$, $Q=\{a,b,d\}$. Outside $Q$ the vertices are $v$,$c$,$w$,$e$, whose only edges are $vc$ and $we$: $vw$,$ve$,$wc$ are absent by the displayed neighborhoods and $ce$ is absent by assumption. Hence this is a balanced singleton three/six reduction.
 
-The residual contains $K_5$ on $\{v,p,a,b,c\}$ with $vc$ and $ab$ deleted. The other deleted edge $we$ is outside this vertex set because $p$ lies outside $N[u]$. This is impossible for the equality block classification. Thus all four cross edges exist and $A$ is $K_5$.
+The residual graph induced on $\{v,p,a,b,c\}$ is $K_5$ with $vc$ and $ab$ deleted; both pairs are nonedges of that residual. The other deleted edge $we$ is outside this vertex set because $p$ lies outside $N[u]$. This is impossible for the equality block classification. Thus all four cross edges exist and $A$ is $K_5$.
 
 ### 8.2 The final eight-vertex graph $B$
 
 Let $B$ be the graph induced on $\{u,v,w,a,b,c,d,e\}$. It has $A=K_5$, $u$ joined to all other seven vertices, $v$ joined within $B$ precisely to $u$,$a$,$b$,$c$, and $w$ joined within $B$ precisely to $u$,$a$,$d$,$e$. The only further neighbors of $v$,$w$ in $G$ are $p$,$q$ respectively.
 
+![Figure 1. The final eight-vertex core B.](final-core.svg)
+
+**Figure 1.** Exactly the 23 edges of $B$ are drawn. Gray edges give $A=K_5$, dashed red edges join $u$ to the other seven vertices, and teal edges give the two arms at $v,w$. Crossings are not additional vertices. The drawing excludes outside vertices: in $G$, $v,w$ also have the respective neighbors $p,q$, and vertices of $A$ may have unrestricted outside attachments. The displayed local graph does not bound those attachments.
+
 A seven-packing of $B$ avoiding $ab$ is
-$vua$, $vbc$, $wud$, wae, $uce$, $acd$, $bde$.
+$vua$, $vbc$, $wud$, $wae$, $uce$, $acd$, $bde$.
 The two unused $B$ edges are $ub$,$ab$. By swaps inside $\{b,c\}$, inside $\{d,e\}$, and exchange of the two arms together with $v$,$w$, there is a seven-packing avoiding each $A$-edge incident with $a$.
 
 **Pair-avoidance claim.** For any two distinct $A$-edges $f$,$g$, $B-\{f,g\}$ has six edge-disjoint triangles.
@@ -382,10 +401,10 @@ If one edge is incident to $a$, take a seven-packing avoiding it and discard the
 
 | Avoided edges / type | Six edge-disjoint triangles |
 | --- | --- |
-| $bc$,$de$: two arm edges | $vub$, $vac$, $wud$, wae, $uce$, $abd$ |
+| $bc$,$de$: two arm edges | $vub$, $vac$, $wud$, $wae$, $uce$, $abd$ |
 | $bc$,$bd$: arm edge and cross edge | $vub$, $vac$, $wue$, $wad$, $ucd$, $abe$ |
 | $bd$,$ce$: disjoint cross edges | $vub$, $vac$, $wue$, $wad$, $ucd$, $abe$ |
-| $bd$,be: adjacent cross edges | $vua$, $vbc$, $wud$, wae, $uce$, $acd$ |
+| $bd$,$be$: adjacent cross edges | $vua$, $vbc$, $wud$, $wae$, $uce$, $acd$ |
 
 These four cases exhaust pairs: an arm edge and any cross edge meet; two cross edges either meet or are disjoint. Every displayed triangle uses only $B$ edges and the triangles in each row are pairwise edge-disjoint. Thus this is an ordinary finite certificate with an explicit symmetry reduction, not an appeal to an unperformed enumeration.
 
@@ -397,7 +416,7 @@ cover every triangle lost in the deletion. Triangles at $u$ are inside $B$; tria
 $\nu(K)=\nu(G)-7$, $\tau(K)=2\nu(K)$,
 and $K$ has $K_4$/$K_5$ triangle components. Since $A$ is independent in $K$, each block meets A at most once.
 
-Let $F$ be the family of all triangles with an $A$-edge as base and apex outside $B$. If $F$ contains two edge-disjoint members on bases $f$,$g$, use a six-packing of $B$ avoiding $f$,$g$ and append those two pages. Each residual block has at most two old forbidden edges, sharing its unique A vertex. Maximum residual block packings avoid them. This constructs $\nu(K)+8=\nu(G)+1$ triangles, contradiction.
+Let $F$ be the family of all triangles with an $A$-edge as base and apex outside $B$. If $F$ contains two edge-disjoint members on bases $f$,$g$, use a six-packing of $B$ avoiding $f$,$g$ and append those two pages. The local six-packing has no edges in $K$. Each page contributes at most one surviving spoke to a residual block, because its two base endpoints lie in the independent set $A$. Thus the whole footprint is a star at the block's unique $A$ vertex and has at most two edges, including for a $K_5$ block. Lemma 2A applies. This constructs $\nu(K)+8=\nu(G)+1$ triangles, contradiction.
 
 Thus $F$ is pairwise edge-intersecting and has a cover of size at most two by the elementary intersecting-triangle lemma.
 
@@ -426,75 +445,26 @@ Conversely, packing and covering numbers add over triangle components because th
 
 This proves the main theorem by ordinary finite graph arguments. The public finite-certificate checkers independently verify displayed local certificates and the supplied small-link coverage; they do not enumerate arbitrary external attachments and are not substitutes for the induction or page arguments above. The formal-verification account appears in Section 10; the ordinary argument and finite checks have distinct evidentiary roles. No external human endorsement or established historical priority is claimed.
 
-The theorem extends the TUZA-04 result by removing its forbidden-$K_6$-minus-edge condition entirely. It does not prove general Tuza, the global $K_4$/$K_5$ equality conjecture, unrestricted two-triangle restoration, stable-restoration strictness, OCT-five, or the fixed-$c<3$ density application. Those graph classes need not be 5-degenerate. Each becomes an immediate application only when the resulting graph is independently 5-degenerate.
+For an individual graph independently known to be 5-degenerate, this theorem supplies Tuza's inequality and the stated equality characterization. No unrestricted restoration, strictness, OCT-five, or density-class theorem is established here. Here OCT-five means the class of graphs made bipartite by deleting at most five vertices; no assertion for that entire class follows from the degeneracy theorem.
 
 
-## 10. Formal verification, coverage, and limitations
+## 10. Formal verification
 
-The exact public target is [`Tuza06.five_degenerate_combined`](../../problems/TUZA-06/lean/Tuza06/FiveDegenerate.lean):
+The exact combined result is proved by [`Tuza06.five_degenerate_combined`](../../problems/TUZA-06/lean/Tuza06/FiveDegenerate.lean). Its only substantive hypothesis is five-degeneracy on an arbitrary finite simple graph. The formal definitions use the full graph triangle family, edge-disjoint packing, graph-edge covering, induced-subset degeneracy and literal shared-edge component supports. The component/block equivalence and the equality converse are proved. Unrelated conditional interfaces in reused files are not premises of the main theorem.
 
-```lean
-@Tuza06.five_degenerate_combined :
-  ∀ {V : Type u} [Fintype V] [DecidableEq V] {G : SimpleGraph V},
-    Tuza06.Degenerate G 5 →
-      Tuza.tau (Tuza.triangles G) ≤ 2 * Tuza.nu (Tuza.triangles G) ∧
-      (Tuza.tau (Tuza.triangles G) = 2 * Tuza.nu (Tuza.triangles G) ↔
-        Tuza06.ComponentCliques G)
-```
-
-The universe binder above is displayed using the conventional name `u`; generated printer names may differ. `triangles G` is the full `G.cliqueFinset 3`. `nu` counts edge-disjoint triangle families. `tau` uses actual two-vertex edge covers; `Tuza.graph_min_cover` proves attainment by graph edges. `Degenerate` uses the usual induced-subset definition. `ComponentCliques` uses reflexive transitive closure of shared-edge triangle adjacency and literal edge support. The theorem has no unproved external mathematical inputs. Its only substantive hypothesis is `Degenerate G 5`; the ambient finite-type and decidable-equality instances are shown explicitly.
-
-The frozen target `CombinedStatement G` is proved by `five_degenerate_statement`. Definition-stage comments in the immutable `Statement.lean` record the earlier target, before completion; the final theorem and [current proof status](../../problems/TUZA-06/PROOF_STATUS.md) supersede those historical comments. The four reused `Tuza` modules contain unrelated conditional interfaces, but their unproved mathematical inputs are not premises of this theorem.
-
-| Paper result or step | Actual Lean declaration(s), in namespace `Tuza06` unless stated otherwise |
-|---|---|
-| Theorem 1, both conclusions | `five_degenerate_combined` |
-| Separate inequality and equality | `five_degenerate_inequality`; `five_degenerate_equality` |
-| Frozen target and block equivalence | `five_degenerate_statement`; `componentCliques_iff_decomposition` |
-| Equality converse | `componentCliques_equality` |
-| Lemma 2, clique parameters and avoidance | `k4_parameters`; `k5_parameters`; `k5_avoid_two`; `Tuza.k4_face_avoiding` |
-| Intersecting triangle families | `Tuza.intersecting_cover`; `Tuza.intersecting_k4_structure` |
-| Lemma 3, minimality and criticality | `exists_minimal_obstruction`; `minimal_tight_critical` |
-| Lemma 4, every edge in two triangles | `minimal_edge_codegree` |
-| Lemma 5, closed link size | `minimal_closed_link_size` |
-| Lemma 6, all degree-five links | `minimal_degree_five_configuration` |
-| Lemma 7, low adjacency and high neighbors | `minimal_degree_five_independent`; `minimal_degree_five_neighbors_high` |
-| Proposition 8, complete overlap restrictions | `minimal_degree_five_common_le_three`; `minimal_three_common_cliques` |
-| Lemma 9, second degeneracy and labels | `minimal_two_arm_peeling`; `minimal_final_arm_data` |
-| Actual final configuration | `final_configuration_of_arm_data` |
-| Arbitrary pages and strict final cover | `minimal_no_final_configuration` |
-| Auxiliary four-degenerate combined theorem | `four_degenerate_combined` |
-
-The prescribed-edge minimum-cover observation in Lemma 2 is an elementary ordinary detail used in Section 4.4. It is not separately exported as a general $K_5$ cover declaration. The formal development instead uses the unified small-link argument in Appendix B; the complete formal theorem includes that route.
-
-The preserved source freeze covers **280 mathematical modules**, all in the main entry point's import closure. The source of `FiveDegenerate.lean` has SHA-256 `978ebe0431fde9ecf9598538c6c01e06bcd9ee363bd5ee03a53b76c43143fadf`. All 280 files are preserved byte-for-byte. Lean **4.33.1** and Mathlib revision `0df444a360eaa60ab8c11dca51a86af692955474`, together with all nine package revisions, are pinned. Complete theorem types and transitive-axiom audits cover **618 public theorem declarations**; the only reported axioms are `propext`, `Classical.choice`, and `Quot.sound`. There is no `sorry`, custom mathematical axiom, hidden external theorem premise, or native proof shortcut in the mathematical closure.
-
-The frozen TUZA-06 verification rebuilt every mathematical module in a fresh project workspace and replayed all **280 fresh module objects** serially through the standard Lean kernel, including private proof constants. Publication verification separately rebuilds and replays the exact public source tree; its outcome, commands and evidence are recorded in the [portable reproduction record](../../problems/TUZA-06/REPRODUCTION.md). Reused compiled dependencies were separately pinned and checked. This is **not a cold Mathlib rebuild**. The replay adapter retains the upstream LeanChecker replay routine; its unsafe IO/runtime-memory wrapper is outside the mathematical import closure. Replay is additional checking by the same standard Lean kernel, **not an independently implemented kernel**. Upstream source provenance and license accompany the tool.
-
-The independent Python checks validate supplied local finite certificates, five-link coverage and overlap witnesses. They do not enumerate arbitrary outside attachments and are not premises of the formal theorem. The symbolic page and compatibility arguments in Section 8 discharge that unbounded obligation. Neither kernel checking nor internal review certifies novelty, human specialist endorsement, or broader conjectures.
-
-The public [research archive](../../problems/TUZA-06/README.md) supplies exact Lean sources, full public proof records, relevant finite certificates/checkers, attribution and provenance, selected reviews, historical TUZA-04/05 proofs and limitations, source-to-publication mapping, and reproduction commands. These records distinguish earlier partial status from the completed theorem. Operational instructions and private review archives are excluded.
+The existing verification uses Lean 4.33.1, pinned Mathlib and eight other pinned packages. It rebuilt all 280 mathematical modules, audited 618 public theorem types and transitive axiom closures, and replayed all 280 fresh local module objects. Only `propext`, `Classical.choice` and `Quot.sound` occur. Compiled pinned dependencies were reused, and replay used the same standard Lean kernel; it was neither a cold Mathlib rebuild nor an independent kernel implementation. Appendix C preserves the exact target, declaration coverage, source identities and execution provenance; the [public verification and reproduction record](../../problems/TUZA-06/REPRODUCTION.md) gives the commands and limits. This editorial revision does not repeat those Lean runs.
 
 ## Appendix A. A short credited proof of the inequality
 
-### $A$.1 Published inputs and exact scope
+### A.1 Published inputs and exact scope
 
-Puleo, [1], Definition 2.1 and Lemma 2.2, supplies the reducible-set framework. Lemma 2.6 gives robustness for a minimal inequality counterexample. In a robust graph with no reducible set, Lemma 2.7(a),($b$), equivalently Propositions 5.1 and 5.2, implies that degree-five links are $K_5$ or $K_5$ minus one edge, and vertices of degree at most six form an independent set. Here robustness means that every component of every vertex link has at least five vertices. Complements in Proposition 5.1 are essential; plain PDF text extraction can lose their overbars.
+Puleo, [2], Definition 2.1 and Lemma 2.2, supplies the reducible-set framework. Lemma 2.6 gives robustness for a minimal inequality counterexample. In a robust graph with no reducible set, Lemma 2.7(a),($b$), equivalently Propositions 5.1 and 5.2, implies that degree-five links are $K_5$ or $K_5$ minus one edge, and vertices of degree at most six form an independent set. Here robustness means that every component of every vertex link has at least five vertices. The complement condition in Proposition 5.1 is part of its hypothesis.
 
-Botler–Fernandes–Gutierrez, [2], Lemma 3.3, applies to irreducible robust graphs. For two degree-five vertices with at least three common neighbors it forces exactly three common neighbors and both links $K_5$. This is the published antecedent used below. Their theorem concerns treewidth; it is this local lemma that is used here.
+Botler–Fernandes–Gutiérrez, [3], Lemma 3.3, applies to irreducible robust graphs. For two degree-five vertices with at least three common neighbors it forces exactly three common neighbors and both links $K_5$. This is the published antecedent used below. Their theorem concerns treewidth; it is this local lemma that is used here.
 
-### $A$.2 Reduction accounting
+### A.2 Reduction accounting
 
-A nonempty vertex set $U$ is reducible if there are $r$ edge-disjoint triangles $P$ and a graph-edge set $X$, with $|X| \le  2r$, such that $X$ hits every triangle incident with $U$ and contains all $P$-edges with both ends outside $U$. Put $K$=($G-X$)-$U$. Any packing of $K$ combines with $P$, and any $K$-cover combines with $X$ to cover $G$. Therefore
-
-$$
-\nu(G) \ge  \nu(K)+r,
-$$
-$$
-\tau(G) \le  \tau(K)+|X| \le  2\nu(K)+2r \le  2\nu(G)
-$$
-
-whenever $\tau(K) \le  2\nu(K)$. The balance $|X|=2r$ is sufficient; no strict saving is required for the inequality.
+Use the reducible-set witnesses $U,P,X$ specified after Lemma 3A. Its packing and cover inequalities give $\nu(K)+r\le\nu(G)$ and $\tau(G)\le\tau(K)+|X|$. Therefore $\tau(K)\le2\nu(K)$ and $|X|\le2r$ already imply $\tau(G)\le2\nu(G)$. Equality of the cover bound is sufficient for this inequality-only induction; the residual equality conclusion of Lemma 3A is needed only for the combined-obstruction proof.
 
 Assume for a contradiction that a 5-degenerate counterexample exists. Choose one with the fewest edges, discard isolated vertices, and, if necessary, minimize the number of vertices among equal edge counts. Every proper subgraph satisfies the inequality: it is still 5-degenerate. Hence the published robustness lemma applies, and no reducible vertex set exists. Denote this graph by $G$. Robustness gives minimum degree at least five. The published low-degree facts above give:
 
@@ -504,21 +474,21 @@ Assume for a contradiction that a 5-degenerate counterexample exists. Choose one
 
 These are uses of inequality irreducibility. They are not asserted for a combined equality obstruction without further proof.
 
-### $A$.3 Degeneracy peeling
+### A.3 Degeneracy peeling
 
 Let $L$ be the set of degree-five vertices. It is nonempty by 5-degeneracy and minimum degree five. It is independent. $G-L$ is nonempty because a vertex in $L$ has neighbors outside $L$. Choose $u$ in $G-L$ with degree at most five in $G-L$, and set
 
 $$
-A=N(u)-L,  r=|N(u)\cap L|,  d=d_G(u)
+A=N(u)-L,  r=|N(u)\cap L|,  D=d_G(u)
 $$
 
-Then $|A|\le 5$, $r=d-|A|\ge d-5$, and $d\ge 6$ because $u$ is outside $L$. Thus $r\ge 1$. A neighbor in $L$ forces $d\ge 7$, so $r\ge 2$. The second use of degeneracy bounds degree in $G-L$, not degree in $G$.
+Then $|A|\le 5$, $r=D-|A|\ge D-5$, and $D\ge 6$ because $u$ is outside $L$. Thus $r\ge 1$. A neighbor in $L$ forces $D\ge 7$, so $r\ge 2$. The second use of degeneracy bounds degree in $G-L$, not degree in $G$.
 
 For each $v$ in $N(u)\cap L$, let $A_v=N(v)\cap A$. Because $L$ is independent, every neighbor of $v$ other than $u$ lies outside $L$. If the link at $v$ is a clique, $u$ dominates $v$ and $|A_v|=4$. If that link misses an edge not incident with $u$, the same conclusion holds. If its missing edge is $up_v$, then $|A_v|=3$ and $p_v$ is the unique neighbor of $v$ outside $N[u]$. These exhaust the cases. In all cases $|A_v|\ge 3$.
 
 For distinct low neighbors $v$,$w$ of $u$, suppose $|A_v\cap A_w|\ge 2$. The common neighbors of $v$,$w$ include $u$ and those two vertices, so the published overlap lemma makes both links cliques and gives exactly three common neighbors. But then $A_v$ and $A_w$ are both four-subsets of the at-most-five-element set $A$, so they meet in at least three vertices. Together with $u$ this gives at least four common neighbors, a contradiction. Hence the sets $A_v$ have pairwise intersections at most one.
 
-There are at most two subsets of a set of size at most five, each of size at least three and pairwise intersecting in at most one element. Indeed, any two must be three-sets meeting in one point and covering all five points; a third three-set cannot meet each of the first two in at most one point. Since $r\ge 2$, it follows that $r=2$, $d=7$, $|A|=5$, and the two sets $A_v$,$A_w$ are triples meeting in one point.
+There are at most two subsets of a set of size at most five, each of size at least three and pairwise intersecting in at most one element. Indeed, any two must be three-sets meeting in one point and covering all five points; a third three-set cannot meet each of the first two in at most one point. Since $r\ge 2$, it follows that $r=2$, $D=7$, $|A|=5$, and the two sets $A_v$,$A_w$ are triples meeting in one point.
 
 Label
 
@@ -535,9 +505,9 @@ $$
 N(u)=\{v,w,a,b,c,d,e\}
 $$
 
-The overloaded letter $d$ in this display is now a vertex label; the degree of $u$ is seven. Both low links are near-cliques, missing $up$ and $uq$ respectively. The vertices $p$,$q$ lie outside $N[u]$. They are distinct, because otherwise $v$,$w$ would have common neighbors $u$,$a$,$p$ while their links were not cliques. The sets $\{a,b,c\}$ and $\{a,d,e\}$ are triangles, and $p$ joins $a$,$b$,$c$ while $q$ joins $a$,$d$,$e$.
+Both low links are near-cliques, missing $up$ and $uq$ respectively. The vertices $p$,$q$ lie outside $N[u]$. They are distinct, because otherwise $v$,$w$ would have common neighbors $u$,$a$,$p$ while their links were not cliques. The sets $\{a,b,c\}$ and $\{a,d,e\}$ are triangles, and $p$ joins $a$,$b$,$c$ while $q$ joins $a$,$d$,$e$.
 
-### $A$.4 The final reduction
+### A.4 The final reduction
 
 If a cross edge between $\{b,c\}$ and $\{d,e\}$ is missing, swap labels within the two pairs so that $ce$ is absent. In the link at $u$ use the matching
 
@@ -581,20 +551,80 @@ The formal development unifies the diamond and four-cycle arguments of Sections 
 
 Let $C=\{a,b,c,d\}$ be closed in the link at $v$, with $ab$ absent and $ac$,$ad$,$bc$,$bd$ present; $cd$ is unrestricted. Delete only the four $v$-spokes into $C$ and rim edges $ac$,$bd$. The two triangles $vac$,$vbd$ append to every residual packing, and $ac$,$bd$,$vc$,$vd$ cover every lost triangle. Balanced two/four accounting gives residual equality blocks and the exact increment $\nu(G)=\nu(H)+2$. Closure restricts only link edges; arbitrary external pages remain allowed at this point.
 
-For an external $ac$-page with apex $x$, combine that page with $vad$,$vbc$. Their surviving footprint is $ad$,$bc$,$xa$,$xc$. Since $ac$ is absent in $H$, the two terminals $a$,$c$ are independent; each residual clique meets at most one terminal and sees at most two forbidden incident edges. Maximum $K_4$/$K_5$ block packings avoid this footprint, giving $\nu(H)+3$, a contradiction. The $bd$ case is the same explicit relabeling with terminals $b$,$d$. Thus every lost triangle using $ac$ or $bd$ is local. The remaining lost hub triangles are covered by $vc$,$vd$. Every rim triangle must contain $c$,$d$ because $ab$ is absent. If $cd$ exists, adding $cd$ yields a three-edge lost-triangle cover; if $cd$ is absent, there is no rim triangle and $vc$,$vd$ suffice. Either contradicts the exact four-edge increment. This excludes both local link types.
+For an external $ac$-page with apex $x$, combine that page with $vad$,$vbc$. Their surviving footprint is $ad$,$bc$,$xa$,$xc$. Since $ac$ is absent in $H$, the two terminals $a$,$c$ are independent; each residual clique meets at most one terminal and sees at most two forbidden incident edges. The whole footprint is a star of size at most two, so Lemma 2A gives $\nu(H)+3$, a contradiction. The $bd$ case is the same explicit relabeling with terminals $b$,$d$. Thus every lost triangle using $ac$ or $bd$ is local. The remaining lost hub triangles are covered by $vc$,$vd$. Every rim triangle must contain $c$,$d$ because $ab$ is absent. If $cd$ exists, adding $cd$ yields a three-edge lost-triangle cover; if $cd$ is absent, there is no rim triangle and $vc$,$vd$ suffice. Either contradicts the exact four-edge increment. This excludes both local link types.
+
+## Appendix C. Declaration coverage and verification supplement
+
+The exact public target is [`Tuza06.five_degenerate_combined`](../../problems/TUZA-06/lean/Tuza06/FiveDegenerate.lean):
+
+```lean
+@Tuza06.five_degenerate_combined :
+  ∀ {V : Type u} [Fintype V] [DecidableEq V] {G : SimpleGraph V},
+    Tuza06.Degenerate G 5 →
+      Tuza.tau (Tuza.triangles G) ≤ 2 * Tuza.nu (Tuza.triangles G) ∧
+      (Tuza.tau (Tuza.triangles G) = 2 * Tuza.nu (Tuza.triangles G) ↔
+        Tuza06.ComponentCliques G)
+```
+
+The universe binder above is displayed using the conventional name `u`; generated printer names may differ. `triangles G` is the full `G.cliqueFinset 3`. `nu` counts edge-disjoint triangle families. `tau` uses actual two-vertex edge covers; `Tuza.graph_min_cover` proves attainment by graph edges. `Degenerate` uses the usual induced-subset definition. `ComponentCliques` uses reflexive transitive closure of shared-edge triangle adjacency and literal edge support. The theorem has no unproved external mathematical inputs. Its only substantive hypothesis is `Degenerate G 5`; the ambient finite-type and decidable-equality instances are shown explicitly.
+
+The original target `CombinedStatement G` is proved by `five_degenerate_statement`. Definition-stage comments in the source record the target before completion; the final theorem and [current proof status](../../problems/TUZA-06/PROOF_STATUS.md) supersede those historical comments. The four reused `Tuza` modules contain unrelated conditional interfaces, but their unproved mathematical inputs are not premises of this theorem.
+
+| Paper result or step | Actual Lean declaration(s), in namespace `Tuza06` unless stated otherwise |
+|---|---|
+| Theorem 1, both conclusions | `five_degenerate_combined` |
+| Lemma 2A, block-packing compatibility | Ordinary blockwise formulation from Lemma 2; uses existing `k5_avoid_two`, `Tuza.k4_face_avoiding` and `blocks_combine_packings`/`blocks_nu`. No separately named exact general Lean lemma is claimed. The two-page specialization is covered by `blocks_avoid_two_pages` with its explicit independent-base hypotheses. |
+| Lemma 3A, balanced reduction | `packing_extension`; `cover_extension`; `balanced_accounting`; `strict_accounting`; the classification step uses actual minimality through `minimal_balanced_reduction`. |
+| Separate inequality and equality | `five_degenerate_inequality`; `five_degenerate_equality` |
+| Original target and block equivalence | `five_degenerate_statement`; `componentCliques_iff_decomposition` |
+| Equality converse | `componentCliques_equality` |
+| Lemma 2, clique parameters and avoidance | `k4_parameters`; `k5_parameters`; `k5_avoid_two`; `Tuza.k4_face_avoiding` |
+| Intersecting triangle families | `Tuza.intersecting_cover`; `Tuza.intersecting_k4_structure` |
+| Lemma 3, minimality and criticality | `exists_minimal_obstruction`; `minimal_tight_critical` |
+| Lemma 4, every edge in two triangles | `minimal_edge_codegree` |
+| Lemma 5, closed link size | `minimal_closed_link_size` |
+| Lemma 6, all degree-five links | `minimal_degree_five_configuration` |
+| Lemma 7, low adjacency and high neighbors | `minimal_degree_five_independent`; `minimal_degree_five_neighbors_high` |
+| Proposition 8, complete overlap restrictions | `minimal_degree_five_common_le_three`; `minimal_three_common_cliques` |
+| Lemma 9, second degeneracy and labels | `minimal_two_arm_peeling`; `minimal_final_arm_data` |
+| Actual final configuration | `final_configuration_of_arm_data` |
+| Arbitrary pages and strict final cover | `minimal_no_final_configuration` |
+| Auxiliary four-degenerate combined theorem | `four_degenerate_combined` |
+
+The prescribed-edge minimum-cover observation in Lemma 2 is an elementary ordinary detail used in Section 4.4. It is not separately exported as a general $K_5$ cover declaration. The formal development instead uses the unified small-link argument in Appendix B; the complete formal theorem includes that route.
+
+The accepted source inventory covers **280 mathematical modules**, all in the main entry point's import closure. The source of `FiveDegenerate.lean` has SHA-256 `978ebe0431fde9ecf9598538c6c01e06bcd9ee363bd5ee03a53b76c43143fadf`. All 280 files are preserved byte-for-byte. Lean **4.33.1** and Mathlib revision `0df444a360eaa60ab8c11dca51a86af692955474`, together with all nine package revisions, are pinned. Complete theorem types and transitive-axiom audits cover **618 public theorem declarations**; the only reported axioms are `propext`, `Classical.choice`, and `Quot.sound`. There is no `sorry`, custom mathematical axiom, hidden external theorem premise, or native proof shortcut in the mathematical closure.
+
+The original source verification rebuilt every mathematical module in a fresh project workspace and replayed all **280 fresh module objects** serially through the standard Lean kernel, including private proof constants. The original publication verification separately rebuilt and replayed the exact public source tree; its outcome, commands and evidence are recorded in the [portable reproduction record](../../problems/TUZA-06/REPRODUCTION.md). Reused compiled dependencies were separately pinned and checked. This is **not a cold Mathlib rebuild**. The replay adapter retains the upstream LeanChecker replay routine; its unsafe IO/runtime-memory wrapper is outside the mathematical import closure. Replay is additional checking by the same standard Lean kernel, **not an independently implemented kernel**. Upstream source provenance and license accompany the tool.
+
+The independent Python checks validate supplied local finite certificates, five-link coverage and overlap witnesses. They do not enumerate arbitrary outside attachments and are not premises of the formal theorem. The symbolic page and compatibility arguments in Section 8 discharge that unbounded obligation. Neither kernel checking nor internal review certifies novelty, human specialist endorsement, or broader conjectures.
+
+The public [research archive](../../problems/TUZA-06/README.md) supplies exact Lean sources, full public proof records, relevant finite certificates/checkers, attribution and provenance, selected reviews, historical ordinary proofs and their limitations, source-to-publication mapping, and reproduction commands. These records distinguish earlier partial status from the completed theorem. Operational instructions and private review archives are excluded.
 
 Other formal changes are organizational: finite label coverage is proved explicitly; all reductions are instantiated from actual neighborhoods; outside pages and residual block compatibility are handled symbolically. Their exact declarations, dependencies and completion status belong to the formal status record, rather than to an inference from this manuscript.
 
+The source verification and its 280-module rebuild/replay are historical mathematical evidence, retained unchanged. This editorial release checks the accepted source hashes and revises exposition, literature positioning and presentation; it does not report a new Lean build or replay. The [current editorial artifact record](../../problems/TUZA-06/editorial/CURRENT_ARTIFACT.json) distinguishes the revised PDF from the earlier verified paper hash.
+
+## Data availability and report status
+
+This is an explicitly AI-developed mathematical research experiment and technical report. The [public archive](../../problems/TUZA-06/README.md) [7] provides the ordinary proof records, exact Lean sources, finite certificates, reproduction instructions and internal review records. The title-page disclosure identifies the AI development and the human participant's coordination role. Internal AI reviews and kernel checking do not constitute external specialist peer review or establish historical priority. Published results used here retain their human authors' attribution. 
+
 ## References
 
-[1] Gregory J. Puleo. *Tuza's conjecture for graphs with maximum average degree less than 7*. European Journal of Combinatorics **49** (2015), 134--152. [DOI:10.1016/j.ejc.2015.03.006](https://doi.org/10.1016/j.ejc.2015.03.006). Numbering checked against the [full arXiv version 3](https://arxiv.org/pdf/1308.2211v3), 13 April 2015.
+[1] Zs. Tuza. *A conjecture on triangles of graphs*. Graphs and Combinatorics **6** (1990), 373–380. [DOI:10.1007/BF01787705](https://doi.org/10.1007/BF01787705).
 
-[2] Fábio Botler, Cristina G. Fernandes, and Juan Gutiérrez. *On Tuza's conjecture for triangulations and graphs with small treewidth*. Discrete Mathematics **344** (2021), article 112281. [DOI:10.1016/j.disc.2020.112281](https://doi.org/10.1016/j.disc.2020.112281). Local-lemma numbering checked against the [full arXiv version 2](https://arxiv.org/pdf/2002.07925v2), 16 July 2020.
+[2] Gregory J. Puleo. *Tuza's conjecture for graphs with maximum average degree less than 7*. European Journal of Combinatorics **49** (2015), 134--152. [DOI:10.1016/j.ejc.2015.03.006](https://doi.org/10.1016/j.ejc.2015.03.006). Numbering checked against the [full arXiv version 3](https://arxiv.org/pdf/1308.2211v3), 13 April 2015.
 
-[3] Qing Cui, Penny Haxell, and Will Ma. *Packing and covering triangles in planar graphs*. Graphs and Combinatorics **25** (2009), 817--824; published online 10 February 2010. [DOI:10.1007/s00373-010-0881-5](https://doi.org/10.1007/s00373-010-0881-5). [Author-hosted full text](https://www.columbia.edu/~wm2428/papers/packing_covering_triangles.pdf).
+[3] Fábio Botler, Cristina G. Fernandes, and Juan Gutiérrez. *On Tuza's conjecture for triangulations and graphs with small treewidth*. Discrete Mathematics **344** (2021), article 112281. [DOI:10.1016/j.disc.2020.112281](https://doi.org/10.1016/j.disc.2020.112281). Local-lemma numbering checked against the [full arXiv version 2](https://arxiv.org/pdf/2002.07925v2), 16 July 2020.
 
-[4] AI Math Experiments. *TUZA-04--06 public mathematical and formal-verification record*. 30 October 2026. [Research archive and source inventory](../../problems/TUZA-06/README.md), [formal target](../../problems/TUZA-06/FORMAL_STATEMENT.md), and [portable reproduction](../../problems/TUZA-06/REPRODUCTION.md). Internal AI research and review records; no external peer-review status is implied.
+[4] Qing Cui, Penny Haxell, and Will Ma. *Packing and covering triangles in planar graphs*. Graphs and Combinatorics **25** (2009), 817--824; published online 10 February 2010. [DOI:10.1007/s00373-010-0881-5](https://doi.org/10.1007/s00373-010-0881-5). [Author-hosted full text](https://www.columbia.edu/~wm2428/papers/packing_covering_triangles.pdf).
 
-[5] AI Math Experiments. *Triangle Restoration and Packing--Covering Stability in Tuza's Conjecture*. 29 October 2026. [Separate canonical paper](../tuza-triangle-restoration/main.md).
+[5] Anish Gupta. *Tuza's conjecture for graphs of maximum degree at most seven*. [arXiv:2608.06538v1](https://arxiv.org/abs/2608.06538v1), 6 August 2026. Theorem 1.3 and Question 12.3 checked in the primary full text.
 
-The bibliography is also supplied as [BibTeX](references.bib). Third-party full texts were consulted for attribution and are linked rather than redistributed. Mathematical facts are not claimed as property of the project.
+[6] Zhen Liu and Qinghou Zeng. *Tuza's Conjecture under an Edge-Count Condition*. [arXiv:2610.15539v1](https://arxiv.org/abs/2610.15539v1), 11 October 2026. Theorem 1.3 checked in the primary full text.
+
+[7] AI Math Experiments. *Public mathematical and formal-verification record*. 30 October 2026. [Research archive and source inventory](../../problems/TUZA-06/README.md), [formal target](../../problems/TUZA-06/FORMAL_STATEMENT.md), and [portable reproduction](../../problems/TUZA-06/REPRODUCTION.md). Internal AI research and review records; no external peer-review status is implied.
+
+[8] AI Math Experiments. *Triangle Restoration and Packing--Covering Stability in Tuza's Conjecture*. 29 October 2026. [Separate canonical paper](../tuza-triangle-restoration/main.md).
+
+The bibliography is also supplied as [BibTeX](references.bib). Primary full texts are linked rather than redistributed. Mathematical facts are not claimed as property of the project.

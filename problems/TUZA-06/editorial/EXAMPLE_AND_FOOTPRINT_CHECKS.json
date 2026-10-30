@@ -1,0 +1,367 @@
+{
+  "example_and_diagram_check": {
+    "status": "PASS",
+    "ten_vertex_example": {
+      "vertices": 10,
+      "edges": 35,
+      "average_degree": 7,
+      "five_degeneracy_order": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "degrees_when_removed": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    "K7": {
+      "maximum_average_degree": 6,
+      "minimum_degree": 6,
+      "not_five_degenerate": true
+    },
+    "core": {
+      "vertices": 8,
+      "edges": 23,
+      "triangles": 32,
+      "SVG_and_TeX_match_certificate": true
+    },
+    "scope": "Only these stated examples and displayed adjacencies; no new Lean run or outside-attachment enumeration."
+  },
+  "finite_footprint_check": {
+    "status": "PASS",
+    "checked_utc": "2026-10-30T22:49:06.191589+00:00",
+    "scope": "Targeted necessary clique-incidence conditions for the explicitly displayed finite footprints; no graph census or enumeration of outside attachments. Symbolic terminal/page arguments reviewed separately.",
+    "finite_cases": [
+      {
+        "application": "4.1 K3 link",
+        "whole_surviving_footprint": [
+          "bc",
+          "ax",
+          "bx"
+        ],
+        "forced_residual_nonedges_used": [
+          "ab"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "4.2 K4 link",
+        "whole_surviving_footprint": [
+          "ac",
+          "bd",
+          "ax",
+          "bx"
+        ],
+        "forced_residual_nonedges_used": [
+          "ab",
+          "cd"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "4.3 diamond",
+        "whole_surviving_footprint": [
+          "ad",
+          "bc",
+          "ax",
+          "cx"
+        ],
+        "forced_residual_nonedges_used": [
+          "ac",
+          "bd",
+          "ab"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "5.1 dense1",
+        "whole_surviving_footprint": [
+          "pb",
+          "pc",
+          "qb"
+        ],
+        "forced_residual_nonedges_used": [
+          "bc",
+          "pq"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 1,
+          "5": 1
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "5.1 dense2",
+        "whole_surviving_footprint": [
+          "ac",
+          "ae",
+          "ad",
+          "be"
+        ],
+        "forced_residual_nonedges_used": [
+          "ab",
+          "bc",
+          "cd",
+          "bd",
+          "ce"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "5.1 dense3",
+        "whole_surviving_footprint": [
+          "ae",
+          "ce",
+          "ad",
+          "be"
+        ],
+        "forced_residual_nonedges_used": [
+          "ab",
+          "bc",
+          "cd",
+          "de",
+          "ac",
+          "bd"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 1,
+          "5": 1
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "5.1 dense4",
+        "whole_surviving_footprint": [
+          "aq",
+          "pq",
+          "bp",
+          "cq"
+        ],
+        "forced_residual_nonedges_used": [
+          "ap",
+          "bq",
+          "ab",
+          "ac",
+          "bc"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "5.2 K23",
+        "whole_surviving_footprint": [
+          "ad",
+          "be",
+          "ax",
+          "cx"
+        ],
+        "forced_residual_nonedges_used": [
+          "ac",
+          "ab",
+          "cd",
+          "ce"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "5.2 C5",
+        "whole_surviving_footprint": [
+          "bc",
+          "de",
+          "ax",
+          "bx"
+        ],
+        "forced_residual_nonedges_used": [
+          "ab",
+          "cd",
+          "ad",
+          "bd"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "5.4 extra non3colorable",
+        "whole_surviving_footprint": [
+          "ac",
+          "ad",
+          "bd"
+        ],
+        "forced_residual_nonedges_used": [
+          "cd"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "6.2 adjacent degree5",
+        "whole_surviving_footprint": [
+          "p1",
+          "p2",
+          "q1",
+          "q3"
+        ],
+        "forced_residual_nonedges_used": [
+          "12",
+          "13",
+          "23"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "7.3 overlap missinginside",
+        "whole_surviving_footprint": [
+          "pb",
+          "pc",
+          "sb",
+          "rs"
+        ],
+        "forced_residual_nonedges_used": [
+          "bc",
+          "br",
+          "cr"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "7.4 overlap missingoutside",
+        "whole_surviving_footprint": [
+          "pa",
+          "pc",
+          "qa"
+        ],
+        "forced_residual_nonedges_used": [
+          "ac"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "7.2 fourcommon page",
+        "whole_surviving_footprint": [
+          "pa",
+          "pb"
+        ],
+        "forced_residual_nonedges_used": [
+          "ab"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 1,
+          "5": 1
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      },
+      {
+        "application": "AppendixB smalllink",
+        "whole_surviving_footprint": [
+          "ad",
+          "bc",
+          "xa",
+          "xc"
+        ],
+        "forced_residual_nonedges_used": [
+          "ac",
+          "bd",
+          "ab"
+        ],
+        "maximum_feasible_forbidden_edges_by_block_order": {
+          "4": 2,
+          "5": 2
+        },
+        "K4_footprints_are_stars": true,
+        "K5_two_edge_bound": true
+      }
+    ],
+    "symbolic_hypotheses_to_check_in_the_paper": [
+      {
+        "application": "Lemma3 deletion wedge",
+        "argument": "Deletedxy prevents a clique block from containing both xw and yw; wholefootprint\u22641."
+      },
+      {
+        "application": "Lemma4 uniqueedge lostfamily",
+        "argument": "BlockmeetsU0\u22641; each of two triangles contributes\u22641 oldedge; wholefootprintstar\u22642."
+      },
+      {
+        "application": "5.3 K221 twoexternalpages",
+        "argument": "Local3packing lies entirely on deleted coreedges; each page contributes\u22641 oldspoke per block; independentW implies commonstarcenter; total\u22642."
+      },
+      {
+        "application": "8.3 finalcore arbitrarypages",
+        "argument": "Local6packing has0 residualedges; each of2 pages contributes\u22641 oldspoke per block because A independent; wholefootprintstar\u22642."
+      }
+    ],
+    "new_Lean_run": false
+  },
+  "manual_symbolic_review": "Four applications reviewed in EDITORIAL_REVIEW.md; not a new automated proof of arbitrary outside attachments.",
+  "new_Lean_run": false
+}

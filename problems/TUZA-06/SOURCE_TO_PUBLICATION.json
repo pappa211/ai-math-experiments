@@ -45,7 +45,9 @@
       "source_sha256": "e571ae1f2a9ba8c3ae5d387a2040920d5f591071bd599bdbeaf84f492928a050",
       "public": "problems/TUZA-06/PROOF_STATUS.md",
       "transformation": "public derivative: operational identifiers removed; historical scope and actual inclusion clarified; portable helper corrections where applicable",
-      "public_sha256": "23a5358bf2d8e2220d240fe4e4c4fecbf9af91f336c29ec137390d7f2d7532f0"
+      "public_sha256": "bb817965b9f8d0a11b4a2b3959a33abd660856466563b6fd7567f053babfc4eb",
+      "prior_public_sha256_before_editorial_revision": "23a5358bf2d8e2220d240fe4e4c4fecbf9af91f336c29ec137390d7f2d7532f0",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
     },
     {
       "source": "README.md",
@@ -10220,8 +10222,10 @@
     },
     {
       "public": "problems/TUZA-06/README.md",
-      "public_sha256": "dcd8bc2f5b6adae40aad9b2f5e13f5cc2afc650a431f12921aabccd1ef8a4171",
-      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server"
+      "public_sha256": "e044d7617c3d35ae706608c27586a358d35b1a43d2f6e1855e9d6ef66ab9f2f1",
+      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server",
+      "prior_public_sha256_before_editorial_revision": "dcd8bc2f5b6adae40aad9b2f5e13f5cc2afc650a431f12921aabccd1ef8a4171",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
     },
     {
       "public": "problems/TUZA-06/REPRODUCTION.md",
@@ -13435,47 +13439,108 @@
     },
     {
       "public": "problems/TUZA-06/review/README.md",
-      "public_sha256": "93fbdf257183fcc23b11b4f4e496790995bf95d0526215c33bd1bfc7105a3dc3",
-      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server"
+      "public_sha256": "031d0e90f654e48b351e8a231670399e8f7601d84302bacb22a73057dbe78fac",
+      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server",
+      "prior_public_sha256_before_editorial_revision": "93fbdf257183fcc23b11b4f4e496790995bf95d0526215c33bd1bfc7105a3dc3",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
     },
     {
       "public": "papers/tuza-five-degenerate/README.md",
-      "public_sha256": "934451f9b77a61a9963895e230941772711cb69646cb1a8ba77a87296ca85dd8",
-      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server"
+      "public_sha256": "9bd82b2bda8591f042d227d02a9e171fb0544431f4c6ae201646bd2e9baa2dfd",
+      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server",
+      "prior_public_sha256_before_editorial_revision": "934451f9b77a61a9963895e230941772711cb69646cb1a8ba77a87296ca85dd8",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
     },
     {
       "public": "papers/tuza-five-degenerate/main.md",
-      "public_sha256": "4983fe1ab46693640d8f5f131d2165c18f7c8f16315783926b4ba294d7422e0e",
-      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server"
+      "public_sha256": "6f89ec20ce3d954a5912cd19e5e2156fbcab87460bdc6eeb4d09b9bcdc55d59f",
+      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server",
+      "prior_public_sha256_before_editorial_revision": "4983fe1ab46693640d8f5f131d2165c18f7c8f16315783926b4ba294d7422e0e",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
     },
     {
       "public": "papers/tuza-five-degenerate/main.pdf",
-      "public_sha256": "41c4c50178cf81a7fe46fe5b7c9dce9509017bcf99d140c2c9557568ecb415bd",
-      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server"
+      "public_sha256": "139ca81a36ef2f48a5f96a968daedd989a37aa5d9cf4dd72c430b91acb45e1e6",
+      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server",
+      "prior_public_sha256_before_editorial_revision": "41c4c50178cf81a7fe46fe5b7c9dce9509017bcf99d140c2c9557568ecb415bd",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
     },
     {
       "public": "papers/tuza-five-degenerate/main.tex",
-      "public_sha256": "07ae081faee60cf9a839b23d08cbe98be91b0a3fb9852d3a5afad32820835277",
-      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server"
+      "public_sha256": "4252b75af96489bb0a82f193fb8042f91cbbb77e27729c027cf8bc4db53beb6d",
+      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server",
+      "prior_public_sha256_before_editorial_revision": "07ae081faee60cf9a839b23d08cbe98be91b0a3fb9852d3a5afad32820835277",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
     },
     {
       "public": "papers/tuza-five-degenerate/references.bib",
-      "public_sha256": "b9ddb0cb63205ed24639103e33dd24dd4f37695a38a635292c63e518d7e6eb8a",
-      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server"
+      "public_sha256": "475dee023a6f9631978d3569ebd10900356e430e3b10536fd855b0fc7cc71b3c",
+      "origin": "new canonical paper, portable helper, current public documentation, source inventory, or actual publication reproduction/review evidence; generated on external verification server",
+      "prior_public_sha256_before_editorial_revision": "b9ddb0cb63205ed24639103e33dd24dd4f37695a38a635292c63e518d7e6eb8a",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
+    },
+    {
+      "public": "papers/tuza-five-degenerate/final-core.svg",
+      "public_sha256": "3a710080670c36b31525979131834d963206926b10a00a8adde01624e944f88c",
+      "origin": "AI-developed editorial technical-report revision: presentation, primary-source positioning, current-artifact identity or targeted editorial check; no new mathematical Lean source or Lean run"
+    },
+    {
+      "public": "problems/TUZA-06/editorial/CURRENT_ARTIFACT.json",
+      "public_sha256": "4299267ceb2722e1cdf1a79076ff5bb89af0126652acd8a1fd1f9fbb8de6de96",
+      "origin": "AI-developed editorial technical-report revision: presentation, primary-source positioning, current-artifact identity or targeted editorial check; no new mathematical Lean source or Lean run"
+    },
+    {
+      "public": "problems/TUZA-06/editorial/EDITORIAL_REVIEW.md",
+      "public_sha256": "db37390b7f8310c07d4c3026d0942bed7930945acb97eed39ba7fd48be62704b",
+      "origin": "AI-developed editorial technical-report revision: presentation, primary-source positioning, current-artifact identity or targeted editorial check; no new mathematical Lean source or Lean run"
+    },
+    {
+      "public": "problems/TUZA-06/editorial/EXAMPLE_AND_FOOTPRINT_CHECKS.json",
+      "public_sha256": "3dd16246ccd665af82fac71f655dea08db1b8db6ccf758723271122331018031",
+      "origin": "AI-developed editorial technical-report revision: presentation, primary-source positioning, current-artifact identity or targeted editorial check; no new mathematical Lean source or Lean run"
+    },
+    {
+      "public": "problems/TUZA-06/editorial/LINKS_AND_METADATA.json",
+      "public_sha256": "5b04a44e0532316190b9d6a4c68bfc19c875de88dd8a0fcc5af6b27f401b9d91",
+      "origin": "AI-developed editorial technical-report revision: presentation, primary-source positioning, current-artifact identity or targeted editorial check; no new mathematical Lean source or Lean run"
+    },
+    {
+      "public": "problems/TUZA-06/editorial/PRIMARY_SOURCE_CHECKS.json",
+      "public_sha256": "f5c2c1c32306a321eadce3f4bb1f0d6500d5a40255a6a35af3acbbced99d9336",
+      "origin": "AI-developed editorial technical-report revision: presentation, primary-source positioning, current-artifact identity or targeted editorial check; no new mathematical Lean source or Lean run"
+    },
+    {
+      "public": "problems/TUZA-06/editorial/README.md",
+      "public_sha256": "50f329c0a05a67bbed64bf51e09993e021cae5a3e6851971e7f0b7a1d10fd929",
+      "origin": "AI-developed editorial technical-report revision: presentation, primary-source positioning, current-artifact identity or targeted editorial check; no new mathematical Lean source or Lean run"
+    },
+    {
+      "public": "problems/TUZA-06/editorial/check_examples.py",
+      "public_sha256": "a39c32cb04f8485a03ec3ba3ba508361e1d2ab6c35466cbb1386ba30b2d2907d",
+      "origin": "AI-developed editorial technical-report revision: presentation, primary-source positioning, current-artifact identity or targeted editorial check; no new mathematical Lean source or Lean run"
+    },
+    {
+      "public": "problems/TUZA-06/editorial/check_footprints.py",
+      "public_sha256": "fa52a1eec1607d9b74242331bf595bb520d709ce178771f4e90884a76b12b9d0",
+      "origin": "AI-developed editorial technical-report revision: presentation, primary-source positioning, current-artifact identity or targeted editorial check; no new mathematical Lean source or Lean run"
     }
   ],
   "navigation_changes": [
     {
       "public": "README.md",
       "original_public_main_sha256": "45024867551718d6cab6f19047d62cfd1ede1dab93329f2edaa31c8010a73c5d",
-      "public_sha256": "7df1ddcb64343fed5bd1a21cf8b7018bcb261f383145e5f3e21b037c297d03d0",
-      "transformation": "intended navigation, cross-links and third-party notices; prior mathematical papers/sources preserved"
+      "public_sha256": "9952053ad8d1f36557d83b22aaa7fb9afcde4f23dee0ff0028774ea7e5044345",
+      "transformation": "intended navigation, cross-links and third-party notices; prior mathematical papers/sources preserved",
+      "prior_public_sha256_before_editorial_revision": "7df1ddcb64343fed5bd1a21cf8b7018bcb261f383145e5f3e21b037c297d03d0",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
     },
     {
       "public": "THIRD_PARTY_NOTICES.md",
       "original_public_main_sha256": "ae02d44036c87ea97953a138dc1cb7d84328f367b4e282d7c352548a75bc1cd5",
-      "public_sha256": "f085065c4b93005d996fa1fa68c1b881f5b9468aceee6fe56c9e0d35ca77f35c",
-      "transformation": "intended navigation, cross-links and third-party notices; prior mathematical papers/sources preserved"
+      "public_sha256": "46a9d7762d4e0d645dc527c00e42ea71ebdf6a0973c6c0c98626afefbb81fb51",
+      "transformation": "intended navigation, cross-links and third-party notices; prior mathematical papers/sources preserved",
+      "prior_public_sha256_before_editorial_revision": "f085065c4b93005d996fa1fa68c1b881f5b9468aceee6fe56c9e0d35ca77f35c",
+      "editorial_baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230"
     },
     {
       "public": "papers/tuza-triangle-restoration/README.md",
@@ -13484,5 +13549,17 @@
       "transformation": "intended navigation, cross-links and third-party notices; prior mathematical papers/sources preserved"
     }
   ],
-  "self_reference_boundary": "This inventory, its enclosing manifests and Git commit identities are authenticated externally by the public manifests/Git tree; they do not contain their own hashes."
+  "self_reference_boundary": "This inventory, its enclosing manifests and Git commit identities are authenticated externally by the public manifests/Git tree; they do not contain their own hashes.",
+  "editorial_release": {
+    "baseline_commit": "9a150024dadd54b82e23d7f78a620933334c7230",
+    "title": "Equality in Tuza's Inequality for 5-Degenerate Graphs",
+    "report_label": "AI-developed mathematical research report \u2014 AI Math Experiments",
+    "current_artifact": "problems/TUZA-06/editorial/CURRENT_ARTIFACT.json",
+    "prior_PDF_sha256": "41c4c50178cf81a7fe46fe5b7c9dce9509017bcf99d140c2c9557568ecb415bd",
+    "current_PDF_sha256": "139ca81a36ef2f48a5f96a968daedd989a37aa5d9cf4dd72c430b91acb45e1e6",
+    "all_280_mathematical_sources_unchanged": true,
+    "historical_verification_records_preserved": true,
+    "new_Lean_build_or_replay": false,
+    "description": "Current public-file hashes authenticate this editorial revision. Original private input hashes and historical evidence retain their original meanings. The baseline Git commit preserves the previous publication inventory and paper."
+  }
 }
