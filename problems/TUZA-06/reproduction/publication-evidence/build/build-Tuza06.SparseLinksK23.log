@@ -1,0 +1,3 @@
+@Tuza06.SparseLinksK23.excluded : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V},
+  Tuza06.MinimalObstruction G → ∀ (i : Fin 6 ↪ V), Tuza06.FiveLinkConfiguration G i Tuza06.SparseLinksK23.E → False
+'Tuza06.SparseLinksK23.excluded' depends on axioms: [propext, Classical.choice, Quot.sound]

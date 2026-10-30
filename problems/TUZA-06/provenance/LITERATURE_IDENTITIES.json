@@ -1,0 +1,54 @@
+{
+  "scope": "Hashes identify privately consulted primary full texts/source archives; these are not public archive files and no third-party full article is redistributed.",
+  "sources": [
+    {
+      "source_filename": "puleo-source.tex",
+      "primary_source_url": "https://arxiv.org/abs/1308.2211v3",
+      "sha256": "ed983d631ce520128a00a4b2145824acd0ac37de8a7e2143b8108f6564132c50",
+      "bytes": 107823,
+      "redistributed": false
+    },
+    {
+      "source_filename": "puleo-source.tar",
+      "primary_source_url": "https://arxiv.org/abs/1308.2211v3",
+      "sha256": "195ec38a029f1ac4ef70d327b98866e9d80637989ce8413c37e5641849891e8a",
+      "bytes": 27934,
+      "redistributed": false
+    },
+    {
+      "source_filename": "puleo-1308.2211v3.pdf",
+      "primary_source_url": "https://arxiv.org/abs/1308.2211v3",
+      "sha256": "822c158830f76c61edbb3a32e308b113059318718129c6ee8380b3e91fb3d241",
+      "bytes": 313471,
+      "redistributed": false
+    },
+    {
+      "source_filename": "botler-fernandes-gutierrez-source.tex",
+      "primary_source_url": "https://arxiv.org/abs/2002.07925v2",
+      "sha256": "ec9bc94e6c9fc17db42de8472def07b14ff38997b22af29a5061acbff2cfd58f",
+      "bytes": 95207,
+      "redistributed": false
+    },
+    {
+      "source_filename": "botler-fernandes-gutierrez-source.tar",
+      "primary_source_url": "https://arxiv.org/abs/2002.07925v2",
+      "sha256": "1f826697b04536bdd6adb9e8704ee527f6c824a711f5d03e3b6ce25a75b8820b",
+      "bytes": 22960,
+      "redistributed": false
+    },
+    {
+      "source_filename": "botler-fernandes-gutierrez-2002.07925v2.pdf",
+      "primary_source_url": "https://arxiv.org/abs/2002.07925v2",
+      "sha256": "1bb2a6b0150e25aa1da7f0d76c6950d040a486cf22f75ac6639b74d9b347d8de",
+      "bytes": 240719,
+      "redistributed": false
+    },
+    {
+      "source_filename": "cui-haxell-ma-planar.pdf",
+      "primary_source_url": "https://doi.org/10.1007/s00373-010-0881-5",
+      "sha256": "8c5577727c5931ef446f5fed7dd01f6ba176cb69fec11542bb2cdc61809d8ed0",
+      "bytes": 233221,
+      "redistributed": false
+    }
+  ]
+}

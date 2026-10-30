@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-30T21:21:23.337396+00:00",
+  "baseline_checks": [
+    {
+      "checkpoint": "TUZA-04-discovery-20261030",
+      "status": "PASS",
+      "manifest_entries": 23,
+      "manifest_unchanged": true
+    },
+    {
+      "checkpoint": "TUZA-05-five-degenerate-20261030",
+      "status": "PASS",
+      "manifest_entries": 59,
+      "manifest_unchanged": true
+    },
+    {
+      "checkpoint": "TUZA-06-five-degenerate-verification-20261030",
+      "status": "PASS",
+      "manifest_entries": 1644,
+      "manifest_unchanged": true
+    },
+    {
+      "checkpoint": "A113010",
+      "status": "PASS",
+      "opening_source_document_files_unchanged": 2221
+    },
+    {
+      "checkpoint": "TUZA-01",
+      "status": "PASS",
+      "opening_source_document_files_unchanged": 48
+    },
+    {
+      "checkpoint": "TUZA-03",
+      "status": "PASS",
+      "opening_source_document_files_unchanged": 297
+    }
+  ],
+  "earlier_public_files_preserved_exact": 372,
+  "all_280_frozen_mathematical_sources_preserved": true,
+  "scope": "Checkpoint manifest verification plus unchanged earlier source/document inventories and unchanged prior public mathematical/paper files; operational records remain private. Intended navigation/notices/cross-links are separate current publication edits."
+}

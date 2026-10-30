@@ -1,0 +1,8 @@
+Tuza06/LowNeighborEndpointUniversal.lean:31:44: warning: This simp argument is unused:
+  eq_self_iff_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [card_pair hab, card_pair hrab, true_and]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'Tuza06.minimal_no_near_endpoint_degree_six' depends on axioms: [propext, Classical.choice, Quot.sound]

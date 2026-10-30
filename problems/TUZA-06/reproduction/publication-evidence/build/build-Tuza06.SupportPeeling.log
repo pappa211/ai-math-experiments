@@ -1,0 +1,31 @@
+@Tuza06.minimal_two_arm_peeling : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V},
+  Tuza06.MinimalObstruction G →
+    Tuza06.Degenerate G 5 →
+      ∃ u ∈ Tuza06.triangleVertices G \ Tuza06.peelLow G (Tuza06.triangleVertices G),
+        ∃ v w,
+          v ≠ w ∧
+            Tuza06.peelNeighbors G (Tuza06.peelLow G (Tuza06.triangleVertices G)) u = {v, w} ∧
+              Tuza06.degreeWithin G (Tuza06.triangleVertices G) u = 7 ∧
+                (Tuza06.peelNeighbors G (Tuza06.triangleVertices G \ Tuza06.peelLow G (Tuza06.triangleVertices G))
+                        u).card =
+                    5 ∧
+                  (Tuza06.peelNeighbors G
+                          (Tuza06.peelNeighbors G
+                            (Tuza06.triangleVertices G \ Tuza06.peelLow G (Tuza06.triangleVertices G)) u)
+                          v).card =
+                      3 ∧
+                    (Tuza06.peelNeighbors G
+                            (Tuza06.peelNeighbors G
+                              (Tuza06.triangleVertices G \ Tuza06.peelLow G (Tuza06.triangleVertices G)) u)
+                            w).card =
+                        3 ∧
+                      (Tuza06.peelNeighbors G
+                              (Tuza06.peelNeighbors G
+                                (Tuza06.triangleVertices G \ Tuza06.peelLow G (Tuza06.triangleVertices G)) u)
+                              v ∩
+                            Tuza06.peelNeighbors G
+                              (Tuza06.peelNeighbors G
+                                (Tuza06.triangleVertices G \ Tuza06.peelLow G (Tuza06.triangleVertices G)) u)
+                              w).card =
+                        1
+'Tuza06.minimal_two_arm_peeling' depends on axioms: [propext, Classical.choice, Quot.sound]

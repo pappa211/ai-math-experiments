@@ -20,6 +20,17 @@ The results include one-triangle restoration, OCT-four, the fixed-$`c<5/2`$ dens
 
 The original [TUZA-01](problems/TUZA-01/README.md), [TUZA-02](problems/TUZA-02/README.md) and [TUZA-03](problems/TUZA-03/README.md) archives retain their proof sources, experiments, reviews, Lean files and reproduction evidence. [Editorial provenance and scope](papers/tuza-triangle-restoration/README.md) distinguish the canonical paper from those historical records.
 
+## Tuza’s inequality and equality for five-degenerate graphs
+
+Every finite simple **5-degenerate** graph $G$ satisfies $\tau(G)\le 2\nu(G)$, with equality if and only if every nonempty triangle component connected through shared graph edges has edge support exactly $K_4$ or $K_5$. Here $\nu$ counts edge-disjoint triangles and $\tau$ counts graph edges hitting all triangles. Graph order and maximum degree are unrestricted; empty and triangle-free graphs, background edges and blocks sharing vertices are included.
+
+- **[Read the complete paper (PDF)](papers/tuza-five-degenerate/main.pdf)** · **[Markdown](papers/tuza-five-degenerate/main.md)** · [LaTeX](papers/tuza-five-degenerate/main.tex) · [bibliography](papers/tuza-five-degenerate/references.bib).
+- **[TUZA-06 research and Lean archive](problems/TUZA-06/README.md)**, including [curated TUZA-04–05 ordinary proofs/history](problems/TUZA-06/history/README.md), [precise formal statement](problems/TUZA-06/FORMAL_STATEMENT.md), [verification coverage](problems/TUZA-06/PROOF_STATUS.md) and [portable reproduction](problems/TUZA-06/REPRODUCTION.md).
+
+The exact combined theorem is formalized without additional unproved mathematical inputs in all 280 frozen mathematical modules. Publication reproduction rebuilds those modules, audits all 618 public theorem types/transitive axioms and replays the fresh local objects using the standard Lean kernel, against reused pinned compiled dependencies. It is not a cold Mathlib rebuild or a separate kernel implementation. Published local inequality reductions are credited; historical priority and external specialist peer review are not claimed. The combined equality classification is the principal contribution proposed here.
+
+This is a separate canonical work from the TUZA-01–03 restoration paper above. It establishes no general Tuza, six-degenerate, OCT-five, unrestricted restoration or fixed-$c<3$ density theorem. [Attribution, provenance and publication scope](papers/tuza-five-degenerate/README.md).
+
 ## Experiments
 
 | Experiment | Outcome | Read |
@@ -28,6 +39,7 @@ The original [TUZA-01](problems/TUZA-01/README.md), [TUZA-02](problems/TUZA-02/R
 | TUZA-01: one-triangle restoration | One-triangle criterion, OCT-four, and the fixed-c < 5/2 density result | [Research archive](problems/TUZA-01/README.md) |
 | TUZA-02: two-triangle restoration | Exact-equality, essential-edge and flat-remainder restoration; selected star cores | [Research archive](problems/TUZA-02/README.md) |
 | TUZA-03: boundary and stability | Closed-boundary deletion and stability, restricted bowtie restoration, and compression | [Research archive](problems/TUZA-03/README.md) |
+| TUZA-04–06: five-degenerate graphs | Tuza inequality and literal K4/K5 triangle-component equality; full Lean proof | [Paper](papers/tuza-five-degenerate/main.md) · [Archive](problems/TUZA-06/README.md) |
 
 Exact-equality restoration is a pre-TUZA-02 follow-up integrated with the later two-triangle results; the paper retains this provenance.
 

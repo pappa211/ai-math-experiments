@@ -1,0 +1,5 @@
+Tuza06.Core.packing7 : Packing family P7 ∧ #P7 = 7
+Tuza06.Core.cover9 : Covers family C9 ∧ #C9 = 9
+Tuza06.Core.avoid_case_44 : ∃ P, Packing family P ∧ #P = 6 ∧ Disjoint (support P) {{5, 7}, {6, 7}}
+Tuza06.Core.pair_six (f : Finset (Fin 8)) :
+  f ∈ edges A → ∀ g ∈ edges A, f ≠ g → ∃ P, Packing family P ∧ #P = 6 ∧ Disjoint (support P) {f, g}

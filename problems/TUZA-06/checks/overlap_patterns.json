@@ -1,0 +1,51 @@
+[
+  {
+    "name": "OverlapFiveClique",
+    "vertices": 7,
+    "packing": 6,
+    "cover": 10,
+    "augmentation": 0
+  },
+  {
+    "name": "OverlapFiveNear",
+    "vertices": 7,
+    "packing": 5,
+    "cover": 9,
+    "augmentation": 0
+  },
+  {
+    "name": "OverlapFourNear",
+    "vertices": 8,
+    "packing": 4,
+    "cover": 7,
+    "augmentation": 0
+  },
+  {
+    "name": "OverlapFourClique",
+    "vertices": 8,
+    "packing": 4,
+    "cover": 8,
+    "augmentation": 5
+  },
+  {
+    "name": "OverlapThreeInside",
+    "vertices": 9,
+    "packing": 6,
+    "cover": 12,
+    "augmentation": 7
+  },
+  {
+    "name": "OverlapThreeOutsideArm",
+    "vertices": 9,
+    "packing": 6,
+    "cover": 12,
+    "augmentation": 7
+  },
+  {
+    "name": "OverlapThreeOutsidePair",
+    "vertices": 9,
+    "packing": 6,
+    "cover": 12,
+    "augmentation": 7
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "x_missing": 0,
+    "y_missing": 0,
+    "kind": 0,
+    "permutation": 4
+  },
+  {
+    "x_missing": 1,
+    "y_missing": 1,
+    "kind": 0,
+    "permutation": 0
+  },
+  {
+    "x_missing": 2,
+    "y_missing": 2,
+    "kind": 1,
+    "permutation": 10
+  },
+  {
+    "x_missing": 2,
+    "y_missing": 3,
+    "kind": 1,
+    "permutation": 11
+  },
+  {
+    "x_missing": 2,
+    "y_missing": 5,
+    "kind": 1,
+    "permutation": 22
+  },
+  {
+    "x_missing": 2,
+    "y_missing": 6,
+    "kind": 1,
+    "permutation": 23
+  },
+  {
+    "x_missing": 2,
+    "y_missing": 7,
+    "kind": 1,
+    "permutation": 14
+  },
+  {
+    "x_missing": 2,
+    "y_missing": 8,
+    "kind": 1,
+    "permutation": 15
+  },
+  {
+    "x_missing": 2,
+    "y_missing": 9,
+    "kind": 2,
+    "permutation": 10
+  },
+  {
+    "x_missing": 3,
+    "y_missing": 2,
+    "kind": 1,
+    "permutation": 8
+  },
+  {
+    "x_missing": 3,
+    "y_missing": 3,
+    "kind": 1,
+    "permutation": 9
+  },
+  {
+    "x_missing": 3,
+    "y_missing": 5,
+    "kind": 1,
+    "permutation": 20
+  },
+  {
+    "x_missing": 3,
+    "y_missing": 6,
+    "kind": 1,
+    "permutation": 21
+  },
+  {
+    "x_missing": 3,
+    "y_missing": 7,
+    "kind": 1,
+    "permutation": 12
+  },
+  {
+    "x_missing": 3,
+    "y_missing": 8,
+    "kind": 1,
+    "permutation": 13
+  },
+  {
+    "x_missing": 3,
+    "y_missing": 9,
+    "kind": 2,
+    "permutation": 8
+  },
+  {
+    "x_missing": 4,
+    "y_missing": 4,
+    "kind": 0,
+    "permutation": 8
+  },
+  {
+    "x_missing": 5,
+    "y_missing": 2,
+    "kind": 1,
+    "permutation": 18
+  },
+  {
+    "x_missing": 5,
+    "y_missing": 3,
+    "kind": 1,
+    "permutation": 19
+  },
+  {
+    "x_missing": 5,
+    "y_missing": 5,
+    "kind": 1,
+    "permutation": 2
+  },
+  {
+    "x_missing": 5,
+    "y_missing": 6,
+    "kind": 1,
+    "permutation": 3
+  },
+  {
+    "x_missing": 5,
+    "y_missing": 7,
+    "kind": 1,
+    "permutation": 6
+  },
+  {
+    "x_missing": 5,
+    "y_missing": 8,
+    "kind": 1,
+    "permutation": 7
+  },
+  {
+    "x_missing": 5,
+    "y_missing": 9,
+    "kind": 2,
+    "permutation": 2
+  },
+  {
+    "x_missing": 6,
+    "y_missing": 2,
+    "kind": 1,
+    "permutation": 16
+  },
+  {
+    "x_missing": 6,
+    "y_missing": 3,
+    "kind": 1,
+    "permutation": 17
+  },
+  {
+    "x_missing": 6,
+    "y_missing": 5,
+    "kind": 1,
+    "permutation": 0
+  },
+  {
+    "x_missing": 6,
+    "y_missing": 6,
+    "kind": 1,
+    "permutation": 1
+  },
+  {
+    "x_missing": 6,
+    "y_missing": 7,
+    "kind": 1,
+    "permutation": 4
+  },
+  {
+    "x_missing": 6,
+    "y_missing": 8,
+    "kind": 1,
+    "permutation": 5
+  },
+  {
+    "x_missing": 6,
+    "y_missing": 9,
+    "kind": 2,
+    "permutation": 0
+  },
+  {
+    "x_missing": 7,
+    "y_missing": 2,
+    "kind": 1,
+    "permutation": 10
+  },
+  {
+    "x_missing": 7,
+    "y_missing": 3,
+    "kind": 1,
+    "permutation": 11
+  },
+  {
+    "x_missing": 7,
+    "y_missing": 5,
+    "kind": 1,
+    "permutation": 2
+  },
+  {
+    "x_missing": 7,
+    "y_missing": 6,
+    "kind": 1,
+    "permutation": 3
+  },
+  {
+    "x_missing": 7,
+    "y_missing": 7,
+    "kind": 1,
+    "permutation": 6
+  },
+  {
+    "x_missing": 7,
+    "y_missing": 8,
+    "kind": 1,
+    "permutation": 7
+  },
+  {
+    "x_missing": 7,
+    "y_missing": 9,
+    "kind": 2,
+    "permutation": 2
+  },
+  {
+    "x_missing": 8,
+    "y_missing": 2,
+    "kind": 1,
+    "permutation": 8
+  },
+  {
+    "x_missing": 8,
+    "y_missing": 3,
+    "kind": 1,
+    "permutation": 9
+  },
+  {
+    "x_missing": 8,
+    "y_missing": 5,
+    "kind": 1,
+    "permutation": 0
+  },
+  {
+    "x_missing": 8,
+    "y_missing": 6,
+    "kind": 1,
+    "permutation": 1
+  },
+  {
+    "x_missing": 8,
+    "y_missing": 7,
+    "kind": 1,
+    "permutation": 4
+  },
+  {
+    "x_missing": 8,
+    "y_missing": 8,
+    "kind": 1,
+    "permutation": 5
+  },
+  {
+    "x_missing": 8,
+    "y_missing": 9,
+    "kind": 2,
+    "permutation": 0
+  },
+  {
+    "x_missing": 9,
+    "y_missing": 2,
+    "kind": 1,
+    "permutation": 8
+  },
+  {
+    "x_missing": 9,
+    "y_missing": 3,
+    "kind": 1,
+    "permutation": 9
+  },
+  {
+    "x_missing": 9,
+    "y_missing": 5,
+    "kind": 1,
+    "permutation": 0
+  },
+  {
+    "x_missing": 9,
+    "y_missing": 6,
+    "kind": 1,
+    "permutation": 1
+  },
+  {
+    "x_missing": 9,
+    "y_missing": 7,
+    "kind": 1,
+    "permutation": 4
+  },
+  {
+    "x_missing": 9,
+    "y_missing": 8,
+    "kind": 1,
+    "permutation": 5
+  },
+  {
+    "x_missing": 9,
+    "y_missing": 9,
+    "kind": 2,
+    "permutation": 0
+  },
+  {
+    "x_missing": 10,
+    "y_missing": 2,
+    "kind": 1,
+    "permutation": 8
+  },
+  {
+    "x_missing": 10,
+    "y_missing": 3,
+    "kind": 1,
+    "permutation": 9
+  },
+  {
+    "x_missing": 10,
+    "y_missing": 5,
+    "kind": 1,
+    "permutation": 0
+  },
+  {
+    "x_missing": 10,
+    "y_missing": 6,
+    "kind": 1,
+    "permutation": 1
+  },
+  {
+    "x_missing": 10,
+    "y_missing": 7,
+    "kind": 1,
+    "permutation": 4
+  },
+  {
+    "x_missing": 10,
+    "y_missing": 8,
+    "kind": 1,
+    "permutation": 5
+  },
+  {
+    "x_missing": 10,
+    "y_missing": 9,
+    "kind": 2,
+    "permutation": 0
+  }
+]

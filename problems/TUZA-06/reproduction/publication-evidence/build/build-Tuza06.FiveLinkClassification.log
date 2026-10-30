@@ -1,0 +1,10 @@
+@Tuza06.minimal_degree_five_configuration : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V]
+  {G : SimpleGraph V},
+  Tuza06.MinimalObstruction G →
+    ∀ {v : V},
+      Tuza06.degreeWithin G Finset.univ v = 5 →
+        ∃ i,
+          i 0 = v ∧
+            (Tuza06.FiveLinkConfiguration G i Tuza06.fiveNearCore ∨
+              Tuza06.FiveLinkConfiguration G i Tuza06.fiveCliqueCore)
+'Tuza06.minimal_degree_five_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]

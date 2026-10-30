@@ -1,0 +1,136 @@
+Tuza06.OverlapThreeOrientation.case_2_7 : Tuza06.OverlapThreeOrientation.certificate 2 7
+'Tuza06.OverlapThreeOrientation.case_2_7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_3_7 : Tuza06.OverlapThreeOrientation.certificate 3 7
+'Tuza06.OverlapThreeOrientation.case_3_7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_5_7 : Tuza06.OverlapThreeOrientation.certificate 5 7
+'Tuza06.OverlapThreeOrientation.case_5_7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_6_7 : Tuza06.OverlapThreeOrientation.certificate 6 7
+'Tuza06.OverlapThreeOrientation.case_6_7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_7_7 : Tuza06.OverlapThreeOrientation.certificate 7 7
+'Tuza06.OverlapThreeOrientation.case_7_7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_8_7 : Tuza06.OverlapThreeOrientation.certificate 8 7
+'Tuza06.OverlapThreeOrientation.case_8_7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_9_7 : Tuza06.OverlapThreeOrientation.certificate 9 7
+'Tuza06.OverlapThreeOrientation.case_9_7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_10_7 : Tuza06.OverlapThreeOrientation.certificate 10 7
+'Tuza06.OverlapThreeOrientation.case_10_7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.row7 : ∀ (g : Fin 11),
+  Tuza06.OverlapThreeOrientation.admissible g 7 → Tuza06.OverlapThreeOrientation.certificate g 7
+'Tuza06.OverlapThreeOrientation.row7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_2_8 : Tuza06.OverlapThreeOrientation.certificate 2 8
+'Tuza06.OverlapThreeOrientation.case_2_8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_3_8 : Tuza06.OverlapThreeOrientation.certificate 3 8
+'Tuza06.OverlapThreeOrientation.case_3_8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_5_8 : Tuza06.OverlapThreeOrientation.certificate 5 8
+'Tuza06.OverlapThreeOrientation.case_5_8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_6_8 : Tuza06.OverlapThreeOrientation.certificate 6 8
+'Tuza06.OverlapThreeOrientation.case_6_8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_7_8 : Tuza06.OverlapThreeOrientation.certificate 7 8
+'Tuza06.OverlapThreeOrientation.case_7_8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_8_8 : Tuza06.OverlapThreeOrientation.certificate 8 8
+'Tuza06.OverlapThreeOrientation.case_8_8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_9_8 : Tuza06.OverlapThreeOrientation.certificate 9 8
+'Tuza06.OverlapThreeOrientation.case_9_8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_10_8 : Tuza06.OverlapThreeOrientation.certificate 10 8
+'Tuza06.OverlapThreeOrientation.case_10_8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.row8 : ∀ (g : Fin 11),
+  Tuza06.OverlapThreeOrientation.admissible g 8 → Tuza06.OverlapThreeOrientation.certificate g 8
+'Tuza06.OverlapThreeOrientation.row8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_2_9 : Tuza06.OverlapThreeOrientation.certificate 2 9
+'Tuza06.OverlapThreeOrientation.case_2_9' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_3_9 : Tuza06.OverlapThreeOrientation.certificate 3 9
+'Tuza06.OverlapThreeOrientation.case_3_9' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_5_9 : Tuza06.OverlapThreeOrientation.certificate 5 9
+'Tuza06.OverlapThreeOrientation.case_5_9' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_6_9 : Tuza06.OverlapThreeOrientation.certificate 6 9
+'Tuza06.OverlapThreeOrientation.case_6_9' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_7_9 : Tuza06.OverlapThreeOrientation.certificate 7 9
+'Tuza06.OverlapThreeOrientation.case_7_9' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_8_9 : Tuza06.OverlapThreeOrientation.certificate 8 9
+'Tuza06.OverlapThreeOrientation.case_8_9' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_9_9 : Tuza06.OverlapThreeOrientation.certificate 9 9
+'Tuza06.OverlapThreeOrientation.case_9_9' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.case_10_9 : Tuza06.OverlapThreeOrientation.certificate 10 9
+'Tuza06.OverlapThreeOrientation.case_10_9' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.row9 : ∀ (g : Fin 11),
+  Tuza06.OverlapThreeOrientation.admissible g 9 → Tuza06.OverlapThreeOrientation.certificate g 9
+'Tuza06.OverlapThreeOrientation.row9' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.certified : ∀ (g : Fin 11) (f : Fin 10),
+  Tuza06.OverlapThreeOrientation.admissible g f → Tuza06.OverlapThreeOrientation.certificate g f
+'Tuza06.OverlapThreeOrientation.certified' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.near_link_other_edges.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (i : Function.Embedding.{1, u_1 + 1} (Fin 9) V) (N m : Finset.{0} (Fin 9)),
+  Tuza06.NearClique.{u_1} G (Finset.map.{0, u_1} i N) →
+    Membership.mem.{0, 0} (Tuza.edges.{0} N) m →
+      ¬SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} i m) →
+        ∀ (e : Finset.{0} (Fin 9)),
+          Membership.mem.{0, 0} (Tuza.edges.{0} N) e →
+            Ne.{1} e m → SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} i e)
+'Tuza06.near_link_other_edges' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.link_edges_of_clique.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (i : Function.Embedding.{1, u_1 + 1} (Fin 9) V) (N : Finset.{0} (Fin 9)),
+  SimpleGraph.IsClique.{u_1} G ↑(Finset.map.{0, u_1} i N) →
+    ∀ (e : Finset.{0} (Fin 9)),
+      Membership.mem.{0, 0} (Tuza.edges.{0} N) e → SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} i e)
+'Tuza06.link_edges_of_clique' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.exists_missing_labeled_edge.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (i : Function.Embedding.{1, u_1 + 1} (Fin 9) V) (N : Finset.{0} (Fin 9)),
+  ¬SimpleGraph.IsClique.{u_1} G ↑(Finset.map.{0, u_1} i N) →
+    ∃ m, Membership.mem.{0, 0} (Tuza.edges.{0} N) m ∧ ¬SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} i m)
+'Tuza06.exists_missing_labeled_edge' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.xEdges_eq : Eq.{1} Tuza06.OverlapThreeOrientation.xEdges (Tuza.edges.{0} Tuza06.threeNx)
+'Tuza06.OverlapThreeOrientation.xEdges_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.yEdges_eq : Eq.{1} Tuza06.OverlapThreeOrientation.yEdges (Tuza.edges.{0} Tuza06.threeNy)
+'Tuza06.OverlapThreeOrientation.yEdges_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.OverlapThreeOrientation.actual_known_certificate.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} (i : Function.Embedding.{1, u_1 + 1} (Fin 9) V),
+  Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i 0)) (Finset.map.{0, u_1} i Tuza06.threeNx) →
+    Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i 1)) (Finset.map.{0, u_1} i Tuza06.threeNy) →
+      Tuza06.NearClique.{u_1} G (Finset.map.{0, u_1} i Tuza06.threeNx) →
+        Tuza06.NearClique.{u_1} G (Finset.map.{0, u_1} i Tuza06.threeNy) →
+          ¬SimpleGraph.IsClique.{u_1} G ↑(Finset.map.{0, u_1} i Tuza06.threeNy) →
+            ∃ g f,
+              Tuza06.OverlapThreeOrientation.admissible g f ∧
+                ¬SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} i (Tuza06.OverlapThreeOrientation.yMissing f)) ∧
+                  ∀ (e : Finset.{0} (Fin 9)),
+                    Membership.mem.{0, 0} (Tuza06.OverlapThreeOrientation.known g f) e →
+                      SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} i e)
+'Tuza06.OverlapThreeOrientation.actual_known_certificate' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.pattern_upper : ∀ (k : Fin 3),
+  Eq.{1} (Tuza06.FiniteReduction.Upper.{0} (Tuza06.OverlapThreeOrientation.pattern k))
+    (Tuza06.OverlapThreeOrientation.upper k)
+'Tuza06.OverlapThreeOrientation.pattern_upper' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.pattern_U : ∀ (k : Fin 3),
+  Eq.{1} (Tuza06.FiniteReduction.U.{0} (Tuza06.OverlapThreeOrientation.pattern k))
+    (insert.{0, 0} 0 (singleton.{0, 0} 1))
+'Tuza06.OverlapThreeOrientation.pattern_U' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_0_0 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 0 b
+'Tuza06.OverlapThreeOrientation.upper_0_0' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_0_1 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 1 b
+'Tuza06.OverlapThreeOrientation.upper_0_1' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_0_2 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 2 b
+'Tuza06.OverlapThreeOrientation.upper_0_2' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_0_3 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 3 b
+'Tuza06.OverlapThreeOrientation.upper_0_3' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_0_4 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 4 b
+'Tuza06.OverlapThreeOrientation.upper_0_4' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_0_5 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 5 b
+'Tuza06.OverlapThreeOrientation.upper_0_5' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_0_6 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 6 b
+'Tuza06.OverlapThreeOrientation.upper_0_6' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_0_7 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 7 b
+'Tuza06.OverlapThreeOrientation.upper_0_7' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_0_8 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 8 b
+'Tuza06.OverlapThreeOrientation.upper_0_8' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_group0 : ∀ (a b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 0 a b
+'Tuza06.OverlapThreeOrientation.upper_group0' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_1_0 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 1 0 b
+'Tuza06.OverlapThreeOrientation.upper_1_0' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_1_1 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 1 1 b
+'Tuza06.OverlapThreeOrientation.upper_1_1' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_1_2 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 1 2 b
+'Tuza06.OverlapThreeOrientation.upper_1_2' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.OverlapThreeOrientation.upper_1_3 : ∀ (b : Fin 9), Tuza06.OverlapThreeOrientation.upperCheck 1 3 b
+'Tuza06.OverlapThreeOrientation.upper_1_3' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

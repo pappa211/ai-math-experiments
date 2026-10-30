@@ -1,0 +1,12 @@
+Tuza06/SmallLinksK4.lean:207:20: warning: Try `simp at hae` instead of `simpa using hae`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Tuza06/SmallLinksK4.lean:209:20: warning: Try `simp at hae` instead of `simpa using hae`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Tuza06/SmallLinksK4.lean:218:20: warning: Try `simp at hbe` instead of `simpa using hbe`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+Tuza06/SmallLinksK4.lean:220:20: warning: Try `simp at hbe` instead of `simpa using hbe`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`

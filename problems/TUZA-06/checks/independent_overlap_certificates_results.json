@@ -1,0 +1,401 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-30T21:11:44.911900+00:00",
+  "method": "standard-library Python parse of actual Lean source literals; seven supplied pattern certificates and 110 missing-edge pair inputs; no graph census or outside-attachment enumeration",
+  "patterns": [
+    {
+      "pattern": "OverlapFiveClique",
+      "order": 7,
+      "packing": 6,
+      "cover": 10,
+      "center_triangles_checked": 20,
+      "strict": true
+    },
+    {
+      "pattern": "OverlapFiveNear",
+      "order": 7,
+      "packing": 5,
+      "cover": 9,
+      "center_triangles_checked": 18,
+      "strict": true
+    },
+    {
+      "pattern": "OverlapFourClique",
+      "order": 8,
+      "packing": 4,
+      "cover": 8,
+      "center_triangles_checked": 20,
+      "strict": false,
+      "augmentation": 5,
+      "terminal_edges": 2,
+      "terminal_incidence": {
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      }
+    },
+    {
+      "pattern": "OverlapFourNear",
+      "order": 8,
+      "packing": 4,
+      "cover": 7,
+      "center_triangles_checked": 18,
+      "strict": true
+    },
+    {
+      "pattern": "OverlapThreeInside",
+      "order": 9,
+      "packing": 6,
+      "cover": 12,
+      "center_triangles_checked": 18,
+      "strict": false,
+      "augmentation": 7,
+      "terminal_edges": 4,
+      "terminal_incidence": {
+        "3": 2,
+        "4": 1,
+        "7": 1
+      }
+    },
+    {
+      "pattern": "OverlapThreeOutsideArm",
+      "order": 9,
+      "packing": 6,
+      "cover": 12,
+      "center_triangles_checked": 19,
+      "strict": false,
+      "augmentation": 7,
+      "terminal_edges": 3,
+      "terminal_incidence": {
+        "2": 2,
+        "4": 1
+      }
+    },
+    {
+      "pattern": "OverlapThreeOutsidePair",
+      "order": 9,
+      "packing": 6,
+      "cover": 12,
+      "center_triangles_checked": 19,
+      "strict": false,
+      "augmentation": 7,
+      "terminal_edges": 3,
+      "terminal_incidence": {
+        "2": 2,
+        "4": 1
+      }
+    }
+  ],
+  "orientation_inputs": 110,
+  "admissible_orientation_cases": 59,
+  "permutations": 24,
+  "upper_ordered_pairs_checked": 243,
+  "admissible_cases": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      6,
+      9
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      9,
+      7
+    ],
+    [
+      9,
+      8
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      10,
+      7
+    ],
+    [
+      10,
+      8
+    ],
+    [
+      10,
+      9
+    ]
+  ],
+  "source_hashes": {
+    "lean/Tuza06/OverlapFiveClique.lean": "74a02e298024f3a5ef90e7d796273cd801d31d67d014f4ab6dc9acd6a15cb991",
+    "lean/Tuza06/OverlapFiveNear.lean": "b9b45da3085ca3e41bc949ff325b23a10555fab23efb23d7265fc5cdd4faaad6",
+    "lean/Tuza06/OverlapFourClique.lean": "6adf070ed9c35a5d305e243e3af15d98bd4a860655a456a4cc3f1f3548f54d49",
+    "lean/Tuza06/OverlapFourNear.lean": "6f005f969c3dc868edf80a15606e2ef5dd41f90b21630df0cb66eb0561feb633",
+    "lean/Tuza06/OverlapThreeInside.lean": "29411ad0cad7374a82f9d33dadf6ce9fbbf7a03bdae25bd1a6d99afe1844131f",
+    "lean/Tuza06/OverlapThreeOutsideArm.lean": "6c2d8c6bfb88fe7a0a09682699fbbb8963cd0a23c82dd2536a4379e2755e684d",
+    "lean/Tuza06/OverlapThreeOutsidePair.lean": "d576daf6bfbf88e9a815ac2859dd55ccf7ffa50e2571711cc4768ebc38b6f74e",
+    "lean/Tuza06/OverlapThreeActualFiniteBasic.lean": "663c08d78e1a340b98aa90c37d48db602e60053130a4ff462317b53063712c88",
+    "lean/Tuza06/OverlapThreeActualCase3_6.lean": "10e7654f90222b9b6e7a60b1dd07988744addc0131cbe2444d1f5a8d72bf947e",
+    "lean/Tuza06/OverlapThreeActualCase9_2.lean": "879ca127f64a32f30374b454c2ee260daeeffb6fd8f10eee5ed61009f55a98ec",
+    "lean/Tuza06/OverlapThreeActualCase10_2.lean": "ab975284ac6d545cb670a642f1d5ff28c8b3b4fd3d80cb3da0487ccba0bcb136",
+    "lean/Tuza06/OverlapThreeActualCase5_3.lean": "1aa472bcb54c702ad4a2f1712c7466b0226c46f600f0c5a633b74934884e3be4",
+    "lean/Tuza06/OverlapThreeActualCase7_3.lean": "20c05ae3e35ebb6b8e76b986b90df7253ff10fa0fee2727b72354c68926044bd",
+    "lean/Tuza06/OverlapThreeActualCase9_6.lean": "85a50ff21940a3ffb5d4910475a70f9977c966d10deaf26fabc87e52674e22d7",
+    "lean/Tuza06/OverlapThreeActualCase7_6.lean": "97debd868b8bb4b094eb255e4be9ac2d01276a0ae737235e2edd95f660812250",
+    "lean/Tuza06/OverlapThreeActualCase9_3.lean": "e676fd30b1ac05bbee20cc39eca90cb6ae91bd54ad0c9ab0c50521b1ab2df829",
+    "lean/Tuza06/OverlapThreeActualCase7_7.lean": "11b4cc301c55551bc217e6533d870b786377871662780632db2613d46d52a13b",
+    "lean/Tuza06/OverlapThreeActualCase10_7.lean": "4143316c21351880199c7c237b9baeae768ce81d7336bea3498993c919c611e7",
+    "lean/Tuza06/OverlapThreeActualCase4_4.lean": "67ef5661f866b9efd280d6ad6d04a9db98bc172dd05365992e328f3f07f22c76",
+    "lean/Tuza06/OverlapThreeActualCase7_2.lean": "cb00167039d7457bed3a789cc61d961a1a1f334cdbe35d4da532e8a856f261de",
+    "lean/Tuza06/OverlapThreeActualCase6_9.lean": "e523914276589b9b9c67917007465faa2c80fa4020ef2646118226bbaf6dc63b",
+    "lean/Tuza06/OverlapThreeActualCase9_5.lean": "df6b27210bda86218d851ae29464e3d88a43185961e717d7a13f5078ba9909b5",
+    "lean/Tuza06/OverlapThreeActualCase0_0.lean": "267ef5d0075f041ebfef75b182464730fbcec5d6fe90954d5d9749d09e8b64ea",
+    "lean/Tuza06/OverlapThreeActualCase3_5.lean": "754ea8bc1cb40256c42f832c78773626931fe5d23db37cd774a31867c67bf535",
+    "lean/Tuza06/OverlapThreeActualCase2_8.lean": "1ed0a272e5258a4db5ddd1f8db87d8cd8ae113ce3cd3c3bb5bf323417fc07d4c",
+    "lean/Tuza06/OverlapThreeActualCase6_5.lean": "f4b6321c30d601a32bbe767ab447b5b6f941c3279deeab440e219ac8bce4e2dd",
+    "lean/Tuza06/OverlapThreeActualCase7_5.lean": "cf859b7a1a61493640121699cbba8dea54d2f5aafecd543c7ba710caad04a676",
+    "lean/Tuza06/OverlapThreeActualCase8_8.lean": "bcbb69526fb3b412f39bd88ed2e0ee1351131a677dd0a10bb032f0af0ae786cc",
+    "lean/Tuza06/OverlapThreeActualCase6_7.lean": "f74dceef681dd8e9f3daed81256ff0476be53435d0d5c45510af88c667fa7856",
+    "lean/Tuza06/OverlapThreeActualCase2_3.lean": "093c383d005273b0b04086633c5d2bb496d82572f67157dae1dbb73f842afadc",
+    "lean/Tuza06/OverlapThreeActualCase3_9.lean": "ecd708f6f8ab7a76f3207cd225bac3935f9ca0b8dd66f6eb4de1395c5a0f38f7",
+    "lean/Tuza06/OverlapThreeActualCase2_9.lean": "f9779c0db5ea586d84cc557856bdd06450e02e3e7717f3868e5810e987fdc5c3",
+    "lean/Tuza06/OverlapThreeActualCase8_3.lean": "183bfecd75dab5797ba1d32491be63e5189ba14e0cdf668d6e42bf8fd7aae549",
+    "lean/Tuza06/OverlapThreeActualCase9_7.lean": "3a200243c3e850220e4a4aef611d6064fffdc4d9b241b007b23f5e67989b4a13",
+    "lean/Tuza06/OverlapThreeActualCase5_9.lean": "189689d1aab988f6ea08d0c1e798c256957d644d537a174e21a4b080cfed176d",
+    "lean/Tuza06/OverlapThreeActualCase5_6.lean": "ebad8ee84c5203c20ddf3e14584a417e12654ddb426fd41f9395d63d576f24b6",
+    "lean/Tuza06/OverlapThreeActualCase2_5.lean": "effc393d9e11e7e0b77e6d9dd7d0538effc82023f830bea466254a37d306ea94",
+    "lean/Tuza06/OverlapThreeActualCase6_2.lean": "aead4d2af89903062227026b35b6d9e02ed0f810f0b797e258fd6b3e3c5e30c4",
+    "lean/Tuza06/OverlapThreeActualCase6_3.lean": "68354aa2f697f633c8d763be705f1a2a148889e62776dcc84643c9341c92d441",
+    "lean/Tuza06/OverlapThreeActualCase5_5.lean": "16cd4e2c576612592eacf3451885b2482e1b3a928b09ede029899bd5bf0702e9",
+    "lean/Tuza06/OverlapThreeActualCase8_6.lean": "7b2f7fe4a23adb8e6cf894f36d1dac3604a29f1efdd7375be34c4b681eaf9b2c",
+    "lean/Tuza06/OverlapThreeActualCase10_6.lean": "92cb33536f624c747436a9fa3c9508a1e4312b6ff72840fa0da456fcce47068c",
+    "lean/Tuza06/OverlapThreeActualCase7_8.lean": "b4a0f5152488c483f13056fe8e3c7ba1c66000750683ea064e26f20c0ff47fb1",
+    "lean/Tuza06/OverlapThreeActualCase3_3.lean": "e22b0c31ecfd02d1ef32d7b4e9521a5bb42d99dc5b1a4bfa6ed4c2e81351c6ba",
+    "lean/Tuza06/OverlapThreeActualCase9_8.lean": "a4d4495385f92410dbe0e712edb14005664bfc2f6ff558c861ccfe1532ff92d8",
+    "lean/Tuza06/OverlapThreeActualCase8_2.lean": "2bfab90d7bd8202d46c4e2326e74783bfa5cf9e470779bc8061d940ed05a3606",
+    "lean/Tuza06/OverlapThreeActualCase3_8.lean": "1f82cb6eecfa3a90fb29c3cbf5e8033cb7674019cd49bcbb7ce30d266494832c",
+    "lean/Tuza06/OverlapThreeActualCase5_2.lean": "74335d41aa66ee57efc0632f3891c7df1fafd51335bcc8fbf4e20d73abc175f7",
+    "lean/Tuza06/OverlapThreeActualCase3_2.lean": "e0199a4be0a98db77e916cfee16363b39f83a4ba6a5ca00544163ac39e0107c9",
+    "lean/Tuza06/OverlapThreeActualCase2_7.lean": "b18dbf821c80c4dea283008a4c24c3bf618297feaedcbc7f53dc22aaa78c86d1",
+    "lean/Tuza06/OverlapThreeActualCase10_5.lean": "ed30d5118606fb664ef855a4f69149ce848d8e800c524b2c65b6c358ac1051d7",
+    "lean/Tuza06/OverlapThreeActualCase2_2.lean": "e40dec8c5e8181a3c2214bf34efeafa22ca9ede48e2e7e53e871d63e6ca2f0a4",
+    "lean/Tuza06/OverlapThreeActualCase9_9.lean": "33af6beccaf668878630b58e81ebb93455801f6f362f4064f2bfbd3574150c0c",
+    "lean/Tuza06/OverlapThreeActualCase2_6.lean": "eca0114225d2ecf9d756cc4ba7dc08589949ba593f6f671b285e17823cebf01c",
+    "lean/Tuza06/OverlapThreeActualCase7_9.lean": "b724fd05fc492956025e72cb85ba2f63d07ba5a4afe39332a0596d83f8502ba5",
+    "lean/Tuza06/OverlapThreeActualCase6_8.lean": "f0f88c2961bd3e49bb8f231224ad3debfe352eabd9a546ce369e744c4a09050f",
+    "lean/Tuza06/OverlapThreeActualCase8_9.lean": "f369a6e04db0ed140667eaa4a2aa6fb32fb4d90ed4fab43bd33a6629ddd30f85",
+    "lean/Tuza06/OverlapThreeActualCase10_3.lean": "79d662942860b9f170886b41489a595dcb4cc4bc79c9a20772882e933c3af62a",
+    "lean/Tuza06/OverlapThreeActualCase8_5.lean": "02ffb84d364d8db498b2fefb93d93176fdbca1c880abbaee4111e0d42a72c8b0",
+    "lean/Tuza06/OverlapThreeActualCase3_7.lean": "4aca3fafeb39c25608b8cc49ebedd8f6e883f6d5bc63038fe3eddd4cc9da88d4",
+    "lean/Tuza06/OverlapThreeActualCase10_9.lean": "1e369be60e6e3f37b5fab612517e357c4e3337fe3430fa8df9b337582140f0b9",
+    "lean/Tuza06/OverlapThreeActualCase5_8.lean": "c35a14e0cff89c9fc020824564da465a5f81c5bc666da1d42253bfe13ccdc097",
+    "lean/Tuza06/OverlapThreeActualCase10_8.lean": "763510178a28552f3de44e038d91f38604c2952d852b52960b3654f1c4e23674",
+    "lean/Tuza06/OverlapThreeActualCase5_7.lean": "feaf426dd04fe6753caa3ba3398d3a37cf66d0413ac186daadd01bb565894f57",
+    "lean/Tuza06/OverlapThreeActualCase1_1.lean": "a5ed3cba1142004aed80fcebd4435f4827ed3e8e1f5b6ba5bb2debaef6ab685a",
+    "lean/Tuza06/OverlapThreeActualCase8_7.lean": "90e3ab45ecb58ce0637cb90c2f8ef882b94faa885f815bb16040071dff9ee8c1",
+    "lean/Tuza06/OverlapThreeActualCase6_6.lean": "1793471599f5b20ba83cb309e93ba4a7ec53451b1e67a1824b5aa470fc7bb114"
+  }
+}

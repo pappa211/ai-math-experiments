@@ -1,0 +1,469 @@
+@Tuza06.canonical_configuration_near.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+  Tuza06.FiveLinkConfiguration.{u_1} G i
+        (sdiff.{0} (Tuza.edges.{0} Finset.univ.{0}) (singleton.{0, 0} (insert.{0, 0} 1 (singleton.{0, 0} 2)))) ∨
+      Tuza06.FiveLinkConfiguration.{u_1} G i (Tuza.edges.{0} Finset.univ.{0}) →
+    Tuza06.NearClique.{u_1} G (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i 0))
+'Tuza06.canonical_configuration_near' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.lowLinkBound_of_near.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {S : Finset.{u_1} V},
+  (∀ (v : V),
+      Membership.mem.{u_1, u_1} (Tuza06.peelLow.{u_1} G S) v →
+        Tuza06.NearClique.{u_1} G (Tuza06.peelNeighbors.{u_1} G S v)) →
+    Tuza06.LowLinkBound.{u_1} G S
+'Tuza06.lowLinkBound_of_near' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.realizes_reduction_witness.{u_1,
+    u_2} : ∀ {V : Type u_1} {I : Type u_2} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  [inst_2 : Fintype.{u_2} I] [inst_3 : DecidableEq.{u_2 + 1} I] (W : Tuza06.FiniteReduction.{u_2} I)
+  {G : SimpleGraph.{u_1} V} (i : Function.Embedding.{u_2 + 1, u_1 + 1} I V),
+  Tuza06.RealizesReduction.{u_1, u_2} W G i →
+    Tuza06.ReductionWitness.{u_1} G (Finset.map.{u_2, u_1} i (Tuza06.FiniteReduction.U.{u_2} W))
+      (Tuza06.liftFamily.{u_2, u_1} i (Tuza06.FiniteReduction.X.{u_2} W))
+      (Tuza06.liftFamily.{u_2, u_1} i (Tuza06.FiniteReduction.P.{u_2} W))
+'Tuza06.realizes_reduction_witness' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_finite_strict_reduction.{u_1,
+    u_2} : ∀ {V : Type u_1} {I : Type u_2} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  [inst_2 : Fintype.{u_2} I] [inst_3 : DecidableEq.{u_2 + 1} I] (W : Tuza06.FiniteReduction.{u_2} I)
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (i : Function.Embedding.{u_2 + 1, u_1 + 1} I V),
+      Tuza06.RealizesReduction.{u_1, u_2} W G i →
+        LT.lt.{0} (Finset.card.{u_2} (Tuza06.FiniteReduction.X.{u_2} W))
+            (HMul.hMul.{0, 0, 0} 2 (Finset.card.{u_2} (Tuza06.FiniteReduction.P.{u_2} W))) →
+          False
+'Tuza06.minimal_no_finite_strict_reduction' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_finite_reduction.{u_1,
+    u_2} : ∀ {V : Type u_1} {I : Type u_2} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  [inst_2 : Fintype.{u_2} I] [inst_3 : DecidableEq.{u_2 + 1} I] (W : Tuza06.FiniteReduction.{u_2} I)
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (i : Function.Embedding.{u_2 + 1, u_1 + 1} I V),
+      Tuza06.RealizesReduction.{u_1, u_2} W G i →
+        LE.le.{0} (Finset.card.{u_2} (Tuza06.FiniteReduction.X.{u_2} W))
+            (HMul.hMul.{0, 0, 0} 2 (Finset.card.{u_2} (Tuza06.FiniteReduction.P.{u_2} W))) →
+          Eq.{1} (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))
+              (HAdd.hAdd.{0, 0, 0}
+                (Tuza.nu.{u_1}
+                  (Tuza.triangles.{u_1}
+                    (Tuza06.remove.{u_1} G (Finset.map.{u_2, u_1} i (Tuza06.FiniteReduction.U.{u_2} W))
+                      (Tuza06.liftFamily.{u_2, u_1} i (Tuza06.FiniteReduction.X.{u_2} W)))))
+                (Finset.card.{u_2} (Tuza06.FiniteReduction.P.{u_2} W))) ∧
+            Tuza06.ComponentCliques.{u_1}
+              (Tuza06.remove.{u_1} G (Finset.map.{u_2, u_1} i (Tuza06.FiniteReduction.U.{u_2} W))
+                (Tuza06.liftFamily.{u_2, u_1} i (Tuza06.FiniteReduction.X.{u_2} W)))
+'Tuza06.minimal_finite_reduction' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_terminal_augmentation.{u_1,
+    u_2} : ∀ {V : Type u_1} {I : Type u_2} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  [inst_2 : Fintype.{u_2} I] [inst_3 : DecidableEq.{u_2 + 1} I] (W : Tuza06.FiniteReduction.{u_2} I)
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (i : Function.Embedding.{u_2 + 1, u_1 + 1} I V),
+      Tuza06.RealizesReduction.{u_1, u_2} W G i →
+        LE.le.{0} (Finset.card.{u_2} (Tuza06.FiniteReduction.X.{u_2} W))
+            (HMul.hMul.{0, 0, 0} 2 (Finset.card.{u_2} (Tuza06.FiniteReduction.P.{u_2} W))) →
+          ∀ (Aug D : Finset.{u_2} (Finset.{u_2} I)) (A : Finset.{u_2} I),
+            Tuza.Independent.{u_2} Aug →
+              Tuza06.liftFamily.{u_2, u_1} i Aug ⊆ Tuza.triangles.{u_1} G →
+                LT.lt.{0} (Finset.card.{u_2} (Tuza06.FiniteReduction.P.{u_2} W)) (Finset.card.{u_2} Aug) →
+                  (∀ (p : Finset.{u_2} I),
+                      Membership.mem.{u_2, u_2} Aug p →
+                        ∀ (e : Finset.{u_2} I),
+                          Membership.mem.{u_2, u_2} (Tuza.edges.{u_2} p) e →
+                            Disjoint.{u_2} e (Tuza06.FiniteReduction.U.{u_2} W) →
+                              e ∉ Tuza06.FiniteReduction.X.{u_2} W → Membership.mem.{u_2, u_2} D e) →
+                    Tuza.edges.{u_2} A ⊆ Tuza06.FiniteReduction.X.{u_2} W →
+                      (∀ (e : Finset.{u_2} I),
+                          Membership.mem.{u_2, u_2} D e →
+                            ∃ a, Membership.mem.{u_2, u_2} A a ∧ Membership.mem.{u_2, u_2} e a) →
+                        (∀ (a : I),
+                            Membership.mem.{u_2, u_2} A a →
+                              LE.le.{0} (Finset.card.{u_2} ({e ∈ D | Membership.mem.{u_2, u_2} e a})) 2) →
+                          False
+'Tuza06.minimal_no_terminal_augmentation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.DominatingFive.excluded.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (i : Function.Embedding.{1, u_1 + 1} (Fin 6) V),
+      Tuza06.RealizesReduction.{u_1, 0} Tuza06.DominatingFive.witness G i → False
+'Tuza06.DominatingFive.excluded' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.DominatingNearSix.excluded.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (i : Function.Embedding.{1, u_1 + 1} (Fin 7) V),
+      Tuza06.RealizesReduction.{u_1, 0} Tuza06.DominatingNearSix.witness G i → False
+'Tuza06.DominatingNearSix.excluded' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.DominatingCliqueSix.excluded.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (i : Function.Embedding.{1, u_1 + 1} (Fin 7) V),
+      Tuza06.RealizesReduction.{u_1, 0} Tuza06.DominatingCliqueSix.witness G i → False
+'Tuza06.DominatingCliqueSix.excluded' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.AdjacentLow.excluded.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (i : Function.Embedding.{1, u_1 + 1} (Fin 7) V),
+      Tuza06.RealizesReduction.{u_1, 0} Tuza06.AdjacentLow.witness G i →
+        Tuza06.liftFamily.{0, u_1} i Tuza06.AdjacentLow.Aug ⊆ Tuza.triangles.{u_1} G → False
+'Tuza06.AdjacentLow.excluded' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_degree_five_near.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {v : V},
+      Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} v) 5 →
+        Tuza06.NearClique.{u_1} G (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} v)
+'Tuza06.minimal_degree_five_near' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.mapped_triangles_of_edges.{u_1,
+    u_2} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {I : Type u_2}
+  [DecidableEq.{u_2 + 1} I] {G : SimpleGraph.{u_1} V} (i : Function.Embedding.{u_2 + 1, u_1 + 1} I V)
+  {P E : Finset.{u_2} (Finset.{u_2} I)},
+  (∀ (e : Finset.{u_2} I),
+      Membership.mem.{u_2, u_2} E e → SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{u_2, u_1} i e)) →
+    (∀ (p : Finset.{u_2} I), Membership.mem.{u_2, u_2} P p → Eq.{1} (Finset.card.{u_2} p) 3 ∧ Tuza.edges.{u_2} p ⊆ E) →
+      Tuza06.liftFamily.{u_2, u_1} i P ⊆ Tuza.triangles.{u_1} G
+'Tuza06.mapped_triangles_of_edges' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.configuration_subpattern_triangles.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V}
+  {E : Finset.{0} (Finset.{0} (Fin 6))},
+  Tuza06.FiveLinkConfiguration.{u_1} G i E →
+    ∀ (r : Function.Embedding.{1, 1} (Fin 6) (Fin 6)) {P : Finset.{0} (Finset.{0} (Fin 6))},
+      Tuza06.liftFamily.{0, 0} r P ⊆ Tuza06.coreFamily E →
+        Tuza06.liftFamily.{0, u_1} (Function.Embedding.trans.{1, 1, u_1 + 1} r i) P ⊆ Tuza.triangles.{u_1} G
+'Tuza06.configuration_subpattern_triangles' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.finite_embedding_range_eq.{u_1} : ∀ {I : Type u_1} [inst : Fintype.{u_1} I] [DecidableEq.{u_1 + 1} I]
+  (r : Function.Embedding.{u_1 + 1, u_1 + 1} I I),
+  Eq.{u_1 + 1} (Finset.map.{u_1, u_1} r Finset.univ.{u_1}) Finset.univ.{u_1}
+'Tuza06.finite_embedding_range_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.core_neighbor_range.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V} {E : Finset.{0} (Finset.{0} (Fin 6))},
+  Tuza06.FiveLinkConfiguration.{u_1} G i E →
+    ∀ {k : Fin 6},
+      Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i k)) 5 →
+        (∀ (a : Fin 6), Ne.{1} a k → Membership.mem.{0, 0} E (insert.{0, 0} k (singleton.{0, 0} a))) →
+          ∀ (z : V),
+            SimpleGraph.Adj.{u_1} G (i k) z → Membership.mem.{u_1, u_1} (Finset.map.{0, u_1} i Finset.univ.{0}) z
+'Tuza06.core_neighbor_range' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_dominating_five_configuration.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V} {E : Finset.{0} (Finset.{0} (Fin 6))},
+      Tuza06.FiveLinkConfiguration.{u_1} G i E →
+        ∀ (k : Fin 5),
+          Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i k.succ)) 5 →
+            (∀ (a : Fin 6), Ne.{1} a k.succ → Membership.mem.{0, 0} E (insert.{0, 0} k.succ (singleton.{0, 0} a))) →
+              (∀ (p : ↥Tuza06.DominatingFive.P),
+                  Membership.mem.{0, 0} (Tuza06.coreFamily E) (Finset.map.{0, 0} (Tuza06.domReorder✝ k) ↑p)) →
+                False
+'Tuza06.minimal_no_dominating_five_configuration' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_clique_degree_five_neighbor.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+      Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveCliqueCore →
+        ∀ (k : Fin 5), Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i k.succ)) 5 → False
+'Tuza06.minimal_no_clique_degree_five_neighbor' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_near_dominating_degree_five_neighbor.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+      Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+        ∀ (k : Fin 5), LE.le.{0} 2 ↑k → Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i k.succ)) 5 → False
+'Tuza06.minimal_no_near_dominating_degree_five_neighbor' depends on axioms: [propext,
+ Classical.choice.{u},
+ Quot.sound.{u}]
+@Tuza06.near_endpoint_private_neighbor.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+  Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+    Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i 1)) 5 →
+      ∃ p ∉ Finset.map.{0, u_1} i Finset.univ.{0},
+        Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i 1))
+          (insert.{u_1, u_1} p
+            (Finset.map.{0, u_1} i (insert.{0, 0} 0 (insert.{0, 0} 3 (insert.{0, 0} 4 (singleton.{0, 0} 5))))))
+'Tuza06.near_endpoint_private_neighbor' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.near_endpoint_private_spokes.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+      Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+        Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i 1)) 5 →
+          ∀ {p : V},
+            p ∉ Finset.map.{0, u_1} i Finset.univ.{0} →
+              Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i 1))
+                  (insert.{u_1, u_1} p
+                    (Finset.map.{0, u_1} i
+                      (insert.{0, 0} 0 (insert.{0, 0} 3 (insert.{0, 0} 4 (singleton.{0, 0} 5)))))) →
+                ∀ (a : Fin 6),
+                  Membership.mem.{0, 0} (insert.{0, 0} 1 (insert.{0, 0} 3 (insert.{0, 0} 4 (singleton.{0, 0} 5)))) a →
+                    SimpleGraph.Adj.{u_1} G (i a) p
+'Tuza06.near_endpoint_private_spokes' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_near_endpoint_degree_five.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+      Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+        Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i 1)) 5 → False
+'Tuza06.minimal_no_near_endpoint_degree_five' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.near_configuration_swap.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+  Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+    Tuza06.FiveLinkConfiguration.{u_1} G (Function.Embedding.trans.{1, 1, u_1 + 1} Tuza06.swapEnds✝ i)
+      Tuza06.fiveNearCore
+'Tuza06.near_configuration_swap' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_near_second_endpoint_degree_five.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+      Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+        Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i 2)) 5 → False
+'Tuza06.minimal_no_near_second_endpoint_degree_five' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_degree_five_independent.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {u v : V},
+      Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} u) 5 →
+        Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} v) 5 → SimpleGraph.Adj.{u_1} G u v → False
+'Tuza06.minimal_degree_five_independent' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.core_dominating_six_private_neighbor.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V}
+  {E : Finset.{0} (Finset.{0} (Fin 6))},
+  Tuza06.FiveLinkConfiguration.{u_1} G i E →
+    ∀ (k : Fin 6),
+      (∀ (a : Fin 6), Ne.{1} a k → Membership.mem.{0, 0} E (insert.{0, 0} k (singleton.{0, 0} a))) →
+        Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i k)) 6 →
+          ∃ p ∉ Finset.map.{0, u_1} i Finset.univ.{0},
+            Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i k))
+              (insert.{u_1, u_1} p (Finset.map.{0, u_1} i (Finset.erase.{0} Finset.univ.{0} k)))
+'Tuza06.core_dominating_six_private_neighbor' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.core_hub_not_outside.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V} {E : Finset.{0} (Finset.{0} (Fin 6))},
+  Tuza06.FiveLinkConfiguration.{u_1} G i E →
+    ∀ {p : V}, p ∉ Finset.map.{0, u_1} i Finset.univ.{0} → ¬SimpleGraph.Adj.{u_1} G (i 0) p
+'Tuza06.core_hub_not_outside' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.core_outside_triangle_apex.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V} {E : Finset.{0} (Finset.{0} (Fin 6))},
+      Tuza06.FiveLinkConfiguration.{u_1} G i E →
+        ∀ (k : Fin 6),
+          Ne.{1} k 0 →
+            ∀ {p : V},
+              p ∉ Finset.map.{0, u_1} i Finset.univ.{0} →
+                Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i k))
+                    (insert.{u_1, u_1} p (Finset.map.{0, u_1} i (Finset.erase.{0} Finset.univ.{0} k))) →
+                  ∃ w, Ne.{1} w 0 ∧ Ne.{1} w k ∧ SimpleGraph.Adj.{u_1} G (i w) p
+'Tuza06.core_outside_triangle_apex' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.extended_core_known_edges.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V} {E : Finset.{0} (Finset.{0} (Fin 6))},
+  Tuza06.FiveLinkConfiguration.{u_1} G i E →
+    E ⊆ Tuza.edges.{0} Finset.univ.{0} →
+      ∀ (p : V) (hx : ∀ (a : Fin 6), Ne.{u_1 + 1} (i a) p) (k w : Fin 6),
+        SimpleGraph.Adj.{u_1} G (i k) p →
+          SimpleGraph.Adj.{u_1} G (i w) p →
+            ∀ (f : Finset.{0} (Fin 7)),
+              Membership.mem.{0, 0}
+                  (Union.union.{0} (Tuza06.liftFamily.{0, 0} Tuza06.sixIntoSeven E)
+                    (insert.{0, 0} (insert.{0, 0} k.castSucc (singleton.{0, 0} 6))
+                      (singleton.{0, 0} (insert.{0, 0} w.castSucc (singleton.{0, 0} 6)))))
+                  f →
+                SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} (Tuza06.extendFiniteEmbedding.{u_1} i p hx) f)
+'Tuza06.extended_core_known_edges' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.dominating_six_realizes.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V} {E : Finset.{0} (Finset.{0} (Fin 6))},
+  Tuza06.FiveLinkConfiguration.{u_1} G i E →
+    ∀ (W : Tuza06.FiniteReduction.{0} (Fin 7)),
+      Eq.{1} (Tuza06.FiniteReduction.U.{0} W) (insert.{0, 0} 0 (singleton.{0, 0} 1)) →
+        ∀ (p : V) (hx : ∀ (a : Fin 6), Ne.{u_1 + 1} (i a) p) (k : Fin 6),
+          Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i k))
+              (insert.{u_1, u_1} p (Finset.map.{0, u_1} i (Finset.erase.{0} Finset.univ.{0} k))) →
+            ∀ (r : Function.Embedding.{1, 1} (Fin 7) (Fin 7)),
+              Eq.{1} (r 0) k.castSucc →
+                Eq.{1} (r 1) 0 →
+                  (∀ (a b : Fin 7),
+                      SimpleGraph.Adj.{u_1} G ((Tuza06.extendFiniteEmbedding.{u_1} i p hx) (r a))
+                          ((Tuza06.extendFiniteEmbedding.{u_1} i p hx) (r b)) →
+                        Membership.mem.{0, 0} (Tuza06.FiniteReduction.Upper.{0} W)
+                          (insert.{0, 0} a (singleton.{0, 0} b))) →
+                    Tuza06.liftFamily.{0, u_1}
+                          (Function.Embedding.trans.{1, 1, u_1 + 1} r (Tuza06.extendFiniteEmbedding.{u_1} i p hx))
+                          (Tuza06.FiniteReduction.P.{0} W) ⊆
+                        Tuza.triangles.{u_1} G →
+                      Tuza06.RealizesReduction.{u_1, 0} W G
+                        (Function.Embedding.trans.{1, 1, u_1 + 1} r (Tuza06.extendFiniteEmbedding.{u_1} i p hx))
+'Tuza06.dominating_six_realizes' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_near_dominating_degree_six.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+      Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+        ∀ (k : Fin 3), Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i (Tuza06.nearCenter✝ k))) 6 → False
+'Tuza06.minimal_no_near_dominating_degree_six' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_clique_degree_six_neighbor.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+      Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveCliqueCore →
+        ∀ (k : Fin 6), Ne.{1} k 0 → Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i k)) 6 → False
+'Tuza06.minimal_no_clique_degree_six_neighbor' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.pair_graph_edge.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {a b : V},
+  SimpleGraph.Adj.{u_1} G a b → SimpleGraph.IsNClique.{u_1} G 2 (insert.{u_1, u_1} a (singleton.{u_1, u_1} b))
+'Tuza06.pair_graph_edge' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_support_nonempty.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V}, Tuza06.MinimalObstruction.{u_1} G → Finset.Nonempty.{u_1} (Tuza06.triangleVertices.{u_1} G)
+'Tuza06.minimal_support_nonempty' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_adj_vertices_supported.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {a b : V},
+      SimpleGraph.Adj.{u_1} G a b →
+        Membership.mem.{u_1, u_1} (Tuza06.triangleVertices.{u_1} G) a ∧
+          Membership.mem.{u_1, u_1} (Tuza06.triangleVertices.{u_1} G) b
+'Tuza06.minimal_adj_vertices_supported' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_neighbors_supported.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (v : V),
+      Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G (Tuza06.triangleVertices.{u_1} G) v)
+        (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} v)
+'Tuza06.minimal_neighbors_supported' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_support_degree_eq.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (v : V),
+      Eq.{1} (Tuza06.degreeWithin.{u_1} G (Tuza06.triangleVertices.{u_1} G) v)
+        (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} v)
+'Tuza06.minimal_support_degree_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_support_degree_ge_three.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {v : V},
+      Membership.mem.{u_1, u_1} (Tuza06.triangleVertices.{u_1} G) v →
+        LE.le.{0} 3 (Tuza06.degreeWithin.{u_1} G (Tuza06.triangleVertices.{u_1} G) v)
+'Tuza06.minimal_support_degree_ge_three' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.full_link_closed.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V) (v : V), Tuza06.LinkClosed.{u_1} G v (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} v)
+'Tuza06.full_link_closed' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_support_degree_ge_five.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {v : V},
+      Membership.mem.{u_1, u_1} (Tuza06.triangleVertices.{u_1} G) v →
+        LE.le.{0} 5 (Tuza06.degreeWithin.{u_1} G (Tuza06.triangleVertices.{u_1} G) v)
+'Tuza06.minimal_support_degree_ge_five' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.four_degenerate_combined.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.Degenerate.{u_1} G 4 →
+    LE.le.{0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+        (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ∧
+      (Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+          (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ↔
+        Tuza06.ComponentCliques.{u_1} G)
+'Tuza06.four_degenerate_combined' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.four_degenerate_inequality.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.Degenerate.{u_1} G 4 →
+    LE.le.{0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G)) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G)))
+'Tuza06.four_degenerate_inequality' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.four_degenerate_equality.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.Degenerate.{u_1} G 4 →
+    (Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G)) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ↔
+      Tuza06.ComponentCliques.{u_1} G)
+'Tuza06.four_degenerate_equality' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.near_endpoint_two_private_neighbors.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+  Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+    Eq.{1} (Tuza06.degreeWithin.{u_1} G Finset.univ.{u_1} (i 1)) 6 →
+      ∃ p q,
+        Ne.{u_1 + 1} p q ∧
+          p ∉ Finset.map.{0, u_1} i Finset.univ.{0} ∧
+            q ∉ Finset.map.{0, u_1} i Finset.univ.{0} ∧
+              Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i 1))
+                (Union.union.{u_1} (insert.{u_1, u_1} p (singleton.{u_1, u_1} q))
+                  (Finset.map.{0, u_1} i (insert.{0, 0} 0 (insert.{0, 0} 3 (insert.{0, 0} 4 (singleton.{0, 0} 5))))))
+'Tuza06.near_endpoint_two_private_neighbors' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.extendTwo_old.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (i : Function.Embedding.{1, u_1 + 1} (Fin 6) V) (p q : V) (hp : ∀ (a : Fin 6), Ne.{u_1 + 1} (i a) p)
+  (hq : ∀ (a : Fin 6), Ne.{u_1 + 1} (i a) q) (hpq : Ne.{u_1 + 1} p q) (a : Fin 6),
+  Eq.{u_1 + 1} ((Tuza06.extendTwoFiniteEmbedding.{u_1} i p q hp hq hpq) a.castSucc.castSucc) (i a)
+'Tuza06.extendTwo_old' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.extendTwo_six.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (i : Function.Embedding.{1, u_1 + 1} (Fin 6) V) (p q : V) (hp : ∀ (a : Fin 6), Ne.{u_1 + 1} (i a) p)
+  (hq : ∀ (a : Fin 6), Ne.{u_1 + 1} (i a) q) (hpq : Ne.{u_1 + 1} p q),
+  Eq.{u_1 + 1} ((Tuza06.extendTwoFiniteEmbedding.{u_1} i p q hp hq hpq) 6) p
+'Tuza06.extendTwo_six' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.extendTwo_seven.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (i : Function.Embedding.{1, u_1 + 1} (Fin 6) V) (p q : V) (hp : ∀ (a : Fin 6), Ne.{u_1 + 1} (i a) p)
+  (hq : ∀ (a : Fin 6), Ne.{u_1 + 1} (i a) q) (hpq : Ne.{u_1 + 1} p q),
+  Eq.{u_1 + 1} ((Tuza06.extendTwoFiniteEmbedding.{u_1} i p q hp hq hpq) 7) q
+'Tuza06.extendTwo_seven' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.near_endpoint_private_two_rim_neighbors.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+      Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+        ∀ {p q : V},
+          p ∉ Finset.map.{0, u_1} i Finset.univ.{0} →
+            Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i 1))
+                (Union.union.{u_1} (insert.{u_1, u_1} p (singleton.{u_1, u_1} q))
+                  (Finset.map.{0, u_1} i (insert.{0, 0} 0 (insert.{0, 0} 3 (insert.{0, 0} 4 (singleton.{0, 0} 5)))))) →
+              ¬SimpleGraph.Adj.{u_1} G p q →
+                ∃ a,
+                  Membership.mem.{0, 0} (insert.{0, 0} 3 (insert.{0, 0} 4 (singleton.{0, 0} 5))) a ∧
+                    ∃ b,
+                      Membership.mem.{0, 0} (insert.{0, 0} 3 (insert.{0, 0} 4 (singleton.{0, 0} 5))) b ∧
+                        Ne.{1} a b ∧ SimpleGraph.Adj.{u_1} G p (i a) ∧ SimpleGraph.Adj.{u_1} G p (i b)
+'Tuza06.near_endpoint_private_two_rim_neighbors' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.retained_matching_triangle.{u_1,
+    u_2} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {I : Type u_2} [Fintype.{u_2} I]
+  [DecidableEq.{u_2 + 1} I] {G : SimpleGraph.{u_1} V} (i : Function.Embedding.{u_2 + 1, u_1 + 1} I V) (u : I)
+  (M : Finset.{u_2} (Finset.{u_2} I)) (Q t : Finset.{u_2} I),
+  Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} G) (Finset.map.{u_2, u_1} i t) →
+    u ∉ t →
+      Disjoint.{u_2} (Tuza.edges.{u_2} t) M →
+        Membership.mem.{u_1, u_1}
+          (Tuza.triangles.{u_1}
+            (Tuza06.remove.{u_1} G (singleton.{u_1, u_1} (i u))
+              (Union.union.{u_1} (Tuza06.liftFamily.{u_2, u_1} i M)
+                (Tuza06.spokes.{u_1} (i u) (Finset.map.{u_2, u_1} i Q)))))
+          (Finset.map.{u_2, u_1} i t)
+'Tuza06.retained_matching_triangle' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.ResidualOverlapPattern.excluded.{u_1,
+    u_2} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {I : Type u_2}
+  [inst_2 : Fintype.{u_2} I] [inst_3 : DecidableEq.{u_2 + 1} I] (W : Tuza06.ResidualOverlapPattern.{u_2} I)
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (i : Function.Embedding.{u_2 + 1, u_1 + 1} I V),
+      Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i (Tuza06.ResidualOverlapPattern.hub.{u_2} W)))
+          (Finset.map.{u_2, u_1} i (Tuza06.ResidualOverlapPattern.N.{u_2} W)) →
+        (∀ (f : Finset.{u_2} I),
+            Membership.mem.{u_2, u_2} (Tuza06.ResidualOverlapPattern.Known.{u_2} W) f →
+              SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{u_2, u_1} i f)) →
+          (∀ (a b : I),
+              Membership.mem.{u_2, u_2} (Tuza06.ResidualOverlapPattern.Bad.{u_2} W)
+                  (insert.{u_2, u_2} a (singleton.{u_2, u_2} b)) →
+                ¬SimpleGraph.Adj.{u_1} G (i a) (i b)) →
+            False
+'Tuza06.ResidualOverlapPattern.excluded' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.endpoint_six_pattern_realization.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 6) V},
+  Tuza06.FiveLinkConfiguration.{u_1} G i Tuza06.fiveNearCore →
+    ∀ {p q : V},
+      Ne.{u_1 + 1} p q →
+        p ∉ Finset.map.{0, u_1} i Finset.univ.{0} →
+          q ∉ Finset.map.{0, u_1} i Finset.univ.{0} →
+            Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (i 1))
+                (Union.union.{u_1} (insert.{u_1, u_1} p (singleton.{u_1, u_1} q))
+                  (Finset.map.{0, u_1} i (insert.{0, 0} 0 (insert.{0, 0} 3 (insert.{0, 0} 4 (singleton.{0, 0} 5)))))) →
+              ∃ e,
+                Eq.{u_1 + 1} (e 0) (i 0) ∧
+                  Eq.{u_1 + 1} (e 1) (i 1) ∧
+                    Eq.{u_1 + 1} (e 3) (i 3) ∧
+                      Eq.{u_1 + 1} (e 4) (i 4) ∧
+                        Eq.{u_1 + 1} (e 6) p ∧
+                          Eq.{u_1 + 1} (e 7) q ∧
+                            Eq.{u_1 + 1} (Tuza06.peelNeighbors.{u_1} G Finset.univ.{u_1} (e 1))
+                                (Finset.map.{0, u_1} e Tuza06.EndpointSix.N) ∧
+                              ∀ (f : Finset.{0} (Fin 8)),
+                                Membership.mem.{0, 0} Tuza06.EndpointSix.baseKnown f →
+                                  SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} e f)
+'Tuza06.endpoint_six_pattern_realization' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

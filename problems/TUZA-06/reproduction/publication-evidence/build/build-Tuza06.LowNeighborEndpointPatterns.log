@@ -1,0 +1,2 @@
+'Tuza06.EndpointSix.present' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza06.EndpointSix.absent' depends on axioms: [propext, Classical.choice, Quot.sound]

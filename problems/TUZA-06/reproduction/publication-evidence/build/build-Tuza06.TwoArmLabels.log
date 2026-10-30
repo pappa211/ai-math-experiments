@@ -1,0 +1,7 @@
+Tuza06/TwoArmLabels.lean:58:40: warning: This simp argument is unused:
+  mem_union
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mem_insert, mem_singleton]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

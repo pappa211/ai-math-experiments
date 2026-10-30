@@ -1,0 +1,313 @@
+@Tuza06.support_union.{u_1} : ∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] (F K : Finset.{u_1} (Finset.{u_1} V)),
+  Eq.{u_1 + 1} (Tuza.support.{u_1} (Union.union.{u_1} F K))
+    (Union.union.{u_1} (Tuza.support.{u_1} F) (Tuza.support.{u_1} K))
+'Tuza06.support_union' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.nu_biUnion_eq.{u_1,
+    u_2} : ∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] {I : Type u_2} [DecidableEq.{u_2 + 1} I]
+  (K : Finset.{u_2} I) (f : I → Finset.{u_1} (Finset.{u_1} V)),
+  (∀ (k : I), Membership.mem.{u_2, u_2} K k → Tuza.Triangles.{u_1} (f k)) →
+    (∀ (k : I),
+        Membership.mem.{u_2, u_2} K k →
+          ∀ (l : I),
+            Membership.mem.{u_2, u_2} K l →
+              Ne.{u_2 + 1} k l → Disjoint.{u_1} (Tuza.support.{u_1} (f k)) (Tuza.support.{u_1} (f l))) →
+      Eq.{1} (Tuza.nu.{u_1} (Finset.biUnion.{u_2, u_1} K f)) (∑ k ∈ K, Tuza.nu.{u_1} (f k))
+'Tuza06.nu_biUnion_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.tau_biUnion_eq.{u_1,
+    u_2} : ∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] {I : Type u_2} [DecidableEq.{u_2 + 1} I]
+  (K : Finset.{u_2} I) (f : I → Finset.{u_1} (Finset.{u_1} V)),
+  (∀ (k : I), Membership.mem.{u_2, u_2} K k → Tuza.Triangles.{u_1} (f k)) →
+    (∀ (k : I),
+        Membership.mem.{u_2, u_2} K k →
+          ∀ (l : I),
+            Membership.mem.{u_2, u_2} K l →
+              Ne.{u_2 + 1} k l → Disjoint.{u_1} (Tuza.support.{u_1} (f k)) (Tuza.support.{u_1} (f l))) →
+      Eq.{1} (Tuza.tau.{u_1} (Finset.biUnion.{u_2, u_1} K f)) (∑ k ∈ K, Tuza.tau.{u_1} (f k))
+'Tuza06.tau_biUnion_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.blocks_support_subset.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  (k : Finset.{u_1} V), Tuza.support.{u_1} (Tuza06.cliqueFamily.{u_1} k) ⊆ Tuza.edges.{u_1} k
+'Tuza06.blocks_support_subset' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.blocks_support_disjoint.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} H K →
+    ∀ {k l : Finset.{u_1} V},
+      Membership.mem.{u_1, u_1} K k →
+        Membership.mem.{u_1, u_1} K l →
+          Ne.{u_1 + 1} k l →
+            Disjoint.{u_1} (Tuza.support.{u_1} (Tuza06.cliqueFamily.{u_1} k))
+              (Tuza.support.{u_1} (Tuza06.cliqueFamily.{u_1} l))
+'Tuza06.blocks_support_disjoint' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.blocks_triangles_eq.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} H K →
+    Eq.{u_1 + 1} (Tuza.triangles.{u_1} H) (Finset.biUnion.{u_1, u_1} K Tuza06.cliqueFamily.{u_1})
+'Tuza06.blocks_triangles_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.blocks_nu.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} H K →
+    Eq.{1} (Tuza.nu.{u_1} (Tuza.triangles.{u_1} H)) (∑ k ∈ K, Tuza.nu.{u_1} (Tuza06.cliqueFamily.{u_1} k))
+'Tuza06.blocks_nu' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.blocks_tau.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} H K →
+    Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} H)) (∑ k ∈ K, Tuza.tau.{u_1} (Tuza06.cliqueFamily.{u_1} k))
+'Tuza06.blocks_tau' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.blocks_equality.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} H K →
+    Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} H)) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} H)))
+'Tuza06.blocks_equality' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.blocks_combine_packings.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} H K →
+    ∀ (f : Finset.{u_1} V → Finset.{u_1} (Finset.{u_1} V)),
+      (∀ (k : Finset.{u_1} V), Membership.mem.{u_1, u_1} K k → Tuza.Packing.{u_1} (Tuza06.cliqueFamily.{u_1} k) (f k)) →
+        Tuza.Packing.{u_1} (Tuza.triangles.{u_1} H) (Finset.biUnion.{u_1, u_1} K f)
+'Tuza06.blocks_combine_packings' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.blocks_packing_card.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} H K →
+    ∀ (f : Finset.{u_1} V → Finset.{u_1} (Finset.{u_1} V)),
+      (∀ (k : Finset.{u_1} V), Membership.mem.{u_1, u_1} K k → Tuza.Packing.{u_1} (Tuza06.cliqueFamily.{u_1} k) (f k)) →
+        Eq.{1} (Finset.card.{u_1} (Finset.biUnion.{u_1, u_1} K f)) (∑ k ∈ K, Finset.card.{u_1} (f k))
+'Tuza06.blocks_packing_card' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.blocks_avoid_two_pages.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} H K →
+    ∀ {A s t : Finset.{u_1} V},
+      Tuza.IndependentVertices.{u_1} H A →
+        Eq.{1} (Finset.card.{u_1} s) 3 →
+          Eq.{1} (Finset.card.{u_1} t) 3 →
+            Tuza06.HasBase.{u_1} A s →
+              Tuza06.HasBase.{u_1} A t →
+                ∃ P,
+                  Tuza.Packing.{u_1} (Tuza.triangles.{u_1} H) P ∧
+                    Eq.{1} (Finset.card.{u_1} P) (Tuza.nu.{u_1} (Tuza.triangles.{u_1} H)) ∧
+                      Disjoint.{u_1} (Tuza.support.{u_1} P)
+                        (Union.union.{u_1} (Tuza.edges.{u_1} s) (Tuza.edges.{u_1} t))
+'Tuza06.blocks_avoid_two_pages' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.vertices_subset_of_edges_subset.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {s k : Finset.{u_1} V}, LE.le.{0} 2 (Finset.card.{u_1} s) → Tuza.edges.{u_1} s ⊆ Tuza.edges.{u_1} k → s ⊆ k
+'Tuza06.vertices_subset_of_edges_subset' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.support_cliqueFamily.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {k : Finset.{u_1} V},
+  LE.le.{0} 3 (Finset.card.{u_1} k) →
+    Eq.{u_1 + 1} (Tuza.support.{u_1} (Tuza06.cliqueFamily.{u_1} k)) (Tuza.edges.{u_1} k)
+'Tuza06.support_cliqueFamily' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.triangleConnected_symm.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {s t : Finset.{u_1} V},
+  Tuza06.TriangleConnected.{u_1} G s t → Tuza06.TriangleConnected.{u_1} G t s
+'Tuza06.triangleConnected_symm' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.triangleComponent_eq_of_connected.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {s t : Finset.{u_1} V},
+  Tuza06.TriangleConnected.{u_1} G s t →
+    Eq.{u_1 + 1} (Tuza06.triangleComponent.{u_1} G s) (Tuza06.triangleComponent.{u_1} G t)
+'Tuza06.triangleComponent_eq_of_connected' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.clique_of_component_support.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {t k : Finset.{u_1} V},
+  Eq.{u_1 + 1} (Tuza.support.{u_1} (Tuza06.triangleComponent.{u_1} G t)) (Tuza.edges.{u_1} k) →
+    SimpleGraph.IsClique.{u_1} G ↑k
+'Tuza06.clique_of_component_support' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.component_eq_cliqueFamily_of_support.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {t k : Finset.{u_1} V},
+  Eq.{u_1 + 1} (Tuza.support.{u_1} (Tuza06.triangleComponent.{u_1} G t)) (Tuza.edges.{u_1} k) →
+    Eq.{u_1 + 1} (Tuza06.triangleComponent.{u_1} G t) (Tuza06.cliqueFamily.{u_1} k)
+'Tuza06.component_eq_cliqueFamily_of_support' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.componentCliques_decomposition.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.ComponentCliques.{u_1} G → ∃ K, Tuza06.CliqueDecomposition.{u_1} G K
+'Tuza06.componentCliques_decomposition' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.componentCliques_equality.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.ComponentCliques.{u_1} G →
+    Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G)) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G)))
+'Tuza06.componentCliques_equality' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.triangleConnected_of_shared_vertices.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {s t : Finset.{u_1} V},
+  Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} G) s →
+    Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} G) t →
+      ∀ {a b : V},
+        Membership.mem.{u_1, u_1} s a →
+          Membership.mem.{u_1, u_1} s b →
+            Membership.mem.{u_1, u_1} t a →
+              Membership.mem.{u_1, u_1} t b → Ne.{u_1 + 1} a b → Tuza06.TriangleConnected.{u_1} G s t
+'Tuza06.triangleConnected_of_shared_vertices' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.cliqueFamily_connected.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {k s t : Finset.{u_1} V},
+  SimpleGraph.IsClique.{u_1} G ↑k →
+    LE.le.{0} (Finset.card.{u_1} k) 5 →
+      Membership.mem.{u_1, u_1} (Tuza06.cliqueFamily.{u_1} k) s →
+        Membership.mem.{u_1, u_1} (Tuza06.cliqueFamily.{u_1} k) t → Tuza06.TriangleConnected.{u_1} G s t
+'Tuza06.cliqueFamily_connected' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.connected_subset_block.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} G K →
+    ∀ {k s t : Finset.{u_1} V}, Membership.mem.{u_1, u_1} K k → s ⊆ k → Tuza06.TriangleConnected.{u_1} G s t → t ⊆ k
+'Tuza06.connected_subset_block' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.decomposition_component_eq.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} G K →
+    ∀ {k s : Finset.{u_1} V},
+      Membership.mem.{u_1, u_1} K k →
+        Membership.mem.{u_1, u_1} (Tuza06.cliqueFamily.{u_1} k) s →
+          Eq.{u_1 + 1} (Tuza06.triangleComponent.{u_1} G s) (Tuza06.cliqueFamily.{u_1} k)
+'Tuza06.decomposition_component_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.decomposition_componentCliques.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza06.CliqueDecomposition.{u_1} G K → Tuza06.ComponentCliques.{u_1} G
+'Tuza06.decomposition_componentCliques' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.componentCliques_iff_decomposition.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.ComponentCliques.{u_1} G ↔ ∃ K, Tuza06.CliqueDecomposition.{u_1} G K
+'Tuza06.componentCliques_iff_decomposition' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.one_triangle_augmentation.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G H : SimpleGraph.{u_1} V},
+  LE.le.{u_1} H G →
+    Tuza06.ComponentCliques.{u_1} H →
+      ∀ {A t : Finset.{u_1} V},
+        Tuza.IndependentVertices.{u_1} H A →
+          Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} G) t →
+            Tuza06.HasBase.{u_1} A t →
+              LE.le.{0} (HAdd.hAdd.{0, 0, 0} (Tuza.nu.{u_1} (Tuza.triangles.{u_1} H)) 1)
+                (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))
+'Tuza06.one_triangle_augmentation' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.two_vertex_edges.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] {A : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} A) 2 → Eq.{u_1 + 1} (Tuza.edges.{u_1} A) (singleton.{u_1, u_1} A)
+'Tuza06.two_vertex_edges' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.single_edge_packing_loss.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {A : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} A) 2 →
+    LE.le.{0} (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))
+      (HAdd.hAdd.{0, 0, 0} (Tuza.nu.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A))) 1)
+'Tuza06.single_edge_packing_loss' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.single_edge_cover_extension.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {A : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} A) 2 →
+    LE.le.{0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+      (HAdd.hAdd.{0, 0, 0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A))) 1)
+'Tuza06.single_edge_cover_extension' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.tight_critical_edge.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {A t : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} A) 2 →
+    Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} G) t →
+      Membership.mem.{u_1, u_1} (Tuza.edges.{u_1} t) A →
+        LE.le.{0} (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G)))
+            (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G)) →
+          LE.le.{0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A)))
+              (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A)))) →
+            (Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A)))
+                  (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A)))) →
+                Tuza06.ComponentCliques.{u_1} (Tuza.deleteTriangle.{u_1} G A)) →
+              Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+                  (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ∧
+                Eq.{1} (Tuza.nu.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A)))
+                    (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G)) ∧
+                  Eq.{1} (HAdd.hAdd.{0, 0, 0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A))) 1)
+                    (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+'Tuza06.tight_critical_edge' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.good_iff_combined_conclusion.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V),
+  Tuza06.Good.{u_1} G ↔
+    LE.le.{0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+        (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ∧
+      (Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+          (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ↔
+        Tuza06.ComponentCliques.{u_1} G)
+'Tuza06.good_iff_combined_conclusion' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.failure_lower_bound.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  ¬Tuza06.Good.{u_1} G →
+    LE.le.{0} (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+'Tuza06.failure_lower_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.exists_minimal_obstruction.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V}, ¬Tuza06.Good.{u_1} G → ∃ H, LE.le.{u_1} H G ∧ Tuza06.MinimalObstruction.{u_1} H
+'Tuza06.exists_minimal_obstruction' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_obstruction_degenerate.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.Degenerate.{u_1} G 5 →
+    ¬Tuza06.Good.{u_1} G → ∃ H, LE.le.{u_1} H G ∧ Tuza06.Degenerate.{u_1} H 5 ∧ Tuza06.MinimalObstruction.{u_1} H
+'Tuza06.minimal_obstruction_degenerate' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.componentCliques_of_triangles_eq.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G H : SimpleGraph.{u_1} V},
+  Eq.{u_1 + 1} (Tuza.triangles.{u_1} G) (Tuza.triangles.{u_1} H) →
+    (Tuza06.ComponentCliques.{u_1} G ↔ Tuza06.ComponentCliques.{u_1} H)
+'Tuza06.componentCliques_of_triangles_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.good_of_triangles_eq.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G H : SimpleGraph.{u_1} V},
+  Eq.{u_1 + 1} (Tuza.triangles.{u_1} G) (Tuza.triangles.{u_1} H) → (Tuza06.Good.{u_1} G ↔ Tuza06.Good.{u_1} H)
+'Tuza06.good_of_triangles_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.triangle_free_good.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Eq.{u_1 + 1} (Tuza.triangles.{u_1} G) EmptyCollection.emptyCollection.{u_1} → Tuza06.Good.{u_1} G
+'Tuza06.triangle_free_good' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.edgeCount_strict.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G H : SimpleGraph.{u_1} V},
+  LE.le.{u_1} H G →
+    ∀ {e : Finset.{u_1} V},
+      SimpleGraph.IsNClique.{u_1} G 2 e →
+        ¬SimpleGraph.IsNClique.{u_1} H 2 e → LT.lt.{0} (Tuza06.edgeCount.{u_1} H) (Tuza06.edgeCount.{u_1} G)
+'Tuza06.edgeCount_strict' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.delete_edgeCount_strict.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {A : Finset.{u_1} V},
+  SimpleGraph.IsNClique.{u_1} G 2 A →
+    LT.lt.{0} (Tuza06.edgeCount.{u_1} (Tuza.deleteTriangle.{u_1} G A)) (Tuza06.edgeCount.{u_1} G)
+'Tuza06.delete_edgeCount_strict' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_every_edge_in_triangle.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {A : Finset.{u_1} V},
+      SimpleGraph.IsNClique.{u_1} G 2 A →
+        ∃ t, Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} G) t ∧ Membership.mem.{u_1, u_1} (Tuza.edges.{u_1} t) A
+'Tuza06.minimal_every_edge_in_triangle' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_tight_critical.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {A : Finset.{u_1} V},
+      SimpleGraph.IsNClique.{u_1} G 2 A →
+        Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+            (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ∧
+          Eq.{1} (Tuza.nu.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A)))
+              (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G)) ∧
+            Eq.{1} (HAdd.hAdd.{0, 0, 0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} (Tuza.deleteTriangle.{u_1} G A))) 1)
+              (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+'Tuza06.minimal_tight_critical' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.prune_le.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V)
+  (U A : Finset.{u_1} V), LE.le.{u_1} (Tuza06.prune.{u_1} G U A) G
+'Tuza06.prune_le' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.prune_independent.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V)
+  (U A : Finset.{u_1} V), Tuza.IndependentVertices.{u_1} (Tuza06.prune.{u_1} G U A) A
+'Tuza06.prune_independent' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.prune_triangle_disjoint.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {U A t : Finset.{u_1} V},
+  Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} (Tuza06.prune.{u_1} G U A)) t → Disjoint.{u_1} t U
+'Tuza06.prune_triangle_disjoint' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.prune_triangle_avoids_A.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {U A t : Finset.{u_1} V},
+  Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} (Tuza06.prune.{u_1} G U A)) t →
+    Disjoint.{u_1} (Tuza.edges.{u_1} t) (Tuza.edges.{u_1} A)
+'Tuza06.prune_triangle_avoids_A' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.prune_lost_triangle.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {U A t : Finset.{u_1} V},
+  Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} G) t →
+    t ∉ Tuza.triangles.{u_1} (Tuza06.prune.{u_1} G U A) →
+      (∃ v, Membership.mem.{u_1, u_1} U v ∧ Membership.mem.{u_1, u_1} t v) ∨ Tuza06.HasBase.{u_1} A t
+'Tuza06.prune_lost_triangle' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.prune_local_cross.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {U A B s t : Finset.{u_1} V},
+  B ⊆ Union.union.{u_1} U A →
+    s ⊆ B →
+      Membership.mem.{u_1, u_1} (Tuza.triangles.{u_1} (Tuza06.prune.{u_1} G U A)) t →
+        Disjoint.{u_1} (Tuza.edges.{u_1} s) (Tuza.edges.{u_1} t)
+'Tuza06.prune_local_cross' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.external_page_old_edge.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {B q f e : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} q) 3 →
+    Membership.mem.{u_1, u_1} (Tuza.edges.{u_1} q) f →
+      f ⊆ B → ¬q ⊆ B → Membership.mem.{u_1, u_1} (Tuza.edges.{u_1} q) e → e ⊆ B → Eq.{u_1 + 1} e f
+'Tuza06.external_page_old_edge' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.external_page_local_cross.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {B q f p : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} q) 3 →
+    Membership.mem.{u_1, u_1} (Tuza.edges.{u_1} q) f →
+      f ⊆ B → ¬q ⊆ B → p ⊆ B → f ∉ Tuza.edges.{u_1} p → Disjoint.{u_1} (Tuza.edges.{u_1} p) (Tuza.edges.{u_1} q)
+'Tuza06.external_page_local_cross' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

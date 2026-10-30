@@ -1,0 +1,108 @@
+--- LeanChecker.upstream.lean
++++ ReplayExactNative.lean
+@@ -5,7 +5,6 @@
+ -/
+ import Lean.CoreM
+ import Lean.Replay
+-import Lake.Load.Manifest
+ 
+ open Lean
+ 
+@@ -33,82 +32,22 @@
+   let env' ← env.replay newConstants
+   env'.freeRegions
+ 
+-unsafe def replayFromFresh (module : Name) : IO Unit := do
+-  Lean.withImportModules #[{module}] {} fun env => do
+-    discard <| (← mkEmptyEnvironment).replay env.constants.map₁
++/-- Runtime cap via the pinned Lean C runtime symbol also declared privately in Lean.Shell. -/
++@[extern "lean_internal_set_max_memory"]
++opaque setReplayMaxMemory (max : USize) : BaseIO Unit
+ 
+-/-- Read the name of the main module from the `lake-manifest`. -/
+--- This has been copied from `ImportGraph.getCurrentModule` in the
+--- https://github.com/leanprover-community/import-graph repository.
+-def getCurrentModule : IO Name := do
+-  match (← Lake.Manifest.load? ⟨"lake-manifest.json"⟩) with
+-  | none =>
+-    -- TODO: should this be caught?
+-    pure .anonymous
+-  | some manifest =>
+-    -- TODO: This assumes that the `package` and the default `lean_lib`
+-    -- have the same name up to capitalisation.
+-    -- Would be better to read the `.defaultTargets` from the
+-    -- `← getRootPackage` from `Lake`, but I can't make that work with the monads involved.
+-    return manifest.name.capitalize
+-
+-
+-/--
+-Run as e.g. `leanchecker` to check everything in the current project.
+-or e.g. `leanchecker Mathlib.Data.Nat` to check everything with module name
+-starting with `Mathlib.Data.Nat`.
+-
+-This will replay all the new declarations from the target file into the `Environment`
+-as it was at the beginning of the file, using the kernel to check them.
+-
+-You can also use `leanchecker --fresh Mathlib.Data.Nat.Prime.Basic`
+-to replay all the constants (both imported and defined in that file) into a fresh environment.
+-This can only be used on a single file.
+-
+-This is not an external verifier, simply a tool to detect "environment hacking".
+--/
+ unsafe def main (args : List String) : IO UInt32 := do
+-  -- Contributor's note: lean4lean is intended to have a CLI interface matching leanchecker,
+-  -- so if you want to make a change here please either make a sibling PR to
+-  -- https://github.com/digama0/lean4lean or ping @digama0 (Mario Carneiro) to go fix it.
++  unless args.length = 1 do
++    throw <| IO.userError "Expected exactly one full module name"
++  let memory := ((← IO.getEnv "TUZA06_REPLAY_MEMORY_MB").bind String.toNat?).getD 1900
++  if memory > 2200 || memory = 0 then
++    throw <| IO.userError "Replay memory limit must lie between 1 and 2200 MiB"
++  setReplayMaxMemory ((memory * 1024 * 1024).toUSize)
+   initSearchPath (← findSysroot)
+-  let (flags, args) := args.partition fun s => s.startsWith "-"
+-  let verbose := "-v" ∈ flags || "--verbose" ∈ flags
+-  let fresh := "--fresh" ∈ flags
+-  let targets ← do
+-    match args with
+-    | [] => pure [← getCurrentModule]
+-    | args => args.mapM fun arg => do
+-      let mod := arg.toName
+-      if mod.isAnonymous then
+-        throw <| IO.userError s!"Could not resolve module: {arg}"
+-      else
+-        pure mod
+-  let mut targetModules := []
+-  let sp ← searchPathRef.get
+-  for target in targets do
+-    let mut found := false
+-    for path in (← SearchPath.findAllWithExt sp "olean") do
+-      if let some m := (← searchModuleNameOfFileName path sp) then
+-        if !fresh && target.isPrefixOf m || target == m then
+-          targetModules := targetModules.insert m
+-          found := true
+-    if not found then
+-      throw <| IO.userError s!"Could not find any oleans for: {target}"
+-  if fresh then
+-    if targetModules.length != 1 then
+-      throw <| IO.userError s!"--fresh flag is only valid when specifying a single module:\n\
+-        {targetModules}"
+-    for m in targetModules do
+-      if verbose then IO.println s!"replaying {m} with --fresh"
+-      replayFromFresh m
+-  else
+-    let mut tasks := #[]
+-    for m in targetModules do
+-      tasks := tasks.push (m, ← IO.asTask (replayFromImports m))
+-    for (m, t) in tasks do
+-      if verbose then IO.println s!"replaying {m}"
+-      if let .error e := t.get then
+-        IO.eprintln s!"leanchecker found a problem in {m}"
+-        throw e
++  let name := args.head!.toName
++  if name.isAnonymous then
++    throw <| IO.userError "Empty module name"
++  IO.println s!"replaying exactly {name}; standard LeanChecker body; limit {memory} MiB"
++  replayFromImports name
++  IO.println s!"PASS exact replay {name}"
+   return 0

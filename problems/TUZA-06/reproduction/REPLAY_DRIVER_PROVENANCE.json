@@ -1,0 +1,14 @@
+{
+  "upstream_source": "LEAN_TOOLCHAIN/src/lean/LeanChecker.lean",
+  "upstream_sha256": "eb5dee411837629f09c5c18d63cc833d30335a46048bc586642742e90aa65d5f",
+  "adapter_source": "problems/TUZA-06/lean/tools/ReplayExactNative.lean",
+  "adapter_sha256": "ce0557b2a5b40158a22bb3823c80fe99ba85f511b8878574f46a23c0cb3f682e",
+  "replayFromImports_body_sha256": "4a1a5a15aa9296ca7fa05bc6fae5413962b27b718ab9acf1b50b6c461bbe7464",
+  "replayFromImports_body_byte_identical": true,
+  "driver_runtime_cap": "pinned C runtime lean_internal_set_max_memory extern; same type as private Lean.Shell API",
+  "change": "native main accepts one exact module; no prefix traversal; replayFromImports retained unchanged; standard Lean kernel, not independent verifier",
+  "replayFromImports_body_exact_byte_length": 1147,
+  "runtime_cap_namespace_note": "Lean.Shell declares this same C runtime extern privately under the module system; driver redeclares its exact type to access it.",
+  "pinned_Lean_Replay_source_sha256": "5ea88ea9b6c374ad74b8c6f5d36117cec00ec64202aff37f7cff0c6765fb746d",
+  "standard_replay_boundary": "Environment.replay checks all safe nonpartial declarations, including private proof constants; constructors/recursors compared with kernel-generated ones. Standard unsafe/partial compilation artifacts are skipped. No unsafe or partial source definitions occur in the mathematical closure."
+}

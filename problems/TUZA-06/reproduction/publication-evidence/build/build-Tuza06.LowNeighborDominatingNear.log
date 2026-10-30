@@ -1,0 +1,1 @@
+'Tuza06.minimal_no_near_dominating_degree_six' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,115 @@
+@Tuza06.FinalFrame.v_clique.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V} {p q : V},
+      Tuza06.FinalFrame.{u_1} G i p q →
+        SimpleGraph.IsClique.{u_1} G
+          ↑(insert.{u_1, u_1} (i 1) (insert.{u_1, u_1} p (Finset.map.{0, u_1} i Tuza06.frameX)))
+'Tuza06.FinalFrame.v_clique' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.FinalFrame.w_clique.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V} {p q : V},
+      Tuza06.FinalFrame.{u_1} G i p q →
+        SimpleGraph.IsClique.{u_1} G
+          ↑(insert.{u_1, u_1} (i 2) (insert.{u_1, u_1} q (Finset.map.{0, u_1} i Tuza06.frameY)))
+'Tuza06.FinalFrame.w_clique' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.FinalFrame.matching_edges.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V} {p q : V},
+      Tuza06.FinalFrame.{u_1} G i p q →
+        ∀ (f : Finset.{0} (Fin 8)),
+          Membership.mem.{0, 0} Tuza06.frameMatch✝ f → SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} i f)
+'Tuza06.FinalFrame.matching_edges' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.FinalFrame.bad_edges.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V} {p q : V},
+  Tuza06.FinalFrame.{u_1} G i p q →
+    ∀ (f : Finset.{0} (Fin 8)),
+      Membership.mem.{0, 0} Tuza06.frameBad✝ f → ¬SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} i f)
+'Tuza06.FinalFrame.bad_edges' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.FinalFrame.cross_missing_impossible.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V} {p q : V},
+      Tuza06.FinalFrame.{u_1} G i p q →
+        ∀ (k : Fin 4), ¬SimpleGraph.IsNClique.{u_1} G 2 (Finset.map.{0, u_1} i (Tuza06.crossPair✝ k)) → False
+'Tuza06.FinalFrame.cross_missing_impossible' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.FinalFrame.cross_edges.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V} {p q : V},
+      Tuza06.FinalFrame.{u_1} G i p q →
+        ∀ (b : Fin 8),
+          Membership.mem.{0, 0} (insert.{0, 0} 4 (singleton.{0, 0} 5)) b →
+            ∀ (c : Fin 8),
+              Membership.mem.{0, 0} (insert.{0, 0} 6 (singleton.{0, 0} 7)) c → SimpleGraph.Adj.{u_1} G (i b) (i c)
+'Tuza06.FinalFrame.cross_edges' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.FinalFrame.a_clique.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V} {p q : V},
+      Tuza06.FinalFrame.{u_1} G i p q → SimpleGraph.IsClique.{u_1} G ↑(Finset.map.{0, u_1} i Tuza06.Core.A)
+'Tuza06.FinalFrame.a_clique' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.FinalFrame.configuration.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V} {p q : V},
+      Tuza06.FinalFrame.{u_1} G i p q → Tuza06.FinalConfiguration.{u_1} G i p q
+'Tuza06.FinalFrame.configuration' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.final_configuration_of_arm_data.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V},
+      Tuza06.FinalArmData.{u_1} G i → ∃ p q, Tuza06.FinalConfiguration.{u_1} G i p q
+'Tuza06.final_configuration_of_arm_data' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.configuration_prune_edgeCount.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V} {i : Function.Embedding.{1, u_1 + 1} (Fin 8) V}
+  {p q : V},
+  Tuza06.FinalConfiguration.{u_1} G i p q →
+    LT.lt.{0}
+      (Tuza06.edgeCount.{u_1}
+        (Tuza06.prune.{u_1} G (Finset.map.{0, u_1} i Tuza06.Core.U) (Finset.map.{0, u_1} i Tuza06.Core.A)))
+      (Tuza06.edgeCount.{u_1} G)
+'Tuza06.configuration_prune_edgeCount' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_no_final_configuration.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G →
+    ∀ (i : Function.Embedding.{1, u_1 + 1} (Fin 8) V) (p q : V), ¬Tuza06.FinalConfiguration.{u_1} G i p q
+'Tuza06.minimal_no_final_configuration' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.minimal_five_degenerate_impossible.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.MinimalObstruction.{u_1} G → Tuza06.Degenerate.{u_1} G 5 → False
+'Tuza06.minimal_five_degenerate_impossible' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.five_degenerate_good.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V}, Tuza06.Degenerate.{u_1} G 5 → Tuza06.Good.{u_1} G
+'Tuza06.five_degenerate_good' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.five_degenerate_combined.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.Degenerate.{u_1} G 5 →
+    LE.le.{0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+        (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ∧
+      (Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G))
+          (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ↔
+        Tuza06.ComponentCliques.{u_1} G)
+'Tuza06.five_degenerate_combined' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.five_degenerate_inequality.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.Degenerate.{u_1} G 5 →
+    LE.le.{0} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G)) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G)))
+'Tuza06.five_degenerate_inequality' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.five_degenerate_equality.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V},
+  Tuza06.Degenerate.{u_1} G 5 →
+    (Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G)) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ↔
+      Tuza06.ComponentCliques.{u_1} G)
+'Tuza06.five_degenerate_equality' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.five_degenerate_equality_decomposition.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},
+  Tuza06.Degenerate.{u_1} G 5 →
+    (Eq.{1} (Tuza.tau.{u_1} (Tuza.triangles.{u_1} G)) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} (Tuza.triangles.{u_1} G))) ↔
+      ∃ K, Tuza06.CliqueDecomposition.{u_1} G K)
+'Tuza06.five_degenerate_equality_decomposition' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.five_degenerate_statement.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V), Tuza06.CombinedStatement.{u_1} G
+'Tuza06.five_degenerate_statement' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]

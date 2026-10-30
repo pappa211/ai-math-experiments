@@ -1,0 +1,30 @@
+[
+  {
+    "name": "DominatingFive",
+    "vertices": 6,
+    "packing": 4,
+    "cover": 7,
+    "augmentation": 0
+  },
+  {
+    "name": "DominatingNearSix",
+    "vertices": 7,
+    "packing": 4,
+    "cover": 7,
+    "augmentation": 0
+  },
+  {
+    "name": "DominatingCliqueSix",
+    "vertices": 7,
+    "packing": 5,
+    "cover": 9,
+    "augmentation": 0
+  },
+  {
+    "name": "AdjacentLow",
+    "vertices": 7,
+    "packing": 4,
+    "cover": 8,
+    "augmentation": 5
+  }
+]

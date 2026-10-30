@@ -1,0 +1,278 @@
+Tuza06.FiveCoverage.Chunk40.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk40.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk40.join b) (Tuza06.FiveCoverage.Chunk40.witness b).1
+      (Tuza06.FiveCoverage.Chunk40.witness b).2
+'Tuza06.FiveCoverage.Chunk40.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk41.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk41.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk41.join b) (Tuza06.FiveCoverage.Chunk41.witness b).1
+      (Tuza06.FiveCoverage.Chunk41.witness b).2
+'Tuza06.FiveCoverage.Chunk41.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk42.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk42.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk42.join b) (Tuza06.FiveCoverage.Chunk42.witness b).1
+      (Tuza06.FiveCoverage.Chunk42.witness b).2
+'Tuza06.FiveCoverage.Chunk42.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk43.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk43.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk43.join b) (Tuza06.FiveCoverage.Chunk43.witness b).1
+      (Tuza06.FiveCoverage.Chunk43.witness b).2
+'Tuza06.FiveCoverage.Chunk43.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk44.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk44.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk44.join b) (Tuza06.FiveCoverage.Chunk44.witness b).1
+      (Tuza06.FiveCoverage.Chunk44.witness b).2
+'Tuza06.FiveCoverage.Chunk44.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk45.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk45.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk45.join b) (Tuza06.FiveCoverage.Chunk45.witness b).1
+      (Tuza06.FiveCoverage.Chunk45.witness b).2
+'Tuza06.FiveCoverage.Chunk45.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk46.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk46.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk46.join b) (Tuza06.FiveCoverage.Chunk46.witness b).1
+      (Tuza06.FiveCoverage.Chunk46.witness b).2
+'Tuza06.FiveCoverage.Chunk46.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk47.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk47.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk47.join b) (Tuza06.FiveCoverage.Chunk47.witness b).1
+      (Tuza06.FiveCoverage.Chunk47.witness b).2
+'Tuza06.FiveCoverage.Chunk47.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Group5.classify : ∀ (f : Fin 10 → Bool),
+  Tuza06.FiveCoverage.Eligible f →
+    Eq.{1} (f 7) true → Eq.{1} (f 8) false → Eq.{1} (f 9) true → ∃ r p, Tuza06.FiveCoverage.Relabel f r p
+'Tuza06.FiveCoverage.Group5.classify' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk48.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk48.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk48.join b) (Tuza06.FiveCoverage.Chunk48.witness b).1
+      (Tuza06.FiveCoverage.Chunk48.witness b).2
+'Tuza06.FiveCoverage.Chunk48.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk49.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk49.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk49.join b) (Tuza06.FiveCoverage.Chunk49.witness b).1
+      (Tuza06.FiveCoverage.Chunk49.witness b).2
+'Tuza06.FiveCoverage.Chunk49.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk50.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk50.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk50.join b) (Tuza06.FiveCoverage.Chunk50.witness b).1
+      (Tuza06.FiveCoverage.Chunk50.witness b).2
+'Tuza06.FiveCoverage.Chunk50.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk51.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk51.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk51.join b) (Tuza06.FiveCoverage.Chunk51.witness b).1
+      (Tuza06.FiveCoverage.Chunk51.witness b).2
+'Tuza06.FiveCoverage.Chunk51.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk52.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk52.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk52.join b) (Tuza06.FiveCoverage.Chunk52.witness b).1
+      (Tuza06.FiveCoverage.Chunk52.witness b).2
+'Tuza06.FiveCoverage.Chunk52.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk53.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk53.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk53.join b) (Tuza06.FiveCoverage.Chunk53.witness b).1
+      (Tuza06.FiveCoverage.Chunk53.witness b).2
+'Tuza06.FiveCoverage.Chunk53.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk54.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk54.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk54.join b) (Tuza06.FiveCoverage.Chunk54.witness b).1
+      (Tuza06.FiveCoverage.Chunk54.witness b).2
+'Tuza06.FiveCoverage.Chunk54.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk55.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk55.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk55.join b) (Tuza06.FiveCoverage.Chunk55.witness b).1
+      (Tuza06.FiveCoverage.Chunk55.witness b).2
+'Tuza06.FiveCoverage.Chunk55.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Group6.classify : ∀ (f : Fin 10 → Bool),
+  Tuza06.FiveCoverage.Eligible f →
+    Eq.{1} (f 7) false → Eq.{1} (f 8) true → Eq.{1} (f 9) true → ∃ r p, Tuza06.FiveCoverage.Relabel f r p
+'Tuza06.FiveCoverage.Group6.classify' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk56.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk56.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk56.join b) (Tuza06.FiveCoverage.Chunk56.witness b).1
+      (Tuza06.FiveCoverage.Chunk56.witness b).2
+'Tuza06.FiveCoverage.Chunk56.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk57.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk57.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk57.join b) (Tuza06.FiveCoverage.Chunk57.witness b).1
+      (Tuza06.FiveCoverage.Chunk57.witness b).2
+'Tuza06.FiveCoverage.Chunk57.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk58.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk58.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk58.join b) (Tuza06.FiveCoverage.Chunk58.witness b).1
+      (Tuza06.FiveCoverage.Chunk58.witness b).2
+'Tuza06.FiveCoverage.Chunk58.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk59.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk59.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk59.join b) (Tuza06.FiveCoverage.Chunk59.witness b).1
+      (Tuza06.FiveCoverage.Chunk59.witness b).2
+'Tuza06.FiveCoverage.Chunk59.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk60.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk60.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk60.join b) (Tuza06.FiveCoverage.Chunk60.witness b).1
+      (Tuza06.FiveCoverage.Chunk60.witness b).2
+'Tuza06.FiveCoverage.Chunk60.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk61.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk61.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk61.join b) (Tuza06.FiveCoverage.Chunk61.witness b).1
+      (Tuza06.FiveCoverage.Chunk61.witness b).2
+'Tuza06.FiveCoverage.Chunk61.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk62.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk62.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk62.join b) (Tuza06.FiveCoverage.Chunk62.witness b).1
+      (Tuza06.FiveCoverage.Chunk62.witness b).2
+'Tuza06.FiveCoverage.Chunk62.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Chunk63.checked : ∀ (b : Fin 4 → Bool),
+  Tuza06.FiveCoverage.Eligible (Tuza06.FiveCoverage.Chunk63.join b) →
+    Tuza06.FiveCoverage.Relabel (Tuza06.FiveCoverage.Chunk63.join b) (Tuza06.FiveCoverage.Chunk63.witness b).1
+      (Tuza06.FiveCoverage.Chunk63.witness b).2
+'Tuza06.FiveCoverage.Chunk63.checked' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.Group7.classify : ∀ (f : Fin 10 → Bool),
+  Tuza06.FiveCoverage.Eligible f →
+    Eq.{1} (f 7) true → Eq.{1} (f 8) true → Eq.{1} (f 9) true → ∃ r p, Tuza06.FiveCoverage.Relabel f r p
+'Tuza06.FiveCoverage.Group7.classify' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.classify_bits : ∀ (f : Fin 10 → Bool),
+  Tuza06.FiveCoverage.Eligible f → ∃ r p, Tuza06.FiveCoverage.Relabel f r p
+'Tuza06.FiveCoverage.classify_bits' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+Tuza06.FiveCoverage.classify : ∀ E ⊆ Tuza.edges.{0} Finset.univ.{0},
+  (∀ (a : Fin 5), LE.le.{0} 2 (Finset.card.{0} {b | Membership.mem.{0, 0} E (insert.{0, 0} a (singleton.{0, 0} b))})) →
+    ∃ r p,
+      Eq.{1} (Tuza06.liftFamily.{0, 0} (Equiv.toEmbedding.{1, 1} (Tuza06.FiveCoverage.permutation p)) E)
+        (Tuza06.FiveCoverage.representative r)
+'Tuza06.FiveCoverage.classify' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.degenerate_mono.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] {G H : SimpleGraph.{u_1} V}
+  {d : ℕ}, LE.le.{u_1} H G → Tuza06.Degenerate.{u_1} G d → Tuza06.Degenerate.{u_1} H d
+'Tuza06.degenerate_mono' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.cliqueFamily_valid.{u_1} : ∀ {V : Type u_1} (k : Finset.{u_1} V),
+  Tuza.Triangles.{u_1} (Tuza06.cliqueFamily.{u_1} k)
+'Tuza06.cliqueFamily_valid' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.k4_parameters.{u_1} : ∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {k : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} k) 4 →
+    Eq.{1} (Tuza.nu.{u_1} (Tuza06.cliqueFamily.{u_1} k)) 1 ∧ Eq.{1} (Tuza.tau.{u_1} (Tuza06.cliqueFamily.{u_1} k)) 2
+'Tuza06.k4_parameters' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.k5_parameters.{u_1} : ∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {k : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} k) 5 →
+    Eq.{1} (Tuza.nu.{u_1} (Tuza06.cliqueFamily.{u_1} k)) 2 ∧ Eq.{1} (Tuza.tau.{u_1} (Tuza06.cliqueFamily.{u_1} k)) 4
+'Tuza06.k5_parameters' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.k5_avoid_two.{u_1} : ∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] {k : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} k) 5 →
+    ∀ {D : Finset.{u_1} (Finset.{u_1} V)},
+      D ⊆ Tuza.edges.{u_1} k →
+        LE.le.{0} (Finset.card.{u_1} D) 2 →
+          ∃ P,
+            Tuza.Packing.{u_1} (Tuza06.cliqueFamily.{u_1} k) P ∧
+              Eq.{1} (Finset.card.{u_1} P) 2 ∧ Disjoint.{u_1} (Tuza.support.{u_1} P) D
+'Tuza06.k5_avoid_two' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.independent_clique_inter.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {A k : Finset.{u_1} V},
+  Tuza.IndependentVertices.{u_1} H A →
+    SimpleGraph.IsClique.{u_1} H ↑k → LE.le.{0} (Finset.card.{u_1} (Inter.inter.{u_1} k A)) 1
+'Tuza06.independent_clique_inter' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.page_not_subset_clique.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {A k q : Finset.{u_1} V},
+  Tuza.IndependentVertices.{u_1} H A → SimpleGraph.IsClique.{u_1} H ↑k → Tuza06.HasBase.{u_1} A q → ¬q ⊆ k
+'Tuza06.page_not_subset_clique' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.edges_inter.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V] (q k : Finset.{u_1} V),
+  Eq.{u_1 + 1} (Inter.inter.{u_1} (Tuza.edges.{u_1} q) (Tuza.edges.{u_1} k)) (Tuza.edges.{u_1} (Inter.inter.{u_1} q k))
+'Tuza06.edges_inter' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.triple_edge_overlap.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {q k : Finset.{u_1} V},
+  Eq.{1} (Finset.card.{u_1} q) 3 →
+    ¬q ⊆ k → LE.le.{0} (Finset.card.{u_1} (Inter.inter.{u_1} (Tuza.edges.{u_1} q) (Tuza.edges.{u_1} k))) 1
+'Tuza06.triple_edge_overlap' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.two_page_footprint.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {A k s t : Finset.{u_1} V},
+  Tuza.IndependentVertices.{u_1} H A →
+    SimpleGraph.IsClique.{u_1} H ↑k →
+      Eq.{1} (Finset.card.{u_1} s) 3 →
+        Eq.{1} (Finset.card.{u_1} t) 3 →
+          Tuza06.HasBase.{u_1} A s →
+            Tuza06.HasBase.{u_1} A t →
+              LE.le.{0}
+                (Finset.card.{u_1}
+                  (Inter.inter.{u_1} (Union.union.{u_1} (Tuza.edges.{u_1} s) (Tuza.edges.{u_1} t))
+                    (Tuza.edges.{u_1} k)))
+                2
+'Tuza06.two_page_footprint' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.cliqueFamily_subset_triangles.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V]
+  [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V} {k : Finset.{u_1} V},
+  SimpleGraph.IsClique.{u_1} H ↑k → Tuza06.cliqueFamily.{u_1} k ⊆ Tuza.triangles.{u_1} H
+'Tuza06.cliqueFamily_subset_triangles' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.clique_avoid_two_pages.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {H : SimpleGraph.{u_1} V} {A k s t : Finset.{u_1} V},
+  Tuza.IndependentVertices.{u_1} H A →
+    SimpleGraph.IsClique.{u_1} H ↑k →
+      Eq.{1} (Finset.card.{u_1} k) 4 ∨ Eq.{1} (Finset.card.{u_1} k) 5 →
+        Eq.{1} (Finset.card.{u_1} s) 3 →
+          Eq.{1} (Finset.card.{u_1} t) 3 →
+            Tuza06.HasBase.{u_1} A s →
+              Tuza06.HasBase.{u_1} A t →
+                ∃ P,
+                  Tuza.Packing.{u_1} (Tuza06.cliqueFamily.{u_1} k) P ∧
+                    Eq.{1} (Finset.card.{u_1} P) (Tuza.nu.{u_1} (Tuza06.cliqueFamily.{u_1} k)) ∧
+                      Disjoint.{u_1} (Tuza.support.{u_1} P)
+                        (Union.union.{u_1} (Tuza.edges.{u_1} s) (Tuza.edges.{u_1} t))
+'Tuza06.clique_avoid_two_pages' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.cover_extension.{u_1} : ∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {F K X : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza.Triangles.{u_1} K →
+    (∀ (t : Finset.{u_1} V),
+        Membership.mem.{u_1, u_1} F t →
+          Membership.mem.{u_1, u_1} K t ∨
+            ∃ e, Membership.mem.{u_1, u_1} X e ∧ Membership.mem.{u_1, u_1} (Tuza.edges.{u_1} t) e) →
+      LE.le.{0} (Tuza.tau.{u_1} F) (HAdd.hAdd.{0, 0, 0} (Tuza.tau.{u_1} K) (Finset.card.{u_1} X))
+'Tuza06.cover_extension' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.packing_extension.{u_1} : ∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {F K P : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza.Triangles.{u_1} F →
+    K ⊆ F →
+      Tuza.Packing.{u_1} F P →
+        (∀ (p : Finset.{u_1} V),
+            Membership.mem.{u_1, u_1} P p →
+              ∀ (q : Finset.{u_1} V),
+                Membership.mem.{u_1, u_1} K q → Disjoint.{u_1} (Tuza.edges.{u_1} p) (Tuza.edges.{u_1} q)) →
+          LE.le.{0} (HAdd.hAdd.{0, 0, 0} (Finset.card.{u_1} P) (Tuza.nu.{u_1} K)) (Tuza.nu.{u_1} F)
+'Tuza06.packing_extension' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.balanced_accounting.{u_1} : ∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {F K : Finset.{u_1} (Finset.{u_1} V)}
+  {r : ℕ},
+  LE.le.{0} (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} F)) (Tuza.tau.{u_1} F) →
+    LE.le.{0} (Tuza.tau.{u_1} K) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} K)) →
+      LE.le.{0} (HAdd.hAdd.{0, 0, 0} r (Tuza.nu.{u_1} K)) (Tuza.nu.{u_1} F) →
+        LE.le.{0} (Tuza.tau.{u_1} F) (HAdd.hAdd.{0, 0, 0} (Tuza.tau.{u_1} K) (HMul.hMul.{0, 0, 0} 2 r)) →
+          Eq.{1} (Tuza.tau.{u_1} F) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} F)) ∧
+            Eq.{1} (Tuza.nu.{u_1} F) (HAdd.hAdd.{0, 0, 0} (Tuza.nu.{u_1} K) r) ∧
+              Eq.{1} (Tuza.tau.{u_1} K) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} K))
+'Tuza06.balanced_accounting' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.strict_accounting.{u_1} : ∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {F K : Finset.{u_1} (Finset.{u_1} V)}
+  {r c : ℕ},
+  LE.le.{0} (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} F)) (Tuza.tau.{u_1} F) →
+    LE.le.{0} (Tuza.tau.{u_1} K) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} K)) →
+      LE.le.{0} (HAdd.hAdd.{0, 0, 0} r (Tuza.nu.{u_1} K)) (Tuza.nu.{u_1} F) →
+        LE.le.{0} (Tuza.tau.{u_1} F) (HAdd.hAdd.{0, 0, 0} (Tuza.tau.{u_1} K) c) →
+          LT.lt.{0} c (HMul.hMul.{0, 0, 0} 2 r) → False
+'Tuza06.strict_accounting' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.balanced_inequality.{u_1} : ∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {F K : Finset.{u_1} (Finset.{u_1} V)}
+  {r : ℕ},
+  LE.le.{0} (Tuza.tau.{u_1} K) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} K)) →
+    LE.le.{0} (HAdd.hAdd.{0, 0, 0} r (Tuza.nu.{u_1} K)) (Tuza.nu.{u_1} F) →
+      LE.le.{0} (Tuza.tau.{u_1} F) (HAdd.hAdd.{0, 0, 0} (Tuza.tau.{u_1} K) (HMul.hMul.{0, 0, 0} 2 r)) →
+        LE.le.{0} (Tuza.tau.{u_1} F) (HMul.hMul.{0, 0, 0} 2 (Tuza.nu.{u_1} F))
+'Tuza06.balanced_inequality' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.nu_union_le.{u_1} : ∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] (F K : Finset.{u_1} (Finset.{u_1} V)),
+  LE.le.{0} (Tuza.nu.{u_1} (Union.union.{u_1} F K)) (HAdd.hAdd.{0, 0, 0} (Tuza.nu.{u_1} F) (Tuza.nu.{u_1} K))
+'Tuza06.nu_union_le' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.support_disjoint_cross.{u_1} : ∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V]
+  {F K : Finset.{u_1} (Finset.{u_1} V)},
+  Disjoint.{u_1} (Tuza.support.{u_1} F) (Tuza.support.{u_1} K) →
+    ∀ (s : Finset.{u_1} V),
+      Membership.mem.{u_1, u_1} F s →
+        ∀ (t : Finset.{u_1} V), Membership.mem.{u_1, u_1} K t → Disjoint.{u_1} (Tuza.edges.{u_1} s) (Tuza.edges.{u_1} t)
+'Tuza06.support_disjoint_cross' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.nu_union_eq.{u_1} : ∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] {F K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza.Triangles.{u_1} F →
+    Disjoint.{u_1} (Tuza.support.{u_1} F) (Tuza.support.{u_1} K) →
+      Eq.{1} (Tuza.nu.{u_1} (Union.union.{u_1} F K)) (HAdd.hAdd.{0, 0, 0} (Tuza.nu.{u_1} F) (Tuza.nu.{u_1} K))
+'Tuza06.nu_union_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.tau_union_eq.{u_1} : ∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] {F K : Finset.{u_1} (Finset.{u_1} V)},
+  Tuza.Triangles.{u_1} F →
+    Tuza.Triangles.{u_1} K →
+      Disjoint.{u_1} (Tuza.support.{u_1} F) (Tuza.support.{u_1} K) →
+        Eq.{1} (Tuza.tau.{u_1} (Union.union.{u_1} F K)) (HAdd.hAdd.{0, 0, 0} (Tuza.tau.{u_1} F) (Tuza.tau.{u_1} K))
+'Tuza06.tau_union_eq' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
