@@ -2,7 +2,7 @@
 
 **AI-developed mathematical research report — AI Math Experiments**
 
-1 November 2026. Local release candidate; public release requires a separate decision.
+Technical research report - GitHub research archive - 1 November 2026.
 
 The mathematical development, proofs, code, formalization, manuscript and internal reviews were AI-produced. The human participant directed goals, budgets and authorization. No human mathematical author, institutional affiliation, external human peer review or historical-priority certification is claimed.
 

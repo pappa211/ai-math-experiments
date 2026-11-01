@@ -1,0 +1,181 @@
+{
+  "pdf_sha256": "9495bd36be77c4408b71b107d2619a72ce3f75dd263df3c6105a75e8a844f25b",
+  "pages": 27,
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "Further Investigations of Tuza's Conjecture: Equality Extensions, Cover Switching, and Integrality Obstructions",
+    "author": "AI Math Experiments",
+    "subject": "AI-developed mathematical research report. AI-produced mathematics, proofs, code, formalization, manuscript and internal reviews. Human-directed goals, budgets and authorization.",
+    "keywords": "Tuza, equality extensions, cover switching, integrality obstructions, Lean, AI research",
+    "creator": "LaTeX with Tectonic",
+    "producer": "Tectonic",
+    "creationDate": "D:20261101163912-00'00'",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "attachments": 0,
+  "link_count": 72,
+  "bounds": [
+    {
+      "page": 1,
+      "word_count": 494,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 2,
+      "word_count": 380,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 3,
+      "word_count": 505,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 4,
+      "word_count": 520,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 5,
+      "word_count": 479,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 6,
+      "word_count": 562,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 7,
+      "word_count": 482,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 8,
+      "word_count": 386,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 9,
+      "word_count": 467,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 10,
+      "word_count": 509,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 11,
+      "word_count": 399,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 12,
+      "word_count": 552,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 13,
+      "word_count": 433,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 14,
+      "word_count": 533,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 15,
+      "word_count": 527,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 16,
+      "word_count": 533,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 17,
+      "word_count": 478,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 18,
+      "word_count": 498,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 19,
+      "word_count": 404,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 20,
+      "word_count": 430,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 21,
+      "word_count": 527,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 22,
+      "word_count": 467,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 23,
+      "word_count": 310,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 24,
+      "word_count": 310,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 25,
+      "word_count": 435,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 26,
+      "word_count": 368,
+      "out_of_page_blocks": []
+    },
+    {
+      "page": 27,
+      "word_count": 101,
+      "out_of_page_blocks": []
+    }
+  ],
+  "replacement_characters": 0,
+  "black_squares": 0,
+  "page_renders": 27,
+  "parity": {
+    "manuscript.md": {
+      "math_nodes": 158,
+      "math_sequence_equal": true,
+      "alphanumeric_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    "main.md": {
+      "math_nodes": 158,
+      "math_sequence_equal": true,
+      "alphanumeric_text_equal": true,
+      "normalized_text_similarity": 1.0
+    },
+    "main.tex": {
+      "math_nodes": 158,
+      "math_sequence_equal": true,
+      "alphanumeric_text_equal": true,
+      "normalized_text_similarity": 1.0
+    }
+  },
+  "parity_method": "All158 formula AST nodes identical; prose alphanumeric sequence identical. For the TeX-reader comparison only, textbar is represented literally and an empty group follows endlastfoot, avoiding reader omission of bars/digits at table starts. Published TeX is unmodified by this inspection adapter. Citation/quote punctuation normalized; actual PDF symbols/tables also inspected visually.",
+  "visual_review": "PASS: independent internal AI critic inspected all 27final pages and firstpage at full size; approved header is the only changed visual region compared with accepted PDF."
+}

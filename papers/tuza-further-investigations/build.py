@@ -6,6 +6,7 @@ bundle cache; this is separate from Lean dependency reproduction.
 """
 from pathlib import Path
 import argparse, hashlib, json, shutil, subprocess, re
+from urllib.parse import quote
 
 PREAMBLE=r'''\documentclass[11pt]{article}
 \usepackage[T1]{fontenc}
@@ -44,6 +45,18 @@ def main():
     common=[a.pandoc,'manuscript.md','--from=markdown-raw_tex','--citeproc','--bibliography=references.bib','--csl=numeric.csl','--wrap=none']
     tex=subprocess.check_output(common+['--to=latex'],cwd=root,text=True)
     tex=re.sub(r'\\bibitem\[\\citeproctext\]\{([^}]+)\}',lambda m:r'\par\phantomsection\label{'+m[1]+'}',tex)
+    def public_pdf_link(match):
+        target=match[1]
+        if target.startswith(('https://','http://','#')): return match[0]
+        path,separator,fragment=target.partition('#')
+        repo=root.parents[1].resolve()
+        destination=(root/path).resolve()
+        relative=destination.relative_to(repo)
+        if not destination.exists(): raise RuntimeError('Missing public PDF link target: '+path)
+        url='https://github.com/pappa211/ai-math-experiments/blob/main/'+quote(relative.as_posix(),safe='/')
+        if separator: url+='#'+fragment
+        return r'\href{'+url+'}'
+    tex=re.sub(r'\\href\{([^}]+)\}',public_pdf_link,tex)
     md=subprocess.check_output(common+['--to=gfm'],cwd=root,text=True)
     (root/'main.tex').write_text(PREAMBLE+tex+'\n\\end{document}\n')
     # The PDF and Markdown both contain the same citation-resolved manuscript.

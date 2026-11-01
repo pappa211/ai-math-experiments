@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "accepted_pdf_sha256": "285530f56ef4649b1a1853c50753662345bc1fd7669b8a065fc047e3fe81a4c7",
+  "publication_pdf_sha256": "9495bd36be77c4408b71b107d2619a72ce3f75dd263df3c6105a75e8a844f25b",
+  "pages": 27,
+  "comparison_dpi": 96,
+  "pages_2_through_27_pixel_identical": true,
+  "page1_difference_confined_to_approved_header": true,
+  "header_text_exact_and_no_spurious_glyph": true,
+  "pages_detail": [
+    {
+      "page": 1,
+      "pixel_identical": false,
+      "changed_pixel_box_at_96dpi": [
+        119,
+        182,
+        664,
+        196
+      ]
+    },
+    {
+      "page": 2,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 3,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 4,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 5,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 6,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 7,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 8,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 9,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 10,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 11,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 12,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 13,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 14,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 15,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 16,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 17,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 18,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 19,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 20,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 21,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 22,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 23,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 24,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 25,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 26,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    },
+    {
+      "page": 27,
+      "pixel_identical": true,
+      "changed_pixel_box_at_96dpi": null
+    }
+  ]
+}

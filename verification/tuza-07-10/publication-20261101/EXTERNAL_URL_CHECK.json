@@ -1,0 +1,276 @@
+{
+  "status": "PASS_WITH_DISCLOSED_PUBLISHER_ACCESS_LIMITS",
+  "checked_unique_external_urls": 37,
+  "http_200_responses": 36,
+  "http_200_cookie_error_pages": 2,
+  "other_http_200_responses": 34,
+  "publisher_http_403": 1,
+  "missing_urls_404": 0,
+  "request_scope": "Read-only HEAD link checks, not complete proof/full-text verification.",
+  "publisher_access_limits": [
+    "Springer DOI and article URLs returned cookie/error pages with HTTP200. Canonical citation URLs remain correct; no new article/full-text access is claimed.",
+    "Chapuy DOI resolves to the correct SIAM article but returned403; the cited corrected arXiv version responded200."
+  ],
+  "public_redirect_privacy": "Only canonical scheme, host and path are retained. All query/fragment/error/session identifiers remain in private raw evidence and are excluded from every publishable commit.",
+  "urls": [
+    {
+      "url": "https://arxiv.org/abs/1012.0372v2",
+      "status": 200,
+      "seconds": 0.16,
+      "resolved_url": "https://arxiv.org/abs/1012.0372v2",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/1308.2211v3",
+      "status": 200,
+      "seconds": 0.15,
+      "resolved_url": "https://arxiv.org/abs/1308.2211v3",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/1312.7253v1",
+      "status": 200,
+      "seconds": 0.15,
+      "resolved_url": "https://arxiv.org/abs/1312.7253v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/1611.07497v3",
+      "status": 200,
+      "seconds": 0.25,
+      "resolved_url": "https://arxiv.org/abs/1611.07497v3",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/1611.07497v7",
+      "status": 200,
+      "seconds": 0.14,
+      "resolved_url": "https://arxiv.org/abs/1611.07497v7",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/2001.00257v2",
+      "status": 200,
+      "seconds": 0.12,
+      "resolved_url": "https://arxiv.org/abs/2001.00257v2",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.06501v3",
+      "status": 200,
+      "seconds": 0.27,
+      "resolved_url": "https://arxiv.org/abs/2406.06501v3",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.06538v1",
+      "status": 200,
+      "seconds": 0.12,
+      "resolved_url": "https://arxiv.org/abs/2608.06538v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23010v1",
+      "status": 200,
+      "seconds": 0.14,
+      "resolved_url": "https://arxiv.org/abs/2608.23010v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.13831v1",
+      "status": 200,
+      "seconds": 0.12,
+      "resolved_url": "https://arxiv.org/abs/2609.13831v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.15269v1",
+      "status": 200,
+      "seconds": 0.23,
+      "resolved_url": "https://arxiv.org/abs/2610.15269v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.15539v1",
+      "status": 200,
+      "seconds": 0.11,
+      "resolved_url": "https://arxiv.org/abs/2610.15539v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/html/1012.0372v2",
+      "status": 200,
+      "seconds": 0.13,
+      "resolved_url": "https://arxiv.org/html/1012.0372v2",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/html/1308.2211v3",
+      "status": 200,
+      "seconds": 0.12,
+      "resolved_url": "https://arxiv.org/html/1308.2211v3",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/html/1611.07497v7",
+      "status": 200,
+      "seconds": 1.63,
+      "resolved_url": "https://arxiv.org/html/1611.07497v7",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/html/2406.06501v3",
+      "status": 200,
+      "seconds": 0.8,
+      "resolved_url": "https://arxiv.org/html/2406.06501v3",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/html/2608.06538v1",
+      "status": 200,
+      "seconds": 0.12,
+      "resolved_url": "https://arxiv.org/html/2608.06538v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/html/2608.23010v1",
+      "status": 200,
+      "seconds": 1.05,
+      "resolved_url": "https://arxiv.org/html/2608.23010v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/html/2609.13831v1",
+      "status": 200,
+      "seconds": 0.38,
+      "resolved_url": "https://arxiv.org/html/2609.13831v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/html/2610.15269v1",
+      "status": 200,
+      "seconds": 0.15,
+      "resolved_url": "https://arxiv.org/html/2610.15269v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/html/2610.15539v1",
+      "status": 200,
+      "seconds": 0.04,
+      "resolved_url": "https://arxiv.org/html/2610.15539v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1312.7253v1",
+      "status": 200,
+      "seconds": 0.13,
+      "resolved_url": "https://arxiv.org/pdf/1312.7253v1",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2001.00257v2",
+      "status": 200,
+      "seconds": 0.53,
+      "resolved_url": "https://arxiv.org/pdf/2001.00257v2",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://doi.org/10.1007/BF01787705",
+      "status": 200,
+      "seconds": 3.18,
+      "resolved_url": "https://link.springer.com/article/10.1007/BF01787705",
+      "access": "Publisher cookie/error page returned HTTP200; this is not verified article/full-text access."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ejc.2011.09.024",
+      "status": 200,
+      "seconds": 0.72,
+      "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0195669811001727",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ejc.2015.03.006",
+      "status": 200,
+      "seconds": 2.03,
+      "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0195669815000670",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.tcs.2013.12.013",
+      "status": 200,
+      "seconds": 2.02,
+      "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0304397513009250",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://doi.org/10.1017/S030500410002168X",
+      "status": 200,
+      "seconds": 0.86,
+      "resolved_url": "https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/on-colouring-the-nodes-of-a-network/546AD533E0FDCFD02755AC34B0972D0E",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://doi.org/10.1137/100803869",
+      "status": 403,
+      "seconds": 0.23,
+      "resolved_url": "https://epubs.siam.org/doi/10.1137/100803869",
+      "access": "Publisher access protection403; canonical DOI resolves correctly; cited corrected arXiv text accessible."
+    },
+    {
+      "url": "https://doi.org/10.37236/13355",
+      "status": 200,
+      "seconds": 2.26,
+      "resolved_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v32i2p20",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://doi.org/10.37236/208",
+      "status": 200,
+      "seconds": 2.23,
+      "resolved_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v16i1r119",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/BF01787705",
+      "status": 200,
+      "seconds": 0.83,
+      "resolved_url": "https://link.springer.com/article/10.1007/BF01787705",
+      "access": "Publisher cookie/error page returned HTTP200; this is not verified article/full-text access."
+    },
+    {
+      "url": "https://perso.ens-lyon.fr/stephan.thomasse/liste/fractuza.pdf",
+      "status": 200,
+      "seconds": 0.26,
+      "resolved_url": "https://perso.ens-lyon.fr/stephan.thomasse/liste/fractuza.pdf",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v16i1r119/pdf/",
+      "status": 200,
+      "seconds": 1.28,
+      "resolved_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v16i1r119/pdf/",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v16i1r119",
+      "status": 200,
+      "seconds": 1.3,
+      "resolved_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v16i1r119",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v32i2p20",
+      "status": 200,
+      "seconds": 1.28,
+      "resolved_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v32i2p20",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    },
+    {
+      "url": "https://www.tu-ilmenau.de/fileadmin/Bereiche/MN/komgra/BackMatterSMM.pdf",
+      "status": 200,
+      "seconds": 0.43,
+      "resolved_url": "https://www.tu-ilmenau.de/fileadmin/Bereiche/MN/komgra/BackMatterSMM.pdf",
+      "access": "Public URL responded200 to read-only HEAD; no full-text revalidation is implied."
+    }
+  ]
+}

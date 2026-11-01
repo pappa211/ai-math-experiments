@@ -95,3 +95,14 @@ itself; both inventories retain the exact unchanged earlier mathematical sources
 maps copied source identities and curated transformations. No private Git history,
 native binary, dependency cache, full third-party article or operational handoff is
 included. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Publication edition, 1 November 2026
+
+The [publication-specific receipts](verification/tuza-07-10/publication-20261101/README.md)
+record the corrected editorial PDF, complete page/parity/link review, new exact
+example run and independent publication critic. Adjacent preparation receipts
+continue to identify the original accepted source build/replays; they are reused
+without claiming a new Lean run. The paper builder checks every local link target
+and uses stable public GitHub URLs in the PDF; Markdown keeps its relative links.
+The root inventory identifies the current publication artifacts. Mathematical
+sources, theorem types, ordinary proofs and the exact source mapping are unchanged.

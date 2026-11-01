@@ -1,30 +1,22 @@
 {
-  "status": "READY_FOR_OWNER_REVIEW",
-  "published": false,
-  "remote_writes": false,
+  "status": "FINAL_REVIEWED_PUBLICATION_TREE",
   "public_baseline": "b7b0e4fa66bd3effa64f0905eb497818f264b25c",
-  "local_branch": "codex/tuza-07-10-consolidation",
-  "candidate_commit": "Recorded in the separate owner-review final report to avoid self-referential commit hashes.",
   "paper_artifacts": {
-    "papers/tuza-further-investigations/build.py": "948706355597f74a137455b777f1fd689ba04d11d205d6e99bd8610efba0469e",
-    "papers/tuza-further-investigations/main.pdf": "285530f56ef4649b1a1853c50753662345bc1fd7669b8a065fc047e3fe81a4c7",
-    "papers/tuza-further-investigations/references.bib": "c754ce115ea7615b5200cc45c6792c3c0c5893f6a708a53f1109948023e377ab",
-    "papers/tuza-further-investigations/main.tex": "f8da11a20e06d8d48a37363e390f6639352ba02d65623e2c2dfe5b494ca82872",
-    "papers/tuza-further-investigations/numeric.csl": "ad87814675ef1df8d841e5043be7be0fb3966f45509f4941475f96887c9280f7",
-    "papers/tuza-further-investigations/main.md": "eb508758115567bf4268cdb881b567cc533b2f03a20cf29d7bc9657f4d235dad",
     "papers/tuza-further-investigations/LITERATURE_RECHECK.md": "1b2739800a9c5bb0d364d3441b4b6df4cf8c658bfc41c288f18e520321891acc",
-    "papers/tuza-further-investigations/README.md": "266414bdd43c0191b86ce36a40a0468e24f6e6ef5aebf653f86dfec3bab988cc",
-    "papers/tuza-further-investigations/manuscript.md": "6e0c78b61d46bc56f17a278ffc5eacd3e34575ee6a06d38523daba3ddc0318c6"
+    "papers/tuza-further-investigations/README.md": "58852acd38494ed0c49679943ed27d56e3a22318abb016c763a1c44f7b570014",
+    "papers/tuza-further-investigations/build.py": "17326ed3f6292fcd7fab155939b88b715e44f8624e3b12b168a9c568588d785a",
+    "papers/tuza-further-investigations/main.md": "90eea744706b9d41de66cd5617d5f7086cbd2cd737223d1af44dc8e917c13336",
+    "papers/tuza-further-investigations/main.pdf": "9495bd36be77c4408b71b107d2619a72ce3f75dd263df3c6105a75e8a844f25b",
+    "papers/tuza-further-investigations/main.tex": "39f54131dd34e94c39a69514f57d426a96d494f4a50f5fa2d36ef61bd478676f",
+    "papers/tuza-further-investigations/manuscript.md": "5acf01b9ede51b426d55e4ad14e77d94ff86df43262784bc1439aeb37dc06a28",
+    "papers/tuza-further-investigations/numeric.csl": "ad87814675ef1df8d841e5043be7be0fb3966f45509f4941475f96887c9280f7",
+    "papers/tuza-further-investigations/references.bib": "c754ce115ea7615b5200cc45c6792c3c0c5893f6a708a53f1109948023e377ab"
   },
   "public_source_manifest_sha256": "f9f50713a179cb033e7279f079611885becdcfa09c60c35e33a924a654ce577a",
   "copied_source_entries": 84,
   "native_project_modules": 48,
   "audited_declarations": 305,
   "standard_kernel_replays": 48,
-  "independent_internal_reviews": {
-    "mathematical": "86dd61a904cd87948e3aedb3e4c19917af091b6dd04321f44c9602d8164f2c32",
-    "publication": "d24291a3a3d9ea4d5ab966a2b1024006ad2cf278ac44c7f9746c23e6a49356a6"
-  },
   "historical_originality": "UNESTABLISHED",
   "unrestricted_tuza": "OPEN",
   "R": "UNPROVED",
@@ -42,5 +34,14 @@
     "release_overlay": "RELEASE_FILES.sha256",
     "full_candidate": "FILES.sha256",
     "self_exclusion": "Each hash inventory excludes itself; overlay also excludes full inventory to avoid a hash cycle."
-  }
+  },
+  "accepted_candidate_commit": "f4f7f27683b1a89d7282633783524776f9f80d41",
+  "publication_branch": "codex/publish-tuza-07-10-20261101",
+  "publication_method": "Reviewed GitHub pull request into main; PR records final publication identity.",
+  "candidate_preparation_review_sha256": {
+    "mathematical": "86dd61a904cd87948e3aedb3e4c19917af091b6dd04321f44c9602d8164f2c32",
+    "publication": "d24291a3a3d9ea4d5ab966a2b1024006ad2cf278ac44c7f9746c23e6a49356a6"
+  },
+  "publication_critic_receipt": "verification/tuza-07-10/publication-20261101/INDEPENDENT_CRITIC.json",
+  "publication_receipts": "verification/tuza-07-10/publication-20261101/README.md"
 }

@@ -1,6 +1,11 @@
-# Publication privacy and scope audit
+# Candidate-preparation privacy and scope audit
 
 **AI-developed mathematical research report — AI Math Experiments**
+
+This is the historical prepublication audit of accepted candidate commit
+`f4f7f27683b1a89d7282633783524776f9f80d41`. Statements below about local-only
+status describe that preparation stage. The final editorial publication gate is
+recorded in [publication verification](verification/tuza-07-10/publication-20261101/README.md).
 
 Scope: the complete local TUZA-07–10 candidate tree, its new-file overlay,
 rendered PDF metadata/text/links, and new local Git diff/history. Earlier public

@@ -27,11 +27,11 @@
 
 \textbf{AI-developed mathematical research report --- AI Math Experiments}
 
-1 November 2026. Local release candidate; public release requires a separate decision.
+Technical research report - GitHub research archive - 1 November 2026.
 
 The mathematical development, proofs, code, formalization, manuscript and internal reviews were AI-produced. The human participant directed goals, budgets and authorization. No human mathematical author, institutional affiliation, external human peer review or historical-priority certification is claimed.
 
-\href{main.pdf}{PDF} * \href{main.tex}{LaTeX} * \href{references.bib}{BibTeX} * \href{../../STATUS_AND_PROVENANCE.md}{Status and provenance} * \href{../../REPRODUCTION.md}{Reproduction}
+\href{https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-further-investigations/main.pdf}{PDF} * \href{https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-further-investigations/main.tex}{LaTeX} * \href{https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-further-investigations/references.bib}{BibTeX} * \href{https://github.com/pappa211/ai-math-experiments/blob/main/STATUS_AND_PROVENANCE.md}{Status and provenance} * \href{https://github.com/pappa211/ai-math-experiments/blob/main/REPRODUCTION.md}{Reproduction}
 
 \subsection{Abstract}\label{abstract}
 
@@ -47,7 +47,7 @@ The fractional packing number \(\nu^*(G)\) maximizes \(\sum_T z_T\) over \(z_T\g
 
 For an auxiliary properly edge-colored graph \((J,c)\), \(\rho(J,c)\) is the largest matching using distinct colors; \(\operatorname{vc}(J)\) is its ordinary vertex-cover number. It counts vertices of \(J\), not colors. A vertex-saturated fractional color certificate has nonnegative edge weights summing to one at every vertex and at most one in every color class.
 
-TUZA-01--03 is the separate published triangle-restoration program. TUZA-04--06 proves Tuza for every five-degenerate finite simple graph, with equality precisely for the literal \(K_4/K_5\) triangle-component condition. Those published files remain unchanged. See the \href{../tuza-triangle-restoration/main.md}{restoration paper} and \href{../tuza-five-degenerate/main.md}{five-degenerate paper}. Five-degeneracy is distinct from bounded maximum degree. TUZA-07's extension theorem makes no degeneracy assumption on its supergraph; its block-type remainder hypothesis is essential.
+TUZA-01--03 is the separate published triangle-restoration program. TUZA-04--06 proves Tuza for every five-degenerate finite simple graph, with equality precisely for the literal \(K_4/K_5\) triangle-component condition. Those published files remain unchanged. See the \href{https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-triangle-restoration/main.md}{restoration paper} and \href{https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-five-degenerate/main.md}{five-degenerate paper}. Five-degeneracy is distinct from bounded maximum degree. TUZA-07's extension theorem makes no degeneracy assumption on its supergraph; its block-type remainder hypothesis is essential.
 
 {\def\LTcaptype{none} % do not increment counter
 \begin{longtable}[]{@{}
@@ -148,7 +148,7 @@ Let H have only literal K4/K5 triangle components, G be any supergraph, and h=nu
 
 If no new triangle exists, an old minimum cover gives (b). If some new triangle P uses an old block edge, construct C union D as in GAIN\_ONE\_THEOREM.md. If it covers G, return it. If not, choose an uncovered new triangle Q; the compatible-pair proof constructs blockwise avoiding maximum packings and appends P,Q, returning (a). If every new triangle avoids all old supports, search for two edge-disjoint new triangles. If found, append them to an old maximum packing for (a). Otherwise the pairwise-intersecting triangle-family lemma gives a two-edge new-family cover, yielding (b).
 
-The alternatives need not be exclusive. This procedure does not first solve the global packing or cover optimum. Local clique choices are finite and explicit. The discovery implementation experiments/constructive.py and its finite validations are historical records not included in this public archive. The public fixed-example checker is \href{../../tools/check_tuza_examples.py}{check\_tuza\_examples.py}.
+The alternatives need not be exclusive. This procedure does not first solve the global packing or cover optimum. Local clique choices are finite and explicit. The discovery implementation experiments/constructive.py and its finite validations are historical records not included in this public archive. The public fixed-example checker is \href{https://github.com/pappa211/ai-math-experiments/blob/main/tools/check_tuza_examples.py}{check\_tuza\_examples.py}.
 
 \subsubsection{Exact statement (A9 / B1 equality strengthening)}\label{exact-statement-a9-b1-equality-strengthening}
 
@@ -170,7 +170,7 @@ Conversely, either displayed full-triangle-family configuration gives nu(G)=h+1 
 
 \subsubsection{Inputs from B1}\label{inputs-from-b1}
 
-The proven gain-one cover-completion argument in \href{../../problems/TUZA-07/notes/GAIN_ONE_THEOREM.md}{GAIN\_ONE\_THEOREM.md} supplies:
+The proven gain-one cover-completion argument in \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-07/notes/GAIN_ONE_THEOREM.md}{GAIN\_ONE\_THEOREM.md} supplies:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -233,7 +233,7 @@ Thus the third-addition frontier does not fail: even the combined inequality/equ
 
 The full literal component identities and unchanged other components are conclusions of the exact family descriptions. The converse requires every new spoke to avoid all old support; dropping this was rejected during internal review. No composability through arbitrary positive-slack states follows.
 
-Complete curated source proof: \href{../../problems/TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md}{GAIN\_ONE\_EQUALITY\_RIGIDITY.md}.
+Complete curated source proof: \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md}{GAIN\_ONE\_EQUALITY\_RIGIDITY.md}.
 
 \subsection{3. Conditional edge-minimal-counterexample deductions}\label{conditional-edge-minimal-counterexample-deductions}
 
@@ -291,7 +291,7 @@ The hypotheses involve an actual minimal counterexample. No such graph is known.
 
 The two-triangle extension fact is degree-independent but is a short consequence of the standard packing-covering inequalities, and may be known. It should not be promoted as a new structural theorem without specific prior-art comparison.
 
-Complete curated source proof: \href{../../problems/TUZA-07/notes/CRITICALITY_PACKAGE.md}{CRITICALITY\_PACKAGE.md}.
+Complete curated source proof: \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-07/notes/CRITICALITY_PACKAGE.md}{CRITICALITY\_PACKAGE.md}.
 
 \subsection{4. Arbitrary-graph cover switching and its limits}\label{arbitrary-graph-cover-switching-and-its-limits}
 
@@ -428,7 +428,7 @@ Containing all of A forces the unique minimum cover C\_A: a size-five cover cont
 
 Deleting A leaves the size-three cover \{24,35,36\} and the packing 035,136,246 of size three. Deleting B leaves cover \{25,26,34\} and packing 025,126,345. Hence \(\nu\) (H-A)= \(\nu\) (H-B)=3 and \(\tau\) (H-A)= \(\tau\) (H-B)=3. Both wedge deletions lose one packing triangle and two cover edges, and both pairs individually belong to a minimum cover, but no minimum cover meets both.
 
-This is not a Tuza counterexample: \(\tau\) (H)=5\textless8=2 \(\nu\) (H). Restoring 01 gives \(\nu\) =4, \(\tau\) =6 by the exact restoration identity in \href{../../problems/TUZA-08/notes/INDEPENDENT_MECHANISM.md}{INDEPENDENT\_MECHANISM.md}. The example shows the covering incompatibility, exact wedge losses, and the sharp neutral-edge obstruction can coexist in a genuine graph. Tightness and stronger deletion resilience cannot silently be discarded.
+This is not a Tuza counterexample: \(\tau\) (H)=5\textless8=2 \(\nu\) (H). Restoring 01 gives \(\nu\) =4, \(\tau\) =6 by the exact restoration identity in \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-08/notes/INDEPENDENT_MECHANISM.md}{INDEPENDENT\_MECHANISM.md}. The example shows the covering incompatibility, exact wedge losses, and the sharp neutral-edge obstruction can coexist in a genuine graph. Tightness and stronger deletion resilience cannot silently be discarded.
 
 \subsubsection{Negative control: exactly two common neighbors is necessary}\label{negative-control-exactly-two-common-neighbors-is-necessary}
 
@@ -462,7 +462,7 @@ Unused edges have the same degree parities as J, so at least half the odd-degree
 
 W7 proves sharpness of the cover theorem in an ordinary graph, with \(\tau=5<2\nu=8\). W8 refutes a packing-only shortcut and does not meet the pair-containing minimum-cover premises. The finite checks certify these individual graphs. The universal cover-switch result follows from the symbolic proof, not from the finite checks.
 
-Complete curated source proof: \href{../../problems/TUZA-08/notes/COVER_SWITCH_PROOF.md}{COVER\_SWITCH\_PROOF.md}.
+Complete curated source proof: \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-08/notes/COVER_SWITCH_PROOF.md}{COVER\_SWITCH\_PROOF.md}.
 
 \subsection{5. Multicover and fractional-integrality obstructions}\label{multicover-and-fractional-integrality-obstructions}
 
@@ -588,9 +588,9 @@ where ij denotes the two-element set \{i,j\}. The displayed graph has adjacency 
 
 This refutes each universal assertion q \textless= C p for a finite nonnegative constant C; p=0 implies q=0; and existence of an integral optimal triangle packing LP solution implies an integral optimal triangle-cover LP solution. It does not refute Tuza or interpolation.
 
-The root's exact certificate file \href{../../problems/TUZA-09/certificates/EXACT_RESULTS.json}{EXACT\_RESULTS.json} independently verifies this graph under the same standard labels. The ordinary argument above does not rely on that code.
+The root's exact certificate file \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-09/certificates/EXACT_RESULTS.json}{EXACT\_RESULTS.json} independently verifies this graph under the same standard labels. The ordinary argument above does not rely on that code.
 
-Writing \(p=\nu^*-\nu\) and \(q=\tau-\nu^*\), the Petersen cone has \(p=0,q=1\). Hence no universal bound \(q\le Cp\) with finite nonnegative \(C\) can supply the missing rounding argument. Structured cone/prism and disjoint-union variants are proved, with their credited existence inputs, in the \href{../../problems/TUZA-09/notes/LP_GEOMETRY.md}{LP source notes}. They diagnose lost information, rather than establish \(p+q\le\nu\) in arbitrary graphs.
+Writing \(p=\nu^*-\nu\) and \(q=\tau-\nu^*\), the Petersen cone has \(p=0,q=1\). Hence no universal bound \(q\le Cp\) with finite nonnegative \(C\) can supply the missing rounding argument. Structured cone/prism and disjoint-union variants are proved, with their credited existence inputs, in the \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-09/notes/LP_GEOMETRY.md}{LP source notes}. They diagnose lost information, rather than establish \(p+q\le\nu\) in arbitrary graphs.
 
 The inspected corrected Chapuy et al.~version {[}2{]}, Theorems 1.6(i) and 2.3, states
 
@@ -610,7 +610,7 @@ Do not replace vc by an unrestricted hypergraph transversal or rho by the ordina
 
 \subsubsection{Verified translation from TUZA-09}\label{verified-translation-from-tuza-09}
 
-Source: accepted TUZA-09 \href{../../problems/TUZA-09/notes/LP_GEOMETRY.md}{LP\_GEOMETRY.md}, sections 7--8. Let G be finite simple and y an OPTIMAL fractional edge cover of all graph triangles, with values 0 or 1/2. Put B=\{e:y\_e=1/2\}, Z=\{e:y\_e=0\}; require the graph (V(G),B) triangle-free. Every triangle has exactly two B edges (feasibility excludes fewer; triangle-freeness excludes three).
+Source: accepted TUZA-09 \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-09/notes/LP_GEOMETRY.md}{LP\_GEOMETRY.md}, sections 7--8. Let G be finite simple and y an OPTIMAL fractional edge cover of all graph triangles, with values 0 or 1/2. Put B=\{e:y\_e=1/2\}, Z=\{e:y\_e=0\}; require the graph (V(G),B) triangle-free. Every triangle has exactly two B edges (feasibility excludes fewer; triangle-freeness excludes three).
 
 Vertices of J are actual B edges. Each G triangle gives an edge joining its two B edges, colored by its Z edge. Two B edges determine at most one triangle, so J is simple. For fixed Z edge ab, triangles abv have pairwise disjoint pairs \{av,bv\} as v varies, so coloring is proper. A triangle in J would correspond to three pairwise incident B edges. Three pairwise incident distinct simple-graph edges either form a triangle (excluded) or a star. A star would force all three edges among its leaves to be in Z, forming a triangle of y-weight zero (excluded). Therefore J is triangle-free.
 
@@ -733,13 +733,13 @@ Only the extension across short odd cycles (length5,7) is missing from the restr
 
 The cycle theorem uses Le--Pfender color-line graphs {[}4{]} and Brooks {[}5{]}. It remains valid with colors repeated across components, because the conflict graph is treated globally. A proposed general \(5/3\) refinement is still UNPROVED; its abstract C9 extremizer also violates the realizability closure. The restricted theorem supplies no reduction from arbitrary \(G\) or arbitrary R to cycle systems.
 
-Complete curated source proof: \href{../../problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md}{PROOFS\_OR\_OBSTRUCTIONS.md}.
+Complete curated source proof: \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md}{PROOFS\_OR\_OBSTRUCTIONS.md}.
 
 \subsection{7. Synthesis and prior-art positioning}\label{synthesis-and-prior-art-positioning}
 
 B1/B2 settle an extension problem with a specific old equality structure. A1 exposes necessary conditions of a hypothetical minimal counterexample but does not classify its tight descendants. TUZA-08 proves a switch and locates a sharp necessary obstruction; W7 shows that cover incompatibility and wedge losses coexist in a non-tight graph. No ancestry-to-neutral-edge argument rules this out in all relevant tight descendants. TUZA-09 shows that scalar fractional or multicover feasibility does not automatically retain the compatibility needed for integral rounding. TUZA-10 rules out an abstract half-integral certificate reduction and explains why genuine graph realizations impose extra closure.
 
-The earlier A/B/C approaches therefore do not constitute a general proof. In particular, one may not infer block type for every tight residual, iterate a theorem through uncontrolled slack, assume simultaneous minimum-cover compatibility, split every multicover, replace a general fractional solution by a half-integral one, or ignore the complete graph-triangle incidence constraints. Curated \href{../../problems/TUZA-07/notes/COUNTEREXAMPLES_AND_FAILURES.md}{TUZA-07 failures}, \href{../../problems/TUZA-09/notes/ALTERNATIVES.md}{TUZA-09 alternatives}, and \href{../../problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md}{TUZA-10 rejected realization} preserve the specific objections.
+The earlier A/B/C approaches therefore do not constitute a general proof. In particular, one may not infer block type for every tight residual, iterate a theorem through uncontrolled slack, assume simultaneous minimum-cover compatibility, split every multicover, replace a general fractional solution by a half-integral one, or ignore the complete graph-triangle incidence constraints. Curated \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-07/notes/COUNTEREXAMPLES_AND_FAILURES.md}{TUZA-07 failures}, \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-09/notes/ALTERNATIVES.md}{TUZA-09 alternatives}, and \href{https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md}{TUZA-10 rejected realization} preserve the specific objections.
 
 Possible future questions include a saturation-preserving exchange invariant, a characterization of graph-realizable support systems, and the short-odd-cycle gap in the \(5/3\) proposal. These are speculation, not established lemmas or evidence of a credible unrestricted proof bridge. The research decision remains REDIRECT: this consolidation starts no further discovery campaign.
 
@@ -780,9 +780,9 @@ Brooks' primary-paper reprint was inspected in the precise subcubic form used ab
 
 \subsection{8. Verification, provenance and disclosure}\label{verification-provenance-and-disclosure}
 
-The \href{../../STATUS_AND_PROVENANCE.md}{source-specific ledger} maps the selected results to actual declarations, literal types, source proof files and limitations. Mathematical Lean sources and dependency pin files are copied byte for byte. B1/B2, A1 and cover-switch are separate portable projects; no merged build is asserted. Fresh candidate checks rebuild every copied closure module, audit inventoried declarations and replay the resulting objects with the standard Lean kernel. Pinned compiled dependencies are reused. This is neither a cold Mathlib/compiler build nor independent-kernel verification. The only permitted reported axioms are \texttt{propext}, \texttt{Classical.choice}, and \texttt{Quot.sound}. Finite examples use independent exact integer/rational certificates, with explicit tested domains.
+The \href{https://github.com/pappa211/ai-math-experiments/blob/main/STATUS_AND_PROVENANCE.md}{source-specific ledger} maps the selected results to actual declarations, literal types, source proof files and limitations. Mathematical Lean sources and dependency pin files are copied byte for byte. B1/B2, A1 and cover-switch are separate portable projects; no merged build is asserted. Fresh candidate checks rebuild every copied closure module, audit inventoried declarations and replay the resulting objects with the standard Lean kernel. Pinned compiled dependencies are reused. This is neither a cold Mathlib/compiler build nor independent-kernel verification. The only permitted reported axioms are \texttt{propext}, \texttt{Classical.choice}, and \texttt{Quot.sound}. Finite examples use independent exact integer/rational certificates, with explicit tested domains.
 
-The \href{../../REPRODUCTION.md}{reproduction guide} and receipts state what actually ran and give commands using public relative source paths and explicitly supplied dependency locations. Historical random tests and small censuses are evidence only for their specified finite domains; they were not rerun as universal claims. Ordinary TUZA-09/10 arguments have no new Lean certification. The paper derives Markdown and LaTeX from one selected text, and its PDF is compiled and visually reviewed page by page. Source mapping and hashes identify the curated transformations.
+The \href{https://github.com/pappa211/ai-math-experiments/blob/main/REPRODUCTION.md}{reproduction guide} and receipts state what actually ran and give commands using public relative source paths and explicitly supplied dependency locations. Historical random tests and small censuses are evidence only for their specified finite domains; they were not rerun as universal claims. Ordinary TUZA-09/10 arguments have no new Lean certification. The paper derives Markdown and LaTeX from one selected text, and its PDF is compiled and visually reviewed page by page. Source mapping and hashes identify the curated transformations.
 
 All mathematical development, proofs, code, formalization, this manuscript and internal reviews were AI-produced. The human directed goals, budgets and authorization. Two independent internal AI reviews cover mathematical source fidelity and public-candidate reproduction/privacy/editorial quality. These are not external human peer review. No mathematical authority, endorsement or historical priority is inferred from a successful tool run. The unrestricted conjecture remains OPEN.
 

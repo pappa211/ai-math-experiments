@@ -33,5 +33,6 @@ does not decide the graphic subclass or R.
 
 The mathematical development, proofs, code, formalization, manuscript and internal
 reviews were AI-produced. The human directed goals, budgets and authorization.
-This local release candidate has not been published. Any public Git action requires
-a separate owner decision; no new research campaign is begun by this handoff.
+This technical report and reproducible research record belong to the GitHub
+research archive. Consult the repository for the current delivery state. No new
+research campaign is begun by this handoff.

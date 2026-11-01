@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "review_type": "Independent internal AI publication critic; not external human peer review",
+  "reviewed_pdf_sha256": "9495bd36be77c4408b71b107d2619a72ce3f75dd263df3c6105a75e8a844f25b",
+  "public_source_manifest_sha256": "f9f50713a179cb033e7279f079611885becdcfa09c60c35e33a924a654ce577a",
+  "claim_boundaries": "B1/B2 and conditional A1 and restricted-hypothesis cover switch retain their Lean scope; TUZA-09/10 have no new Lean theorem. General Tuza, R and the general 5/3 refinement remain unproved; historical originality unestablished.",
+  "mathematical_sources_and_literal_interfaces_unchanged": true,
+  "independent_finite_checker_rerun": "PASS",
+  "existing_48_module_305_declaration_48_replay_receipts_reconciled": true,
+  "new_lean_compilations_claimed": false,
+  "all_27_final_pdf_pages_visually_inspected": true,
+  "pdf_body_text_identical_to_accepted_candidate_except_header": true,
+  "pdf_links_all_https": 72,
+  "public_repository_file_link_occurrences_resolve": 23,
+  "new_files_privacy_and_local_link_review": "PASS",
+  "full_report_location": "Retained in the local publication evidence package; no private operational report is distributed.",
+  "full_independent_report_sha256": "970f9b0fa1af0a1f21161533348397b3c8f1034c9a6d6131f1b08f3ba7cb7fd9"
+}

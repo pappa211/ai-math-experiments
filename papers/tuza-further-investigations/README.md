@@ -21,5 +21,7 @@ follow the existing five-degenerate paper. No existing published paper is edited
 The general conjecture is OPEN, research decision REDIRECT, originality
 UNESTABLISHED. AI-produced mathematics, proofs, code, formalization, manuscript
 and internal reviews; human-directed goals, budgets and authorization. Internal
-AI reviews are not external human peer review. This is a local candidate and not
-a journal submission or public release.
+AI reviews are not external human peer review. This is a technical research report in the GitHub research archive. No journal
+publication or external human peer review is claimed.
+
+[Reader-friendly project status](../../RESEARCH_STATUS_2026-11-01.md) · [Publication verification](../../verification/tuza-07-10/publication-20261101/README.md).
