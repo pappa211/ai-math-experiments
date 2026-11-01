@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-01T15:54:06.093458+00:00",
+  "new_or_modified_files": 240,
+  "private_pattern_hits": 0,
+  "broken_markdown_file_links": 0,
+  "original_source_files_rehashed": 4169,
+  "original_git_heads_and_clean_states_unchanged": true,
+  "public_baseline": "b7b0e4fa66bd3effa64f0905eb497818f264b25c",
+  "canonical_public_clone_clean": true,
+  "tuza06_and_five_degenerate_files_unchanged": 1006,
+  "pdf_metadata_links_and_extracted_text_clean": true,
+  "pdf_attachments": 0,
+  "unexpected_binaries": 0,
+  "retained_portable_config_identifier": "tuza_a1_private is a historical source package identifier, not a local directory or personal/operational identity. It is deliberately retained byte for byte."
+}

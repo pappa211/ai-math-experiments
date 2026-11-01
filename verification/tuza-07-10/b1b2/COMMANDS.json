@@ -1,0 +1,623 @@
+[
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "--version"
+    ],
+    "exit": 0,
+    "seconds": 0.295,
+    "log": "compiler-version.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza/Basic.olean",
+      "Tuza/Basic.lean"
+    ],
+    "exit": 0,
+    "seconds": 7.222,
+    "log": "build-Tuza.Basic.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza/Graph.olean",
+      "Tuza/Graph.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.008,
+    "log": "build-Tuza.Graph.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/Statement.olean",
+      "Tuza06/Statement.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.903,
+    "log": "build-Tuza06.Statement.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/Transport.olean",
+      "Tuza06/Transport.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.958,
+    "log": "build-Tuza06.Transport.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/FiniteCliques.olean",
+      "Tuza06/FiniteCliques.lean"
+    ],
+    "exit": 0,
+    "seconds": 7.32,
+    "log": "build-Tuza06.FiniteCliques.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/Pages.olean",
+      "Tuza06/Pages.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.955,
+    "log": "build-Tuza06.Pages.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/Reduction.olean",
+      "Tuza06/Reduction.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.902,
+    "log": "build-Tuza06.Reduction.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/Additivity.olean",
+      "Tuza06/Additivity.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.955,
+    "log": "build-Tuza06.Additivity.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/BlockAggregation.olean",
+      "Tuza06/BlockAggregation.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.958,
+    "log": "build-Tuza06.BlockAggregation.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/Components.olean",
+      "Tuza06/Components.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.121,
+    "log": "build-Tuza06.Components.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/Targets.olean",
+      "Tuza07/Targets.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.845,
+    "log": "build-Tuza07.Targets.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/Footprints.olean",
+      "Tuza06/Footprints.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.898,
+    "log": "build-Tuza06.Footprints.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza/Intersecting.olean",
+      "Tuza/Intersecting.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.94,
+    "log": "build-Tuza.Intersecting.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza/IntersectingStructure.olean",
+      "Tuza/IntersectingStructure.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.233,
+    "log": "build-Tuza.IntersectingStructure.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/Basic.olean",
+      "Tuza07/Basic.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.956,
+    "log": "build-Tuza07.Basic.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/Local.olean",
+      "Tuza07/Local.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.111,
+    "log": "build-Tuza07.Local.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/Completion.olean",
+      "Tuza07/Completion.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.113,
+    "log": "build-Tuza07.Completion.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza06/ExternalPageGeometry.olean",
+      "Tuza06/ExternalPageGeometry.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.902,
+    "log": "build-Tuza06.ExternalPageGeometry.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/RigidityCore.olean",
+      "Tuza07/RigidityCore.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.003,
+    "log": "build-Tuza07.RigidityCore.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/RigidityIntersecting.olean",
+      "Tuza07/RigidityIntersecting.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.989,
+    "log": "build-Tuza07.RigidityIntersecting.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/RigidityPair.olean",
+      "Tuza07/RigidityPair.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.057,
+    "log": "build-Tuza07.RigidityPair.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/Configurations.olean",
+      "Tuza07/Configurations.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.068,
+    "log": "build-Tuza07.Configurations.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/Main.olean",
+      "Tuza07/Main.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.955,
+    "log": "build-Tuza07.Main.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07.olean",
+      "Tuza07.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.848,
+    "log": "build-Tuza07.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza07/Audit.olean",
+      "Tuza07/Audit.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.902,
+    "log": "build-Tuza07.Audit.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-j1",
+      "-M2200",
+      "ReleaseAudit.lean"
+    ],
+    "exit": 0,
+    "seconds": 2.715,
+    "log": "literal-types-and-axioms.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "ReplayExactNative.olean",
+      "-c",
+      "ReplayExactNative.c",
+      "ReplayExactNative.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.352,
+    "log": "replay-driver-C.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/leanc",
+      "-o",
+      "replay-exact",
+      "ReplayExactNative.c"
+    ],
+    "exit": 0,
+    "seconds": 1.234,
+    "log": "replay-driver-native.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza.Basic"
+    ],
+    "exit": 0,
+    "seconds": 1.546,
+    "log": "replay-Tuza.Basic.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza.Graph"
+    ],
+    "exit": 0,
+    "seconds": 0.519,
+    "log": "replay-Tuza.Graph.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.Statement"
+    ],
+    "exit": 0,
+    "seconds": 0.519,
+    "log": "replay-Tuza06.Statement.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.Transport"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza06.Transport.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.FiniteCliques"
+    ],
+    "exit": 0,
+    "seconds": 2.543,
+    "log": "replay-Tuza06.FiniteCliques.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.Pages"
+    ],
+    "exit": 0,
+    "seconds": 0.572,
+    "log": "replay-Tuza06.Pages.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.Reduction"
+    ],
+    "exit": 0,
+    "seconds": 0.514,
+    "log": "replay-Tuza06.Reduction.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.Additivity"
+    ],
+    "exit": 0,
+    "seconds": 0.57,
+    "log": "replay-Tuza06.Additivity.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.BlockAggregation"
+    ],
+    "exit": 0,
+    "seconds": 0.515,
+    "log": "replay-Tuza06.BlockAggregation.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.Components"
+    ],
+    "exit": 0,
+    "seconds": 0.514,
+    "log": "replay-Tuza06.Components.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.Targets"
+    ],
+    "exit": 0,
+    "seconds": 0.515,
+    "log": "replay-Tuza07.Targets.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.Footprints"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza06.Footprints.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza.Intersecting"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza.Intersecting.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza.IntersectingStructure"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza.IntersectingStructure.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.Basic"
+    ],
+    "exit": 0,
+    "seconds": 0.516,
+    "log": "replay-Tuza07.Basic.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.Local"
+    ],
+    "exit": 0,
+    "seconds": 0.615,
+    "log": "replay-Tuza07.Local.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.Completion"
+    ],
+    "exit": 0,
+    "seconds": 0.562,
+    "log": "replay-Tuza07.Completion.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza06.ExternalPageGeometry"
+    ],
+    "exit": 0,
+    "seconds": 0.515,
+    "log": "replay-Tuza06.ExternalPageGeometry.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.RigidityCore"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza07.RigidityCore.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.RigidityIntersecting"
+    ],
+    "exit": 0,
+    "seconds": 0.516,
+    "log": "replay-Tuza07.RigidityIntersecting.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.RigidityPair"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza07.RigidityPair.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.Configurations"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza07.Configurations.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.Main"
+    ],
+    "exit": 0,
+    "seconds": 0.515,
+    "log": "replay-Tuza07.Main.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07"
+    ],
+    "exit": 0,
+    "seconds": 0.513,
+    "log": "replay-Tuza07.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza07.Audit"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza07.Audit.log"
+  }
+]

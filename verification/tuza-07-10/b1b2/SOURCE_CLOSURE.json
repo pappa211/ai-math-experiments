@@ -1,0 +1,127 @@
+[
+  {
+    "module": "Tuza.Basic",
+    "source": "Tuza/Basic.lean",
+    "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc"
+  },
+  {
+    "module": "Tuza.Graph",
+    "source": "Tuza/Graph.lean",
+    "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a"
+  },
+  {
+    "module": "Tuza06.Statement",
+    "source": "Tuza06/Statement.lean",
+    "sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7"
+  },
+  {
+    "module": "Tuza06.Transport",
+    "source": "Tuza06/Transport.lean",
+    "sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32"
+  },
+  {
+    "module": "Tuza06.FiniteCliques",
+    "source": "Tuza06/FiniteCliques.lean",
+    "sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430"
+  },
+  {
+    "module": "Tuza06.Pages",
+    "source": "Tuza06/Pages.lean",
+    "sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045"
+  },
+  {
+    "module": "Tuza06.Reduction",
+    "source": "Tuza06/Reduction.lean",
+    "sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10"
+  },
+  {
+    "module": "Tuza06.Additivity",
+    "source": "Tuza06/Additivity.lean",
+    "sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621"
+  },
+  {
+    "module": "Tuza06.BlockAggregation",
+    "source": "Tuza06/BlockAggregation.lean",
+    "sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f"
+  },
+  {
+    "module": "Tuza06.Components",
+    "source": "Tuza06/Components.lean",
+    "sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e"
+  },
+  {
+    "module": "Tuza07.Targets",
+    "source": "Tuza07/Targets.lean",
+    "sha256": "7c6e7da67b4e7903fba45b74e7524a0656ec5a7836a331b77efe5a90e083b7ff"
+  },
+  {
+    "module": "Tuza06.Footprints",
+    "source": "Tuza06/Footprints.lean",
+    "sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b"
+  },
+  {
+    "module": "Tuza.Intersecting",
+    "source": "Tuza/Intersecting.lean",
+    "sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923"
+  },
+  {
+    "module": "Tuza.IntersectingStructure",
+    "source": "Tuza/IntersectingStructure.lean",
+    "sha256": "15669245659268212e376d29cd37ac60d854139c5337907c5d5c5c94f3d11357"
+  },
+  {
+    "module": "Tuza07.Basic",
+    "source": "Tuza07/Basic.lean",
+    "sha256": "cf6b1c094b725fecc0627f61d897cf686b95aa4df1f344c2c89b9ee9eb0973df"
+  },
+  {
+    "module": "Tuza07.Local",
+    "source": "Tuza07/Local.lean",
+    "sha256": "a8baf1e2326d1bd80d6c7f9a65aee89faafedbba5d5a375379c174c759ef99f9"
+  },
+  {
+    "module": "Tuza07.Completion",
+    "source": "Tuza07/Completion.lean",
+    "sha256": "7c49559aa1c4d559e217d03fe61a703523de278bf643aff5afce85eb9efe3643"
+  },
+  {
+    "module": "Tuza06.ExternalPageGeometry",
+    "source": "Tuza06/ExternalPageGeometry.lean",
+    "sha256": "09bedd26c976d4af189007f163b840f260119d198c87c300aa35133a2d99f85c"
+  },
+  {
+    "module": "Tuza07.RigidityCore",
+    "source": "Tuza07/RigidityCore.lean",
+    "sha256": "35cc65647ffcf08d0341ce5487a0f9e8a75c3f1f164429809b7ef7c4c68c9b95"
+  },
+  {
+    "module": "Tuza07.RigidityIntersecting",
+    "source": "Tuza07/RigidityIntersecting.lean",
+    "sha256": "ca36612de3ff8e4fdab0becdd5ae80a91497711471892f3b01a87398029e2eb6"
+  },
+  {
+    "module": "Tuza07.RigidityPair",
+    "source": "Tuza07/RigidityPair.lean",
+    "sha256": "282e6140da7143e9785aad456df83d67e7c7e45a5e2778815b401766e39dec5b"
+  },
+  {
+    "module": "Tuza07.Configurations",
+    "source": "Tuza07/Configurations.lean",
+    "sha256": "c18c396b48bf6ad1d25bde88e38f1507a89391f7ae56f55dd594bb0032d36eb8"
+  },
+  {
+    "module": "Tuza07.Main",
+    "source": "Tuza07/Main.lean",
+    "sha256": "3becc384efe431d3d97a1842c4827a95e13db4674a5d523aed1e377ea310b6c9"
+  },
+  {
+    "module": "Tuza07",
+    "source": "Tuza07.lean",
+    "sha256": "d9e6789a016e74fdf985b72e409c7b1da528cab9f6c25ca7ebfa6d2ad658f7d0"
+  },
+  {
+    "module": "Tuza07.Audit",
+    "source": "Tuza07/Audit.lean",
+    "sha256": "780603a3a4e27ccc5287118e7c066a1fe4ab16db7015e479b49147662388c056"
+  }
+]

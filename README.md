@@ -2,7 +2,7 @@
 
 **AI-developed mathematical research report — AI Math Experiments**
 
-Current technical report: **[Equality in Tuza’s Inequality for 5-Degenerate Graphs](papers/tuza-five-degenerate/main.md)**.
+Current companion report: **[Further Investigations of Tuza's Conjecture: Equality Extensions, Cover Switching, and Integrality Obstructions](papers/tuza-further-investigations/main.md)** (local release candidate).
 
 The mathematical development, proofs, code, formalization, manuscript and internal reviews were produced through AI systems. The human participant supplied goals, budgets, coordination and authorization.
 
@@ -37,6 +37,12 @@ The exact combined theorem is formalized without additional unproved mathematica
 
 This is a separate canonical work from the TUZA-01–03 restoration paper above. It establishes no general Tuza, six-degenerate, OCT-five, unrestricted restoration or fixed-$c<3$ density theorem. [Attribution, provenance and publication scope](papers/tuza-five-degenerate/README.md).
 
+## Further investigations: TUZA-07–10
+
+The [companion report](papers/tuza-further-investigations/main.md) ([PDF](papers/tuza-further-investigations/main.pdf)) consolidates block-type constructive completion and gain-one equality (B1/B2), conditional edge-minimal-counterexample deductions (A1), an arbitrary-graph cover-switch theorem with exact restricted hypotheses, and ordinary integrality obstructions. TUZA-07/08 have Lean proofs; TUZA-09/10 introduce no new Lean theorem. The colored Petersen obstruction is abstract, not graphic-realizable, and is not a counterexample to R or Tuza. The restricted cycle theorem follows from credited existing methods.
+
+**Unrestricted Tuza is OPEN.** General R and the proposed general 5/3 refinement remain unproved. Research decision: REDIRECT; no supported general proof bridge. Historical originality is unestablished. See [status/provenance](STATUS_AND_PROVENANCE.md), [reproduction](REPRODUCTION.md), [plain-English handoff](RESEARCH_STATUS_2026-11-01.md), and archives [TUZA-07](problems/TUZA-07/README.md), [TUZA-08](problems/TUZA-08/README.md), [TUZA-09](problems/TUZA-09/README.md), [TUZA-10](problems/TUZA-10/README.md). Earlier published sources are unchanged.
+
 ## Experiments
 
 | Experiment | Outcome | Read |
@@ -46,6 +52,10 @@ This is a separate canonical work from the TUZA-01–03 restoration paper above.
 | TUZA-02: two-triangle restoration | Exact-equality, essential-edge and flat-remainder restoration; selected star cores | [Research archive](problems/TUZA-02/README.md) |
 | TUZA-03: boundary and stability | Closed-boundary deletion and stability, restricted bowtie restoration, and compression | [Research archive](problems/TUZA-03/README.md) |
 | TUZA-04–06: five-degenerate graphs | Tuza inequality and literal K4/K5 triangle-component equality; full Lean proof | [Paper](papers/tuza-five-degenerate/main.md) · [Archive](problems/TUZA-06/README.md) |
+| TUZA-07: equality extensions and A1 | B1/B2 and conditional criticality, Lean-proved | [Archive](problems/TUZA-07/README.md) |
+| TUZA-08: cover switching | Restricted arbitrary-graph theorem, Lean-proved; exact W7/W8 | [Archive](problems/TUZA-08/README.md) |
+| TUZA-09: fractional/integer gap | Ordinary multicover and cone obstructions; no new Lean theorem | [Archive](problems/TUZA-09/README.md) |
+| TUZA-10: colored support | Forced-one-third certificate and restricted ordinary cycle theorem; R open | [Archive](problems/TUZA-10/README.md) |
 
 Exact-equality restoration is a pre-TUZA-02 follow-up integrated with the later two-triangle results; the paper retains this provenance.
 

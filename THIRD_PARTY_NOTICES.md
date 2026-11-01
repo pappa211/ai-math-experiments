@@ -34,3 +34,16 @@ Four foundation Lean files are retained byte for byte from the earlier public TU
 The exact-module replay tool adapts Lean 4.33.1's standard LeanChecker. Its unchanged upstream source, precise adapter diff, source/body hashes and boundary are in [reproduction](problems/TUZA-06/reproduction/README.md). The upstream Lean tool license is retained at [LEAN_TOOL_LICENSE.txt](problems/TUZA-06/reproduction/LEAN_TOOL_LICENSE.txt); retained copyright/license headers remain controlling. The unsafe IO/runtime-cap wrapper is a verification tool outside the mathematical closure, not a separate kernel implementation. The Lean toolchain and pinned Mathlib/other package distributions are not bundled; the identified replay source retains its upstream licensing.
 
 The editorial report adds citations to Tuza (1990), Gupta arXiv:2608.06538v1 and Liu–Zeng arXiv:2610.15539v1 after primary-text checks. No full third-party article is redistributed. The original verification evidence and its old paper hash are preserved; current editorial artifacts are identified separately.
+
+## TUZA-07–10 companion and archives
+
+New manuscript, mathematical source copies, curated ordinary notes and portable
+scripts follow the root Apache-2.0 license to the extent licensable. Mathematical
+facts, human authorship and historical priority are not claimed as property.
+The exact native replay driver is reused unchanged from published TUZA-06; its
+upstream source and [Lean tool license](problems/TUZA-06/reproduction/LEAN_TOOL_LICENSE.txt)
+remain controlling. Dependency caches and binaries are excluded; all pinned
+dependencies retain their own licenses. No full third-party article is redistributed.
+Primary-source statements and version dates are credited in the new bibliography
+and literature recheck. Existing third-party headers in copied Lean source are
+unchanged. AI-only internal review is not external human peer review.

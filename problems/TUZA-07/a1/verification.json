@@ -1,0 +1,24 @@
+{
+  "entry": "TuzaA1",
+  "audit": "TuzaA1.Audit",
+  "modules": [
+    "Tuza.Basic",
+    "Tuza.Graph",
+    "TuzaA1.Deletion",
+    "TuzaA1.Targets",
+    "TuzaA1.Elementary",
+    "TuzaA1.Criticality",
+    "TuzaA1.Extension",
+    "TuzaA1.Wedge",
+    "TuzaA1.Codegree",
+    "TuzaA1.Main",
+    "TuzaA1",
+    "TuzaA1.Audit"
+  ],
+  "source_identity": "Mathematical Lean sources and pin files copied byte for byte. Build with the explicit verifier; lakefile default target is historical.",
+  "axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

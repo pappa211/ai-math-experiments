@@ -1,0 +1,13 @@
+{
+  ".lake/build/lib/lean/Tuza08.olean": "87b33cdf44627da5a49383eb7e12b229f2d7f725a7a77f422c2f58a42a16f13e",
+  ".lake/build/lib/lean/Tuza08/Main.olean": "addd3495a94d8f086a54873fb974a8b88168a29c0a322a305a7126223bf5e993",
+  ".lake/build/lib/lean/Tuza08/Basic.olean": "884ce61e97605fa2e1b5a1a34cb2ccc0654eecea640f0a3612c3bde063b80769",
+  ".lake/build/lib/lean/Tuza08/Targets.olean": "7a36653c1e938abc29f584a94ec17207acac55701a85a07503584d953126f824",
+  ".lake/build/lib/lean/Tuza08/Covers.olean": "db474bb459248b5e3f98a6d28a98617565825b6dfc4f6c2e0ebb8fdf61975997",
+  ".lake/build/lib/lean/Tuza08/ClosureAudit.olean": "c546ac16ba750676c7643fc8285d87315e3cdcf4f9866fa69ac8fab8f09c0cef",
+  ".lake/build/lib/lean/Tuza08/Geometry.olean": "08967d3c7cda3783838a9cf6fdfcd1d9cf639da37049174eecc028473f05c3f6",
+  ".lake/build/lib/lean/Tuza08/Counting.olean": "e8b9212a8db01ed071ff87a243b04cc0a02ec9205dbe45e6693bf7e058290fbc",
+  ".lake/build/lib/lean/TuzaA1/Deletion.olean": "ba95d3705fd961103703cc93e8cc196bba471714550b6529847eeba6d5de54fe",
+  ".lake/build/lib/lean/Tuza/Graph.olean": "bbc75e2f8bbe345b3205892124e88a0406dce0485f91a3e65a7630bb6fc0ab28",
+  ".lake/build/lib/lean/Tuza/Basic.olean": "653c1ec4ea07cc0131527202dc444b3e534960bed9f1fcfd72c314768f2c3640"
+}

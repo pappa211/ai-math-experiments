@@ -1,0 +1,844 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype,enumitem,booktabs,longtable,array,calc}
+\usepackage{fancyvrb,fvextra,graphicx}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{xurl}
+\hypersetup{pdftitle={Further Investigations of Tuza's Conjecture: Equality Extensions, Cover Switching, and Integrality Obstructions},pdfauthor={AI Math Experiments},pdfsubject={AI-developed mathematical research report. AI-produced mathematics, proofs, code, formalization, manuscript and internal reviews. Human-directed goals, budgets and authorization.},pdfkeywords={Tuza, equality extensions, cover switching, integrality obstructions, Lean, AI research},pdfcreator={LaTeX with Tectonic},pdfproducer={Tectonic}}
+\setlength{\emergencystretch}{3em}
+\widowpenalty=10000\clubpenalty=10000
+\setlength{\parskip}{3pt}
+\setcounter{secnumdepth}{-1}
+\setcounter{tocdepth}{1}
+\setlist{itemsep=2pt,topsep=4pt}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{fontsize=\small,breaklines=true,commandchars=\\\{\}}
+\newenvironment{Shaded}{}{}
+\newcommand{\passthrough}[1]{#1}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{2em}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\dimexpr\linewidth-2em}{#1}\par}
+\newcommand{\CSLIndent}[1]{\hspace{2em}#1}
+\newenvironment{CSLReferences}[2]{\par\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}}{}
+\begin{document}
+\section{Further Investigations of Tuza's Conjecture: Equality Extensions, Cover Switching, and Integrality Obstructions}\label{further-investigations-of-tuzas-conjecture-equality-extensions-cover-switching-and-integrality-obstructions}
+
+\textbf{AI-developed mathematical research report --- AI Math Experiments}
+
+1 November 2026. Local release candidate; public release requires a separate decision.
+
+The mathematical development, proofs, code, formalization, manuscript and internal reviews were AI-produced. The human participant directed goals, budgets and authorization. No human mathematical author, institutional affiliation, external human peer review or historical-priority certification is claimed.
+
+\href{main.pdf}{PDF} * \href{main.tex}{LaTeX} * \href{references.bib}{BibTeX} * \href{../../STATUS_AND_PROVENANCE.md}{Status and provenance} * \href{../../REPRODUCTION.md}{Reproduction}
+
+\subsection{Abstract}\label{abstract}
+
+This technical companion consolidates TUZA-07--10. Over graphs whose triangle components have literal \(K_4\) or \(K_5\) support, a constructive packing-or-cover completion yields a gain-one inequality and an exact two-alternative equality classification. Conditional minimal-counterexample deductions describe deletion resilience and extension of every prescribed packing of one or two triangles. An arbitrary-graph cover-switch theorem has explicit equal-cover and exactly-two-common-neighbor hypotheses; its sharp obstruction is a non-tight seven-vertex graph. B1/B2, the conditional A1 deductions and the universal cover-switch theorem have symbolic Lean proofs; W7 sharpness has ordinary and finite verification. Subsequent ordinary arguments and exact certificates refute unrestricted multicover splitting, half-cost rounding and an abstract colored-system half-integrality reduction. A restricted cycle theorem follows from known color-line and Brooks methods. General Tuza, the colored question R and the proposed general \(5/3\) refinement remain unproved. No credible general proof bridge or historical originality is established.
+
+\subsection{1. Scope, definitions and previous work}\label{scope-definitions-and-previous-work}
+
+For a finite simple graph \(G\), let \(\mathcal T(G)\) be its \textbf{full} family of triangles, \(\nu(G)\) its maximum number of pairwise edge-disjoint triangles, and \(\tau(G)\) the minimum number of actual graph edges meeting every triangle. Tuza's conjecture {[}1{]} asks whether \(\tau(G)\le2\nu(G)\) for every such graph. It remains OPEN in this report. A notation such as \(uv\) denotes the unordered graph edge, while \(uvw\) denotes the triangle on three distinct vertices. Deleting edges retains the vertex set. An old-support edge lies in an old triangle, rather than merely being an old graph edge.
+
+Two triangles are in the same triangle component when they can be joined by a chain sharing graph \textbf{edges}. The support of a family is the union of its graph edges. A block-type graph has every nonempty triangle component supported literally on \(K_4\) or \(K_5\). Different blocks may share vertices. Background graph edges lying in no triangle are allowed. We write \(\sigma(G)=2\nu(G)-\tau(G)\) when describing slack.
+
+The fractional packing number \(\nu^*(G)\) maximizes \(\sum_T z_T\) over \(z_T\ge0\) with \(\sum_{T\ni e}z_T\le1\) for every graph edge. Its dual \(\tau^*(G)\) minimizes \(\sum_e y_e\) over \(y_e\ge0\) with \(\sum_{e\in T}y_e\ge1\) for every triangle. Finite LP duality gives \(\nu^*=\tau^*\). A two-fold integer cover has nonnegative integer multiplicities and load at least two on every triangle; its \textbf{unnormalized} minimum total multiplicity is \(M_2\). Normalized two-fold cost is \(M_2/2\).
+
+For an auxiliary properly edge-colored graph \((J,c)\), \(\rho(J,c)\) is the largest matching using distinct colors; \(\operatorname{vc}(J)\) is its ordinary vertex-cover number. It counts vertices of \(J\), not colors. A vertex-saturated fractional color certificate has nonnegative edge weights summing to one at every vertex and at most one in every color class.
+
+TUZA-01--03 is the separate published triangle-restoration program. TUZA-04--06 proves Tuza for every five-degenerate finite simple graph, with equality precisely for the literal \(K_4/K_5\) triangle-component condition. Those published files remain unchanged. See the \href{../tuza-triangle-restoration/main.md}{restoration paper} and \href{../tuza-five-degenerate/main.md}{five-degenerate paper}. Five-degeneracy is distinct from bounded maximum degree. TUZA-07's extension theorem makes no degeneracy assumption on its supergraph; its block-type remainder hypothesis is essential.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Program
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mathematical status
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Principal limitation
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+TUZA-07 B1/B2 & Ordinary proofs and Lean proofs & Block-type old graph; exact full new triangle family \\
+TUZA-07 A1 & Conditional ordinary and Lean deductions & Hypothetical edge-minimal counterexample only \\
+TUZA-08 & Ordinary and Lean cover-switch theorem & Absent edge, exactly two common neighbors, specified equal covers \\
+TUZA-09 & Ordinary deductions and finite exact evidence & No new Lean theorem or general rounding theorem \\
+TUZA-10 & Exact obstruction and restricted ordinary theorem & Abstract obstruction is not graph-realizable; R remains open \\
+\end{longtable}
+}
+
+The numbered sections below reproduce complete selected ordinary proofs. Curated historical notes retain their original discovery-stage status statements; later Lean status is reported separately in the ledger. Source files, literal formal interfaces and fresh receipts are public-candidate artifacts, rather than proof assumptions. Internal AI criticism is not external human peer review.
+
+\subsection{2. Block-type completion and gain-one equality}\label{block-type-completion-and-gain-one-equality}
+
+The mathematical headlines are B1 (constructive completion and scalar consequences) and B2 (full gain-one equality and converse). Historical notes used the label ``B2'' once for a four-edge corollary; this report consistently reserves B2 for equality rigidity. The three/four-edge statements are consequences.
+
+\textbf{Constructive B1.} For finite simple \(H\le G\) on the same finite vertex type, with \(H\) block-type and \(h=\nu(H)\), a nonempty new triangle family yields an \(h+1\) packing and either an \(h+2\) packing or an actual-edge cover of size at most \(2h+2\). The finite choices in the formal existence proof use classical selection; no extracted Lean executable is asserted. The ordinary algorithm is explicit below.
+
+Examples of B2's two alternatives are an empty old triangle family extended to \(K_4\), and an old \(K_4\) extended to \(K_5\) by one outside vertex. Additional background edges are harmless only if the displayed \textbf{full} triangle-family identities remain true. The spoke-support condition in the second alternative concerns all old blocks.
+
+\subsubsection{Exact hypotheses}\label{exact-hypotheses}
+
+H and G are finite simple graphs on a common vertex set, with E(H) subset E(G). Adding isolated vertices to H permits arbitrary new vertices. Every nonempty triangle component of H, where triangles are joined through shared graph edges, has literal edge support a complete K4 or K5. All H edges not in these supports are allowed; they lie in no H triangle. Let h=nu(H), and let N be the family of G triangles that are not H triangles. Thus tau(H)=2h. No degeneracy or degree assumption is made on G or its triangle-free background.
+
+\paragraph{Theorem B1 (packing-gain-one cover completion)}\label{theorem-b1-packing-gain-one-cover-completion}
+
+If nu(G)=h+1, then tau(G)\textless=2h+2.
+
+More sharply, if N contains a triangle with two old edges in H triangle-block supports, then tau(G)\textless=2h+1. If there are no new triangles, both optima are unchanged. If there is any new triangle, nu(G)\textgreater=h+1.
+
+\paragraph{Four-addition corollary}\label{four-addition-corollary}
+
+If \textbar E(G) minus E(H)\textbar\textless=4, then tau(G)\textless=2nu(G).
+
+Consequently the first edge-addition frontier left by B1 is FIVE additions with packing gain exactly two; this does not claim that five additions fail.
+
+\subsubsection{Local facts and proofs}\label{local-facts-and-proofs}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Each new triangle Q uses at most one old edge in any one H block. Indeed two edges of a triangle share a vertex and contain all its vertices. If two belong to one clique block, its third edge also belongs to that block and hence H, contradicting Q being new.
+\item
+  In K4 a maximum triangle packing has size one. It can avoid any one edge. It can avoid two distinct edges exactly when those edges are incident; if they are opposite, removing them leaves a 4-cycle. Every opposite pair is a minimum triangle cover of size two.
+\item
+  In K5 a maximum packing has size two and a minimum cover has size four. Every prescribed edge belongs to some minimum cover: partition the vertices into sizes 2 and 3 with the edge inside a part, and delete the internal edges. A maximum packing can avoid any set of at most two edges. Up to symmetry for two removed adjacent edges 12,13, the triangles 145 and 234 are edge-disjoint and avoid them. For two removed disjoint edges 12,34, triangles 135 and 245 do so. A singleton can be extended to a pair for this conclusion.
+\item
+  Block supports are edge-disjoint, every old triangle belongs to one block, and old triangle-free edges do not affect old optima. Thus maximum block packings and minimum block covers unite independently. Components may share vertices and arbitrary triangle-free attachments are retained.
+\end{enumerate}
+
+\subsubsection{Compatible pair principle}\label{compatible-pair-principle}
+
+Two new triangles P,Q can be appended simultaneously to some maximum H packing provided (a) they are edge-disjoint and (b) there is no K4 block in which their respective old edges form an opposite pair. Each uses at most one edge per old block by Fact 1. In a K5 block the two old edges can be avoided by Fact 3; in K4 the allowed pair can be avoided by Fact 2. Taking a maximum packing in each block avoiding their old edges then appending P,Q proves nu(G)\textgreater=h+2.
+
+This is only a sufficient statement for a two-triangle augmentation, not an assertion that every maximum G packing has this form.
+
+\subsubsection{Proof of B1}\label{proof-of-b1}
+
+First, any individual new triangle can be appended to a maximum H packing because it uses at most one old edge per block. Hence any nonempty N raises nu by at least one.
+
+Suppose nu(G)=h+1, so no pair satisfying the compatible pair principle exists.
+
+Case I: some new triangle P has at least one edge in an old H block. For each block touched by P, choose a minimum block cover as follows: in K4 choose the opposite pair containing its P edge; in K5 choose a minimum cover containing its P edge. This is possible independently because P uses at most one edge per block. In every untouched block choose any minimum cover. Let C be their union, so \textbar C\textbar=2h. Put D=E(P) minus the union of all H block supports. Then \textbar D\textbar\textless=2 (and \textless=1 if P touches two block supports).
+
+We claim C union D covers every G triangle. It covers H triangles because C does. If a new triangle Q avoids C union D, it is edge-disjoint from P, because every edge of P belongs to C union D. Further, Q cannot use the edge opposite the edge of P in any touched K4 block, because that opposite edge is included in C. Thus P,Q satisfy the compatible pair principle, yielding h+2 packed triangles, a contradiction. Therefore tau(G)\textless=\textbar C\textbar+\textbar D\textbar\textless=2h+2, and the sharpened \textless=2h+1 holds when P has two old block edges.
+
+Case II: no new triangle uses an old block-support edge. Every maximum H packing is then edge-disjoint from every member of N. As nu(G)=h+1, N has no two edge-disjoint members. A pairwise edge-intersecting family of graph triangles has an edge transversal of size at most two, as shown below. Unite such a transversal with any minimum H cover, obtaining a G cover of size at most 2h+2.
+
+This proves B1 in both cases, including arbitrary outside attachments.
+
+\subsubsection{Elementary pairwise-intersecting triangle-family lemma}\label{elementary-pairwise-intersecting-triangle-family-lemma}
+
+Let F be any nonempty family of graph triangles with no edge-disjoint pair. If all triangles share one edge, that edge covers F. Otherwise choose two distinct triangles abc and abd, c!=d, sharing ab. Some R avoids ab and intersects both. Its meeting edges cannot be disjoint, so R is acd or bcd; exchange a,b to take R=acd. Any triangle meeting all three abc,abd,acd must lie on \{a,b,c,d\}: a triangle using an outside vertex cannot contain two different edges of the displayed triangle family, since any two such incident edges already contain three of a,b,c,d; a single such edge common to all three does not exist. Hence F is contained in the four faces of this K4. Any opposite edge pair covers it. Thus an edge cover of size at most two exists.
+
+\subsubsection{Proof of the four-addition corollary}\label{proof-of-the-four-addition-corollary}
+
+If N is empty, both optima equal those of H and Tuza holds. Otherwise q=nu(G)-h\textgreater=1. If q=1, apply B1. If q\textgreater=2, any minimum H cover together with all at most four added edges covers G, so tau(G)\textless=2h+4\textless=2(h+q)=2nu(G). No assertion about general Tuza is used.
+
+\subsubsection{Constructive packing/cover dichotomy}\label{constructive-packingcover-dichotomy}
+
+Let H have only literal K4/K5 triangle components, G be any supergraph, and h=nu(H). There is a finite constructive procedure returning either (a) a G triangle packing of size h+2, or (b) a G triangle cover of size at most 2h+2.
+
+If no new triangle exists, an old minimum cover gives (b). If some new triangle P uses an old block edge, construct C union D as in GAIN\_ONE\_THEOREM.md. If it covers G, return it. If not, choose an uncovered new triangle Q; the compatible-pair proof constructs blockwise avoiding maximum packings and appends P,Q, returning (a). If every new triangle avoids all old supports, search for two edge-disjoint new triangles. If found, append them to an old maximum packing for (a). Otherwise the pairwise-intersecting triangle-family lemma gives a two-edge new-family cover, yielding (b).
+
+The alternatives need not be exclusive. This procedure does not first solve the global packing or cover optimum. Local clique choices are finite and explicit. The discovery implementation experiments/constructive.py and its finite validations are historical records not included in this public archive. The public fixed-example checker is \href{../../tools/check_tuza_examples.py}{check\_tuza\_examples.py}.
+
+\subsubsection{Exact statement (A9 / B1 equality strengthening)}\label{exact-statement-a9-b1-equality-strengthening}
+
+Let H be a finite simple graph whose nonempty shared-edge triangle components have literal K4 or K5 edge supports. Let G be any finite simple supergraph on the same vertex set (new vertices may first be adjoined to H as isolates). Write h=nu(H), so tau(H)=2h. Suppose nu(G)=h+1 and tau(G)=2h+2.
+
+Then G also has only K4/K5 triangle components. More precisely, let N be the full family of G triangles absent from H. Exactly one of the following holds:
+
+\begin{enumerate}
+\def\labelenumi{(\roman{enumi})}
+\item
+  N consists of all four faces of a K4 whose edges lie outside all old H triangle-block supports. This is a new triangle component, and every old component is unchanged.
+\item
+  There is one old K4 block B and a vertex z outside B such that N consists exactly of the six triangles zxy for xy in E(B), and every spoke zb (b in V(B)) lies outside ALL old H triangle-block supports. That old block becomes the K5 on V(B) union \{z\}; every other old component is unchanged.
+\end{enumerate}
+
+Arbitrary triangle-free background edges are allowed. New edges that lie in no G triangle do not matter.
+
+Conversely, either displayed full-triangle-family configuration gives nu(G)=h+1 and tau(G)=2h+2 by additivity over triangle supports and the K4/K5 optima.
+
+\subsubsection{Inputs from B1}\label{inputs-from-b1}
+
+The proven gain-one cover-completion argument in \href{../../problems/TUZA-07/notes/GAIN_ONE_THEOREM.md}{GAIN\_ONE\_THEOREM.md} supplies:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Every new triangle uses at most one old support edge per old block.
+\item
+  If a new triangle uses two old support edges in total, then tau(G)\textless=2h+1.
+\item
+  If two new triangles P,Q are edge-disjoint, they append simultaneously to a maximum H packing unless their old edges form an opposite pair in an old K4 block. K5 can avoid every two prescribed edges; K4 can avoid two incident edges, but not an opposite pair.
+\end{enumerate}
+
+Under the equality assumption, (2) says EVERY new triangle has at most one old support edge in total. Consequently every edge-disjoint pair of new triangles must be pages on opposite base edges of the SAME old K4. Here a page is a triangle with that old edge as base and apex outside the old block.
+
+We also use the elementary fact that an edge-intersecting triangle family either has a common edge or lies among the four faces of a K4.
+
+\subsubsection{Case I: N is pairwise edge-intersecting}\label{case-i-n-is-pairwise-edge-intersecting}
+
+If every N triangle shares one edge, adjoining that edge to a minimum H cover gives tau(G)\textless=2h+1, contradiction.
+
+Thus N is contained in the faces of a K4 U and has no common edge. At least three of its faces occur. If any N triangle uses an old support edge e, choose a minimum cover of its old block containing e and arbitrary minimum covers in all other blocks. Add the edge of U opposite e. The opposite pair covers every U triangle, so this covers all G triangles with at most 2h+1 edges, contradiction.
+
+Therefore no N triangle uses any old support edge. At least three K4 faces force all six U edges to be present in G, so the fourth face is also a G triangle. It cannot be an H triangle: then its edges would be old support edges, all of which occur in the union of the other three faces, contrary to the preceding conclusion. Hence the fourth face is also in N.
+
+Thus N is exactly all four U faces, and no U edge lies in old H supports. Since N is the full new triangle family, there are no further mixed triangles that could join this component to an old block. This is configuration (i).
+
+\subsubsection{Case II: N contains an edge-disjoint pair P,Q}\label{case-ii-n-contains-an-edge-disjoint-pair-pq}
+
+The input above forces an old K4 B with vertices a,b,c,d and P=abx, Q=cdy, where ab,cd are opposite B edges, and x,y lie outside B. The only old support edge in P is ab, and in Q it is cd.
+
+\paragraph{Different apices x!=y are impossible at equality}\label{different-apices-xy-are-impossible-at-equality}
+
+P and Q then have disjoint vertex sets.
+
+A new triangle R having no B base must meet both P and Q in edges. Indeed if it were edge-disjoint from either, their old support edges could not be an opposite pair in B, so they would append to an H maximum packing. But no triangle can contain an edge from each of two vertex-disjoint triangles. Hence every new triangle has a B base.
+
+A page on a cross edge of B, such as ac, must meet both P and Q, since its base is incident with both ab and cd and thus neither pair has opposite bases. Meeting P forces its apex to be x; meeting Q forces its apex to be y. This is impossible when x!=y. The same argument applies to the four cross bases ac,ad,bc,bd.
+
+Therefore every new triangle is a page on ab or cd. Choose the old minimum B cover \{ab,cd\} and minimum covers of the other old blocks. This already covers all new triangles, yielding tau(G)\textless=2h, contradiction.
+
+\paragraph{Equal apices x=y=z force exactly one K5}\label{equal-apices-xyz-force-exactly-one-k5}
+
+P=abz and Q=cdz show that z is adjacent in G to every B vertex. Because B is a K4, ALL six z-pages on B edges therefore occur in N.
+
+A new triangle R without a B base must meet both P and Q. A triangle meeting both in edges must use two z-spokes, one to \{a,b\} and one to \{c,d\}; its third edge is consequently a B cross edge. (Using base ab or cd together with an edge of the other page would require four vertices.) Thus such a triangle in fact has a B base, contradiction. Therefore every new triangle is a B-page.
+
+Suppose a new B-page R has an apex w!=z. Choose a B edge f incident with but different from R's base. The already-present z-page on f is edge-disjoint from R: their bases differ and their outside apices differ. Their bases are incident, so a maximum B packing avoids them simultaneously. All other old blocks are unaffected. This supplies two compatible new triangles and gives nu(G)\textgreater=h+2, contradiction.
+
+Hence every new B-page has apex z. N is exactly the six z-pages. Every z-spoke lies outside all old supports: it occurs in a z-page whose base is already one old support edge, and equality excluded two old support edges in any new triangle. This proves the full configuration (ii), including its support-disjointness condition. No new triangle uses any other old block edge, so all other triangle components remain unchanged.
+
+\subsubsection{Corollary: three-edge combined preservation}\label{corollary-three-edge-combined-preservation}
+
+If G is obtained from block-type H by adding at most THREE edges, then Tuza holds and equality occurs only with K4/K5 triangle components.
+
+Proof. If there are no new triangles, both optima and triangle components are unchanged. Otherwise q=nu(G)-h\textgreater=1. If q=1, B1 proves the inequality and the theorem above classifies equality. If q\textgreater=2, a minimum H cover together with the three added edges gives tau(G)\textless=2h+3\textless2h+4\textless=2nu(G), so equality is impossible.
+
+The converse equality direction is the elementary K4/K5 additivity statement. For at most TWO added edges, any nontrivial equality is configuration (i): turning an old K4 into a K5 needs at least three added edges, since an outside vertex can have at most one H neighbor in an old K4 (two neighbors would already create an H triangle joining it to that block).
+
+Thus the third-addition frontier does not fail: even the combined inequality/equality statement survives three arbitrary additions. B1's separate four-addition inequality corollary remains valid. This result does not prove composability through arbitrary positive-slack states.
+
+The full literal component identities and unchanged other components are conclusions of the exact family descriptions. The converse requires every new spoke to avoid all old support; dropping this was rejected during internal review. No composability through arbitrary positive-slack states follows.
+
+Complete curated source proof: \href{../../problems/TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md}{GAIN\_ONE\_EQUALITY\_RIGIDITY.md}.
+
+\subsection{3. Conditional edge-minimal-counterexample deductions}\label{conditional-edge-minimal-counterexample-deductions}
+
+All statements in this section assume an actual edge-minimal violation. No such graph is asserted to exist. The component-connectedness observation below is an ordinary deduction; it was not included among the formal A1 targets. The one/two-triangle and wedge statements were formalized with addition equations to avoid natural-number subtraction ambiguity.
+
+\subsubsection{Definitions and hypothesis}\label{definitions-and-hypothesis}
+
+G is a finite simple graph that violates Tuza and is edge-minimal among actual violations: tau(G)\textgreater2nu(G), and every proper edge-subgraph satisfies Tuza. Isolated vertices are irrelevant. Set k=nu(G). This is different from an edge-minimal failure of Tuza plus the K4/K5 equality classification.
+
+\subsubsection{A1. One-edge criticality --- PROVED}\label{a1.-one-edge-criticality-proved}
+
+For every edge e: nu(G-e)=k, tau(G-e)=2k, tau(G)=2k+1.
+
+Proof. A deletion lowers nu by at most one and tau by at most one. If nu(G-e)\textless=k-1, then tau(G)\textless=tau(G-e)+1\textless=2k-1, contradiction. Thus nu(G-e)=k. Minimality gives tau(G-e)\textless=2k, while tau(G)\textless=tau(G-e)+1 and tau(G)\textgreater=2k+1 force both asserted cover equalities.
+
+There are no edges lying in no triangle. Otherwise deleting one preserves both optima, leaving a smaller violation. There is only one nonempty shared-edge triangle component: if several existed, each support subgraph is proper and satisfies Tuza; additivity would prove Tuza for G.
+
+\subsubsection{A2. General edge-deletion resilience --- PROVED}\label{a2.-general-edge-deletion-resilience-proved}
+
+For every nonempty S subset E(G), nu(G)-nu(G-S) \textless= floor((\textbar S\textbar-1)/2).
+
+Proof. Deleting S lowers tau by at most \textbar S\textbar, so 2k+1-\textbar S\textbar{} \textless= tau(G-S) \textless= 2nu(G-S). Rearrange and use integrality.
+
+In particular, deleting any one or two edges preserves the maximum packing number. Every set of edges meeting every maximum packing has at least three edges. This is a necessary condition, not an unconditional property of tight graphs.
+
+\subsubsection{A3. Every one- or two-triangle packing extends --- PROVED}\label{a3.-every-one--or-two-triangle-packing-extends-proved}
+
+Let P be p pairwise edge-disjoint G triangles with p=1 or p=2. Then nu(G-E(P))=k-p. Consequently P is contained in some maximum packing of G.
+
+Proof. A maximum packing in G-E(P) can be appended to P, so nu(G-E(P))\textless=k-p.~A2 with \textbar E(P)\textbar=3p gives the opposite inequality for p=1,2 because floor((3p-1)/2)=p.
+
+For p=1, H=G-E(T) satisfies nu(H)=k-1, tau(H)=2k-2, sigma(H)=0. For p=2, H=G-E(P) satisfies nu(H)=k-2, tau(H) in \{2k-5,2k-4\}, sigma(H) in \{0,1\}.
+
+The cover lower bound is tau(G)-3p; the upper bound is proper-subgraph Tuza. A packing of two edge-disjoint triangles can only exist if k\textgreater=2; if k=2 the formally listed cover value -1 is automatically impossible.
+
+For p=3, A2 only gives k-4\textless=nu(G-E(P))\textless=k-3. Thus the first possible failure of extension of a prescribed triangle packing occurs at three triangles. This is a parallel but distinct frontier from adding a third missing graph edge.
+
+\subsubsection{A4. Nested tight residual and exact wedge loss --- PROVED}\label{a4.-nested-tight-residual-and-exact-wedge-loss-proved}
+
+Take any triangle T=uvw of G, e=uv, H=G-e, and F=\{uw,vw\}. Then: nu(H)=k, tau(H)=2k; nu(H-F)=k-1, tau(H-F)=2k-2; nu(H-f)=k and tau(H-f)=2k-1 for each f in F.
+
+The first two lines are A1 and A3. The packing assertion for deleting e and f is A2. Cover deletion by three triangle edges drops tau by exactly three, so every intermediate deletion along those three edges drops tau by exactly one.
+
+In particular every maximum packing of H meets F. If one avoided both spokes, appending uvw would give k+1 triangles in G. The exact loss of one requires the minimal-counterexample hypothesis, not just that F blocks maximum packings.
+
+\subsubsection{A5. Minimum triangle codegree two --- PROVED, known predecessor}\label{a5.-minimum-triangle-codegree-two-proved-known-predecessor}
+
+Suppose uv belongs to only triangle uvw. Delete uw and vw to obtain K. The edge uv is triangle-free in K, so every K packing appends uvw; hence nu(K)\textless=k-1. But A2 says deleting two edges preserves k, contradiction.
+
+Thus every edge is in at least two triangles. Equivalently every vertex in each vertex link has degree at least two. This does NOT prove codegree at least three.
+
+\subsubsection{Limitations}\label{limitations}
+
+The hypotheses involve an actual minimal counterexample. No such graph is known. These identities expose necessary obstruction structure; they do not show it is impossible. Claiming that the residual tight graphs have K4/K5 support would import the unrestricted equality conjecture.
+
+The two-triangle extension fact is degree-independent but is a short consequence of the standard packing-covering inequalities, and may be known. It should not be promoted as a new structural theorem without specific prior-art comparison.
+
+Complete curated source proof: \href{../../problems/TUZA-07/notes/CRITICALITY_PACKAGE.md}{CRITICALITY\_PACKAGE.md}.
+
+\subsection{4. Arbitrary-graph cover switching and its limits}\label{arbitrary-graph-cover-switching-and-its-limits}
+
+No block-type or counterexample hypothesis occurs in the switch theorem. Minimum-cover and no-mixed-minimum assumptions enter only its final obstruction clause. We use \(q\) for the neutral count; the ordinary source calls the same quantity \(n_0\).
+
+\subsubsection{Exact statement}\label{exact-statement}
+
+Let H be any finite simple graph. Let u,v,a,b be distinct vertices, with uv absent and N\_H(u) \(\cap\) N\_H(v) = \{a,b\}. Write A=\{ua,va\}, B=\{ub,vb\}. Every edge named in a cover is an actual H edge, and every graph triangle must be covered.
+
+Let C\_A and C\_B be triangle covers of equal cardinality t such that A \(\subseteq\) C\_A, C\_A \(\cap\) B= \(\varnothing\) , B \(\subseteq\) C\_B, C\_B \(\cap\) A= \(\varnothing\) . Put D\_A=C\_A\textbackslash A, D\_B=C\_B\textbackslash B, D=D\_A \(\cap\) D\_B, X=D\_A\textbackslash D\_B, Y=D\_B\textbackslash D\_A. Then X,Y are disjoint, avoid A \(\cup\) B, and have the same cardinality r. Let J=H-D, deleting the actual common cover edges. Both A \(\cup\) X and B \(\cup\) Y cover the full triangle family of J, and J still has exactly the two common neighbors a,b.
+
+Define X\_u to consist of x \(\in\) X for which a triangle of J contains x and ub while meeting no edge of A. Define X\_v similarly with vb. Define X\_0=X minus (X\_u \(\cup\) X\_v). Define Y\_u,Y\_v analogously using the spokes ua,va and triangles avoiding B; put Y\_0=Y minus (Y\_u \(\cup\) Y\_v). Set n\_0=\textbar X\_0\textbar+\textbar Y\_0\textbar.
+
+These are disjoint partitions. The following are triangle covers of J meeting both A and B:
+
+Q\_uv = \{ua,vb\} \(\cup\) X\_u \(\cup\) Y\_v \(\cup\) X\_0 \(\cup\) Y\_0, Q\_vu = \{va,ub\} \(\cup\) X\_v \(\cup\) Y\_u \(\cup\) X\_0 \(\cup\) Y\_0.
+
+Consequently H has a triangle cover meeting both A and B of size at most
+
+t + floor(n\_0/2).
+
+A trivial alternative is to add one B-spoke to C\_A, giving a mixed cover of size t+1. Thus the scalar bound can be written t+min(1,floor(n\_0/2)); its improvement over that trivial bound occurs when n\_0 \(\le\) 1. The substantive content is the explicit switch and the resulting neutral-edge/orientation obstruction, not a broad quantitative improvement for large n\_0. More precise bounds use \textbar D\textbar+min(\textbar Q\_uv\textbar,\textbar Q\_vu\textbar). If any of X\_u,X\_v,Y\_u,Y\_v is empty, H has such a cover of size at most t, independently of n\_0.
+
+In particular, if C\_A,C\_B are minimum covers and no minimum H cover meets both A and B, then
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  all four oriented classes X\_u,X\_v,Y\_u,Y\_v are nonempty;
+\item
+  \textbar X\_0\textbar+\textbar Y\_0\textbar{} \(\ge\) 2;
+\item
+  r \(\ge\) 3, so \textbar C\_A\textbackslash C\_B\textbar=\textbar C\_B\textbackslash C\_A\textbar{} \(\ge\) 5 and \textbar C\_A \(\triangle\) C\_B\textbar{} \(\ge\) 10;
+\item
+  if r=3, each of the six classes X\_u,X\_v,X\_0,Y\_u,Y\_v,Y\_0 has exactly one member.
+\end{enumerate}
+
+Thus cover incompatibility cannot arise from changing at most two outside edges of a pair-containing minimum cover. The radius-three obstruction is sharp, as proved below.
+
+The word ``neutral'' may describe X\_0,Y\_0, but means only lack of these specifically oriented specific triangle incidences. Such edges can lie in many graph triangles. They are not asserted to be triangle-free or irrelevant.
+
+\subsubsection{Proof}\label{proof}
+
+Deleting D is legitimate without discarding outside triangles: precisely the triangles already hit by D disappear; every remaining triangle is an actual triangle of J. No member of A \(\cup\) B is in D, so all four spokes remain. Deletion cannot create another common neighbor of u,v.
+
+\paragraph{Local incidence fact}\label{local-incidence-fact}
+
+For an edge y outside A \(\cup\) B, at most one triangle of J can contain y, an edge of A, and no edge of B.
+
+Indeed, a triangle using ua and avoiding B has the form uas with s outside \{u,v,a,b\}. (s=b would use ub, and s=v would require uv.) Besides ua its edges are us and as. A triangle using va and avoiding B similarly has the form vat with t outside these four vertices. For a single outside edge y to belong to both triangles, it must be as=at, hence s=t. That vertex would be an additional common neighbor of u,v, a contradiction. For a fixed A spoke and y the triangle, if any, is uniquely determined. The same argument applies to x and B, avoiding A.
+
+Therefore the oriented classes are disjoint. Moreover, if x \(\in\) X\_v and y \(\in\) Y\_u, choose their supporting triangles vbs and uat. Here s,t lie outside \{u,v,a,b\}, x is either vs or bs, and y is either ut or at. If s=t, it is an additional common neighbor of u,v. Otherwise the two displayed triples are disjoint, so the edges x,y are vertex-disjoint. Thus no graph triangle contains both x and y. Symmetrically no triangle contains both X\_u and Y\_v edges.
+
+\paragraph{The two explicit covers}\label{the-two-explicit-covers}
+
+Suppose a triangle T of J avoids Q\_uv. Because A \(\cup\) X and B \(\cup\) Y both cover J, T must meet both
+
+\{va\} \(\cup\) X\_v and \{ub\} \(\cup\) Y\_u.
+
+There are four possibilities.
+
+\begin{itemize}
+\tightlist
+\item
+  T contains va and ub. Those two edges are vertex-disjoint, impossible in a triangle.
+\item
+  T contains va and y \(\in\) Y\_u. Since T avoids vb and cannot contain the disjoint edge ub, it avoids B. It would therefore place y also in Y\_v, contrary to the local incidence fact.
+\item
+  T contains x \(\in\) X\_v and ub. It avoids ua, and cannot contain the disjoint edge va. It would place x also in X\_u, again impossible.
+\item
+  T contains x \(\in\) X\_v and y \(\in\) Y\_u. These edges are vertex-disjoint by the final observation in step 1.
+\end{itemize}
+
+Thus Q\_uv covers every triangle. Reversing u,v proves the other cover.
+
+All edges in these covers are actual J edges. The displayed unions are disjoint, so
+
+\textbar Q\_uv\textbar+\textbar Q\_vu\textbar{} = 4+2r+n\_0.
+
+One of them has size at most r+2+floor(n\_0/2). Adding D gives a mixed cover of H with size at most \textbar D\textbar+r+2+floor(n\_0/2)=t+floor(n\_0/2).
+
+\paragraph{Missing orientations}\label{missing-orientations}
+
+For example, if Y\_v= \(\varnothing\) , then \{ua,vb\} \(\cup\) X covers J. Otherwise an uncovered triangle would meet A only through va, would avoid B (vb is selected and ub is disjoint from va), and would contain some y \(\in\) Y. This would put y in Y\_v, a contradiction. The other three empty-class cases are symmetric. The cover has size r+2, so adding D costs t.
+
+\paragraph{Incompatible minimum covers}\label{incompatible-minimum-covers}
+
+If there is no mixed minimum cover, every constructed mixed cover has size at least t+1. Step 2 yields n\_0 \(\ge\) 2; step 3 makes all four oriented classes nonempty. Hence 2r \(\ge\) 4+n\_0 \(\ge\) 6, giving r \(\ge\) 3. At r=3 there are exactly six outside edges, so all six required classes have one edge. Also C\_A\textbackslash C\_B=A \(\cup\) X, proving the stated distance.
+
+No packing argument, optimum estimate, block decomposition, hereditary Tuza property, or counterexample assumption occurs in this proof.
+
+\subsubsection{Sharp seven-vertex graph (independent ordinary certificates)}\label{sharp-seven-vertex-graph-independent-ordinary-certificates}
+
+Take vertices 0,1,2,3,4,5,6 with u=0,v=1,a=2,b=3 and edge set
+
+02,03,05,12,13,16,23,24,25,26,34,35,36,45,46.
+
+The full triangle list is
+
+023,025,035,123,126,136,234,235,236,245,246,345,346.
+
+Here uv=01 is absent and the common neighbors are exactly 2,3.
+
+The covers
+
+C\_A=\{02,12,24,35,36\}, C\_B=\{03,13,25,26,34\}
+
+both have size five. They have no common edges. Their outside classes are
+
+X\_u=\{35\}, X\_v=\{36\}, X\_0=\{24\}, Y\_u=\{25\}, Y\_v=\{26\}, Y\_0=\{34\}.
+
+Thus r=3 and n\_0=2. Every class is nonempty exactly as the lower bound allows.
+
+\paragraph{Exact packing number}\label{exact-packing-number}
+
+The four triangles 023,126,245,346 are edge-disjoint. There are fifteen edges. A packing of five triangles would use every edge, but vertices 0 and 1 each have odd degree three, whereas a union of edge-disjoint triangles using every edge has even degrees. Therefore \(\nu\) (H)=4.
+
+\paragraph{Exact covering number}\label{exact-covering-number}
+
+If a cover contains 23, it must also cover the eight triangles 025,035,126,136,245,246,345,346. Every edge lies in at most two of these, so at least four additional edges are necessary.
+
+If a cover omits 23, triangles 234,235,236 require at least one edge from each of the three disjoint pairs \{24,34\}, \{25,35\}, \{26,36\}. Choose one such edge from each pair. Of the two triangles 025,035, exactly one remains uncovered by those three choices, as does exactly one of 126,136. The two remaining triangles are edge-disjoint, so a single fourth edge cannot cover both. Thus no cover has size four. The displayed covers show \(\tau\) (H)=5.
+
+\paragraph{No mixed minimum cover}\label{no-mixed-minimum-cover}
+
+If a size-five cover contains 23, its other four edges must cover all eight triangles above. An edge of A \(\cup\) B lies in only one of those eight, while every other edge lies in at most two. Such a cover cannot contain any spoke.
+
+If a size-five cover omits 23 and meets both A and B, it contains at least two spokes and the three core-pair choices above, so it has exactly two spokes and exactly one edge of each core pair. If both spokes have the same endpoint u or v, the other endpoint's two outer triangles cannot both be covered by the single corresponding core-pair choice. If the two spokes are 02 and 13, the uncovered outer triangles force the choices 35 and 26. Choice 24 then leaves 346 uncovered, while choice 34 leaves 245 uncovered. For spokes 12 and 03 the symmetric alternatives leave 345 or 246 uncovered. Thus no size-five cover meets both pairs.
+
+Containing all of A forces the unique minimum cover C\_A: a size-five cover containing A cannot contain 23 by the preceding count, so its other three edges must be exactly one from each core pair \{24,34\}, \{25,35\}, \{26,36\}. Within that budget, 035 and 136 force 35 and 36 (the alternative edges05 and16 cannot be extra choices), after which 245 and 246 force24. Containing all of B analogously forces C\_B. The cover-distance lower bound is therefore attained, not merely approached.
+
+\paragraph{Exact wedge losses, and the missing criticality}\label{exact-wedge-losses-and-the-missing-criticality}
+
+Deleting A leaves the size-three cover \{24,35,36\} and the packing 035,136,246 of size three. Deleting B leaves cover \{25,26,34\} and packing 025,126,345. Hence \(\nu\) (H-A)= \(\nu\) (H-B)=3 and \(\tau\) (H-A)= \(\tau\) (H-B)=3. Both wedge deletions lose one packing triangle and two cover edges, and both pairs individually belong to a minimum cover, but no minimum cover meets both.
+
+This is not a Tuza counterexample: \(\tau\) (H)=5\textless8=2 \(\nu\) (H). Restoring 01 gives \(\nu\) =4, \(\tau\) =6 by the exact restoration identity in \href{../../problems/TUZA-08/notes/INDEPENDENT_MECHANISM.md}{INDEPENDENT\_MECHANISM.md}. The example shows the covering incompatibility, exact wedge losses, and the sharp neutral-edge obstruction can coexist in a genuine graph. Tightness and stronger deletion resilience cannot silently be discarded.
+
+\subsubsection{Negative control: exactly two common neighbors is necessary}\label{negative-control-exactly-two-common-neighbors-is-necessary}
+
+The conclusion with r \(\le\) 2 is false if additional common neighbors are allowed. Let H=K5-01 on vertices 0,1,2,3,4 and retain A=\{02,12\}, B=\{03,13\}. Then
+
+C\_A=\{02,12,34\}, C\_B=\{03,13,24\}
+
+are minimum covers of size three with r=1, yet no size-three cover meets both pairs. There are seven triangles and each edge belongs to at most three, so two edges cannot cover all seven; the displayed covers prove \(\tau\) =3. The packing 034,124 has size two; a packing of three would decompose all nine edges but vertices 0,1 have odd degree three. Thus \(\nu\) =2.
+
+To check cover incompatibility, a mixed cover must contain two selected spokes and at most one other edge. If the selected spokes share endpoint 0 (02,03), the K4 on \{1,2,3,4\} remains to be covered by one edge, impossible; the endpoint-1 case is symmetric. If they are the opposite pair 02,13, the two triangles 034 and 124 are both unhit and edge-disjoint; the pair 12,03 is symmetric. Adding further spokes cannot evade the same obstruction. Here 4 is a third common neighbor of 0,1. The edge 34 supports both B orientations, exactly the failure prohibited by the local incidence fact. This is a concrete refutation of an overgeneralized exchange theorem, not a Tuza counterexample.
+
+\subsubsection{W8 is a different obstruction}\label{w8-is-a-different-obstruction}
+
+\subsubsection{W8: packing-only exchange is false}\label{w8-packing-only-exchange-is-false}
+
+Vertices0..7, missing01, common neighbors exactly2,3; edges:
+
+\begin{verbatim}
+02 03 06 07 12 13 14 15 23 24 25 26 27 34 35 36 37 45 47 56 57 67
+\end{verbatim}
+
+Here ( \(\nu\) , \(\tau\) )=(6,8); deleting A or B gives(5,7), while EVERY cross pair \{f,g\}, f \(\in\) A,g \(\in\) B, gives(6,6). Thus the two within-pair blockers and all four cross-avoidance packing choices can coexist. Neither full pair can be included in a minimum cover, since \(\tau\) (H-A)+2=9\textgreater8. This refutes a blanket packing-exchange shortcut; it does not refute the cover-switch theorem.
+
+\texttt{review/independent\_blockers.json} (historical record, not included in this public archive) gives explicit packings and covers for all seven variants. Packing upper bounds use the independent parity bound
+
+\[\nu(J)\le\left\lfloor\frac{|E(J)|-o(J)/2}{3}\right\rfloor,\]
+
+where \(o(J)\) counts odd-degree vertices.
+
+Unused edges have the same degree parities as J, so at least half the odd-degree count must remain unused. For H this excludes seven triangles; for each pair residual it gives the needed bound. Cover lower bounds enumerate all subsets of size \(\tau\) -1; upward closure excludes smaller covers as well.
+
+W7 proves sharpness of the cover theorem in an ordinary graph, with \(\tau=5<2\nu=8\). W8 refutes a packing-only shortcut and does not meet the pair-containing minimum-cover premises. The finite checks certify these individual graphs. The universal cover-switch result follows from the symbolic proof, not from the finite checks.
+
+Complete curated source proof: \href{../../problems/TUZA-08/notes/COVER_SWITCH_PROOF.md}{COVER\_SWITCH\_PROOF.md}.
+
+\subsection{5. Multicover and fractional-integrality obstructions}\label{multicover-and-fractional-integrality-obstructions}
+
+No new Lean theorem is claimed in TUZA-09. The following elementary proofs and exact graphs identify failed mechanisms. They are not counterexamples to Tuza. The CKSU trace is a source-specific inference, distinguished from a full algorithm implementation replay.
+
+\subsubsection{A. Exact splitting criterion}\label{a.-exact-splitting-criterion}
+
+Let \texttt{m:E(G)-\textgreater{}\{0,1,2\}} be any 2-fold multicover. Set \texttt{D=\{e:m(e)=2\}} and \texttt{S=\{e:m(e)=1\}}. For every triangle avoiding D, either two or three edges belong to S. Define constraints on colors of S:
+
+\begin{itemize}
+\tightlist
+\item
+  If a triangle avoiding D has exactly two S-edges, those edges must receive different colors.
+\item
+  If such a triangle has three S-edges, its three colors must not all agree.
+\end{itemize}
+
+\textbf{Proposition A (PROVED\_ORDINARY).} The multiset m can be partitioned into two ordinary triangle covers if and only if these pair and triple constraints admit a two-coloring.
+
+\textbf{Proof.} If a partition exists and both copies of a double edge occur on one side, move one copy to the other side. The donor still contains that edge, so its coverage is unchanged; the recipient cannot lose coverage. Normalize all double edges this way. Each side now contains D. Every remaining triangle must see a singleton copy on both sides, giving precisely the constraints. Conversely, place one copy of D on each side and partition S by a satisfying coloring. A triangle containing D is hit on both sides. Every other triangle is hit on both sides by the applicable pair or triple condition. Each side is an ordinary set. QED.
+
+Consequently, decomposability plus \texttt{sum\ m\ \textless{}=4\ nu} guarantees \textbf{at least one} cover of size at most \texttt{2\ nu}. It does not itself guarantee both sides have that bound. All positive-multiplicity edges need not be retained in the chosen ordinary cover.
+
+If the graph of pair constraints is bipartite and there are no triple constraints, the condition is satisfied. The absence of triple constraints is essential: Proposition B gives a bipartite pair graph with an unsatisfiable combined system. This criterion is elementary and does not constrain arbitrary-graph Tuza by itself.
+
+\subsubsection{B. An optimal, budget-tight K5 multicover that cannot split}\label{b.-an-optimal-budget-tight-k5-multicover-that-cannot-split}
+
+Take vertices 1,2,3,4,5. Put multiplicity 0 on 12 and 34, and multiplicity 1 on all other edges. Its total is 8. No triangle contains both zero edges, so every triangle has load at least 2.
+
+\textbf{Optimality.} Consider any integer 2-cover of K5. If no edge has multiplicity zero, its total is at least 10. Otherwise choose a zero edge uv. The three constraints on uvw give sum at least 6 on the six edges joining \{u,v\} to the remaining three vertices. The triangle on those three remaining vertices adds at least 2. The sets counted are disjoint, so every 2-cover has total at least 8. Thus \texttt{M\_2(K5)=8}.
+
+\textbf{Packing number.} Triangles 123 and 145 are edge-disjoint. Three edge-disjoint triangles would use nine of ten edges. Their union has even degree at every vertex, but deleting one edge from K5 leaves its two endpoints with odd degree. Hence three are impossible, and \texttt{nu(K5)=2}. The multicover therefore exactly meets the budget \texttt{4\ nu=8}.
+
+\textbf{No split.} Apply Proposition A. Pair constraints include
+
+\texttt{13!=23}, \texttt{14!=24}, \texttt{15!=25}, \texttt{13!=14}, \texttt{23!=24}, \texttt{35!=45}.
+
+The pair graph is a 4-cycle on \{13,23,24,14\}, and two isolated edges \{15,25\}, \{35,45\}; it is bipartite. Complementing both colors if necessary, let color(13)=0. Then colors(23), (24), (14) are 1,0,1. Write color(15)=a, color(25)=1-a, color(35)=b, color(45)=1-b. The four all-singleton triangles 135,145,235,245 require, respectively,
+
+\texttt{a\ OR\ b}, \texttt{(NOT\ a)\ OR\ b}, \texttt{a\ OR\ (NOT\ b)}, \texttt{(NOT\ a)\ OR\ (NOT\ b)}.
+
+For each of the four Boolean assignments to (a,b), one of these clauses fails. Thus no split exists.
+
+Nevertheless an ordinary cover of half the multicover size exists: \texttt{\{13,24,25,45\}}. Its complement is the complete bipartite graph with parts \{1,3\} and \{2,4,5\}. The obstruction is to decomposition, not to Tuza and not to rounding to one cover.
+
+This example does \textbf{not} show that every optimal 2-cover of K5 is nonsplittable: doubling any minimum ordinary cover gives a decomposable optimal 2-cover. Nor is this specific vector asserted to be produced by CKSU.
+
+\subsubsection{C. K6: a nonsplittable optimal multicover in the CKSU construction}\label{c.-k6-a-nonsplittable-optimal-multicover-in-the-cksu-construction}
+
+Let G=K6 on vertices 1,\ldots,6, and put m=0 on the perfect matching \texttt{\{12,34,56\}}, m=1 elsewhere. Each triangle contains at most one matching edge, so m is a 2-cover of total 12.
+
+\textbf{Packing optimum.} The triangles \texttt{\{135,146,236,245\}} are edge-disjoint and use precisely the 12 positive edges. A packing of five triangles would use all 15 edges; every vertex would then have even degree in their union, contrary to degree 5 in K6. Thus \texttt{nu(K6)=4} and 12\textless=16=4nu.
+
+\textbf{Multicover optimum.} On K4, summing its four triangle-load inequalities counts each edge twice and gives \texttt{sum\ m\textgreater{}=4}. For any integer 2-cover on K6, either every edge is positive, giving total at least 15, or some uv has m(uv)=0. Summing the four triangle inequalities uvw forces total at least 8 on edges from \{u,v\} to the other four vertices. Their induced K4 contributes at least 4. These sets are disjoint, so total is at least 12. Therefore \texttt{M\_2(K6)=12}.
+
+\textbf{No decomposition.} Any split into two covers would color every positive edge red or blue so every triangle already contains both colors. Assign arbitrary colors to the three missing matching edges. This would give a two-coloring of all K6 edges without a monochromatic triangle. Such a coloring is impossible: from any vertex, at least three incident edges have the same color, say red, to a,b,c.~If any of ab,ac,bc is red there is a red triangle through the chosen vertex; otherwise abc is blue. QED.
+
+\textbf{Precise connection to the published construction (source-specific inference).} For the displayed packing, every external triangle meets at least two packing edges, belonging to distinct packing triangles. Thus all four packing triangles are type 0. CKSU Section 4.1 assigns half to their edges. Section 4.3 has no demanding triangle here, because such a triangle requires exactly one type-0 edge. Hence its construction can return this very multicover without spending the remaining credit.
+
+This last trace uses the source's actual definitions; it is not an implementation reproduction or an audit of its lengthy appendix proofs. It refutes the claim that the construction's output is universally decomposable.
+
+Again, one half-budget ordinary cover exists, even inside the support: \texttt{\{13,15,35,24,26,46\}}. Its complement in K6 is K3,3 with parts \{1,3,5\} and \{2,4,6\}. Its complement \textbf{inside S} is not another cover. Thus this witness does not refute universal one-cover rounding for the construction's chosen outputs.
+
+\subsubsection{D. Even optimal 2-cover cost cannot universally be halved}\label{d.-even-optimal-2-cover-cost-cannot-universally-be-halved}
+
+Let F be triangle-free and form G by adding an apex a adjacent to every vertex of F. Its only triangles are \texttt{\{a,u,v\}} for \texttt{uv\ in\ E(F)}.
+
+\textbf{Proposition D (PROVED\_ORDINARY, known reduction context).} \(\nu(G)=m(F)\) and \(\tau(G)=\operatorname{vc}(F)\), where \(m\) is the ordinary matching number.
+
+\textbf{Proof.} Two apex triangles share an edge exactly when their base edges share an endpoint. Thus edge-disjoint triangles correspond exactly to matchings. A vertex cover U of F gives the triangle cover \texttt{\{au:u\ in\ U\}}. Conversely, from any triangle cover C, replace every selected base edge uv by one endpoint spoke au, keeping existing spokes and dropping duplicates. The removed base edge occurs in only its own apex triangle, and its replacement hits that triangle, so this operation cannot uncover any triangle. The final selected spokes correspond to a vertex cover of F and are no more numerous than C. QED.
+
+For F=C5 with vertices 1,\ldots,5 in cyclic order, the five spokes once each give a 2-cover of size 5. Assign weight 1/2 to every one of the five apex triangles. Each spoke belongs to two such triangles and each base edge to one, so this is a feasible fractional triangle packing of weight 5/2. For any 2-cover m, direct multiplication and summation gives
+
+\[\sum_e m(e)\;\ge\;\sum_T\frac12\sum_{e\in T}m(e)\;\ge\;5.\]
+
+Thus \(M_2(G)=5\), while \(m(C_5)=2\) and \(\operatorname{vc}(C_5)=3\). In particular \(\tau(G)>M_2(G)/2\).
+
+For the disjoint union of two copies of this cone, all four quantities add, yielding \texttt{nu=4}, \texttt{M\_2=10}, \texttt{tau=6}, and \texttt{nu*=5}. Therefore even the softened statement \texttt{tau\textless{}=ceil(M\_2/2)} fails: 6\textgreater5. Additivity follows because triangles and graph edges lie entirely within components, so both feasibility and objective costs separate.
+
+This is not a Tuza counterexample: 6\textless=8=2nu. It says minimizing a multicover can consume the wrong resource for later rounding. The budget slack is material, and a universal successful mechanism must relate repair cost to packing information rather than multicover optimality alone.
+
+The cone reduction is not offered as historically new. CKSU's discussion already invokes Kortsarz--Langberg--Nutov (2010) for a triangle-free vertex-cover reduction; independent proofs above make the exact finite claim checkable. The related HKT constructions are credited in the literature comparison.
+
+\subsubsection{Exact cone correspondence}\label{exact-cone-correspondence}
+
+\textbf{PROVED\_ORDINARY.} Let H be any finite triangle-free simple graph, and let G be its cone: add a new vertex a and all edges av, v in V(H). Write m(H) for the ordinary matching number, m\_f(H) for the fractional matching optimum with constraints sum\_\{e incident v\} x\_e \textless= 1, and vc(H) for the ordinary vertex-cover number. Then
+
+\begin{verbatim}
+nu(G) = m(H),   nu*(G) = tau*(G) = m_f(H),   tau(G) = vc(H).
+\end{verbatim}
+
+\textbf{Proof.} Every triangle of G is uniquely a-u-v-a for an edge uv of H, because H has no triangles. Two such triangles share a spoke if and only if their corresponding H-edges meet. Distinct triangles never share their rim edge. Thus integral triangle packings correspond exactly to matchings of H. The fractional constraints at spokes are exactly the vertex-capacity constraints for a fractional matching of H; the additional rim constraint x\_uv \textless= 1 is redundant. This proves the packing equalities.
+
+For a vertex cover S of H, the spokes \{av:v in S\} meet all triangles, so tau(G) \textless= vc(H). Conversely, in any triangle edge cover C of G, replace each selected rim edge uv by one of its incident spokes, say au. A rim edge lies in just one triangle, which the replacement still meets. Replacements can only decrease cardinality. At the end only spokes are selected, and their H-endpoints form a vertex cover. Therefore vc(H) \textless= tau(G). LP duality gives the remaining equality. QED.
+
+The integral cone reduction is known in HKT and Chapuy; the complete displayed parameter correspondence is supplied here with an elementary proof to make the mission's inference independently checkable. It is not represented as new research.
+
+\subsubsection{A finite exact obstruction with p=0, q\textgreater0}\label{a-finite-exact-obstruction-with-p0-q0}
+
+\textbf{PROVED\_ORDINARY / REFUTED AUXILIARY CLAIMS.} Let H be the Petersen graph, with vertices 0,\ldots,9 and edges
+
+\begin{verbatim}
+01,12,23,34,40,
+05,16,27,38,49,
+57,79,96,68,85.
+\end{verbatim}
+
+Let G be its cone with apex 10. Then
+
+\begin{verbatim}
+(nu,tau,nu*,tau*) = (5,6,5,5),   (p,q)=(0,1).
+\end{verbatim}
+
+The five spoke-pair triangles \{10,i,i+5\}, i=0,\ldots,4, are edge-disjoint. Every triangle uses two of the ten apex edges, proving nu \textless= 5. Assign fractional covering weight 1/2 to each apex edge and zero to every rim edge. Its total is 5 and it meets every triangle with equality. Together with the integral packing this proves exact primal/dual optimum 5; no floating-point LP inference is needed.
+
+For completeness alpha(H)=4 has this elementary certificate. Identify vertices 0,\ldots,9 respectively with
+
+\begin{verbatim}
+12,34,15,23,45,35,25,24,14,13,
+\end{verbatim}
+
+where ij denotes the two-element set \{i,j\}. The displayed graph has adjacency exactly when two sets are disjoint. It is triangle-free, since three pairwise disjoint two-element subsets would require six elements. An independent set is a pairwise intersecting family of two-element subsets of a five-element set. If all sets contain a common element, there are at most four. Otherwise, choose intersecting sets 12 and 13 after relabeling. A member omitting 1 must be 23. Every set meeting 12,13,23 is one of those three unless it contains 1 and also 2 or 3, which is again one of them. Hence such a family has at most three. Four are attained by the pairs containing 1, corresponding to vertices \{0,2,8,9\}. Thus vc(H)=10-4=6; six apex edges at the complementary vertices form an actual optimal triangle cover of G.
+
+This refutes each universal assertion q \textless= C p for a finite nonnegative constant C; p=0 implies q=0; and existence of an integral optimal triangle packing LP solution implies an integral optimal triangle-cover LP solution. It does not refute Tuza or interpolation.
+
+The root's exact certificate file \href{../../problems/TUZA-09/certificates/EXACT_RESULTS.json}{EXACT\_RESULTS.json} independently verifies this graph under the same standard labels. The ordinary argument above does not rely on that code.
+
+Writing \(p=\nu^*-\nu\) and \(q=\tau-\nu^*\), the Petersen cone has \(p=0,q=1\). Hence no universal bound \(q\le Cp\) with finite nonnegative \(C\) can supply the missing rounding argument. Structured cone/prism and disjoint-union variants are proved, with their credited existence inputs, in the \href{../../problems/TUZA-09/notes/LP_GEOMETRY.md}{LP source notes}. They diagnose lost information, rather than establish \(p+q\le\nu\) in arbitrary graphs.
+
+The inspected corrected Chapuy et al.~version {[}2{]}, Theorems 1.6(i) and 2.3, states
+
+\[\tau(G)\le2\nu^*(G)-\sqrt{\nu^*(G)/6}+1.\]
+
+Its abstract omits the additive \(+1\); this report follows the theorem body. The same source rules out a universal fixed denominator for optimal fractional covers/packings. CKSU {[}3{]} proves normalized \(k\)-fold cost at most \(2\nu\) for each integer \(k\ge2\); it does not assert splitting into \(k\) ordinary covers. The K6 construction trace above does not constitute reproduction of the source's full proof or software.
+
+\subsection{6. Colored supports, forced one-third, and a restricted cycle theorem}\label{colored-supports-forced-one-third-and-a-restricted-cycle-theorem}
+
+The support translation, abstract question and realizability restriction must be read together. TUZA-10 has no new Lean theorem.
+
+\subsubsection{R (unproved)}\label{r-unproved}
+
+For every finite simple triangle-free graph J=(V,E), every proper edge-color map c:E \(\to\) C, and every real nonnegative vector x with vertex sums exactly 1 and color sums at most 1, vc(J) \(\le\) 2 \(\rho\) (J,c). Here vc uses ONLY vertices in V. A rainbow matching has disjoint endpoints and distinct colors. Each x\_e \(\le\) 1 follows from a vertex equation. Zero edge weights are allowed; isolated vertices are excluded except the empty graph. Summing vertex equations gives sum x=\textbar V\textbar/2. Rational certificates suffice: the feasible polytope has rational coefficients and a nonempty such bounded polytope has a rational vertex.
+
+Do not replace vc by an unrestricted hypergraph transversal or rho by the ordinary matching number. The associated 3-uniform hypergraph has vertex set V \(\sqcup\) C and triples \{u,v,c(uv)\}. It is linear because J is simple and properly colored. Its matching number is rho, but its transversal number may be strictly smaller than vc. It is 3-partite with sides A,B,C if J is bipartite with sides A,B; a general triangle-free graph need not admit such a bipartition. These distinctions persist under saturation.
+
+\subsubsection{Verified translation from TUZA-09}\label{verified-translation-from-tuza-09}
+
+Source: accepted TUZA-09 \href{../../problems/TUZA-09/notes/LP_GEOMETRY.md}{LP\_GEOMETRY.md}, sections 7--8. Let G be finite simple and y an OPTIMAL fractional edge cover of all graph triangles, with values 0 or 1/2. Put B=\{e:y\_e=1/2\}, Z=\{e:y\_e=0\}; require the graph (V(G),B) triangle-free. Every triangle has exactly two B edges (feasibility excludes fewer; triangle-freeness excludes three).
+
+Vertices of J are actual B edges. Each G triangle gives an edge joining its two B edges, colored by its Z edge. Two B edges determine at most one triangle, so J is simple. For fixed Z edge ab, triangles abv have pairwise disjoint pairs \{av,bv\} as v varies, so coloring is proper. A triangle in J would correspond to three pairwise incident B edges. Three pairwise incident distinct simple-graph edges either form a triangle (excluded) or a star. A star would force all three edges among its leaves to be in Z, forming a triangle of y-weight zero (excluded). Therefore J is triangle-free.
+
+A set of G triangles is edge-disjoint iff its J edges have disjoint B endpoints and distinct Z colors. Thus nu(G)=rho(J,c). A cover of G restricted to B is exactly a vertex cover of J; denote its minimum tau\_B(G)=vc(J). Unrestricted tau(G) can be smaller, because Z edges are allowed there.
+
+Choose an optimal fractional triangle packing z, using finite LP duality. Complementary slackness with y forces sum\_\{T containing b\}z\_T=1 for each b in B. At each z-edge the packing capacity is \(\le\) 1. Consequently x\_\{edge(T)\}=z\_T is exactly the fractional certificate in R. Conversely these capacity checks certify the half cover's optimality when the rest of the graph construction is valid. We do not claim an arbitrary abstract colored J admits such a graph realization.
+
+\subsubsection{Implication boundaries}\label{implication-boundaries}
+
+Proved translation + R would give tau(G) \(\le\) tau\_B(G)=vc(J) \(\le\) 2rho(J,c)=2nu(G) for the stated optimal-zero/half triangle-free-support class. No reduction from arbitrary G to this class is available. Universal half-integrality is already false; restrictions on the \emph{auxiliary J} in the fallback narrow the class further. The ordinary triangle-free support graph B and its auxiliary J are distinct graphs.
+
+The fallback cycle theorem applies only when J itself is a disjoint union of cycles of length \(\ge\) 4 and each color occurs at most twice. In that class x\_e=1/2 is an explicit certificate. Even a proof with a better coefficient in that class does not settle R or unrestricted Tuza.
+
+\subsubsection{An exact forced-one-third certificate}\label{an-exact-forced-one-third-certificate}
+
+Let the Petersen graph have vertices 0,\ldots,9, outer edges i(i+1), inner edges (5+i)(5+i+2), and spokes i(5+i), with indices modulo 5. Its five color classes are
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Color & Three edges \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+0 & 01, 23, 49 \\
+1 & 04, 12, 38 \\
+2 & 05, 16, 79 \\
+3 & 27, 58, 69 \\
+4 & 34, 57, 68 \\
+\end{longtable}
+}
+
+Each class is a matching. The graph is simple, cubic, and triangle-free. Giving every edge weight 1/3 saturates every vertex and every color. Thus it satisfies all hypotheses of R.
+
+For any feasible certificate x, write V\_i for the sum of x on the three edges at vertex i, and C\_j for the sum on color j. Summing the ten vertex equations gives total edge weight 5. There are exactly five color classes, each of weight at most 1, so every C\_j is 1. Direct cancellation of edge terms gives
+
+\begin{verbatim}
+V_0 + V_1 - V_2 - V_4 - V_5 - V_6 + C_0 + C_3 + C_4 = 3 x_01.
+\end{verbatim}
+
+The left side is 1+1-1-1-1-1+1+1+1=1. Consequently every feasible certificate has x\_01=1/3. In particular no feasible certificate is half-integral. This is an ordinary exact proof, independent of the computational feasibility search.
+
+For completeness, the entire feasible polytope is the line segment below, where t=x\_79 and 0\textless=t\textless=2/3:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lrlrlr@{}}
+\toprule\noalign{}
+Edge & Weight & Edge & Weight & Edge & Weight \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+01 & 1/3 & 04 & t & 05 & 2/3-t \\
+12 & 1/3 & 16 & 1/3 & 23 & t \\
+27 & 2/3-t & 34 & 1/3 & 38 & 2/3-t \\
+49 & 2/3-t & 57 & 1/3 & 58 & t \\
+68 & 1/3 & 69 & 1/3 & 79 & t \\
+\end{longtable}
+}
+
+Exact rational row reduction of the ten vertex and five color equalities has rank 14 and gives this parameterization. Direct substitution checks every equation; nonnegativity is equivalent to 0\textless=t\textless=2/3. The endpoints t=0 and t=2/3 both retain edges of weight 1/3.
+
+The exact values vc=6 and rho=4 also have short certificates. Both the outer and inner 5-cycles contribute at most two vertices to an independent set, so alpha\textless=4. The set \{0,2,8,9\} is independent; its complementary cover is \{1,3,4,5,6,7\}. Hence vc=6.
+
+The edges \{12,34,58,79\} form a rainbow matching of size four, with colors \{1,4,3,2\}. A matching of size five would be a perfect matching. There are precisely six perfect matchings: a perfect matching has an odd number of spokes; three spokes are impossible because the two remaining outer vertices must be at cyclic distance 1 while the corresponding inner vertices must be at distance 2. Five spokes give one matching, and each choice of a sole spoke gives one matching. All six repeat a color:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Perfect matching & Color multiset \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+01,23,49,57,68 & 0,0,0,4,4 \\
+01,27,34,58,69 & 0,3,4,3,3 \\
+04,12,38,57,69 & 1,1,1,4,3 \\
+04,16,23,58,79 & 1,2,0,3,2 \\
+05,12,34,68,79 & 2,1,4,4,2 \\
+05,16,27,38,49 & 2,2,3,1,0 \\
+\end{longtable}
+}
+
+Thus rho=4, and R reads 6\textless=8 here.
+
+\subsubsection{A genuine realizability restriction: repeated-color path closure}\label{a-genuine-realizability-restriction-repeated-color-path-closure}
+
+Let J be obtained by the COMPLETE TUZA09 reduction from a simple graph G with optimal zero/half cover and triangle-free positive support B. If four distinct J vertices e1,e2,e3,e4 form a path and c(e1e2)=c(e3e4), then J also contains e1e4 with color c(e2e3).
+
+\textbf{Proof.} Write the repeated zero edge as ab. The first and last J edges represent distinct G triangles abu and abv, u \(\ne\) v and u,v outside \{a,b\}. Thus \{e1,e2\}=\{au,bu\}, \{e3,e4\}=\{av,bv\}. Because e2 and e3 lie in a common graph triangle, they meet. The only possible cross-pair intersections are au with av, or bu with bv. Interchanging a,b if needed, take e2=au and e3=av. Their triangle forces the edge uv, which is its zero edge and the color c(e2e3). Now e1=bu and e4=bv, and uv also completes the graph triangle buv. The complete triangle family therefore creates e1e4 with the same color uv. QED.
+
+Consequences: - For cycle-union J, the forced alternating C4 is an entire component. With color multiplicity \(\le\) 2, removing those components leaves a TRIANGLE-FREE subcubic color-line graph. Indeed a conflict triangle either consists of three pairwise incident J edges (impossible in a triangle-free graph of degree2), or contains a same-color pair; properness makes that pair disjoint and the third edge gives the path just analyzed. Three equal colors are excluded by multiplicity \(\le\) 2. - The no-half-integral Petersen witness is not graph-realizable: J path0-1-2-3 has colors0,1,0 but J edge03 is absent. Thus the abstract obstruction cannot be silently imported into G-triangle supports. - The C9 extremizer described below also violates this closure: each repeated-color three-edge path lacks its closing chord. Its sharpness is only abstract.
+
+This closure is an elementary consequence of full graph-triangle incidence, related to the pair-hypergraph closure constraints in Aharoni--Zerbib. We do not claim it is historically new. It does not characterize all realizable systems.
+
+\textbf{Rejected construction, preserved for accuracy.} Adding a hub to the seven-cycle squared and declaring both rim edges and spokes positive would produce an appealing two-cycle conflict pattern only if all-positive triangles were omitted. It is invalid: the hub with two consecutive rim vertices makes a triangle inside B. Therefore it is not evidence for a graph-realizable lower bound. The error was caught before any result used it.
+
+\subsubsection{A complete restricted theorem, from known machinery}\label{a-complete-restricted-theorem-from-known-machinery}
+
+Let J be a finite disjoint union of cycles, each of length at least four, properly edge-colored so that each color occurs at most twice. Let k count its alternating bichromatic C4 components. Then
+
+\begin{verbatim}
+vc(J) <= 2k + (9/5)(rho(J,c)-k) <= 2rho(J,c).
+\end{verbatim}
+
+Equality in the last bound holds if and only if every component is an alternating bichromatic C4 (the empty graph is included vacuously). If no remaining cycle has length five or seven, replace 9/5 by 5/3.
+
+\textbf{Proof.} The color-line graph L has one vertex for each J edge, with adjacency for endpoint or color conflict. Its independent sets are precisely rainbow matchings of J. Each vertex has two cycle-neighbors and at most one additional color-neighbor, hence maximum degree three. If four vertices form a K4, all degree slots are internal, so in particular both cycle-neighbors of each vertex lie among the four. Thus they form one whole cycle of J, which is C4. Its opposite pairs must be the two equal-color pairs. Conversely such a C4 creates a K4 component of L; its colors occur nowhere else.
+
+Delete these k components. The remaining L has no K4 component. Brooks' theorem yields a 3-coloring: components of maximum degree at most two can be colored with three colors directly; every connected component of maximum degree three other than K4 is three-colorable by Brooks. Thus rho(J')=alpha(L') \(\ge\) \textbar E(J')\textbar/3. For every cycle of length l \(\ge\) 4, vc(C\_l)=ceil(l/2) \(\le\) 3l/5. Summing gives vc(J') \(\le\) 3\textbar E(J')\textbar/5 \(\le\) 9rho(J')/5. Deleted components have disjoint palettes, so both relevant quantities add: vc=2k+vc(J'), rho=k+rho(J'). If J' is nonempty then rho(J')\textgreater0 and 9rho(J')/5\textless2rho(J'), proving the equality characterization. If odd cycle lengths5 and7 are excluded, ceil(l/2) \(\le\) 5l/9 on every residual cycle; the same argument gives 5/3. QED.
+
+The exact correspondence is Le--Pfender's color-line graph, and Brooks is the substantive standard theorem. This is a derived restricted result rather than an asserted original method; see the historical PRIOR\_ART.md and rainbow source-audit records (not included in this public archive); the companion report gives current public references. The ordinary proof is complete for arbitrary cross-component repeated colors. Adding independent component rainbow numbers without checking palettes would be invalid.
+
+\subsubsection{The specific unproved sharpening}\label{the-specific-unproved-sharpening}
+
+For the same class, conjecture vc(J) \(\le\) 2k+(5/3)(rho(J,c)-k). A single C9 with consecutive colors a,b,a,c,d,c,e,f,e has vc=5 and rho=3: each of the three consecutive triples of edges permits at most one selection, while their middle edges form a rainbow matching. Thus5/3 would be best possible for abstract J after the C4 exceptions.
+
+Only the extension across short odd cycles (length5,7) is missing from the restricted cycle proof above. In precise conflict-graph form the needed bound is alpha(L') \(\ge\) (3/5)sum\_C ceil(\textbar C\textbar/2), where L' is a disjoint union of designated cycles plus a matching of color-conflict edges, with no K4 component. Finite survival is not a proof of this bound. There is no established induction/exchange lemma controlling all cross-cycle color links, so this is insufficient for GO. It may be easier than R because every conflict degree is at most3 and color conflicts form a matching; arbitrary R has neither property. Historical priority remains unresolved in the bounded search.
+
+The cycle theorem uses Le--Pfender color-line graphs {[}4{]} and Brooks {[}5{]}. It remains valid with colors repeated across components, because the conflict graph is treated globally. A proposed general \(5/3\) refinement is still UNPROVED; its abstract C9 extremizer also violates the realizability closure. The restricted theorem supplies no reduction from arbitrary \(G\) or arbitrary R to cycle systems.
+
+Complete curated source proof: \href{../../problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md}{PROOFS\_OR\_OBSTRUCTIONS.md}.
+
+\subsection{7. Synthesis and prior-art positioning}\label{synthesis-and-prior-art-positioning}
+
+B1/B2 settle an extension problem with a specific old equality structure. A1 exposes necessary conditions of a hypothetical minimal counterexample but does not classify its tight descendants. TUZA-08 proves a switch and locates a sharp necessary obstruction; W7 shows that cover incompatibility and wedge losses coexist in a non-tight graph. No ancestry-to-neutral-edge argument rules this out in all relevant tight descendants. TUZA-09 shows that scalar fractional or multicover feasibility does not automatically retain the compatibility needed for integral rounding. TUZA-10 rules out an abstract half-integral certificate reduction and explains why genuine graph realizations impose extra closure.
+
+The earlier A/B/C approaches therefore do not constitute a general proof. In particular, one may not infer block type for every tight residual, iterate a theorem through uncontrolled slack, assume simultaneous minimum-cover compatibility, split every multicover, replace a general fractional solution by a half-integral one, or ignore the complete graph-triangle incidence constraints. Curated \href{../../problems/TUZA-07/notes/COUNTEREXAMPLES_AND_FAILURES.md}{TUZA-07 failures}, \href{../../problems/TUZA-09/notes/ALTERNATIVES.md}{TUZA-09 alternatives}, and \href{../../problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md}{TUZA-10 rejected realization} preserve the specific objections.
+
+Possible future questions include a saturation-preserving exchange invariant, a characterization of graph-realizable support systems, and the short-odd-cycle gap in the \(5/3\) proposal. These are speculation, not established lemmas or evidence of a credible unrestricted proof bridge. The research decision remains REDIRECT: this consolidation starts no further discovery campaign.
+
+The following targeted primary-source comparisons control attribution and scope. They do not establish historical novelty. Historical originality of every proposed contribution remains UNESTABLISHED pending specialist prior-art review.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Source and edition
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Verified statement and relevance
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Zsolt Tuza, \emph{A conjecture on triangles of graphs}, Graphs and Combinatorics 6 (December 1990), 373--380, \href{https://link.springer.com/article/10.1007/BF01787705}{publisher} & Publisher abstract states the edge-disjoint triangle packing / edge transversal conjecture with coefficient two. This confirms original attribution. Full 1990 text is subscription-only in this check: do not claim its complete proof was read or reverified. \\
+Gregory J. Puleo, \href{https://arxiv.org/html/1308.2211v3}{arXiv:1308.2211v3}, 13 April 2015 & Theorem 1.2 assumes maximum average degree below seven. Definition 4.2/Lemma 4.3 require a nonempty deleted edge set, a triangle packing, a cover of size at most twice that packing, coverage of all triangles using the deleted edges, and inclusion of packed edges outside the deleted set. This is established reduction bookkeeping, not a global equality theorem. The HTML body prints 24 August 2026, inconsistent with the version header; use the explicit arXiv version date. \\
+Haxell--Kostochka--Thomassé, \href{https://perso.ens-lyon.fr/stephan.thomasse/liste/fractuza.pdf}{author PDF}, dated 1 March 2010 & Theorem 1 is stability for fractional cover near twice the integral packing number. Its K4 conclusion cannot be inferred merely from integral equality. The introduction gives K4-free integral ratios approaching two via cone examples. Final journal identity is EJC 33 (2012), 799--806; final-paper byte identity was not checked. \\
+Aharoni--Zerbib, \href{https://arxiv.org/html/1611.07497v7}{arXiv:1611.07497v7}, 18 December 2019 & Definitions in section 1.3 distinguish pair-cover/pair-packing hypergraphs from arbitrary linear hypergraphs; Conjecture 1.2 is a conjecture, not a proved general bound. Older v3 (28 November 2016), titled \emph{m-matchings and m-covers}, has separate structural details cited by TUZA-10; do not label that edition current. \\
+Alex Parker, \href{https://arxiv.org/html/2406.06501v3}{arXiv:2406.06501v3}, 19 March 2025; \href{https://www.combinatorics.org/ojs/index.php/eljc/article/view/v32i2p20}{EJC final metadata}, 13 May 2025 & Theorems 1.1--1.2 concern the pair-cover generalization with packing number two or three. Corollary 1.3 gives Tuza for graphs with at most three edge-disjoint triangles. It does not apply to arbitrary auxiliary colored systems. Final article is 32(2), P2.20, DOI 10.37236/13355. The HTML body has a spurious-looking 24 August 2026 date; the version record controls. \\
+Chapuy--DeVos--McDonald--Mohar--Scheide, \href{https://arxiv.org/html/1012.0372v2}{arXiv:1012.0372v2}, 25 May 2015 corrected version; SIAM JDM 28(1) (2014), 226--239 & Theorem 1.6(i) and Theorem 2.3 give tau \textless= 2 nu* - sqrt(nu*/6) + 1. The abstract omits +1. Quote the body, explicitly noting the discrepancy. Theorem 1.10 rules out a universal fixed denominator for optimal fractional triangle packing/cover. \\
+Chalermsook--Khuller--Sukprasert--Uniyal, \href{https://arxiv.org/pdf/2001.00257v2}{arXiv:2001.00257v2}, 3 February 2021; accepted SODA 2020 & Section 1.1 and Theorem 2 prove for every integer k\textgreater=2 a multicover of total multiplicity \textless=2k nu, normalized by dividing cost by k. Copies may repeat; this does not split the multicover into k ordinary covers. Construction tracing, local small certificates, and a full independent rerun of the algorithm are distinct assertions. \\
+Liu--Zeng, \href{https://arxiv.org/html/2610.15539v1}{arXiv:2610.15539v1}, 11 October 2026 & Theorem 1.3 proves the sufficiently-large-n edge-count assertion for each fixed c\textless2. Proposition 1.2 equates its extension to EVERY fixed c\textgreater=0 with general Tuza, using disjoint complete bipartite padding. The published theorem does not supply that universal extension. \\
+Anish Gupta, \href{https://arxiv.org/html/2608.06538v1}{arXiv:2608.06538v1}, 6 August 2026 & Reports Tuza for maximum degree at most seven using Puleo reductions and a catalogue of 1,144 codegree-four certificates. Question 12.3 leaves equality questions. No catalogue replay in this consolidation literature check. \\
+Amrit Kandasamy, \href{https://arxiv.org/html/2610.15269v1}{arXiv:2610.15269v1}, 11 October 2026 & Theorem 1.1 reports Tuza for maximum degree at most ten. Local reductions require ambient packing safety. Maximum degree is not degeneracy. Treat as a preprint; no companion-code replay or independent full proof validation is claimed. \\
+Lixing Yi, \href{https://arxiv.org/html/2608.23010v1}{arXiv:2608.23010v1}, 24 August 2026 & States universal coefficient 63/22 and the slightly sharper (162+4 sqrt(3))/59. Theorem 1 gives coefficient 1+sqrt(3) for a triangle family admitting one-red/two-blue coloring. \\
+Sichen Wang, \href{https://arxiv.org/html/2609.13831v1}{arXiv:2609.13831v1}, 12 September 2026 & Theorem 1 reports universal coefficient 165/59. The crucial exchange uses the complete family of all one-red-edge triangles. This closure is stronger than Yi's family coloring condition. A linked Lean formalization exists, but was not audited/replayed by this review. \\
+Ron Aharoni--Eli Berger, \href{https://www.combinatorics.org/ojs/index.php/eljc/article/download/v16i1r119/pdf/}{journal PDF}, EJC 16(1), R119, 25 September 2009 & Theorem 2.6 and Corollary 2.8 use tripartite degree hypotheses. Freshly downloaded printed PDF page 4 visually confirms that both inequalities in Corollary 2.8 are non-strict, despite web text extraction rendering \textgreater. It is relevant to rational replication in the BIPARTITE auxiliary case; triangle-freeness alone does not supply a tripartition. \\
+Van Bang Le--Florian Pfender, \href{https://arxiv.org/pdf/1312.7253v1}{arXiv:1312.7253v1}, 27 December 2013 & Definition 1 and Lemma 1(iii) identify rainbow matchings with independent sets of the color-line graph. Theorem 5 already treats properly colored 2-regular graphs with each color twice through cubic color-line graphs. This credits the machinery, not an assertion that their hardness theorem states this project's cover inequality. \\
+\end{longtable}
+}
+
+Brooks' primary-paper reprint was inspected in the precise subcubic form used above {[}5{]}. The literature cited here also includes {[}6--16{]}. The 2026 preprints are attributed as statements of their inspected editions. Their complete proofs and companion computations were not freshly validated. The Tuza publisher abstract and metadata were accessible; the full 1990 paper was not read in this recheck. No missing full-text access is represented as completed proof verification.
+
+\subsection{8. Verification, provenance and disclosure}\label{verification-provenance-and-disclosure}
+
+The \href{../../STATUS_AND_PROVENANCE.md}{source-specific ledger} maps the selected results to actual declarations, literal types, source proof files and limitations. Mathematical Lean sources and dependency pin files are copied byte for byte. B1/B2, A1 and cover-switch are separate portable projects; no merged build is asserted. Fresh candidate checks rebuild every copied closure module, audit inventoried declarations and replay the resulting objects with the standard Lean kernel. Pinned compiled dependencies are reused. This is neither a cold Mathlib/compiler build nor independent-kernel verification. The only permitted reported axioms are \texttt{propext}, \texttt{Classical.choice}, and \texttt{Quot.sound}. Finite examples use independent exact integer/rational certificates, with explicit tested domains.
+
+The \href{../../REPRODUCTION.md}{reproduction guide} and receipts state what actually ran and give commands using public relative source paths and explicitly supplied dependency locations. Historical random tests and small censuses are evidence only for their specified finite domains; they were not rerun as universal claims. Ordinary TUZA-09/10 arguments have no new Lean certification. The paper derives Markdown and LaTeX from one selected text, and its PDF is compiled and visually reviewed page by page. Source mapping and hashes identify the curated transformations.
+
+All mathematical development, proofs, code, formalization, this manuscript and internal reviews were AI-produced. The human directed goals, budgets and authorization. Two independent internal AI reviews cover mathematical source fidelity and public-candidate reproduction/privacy/editorial quality. These are not external human peer review. No mathematical authority, endorsement or historical priority is inferred from a successful tool run. The unrestricted conjecture remains OPEN.
+
+\subsection*{References}\label{references}
+\addcontentsline{toc}{subsection}{References}
+
+\protect\phantomsection\label{refs}
+\begin{CSLReferences}{0}{1}
+\par\phantomsection\label{ref-Tuza1990}
+1. Z. Tuza. A conjecture on triangles of graphs. \emph{Graphs and Combinatorics} 6 (1990), 373--380. DOI: \href{https://doi.org/10.1007/BF01787705}{10.1007/BF01787705}. \url{https://link.springer.com/article/10.1007/BF01787705}. Publisher abstract and metadata checked; full text not re-audited
+
+\par\phantomsection\label{ref-ChapuyEtAl2014}
+2. G. Chapuy, M. DeVos, J. McDonald, B. Mohar, and D. Scheide. Packing triangles in weighted graphs. \emph{SIAM Journal on Discrete Mathematics} 28(1) (2014), 226--239. DOI: \href{https://doi.org/10.1137/100803869}{10.1137/100803869}. \url{https://arxiv.org/abs/1012.0372v2}. Corrected version 2, 25 May 2015, inspected; Theorems 1.6(i) and 2.3 include the additive constant +1
+
+\par\phantomsection\label{ref-CKSU2021}
+3. P. Chalermsook, S. Khuller, P. Sukprasert, and S. Uniyal. Multi-transversals for triangles and the tuza's conjecture. (2021). \url{https://arxiv.org/abs/2001.00257v2}. Version 2, 3 February 2021; accepted at SODA 2020
+
+\par\phantomsection\label{ref-LePfender2013}
+4. V. B. Le and F. Pfender. Complexity results for rainbow matchings. (2013). DOI: \href{https://doi.org/10.1016/j.tcs.2013.12.013}{10.1016/j.tcs.2013.12.013}. \url{https://arxiv.org/abs/1312.7253v1}. Version 1, 27 December 2013; Definition 1, Lemma 1 and Theorem 5 inspected
+
+\par\phantomsection\label{ref-Brooks1941}
+5. R. L. Brooks. On colouring the nodes of a network. \emph{Proceedings of the Cambridge Philosophical Society} 37 (1941), 194--197. DOI: \href{https://doi.org/10.1017/S030500410002168X}{10.1017/S030500410002168X}. \url{https://www.tu-ilmenau.de/fileadmin/Bereiche/MN/komgra/BackMatterSMM.pdf}. Primary-paper reprint inspected, Appendix A, pages 537--540 of Brooks' Theorem (2024)
+
+\par\phantomsection\label{ref-Puleo2015}
+6. G. J. Puleo. Tuza's conjecture for graphs with maximum average degree less than 7. \emph{European Journal of Combinatorics} 49 (2015), 134--152. DOI: \href{https://doi.org/10.1016/j.ejc.2015.03.006}{10.1016/j.ejc.2015.03.006}. \url{https://arxiv.org/abs/1308.2211v3}. Statement numbering checked in version 3, 13 April 2015
+
+\par\phantomsection\label{ref-HKT2012}
+7. P. Haxell, A. Kostochka, and S. Thomassé. A stability theorem on fractional covering of triangles by edges. \emph{European Journal of Combinatorics} 33 (2012), 799--806. DOI: \href{https://doi.org/10.1016/j.ejc.2011.09.024}{10.1016/j.ejc.2011.09.024}. \url{https://perso.ens-lyon.fr/stephan.thomasse/liste/fractuza.pdf}. Author manuscript dated 1 March 2010 inspected
+
+\par\phantomsection\label{ref-AharoniZerbib2019}
+8. R. Aharoni and S. Zerbib. A generalization of tuza's conjecture. (2019). \url{https://arxiv.org/abs/1611.07497v7}. Version 7, 18 December 2019
+
+\par\phantomsection\label{ref-AharoniZerbib2016}
+9. R. Aharoni and S. Zerbib. \(m\)-matchings and \(m\)-covers. (2016). \url{https://arxiv.org/abs/1611.07497v3}. Historical version 3, 28 November 2016, used for the structural comparison; later version separately cited
+
+\par\phantomsection\label{ref-Parker2025}
+10. A. Parker. New bounds on a generalization of tuza's conjecture. \emph{The Electronic Journal of Combinatorics} 32(2) (2025), P2.20. DOI: \href{https://doi.org/10.37236/13355}{10.37236/13355}. \url{https://arxiv.org/abs/2406.06501v3}. Version 3, 19 March 2025, inspected; journal publication 13 May 2025
+
+\par\phantomsection\label{ref-LiuZeng2026}
+11. Z. Liu and Q. Zeng. Tuza's conjecture under an edge-count condition. (2026). \url{https://arxiv.org/abs/2610.15539v1}. Preprint version 1, 11 October 2026; Proposition 1.2 and Theorem 1.3 inspected
+
+\par\phantomsection\label{ref-Gupta2026}
+12. A. Gupta. Tuza's conjecture for graphs of maximum degree at most seven. (2026). \url{https://arxiv.org/abs/2608.06538v1}. Preprint version 1, 6 August 2026; companion certificates not replayed
+
+\par\phantomsection\label{ref-Kandasamy2026}
+13. A. Kandasamy. Tuza's conjecture for graphs of maximum degree at most 10. (2026). \url{https://arxiv.org/abs/2610.15269v1}. Preprint version 1, 11 October 2026; companion code not replayed
+
+\par\phantomsection\label{ref-Yi2026}
+14. L. Yi. An improved upper bound for tuza's conjecture via 2-colorable triangle families. (2026). \url{https://arxiv.org/abs/2608.23010v1}. Preprint version 1, 24 August 2026
+
+\par\phantomsection\label{ref-Wang2026}
+15. S. Wang. A bound below 2.8 for tuza's conjecture. (2026). \url{https://arxiv.org/abs/2609.13831v1}. Preprint version 1, 12 September 2026; linked Lean formalization not audited here
+
+\par\phantomsection\label{ref-AharoniBerger2009}
+16. R. Aharoni and E. Berger. Rainbow matchings in {\(r\)}-partite {\(r\)}-graphs. \emph{The Electronic Journal of Combinatorics} 16(1) (2009), R119. DOI: \href{https://doi.org/10.37236/208}{10.37236/208}. \url{https://www.combinatorics.org/ojs/index.php/eljc/article/view/v16i1r119}. Published 25 September 2009
+
+\end{CSLReferences}
+
+\end{document}

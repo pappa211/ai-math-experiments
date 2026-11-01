@@ -1,0 +1,1083 @@
+def TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} : {V : Type u_1} →
+  [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → (G : SimpleGraph.{u_1} V) → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V) =>
+  And
+    (@LT.lt.{0} Nat instLTNat
+      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+      (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+    (∀ (H : SimpleGraph.{u_1} V),
+      @LT.lt.{u_1} (SimpleGraph.{u_1} V)
+          (@Preorder.toLT.{u_1} (SimpleGraph.{u_1} V)
+            (@PartialOrder.toPreorder.{u_1} (SimpleGraph.{u_1} V) (@SimpleGraph.instPartialOrder.{u_1} V)))
+          H G →
+        @LE.le.{0} Nat instLENat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))
+          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+            (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))))
+def TuzaA1.EdgeCriticalityTarget.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] =>
+  ∀ (G : SimpleGraph.{u_1} V),
+    @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G →
+      ∀ (e : Finset.{u_1} V),
+        @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e →
+          And
+            (@Eq.{1} Nat
+              (@Tuza.nu.{u_1} V
+                (@Tuza.triangles.{u_1} V inst inst_1
+                  (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G
+                    (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                      (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) e))))
+              (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+            (And
+              (@Eq.{1} Nat
+                (@Tuza.tau.{u_1} V
+                  (@Tuza.triangles.{u_1} V inst inst_1
+                    (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G
+                      (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                        (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) e))))
+                (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                  (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                  (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+              (And
+                (@Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+                  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))
+                (@Exists.{u_1 + 1} (Finset.{u_1} V) fun (T : Finset.{u_1} V) =>
+                  And
+                    (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                      (@Tuza.triangles.{u_1} V inst inst_1 G) T)
+                    (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                      (@Tuza.edges.{u_1} V T) e))))
+def TuzaA1.ResilienceTarget.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] =>
+  ∀ (G : SimpleGraph.{u_1} V),
+    @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G →
+      ∀ (S : Finset.{u_1} (Finset.{u_1} V)),
+        @Finset.Nonempty.{u_1} (Finset.{u_1} V) S →
+          (∀ (e : Finset.{u_1} V),
+              @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                    (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                  S e →
+                @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e) →
+            @LE.le.{0} Nat instLENat
+              (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S))))
+              (@HDiv.hDiv.{0, 0, 0} Nat Nat Nat (@instHDiv.{0} Nat Nat.instDiv)
+                (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) (@Finset.card.{u_1} (Finset.{u_1} V) S)
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+def TuzaA1.SmallDeletionTarget.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] =>
+  ∀ (G : SimpleGraph.{u_1} V),
+    @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G →
+      ∀ (S : Finset.{u_1} (Finset.{u_1} V)),
+        @LE.le.{0} Nat instLENat (@Finset.card.{u_1} (Finset.{u_1} V) S)
+            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) →
+          (∀ (e : Finset.{u_1} V),
+              @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                    (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                  S e →
+                @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e) →
+            @Eq.{1} Nat
+              (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S)))
+              (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+def TuzaA1.PackingExtensionTarget.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] =>
+  ∀ (G : SimpleGraph.{u_1} V),
+    @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G →
+      ∀ (P : Finset.{u_1} (Finset.{u_1} V)),
+        @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) P →
+          Or
+              (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) P)
+                (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+              (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) P)
+                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →
+            And
+              (@Eq.{1} Nat
+                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                  (@Tuza.nu.{u_1} V
+                    (@Tuza.triangles.{u_1} V inst inst_1
+                      (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.support.{u_1} V inst_1 P))))
+                  (@Finset.card.{u_1} (Finset.{u_1} V) P))
+                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+              (@Exists.{u_1 + 1} (Finset.{u_1} (Finset.{u_1} V)) fun (Q : Finset.{u_1} (Finset.{u_1} V)) =>
+                And (@Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) Q)
+                  (And
+                    (@LE.le.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+                      (@Preorder.toLE.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+                        (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+                          (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))))
+                      P Q)
+                    (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) Q)
+                      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))))
+def TuzaA1.OneTriangleTarget.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] =>
+  ∀ (G : SimpleGraph.{u_1} V),
+    @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G →
+      ∀ (T : Finset.{u_1} V),
+        @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            (@Tuza.triangles.{u_1} V inst inst_1 G) T →
+          And
+            (@Eq.{1} Nat
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                (@Tuza.nu.{u_1} V
+                  (@Tuza.triangles.{u_1} V inst inst_1
+                    (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T))))
+                (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+              (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+            (@Eq.{1} Nat
+              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                (@Tuza.tau.{u_1} V
+                  (@Tuza.triangles.{u_1} V inst inst_1
+                    (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T))))
+                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+def TuzaA1.TwoTrianglesTarget.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] =>
+  ∀ (G : SimpleGraph.{u_1} V),
+    @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G →
+      ∀ (T₁ : Finset.{u_1} V),
+        @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            (@Tuza.triangles.{u_1} V inst inst_1 G) T₁ →
+          ∀ (T₂ : Finset.{u_1} V),
+            @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                (@Tuza.triangles.{u_1} V inst inst_1 G) T₂ →
+              @Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))
+                  (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.edges.{u_1} V T₁) (@Tuza.edges.{u_1} V T₂) →
+                have R : SimpleGraph.{u_1} V :=
+                  @Tuza06.removeEdgeFamily.{u_1} V inst_1
+                    (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T₁)) (@Tuza.edges.{u_1} V T₂);
+                And
+                  (@Eq.{1} Nat
+                    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 R))
+                      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+                  (Or
+                    (@Eq.{1} Nat
+                      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                        (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 R))
+                        (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5))))
+                      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+                    (@Eq.{1} Nat
+                      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                        (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 R))
+                        (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+                      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))))
+def TuzaA1.WedgeTarget.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] =>
+  ∀ (G : SimpleGraph.{u_1} V),
+    @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G →
+      ∀ (T : Finset.{u_1} V),
+        @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            (@Tuza.triangles.{u_1} V inst inst_1 G) T →
+          ∀ (e : Finset.{u_1} V),
+            @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                (@Tuza.edges.{u_1} V T) e →
+              have H : SimpleGraph.{u_1} V :=
+                @Tuza06.removeEdgeFamily.{u_1} V inst_1 G
+                  (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                    (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) e);
+              have F : Finset.{u_1} (Finset.{u_1} V) :=
+                @Finset.erase.{u_1} (Finset.{u_1} V)
+                  (fun (a b : Finset.{u_1} V) => @Finset.decidableEq.{u_1} V inst_1 a b) (@Tuza.edges.{u_1} V T) e;
+              And
+                (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) F)
+                  (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                (And
+                  (∀ (f : Finset.{u_1} V),
+                    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                        F f →
+                      @SimpleGraph.IsNClique.{u_1} V H (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) f)
+                  (And
+                    (@Eq.{u_1 + 1} (SimpleGraph.{u_1} V) (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H F)
+                      (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T)))
+                    (And
+                      (@Eq.{1} Nat (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))
+                        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+                      (And
+                        (@Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+                        (And
+                          (@Eq.{1} Nat
+                            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                              (@Tuza.nu.{u_1} V
+                                (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H F)))
+                              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                            (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+                          (And
+                            (@Eq.{1} Nat
+                              (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                                (@Tuza.tau.{u_1} V
+                                  (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H F)))
+                                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+                            (And
+                              (∀ (f : Finset.{u_1} V),
+                                @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                                      (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                                    F f →
+                                  And
+                                    (@Eq.{1} Nat
+                                      (@Tuza.nu.{u_1} V
+                                        (@Tuza.triangles.{u_1} V inst inst_1
+                                          (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H
+                                            (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V)
+                                              (Finset.{u_1} (Finset.{u_1} V))
+                                              (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) f))))
+                                      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+                                    (@Eq.{1} Nat
+                                      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                                        (@Tuza.tau.{u_1} V
+                                          (@Tuza.triangles.{u_1} V inst inst_1
+                                            (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H
+                                              (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V)
+                                                (Finset.{u_1} (Finset.{u_1} V))
+                                                (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) f))))
+                                        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                                      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                                        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                                        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))))
+                              (∀ (P : Finset.{u_1} (Finset.{u_1} V)),
+                                @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H) P →
+                                  @Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) P)
+                                      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H)) →
+                                    Not
+                                      (@Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+                                        (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))
+                                        (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.support.{u_1} V inst_1 P)
+                                        F)))))))))
+def TuzaA1.CodegreeTarget.{u_1} : {V : Type u_1} → [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → Prop :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] =>
+  ∀ (G : SimpleGraph.{u_1} V),
+    @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G →
+      ∀ (e : Finset.{u_1} V),
+        @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e →
+          @Exists.{u_1 + 1} (Finset.{u_1} V) fun (T₁ : Finset.{u_1} V) =>
+            And
+              (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                (@Tuza.triangles.{u_1} V inst inst_1 G) T₁)
+              (@Exists.{u_1 + 1} (Finset.{u_1} V) fun (T₂ : Finset.{u_1} V) =>
+                And
+                  (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                      (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                    (@Tuza.triangles.{u_1} V inst inst_1 G) T₂)
+                  (And (@Ne.{u_1 + 1} (Finset.{u_1} V) T₁ T₂)
+                    (And
+                      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                        (@Tuza.edges.{u_1} V T₁) e)
+                      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                        (@Tuza.edges.{u_1} V T₂) e))))
+def Tuza.triangles.{u_1} : {V : Type u_1} →
+  [Fintype.{u_1} V] → [DecidableEq.{u_1 + 1} V] → (G : SimpleGraph.{u_1} V) → Finset.{u_1} (Finset.{u_1} V) :=
+fun {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V) =>
+  @SimpleGraph.cliqueFinset.{u_1} V G inst inst_1
+    (fun (a b : V) => Classical.propDecidable (@SimpleGraph.Adj.{u_1} V G a b))
+    (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+def Tuza.edges.{u_1} : {V : Type u_1} → (s : Finset.{u_1} V) → Finset.{u_1} (Finset.{u_1} V) :=
+fun {V : Type u_1} (s : Finset.{u_1} V) =>
+  @Finset.powersetCard.{u_1} V (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) s
+def Tuza.Packing.{u_1} : {V : Type u_1} → (F P : Finset.{u_1} (Finset.{u_1} V)) → Prop :=
+fun {V : Type u_1} (F P : Finset.{u_1} (Finset.{u_1} V)) =>
+  And
+    (@LE.le.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+      (@Preorder.toLE.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+        (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+          (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))))
+      P F)
+    (@Tuza.Independent.{u_1} V P)
+def Tuza.Independent.{u_1} : {V : Type u_1} → (P : Finset.{u_1} (Finset.{u_1} V)) → Prop :=
+fun {V : Type u_1} (P : Finset.{u_1} (Finset.{u_1} V)) =>
+  ∀ (s : Finset.{u_1} V),
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        P s →
+      ∀ (t : Finset.{u_1} V),
+        @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            P t →
+          @Ne.{u_1 + 1} (Finset.{u_1} V) s t →
+            @Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))
+              (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.edges.{u_1} V s) (@Tuza.edges.{u_1} V t)
+def Tuza.nu.{u_1} : {V : Type u_1} → (F : Finset.{u_1} (Finset.{u_1} V)) → Nat :=
+fun {V : Type u_1} (F : Finset.{u_1} (Finset.{u_1} V)) =>
+  @Finset.sup.{0, u_1} Nat (Finset.{u_1} (Finset.{u_1} V)) (@Lattice.toSemilatticeSup.{0} Nat Nat.instLattice)
+    Nat.instOrderBot
+    (@Finset.filter.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Tuza.Independent.{u_1} V)
+      (fun (a : Finset.{u_1} (Finset.{u_1} V)) => Classical.propDecidable (@Tuza.Independent.{u_1} V a))
+      (@Finset.powerset.{u_1} (Finset.{u_1} V) F))
+    (@Finset.card.{u_1} (Finset.{u_1} V))
+def Tuza.Covers.{u_1} : {V : Type u_1} → (F C : Finset.{u_1} (Finset.{u_1} V)) → Prop :=
+fun {V : Type u_1} (F C : Finset.{u_1} (Finset.{u_1} V)) =>
+  ∀ (t : Finset.{u_1} V),
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        F t →
+      @Exists.{u_1 + 1} (Finset.{u_1} V) fun (e : Finset.{u_1} V) =>
+        And
+          (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            C e)
+          (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            (@Tuza.edges.{u_1} V t) e)
+def Tuza.tau.{u_1} : {V : Type u_1} → (F : Finset.{u_1} (Finset.{u_1} V)) → Nat :=
+fun {V : Type u_1} (F : Finset.{u_1} (Finset.{u_1} V)) =>
+  @InfSet.sInf.{0} Nat Nat.instInfSet
+    (@Set.ofPred.{0} Nat fun (n : Nat) =>
+      @Exists.{u_1 + 1} (Finset.{u_1} (Finset.{u_1} V)) fun (C : Finset.{u_1} (Finset.{u_1} V)) =>
+        And (@Tuza.Covers.{u_1} V F C) (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) C) n))
+def Tuza06.removeEdgeFamily.{u_1} : {V : Type u_1} →
+  [DecidableEq.{u_1 + 1} V] → (G : SimpleGraph.{u_1} V) → (D : Finset.{u_1} (Finset.{u_1} V)) → SimpleGraph.{u_1} V :=
+fun {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V) (D : Finset.{u_1} (Finset.{u_1} V)) =>
+  @SimpleGraph.mk.{u_1} V
+    (fun (a b : V) =>
+      And (@SimpleGraph.Adj.{u_1} V G a b)
+        (Not
+          (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            D
+            (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst) a
+              (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) b)))))
+    (@Tuza06.removeEdgeFamily._proof_1.{u_1} V inst G D) (@Tuza06.removeEdgeFamily._proof_2.{u_1} V inst G D)
+@Tuza.graph_min_cover.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V),
+  @Exists.{u_1 + 1} (Finset.{u_1} (Finset.{u_1} V)) fun (C : Finset.{u_1} (Finset.{u_1} V)) =>
+    And (@Tuza.Covers.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) C)
+      (And
+        (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) C)
+          (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+        (∀ (e : Finset.{u_1} V),
+          @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+              C e →
+            @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e))
+@TuzaA1.edge_codegree_two.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G) {e : Finset.{u_1} V}
+  (he : @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e),
+  @Exists.{u_1 + 1} (Finset.{u_1} V) fun (T : Finset.{u_1} V) =>
+    And
+      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        (@Tuza.triangles.{u_1} V inst inst_1 G) T)
+      (@Exists.{u_1 + 1} (Finset.{u_1} V) fun (U : Finset.{u_1} V) =>
+        And
+          (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            (@Tuza.triangles.{u_1} V inst inst_1 G) U)
+          (And (@Ne.{u_1 + 1} (Finset.{u_1} V) T U)
+            (And
+              (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                (@Tuza.edges.{u_1} V T) e)
+              (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                (@Tuza.edges.{u_1} V U) e))))
+'TuzaA1.edge_codegree_two' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.proper_deletion_tuza.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G)
+  {S : Finset.{u_1} (Finset.{u_1} V)} (hne : @Finset.Nonempty.{u_1} (Finset.{u_1} V) S)
+  (hs :
+    ∀ (e : Finset.{u_1} V),
+      @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+            (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+          S e →
+        @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e),
+  @LE.le.{0} Nat instLENat
+    (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S)))
+    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S))))
+'TuzaA1.proper_deletion_tuza' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.edge_criticality.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G) {e : Finset.{u_1} V}
+  (he : @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e),
+  And
+    (@Eq.{1} Nat
+      (@Tuza.nu.{u_1} V
+        (@Tuza.triangles.{u_1} V inst inst_1
+          (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G
+            (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+              (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) e))))
+      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+    (And
+      (@Eq.{1} Nat
+        (@Tuza.tau.{u_1} V
+          (@Tuza.triangles.{u_1} V inst inst_1
+            (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G
+              (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) e))))
+        (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+          (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+      (@Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+            (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))))
+'TuzaA1.edge_criticality' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.edge_in_triangle.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G) {e : Finset.{u_1} V}
+  (he : @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e),
+  @Exists.{u_1 + 1} (Finset.{u_1} V) fun (T : Finset.{u_1} V) =>
+    And
+      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        (@Tuza.triangles.{u_1} V inst inst_1 G) T)
+      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        (@Tuza.edges.{u_1} V T) e)
+'TuzaA1.edge_in_triangle' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.minimal_has_triangle.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G),
+  @Finset.Nonempty.{u_1} (Finset.{u_1} V) (@Tuza.triangles.{u_1} V inst inst_1 G)
+'TuzaA1.minimal_has_triangle' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.minimal_tau.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G),
+  @Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+'TuzaA1.minimal_tau' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.resilience_arithmetic_iff : ∀ {k r s : Nat} (hr : @LE.le.{0} Nat instLENat r k)
+  (hs : @LT.lt.{0} Nat instLTNat (@OfNat.ofNat.{0} Nat (nat_lit 0) (instOfNatNat (nat_lit 0))) s),
+  Iff
+    (@LE.le.{0} Nat instLENat (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) k r)
+      (@HDiv.hDiv.{0, 0, 0} Nat Nat Nat (@instHDiv.{0} Nat Nat.instDiv)
+        (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) s
+          (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+    (@LE.le.{0} Nat instLENat
+      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+        (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) k)
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+        (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) r)
+        s))
+'TuzaA1.resilience_arithmetic_iff' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.deletion_resilience_linear.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G)
+  {S : Finset.{u_1} (Finset.{u_1} V)} (hne : @Finset.Nonempty.{u_1} (Finset.{u_1} V) S)
+  (hs :
+    ∀ (e : Finset.{u_1} V),
+      @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+            (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+          S e →
+        @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e),
+  @LE.le.{0} Nat instLENat
+    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S))))
+      (@Finset.card.{u_1} (Finset.{u_1} V) S))
+'TuzaA1.deletion_resilience_linear' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.deletion_resilience.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G)
+  {S : Finset.{u_1} (Finset.{u_1} V)} (hne : @Finset.Nonempty.{u_1} (Finset.{u_1} V) S)
+  (hs :
+    ∀ (e : Finset.{u_1} V),
+      @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+            (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+          S e →
+        @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e),
+  @LE.le.{0} Nat instLENat
+    (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S))))
+    (@HDiv.hDiv.{0, 0, 0} Nat Nat Nat (@instHDiv.{0} Nat Nat.instDiv)
+      (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat) (@Finset.card.{u_1} (Finset.{u_1} V) S)
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+'TuzaA1.deletion_resilience' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.small_deletion_nu.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G)
+  {S : Finset.{u_1} (Finset.{u_1} V)}
+  (hcard :
+    @LE.le.{0} Nat instLENat (@Finset.card.{u_1} (Finset.{u_1} V) S)
+      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+  (hs :
+    ∀ (e : Finset.{u_1} V),
+      @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+            (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+          S e →
+        @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e),
+  @Eq.{1} Nat (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S)))
+    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+'TuzaA1.small_deletion_nu' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.removeEdgeFamily_le.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V) (D : Finset.{u_1} (Finset.{u_1} V)),
+  @LE.le.{u_1} (SimpleGraph.{u_1} V) (@SimpleGraph.instLE.{u_1} V) (@Tuza06.removeEdgeFamily.{u_1} V inst G D) G
+'Tuza06.removeEdgeFamily_le' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.removeEdgeFamily_lost.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {D : Finset.{u_1} (Finset.{u_1} V)} {t : Finset.{u_1} V}
+  (ht :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) t)
+  (hnot :
+    Not
+      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G D)) t)),
+  @Exists.{u_1 + 1} (Finset.{u_1} V) fun (e : Finset.{u_1} V) =>
+    And
+      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        D e)
+      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        (@Tuza.edges.{u_1} V t) e)
+'Tuza06.removeEdgeFamily_lost' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@Tuza06.removeEdgeFamily_surviving.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {D : Finset.{u_1} (Finset.{u_1} V)} {t e : Finset.{u_1} V}
+  (ht :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G D)) t)
+  (he :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.edges.{u_1} V t) e),
+  Not
+    (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      D e)
+'Tuza06.removeEdgeFamily_surviving' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.remove_empty.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V),
+  @Eq.{u_1 + 1} (SimpleGraph.{u_1} V)
+    (@Tuza06.removeEdgeFamily.{u_1} V inst G
+      (@EmptyCollection.emptyCollection.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+        (@Finset.instEmptyCollection.{u_1} (Finset.{u_1} V))))
+    G
+'TuzaA1.remove_empty' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.remove_union.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V) (S D : Finset.{u_1} (Finset.{u_1} V)),
+  @Eq.{u_1 + 1} (SimpleGraph.{u_1} V)
+    (@Tuza06.removeEdgeFamily.{u_1} V inst (@Tuza06.removeEdgeFamily.{u_1} V inst G S) D)
+    (@Tuza06.removeEdgeFamily.{u_1} V inst G
+      (@Union.union.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+        (@Finset.instUnion.{u_1} (Finset.{u_1} V) fun (a b : Finset.{u_1} V) => @Finset.decidableEq.{u_1} V inst a b) S
+        D))
+'TuzaA1.remove_union' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.remove_edges_eq_deleteTriangle.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V) (T : Finset.{u_1} V),
+  @Eq.{u_1 + 1} (SimpleGraph.{u_1} V) (@Tuza06.removeEdgeFamily.{u_1} V inst G (@Tuza.edges.{u_1} V T))
+    (@Tuza.deleteTriangle.{u_1} V G T)
+'TuzaA1.remove_edges_eq_deleteTriangle' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.mem_triangles_remove.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {S : Finset.{u_1} (Finset.{u_1} V)} {T : Finset.{u_1} V},
+  Iff
+    (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S)) T)
+    (And
+      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        (@Tuza.triangles.{u_1} V inst inst_1 G) T)
+      (@Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))
+        (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.edges.{u_1} V T) S))
+'TuzaA1.mem_triangles_remove' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.actual_edge_of_triangle.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {T e : Finset.{u_1} V}
+  (ht :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) T)
+  (he :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.edges.{u_1} V T) e),
+  @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e
+'TuzaA1.actual_edge_of_triangle' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.actual_edge_remove.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {S : Finset.{u_1} (Finset.{u_1} V)} {e : Finset.{u_1} V}
+  (he : @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e)
+  (hn :
+    Not
+      (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+        S e)),
+  @SimpleGraph.IsNClique.{u_1} V (@Tuza06.removeEdgeFamily.{u_1} V inst G S)
+    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e
+'TuzaA1.actual_edge_remove' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.remove_strict.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {S : Finset.{u_1} (Finset.{u_1} V)} {e : Finset.{u_1} V}
+  (he : @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e)
+  (heS :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      S e),
+  @LT.lt.{u_1} (SimpleGraph.{u_1} V)
+    (@Preorder.toLT.{u_1} (SimpleGraph.{u_1} V)
+      (@PartialOrder.toPreorder.{u_1} (SimpleGraph.{u_1} V) (@SimpleGraph.instPartialOrder.{u_1} V)))
+    (@Tuza06.removeEdgeFamily.{u_1} V inst G S) G
+'TuzaA1.remove_strict' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.graph_cover_extension.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {S : Finset.{u_1} (Finset.{u_1} V)}
+  (hs :
+    ∀ (e : Finset.{u_1} V),
+      @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+            (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+          S e →
+        @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e),
+  @Exists.{u_1 + 1} (Finset.{u_1} (Finset.{u_1} V)) fun (C : Finset.{u_1} (Finset.{u_1} V)) =>
+    And (@Tuza.Covers.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) C)
+      (And
+        (∀ (e : Finset.{u_1} V),
+          @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+              C e →
+            @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e)
+        (@LE.le.{0} Nat instLENat (@Finset.card.{u_1} (Finset.{u_1} V) C)
+          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+            (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S)))
+            (@Finset.card.{u_1} (Finset.{u_1} V) S))))
+'TuzaA1.graph_cover_extension' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.tau_le_remove_add.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V) (S : Finset.{u_1} (Finset.{u_1} V)),
+  @LE.le.{0} Nat instLENat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+      (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S)))
+      (@Finset.card.{u_1} (Finset.{u_1} V) S))
+'TuzaA1.tau_le_remove_add' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.nu_remove_le.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V) (S : Finset.{u_1} (Finset.{u_1} V)),
+  @LE.le.{0} Nat instLENat
+    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S)))
+    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+'TuzaA1.nu_remove_le' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.edges_triangle_card.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [DecidableEq.{u_1 + 1} V] {T : Finset.{u_1} V}
+  (ht : @Eq.{1} Nat (@Finset.card.{u_1} V T) (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))),
+  @Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) (@Tuza.edges.{u_1} V T))
+    (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3)))
+'TuzaA1.edges_triangle_card' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.packing_support_card.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {P : Finset.{u_1} (Finset.{u_1} V)}
+  (hp : @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) P),
+  @Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) (@Tuza.support.{u_1} V inst_1 P))
+    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+      (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) (@Finset.card.{u_1} (Finset.{u_1} V) P))
+'TuzaA1.packing_support_card' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.append_residual.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {P Q : Finset.{u_1} (Finset.{u_1} V)}
+  (hp : @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) P)
+  (hq :
+    @Tuza.Packing.{u_1} V
+      (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.support.{u_1} V inst_1 P)))
+      Q),
+  And
+    (@Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)
+      (@Union.union.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+        (@Finset.instUnion.{u_1} (Finset.{u_1} V) fun (a b : Finset.{u_1} V) => @Finset.decidableEq.{u_1} V inst_1 a b)
+        P Q))
+    (@Eq.{1} Nat
+      (@Finset.card.{u_1} (Finset.{u_1} V)
+        (@Union.union.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+          (@Finset.instUnion.{u_1} (Finset.{u_1} V) fun (a b : Finset.{u_1} V) =>
+            @Finset.decidableEq.{u_1} V inst_1 a b)
+          P Q))
+      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) (@Finset.card.{u_1} (Finset.{u_1} V) P)
+        (@Finset.card.{u_1} (Finset.{u_1} V) Q)))
+'TuzaA1.append_residual' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.packing_residual_bound.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {P : Finset.{u_1} (Finset.{u_1} V)}
+  (hp : @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) P),
+  @LE.le.{0} Nat instLENat
+    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+      (@Tuza.nu.{u_1} V
+        (@Tuza.triangles.{u_1} V inst inst_1
+          (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.support.{u_1} V inst_1 P))))
+      (@Finset.card.{u_1} (Finset.{u_1} V) P))
+    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+'TuzaA1.packing_residual_bound' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.support_actual.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {P : Finset.{u_1} (Finset.{u_1} V)}
+  (hp : @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) P) (e : Finset.{u_1} V),
+  @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.support.{u_1} V inst_1 P) e →
+    @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e
+'TuzaA1.support_actual' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.small_packing_extension.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G)
+  {P : Finset.{u_1} (Finset.{u_1} V)} (hp : @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) P)
+  (hcard :
+    Or
+      (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) P)
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+      (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) P)
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))),
+  And
+    (@Eq.{1} Nat
+      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+        (@Tuza.nu.{u_1} V
+          (@Tuza.triangles.{u_1} V inst inst_1
+            (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.support.{u_1} V inst_1 P))))
+        (@Finset.card.{u_1} (Finset.{u_1} V) P))
+      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+    (@Exists.{u_1 + 1} (Finset.{u_1} (Finset.{u_1} V)) fun (Q : Finset.{u_1} (Finset.{u_1} V)) =>
+      And (@Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) Q)
+        (And
+          (@LE.le.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+            (@Preorder.toLE.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+              (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+                (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))))
+            P Q)
+          (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) Q)
+            (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))))
+'TuzaA1.small_packing_extension' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.one_triangle_residual.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G) {T : Finset.{u_1} V}
+  (ht :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) T),
+  And
+    (@Eq.{1} Nat
+      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+        (@Tuza.nu.{u_1} V
+          (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T))))
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+    (@Eq.{1} Nat
+      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+        (@Tuza.tau.{u_1} V
+          (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T))))
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+'TuzaA1.one_triangle_residual' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.edge_disjoint_triangles_ne.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {T U : Finset.{u_1} V}
+  (ht :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) T)
+  (hd :
+    @Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))
+      (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.edges.{u_1} V T) (@Tuza.edges.{u_1} V U)),
+  @Ne.{u_1 + 1} (Finset.{u_1} V) T U
+'TuzaA1.edge_disjoint_triangles_ne' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.packing_pair.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {T U : Finset.{u_1} V}
+  (ht :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) T)
+  (hu :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) U)
+  (hd :
+    @Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))
+      (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.edges.{u_1} V T) (@Tuza.edges.{u_1} V U)),
+  @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)
+    (@Insert.insert.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@Finset.instInsert.{u_1} (Finset.{u_1} V) fun (a b : Finset.{u_1} V) => @Finset.decidableEq.{u_1} V inst_1 a b) T
+      (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) U))
+'TuzaA1.packing_pair' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.two_triangles_residual.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G) {T U : Finset.{u_1} V}
+  (ht :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) T)
+  (hu :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) U)
+  (hd :
+    @Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))
+      (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.edges.{u_1} V T) (@Tuza.edges.{u_1} V U)),
+  have R : SimpleGraph.{u_1} V :=
+    @Tuza06.removeEdgeFamily.{u_1} V inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T))
+      (@Tuza.edges.{u_1} V U);
+  And
+    (@Eq.{1} Nat
+      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 R))
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+    (Or
+      (@Eq.{1} Nat
+        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+          (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 R))
+          (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5))))
+        (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+          (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+      (@Eq.{1} Nat
+        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+          (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 R))
+          (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))
+        (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+          (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))))
+'TuzaA1.two_triangles_residual' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.one_triangle_subtraction.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G) {T : Finset.{u_1} V}
+  (ht :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) T),
+  And
+    (@Eq.{1} Nat
+      (@Tuza.nu.{u_1} V
+        (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T))))
+      (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))
+        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))
+    (@Eq.{1} Nat
+      (@Tuza.tau.{u_1} V
+        (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T))))
+      (@HSub.hSub.{0, 0, 0} Nat Nat Nat (@instHSub.{0} Nat instSubNat)
+        (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+          (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))))
+'TuzaA1.one_triangle_subtraction' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.a11_verified.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V],
+  @TuzaA1.EdgeCriticalityTarget.{u_1} V inst inst_1
+'TuzaA1.a11_verified' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.a12_verified.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V],
+  @TuzaA1.ResilienceTarget.{u_1} V inst inst_1
+'TuzaA1.a12_verified' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.a12_small_verified.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V],
+  @TuzaA1.SmallDeletionTarget.{u_1} V inst inst_1
+'TuzaA1.a12_small_verified' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.a13_extension_verified.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V],
+  @TuzaA1.PackingExtensionTarget.{u_1} V inst inst_1
+'TuzaA1.a13_extension_verified' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.a13_one_verified.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V],
+  @TuzaA1.OneTriangleTarget.{u_1} V inst inst_1
+'TuzaA1.a13_one_verified' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.a13_two_verified.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V],
+  @TuzaA1.TwoTrianglesTarget.{u_1} V inst inst_1
+'TuzaA1.a13_two_verified' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.a14_verified.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V],
+  @TuzaA1.WedgeTarget.{u_1} V inst inst_1
+'TuzaA1.a14_verified' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.a15_verified.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V],
+  @TuzaA1.CodegreeTarget.{u_1} V inst inst_1
+'TuzaA1.a15_verified' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.packing_avoiding_survives.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} {P S : Finset.{u_1} (Finset.{u_1} V)}
+  (hp : @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) P)
+  (hd :
+    @Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))
+      (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.support.{u_1} V inst_1 P) S),
+  @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G S)) P
+'TuzaA1.packing_avoiding_survives' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.wedge.{u_1} : ∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V]
+  {G : SimpleGraph.{u_1} V} (hG : @TuzaA1.EdgeMinimalTuzaCounterexample.{u_1} V inst inst_1 G) {T e : Finset.{u_1} V}
+  (ht :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.triangles.{u_1} V inst inst_1 G) T)
+  (he :
+    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+      (@Tuza.edges.{u_1} V T) e),
+  have H : SimpleGraph.{u_1} V :=
+    @Tuza06.removeEdgeFamily.{u_1} V inst_1 G
+      (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) e);
+  have F : Finset.{u_1} (Finset.{u_1} V) :=
+    @Finset.erase.{u_1} (Finset.{u_1} V) (fun (a b : Finset.{u_1} V) => @Finset.decidableEq.{u_1} V inst_1 a b)
+      (@Tuza.edges.{u_1} V T) e;
+  And
+    (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) F) (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+    (And
+      (∀ (f : Finset.{u_1} V),
+        @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+            (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+              (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+            F f →
+          @SimpleGraph.IsNClique.{u_1} V H (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) f)
+      (And
+        (@Eq.{u_1 + 1} (SimpleGraph.{u_1} V) (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H F)
+          (@Tuza06.removeEdgeFamily.{u_1} V inst_1 G (@Tuza.edges.{u_1} V T)))
+        (And
+          (@Eq.{1} Nat (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))
+            (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+          (And
+            (@Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))
+              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+            (And
+              (@Eq.{1} Nat
+                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                  (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H F)))
+                  (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+              (And
+                (@Eq.{1} Nat
+                  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                    (@Tuza.tau.{u_1} V
+                      (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H F)))
+                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))
+                  (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))
+                (And
+                  (∀ (f : Finset.{u_1} V),
+                    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)
+                          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))
+                        F f →
+                      And
+                        (@Eq.{1} Nat
+                          (@Tuza.nu.{u_1} V
+                            (@Tuza.triangles.{u_1} V inst inst_1
+                              (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H
+                                (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                                  (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) f))))
+                          (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))
+                        (@Eq.{1} Nat
+                          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)
+                            (@Tuza.tau.{u_1} V
+                              (@Tuza.triangles.{u_1} V inst inst_1
+                                (@Tuza06.removeEdgeFamily.{u_1} V inst_1 H
+                                  (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+                                    (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) f))))
+                            (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))
+                          (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)
+                            (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))
+                            (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))))
+                  (∀ (P : Finset.{u_1} (Finset.{u_1} V)),
+                    @Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H) P →
+                      @Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) P)
+                          (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H)) →
+                        Not
+                          (@Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V))
+                            (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))
+                            (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.support.{u_1} V inst_1 P) F)))))))))
+'TuzaA1.wedge' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.removed_pair_not_adj.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V]
+  (G : SimpleGraph.{u_1} V) (u v : V),
+  Not
+    (@SimpleGraph.Adj.{u_1} V
+      (@Tuza06.removeEdgeFamily.{u_1} V inst G
+        (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+          (@Finset.instSingleton.{u_1} (Finset.{u_1} V))
+          (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst) u
+            (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) v))))
+      u v)
+'TuzaA1.removed_pair_not_adj' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
+@TuzaA1.labelled_spokes.{u_1} : ∀ {V : Type u_1} [Fintype.{u_1} V] [inst : DecidableEq.{u_1 + 1} V] {u v w : V}
+  (huv : @Ne.{u_1 + 1} V u v) (huw : @Ne.{u_1 + 1} V u w) (hvw : @Ne.{u_1 + 1} V v w),
+  @Eq.{u_1 + 1} (Finset.{u_1} (Finset.{u_1} V))
+    (@Finset.erase.{u_1} (Finset.{u_1} V) (fun (a b : Finset.{u_1} V) => @Finset.decidableEq.{u_1} V inst a b)
+      (@Tuza.edges.{u_1} V
+        (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst) u
+          (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst) v
+            (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) w))))
+      (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst) u
+        (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) v)))
+    (@Insert.insert.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+      (@Finset.instInsert.{u_1} (Finset.{u_1} V) fun (a b : Finset.{u_1} V) => @Finset.decidableEq.{u_1} V inst a b)
+      (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst) u
+        (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) w))
+      (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))
+        (@Finset.instSingleton.{u_1} (Finset.{u_1} V))
+        (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst) v
+          (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) w))))
+'TuzaA1.labelled_spokes' depends on axioms: [propext, Classical.choice.{u}, Quot.sound.{u}]
