@@ -1,0 +1,3 @@
+Tuza08/Covers.lean:159:4: warning: Try `simp at hyv` instead of `simpa using hyv`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`

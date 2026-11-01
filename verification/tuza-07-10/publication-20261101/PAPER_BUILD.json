@@ -1,0 +1,11 @@
+{
+  "status": "COMPILED",
+  "manuscript_sha256": "5acf01b9ede51b426d55e4ad14e77d94ff86df43262784bc1439aeb37dc06a28",
+  "bib_sha256": "c754ce115ea7615b5200cc45c6792c3c0c5893f6a708a53f1109948023e377ab",
+  "tex_sha256": "39f54131dd34e94c39a69514f57d426a96d494f4a50f5fa2d36ef61bd478676f",
+  "markdown_sha256": "90eea744706b9d41de66cd5617d5f7086cbd2cd737223d1af44dc8e917c13336",
+  "pdf_sha256": "9495bd36be77c4408b71b107d2619a72ce3f75dd263df3c6105a75e8a844f25b",
+  "pandoc": "pandoc 3.13",
+  "tectonic": "Tectonic 0.17.0",
+  "parity": "Both text outputs derived from the same manuscript and citation database; visual/text checks recorded separately."
+}

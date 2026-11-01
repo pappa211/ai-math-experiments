@@ -1,0 +1,24 @@
+Tuza07/Basic.lean:38:0: warning: automatically included section variable(s) unused in theorem `Tuza07.support_mono`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Tuza07/Basic.lean:46:11: warning: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Tuza07/Basic.lean:48:0: warning: automatically included section variable(s) unused in theorem `Tuza07.supported_intersecting_cover`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Tuza07/Basic.lean:54:0: warning: automatically included section variable(s) unused in theorem `Tuza07.singleton_footprint_star`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

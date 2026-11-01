@@ -1,0 +1,37 @@
+{
+  "entry": "Tuza07",
+  "audit": "Tuza07.Audit",
+  "modules": [
+    "Tuza.Basic",
+    "Tuza.Graph",
+    "Tuza06.Statement",
+    "Tuza06.Transport",
+    "Tuza06.FiniteCliques",
+    "Tuza06.Pages",
+    "Tuza06.Reduction",
+    "Tuza06.Additivity",
+    "Tuza06.BlockAggregation",
+    "Tuza06.Components",
+    "Tuza07.Targets",
+    "Tuza06.Footprints",
+    "Tuza.Intersecting",
+    "Tuza.IntersectingStructure",
+    "Tuza07.Basic",
+    "Tuza07.Local",
+    "Tuza07.Completion",
+    "Tuza06.ExternalPageGeometry",
+    "Tuza07.RigidityCore",
+    "Tuza07.RigidityIntersecting",
+    "Tuza07.RigidityPair",
+    "Tuza07.Configurations",
+    "Tuza07.Main",
+    "Tuza07",
+    "Tuza07.Audit"
+  ],
+  "source_identity": "Mathematical Lean sources and pin files copied byte for byte. Build with the explicit verifier; lakefile default target is historical.",
+  "axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

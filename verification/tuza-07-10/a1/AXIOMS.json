@@ -1,0 +1,370 @@
+[
+  {
+    "declaration": "TuzaA1.edge_codegree_two",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.proper_deletion_tuza",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.edge_criticality",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.edge_in_triangle",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.minimal_has_triangle",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.minimal_tau",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.resilience_arithmetic_iff",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.deletion_resilience_linear",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.deletion_resilience",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.small_deletion_nu",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza06.removeEdgeFamily_le",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza06.removeEdgeFamily_lost",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza06.removeEdgeFamily_surviving",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.remove_empty",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.remove_union",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.remove_edges_eq_deleteTriangle",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.mem_triangles_remove",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.actual_edge_of_triangle",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.actual_edge_remove",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.remove_strict",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.graph_cover_extension",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.tau_le_remove_add",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.nu_remove_le",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.edges_triangle_card",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.packing_support_card",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.append_residual",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.packing_residual_bound",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.support_actual",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.small_packing_extension",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.one_triangle_residual",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.edge_disjoint_triangles_ne",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.packing_pair",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.two_triangles_residual",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.one_triangle_subtraction",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.a11_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.a12_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.a12_small_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.a13_extension_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.a13_one_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.a13_two_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.a14_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.a15_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.packing_avoiding_survives",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.wedge",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.removed_pair_not_adj",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "TuzaA1.labelled_spokes",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+]

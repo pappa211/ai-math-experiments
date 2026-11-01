@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" default-locale="en-US">
+  <info><title>AI Math Experiments numeric references</title><id>https://github.com/pappa211/ai-math-experiments</id><updated>2026-11-01T00:00:00+00:00</updated></info>
+  <citation collapse="citation-number"><sort><key variable="citation-number"/></sort><layout prefix="[" suffix="]" delimiter=", "><text variable="citation-number"/></layout></citation>
+  <bibliography entry-spacing="1"><layout>
+    <text variable="citation-number" suffix=". "/>
+    <names variable="author"><name initialize-with=". " and="text" delimiter=", "/></names>
+    <text variable="title" prefix=". " suffix=". "/>
+    <text variable="container-title" font-style="italic" suffix=" "/>
+    <text variable="volume"/><text variable="issue" prefix="(" suffix=")"/>
+    <date variable="issued" prefix=" (" suffix=")"><date-part name="year"/></date>
+    <text variable="page" prefix=", "/><text variable="DOI" prefix=". DOI: "/>
+    <text variable="URL" prefix=". "/><text variable="note" prefix=". "/>
+  </layout></bibliography>
+</style>

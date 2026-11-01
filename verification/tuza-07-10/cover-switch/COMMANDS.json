@@ -1,0 +1,301 @@
+[
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "--version"
+    ],
+    "exit": 0,
+    "seconds": 0.238,
+    "log": "compiler-version.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza/Basic.olean",
+      "Tuza/Basic.lean"
+    ],
+    "exit": 0,
+    "seconds": 4.344,
+    "log": "build-Tuza.Basic.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza/Graph.olean",
+      "Tuza/Graph.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.958,
+    "log": "build-Tuza.Graph.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/TuzaA1/Deletion.olean",
+      "TuzaA1/Deletion.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.848,
+    "log": "build-TuzaA1.Deletion.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza08/Targets.olean",
+      "Tuza08/Targets.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.063,
+    "log": "build-Tuza08.Targets.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza08/Geometry.olean",
+      "Tuza08/Geometry.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.489,
+    "log": "build-Tuza08.Geometry.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza08/Basic.olean",
+      "Tuza08/Basic.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.497,
+    "log": "build-Tuza08.Basic.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza08/Covers.olean",
+      "Tuza08/Covers.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.224,
+    "log": "build-Tuza08.Covers.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza08/Counting.olean",
+      "Tuza08/Counting.lean"
+    ],
+    "exit": 0,
+    "seconds": 1.063,
+    "log": "build-Tuza08.Counting.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza08/Main.olean",
+      "Tuza08/Main.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.957,
+    "log": "build-Tuza08.Main.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza08.olean",
+      "Tuza08.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.847,
+    "log": "build-Tuza08.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-DautoImplicit=false",
+      "-j1",
+      "-M2200",
+      "-o",
+      "PROJECT/.lake/build/lib/lean/Tuza08/ClosureAudit.olean",
+      "Tuza08/ClosureAudit.lean"
+    ],
+    "exit": 0,
+    "seconds": 3.953,
+    "log": "build-Tuza08.ClosureAudit.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-j1",
+      "-M2200",
+      "ReleaseAudit.lean"
+    ],
+    "exit": 0,
+    "seconds": 3.531,
+    "log": "literal-types-and-axioms.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "ReplayExactNative.olean",
+      "-c",
+      "ReplayExactNative.c",
+      "ReplayExactNative.lean"
+    ],
+    "exit": 0,
+    "seconds": 0.297,
+    "log": "replay-driver-C.log"
+  },
+  {
+    "command": [
+      "LEAN_SYSROOT/bin/leanc",
+      "-o",
+      "replay-exact",
+      "ReplayExactNative.c"
+    ],
+    "exit": 0,
+    "seconds": 1.275,
+    "log": "replay-driver-native.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza.Basic"
+    ],
+    "exit": 0,
+    "seconds": 1.32,
+    "log": "replay-Tuza.Basic.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza.Graph"
+    ],
+    "exit": 0,
+    "seconds": 0.519,
+    "log": "replay-Tuza.Graph.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "TuzaA1.Deletion"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-TuzaA1.Deletion.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza08.Targets"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza08.Targets.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza08.Geometry"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza08.Geometry.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza08.Basic"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza08.Basic.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza08.Covers"
+    ],
+    "exit": 0,
+    "seconds": 0.517,
+    "log": "replay-Tuza08.Covers.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza08.Counting"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza08.Counting.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza08.Main"
+    ],
+    "exit": 0,
+    "seconds": 0.512,
+    "log": "replay-Tuza08.Main.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza08"
+    ],
+    "exit": 0,
+    "seconds": 0.518,
+    "log": "replay-Tuza08.log"
+  },
+  {
+    "command": [
+      "PROJECT/replay-exact",
+      "Tuza08.ClosureAudit"
+    ],
+    "exit": 0,
+    "seconds": 0.463,
+    "log": "replay-Tuza08.ClosureAudit.log"
+  }
+]

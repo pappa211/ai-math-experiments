@@ -1,0 +1,62 @@
+[
+  {
+    "module": "Tuza.Basic",
+    "source": "Tuza/Basic.lean",
+    "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc"
+  },
+  {
+    "module": "Tuza.Graph",
+    "source": "Tuza/Graph.lean",
+    "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a"
+  },
+  {
+    "module": "TuzaA1.Deletion",
+    "source": "TuzaA1/Deletion.lean",
+    "sha256": "f3a7637a551f6a9d0a9e6c26ea3f6a6b5088c286f37cacdd8086095555af719f"
+  },
+  {
+    "module": "TuzaA1.Targets",
+    "source": "TuzaA1/Targets.lean",
+    "sha256": "a64d4e53e457e7269e19e88de2d28fa8b3569939a84432df838983525b39d506"
+  },
+  {
+    "module": "TuzaA1.Elementary",
+    "source": "TuzaA1/Elementary.lean",
+    "sha256": "b70a4218a872df55fba6bd4c54ccf6b1df3b0c755241458a8c153a75ae9f4868"
+  },
+  {
+    "module": "TuzaA1.Criticality",
+    "source": "TuzaA1/Criticality.lean",
+    "sha256": "513136593d39839a0a443a1a24b5929026910178da63eed67d7b8f56e4f7f8c3"
+  },
+  {
+    "module": "TuzaA1.Extension",
+    "source": "TuzaA1/Extension.lean",
+    "sha256": "cc816e5d9e62404e0ef302d7afb7f6e1d9fb05bf0cddd0dcbf0f1eceeca5c605"
+  },
+  {
+    "module": "TuzaA1.Wedge",
+    "source": "TuzaA1/Wedge.lean",
+    "sha256": "666e5fb84dc09cb199682be37294946414dd13437cabc989d7174355160afed2"
+  },
+  {
+    "module": "TuzaA1.Codegree",
+    "source": "TuzaA1/Codegree.lean",
+    "sha256": "e2d8e93c42eb9df1614427f963351e1bd1c1bd3e1e78814ca0d8ae69d9ce42b1"
+  },
+  {
+    "module": "TuzaA1.Main",
+    "source": "TuzaA1/Main.lean",
+    "sha256": "5ff86d3f12addb7f621dd0cc440612e8ea53bb2ffbc9fb785333f90a27000546"
+  },
+  {
+    "module": "TuzaA1",
+    "source": "TuzaA1.lean",
+    "sha256": "95d039c994b40d7a7f0842d41b2ff66c24a44f43b38b33b4e8c2caee9462efef"
+  },
+  {
+    "module": "TuzaA1.Audit",
+    "source": "TuzaA1/Audit.lean",
+    "sha256": "8859c1be177a11948c7c0bc0c94dfe8f55f3ffeeacae8b41f6d823f97964b194"
+  }
+]

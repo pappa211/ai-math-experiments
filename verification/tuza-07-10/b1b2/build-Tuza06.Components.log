@@ -1,0 +1,17 @@
+@Tuza06.component_eq_cliqueFamily_of_support : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V]
+  {G : SimpleGraph V} {t k : Finset V},
+  Tuza.support (Tuza06.triangleComponent G t) = Tuza.edges k → Tuza06.triangleComponent G t = Tuza06.cliqueFamily k
+@Tuza06.componentCliques_decomposition : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V]
+  {G : SimpleGraph V}, Tuza06.ComponentCliques G → ∃ K, Tuza06.CliqueDecomposition G K
+@Tuza06.decomposition_component_eq : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V}
+  {K : Finset (Finset V)},
+  Tuza06.CliqueDecomposition G K →
+    ∀ {k s : Finset V}, k ∈ K → s ∈ Tuza06.cliqueFamily k → Tuza06.triangleComponent G s = Tuza06.cliqueFamily k
+@Tuza06.decomposition_componentCliques : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V]
+  {G : SimpleGraph V} {K : Finset (Finset V)}, Tuza06.CliqueDecomposition G K → Tuza06.ComponentCliques G
+@Tuza06.componentCliques_iff_decomposition : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V]
+  {G : SimpleGraph V}, Tuza06.ComponentCliques G ↔ ∃ K, Tuza06.CliqueDecomposition G K
+@Tuza06.componentCliques_equality : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V},
+  Tuza06.ComponentCliques G → Tuza.tau (Tuza.triangles G) = 2 * Tuza.nu (Tuza.triangles G)
+'Tuza06.componentCliques_iff_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza06.componentCliques_equality' depends on axioms: [propext, Classical.choice, Quot.sound]

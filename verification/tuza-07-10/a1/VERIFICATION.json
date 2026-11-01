@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "finished_utc": "2026-11-01T15:35:15.493990+00:00",
+  "compiler": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "dependency_pins": [
+    {
+      "package": "mathlib",
+      "revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "tracked_clean": true
+    },
+    {
+      "package": "plausible",
+      "revision": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+      "tracked_clean": true
+    },
+    {
+      "package": "LeanSearchClient",
+      "revision": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+      "tracked_clean": true
+    },
+    {
+      "package": "importGraph",
+      "revision": "16f02aa7642864af59f1ff0e384a015994db9118",
+      "tracked_clean": true
+    },
+    {
+      "package": "proofwidgets",
+      "revision": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+      "tracked_clean": true
+    },
+    {
+      "package": "aesop",
+      "revision": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+      "tracked_clean": true
+    },
+    {
+      "package": "Qq",
+      "revision": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+      "tracked_clean": true
+    },
+    {
+      "package": "batteries",
+      "revision": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+      "tracked_clean": true
+    },
+    {
+      "package": "Cli",
+      "revision": "6130a47896ce867c6a4a55373441e59e565bad0f",
+      "tracked_clean": true
+    }
+  ],
+  "module_count": 12,
+  "audited_declarations": 46,
+  "standard_kernel_replays": 12,
+  "objects_stable": true,
+  "source_stable": true,
+  "compiled_dependencies_reused": true,
+  "cold_mathlib_or_compiler_build": false,
+  "independent_kernel": false,
+  "replay_driver_sha256": "ce0557b2a5b40158a22bb3823c80fe99ba85f511b8878574f46a23c0cb3f682e",
+  "axiom_allowlist": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

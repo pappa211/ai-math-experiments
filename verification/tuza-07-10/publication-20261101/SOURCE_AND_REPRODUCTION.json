@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "accepted_candidate_commit": "f4f7f27683b1a89d7282633783524776f9f80d41",
+  "public_main_baseline": "b7b0e4fa66bd3effa64f0905eb497818f264b25c",
+  "copied_source_entries_unchanged": 84,
+  "status_ledger_declaration_index_bibliography_verifiers_unchanged": true,
+  "manuscript_mathematics_unchanged": "Only the explicitly approved publication-status line changed in the canonical manuscript.",
+  "prior_public_problem_and_paper_files_unchanged": 1375,
+  "lean_evidence": [
+    {
+      "project": "problems/TUZA-07/b1b2",
+      "modules": 25,
+      "declaration_audits": 67,
+      "replays": 25,
+      "commands_reconciled": 54,
+      "source_and_receipts_match_accepted_candidate": true,
+      "evidence_reused_without_new_lean_run": true
+    },
+    {
+      "project": "problems/TUZA-07/a1",
+      "modules": 12,
+      "declaration_audits": 46,
+      "replays": 12,
+      "commands_reconciled": 28,
+      "source_and_receipts_match_accepted_candidate": true,
+      "evidence_reused_without_new_lean_run": true
+    },
+    {
+      "project": "problems/TUZA-08",
+      "modules": 11,
+      "declaration_audits": 192,
+      "replays": 11,
+      "commands_reconciled": 26,
+      "source_and_receipts_match_accepted_candidate": true,
+      "evidence_reused_without_new_lean_run": true
+    }
+  ],
+  "total_modules": 48,
+  "total_declaration_audits": 305,
+  "total_standard_kernel_replays": 48,
+  "new_lean_runs_in_publication_mission": 0,
+  "cold_mathlib_compiler_build": false,
+  "independent_kernel": false
+}

@@ -1,0 +1,538 @@
+[
+  {
+    "declaration": "Tuza07.mem_newTriangles",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.triangles_eq_union_new",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.no_new_triangles_optima",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.new_triangle_not_subset_block",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.new_triangle_block_overlap",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.support_mono",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.supported_cover_graph",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.supported_intersecting_cover",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.singleton_footprint_star",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.blocks_avoid_new_triangle",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.append_packing",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.new_triangle_gain_witness",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.new_triangle_gain",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.block_edges_supported",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.selected_block_cover",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.selected_triangle_completion",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.unsupported_completion",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b1_constructive",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b1_scalar",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b1_strict",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.clique_of_family",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.newK4_decomposition",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.newK4_component_identities",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.newK4_consequences",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.component_block_mem",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.promoted_clique_subset",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.promoted_cross_disjoint",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.promoted_decomposition",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.promoted_component_identities",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.promotedK4_consequences",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.union_singleton_star",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.blocks_avoid_compatible",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.compatible_pair_packing",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.partition_cover",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.block_cover_for_edge",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.opposite_eq_complement",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b2_classification",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b2_full",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b2_coarse",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b2_converse",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.configurations_exclusive",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b1_constructive_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b1_gain_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b1_scalar_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b1_strict_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b2_coarse_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b2_full_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.b2_converse_verified",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.equality_supported_card",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.gain_one_pair_obstruction",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.block_eq_of_shared_edge",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.old_triangle_with_block_edge",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.disjoint_new_has_opposite_base",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.new_page_representation",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.edges_union_of_opposite",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.triple_cannot_meet_disjoint",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.meeting_common_apex_has_base",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.incident_other_edge",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.cover_with_one_more",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.book_or_k4",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.equality_new_tau_gt_one",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.equality_intersecting_newK4",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.opposite_bases_for_disjoint_new",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.outside_pages_vertex_disjoint",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.clique_page_representation",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.page_new_of_clique",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  {
+    "declaration": "Tuza07.equality_pair_promotedK4",
+    "axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+]

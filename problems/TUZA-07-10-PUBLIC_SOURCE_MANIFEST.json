@@ -1,0 +1,602 @@
+{
+  "baseline": "b7b0e4fa66bd3effa64f0905eb497818f264b25c",
+  "source_labels": {
+    "07-b": "TUZA-07 B1/B2 formal closeout",
+    "07-a": "TUZA-07 A1 formal closeout",
+    "07-d": "TUZA-07 ordinary discovery archive",
+    "08": "TUZA-08 formal closeout",
+    "08-d": "TUZA-08 ordinary discovery archive",
+    "09": "TUZA-09 ordinary closeout",
+    "10": "TUZA-10 ordinary closeout"
+  },
+  "files": [
+    {
+      "source": "07-b:lean/Tuza/Basic.lean",
+      "source_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza/Basic.lean",
+      "public_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza/Graph.lean",
+      "source_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza/Graph.lean",
+      "public_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/Statement.lean",
+      "source_sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/Statement.lean",
+      "public_sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/Transport.lean",
+      "source_sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/Transport.lean",
+      "public_sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/FiniteCliques.lean",
+      "source_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/FiniteCliques.lean",
+      "public_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/Pages.lean",
+      "source_sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/Pages.lean",
+      "public_sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/Reduction.lean",
+      "source_sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/Reduction.lean",
+      "public_sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/Additivity.lean",
+      "source_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/Additivity.lean",
+      "public_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/BlockAggregation.lean",
+      "source_sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/BlockAggregation.lean",
+      "public_sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/Components.lean",
+      "source_sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/Components.lean",
+      "public_sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/Targets.lean",
+      "source_sha256": "7c6e7da67b4e7903fba45b74e7524a0656ec5a7836a331b77efe5a90e083b7ff",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/Targets.lean",
+      "public_sha256": "7c6e7da67b4e7903fba45b74e7524a0656ec5a7836a331b77efe5a90e083b7ff",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/Footprints.lean",
+      "source_sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/Footprints.lean",
+      "public_sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza/Intersecting.lean",
+      "source_sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza/Intersecting.lean",
+      "public_sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza/IntersectingStructure.lean",
+      "source_sha256": "15669245659268212e376d29cd37ac60d854139c5337907c5d5c5c94f3d11357",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza/IntersectingStructure.lean",
+      "public_sha256": "15669245659268212e376d29cd37ac60d854139c5337907c5d5c5c94f3d11357",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/Basic.lean",
+      "source_sha256": "cf6b1c094b725fecc0627f61d897cf686b95aa4df1f344c2c89b9ee9eb0973df",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/Basic.lean",
+      "public_sha256": "cf6b1c094b725fecc0627f61d897cf686b95aa4df1f344c2c89b9ee9eb0973df",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/Local.lean",
+      "source_sha256": "a8baf1e2326d1bd80d6c7f9a65aee89faafedbba5d5a375379c174c759ef99f9",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/Local.lean",
+      "public_sha256": "a8baf1e2326d1bd80d6c7f9a65aee89faafedbba5d5a375379c174c759ef99f9",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/Completion.lean",
+      "source_sha256": "7c49559aa1c4d559e217d03fe61a703523de278bf643aff5afce85eb9efe3643",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/Completion.lean",
+      "public_sha256": "7c49559aa1c4d559e217d03fe61a703523de278bf643aff5afce85eb9efe3643",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza06/ExternalPageGeometry.lean",
+      "source_sha256": "09bedd26c976d4af189007f163b840f260119d198c87c300aa35133a2d99f85c",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza06/ExternalPageGeometry.lean",
+      "public_sha256": "09bedd26c976d4af189007f163b840f260119d198c87c300aa35133a2d99f85c",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/RigidityCore.lean",
+      "source_sha256": "35cc65647ffcf08d0341ce5487a0f9e8a75c3f1f164429809b7ef7c4c68c9b95",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/RigidityCore.lean",
+      "public_sha256": "35cc65647ffcf08d0341ce5487a0f9e8a75c3f1f164429809b7ef7c4c68c9b95",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/RigidityIntersecting.lean",
+      "source_sha256": "ca36612de3ff8e4fdab0becdd5ae80a91497711471892f3b01a87398029e2eb6",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/RigidityIntersecting.lean",
+      "public_sha256": "ca36612de3ff8e4fdab0becdd5ae80a91497711471892f3b01a87398029e2eb6",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/RigidityPair.lean",
+      "source_sha256": "282e6140da7143e9785aad456df83d67e7c7e45a5e2778815b401766e39dec5b",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/RigidityPair.lean",
+      "public_sha256": "282e6140da7143e9785aad456df83d67e7c7e45a5e2778815b401766e39dec5b",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/Configurations.lean",
+      "source_sha256": "c18c396b48bf6ad1d25bde88e38f1507a89391f7ae56f55dd594bb0032d36eb8",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/Configurations.lean",
+      "public_sha256": "c18c396b48bf6ad1d25bde88e38f1507a89391f7ae56f55dd594bb0032d36eb8",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/Main.lean",
+      "source_sha256": "3becc384efe431d3d97a1842c4827a95e13db4674a5d523aed1e377ea310b6c9",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/Main.lean",
+      "public_sha256": "3becc384efe431d3d97a1842c4827a95e13db4674a5d523aed1e377ea310b6c9",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07.lean",
+      "source_sha256": "d9e6789a016e74fdf985b72e409c7b1da528cab9f6c25ca7ebfa6d2ad658f7d0",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07.lean",
+      "public_sha256": "d9e6789a016e74fdf985b72e409c7b1da528cab9f6c25ca7ebfa6d2ad658f7d0",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/Tuza07/Audit.lean",
+      "source_sha256": "780603a3a4e27ccc5287118e7c066a1fe4ab16db7015e479b49147662388c056",
+      "public_path": "problems/TUZA-07/b1b2/lean/Tuza07/Audit.lean",
+      "public_sha256": "780603a3a4e27ccc5287118e7c066a1fe4ab16db7015e479b49147662388c056",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/lakefile.toml",
+      "source_sha256": "83f1c5cac53d94b09eb07537b416a332c565c61acc4f880b98ac837c9b6095e7",
+      "public_path": "problems/TUZA-07/b1b2/lean/lakefile.toml",
+      "public_sha256": "83f1c5cac53d94b09eb07537b416a332c565c61acc4f880b98ac837c9b6095e7",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/lake-manifest.json",
+      "source_sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d",
+      "public_path": "problems/TUZA-07/b1b2/lean/lake-manifest.json",
+      "public_sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:lean/lean-toolchain",
+      "source_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "public_path": "problems/TUZA-07/b1b2/lean/lean-toolchain",
+      "public_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-b:reproduction/DECLARATIONS.json",
+      "source_sha256": "6b35a7c02792cdf7d6c969de4fae001bb46a44c3c5103fa41db7fc5a8dfacfe0",
+      "public_path": "problems/TUZA-07/b1b2/declarations.json",
+      "public_sha256": "6b35a7c02792cdf7d6c969de4fae001bb46a44c3c5103fa41db7fc5a8dfacfe0",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/Tuza/Basic.lean",
+      "source_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "public_path": "problems/TUZA-07/a1/lean/Tuza/Basic.lean",
+      "public_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/Tuza/Graph.lean",
+      "source_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "public_path": "problems/TUZA-07/a1/lean/Tuza/Graph.lean",
+      "public_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1/Deletion.lean",
+      "source_sha256": "f3a7637a551f6a9d0a9e6c26ea3f6a6b5088c286f37cacdd8086095555af719f",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1/Deletion.lean",
+      "public_sha256": "f3a7637a551f6a9d0a9e6c26ea3f6a6b5088c286f37cacdd8086095555af719f",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1/Targets.lean",
+      "source_sha256": "a64d4e53e457e7269e19e88de2d28fa8b3569939a84432df838983525b39d506",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1/Targets.lean",
+      "public_sha256": "a64d4e53e457e7269e19e88de2d28fa8b3569939a84432df838983525b39d506",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1/Elementary.lean",
+      "source_sha256": "b70a4218a872df55fba6bd4c54ccf6b1df3b0c755241458a8c153a75ae9f4868",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1/Elementary.lean",
+      "public_sha256": "b70a4218a872df55fba6bd4c54ccf6b1df3b0c755241458a8c153a75ae9f4868",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1/Criticality.lean",
+      "source_sha256": "513136593d39839a0a443a1a24b5929026910178da63eed67d7b8f56e4f7f8c3",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1/Criticality.lean",
+      "public_sha256": "513136593d39839a0a443a1a24b5929026910178da63eed67d7b8f56e4f7f8c3",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1/Extension.lean",
+      "source_sha256": "cc816e5d9e62404e0ef302d7afb7f6e1d9fb05bf0cddd0dcbf0f1eceeca5c605",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1/Extension.lean",
+      "public_sha256": "cc816e5d9e62404e0ef302d7afb7f6e1d9fb05bf0cddd0dcbf0f1eceeca5c605",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1/Wedge.lean",
+      "source_sha256": "666e5fb84dc09cb199682be37294946414dd13437cabc989d7174355160afed2",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1/Wedge.lean",
+      "public_sha256": "666e5fb84dc09cb199682be37294946414dd13437cabc989d7174355160afed2",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1/Codegree.lean",
+      "source_sha256": "e2d8e93c42eb9df1614427f963351e1bd1c1bd3e1e78814ca0d8ae69d9ce42b1",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1/Codegree.lean",
+      "public_sha256": "e2d8e93c42eb9df1614427f963351e1bd1c1bd3e1e78814ca0d8ae69d9ce42b1",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1/Main.lean",
+      "source_sha256": "5ff86d3f12addb7f621dd0cc440612e8ea53bb2ffbc9fb785333f90a27000546",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1/Main.lean",
+      "public_sha256": "5ff86d3f12addb7f621dd0cc440612e8ea53bb2ffbc9fb785333f90a27000546",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1.lean",
+      "source_sha256": "95d039c994b40d7a7f0842d41b2ff66c24a44f43b38b33b4e8c2caee9462efef",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1.lean",
+      "public_sha256": "95d039c994b40d7a7f0842d41b2ff66c24a44f43b38b33b4e8c2caee9462efef",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/TuzaA1/Audit.lean",
+      "source_sha256": "8859c1be177a11948c7c0bc0c94dfe8f55f3ffeeacae8b41f6d823f97964b194",
+      "public_path": "problems/TUZA-07/a1/lean/TuzaA1/Audit.lean",
+      "public_sha256": "8859c1be177a11948c7c0bc0c94dfe8f55f3ffeeacae8b41f6d823f97964b194",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/lakefile.toml",
+      "source_sha256": "32de69df755cbf8c076f0f6503beb3eda3b1fec33ed22a621c641fd194621992",
+      "public_path": "problems/TUZA-07/a1/lean/lakefile.toml",
+      "public_sha256": "32de69df755cbf8c076f0f6503beb3eda3b1fec33ed22a621c641fd194621992",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/lake-manifest.json",
+      "source_sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d",
+      "public_path": "problems/TUZA-07/a1/lean/lake-manifest.json",
+      "public_sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:lean/lean-toolchain",
+      "source_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "public_path": "problems/TUZA-07/a1/lean/lean-toolchain",
+      "public_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-a:reproduction/DECLARATIONS.json",
+      "source_sha256": "8a2bee48447c1dadae782b36ae2fc556b198bbe2ab95aaa1b6497de430dc0b09",
+      "public_path": "problems/TUZA-07/a1/declarations.json",
+      "public_sha256": "8a2bee48447c1dadae782b36ae2fc556b198bbe2ab95aaa1b6497de430dc0b09",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza/Basic.lean",
+      "source_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "public_path": "problems/TUZA-08/lean/Tuza/Basic.lean",
+      "public_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza/Graph.lean",
+      "source_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "public_path": "problems/TUZA-08/lean/Tuza/Graph.lean",
+      "public_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/TuzaA1/Deletion.lean",
+      "source_sha256": "f3a7637a551f6a9d0a9e6c26ea3f6a6b5088c286f37cacdd8086095555af719f",
+      "public_path": "problems/TUZA-08/lean/TuzaA1/Deletion.lean",
+      "public_sha256": "f3a7637a551f6a9d0a9e6c26ea3f6a6b5088c286f37cacdd8086095555af719f",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza08/Targets.lean",
+      "source_sha256": "2158bf8238e943b0ae88f619c144ddaab562a0812654dbad9146525050050a89",
+      "public_path": "problems/TUZA-08/lean/Tuza08/Targets.lean",
+      "public_sha256": "2158bf8238e943b0ae88f619c144ddaab562a0812654dbad9146525050050a89",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza08/Geometry.lean",
+      "source_sha256": "0708360166c61dd34748d2f26675d6e8022ae8c051b9bca03d9165bf391f5ffb",
+      "public_path": "problems/TUZA-08/lean/Tuza08/Geometry.lean",
+      "public_sha256": "0708360166c61dd34748d2f26675d6e8022ae8c051b9bca03d9165bf391f5ffb",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza08/Basic.lean",
+      "source_sha256": "8658853705640af2ad8df26190c14bdf82e5ce9fd4a4c0df7f0585c056624ae4",
+      "public_path": "problems/TUZA-08/lean/Tuza08/Basic.lean",
+      "public_sha256": "8658853705640af2ad8df26190c14bdf82e5ce9fd4a4c0df7f0585c056624ae4",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza08/Covers.lean",
+      "source_sha256": "48ee935ac306e20efe6a4441a0f235fc5f99e31ba51fcfc742b41d24cd548e14",
+      "public_path": "problems/TUZA-08/lean/Tuza08/Covers.lean",
+      "public_sha256": "48ee935ac306e20efe6a4441a0f235fc5f99e31ba51fcfc742b41d24cd548e14",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza08/Counting.lean",
+      "source_sha256": "fd629324f09401c9ea6001b2dbe3aca24e4e61625fa4d1ea0ac868a99043562b",
+      "public_path": "problems/TUZA-08/lean/Tuza08/Counting.lean",
+      "public_sha256": "fd629324f09401c9ea6001b2dbe3aca24e4e61625fa4d1ea0ac868a99043562b",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza08/Main.lean",
+      "source_sha256": "c2fc37f519670d793096208c96018b3b53da8d6562bead82667ccb7f30d24019",
+      "public_path": "problems/TUZA-08/lean/Tuza08/Main.lean",
+      "public_sha256": "c2fc37f519670d793096208c96018b3b53da8d6562bead82667ccb7f30d24019",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza08.lean",
+      "source_sha256": "d93d0a46519934b22019057eda18376f323ed5bdac7593bc3be7c0c6eb68f555",
+      "public_path": "problems/TUZA-08/lean/Tuza08.lean",
+      "public_sha256": "d93d0a46519934b22019057eda18376f323ed5bdac7593bc3be7c0c6eb68f555",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/Tuza08/ClosureAudit.lean",
+      "source_sha256": "1632668cf16cbc51be25e1b721fed1b8c62a006e0f1fe7f33fedad81ef9d24c0",
+      "public_path": "problems/TUZA-08/lean/Tuza08/ClosureAudit.lean",
+      "public_sha256": "1632668cf16cbc51be25e1b721fed1b8c62a006e0f1fe7f33fedad81ef9d24c0",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/lakefile.toml",
+      "source_sha256": "67e314da623ce9fba85b97821af30155bb9e50b84ec74af2b30d415caefe879b",
+      "public_path": "problems/TUZA-08/lean/lakefile.toml",
+      "public_sha256": "67e314da623ce9fba85b97821af30155bb9e50b84ec74af2b30d415caefe879b",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/lake-manifest.json",
+      "source_sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d",
+      "public_path": "problems/TUZA-08/lean/lake-manifest.json",
+      "public_sha256": "067add7932e8f37b01de2df40826f8e50ef0018d7b9a555e897ec63941249d4d",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:lean/lean-toolchain",
+      "source_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "public_path": "problems/TUZA-08/lean/lean-toolchain",
+      "public_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "transformation": "exact"
+    },
+    {
+      "source": "08:reproduction/DECLARATIONS.json",
+      "source_sha256": "720d3aee928afd893d3c2c078ede698058212228de0d50a8b7acc33fcf9753e2",
+      "public_path": "problems/TUZA-08/declarations.json",
+      "public_sha256": "720d3aee928afd893d3c2c078ede698058212228de0d50a8b7acc33fcf9753e2",
+      "transformation": "exact"
+    },
+    {
+      "source": "07-d:route_b/GAIN_ONE_THEOREM.md",
+      "source_sha256": "4d29411999af8d250eac12d1de4cb9b260d1c3e523a480e2b9699cd4958e1904",
+      "public_path": "problems/TUZA-07/notes/GAIN_ONE_THEOREM.md",
+      "public_sha256": "89c9d8f84ab4bc37f99ca7da1c5a1beca25dd5d0b163cc1ddbb2eb383bf881b6",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "07-d:route_b/CONSTRUCTIVE_AND_STAR_THEOREMS.md",
+      "source_sha256": "d7e3ccfbda5a5814c71e5acd9819fb5cb805969634be225b831f1612dbc5ab16",
+      "public_path": "problems/TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md",
+      "public_sha256": "124e50e3f564316b88e2cf5048fcd206f61d1c8230d8f0798891ed1bb7dafe41",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "07-d:route_a/GAIN_ONE_EQUALITY_RIGIDITY.md",
+      "source_sha256": "e0a9b94802398090a867578dc81e9b640f3716aaf2a79965797063e2d9a21284",
+      "public_path": "problems/TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md",
+      "public_sha256": "688c80ed061bad06f13220ee1e140fe75ecc5fe3704a155002ac946fb3f360a4",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "07-d:route_a/CRITICALITY_PACKAGE.md",
+      "source_sha256": "6d8a7305a303e5e12617e5cbe884da2b068652fc90388e7b466270a18bb3d423",
+      "public_path": "problems/TUZA-07/notes/CRITICALITY_PACKAGE.md",
+      "public_sha256": "73c4f75375df6f04820ffeaf3e5e62a79f6c87ddeec76ecb7bc68c27bb4c8dc4",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "07-d:route_a/COUNTEREXAMPLE_CONVERSE_PRECISION.md",
+      "source_sha256": "b0dbff5374ea79c5bf1a74fe0e3cd676ff51f04e40162bacb94616dfcc430258",
+      "public_path": "problems/TUZA-07/notes/COUNTEREXAMPLE_CONVERSE_PRECISION.md",
+      "public_sha256": "63a804e4c1de05e8b0d4ff0709ec9598372d488a4aaabda255cdcc23386bc40a",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "07-d:route_a/PADDING_OBSTRUCTION.md",
+      "source_sha256": "0d7e3169aae3d7f0f422cd3bb81efc4f9b48cde8522c3034d59907db0e379004",
+      "public_path": "problems/TUZA-07/notes/PADDING_OBSTRUCTION.md",
+      "public_sha256": "bcb2b459970c4e2eb061e6d3122d58e503aa3a9f78ecaaca9e9ade89c7cf9355",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "07-d:COUNTEREXAMPLES_AND_FAILURES.md",
+      "source_sha256": "479f971ae8a1facb80c73f15c4ae42f68eb729cef5f2cd0ece9f97febfe3d976",
+      "public_path": "problems/TUZA-07/notes/COUNTEREXAMPLES_AND_FAILURES.md",
+      "public_sha256": "b29240ca18426cee29c29d7c7384ed69e999c5b7b543ee0493a07667d7e1cb1a",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "08-d:proofs/mechanism_cover_exchange.md",
+      "source_sha256": "64ddd08ea187799bc6658cfd9d2910dea0c9886f030fe5c68c4e32ec8ace3b20",
+      "public_path": "problems/TUZA-08/notes/COVER_SWITCH_PROOF.md",
+      "public_sha256": "0ed9ddfa7658046f0ce89b75dcb8b7683925cb45cda7662698efe251ba98d5b5",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained. Markdown set-difference before parentheses spelled out as minus to preserve rendered X0/Y0 semantics."
+    },
+    {
+      "source": "08-d:proofs/RESTORATION_AND_SCOPE.md",
+      "source_sha256": "6af49729ec4298d4c4fcfca9a7c6d19509e7744e3362c30d64001c472136cc5a",
+      "public_path": "problems/TUZA-08/notes/RESTORATION_AND_SCOPE.md",
+      "public_sha256": "661e1a51785ba579075bef4397005379343dba0e4c8e265bf289c53b70128dfa",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "08-d:experiments/COUNTEREXAMPLES_AND_TESTS.md",
+      "source_sha256": "ffc78b6dc21cec76487df08c00a343298c1b6a2c78b688e43a32cd6b95301593",
+      "public_path": "problems/TUZA-08/notes/COUNTEREXAMPLES_AND_TESTS.md",
+      "public_sha256": "c84a23e6728a308a1e3a4bd94155df379ee08c0d7b6ef5cb5d8080bc7eee32b0",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "08-d:notes/INDEPENDENT_MECHANISM.md",
+      "source_sha256": "ad0b7ca4076655caac611021b676f0ddb971fb27f3a3fd8bcecc85f318bc974e",
+      "public_path": "problems/TUZA-08/notes/INDEPENDENT_MECHANISM.md",
+      "public_sha256": "08601b3cee009e954127ab6ed601fdd1f64282ebc52999a93de2d69edfc0001d",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "09:proofs/MULTICOVER.md",
+      "source_sha256": "9a66391d9462888699117faaad6e238f43981b3432fb752e705036b47456b67f",
+      "public_path": "problems/TUZA-09/notes/MULTICOVER.md",
+      "public_sha256": "82d2de87874f0221b1e2102ebbfaf6c0ae079fa59d945cba26b17192a1404c96",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "09:proofs/LP_GEOMETRY.md",
+      "source_sha256": "c2bb670924705b1de0c9f37d9e9ba9d4d9647f75f9777f5467fcd94b2f488a0a",
+      "public_path": "problems/TUZA-09/notes/LP_GEOMETRY.md",
+      "public_sha256": "a963431b9f320ddf399d236e836a11e70e66db28b070df0f54cad19947526697",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "09:proofs/SYNTHESIS.md",
+      "source_sha256": "0155b6e8a57173889a8018c971ba98d72ffcc0bd5dc05c74a2cac0e0b9663e80",
+      "public_path": "problems/TUZA-09/notes/SYNTHESIS.md",
+      "public_sha256": "afa84e0d214e27aa10e7e79847f36ec4c7188b568244b8d09b3e43e24d5a5fa5",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "09:proofs/ALTERNATIVES.md",
+      "source_sha256": "d587db5bef0c639eac435f41fdfa87ca7fdb5f8625d8eb1eeb900488003f448c",
+      "public_path": "problems/TUZA-09/notes/ALTERNATIVES.md",
+      "public_sha256": "e8489f8662f93dd0f0872ce1c99ddf1f688c2a446ab4b5126d5626b924106790",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "10:PROOFS_OR_OBSTRUCTIONS.md",
+      "source_sha256": "89a5517f628e7f3d804e5a9aeb628247329eb60751d5fbb3ebf12d29c714c3f2",
+      "public_path": "problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md",
+      "public_sha256": "02ca10e82cadb5074bb5db6addbd76ffe596cf5d2d7209b4085fa127346e2578",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained. Editorial correction: odd cycles have chromatic number three; degree-at-most-two cases handled directly before Brooks. The stated cycle inequality is unchanged; correction explicitly annotated."
+    },
+    {
+      "source": "10:RAINBOW_FORMULATION.md",
+      "source_sha256": "5c90d5637f409626ca71e2c385b4e5dfedb19c2553dd0b94288c7c83ad6a91d5",
+      "public_path": "problems/TUZA-10/notes/RAINBOW_FORMULATION.md",
+      "public_sha256": "0a45dd60281af0264c9ffbbea9e9ffc2c86fadc42cfd0db579d37c7db6b7511c",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "10:reports/HALF_INTEGRAL_OBSTRUCTION.md",
+      "source_sha256": "1e19d148b94ed87edb89fcfdacda132e4e60b9c5e620b6bc01d07243bc5f681b",
+      "public_path": "problems/TUZA-10/notes/HALF_INTEGRAL_OBSTRUCTION.md",
+      "public_sha256": "b7a0f8a7eeb1119feba1abca92c37fda3babd123a42c0f6c046b8b79069db871",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "10:INDEPENDENT_MECHANISM_NOTES.md",
+      "source_sha256": "fd492dd54dfa582615d51e911f1ae9088d10076ab10d78cb11d374e05483c735",
+      "public_path": "problems/TUZA-10/notes/INDEPENDENT_MECHANISM_NOTES.md",
+      "public_sha256": "9268c0c0d6c23a986fd01350dd3a26551f69c46fc2e70edd7b2a1a8c556ecb3f",
+      "transformation": "Curated historical note: current-status annotation, portable links, explicit unshipped-record labels, operational references omitted; mathematical statements/proofs retained."
+    },
+    {
+      "source": "08-d:experiments/SAMPLED_BLOCKERS.json",
+      "source_sha256": "fb6fe7effea239a1a68aec315bc748f4a7a634bea6eb98e3a9a6952c530a80c8",
+      "public_path": "problems/TUZA-08/certificates/SAMPLED_BLOCKERS.json",
+      "public_sha256": "fb6fe7effea239a1a68aec315bc748f4a7a634bea6eb98e3a9a6952c530a80c8",
+      "transformation": "JSON operational receipt keys omitted; mathematical data preserved"
+    },
+    {
+      "source": "09:experiments/EXACT_RESULTS.json",
+      "source_sha256": "fa216b4a63b540524c9af57c386bd22386bce0bbc95c2fb133aba92208f94cfd",
+      "public_path": "problems/TUZA-09/certificates/EXACT_RESULTS.json",
+      "public_sha256": "fa216b4a63b540524c9af57c386bd22386bce0bbc95c2fb133aba92208f94cfd",
+      "transformation": "JSON operational receipt keys omitted; mathematical data preserved"
+    },
+    {
+      "source": "09:review/INDEPENDENT_RESULTS.json",
+      "source_sha256": "dd936638bf8e0f5b4dbb655eee14ed0157f9d3ef79cdc3dbd401285ae8c33bc2",
+      "public_path": "problems/TUZA-09/certificates/INDEPENDENT_RESULTS.json",
+      "public_sha256": "dd936638bf8e0f5b4dbb655eee14ed0157f9d3ef79cdc3dbd401285ae8c33bc2",
+      "transformation": "JSON operational receipt keys omitted; mathematical data preserved"
+    },
+    {
+      "source": "10:data/half_integral_exact_identity.json",
+      "source_sha256": "2af9c23a98718ca7003db0293310876e34d6ae62295641216bb90e00f401a138",
+      "public_path": "problems/TUZA-10/certificates/half_integral_exact_identity.json",
+      "public_sha256": "12f54b66ea5fffe6a4b0394deff98d9c97441b1c8c0f4dc36bb405f4b76605d1",
+      "transformation": "JSON operational receipt keys omitted; mathematical data preserved"
+    },
+    {
+      "source": "10:data/independent_half_integral_audit.json",
+      "source_sha256": "07e625debc4d47b27eaf30da58d4a6e65de2d7ffd8d597e7b7c578787ea5627c",
+      "public_path": "problems/TUZA-10/certificates/independent_half_integral_audit.json",
+      "public_sha256": "07e625debc4d47b27eaf30da58d4a6e65de2d7ffd8d597e7b7c578787ea5627c",
+      "transformation": "JSON operational receipt keys omitted; mathematical data preserved"
+    }
+  ]
+}

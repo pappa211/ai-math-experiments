@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-11-01T16:41:47.383253+00:00",
+  "accepted_candidate_commit": "f4f7f27683b1a89d7282633783524776f9f80d41",
+  "source_manifest_sha256": "f9f50713a179cb033e7279f079611885becdcfa09c60c35e33a924a654ce577a",
+  "corrected_pdf_sha256": "9495bd36be77c4408b71b107d2619a72ce3f75dd263df3c6105a75e8a844f25b",
+  "pdf_pages": 27,
+  "pdf_public_repository_links": 23,
+  "pdf_external_links": 49,
+  "pdf_relative_file_links": 0,
+  "new_or_modified_text_files_scanned": 251,
+  "private_pattern_hits": 0,
+  "portable_markdown_file_links_checked": 839,
+  "mathematical_source_changes": 0,
+  "exact_examples_executed_again": true,
+  "prior_paper_and_problem_files_unchanged": 1375,
+  "new_lean_runs": 0,
+  "source_and_receipt_reconciliation": "PASS",
+  "metadata_and_text_scan": "PASS",
+  "network_writes_at_preflight": false,
+  "independent_critic": "PASS",
+  "scope": "Final local publication preflight before any GitHub write; commit/history and remote readback gates are recorded separately."
+}
