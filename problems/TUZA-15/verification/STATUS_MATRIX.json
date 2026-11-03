@@ -1,0 +1,716 @@
+{
+  "main_verdict": "VERIFIED_AS_FROZEN",
+  "target": "T0 exactly as frozen in FROZEN_TARGETS.md",
+  "frozen_commit": "frozen-packet-15d",
+  "frozen_tree": "frozen-packet-15d",
+  "publication_readiness": "READY_FOR_OWNER_REVIEW",
+  "mathematical_corrections_required": [],
+  "claims": [
+    {
+      "id": "T0",
+      "exact_statement": "For every finite simple G with mad(G)<7: tau(G)<=2nu(G), and equality iff every nonempty shared-edge triangle component has literal K4/K5 edge support. All actual triangles; empty/triangle-free cases vacuous.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Sections16-17",
+      "old_versus_new": "Prior inequality; new equality classification",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M0",
+        "M1",
+        "M2",
+        "M3",
+        "SIX",
+        "LOW_HIGH",
+        "DONOR7",
+        "DONOR8",
+        "THIN",
+        "DOM",
+        "CHARGE"
+      ],
+      "finite_dependencies": [
+        "SIX_FINITE"
+      ],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "REPORT.md",
+        "evidence/independent_six_links.json"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "P_ULEO",
+      "exact_statement": "Every finite simple G with mad(G)<7 satisfies tau(G)<=2nu(G).",
+      "source_location": "source/references/literature/puleo_v3.txt:Theorem1.2",
+      "old_versus_new": "Published old input",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [],
+      "finite_dependencies": [],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "PRIOR_ART_AND_DEPENDENCIES.md",
+        "evidence/literature-live-access.json"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "B_CONVERSE",
+      "exact_statement": "For every finite simple G, B(G) implies tau(G)=2nu(G), including triangle-free background and vertex sharing.",
+      "source_location": "source/references/public/papers/tuza-five-degenerate/main.md:Lemma2 and introduction; references/public-live/.../Components.lean",
+      "old_versus_new": "Old universal input",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [],
+      "finite_dependencies": [],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "M0",
+      "exact_statement": "In any hereditary class, an edge-minimum combined failure normalized by deleting isolates has connected nonempty triangle support, no triangle-free edges, tau=2p and, for every edge e, nu(G-e)=p,tau(G-e)=2p-1.",
+      "source_location": "source/references/public/papers/tuza-five-degenerate/main.md:Lemma3",
+      "old_versus_new": "Old local combined-minimality",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M1",
+        "B_CONVERSE"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "The over-tight alternative is excluded by actual missing-base geometry. A surviving wedge edge may be unsupported. Defect-one residuals are not classified B.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "M1",
+      "exact_statement": "If K is a subgraph of G with B(K), actual edge-disjoint selected G-triangles append to a maximum K-packing when their ENTIRE footprint in each K4 is a star and in each K5 has at most2 edges.",
+      "source_location": "source/references/public/papers/tuza-five-degenerate/main.md:Lemmas2,2A",
+      "old_versus_new": "Old compatibility input",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [],
+      "finite_dependencies": [],
+      "objections_and_disposition": "Arbitrary K5-star avoidance is not used; all joint footprints are bounded.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "M2",
+      "exact_statement": "For a proper subgraph K of a minimal combined obstruction in its hereditary class, an r-packing avoiding K triangle support and an ALL-lost-triangle cover X with |X|<=2r force B(K),|X|=2r,nu(G)=nu(K)+r.",
+      "source_location": "source/references/public/papers/tuza-five-degenerate/main.md:Lemma3A",
+      "old_versus_new": "Old reduction accounting",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M0"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "M3",
+      "exact_statement": "A normalized minimal combined obstruction in any hereditary class has codegree>=2, link components of order>=5, degree5 links K5/K5-e, no degree5 neighbor of degree<=6, and nonadjacent degree5 pairs with at most3 common neighbors (equality forces both links K5).",
+      "source_location": "source/references/public/papers/tuza-five-degenerate/main.md:Sections3-7",
+      "old_versus_new": "Old local package; independently reconstructed",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M0",
+        "M1",
+        "M2"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "No five-degeneracy premise occurs in these local arguments. BFG irreducible hypotheses are not imported without the public residual extensions.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "R6",
+      "exact_statement": "For the exact closed K6-{12,34} link component and residual of source Section1, B(K) implies D(G)>=2; no external page on R improves it to>=3. Other link components and all other incidence unrestricted. Such a component cannot occur under combined minimality.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section1",
+      "old_versus_new": "New restoration",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M1",
+        "M2"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "evidence/coordinator_fixed_core.json",
+        "evidence/independent_six_links.json"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "TWIN",
+      "exact_statement": "For the two CLOSED hub components and optional wa/wb edges exactly in source Section2, B of the specified residual implies D(G)>=2; combined minimality supplies the initial5/10 accounting.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section2",
+      "old_versus_new": "New restoration",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M1",
+        "M2"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "All four optional choices checked. Uncovered-by-increment wac/wbd are retained, so the original frozen proof needs no correction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "evidence/coordinator_fixed_core.json",
+        "evidence/scope_diagnostics.json"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "THIN",
+      "exact_statement": "If d(v)=6 with exact link K6 minus a perfect matching and adjacent d(u)=7, B of the source Section3 residual implies D(G)>=2; the4/8 tuple excludes it in a minimal combined obstruction.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section3",
+      "old_versus_new": "New exact-link restoration",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M1",
+        "M2"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "The exact complement matching is required; bare published thinness is not substituted.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "DOM",
+      "exact_statement": "For d(v)=6,N[v] subset N[u], exact K6 link with d(u)<=8 or exact K6-e link with d(u)<=7, residual Tuza for source Section4 residual implies strict Tuza in G.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section4",
+      "old_versus_new": "New strict lifts",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M2"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "BIP",
+      "exact_statement": "No minimal combined obstruction in any hereditary class has a bipartite connected component of any vertex link, with no link-order, hub-degree or outside-incidence bound.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section8",
+      "old_versus_new": "New unbounded symbolic exclusion",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M0",
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "A different maximum matching and forced external page are proved for arbitrary order. At most2 rim vertices occur per residual clique.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "THREE_SUN",
+      "exact_statement": "No minimal combined obstruction has the exact closed three-sun link component of Section10, with other hub components and arbitrary outside incidence allowed.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section10",
+      "old_versus_new": "New symbolic exclusion",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M1",
+        "M2"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "External pages produce gain; without them the surviving central triangle forces overlap with every residual cover.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "SIX_FINITE",
+      "exact_statement": "Every connected six-vertex H with delta(H)>=2 and Delta(complement H)>=2 lies in exactly one of the57 validated certificate orbits;34gain,19nonclique,4symbolic. Complete32768-labelled-input enumeration gives11982 eligible graphs.",
+      "source_location": "source/evidence/six_link_certificates.json; source/PROOFS_AND_OBSTRUCTIONS.md:Section11",
+      "old_versus_new": "New exact finite certificate substep",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "FINITE_CHECKED",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [],
+      "finite_dependencies": [],
+      "objections_and_disposition": "All input categories, actual triangles, matching/deletion/lost-cover predicates, whole footprints, literal nonclique witnesses and orbit coverage checked. Symbolic family recognition supersedes underspecified old permutation metadata; all actual supplied permutations are identity.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "checks/independent_six_links.py",
+        "evidence/independent_six_links.json",
+        "evidence/independent_six_links.execution.json",
+        "notes/CERTIFICATE_INITIAL.md",
+        "notes/CERTIFICATE_COMPARISON.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "SIX",
+      "exact_statement": "Every degree6 vertex of a minimal combined obstruction has link K6,K6-e,or K6 minus a perfect matching.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section11",
+      "old_versus_new": "New finite/symbolic classification",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M3",
+        "R6",
+        "BIP",
+        "THREE_SUN"
+      ],
+      "finite_dependencies": [
+        "SIX_FINITE"
+      ],
+      "objections_and_disposition": "Residual-block intersections are all tested smaller cliques; outside vertices cannot supply missing pairs among fixed core vertices.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "LOW_HIGH",
+      "exact_statement": "In a minimal combined obstruction all degree<=6 vertices are independent, and every degree>=7 vertex has at least4 degree>=7 neighbors.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section12; source/notes/SCOUT_B_RESULTS.md:B2",
+      "old_versus_new": "New consequences",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M3",
+        "SIX",
+        "TWIN"
+      ],
+      "finite_dependencies": [
+        "SIX_FINITE"
+      ],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "evidence/coordinator_fixed_core.json"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "DONOR7",
+      "exact_statement": "No degree7 vertex u of a minimal combined obstruction subsumes a degree5 vertex v, where subsumes means N[v] subset N[u]; all permissible Z incidences and outside pages allowed.",
+      "source_location": "source/notes/SCOUT_B_RESULTS.md:B4",
+      "old_versus_new": "New complete donor exclusion",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "DONOR8",
+      "exact_statement": "No degree8 vertex u of a minimal combined obstruction subsumes a degree5 vertex v; all three auxiliary vertices, all edges among them, repeated page apices, Z apices and arbitrary outside pages are allowed.",
+      "source_location": "source/notes/SCOUT_B_DEGREE8.md:H1,H2,I,IIa,IIb,III",
+      "old_versus_new": "New complete donor exclusion",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M1",
+        "M2",
+        "M3"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "All cases and joint footprints reconstructed. Independent-Z size-two/union>=3 branches are harmless redundant cases, not missing hypotheses.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md",
+        "evidence/coordinator_fixed_core.json"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "CHARGE",
+      "exact_statement": "Under the proved minimal-obstruction structure, the2/3,1/6,1/4 transfers conserve total degree and leave every vertex with final charge>=7.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section16",
+      "old_versus_new": "Old charge rules; new degree9/high-degree shortcut",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M3",
+        "SIX",
+        "LOW_HIGH",
+        "DONOR7",
+        "DONOR8",
+        "THIN",
+        "DOM"
+      ],
+      "finite_dependencies": [
+        "SIX_FINITE"
+      ],
+      "objections_and_disposition": "Exact rational bounds checked, including all k>=10 by positive affine slopes. No Puleo2.7(f) or optional Section14 premise is needed.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": false,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "C25",
+      "exact_statement": "The full combined T0 conclusion holds when mad(G)<25/4.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section13",
+      "old_versus_new": "New weaker equality theorem",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M0",
+        "M3",
+        "SIX",
+        "LOW_HIGH"
+      ],
+      "finite_dependencies": [
+        "SIX_FINITE"
+      ],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": true,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "C6",
+      "exact_statement": "The full combined conclusion holds for all finite simple graphs with maximum degree<=6.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Sections13,17",
+      "old_versus_new": "Corollary",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "T0"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": true,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "LB",
+      "exact_statement": "Every finite locally bipartite graph with at least one triangle satisfies tau(G)<=2nu(G)-1; no sparsity hypothesis.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section8 corollary",
+      "old_versus_new": "Prior inequality; new derived strictness with priority unestablished",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M0",
+        "BIP",
+        "B_CONVERSE"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": true,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "SEP",
+      "exact_statement": "If G=G1 union G2 with exactly one shared edge e, every actual triangle in a piece, e triangle-bearing on both sides, Tuza for Gi and Gi-e, and B for every tight Gi, then tau(G)<=2nu(G)-1.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section5",
+      "old_versus_new": "New conditional interface",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "CONDITIONAL",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M1"
+      ],
+      "finite_dependencies": [],
+      "objections_and_disposition": "The conditional theorem is proved with all piece/closure assumptions explicit. It is not used for T0 or asserted without those assumptions.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": true,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "HIGH10",
+      "exact_statement": "In a minimal combined obstruction, if degree k>=10 vertex v subsumes degree<=6 vertex w, v has at most k-6 degree<=6 neighbors.",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section14",
+      "old_versus_new": "New optional lift",
+      "verdict": "VERIFIED_AS_FROZEN",
+      "independent_reconstruction_status": "Reconstructed; required finite/source dependencies independently checked.",
+      "evidence_category": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "assumptions": "See exact statement; conventions and full target inventory in FROZEN_TARGETS.md.",
+      "symbolic_dependencies": [
+        "M1",
+        "M2",
+        "M3",
+        "SIX",
+        "LOW_HIGH"
+      ],
+      "finite_dependencies": [
+        "SIX_FINITE"
+      ],
+      "objections_and_disposition": "No unresolved objection after independent reconstruction.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": true,
+      "audit_evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/MATHEMATICAL_INITIAL.md"
+      ],
+      "audit_limitations": [
+        "Ordinary internal AI review; no new Lean or independent-kernel verification."
+      ]
+    },
+    {
+      "id": "ABSTRACT_CRITICALITY_SUFFICES",
+      "exact_statement": "Elementary rank-three-hypergraph critical deletion pattern alone forces tau<=2nu.",
+      "verdict": "REFUTED",
+      "evidence_category": "REFUTED",
+      "old_versus_new": "Diagnostic against an inadmissible abstraction, not T0",
+      "source_location": "source/PROOFS_AND_OBSTRUCTIONS.md:Section7",
+      "assumptions": "Abstract incidence hypergraph, not actual graph triangles.",
+      "audit_evidence": [
+        "evidence/scope_diagnostics.json"
+      ],
+      "objections_and_disposition": "Fano gives nu1,tau3 and each point deletion nu1,tau2; graph closure/combined tightness are necessary distinctions.",
+      "unresolved_steps": [],
+      "optional_corollary_or_auxiliary": true,
+      "audit_limitations": [
+        "Not a graph counterexample and not a Tuza counterexample."
+      ]
+    },
+    {
+      "id": "PRIORITY",
+      "exact_statement": "Historical originality of exact T0 and locally-bipartite strictness.",
+      "verdict": "UNESTABLISHED",
+      "evidence_category": "UNPROVED",
+      "assumptions": "Outside this audit verdict.",
+      "source_location": "REPORT.md:Provenance and limits",
+      "old_versus_new": "Not established by the current proof/audit",
+      "audit_evidence": [
+        "PRIOR_ART_AND_DEPENDENCIES.md"
+      ],
+      "unresolved_steps": [
+        "No affirmative claim made."
+      ],
+      "optional_corollary_or_auxiliary": true,
+      "audit_limitations": [
+        "Do not infer this status from the verified restricted theorem."
+      ]
+    },
+    {
+      "id": "OUTSIDE_TARGET",
+      "exact_statement": "Unrestricted Tuza/equality, general S/E, all maximum-degree7, or mad<=7 equality.",
+      "verdict": "NOT_CLAIMED",
+      "evidence_category": "UNPROVED",
+      "assumptions": "Outside this audit verdict.",
+      "source_location": "REPORT.md:Provenance and limits",
+      "old_versus_new": "Not established by the current proof/audit",
+      "audit_evidence": [
+        "PRIOR_ART_AND_DEPENDENCIES.md"
+      ],
+      "unresolved_steps": [
+        "No affirmative claim made."
+      ],
+      "optional_corollary_or_auxiliary": true,
+      "audit_limitations": [
+        "Do not infer this status from the verified restricted theorem."
+      ]
+    },
+    {
+      "id": "NEW_LEAN",
+      "exact_statement": "A new Lean theorem or independently implemented kernel verification of TUZA-15.",
+      "verdict": "NOT_CLAIMED",
+      "evidence_category": "UNPROVED",
+      "assumptions": "Outside this audit verdict.",
+      "source_location": "REPORT.md:Provenance and limits",
+      "old_versus_new": "Not established by the current proof/audit",
+      "audit_evidence": [
+        "PRIOR_ART_AND_DEPENDENCIES.md"
+      ],
+      "unresolved_steps": [
+        "No affirmative claim made."
+      ],
+      "optional_corollary_or_auxiliary": true,
+      "audit_limitations": [
+        "Do not infer this status from the verified restricted theorem."
+      ]
+    }
+  ]
+}

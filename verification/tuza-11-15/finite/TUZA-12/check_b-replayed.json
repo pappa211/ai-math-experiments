@@ -1,0 +1,3695 @@
+{
+  "status": "PASS",
+  "domain": "all 32768 labelled simple graphs on six vertices, full actual triangles; 16 named controls",
+  "counts": {
+    "graphs": 32768,
+    "claw_free": 30272,
+    "nonempty_claw_free": 24483,
+    "tuza_violations": 0,
+    "claw_free_with_exception": 456,
+    "claw_free_with_hub": 2865
+  },
+  "histogram": {
+    "(0, 0, True)": 5789,
+    "(1, 1, True)": 13265,
+    "(1, 2, True)": 690,
+    "(2, 2, True)": 9535,
+    "(2, 3, True)": 957,
+    "(3, 3, False)": 2120,
+    "(2, 4, True)": 36,
+    "(3, 4, False)": 300,
+    "(4, 4, False)": 60,
+    "(4, 5, False)": 15,
+    "(4, 6, False)": 1
+  },
+  "canonical_census_certificate_sha256": "8dcefff789bbbef0a557a56c7aa90991e52e02bed3e6886e19a70ec7679d2ac1",
+  "checks": [
+    "actual nu/tau for every graph",
+    "induced claw recognition",
+    "exception isolation and exact optima",
+    "residual K4 port structure",
+    "ordinary shared-edge bound",
+    "labelled pairwise line-graph identity",
+    "loopless root including parallel edges",
+    "triangle-free underlying root",
+    "independent weight-two hubs",
+    "separate root mu/weighted-vc optima",
+    "two-way optimum equality on every claw-free census graph",
+    "all actual covers normalized and all root covers realized on named positive controls",
+    "local two-edge closed-neighborhood covers"
+  ],
+  "targeted": {
+    "empty": {
+      "n": 0,
+      "edges": [],
+      "triangles": [],
+      "nu": 0,
+      "tau": 0,
+      "packing": [],
+      "cover": [],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [],
+        "edges_with_triangle_identity": [],
+        "mu": 0,
+        "weighted_vc": 0,
+        "cover_vertices": [],
+        "realized_actual_cover": [],
+        "normalized_minimum_actual_cover": [],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 1,
+      "all_edge_subsets_considered": 1,
+      "all_weighted_root_covers_realized": 1
+    },
+    "triangle_free_background": {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [],
+      "nu": 0,
+      "tau": 0,
+      "packing": [],
+      "cover": [],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [],
+        "edges_with_triangle_identity": [],
+        "mu": 0,
+        "weighted_vc": 0,
+        "cover_vertices": [],
+        "realized_actual_cover": [],
+        "normalized_minimum_actual_cover": [],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 1,
+      "all_edge_subsets_considered": 1,
+      "all_weighted_root_covers_realized": 1
+    },
+    "triangle": {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "nu": 1,
+      "tau": 1,
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [
+          [
+            [
+              "edge",
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              0,
+              2
+            ],
+            1
+          ]
+        ],
+        "edges_with_triangle_identity": [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              [
+                "edge",
+                0,
+                1
+              ],
+              [
+                "edge",
+                0,
+                2
+              ]
+            ]
+          ]
+        ],
+        "mu": 1,
+        "weighted_vc": 1,
+        "cover_vertices": [
+          [
+            "edge",
+            0,
+            1
+          ]
+        ],
+        "realized_actual_cover": [
+          [
+            0,
+            1
+          ]
+        ],
+        "normalized_minimum_actual_cover": [
+          [
+            "edge",
+            0,
+            1
+          ]
+        ],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 7,
+      "all_edge_subsets_considered": 8,
+      "all_weighted_root_covers_realized": 3
+    },
+    "diamond": {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "nu": 1,
+      "tau": 1,
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [
+          [
+            [
+              "edge",
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              0,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              0,
+              3
+            ],
+            1
+          ]
+        ],
+        "edges_with_triangle_identity": [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              [
+                "edge",
+                0,
+                1
+              ],
+              [
+                "edge",
+                0,
+                2
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              [
+                "edge",
+                0,
+                1
+              ],
+              [
+                "edge",
+                0,
+                3
+              ]
+            ]
+          ]
+        ],
+        "mu": 1,
+        "weighted_vc": 1,
+        "cover_vertices": [
+          [
+            "edge",
+            0,
+            1
+          ]
+        ],
+        "realized_actual_cover": [
+          [
+            0,
+            1
+          ]
+        ],
+        "normalized_minimum_actual_cover": [
+          [
+            "edge",
+            0,
+            1
+          ]
+        ],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 25,
+      "all_edge_subsets_considered": 32,
+      "all_weighted_root_covers_realized": 5
+    },
+    "K4": {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "nu": 1,
+      "tau": 2,
+      "packing": [
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [
+          [
+            [
+              "hub",
+              0,
+              1,
+              2,
+              3
+            ],
+            2
+          ],
+          [
+            [
+              "edge",
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              2,
+              3
+            ],
+            1
+          ]
+        ],
+        "edges_with_triangle_identity": [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ]
+        ],
+        "mu": 1,
+        "weighted_vc": 2,
+        "cover_vertices": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            2,
+            3
+          ]
+        ],
+        "realized_actual_cover": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "normalized_minimum_actual_cover": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            2,
+            3
+          ]
+        ],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 41,
+      "all_edge_subsets_considered": 64,
+      "all_weighted_root_covers_realized": 5
+    },
+    "K5": {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "nu": 2,
+      "tau": 4,
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [],
+        "edges_with_triangle_identity": [],
+        "mu": 0,
+        "weighted_vc": 0,
+        "cover_vertices": [],
+        "realized_actual_cover": [],
+        "normalized_minimum_actual_cover": [],
+        "exceptions": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "triangles": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "exceptional_line_root": [
+              [
+                0,
+                [
+                  3,
+                  4
+                ]
+              ],
+              [
+                1,
+                [
+                  2,
+                  4
+                ]
+              ],
+              [
+                2,
+                [
+                  2,
+                  3
+                ]
+              ],
+              [
+                3,
+                [
+                  1,
+                  4
+                ]
+              ],
+              [
+                4,
+                [
+                  1,
+                  3
+                ]
+              ],
+              [
+                5,
+                [
+                  1,
+                  2
+                ]
+              ],
+              [
+                6,
+                [
+                  0,
+                  4
+                ]
+              ],
+              [
+                7,
+                [
+                  0,
+                  3
+                ]
+              ],
+              [
+                8,
+                [
+                  0,
+                  2
+                ]
+              ],
+              [
+                9,
+                [
+                  0,
+                  1
+                ]
+              ]
+            ],
+            "type": "K5"
+          }
+        ]
+      },
+      "all_actual_cover_subsets_normalized": 1,
+      "all_edge_subsets_considered": 1,
+      "all_weighted_root_covers_realized": 1
+    },
+    "K5_minus_e": {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "nu": 2,
+      "tau": 3,
+      "packing": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [],
+        "edges_with_triangle_identity": [],
+        "mu": 0,
+        "weighted_vc": 0,
+        "cover_vertices": [],
+        "realized_actual_cover": [],
+        "normalized_minimum_actual_cover": [],
+        "exceptions": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "triangles": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "exceptional_line_root": [
+              [
+                0,
+                [
+                  3,
+                  4
+                ]
+              ],
+              [
+                1,
+                [
+                  2,
+                  4
+                ]
+              ],
+              [
+                2,
+                [
+                  2,
+                  3
+                ]
+              ],
+              [
+                3,
+                [
+                  1,
+                  4
+                ]
+              ],
+              [
+                4,
+                [
+                  1,
+                  3
+                ]
+              ],
+              [
+                5,
+                [
+                  0,
+                  4
+                ]
+              ],
+              [
+                6,
+                [
+                  0,
+                  3
+                ]
+              ]
+            ],
+            "type": "K5-e"
+          }
+        ]
+      },
+      "all_actual_cover_subsets_normalized": 1,
+      "all_edge_subsets_considered": 1,
+      "all_weighted_root_covers_realized": 1
+    },
+    "K5_background_path": {
+      "n": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "nu": 2,
+      "tau": 4,
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [],
+        "edges_with_triangle_identity": [],
+        "mu": 0,
+        "weighted_vc": 0,
+        "cover_vertices": [],
+        "realized_actual_cover": [],
+        "normalized_minimum_actual_cover": [],
+        "exceptions": [
+          {
+            "vertices": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "triangles": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "exceptional_line_root": [
+              [
+                0,
+                [
+                  3,
+                  4
+                ]
+              ],
+              [
+                1,
+                [
+                  2,
+                  4
+                ]
+              ],
+              [
+                2,
+                [
+                  2,
+                  3
+                ]
+              ],
+              [
+                3,
+                [
+                  1,
+                  4
+                ]
+              ],
+              [
+                4,
+                [
+                  1,
+                  3
+                ]
+              ],
+              [
+                5,
+                [
+                  1,
+                  2
+                ]
+              ],
+              [
+                6,
+                [
+                  0,
+                  4
+                ]
+              ],
+              [
+                7,
+                [
+                  0,
+                  3
+                ]
+              ],
+              [
+                8,
+                [
+                  0,
+                  2
+                ]
+              ],
+              [
+                9,
+                [
+                  0,
+                  1
+                ]
+              ]
+            ],
+            "type": "K5"
+          }
+        ]
+      },
+      "all_actual_cover_subsets_normalized": 1,
+      "all_edge_subsets_considered": 1,
+      "all_weighted_root_covers_realized": 1
+    },
+    "opposite_K4_pages": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "nu": 2,
+      "tau": 2,
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [
+          [
+            [
+              "hub",
+              0,
+              1,
+              2,
+              3
+            ],
+            2
+          ],
+          [
+            [
+              "edge",
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              2,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              0,
+              4
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              2,
+              5
+            ],
+            1
+          ]
+        ],
+        "edges_with_triangle_identity": [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              [
+                "edge",
+                0,
+                1
+              ],
+              [
+                "edge",
+                0,
+                4
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              2,
+              3,
+              5
+            ],
+            [
+              [
+                "edge",
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                5
+              ]
+            ]
+          ]
+        ],
+        "mu": 2,
+        "weighted_vc": 2,
+        "cover_vertices": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            2,
+            3
+          ]
+        ],
+        "realized_actual_cover": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "normalized_minimum_actual_cover": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            2,
+            3
+          ]
+        ],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 535,
+      "all_edge_subsets_considered": 1024,
+      "all_weighted_root_covers_realized": 13
+    },
+    "adjacent_K4_pages_negative": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "nu": 3,
+      "tau": 3,
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "claw_free": false,
+      "claw": [
+        0,
+        2,
+        4,
+        5
+      ]
+    },
+    "three_support_edges_negative": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "nu": 3,
+      "tau": 3,
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "claw_free": false,
+      "claw": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "K4s_share_edge": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "nu": 2,
+      "tau": 3,
+      "packing": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [
+          [
+            [
+              "hub",
+              0,
+              1,
+              2,
+              3
+            ],
+            2
+          ],
+          [
+            [
+              "edge",
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              2,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              "hub",
+              0,
+              1,
+              4,
+              5
+            ],
+            2
+          ],
+          [
+            [
+              "edge",
+              4,
+              5
+            ],
+            1
+          ]
+        ],
+        "edges_with_triangle_identity": [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              4
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                4,
+                5
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              5
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                4,
+                5
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              5
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                4,
+                5
+              ],
+              [
+                "edge",
+                4,
+                5
+              ]
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              1,
+              4,
+              5
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                4,
+                5
+              ],
+              [
+                "edge",
+                4,
+                5
+              ]
+            ]
+          ]
+        ],
+        "mu": 2,
+        "weighted_vc": 3,
+        "cover_vertices": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            2,
+            3
+          ],
+          [
+            "edge",
+            4,
+            5
+          ]
+        ],
+        "realized_actual_cover": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "normalized_minimum_actual_cover": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            2,
+            3
+          ],
+          [
+            "edge",
+            4,
+            5
+          ]
+        ],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 881,
+      "all_edge_subsets_considered": 2048,
+      "all_weighted_root_covers_realized": 13
+    },
+    "K4s_share_vertex": {
+      "n": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "nu": 2,
+      "tau": 4,
+      "packing": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [
+          [
+            [
+              "hub",
+              0,
+              1,
+              2,
+              3
+            ],
+            2
+          ],
+          [
+            [
+              "edge",
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              2,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              "hub",
+              0,
+              4,
+              5,
+              6
+            ],
+            2
+          ],
+          [
+            [
+              "edge",
+              0,
+              4
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              5,
+              6
+            ],
+            1
+          ]
+        ],
+        "edges_with_triangle_identity": [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              5
+            ],
+            [
+              [
+                "hub",
+                0,
+                4,
+                5,
+                6
+              ],
+              [
+                "edge",
+                0,
+                4
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              4,
+              6
+            ],
+            [
+              [
+                "hub",
+                0,
+                4,
+                5,
+                6
+              ],
+              [
+                "edge",
+                0,
+                4
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              5,
+              6
+            ],
+            [
+              [
+                "hub",
+                0,
+                4,
+                5,
+                6
+              ],
+              [
+                "edge",
+                5,
+                6
+              ]
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              [
+                "hub",
+                0,
+                4,
+                5,
+                6
+              ],
+              [
+                "edge",
+                5,
+                6
+              ]
+            ]
+          ]
+        ],
+        "mu": 2,
+        "weighted_vc": 4,
+        "cover_vertices": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            2,
+            3
+          ],
+          [
+            "edge",
+            0,
+            4
+          ],
+          [
+            "edge",
+            5,
+            6
+          ]
+        ],
+        "realized_actual_cover": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "normalized_minimum_actual_cover": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            0,
+            4
+          ],
+          [
+            "edge",
+            2,
+            3
+          ],
+          [
+            "edge",
+            5,
+            6
+          ]
+        ],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 1681,
+      "all_edge_subsets_considered": 4096,
+      "all_weighted_root_covers_realized": 25
+    },
+    "K4_chain_three": {
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          5,
+          7
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          5,
+          6,
+          7
+        ]
+      ],
+      "nu": 3,
+      "tau": 4,
+      "packing": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          5,
+          6,
+          7
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [
+          [
+            [
+              "hub",
+              0,
+              1,
+              2,
+              3
+            ],
+            2
+          ],
+          [
+            [
+              "edge",
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              2,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              "hub",
+              2,
+              3,
+              4,
+              5
+            ],
+            2
+          ],
+          [
+            [
+              "edge",
+              4,
+              5
+            ],
+            1
+          ],
+          [
+            [
+              "hub",
+              4,
+              5,
+              6,
+              7
+            ],
+            2
+          ],
+          [
+            [
+              "edge",
+              6,
+              7
+            ],
+            1
+          ]
+        ],
+        "edges_with_triangle_identity": [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                0,
+                1
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            [
+              [
+                "hub",
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              2,
+              3,
+              4
+            ],
+            [
+              [
+                "hub",
+                2,
+                3,
+                4,
+                5
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              2,
+              3,
+              5
+            ],
+            [
+              [
+                "hub",
+                2,
+                3,
+                4,
+                5
+              ],
+              [
+                "edge",
+                2,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              2,
+              4,
+              5
+            ],
+            [
+              [
+                "hub",
+                2,
+                3,
+                4,
+                5
+              ],
+              [
+                "edge",
+                4,
+                5
+              ]
+            ]
+          ],
+          [
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              [
+                "hub",
+                2,
+                3,
+                4,
+                5
+              ],
+              [
+                "edge",
+                4,
+                5
+              ]
+            ]
+          ],
+          [
+            [
+              4,
+              5,
+              6
+            ],
+            [
+              [
+                "hub",
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                "edge",
+                4,
+                5
+              ]
+            ]
+          ],
+          [
+            [
+              4,
+              5,
+              7
+            ],
+            [
+              [
+                "hub",
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                "edge",
+                4,
+                5
+              ]
+            ]
+          ],
+          [
+            [
+              4,
+              6,
+              7
+            ],
+            [
+              [
+                "hub",
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                "edge",
+                6,
+                7
+              ]
+            ]
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            [
+              [
+                "hub",
+                4,
+                5,
+                6,
+                7
+              ],
+              [
+                "edge",
+                6,
+                7
+              ]
+            ]
+          ]
+        ],
+        "mu": 3,
+        "weighted_vc": 4,
+        "cover_vertices": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            2,
+            3
+          ],
+          [
+            "edge",
+            4,
+            5
+          ],
+          [
+            "edge",
+            6,
+            7
+          ]
+        ],
+        "realized_actual_cover": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ],
+        "normalized_minimum_actual_cover": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            2,
+            3
+          ],
+          [
+            "edge",
+            4,
+            5
+          ],
+          [
+            "edge",
+            6,
+            7
+          ]
+        ],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 18992,
+      "all_edge_subsets_considered": 65536,
+      "all_weighted_root_covers_realized": 34
+    },
+    "ordinary_two_shared_edges": {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "nu": 2,
+      "tau": 2,
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [
+          [
+            [
+              "edge",
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              1,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              0,
+              3
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              1,
+              4
+            ],
+            1
+          ]
+        ],
+        "edges_with_triangle_identity": [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              [
+                "edge",
+                0,
+                1
+              ],
+              [
+                "edge",
+                1,
+                2
+              ]
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              3
+            ],
+            [
+              [
+                "edge",
+                0,
+                1
+              ],
+              [
+                "edge",
+                0,
+                3
+              ]
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              4
+            ],
+            [
+              [
+                "edge",
+                1,
+                2
+              ],
+              [
+                "edge",
+                1,
+                4
+              ]
+            ]
+          ]
+        ],
+        "mu": 2,
+        "weighted_vc": 2,
+        "cover_vertices": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            1,
+            2
+          ]
+        ],
+        "realized_actual_cover": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "normalized_minimum_actual_cover": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            1,
+            2
+          ]
+        ],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 89,
+      "all_edge_subsets_considered": 128,
+      "all_weighted_root_covers_realized": 8
+    },
+    "disjoint_triangles": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "nu": 2,
+      "tau": 2,
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "claw_free": true,
+      "claw": null,
+      "root": {
+        "vertices": [
+          [
+            [
+              "edge",
+              0,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              0,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              3,
+              4
+            ],
+            1
+          ],
+          [
+            [
+              "edge",
+              3,
+              5
+            ],
+            1
+          ]
+        ],
+        "edges_with_triangle_identity": [
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              [
+                "edge",
+                0,
+                1
+              ],
+              [
+                "edge",
+                0,
+                2
+              ]
+            ]
+          ],
+          [
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              [
+                "edge",
+                3,
+                4
+              ],
+              [
+                "edge",
+                3,
+                5
+              ]
+            ]
+          ]
+        ],
+        "mu": 2,
+        "weighted_vc": 2,
+        "cover_vertices": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            3,
+            4
+          ]
+        ],
+        "realized_actual_cover": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "normalized_minimum_actual_cover": [
+          [
+            "edge",
+            0,
+            1
+          ],
+          [
+            "edge",
+            3,
+            4
+          ]
+        ],
+        "exceptions": []
+      },
+      "all_actual_cover_subsets_normalized": 49,
+      "all_edge_subsets_considered": 64,
+      "all_weighted_root_covers_realized": 9
+    }
+  },
+  "elapsed_seconds": 2.313667082999018,
+  "limitations": "Finite checks only; universal proof is INDEPENDENT_PROOF_B.md. No random domain or huge enumeration implied."
+}

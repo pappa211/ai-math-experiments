@@ -1,0 +1,1702 @@
+{
+  "edition": "2026-11-03",
+  "packet_labels": {
+    "11d": "TUZA-11 discovery",
+    "11v": "TUZA-11 verification",
+    "11l": "TUZA-11 Liu follow-up",
+    "12d": "TUZA-12 discovery",
+    "12v": "TUZA-12 verification",
+    "13d": "TUZA-13 finite packet",
+    "14d": "TUZA-14 discovery",
+    "14bd": "TUZA-14B discovery",
+    "14bv": "TUZA-14B verification",
+    "15d": "TUZA-15 discovery",
+    "15v": "TUZA-15 independent verification"
+  },
+  "scope": "Complete selected ordinary proofs, claim-critical supporting arguments, witnesses, exact finite certificates and historical literal data. Private source locations/revisions and operational histories are excluded.",
+  "omissions": "Full third-party articles/ZIPs, operational reviews/logs, redundant discovery census launchers, native binaries/caches and transient intermediates are omitted. Public independent checkers, literal census ledgers and exact witnesses support the stated reproduction scope.",
+  "authored_material": "New report, navigation/guides, driver and publication receipts are authored continuation material. The builder adapts existing public Pandoc/Tectonic conventions; manuscript.md is canonical. Root FILES.sha256 covers all current artifacts; this manifest excludes itself and current release inventories to avoid cycles.",
+  "fresh_result_manifest": "verification/tuza-11-15/FINITE_EVIDENCE_MANIFEST.json",
+  "entries": [
+    {
+      "packet": "11d",
+      "source_file": "arguments/FLAT_GLUING_AND_KERNEL.md",
+      "source_sha256": "536b23719bf4c6734694f58ed075cd4809ca11f3f3ef4049a93fb5560932b15e",
+      "public_path": "problems/TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md",
+      "public_sha256": "536b23719bf4c6734694f58ed075cd4809ca11f3f3ef4049a93fb5560932b15e",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "11d",
+      "source_file": "arguments/CLEBSCH_PRIVATE_OBSTRUCTION.md",
+      "source_sha256": "61900f98b6cb47f9446c0d1786c9c3dfd18bff24238a3c536ff0edd0e0ef0506",
+      "public_path": "problems/TUZA-11/arguments/CLEBSCH_PRIVATE_OBSTRUCTION.md",
+      "public_sha256": "61900f98b6cb47f9446c0d1786c9c3dfd18bff24238a3c536ff0edd0e0ef0506",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "11d",
+      "source_file": "arguments/NESTED_APEX_LIST_COLORING.md",
+      "source_sha256": "17060547ef11ad6f1e679cf9900d979f021985083b3abf4b9af17df38eaf4a0b",
+      "public_path": "problems/TUZA-11/arguments/NESTED_APEX_LIST_COLORING.md",
+      "public_sha256": "17060547ef11ad6f1e679cf9900d979f021985083b3abf4b9af17df38eaf4a0b",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "11d",
+      "source_file": "evidence/CLEBSCH_PRIVATE_OBSTRUCTION.json",
+      "source_sha256": "3d00709e66f9850ddb37e6ba35785c22fb6441f8b451e1ad839d7dbbc1fac896",
+      "public_path": "problems/TUZA-11/evidence/CLEBSCH_PRIVATE_OBSTRUCTION.json",
+      "public_sha256": "3d00709e66f9850ddb37e6ba35785c22fb6441f8b451e1ad839d7dbbc1fac896",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "11d",
+      "source_file": "evidence/KERNEL_LEAF_PROBE.json",
+      "source_sha256": "4228e4c58153b5c337c23403723cd04022cea4345cebe8dbd0a52e31cd2f911f",
+      "public_path": "problems/TUZA-11/evidence/KERNEL_LEAF_PROBE.json",
+      "public_sha256": "4228e4c58153b5c337c23403723cd04022cea4345cebe8dbd0a52e31cd2f911f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "11d",
+      "source_file": "evidence/NESTED_SATURATION_OBSTRUCTION.json",
+      "source_sha256": "a39c7f0c46133c39f3ccf54255479a673fcb291176c8d05da52bd80d8369761f",
+      "public_path": "problems/TUZA-11/evidence/NESTED_SATURATION_OBSTRUCTION.json",
+      "public_sha256": "a39c7f0c46133c39f3ccf54255479a673fcb291176c8d05da52bd80d8369761f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "11v",
+      "source_file": "PROOF_RECONSTRUCTION.md",
+      "source_sha256": "8083e3e40a180901909593192c6940492c2eb12d0585293bbc06d7bd152a277e",
+      "public_path": "problems/TUZA-11/verification/PROOF_RECONSTRUCTION.md",
+      "public_sha256": "cf3f27fa23ebdb5136d29ddd0ef8ed465fb4d760f98e7d99de3617ecd8b36655",
+      "transformation": [
+        "Retained complete mathematical sections; omitted final pre-critic administrative verdict.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "11v",
+      "source_file": "scripts/independent_check.py",
+      "source_sha256": "77b221c316d3d1c5d635a4879c30531bddad1bab6d9b6af771b5dd868bc45400",
+      "public_path": "problems/TUZA-11/checks/independent_check.py",
+      "public_sha256": "2edca3a81e1b8752dcbeb99e84c273d6520d19cb638c369a4834166a4db68e64",
+      "transformation": [
+        "Resolved source constants to public sibling paths; math validators and assertions retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "11v",
+      "source_file": "scripts/auxiliary_check.py",
+      "source_sha256": "529ef938fc791e6230dfcf4c60f7f296308fbc0826dc784a5318baeb8ad43997",
+      "public_path": "problems/TUZA-11/checks/auxiliary_check.py",
+      "public_sha256": "529ef938fc791e6230dfcf4c60f7f296308fbc0826dc784a5318baeb8ad43997",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "11l",
+      "source_file": "FIVE_EDGE_GLUING_COROLLARY.md",
+      "source_sha256": "b531576a3559037732b83a6c7667c91b65f030777799bf64ee766f55f253fcad",
+      "public_path": "problems/TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md",
+      "public_sha256": "2db07ea6e601403e6c1b2579f5486c297f37c53ad362a0df09d52e93067ab2b8",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "11l",
+      "source_file": "CLASS9_TABLE_ERRATUM.md",
+      "source_sha256": "b811417a1b8e1de7817e45a0315354ddc0190c5cbe4740e3ea1f781cb1b49a64",
+      "public_path": "problems/TUZA-11/external/CLASS9_TABLE_ERRATUM.md",
+      "public_sha256": "b811417a1b8e1de7817e45a0315354ddc0190c5cbe4740e3ea1f781cb1b49a64",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "11l",
+      "source_file": "LIU_ANALYTIC_PROOF_AUDIT.md",
+      "source_sha256": "225c35b8704dc679cf461104673608286b1f37761b6f42afd888050d925501c2",
+      "public_path": "problems/TUZA-11/external/LIU_ANALYTIC_PROOF_AUDIT.md",
+      "public_sha256": "225c35b8704dc679cf461104673608286b1f37761b6f42afd888050d925501c2",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "12v",
+      "source_file": "INDEPENDENT_PROOF_A.md",
+      "source_sha256": "9c2da4790a05a1e376cbe8f3395b4cf967d9c3f9586fe529fbe148160dde9bd3",
+      "public_path": "problems/TUZA-12/INDEPENDENT_PROOF_A.md",
+      "public_sha256": "791a4e184ab4a99d2ff5966160c957f039e1e7b4e4b734cf4a924be557333947",
+      "transformation": [
+        "Omitted operational initial-disposition/access framing; kept full existence proof and finite scope.",
+        "Replaced obsolete private launcher block with tested repository-root public command; historical mathematical result counts retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "12v",
+      "source_file": "INDEPENDENT_PROOF_B.md",
+      "source_sha256": "595b61c1af91f7b93653610d2cee23905f41832792241e4d58fb8b33b051b3d2",
+      "public_path": "problems/TUZA-12/INDEPENDENT_PROOF_B.md",
+      "public_sha256": "cad4d1d1f679fa8899bd31c18f3cebb4604c16c35bd899c8d7c74f426e8b5eda",
+      "transformation": [
+        "Omitted final initial-audit access/limitations section; kept full root/weighted-cover proof and finite scope.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits.",
+        "Publication critic repair: removed obsolete private launch/access framing; linked supported public reproduction and shipped receipts. Mathematical proof/counts unchanged."
+      ]
+    },
+    {
+      "packet": "12d",
+      "source_file": "notes/WEIGHTED_ROOT_LEMMA.md",
+      "source_sha256": "9f195ec867043a4fbc6b508dfb0ba37413bec5f4d70ebbc69f5a675a5b83edcb",
+      "public_path": "problems/TUZA-12/notes/WEIGHTED_ROOT_LEMMA.md",
+      "public_sha256": "9f195ec867043a4fbc6b508dfb0ba37413bec5f4d70ebbc69f5a675a5b83edcb",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "12d",
+      "source_file": "notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md",
+      "source_sha256": "c3613267623fe025f398ef95c92f49c6c425e3e703984961555ef7a755eceb62",
+      "public_path": "problems/TUZA-12/notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md",
+      "public_sha256": "c3613267623fe025f398ef95c92f49c6c425e3e703984961555ef7a755eceb62",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "12v",
+      "source_file": "checks/check_a.py",
+      "source_sha256": "7d244dd9acc0b14794c5c1189fbdbc1f592ea6429938680e40747f20bcaeabff",
+      "public_path": "problems/TUZA-12/checks/check_a.py",
+      "public_sha256": "3d6f0ed9ec951baa4cf9e6ce94d3cc125224bff362eaac54cb7d74b6335da3cb",
+      "transformation": [
+        "Removed private administrative file-hash cross-check block; all finite/probability computations retained.",
+        "Resolved source constants to public sibling paths; math validators and assertions retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "12v",
+      "source_file": "checks/check_b.py",
+      "source_sha256": "3141ac09b8515c0b7e3bfa508caf6ccf97d40dae86c9b93c85b552d905b4386b",
+      "public_path": "problems/TUZA-12/checks/check_b.py",
+      "public_sha256": "3141ac09b8515c0b7e3bfa508caf6ccf97d40dae86c9b93c85b552d905b4386b",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "12v",
+      "source_file": "checks/check_c.py",
+      "source_sha256": "3a2676f85fbc19db9c16b458a6dde22121a4af43a1758d60c7dcf5c6e400870b",
+      "public_path": "problems/TUZA-12/checks/check_c.py",
+      "public_sha256": "3a2676f85fbc19db9c16b458a6dde22121a4af43a1758d60c7dcf5c6e400870b",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "12v",
+      "source_file": "checks/check_weighted.py",
+      "source_sha256": "dba73ee8031fd76acc9030e6788e87f1ef36b008fa5eae5b9c1f1dafdbd0c7a4",
+      "public_path": "problems/TUZA-12/checks/check_weighted.py",
+      "public_sha256": "dba73ee8031fd76acc9030e6788e87f1ef36b008fa5eae5b9c1f1dafdbd0c7a4",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "12d",
+      "source_file": "experiments/B_labelled_root_certificates.json",
+      "source_sha256": "0ae4692c489b4e33552a035c03e66a0379a2e6f89fbccc53856189c407f6bbb1",
+      "public_path": "problems/TUZA-12/experiments/B_labelled_root_certificates.json",
+      "public_sha256": "0ae4692c489b4e33552a035c03e66a0379a2e6f89fbccc53856189c407f6bbb1",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "12d",
+      "source_file": "experiments/C_four_port_probe.json",
+      "source_sha256": "3c8cd3063aa23138d4a44058dc036ec9fc55fb6337a58199da6afbf456386577",
+      "public_path": "problems/TUZA-12/experiments/C_four_port_probe.json",
+      "public_sha256": "3c8cd3063aa23138d4a44058dc036ec9fc55fb6337a58199da6afbf456386577",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "12d",
+      "source_file": "experiments/A_probabilistic_parameters.json",
+      "source_sha256": "738135f57ec576a97cb4a5ca5e05f53b49855a3a9adfbea3630745f7bf2505ec",
+      "public_path": "problems/TUZA-12/experiments/A_probabilistic_parameters.json",
+      "public_sha256": "738135f57ec576a97cb4a5ca5e05f53b49855a3a9adfbea3630745f7bf2505ec",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "SEARCH_COVERAGE.json",
+      "source_sha256": "032f12d6bb9be6e0d13089f54f173d7a1e7b4447a7b48655fb95d853a1c0bcd5",
+      "public_path": "problems/TUZA-13/SEARCH_COVERAGE.json",
+      "public_sha256": "032f12d6bb9be6e0d13089f54f173d7a1e7b4447a7b48655fb95d853a1c0bcd5",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/core.py",
+      "source_sha256": "7d15768f57322e666fb484d3a286853a898d0b9611804c7de322f165ca1797fe",
+      "public_path": "problems/TUZA-13/checks/core.py",
+      "public_sha256": "7d15768f57322e666fb484d3a286853a898d0b9611804c7de322f165ca1797fe",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/critical_search.py",
+      "source_sha256": "5416c06d9ab64f5dec923c3cf0d0a3fa4842d1b8777fdf8706c001d8c3b57b08",
+      "public_path": "problems/TUZA-13/checks/critical_search.py",
+      "public_sha256": "5416c06d9ab64f5dec923c3cf0d0a3fa4842d1b8777fdf8706c001d8c3b57b08",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/focused_search.py",
+      "source_sha256": "b11f13e6fcf9ac211d5b5f654c341110a24b94f6c8632982b2b9dd13d0357425",
+      "public_path": "problems/TUZA-13/checks/focused_search.py",
+      "public_sha256": "b11f13e6fcf9ac211d5b5f654c341110a24b94f6c8632982b2b9dd13d0357425",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/hostile_families.py",
+      "source_sha256": "8e408e2377e0c1f380ad14e4efe5a785fc195159560dfd0930ec35be34ec534c",
+      "public_path": "problems/TUZA-13/checks/hostile_families.py",
+      "public_sha256": "8e408e2377e0c1f380ad14e4efe5a785fc195159560dfd0930ec35be34ec534c",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/hostile_multiapex.py",
+      "source_sha256": "4f5478a9d6c73ae066ea0570876824ecfcadf920965a4ed715bd0b123edb8666",
+      "public_path": "problems/TUZA-13/checks/hostile_multiapex.py",
+      "public_sha256": "4f5478a9d6c73ae066ea0570876824ecfcadf920965a4ed715bd0b123edb8666",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/hostile_rooted.py",
+      "source_sha256": "57ca7d651e3cad111753b945d976a11620415c569ba95697e8f5a2c421f559e9",
+      "public_path": "problems/TUZA-13/checks/hostile_rooted.py",
+      "public_sha256": "57ca7d651e3cad111753b945d976a11620415c569ba95697e8f5a2c421f559e9",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/hostile_unequal_c5.py",
+      "source_sha256": "b0fc601d035ca1e8f0daaa00d50849521fa623ea5a71d4d4aefd100bfa610c5c",
+      "public_path": "problems/TUZA-13/checks/hostile_unequal_c5.py",
+      "public_sha256": "b0fc601d035ca1e8f0daaa00d50849521fa623ea5a71d4d4aefd100bfa610c5c",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/hostile_unequal_cycles.py",
+      "source_sha256": "40571856b5c9e840ccb37a1e798a39a4daa4cfa5c7496b713e0b9a54bb7ed9de",
+      "public_path": "problems/TUZA-13/checks/hostile_unequal_cycles.py",
+      "public_sha256": "40571856b5c9e840ccb37a1e798a39a4daa4cfa5c7496b713e0b9a54bb7ed9de",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/independent.py",
+      "source_sha256": "404aff36f6de09e68cc43376a93b34b2eeb3c08ac62f18b66a5c46c3b59cf8fe",
+      "public_path": "problems/TUZA-13/checks/independent.py",
+      "public_sha256": "404aff36f6de09e68cc43376a93b34b2eeb3c08ac62f18b66a5c46c3b59cf8fe",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/independent_auxiliary.py",
+      "source_sha256": "4dc0ff6fbb3aacfe5da2a36806018427ffa185b6f06de5890fa0c531e830683f",
+      "public_path": "problems/TUZA-13/checks/independent_auxiliary.py",
+      "public_sha256": "4dc0ff6fbb3aacfe5da2a36806018427ffa185b6f06de5890fa0c531e830683f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/independent_clique_thresholds.py",
+      "source_sha256": "ed8fe66c892d5676b0263d10364f89442d5fa6c6aef29abe0015585dcbc52b60",
+      "public_path": "problems/TUZA-13/checks/independent_clique_thresholds.py",
+      "public_sha256": "ed8fe66c892d5676b0263d10364f89442d5fa6c6aef29abe0015585dcbc52b60",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/independent_core_audit.py",
+      "source_sha256": "d8d6fea1b6f2e75194f0ca0efaaf969ef265891a66512cdfa3ce4e6ea99a4587",
+      "public_path": "problems/TUZA-13/checks/independent_core_audit.py",
+      "public_sha256": "d8d6fea1b6f2e75194f0ca0efaaf969ef265891a66512cdfa3ce4e6ea99a4587",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/independent_nearest.py",
+      "source_sha256": "bf4b955a2539e037f3ec26c00b69ba24562e085dbfc919422eb1d47847b88c93",
+      "public_path": "problems/TUZA-13/checks/independent_nearest.py",
+      "public_sha256": "bf4b955a2539e037f3ec26c00b69ba24562e085dbfc919422eb1d47847b88c93",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/independent_scope_audit.py",
+      "source_sha256": "65918cf97848375d23694b40c0fed0cd2d62f2c518a667da2bfe3cdcd9010279",
+      "public_path": "problems/TUZA-13/checks/independent_scope_audit.py",
+      "public_sha256": "65918cf97848375d23694b40c0fed0cd2d62f2c518a667da2bfe3cdcd9010279",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/independent_unequal_audit.py",
+      "source_sha256": "a999b056139caa2dabeb3e02aa45f8b26b03b8c974e1c8fb1dccf2e7403aec51",
+      "public_path": "problems/TUZA-13/checks/independent_unequal_audit.py",
+      "public_sha256": "a999b056139caa2dabeb3e02aa45f8b26b03b8c974e1c8fb1dccf2e7403aec51",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/search.py",
+      "source_sha256": "3ba42d39d849a4694d0b03b0fd433a8394d6ff758c7b77956792424edd40cd90",
+      "public_path": "problems/TUZA-13/checks/search.py",
+      "public_sha256": "3ba42d39d849a4694d0b03b0fd433a8394d6ff758c7b77956792424edd40cd90",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/summarize.py",
+      "source_sha256": "918a1af28b0351609191b63ec4d2ea0bf2ec073b6728700559fca8292b5b12c3",
+      "public_path": "problems/TUZA-13/checks/summarize.py",
+      "public_sha256": "918a1af28b0351609191b63ec4d2ea0bf2ec073b6728700559fca8292b5b12c3",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/theory_bud_candidates.py",
+      "source_sha256": "f530dcd49420e6889048c333d8182c0ce7f83d471e013129a435673bea553ec5",
+      "public_path": "problems/TUZA-13/checks/theory_bud_candidates.py",
+      "public_sha256": "f530dcd49420e6889048c333d8182c0ce7f83d471e013129a435673bea553ec5",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/theory_bud_search.py",
+      "source_sha256": "e7d6bc9a8d6246c06507a37cb5a25bb3bee6ca5f3a790d2d872208d33b63df4d",
+      "public_path": "problems/TUZA-13/checks/theory_bud_search.py",
+      "public_sha256": "e7d6bc9a8d6246c06507a37cb5a25bb3bee6ca5f3a790d2d872208d33b63df4d",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/theory_exchange_probe.py",
+      "source_sha256": "5a4b2eae5dd28a6f0e7604cef8b6df6820bf78cebf47fc79a9d052996e83c0bf",
+      "public_path": "problems/TUZA-13/checks/theory_exchange_probe.py",
+      "public_sha256": "5a4b2eae5dd28a6f0e7604cef8b6df6820bf78cebf47fc79a9d052996e83c0bf",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/theory_minimize.py",
+      "source_sha256": "6c03f83a4bf541b5036abd165438126af52f530e6b5ac405aa82708bc3fc2d32",
+      "public_path": "problems/TUZA-13/checks/theory_minimize.py",
+      "public_sha256": "6c03f83a4bf541b5036abd165438126af52f530e6b5ac405aa82708bc3fc2d32",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/theory_reduction_checks.py",
+      "source_sha256": "6d1e1cd5f31ef5e390a2166eb70c07a230f04d8ec54a3791a568cee887b0e0ec",
+      "public_path": "problems/TUZA-13/checks/theory_reduction_checks.py",
+      "public_sha256": "6d1e1cd5f31ef5e390a2166eb70c07a230f04d8ec54a3791a568cee887b0e0ec",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "checks/theory_small_certificates.py",
+      "source_sha256": "e54263944408338307f89dfcee7185afaa1005ec6d5b2d2eff185e1b55e74bf2",
+      "public_path": "problems/TUZA-13/checks/theory_small_certificates.py",
+      "public_sha256": "e54263944408338307f89dfcee7185afaa1005ec6d5b2d2eff185e1b55e74bf2",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/COMPRESSION.json",
+      "source_sha256": "9dbcbd71063e291e4effdc25942a904a1a036b769ba51782a3b2f895fd181376",
+      "public_path": "problems/TUZA-13/evidence/COMPRESSION.json",
+      "public_sha256": "9dbcbd71063e291e4effdc25942a904a1a036b769ba51782a3b2f895fd181376",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/critical_search.jsonl.gz",
+      "source_sha256": "f2030bc30d3c64494ce80f4c0261593604c8af7c509291fb8a153787b3875fd8",
+      "public_path": "problems/TUZA-13/evidence/critical_search.jsonl.gz",
+      "public_sha256": "f2030bc30d3c64494ce80f4c0261593604c8af7c509291fb8a153787b3875fd8",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/critical_search_summary.json",
+      "source_sha256": "7ef290f05ef83d5f27fa516e4719f39a7feaa2a3317ebb5da0170a1401267c68",
+      "public_path": "problems/TUZA-13/evidence/critical_search_summary.json",
+      "public_sha256": "7ef290f05ef83d5f27fa516e4719f39a7feaa2a3317ebb5da0170a1401267c68",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/hostile_C5_apices4_graphs.jsonl.gz",
+      "source_sha256": "ec74d77e94876e1380c60288a6d6fff3df386973c23f0a591ae66aa61a6e7d96",
+      "public_path": "problems/TUZA-13/evidence/hostile_C5_apices4_graphs.jsonl.gz",
+      "public_sha256": "ec74d77e94876e1380c60288a6d6fff3df386973c23f0a591ae66aa61a6e7d96",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/hostile_C5_apices4_summary.json",
+      "source_sha256": "54780c179a10adb920662795f2b762f08b20c900ef867ae8956de437a9433ccb",
+      "public_path": "problems/TUZA-13/evidence/hostile_C5_apices4_summary.json",
+      "public_sha256": "54780c179a10adb920662795f2b762f08b20c900ef867ae8956de437a9433ccb",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/hostile_C7_apices2_graphs.jsonl.gz",
+      "source_sha256": "0e2d91b6fed4434d978e5bd9e758c921bfab99ebfbc7639add098dea2400cf2f",
+      "public_path": "problems/TUZA-13/evidence/hostile_C7_apices2_graphs.jsonl.gz",
+      "public_sha256": "0e2d91b6fed4434d978e5bd9e758c921bfab99ebfbc7639add098dea2400cf2f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/hostile_C7_apices2_summary.json",
+      "source_sha256": "e9c90319e887a0172e0cb7f61907dc6a99014b79c8adac80997160c0763e9b89",
+      "public_path": "problems/TUZA-13/evidence/hostile_C7_apices2_summary.json",
+      "public_sha256": "e9c90319e887a0172e0cb7f61907dc6a99014b79c8adac80997160c0763e9b89",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/hostile_C7_apices3_graphs.jsonl.gz",
+      "source_sha256": "e133124c94db746846993fc2616ecc8c3f02b85e9571ea6002337eba0d2268d7",
+      "public_path": "problems/TUZA-13/evidence/hostile_C7_apices3_graphs.jsonl.gz",
+      "public_sha256": "e133124c94db746846993fc2616ecc8c3f02b85e9571ea6002337eba0d2268d7",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/hostile_C7_apices3_summary.json",
+      "source_sha256": "69da6118c8b7b8b2dd638c558bc8666bc6f8aad6185b010a66515a89a6879841",
+      "public_path": "problems/TUZA-13/evidence/hostile_C7_apices3_summary.json",
+      "public_sha256": "69da6118c8b7b8b2dd638c558bc8666bc6f8aad6185b010a66515a89a6879841",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/hostile_cone_summary.json",
+      "source_sha256": "ae0895106641657d7cd4c83c37d8bcfecb9cfffbad433b6bc065116004eadae2",
+      "public_path": "problems/TUZA-13/evidence/hostile_cone_summary.json",
+      "public_sha256": "ae0895106641657d7cd4c83c37d8bcfecb9cfffbad433b6bc065116004eadae2",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/independent_nearest_summary.json",
+      "source_sha256": "1e96e8be54a54c70e3970472a0726abfc960fe21fde896928447ac753eb7213a",
+      "public_path": "problems/TUZA-13/evidence/independent_nearest_summary.json",
+      "public_sha256": "1e96e8be54a54c70e3970472a0726abfc960fe21fde896928447ac753eb7213a",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_blue.jsonl",
+      "source_sha256": "2d0f56323c9196ef6af54bb0640c1bc10af2c648ad7b6e5c94086048791fb424",
+      "public_path": "problems/TUZA-13/evidence/search_blue.jsonl",
+      "public_sha256": "2d0f56323c9196ef6af54bb0640c1bc10af2c648ad7b6e5c94086048791fb424",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_blue_summary.json",
+      "source_sha256": "785c5349e4f16ef34bf63d8db178c82e958401177e7437cd60d29708b7e18319",
+      "public_path": "problems/TUZA-13/evidence/search_blue_summary.json",
+      "public_sha256": "785c5349e4f16ef34bf63d8db178c82e958401177e7437cd60d29708b7e18319",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_controls.jsonl",
+      "source_sha256": "c2cde256505f7ead00c1eb82cc901a4dc5ad31d74ade4b53f430be31d63edd67",
+      "public_path": "problems/TUZA-13/evidence/search_controls.jsonl",
+      "public_sha256": "c2cde256505f7ead00c1eb82cc901a4dc5ad31d74ade4b53f430be31d63edd67",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_controls_summary.json",
+      "source_sha256": "ae29ffa35b3237f8e642f907957fe90ff60546d1b9c2319b78febb554193c238",
+      "public_path": "problems/TUZA-13/evidence/search_controls_summary.json",
+      "public_sha256": "ae29ffa35b3237f8e642f907957fe90ff60546d1b9c2319b78febb554193c238",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_dense.jsonl",
+      "source_sha256": "e2cc3e891f8a1a96794716acf9252f9fe08a948ce8cd4dd84a682826bbc301f8",
+      "public_path": "problems/TUZA-13/evidence/search_dense.jsonl",
+      "public_sha256": "e2cc3e891f8a1a96794716acf9252f9fe08a948ce8cd4dd84a682826bbc301f8",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_dense_summary.json",
+      "source_sha256": "66365f553ce4d86df957fafa3d8c1397bb812c8fc0855d0675f8773e8af43480",
+      "public_path": "problems/TUZA-13/evidence/search_dense_summary.json",
+      "public_sha256": "66365f553ce4d86df957fafa3d8c1397bb812c8fc0855d0675f8773e8af43480",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_focused.jsonl.gz",
+      "source_sha256": "4d77cb1971f594c0fddb85c70eb7cdf81fa0525e1cac0006e95879aa1af89df6",
+      "public_path": "problems/TUZA-13/evidence/search_focused.jsonl.gz",
+      "public_sha256": "4d77cb1971f594c0fddb85c70eb7cdf81fa0525e1cac0006e95879aa1af89df6",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_focused_summary.json",
+      "source_sha256": "d6a70e8c911d90038b96c051384d7c5a4a0b66258c42b79aeb90e676ff4bb60f",
+      "public_path": "problems/TUZA-13/evidence/search_focused_summary.json",
+      "public_sha256": "d6a70e8c911d90038b96c051384d7c5a4a0b66258c42b79aeb90e676ff4bb60f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_hostile.jsonl",
+      "source_sha256": "54876e8fafbc091954e1933364d687596f4409c4543c937b8031768c18b127e9",
+      "public_path": "problems/TUZA-13/evidence/search_hostile.jsonl",
+      "public_sha256": "54876e8fafbc091954e1933364d687596f4409c4543c937b8031768c18b127e9",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_hostile_summary.json",
+      "source_sha256": "e400dc7df21e603bf403dc2662c95ed88754bd74b0b6fc12d2827c78f779ad73",
+      "public_path": "problems/TUZA-13/evidence/search_hostile_summary.json",
+      "public_sha256": "e400dc7df21e603bf403dc2662c95ed88754bd74b0b6fc12d2827c78f779ad73",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_restoration.jsonl",
+      "source_sha256": "fc1e17e8708c0ba093791e78c69b92243976e4a6c3ea6022df7701cf39aff326",
+      "public_path": "problems/TUZA-13/evidence/search_restoration.jsonl",
+      "public_sha256": "fc1e17e8708c0ba093791e78c69b92243976e4a6c3ea6022df7701cf39aff326",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_restoration_summary.json",
+      "source_sha256": "3dd1d73ba7b76bb40e5498d293fbf3492db801dcf07314f919fe6f316f3ef9c6",
+      "public_path": "problems/TUZA-13/evidence/search_restoration_summary.json",
+      "public_sha256": "3dd1d73ba7b76bb40e5498d293fbf3492db801dcf07314f919fe6f316f3ef9c6",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_theory_buds.jsonl",
+      "source_sha256": "b83271f391caa43cf7dd9e0ed33a1568fb8014e720640179b61401c3f5c159fc",
+      "public_path": "problems/TUZA-13/evidence/search_theory_buds.jsonl",
+      "public_sha256": "b83271f391caa43cf7dd9e0ed33a1568fb8014e720640179b61401c3f5c159fc",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/search_theory_buds_summary.json",
+      "source_sha256": "dec525daebee4879e62624a3ccbdea68ed83b8921561c76d588833fb5711b7a4",
+      "public_path": "problems/TUZA-13/evidence/search_theory_buds_summary.json",
+      "public_sha256": "dec525daebee4879e62624a3ccbdea68ed83b8921561c76d588833fb5711b7a4",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "notes/HOSTILE_FAMILIES.md",
+      "source_sha256": "58ae9f9682ddd39795fbe7d9fa11f9ecddf332c91d8a2336a5538d3149cd3fc5",
+      "public_path": "problems/TUZA-13/notes/HOSTILE_FAMILIES.md",
+      "public_sha256": "4a9061e189a5665168a5d3a94c2eb09faaa6b6e479d8c52b67b962c0883905d9",
+      "transformation": [
+        "Replaced obsolete private launcher block with tested repository-root public command; historical mathematical result counts retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits.",
+        "Publication critic repair: explicitly separated historical census/generator scope from selected current replay; optional generator commands remain relative to a scratch copy; proof/counts unchanged."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "notes/INDEPENDENT_CLIQUE_AND_CONE_LEMMAS.md",
+      "source_sha256": "af828009ce2bbabf9cd17be498619195d90e1fcde4b190695e8cd56a026ca81b",
+      "public_path": "problems/TUZA-13/notes/INDEPENDENT_CLIQUE_AND_CONE_LEMMAS.md",
+      "public_sha256": "af828009ce2bbabf9cd17be498619195d90e1fcde4b190695e8cd56a026ca81b",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "notes/INDEPENDENT_NEAREST_MISS.md",
+      "source_sha256": "d859cffac3bd608835d9c24738aaf7f4f670a17def18db28c1f6969edb7f5767",
+      "public_path": "problems/TUZA-13/notes/INDEPENDENT_NEAREST_MISS.md",
+      "public_sha256": "d859cffac3bd608835d9c24738aaf7f4f670a17def18db28c1f6969edb7f5767",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "notes/STRUCTURAL_ATTACK.md",
+      "source_sha256": "61fc3b448a7a6c2ab873f063f52611a0e41e6d4c87c3f4331d56a4a53d430339",
+      "public_path": "problems/TUZA-13/notes/STRUCTURAL_ATTACK.md",
+      "public_sha256": "f35645ac0b7095c461a1f303b7e8d0e382faf84313e4831c00435b843b388466",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits.",
+        "Publication critic repair: removed obsolete private launch/access framing; linked supported public reproduction and shipped receipts. Mathematical proof/counts unchanged."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/clebsch_two_red_required.json",
+      "source_sha256": "f8840ca58fffd50acd96b93970f6590738436592863fbaeb995b90f1f3eeae55",
+      "public_path": "problems/TUZA-13/witnesses/clebsch_two_red_required.json",
+      "public_sha256": "f8840ca58fffd50acd96b93970f6590738436592863fbaeb995b90f1f3eeae55",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/hostile_C5_apices4_nearest.json",
+      "source_sha256": "06b6da1b42dfd3ddee1eb273d111218a93ca609b8200c734849d91f86c6e72f3",
+      "public_path": "problems/TUZA-13/witnesses/hostile_C5_apices4_nearest.json",
+      "public_sha256": "06b6da1b42dfd3ddee1eb273d111218a93ca609b8200c734849d91f86c6e72f3",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/hostile_C5_cone.json",
+      "source_sha256": "c202e2118342a6cb3b72b84f3794cf14c1cf6c1f1d11373cb7376e5b5841bb25",
+      "public_path": "problems/TUZA-13/witnesses/hostile_C5_cone.json",
+      "public_sha256": "c202e2118342a6cb3b72b84f3794cf14c1cf6c1f1d11373cb7376e5b5841bb25",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/hostile_C7_apices2_nearest.json",
+      "source_sha256": "2abd4bcc36d538a82d1e0808c54f2bb24cf89eaaaf4170f80ec265cd39bfe80f",
+      "public_path": "problems/TUZA-13/witnesses/hostile_C7_apices2_nearest.json",
+      "public_sha256": "2abd4bcc36d538a82d1e0808c54f2bb24cf89eaaaf4170f80ec265cd39bfe80f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/hostile_C7_apices3_nearest.json",
+      "source_sha256": "b4ceae10e07d953c01f7f80b7a8d8be78479d60f75f2a9a1f5b776317e1109a3",
+      "public_path": "problems/TUZA-13/witnesses/hostile_C7_apices3_nearest.json",
+      "public_sha256": "b4ceae10e07d953c01f7f80b7a8d8be78479d60f75f2a9a1f5b776317e1109a3",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/hostile_Clebsch_cone.json",
+      "source_sha256": "629ab8be98c93a941d6656815e1a552305aff2cadd0fb44874ff6fcf18551fe7",
+      "public_path": "problems/TUZA-13/witnesses/hostile_Clebsch_cone.json",
+      "public_sha256": "629ab8be98c93a941d6656815e1a552305aff2cadd0fb44874ff6fcf18551fe7",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/hostile_Petersen_cone.json",
+      "source_sha256": "d5c353c6e9761e42d95e1634e48a39f00cb307c40a57d4ee59150b0fc748ca43",
+      "public_path": "problems/TUZA-13/witnesses/hostile_Petersen_cone.json",
+      "public_sha256": "d5c353c6e9761e42d95e1634e48a39f00cb307c40a57d4ee59150b0fc748ca43",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/hostile_W7_cycle6.json",
+      "source_sha256": "043b2b1506ff0c1003697174f4511985758c3ea31dd46ce3d110ebb8c6fb9111",
+      "public_path": "problems/TUZA-13/witnesses/hostile_W7_cycle6.json",
+      "public_sha256": "043b2b1506ff0c1003697174f4511985758c3ea31dd46ce3d110ebb8c6fb9111",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/hostile_W8_cycle7.json",
+      "source_sha256": "9965d20e23a1dde81e30f0ff6646e34d09e30d153b9d5f31dbf8a57a5efd7c50",
+      "public_path": "problems/TUZA-13/witnesses/hostile_W8_cycle7.json",
+      "public_sha256": "9965d20e23a1dde81e30f0ff6646e34d09e30d153b9d5f31dbf8a57a5efd7c50",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/independent_nearest_0_normalized.json",
+      "source_sha256": "2e8778c948b58179a6a5b0896f84352cd56426d1916288694ee3f2505264bb1d",
+      "public_path": "problems/TUZA-13/witnesses/independent_nearest_0_normalized.json",
+      "public_sha256": "2e8778c948b58179a6a5b0896f84352cd56426d1916288694ee3f2505264bb1d",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/independent_nearest_3_normalized.json",
+      "source_sha256": "be171b6a1433d2036bd277fad98c9c743c3ff783484c8dbf4dd2c736bce62667",
+      "public_path": "problems/TUZA-13/witnesses/independent_nearest_3_normalized.json",
+      "public_sha256": "be171b6a1433d2036bd277fad98c9c743c3ff783484c8dbf4dd2c736bce62667",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/independent_nearest_9_normalized.json",
+      "source_sha256": "39f10d88a8ca0c91d4997c28712e201da5c2ee6e5be4212c46d9cb7241edcffb",
+      "public_path": "problems/TUZA-13/witnesses/independent_nearest_9_normalized.json",
+      "public_sha256": "39f10d88a8ca0c91d4997c28712e201da5c2ee6e5be4212c46d9cb7241edcffb",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_0.json",
+      "source_sha256": "b6e7a02ebf24b681fed53167aea6c8c79706b36479765aa5630ade6381e1e68f",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_0.json",
+      "public_sha256": "b6e7a02ebf24b681fed53167aea6c8c79706b36479765aa5630ade6381e1e68f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_1.json",
+      "source_sha256": "a78ab879dcf922d6fd9ece306d7485bda756a9ca3352a4cd0b91723db3805e4f",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_1.json",
+      "public_sha256": "a78ab879dcf922d6fd9ece306d7485bda756a9ca3352a4cd0b91723db3805e4f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_10.json",
+      "source_sha256": "9f6cb7b8bc7b0c2149faff04d47dc3d9258d19b22580420e7ccb524fa4d5be6d",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_10.json",
+      "public_sha256": "9f6cb7b8bc7b0c2149faff04d47dc3d9258d19b22580420e7ccb524fa4d5be6d",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_11.json",
+      "source_sha256": "273b1ef1248a554f5aaed1d6ea84be88dd72ec342226e4aeae2008b352d37d05",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_11.json",
+      "public_sha256": "273b1ef1248a554f5aaed1d6ea84be88dd72ec342226e4aeae2008b352d37d05",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_2.json",
+      "source_sha256": "3a32f6e19d24c2065ff3c31edfeb8be2c445cf2fc9d1b22e36432b3b235c97bb",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_2.json",
+      "public_sha256": "3a32f6e19d24c2065ff3c31edfeb8be2c445cf2fc9d1b22e36432b3b235c97bb",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_3.json",
+      "source_sha256": "a0217be2781d2796c7ab8dec8ad4441e5c3071504f2db9f8577cc1abd908692b",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_3.json",
+      "public_sha256": "a0217be2781d2796c7ab8dec8ad4441e5c3071504f2db9f8577cc1abd908692b",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_4.json",
+      "source_sha256": "b12910caeb98c5a52cdeb12640d95d31228f46dd32f5ccdd24dc67641f948a72",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_4.json",
+      "public_sha256": "b12910caeb98c5a52cdeb12640d95d31228f46dd32f5ccdd24dc67641f948a72",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_5.json",
+      "source_sha256": "d8f975d84c1649b4b60b9c8d10b36d83fc6a42365991d4b1eb552a964eefe4da",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_5.json",
+      "public_sha256": "d8f975d84c1649b4b60b9c8d10b36d83fc6a42365991d4b1eb552a964eefe4da",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_6.json",
+      "source_sha256": "b6bb3d71c78ead509a500c63889a02d16653904aed53767f80a1051ebe5e0069",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_6.json",
+      "public_sha256": "b6bb3d71c78ead509a500c63889a02d16653904aed53767f80a1051ebe5e0069",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_7.json",
+      "source_sha256": "1e4a541ec734dfd0f1a92ce0136fc0bc332196539f5468c015b37663e0081c32",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_7.json",
+      "public_sha256": "1e4a541ec734dfd0f1a92ce0136fc0bc332196539f5468c015b37663e0081c32",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_8.json",
+      "source_sha256": "a1a81be7b893ac16fff311a624911e457a85a368bbc490309683bf4f5f824fad",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_8.json",
+      "public_sha256": "a1a81be7b893ac16fff311a624911e457a85a368bbc490309683bf4f5f824fad",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/nearest_loss_9.json",
+      "source_sha256": "956ffeab77b31206a6c228e489e13b96eaf15de5844c531553b17c74136c17a0",
+      "public_path": "problems/TUZA-13/witnesses/nearest_loss_9.json",
+      "public_sha256": "956ffeab77b31206a6c228e489e13b96eaf15de5844c531553b17c74136c17a0",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/theory_maximal_packing.json",
+      "source_sha256": "b5f5007ca140a1cc089a22d17035ad1b7d62879914502c9f2e09b3d38ff0626a",
+      "public_path": "problems/TUZA-13/witnesses/theory_maximal_packing.json",
+      "public_sha256": "b5f5007ca140a1cc089a22d17035ad1b7d62879914502c9f2e09b3d38ff0626a",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/theory_tau_drop.json",
+      "source_sha256": "66cf4640a2de59bb78c01f3c56d6c93ee6ed87bbaf0fd1cf38eccf522ae9dd5a",
+      "public_path": "problems/TUZA-13/witnesses/theory_tau_drop.json",
+      "public_sha256": "66cf4640a2de59bb78c01f3c56d6c93ee6ed87bbaf0fd1cf38eccf522ae9dd5a",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "witnesses/theory_tau_drop_minimized.json",
+      "source_sha256": "66eef564b5f33a6e5541149fa9d7a5deb6d4cb5c1e7c50332b63d42eb71d3ffa",
+      "public_path": "problems/TUZA-13/witnesses/theory_tau_drop_minimized.json",
+      "public_sha256": "66eef564b5f33a6e5541149fa9d7a5deb6d4cb5c1e7c50332b63d42eb71d3ffa",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "NEAREST_MISSES.md",
+      "source_sha256": "a744f9d1e34267412bcca689953f99ce747dc10e2b4b60f15b02215935edb916",
+      "public_path": "problems/TUZA-13/NEAREST_MISSES.md",
+      "public_sha256": "a744f9d1e34267412bcca689953f99ce747dc10e2b4b60f15b02215935edb916",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "REPORT.md",
+      "source_sha256": "6ddb8fa187557e3827e19df55d3b2a85a7bccdf7362bc782e25b4afc32b99122",
+      "public_path": "problems/TUZA-13/HISTORICAL_RESULTS.md",
+      "public_sha256": "55874962d720a673b37fd9e52511dbb819209a49e2427db47599061cdca38455",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "PROOF_WORKBOOK.md",
+      "source_sha256": "8f96edef7f4cb579aeb6f96883bc9b4512a6a28b362dd7e9a568f629d70a2abb",
+      "public_path": "problems/TUZA-14/PROOF_WORKBOOK.md",
+      "public_sha256": "8f96edef7f4cb579aeb6f96883bc9b4512a6a28b362dd7e9a568f629d70a2abb",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "COUNTEREXAMPLES_AND_CHECKS.md",
+      "source_sha256": "d253e49a6ab4fa6c42e2762062cc88ec2b7b0b5383e8e0c47009abc9671c9088",
+      "public_path": "problems/TUZA-14/COUNTEREXAMPLES_AND_CHECKS.md",
+      "public_sha256": "af57b1e972bfa2e0c4039d8002b9c49dad7a5a6e690d2d3cd8dea9ea04a748d2",
+      "transformation": [
+        "Replaced obsolete private launcher block with tested repository-root public command; historical mathematical result counts retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits.",
+        "Publication critic repair: explicitly separated historical census/generator scope from selected current replay; optional generator commands remain relative to a scratch copy; proof/counts unchanged."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "notes/EXCHANGE_CHARACTERIZATION.md",
+      "source_sha256": "2be839e081d9b8e7fd77ad36c84b5ef0aff7f330a2987b5d5758ffb3c46ba481",
+      "public_path": "problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md",
+      "public_sha256": "2be839e081d9b8e7fd77ad36c84b5ef0aff7f330a2987b5d5758ffb3c46ba481",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "notes/TRACK_A.md",
+      "source_sha256": "adb4d71252b3d46c4f624b417d9260c059d578b86f68ad84c748b8016c432603",
+      "public_path": "problems/TUZA-14/notes/TRACK_A.md",
+      "public_sha256": "adb4d71252b3d46c4f624b417d9260c059d578b86f68ad84c748b8016c432603",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "notes/TRACK_B.md",
+      "source_sha256": "1fd2a04c544eb11479d389b3eb8bd993b7f93231cc40a455994cc2393be8a15a",
+      "public_path": "problems/TUZA-14/notes/TRACK_B.md",
+      "public_sha256": "1fd2a04c544eb11479d389b3eb8bd993b7f93231cc40a455994cc2393be8a15a",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "notes/STRUCTURAL_AUDIT.md",
+      "source_sha256": "0a0e1d0878a788984061d69e90c540334469c8b6a021e3591a19a37034673235",
+      "public_path": "problems/TUZA-14/notes/STRUCTURAL_AUDIT.md",
+      "public_sha256": "58df22ab6e27571b0f7a10713621c4e56c5489f3058a6dc32e6d6d32c44b3386",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/exchange_characterization.py",
+      "source_sha256": "00f255ea785456b3e766724fb5258c19b30b50cb14ed8962863e360276cf5233",
+      "public_path": "problems/TUZA-14/checks/exchange_characterization.py",
+      "public_sha256": "faf8c89b0c15b49e2aa02537e0bd56b93b4f58b8cbc693f07d00300ea0b4deb2",
+      "transformation": [
+        "Resolved source constants to public sibling paths; math validators and assertions retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/fresh_adversarial.py",
+      "source_sha256": "1718303bb9b5b1a2d49f279e08c7725b8764515a3129ce5fdcec1b6875f224f3",
+      "public_path": "problems/TUZA-14/checks/fresh_adversarial.py",
+      "public_sha256": "1718303bb9b5b1a2d49f279e08c7725b8764515a3129ce5fdcec1b6875f224f3",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/independent_auxiliary.py",
+      "source_sha256": "e38e862077f1420ab61de2d8fd5ce0b7415f37cdb29054a1de0c81a05e3d6d9d",
+      "public_path": "problems/TUZA-14/checks/independent_auxiliary.py",
+      "public_sha256": "9fded3ecbb079c0501b050562402685cfe7fccb040e1312f445d583c63ebad33",
+      "transformation": [
+        "Resolved source constants to public sibling paths; math validators and assertions retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/track_a_controls.py",
+      "source_sha256": "2ad983d9294fb832c43dfcdb4d9f6732e6ac3dace13adb53b03b692c6231f4d4",
+      "public_path": "problems/TUZA-14/checks/track_a_controls.py",
+      "public_sha256": "f0de7a8babfedd7eb2160c78b9070067cdb41e3b7180a40b5409dcf1eae52d60",
+      "transformation": [
+        "Resolved source constants to public sibling paths; math validators and assertions retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/track_a_freeze_witnesses.py",
+      "source_sha256": "631fe7ffa349bad03c05feea10d20de21fcc07f31087fba8fa68e34e72d0f96e",
+      "public_path": "problems/TUZA-14/checks/track_a_freeze_witnesses.py",
+      "public_sha256": "631fe7ffa349bad03c05feea10d20de21fcc07f31087fba8fa68e34e72d0f96e",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/track_a_multiplicity_two.py",
+      "source_sha256": "6f1f1b407d613ac16fdb6f316d881ef4233097209d9c3f5bb2eaf142235a37da",
+      "public_path": "problems/TUZA-14/checks/track_a_multiplicity_two.py",
+      "public_sha256": "6f1f1b407d613ac16fdb6f316d881ef4233097209d9c3f5bb2eaf142235a37da",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/track_a_reduce_cone.py",
+      "source_sha256": "fb6449be3b3052950ff41521e8318f7b29912feb4de59b52a27a0b8f054d9375",
+      "public_path": "problems/TUZA-14/checks/track_a_reduce_cone.py",
+      "public_sha256": "fb6449be3b3052950ff41521e8318f7b29912feb4de59b52a27a0b8f054d9375",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/track_a_threshold_audit.py",
+      "source_sha256": "40e33c629a926082123a1218d33c308fd5c6affe5c8dd20653cd7fcdbde8f0fd",
+      "public_path": "problems/TUZA-14/checks/track_a_threshold_audit.py",
+      "public_sha256": "40e33c629a926082123a1218d33c308fd5c6affe5c8dd20653cd7fcdbde8f0fd",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/track_b_small.py",
+      "source_sha256": "214bec992703ab99b5afd06b9b66d03dcbc524093a8af0148a5f400e0d694d51",
+      "public_path": "problems/TUZA-14/checks/track_b_small.py",
+      "public_sha256": "214bec992703ab99b5afd06b9b66d03dcbc524093a8af0148a5f400e0d694d51",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/track_b_unique_deletion.py",
+      "source_sha256": "dfabfe9733313172d9cc8d11d4f0b05c2c9efd081797ccc79e39dd58ec8b11f3",
+      "public_path": "problems/TUZA-14/checks/track_b_unique_deletion.py",
+      "public_sha256": "8d4e212448d97eb24b400e59255a9a07cd12c3599835079cf1350bd6b7db3c74",
+      "transformation": [
+        "Resolved source constants to public sibling paths; math validators and assertions retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "checks/track_b_unique_deletion_refutation.py",
+      "source_sha256": "163fcb6d04af22523d060d27332c7dd014f0495f56b996d0b09c10172d40c816",
+      "public_path": "problems/TUZA-14/checks/track_b_unique_deletion_refutation.py",
+      "public_sha256": "163fcb6d04af22523d060d27332c7dd014f0495f56b996d0b09c10172d40c816",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "witnesses/track_a_private_multiplicity_two.json",
+      "source_sha256": "186d38246edca97718710c9c1c5ea05ef95bea5a424ecf6b17c877c9ea742d7d",
+      "public_path": "problems/TUZA-14/witnesses/track_a_private_multiplicity_two.json",
+      "public_sha256": "186d38246edca97718710c9c1c5ea05ef95bea5a424ecf6b17c877c9ea742d7d",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "witnesses/track_a_private_multiplicity_two_reduced.json",
+      "source_sha256": "2f197c2f603c3c7f906075491ac56f3a7b126dc6ff9fe24800ef1073856f274f",
+      "public_path": "problems/TUZA-14/witnesses/track_a_private_multiplicity_two_reduced.json",
+      "public_sha256": "2f197c2f603c3c7f906075491ac56f3a7b126dc6ff9fe24800ef1073856f274f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "witnesses/track_a_unique_prepacking.json",
+      "source_sha256": "a533108cb0787371d7de415f0beadad089f47b0de64d9330ad4dca9957c76bb0",
+      "public_path": "problems/TUZA-14/witnesses/track_a_unique_prepacking.json",
+      "public_sha256": "a533108cb0787371d7de415f0beadad089f47b0de64d9330ad4dca9957c76bb0",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "evidence/track_b_unique_deletion_refutation.json",
+      "source_sha256": "67232672ce3fbb1ed828e7b6f5aa2424c1d9f63b6ca42797beca4f5cbd337add",
+      "public_path": "problems/TUZA-14/evidence/track_b_unique_deletion_refutation.json",
+      "public_sha256": "67232672ce3fbb1ed828e7b6f5aa2424c1d9f63b6ca42797beca4f5cbd337add",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "evidence/track_b_unique_deletion.json",
+      "source_sha256": "2344d4136bdc5a1e634e898d878322714566e026d64b1ccceb9d0cd281df98fe",
+      "public_path": "problems/TUZA-14/evidence/track_b_unique_deletion.json",
+      "public_sha256": "15aa15e172b11340acca201d29b22a6570db9d3bf7ae31bba9edbe642de4fdbd",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "evidence/fresh_adversarial.json",
+      "source_sha256": "fae322729113acdc387bc0241f2ea0454f5c97d7cbe50c29b697b88866a40322",
+      "public_path": "problems/TUZA-14/evidence/fresh_adversarial.json",
+      "public_sha256": "fae322729113acdc387bc0241f2ea0454f5c97d7cbe50c29b697b88866a40322",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "PROOF_AND_OBSTRUCTIONS.md",
+      "source_sha256": "6f65981229e960bf4babad614e7d6ed7081a5f1d61423b3d10ca15f9ca17f4e3",
+      "public_path": "problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+      "public_sha256": "731d276e2a65283cf90243aefa9d94badb66d3729d488184835ab237e526d922",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits.",
+        "Publication critic repair: removed obsolete private launch/access framing; linked supported public reproduction and shipped receipts. Mathematical proof/counts unchanged."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "RATIO_AUDIT.md",
+      "source_sha256": "a59d8ac9ffda1a770c6d7bf431ae9a123d9a8bce0ea4af85fce9cfd0d5c58890",
+      "public_path": "problems/TUZA-14B/RATIO_AUDIT.md",
+      "public_sha256": "69c08519603e1a62e3a963f7f80951e54767022e12b03f89f043e30fcebae50c",
+      "transformation": [
+        "Replaced obsolete private launcher block with tested repository-root public command; historical mathematical result counts retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits.",
+        "Publication critic repair: removed obsolete private launch/access framing; linked supported public reproduction and shipped receipts. Mathematical proof/counts unchanged.",
+        "Publication critic repair: explicitly separated historical census/generator scope from selected current replay; optional generator commands remain relative to a scratch copy; proof/counts unchanged."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "RATIO_AUDIT.json",
+      "source_sha256": "70d075423a5952e499499eaf0fca9d1aea7ec3ae2836324b2db3b39c0bfc7490",
+      "public_path": "problems/TUZA-14B/RATIO_AUDIT.json",
+      "public_sha256": "920c99a80fefd505339de620f1f628ed5e249ab872e48d150214210751776342",
+      "transformation": [
+        "Removed requested serving-model/effort metadata unrelated to mathematical recount.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "notes/TRACK_A.md",
+      "source_sha256": "9e22c4f2be4d7d30c8fe87a6c84ca6799fa5ac2b83d2d67048e25b4665045b0b",
+      "public_path": "problems/TUZA-14B/notes/TRACK_A.md",
+      "public_sha256": "fd49f57fc0c028342f9225b65189f870dcf6166d556178c2de8d8fd10c55d1f0",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "notes/TRACK_B.md",
+      "source_sha256": "50eed1274ae78aebf30d9818e690588f0a2f491cd39b8aa8b6662fec08191a08",
+      "public_path": "problems/TUZA-14B/notes/TRACK_B.md",
+      "public_sha256": "338cb87af4175512b26c79ae713893a6dd2b0bbe0e6a87e2b45a2171f949071f",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "notes/BARON_KAHN_STRESS.md",
+      "source_sha256": "456a6bbe4b59f4fa02202f975b4893dd63ffc6cd0bf4283123b582b43e4e5ca8",
+      "public_path": "problems/TUZA-14B/notes/BARON_KAHN_STRESS.md",
+      "public_sha256": "456a6bbe4b59f4fa02202f975b4893dd63ffc6cd0bf4283123b582b43e4e5ca8",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "evidence/one_slack_kernel_certificates.json",
+      "source_sha256": "0643c714cf9dc6ec029de49ec162f2a3638ca67a226e8ca51caa1c77d99a56b9",
+      "public_path": "problems/TUZA-14B/evidence/one_slack_kernel_certificates.json",
+      "public_sha256": "0643c714cf9dc6ec029de49ec162f2a3638ca67a226e8ca51caa1c77d99a56b9",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "evidence/track_b_two_slack.json",
+      "source_sha256": "36936c557366aa0fa00034502d7008080a9f2cf9d9ed92b2e5bf47f4115616f0",
+      "public_path": "problems/TUZA-14B/evidence/track_b_two_slack.json",
+      "public_sha256": "36936c557366aa0fa00034502d7008080a9f2cf9d9ed92b2e5bf47f4115616f0",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "evidence/new_domain_summary.json",
+      "source_sha256": "23e8a7ab778f708576f1b6045e921c9a76d9464936856f6905e19bd9230939fa",
+      "public_path": "problems/TUZA-14B/evidence/new_domain_summary.json",
+      "public_sha256": "23e8a7ab778f708576f1b6045e921c9a76d9464936856f6905e19bd9230939fa",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "evidence/ratio_hard_candidates.json",
+      "source_sha256": "019102b53adc4e3dcc854bf2aeed10093279d35e51e158405c5d84ad39225f42",
+      "public_path": "problems/TUZA-14B/evidence/ratio_hard_candidates.json",
+      "public_sha256": "019102b53adc4e3dcc854bf2aeed10093279d35e51e158405c5d84ad39225f42",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "evidence/ratio_hard_seeds.json",
+      "source_sha256": "d8d0416da5ca97c7d9be1576ee4f59b76965c91c50734e10e5f635a181f64365",
+      "public_path": "problems/TUZA-14B/evidence/ratio_hard_seeds.json",
+      "public_sha256": "eb8ca2df1b68af1478559c67e40fa144825c5213bfa9c149071841a38f091c07",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14bv",
+      "source_file": "INDEPENDENT_PROOF_AUDIT.md",
+      "source_sha256": "62d7c77dcf9ce7de6cb0141d6e8b5a2068ce0c3cbeaf14d9bf3eae7053085511",
+      "public_path": "problems/TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md",
+      "public_sha256": "62d7c77dcf9ce7de6cb0141d6e8b5a2068ce0c3cbeaf14d9bf3eae7053085511",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14bv",
+      "source_file": "FROZEN_TARGETS.md",
+      "source_sha256": "7a5e4b895c1e515932e6cbc6032098a88c5d3f30bbf738d90e3d2baafc710999",
+      "public_path": "problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+      "public_sha256": "b1cbd51d5dd3592f4ce17f908cfb75ccd2b6c590c08969b794bab671c3396c62",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits.",
+        "Publication critic repair: removed obsolete private launch/access framing; linked supported public reproduction and shipped receipts. Mathematical proof/counts unchanged."
+      ]
+    },
+    {
+      "packet": "14bv",
+      "source_file": "STATUS_MATRIX.json",
+      "source_sha256": "91e5b64eb5731e8ff2b6969a8c5f15aa4448a4b08f0be10f8da4c05275c2b81e",
+      "public_path": "problems/TUZA-14B/verification/STATUS_MATRIX.json",
+      "public_sha256": "4081c562f0adc6e7efda86abc8f85c842d1dd9dc89c3492e43fbe32fe9f4f839",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14bv",
+      "source_file": "CHECKS_AND_WITNESSES.md",
+      "source_sha256": "cf5f763d68db152f061615f6093f11d9adae855111227f4a4eb2a95795574ce3",
+      "public_path": "problems/TUZA-14B/verification/CHECKS_AND_WITNESSES.md",
+      "public_sha256": "b4e28073222b8905b4468e7a90f45222b5072fff5bbd9e74e4e4db8e758e9fca",
+      "transformation": [
+        "Replaced obsolete private launcher block with tested repository-root public command; historical mathematical result counts retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits.",
+        "Publication critic repair: explicitly separated historical census/generator scope from selected current replay; optional generator commands remain relative to a scratch copy; proof/counts unchanged."
+      ]
+    },
+    {
+      "packet": "14bv",
+      "source_file": "checks/integral_independent.py",
+      "source_sha256": "f2d73b6d2747b35d32c128071a00837b3fb12ac147481061eda918e3eba15216",
+      "public_path": "problems/TUZA-14B/checks/integral_independent.py",
+      "public_sha256": "34bdcf6f152a1466cec3342aca07d25c63f195c451eb357f6b93da42f291dcd2",
+      "transformation": [
+        "Resolved source constants to public sibling paths; math validators and assertions retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "14bv",
+      "source_file": "checks/fractional_cut_independent.py",
+      "source_sha256": "1bae9906e7cc2bf9476f8a85f7a5f5137cf1a2a901f3cdd746a04aedf97d5cab",
+      "public_path": "problems/TUZA-14B/checks/fractional_cut_independent.py",
+      "public_sha256": "1bae9906e7cc2bf9476f8a85f7a5f5137cf1a2a901f3cdd746a04aedf97d5cab",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14bd",
+      "source_file": "checks/ratio_audit.py",
+      "source_sha256": "9447599f03b88cc09f25dbd56cd27570e41976d20a9a9688d281b7a1df68658f",
+      "public_path": "problems/TUZA-14B/generators/ratio_audit.py",
+      "public_sha256": "3d843114d4d81def9efbb6ce859a74b8b96f3517cf596e2b954d482457cf51e1",
+      "transformation": [
+        "Replaced private Git/zero-remote guards and source-revision/model metadata with public edition; added refusal of existing output and creation of evidence directory; ratio, overlap and UNKNOWN computations unchanged.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "15d",
+      "source_file": "PROOFS_AND_OBSTRUCTIONS.md",
+      "source_sha256": "a178a0da30490e4bf7e107af843efbe493aab76c6166d804cd7b8e2a7d4a3162",
+      "public_path": "problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+      "public_sha256": "dee0a68245caa047a5f14cc3d1ba743320ef4d0e9f82c7bb0d379782ad3573fd",
+      "transformation": [
+        "Added an explicit publication annotation that discovery NOT_RUN labels are historical and the later audit is VERIFIED_AS_FROZEN; frozen mathematical body retained.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "15d",
+      "source_file": "notes/SCOUT_B_RESULTS.md",
+      "source_sha256": "d64228f16ecb1718e59f6be016dc3e6557000cc7d64d94046c4ed62efb5a8fb0",
+      "public_path": "problems/TUZA-15/notes/SCOUT_B_RESULTS.md",
+      "public_sha256": "d64228f16ecb1718e59f6be016dc3e6557000cc7d64d94046c4ed62efb5a8fb0",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15d",
+      "source_file": "notes/SCOUT_B_DEGREE8.md",
+      "source_sha256": "de045e1effcaa86c609b0c1d44651184e7cb5a0323bc130694d4ceaa88013546",
+      "public_path": "problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+      "public_sha256": "de045e1effcaa86c609b0c1d44651184e7cb5a0323bc130694d4ceaa88013546",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15v",
+      "source_file": "INDEPENDENT_PROOF_AUDIT.md",
+      "source_sha256": "2c28f55e383ab5e00c8fd15e2f7cdb8ddb8a9eba84b156591c5dba253da9442e",
+      "public_path": "problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+      "public_sha256": "f95552f45f4e83ad76be5c575e145ead8e3191235a86cd64899f3167749d3bff",
+      "transformation": [
+        "Kept complete mathematical reconstruction sections A-G; omitted later operational critique/freeze reconciliation. Full original proof and donor supplements are separately shipped.",
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits.",
+        "Publication critic repair: added explicit A-G mathematical-extract annotation and redirected removed operational-section references to shipped finite evidence; full mathematical sections retained."
+      ]
+    },
+    {
+      "packet": "15v",
+      "source_file": "FROZEN_TARGETS.md",
+      "source_sha256": "0cfb9e13a6e1a76f0a9c209a86b0611d045337025dddf96cfa3d3a122e8eab14",
+      "public_path": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+      "public_sha256": "0cfb9e13a6e1a76f0a9c209a86b0611d045337025dddf96cfa3d3a122e8eab14",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15v",
+      "source_file": "STATUS_MATRIX.json",
+      "source_sha256": "a7fcc64a609f9fee7b0b005a1d0ae2315090a7f3bb6b5dc3e5dbe5abbeeb5465",
+      "public_path": "problems/TUZA-15/verification/STATUS_MATRIX.json",
+      "public_sha256": "c644df25114e9d156dba7b5a782e050ed2e20b9e0a86c40afe8d358285dfc50e",
+      "transformation": [
+        "Anonymized private absolute locations, private revision IDs and internal identifiers where present; retained graph data, hypotheses and legitimate author credits."
+      ]
+    },
+    {
+      "packet": "15d",
+      "source_file": "evidence/six_link_certificates.json",
+      "source_sha256": "bd089f5c18b12799f90828d024705f2b1271afa29c317f9ba1ab1c942a26173f",
+      "public_path": "problems/TUZA-15/evidence/six_link_certificates.json",
+      "public_sha256": "bd089f5c18b12799f90828d024705f2b1271afa29c317f9ba1ab1c942a26173f",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15v",
+      "source_file": "checks/independent_six_links.py",
+      "source_sha256": "e043aae98aaf4f351e69ce9a67f0482271f66ffd15ef921096b0cf4223f91064",
+      "public_path": "problems/TUZA-15/checks/independent_six_links.py",
+      "public_sha256": "e043aae98aaf4f351e69ce9a67f0482271f66ffd15ef921096b0cf4223f91064",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15v",
+      "source_file": "checks/coordinator_fixed_core.py",
+      "source_sha256": "425ba389987f9059f2b8c2d9fe5748f56c27efa2a7573ba1102f224ee15dbab5",
+      "public_path": "problems/TUZA-15/checks/coordinator_fixed_core.py",
+      "public_sha256": "425ba389987f9059f2b8c2d9fe5748f56c27efa2a7573ba1102f224ee15dbab5",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15v",
+      "source_file": "checks/scope_diagnostics.py",
+      "source_sha256": "48a64e5eb0d935408a589efb7ae64d7200ce724c3df173555ae7e07a0b851681",
+      "public_path": "problems/TUZA-15/checks/scope_diagnostics.py",
+      "public_sha256": "48a64e5eb0d935408a589efb7ae64d7200ce724c3df173555ae7e07a0b851681",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15v",
+      "source_file": "independent_checks/mathematical_witnesses.py",
+      "source_sha256": "2d6181ef64f2c86403e896920c899bd4423112d1f50f8d771399c87de53ab8f6",
+      "public_path": "problems/TUZA-15/independent_checks/mathematical_witnesses.py",
+      "public_sha256": "2d6181ef64f2c86403e896920c899bd4423112d1f50f8d771399c87de53ab8f6",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15d",
+      "source_file": "checks/six_link_certificates.py",
+      "source_sha256": "8e3007024c00963b5d401858b21d848efffa701849990a2260967a70e3ca69ce",
+      "public_path": "problems/TUZA-15/original_checks/six_link_certificates.py",
+      "public_sha256": "8e3007024c00963b5d401858b21d848efffa701849990a2260967a70e3ca69ce",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15d",
+      "source_file": "checks/six_link_independent.py",
+      "source_sha256": "f6742f0e638cc14c347f2625b63aef24b21b8eb111c446a75450fef5ee53ec91",
+      "public_path": "problems/TUZA-15/original_checks/six_link_independent.py",
+      "public_sha256": "f6742f0e638cc14c347f2625b63aef24b21b8eb111c446a75450fef5ee53ec91",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15d",
+      "source_file": "checks/dense_six_probe.py",
+      "source_sha256": "21ca75482ed0574ebfd7048b05d79a80f5ed33a1fdf4d294b83b1fe7400bba64",
+      "public_path": "problems/TUZA-15/original_checks/dense_six_probe.py",
+      "public_sha256": "21ca75482ed0574ebfd7048b05d79a80f5ed33a1fdf4d294b83b1fe7400bba64",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "15d",
+      "source_file": "checks/explicit_witnesses.py",
+      "source_sha256": "f126205d3c9f0a4343a283cbdfed1a60515343d6d0213aaf3d1dd0f3fc8ea73b",
+      "public_path": "problems/TUZA-15/original_checks/explicit_witnesses.py",
+      "public_sha256": "f126205d3c9f0a4343a283cbdfed1a60515343d6d0213aaf3d1dd0f3fc8ea73b",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "14d",
+      "source_file": "evidence/track_a_controls.json",
+      "source_sha256": "1b7bc49c810e549077777d730ef719316e913eeba7ceb20a5bff2e870e1d1ba9",
+      "public_path": "problems/TUZA-14/evidence/track_a_controls.json",
+      "public_sha256": "1b7bc49c810e549077777d730ef719316e913eeba7ceb20a5bff2e870e1d1ba9",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/hostile_unequal_c5_apices3.json",
+      "source_sha256": "09982c19e30b3386508651cd281b9c640c9f1393c388f0f952743f19c37f69b6",
+      "public_path": "problems/TUZA-13/evidence/hostile_unequal_c5_apices3.json",
+      "public_sha256": "09982c19e30b3386508651cd281b9c640c9f1393c388f0f952743f19c37f69b6",
+      "transformation": [
+        "Byte-identical copy."
+      ]
+    },
+    {
+      "packet": "earlier-public-report",
+      "source_file": "papers/tuza-further-investigations/numeric.csl",
+      "source_sha256": "ad87814675ef1df8d841e5043be7be0fb3966f45509f4941475f96887c9280f7",
+      "public_path": "papers/tuza-11-15-research-summary/numeric.csl",
+      "public_sha256": "ad87814675ef1df8d841e5043be7be0fb3966f45509f4941475f96887c9280f7",
+      "transformation": [
+        "Byte-identical existing public project style asset."
+      ]
+    },
+    {
+      "packet": "13d",
+      "source_file": "evidence/theory_exchange_probe.json",
+      "source_sha256": "89b982ea6772c051b1ccd732c9e431608d9ec3d6d01e04942be3f686bd74a31c",
+      "public_path": "problems/TUZA-13/evidence/theory_exchange_probe.json",
+      "public_sha256": "89b982ea6772c051b1ccd732c9e431608d9ec3d6d01e04942be3f686bd74a31c",
+      "transformation": [
+        "Byte-identical copy of historical mathematical auxiliary-query data, retaining UNKNOWN cases."
+      ]
+    }
+  ]
+}

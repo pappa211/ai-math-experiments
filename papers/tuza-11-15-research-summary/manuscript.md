@@ -1,0 +1,242 @@
+# TUZA-11-15 Research Summary: Sparse Equality, Compatibility and Proof Obstructions
+
+**AI Math Experiments | Technical research report | 3 November 2026**
+
+The mathematical development, proofs, code, manuscript and internal reviews were AI-produced. The human coordinator directed goals and publication authorization and is not listed as a mathematical author. Internal AI verification is distinct from external human peer review. Historical originality is unestablished; no institutional endorsement is claimed.
+
+[PDF](main.pdf) | [Editable source](manuscript.md) | [LaTeX](main.tex) | [Bibliography](references.bib) | [Current status](../../RESEARCH_STATUS_2026-11-03.md) | [Proof ledger](../../ORDINARY_PROOF_INDEX.md) | [Reproduction](../../REPRODUCTION.md#tuza-1115-ordinary-proofs-and-exact-finite-checks)
+
+## 1. The question and the outcome, in plain English
+
+A triangle is a set of three mutually adjacent vertices in a graph. There are two natural ways to measure its triangle structure. We can pack triangles so that no graph edge is used twice, or select graph edges that collectively touch every triangle. Write $\nu(G)$ for the largest packing and $\tau(G)$ for the smallest cover. Triangles in a packing may share vertices. Tuza's conjecture asks whether a cover of size at most twice the packing size always exists [@Tuza1990]. The conjecture remains open in this release.
+
+The main accepted result in this phase describes **equality in a sparse class**. If every nonempty subgraph of a finite simple graph has average degree strictly below seven, then $\tau(G)=2\nu(G)$ precisely when the full triangle family breaks into components with literal $K_4$ or $K_5$ edge support. Components here are connected by sharing graph edges. They may share vertices, and the graph may have extra edges in no triangle. This is a condition on all actual triangles, so a crossing triangle cannot be omitted to make the decomposition work.
+
+Puleo previously proved the inequality for this same strict sparsity class [@Puleo2015]. The audited addition is the equality classification and the restoration arguments that support it. It extends the project's earlier five-degenerate equality result to an incomparable class; it does not supersede that result or solve Tuza generally. The earlier sources and formal records remain available in the [five-degenerate report](../tuza-five-degenerate/main.md).
+
+The route to this conclusion was not a single successful general mechanism. TUZA-11 established gluing statements for triangle-separated flat pieces, with a later five-edge conclusion using an external theorem by Yiming Liu. TUZA-12 developed an exact matching-root representation in a restricted claw-free setting and refuted two broader architectures. TUZA-13 tested a proposed “two-red” strengthening; TUZA-14 and 14B extracted scoped structural results and exact obstructions to tempting shortcuts. General versions of that strengthening remain open. TUZA-15 returned to equality in smaller residual graphs and proved that particular reductions can be restored despite arbitrary outside attachments.
+
+The evidence has two complementary parts. Full ordinary proofs handle induction, graph closure, unbounded attachment families and discharging. A small exact finite classification handles six-vertex link shapes. Its independent standard-library checker examines all 32,768 labelled six-vertex graphs, rather than trusting a graph atlas. Neither finite passing examples nor internal agreement substitute for the symbolic arguments.
+
+A second accepted consequence is strictness for every finite locally bipartite graph containing a triangle: $\tau(G)\le2\nu(G)-1$, with no sparsity assumption. “Locally bipartite” means that the graph induced by the neighbors of each vertex is bipartite. The underlying inequality has published antecedents; historical priority for this strictness conclusion has not been established.
+
+## 2. Exact statements and boundaries
+
+All graphs in this report are finite, undirected and simple. The triangle family $\mathcal T(G)$ contains **every actual graph triangle**. Covers are subsets of $E(G)$; packings are edge-disjoint members of $\mathcal T(G)$. Let
+
+$$
+\operatorname{mad}(G)=\max_{\varnothing\ne V(H),\ H\subseteq G}\frac{2|E(H)|}{|V(H)|},
+$$
+
+with value zero for the empty graph. Define $B(G)$ to mean that each nonempty component of $\mathcal T(G)$, with adjacency through shared graph edges, has support exactly the edge set of a literal $K_4$ or $K_5$.
+
+**Audited theorem T0.** For every finite simple graph $G$ with $\operatorname{mad}(G)<7$,
+
+$$
+\tau(G)\le2\nu(G),\qquad
+\tau(G)=2\nu(G)\quad\Longleftrightarrow\quad B(G).
+$$
+
+Empty and triangle-free graphs satisfy the combined statement vacuously. Different triangle components may share vertices. Triangle-free background edges are permitted, subject to retaining all actual triangles. The proof is an **ordinary computer-assisted proof with separate internal AI verification**, not a new Lean theorem, external specialist review or historical novelty certification. The complete [proof](../../problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md), [degree-seven supplement](../../problems/TUZA-15/notes/SCOUT_B_RESULTS.md), [degree-eight supplement](../../problems/TUZA-15/notes/SCOUT_B_DEGREE8.md), and [independent reconstruction](../../problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md) are part of the archive.
+
+T0 includes maximum degree at most six. It does not imply the same conclusion for all six-degenerate graphs, all maximum-degree-seven graphs, $\operatorname{mad}\le7$, or arbitrary graphs. The five-degenerate and $\operatorname{mad}<7$ classes are incomparable: $K_7$ has maximum average degree six and is not five-degenerate, whereas $K_{5,12}$ is five-degenerate and has average degree $120/17>7$.
+
+**Locally bipartite strictness.** For every finite locally bipartite graph with at least one triangle,
+
+$$
+\tau(G)\le2\nu(G)-1.
+$$
+
+There is no maximum-average-degree restriction here. The nonempty-triangle hypothesis is necessary. The proof uses the unbounded bipartite-link exclusion and hereditary combined induction; it does not infer an unbounded theorem from six-vertex enumeration. The locally bipartite inequality is attributed to Lakshmanan, Bujtás and Tuza, as discussed by Puleo [@Lakshmanan2012; @Puleo2015].
+
+The $\operatorname{mad}<25/4$ theorem is an intermediate result, and the maximum-degree-six statement is a derived consequence. The optional one-edge separation and high-degree subsumption lemmas have their full hypotheses in the [target inventory](../../problems/TUZA-15/verification/FROZEN_TARGETS.md); neither is needed to close T0.
+
+## 3. Evidence and status across the phase
+
+| Phase | Accepted content | Evidence and remaining boundary |
+|---|---|---|
+| TUZA-11 | Four-edge flat-piece gluing; five-edge reduction and later gluing; closed-instance kernel; Clebsch obstruction | Ordinary proofs with HKT/Parker inputs; five-edge conclusion additionally uses Liu v1.0.2 with documented erratum. Kernel preserves ordinary optima, not all boundary states. |
+| TUZA-12 | Labelled matching root and exact weighted-cover model in the claw-free setting; ordered-lift obstruction; neutral-restoration counterexample | Complete ordinary arguments and exact controls. No general matching root or global bridge. |
+| TUZA-13 | Survival in completed tested domains; scoped minimal-failure conditions; exact near misses | Historical finite evidence. Original timeouts and unresolved identities remain UNKNOWN. General S/E open. |
+| TUZA-14 | Exact cover-exchange parametrization; unique private-witness and scoped minimal-failure lemmas; shortcut refutations | Ordinary proofs and small exact witnesses. No global augmentation or progress theorem. |
+| TUZA-14B | S for $\nu\le4$ or $\tau\le8$; scoped block/slack, attachment, fractional and cut results | Small-parameter S uses Parker/Liu; fractional result uses Füredi. Signed cut remains conditional. |
+| TUZA-15 | T0 equality classification; locally bipartite strictness; supporting restoration lemmas | Ordinary proofs plus exhaustive six-link certificates and separate internal AI audit. Prior inequality attributed; no new Lean result. |
+
+The [ordinary-proof index](../../ORDINARY_PROOF_INDEX.md) maps individual statements to full proofs, hypotheses and finite inputs. The [formal declaration index](../../DECLARATION_INDEX.md) retains its existing purpose: no invented Lean declarations are added for this phase. Discovery-stage labels such as “pending verification” in preserved mathematical notes are historical; the later audited scope is stated by each archive README and verification target.
+
+## 4. Flat pieces, gluing and an external finite theorem
+
+Call a graph flat when every edge belongs to at most two actual triangles. TUZA-11 considers actual pieces $G_i$ whose union is $G$, whose pairwise edge intersections lie in an actual boundary $B$, and such that **every actual triangle of $G$ belongs to a piece**. Each piece is flat. Noninduced pieces, shared vertices and triangle-free edges are allowed. These are decomposition hypotheses; they are not equivalent to merely adding five edges to an arbitrary flat graph.
+
+The exact boundary formulation records both private-cover costs and packing occupancy masks. For $A\subseteq B$, let $c_i(A)$ be the minimum private-edge cover cost in piece $i$, with unselected boundary edges forbidden. For $S\subseteq B$, let $p_i(S)$ be the maximum packing whose used boundary edges are exactly $S$. Then
+
+$$
+\tau(G)=\min_{A\subseteq B}\left(|A|+\sum_i c_i(A)\right),
+\qquad
+\nu(G)=\max_{S_i\text{ pairwise disjoint}}\sum_i p_i(S_i).
+$$
+
+These retain actual edge labels and infeasible states. Scalar slack alone cannot replace the interfaces.
+
+Deleting $B$ leaves a flat graph. A residual $K_4$ has every edge already in two triangles, so it is globally saturated and isolated in triangle-edge incidence. Remove those supports additively, leaving $F$ and $H_0=F-B$. Put $k=\nu(H_0)$, $s=2k-\tau(H_0)$, and $r=\nu(F)-k$. The Haxell-Kostochka-Thomassé flat $K_4$-free bound gives $k\le2s$ [@HKTFlat2011], while
+
+$$
+\tau(F)\le |B|+2k-s.
+$$
+
+Piece covers handle $r=0$; this step still needs the piece hypotheses. Direct accounting handles large gain or slack. Parker's small-packing theorem handles reduced packing number at most three [@Parker2025]. For four boundary edges these cases close the inequality. For five, an odd-wheel reservation argument resolves the two-five-wheel equality case, leaving a reduced packing-number-four case.
+
+The later conclusion uses Liu's external Theorem 1.2 for pair-packing number four [@Liu2026]. Applied to the hypergraph of actual graph triangles as vertex triples, its pair cover is exactly an actual-edge triangle cover. The accepted edition is **v1.0.2, version DOI 10.5281/zenodo.23177679**, with the auditor-documented Table 1 class 9 correction **378 to 389**. The manuscript's printed reference is inconsistent; the unchanged released certificate has the correct path type. The correction is not asserted to be author-endorsed. See the [precise erratum](../../problems/TUZA-11/external/CLASS9_TABLE_ERRATUM.md) and [five-edge proof](../../problems/TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md).
+
+The project's historical replay of 154,874 RUP additions is reused evidence in this publication. It has not been rerun here. Liu's theorem is external work, not a project theorem or a Lean-verified dependency. Versioned acquisition URLs, archive hashes and licensing are provided in the [external-input guide](../../problems/TUZA-11/external/README.md).
+
+A separate 46-triangle closed-instance kernel preserves $\nu$, $\tau$, the boundary and the labelled old triangle family. It does **not** preserve every forced boundary-cover state: forbidding a book spine can make leaf-cover costs change under compression. It is therefore not a universally interchangeable gluing gadget. The [full argument](../../problems/TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md) preserves that distinction.
+
+## 5. Matching roots, realizability and a neutral restoration failure
+
+TUZA-12 works with the full triangle-conflict graph $X(G)$: its vertices are actual triangles, adjacent when they share a graph edge. Under the actual **claw-free** hypothesis, exceptional $K_5$ and $K_5-e$ triangle components are isolated and handled separately. The remainder has a labelled loopless multigraph root with one root edge per actual triangle. Parallel edges and private leaves are retained. Its underlying simple graph is triangle-free, and its cost-two $K_4$ hubs form an independent set.
+
+The correspondence is exact at the scalar level: triangle packing equals root matching, and triangle cover equals minimum weighted root vertex cover. Both directions matter. Selecting a hub is realized by two actual $K_4$ edges; conversely an actual cover can be normalized without charging overlapping hubs twice. Missing or dummy ports and ordinary private edges are included. The claim is not equality for all arbitrary forced terminal states.
+
+If $S$ is an independent set of root vertices of weight two and every other vertex has weight one, Tutte-Berge implies weighted vertex-cover cost at most twice maximum matching. This proves the restricted inequality; an alternative proof covers each residual triangle's closed conflict neighborhood by at most two actual edges. Neither construction supplies a matching root for arbitrary triangle systems. Munaro's earlier clique-cover and line-graph methods are relevant prior art, with a stronger $3/2$ theorem under its own $K_4$-free and conflict restrictions [@Munaro2018]. The [independent exact model proof](../../problems/TUZA-12/INDEPENDENT_PROOF_B.md) states the distinction.
+
+The ordered role-lift architecture is separately obstructed: a finite simple graph exists for which **every total vertex order** produces a non-König lift. The proof uses explicit enormous parameters $N=2^{96}$ and $M=2^{128}$, a simultaneous union bound over all orders, and deletion of defects. A connected full-conflict version still has an ordinary Tuza certificate. This is an [ordinary probabilistic finite-existence proof](../../problems/TUZA-12/INDEPENDENT_PROOF_A.md); the enormous graph was not enumerated or simulated.
+
+A small exact counterexample refutes packing-neutral four-port restoration. Start with $K_4$ on $0,1,2,3$, put tips $4,5,6,7$ on cycle edges $01,12,23,03$, and add tip edges $45,47,56$. The resulting graph has $(\nu,\tau)=(4,5)$; deleting inactive diagonals $02,13$ gives $(4,4)$. The four page triangles pack on both sides, but restoration costs a cover unit without a packing gain. Both graphs satisfy Tuza. The [edge list and elementary optimum proofs](../../problems/TUZA-12/notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md) show exactly which auxiliary implication fails.
+
+## 6. Two-red: exact quantifiers and a smaller difficult domain
+
+Fix a **globally minimum** actual-edge triangle cover $C$. Color its edges red and the other graph edges blue. An eligible triangle has one or two red edges; all-red triangles are excluded. Let $q(G,C)$ be the maximum eligible edge-disjoint packing. Strong S asserts
+
+$$
+\text{for every minimum }C,\quad q(G,C)\ge\lceil\tau(G)/2\rceil.
+$$
+
+Existential E requires this for some minimum cover. Thus S implies E, and E implies Tuza because $q(G,C)\le\nu(G)$. No equivalence or general proof is claimed. Some archived proofs write $k$ for $q$; T0 uses unrestricted $\nu$ throughout.
+
+The large TUZA-13 corpus survived only in its completed domains. The generic engine completed 24,896 jobs and 1,011,344 minimum-cover evaluations, with overlaps; these are not distinct graph counts. Structured apex domains add other overlapping evidence. Original generic timeouts comprise 81 jobs and 78 unresolved graph identities in the ratio ledger. Separate analytical threshold controls do not silently turn their exact maxima into computed values. The literal UNKNOWN inputs are retained in [SEARCH_COVERAGE.json](../../problems/TUZA-13/SEARCH_COVERAGE.json) and the [ratio audit](../../problems/TUZA-14B/RATIO_AUDIT.md).
+
+The later recount explains why raw totals exaggerate difficult-regime evidence. A maximum full packing with $t$ all-red members consumes at least $\nu+2t$ distinct red edges. Hence
+
+$$
+q(G,C)\ge\nu(G)-\left\lfloor\frac{\tau(G)-\nu(G)}2\right\rfloor.
+$$
+
+In particular, $2\tau\le3\nu$ is counting-automatic. Of 448,112 distinct completed labelled graphs in the combined ratio ledger, 6,217 are triangle-free, 440,748 lie in that automatic stratum, 867 lie strictly between $3\nu/2$ and $2\nu$, and 280 are tight. These are exact historical recount categories, not a new optimization campaign or an isomorphism census. Most of the corpus therefore tests consistency in an easy range rather than the hardest part of S. Remaining UNKNOWN identities stay outside the passing domain.
+
+TUZA-14 proves an exact cover-exchange parametrization. For a removed red set $D$ containing no all-red triangle, affected two-red triangles force a blue set $F(D)$; the remaining one-red constraints form a vertex-cover problem on blue-edge resources. The replacement cost is exactly $|F(D)|+\operatorname{vc}(H_D)$. Equality-cost exchanges describe optimum covers, including the unchanged cover for an empty exchange. Packing feasibility must still respect both red and blue capacities. The [full proof](../../problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md) does not assert a general augmentation theorem.
+
+Unique actual private witnesses of distinct red edges pack together. They cannot, however, always be prescribed inside a maximum eligible packing. Minimal S-failing-pair and E-failing-graph statements have different quantifier orders: an existential reduction may require changing to a different optimum cover. The [proof workbook](../../problems/TUZA-14/PROOF_WORKBOOK.md) preserves these scopes.
+
+TUZA-14B proves S for $\tau\le8$ or $\nu\le4$, using the declared Parker/Liu inputs. It proves full eligible-packing preservation for $\nu\le3$ and for the exact pairs $(\tau,\nu)=(7,4),(8,4)$ at their stated hypotheses. A nine-vertex ring has $(\tau,\nu,q)=(6,4,3)$, refuting full preservation throughout $\nu=4$ while satisfying S. Arbitrary packing-number-five graphs are not assumed to have cover number at most ten.
+
+The block/slack theorems concern literal edge-disjoint clique blocks. The mixed $K_3/K_4/K_5$ two-slack statement has the specified $K_3$-block counts $r=0,2$ or $r\ge4$, without filling the $r=1,3$ gaps. Distinct-root pendant attachment identities explicitly use $R=H-D$; repeated roots are outside the theorem. The decorated-book family has integer $b\ge1$ and designated-cover values
+
+$$
+(\tau,\nu,q)=(4b+2,\ 2b+2,\ 2b+1).
+$$
+
+That last value is not a statement about every minimum cover. The [complete 14B proof](../../problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md) and [audited targets](../../problems/TUZA-14B/verification/FROZEN_TARGETS.md) retain the exact identities.
+
+For every minimum cover the fractional theorem is
+
+$$
+q(G,C)\ge\left\lceil\frac{3\tau^*(G)-\tau(G)}4\right\rceil,
+$$
+
+using the full LP and Füredi's Fano-free fractional theorem [@Furedi1991]. S follows from the **strict** gaps $\tau-\tau^*<4/3$ for even $\tau$, or $<2/3$ for odd $\tau$. Endpoints are excluded. The signed-clause/min-cut algorithm remains conditional on an admissible deletion set and bipartiteness of the **combined** positive/negative clause graph. It does not prove universal zero-excess migration.
+
+## 7. Equality through reductions: the proof roadmap
+
+The combined property $P$ consists of Tuza's inequality and the forward equality classification; $B(G)$ implies equality by the elementary clique calculation universally. In a subgraph-closed class choose an edge-minimum failure of $P$, discarding isolates. The earlier local package gives one nonempty triangle component, no triangle-free edges,
+
+$$
+\tau(G)=2p,\qquad \nu(G-e)=p,\qquad \tau(G-e)=2p-1,
+\quad p=\nu(G).
+$$
+
+These are combined-obstruction statements, not properties imported from an inequality-only or two-red counterexample. The [earlier full proof](../tuza-five-degenerate/main.md) supplies the local criticality, codegree, robustness, degree-five classification and overlap arguments. Their local hypotheses contain no five-degeneracy; that condition enters its later global peeling argument. Puleo and Botler-Fernandes-Gutierrez supply important reduction antecedents [@Puleo2015; @BFG2020], with their own irreducibility conditions kept distinct.
+
+For a smaller actual residual $K$, suppose $r$ local triangles are compatible with a residual packing and $X$ covers **all lost triangles**, with $|X|\le2r$. Then
+
+$$
+2p\le\tau(K)+|X|\le2\nu(K)+2r\le2p.
+$$
+
+Equality forces $B(K)$, $|X|=2r$ and $p=\nu(K)+r$. It is this derived residual equality that makes restoration possible. A residual with a one-unit deficit is never simply assumed to satisfy $B$.
+
+The new arguments exclude a closed $K_6-2M$ link component (R6), two closed hub neighborhoods (TWIN), a degree-six exact perfect-matching-complement link adjacent to degree seven (THIN), and specified dominated dense six-links (DOM). BIP excludes a bipartite closed link component of **arbitrary order**; THREE-SUN handles the remaining symbolic nonbipartite exception. Each statement includes its actual residual and closure hypotheses. Bare “thinness” meaning a complement merely containing a perfect matching is insufficient for THIN.
+
+The finite classification then shows that degree-six links in a minimum combined obstruction are exactly $K_6$, $K_6-e$ or $K_6-3M$. The matching-complement size-two boundary is excluded by R6. TWIN, the separate four-common-neighbor reduction, and the inherited degree-five package prove that vertices of degree at most six are independent. Every higher-degree vertex has at least four neighbors of degree at least seven.
+
+The donor exclusions prove that degrees seven and eight cannot subsume a degree-five vertex, where subsumption means closed-neighborhood containment. Their case proofs permit all auxiliary edges, repeated outside apices and apices among the auxiliary vertices. They rely on the earlier degree-five package and actual graph closure, without a circular six-link premise.
+
+Finally, transfer $2/3$ to a degree-five vertex from each subsumer, $1/6$ to an exact thin degree-six vertex from every neighbor, and $1/4$ to another degree-six vertex from each subsumer. These are inherited charge rules with newly established combined-obstruction bounds. Every transfer conserves total charge.
+
+| Vertex category | Final charge lower bound |
+|---|---|
+| Degree 5 | $5+3(2/3)=7$ |
+| Thin degree 6 | $6+6(1/6)=7$ |
+| Other degree 6 | $6+4(1/4)=7$ |
+| Degree 7 | $7$, with no payment |
+| Degree 8 | $8-4/4=7$ |
+| Degree 9, at most three low neighbors | $9-3(2/3)=7$ |
+| Degree 9, at least four low neighbors | $9-(2/3+4/4)=22/3$ |
+| Degree $d\ge10$, at least two subsumed degree-5 neighbors | $d/3+4\ge22/3$ |
+| Degree $d\ge10$, at most one subsumed degree-5 neighbor | $3d/4+7/12\ge97/12$ |
+
+The inherited overlap bound for nonadjacent degree-five vertices is essential to the last three rows. The no-low-neighbor case is immediate. Summing gives $7|V|\le2|E|$, contradicting $\operatorname{mad}<7$. The proof does not import Puleo's stronger inequality-only degree-nine irreducibility conclusion, the optional high-degree lift, S/E, Parker/Liu, or the Gupta/Kandasamy certificate catalogues.
+
+## 8. Why arbitrary outside attachments matter
+
+A core reduction deletes some edges, but triangles can extend outside the named core. A valid proof must cover every triangle destroyed by those deletions and must extend a packing without colliding with a maximum packing of the residual. Checking a small core alone answers neither question.
+
+For $B(K)$, a maximum packing of a residual $K_4$ can avoid a star; one in a residual $K_5$ can avoid any two edges. An arbitrary three-edge star in $K_5$ cannot be avoided by a maximum two-packing. Accordingly each restoration bounds the **entire surviving footprint** of all selected triangles in each block, including local rim edges and selected page spokes jointly. Individual small footprints are insufficient if their union is too large.
+
+R6 illustrates the method. Delete six hub spokes and nine specified rim edges from a closed six-neighbor link with two disjoint missing edges. A five-packing and ten-edge lost-triangle cover force $B(K)$. The residual core is a four-edge star. If an external page exists on a deleted rim edge, choose a core five-packing avoiding its base and append the page. Missing pairs and deleted edges ensure that any residual clique sees a two-edge star at most, even though the entire core footprint may have more edges. If there is no external page, every lost triangle lies in the core and a seven-edge cover gives strictness. Retained-triangle cover saving has a precedent in the planar equality work of Cui, Haxell and Ma [@Cui2009]. No page-multiplicity or outside-degree bound is imposed.
+
+BIP is unbounded. A bipartite link of minimum degree two has two distinct maximum matchings. A rim edge in one but not the other has an external page by triangle codegree. Bipartiteness limits a residual clique's intersection with the link to two vertices; it therefore sees at most one surviving matching edge and one page spoke, sharing an endpoint if both occur. This proves the footprint condition for every outside completion, using finite bipartite matching-cover duality at its proper hypothesis.
+
+In the degree-eight proof, all pages on relevant rim bases are considered. Common apices force further actual triangles, and repeating a valid reduction for different neighbors restricts the whole page family. Either one or two selected pages give a packing gain with controlled footprint, or the family has a common base/column that permits a cheaper cover. Arbitrarily many pages are handled symbolically rather than sampled. The [complete degree-eight case analysis](../../problems/TUZA-15/notes/SCOUT_B_DEGREE8.md) is indispensable supporting proof, not an omitted implementation detail.
+
+The separate SEP lemma assumes a one-edge piece intersection, triangle separation, a triangle-bearing shared edge on both sides, Tuza for both pieces and their edge deletions, and $B$ for every tight piece. It is a conditional interface; there is no universal repair theorem for every balanced reduction.
+
+## 9. Exact finite dependency and independent verification
+
+The six-link certificate domain consists of connected six-vertex graphs of minimum degree at least two whose complement has maximum degree at least two. Each nonsymbolic record supplies a matching $M$, a vertex cover $Q$ of $H-M$ within the balanced budget, and either a local packing gain or actual edge-connected residual triangles that cannot have literal clique support. Symbolic records are recognized structurally and discharged by BIP or THREE-SUN.
+
+The independently authored checker reconstructs all edges, triangles, matchings, covers, residual components and footprints. It generates all 720 relabellings of each representative, rejects duplicate or overlapping orbits, and scans all $2^{15}$ labelled inputs. It observes 11,982 eligible links in 57 disjoint representative orbits: 34 local gains, 19 residual noncliques and four symbolic categories. The 76 matching-complement boundary inputs split by missing matching size; the 45 size-two cases use R6. Numeric totals are observations, not programmed acceptance targets.
+
+The certificate's SHA-256 is recorded in the [verification guide](../../problems/TUZA-15/REPRODUCTION.md), along with the frozen independent checker's authenticated SHA-256. Both original byte identities are preserved in the public edition. All 12 diagnostic controls are rerun: 11 validator rejections and one missing-orbit set-difference detection. They test important failure modes without constituting a proof that the checker implementation is correct.
+
+For a local-gain record, every clique intersection of size up to four/five in $H-M$ is checked, including smaller intersections representing blocks with outside vertices. All selected surviving edges lie on the fixed link. Extra block vertices contribute no new selected edges, so this is the precise finite-to-unbounded interface. The universal symbolic argument remains necessary.
+
+The frozen independent checker's symbolic-permutation output field has a harmless historical naming ambiguity. Its family recognition is independent, and the actual four supplied maps are identity. The portable wrapper explicitly checks **canonical template to record** direction for every supplied map and includes a direction-sensitive nonidentity diagnostic. It leaves the accepted frozen checker unchanged. This metadata clarification is not a theorem correction.
+
+The preserved TWIN checker failure similarly arose from requiring an increment to hit all core triangles, although it need only hit lost triangles. The possibly uncovered triangles remain in $K$ and are handled by the residual cover. The fresh scope diagnostic confirms this; no frozen mathematical proof needed correction. The Fano incidence example is another diagnostic against dropping actual graph geometry and combined tightness, not a graph counterexample to Tuza.
+
+## 10. Failed mechanisms and remaining questions
+
+Exact failures are part of the mathematical archive. The Clebsch cone has $(\nu,\tau)=(8,11)$ and exactly sixteen minimum covers; private-only packing is five for every one of them. This refutes even an existential private-only half-cover bridge. Two-red eligible packing is eight there. A different unique-witness example has eligible maximum five but maximum four if its specified private witness is forced. Local cover migration can cycle, and eligible/full cover optima can differ. None of these refutes S, E or Tuza.
+
+The ordered-lift and neutral-restoration failures identify limits of their particular architectures. The kernel's forced-state failure limits its use as a replacement gadget. The three-edge $K_5$ footprint control limits compatibility. The [full problem archives](../../ORDINARY_PROOF_INDEX.md) retain literal witness graphs, exact optimum certificates and the proof of what each obstruction refutes.
+
+Unrestricted Tuza, unrestricted equality classification, general S and E, and the remaining seven-regular equality question remain open in this release. Nonempty seven-regular graphs are outside the strict $\operatorname{mad}<7$ hypothesis. The restricted equality mechanism justifies the current CONTINUE assessment at that scope; the earlier TUZA-07-10 REDIRECT conclusion remains a valid historical assessment of that phase. No general solution is claimed to be close.
+
+## 11. Reproducing and reading this release
+
+From a public checkout, run the standard-library finite suite with a new output directory outside the checkout:
+
+```sh
+python3 tools/check_tuza_11_15.py --output ../tuza-11-15-replay
+```
+
+For the lightweight TUZA-15 dependency alone, add `--only TUZA-15`. The driver copies public inputs into its output tree, runs serially with assertions enabled, rejects existing output directories, and records individual commands, exits, hashes and observed counts. Source-specific guides describe optional historical data recounts and discovery tools. No dependency is downloaded, no solver installed, and no large census or Lean campaign started by the default command.
+
+The full proofs remain reading obligations. The [publication verification receipt](../../verification/tuza-11-15/README.md) distinguishes freshly replayed finite checks from historical censuses, Liu RUP evidence and earlier Lean records. The [source manifest](../../problems/TUZA-11-15-SOURCE_MANIFEST.json) records source-file content hashes, public hashes and transformations using neutral packet labels. Private operational provenance and histories are not public ancestry.
+
+The canonical editable report is `manuscript.md`; citation-resolved `main.md`, generated `main.tex` and `main.pdf` are derivatives. The [build guide](README.md) uses Pandoc 3.13 and Tectonic 0.17.0 with an existing typesetting bundle cache, writing into a fresh output directory. It installs nothing and leaves source files and unrelated papers unchanged. PDF links target public repository pages. Current checksum inventories have explicit self-exclusions; historical inventory records are pinned to their own edition rather than claimed to verify this new tree.
+
+This is a research archive with an inspectable ordinary/computer-assisted evidence boundary. It is not journal, arXiv or DOI publication, and it carries no external peer-review certification.
+
+## References

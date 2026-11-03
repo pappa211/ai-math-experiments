@@ -1,0 +1,221 @@
+{
+  "stage": "focused",
+  "seed": 13110297,
+  "seconds_budget": 600,
+  "per_graph_seconds": 2,
+  "cover_limit": 20000,
+  "counts": {
+    "attempted_graphs": 4415,
+    "exact_graphs": 4415,
+    "all_optima_graphs": 4415,
+    "exact_cover_pairs": 80243,
+    "covers_with_T3": 72206,
+    "covers_requiring_two_red": 0,
+    "labelled_duplicates_skipped": 56
+  },
+  "worst": [
+    {
+      "name": "near9_toggle((0, 1), (0, 8))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "d38d1f4ed5cf1e9429fbdcedf9e2ad9826470e14adfee80ffef29a0ac837986f"
+    },
+    {
+      "name": "near9_toggle((0, 1), (1, 7))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "eeab2f38fe59071f5ea63818991442fdd222be17ffd814815576036f96e4207b"
+    },
+    {
+      "name": "near9_toggle((0, 1), (1, 8))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "c1b156559013b49b9faeb87759679155cf8161f16a280a557e84780820c25069"
+    },
+    {
+      "name": "near9_toggle((0, 2), (0, 3))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "4af066addbbd29a7dc1d7ea194f1740a1b8a4f567e60610c9204bd2324faa1fb"
+    },
+    {
+      "name": "near9_toggle((0, 2), (0, 6))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "52426a2a582d30e59788ed9c6a4fb048eb5182ff14579fb2a644344c12004065"
+    },
+    {
+      "name": "near9_toggle((0, 2), (2, 3))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "9080e6b298a54a7ad5d15d2cb4d778f84e3e46233e41792def0a6f261e58eaa4"
+    },
+    {
+      "name": "near9_toggle((0, 2), (2, 6))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "ccc93dfe35f8ef6e292de224d9fbcd406cb32a5676b3cc3ab3b848b445aa2904"
+    },
+    {
+      "name": "near9_toggle((0, 2), (3, 6))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 4,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "70dca5479dc8f3fe85255389c7d537d0177554955a79bfb43f9f67a3f19b54d8"
+    },
+    {
+      "name": "near9_toggle((0, 3), (2, 3))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "92b0e8fcd0a0c4b3cb24491dfbe6d977406b070940a533cb5a5eebcf7c357b0c"
+    },
+    {
+      "name": "near9_toggle((0, 3), (3, 6))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "6bf7ba1ac09ca0174830921bb205b61dade93ee77c73ab61db31bb1e6fa307f0"
+    },
+    {
+      "name": "near9_toggle((0, 6), (2, 6))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "076579c007f511af672b747668a34ebaa102ae102c2ac15cfb142119ca5cad91"
+    },
+    {
+      "name": "near9_toggle((0, 6), (3, 6))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "d031a96a8d3e87cda2354078fc796c6695e0270c67a695a7eee09ddd1f95cf73"
+    },
+    {
+      "name": "near9_toggle((0, 7), (0, 8))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "682b9a8e1b54bb9d939ae258b65818c2560c03242aefc54bd1fcf63047f3d478"
+    },
+    {
+      "name": "near9_toggle((0, 7), (1, 7))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "f712c071fb0179dd404776f02115fc9443c565949aa16dc554e3d259b99af067"
+    },
+    {
+      "name": "near9_toggle((0, 7), (7, 8))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "3490b3b264a380eabefee61ca300346af55a032dc26c2b90280b59f4f035f12e"
+    },
+    {
+      "name": "near9_toggle((0, 8), (1, 7))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 4,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "d50e090c0730b675d00092762d00e305f617a23b9fbf63cfdb8a172fab57035e"
+    },
+    {
+      "name": "near9_toggle((0, 8), (1, 8))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "0a1b57a527c04f87e226354b549bda800dd6477787948cca274af29fa3dc51df"
+    },
+    {
+      "name": "near9_toggle((0, 8), (7, 8))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "bac8a63f2d2acdb64333c712b7707cc052784a09ac3184b6e46c2acdc1bf5bf6"
+    },
+    {
+      "name": "near9_toggle((1, 7), (1, 8))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "2560f881ce54ab651cf8873a14fdd203400925d85a46d6f8d5baba2cf4115a22"
+    },
+    {
+      "name": "near9_toggle((1, 7), (7, 8))",
+      "n": 9,
+      "m": 16,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "c7f130b119f8ea89eea55cd36d5bc5e077dabaab47635d2caf5c89493dca44ae"
+    }
+  ],
+  "elapsed_seconds": 8.913804874999187,
+  "finished_utc": "2026-11-02T16:32:44.161860+00:00",
+  "dedup": "exact sorted labelled edge list only; no isomorphism quotient claimed"
+}

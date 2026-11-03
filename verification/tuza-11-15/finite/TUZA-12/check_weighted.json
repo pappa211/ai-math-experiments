@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "domain": "all 1024 labelled simple graphs on five vertices, every independent weight-two set, all weight-one other vertices",
+  "graphs": 1024,
+  "weighted_instances": 12625,
+  "tested": [
+    "Tutte-Berge minimizing barrier by exhaustive subsets",
+    "independence of constructed I",
+    "exact weight algebra",
+    "constructed cover bound",
+    "independently enumerated weighted optimum"
+  ],
+  "negative_control": {
+    "graph": "K3",
+    "S": "all three vertices (not independent)",
+    "mu": 1,
+    "weighted_vc": 4,
+    "bound_2mu": 2,
+    "interpretation": "independence hypothesis essential"
+  },
+  "parallel_edges": "Matching/vertex-cover predicates are unchanged by repeating an edge; finite graph census is simple. B root census explicitly retains parallel edges.",
+  "elapsed_seconds": 0.05657183300354518
+}

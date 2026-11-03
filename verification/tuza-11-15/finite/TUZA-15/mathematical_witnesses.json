@@ -1,0 +1,704 @@
+{
+  "scope": "independent ordinary fixed-core rows and footprint projection tests; no original checker imported; not a full six-link verification",
+  "passed": true,
+  "checks": [
+    {
+      "label": "R6 avoid 13",
+      "triangles": 5,
+      "used_edges": 15
+    },
+    {
+      "label": "R6 avoid 15",
+      "triangles": 5,
+      "used_edges": 15
+    },
+    {
+      "label": "R6 avoid 56",
+      "triangles": 5,
+      "used_edges": 15
+    },
+    {
+      "label": "R6 initial",
+      "triangles": 5,
+      "used_edges": 15
+    },
+    {
+      "label": "R6 seven-edge cover",
+      "cover_size": 7,
+      "triangles_tested": 25
+    },
+    {
+      "label": "R6 maximal selected footprint/page 15",
+      "clique_projections": {
+        "4": 22,
+        "5": 22
+      }
+    },
+    {
+      "label": "R6 maximal selected footprint/page 56",
+      "clique_projections": {
+        "4": 22,
+        "5": 22
+      }
+    },
+    {
+      "label": "R6 maximal selected footprint/page 24",
+      "clique_projections": {
+        "4": 22,
+        "5": 22
+      }
+    },
+    {
+      "label": "R6 maximal selected footprint/page 13",
+      "clique_projections": {
+        "4": 22,
+        "5": 22
+      }
+    },
+    {
+      "label": "R6 maximal selected footprint/page 14",
+      "clique_projections": {
+        "4": 22,
+        "5": 22
+      }
+    },
+    {
+      "label": "R6 maximal selected footprint/page 23",
+      "clique_projections": {
+        "4": 22,
+        "5": 22
+      }
+    },
+    {
+      "label": "R6 maximal selected footprint/page 35",
+      "clique_projections": {
+        "4": 22,
+        "5": 22
+      }
+    },
+    {
+      "label": "R6 maximal selected footprint/page 25",
+      "clique_projections": {
+        "4": 22,
+        "5": 22
+      }
+    },
+    {
+      "label": "R6 maximal selected footprint/page 45",
+      "clique_projections": {
+        "4": 22,
+        "5": 22
+      }
+    },
+    {
+      "label": "TWIN initial",
+      "triangles": 5,
+      "used_edges": 15
+    },
+    {
+      "label": "TWIN restored",
+      "triangles": 6,
+      "used_edges": 18
+    },
+    {
+      "label": "TWIN footprint",
+      "clique_projections": {
+        "4": 14,
+        "5": 14
+      }
+    },
+    {
+      "label": "K6 matching decomposition",
+      "triangles": 4,
+      "used_edges": 12
+    },
+    {
+      "label": "donor8 IIb avoid ac ad",
+      "triangles": 3,
+      "used_edges": 9
+    },
+    {
+      "label": "donor8 IIb avoid ac bc",
+      "triangles": 3,
+      "used_edges": 9
+    },
+    {
+      "label": "donor8 IIb avoid ac bd",
+      "triangles": 3,
+      "used_edges": 9
+    },
+    {
+      "label": "donor8 IIb Cc",
+      "cover_size": 5,
+      "triangles_tested": 16
+    },
+    {
+      "label": "donor8 IIb Cd",
+      "cover_size": 5,
+      "triangles_tested": 16
+    },
+    {
+      "label": "DOM K7 decomposition",
+      "triangles": 7,
+      "used_edges": 21
+    },
+    {
+      "label": "DOM K7-e",
+      "triangles": 6,
+      "used_edges": 18
+    },
+    {
+      "label": "B2 C4",
+      "triangles": 5,
+      "used_edges": 15
+    },
+    {
+      "label": "B2 C4 hub-cover",
+      "cover_size": 9,
+      "triangles_tested": 32
+    },
+    {
+      "label": "B2 K4",
+      "triangles": 6,
+      "used_edges": 18
+    },
+    {
+      "label": "B2 K4 hub-cover",
+      "cover_size": 11,
+      "triangles_tested": 44
+    },
+    {
+      "label": "THIN restored",
+      "triangles": 5,
+      "used_edges": 15
+    },
+    {
+      "label": "THIN hub-cover",
+      "cover_size": 8,
+      "triangles_tested": 20
+    },
+    {
+      "label": "THIN footprint",
+      "clique_projections": {
+        "4": 10,
+        "5": 10
+      }
+    },
+    {
+      "label": "THREE-SUN page az",
+      "clique_projections": {
+        "4": 28,
+        "5": 28
+      }
+    },
+    {
+      "label": "THREE-SUN six edges",
+      "cover_size": 6,
+      "triangles_tested": 13
+    },
+    {
+      "label": "two-page ab ab False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab ab True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab ac False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab ac True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab ad False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab ad True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab bc False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab bc True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab bd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab bd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab cd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ab cd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac ab False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac ab True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac ac False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac ac True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac ad False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac ad True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac bc False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac bc True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac bd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac bd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac cd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ac cd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad ab False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad ab True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad ac False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad ac True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad ad False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad ad True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad bc False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad bc True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad bd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad bd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad cd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page ad cd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc ab False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc ab True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc ac False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc ac True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc ad False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc ad True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc bc False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc bc True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc bd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc bd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc cd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bc cd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd ab False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd ab True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd ac False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd ac True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd ad False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd ad True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd bc False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd bc True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd bd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd bd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd cd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page bd cd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd ab False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd ab True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd ac False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd ac True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd ad False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd ad True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd bc False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd bc True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd bd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd bd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd cd False",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    },
+    {
+      "label": "two-page cd cd True",
+      "clique_projections": {
+        "4": 20,
+        "5": 20
+      }
+    }
+  ]
+}

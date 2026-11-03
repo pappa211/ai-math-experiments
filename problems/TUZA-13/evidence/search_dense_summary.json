@@ -1,0 +1,222 @@
+{
+  "stage": "dense",
+  "seed": 131102,
+  "seconds_budget": 300.0,
+  "per_graph_seconds": 2.0,
+  "cover_limit": 3000,
+  "counts": {
+    "attempted_graphs": 499,
+    "exact_graphs": 459,
+    "all_optima_graphs": 459,
+    "exact_cover_pairs": 2253,
+    "covers_with_T3": 1794,
+    "covers_requiring_two_red": 0,
+    "labelled_duplicates_skipped": 1,
+    "unresolved_graphs": 40
+  },
+  "worst": [
+    {
+      "name": "dense_7_95",
+      "n": 7,
+      "m": 8,
+      "D": 0,
+      "tau": 1,
+      "nu": 1,
+      "eligible_nu": 1,
+      "graph_hash": "ba9cf7873d6c3cd27a5630ca896c0abc955aa9cc1bdef30f0db2de2d4b35ee04"
+    },
+    {
+      "name": "dense_7_40",
+      "n": 7,
+      "m": 10,
+      "D": 0,
+      "tau": 1,
+      "nu": 1,
+      "eligible_nu": 1,
+      "graph_hash": "3f57ce3cdadee1aa349975102bffb25df983e4e8eb74a0bad5596f7b9fcbc433"
+    },
+    {
+      "name": "dense_7_42",
+      "n": 7,
+      "m": 11,
+      "D": 0,
+      "tau": 3,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "693d1c82916e45fd32c3099e0a929acf602af5c0ea4ed41c35aa127a8c9df737"
+    },
+    {
+      "name": "dense_7_67",
+      "n": 7,
+      "m": 11,
+      "D": 0,
+      "tau": 1,
+      "nu": 1,
+      "eligible_nu": 1,
+      "graph_hash": "ed885cd4c307655dcb7c3d1dcc0406e55856fcf5878df1c31bd2cb809f817a0a"
+    },
+    {
+      "name": "dense_7_29",
+      "n": 7,
+      "m": 10,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "f82b0091e0dbe8dc6a28d2e18eca4049945ccb01d4c2913a4e0cb3ec2e9d8806"
+    },
+    {
+      "name": "dense_7_49",
+      "n": 7,
+      "m": 10,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "1c58bec80f2b1999dfb3b93383a0c03437a0ba9b3a40063726a63dcc7025649c"
+    },
+    {
+      "name": "dense_7_31",
+      "n": 7,
+      "m": 11,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "2949835530c7dfe700cfa9887d358f4fbd540a987c54424a4f76d0dbf49c22de"
+    },
+    {
+      "name": "dense_7_59",
+      "n": 7,
+      "m": 11,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "554024474262f9a1a28d2be01a79574fd8b0878af7ae5511c55700e2e3f04f26"
+    },
+    {
+      "name": "dense_7_61",
+      "n": 7,
+      "m": 11,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "70b08775476b8c623e3dd6cf0e070163dccaf9d06ee229b5680e4b0f4413027d"
+    },
+    {
+      "name": "dense_7_89",
+      "n": 7,
+      "m": 11,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "3dcafe7467101cec175d564bb8132e2f3495dd8555145a322ecd297d45459226"
+    },
+    {
+      "name": "dense_7_92",
+      "n": 7,
+      "m": 11,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "2410067ec38de547a8719412dac31821ab2b349947374b5380fde347bd454c37"
+    },
+    {
+      "name": "dense_7_26",
+      "n": 7,
+      "m": 12,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "b15e902010d6d498720117ca057e6ccf64eabc70af73e578e4076aadc194f0e5"
+    },
+    {
+      "name": "dense_7_28",
+      "n": 7,
+      "m": 12,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "146f9731e1b3bbc1f4ddd3ae837f95964f8c24d24dbb22c205b3a24fc901c7e1"
+    },
+    {
+      "name": "dense_7_50",
+      "n": 7,
+      "m": 12,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "836370755475b7a2edd93e09331e5ab36b8a3d71d013239ba338c2ac1978b7c2"
+    },
+    {
+      "name": "dense_7_57",
+      "n": 7,
+      "m": 12,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "2bb305de7a2034f393323d8cfb698ed5ea8adfac3777be3a05d3c1742b92412d"
+    },
+    {
+      "name": "dense_7_60",
+      "n": 7,
+      "m": 12,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "852c5d8915cfc0e6c1b7afc72f64a43b47e27c153f4fd3ca8ce65e0609b4ed7c"
+    },
+    {
+      "name": "dense_7_71",
+      "n": 7,
+      "m": 12,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "da02a3c1609d3f9ec500fc6227a44e3005a3d0a69f28a2f97431d501882b96c0"
+    },
+    {
+      "name": "dense_7_78",
+      "n": 7,
+      "m": 12,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "2c458795d4bb63c6142dc2bf30fb2cc49c53afd3f0d1f55baac11eb829197467"
+    },
+    {
+      "name": "dense_7_1",
+      "n": 7,
+      "m": 13,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "0df838404df35e504fb68096160fe5448dcb635f9ae0573ac42c3cfb4a7fe2b9"
+    },
+    {
+      "name": "dense_7_22",
+      "n": 7,
+      "m": 13,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "767f3723ccfeb841653c813fe9def5b2d942d5c61dcce762c30991e215da0963"
+    }
+  ],
+  "elapsed_seconds": 149.06805562500085,
+  "finished_utc": "2026-11-02T16:22:34.086009+00:00",
+  "dedup": "exact sorted labelled edge list only; no isomorphism quotient claimed"
+}

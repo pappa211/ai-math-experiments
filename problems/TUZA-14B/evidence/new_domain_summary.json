@@ -1,0 +1,128 @@
+{
+  "status": "COMPLETED_NEW_RUNS_ONLY",
+  "domains": {
+    "targeted": {
+      "counts": {
+        "jobs": 3484,
+        "EXACT": 3484,
+        "tight": 3,
+        "hard_graphs": 746,
+        "hard_cover_pairs": 190601,
+        "hard_T3_graphs": 745,
+        "hard_T3_pairs": 190598,
+        "hard_loss_graphs": 346,
+        "hard_loss_pairs": 13331,
+        "automatic": 2738,
+        "hard_between": 743,
+        "hard_one_off_graphs": 20,
+        "hard_one_off_pairs": 1240
+      },
+      "all_hard_full_optimum_exists": true,
+      "max_deficit": 0,
+      "run_receipt": "evidence/targeted_search_summary.json",
+      "interpretation": "Actual graph input"
+    },
+    "kernel": {
+      "counts": {
+        "jobs": 2438,
+        "EXACT": 2438,
+        "hard_between": 32,
+        "hard_graphs": 32,
+        "hard_cover_pairs": 11734,
+        "hard_T3_graphs": 32,
+        "hard_T3_pairs": 11734,
+        "hard_loss_graphs": 0,
+        "hard_loss_pairs": 0,
+        "automatic": 2405,
+        "nu0": 1
+      },
+      "all_hard_full_optimum_exists": true,
+      "max_deficit": -1,
+      "run_receipt": "evidence/kernel_search_summary.json",
+      "interpretation": "Graph after recorded leaf deletions; do not conflate residual ratio with pre-reduction ratio"
+    },
+    "coupled": {
+      "counts": {
+        "jobs": 671,
+        "EXACT": 671,
+        "nu0": 1,
+        "automatic": 670
+      },
+      "all_hard_full_optimum_exists": true,
+      "max_deficit": null,
+      "run_receipt": "evidence/coupled_search_summary.json",
+      "interpretation": "Graph after recorded leaf deletions; do not conflate residual ratio with pre-reduction ratio"
+    }
+  },
+  "union_normalized_labelled_graphs": 6578,
+  "union_strata": {
+    "tight": {
+      "graphs": 3,
+      "cover_pairs": 23,
+      "allred_graphs": 2,
+      "allred_pairs": 20,
+      "loss_min": 0,
+      "loss_max": 0,
+      "allowance_min": 0,
+      "allowance_max": 0,
+      "deficit_min": 0,
+      "deficit_max": 0,
+      "eligible_optimum_scope": [
+        "all_optima_exact"
+      ]
+    },
+    "automatic": {
+      "graphs": 5800,
+      "cover_pairs": 547807,
+      "allred_graphs": 5629,
+      "allred_pairs": 543491,
+      "loss_min": "UNKNOWN for exact all-cover extrema; threshold certified by integer lemma",
+      "loss_max": "UNKNOWN for exact all-cover extrema; threshold certified by integer lemma",
+      "allowance_min": 0,
+      "allowance_max": 5,
+      "deficit_min": "UNKNOWN for exact all-cover extrema; threshold certified by integer lemma",
+      "deficit_max": "UNKNOWN for exact all-cover extrema; threshold certified by integer lemma",
+      "eligible_optimum_scope": [
+        "all_optima_exact",
+        "all_optima_threshold_by_automatic_lemma"
+      ]
+    },
+    "hard_between": {
+      "graphs": 774,
+      "cover_pairs": 202084,
+      "allred_graphs": 774,
+      "allred_pairs": 202084,
+      "loss_min": 0,
+      "loss_max": 1,
+      "allowance_min": 0,
+      "allowance_max": 2,
+      "deficit_min": -2,
+      "deficit_max": 0,
+      "eligible_optimum_scope": [
+        "all_optima_exact"
+      ]
+    },
+    "nu0": {
+      "graphs": 1,
+      "cover_pairs": 1,
+      "allred_graphs": 0,
+      "allred_pairs": 0,
+      "loss_min": 0,
+      "loss_max": 0,
+      "allowance_min": 0,
+      "allowance_max": 0,
+      "deficit_min": 0,
+      "deficit_max": 0,
+      "eligible_optimum_scope": [
+        "all_optima_exact"
+      ]
+    }
+  },
+  "old_ledger_overlap": "Not unioned with TUZA-13; explicitly rerun seeds overlap, and further exact graph overlap may occur. All counts here are fresh-run cases, not additional historical unique graphs.",
+  "identity": "n plus sorted edges after isolate normalization; kernel/coupled input includes further mathematically recorded leaf stripping; no isomorphism quotient.",
+  "warnings": [
+    "Automatic cases not exhaustively reoptimized for eligible k; no false exact loss extrema.",
+    "Source resource initial failures are not solver timeouts; actual runs completed every generated domain.",
+    "Coupled domain specifies704 original cross-link inputs but671 distinct reduced graph inputs; ratios here concern reduced inputs."
+  ]
+}

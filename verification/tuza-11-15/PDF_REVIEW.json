@@ -1,0 +1,224 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 535
+    },
+    {
+      "page": 2,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 333
+    },
+    {
+      "page": 3,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 323
+    },
+    {
+      "page": 4,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 571
+    },
+    {
+      "page": 5,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 589
+    },
+    {
+      "page": 6,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 487
+    },
+    {
+      "page": 7,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 501
+    },
+    {
+      "page": 8,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 629
+    },
+    {
+      "page": 9,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 552
+    },
+    {
+      "page": 10,
+      "width": 595.280029296875,
+      "height": 841.8900146484375,
+      "words": 333
+    }
+  ],
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "TUZA-11-15 Research Summary: Sparse Equality, Compatibility and Proof Obstructions",
+    "author": "AI Math Experiments",
+    "subject": "AI-developed technical research report. Ordinary computer-assisted proofs and internal AI verification; no external human peer review or historical-priority certification.",
+    "keywords": "Tuza, sparse equality, triangle packing, triangle cover, finite certificates",
+    "creator": "LaTeX with Tectonic",
+    "producer": "Tectonic",
+    "creationDate": "D:20261103000000-00'00'",
+    "modDate": "",
+    "trapped": "",
+    "encryption": null
+  },
+  "embedded_files": 0,
+  "urls": [
+    "https://arxiv.org/abs/1308.2211v3",
+    "https://arxiv.org/abs/2002.07925v2",
+    "https://arxiv.org/abs/2406.06501v3",
+    "https://doi.org/10.1007/BF01787705",
+    "https://doi.org/10.1007/s00373-010-0881-5",
+    "https://doi.org/10.1007/s00373-011-1048-8",
+    "https://doi.org/10.1007/s00373-018-1903-y",
+    "https://doi.org/10.1016/j.ejc.2015.03.006",
+    "https://doi.org/10.1017/S1446788700032699",
+    "https://doi.org/10.37236/13355",
+    "https://doi.org/10.5281/zenodo.23177679",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/DECLARATION_INDEX.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/ORDINARY_PROOF_INDEX.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/REPRODUCTION.md#tuza-1115-ordinary-proofs-and-exact-finite-checks",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/RESEARCH_STATUS_2026-11-03.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-11-15-research-summary/README.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-11-15-research-summary/main.pdf",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-11-15-research-summary/main.tex",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-11-15-research-summary/manuscript.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-11-15-research-summary/references.bib",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-five-degenerate/main.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-11-15-SOURCE_MANIFEST.json",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-11/external/CLASS9_TABLE_ERRATUM.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-11/external/README.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-12/INDEPENDENT_PROOF_A.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-12/INDEPENDENT_PROOF_B.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-12/notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-13/SEARCH_COVERAGE.json",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-14/PROOF_WORKBOOK.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-14B/RATIO_AUDIT.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-15/REPRODUCTION.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-15/notes/SCOUT_B_RESULTS.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/verification/tuza-11-15/README.md",
+    "https://perso.ens-lyon.fr/stephan.thomasse/liste/packplanar.pdf",
+    "https://www.columbia.edu/~wm2428/papers/packing_covering_triangles.pdf",
+    "https://zenodo.org/records/23177679"
+  ],
+  "bookmarks": [
+    [
+      1,
+      "TUZA-11-15 Research Summary: Sparse Equality, Compatibility and Proof Obstructions",
+      1
+    ],
+    [
+      2,
+      "1. The question and the outcome, in plain English",
+      1
+    ],
+    [
+      2,
+      "2. Exact statements and boundaries",
+      2
+    ],
+    [
+      2,
+      "3. Evidence and status across the phase",
+      3
+    ],
+    [
+      2,
+      "4. Flat pieces, gluing and an external finite theorem",
+      3
+    ],
+    [
+      2,
+      "5. Matching roots, realizability and a neutral restoration failure",
+      4
+    ],
+    [
+      2,
+      "6. Two-red: exact quantifiers and a smaller difficult domain",
+      5
+    ],
+    [
+      2,
+      "7. Equality through reductions: the proof roadmap",
+      6
+    ],
+    [
+      2,
+      "8. Why arbitrary outside attachments matter",
+      7
+    ],
+    [
+      2,
+      "9. Exact finite dependency and independent verification",
+      8
+    ],
+    [
+      2,
+      "10. Failed mechanisms and remaining questions",
+      9
+    ],
+    [
+      2,
+      "11. Reproducing and reading this release",
+      9
+    ],
+    [
+      2,
+      "References",
+      10
+    ]
+  ],
+  "outside_page_words": [],
+  "pdf_sha256": "92dabb82f108de3afd2b116a7ecac246a7f189bfcb288c038425b8892b998dd1",
+  "visual_review": {
+    "status": "PASS",
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "method": "All ten final pages rendered and visually inspected; theorem/formula and charge-table pages additionally inspected individually.",
+    "corrections": "Separator glyph corrected, status table moved intact; no clipping/overflow/missing mathematical glyph seen in final edition."
+  },
+  "text_quantifier_parity": {
+    "status": "PASS",
+    "checked": [
+      "mad strictly below seven and full actual B definition",
+      "empty/triangle-free and vertex-sharing cases",
+      "locally bipartite strictness with a triangle",
+      "S every cover / E some cover and implication direction",
+      "strict fractional endpoints",
+      "distinct roots and designated positive-integer book cover",
+      "Liu v1.0.2 and class9 378 to 389",
+      "ordinary/finite/internal-AI versus Lean/external-review boundary"
+    ]
+  }
+}

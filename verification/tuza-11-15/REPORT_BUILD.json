@@ -1,0 +1,16 @@
+{
+  "status": "COMPILED",
+  "canonical_source": "manuscript.md",
+  "source_sha256": "a2fd40d729666c2bf1cfdd7392033b55a7f71ad730d98082ad48cd6a250d9fcb",
+  "bibliography_sha256": "6999b04a12a15178e85f169c892a2e99cdf3718da16b12043219ba43417bd6ae",
+  "style_sha256": "ad87814675ef1df8d841e5043be7be0fb3966f45509f4941475f96887c9280f7",
+  "artifacts": {
+    "main.md": "48a25dcec27f7019890a4a0f09080b85ea7b69e9df51eb66d7b9710e4768a817",
+    "main.tex": "2af318581fa96791a4c4c40aa24ac14c363878346e90fd5a8ae7a22ed8b1470c",
+    "main.pdf": "92dabb82f108de3afd2b116a7ecac246a7f189bfcb288c038425b8892b998dd1"
+  },
+  "pandoc": "pandoc 3.13",
+  "tectonic": "Tectonic 0.17.0",
+  "cache_policy": "Existing bundle assets only; no download; SOURCE_DATE_EPOCH=1793664000",
+  "parity": "Markdown and LaTeX share the same citation-resolved manuscript; final visual/text checks recorded separately."
+}

@@ -1,0 +1,16 @@
+{
+  "M": 340282366920938463463374607431768211456,
+  "N": 79228162514264337593543950336,
+  "all_orders_failure_probability": "<exp(-2^115)<1/8",
+  "all_orders_quantifier": "simultaneous Chernoff union bound over N! orders; exact symbolic proof, not enumeration",
+  "construction": "finite probabilistic existence; huge graph not generated",
+  "deletion_failure_probability": "<1/8 by Markov",
+  "deletion_threshold": "M/1120 > 2^117",
+  "expected_total_strict_power_bound": 114,
+  "integer_checks": "PASS",
+  "p_denominator": 280,
+  "p_numerator": 1,
+  "pair_expectation_upper": 47813960639055157788672,
+  "single_component_gap_check": "M>6720*N, so M/1120>6*N",
+  "triple_expectation_upper": 9857251067374711826038364125003776
+}

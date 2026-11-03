@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-03",
+  "scope": "Read-only primary edition/access checks, not new theorem proofs.",
+  "sources": [
+    {
+      "source": "liu_metadata",
+      "url": "https://zenodo.org/api/records/23177679",
+      "status": 200,
+      "bytes": 8275,
+      "sha256": "57c34427d5dc5297f1389305d7e3b85727d2abef586198dde6cdc323a369d37a"
+    },
+    {
+      "source": "liu_pdf",
+      "url": "https://zenodo.org/records/23177679/files/manuscript.pdf?download=1",
+      "status": 200,
+      "bytes": 99902,
+      "sha256": "8303403632de6c70da3bfb793076a361d299d9abd88eef47cf065cb255edc4df"
+    },
+    {
+      "source": "puleo",
+      "url": "https://arxiv.org/pdf/1308.2211v3",
+      "status": 200,
+      "bytes": 313471,
+      "sha256": "822c158830f76c61edbb3a32e308b113059318718129c6ee8380b3e91fb3d241"
+    },
+    {
+      "source": "bfg",
+      "url": "https://arxiv.org/pdf/2002.07925v2",
+      "status": 200,
+      "bytes": 240719,
+      "sha256": "1bb2a6b0150e25aa1da7f0d76c6950d040a486cf22f75ac6639b74d9b347d8de"
+    },
+    {
+      "source": "parker",
+      "url": "https://arxiv.org/pdf/2406.06501v3",
+      "status": 200,
+      "bytes": 252773,
+      "sha256": "ccbe7cb66a178ed55f7df5b5975d70b59ab7236745f6f5304dddb50c7a52648e"
+    },
+    {
+      "source": "hkt",
+      "url": "https://perso.ens-lyon.fr/stephan.thomasse/liste/packplanar.pdf",
+      "status": 200,
+      "bytes": 150722,
+      "sha256": "a6f0d975820a34ace112bb5db41bae0c77d5bc9f4c2da590ea612b2ba3d465b4"
+    },
+    {
+      "source": "munaro",
+      "url": "https://doi.org/10.1007/s00373-018-1903-y",
+      "status": 200,
+      "bytes": 351006,
+      "sha256": "8569ea681296e84ce120a06518ff16f513d2c5fb90ea321171db1a3a4731504b",
+      "scope": "DOI metadata/cookie landing, not full-text access."
+    },
+    {
+      "source": "furedi",
+      "url": "https://doi.org/10.1017/S1446788700032699",
+      "status": 200,
+      "bytes": 797157,
+      "sha256": "8ae0565a4b8f3a6ff91d695964cd49a8f874c6bf26fffc88b61d00ade0dc959f"
+    },
+    {
+      "source": "munaro_accepted",
+      "url": "https://pureadmin.qub.ac.uk/ws/portalfiles/portal/186487135/manuscript.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "scope": "Fresh PDF HTTP403; prior frozen manuscript inspection reused as prior-art context."
+    },
+    {
+      "source": "furedi_pdf",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3F60335F218D9C250DA813F8B8A8B8CC/S1446788700032699a.pdf/on_rgraphs_and_rmultihypergraphs_with_given_maximum_degree.pdf",
+      "status": 200,
+      "method": "GET",
+      "bytes_read": 394711,
+      "sha256": "b251e8d6e3e67b962587f82fc48b0e0953611fb75ff5a9e61624f1727509bc22"
+    },
+    {
+      "source": "liu_source_zip",
+      "url": "https://zenodo.org/records/23177679/files/complete-source-and-reproduction.zip?download=1",
+      "status": 200,
+      "method": "HEAD",
+      "bytes_read": 0,
+      "sha256": null
+    },
+    {
+      "source": "liu_certificate_zip",
+      "url": "https://zenodo.org/records/23177679/files/tuza_four_certificate.zip?download=1",
+      "status": 200,
+      "method": "HEAD",
+      "bytes_read": 0,
+      "sha256": null
+    }
+  ]
+}

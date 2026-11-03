@@ -1,0 +1,116 @@
+{
+  "started_utc": "2026-11-02T16:28:30.227024+00:00",
+  "ended_utc": "2026-11-02T16:28:30.747801+00:00",
+  "base_cycle": 7,
+  "apices": 2,
+  "expected_neighborhood_multisets": 8256,
+  "graphs_completed": 8256,
+  "covers_completed": 60734,
+  "complete_generator": true,
+  "all_completed_graphs_cover_enumeration_complete": true,
+  "max_T3": 1,
+  "graphs_with_T3": 287,
+  "graphs_with_eligible_packing_loss": 0,
+  "minimum_margin": 0,
+  "exceptions": [],
+  "compute_seconds": 0.5206358330033254,
+  "wall_seconds_including_lock_wait": 0.5207935420003196,
+  "graph_manifest": "evidence/hostile_C7_apices2_graphs.jsonl.gz",
+  "manifest_sha256": "0e2d91b6fed4434d978e5bd9e758c921bfab99ebfbc7639add098dea2400cf2f",
+  "counts_by_tau_margin_maxT3": [
+    {
+      "tau": 0,
+      "margin": 0,
+      "max_T3": 0,
+      "graphs": 435
+    },
+    {
+      "tau": 1,
+      "margin": 0,
+      "max_T3": 0,
+      "graphs": 1729
+    },
+    {
+      "tau": 2,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 2758
+    },
+    {
+      "tau": 3,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 2121
+    },
+    {
+      "tau": 3,
+      "margin": 1,
+      "max_T3": 1,
+      "graphs": 70
+    },
+    {
+      "tau": 4,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 29
+    },
+    {
+      "tau": 4,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 749
+    },
+    {
+      "tau": 4,
+      "margin": 2,
+      "max_T3": 1,
+      "graphs": 140
+    },
+    {
+      "tau": 5,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 28
+    },
+    {
+      "tau": 5,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 105
+    },
+    {
+      "tau": 5,
+      "margin": 2,
+      "max_T3": 1,
+      "graphs": 70
+    },
+    {
+      "tau": 6,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 7
+    },
+    {
+      "tau": 6,
+      "margin": 3,
+      "max_T3": 0,
+      "graphs": 7
+    },
+    {
+      "tau": 6,
+      "margin": 3,
+      "max_T3": 1,
+      "graphs": 7
+    },
+    {
+      "tau": 7,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 1
+    }
+  ],
+  "packing_cache": "CacheInfo(hits=11851, misses=2640, maxsize=None, currsize=2640)",
+  "candidate": false,
+  "manifest_uncompressed_sha256": "5277ca1cd983cf0954666e7869afd4242e9ae9bc3bb596c25a501efbc5a7b64c",
+  "manifest_compression": "gzip, lossless, zero metadata timestamp"
+}

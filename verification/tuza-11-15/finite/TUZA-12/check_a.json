@@ -1,0 +1,495 @@
+{
+  "status": "PASS",
+  "component": "A",
+  "utc": "2026-11-03T18:17:08.984701+00:00",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "script_sha256": "3d6f0ed9ec951baa4cf9e6ce94d3cc125224bff362eaac54cb7d74b6335da3cb",
+  "input_sha256": {},
+  "scope": "Exact finite checks only; all-orders enormous-graph existence is an ordinary analytic proof.",
+  "base": {
+    "vertices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "full_triangles": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        8
+      ],
+      [
+        0,
+        7,
+        8
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        5,
+        6,
+        7
+      ],
+      [
+        6,
+        7,
+        8
+      ]
+    ],
+    "cyclic_triangle_conflicts": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        8,
+        7
+      ]
+    ],
+    "edge_triangle_multiplicity_histogram": {
+      "2": 9,
+      "1": 9
+    },
+    "exact_optima": {
+      "nu": 4,
+      "tau": 5,
+      "packing_triangle_indices": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "cover_resources": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    "explicit_packing": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        6,
+        7,
+        8
+      ]
+    ],
+    "explicit_cover": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        0,
+        8
+      ]
+    ]
+  },
+  "sufficient_orders": {
+    "count": 1296,
+    "total_nine_orders": 362880,
+    "probability": {
+      "numerator": "1",
+      "denominator": "280"
+    },
+    "all_resource_incidence_isomorphisms_checked": true,
+    "optima_histogram": {
+      "(4, 5)": 1296
+    },
+    "order_stream_sha256": "5e065c7b155be4223813c5c86aef1471c8071d8c954655d1839ea58558c59ba5",
+    "claim_of_all_bad_orders": false
+  },
+  "natural_order_control": {
+    "nu": 7,
+    "tau": 7,
+    "packing_triangle_indices": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cover_resources": [
+      [
+        [
+          0,
+          1
+        ],
+        "low"
+      ],
+      [
+        [
+          7,
+          8
+        ],
+        "high"
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        "low"
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        "low"
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        "low"
+      ],
+      [
+        [
+          4,
+          5
+        ],
+        "low"
+      ],
+      [
+        [
+          5,
+          6
+        ],
+        "low"
+      ]
+    ]
+  },
+  "constants": {
+    "N": "79228162514264337593543950336",
+    "M": "340282366920938463463374607431768211456",
+    "expected_bad_blocks": {
+      "numerator": "42535295865117307932921825928971026432",
+      "denominator": "35"
+    },
+    "delta": {
+      "numerator": "10633823966279326983230456482242756608",
+      "denominator": "35"
+    },
+    "pair_union_bound": {
+      "numerator": "147001982544071982430309017692632806064128",
+      "denominator": "6148914692668172971"
+    },
+    "triple_union_bound": {
+      "numerator": "4805970831941024967571350984454403875831883926628408438785376505948411944475055474337093580226569",
+      "denominator": "975113811972936253310011483212024039642951716050460259553116160"
+    },
+    "coarse_expected_defects": {
+      "numerator": "9857251067422525786677419282792448",
+      "denominator": "1"
+    },
+    "markov_failure_bound": {
+      "numerator": "584459149642515",
+      "denominator": "18014398509481984"
+    },
+    "checks": {
+      "pair_inclusion_probability": true,
+      "pair_union_bound_coarse": true,
+      "triple_union_bound_coarse": true,
+      "three_vertex_witness_bound": true,
+      "defect_expectation_below_2_114": true,
+      "deletion_allowance_above_2_117": true,
+      "markov_failure_below_one_eighth": true,
+      "chernoff_mu_half": true,
+      "chernoff_exponent": true,
+      "exp_half_lower_bound": true,
+      "N_logN_upper_bound_via_log2_lt1": true,
+      "chernoff_exponent_above_2_116": true,
+      "union_exponent_above_2_115": true,
+      "exp_3_lower_bound_above_8": true,
+      "union_failure_below_one_eighth_by_exponent": true,
+      "connected_gap_exceeds_6N": true,
+      "connected_gap_equivalent_small_integer_test": true,
+      "new_role_bound_strict": true,
+      "survivors_exceed_half_M": true,
+      "ordinary_certificate_added_edges_at_most_3r": true
+    }
+  },
+  "assembly_control": {
+    "vertices": 18,
+    "block_maps": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        0,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    ],
+    "edges": 36,
+    "triangles": 18,
+    "exact_optima": {
+      "nu": 8,
+      "tau": 10,
+      "packing_triangle_indices": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        13,
+        15
+      ],
+      "cover_resources": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          14,
+          15
+        ]
+      ]
+    },
+    "augmented_edges": 63,
+    "augmented_triangles": 85,
+    "added_edge_count": 27,
+    "full_augmented_conflict_connected": true,
+    "old_resource_restriction_tests": 38,
+    "ordinary_cover_valid": true,
+    "finite_control_asserts_Tuza_via_this_cover": false
+  },
+  "berge_triangle_negative_control": {
+    "pairwise_linear": true,
+    "block_triangles": 27,
+    "full_triangles": 28,
+    "unintended_triangles": [
+      [
+        0,
+        1,
+        2
+      ]
+    ]
+  },
+  "elapsed_seconds": 0.07344100000045728
+}

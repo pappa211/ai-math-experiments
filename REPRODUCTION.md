@@ -1,4 +1,59 @@
-# TUZA-07–10 reproduction
+# Research archive reproduction
+
+<a id="tuza-1115-ordinary-proofs-and-exact-finite-checks"></a>
+
+## TUZA-11-15 ordinary proofs and exact finite checks
+
+```sh
+python3 tools/check_tuza_11_15.py --output ../tuza-11-15-replay
+python3 tools/check_tuza_11_15.py --only TUZA-15 --output ../tuza-15-replay
+```
+
+Use Python 3.10+ with assertions enabled; output directories must be new and
+outside the checkout. The default serial suite is standard-library-only and
+writes only into its output copies. It checks the exhaustive TUZA-15 six-link
+classification and 12 diagnostics, fixed cores/footprints, 106 mathematical
+witness checks, TWIN/Fano scope diagnostics, and selected exact TUZA-11-14B
+witness/root/exchange/fractional/cut interfaces. It does not run a large
+historical census, external solver, Lean build or Liu RUP replay.
+
+Read the [full ordinary-proof ledger](ORDINARY_PROOF_INDEX.md),
+[publication evidence](verification/tuza-11-15/README.md), and source-specific
+[11](problems/TUZA-11/REPRODUCTION.md), [12](problems/TUZA-12/REPRODUCTION.md),
+[13](problems/TUZA-13/REPRODUCTION.md), [14](problems/TUZA-14/REPRODUCTION.md),
+[14B](problems/TUZA-14B/REPRODUCTION.md), [15](problems/TUZA-15/REPRODUCTION.md)
+guides. The optional TUZA-13 literal-corpus ratio recount uses no optimization;
+its guide explains the retained historical data and UNKNOWN cases. Optional
+TUZA-15 generation needs NetworkX 3.7; verification does not.
+
+Build the new report with existing Pandoc 3.13, Tectonic 0.17.0 and an already
+populated bundle cache:
+
+```sh
+python3 papers/tuza-11-15-research-summary/build.py --output ../tuza-summary-build
+```
+
+The builder is cache-only, installs nothing and leaves source files and
+unrelated papers unchanged. [Detailed build guide](papers/tuza-11-15-research-summary/README.md).
+
+Current root integrity checks, from the repository root:
+
+```sh
+shasum -a 256 -c FILES.sha256
+shasum -a 256 -c RELEASE_FILES.sha256
+```
+
+FILES excludes itself. RELEASE_FILES contains this publication's added/modified
+files, excludes both inventories, and includes RELEASE_MANIFEST. The manifest
+does not hash the inventories or itself; there is no hash cycle. Historical
+root inventories are [preserved at their pinned edition](verification/tuza-07-10/release-at-e93e3c8/README.md).
+They do not verify updated README/status bytes. No new Lean declaration or
+formal-kernel verification follows from these Python checks.
+
+<a id="tuza-0710-reproduction"></a>
+
+## Historical TUZA-07-10 reproduction
+
 
 **AI-developed mathematical research report — AI Math Experiments**
 

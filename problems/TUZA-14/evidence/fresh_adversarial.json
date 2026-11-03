@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scope": "Literal A3, two A4 cones, B8 and six Track C K5 witnesses only; no graph census",
+  "independence": "Fresh direct code, no solver imports; earlier checker had been read",
+  "initial_ad_hoc_elapsed_seconds": 0.058558291999361245,
+  "persisted_replay_elapsed_seconds": 0.06317504099934013,
+  "sources": [
+    {
+      "path": "witnesses/track_a_private_multiplicity_two.json",
+      "sha256": "186d38246edca97718710c9c1c5ea05ef95bea5a424ecf6b17c877c9ea742d7d"
+    },
+    {
+      "path": "witnesses/track_a_private_multiplicity_two_reduced.json",
+      "sha256": "2f197c2f603c3c7f906075491ac56f3a7b126dc6ff9fe24800ef1073856f274f"
+    },
+    {
+      "path": "witnesses/track_a_unique_prepacking.json",
+      "sha256": "a533108cb0787371d7de415f0beadad089f47b0de64d9330ad4dca9957c76bb0"
+    },
+    {
+      "path": "evidence/track_b_small.json",
+      "sha256": "dc6c4c21bb7a537ce479bbb77d07e8ea8bb49df0381c97bb5c01256b6fdc5001"
+    }
+  ],
+  "results": [
+    {
+      "input": "track_a_private_multiplicity_two.json",
+      "all_actual_triangles": 60,
+      "seven_vertex_subsets_checked": 116280,
+      "alpha": 6,
+      "tau": 15,
+      "private_packing": 6,
+      "eligible_packing": 10
+    },
+    {
+      "input": "track_a_private_multiplicity_two_reduced.json",
+      "all_actual_triangles": 48,
+      "seven_vertex_subsets_checked": 50388,
+      "alpha": 6,
+      "tau": 13,
+      "private_packing": 6,
+      "eligible_packing": 9
+    },
+    {
+      "input": "A3",
+      "actual_triangle_count": 17,
+      "actual_outside": [
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          4,
+          6,
+          8
+        ],
+        [
+          4,
+          7,
+          8
+        ]
+      ],
+      "packings_checked": [
+        5,
+        4
+      ]
+    },
+    {
+      "input": "B8",
+      "minimum_covers": 3,
+      "tau": 4,
+      "k_all": 4,
+      "max_avoiding_each_allred": 1
+    },
+    {
+      "input": "Track C K5",
+      "six_red_pair_avoidance_witnesses": "PASS"
+    }
+  ]
+}
