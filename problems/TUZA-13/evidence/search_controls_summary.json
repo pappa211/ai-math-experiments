@@ -1,0 +1,101 @@
+{
+  "stage": "controls",
+  "seed": 131102,
+  "seconds_budget": 80.0,
+  "per_graph_seconds": 10.0,
+  "cover_limit": 100000,
+  "counts": {
+    "attempted_graphs": 9,
+    "exact_graphs": 8,
+    "all_optima_graphs": 8,
+    "exact_cover_pairs": 238,
+    "covers_with_T3": 216,
+    "covers_requiring_two_red": 0,
+    "unresolved_graphs": 1
+  },
+  "worst": [
+    {
+      "name": "K4",
+      "n": 4,
+      "m": 6,
+      "D": 0,
+      "tau": 2,
+      "nu": 1,
+      "eligible_nu": 1,
+      "graph_hash": "4fcc696d72c2aca6c0da750f7ef49e43afefdc722dce601df897e91fc9f544a6"
+    },
+    {
+      "name": "K5",
+      "n": 5,
+      "m": 10,
+      "D": 0,
+      "tau": 4,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "1840b3339b4b4ba1c6c41996a9c16c65c199b6d85f05a0dd385d8ee178dfd7ab"
+    },
+    {
+      "name": "K6",
+      "n": 6,
+      "m": 15,
+      "D": -1,
+      "tau": 6,
+      "nu": 4,
+      "eligible_nu": 4,
+      "graph_hash": "5a9de8376772e489ab9731027d8439851ac2ade861f8006fe147d512c6061219"
+    },
+    {
+      "name": "K7",
+      "n": 7,
+      "m": 21,
+      "D": -1,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 6,
+      "graph_hash": "94db5682d7f2aeb6ab74c8aea5d2fd0a140db968f3926e4953b4cc12777b81c5"
+    },
+    {
+      "name": "restoration8",
+      "n": 8,
+      "m": 17,
+      "D": -1,
+      "tau": 5,
+      "nu": 4,
+      "eligible_nu": 4,
+      "graph_hash": "90ee85976fd205c4b0e0ab2a8cb49bf203bb7e53c45a2920cda1e4a25dc0977d"
+    },
+    {
+      "name": "residual8",
+      "n": 8,
+      "m": 15,
+      "D": -2,
+      "tau": 4,
+      "nu": 4,
+      "eligible_nu": 4,
+      "graph_hash": "aa7ffcd001cd5bffae16b25672290aa031f83fda8a2784535d3558d2e58a5d07"
+    },
+    {
+      "name": "K8",
+      "n": 8,
+      "m": 28,
+      "D": -2,
+      "tau": 12,
+      "nu": 8,
+      "eligible_nu": 8,
+      "graph_hash": "590b1c51ff3d4cd57d05b21a0360e04582c2c7ab8451a6a19ba2d057338268e4"
+    },
+    {
+      "name": "K9",
+      "n": 9,
+      "m": 36,
+      "D": -2,
+      "tau": 16,
+      "nu": 12,
+      "eligible_nu": 10,
+      "graph_hash": "cab782c55c4cb093295f9287d2d7cbb613a934c4cc226d06ecedf9ea66219b20"
+    }
+  ],
+  "elapsed_seconds": 12.108835666000232,
+  "finished_utc": "2026-11-02T16:16:38.394052+00:00",
+  "dedup": "exact sorted labelled edge list only; no isomorphism quotient claimed"
+}

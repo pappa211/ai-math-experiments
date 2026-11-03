@@ -1,0 +1,221 @@
+{
+  "stage": "hostile",
+  "seed": 131102,
+  "seconds_budget": 360.0,
+  "per_graph_seconds": 3.0,
+  "cover_limit": 20000,
+  "counts": {
+    "attempted_graphs": 333,
+    "exact_graphs": 312,
+    "all_optima_graphs": 312,
+    "exact_cover_pairs": 8474,
+    "covers_with_T3": 4935,
+    "covers_requiring_two_red": 16,
+    "unresolved_graphs": 21
+  },
+  "worst": [
+    {
+      "name": "K4_K4_overlap3",
+      "n": 5,
+      "m": 9,
+      "D": 0,
+      "tau": 3,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "563ab209dd579779f339cfa1c4d42dece15398e4f553adba89a9045c9bb95f59"
+    },
+    {
+      "name": "K4_K4_overlap3_cross3_4",
+      "n": 5,
+      "m": 10,
+      "D": 0,
+      "tau": 4,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "1840b3339b4b4ba1c6c41996a9c16c65c199b6d85f05a0dd385d8ee178dfd7ab"
+    },
+    {
+      "name": "C5_independent_apices_1",
+      "n": 6,
+      "m": 10,
+      "D": 0,
+      "tau": 3,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "ade494d5af4cd039678b2010d399f6c0cbf2b1518b91914be4ab210b6dcc6550"
+    },
+    {
+      "name": "K4_K4_overlap2",
+      "n": 6,
+      "m": 11,
+      "D": 0,
+      "tau": 3,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "4c636cba40f6f53034b943a4c0baeb692197157d15aa44d472f216657f97e041"
+    },
+    {
+      "name": "K4_K4_overlap1",
+      "n": 7,
+      "m": 12,
+      "D": 0,
+      "tau": 4,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "f668001913b013ab181e5ed3d04edc1d4d3d1aa9eccc275b3b054598d8f65447"
+    },
+    {
+      "name": "K4_K5_overlap2",
+      "n": 7,
+      "m": 15,
+      "D": 0,
+      "tau": 5,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "a2db9e3f0ddae1d7635c55fff695d3736b7d7f3476e5e5f7a20bf9a2c370d727"
+    },
+    {
+      "name": "K4_K5_overlap1",
+      "n": 8,
+      "m": 16,
+      "D": 0,
+      "tau": 6,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "a9a0b1c7e2a3f418b4d5403420fdbfcb0ccbea9f7d5d71d5d13880349c26110d"
+    },
+    {
+      "name": "K5_K5_overlap2",
+      "n": 8,
+      "m": 19,
+      "D": 0,
+      "tau": 7,
+      "nu": 4,
+      "eligible_nu": 4,
+      "graph_hash": "17c40d41e408875411fea25284a2bcc041bcb7e8a10775a110d94ad24f6de9dd"
+    },
+    {
+      "name": "K5_K5_overlap1",
+      "n": 9,
+      "m": 20,
+      "D": 0,
+      "tau": 8,
+      "nu": 4,
+      "eligible_nu": 4,
+      "graph_hash": "5cce14313d1791717994db319786c8846e111ced6e52535bfdbea63d21dbe055"
+    },
+    {
+      "name": "C5_cone_add_base_0_2",
+      "n": 6,
+      "m": 11,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "cfc18fb36d36f2569bce10e783fd587326dece5f874f863b82140ec18d63703b"
+    },
+    {
+      "name": "C5_cone_add_base_0_3",
+      "n": 6,
+      "m": 11,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "1394f8bbf6c6291f1ad88632957c081719e3a1b86dcc01d3f093b1e035724ee9"
+    },
+    {
+      "name": "C5_cone_add_base_1_3",
+      "n": 6,
+      "m": 11,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "8401f99ef52856326dfaef46f9e2b3fb6c92a191edb7ce634e984aaf87388edc"
+    },
+    {
+      "name": "C5_cone_add_base_1_4",
+      "n": 6,
+      "m": 11,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "f706e3c872c8825ffd0da01f8dad808f0dfda255d20131dba337b9750b4522bc"
+    },
+    {
+      "name": "C5_cone_add_base_2_4",
+      "n": 6,
+      "m": 11,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "5e8325dd4aa75634e0f6ba3a6947c8ff74cde3c8f61ebf5619630ddc09e9a180"
+    },
+    {
+      "name": "C5_cone_fill_0_1_3",
+      "n": 6,
+      "m": 12,
+      "D": -1,
+      "tau": 4,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "cc5d328b139e61b12af989da278fbaa7823ede68310f5a5f796ecb27f9e33d2d"
+    },
+    {
+      "name": "C5_cone_fill_0_2_3",
+      "n": 6,
+      "m": 12,
+      "D": -1,
+      "tau": 4,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "45a1a4cb3e32981acd1a115cba2250a387f21531c5cb4378e9e337dc9cf28b5d"
+    },
+    {
+      "name": "C5_cone_fill_0_2_4",
+      "n": 6,
+      "m": 12,
+      "D": -1,
+      "tau": 4,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "cade3320b264064da8ce18aa5750695bdeab739ed40996da8e955f8b178efc93"
+    },
+    {
+      "name": "C5_cone_fill_1_2_4",
+      "n": 6,
+      "m": 12,
+      "D": -1,
+      "tau": 4,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "ef8fab004b77a2521ebca4f647656046787b8bf407b5dc9434d9a677211a21e2"
+    },
+    {
+      "name": "C5_cone_fill_1_3_4",
+      "n": 6,
+      "m": 12,
+      "D": -1,
+      "tau": 4,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "6a69fce1b2f1265e4973355ed1536cd8267c620b6aee392fbc994b502bd7038b"
+    },
+    {
+      "name": "K4_K4_overlap2_cross2_4",
+      "n": 6,
+      "m": 12,
+      "D": -1,
+      "tau": 4,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "a9b164013b9c39c454d6ca392a237676b3adc6643572c7ad391179ff4b6608c4"
+    }
+  ],
+  "elapsed_seconds": 67.27029712500007,
+  "finished_utc": "2026-11-02T16:18:28.459503+00:00",
+  "dedup": "exact sorted labelled edge list only; no isomorphism quotient claimed"
+}

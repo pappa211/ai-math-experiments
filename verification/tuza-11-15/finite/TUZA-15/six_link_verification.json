@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "runtime_cap_seconds": 90,
+  "elapsed_seconds": 0.2604185829986818,
+  "template_count": 57,
+  "certificate_kinds": {
+    "local_gain": 34,
+    "symbolic_exception": 4,
+    "residual_nonclique": 19
+  },
+  "coverage": {
+    "all_labelled_graphs": 32768,
+    "connected_min_degree_two": 12058,
+    "complement_matching_cases": {
+      "3": 15,
+      "2": 45,
+      "1": 15,
+      "0": 1
+    },
+    "covered_labelled_links": 11982
+  },
+  "symbolic_exception_auxiliaries": {
+    "K2,4": {
+      "r": 2,
+      "matching_count": 12,
+      "all_edges_contained_and_avoided": true
+    },
+    "K3,3-minus-edge": {
+      "r": 3,
+      "matching_count": 4,
+      "all_edges_contained_and_avoided": true
+    },
+    "K3,3": {
+      "r": 3,
+      "matching_count": 6,
+      "all_edges_contained_and_avoided": true
+    },
+    "three-sun": {
+      "page_footprints_all_checked": true,
+      "lost_local_triangles_covered": 12,
+      "residual_triangle_overlap": true
+    }
+  },
+  "certificate_sha256": "bd089f5c18b12799f90828d024705f2b1271afa29c317f9ba1ab1c942a26173f",
+  "checker_sha256": "8e3007024c00963b5d401858b21d848efffa701849990a2260967a70e3ca69ce",
+  "scope_limit": "Finite local certificate coverage only; unbounded theorem needs the separate symbolic proofs. No Lean claim."
+}

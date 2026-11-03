@@ -1,0 +1,134 @@
+{
+  "started_utc": "2026-11-02T16:28:30.821951+00:00",
+  "ended_utc": "2026-11-02T16:29:01.641843+00:00",
+  "base_cycle": 7,
+  "apices": 3,
+  "expected_neighborhood_multisets": 357760,
+  "graphs_completed": 357760,
+  "covers_completed": 5006158,
+  "complete_generator": true,
+  "all_completed_graphs_cover_enumeration_complete": true,
+  "max_T3": 2,
+  "graphs_with_T3": 22435,
+  "graphs_with_eligible_packing_loss": 0,
+  "minimum_margin": 0,
+  "exceptions": [],
+  "compute_seconds": 30.819657249998272,
+  "wall_seconds_including_lock_wait": 30.819795041999896,
+  "graph_manifest": "evidence/hostile_C7_apices3_graphs.jsonl.gz",
+  "manifest_sha256": "e133124c94db746846993fc2616ecc8c3f02b85e9571ea6002337eba0d2268d7",
+  "counts_by_tau_margin_maxT3": [
+    {
+      "tau": 0,
+      "margin": 0,
+      "max_T3": 0,
+      "graphs": 4495
+    },
+    {
+      "tau": 1,
+      "margin": 0,
+      "max_T3": 0,
+      "graphs": 27650
+    },
+    {
+      "tau": 2,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 73129
+    },
+    {
+      "tau": 3,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 103712
+    },
+    {
+      "tau": 3,
+      "margin": 1,
+      "max_T3": 1,
+      "graphs": 2240
+    },
+    {
+      "tau": 4,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 435
+    },
+    {
+      "tau": 4,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 81634
+    },
+    {
+      "tau": 4,
+      "margin": 2,
+      "max_T3": 1,
+      "graphs": 7728
+    },
+    {
+      "tau": 5,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 812
+    },
+    {
+      "tau": 5,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 34622
+    },
+    {
+      "tau": 5,
+      "margin": 2,
+      "max_T3": 1,
+      "graphs": 8694
+    },
+    {
+      "tau": 6,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 392
+    },
+    {
+      "tau": 6,
+      "margin": 3,
+      "max_T3": 0,
+      "graphs": 7623
+    },
+    {
+      "tau": 6,
+      "margin": 3,
+      "max_T3": 1,
+      "graphs": 3353
+    },
+    {
+      "tau": 6,
+      "margin": 3,
+      "max_T3": 2,
+      "graphs": 28
+    },
+    {
+      "tau": 7,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 71
+    },
+    {
+      "tau": 7,
+      "margin": 3,
+      "max_T3": 0,
+      "graphs": 750
+    },
+    {
+      "tau": 7,
+      "margin": 3,
+      "max_T3": 1,
+      "graphs": 392
+    }
+  ],
+  "packing_cache": "CacheInfo(hits=194299, misses=49524, maxsize=None, currsize=49524)",
+  "candidate": false,
+  "manifest_uncompressed_sha256": "9419a658960d1e3f1cdb96592b74d69cbb0bd0cc93d62291d479fdd935835be3",
+  "manifest_compression": "gzip, lossless, zero metadata timestamp"
+}

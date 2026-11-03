@@ -1,0 +1,389 @@
+{
+  "G": {
+    "degree_sequence_by_vertex": {
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 4,
+      "5": 4,
+      "6": 3,
+      "7": 3
+    },
+    "edge_count": 17,
+    "edge_subsets_tested": 131072,
+    "edges": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "07",
+      "12",
+      "13",
+      "14",
+      "15",
+      "23",
+      "25",
+      "26",
+      "36",
+      "37",
+      "45",
+      "47",
+      "56"
+    ],
+    "first_maximum_packing": [
+      "014",
+      "037",
+      "125",
+      "236"
+    ],
+    "first_minimum_cover": [
+      "01",
+      "07",
+      "14",
+      "23",
+      "25"
+    ],
+    "nu": 4,
+    "odd_degree_vertices": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "source_cover": [
+      "01",
+      "07",
+      "15",
+      "23",
+      "25"
+    ],
+    "source_cover_hits": {
+      "012": [
+        "01"
+      ],
+      "013": [
+        "01"
+      ],
+      "014": [
+        "01"
+      ],
+      "023": [
+        "23"
+      ],
+      "037": [
+        "07"
+      ],
+      "047": [
+        "07"
+      ],
+      "123": [
+        "23"
+      ],
+      "125": [
+        "15",
+        "25"
+      ],
+      "145": [
+        "15"
+      ],
+      "236": [
+        "23"
+      ],
+      "256": [
+        "25"
+      ]
+    },
+    "source_cover_is_minimum": true,
+    "source_packing": [
+      "014",
+      "037",
+      "125",
+      "236"
+    ],
+    "source_packing_is_maximum": true,
+    "tau": 5,
+    "triangle_count": 11,
+    "triangle_subsets_tested": 2048,
+    "triangles": [
+      "012",
+      "013",
+      "014",
+      "023",
+      "037",
+      "047",
+      "123",
+      "125",
+      "145",
+      "236",
+      "256"
+    ],
+    "tuza_holds": true,
+    "valid_cover_count_by_size": {
+      "5": 10,
+      "6": 181,
+      "7": 1208,
+      "8": 4054,
+      "9": 7971,
+      "10": 10068,
+      "11": 8644,
+      "12": 5207,
+      "13": 2226,
+      "14": 669,
+      "15": 136,
+      "16": 17,
+      "17": 1
+    },
+    "valid_packing_count_by_size": {
+      "0": 1,
+      "1": 11,
+      "2": 35,
+      "3": 38,
+      "4": 12
+    },
+    "vertices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "H": {
+    "degree_sequence_by_vertex": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 3,
+      "7": 3
+    },
+    "edge_count": 15,
+    "edge_subsets_tested": 32768,
+    "edges": [
+      "01",
+      "03",
+      "04",
+      "07",
+      "12",
+      "14",
+      "15",
+      "23",
+      "25",
+      "26",
+      "36",
+      "37",
+      "45",
+      "47",
+      "56"
+    ],
+    "first_maximum_packing": [
+      "014",
+      "037",
+      "125",
+      "236"
+    ],
+    "first_minimum_cover": [
+      "07",
+      "14",
+      "23",
+      "25"
+    ],
+    "nu": 4,
+    "odd_degree_vertices": [
+      6,
+      7
+    ],
+    "source_cover": [
+      "01",
+      "07",
+      "15",
+      "26"
+    ],
+    "source_cover_hits": {
+      "014": [
+        "01"
+      ],
+      "037": [
+        "07"
+      ],
+      "047": [
+        "07"
+      ],
+      "125": [
+        "15"
+      ],
+      "145": [
+        "15"
+      ],
+      "236": [
+        "26"
+      ],
+      "256": [
+        "26"
+      ]
+    },
+    "source_cover_is_minimum": true,
+    "source_packing": [
+      "014",
+      "037",
+      "125",
+      "236"
+    ],
+    "source_packing_is_maximum": true,
+    "tau": 4,
+    "triangle_count": 7,
+    "triangle_subsets_tested": 128,
+    "triangles": [
+      "014",
+      "037",
+      "047",
+      "125",
+      "145",
+      "236",
+      "256"
+    ],
+    "tuza_holds": true,
+    "valid_cover_count_by_size": {
+      "4": 9,
+      "5": 143,
+      "6": 771,
+      "7": 2091,
+      "8": 3370,
+      "9": 3540,
+      "10": 2547,
+      "11": 1281,
+      "12": 448,
+      "13": 105,
+      "14": 15,
+      "15": 1
+    },
+    "valid_packing_count_by_size": {
+      "0": 1,
+      "1": 7,
+      "2": 15,
+      "3": 10,
+      "4": 1
+    },
+    "vertices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "activity": {
+    "active_q_edges": [
+      "01",
+      "03",
+      "12",
+      "23"
+    ],
+    "inactive_diagonals": [
+      "02",
+      "13"
+    ],
+    "q_edges_external_triangle_witnesses": {
+      "01": [
+        "014"
+      ],
+      "02": [],
+      "03": [
+        "037"
+      ],
+      "12": [
+        "125"
+      ],
+      "13": [],
+      "23": [
+        "236"
+      ]
+    }
+  },
+  "auxiliary_neutral_restoration_implication": "REFUTED",
+  "checker_sha256": "3a2676f85fbc19db9c16b458a6dde22121a4af43a1758d60c7dcf5c6e400870b",
+  "claim_status": "VERIFIED_ORDINARY_AND_FINITE_CHECKED",
+  "completed_utc": "2026-11-03T18:17:11.491225+00:00",
+  "cover_lower_bound_certificate": {
+    "Q_edge_face_counts": {
+      "01": 2,
+      "02": 2,
+      "03": 2,
+      "12": 2,
+      "13": 2,
+      "23": 2
+    },
+    "Q_faces": [
+      "012",
+      "013",
+      "023",
+      "123"
+    ],
+    "external_edge_disjoint_triangles": [
+      "047",
+      "145",
+      "256"
+    ],
+    "external_triangle_edges_disjoint_from_Q": true,
+    "lower_bound": 5
+  },
+  "domain": "Only the stated eight-vertex G and its specified diagonal deletion H",
+  "elapsed_seconds": 0.07657875001314096,
+  "invalid_cover_negative_control": {
+    "cover": [
+      "01",
+      "07",
+      "15",
+      "23"
+    ],
+    "rejected": true,
+    "uncovered_triangles": [
+      "256"
+    ]
+  },
+  "mathematical_input_files": [],
+  "method": "All vertex triples; all triangle subsets for packing; all actual-edge subsets for covering",
+  "parity_certificate": {
+    "G_odd_vertices": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      7
+    ],
+    "all_two_edge_leftover_pairs_tested": 136,
+    "leftover_pair_count_by_odd_vertex_count": {
+      "2": 58,
+      "4": 78
+    },
+    "maximum_odd_vertices_on_two_edges": 4
+  },
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "python_version": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "schema": "TUZA-12-independent-C-v1",
+  "scope_negative_control": {
+    "XG_has_induced_claw": true,
+    "center": "012",
+    "leaves": [
+      "014",
+      "023",
+      "125"
+    ]
+  },
+  "source_or_reviewer_code_imported": false,
+  "started_utc": "2026-11-03T18:17:11.414561+00:00",
+  "status": "PASS",
+  "third_party_packages": []
+}

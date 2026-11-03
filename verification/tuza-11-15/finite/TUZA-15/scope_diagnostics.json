@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "assertions_enabled": true,
+  "fano": {
+    "nu": 1,
+    "tau": 3,
+    "point_deletions": [
+      {
+        "deleted_point": 0,
+        "nu": 1,
+        "tau": 2
+      },
+      {
+        "deleted_point": 1,
+        "nu": 1,
+        "tau": 2
+      },
+      {
+        "deleted_point": 2,
+        "nu": 1,
+        "tau": 2
+      },
+      {
+        "deleted_point": 3,
+        "nu": 1,
+        "tau": 2
+      },
+      {
+        "deleted_point": 4,
+        "nu": 1,
+        "tau": 2
+      },
+      {
+        "deleted_point": 5,
+        "nu": 1,
+        "tau": 2
+      },
+      {
+        "deleted_point": 6,
+        "nu": 1,
+        "tau": 2
+      }
+    ],
+    "interpretation": "Rank-three incidence hypergraph only, not an actual graph triangle model. Critical-looking deletion pattern does not prove factor two. It also fails combined tightness tau=2nu. The actual proof uses missing endpoint edges, clique closure and residual K4/K5 avoidance."
+  },
+  "TWIN_lost_vs_retained": [
+    {
+      "wa": false,
+      "wb": false,
+      "uncovered_by_increment": [],
+      "all_uncovered_are_retained": true,
+      "lost_triangle_count": 26,
+      "all_lost_covered": true,
+      "overstrong_full_core_assertion_would_fail": false
+    },
+    {
+      "wa": false,
+      "wb": true,
+      "uncovered_by_increment": [
+        [
+          "b",
+          "d",
+          "w"
+        ]
+      ],
+      "all_uncovered_are_retained": true,
+      "lost_triangle_count": 29,
+      "all_lost_covered": true,
+      "overstrong_full_core_assertion_would_fail": true
+    },
+    {
+      "wa": true,
+      "wb": false,
+      "uncovered_by_increment": [
+        [
+          "a",
+          "c",
+          "w"
+        ]
+      ],
+      "all_uncovered_are_retained": true,
+      "lost_triangle_count": 29,
+      "all_lost_covered": true,
+      "overstrong_full_core_assertion_would_fail": true
+    },
+    {
+      "wa": true,
+      "wb": true,
+      "uncovered_by_increment": [
+        [
+          "a",
+          "c",
+          "w"
+        ],
+        [
+          "b",
+          "d",
+          "w"
+        ]
+      ],
+      "all_uncovered_are_retained": true,
+      "lost_triangle_count": 33,
+      "all_lost_covered": true,
+      "overstrong_full_core_assertion_would_fail": true
+    }
+  ],
+  "elapsed_seconds": 0.0003477080026641488,
+  "peak_rss_bytes_darwin": 18202624,
+  "checker_sha256": "48a64e5eb0d935408a589efb7ae64d7200ce724c3df173555ae7e07a0b851681"
+}

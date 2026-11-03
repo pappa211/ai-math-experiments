@@ -47,3 +47,24 @@ dependencies retain their own licenses. No full third-party article is redistrib
 Primary-source statements and version dates are credited in the new bibliography
 and literature recheck. Existing third-party headers in copied Lean source are
 unchanged. AI-only internal review is not external human peer review.
+
+## TUZA-11-15 continuation
+
+The new project mathematical notes, code and report use the repository's
+Apache-2.0 license. Cited external results remain credited to their authors;
+no full third-party articles or certificate ZIPs are included.
+
+Liu v1.0.2, version DOI 10.5281/zenodo.23177679, is an external input accepted
+with the documented Table 1 class 9 378-to-389 correction. Its manuscript,
+documentation and original certificate data are CC BY 4.0; its original
+executable code is Apache-2.0, copyright 2026 Yiming Liu. Exact acquisition
+links/hashes are in the [external guide](problems/TUZA-11/external/README.md).
+The historical 154,874-step RUP replay is reused, not rerun in this release.
+
+Puleo, HKT, Parker, Munaro, Furedi, Botler-Fernandes-Gutierrez,
+Lakshmanan-Bujtas-Tuza and Cui-Haxell-Ma receive source-specific attribution in
+the [dependency guide](verification/tuza-11-15/DEPENDENCIES.md) and bibliography.
+Optional NetworkX generation uses the separately installed BSD-licensed package;
+no dependency or compiled cache is redistributed. Default checkers are Python
+standard-library-only. The numeric CSL asset is reused from the established
+public report tooling without modification.

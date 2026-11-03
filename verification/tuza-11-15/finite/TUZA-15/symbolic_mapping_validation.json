@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "direction": "canonical template label i maps to permutation[i] in record",
+  "mappings": [
+    {
+      "family": "K2,4",
+      "canonical_template_to_record": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "mask": 15768
+    },
+    {
+      "family": "K3,3-minus-edge",
+      "canonical_template_to_record": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "mask": 23217
+    },
+    {
+      "family": "three-sun",
+      "canonical_template_to_record": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "mask": 20731
+    },
+    {
+      "family": "K3,3",
+      "canonical_template_to_record": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "mask": 23221
+    }
+  ],
+  "direction_sensitive_negative_control": true
+}

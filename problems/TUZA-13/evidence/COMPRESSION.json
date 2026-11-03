@@ -1,0 +1,18 @@
+[
+  {
+    "uncompressed_name": "evidence/critical_search.jsonl",
+    "compressed_name": "evidence/critical_search.jsonl.gz",
+    "uncompressed_sha256": "4f9d408ac8fcdc9e4addcbfad0031b8478787f4cd02c363982d12d5a70f0c84b",
+    "compressed_sha256": "f2030bc30d3c64494ce80f4c0261593604c8af7c509291fb8a153787b3875fd8",
+    "uncompressed_bytes": 243966297,
+    "compressed_bytes": 9228982
+  },
+  {
+    "uncompressed_name": "evidence/search_focused.jsonl",
+    "compressed_name": "evidence/search_focused.jsonl.gz",
+    "uncompressed_sha256": "460c29186465bdd08861ef49da31aa8541969cc0b264b3f70712f87d6f8ebd08",
+    "compressed_sha256": "4d77cb1971f594c0fddb85c70eb7cdf81fa0525e1cac0006e95879aa1af89df6",
+    "uncompressed_bytes": 23031351,
+    "compressed_bytes": 1084963
+  }
+]

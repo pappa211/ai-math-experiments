@@ -1,0 +1,98 @@
+{
+  "started_utc": "2026-11-02T16:27:03.001195+00:00",
+  "ended_utc": "2026-11-02T16:27:32.722661+00:00",
+  "base_cycle": 5,
+  "apices": 4,
+  "expected_neighborhood_multisets": 52360,
+  "graphs_completed": 52360,
+  "covers_completed": 441844,
+  "complete_generator": true,
+  "all_completed_graphs_cover_enumeration_complete": true,
+  "max_T3": 1,
+  "graphs_with_T3": 3030,
+  "graphs_with_eligible_packing_loss": 0,
+  "minimum_margin": 0,
+  "exceptions": [],
+  "compute_seconds": 2.6808048329985468,
+  "wall_seconds_including_lock_wait": 29.721368708000227,
+  "graph_manifest": "evidence/hostile_C5_apices4_graphs.jsonl.gz",
+  "manifest_sha256": "ec74d77e94876e1380c60288a6d6fff3df386973c23f0a591ae66aa61a6e7d96",
+  "counts_by_tau_margin_maxT3": [
+    {
+      "tau": 0,
+      "margin": 0,
+      "max_T3": 0,
+      "graphs": 1001
+    },
+    {
+      "tau": 1,
+      "margin": 0,
+      "max_T3": 0,
+      "graphs": 5525
+    },
+    {
+      "tau": 2,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 13175
+    },
+    {
+      "tau": 3,
+      "margin": 0,
+      "max_T3": 0,
+      "graphs": 286
+    },
+    {
+      "tau": 3,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 16245
+    },
+    {
+      "tau": 3,
+      "margin": 1,
+      "max_T3": 1,
+      "graphs": 845
+    },
+    {
+      "tau": 4,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 330
+    },
+    {
+      "tau": 4,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 9980
+    },
+    {
+      "tau": 4,
+      "margin": 2,
+      "max_T3": 1,
+      "graphs": 1515
+    },
+    {
+      "tau": 5,
+      "margin": 1,
+      "max_T3": 0,
+      "graphs": 126
+    },
+    {
+      "tau": 5,
+      "margin": 2,
+      "max_T3": 0,
+      "graphs": 2662
+    },
+    {
+      "tau": 5,
+      "margin": 2,
+      "max_T3": 1,
+      "graphs": 670
+    }
+  ],
+  "packing_cache": "CacheInfo(hits=23494, misses=11219, maxsize=None, currsize=11219)",
+  "candidate": false,
+  "manifest_uncompressed_sha256": "e179afe7b919a671d1161e4656d1971fc429ba303dadd8e4da6dac40566421fb",
+  "manifest_compression": "gzip, lossless, zero metadata timestamp"
+}

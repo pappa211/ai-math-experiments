@@ -1,0 +1,61 @@
+{
+  "utc": "2026-11-02T16:14:34.825951+00:00",
+  "scope": "all minimum covers of five explicitly generated cone graphs",
+  "reports": [
+    {
+      "name": "C5_cone",
+      "n": 6,
+      "tau": 3,
+      "nu": 2,
+      "target": 2,
+      "all_base_subsets_examined": 32,
+      "all_optimal_cover_count": 10,
+      "minimum_margin": 0,
+      "elapsed_seconds": 0.0001139169980888255
+    },
+    {
+      "name": "W7_cycle6",
+      "n": 7,
+      "tau": 3,
+      "nu": 3,
+      "target": 2,
+      "all_base_subsets_examined": 64,
+      "all_optimal_cover_count": 2,
+      "minimum_margin": 1,
+      "elapsed_seconds": 8.762499783188105e-05
+    },
+    {
+      "name": "W8_cycle7",
+      "n": 8,
+      "tau": 4,
+      "nu": 3,
+      "target": 2,
+      "all_base_subsets_examined": 128,
+      "all_optimal_cover_count": 14,
+      "minimum_margin": 1,
+      "elapsed_seconds": 0.00017716699949232861
+    },
+    {
+      "name": "Petersen_cone",
+      "n": 11,
+      "tau": 6,
+      "nu": 5,
+      "target": 3,
+      "all_base_subsets_examined": 1024,
+      "all_optimal_cover_count": 5,
+      "minimum_margin": 2,
+      "elapsed_seconds": 0.0003692919999593869
+    },
+    {
+      "name": "Clebsch_cone",
+      "n": 17,
+      "tau": 11,
+      "nu": 8,
+      "target": 6,
+      "all_base_subsets_examined": 65536,
+      "all_optimal_cover_count": 16,
+      "minimum_margin": 2,
+      "elapsed_seconds": 0.008824708002066473
+    }
+  ]
+}

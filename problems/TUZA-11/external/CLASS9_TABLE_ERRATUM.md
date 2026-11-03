@@ -1,0 +1,11 @@
+# Required Table1 class9 erratum in Liu v1.0.2
+
+This is an auditor-documented correction, not a changed public release or an author-confirmed erratum. The authenticated seven-page PDF, printed page4, Table1 row9, and released manuscript.tex line330 both print `124,135,267,378` with |U|=9,s=2,N=13. Those triples actually have union size8 and C4 incidence: the last two also share7. Each reference has two shared vertices, giving s=4,N=24. Thus the printed row duplicates class5 up to isomorphism and omits the path type. It is not merely a different labeling of the certificate's reference.
+
+The already released shape_9.json instead contains zero-based references [[0,1,3],[0,2,4],[1,5,6],[2,7,8]], namely `124,135,267,389`. Its incidence graph is a path, with |U|=9,s=2,N=13. It has68 candidate variables,5186 CNF clauses and16084 RUP additions. Its SHA-256 is d3e5dacc26b0d12d5bc3729ce571e2d3d56ee6385618e89441e14a6a9c391047. No input or certificate has been edited.
+
+**Correction:** in printed Table1 class9 replace the final triple `378` by `389`. The other entries and numeric columns remain as stated. Independent exhaustive incidence enumeration gives67 connected labelled constructions and10 isomorphism classes. The ten actual released certificates represent these ten classes exactly, including the missing path. Both the author checker and the audit's separate semantic reconstruction verify that exhaustiveness, so no new certificate or search is needed.
+
+The analytic Lemmas2.1–2.4 and3.1/Proposition3.2 survive unchanged. The finite exclusion is complete using the actual released references and this explicit table correction. Independent full proof coverage includes the correct case9. The separate critic rechecked the mismatch and withdrew its initial literal-agreement claim in review/CLASS9_ERRATUM_REVIEW.md. Initial analyst/critic drafts remain frozen and are superseded on this point, not silently edited as if they had found it originally.
+
+Final acceptance is **v1.0.2 with this documented Table1 erratum**, not 'the literal paper passed every check unchanged'. This correction restores the universal proof using existing released evidence; it is not a new packing-four priority claim. No public file, release, repository or author correspondence was changed.

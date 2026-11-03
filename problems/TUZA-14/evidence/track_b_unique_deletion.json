@@ -1,0 +1,9304 @@
+{
+  "candidate": "B9 frozen in notes/TRACK_B.md before execution",
+  "control_graph_count": 8,
+  "cover_count": 264,
+  "unique_witness_checks": 129,
+  "distinct_residual_graphs": 5,
+  "records": [
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 0,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 1,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 2,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        6,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 3,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 4,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 5,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        6,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 6,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 7,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 8,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        6,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 9,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 10,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 11,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        6,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 14,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 15,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 16,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        6,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 19,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 20,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        4,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_3_normalized",
+      "cover_index": 21,
+      "n": 9,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 7,
+      "red_edge": [
+        6,
+        8
+      ],
+      "unique_private_triangle": [
+        4,
+        6,
+        8
+      ],
+      "status": "EXACT",
+      "residual_tau": 6,
+      "residual_cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 12,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 13,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 14,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 15,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 16,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 17,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 18,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 19,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 20,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 21,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 22,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 23,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 27,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 28,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 29,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 33,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 34,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 35,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 39,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 40,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 41,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 45,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 46,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 47,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 51,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 52,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 53,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 57,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 58,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 59,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 60,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 61,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 62,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 63,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 64,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 65,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 66,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 67,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 68,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 69,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 70,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 71,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 72,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 73,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 74,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 75,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 76,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 77,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 78,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 79,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 80,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 81,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 82,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 83,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 84,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 85,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 86,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 87,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 88,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 89,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 90,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 91,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 92,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 93,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        4
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 94,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        3,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "independent_nearest_0_normalized",
+      "cover_index": 95,
+      "n": 10,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "tau": 9,
+      "red_edge": [
+        4,
+        6
+      ],
+      "unique_private_triangle": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT",
+      "residual_tau": 8,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 0,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        1
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 0,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        2
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 0,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        2
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 1,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        1
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 1,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 1,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        2
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 2,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        1
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 2,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        2
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 2,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 3,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        1
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 3,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        2
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 3,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 4,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 4,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 5,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 5,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 6,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        1
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 6,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        2
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 6,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 7,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 7,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 8,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 8,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 9,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        2
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 9,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 9,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        2
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 10,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 10,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 11,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 11,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 12,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        2
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 12,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        2
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 12,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 13,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 13,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 14,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 14,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        4
+      ],
+      "unique_private_triangle": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 15,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 15,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 16,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 16,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 17,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        0,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 17,
+      "n": 6,
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 18,
+      "n": 6,
+      "cover": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        1,
+        3
+      ],
+      "unique_private_triangle": [
+        0,
+        1,
+        3
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    },
+    {
+      "name": "theory_maximal_packing",
+      "cover_index": 18,
+      "n": 6,
+      "cover": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "tau": 3,
+      "red_edge": [
+        2,
+        5
+      ],
+      "unique_private_triangle": [
+        0,
+        2,
+        5
+      ],
+      "status": "EXACT",
+      "residual_tau": 2,
+      "residual_cover": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "loss": 1,
+      "B9_pass": true
+    }
+  ],
+  "failures": [],
+  "unresolved": [],
+  "elapsed_seconds": 0.006083457999920938,
+  "source_engine": "[private-location]"
+}

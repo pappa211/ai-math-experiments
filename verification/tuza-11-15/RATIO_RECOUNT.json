@@ -1,0 +1,296 @@
+{
+  "status": "RECEIPT_RATIO_RECLASSIFICATION_PASS_NOT_SOLVER_REPLAY",
+  "scope": "Fresh read-only recount of retained historical literal data; no new optimization.",
+  "combined_unique_completed_graphs": 448112,
+  "combined_unique_completed_pairs": 6551149,
+  "unresolved_unique_graphs": 78,
+  "combined_unique_table": {
+    "nu_zero": {
+      "unique_labelled_graphs": 6217,
+      "unique_graph_minimum_cover_pairs": 6217,
+      "graphs_with_all_red_triangle_in_some_minimum_cover": 0,
+      "covers_with_all_red_lower": 0,
+      "covers_with_all_red_upper": 0,
+      "covers_with_all_red_count_exact": true,
+      "graphs_with_positive_loss": 0,
+      "covers_with_positive_loss": 0,
+      "loss_range": [
+        0,
+        0
+      ],
+      "allowance_range": [
+        0,
+        0
+      ],
+      "deficit_range": [
+        0,
+        0
+      ],
+      "all_red_triangles_per_cover_range": [
+        0,
+        0
+      ],
+      "automatic_graphs": 6217,
+      "automatic_pairs": 6217,
+      "integer_bound_sufficient_graphs": 6217,
+      "integer_bound_sufficient_pairs": 6217,
+      "one_off_tau_eq_2nu_minus_1_graphs": 0,
+      "one_off_tau_eq_2nu_minus_1_pairs": 0,
+      "one_off_all_red_graphs": 0,
+      "one_off_all_red_covers_lower": 0,
+      "one_off_all_red_covers_upper": 0,
+      "ratio_histogram": {
+        "0/0": 6217
+      }
+    },
+    "automatic_2tau_le_3nu": {
+      "unique_labelled_graphs": 440748,
+      "unique_graph_minimum_cover_pairs": 6492987,
+      "graphs_with_all_red_triangle_in_some_minimum_cover": 42943,
+      "covers_with_all_red_lower": 398939,
+      "covers_with_all_red_upper": 1878111,
+      "covers_with_all_red_count_exact": false,
+      "graphs_with_positive_loss": 896,
+      "covers_with_positive_loss": 7540,
+      "loss_range": [
+        0,
+        2
+      ],
+      "allowance_range": [
+        0,
+        7
+      ],
+      "deficit_range": [
+        -7,
+        0
+      ],
+      "all_red_triangles_per_cover_range": [
+        0,
+        14
+      ],
+      "automatic_graphs": 440748,
+      "automatic_pairs": 6492987,
+      "integer_bound_sufficient_graphs": 440748,
+      "integer_bound_sufficient_pairs": 6492987,
+      "one_off_tau_eq_2nu_minus_1_graphs": 36949,
+      "one_off_tau_eq_2nu_minus_1_pairs": 81940,
+      "one_off_all_red_graphs": 62,
+      "one_off_all_red_covers_lower": 62,
+      "one_off_all_red_covers_upper": 62,
+      "ratio_histogram": {
+        "5/5": 48170,
+        "10/9": 506,
+        "7/5": 884,
+        "8/6": 1181,
+        "7/6": 1566,
+        "11/10": 317,
+        "3/3": 128173,
+        "8/7": 1001,
+        "11/11": 130,
+        "11/8": 158,
+        "5/4": 2344,
+        "10/10": 136,
+        "12/12": 70,
+        "12/11": 191,
+        "12/10": 306,
+        "6/5": 1957,
+        "4/4": 103707,
+        "4/3": 1500,
+        "10/7": 220,
+        "10/8": 746,
+        "13/12": 128,
+        "13/11": 224,
+        "14/13": 73,
+        "14/12": 175,
+        "17/15": 38,
+        "17/14": 31,
+        "6/6": 11983,
+        "6/4": 637,
+        "3/2": 726,
+        "9/7": 1071,
+        "12/9": 162,
+        "9/6": 217,
+        "15/14": 50,
+        "15/13": 112,
+        "15/12": 42,
+        "13/10": 81,
+        "11/9": 393,
+        "2/2": 91777,
+        "9/9": 227,
+        "9/8": 779,
+        "7/7": 1716,
+        "16/14": 84,
+        "16/13": 36,
+        "8/8": 339,
+        "15/11": 13,
+        "15/15": 4,
+        "14/14": 19,
+        "12/8": 4,
+        "14/11": 52,
+        "18/14": 1,
+        "13/13": 28,
+        "17/13": 3,
+        "16/15": 19,
+        "16/12": 11,
+        "18/16": 1,
+        "19/16": 1,
+        "17/16": 1,
+        "14/10": 3,
+        "1/1": 36223,
+        "18/15": 1
+      }
+    },
+    "hard_3nu_lt_2tau_and_tau_lt_2nu": {
+      "unique_labelled_graphs": 867,
+      "unique_graph_minimum_cover_pairs": 44497,
+      "graphs_with_all_red_triangle_in_some_minimum_cover": 822,
+      "covers_with_all_red_lower": 41845,
+      "covers_with_all_red_upper": 41845,
+      "covers_with_all_red_count_exact": true,
+      "graphs_with_positive_loss": 18,
+      "covers_with_positive_loss": 303,
+      "loss_range": [
+        0,
+        1
+      ],
+      "allowance_range": [
+        0,
+        1
+      ],
+      "deficit_range": [
+        -1,
+        0
+      ],
+      "all_red_triangles_per_cover_range": [
+        0,
+        5
+      ],
+      "automatic_graphs": 0,
+      "automatic_pairs": 0,
+      "integer_bound_sufficient_graphs": 181,
+      "integer_bound_sufficient_pairs": 13759,
+      "one_off_tau_eq_2nu_minus_1_graphs": 646,
+      "one_off_tau_eq_2nu_minus_1_pairs": 20506,
+      "one_off_all_red_graphs": 602,
+      "one_off_all_red_covers_lower": 18679,
+      "one_off_all_red_covers_upper": 18679,
+      "ratio_histogram": {
+        "7/4": 134,
+        "10/6": 31,
+        "5/3": 489,
+        "9/5": 23,
+        "8/5": 181,
+        "11/7": 9
+      }
+    },
+    "tight_tau_eq_2nu": {
+      "unique_labelled_graphs": 280,
+      "unique_graph_minimum_cover_pairs": 7448,
+      "graphs_with_all_red_triangle_in_some_minimum_cover": 176,
+      "covers_with_all_red_lower": 6620,
+      "covers_with_all_red_upper": 6620,
+      "covers_with_all_red_count_exact": true,
+      "graphs_with_positive_loss": 0,
+      "covers_with_positive_loss": 0,
+      "loss_range": [
+        0,
+        0
+      ],
+      "allowance_range": [
+        0,
+        0
+      ],
+      "deficit_range": [
+        0,
+        0
+      ],
+      "all_red_triangles_per_cover_range": [
+        0,
+        2
+      ],
+      "automatic_graphs": 0,
+      "automatic_pairs": 0,
+      "integer_bound_sufficient_graphs": 33,
+      "integer_bound_sufficient_pairs": 99,
+      "one_off_tau_eq_2nu_minus_1_graphs": 0,
+      "one_off_tau_eq_2nu_minus_1_pairs": 0,
+      "one_off_all_red_graphs": 0,
+      "one_off_all_red_covers_lower": 0,
+      "one_off_all_red_covers_upper": 0,
+      "ratio_histogram": {
+        "4/2": 141,
+        "8/4": 33,
+        "6/3": 71,
+        "10/5": 2,
+        "2/1": 33
+      }
+    },
+    "beyond_tau_gt_2nu": {
+      "unique_labelled_graphs": 0,
+      "unique_graph_minimum_cover_pairs": 0,
+      "graphs_with_all_red_triangle_in_some_minimum_cover": 0,
+      "covers_with_all_red_lower": 0,
+      "covers_with_all_red_upper": 0,
+      "covers_with_all_red_count_exact": true,
+      "graphs_with_positive_loss": 0,
+      "covers_with_positive_loss": 0,
+      "loss_range": null,
+      "allowance_range": null,
+      "deficit_range": null,
+      "all_red_triangles_per_cover_range": null,
+      "automatic_graphs": 0,
+      "automatic_pairs": 0,
+      "integer_bound_sufficient_graphs": 0,
+      "integer_bound_sufficient_pairs": 0,
+      "one_off_tau_eq_2nu_minus_1_graphs": 0,
+      "one_off_tau_eq_2nu_minus_1_pairs": 0,
+      "one_off_all_red_graphs": 0,
+      "one_off_all_red_covers_lower": 0,
+      "one_off_all_red_covers_upper": 0,
+      "ratio_histogram": {}
+    },
+    "unknown": {
+      "unique_labelled_graphs": 78,
+      "unique_graph_minimum_cover_pairs": "UNKNOWN",
+      "graphs_with_all_red_triangle_in_some_minimum_cover": "UNKNOWN",
+      "covers_with_all_red_lower": "UNKNOWN",
+      "covers_with_all_red_upper": "UNKNOWN",
+      "covers_with_all_red_count_exact": false,
+      "graphs_with_positive_loss": "UNKNOWN",
+      "covers_with_positive_loss": "UNKNOWN",
+      "loss_range": null,
+      "allowance_range": null,
+      "deficit_range": null,
+      "all_red_triangles_per_cover_range": null,
+      "automatic_graphs": "UNKNOWN",
+      "automatic_pairs": "UNKNOWN",
+      "integer_bound_sufficient_graphs": "UNKNOWN",
+      "integer_bound_sufficient_pairs": "UNKNOWN",
+      "one_off_tau_eq_2nu_minus_1_graphs": "UNKNOWN",
+      "one_off_tau_eq_2nu_minus_1_pairs": "UNKNOWN",
+      "one_off_all_red_graphs": "UNKNOWN",
+      "one_off_all_red_covers_lower": "UNKNOWN",
+      "one_off_all_red_covers_upper": "UNKNOWN",
+      "ratio_histogram": {}
+    }
+  },
+  "source_sha256": {
+    "SEARCH_COVERAGE.json": "032f12d6bb9be6e0d13089f54f173d7a1e7b4447a7b48655fb95d853a1c0bcd5",
+    "evidence/critical_search.jsonl.gz": "f2030bc30d3c64494ce80f4c0261593604c8af7c509291fb8a153787b3875fd8",
+    "evidence/search_controls.jsonl": "c2cde256505f7ead00c1eb82cc901a4dc5ad31d74ade4b53f430be31d63edd67",
+    "evidence/search_restoration.jsonl": "fc1e17e8708c0ba093791e78c69b92243976e4a6c3ea6022df7701cf39aff326",
+    "evidence/search_hostile.jsonl": "54876e8fafbc091954e1933364d687596f4409c4543c937b8031768c18b127e9",
+    "evidence/search_dense.jsonl": "e2cc3e891f8a1a96794716acf9252f9fe08a948ce8cd4dd84a682826bbc301f8",
+    "evidence/search_blue.jsonl": "2d0f56323c9196ef6af54bb0640c1bc10af2c648ad7b6e5c94086048791fb424",
+    "evidence/search_focused.jsonl.gz": "4d77cb1971f594c0fddb85c70eb7cdf81fa0525e1cac0006e95879aa1af89df6",
+    "evidence/search_theory_buds.jsonl": "b83271f391caa43cf7dd9e0ed33a1568fb8014e720640179b61401c3f5c159fc",
+    "evidence/hostile_C5_apices4_summary.json": "54780c179a10adb920662795f2b762f08b20c900ef867ae8956de437a9433ccb",
+    "evidence/hostile_C5_apices4_graphs.jsonl.gz": "ec74d77e94876e1380c60288a6d6fff3df386973c23f0a591ae66aa61a6e7d96",
+    "evidence/hostile_C7_apices2_summary.json": "e9c90319e887a0172e0cb7f61907dc6a99014b79c8adac80997160c0763e9b89",
+    "evidence/hostile_C7_apices2_graphs.jsonl.gz": "0e2d91b6fed4434d978e5bd9e758c921bfab99ebfbc7639add098dea2400cf2f",
+    "evidence/hostile_C7_apices3_summary.json": "69da6118c8b7b8b2dd638c558bc8666bc6f8aad6185b010a66515a89a6879841",
+    "evidence/hostile_C7_apices3_graphs.jsonl.gz": "e133124c94db746846993fc2616ecc8c3f02b85e9571ea6002337eba0d2268d7",
+    "evidence/hostile_unequal_c5_apices3.json": "09982c19e30b3386508651cd281b9c640c9f1393c388f0f952743f19c37f69b6"
+  },
+  "checker_sha256": "3d843114d4d81def9efbb6ce859a74b8b96f3517cf596e2b954d482457cf51e1"
+}

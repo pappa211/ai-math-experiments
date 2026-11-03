@@ -1,0 +1,220 @@
+{
+  "stage": "theory_buds",
+  "seed": 131102,
+  "seconds_budget": 180,
+  "per_graph_seconds": 2,
+  "cover_limit": 20000,
+  "counts": {
+    "attempted_graphs": 64,
+    "exact_graphs": 64,
+    "all_optima_graphs": 64,
+    "exact_cover_pairs": 4864,
+    "covers_with_T3": 2304,
+    "covers_requiring_two_red": 0
+  },
+  "worst": [
+    {
+      "name": "tau_drop_K4buds_18",
+      "n": 11,
+      "m": 27,
+      "D": -1,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 6,
+      "graph_hash": "50d87cd48f66b2b7832179d79bb5b1e505bbaa14efca23dac26bfa9e411f3ab1"
+    },
+    {
+      "name": "tau_drop_K4buds_00",
+      "n": 9,
+      "m": 21,
+      "D": -2,
+      "tau": 7,
+      "nu": 6,
+      "eligible_nu": 6,
+      "graph_hash": "1c107bad0b7a17cb82c2e5d44057b0a4d1eaf5d7b08e8941a96df57898fa0dd7"
+    },
+    {
+      "name": "tau_drop_K4buds_01",
+      "n": 10,
+      "m": 24,
+      "D": -2,
+      "tau": 8,
+      "nu": 6,
+      "eligible_nu": 6,
+      "graph_hash": "5a4f93f23c0722709e2fe994940d8a10b6ca29c5217caa67366d4a655f5504f6"
+    },
+    {
+      "name": "tau_drop_K4buds_02",
+      "n": 10,
+      "m": 24,
+      "D": -2,
+      "tau": 8,
+      "nu": 6,
+      "eligible_nu": 6,
+      "graph_hash": "badc726eb2789dc2558de27d0fd3bbaa760e15d7fac2d2c7cc85ad51b3b0174f"
+    },
+    {
+      "name": "tau_drop_K4buds_16",
+      "n": 10,
+      "m": 24,
+      "D": -2,
+      "tau": 8,
+      "nu": 6,
+      "eligible_nu": 6,
+      "graph_hash": "ad006f3754aae800a5f9691eafe89e1563b38cd50fbd0f40283ce927cef2ae53"
+    },
+    {
+      "name": "tau_drop_K4buds_03",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "55fc3ea3aee3e71ba85268ab5e08dc9a4436ae42107e8ee4398ee4dd6e797427"
+    },
+    {
+      "name": "tau_drop_K4buds_05",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "b33299a16c9c926baf437ae4d4dc8d03d0dc3e7fbb6f3fc2c7db97c009017c9d"
+    },
+    {
+      "name": "tau_drop_K4buds_06",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "6fe8bb14ca4068bc123434b78fda6caa9b7d84018a938c2131cd4d838d1bb4b6"
+    },
+    {
+      "name": "tau_drop_K4buds_09",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "25bd1b9521bc71babf8e825361b90977c6cad9ec80f3663e6658fb93ce0f3820"
+    },
+    {
+      "name": "tau_drop_K4buds_10",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "ee05e1d013bc9d67c2325f00fdca5793f579ccb0a412759ecaa42539ccbf5c26"
+    },
+    {
+      "name": "tau_drop_K4buds_17",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "5d1d71db7adece85aa44e1efc0190e1a6d1ee6bb23ae886260efedbb99393b62"
+    },
+    {
+      "name": "tau_drop_K4buds_20",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "90df56a29ed9559b0bea74c858ea1a68efc836203930d134153b0e1cc287f538"
+    },
+    {
+      "name": "tau_drop_K4buds_24",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "68cf7803bd3e9ef01fbf06b69ca6f6a519af3994963bd000ac61bdc5f34d87da"
+    },
+    {
+      "name": "tau_drop_K4buds_33",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "5c65366ea90f8d659e98072b6b91a5175aa83949631872e637459082abc62427"
+    },
+    {
+      "name": "tau_drop_K4buds_34",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "b5992e8c59d872ad8d6f77f2ca69cdf26c6c876e8c46f2e7609b7ced554423fb"
+    },
+    {
+      "name": "tau_drop_K4buds_36",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "4ff6642fa204276d65720e4ee3dfdeda210b3f4dfd7db9270cd02e6342abb2ad"
+    },
+    {
+      "name": "tau_drop_K4buds_40",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "4dac62dfae45d2f6893a3b895e7328b22b103844a7c1b40db22a7ee6a24784e7"
+    },
+    {
+      "name": "tau_drop_K4buds_48",
+      "n": 11,
+      "m": 27,
+      "D": -2,
+      "tau": 9,
+      "nu": 7,
+      "eligible_nu": 7,
+      "graph_hash": "29c60ab7ab079caaa287b5d545876cd54f637003ad30ad61f00f5b6ef7a7bd7d"
+    },
+    {
+      "name": "tau_drop_K4buds_07",
+      "n": 12,
+      "m": 30,
+      "D": -2,
+      "tau": 10,
+      "nu": 8,
+      "eligible_nu": 7,
+      "graph_hash": "067e61d7bb9e6704752b50dd621b17bfd92116845989299ce82276c60e81385c"
+    },
+    {
+      "name": "tau_drop_K4buds_11",
+      "n": 12,
+      "m": 30,
+      "D": -2,
+      "tau": 10,
+      "nu": 8,
+      "eligible_nu": 7,
+      "graph_hash": "6f142cd26f1b72137500676cabce210f539e2e5945b2ff2897e93010ad0c8212"
+    }
+  ],
+  "elapsed_seconds": 0.5098792500029958,
+  "finished_utc": "2026-11-02T16:35:38.276262+00:00",
+  "dedup": "exact sorted labelled edge list only; no isomorphism quotient claimed"
+}

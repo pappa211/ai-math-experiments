@@ -1,47 +1,26 @@
 {
-  "status": "FINAL_REVIEWED_PUBLICATION_TREE",
-  "public_baseline": "b7b0e4fa66bd3effa64f0905eb497818f264b25c",
-  "paper_artifacts": {
-    "papers/tuza-further-investigations/LITERATURE_RECHECK.md": "1b2739800a9c5bb0d364d3441b4b6df4cf8c658bfc41c288f18e520321891acc",
-    "papers/tuza-further-investigations/README.md": "58852acd38494ed0c49679943ed27d56e3a22318abb016c763a1c44f7b570014",
-    "papers/tuza-further-investigations/build.py": "17326ed3f6292fcd7fab155939b88b715e44f8624e3b12b168a9c568588d785a",
-    "papers/tuza-further-investigations/main.md": "90eea744706b9d41de66cd5617d5f7086cbd2cd737223d1af44dc8e917c13336",
-    "papers/tuza-further-investigations/main.pdf": "9495bd36be77c4408b71b107d2619a72ce3f75dd263df3c6105a75e8a844f25b",
-    "papers/tuza-further-investigations/main.tex": "39f54131dd34e94c39a69514f57d426a96d494f4a50f5fa2d36ef61bd478676f",
-    "papers/tuza-further-investigations/manuscript.md": "5acf01b9ede51b426d55e4ad14e77d94ff86df43262784bc1439aeb37dc06a28",
-    "papers/tuza-further-investigations/numeric.csl": "ad87814675ef1df8d841e5043be7be0fb3966f45509f4941475f96887c9280f7",
-    "papers/tuza-further-investigations/references.bib": "c754ce115ea7615b5200cc45c6792c3c0c5893f6a708a53f1109948023e377ab"
-  },
-  "public_source_manifest_sha256": "f9f50713a179cb033e7279f079611885becdcfa09c60c35e33a924a654ce577a",
-  "copied_source_entries": 84,
-  "native_project_modules": 48,
-  "audited_declarations": 305,
-  "standard_kernel_replays": 48,
-  "historical_originality": "UNESTABLISHED",
-  "unrestricted_tuza": "OPEN",
-  "R": "UNPROVED",
-  "general_five_thirds_strengthening": "UNPROVED",
-  "research_decision": "REDIRECT",
-  "trust_limits": [
-    "Pinned compiled native dependencies and exact-version compiler reused",
-    "No cold Mathlib/compiler build",
-    "No independent kernel implementation",
-    "No external human peer review",
-    "TUZA-09/10 ordinary mathematics and finite exact evidence only",
-    "No full third-party algorithm/catalogue replay implied by literature inspection"
+  "status": "REVIEWED_PUBLICATION_TREE",
+  "edition": "TUZA-11-15-2026-11-03",
+  "public_baseline": "e93e3c8b5a04b561190d02dd4c6092bc0903b1bf",
+  "report": "papers/tuza-11-15-research-summary/main.pdf",
+  "report_sha256": "92dabb82f108de3afd2b116a7ecac246a7f189bfcb288c038425b8892b998dd1",
+  "source_manifest": "problems/TUZA-11-15-SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "d76a56418c597620ec30da3add63bee9a647974bcb697b7f638cd55f99b10718",
+  "proof_ledger": "ORDINARY_PROOF_INDEX.md",
+  "fresh_reproduction": "verification/tuza-11-15/REPRODUCTION.json",
+  "historical_release_records": "verification/tuza-07-10/release-at-e93e3c8/",
+  "evidence_boundary": "Ordinary symbolic proofs, exact finite certificates, separate internal AI audit; no new Lean or external human review. Prior inequality credited.",
+  "open": [
+    "unrestricted Tuza",
+    "unrestricted equality",
+    "general S/E",
+    "remaining seven-regular equality"
   ],
   "inventories": {
-    "release_overlay": "RELEASE_FILES.sha256",
-    "full_candidate": "FILES.sha256",
-    "self_exclusion": "Each hash inventory excludes itself; overlay also excludes full inventory to avoid a hash cycle."
+    "full_tree": "FILES.sha256",
+    "this_publication_overlay": "RELEASE_FILES.sha256",
+    "self_exclusions": "FILES excludes itself. RELEASE_FILES excludes both inventories. This manifest does not hash inventories or itself."
   },
-  "accepted_candidate_commit": "f4f7f27683b1a89d7282633783524776f9f80d41",
-  "publication_branch": "codex/publish-tuza-07-10-20261101",
-  "publication_method": "Reviewed GitHub pull request into main; PR records final publication identity.",
-  "candidate_preparation_review_sha256": {
-    "mathematical": "86dd61a904cd87948e3aedb3e4c19917af091b6dd04321f44c9602d8164f2c32",
-    "publication": "d24291a3a3d9ea4d5ab966a2b1024006ad2cf278ac44c7f9746c23e6a49356a6"
-  },
-  "publication_critic_receipt": "verification/tuza-07-10/publication-20261101/INDEPENDENT_CRITIC.json",
-  "publication_receipts": "verification/tuza-07-10/publication-20261101/README.md"
+  "independent_publication_review": "verification/tuza-11-15/INDEPENDENT_PUBLICATION_REVIEW.json",
+  "publication_method": "Owner-authorized reviewed PR, normal GitHub merge with expected head and explicit account no-reply author email; public identity recorded by the PR/commit."
 }

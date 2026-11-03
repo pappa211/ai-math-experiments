@@ -1,0 +1,221 @@
+{
+  "stage": "blue",
+  "seed": 131102,
+  "seconds_budget": 300.0,
+  "per_graph_seconds": 2.0,
+  "cover_limit": 3000,
+  "counts": {
+    "attempted_graphs": 500,
+    "exact_graphs": 486,
+    "all_optima_graphs": 486,
+    "exact_cover_pairs": 1412,
+    "covers_with_T3": 1210,
+    "covers_requiring_two_red": 0,
+    "unresolved_graphs": 14
+  },
+  "worst": [
+    {
+      "name": "blue_8_85",
+      "n": 8,
+      "m": 16,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "8b8a4af67e0f4598bf2927f23a44865ce7708dcbb3006ee18928ce1e7a3a5bd6"
+    },
+    {
+      "name": "blue_8_60",
+      "n": 8,
+      "m": 17,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "5ffb440cea1a9d936288e9270e9dafaee49a4a626a1899166ae99aebf6f44dca"
+    },
+    {
+      "name": "blue_8_21",
+      "n": 8,
+      "m": 18,
+      "D": -1,
+      "tau": 2,
+      "nu": 2,
+      "eligible_nu": 2,
+      "graph_hash": "81e5324ce2cc529a9d172a3f3ffe8ff0e639f249aeb9e8d35a70151474a06068"
+    },
+    {
+      "name": "blue_8_27",
+      "n": 8,
+      "m": 18,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "7941383b914f06314981e056e9d2fea024e87da0fafeee3b52efa98f3c75ffea"
+    },
+    {
+      "name": "blue_8_50",
+      "n": 8,
+      "m": 19,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "f88a066ec1224716b59a0a64d577d7311575584e7a6d8136bf2bec747a15a42f"
+    },
+    {
+      "name": "blue_8_36",
+      "n": 8,
+      "m": 20,
+      "D": -1,
+      "tau": 7,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "0e466b4594ff5d33c986fa6ae807c691a0110c3ceb88cbfb123677550e4ff3fc"
+    },
+    {
+      "name": "blue_8_77",
+      "n": 8,
+      "m": 20,
+      "D": -1,
+      "tau": 7,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "dd2760d0217d2f2db17424550dbeb1ffa989bbe4cffa2ba75b6048c2eacf7afc"
+    },
+    {
+      "name": "blue_9_82",
+      "n": 9,
+      "m": 23,
+      "D": -1,
+      "tau": 3,
+      "nu": 3,
+      "eligible_nu": 3,
+      "graph_hash": "6089c2ae60421135c33f3662ece2352967c7b712f1fa05b367432a5b8c49a513"
+    },
+    {
+      "name": "blue_8_75",
+      "n": 8,
+      "m": 17,
+      "D": -2,
+      "tau": 4,
+      "nu": 4,
+      "eligible_nu": 4,
+      "graph_hash": "c5e92836052633e367f355c69cad4ea832e7d2df38beae11e3d96a00f55f820c"
+    },
+    {
+      "name": "blue_8_52",
+      "n": 8,
+      "m": 18,
+      "D": -2,
+      "tau": 5,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "6b6c83b7d5481f580617e09a47dd68000420369a44814d102476f720559c421f"
+    },
+    {
+      "name": "blue_8_8",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 5,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "a417f85c74630190cce0c9ee9418600924210e787c16fd0d006a31ee37bfe489"
+    },
+    {
+      "name": "blue_8_18",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 6,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "1fc11278a6e1c2a11297e567b174555ee03323e2bf87116e8d38bfd9fb23814f"
+    },
+    {
+      "name": "blue_8_33",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 4,
+      "nu": 4,
+      "eligible_nu": 4,
+      "graph_hash": "80c8e75b85fb40b4d4a997f374cddaef7ea13f62df190984077d23e67f3f8d98"
+    },
+    {
+      "name": "blue_8_42",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 4,
+      "nu": 4,
+      "eligible_nu": 4,
+      "graph_hash": "e70063f38d547be2cd706380f62d569130531211710eff9b1e1b3184d2166a5b"
+    },
+    {
+      "name": "blue_8_45",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 5,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "ca4e4a49e1bb136b395c72041e84eb1252062e67f0bc9f9daebab62b2d1a5d53"
+    },
+    {
+      "name": "blue_8_54",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 5,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "7389ec5e0f369d61095240cefd5a9e6f81a9961a78da5fa752b554a481ed92eb"
+    },
+    {
+      "name": "blue_8_69",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 5,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "c8555757877126b45c41ef94df7397848c9cfec6df9231a1f58e44ded5cf3d25"
+    },
+    {
+      "name": "blue_8_71",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 5,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "f73bced270d13c5fe654bfe2568c690c04b9548b57d29892a0026b75af1eb4ce"
+    },
+    {
+      "name": "blue_8_74",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 5,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "71ca0213e384f2eb0a559b5ebff2c99a7edf21300b0e576a5fc73e29ee169b8b"
+    },
+    {
+      "name": "blue_8_83",
+      "n": 8,
+      "m": 19,
+      "D": -2,
+      "tau": 5,
+      "nu": 5,
+      "eligible_nu": 5,
+      "graph_hash": "3c5d0cd141ecf1f629b565a4eaf6c23b46a438c836347a430b57f9b2729fdbb2"
+    }
+  ],
+  "elapsed_seconds": 49.81386270800067,
+  "finished_utc": "2026-11-02T16:23:23.930133+00:00",
+  "dedup": "exact sorted labelled edge list only; no isomorphism quotient claimed"
+}

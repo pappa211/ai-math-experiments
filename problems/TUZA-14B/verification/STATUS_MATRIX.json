@@ -1,0 +1,109 @@
+{
+  "mission": "TUZA-14B independent verification and research freeze",
+  "source_commit": "frozen-packet-14bd",
+  "verdict": "VERIFICATION_COMPLETE_AT_FROZEN_SCOPE",
+  "formalization": "ORDINARY_ONLY_NOT_LEAN_PROVED",
+  "novelty": "UNESTABLISHED",
+  "targets": {
+    "T1": {
+      "status": "PROVED_ORDINARY",
+      "scope": "Every specified globally minimum C; all-red and k<=3 implies tau<=6; low-k classification and nu<=3 preservation",
+      "dependencies": [
+        "standard Hall and Konig matching theorems"
+      ],
+      "evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/FRESH_CRITIC_INITIAL.md",
+        "notes/FRESH_CRITIC_COMPARISON.md",
+        "evidence/integral_t1local.json"
+      ]
+    },
+    "T2": {
+      "status": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+      "scope": "S for every minimum C when tau<=8 or nu<=4",
+      "subtargets": {
+        "exact_7_4_and_8_4_full_preservation": "PROVED_ORDINARY",
+        "tau_le_8": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+        "nu_le_4": "PROVED_ORDINARY_USING_PUBLISHED_INPUT"
+      },
+      "dependencies": [
+        "T1",
+        "Parker/earlier ordinary nu<=3",
+        "accepted Liu v1.0.2 computer-assisted nu=4, Table1 class9 378->389"
+      ],
+      "evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "PRIOR_ART_AND_DEPENDENCIES.md",
+        "evidence/primary_sources.json"
+      ]
+    },
+    "T3": {
+      "status": "PROVED_ORDINARY",
+      "scope": "Literal edge-disjoint clique blocks; saturation, one slack, and two slack r=0,2 or >=4",
+      "subtargets": {
+        "three_exact_12_vertex_kernels_all_minima_k7": "FINITE_CHECKED",
+        "two_slack_r1_r3": "UNPROVED"
+      },
+      "dependencies": [
+        "elementary local K4/K5 triangle geometry",
+        "global minimum cardinality"
+      ],
+      "evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "notes/FRESH_CRITIC_INITIAL.md",
+        "evidence/integral_controls.json",
+        "evidence/integral_local.json"
+      ]
+    },
+    "T4": {
+      "status": "PROVED_ORDINARY",
+      "scope": "Distinct-root fresh pendant K4/K5 attachments; residual H-D; integer book b>=1; designated cover k formula",
+      "dependencies": [
+        "elementary local K4/K5 root-avoiding packings"
+      ],
+      "evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "evidence/fractional_cut_independent.json",
+        "notes/FRESH_CRITIC_COMPARISON.md"
+      ]
+    },
+    "T5": {
+      "status": "CONDITIONAL",
+      "subtargets": {
+        "fractional_bound": "PROVED_ORDINARY_USING_PUBLISHED_INPUT",
+        "min_cut_characterization_and_algorithm": "CONDITIONAL",
+        "universal_zero_excess_exchange": "UNPROVED"
+      },
+      "dependencies": [
+        "full finite LP duality",
+        "Furedi Fano-free rank-three fractional matching theorem",
+        "combined signed pair graph bipartite and specified admissible deletion set for cut"
+      ],
+      "evidence": [
+        "INDEPENDENT_PROOF_AUDIT.md",
+        "evidence/fractional_cut_independent.json",
+        "evidence/t4_t5_primary_source.json",
+        "notes/FRESH_CRITIC_COMPARISON.md"
+      ],
+      "scope": "Two separately accepted mechanisms; fractional theorem has published input, migration is conditional, no universal existence"
+    }
+  },
+  "general_claims": {
+    "strong_S": "UNPROVED",
+    "existential_E": "UNPROVED",
+    "unrestricted_Tuza": "UNPROVED"
+  },
+  "finite_scopes": {
+    "labelled_graphs_n_0_through_6": 33868,
+    "minimum_cover_pairs_in_labelled_domain": 89419,
+    "named_integral_controls": 14,
+    "minimum_cover_pairs_in_named_controls": 1166,
+    "rational_control_graphs": 10,
+    "exact_full_and_selected_eligible_LPs": 20,
+    "full_optimum_mass_checks": 915,
+    "actual_graph_cut_systems": 40,
+    "actual_graph_blue_assignment_checks": 2880,
+    "aggregation_warning": "Scopes overlap; totals are not combined as a distinct union."
+  },
+  "general_claims_open": true
+}

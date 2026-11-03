@@ -12,6 +12,27 @@ Unrestricted Tuza is OPEN. Historical priority is UNESTABLISHED. Every item belo
 has AI-only internal review; none has external human peer review. TUZA-01–06 files
 are unchanged from public baseline `b7b0e4fa66bd3effa64f0905eb497818f264b25c`.
 
+## Current ordinary results: TUZA-11-15
+
+The [claim-by-claim ordinary-proof index](ORDINARY_PROOF_INDEX.md) gives exact
+interfaces, full proofs, finite dependencies and conditional/open status for
+TUZA-11,12,13,14,14B,15. The controlling headline is the combined equality
+classification for finite simple graphs with mad < 7. Puleo's inequality is
+prior work; equality and restoration are ordinary computer-assisted arguments
+with separate internal AI verification. Locally bipartite strictness requires
+at least one triangle and no sparsity bound. S/E remain open generally.
+
+Full T0 supporting interfaces (including optional SEP/HIGH10) are in the
+[verified target inventory](problems/TUZA-15/verification/FROZEN_TARGETS.md).
+The [14B target inventory](problems/TUZA-14B/verification/FROZEN_TARGETS.md)
+retains all every-cover/distinct-root/designated-cover, strict fractional-gap
+and conditional combined-clause bipartiteness hypotheses.
+[Dependencies](verification/tuza-11-15/DEPENDENCIES.md) and
+[source transformations](problems/TUZA-11-15-SOURCE_MANIFEST.json) are separate
+from the [fresh finite replay receipt](verification/tuza-11-15/REPRODUCTION.json).
+No ordinary result is represented as a new Lean declaration. Historical source
+and verification records below retain their original scope.
+
 ## Mathematical statement ledger
 
 | Statement | Actual declaration / complete literal interface | Ordinary proof | Status and exact boundary |

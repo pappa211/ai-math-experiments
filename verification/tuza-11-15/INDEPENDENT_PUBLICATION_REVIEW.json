@@ -1,0 +1,30 @@
+{
+  "verdict": "APPROVE_REPAIRED_CANDIDATE_CONTENT",
+  "review_type": "One fresh separate-context internal AI publication critic; no external human peer review.",
+  "reviewed_pdf_sha256": "92dabb82f108de3afd2b116a7ecac246a7f189bfcb288c038425b8892b998dd1",
+  "reviewed_source_manifest_sha256": "d76a56418c597620ec30da3add63bee9a647974bcb697b7f638cd55f99b10718",
+  "reviewed_driver_sha256": "49b6b9e1fcd4525478d50b813bd04c8de88f7a9910dd198924710740b1de423f",
+  "independent_finite_stages_passed": 22,
+  "independent_recount": {
+    "graphs": 448112,
+    "graph_cover_pairs": 6551149,
+    "unresolved": 78
+  },
+  "all_pdf_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "local_links_checked": 382,
+  "privacy_pattern_matches": 0,
+  "repairs": "Publication reproduction-scope/link/extract framing only; mathematical claims, frozen arguments, checker and certificate unchanged.",
+  "remaining_gate": "Actual new commit metadata before push and merge metadata/public content after merge are checked separately.",
+  "post_review_administrative_files": "This receipt/review summary, navigation to them, release manifest and inventories; mathematical scope and artifacts unchanged."
+}
