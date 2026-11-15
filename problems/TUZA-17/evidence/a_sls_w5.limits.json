@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17/checks/a_sls_w5.py"
+  ],
+  "pid": 53995,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.20872208299988415,
+  "peak_sampled_RSS_bytes": 4145152,
+  "wall_limit_seconds": 30.0,
+  "RSS_limit_MiB": 256.0,
+  "status": "PASS"
+}

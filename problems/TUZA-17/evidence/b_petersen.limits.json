@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "checks/b_petersen.py"
+  ],
+  "pid": 57524,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.21321408299263567,
+  "peak_sampled_RSS_bytes": 1916928,
+  "wall_limit_seconds": 10.0,
+  "RSS_limit_MiB": 128.0,
+  "status": "PASS"
+}

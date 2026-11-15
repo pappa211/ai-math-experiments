@@ -1,0 +1,11 @@
+{
+  "uncompressed_filename": "apex_type1_directed_ledger.json",
+  "uncompressed_bytes": 118975324,
+  "uncompressed_sha256": "fe08f941415a2e2f7ce0f6384c5987be7c8f7075111c4af383d45dd52f2299af",
+  "compressed_filename": "apex_type1_directed_ledger.json.gz",
+  "compressed_bytes": 12407568,
+  "compressed_sha256": "7cbae4b4721c0a77dd968e0118eefd575d067573fe13e0e25cd0ae1e01e19a86",
+  "full_literal_attempts": 393643,
+  "unknown_instances": 1,
+  "uncompressed_removed_after_byte_exact_decompression_check": true
+}

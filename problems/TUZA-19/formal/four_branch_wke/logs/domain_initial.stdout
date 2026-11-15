@@ -1,0 +1,8 @@
+Domain.lean:14:16: error: unsolved goals
+case succ.cons
+k : Nat
+ih : ∀ (s : List Nat), s ∈ vectors k ↔ s.length = k ∧ ∀ (x : Nat), x ∈ s → x < 5
+x : Nat
+xs : List Nat
+⊢ (x < 5 ∧ xs.length = k ∧ ∀ (x : Nat), x ∈ xs → x < 5) ↔ xs.length = k ∧ x < 5 ∧ ∀ (x : Nat), x ∈ xs → x < 5
+'FourBranch.mem_vectors_iff' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

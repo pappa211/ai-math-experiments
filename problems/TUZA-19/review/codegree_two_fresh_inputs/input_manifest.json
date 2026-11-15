@@ -1,0 +1,7 @@
+{
+  "notes/codegree_two_tf_resilience_counterexample.md": "ae0bd41560dae51e58f5197a46eb5cd62e7859f10fb7aeb2f488178c052da1a4",
+  "checks/codegree_two_petersen_join.py": "4ab93113ed565ef3510082d5148638b4c4d61d7a702b00f4a3b5e6281efaab0e",
+  "checks/codegree_two_tf_lift.py": "1896c8e5df4a6d360289a3543daa1d1760d34b2a850e5c6ebe1a824e9086e1ee",
+  "evidence/codegree_two/petersen_join.json": "d517e3fd66923c02b079a66fad6291b66676235bb434a90d4b38375a036d5fb4",
+  "evidence/codegree_two/tf_lift_witness.json": "3dbd56433357c22745b2a96a733685874b94a9ed7c24463e27b88cdadd1def7e"
+}

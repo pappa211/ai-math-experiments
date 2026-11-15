@@ -1,0 +1,3 @@
+RejectEmptyCover.lean:5:47: error: Tactic `decide` proved that the proposition
+  checkSegment emptyCover = true
+is false

@@ -12,7 +12,7 @@ Unrestricted Tuza is OPEN. Historical priority is UNESTABLISHED. Every item belo
 has AI-only internal review; none has external human peer review. TUZA-01–06 files
 are unchanged from public baseline `b7b0e4fa66bd3effa64f0905eb497818f264b25c`.
 
-## Current ordinary results: TUZA-11-15
+## Historical ordinary results: TUZA-11-15
 
 The [claim-by-claim ordinary-proof index](ORDINARY_PROOF_INDEX.md) gives exact
 interfaces, full proofs, finite dependencies and conditional/open status for
@@ -98,3 +98,21 @@ Chapuy's theorem-body +1, Liu–Zeng density equivalence/c<2, bounded-degree
 preprints, current constant preprints, and rainbow/color-line methods are credited.
 Search absence does not prove novelty. No full third-party proof or companion
 catalogue replay is implied by inspecting a theorem statement.
+
+## Current continuation: TUZA-16–19
+
+Unrestricted Tuza remains unresolved. The [15 November guide](RESEARCH_STATUS_2026-11-15.md), [full report](papers/tuza-16-19-research-summary/main.md), and [complete claim/evidence inventory](verification/tuza-16-19/CLAIM_EVIDENCE.md) extend this index without changing older entries.
+
+| Interface | Complete statement/proof | Evidence boundary |
+|---|---|---|
+| Fixed-palette obstruction, twin and copy identities | [TUZA-16 proofs](problems/TUZA-16/PROOFS_AND_OBSTRUCTIONS.md) | Ordinary / published approximation inputs; 66 K10/K11 certificates and finite controls freshly replayed; GF4 optimum 20/21 unresolved. |
+| AC for eligible b≤6 | [TUZA-17 proofs](problems/TUZA-17/PROOFS_AND_OBSTRUCTIONS.md) | Rainbow H, induced triangle-free link, existential minimum-cover quantifier. Catalogue input only in later b=7/cover9 elimination; full-instance realization unknown. |
+| Original common-vertex packing cover | [Theorem](problems/TUZA-18/notes/criticality_star_pk_theorem.md), [local corollary](problems/TUZA-18/notes/criticality_star_local_dichotomy.md) | Ordinary; original A(P), nonuniversal vertex allowed; 0→1/1→2/2→3 stability. Finite checks are supporting evidence; no Lean theorem. |
+| Chain strict-descent obstruction / plateau repair | [Chain](problems/TUZA-18/notes/late_star_connected_pivot_obstruction.md), [repair](problems/TUZA-19/review/chain_plateau_control.md) | Specified minimum support cover, one triangle component; family-specific equal-cost plateau sequence. |
+| Four-branch WKE / five-core | [Proof](problems/TUZA-19/notes/root_four_branch_wke.md), [scope](problems/TUZA-19/notes/four_branch_wke_scope_addendum.md) | Ordinary all-size reductions; 5,375-case finite Lean kernel. Some R⊆G[K], not necessarily G[K]. |
+| Quantitative normalization and additive equivalence | [Batching](problems/TUZA-19/notes/root_batched_universal_tf_nonwke.md), [rates](problems/TUZA-19/notes/root_subexponential_normalization_corollary.md) | Fixed 1/2<a<1, uniform eventual error and simultaneous conditions; no resilience/minimality preservation. |
+| Normalized odd-cover obstruction | [Construction](problems/TUZA-19/notes/root_batched_odd_cover_obstruction.md), [identity](problems/TUZA-19/notes/root_batched_odd_cover_exact_identity.md) | Ordinary finite-existence seed, tau<2nu<pi; resilience unestablished, H-O2 intact. |
+| Local marginal obstruction | [Full proof](problems/TUZA-19/notes/global_routes_bounded_stars_all_cliques.md) | Every fixed star budget plus all original cliques; first marginals only, not consistent joint moments or cover inequalities. |
+| Positive square/line/private-page classes | [Square cells](problems/TUZA-19/notes/global_routes_square_cells_matching.md), [simple-root line graphs](problems/TUZA-19/notes/root_line_graph_parity.md), [private pages](problems/TUZA-19/notes/root_multi_private_integral_cover.md) | Complete scoped ordinary interfaces, no general availability theorem. |
+
+[Dependencies](verification/tuza-16-19/DEPENDENCIES.md), [source transformations](problems/TUZA-16-19-SOURCE_MANIFEST.json), [fresh finite receipt](verification/tuza-16-19/finite/VERIFICATION.json), and [formal scope](verification/tuza-16-19/README.md) are separate. Historical NOT_RUN statuses remain historical; no solver-only UNSAT or UNKNOWN is promoted. New literal formal declarations are added only after compilation to DECLARATION_INDEX.md.

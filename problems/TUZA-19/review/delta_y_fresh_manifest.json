@@ -1,0 +1,20 @@
+{
+  "completed_utc": "2026-11-15T05:03:36.293458+00:00",
+  "reviewer": "fresh_critic",
+  "verdict": "ACCEPT ordinary proof; no mathematical repair required",
+  "requested_model": "Astra",
+  "requested_reasoning": "Ultra",
+  "actual_serving_controls": "not independently exposed",
+  "original_research_cutoff": "2026-11-15T09:23:58Z",
+  "producer_checker_read_or_imported": false,
+  "sha256": {
+    "notes/packing_new_delta_y_gate.md": "ac32c0f5d76207fb644b5f82bf34b1d1e99ecef2015ace820eb548fd07b0c8a8",
+    "review/delta_y_fresh_inputs/packing_new_delta_y_gate.md": "ac32c0f5d76207fb644b5f82bf34b1d1e99ecef2015ace820eb548fd07b0c8a8",
+    "review/delta_y_fresh_checker.py": "89e3d250c50393526e93974689ed361b84b4a70dc44a1898fa58787501403e91",
+    "review/delta_y_fresh_audit.md": "2ed0eaf5d6860289d56f1df9cec83579c2a063c385561c91a79c50b418b0e6a3",
+    "evidence/delta_y_fresh/results.json": "27b78ff477d441d3895836607f18efcf17f16bb210a8497eecc6dd2b97d40097",
+    "evidence/delta_y_fresh/K5_states_and_cycles.json": "ac4568c520b858cb3a81ac973d8977bca2857c87cfd3092696ae4ecc6cb7b4bd",
+    "evidence/delta_y_fresh/boundary_and_bouquets.json": "59a288f94a7e7c432009af17ab1bae20df1d229a35793e49c1d1ea1f68b8a1b1",
+    "evidence/delta_y_fresh/K7_six_cycles.json": "fb51205bde6010c644a300484d6cba256d4f476a2634750f38adc71899328388"
+  }
+}

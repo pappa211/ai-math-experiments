@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-15T01:43:49.365480+00:00",
+  "different_fields": [
+    "elapsed_seconds",
+    "script_sha256"
+  ],
+  "matched_fields": [
+    "exhaustive_graph_count",
+    "exhaustive_universes",
+    "python",
+    "scope",
+    "special_cases",
+    "status",
+    "strict_local_examples",
+    "total_results"
+  ],
+  "total_results": {
+    "cover_verified": 7720,
+    "covers_with_terminal": 640,
+    "covers_with_terminal_endpoint_removed": 89,
+    "covers_with_outside_neighborhood_old_tip": 1341,
+    "covers_with_shared_terminal_tip": 23,
+    "locally_stable_but_not_maximum": 72,
+    "augmentation_0": 29064,
+    "augmentation_1": 3630,
+    "augmentation_2": 1580
+  },
+  "exhaustive_graph_count": 41984,
+  "targeted_runs": 10,
+  "original_after_replay": {
+    "head": "57708a8413929012d9ca8d15b0f925b3ef6b51e8",
+    "tag_target": "57708a8413929012d9ca8d15b0f925b3ef6b51e8",
+    "tag_object": "f321778765a10f2bd4cf100b85988abca0e9c275",
+    "status_porcelain": "",
+    "remotes": []
+  },
+  "replay_result_sha256": "806ec58d7d9052d9405f932f70421bdb141ea0500ae5dd86310cdcd652912cdf"
+}

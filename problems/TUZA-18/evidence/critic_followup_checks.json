@@ -1,0 +1,295 @@
+{
+  "K4_pruning": {
+    "balanced_cost_two": 24,
+    "face_cut_cases": 64,
+    "unbalanced_cost_three": 40
+  },
+  "apex_witness": {
+    "actual_triangles": 7,
+    "forced_penalty_profile": [
+      {
+        "S": [],
+        "delta": 1,
+        "forced_edges": [
+          [
+            0,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "value": 1
+      },
+      {
+        "S": [
+          0
+        ],
+        "delta": 1,
+        "forced_edges": [
+          [
+            2,
+            5
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "value": 2
+      },
+      {
+        "S": [
+          2
+        ],
+        "delta": 1,
+        "forced_edges": [
+          [
+            0,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ],
+        "value": 2
+      },
+      {
+        "S": [
+          5
+        ],
+        "delta": 1,
+        "forced_edges": [
+          [
+            0,
+            6
+          ]
+        ],
+        "value": 2
+      },
+      {
+        "S": [
+          6
+        ],
+        "delta": 1,
+        "forced_edges": [
+          [
+            2,
+            5
+          ]
+        ],
+        "value": 2
+      },
+      {
+        "S": [
+          0,
+          2
+        ],
+        "delta": 1,
+        "forced_edges": [
+          [
+            5,
+            6
+          ]
+        ],
+        "value": 3
+      },
+      {
+        "S": [
+          0,
+          5
+        ],
+        "delta": 0,
+        "forced_edges": [],
+        "value": 2
+      },
+      {
+        "S": [
+          0,
+          6
+        ],
+        "delta": 1,
+        "forced_edges": [
+          [
+            2,
+            5
+          ]
+        ],
+        "value": 3
+      },
+      {
+        "S": [
+          2,
+          5
+        ],
+        "delta": 1,
+        "forced_edges": [
+          [
+            0,
+            6
+          ]
+        ],
+        "value": 3
+      },
+      {
+        "S": [
+          2,
+          6
+        ],
+        "delta": 0,
+        "forced_edges": [],
+        "value": 2
+      },
+      {
+        "S": [
+          5,
+          6
+        ],
+        "delta": 0,
+        "forced_edges": [],
+        "value": 2
+      },
+      {
+        "S": [
+          0,
+          2,
+          5
+        ],
+        "delta": 0,
+        "forced_edges": [],
+        "value": 3
+      },
+      {
+        "S": [
+          0,
+          2,
+          6
+        ],
+        "delta": 0,
+        "forced_edges": [],
+        "value": 3
+      },
+      {
+        "S": [
+          0,
+          5,
+          6
+        ],
+        "delta": 0,
+        "forced_edges": [],
+        "value": 3
+      },
+      {
+        "S": [
+          2,
+          5,
+          6
+        ],
+        "delta": 0,
+        "forced_edges": [],
+        "value": 3
+      },
+      {
+        "S": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "delta": 0,
+        "forced_edges": [],
+        "value": 4
+      }
+    ],
+    "lambda_min": 2,
+    "minimum_H_covers": 1,
+    "nu_G": 3,
+    "nu_H": 2,
+    "proper_H_three_coloring": true,
+    "tau_G": 3,
+    "tau_H": 2
+  },
+  "criticality_controls": {
+    "Fano_minus_line": {
+      "Q_analogue": true,
+      "nu": 1,
+      "tau": 3,
+      "two_vertex_resilience_cases": 21
+    },
+    "K2_join_C5": {
+      "Q": true,
+      "blocker": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "edges": 16,
+      "nu": 4,
+      "nu_after_blocker": 3,
+      "tau": 6,
+      "triangles": 15
+    },
+    "K5": {
+      "nu": 2,
+      "tau": 4,
+      "two_edge_deletion_cases": 45
+    },
+    "glued_K5": {
+      "edges": 19,
+      "minimum_covers": 16,
+      "nu": 4,
+      "tau": 7,
+      "triangles": 20,
+      "two_edge_resilience_cases": 171
+    }
+  },
+  "elapsed_seconds": 0.10349654099991312,
+  "finished_utc": "2026-11-14T17:59:11.713964+00:00",
+  "input_sha256": {
+    "evidence/apex_witness_verified.json": "f01204b5c93d3535b94fca9dcc0011073c843ff01c74e42b52b69286cfd03c80",
+    "notes/apex_minimum_restriction.md": "a4f3419d5acd52ae32751ff00a5c27869150ee6b8971be80dcba470ff4b0b2a5",
+    "notes/apex_pruned_critique.md": "5b739fc1662ea1bf38ebf4f67de1e0315ed940b5fa0df36d2aab71fe025542fe",
+    "notes/criticality_control_proofs.md": "faf8f2c8cbb79cd0064b40a7f69c3194856009520587bd6c55e01a4c97326bf3"
+  },
+  "limitations": [
+    "Finite checks supplement ordinary proofs.",
+    "No full lifted graph is generated.",
+    "No Lean or external human verification."
+  ],
+  "powers_of_two_lift": {
+    "all_nonzero_mod_q": true,
+    "base_edges": 20,
+    "blocks": 5242885,
+    "cycle_checks": [
+      {
+        "length": 4,
+        "maximum_absolute_voltage": 458704,
+        "minimum_absolute_voltage": 30,
+        "simple_cycles": 30
+      },
+      {
+        "length": 6,
+        "maximum_absolute_voltage": 459664,
+        "minimum_absolute_voltage": 151,
+        "simple_cycles": 130
+      }
+    ],
+    "limitation": "Checks the finite base-cycle voltage certificate, not the full 5q-vertex graph.",
+    "q": 1048577
+  },
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "script_sha256": "2e8cf75d17a069b0cde333109a539cb4003853572c5a0d04cbc6cdb5ffe365f5",
+  "started_utc": "2026-11-14T17:59:11.610467+00:00",
+  "status": "PASS"
+}

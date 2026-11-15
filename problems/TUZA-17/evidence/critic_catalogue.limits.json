@@ -1,0 +1,14 @@
+{
+  "command": [
+    "LOCAL_ENVIRONMENT",
+    "checks/critic_catalogue.py"
+  ],
+  "pid": 57464,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.213242416997673,
+  "peak_sampled_RSS_bytes": 1458176,
+  "wall_limit_seconds": 60.0,
+  "RSS_limit_MiB": 512.0,
+  "status": "PASS"
+}

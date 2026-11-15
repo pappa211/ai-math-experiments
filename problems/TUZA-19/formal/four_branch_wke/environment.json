@@ -1,0 +1,61 @@
+{
+  "utc": "2026-11-15T06:09:01.320837+00:00",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "commands": [
+    {
+      "command": [
+        "lean",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lean",
+        "--githash"
+      ],
+      "returncode": 0,
+      "stdout": "819816b2e0a3bf405af45ae5c7af2491d8f5bee6\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "lean",
+        "--print-prefix"
+      ],
+      "returncode": 0,
+      "stdout": "LOCAL_ENVIRONMENT",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "LOCAL_ENVIRONMENT",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "Python 3.12.12\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "uname",
+        "-s"
+      ],
+      "returncode": 0,
+      "stdout": "Darwin\n",
+      "stderr": ""
+    }
+  ],
+  "constraints_sha256": {
+    "LOCAL_ENVIRONMENT": "ce1f13146460d47c74fe6c9fa85d10e44cbec0a865eacc35a314141dc1a9678d",
+    "LOCAL_ENVIRONMENT": "2c03ccaa9d141b16ae76caaaa8d143838d9a02c4f2bdb5a3209634f6613a32fe",
+    "LOCAL_ENVIRONMENT": "3057cc5569183c85f9ebb756da24754ae2c6e26f20db3bd1564821cf593fb494",
+    "LOCAL_ENVIRONMENT": "00a6e964c0f1cbe0c277b210230fa14e40927b0081dd12a8d98031ddc6e83f68"
+  },
+  "disk_free_bytes": 683160956928,
+  "dependencies": "Only installed Lean Std/core; Mathlib not imported; no lake update, package installation or dependency changes.",
+  "process_policy": "Exclusive Lean slot from root; all Lean compile invocations sequential; one thread.",
+  "process_inventory_note": "Initial sandboxed pgrep could not access sysmon. No claim of a complete host process inventory; own orchestration was serial."
+}

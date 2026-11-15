@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-11-04T01:40:57.174747+00:00",
+  "status": "PASS",
+  "earlier_frozen_critic_notes_unchanged": true,
+  "sha256": {
+    "notes/CRITIC_BUDGET_SIX.md": "92b65b507842297cf4855d63110b7ba10439caa3361185bec523f7d7d3e1ffb1",
+    "notes/BOUNDARY_A.md": "3fd698f12b56e377ddddf392770c24cb16473103cb98a1685d5749b2a50e1f6f",
+    "notes/CRITIC_TIGHT_FRONTIER.md": "18e87425d4e768b1d592d550c39b284d191017503368931ba7bde7536a24025a",
+    "notes/BOUNDARY_CRITIC.md": "bec9d5aed591e2f8bc4482b518a601e942e7da01fb43a738bf46dddaf045fbca",
+    "notes/CRITIC_ORIGINAL.md": "4c98d4569101a20bd59d89666faf15b4554a693645f6798f50ac98fd3c523d36",
+    "notes/CRITIC_LATE.md": "7acc8d5108b6e8af56922c2c90f9eab7246a6886ebd7628d76a9820d990ee4d2"
+  }
+}

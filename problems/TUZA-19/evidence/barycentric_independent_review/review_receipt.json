@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-11-15T05:20:56.884529+00:00",
+  "review": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/review/barycentric_transfer_independent.md",
+  "review_sha256": "77c0c497047eca0bec78fd3f8ca9f929e841a39dbea2f4ec702751dc8b3a2033",
+  "reviewed_note_sha256": "f7ce814b0d747ad8011cc896e65253a9230cc814f156d0cf5da2a276f7aafc93",
+  "verdict": "PASS for nonnegative integer capacities; ordinary independent AI reconstruction plus finite literal checks; title scope clarification only",
+  "script_sha256": "bc996883b881f3c71c6f9c516c24894169803a0629901e76b350c82f92bcc467",
+  "literal_receipt_sha256": "8d2777f88ed567b476fa599f5a740bb318556598d1831d224b5667bc7fef2026"
+}

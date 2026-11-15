@@ -1,0 +1,3 @@
+RejectRepeatedMatching.lean:5:53: error: Tactic `decide` proved that the proposition
+  checkSegment repeatedMatching = true
+is false

@@ -1,0 +1,529 @@
+{
+  "status": "PASS",
+  "scope": "six fixed controls; SAT lower models literally verified; UNSAT solver-level only; all-size statement proved separately",
+  "rows": [
+    {
+      "rim": "K2",
+      "rim_n": 2,
+      "deleted_a_spokes_at": [],
+      "vertices": 8,
+      "edges": 20,
+      "actual_triangles": 22,
+      "matching": 1,
+      "epsilon": 0,
+      "expected_nu": 5,
+      "lower": {
+        "status": "SAT",
+        "seconds": 0.005711916004656814,
+        "returncode": 10,
+        "variables": 132,
+        "clauses": 488,
+        "cnf_sha256": "11abe49d303c4f6433af75c72cf22573cd6dce7f9275e366b96867b4a8a40836",
+        "packing_indices": [
+          5,
+          7,
+          9,
+          13,
+          18
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            7
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            4,
+            5
+          ]
+        ]
+      },
+      "upper": {
+        "status": "UNSAT",
+        "seconds": 0.002613207994727418,
+        "returncode": 20,
+        "variables": 154,
+        "clauses": 573,
+        "cnf_sha256": "96232507ed034643cc300e08c4c10799d833cd6150607a056d32b1e63ef8bd4c"
+      }
+    },
+    {
+      "rim": "K2",
+      "rim_n": 2,
+      "deleted_a_spokes_at": [
+        0,
+        1
+      ],
+      "vertices": 8,
+      "edges": 20,
+      "actual_triangles": 22,
+      "matching": 0,
+      "epsilon": 0,
+      "expected_nu": 4,
+      "lower": {
+        "status": "SAT",
+        "seconds": 0.0021082500024931505,
+        "returncode": 10,
+        "variables": 110,
+        "clauses": 410,
+        "cnf_sha256": "8ce3ca3e70f934bb984c2dadb1ae09b632d7aae4406f57566576c2feb310830f",
+        "packing_indices": [
+          2,
+          12,
+          13,
+          20
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            2,
+            4,
+            5
+          ]
+        ]
+      },
+      "upper": {
+        "status": "UNSAT",
+        "seconds": 0.001880750001873821,
+        "returncode": 20,
+        "variables": 132,
+        "clauses": 495,
+        "cnf_sha256": "e9d145311367521872752a8c31f942c9f5e5ee1c110ccd7080f051b8c812407a"
+      }
+    },
+    {
+      "rim": "P3",
+      "rim_n": 3,
+      "deleted_a_spokes_at": [],
+      "vertices": 11,
+      "edges": 30,
+      "actual_triangles": 34,
+      "matching": 1,
+      "epsilon": 1,
+      "expected_nu": 8,
+      "lower": {
+        "status": "SAT",
+        "seconds": 0.0020718750020023435,
+        "returncode": 10,
+        "variables": 306,
+        "clauses": 1178,
+        "cnf_sha256": "e898dbbdebc93e17bbce44a2cf8189ebaa0710f5fac1a1fb33c305b761869683",
+        "packing_indices": [
+          5,
+          9,
+          15,
+          17,
+          21,
+          23,
+          30,
+          32
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            7
+          ],
+          [
+            0,
+            2,
+            3
+          ],
+          [
+            0,
+            4,
+            9
+          ],
+          [
+            0,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            5
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            9,
+            10
+          ],
+          [
+            3,
+            7,
+            8
+          ]
+        ]
+      },
+      "upper": {
+        "status": "UNSAT",
+        "seconds": 0.0027941250009462237,
+        "returncode": 20,
+        "variables": 340,
+        "clauses": 1311,
+        "cnf_sha256": "b11019424ff50f5e74cf892143793b84fab3c3694313fdfd893e4054bd2087e8"
+      }
+    },
+    {
+      "rim": "P3",
+      "rim_n": 3,
+      "deleted_a_spokes_at": [
+        0,
+        1
+      ],
+      "vertices": 11,
+      "edges": 30,
+      "actual_triangles": 34,
+      "matching": 0,
+      "epsilon": 1,
+      "expected_nu": 7,
+      "lower": {
+        "status": "SAT",
+        "seconds": 0.0024878749973140657,
+        "returncode": 10,
+        "variables": 272,
+        "clauses": 1053,
+        "cnf_sha256": "259bfb5c91c6c0bbbfc3041d8aca8bae574a1280dff47ecfc367683b8d76c3c3",
+        "packing_indices": [
+          5,
+          16,
+          17,
+          22,
+          23,
+          30,
+          32
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            7
+          ],
+          [
+            0,
+            4,
+            10
+          ],
+          [
+            0,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            6
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            9,
+            10
+          ],
+          [
+            3,
+            7,
+            8
+          ]
+        ]
+      },
+      "upper": {
+        "status": "UNSAT",
+        "seconds": 0.0028178329957881942,
+        "returncode": 20,
+        "variables": 306,
+        "clauses": 1186,
+        "cnf_sha256": "6bd6934b3480619f0e6560f10eb01d2af0b0986a8fdc2fa5b50d637c106e63f5"
+      }
+    },
+    {
+      "rim": "C5",
+      "rim_n": 5,
+      "deleted_a_spokes_at": [],
+      "vertices": 17,
+      "edges": 51,
+      "actual_triangles": 60,
+      "matching": 2,
+      "epsilon": 1,
+      "expected_nu": 13,
+      "lower": {
+        "status": "SAT",
+        "seconds": 0.0036151249951217324,
+        "returncode": 10,
+        "variables": 840,
+        "clauses": 3339,
+        "cnf_sha256": "941069928ee5b4422ae1368b59089c34c217a39096a9db1a8b12f12b65975e45",
+        "packing_indices": [
+          14,
+          16,
+          21,
+          24,
+          27,
+          30,
+          37,
+          39,
+          45,
+          51,
+          52,
+          53,
+          59
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            16
+          ],
+          [
+            0,
+            2,
+            6
+          ],
+          [
+            0,
+            3,
+            10
+          ],
+          [
+            0,
+            4,
+            12
+          ],
+          [
+            0,
+            5,
+            14
+          ],
+          [
+            0,
+            7,
+            8
+          ],
+          [
+            1,
+            2,
+            7
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            5,
+            6
+          ],
+          [
+            1,
+            9,
+            10
+          ],
+          [
+            1,
+            11,
+            12
+          ],
+          [
+            1,
+            13,
+            14
+          ],
+          [
+            6,
+            15,
+            16
+          ]
+        ]
+      },
+      "upper": {
+        "status": "UNSAT",
+        "seconds": 0.014068125004996546,
+        "returncode": 20,
+        "variables": 900,
+        "clauses": 3576,
+        "cnf_sha256": "6576dda87ef628b31ca38358cb91d472a16eabe00fa001734d61c041f3894873"
+      }
+    },
+    {
+      "rim": "C5",
+      "rim_n": 5,
+      "deleted_a_spokes_at": [
+        0,
+        1
+      ],
+      "vertices": 17,
+      "edges": 51,
+      "actual_triangles": 60,
+      "matching": 1,
+      "epsilon": 1,
+      "expected_nu": 12,
+      "lower": {
+        "status": "SAT",
+        "seconds": 0.0036532079975586385,
+        "returncode": 10,
+        "variables": 780,
+        "clauses": 3111,
+        "cnf_sha256": "1ac818428ffe8ee9e023b9329dee84a628be1259d9538363445acf7f1051e0d5",
+        "packing_indices": [
+          8,
+          23,
+          25,
+          30,
+          33,
+          34,
+          37,
+          39,
+          47,
+          49,
+          52,
+          56
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            10
+          ],
+          [
+            0,
+            4,
+            11
+          ],
+          [
+            0,
+            5,
+            6
+          ],
+          [
+            0,
+            7,
+            8
+          ],
+          [
+            0,
+            13,
+            14
+          ],
+          [
+            0,
+            15,
+            16
+          ],
+          [
+            1,
+            2,
+            7
+          ],
+          [
+            1,
+            3,
+            4
+          ],
+          [
+            1,
+            5,
+            14
+          ],
+          [
+            1,
+            6,
+            16
+          ],
+          [
+            1,
+            11,
+            12
+          ],
+          [
+            3,
+            9,
+            10
+          ]
+        ]
+      },
+      "upper": {
+        "status": "UNSAT",
+        "seconds": 0.008278791006887332,
+        "returncode": 20,
+        "variables": 840,
+        "clauses": 3348,
+        "cnf_sha256": "672f7339380612057b9788b9d3b59711a9505a46a657cd2ef90aaa63ec151d15"
+      }
+    }
+  ],
+  "local_K5_states": [
+    {
+      "unavailable_base_mask": 0,
+      "capacity": 2
+    },
+    {
+      "unavailable_base_mask": 1,
+      "capacity": 2
+    },
+    {
+      "unavailable_base_mask": 2,
+      "capacity": 2
+    },
+    {
+      "unavailable_base_mask": 3,
+      "capacity": 2
+    },
+    {
+      "unavailable_base_mask": 4,
+      "capacity": 2
+    },
+    {
+      "unavailable_base_mask": 5,
+      "capacity": 2
+    },
+    {
+      "unavailable_base_mask": 6,
+      "capacity": 2
+    },
+    {
+      "unavailable_base_mask": 7,
+      "capacity": 1
+    }
+  ]
+}

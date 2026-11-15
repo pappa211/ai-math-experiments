@@ -1,0 +1,114 @@
+https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/lean/RoleWitness.lean:28:4: error(lean.invalidField): Invalid field `Pairwise`: The environment does not contain `Finset.Pairwise`, so it is not possible to project the field `Pairwise` from an expression
+  P
+of type `Finset Triangle`
+https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/lean/RoleWitness.lean:31:16: error(lean.invalidField): Invalid field `Pairwise`: The environment does not contain `Finset.Pairwise`, so it is not possible to project the field `Pairwise` from an expression
+  P
+of type `Finset Triangle`
+https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/lean/RoleWitness.lean:63:63: error: Tactic `decide` failed for proposition
+  ∀ P ∈ packings, P.card ≤ 2
+because its `Decidable` instance
+  Finset.decidableDforallFinset
+did not reduce to `isTrue` or `isFalse`.
+
+After unfolding the instances `decEq`, `decidable_of_decidable_of_iff`, `decidable_of_iff`, `decidable_of_iff'`, `instDecidableAnd`, `instDecidableEqBool`, `instDecidableEqNat`, `instDecidableEqProd`, `instDecidableNot`, `Bool.decEq`, `Finset.decidableDforallFinset`, `Finset.decidableEq`, `Finset.decidableMem`, `Finset.instDecidableLE`, `Finset.instDecidableRelSubset`, `List.decidableBAll`, `List.decidablePerm`, `List.instDecidableMemOfLawfulBEq`, `Multiset.decidableDforallMultiset`, `Multiset.decidableEq`, `Multiset.decidableForallMultiset`, `Multiset.decidableMem`, `Multiset.instDecidableRListOfDecidableEq`, `Nat.decEq`, `Nat.decLe`, `Nat.decLt`, `instDecidablePacking`, and `Multiset.decidableMem._aux_1`, reduction got stuck at the `Decidable` instance
+  List.decidableBAll (fun a => (fun P a => P.card ≤ 2) ↑a ⋯)
+    (List.pmap Subtype.mk
+      (List.filter (fun b => decide (packing b))
+        (List.pmap Finset.mk
+          (Multiset.powersetAux
+            ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                    (([] ++ ([] ++ ([] ++ ([] ++ ([tri 0 1 4] ++ ([tri 0 1 5] ++ [])))))).dedup ++
+                      (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                        (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                          (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([tri 0 4 5] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                      (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                        (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                          (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([tri 1 4 5] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                  ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                        (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                          (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([tri 2 4 5] ++ [])))))).dedup ++
+                                (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                    ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                          (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([tri 3 4 5] ++ [])))))).dedup ++
+                                  (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                      ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                  (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                    (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                        ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                  (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                    (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                      (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                          [])))))).dedup)
+          ⋯))
+      ⋯)
+https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/lean/RoleWitness.lean:65:85: error: Tactic `decide` failed for proposition
+  witnessPacking ∈ packings ∧ witnessPacking.card = 2
+because its `Decidable` instance
+  instDecidableAnd
+did not reduce to `isTrue` or `isFalse`.
+
+After unfolding the instances `decEq`, `decidable_of_decidable_of_iff`, `decidable_of_iff`, `decidable_of_iff'`, `instDecidableAnd`, `instDecidableEqBool`, `instDecidableEqNat`, `instDecidableEqProd`, `instDecidableNot`, `Bool.decEq`, `Finset.decidableDforallFinset`, `Finset.decidableEq`, `Finset.decidableMem`, `Finset.instDecidableLE`, `Finset.instDecidableRelSubset`, `List.decidableBAll`, `List.decidablePerm`, `List.instDecidableMemOfLawfulBEq`, `Multiset.decidableDforallMultiset`, `Multiset.decidableEq`, `Multiset.decidableForallMultiset`, `Multiset.decidableMem`, `Multiset.instDecidableRListOfDecidableEq`, `Nat.decEq`, `Nat.decLe`, `Nat.decLt`, `instDecidablePacking`, and `Multiset.decidableMem._aux_1`, reduction got stuck at the `Decidable` instance
+  match
+    List.elem witnessPacking
+      (List.filter (fun b => decide (packing b))
+        (List.pmap Finset.mk
+          (Multiset.powersetAux
+            ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                    (([] ++ ([] ++ ([] ++ ([] ++ ([tri 0 1 4] ++ ([tri 0 1 5] ++ [])))))).dedup ++
+                      (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                        (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                          (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([tri 0 4 5] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                      (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                        (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                          (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([tri 1 4 5] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                  ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                        (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                          (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([tri 2 4 5] ++ [])))))).dedup ++
+                                (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                    ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                          (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([tri 3 4 5] ++ [])))))).dedup ++
+                                  (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                      ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                            (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                  (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                    (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                        ((([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                              (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                  (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                    (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++
+                                      (([] ++ ([] ++ ([] ++ ([] ++ ([] ++ ([] ++ [])))))).dedup ++ [])))))).dedup ++
+                          [])))))).dedup)
+          ⋯)),
+    true with
+  | false, false => isTrue ⋯
+  | false, true => isFalse ⋯
+  | true, false => isFalse ⋯
+  | true, true => isTrue ⋯
+https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/lean/RoleWitness.lean:70:8: error: (kernel) excessive memory consumption detected
+libc++abi: terminating due to uncaught exception of type lean::memory_exception: excessive memory consumption detected at 'interpreter' (potential solution: increase memory consumption threshold)

@@ -1,0 +1,6 @@
+{
+  "before_sha256": "c0bf6c91879dc2981c41138f00a59cdb9c10737d2c13e1ec135f6dcabba53f0c",
+  "after_sha256": "3c4cdc9519f03b32d4887907f3286e5c3ae67b445a7626835d48d800dbee2f71",
+  "reason": "Clarify target class as shared-edge triangle components; remove undefined arbitrary additive gluing parenthetical",
+  "finite_certificate": "evidence/late_cover_verified.json"
+}

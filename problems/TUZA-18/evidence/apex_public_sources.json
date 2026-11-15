@@ -1,0 +1,34 @@
+{
+  "baseline_commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+  "files": [
+    {
+      "path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md",
+      "sha256": "124e50e3f564316b88e2cf5048fcd206f61d1c8230d8f0798891ed1bb7dafe41"
+    },
+    {
+      "path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-07/notes/GAIN_ONE_THEOREM.md",
+      "sha256": "89c9d8f84ab4bc37f99ca7da1c5a1beca25dd5d0b163cc1ddbb2eb383bf881b6"
+    },
+    {
+      "path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-07/notes/COUNTEREXAMPLES_AND_FAILURES.md",
+      "sha256": "b29240ca18426cee29c29d7c7384ed69e999c5b7b543ee0493a07667d7e1cb1a"
+    },
+    {
+      "path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-07/notes/CRITICALITY_PACKAGE.md",
+      "sha256": "73c4f75375df6f04820ffeaf3e5e62a79f6c87ddeec76ecb7bc68c27bb4c8dc4"
+    },
+    {
+      "path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md",
+      "sha256": "2be839e081d9b8e7fd77ad36c84b5ef0aff7f330a2987b5d5758ffb3c46ba481"
+    },
+    {
+      "path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-14B/notes/TRACK_A.md",
+      "sha256": "fd49f57fc0c028342f9225b65189f870dcf6166d556178c2de8d8fd10c55d1f0"
+    },
+    {
+      "path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-09/notes/MULTICOVER.md",
+      "sha256": "82d2de87874f0221b1e2102ebbfaf6c0ae079fa59d945cba26b17192a1404c96"
+    }
+  ],
+  "scope": "Read-only source inspection to distinguish old exact exchange and private-fan work from new permitted-edge candidate; no imported unrestricted theorem. The ordinary one-apex matching proof was independently reconstructed from criticality_connected_pc.md."
+}

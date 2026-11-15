@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "-B",
+    "checks/random_ac.py"
+  ],
+  "pid": 50316,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 180.21064266600297,
+  "peak_sampled_RSS_bytes": 156155904,
+  "wall_limit_seconds": 210.0,
+  "RSS_limit_MiB": 1500.0,
+  "status": "PASS"
+}

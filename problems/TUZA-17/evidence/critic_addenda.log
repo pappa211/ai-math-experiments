@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "nonempty_five_vertex_graphs_with_blocker": 1023,
+  "triangle_free_controls": [
+    {
+      "graph": "C5",
+      "matching": 2,
+      "vertex_cover": 3
+    },
+    {
+      "graph": "C7",
+      "matching": 3,
+      "vertex_cover": 4
+    },
+    {
+      "graph": "two_C5",
+      "matching": 4,
+      "vertex_cover": 6
+    }
+  ],
+  "input_sha256": {
+    "notes/A_CRITICAL_NONSATURATION.md": "2de0d6031a5c8a60f028db2eaf5a324c77de2847373dda217ba03c8d4c0cd5ba",
+    "notes/B_FROZEN_ADDENDUM_1.md": "0b63d52c067b48a342dec669733a6cee347a31181f4df9ea8024d9fb9002329b"
+  },
+  "elapsed_seconds": 0.011462334005045705,
+  "peak_RSS_Darwin_bytes": 18251776,
+  "scope": "finite controls only; unbounded statements rest on ordinary proofs",
+  "independent_final_verification": "NOT_RUN"
+}

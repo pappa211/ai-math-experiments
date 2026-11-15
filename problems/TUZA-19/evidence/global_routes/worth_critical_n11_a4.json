@@ -1,0 +1,18 @@
+{
+  "scope": "single fixed n=11 alpha=4 target; not a general proof",
+  "host": "Darwin",
+  "n": 11,
+  "alpha": 4,
+  "maximum_worth_bound": 9,
+  "answer": "UNKNOWN_TIMEOUT",
+  "seconds": 20.028847833003965,
+  "records": [
+    {
+      "iteration": 0,
+      "status": "UNKNOWN_TIMEOUT",
+      "seconds": 20.006524124997668,
+      "timeout": 20,
+      "cnf_sha256": "d99b65fbf4f6904fc5b4b084fef4bbc27cfee34c6ed8778a426edaf6bf8bbe61"
+    }
+  ]
+}

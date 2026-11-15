@@ -1,0 +1,350 @@
+{
+  "time_utc": "2026-11-14T21:01:26.057761+00:00",
+  "scope": "Document path existence and JSON syntax; no mathematical verification",
+  "documents": [
+    "REPORT.md",
+    "STATUS_MATRIX.md",
+    "REPRODUCTION.md",
+    "RESEARCH_LOG.md",
+    "STATE.md",
+    "FINAL_RECEIPT.md"
+  ],
+  "local_links": [
+    {
+      "document": "REPORT.md",
+      "target": "FINAL_RECEIPT.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "STATUS_MATRIX.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "RESEARCH_LOG.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "REPRODUCTION.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/criticality_star_pk_theorem.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/criticality_star_local_dichotomy.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "review/star_fresh_audit.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/coordinator_pk_block_extension.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/criticality_private_tip_pk.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/late_star_gluing_obstruction.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/late_star_connected_pivot_obstruction.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "review/chain_review.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/global_cut_gate.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/apex_pruned_critique.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/criticality_connected_pc.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/global_finite_incidence_gate.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/criticality_global_gate.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "evidence/source_access_correction.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/apex_minimum_restriction.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/criticality_track_status.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "STATUS_MATRIX.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/late_cover_gate.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/coordinator_identification_gate.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "notes/late_compression_gate.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "review/compression_review.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "lean/RoleWitness.lean",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "REPRODUCTION.md",
+      "exists": true
+    },
+    {
+      "document": "REPORT.md",
+      "target": "FINAL_RECEIPT.md",
+      "exists": true
+    },
+    {
+      "document": "STATE.md",
+      "target": "REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "STATE.md",
+      "target": "STATUS_MATRIX.md",
+      "exists": true
+    },
+    {
+      "document": "STATE.md",
+      "target": "REPRODUCTION.md",
+      "exists": true
+    },
+    {
+      "document": "STATE.md",
+      "target": "RESEARCH_LOG.md",
+      "exists": true
+    },
+    {
+      "document": "STATE.md",
+      "target": "FINAL_RECEIPT.md",
+      "exists": true
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "REPORT.md",
+      "exists": true
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "STATUS_MATRIX.md",
+      "exists": true
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "notes/lean_role_verification.md",
+      "exists": true
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "REPRODUCTION.md",
+      "exists": true
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "evidence/source_integrity_final.json",
+      "exists": true
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "evidence/frozen_artifact_integrity_final.json",
+      "exists": true
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "evidence/document_integrity_final.json",
+      "exists": false
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "ARTIFACTS_SHA256.json",
+      "exists": false
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "evidence/stopped_agents.json",
+      "exists": true
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "evidence/stopped_native_jobs.json",
+      "exists": true
+    },
+    {
+      "document": "FINAL_RECEIPT.md",
+      "target": "evidence/clock.json",
+      "exists": true
+    }
+  ],
+  "parsed_json_files": [
+    "evidence/addendum_literal_check.json",
+    "evidence/addendum_transfer_manifest.json",
+    "evidence/addendum_transfer_receipt.json",
+    "evidence/apex_atlas.json",
+    "evidence/apex_equality_skeleton.json",
+    "evidence/apex_primary_cksu.json",
+    "evidence/apex_private_k4.json",
+    "evidence/apex_pruned_graph.json",
+    "evidence/apex_pruned_verified.json",
+    "evidence/apex_pruned_voltage.json",
+    "evidence/apex_public_sources.json",
+    "evidence/apex_random.json",
+    "evidence/apex_role_probe.json",
+    "evidence/apex_role_witness_verified.json",
+    "evidence/apex_type1_directed.json",
+    "evidence/apex_type1_embedding_graph.json",
+    "evidence/apex_type1_embedding_verified.json",
+    "evidence/apex_type1_ledger_receipt.json",
+    "evidence/apex_type1_unknown.json",
+    "evidence/apex_witness_verified.json",
+    "evidence/chain_literal_check.json",
+    "evidence/chain_transfer_manifest.json",
+    "evidence/chain_transfer_manifest_import_receipt.json",
+    "evidence/clock.json",
+    "evidence/closeout_precommit.json",
+    "evidence/compression_literal_check.json",
+    "evidence/compression_source_review.json",
+    "evidence/compression_transfer_manifest.json",
+    "evidence/compression_transfer_manifest_import_receipt.json",
+    "evidence/critic_compact_pruned_check.json",
+    "evidence/critic_connected_pc_checks.json",
+    "evidence/critic_exact_gate_checks.json",
+    "evidence/critic_followup_checks.json",
+    "evidence/critic_input_apex_pruned_graph.json",
+    "evidence/critic_input_apex_pruned_verified.json",
+    "evidence/critic_input_apex_pruned_voltage.json",
+    "evidence/critic_input_apex_witness_verified.json",
+    "evidence/critic_transfer_manifest.json",
+    "evidence/criticality_controls.json",
+    "evidence/criticality_identification_star_repair.json",
+    "evidence/criticality_identification_wheel.json",
+    "evidence/criticality_late_source_receipt.json",
+    "evidence/criticality_private_matching.json",
+    "evidence/criticality_sources.json",
+    "evidence/criticality_star_tight_control.json",
+    "evidence/criticality_type0_nonmaximum.json",
+    "evidence/frozen_artifact_integrity_final.json",
+    "evidence/identification_gate.json",
+    "evidence/identification_star_repair.json",
+    "evidence/late_compression_cone_verified.json",
+    "evidence/late_compression_producer_receipt.json",
+    "evidence/late_compression_rook_verified.json",
+    "evidence/late_compression_source.json",
+    "evidence/late_compression_transfer_manifest.json",
+    "evidence/late_compression_transfer_manifest_import_receipt.json",
+    "evidence/late_compression_verified.json",
+    "evidence/late_cover_scope_revision.json",
+    "evidence/late_cover_verified.json",
+    "evidence/late_final_handoff.json",
+    "evidence/late_handoff_receipt.json",
+    "evidence/late_star_connected_chain_verified.json",
+    "evidence/late_star_edge_glue.json",
+    "evidence/late_star_global_gluing.json",
+    "evidence/late_star_gluing.json",
+    "evidence/late_star_literal_verified.json",
+    "evidence/late_star_pivot.json",
+    "evidence/late_star_pivot_chain_verified.json",
+    "evidence/late_star_review_revision.json",
+    "evidence/late_triangle_glue_profiles.json",
+    "evidence/lean_environment.json",
+    "evidence/lean_lake_manifest.json",
+    "evidence/lean_role_20261114T192106Z.json",
+    "evidence/lean_role_20261114T192234Z.json",
+    "evidence/lean_role_20261114T192326Z.json",
+    "evidence/local_source_inventory.json",
+    "evidence/pk_late_cover_check.json",
+    "evidence/pk_literal_certificates.json",
+    "evidence/pk_maximal_star_control.json",
+    "evidence/pk_pair_matrix_check.json",
+    "evidence/pk_tight_control_check.json",
+    "evidence/pk_transfer_manifest.json",
+    "evidence/pk_transfer_receipt.json",
+    "evidence/pk_wagner_deletion_repair.json",
+    "evidence/pruned_cut_atlas.json",
+    "evidence/published_initial_git.json",
+    "evidence/source_integrity_final.json",
+    "evidence/source_manifest.json",
+    "evidence/stopped_agents.json",
+    "evidence/stopped_native_jobs.json",
+    "evidence/tuza16_initial_git.json",
+    "evidence/tuza17_initial_git.json",
+    "review/addendum_inputs/criticality_identification_star_repair.json",
+    "review/addendum_inputs/criticality_identification_wheel.json",
+    "review/addendum_inputs/identification_gate.json",
+    "review/addendum_inputs/identification_star_repair.json",
+    "review/addendum_inputs/late_star_global_gluing.json",
+    "review/addendum_inputs/late_star_gluing.json",
+    "review/addendum_inputs/late_star_literal_verified.json",
+    "review/addendum_inputs/late_star_review_revision.json",
+    "review/chain_inputs/late_star_connected_chain_verified.json",
+    "review/chain_inputs/late_star_literal_verified.json",
+    "review/compression_inputs/late_compression_cone_verified.json",
+    "review/compression_inputs/late_compression_rook_verified.json",
+    "review/compression_inputs/late_compression_source.json",
+    "review/compression_inputs/late_compression_verified.json",
+    "review/pk_inputs/apex_role_witness_verified.json",
+    "review/pk_inputs/criticality_star_tight_control.json",
+    "review/pk_inputs/criticality_type0_nonmaximum.json",
+    "review/pk_inputs/late_cover_verified.json",
+    "review/pk_inputs/lean_role.json",
+    "review/star_fresh_manifest.json",
+    "review/star_fresh_verifier.json",
+    "sources/tuza17/STATUS_MATRIX.json"
+  ],
+  "pass_all": false
+}

@@ -1,0 +1,50 @@
+{
+  "start_utc": "2026-11-15T08:58:10Z",
+  "end_utc": "2026-11-15T09:01:30.070930+00:00",
+  "budget_minutes_max": 8,
+  "search_queries": [
+    "Tuza conjecture \"universal vertices\" triangle cover",
+    "Tuza conjecture \"universal vertex\" equivalent",
+    "Tuza conjecture \"additive\" \"epsilon\" amplification",
+    "Tuza conjecture \"subexponential\" error",
+    "\"Tuza\" \"universal vertex\" -site:scribd.com -site:wikipedia.org",
+    "\"Tuza\" \"dominating vertex\" equivalent",
+    "\"Tuza\" \"power-saving\"",
+    "\"Tuza\" \"n^{2-\"",
+    "\"triangle packing\" \"universal vertex\" Tuza",
+    "\"triangle transversal\" \"universal\" conjecture",
+    "\"Tuza\" \"equivalent\" \"cone\"",
+    "\"Tuza\" \"additive error\"",
+    "Tuza \"subquadratic\" packing covering",
+    "Tuza \"Behrend\" triangle",
+    "Tuza \"universal\" \"triangle\" conjecture",
+    "Tuza \"equivalent\" \"asymptotic\"",
+    "\"Tuza\" \"exp\" \"sqrt\" \"log\" conjecture",
+    "\"Tuza\" \"universal clique\"",
+    "\"Tuza\" \"triangle-full\"",
+    "\"Tuza\" \"n^2\" \"equivalent\" error",
+    "\"Tuza\" \"minimum cover\" \"every triangle\"",
+    "\"Tuza\" \"universal\" \"equivalent\" triangle packing covering",
+    "\"triangle packing\" \"subquadratic\" \"error\"",
+    "\"Tuza conjecture\" \"Behrend\"",
+    "\"Tuza\" \"cone\" graph packing covering",
+    "\"Tuza\" \"join\" \"universal\"",
+    "\"Tuza\" \"triangle-full\" OR \"full triangle\"",
+    "\"Tuza\" \"exponential\" \"error\""
+  ],
+  "one_batch_domains_filter": [
+    "arxiv.org",
+    "sciencedirect.com",
+    "epubs.siam.org",
+    "link.springer.com"
+  ],
+  "primary_pages_inspected": [
+    "https://arxiv.org/abs/2610.15539",
+    "https://arxiv.org/abs/1009.0353",
+    "https://arxiv.org/abs/1408.4870",
+    "https://doi.org/10.1016/j.ejc.2015.03.006",
+    "https://arxiv.org/abs/1311.5332",
+    "https://arxiv.org/abs/1605.01816"
+  ],
+  "result": "No exact prior statement located in bounded search; originality unresolved. Search hits were not used as mathematical dependencies without primary inspection."
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS_FINITE_PROOF_BUNDLE",
+  "completed_utc": "2026-11-15T06:13:33.784203+00:00",
+  "directory": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke",
+  "README_sha256": "aea3a8ebf3913261b93a4cf0e4e1ccc5ca3ec7e680faf7ae01aba4d069d443b8",
+  "receipt_sha256": "2ced411909bb6c934617d6b540910270937ab9860826ffd4ccd4ef90a132fa8b",
+  "axioms_sha256": "8c8570eb122d227eeb3d439708bccc5e82077d48844c0526e0e87ffda8e2d76a",
+  "Core_lean_sha256": "77dad262c00416c2e8807a2b3539ce4b83ce621fc8b0fe859ef6c3a6174939f6",
+  "Domain_lean_sha256": "14fa6e706f08aa74d883eb7ac68600dc9e8c564c5cdf7cde5850ffd12b7ab734",
+  "Coverage_lean_sha256": "b3e4356a4275d7f2c8fafffcccc4d223f42f901d7f2cb77ae2bc56d6a68de33f",
+  "file_manifest_sha256": "4dac104b19362bcaf8621f42cf6a8fc288a6b083d1e162a5dd8cddba65d57f15",
+  "file_count": 591,
+  "canonical_records": 5375,
+  "finite_chunk_theorems": 128,
+  "chunk_axioms": [],
+  "standard_axioms_in_domain_proofs": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "negative_controls_rejected": 3,
+  "single_monolithic_aggregate": "NOT_ACCEPTED_MEMORY_FAILURE",
+  "all_size_theorem_formalized": false,
+  "Lean_slot": "released to root; no more Lean jobs planned",
+  "accepted_peak_RSS_bytes": 1781858304,
+  "failed_peak_RSS_bytes": 4340842496
+}

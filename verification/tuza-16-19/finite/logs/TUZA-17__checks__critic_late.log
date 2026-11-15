@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "independent exact finite reconstruction; late critic contributed simplified exceptional-case proof, so not blind review of that final step",
+  "ear_cases": {
+    "old_graph_order": 4,
+    "eligible_marked_instances": 8112,
+    "exceptional_leaf_cases": 2976,
+    "other_cases": 5136,
+    "compatibility_slack_histogram": {
+      "0": 1530,
+      "2": 2862,
+      "1": 1656,
+      "3": 1968,
+      "4": 96
+    }
+  },
+  "elapsed_seconds": 1.0827467499912018,
+  "peak_rss_Darwin_bytes": 19005440,
+  "independent_final_verification": "NOT_RUN"
+}

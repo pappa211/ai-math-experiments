@@ -1,0 +1,14 @@
+{
+  "command": [
+    "LOCAL_ENVIRONMENT",
+    "checks/critic_boundary.py"
+  ],
+  "pid": 55766,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.21568725000543054,
+  "peak_sampled_RSS_bytes": 2899968,
+  "wall_limit_seconds": 60.0,
+  "RSS_limit_MiB": 512.0,
+  "status": "PASS"
+}

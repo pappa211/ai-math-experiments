@@ -1,0 +1,14 @@
+{
+  "claim": "Every all-type1 maximum packing with d_P(c_T)>d_P(z) for every private apex z admits a canonical-centre compatible minimum support cover.",
+  "source": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/evidence/apex_type1_directed_ledger.json.gz",
+  "source_sha256": "7cbae4b4721c0a77dd968e0118eefd575d067573fe13e0e25cd0ae1e01e19a86",
+  "seen_rows": 393643,
+  "counts": {
+    "PASS": 15741,
+    "NOT_LOCALLY_CONCENTRATED": 20477
+  },
+  "elapsed_seconds": 2.39858079199621,
+  "failure": null,
+  "stop": "SOURCE_END",
+  "scope": "The degree inequalities follow from globally maximizing sum_v d_P(v)^2 among maximum packings. The tested relaxation might still be stronger than actual optimality."
+}

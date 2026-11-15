@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-11-15T03:29:35.445238+00:00",
+  "purpose": "bounded attribution audit, not mathematical verification",
+  "candidate_path": "notes/root_line_graph_parity.md",
+  "candidate_current_sha256": "65f65ed45fb9920b39c72491243eccc7ba880add1a1f1256b4e86c65d1ebd0f1",
+  "result": "Historical priority unresolved; classical line-graph max-cut antecedents identified; original 1990/1998/1999 body text not inspected.",
+  "sources": {
+    "Tuza1990": "publisher abstract/metadata only; PDF redirected to subscription preview",
+    "Shiraishi1998": "publisher abstract/metadata; formula placeholders; publisher PDF link redirected to abstract",
+    "Guruswami1999": "indexed primary publisher abstract and author publication list; fulltext 403",
+    "Munaro2018": "accepted author manuscript, exact definitions and specified relevant pages inspected",
+    "LakshmananBujtasTuza2015": "previously preserved arxiv v3 pages23-24 visually inspected",
+    "AndreaeSchughartTuza1991": "publisher abstract only"
+  },
+  "requested_controls": "Astra/Ultra as assigned by parent",
+  "exact_serving_metadata": "not independently exposed",
+  "verification": "No formal verification. No priority claim. No external contact."
+}

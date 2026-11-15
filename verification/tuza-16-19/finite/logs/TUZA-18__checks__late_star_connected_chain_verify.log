@@ -1,0 +1,1 @@
+{"status": "PASS", "nu": 12, "support_tau": 24, "one_pivots": 12, "pivot_deficiencies": [1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1], "minimum_distance": 4, "path": "FINITE_OUTPUT/work/TUZA-18/evidence/late_star_connected_chain_verified.json"}

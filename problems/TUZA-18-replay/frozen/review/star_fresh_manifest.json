@@ -1,0 +1,52 @@
+{
+  "reviewer": "/root/star_fresh_audit",
+  "requested_configuration": {
+    "model": "Astra",
+    "reasoning_effort": "Ultra"
+  },
+  "actual_serving_metadata": "Runtime model ID, reasoning effort receipt, and routing receipt are not exposed to this reviewer.",
+  "review_started_utc": "2026-11-14 19:52:19 UTC",
+  "review_completed_utc": "2026-11-14 20:04:33 UTC",
+  "review_deadline_utc": "2026-11-14 20:25:00 UTC",
+  "campaign_hard_cutoff_utc": "2026-11-14 21:00:10 UTC",
+  "verdict": "PASS: no logical gap or missing hypothesis found in either frozen ordinary statement.",
+  "scope": "Specified common-vertex maximum packing in arbitrary finite simple G; separate 0/1/2-member local certificate dichotomy.",
+  "formal_verification": false,
+  "producer_files_unchanged": true,
+  "bounded_evidence": {
+    "status": "PASS",
+    "exhaustive_graphs": 41984,
+    "targeted_additional_runs": 10,
+    "covers_directly_checked": 7720,
+    "augmentation_certificates_directly_checked": 34274,
+    "locally_stable_nonmaximum_examples": 72
+  },
+  "evidence_execution": {
+    "interpreter": "local pinned Python 3.12.12",
+    "command": "source LOCAL_ENVIRONMENT python SCRATCH_OUTPUT/tuza18_star_fresh_verify.py",
+    "result_path": "SCRATCH_OUTPUT/tuza18_star_fresh_verifier.json",
+    "canonical_copies_byte_identical": true
+  },
+  "files": {
+    "notes/criticality_star_pk_theorem.md": {
+      "sha256": "f08cc442241eef4b790bc4b5228c958045593f97ebf56c1259a6f6b1ffe5488b",
+      "bytes": 12867
+    },
+    "notes/criticality_star_local_dichotomy.md": {
+      "sha256": "ef9e1a69c6722a648eb35549295e80d18b2e062ee6b2d6421bf91dbbcf8c7575",
+      "bytes": 2924
+    },
+    "review/star_fresh_audit.md": {
+      "sha256": "3c306e52feb2de93f676ff29ee33ef32e3efa2f8606061aa5f8a1fc627df6b94",
+      "bytes": 21072
+    },
+    "review/star_fresh_verify.py": {
+      "sha256": "0993ae3d533433616a41ec3834331329746244fbdbd60491264b7651c78576f3",
+      "bytes": 11128
+    },
+    "review/star_fresh_verifier.json": {
+      "sha256": "af7088e244ffa601847d4fa0a7bbdb1139d70090f0d7b1897a43fc828f2c4a36",
+      "bytes": 6745
+    }
+  }
+}

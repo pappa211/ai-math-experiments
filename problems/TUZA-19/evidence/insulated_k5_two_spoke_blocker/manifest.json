@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-11-15T06:58:53.292127+00:00",
+  "host": "Darwin",
+  "original_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_effort": "Ultra",
+  "actual_model": "not exposed",
+  "actual_effort": "not exposed",
+  "source": "Root-proposed lemma in parent message; independently reconstructed without producer checker or external theorem.",
+  "scope": "Every finite simple graph containing the specified insulated K6; every pair of spokes at its K5 rim; arbitrary outside graph preserving insulation.",
+  "verdict": "PASS ordinary fresh AI reconstruction; no material objection; informal spoke-only wording sharpened to exact endpoint condition.",
+  "sha256": {
+    "notes/insulated_k5_two_spoke_blocker.md": "ee8fa7b468161f96377f8887d945253c86b53571be48d3daa0139627e4f971b6",
+    "operations/clock.json": "db8baaaf29708e4be97741aa4ce9df1216c63c4895ab50bbdda5c9eeca715781"
+  }
+}

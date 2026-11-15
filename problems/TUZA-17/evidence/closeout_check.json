@@ -1,0 +1,128 @@
+{
+  "checked_utc": "2026-11-04T01:55:05.006243+00:00",
+  "running_research_python_candidates": [],
+  "all_mission_tool_sessions_returned_exit": true,
+  "agents": {
+    "track_a": "COMPLETED",
+    "track_b": "COMPLETED",
+    "fresh_critic": "COMPLETED"
+  },
+  "agent_status_source": "collaboration.list_agents plus each final stopped-job report",
+  "limits_receipts": [
+    {
+      "path": "evidence/a_boundary_link_probe.limits.json",
+      "pid": 57105,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/a_sls_w5.limits.json",
+      "pid": 53995,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/b_core_glue.limits.json",
+      "pid": 54082,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/b_k4ear.limits.json",
+      "pid": 54652,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/b_k4ear_allx.limits.json",
+      "pid": 54887,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/b_petersen.limits.json",
+      "pid": 57524,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/b_stable_core.limits.json",
+      "pid": 53691,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/boundary_cycle_attachment.limits.json",
+      "pid": 57003,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/boundary_robust_link.limits.json",
+      "pid": 56611,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/controls.limits.json",
+      "pid": 54053,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/critic_addenda.limits.json",
+      "pid": 53151,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/critic_boundary.limits.json",
+      "pid": 55766,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/critic_catalogue.limits.json",
+      "pid": 57464,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/critic_independent.limits.json",
+      "pid": 52923,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/critic_late.limits.json",
+      "pid": 55089,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    },
+    {
+      "path": "evidence/random_ac.limits.json",
+      "pid": 50316,
+      "exit_code": 0,
+      "status": "PASS",
+      "reason": null
+    }
+  ],
+  "workspace_mode": "0o700",
+  "secret_marker_scan": "No private-key/API-key patterns found by filename-only rg scan; not a complete secrets audit",
+  "status": "PASS"
+}

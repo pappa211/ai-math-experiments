@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-11-15T07:44:07.092688+00:00",
+  "host": "Darwin",
+  "review": "review/efr_power_saving_source_audit.md",
+  "review_sha256": "33a3bfc8a6fe049f15d424a5f97e1f8084be40b705385975c994db6ecdfc874e",
+  "primary_pdf_sha256": "81e2c6b4b8fd3378bc7139f90ce64b2aa0bf8d3dac5bcef470dcfcf4ff6f5ba9",
+  "verdict": "PASS source applicability and elementary implication; prior attribution of exact Tuza corollary unresolved",
+  "preserved_qualifications": [
+    "Use explicit Section5 construction for linearity, not Theorem1.7 alone",
+    "No logical non-implication from unspecified o(n²) established",
+    "No novelty claim"
+  ],
+  "not_done": [
+    "No frozen new producer proof audit",
+    "No large computation",
+    "No Lean",
+    "No proof of Tuza"
+  ]
+}

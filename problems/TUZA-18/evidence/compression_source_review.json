@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-11-14T20:25:27.074257+00:00",
+  "primary_url": "https://dmtcs.episciences.org/articles/7660/download",
+  "doi": "10.46298/dmtcs.7660",
+  "paper": "Tuza\u2019s Conjecture for Threshold Graphs",
+  "authors": "Marthe Bonamy et al.",
+  "publication": "DMTCS 24:1 (2022), #24",
+  "independent_access": "Official publisher PDF opened through web tool; text inspected for conventions, Theorem 1 and threshold definition.",
+  "inspected_printed_pages": [
+    1,
+    2,
+    5
+  ],
+  "full_proof_independently_audited": false,
+  "local_producer_pdf_sha256": "bda9d94f8c6fcbfe3b19fb27ee2729f664f6da2025083c4badf0c559e312ab07",
+  "local_producer_pdf_bytes": 787620,
+  "local_pdf_independently_redownloaded": false,
+  "scope": "Imported terminal theorem statement and exact class definition verified; no historical novelty or independent proof claim."
+}

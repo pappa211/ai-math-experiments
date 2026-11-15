@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-15T08:50:09.542303+00:00",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "actual_serving_metadata": "not independently exposed",
+  "scope": "General vertex-cover gate unresolved; ordinary criticality reductions and degree-two theorem; exact 28-domain nu_r=2 solver check; two fixed coloring targets",
+  "files": {
+    "notes/fresh_rainbow_vertex_cover_gate.md": "d26dfc320773a47ab402ed50ec9c8f46b62aeec05021f8ca76818d14328be7fb",
+    "checks/fresh_rainbow_vertex_kernel.py": "7966316cfeeba6db820ee3d3d78173888aabc38b82fd893086368dd020939620",
+    "checks/fresh_rainbow_vertex_controls.py": "af069c834db11572e5d359a1701f406295004c8695b79e47492078ee6c18aeac",
+    "checks/fresh_rainbow_resource_gate_search.py": "9cbfda967bc17b4bdf2ae59f755d1ca4f71bc849d6179a9c9d7c38b07e163c7f",
+    "checks/global_routes_sat.py": "8e0d5d2c15b0bb2c87a7c6e032ba86de619f2b94eb6a730d2809cf3e3e9aa2cb",
+    "evidence/fresh_rainbow_vertex_gate/kernel_receipt.json": "da3d9f4adb01afb4de2ebd5abddb2a565d29f31c6420aa2bed106c030288068c",
+    "evidence/fresh_rainbow_vertex_gate/controls.json": "523012fb549d1dba0de2c946af5a2ad8e039b71576e62bb6587d70d78f694d3e",
+    "evidence/fresh_rainbow_vertex_gate/brooks_reprint_appendices.pdf": "fff8ec36e3d1b77f6169987b0f48fea50e27997e907c3f82884eda25eee72bb7"
+  },
+  "solver": "CaDiCaL 2.1.2",
+  "returncodes": {
+    "kernel": 0,
+    "controls": 0
+  },
+  "primary_source": "https://www.tu-ilmenau.de/fileadmin/Bereiche/MN/komgra/BackMatterSMM.pdf"
+}

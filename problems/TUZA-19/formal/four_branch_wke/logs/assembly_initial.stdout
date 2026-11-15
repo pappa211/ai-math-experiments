@@ -1,0 +1,18 @@
+Assembly.lean:133:8: error: (kernel) excessive memory consumption detected
+Assembly.lean:265:4: error: (kernel) excessive memory consumption detected
+Assembly.lean:267:8: error: (kernel) excessive memory consumption detected
+Assembly.lean:269:8: error: (kernel) excessive memory consumption detected
+Assembly.lean:271:8: error: (kernel) excessive memory consumption detected
+Assembly.lean:274:4: error: (kernel) excessive memory consumption detected
+Assembly.lean:276:8: error: (kernel) excessive memory consumption detected
+Assembly.lean:279:8: error: (kernel) excessive memory consumption detected
+Assembly.lean:281:4: error: (kernel) excessive memory consumption detected
+Assembly.lean:288:8: error: (kernel) excessive memory consumption detected
+'FourBranch.all_segments_checked' depends on axioms: [all_segments_checked]
+'FourBranch.schedule_complete' depends on axioms: [expectedSchedule, schedule_complete]
+'FourBranch.six_state_vectors_complete' depends on axioms: [six_state_vectors_complete]
+'FourBranch.raw_domain_count' depends on axioms: [raw_domain_count]
+'FourBranch.retained_domain_counts' depends on axioms: [countBranch, retained_domain_counts]
+'FourBranch.total_certificates' depends on axioms: [total_certificates]
+'FourBranch.complete_finite_certificate' depends on axioms: [FiniteCertificateStatement, complete_finite_certificate]
+FourBranch.complete_finite_certificate : FiniteCertificateStatement

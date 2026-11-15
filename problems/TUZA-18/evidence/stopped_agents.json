@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-11-14T21:00:35Z",
+  "observation_interval_utc": ["2026-11-14T21:00:20Z", "2026-11-14T21:00:35Z"],
+  "source": "collaboration.list_agents, bracketed by clock tool observations",
+  "research_cutoff_utc": "2026-11-14T21:00:10Z",
+  "root_status": "Running closeout only; no hypothesis generation, proof work, searches or candidate verification after cutoff",
+  "live_subagents": [
+    {"name": "/root/criticality", "status": "completed", "last_task": "Document-only review; final receipt wording still to finalize"},
+    {"name": "/root/final_global", "status": "completed", "last_task": "Frozen compression proof/certificates; no further research"},
+    {"name": "/root/fresh_critic", "status": "completed", "last_task": "Independent compression review; nine-file package frozen and imported"}
+  ],
+  "earlier_completed_agents_not_in_current_live_tree": [
+    "/root/apex_global", "/root/global_routes", "/root/late_global", "/root/star_fresh_audit"
+  ],
+  "no_running_mission_subagents": true,
+  "note": "Earlier completions and mathematical handoffs are retained in their frozen review/source packages. No further agent task was dispatched after the final document review. Completed agents needed no termination."
+}

@@ -1,0 +1,7 @@
+{
+  "precommit_documentation_finalized_utc": "2026-11-14T21:01:23.062154+00:00",
+  "research_cutoff_utc": "2026-11-14T21:00:10+00:00",
+  "hard_deadline_utc": "2026-11-14T21:30:10+00:00",
+  "no_post_cutoff_mathematical_testing": true,
+  "final_commit_and_finish_location": "Annotated local Git tag tuza18-final-checkpoint"
+}

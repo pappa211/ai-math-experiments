@@ -1,0 +1,14 @@
+{
+  "command": [
+    "LOCAL_ENVIRONMENT",
+    "checks/critic_late.py"
+  ],
+  "pid": 55089,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 1.2445867500064196,
+  "peak_sampled_RSS_bytes": 18776064,
+  "wall_limit_seconds": 60.0,
+  "RSS_limit_MiB": 512.0,
+  "status": "PASS"
+}

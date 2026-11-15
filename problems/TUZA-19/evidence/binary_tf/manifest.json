@@ -1,0 +1,6 @@
+{
+  "notes/binary_tf_rank4.md": "0e10b5f79cca524507afb0a88646d55c228862c2c44403ada21dbc3c6876fe7f",
+  "checks/binary_tf_rank4.py": "e875a60f14ed33642346f22e3f289d347a32c56f84f975e547bebdf31cc55ff6",
+  "evidence/binary_tf/rank4_summary.json": "e22c16e05c20c6c6dfe46d1b909ea7e557934a19aa0ac0395ea6e13fb8690c05",
+  "evidence/binary_tf/rank4_exact_table.json": "20b96d185138a9e5fe8eef8c7dd1100cf758a95cdc5b9537d7de196cd68663ad"
+}

@@ -1,0 +1,42 @@
+{
+  "accepted_named_theorems": 150,
+  "accepted_source_modules": 133,
+  "all_commands_serial": true,
+  "all_size_formalization": false,
+  "audit_scope": "Every explicitly named top-level source def/abbrev/structure/theorem; compiler-generated helpers are covered transitively, not separately inventoried.",
+  "canonical_records": 5375,
+  "compiler_commands": 269,
+  "correspondence": {
+    "branch_1_records": 0,
+    "branch_2_records": 0,
+    "canonical_records": 5375,
+    "complete_regenerated_domain": true,
+    "coverage_counts_equal": true,
+    "coverage_headers_equal": true,
+    "generation_schedule_equal": true,
+    "input_sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+    "largest_chunk": 112,
+    "per_branch_records": {
+      "3": 10,
+      "4": 5365
+    },
+    "raw_vectors": 15756,
+    "source_bytes_equal_modules": 128,
+    "status": "PASS"
+  },
+  "dependency_git_preservation": true,
+  "explicitly_named_source_declarations": 444,
+  "finished_utc": "2026-11-15T15:11:07.745964+00:00",
+  "maximum_sampled_RSS_bytes": 1756774400,
+  "maximum_time_reported_RSS_bytes": 1781809152,
+  "negative_controls": 3,
+  "observed_RSS_limit_bytes": 2306867200,
+  "one_thread_per_command": true,
+  "per_command_seconds": 240,
+  "scope": "TUZA-18 fixed six-vertex role witness; TUZA-19 finite 5375-case WKE bundle, separate domain/schedule lemmas, explicit cross-file correspondence. No aggregate, all-size WKE theorem, common-vertex theorem, chain theorem, or core localization formalized.",
+  "selected_source_preservation": true,
+  "separately_compiled_chunks": 128,
+  "started_utc": "2026-11-15T15:05:42.190468+00:00",
+  "status": "PASS_FRESH_FINITE_FORMAL_REPLAY",
+  "trust_boundary": "Installed standard Lean kernel and reused pinned compiled dependencies. Fresh project objects, not a cold dependency build or an independent kernel implementation."
+}

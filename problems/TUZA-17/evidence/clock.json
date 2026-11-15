@@ -1,0 +1,14 @@
+{
+  "start_utc": "2026-11-04T00:45:12Z",
+  "deadline_utc": "2026-11-04T02:45:12Z",
+  "development_freeze_no_later_than_utc": "2026-11-04T02:10:12Z",
+  "host": "local Darwin host",
+  "system": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "requested_configuration": "Astra / Ultra",
+  "observed_serving_metadata": "NOT_AVAILABLE",
+  "workspace": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+  "actual_development_freeze_utc": "2026-11-04T01:50:17Z",
+  "freeze_reason": "Complete retained proofs and exact limitations frozen; no credible further full-instance construction within the selected methods. Reporting/integrity/checkpoint phase begins, preserving more than the required35minutes.",
+  "receipt_utc": "2026-11-04T01:55:05.025850+00:00",
+  "elapsed_at_receipt_seconds": 4193.02585
+}

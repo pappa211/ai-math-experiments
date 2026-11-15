@@ -1,0 +1,9 @@
+{
+  "claim": "PIV1 one-pivot strict Hall-deficiency descent",
+  "source": "evidence/apex_type1_directed_ledger.json.gz",
+  "rows_seen": 393643,
+  "eligible_tested": 36218,
+  "elapsed_seconds": 2.3695932909977273,
+  "failure": null,
+  "stop": "TIME_OR_END"
+}

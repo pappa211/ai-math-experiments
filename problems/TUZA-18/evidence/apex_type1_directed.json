@@ -1,0 +1,15 @@
+{
+  "seed": 18141120261915,
+  "domain": "specified P of3..5 on8..11 vertices; internal privatepages and added blue closure edges; each literal attempted case retained",
+  "counts": {
+    "NOT_ALL_TYPE1": 309014,
+    "NOT_MAXIMUM": 48410,
+    "COMPLETE": 36218,
+    "UNKNOWN": 1
+  },
+  "attempts": 393643,
+  "best_excess": 0,
+  "bad": null,
+  "elapsed": 88.0000970363617,
+  "source_sha256": "59b056e9b901a534c7126281bbc3229eb9af340470ce1158e0fe753c55e1001a"
+}

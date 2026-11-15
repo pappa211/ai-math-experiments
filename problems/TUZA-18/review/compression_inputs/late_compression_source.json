@@ -1,0 +1,21 @@
+{
+  "title": "Tuza's Conjecture for Threshold Graphs",
+  "authors": [
+    "Marthe Bonamy",
+    "Łukasz Bożyk",
+    "Andrzej Grzesik",
+    "Meike Hatzel",
+    "Tomáš Masařík",
+    "Jana Novotná",
+    "Karolina Okrasa"
+  ],
+  "publication": "DMTCS 24:1 (2022), #24",
+  "doi": "10.46298/dmtcs.7660",
+  "arxiv": "2105.09871v3",
+  "primary_pdf_url": "https://dmtcs.episciences.org/articles/7660/download",
+  "sha256": "bda9d94f8c6fcbfe3b19fb27ee2729f664f6da2025083c4badf0c559e312ab07",
+  "bytes": 787620,
+  "read_scope": "Primary PDF theorem statement (printed page 2), conventions (pages 1–2), and threshold definition (printed page 5) inspected. No full proof audit claimed.",
+  "used_claim": "Theorem 1: finite simple threshold graphs satisfy tau <= 2 nu.",
+  "not_used": "No asymptotic, current-state, novelty, or other theorem claim imported."
+}

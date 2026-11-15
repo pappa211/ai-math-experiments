@@ -1,0 +1,12 @@
+{
+  "audit": "review/cocktail_party_local_polytope_source_audit.md",
+  "audit_sha256": "390326423252002ea7bc98f378911a334fc2a4d4b2bb9caba296c55d59acda96",
+  "input": "notes/global_routes_clique_link_polytope_obstruction.md",
+  "input_sha256": "58a6165eb965c00ae7c0fc711b9bdaf22a99809c616b2e8e04447bafccb32b07",
+  "scope": "Bounded primary attribution screen; novelty unresolved; no graph computation",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "source_receipts": [
+    "billington_lindner_publisher_receipt.json",
+    "chan_lau_receipt.json"
+  ]
+}

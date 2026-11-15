@@ -1,0 +1,24 @@
+{
+  "recorded_utc": "2026-11-15T05:51:09.485327+00:00",
+  "host": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "mission_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "serving_metadata": "Exact serving model and effort not exposed; no assertion made.",
+  "proof_input_sha256": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99",
+  "certificate_input_sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+  "verdict": "PASS all-size reduction, complete finite domain, literal WKE certificates and global defect localization.",
+  "independence": "Reductions reconstructed before full note read. Fresh checker independently generates all state vectors/edge sets and reads only literal M,Q data; producer search code not read or imported.",
+  "finite_counts": {
+    "raw_vectors": 15756,
+    "valid_kernels": 5375,
+    "three_branch": 10,
+    "four_branch": 5365
+  },
+  "preserved_clarification": "Replace hereditary by subgraph-closed (including edge deletion) in secondary sufficient-condition corollary. R need not be induced. Main theorem and localization unaffected.",
+  "additional_corollary": "Each nontrivial link component in an edge-reduction-free graph has at least five degree-at-least-three link vertices.",
+  "limitations": "Ordinary independent AI review plus finite certificate verification; no all-size Lean claim, source-priority audit, human review or unrestricted Tuza proof.",
+  "execution": "Local owner Darwin, pinned Python standard library. Fresh verifier passed first run. No Lean or remote execution."
+}

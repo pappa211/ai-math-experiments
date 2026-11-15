@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "host": "Darwin",
+  "input_sha256": {
+    "notes/codegree_two_tf_resilience_counterexample.md": "ae0bd41560dae51e58f5197a46eb5cd62e7859f10fb7aeb2f488178c052da1a4",
+    "evidence/codegree_two/petersen_join.json": "d517e3fd66923c02b079a66fad6291b66676235bb434a90d4b38375a036d5fb4",
+    "evidence/codegree_two/tf_lift_witness.json": "3dbd56433357c22745b2a96a733685874b94a9ed7c24463e27b88cdadd1def7e"
+  },
+  "checker_sha256": "30ccf2aca6598fbfe2bc5be628aaf1313032fbf274fcbdd9a2cd3182dc258602",
+  "certificate_sha256": "8662604994074d5a5b1231c2eb574a8b2f4bf08e67d6e890bb1c791863d9df38",
+  "graph_counts": {
+    "vertices": 72,
+    "edges": 216,
+    "triangles": 240,
+    "decorations": 20
+  },
+  "tau_H": 6,
+  "tau_K5": 4,
+  "tau_W": 86,
+  "nu_B": 9,
+  "nu_W": 49,
+  "Petersen_perfect_matchings": 6,
+  "base_deletion_pairs_verified": 630,
+  "TF_covers_verified": 240,
+  "local_deletion_cases_verified": 56,
+  "W_deletion_pairs_verified": 23220,
+  "W_deletion_certificate_digest": "3903bb54f9da9779ee69eea0ffcadb8dd0683f8a72b2379cd28fa554bc2db6e8",
+  "half_cover_weight_counts_scaled": {
+    "0": 126,
+    "1": 10,
+    "2": 80
+  },
+  "half_cover_triangle_load_histogram_scaled": {
+    "2": 195,
+    "4": 5,
+    "5": 10,
+    "6": 30
+  },
+  "half_cover_mass": 85,
+  "third_cover_mass": 72,
+  "all_nonunit_normalized_budget": 85,
+  "no_producer_code_imported": true
+}

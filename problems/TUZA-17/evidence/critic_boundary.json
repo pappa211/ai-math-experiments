@@ -1,0 +1,242 @@
+{
+  "status": "PASS",
+  "connected_boundary_link": {
+    "vertices": 11,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    "matching_number": 5,
+    "matching_certificate": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ]
+    ],
+    "independence_number": 4,
+    "independent_set_certificate": [
+      0,
+      2,
+      5,
+      8
+    ],
+    "vertex_cover_number": 7,
+    "triangle_free": true,
+    "proper_vertex3colouring": [
+      0,
+      1,
+      0,
+      2,
+      1,
+      0,
+      2,
+      1,
+      0,
+      2,
+      1
+    ],
+    "eligible_H_equals_L_budget": 10,
+    "uncovered_H_budget6_realization": "NOT_ESTABLISHED_BY_THIS_CHECK"
+  },
+  "numeric_only_budget6_example": {
+    "H_vertices": 14,
+    "H_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        10
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        13
+      ]
+    ],
+    "X": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "nu_H": 6,
+    "tau_H": 6,
+    "nu_G": 6,
+    "b": 6,
+    "link_matching": 5,
+    "link_vertex_cover": 5,
+    "hard_boundary": false,
+    "certification": "six edge-disjoint old triangles; each of five rim edges supports one page per apex, so G packs at most five such pages plus the isolated old triangle; choosing the five rim edges and one isolated triangle edge covers H and G"
+  },
+  "elapsed_seconds": 0.000891125004272908,
+  "peak_rss_Darwin_bytes": 15384576
+}

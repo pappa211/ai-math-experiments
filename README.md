@@ -1,26 +1,18 @@
 # AI math experiments
 
-**AI-developed mathematical research report — AI Math Experiments**
+**AI-developed mathematical research — AI Math Experiments**
 
-Current report: **[TUZA-11-15 Research Summary: Sparse Equality, Compatibility and Proof Obstructions](papers/tuza-11-15-research-summary/main.md)**.
+Current report: **[TUZA-16–19: Global Proof Routes, Structural Reductions, and Obstructions](papers/tuza-16-19-research-summary/main.md)**.
 
-**Read it:** [PDF](papers/tuza-11-15-research-summary/main.pdf) · [Markdown](papers/tuza-11-15-research-summary/main.md) · [Editable source](papers/tuza-11-15-research-summary/manuscript.md) · [LaTeX](papers/tuza-11-15-research-summary/main.tex) · [Build guide](papers/tuza-11-15-research-summary/README.md).
+[PDF](papers/tuza-16-19-research-summary/main.pdf) · [Markdown](papers/tuza-16-19-research-summary/main.md) · [Editable source](papers/tuza-16-19-research-summary/manuscript.md) · [Build guide](papers/tuza-16-19-research-summary/README.md).
 
-For every finite simple graph in which **every nonempty subgraph has average degree strictly below seven**, equality in $\tau(G)\le2\nu(G)$ holds exactly when every nonempty component of the full actual triangle family, connected by shared graph edges, has literal $K_4$ or $K_5$ edge support. Packings are edge-disjoint; vertex sharing and triangle-free background edges are allowed. Puleo previously proved the inequality. The equality classification is an ordinary computer-assisted proof with separate internal AI verification, supported by full symbolic proofs and an exhaustive six-link certificate check. It is not a new Lean theorem or external human peer review.
+**Unrestricted Tuza remains unresolved.** The continuation establishes an original-packing common-vertex cover theorem, a four-branch WKE/core reduction, quantitative normalization equivalences, and precise obstructions to proposed proof mechanisms. None is an unrestricted solution. Ordinary proofs, external inputs, exact finite checks, solver-only results and finite Lean coverage are kept distinct.
 
-**Start here:** [Current research status](RESEARCH_STATUS_2026-11-03.md) · [Exact statement/provenance ledger](STATUS_AND_PROVENANCE.md) · [Ordinary-proof index](ORDINARY_PROOF_INDEX.md) · [Reproduction](REPRODUCTION.md) · [Archives 11-15](ORDINARY_PROOF_INDEX.md).
+**Start here:** [Current research guide](RESEARCH_STATUS_2026-11-15.md) · [Statement/evidence ledger](verification/tuza-16-19/CLAIM_EVIDENCE.md) · [Ordinary proofs](ORDINARY_PROOF_INDEX.md) · [Status/provenance](STATUS_AND_PROVENANCE.md) · [Reproduction](REPRODUCTION.md#tuza-16-19).
 
-Previous companion: [Further Investigations, TUZA-07-10](papers/tuza-further-investigations/main.md) ([PDF](papers/tuza-further-investigations/main.pdf)). Its [1 November status](RESEARCH_STATUS_2026-11-01.md) remains a historical snapshot.
+The [TUZA-11–15 paper](papers/tuza-11-15-research-summary/main.md) ([PDF](papers/tuza-11-15-research-summary/main.pdf)) remains a separate historical publication. It classifies equality for mad<7; Puleo previously proved that inequality. Earlier [TUZA-07–10](papers/tuza-further-investigations/main.md), [five-degenerate](papers/tuza-five-degenerate/main.md), and restoration reports retain their original results and links.
 
-The separate foundational report, **[Equality in Tuza's Inequality for 5-Degenerate Graphs](papers/tuza-five-degenerate/main.md)** ([PDF](papers/tuza-five-degenerate/main.pdf)), retains its original canonical paper, theorem scope and Lean-verification evidence.
-
-**General Tuza is OPEN.** Global rainbow statement R and the general 5/3 refinement are unproved. Historical originality has not been established. Negative witnesses refute proposed proof mechanisms; they are not Tuza counterexamples. The abstract colored Petersen obstruction is not graph-realizable by the specific support representation.
-
-The mathematical development, proofs, code, formalization, manuscript and internal reviews were produced through AI systems. The human participant supplied goals, budgets, coordination and authorization.
-
-A personal experiment in whether a non-mathematician can use commercially accessible frontier AI models, computational mathematics, and formal verification to investigate open mathematical questions.
-
-The method is to identify a problem and check its reported open status, let AI systems investigate it, test proposed arguments with computation and Lean where useful, and preserve critical reviews alongside successful and failed approaches. Evidence is labelled by what was actually checked. Unverified claims are not presented as discoveries.
+The mathematical development, proofs, code, formalization and internal reviews used AI systems and tools. The owner supplied objectives, budgets and coordination. No external peer review or historical priority is claimed. The proposed next priority is global packing-support exchange, with H-O2 secondary; neither is a supported complete solution, and no new campaign begins with this publication.
 
 ## Triangle restoration and Tuza’s conjecture
 
@@ -59,7 +51,7 @@ The [companion report](papers/tuza-further-investigations/main.md) ([PDF](papers
 - **TUZA-09:** Ordinary proofs and exact finite obstructions to multicover splitting, half-cost rounding and proposed fractional-to-integral bridges; **no new Lean theorem**.
 - **TUZA-10:** An ordinary exact colored Petersen forced-one-third certificate and a restricted cycle theorem derived from credited color-line/Brooks methods; **no new Lean theorem**. The abstract obstruction is not graph-realizable and is not a counterexample to R or Tuza.
 
-The historical TUZA-07-10 research decision is **REDIRECT**: no supported general proof bridge for that phase. The current **CONTINUE** assessment concerns the audited restricted equality mechanism only. [Status and provenance](STATUS_AND_PROVENANCE.md), [reproduction](REPRODUCTION.md), and [the reader-friendly handoff](RESEARCH_STATUS_2026-11-01.md) distinguish what is proved, what was checked finitely, and what remains open. Earlier TUZA-01–06 and A113010 mathematical sources, papers and verification scope are unchanged.
+The historical TUZA-07-10 research decision is **REDIRECT**: no supported general proof bridge for that phase. The **CONTINUE** assessment dated 3 November concerned the restricted equality mechanism; the [15 November guide](RESEARCH_STATUS_2026-11-15.md) gives the current global research position. [Status and provenance](STATUS_AND_PROVENANCE.md), [reproduction](REPRODUCTION.md), and [the reader-friendly handoff](RESEARCH_STATUS_2026-11-01.md) distinguish what is proved, what was checked finitely, and what remains open. Earlier TUZA-01–06 and A113010 mathematical sources, papers and verification scope are unchanged.
 
 ## Experiments
 
@@ -80,6 +72,10 @@ The historical TUZA-07-10 research decision is **REDIRECT**: no supported genera
 | TUZA-14: cover exchange | Scoped ordinary lemmas and exact shortcut counterexamples | [Archive](problems/TUZA-14/README.md) |
 | TUZA-14B: small two-red | S for nu <= 4 or tau <= 8; scoped and conditional mechanisms | [Archive](problems/TUZA-14B/README.md) |
 | TUZA-15: sparse equality | mad < 7 equality classification; locally bipartite strictness | [Archive](problems/TUZA-15/README.md) |
+| TUZA-16: global routes | Fixed-palette deletion obstruction; exact saturated-twin and labelled-copy identities; finite K10/K11, GF4 and cone witnesses. No global availability theorem. | [Archive](problems/TUZA-16/README.md) |
+| TUZA-17: critical core and apex | Apex compatibility for every eligible budget b≤6; criticality distinctions and private-ear reductions. The first remaining conditional window is b=7, m=6, lambda=8, after a declared catalogue-completeness input. Full eligible realization is UNKNOWN. | [Archive](problems/TUZA-17/README.md) |
+| TUZA-18: packing support | Original-packing common-vertex cover theorem, scoped apex/block and private-tip classes, connected-chain strict-descent obstruction, and finite six-vertex RoleWitness. No unrestricted PK or Tuza theorem. | [Archive](problems/TUZA-18/README.md) |
+| TUZA-19: normalization and structural barriers | Quantitative normalized equivalences, normalized odd-cover obstruction, four-branch WKE/core reduction, local-marginal barriers, positive square-cell/line-graph classes and plateau continuation. The 5,375-case finite kernel has separate Lean modules; all-size reductions remain ordinary. | [Archive](problems/TUZA-19/README.md) |
 
 Exact-equality restoration is a pre-TUZA-02 follow-up integrated with the later two-triangle results; the paper retains this provenance.
 

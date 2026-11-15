@@ -1,0 +1,2044 @@
+{
+  "Chunk000": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk000.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk000.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk000.correct"
+    }
+  ],
+  "Chunk001": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk001.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk001.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk001.correct"
+    }
+  ],
+  "Chunk002": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk002.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk002.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk002.correct"
+    }
+  ],
+  "Chunk003": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk003.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk003.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk003.correct"
+    }
+  ],
+  "Chunk004": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk004.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk004.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk004.correct"
+    }
+  ],
+  "Chunk005": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk005.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk005.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk005.correct"
+    }
+  ],
+  "Chunk006": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk006.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk006.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk006.correct"
+    }
+  ],
+  "Chunk007": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk007.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk007.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk007.correct"
+    }
+  ],
+  "Chunk008": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk008.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk008.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk008.correct"
+    }
+  ],
+  "Chunk009": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk009.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk009.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk009.correct"
+    }
+  ],
+  "Chunk010": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk010.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk010.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk010.correct"
+    }
+  ],
+  "Chunk011": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk011.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk011.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk011.correct"
+    }
+  ],
+  "Chunk012": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk012.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk012.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk012.correct"
+    }
+  ],
+  "Chunk013": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk013.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk013.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk013.correct"
+    }
+  ],
+  "Chunk014": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk014.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk014.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk014.correct"
+    }
+  ],
+  "Chunk015": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk015.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk015.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk015.correct"
+    }
+  ],
+  "Chunk016": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk016.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk016.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk016.correct"
+    }
+  ],
+  "Chunk017": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk017.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk017.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk017.correct"
+    }
+  ],
+  "Chunk018": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk018.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk018.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk018.correct"
+    }
+  ],
+  "Chunk019": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk019.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk019.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk019.correct"
+    }
+  ],
+  "Chunk020": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk020.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk020.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk020.correct"
+    }
+  ],
+  "Chunk021": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk021.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk021.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk021.correct"
+    }
+  ],
+  "Chunk022": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk022.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk022.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk022.correct"
+    }
+  ],
+  "Chunk023": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk023.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk023.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk023.correct"
+    }
+  ],
+  "Chunk024": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk024.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk024.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk024.correct"
+    }
+  ],
+  "Chunk025": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk025.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk025.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk025.correct"
+    }
+  ],
+  "Chunk026": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk026.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk026.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk026.correct"
+    }
+  ],
+  "Chunk027": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk027.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk027.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk027.correct"
+    }
+  ],
+  "Chunk028": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk028.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk028.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk028.correct"
+    }
+  ],
+  "Chunk029": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk029.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk029.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk029.correct"
+    }
+  ],
+  "Chunk030": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk030.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk030.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk030.correct"
+    }
+  ],
+  "Chunk031": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk031.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk031.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk031.correct"
+    }
+  ],
+  "Chunk032": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk032.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk032.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk032.correct"
+    }
+  ],
+  "Chunk033": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk033.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk033.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk033.correct"
+    }
+  ],
+  "Chunk034": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk034.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk034.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk034.correct"
+    }
+  ],
+  "Chunk035": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk035.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk035.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk035.correct"
+    }
+  ],
+  "Chunk036": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk036.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk036.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk036.correct"
+    }
+  ],
+  "Chunk037": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk037.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk037.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk037.correct"
+    }
+  ],
+  "Chunk038": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk038.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk038.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk038.correct"
+    }
+  ],
+  "Chunk039": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk039.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk039.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk039.correct"
+    }
+  ],
+  "Chunk040": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk040.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk040.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk040.correct"
+    }
+  ],
+  "Chunk041": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk041.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk041.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk041.correct"
+    }
+  ],
+  "Chunk042": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk042.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk042.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk042.correct"
+    }
+  ],
+  "Chunk043": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk043.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk043.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk043.correct"
+    }
+  ],
+  "Chunk044": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk044.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk044.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk044.correct"
+    }
+  ],
+  "Chunk045": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk045.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk045.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk045.correct"
+    }
+  ],
+  "Chunk046": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk046.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk046.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk046.correct"
+    }
+  ],
+  "Chunk047": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk047.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk047.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk047.correct"
+    }
+  ],
+  "Chunk048": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk048.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk048.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk048.correct"
+    }
+  ],
+  "Chunk049": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk049.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk049.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk049.correct"
+    }
+  ],
+  "Chunk050": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk050.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk050.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk050.correct"
+    }
+  ],
+  "Chunk051": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk051.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk051.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk051.correct"
+    }
+  ],
+  "Chunk052": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk052.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk052.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk052.correct"
+    }
+  ],
+  "Chunk053": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk053.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk053.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk053.correct"
+    }
+  ],
+  "Chunk054": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk054.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk054.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk054.correct"
+    }
+  ],
+  "Chunk055": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk055.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk055.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk055.correct"
+    }
+  ],
+  "Chunk056": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk056.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk056.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk056.correct"
+    }
+  ],
+  "Chunk057": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk057.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk057.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk057.correct"
+    }
+  ],
+  "Chunk058": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk058.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk058.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk058.correct"
+    }
+  ],
+  "Chunk059": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk059.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk059.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk059.correct"
+    }
+  ],
+  "Chunk060": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk060.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk060.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk060.correct"
+    }
+  ],
+  "Chunk061": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk061.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk061.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk061.correct"
+    }
+  ],
+  "Chunk062": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk062.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk062.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk062.correct"
+    }
+  ],
+  "Chunk063": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk063.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk063.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk063.correct"
+    }
+  ],
+  "Chunk064": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk064.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk064.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk064.correct"
+    }
+  ],
+  "Chunk065": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk065.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk065.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk065.correct"
+    }
+  ],
+  "Chunk066": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk066.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk066.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk066.correct"
+    }
+  ],
+  "Chunk067": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk067.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk067.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk067.correct"
+    }
+  ],
+  "Chunk068": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk068.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk068.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk068.correct"
+    }
+  ],
+  "Chunk069": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk069.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk069.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk069.correct"
+    }
+  ],
+  "Chunk070": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk070.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk070.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk070.correct"
+    }
+  ],
+  "Chunk071": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk071.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk071.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk071.correct"
+    }
+  ],
+  "Chunk072": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk072.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk072.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk072.correct"
+    }
+  ],
+  "Chunk073": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk073.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk073.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk073.correct"
+    }
+  ],
+  "Chunk074": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk074.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk074.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk074.correct"
+    }
+  ],
+  "Chunk075": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk075.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk075.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk075.correct"
+    }
+  ],
+  "Chunk076": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk076.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk076.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk076.correct"
+    }
+  ],
+  "Chunk077": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk077.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk077.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk077.correct"
+    }
+  ],
+  "Chunk078": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk078.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk078.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk078.correct"
+    }
+  ],
+  "Chunk079": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk079.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk079.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk079.correct"
+    }
+  ],
+  "Chunk080": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk080.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk080.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk080.correct"
+    }
+  ],
+  "Chunk081": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk081.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk081.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk081.correct"
+    }
+  ],
+  "Chunk082": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk082.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk082.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk082.correct"
+    }
+  ],
+  "Chunk083": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk083.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk083.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk083.correct"
+    }
+  ],
+  "Chunk084": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk084.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk084.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk084.correct"
+    }
+  ],
+  "Chunk085": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk085.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk085.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk085.correct"
+    }
+  ],
+  "Chunk086": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk086.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk086.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk086.correct"
+    }
+  ],
+  "Chunk087": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk087.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk087.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk087.correct"
+    }
+  ],
+  "Chunk088": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk088.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk088.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk088.correct"
+    }
+  ],
+  "Chunk089": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk089.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk089.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk089.correct"
+    }
+  ],
+  "Chunk090": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk090.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk090.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk090.correct"
+    }
+  ],
+  "Chunk091": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk091.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk091.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk091.correct"
+    }
+  ],
+  "Chunk092": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk092.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk092.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk092.correct"
+    }
+  ],
+  "Chunk093": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk093.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk093.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk093.correct"
+    }
+  ],
+  "Chunk094": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk094.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk094.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk094.correct"
+    }
+  ],
+  "Chunk095": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk095.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk095.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk095.correct"
+    }
+  ],
+  "Chunk096": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk096.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk096.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk096.correct"
+    }
+  ],
+  "Chunk097": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk097.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk097.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk097.correct"
+    }
+  ],
+  "Chunk098": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk098.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk098.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk098.correct"
+    }
+  ],
+  "Chunk099": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk099.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk099.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk099.correct"
+    }
+  ],
+  "Chunk100": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk100.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk100.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk100.correct"
+    }
+  ],
+  "Chunk101": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk101.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk101.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk101.correct"
+    }
+  ],
+  "Chunk102": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk102.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk102.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk102.correct"
+    }
+  ],
+  "Chunk103": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk103.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk103.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk103.correct"
+    }
+  ],
+  "Chunk104": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk104.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk104.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk104.correct"
+    }
+  ],
+  "Chunk105": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk105.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk105.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk105.correct"
+    }
+  ],
+  "Chunk106": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk106.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk106.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk106.correct"
+    }
+  ],
+  "Chunk107": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk107.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk107.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk107.correct"
+    }
+  ],
+  "Chunk108": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk108.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk108.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk108.correct"
+    }
+  ],
+  "Chunk109": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk109.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk109.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk109.correct"
+    }
+  ],
+  "Chunk110": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk110.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk110.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk110.correct"
+    }
+  ],
+  "Chunk111": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk111.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk111.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk111.correct"
+    }
+  ],
+  "Chunk112": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk112.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk112.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk112.correct"
+    }
+  ],
+  "Chunk113": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk113.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk113.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk113.correct"
+    }
+  ],
+  "Chunk114": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk114.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk114.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk114.correct"
+    }
+  ],
+  "Chunk115": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk115.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk115.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk115.correct"
+    }
+  ],
+  "Chunk116": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk116.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk116.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk116.correct"
+    }
+  ],
+  "Chunk117": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk117.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk117.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk117.correct"
+    }
+  ],
+  "Chunk118": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk118.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk118.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk118.correct"
+    }
+  ],
+  "Chunk119": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk119.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk119.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk119.correct"
+    }
+  ],
+  "Chunk120": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk120.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk120.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk120.correct"
+    }
+  ],
+  "Chunk121": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk121.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk121.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk121.correct"
+    }
+  ],
+  "Chunk122": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk122.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk122.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk122.correct"
+    }
+  ],
+  "Chunk123": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk123.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk123.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk123.correct"
+    }
+  ],
+  "Chunk124": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk124.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk124.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk124.correct"
+    }
+  ],
+  "Chunk125": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk125.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk125.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk125.correct"
+    }
+  ],
+  "Chunk126": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk126.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk126.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk126.correct"
+    }
+  ],
+  "Chunk127": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk127.rows"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Chunk127.segment"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Chunk127.correct"
+    }
+  ],
+  "Core": [
+    {
+      "kind": "abbrev",
+      "name": "FourBranch.Edge"
+    },
+    {
+      "kind": "structure",
+      "name": "FourBranch.Graph"
+    },
+    {
+      "kind": "structure",
+      "name": "FourBranch.Row"
+    },
+    {
+      "kind": "structure",
+      "name": "FourBranch.Segment"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.vectors"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.pairs"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.build"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.canonical"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.degree"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.admissible"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.rawVectors"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.domain"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.validRow"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.checkSegment"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.AllChecks"
+    }
+  ],
+  "Coverage": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Coverage.recordedHeaders"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Coverage.expectedSchedule"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Coverage.schedule_complete"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Coverage.segment_count"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Coverage.six_state_vectors_complete"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Coverage.raw_domain_count"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Coverage.recordedRetainedCounts"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Coverage.retained_count_sum"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Coverage.small_branch_counts"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Coverage.four_branch_count_sum"
+    }
+  ],
+  "Domain": [
+    {
+      "kind": "theorem",
+      "name": "FourBranch.mem_vectors_iff"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.vectors_add"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.vectors_length"
+    }
+  ],
+  "NegativeChecks": [
+    {
+      "kind": "def",
+      "name": "FourBranch.Negative.missingRow"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Negative.emptyCover"
+    },
+    {
+      "kind": "def",
+      "name": "FourBranch.Negative.repeatedMatching"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Negative.missing_row_rejected"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Negative.empty_cover_rejected"
+    },
+    {
+      "kind": "theorem",
+      "name": "FourBranch.Negative.repeated_matching_rejected"
+    }
+  ],
+  "RoleWitness": [
+    {
+      "kind": "abbrev",
+      "name": "Tuza18Role.Edge"
+    },
+    {
+      "kind": "abbrev",
+      "name": "Tuza18Role.Triangle"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.graphEdges"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.tri"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.actualTriangles"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.literalTriangles"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.packing"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.packings"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.support"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.verts"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.usedVerts"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.privateBases"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.roleCollision"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.covers"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.witnessPacking"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.witnessCover"
+    },
+    {
+      "kind": "theorem",
+      "name": "Tuza18Role.every_actual_triangle"
+    },
+    {
+      "kind": "theorem",
+      "name": "Tuza18Role.packing_upper_bound"
+    },
+    {
+      "kind": "theorem",
+      "name": "Tuza18Role.packing_attained"
+    },
+    {
+      "kind": "theorem",
+      "name": "Tuza18Role.cover_attained"
+    },
+    {
+      "kind": "def",
+      "name": "Tuza18Role.smallCoverCandidates"
+    },
+    {
+      "kind": "theorem",
+      "name": "Tuza18Role.no_small_cover"
+    },
+    {
+      "kind": "theorem",
+      "name": "Tuza18Role.cover_lower_bound"
+    },
+    {
+      "kind": "theorem",
+      "name": "Tuza18Role.graph_packing_bound"
+    },
+    {
+      "kind": "theorem",
+      "name": "Tuza18Role.canonical_simple_edges"
+    },
+    {
+      "kind": "theorem",
+      "name": "Tuza18Role.all_maximum_packings_obstruct_roles"
+    }
+  ]
+}

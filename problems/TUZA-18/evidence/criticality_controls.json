@@ -1,0 +1,847 @@
+{
+  "status": "PASS",
+  "scope": "Explicit graph and hypergraph controls; unrestricted Tuza is unresolved.",
+  "controls": {
+    "K5": {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "tau": 4,
+      "nu": 2,
+      "maximum_packing": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "Q_every_triangle_in_a_minimum_cover": true,
+      "edge_cover_critical": true,
+      "packing_resilient_under_at_most_two_edge_deletions": true,
+      "two_edge_blocker_count": 0,
+      "first_two_edge_blocker": null
+    },
+    "two_K5s_glued_on_one_edge": {
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "tau": 7,
+      "nu": 4,
+      "maximum_packing": [
+        [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        [
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            7
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      ],
+      "Q_every_triangle_in_a_minimum_cover": false,
+      "edge_cover_critical": true,
+      "packing_resilient_under_at_most_two_edge_deletions": true,
+      "two_edge_blocker_count": 0,
+      "first_two_edge_blocker": null
+    },
+    "K2_join_C5": {
+      "n": 7,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "tau": 6,
+      "nu": 4,
+      "maximum_packing": [
+        [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      ],
+      "Q_every_triangle_in_a_minimum_cover": true,
+      "edge_cover_critical": true,
+      "packing_resilient_under_at_most_two_edge_deletions": false,
+      "two_edge_blocker_count": 40,
+      "first_two_edge_blocker": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "Fano_minus_line": {
+      "triples": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          6
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          4,
+          5
+        ]
+      ],
+      "nu": 1,
+      "tau": 3,
+      "minimum_degree": 2,
+      "two_vertex_deletion_resilience": true,
+      "not_a_graph_triangle_family": true
+    }
+  },
+  "source_identities": [
+    {
+      "repository": "https://github.com/pappa211/ai-math-experiments/blob/main",
+      "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+      "path": "problems/TUZA-07/notes/CRITICALITY_PACKAGE.md",
+      "sha256": "73c4f75375df6f04820ffeaf3e5e62a79f6c87ddeec76ecb7bc68c27bb4c8dc4"
+    },
+    {
+      "repository": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+      "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+      "path": "REPORT.md",
+      "sha256": "8a89d80eee8155bcd9351391fdcbc22d039b7cf569b0cf96fa56776a725ad61c"
+    },
+    {
+      "repository": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+      "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+      "path": "STATUS_MATRIX.json",
+      "sha256": "7cece9fa3d80aa0a6d6a57af286b6b579a3000823134719f4d9981f1bf357d97"
+    },
+    {
+      "repository": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+      "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+      "path": "notes/A_CRITICAL_NONSATURATION.md",
+      "sha256": "2de0d6031a5c8a60f028db2eaf5a324c77de2847373dda217ba03c8d4c0cd5ba"
+    },
+    {
+      "repository": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+      "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+      "path": "notes/A_ELEMENTARY_MATCHING_BLOCKER.md",
+      "sha256": "59d77b3695af21922b7ba8079c802420c632bad2439c2a6cb8baf107c78af8fd"
+    }
+  ],
+  "census": {
+    "n": 7,
+    "labelled_graphs_examined": 2097152,
+    "triangleful_Q_count": 1730,
+    "invariant_columns": [
+      "edges",
+      "active_vertices",
+      "tau",
+      "minimum_triangle_codegree"
+    ],
+    "no_triangle_free_edges_types": [
+      {
+        "invariants": [
+          10,
+          5,
+          4,
+          3
+        ],
+        "labelled_count": 21,
+        "edges_example": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "invariants": [
+          15,
+          6,
+          6,
+          4
+        ],
+        "labelled_count": 7,
+        "edges_example": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "invariants": [
+          16,
+          7,
+          6,
+          2
+        ],
+        "labelled_count": 252,
+        "edges_example": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "invariants": [
+          20,
+          7,
+          8,
+          4
+        ],
+        "labelled_count": 21,
+        "edges_example": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      },
+      {
+        "invariants": [
+          21,
+          7,
+          9,
+          5
+        ],
+        "labelled_count": 1,
+        "edges_example": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ]
+        ]
+      }
+    ],
+    "scope": "Finite surrogate control; not a census of actual minimal Tuza violations."
+  },
+  "seconds": 3.030246624999563,
+  "peak_rss_bytes_darwin": 263061504
+}

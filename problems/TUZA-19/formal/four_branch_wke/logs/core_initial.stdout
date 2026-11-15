@@ -1,0 +1,14 @@
+Core.lean:19:10: error: unexpected identifier; expected prec
+Core.lean:22:10: error: unexpected identifier; expected 'instance'
+Core.lean:50:13: error(lean.invalidField): Invalid field `suffixLength`: The environment does not contain `FourBranch.Segment.suffixLength`, so it is not possible to project the field `suffixLength` from an expression
+  s
+of type `Segment`
+Core.lean:50:34: error(lean.invalidField): Invalid field `prefix`: The environment does not contain `FourBranch.Segment.prefix`, so it is not possible to project the field `prefix` from an expression
+  s
+of type `Segment`
+Core.lean:65:12: error(lean.invalidField): Invalid field `rows`: The environment does not contain `FourBranch.Segment.rows`, so it is not possible to project the field `rows` from an expression
+  s
+of type `Segment`
+Core.lean:66:4: error(lean.invalidField): Invalid field `rows`: The environment does not contain `FourBranch.Segment.rows`, so it is not possible to project the field `rows` from an expression
+  s
+of type `Segment`

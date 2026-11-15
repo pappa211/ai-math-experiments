@@ -1,0 +1,8 @@
+{
+  "review/four_branch_wke_fresh_audit.md": "40d40567ff315313e514de9430c4947175e50b398dd0bb4d6cd6e8ca055d4cdf",
+  "review/four_branch_wke_fresh_verify.py": "0230f6533f70d25673d7efe3aa0c3a38385d5cb8d6a9d12bde57bf3de177cc0b",
+  "evidence/four_branch_wke_fresh/canonical_witnesses_input.json": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+  "evidence/four_branch_wke_fresh/input_statement.md": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99",
+  "evidence/four_branch_wke_fresh/provenance.json": "4c143fcd8f3f0b8e4d8856c0e995b614475babf1a53daf74729563a626abf5a5",
+  "evidence/four_branch_wke_fresh/verification.json": "4670ef9456f43df938bc908550b52fceb025533171c1211d727a31f532d727e8"
+}

@@ -1,0 +1,4110 @@
+[
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "abbrev",
+    "literal_type": "FourBranch.Edge : Type",
+    "module": "Core",
+    "name": "FourBranch.Edge",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "structure",
+    "literal_type": "FourBranch.Graph : Type",
+    "module": "Core",
+    "name": "FourBranch.Graph",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "structure",
+    "literal_type": "FourBranch.Row : Type",
+    "module": "Core",
+    "name": "FourBranch.Row",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "structure",
+    "literal_type": "FourBranch.Segment : Type",
+    "module": "Core",
+    "name": "FourBranch.Segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.vectors : Nat → List.{0} (List.{0} Nat)",
+    "module": "Core",
+    "name": "FourBranch.vectors",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.pairs (b : Nat) : List.{0} FourBranch.Edge",
+    "module": "Core",
+    "name": "FourBranch.pairs",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.build : List.{0} FourBranch.Edge → List.{0} Nat → Nat → FourBranch.Graph",
+    "module": "Core",
+    "name": "FourBranch.build",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.canonical (b : Nat) (s : List.{0} Nat) : FourBranch.Graph",
+    "module": "Core",
+    "name": "FourBranch.canonical",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.degree (es : List.{0} FourBranch.Edge) (v : Nat) : Nat",
+    "module": "Core",
+    "name": "FourBranch.degree",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.admissible (b : Nat) (s : List.{0} Nat) : Bool",
+    "module": "Core",
+    "name": "FourBranch.admissible",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.rawVectors (s : FourBranch.Segment) : List.{0} (List.{0} Nat)",
+    "module": "Core",
+    "name": "FourBranch.rawVectors",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.domain (s : FourBranch.Segment) : List.{0} (List.{0} Nat)",
+    "module": "Core",
+    "name": "FourBranch.domain",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.validRow (b : Nat) (r : FourBranch.Row) : Bool",
+    "module": "Core",
+    "name": "FourBranch.validRow",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.checkSegment (s : FourBranch.Segment) : Bool",
+    "module": "Core",
+    "name": "FourBranch.checkSegment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.AllChecks : List.{0} FourBranch.Segment → Prop",
+    "module": "Core",
+    "name": "FourBranch.AllChecks",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Core"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk000.rows : List.{0} FourBranch.Row",
+    "module": "Chunk000",
+    "name": "FourBranch.Chunk000.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk000"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk000.segment : FourBranch.Segment",
+    "module": "Chunk000",
+    "name": "FourBranch.Chunk000.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk000"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk000.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk000.segment) Bool.true",
+    "module": "Chunk000",
+    "name": "FourBranch.Chunk000.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk000"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk001.rows : List.{0} FourBranch.Row",
+    "module": "Chunk001",
+    "name": "FourBranch.Chunk001.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk001"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk001.segment : FourBranch.Segment",
+    "module": "Chunk001",
+    "name": "FourBranch.Chunk001.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk001"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk001.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk001.segment) Bool.true",
+    "module": "Chunk001",
+    "name": "FourBranch.Chunk001.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk001"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk002.rows : List.{0} FourBranch.Row",
+    "module": "Chunk002",
+    "name": "FourBranch.Chunk002.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk002"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk002.segment : FourBranch.Segment",
+    "module": "Chunk002",
+    "name": "FourBranch.Chunk002.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk002"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk002.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk002.segment) Bool.true",
+    "module": "Chunk002",
+    "name": "FourBranch.Chunk002.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk002"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk003.rows : List.{0} FourBranch.Row",
+    "module": "Chunk003",
+    "name": "FourBranch.Chunk003.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk003"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk003.segment : FourBranch.Segment",
+    "module": "Chunk003",
+    "name": "FourBranch.Chunk003.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk003"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk003.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk003.segment) Bool.true",
+    "module": "Chunk003",
+    "name": "FourBranch.Chunk003.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk003"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk004.rows : List.{0} FourBranch.Row",
+    "module": "Chunk004",
+    "name": "FourBranch.Chunk004.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk004"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk004.segment : FourBranch.Segment",
+    "module": "Chunk004",
+    "name": "FourBranch.Chunk004.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk004"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk004.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk004.segment) Bool.true",
+    "module": "Chunk004",
+    "name": "FourBranch.Chunk004.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk004"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk005.rows : List.{0} FourBranch.Row",
+    "module": "Chunk005",
+    "name": "FourBranch.Chunk005.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk005"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk005.segment : FourBranch.Segment",
+    "module": "Chunk005",
+    "name": "FourBranch.Chunk005.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk005"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk005.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk005.segment) Bool.true",
+    "module": "Chunk005",
+    "name": "FourBranch.Chunk005.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk005"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk006.rows : List.{0} FourBranch.Row",
+    "module": "Chunk006",
+    "name": "FourBranch.Chunk006.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk006"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk006.segment : FourBranch.Segment",
+    "module": "Chunk006",
+    "name": "FourBranch.Chunk006.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk006"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk006.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk006.segment) Bool.true",
+    "module": "Chunk006",
+    "name": "FourBranch.Chunk006.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk006"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk007.rows : List.{0} FourBranch.Row",
+    "module": "Chunk007",
+    "name": "FourBranch.Chunk007.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk007"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk007.segment : FourBranch.Segment",
+    "module": "Chunk007",
+    "name": "FourBranch.Chunk007.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk007"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk007.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk007.segment) Bool.true",
+    "module": "Chunk007",
+    "name": "FourBranch.Chunk007.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk007"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk008.rows : List.{0} FourBranch.Row",
+    "module": "Chunk008",
+    "name": "FourBranch.Chunk008.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk008"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk008.segment : FourBranch.Segment",
+    "module": "Chunk008",
+    "name": "FourBranch.Chunk008.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk008"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk008.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk008.segment) Bool.true",
+    "module": "Chunk008",
+    "name": "FourBranch.Chunk008.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk008"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk009.rows : List.{0} FourBranch.Row",
+    "module": "Chunk009",
+    "name": "FourBranch.Chunk009.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk009"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk009.segment : FourBranch.Segment",
+    "module": "Chunk009",
+    "name": "FourBranch.Chunk009.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk009"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk009.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk009.segment) Bool.true",
+    "module": "Chunk009",
+    "name": "FourBranch.Chunk009.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk009"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk010.rows : List.{0} FourBranch.Row",
+    "module": "Chunk010",
+    "name": "FourBranch.Chunk010.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk010"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk010.segment : FourBranch.Segment",
+    "module": "Chunk010",
+    "name": "FourBranch.Chunk010.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk010"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk010.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk010.segment) Bool.true",
+    "module": "Chunk010",
+    "name": "FourBranch.Chunk010.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk010"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk011.rows : List.{0} FourBranch.Row",
+    "module": "Chunk011",
+    "name": "FourBranch.Chunk011.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk011"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk011.segment : FourBranch.Segment",
+    "module": "Chunk011",
+    "name": "FourBranch.Chunk011.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk011"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk011.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk011.segment) Bool.true",
+    "module": "Chunk011",
+    "name": "FourBranch.Chunk011.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk011"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk012.rows : List.{0} FourBranch.Row",
+    "module": "Chunk012",
+    "name": "FourBranch.Chunk012.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk012"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk012.segment : FourBranch.Segment",
+    "module": "Chunk012",
+    "name": "FourBranch.Chunk012.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk012"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk012.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk012.segment) Bool.true",
+    "module": "Chunk012",
+    "name": "FourBranch.Chunk012.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk012"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk013.rows : List.{0} FourBranch.Row",
+    "module": "Chunk013",
+    "name": "FourBranch.Chunk013.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk013"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk013.segment : FourBranch.Segment",
+    "module": "Chunk013",
+    "name": "FourBranch.Chunk013.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk013"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk013.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk013.segment) Bool.true",
+    "module": "Chunk013",
+    "name": "FourBranch.Chunk013.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk013"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk014.rows : List.{0} FourBranch.Row",
+    "module": "Chunk014",
+    "name": "FourBranch.Chunk014.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk014"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk014.segment : FourBranch.Segment",
+    "module": "Chunk014",
+    "name": "FourBranch.Chunk014.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk014"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk014.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk014.segment) Bool.true",
+    "module": "Chunk014",
+    "name": "FourBranch.Chunk014.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk014"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk015.rows : List.{0} FourBranch.Row",
+    "module": "Chunk015",
+    "name": "FourBranch.Chunk015.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk015"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk015.segment : FourBranch.Segment",
+    "module": "Chunk015",
+    "name": "FourBranch.Chunk015.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk015"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk015.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk015.segment) Bool.true",
+    "module": "Chunk015",
+    "name": "FourBranch.Chunk015.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk015"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk016.rows : List.{0} FourBranch.Row",
+    "module": "Chunk016",
+    "name": "FourBranch.Chunk016.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk016"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk016.segment : FourBranch.Segment",
+    "module": "Chunk016",
+    "name": "FourBranch.Chunk016.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk016"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk016.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk016.segment) Bool.true",
+    "module": "Chunk016",
+    "name": "FourBranch.Chunk016.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk016"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk017.rows : List.{0} FourBranch.Row",
+    "module": "Chunk017",
+    "name": "FourBranch.Chunk017.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk017"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk017.segment : FourBranch.Segment",
+    "module": "Chunk017",
+    "name": "FourBranch.Chunk017.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk017"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk017.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk017.segment) Bool.true",
+    "module": "Chunk017",
+    "name": "FourBranch.Chunk017.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk017"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk018.rows : List.{0} FourBranch.Row",
+    "module": "Chunk018",
+    "name": "FourBranch.Chunk018.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk018"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk018.segment : FourBranch.Segment",
+    "module": "Chunk018",
+    "name": "FourBranch.Chunk018.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk018"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk018.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk018.segment) Bool.true",
+    "module": "Chunk018",
+    "name": "FourBranch.Chunk018.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk018"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk019.rows : List.{0} FourBranch.Row",
+    "module": "Chunk019",
+    "name": "FourBranch.Chunk019.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk019"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk019.segment : FourBranch.Segment",
+    "module": "Chunk019",
+    "name": "FourBranch.Chunk019.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk019"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk019.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk019.segment) Bool.true",
+    "module": "Chunk019",
+    "name": "FourBranch.Chunk019.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk019"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk020.rows : List.{0} FourBranch.Row",
+    "module": "Chunk020",
+    "name": "FourBranch.Chunk020.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk020"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk020.segment : FourBranch.Segment",
+    "module": "Chunk020",
+    "name": "FourBranch.Chunk020.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk020"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk020.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk020.segment) Bool.true",
+    "module": "Chunk020",
+    "name": "FourBranch.Chunk020.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk020"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk021.rows : List.{0} FourBranch.Row",
+    "module": "Chunk021",
+    "name": "FourBranch.Chunk021.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk021"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk021.segment : FourBranch.Segment",
+    "module": "Chunk021",
+    "name": "FourBranch.Chunk021.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk021"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk021.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk021.segment) Bool.true",
+    "module": "Chunk021",
+    "name": "FourBranch.Chunk021.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk021"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk022.rows : List.{0} FourBranch.Row",
+    "module": "Chunk022",
+    "name": "FourBranch.Chunk022.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk022"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk022.segment : FourBranch.Segment",
+    "module": "Chunk022",
+    "name": "FourBranch.Chunk022.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk022"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk022.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk022.segment) Bool.true",
+    "module": "Chunk022",
+    "name": "FourBranch.Chunk022.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk022"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk023.rows : List.{0} FourBranch.Row",
+    "module": "Chunk023",
+    "name": "FourBranch.Chunk023.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk023"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk023.segment : FourBranch.Segment",
+    "module": "Chunk023",
+    "name": "FourBranch.Chunk023.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk023"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk023.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk023.segment) Bool.true",
+    "module": "Chunk023",
+    "name": "FourBranch.Chunk023.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk023"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk024.rows : List.{0} FourBranch.Row",
+    "module": "Chunk024",
+    "name": "FourBranch.Chunk024.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk024"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk024.segment : FourBranch.Segment",
+    "module": "Chunk024",
+    "name": "FourBranch.Chunk024.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk024"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk024.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk024.segment) Bool.true",
+    "module": "Chunk024",
+    "name": "FourBranch.Chunk024.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk024"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk025.rows : List.{0} FourBranch.Row",
+    "module": "Chunk025",
+    "name": "FourBranch.Chunk025.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk025"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk025.segment : FourBranch.Segment",
+    "module": "Chunk025",
+    "name": "FourBranch.Chunk025.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk025"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk025.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk025.segment) Bool.true",
+    "module": "Chunk025",
+    "name": "FourBranch.Chunk025.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk025"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk026.rows : List.{0} FourBranch.Row",
+    "module": "Chunk026",
+    "name": "FourBranch.Chunk026.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk026"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk026.segment : FourBranch.Segment",
+    "module": "Chunk026",
+    "name": "FourBranch.Chunk026.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk026"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk026.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk026.segment) Bool.true",
+    "module": "Chunk026",
+    "name": "FourBranch.Chunk026.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk026"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk027.rows : List.{0} FourBranch.Row",
+    "module": "Chunk027",
+    "name": "FourBranch.Chunk027.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk027"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk027.segment : FourBranch.Segment",
+    "module": "Chunk027",
+    "name": "FourBranch.Chunk027.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk027"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk027.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk027.segment) Bool.true",
+    "module": "Chunk027",
+    "name": "FourBranch.Chunk027.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk027"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk028.rows : List.{0} FourBranch.Row",
+    "module": "Chunk028",
+    "name": "FourBranch.Chunk028.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk028"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk028.segment : FourBranch.Segment",
+    "module": "Chunk028",
+    "name": "FourBranch.Chunk028.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk028"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk028.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk028.segment) Bool.true",
+    "module": "Chunk028",
+    "name": "FourBranch.Chunk028.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk028"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk029.rows : List.{0} FourBranch.Row",
+    "module": "Chunk029",
+    "name": "FourBranch.Chunk029.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk029"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk029.segment : FourBranch.Segment",
+    "module": "Chunk029",
+    "name": "FourBranch.Chunk029.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk029"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk029.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk029.segment) Bool.true",
+    "module": "Chunk029",
+    "name": "FourBranch.Chunk029.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk029"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk030.rows : List.{0} FourBranch.Row",
+    "module": "Chunk030",
+    "name": "FourBranch.Chunk030.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk030"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk030.segment : FourBranch.Segment",
+    "module": "Chunk030",
+    "name": "FourBranch.Chunk030.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk030"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk030.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk030.segment) Bool.true",
+    "module": "Chunk030",
+    "name": "FourBranch.Chunk030.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk030"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk031.rows : List.{0} FourBranch.Row",
+    "module": "Chunk031",
+    "name": "FourBranch.Chunk031.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk031"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk031.segment : FourBranch.Segment",
+    "module": "Chunk031",
+    "name": "FourBranch.Chunk031.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk031"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk031.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk031.segment) Bool.true",
+    "module": "Chunk031",
+    "name": "FourBranch.Chunk031.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk031"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk032.rows : List.{0} FourBranch.Row",
+    "module": "Chunk032",
+    "name": "FourBranch.Chunk032.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk032"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk032.segment : FourBranch.Segment",
+    "module": "Chunk032",
+    "name": "FourBranch.Chunk032.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk032"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk032.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk032.segment) Bool.true",
+    "module": "Chunk032",
+    "name": "FourBranch.Chunk032.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk032"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk033.rows : List.{0} FourBranch.Row",
+    "module": "Chunk033",
+    "name": "FourBranch.Chunk033.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk033"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk033.segment : FourBranch.Segment",
+    "module": "Chunk033",
+    "name": "FourBranch.Chunk033.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk033"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk033.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk033.segment) Bool.true",
+    "module": "Chunk033",
+    "name": "FourBranch.Chunk033.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk033"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk034.rows : List.{0} FourBranch.Row",
+    "module": "Chunk034",
+    "name": "FourBranch.Chunk034.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk034"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk034.segment : FourBranch.Segment",
+    "module": "Chunk034",
+    "name": "FourBranch.Chunk034.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk034"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk034.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk034.segment) Bool.true",
+    "module": "Chunk034",
+    "name": "FourBranch.Chunk034.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk034"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk035.rows : List.{0} FourBranch.Row",
+    "module": "Chunk035",
+    "name": "FourBranch.Chunk035.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk035"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk035.segment : FourBranch.Segment",
+    "module": "Chunk035",
+    "name": "FourBranch.Chunk035.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk035"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk035.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk035.segment) Bool.true",
+    "module": "Chunk035",
+    "name": "FourBranch.Chunk035.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk035"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk036.rows : List.{0} FourBranch.Row",
+    "module": "Chunk036",
+    "name": "FourBranch.Chunk036.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk036"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk036.segment : FourBranch.Segment",
+    "module": "Chunk036",
+    "name": "FourBranch.Chunk036.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk036"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk036.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk036.segment) Bool.true",
+    "module": "Chunk036",
+    "name": "FourBranch.Chunk036.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk036"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk037.rows : List.{0} FourBranch.Row",
+    "module": "Chunk037",
+    "name": "FourBranch.Chunk037.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk037"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk037.segment : FourBranch.Segment",
+    "module": "Chunk037",
+    "name": "FourBranch.Chunk037.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk037"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk037.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk037.segment) Bool.true",
+    "module": "Chunk037",
+    "name": "FourBranch.Chunk037.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk037"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk038.rows : List.{0} FourBranch.Row",
+    "module": "Chunk038",
+    "name": "FourBranch.Chunk038.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk038"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk038.segment : FourBranch.Segment",
+    "module": "Chunk038",
+    "name": "FourBranch.Chunk038.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk038"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk038.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk038.segment) Bool.true",
+    "module": "Chunk038",
+    "name": "FourBranch.Chunk038.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk038"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk039.rows : List.{0} FourBranch.Row",
+    "module": "Chunk039",
+    "name": "FourBranch.Chunk039.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk039"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk039.segment : FourBranch.Segment",
+    "module": "Chunk039",
+    "name": "FourBranch.Chunk039.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk039"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk039.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk039.segment) Bool.true",
+    "module": "Chunk039",
+    "name": "FourBranch.Chunk039.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk039"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk040.rows : List.{0} FourBranch.Row",
+    "module": "Chunk040",
+    "name": "FourBranch.Chunk040.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk040"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk040.segment : FourBranch.Segment",
+    "module": "Chunk040",
+    "name": "FourBranch.Chunk040.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk040"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk040.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk040.segment) Bool.true",
+    "module": "Chunk040",
+    "name": "FourBranch.Chunk040.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk040"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk041.rows : List.{0} FourBranch.Row",
+    "module": "Chunk041",
+    "name": "FourBranch.Chunk041.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk041"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk041.segment : FourBranch.Segment",
+    "module": "Chunk041",
+    "name": "FourBranch.Chunk041.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk041"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk041.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk041.segment) Bool.true",
+    "module": "Chunk041",
+    "name": "FourBranch.Chunk041.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk041"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk042.rows : List.{0} FourBranch.Row",
+    "module": "Chunk042",
+    "name": "FourBranch.Chunk042.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk042"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk042.segment : FourBranch.Segment",
+    "module": "Chunk042",
+    "name": "FourBranch.Chunk042.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk042"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk042.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk042.segment) Bool.true",
+    "module": "Chunk042",
+    "name": "FourBranch.Chunk042.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk042"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk043.rows : List.{0} FourBranch.Row",
+    "module": "Chunk043",
+    "name": "FourBranch.Chunk043.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk043"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk043.segment : FourBranch.Segment",
+    "module": "Chunk043",
+    "name": "FourBranch.Chunk043.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk043"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk043.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk043.segment) Bool.true",
+    "module": "Chunk043",
+    "name": "FourBranch.Chunk043.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk043"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk044.rows : List.{0} FourBranch.Row",
+    "module": "Chunk044",
+    "name": "FourBranch.Chunk044.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk044"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk044.segment : FourBranch.Segment",
+    "module": "Chunk044",
+    "name": "FourBranch.Chunk044.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk044"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk044.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk044.segment) Bool.true",
+    "module": "Chunk044",
+    "name": "FourBranch.Chunk044.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk044"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk045.rows : List.{0} FourBranch.Row",
+    "module": "Chunk045",
+    "name": "FourBranch.Chunk045.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk045"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk045.segment : FourBranch.Segment",
+    "module": "Chunk045",
+    "name": "FourBranch.Chunk045.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk045"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk045.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk045.segment) Bool.true",
+    "module": "Chunk045",
+    "name": "FourBranch.Chunk045.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk045"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk046.rows : List.{0} FourBranch.Row",
+    "module": "Chunk046",
+    "name": "FourBranch.Chunk046.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk046"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk046.segment : FourBranch.Segment",
+    "module": "Chunk046",
+    "name": "FourBranch.Chunk046.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk046"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk046.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk046.segment) Bool.true",
+    "module": "Chunk046",
+    "name": "FourBranch.Chunk046.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk046"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk047.rows : List.{0} FourBranch.Row",
+    "module": "Chunk047",
+    "name": "FourBranch.Chunk047.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk047"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk047.segment : FourBranch.Segment",
+    "module": "Chunk047",
+    "name": "FourBranch.Chunk047.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk047"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk047.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk047.segment) Bool.true",
+    "module": "Chunk047",
+    "name": "FourBranch.Chunk047.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk047"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk048.rows : List.{0} FourBranch.Row",
+    "module": "Chunk048",
+    "name": "FourBranch.Chunk048.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk048"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk048.segment : FourBranch.Segment",
+    "module": "Chunk048",
+    "name": "FourBranch.Chunk048.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk048"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk048.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk048.segment) Bool.true",
+    "module": "Chunk048",
+    "name": "FourBranch.Chunk048.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk048"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk049.rows : List.{0} FourBranch.Row",
+    "module": "Chunk049",
+    "name": "FourBranch.Chunk049.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk049"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk049.segment : FourBranch.Segment",
+    "module": "Chunk049",
+    "name": "FourBranch.Chunk049.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk049"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk049.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk049.segment) Bool.true",
+    "module": "Chunk049",
+    "name": "FourBranch.Chunk049.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk049"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk050.rows : List.{0} FourBranch.Row",
+    "module": "Chunk050",
+    "name": "FourBranch.Chunk050.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk050"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk050.segment : FourBranch.Segment",
+    "module": "Chunk050",
+    "name": "FourBranch.Chunk050.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk050"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk050.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk050.segment) Bool.true",
+    "module": "Chunk050",
+    "name": "FourBranch.Chunk050.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk050"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk051.rows : List.{0} FourBranch.Row",
+    "module": "Chunk051",
+    "name": "FourBranch.Chunk051.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk051"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk051.segment : FourBranch.Segment",
+    "module": "Chunk051",
+    "name": "FourBranch.Chunk051.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk051"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk051.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk051.segment) Bool.true",
+    "module": "Chunk051",
+    "name": "FourBranch.Chunk051.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk051"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk052.rows : List.{0} FourBranch.Row",
+    "module": "Chunk052",
+    "name": "FourBranch.Chunk052.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk052"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk052.segment : FourBranch.Segment",
+    "module": "Chunk052",
+    "name": "FourBranch.Chunk052.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk052"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk052.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk052.segment) Bool.true",
+    "module": "Chunk052",
+    "name": "FourBranch.Chunk052.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk052"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk053.rows : List.{0} FourBranch.Row",
+    "module": "Chunk053",
+    "name": "FourBranch.Chunk053.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk053"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk053.segment : FourBranch.Segment",
+    "module": "Chunk053",
+    "name": "FourBranch.Chunk053.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk053"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk053.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk053.segment) Bool.true",
+    "module": "Chunk053",
+    "name": "FourBranch.Chunk053.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk053"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk054.rows : List.{0} FourBranch.Row",
+    "module": "Chunk054",
+    "name": "FourBranch.Chunk054.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk054"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk054.segment : FourBranch.Segment",
+    "module": "Chunk054",
+    "name": "FourBranch.Chunk054.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk054"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk054.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk054.segment) Bool.true",
+    "module": "Chunk054",
+    "name": "FourBranch.Chunk054.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk054"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk055.rows : List.{0} FourBranch.Row",
+    "module": "Chunk055",
+    "name": "FourBranch.Chunk055.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk055"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk055.segment : FourBranch.Segment",
+    "module": "Chunk055",
+    "name": "FourBranch.Chunk055.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk055"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk055.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk055.segment) Bool.true",
+    "module": "Chunk055",
+    "name": "FourBranch.Chunk055.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk055"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk056.rows : List.{0} FourBranch.Row",
+    "module": "Chunk056",
+    "name": "FourBranch.Chunk056.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk056"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk056.segment : FourBranch.Segment",
+    "module": "Chunk056",
+    "name": "FourBranch.Chunk056.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk056"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk056.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk056.segment) Bool.true",
+    "module": "Chunk056",
+    "name": "FourBranch.Chunk056.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk056"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk057.rows : List.{0} FourBranch.Row",
+    "module": "Chunk057",
+    "name": "FourBranch.Chunk057.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk057"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk057.segment : FourBranch.Segment",
+    "module": "Chunk057",
+    "name": "FourBranch.Chunk057.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk057"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk057.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk057.segment) Bool.true",
+    "module": "Chunk057",
+    "name": "FourBranch.Chunk057.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk057"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk058.rows : List.{0} FourBranch.Row",
+    "module": "Chunk058",
+    "name": "FourBranch.Chunk058.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk058"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk058.segment : FourBranch.Segment",
+    "module": "Chunk058",
+    "name": "FourBranch.Chunk058.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk058"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk058.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk058.segment) Bool.true",
+    "module": "Chunk058",
+    "name": "FourBranch.Chunk058.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk058"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk059.rows : List.{0} FourBranch.Row",
+    "module": "Chunk059",
+    "name": "FourBranch.Chunk059.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk059"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk059.segment : FourBranch.Segment",
+    "module": "Chunk059",
+    "name": "FourBranch.Chunk059.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk059"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk059.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk059.segment) Bool.true",
+    "module": "Chunk059",
+    "name": "FourBranch.Chunk059.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk059"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk060.rows : List.{0} FourBranch.Row",
+    "module": "Chunk060",
+    "name": "FourBranch.Chunk060.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk060"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk060.segment : FourBranch.Segment",
+    "module": "Chunk060",
+    "name": "FourBranch.Chunk060.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk060"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk060.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk060.segment) Bool.true",
+    "module": "Chunk060",
+    "name": "FourBranch.Chunk060.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk060"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk061.rows : List.{0} FourBranch.Row",
+    "module": "Chunk061",
+    "name": "FourBranch.Chunk061.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk061"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk061.segment : FourBranch.Segment",
+    "module": "Chunk061",
+    "name": "FourBranch.Chunk061.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk061"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk061.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk061.segment) Bool.true",
+    "module": "Chunk061",
+    "name": "FourBranch.Chunk061.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk061"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk062.rows : List.{0} FourBranch.Row",
+    "module": "Chunk062",
+    "name": "FourBranch.Chunk062.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk062"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk062.segment : FourBranch.Segment",
+    "module": "Chunk062",
+    "name": "FourBranch.Chunk062.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk062"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk062.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk062.segment) Bool.true",
+    "module": "Chunk062",
+    "name": "FourBranch.Chunk062.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk062"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk063.rows : List.{0} FourBranch.Row",
+    "module": "Chunk063",
+    "name": "FourBranch.Chunk063.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk063"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk063.segment : FourBranch.Segment",
+    "module": "Chunk063",
+    "name": "FourBranch.Chunk063.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk063"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk063.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk063.segment) Bool.true",
+    "module": "Chunk063",
+    "name": "FourBranch.Chunk063.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk063"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk064.rows : List.{0} FourBranch.Row",
+    "module": "Chunk064",
+    "name": "FourBranch.Chunk064.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk064"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk064.segment : FourBranch.Segment",
+    "module": "Chunk064",
+    "name": "FourBranch.Chunk064.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk064"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk064.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk064.segment) Bool.true",
+    "module": "Chunk064",
+    "name": "FourBranch.Chunk064.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk064"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk065.rows : List.{0} FourBranch.Row",
+    "module": "Chunk065",
+    "name": "FourBranch.Chunk065.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk065"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk065.segment : FourBranch.Segment",
+    "module": "Chunk065",
+    "name": "FourBranch.Chunk065.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk065"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk065.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk065.segment) Bool.true",
+    "module": "Chunk065",
+    "name": "FourBranch.Chunk065.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk065"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk066.rows : List.{0} FourBranch.Row",
+    "module": "Chunk066",
+    "name": "FourBranch.Chunk066.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk066"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk066.segment : FourBranch.Segment",
+    "module": "Chunk066",
+    "name": "FourBranch.Chunk066.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk066"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk066.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk066.segment) Bool.true",
+    "module": "Chunk066",
+    "name": "FourBranch.Chunk066.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk066"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk067.rows : List.{0} FourBranch.Row",
+    "module": "Chunk067",
+    "name": "FourBranch.Chunk067.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk067"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk067.segment : FourBranch.Segment",
+    "module": "Chunk067",
+    "name": "FourBranch.Chunk067.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk067"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk067.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk067.segment) Bool.true",
+    "module": "Chunk067",
+    "name": "FourBranch.Chunk067.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk067"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk068.rows : List.{0} FourBranch.Row",
+    "module": "Chunk068",
+    "name": "FourBranch.Chunk068.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk068"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk068.segment : FourBranch.Segment",
+    "module": "Chunk068",
+    "name": "FourBranch.Chunk068.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk068"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk068.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk068.segment) Bool.true",
+    "module": "Chunk068",
+    "name": "FourBranch.Chunk068.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk068"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk069.rows : List.{0} FourBranch.Row",
+    "module": "Chunk069",
+    "name": "FourBranch.Chunk069.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk069"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk069.segment : FourBranch.Segment",
+    "module": "Chunk069",
+    "name": "FourBranch.Chunk069.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk069"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk069.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk069.segment) Bool.true",
+    "module": "Chunk069",
+    "name": "FourBranch.Chunk069.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk069"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk070.rows : List.{0} FourBranch.Row",
+    "module": "Chunk070",
+    "name": "FourBranch.Chunk070.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk070"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk070.segment : FourBranch.Segment",
+    "module": "Chunk070",
+    "name": "FourBranch.Chunk070.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk070"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk070.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk070.segment) Bool.true",
+    "module": "Chunk070",
+    "name": "FourBranch.Chunk070.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk070"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk071.rows : List.{0} FourBranch.Row",
+    "module": "Chunk071",
+    "name": "FourBranch.Chunk071.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk071"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk071.segment : FourBranch.Segment",
+    "module": "Chunk071",
+    "name": "FourBranch.Chunk071.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk071"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk071.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk071.segment) Bool.true",
+    "module": "Chunk071",
+    "name": "FourBranch.Chunk071.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk071"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk072.rows : List.{0} FourBranch.Row",
+    "module": "Chunk072",
+    "name": "FourBranch.Chunk072.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk072"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk072.segment : FourBranch.Segment",
+    "module": "Chunk072",
+    "name": "FourBranch.Chunk072.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk072"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk072.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk072.segment) Bool.true",
+    "module": "Chunk072",
+    "name": "FourBranch.Chunk072.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk072"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk073.rows : List.{0} FourBranch.Row",
+    "module": "Chunk073",
+    "name": "FourBranch.Chunk073.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk073"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk073.segment : FourBranch.Segment",
+    "module": "Chunk073",
+    "name": "FourBranch.Chunk073.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk073"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk073.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk073.segment) Bool.true",
+    "module": "Chunk073",
+    "name": "FourBranch.Chunk073.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk073"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk074.rows : List.{0} FourBranch.Row",
+    "module": "Chunk074",
+    "name": "FourBranch.Chunk074.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk074"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk074.segment : FourBranch.Segment",
+    "module": "Chunk074",
+    "name": "FourBranch.Chunk074.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk074"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk074.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk074.segment) Bool.true",
+    "module": "Chunk074",
+    "name": "FourBranch.Chunk074.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk074"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk075.rows : List.{0} FourBranch.Row",
+    "module": "Chunk075",
+    "name": "FourBranch.Chunk075.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk075"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk075.segment : FourBranch.Segment",
+    "module": "Chunk075",
+    "name": "FourBranch.Chunk075.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk075"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk075.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk075.segment) Bool.true",
+    "module": "Chunk075",
+    "name": "FourBranch.Chunk075.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk075"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk076.rows : List.{0} FourBranch.Row",
+    "module": "Chunk076",
+    "name": "FourBranch.Chunk076.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk076"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk076.segment : FourBranch.Segment",
+    "module": "Chunk076",
+    "name": "FourBranch.Chunk076.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk076"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk076.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk076.segment) Bool.true",
+    "module": "Chunk076",
+    "name": "FourBranch.Chunk076.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk076"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk077.rows : List.{0} FourBranch.Row",
+    "module": "Chunk077",
+    "name": "FourBranch.Chunk077.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk077"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk077.segment : FourBranch.Segment",
+    "module": "Chunk077",
+    "name": "FourBranch.Chunk077.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk077"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk077.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk077.segment) Bool.true",
+    "module": "Chunk077",
+    "name": "FourBranch.Chunk077.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk077"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk078.rows : List.{0} FourBranch.Row",
+    "module": "Chunk078",
+    "name": "FourBranch.Chunk078.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk078"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk078.segment : FourBranch.Segment",
+    "module": "Chunk078",
+    "name": "FourBranch.Chunk078.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk078"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk078.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk078.segment) Bool.true",
+    "module": "Chunk078",
+    "name": "FourBranch.Chunk078.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk078"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk079.rows : List.{0} FourBranch.Row",
+    "module": "Chunk079",
+    "name": "FourBranch.Chunk079.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk079"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk079.segment : FourBranch.Segment",
+    "module": "Chunk079",
+    "name": "FourBranch.Chunk079.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk079"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk079.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk079.segment) Bool.true",
+    "module": "Chunk079",
+    "name": "FourBranch.Chunk079.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk079"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk080.rows : List.{0} FourBranch.Row",
+    "module": "Chunk080",
+    "name": "FourBranch.Chunk080.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk080"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk080.segment : FourBranch.Segment",
+    "module": "Chunk080",
+    "name": "FourBranch.Chunk080.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk080"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk080.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk080.segment) Bool.true",
+    "module": "Chunk080",
+    "name": "FourBranch.Chunk080.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk080"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk081.rows : List.{0} FourBranch.Row",
+    "module": "Chunk081",
+    "name": "FourBranch.Chunk081.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk081"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk081.segment : FourBranch.Segment",
+    "module": "Chunk081",
+    "name": "FourBranch.Chunk081.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk081"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk081.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk081.segment) Bool.true",
+    "module": "Chunk081",
+    "name": "FourBranch.Chunk081.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk081"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk082.rows : List.{0} FourBranch.Row",
+    "module": "Chunk082",
+    "name": "FourBranch.Chunk082.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk082"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk082.segment : FourBranch.Segment",
+    "module": "Chunk082",
+    "name": "FourBranch.Chunk082.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk082"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk082.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk082.segment) Bool.true",
+    "module": "Chunk082",
+    "name": "FourBranch.Chunk082.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk082"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk083.rows : List.{0} FourBranch.Row",
+    "module": "Chunk083",
+    "name": "FourBranch.Chunk083.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk083"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk083.segment : FourBranch.Segment",
+    "module": "Chunk083",
+    "name": "FourBranch.Chunk083.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk083"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk083.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk083.segment) Bool.true",
+    "module": "Chunk083",
+    "name": "FourBranch.Chunk083.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk083"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk084.rows : List.{0} FourBranch.Row",
+    "module": "Chunk084",
+    "name": "FourBranch.Chunk084.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk084"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk084.segment : FourBranch.Segment",
+    "module": "Chunk084",
+    "name": "FourBranch.Chunk084.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk084"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk084.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk084.segment) Bool.true",
+    "module": "Chunk084",
+    "name": "FourBranch.Chunk084.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk084"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk085.rows : List.{0} FourBranch.Row",
+    "module": "Chunk085",
+    "name": "FourBranch.Chunk085.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk085"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk085.segment : FourBranch.Segment",
+    "module": "Chunk085",
+    "name": "FourBranch.Chunk085.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk085"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk085.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk085.segment) Bool.true",
+    "module": "Chunk085",
+    "name": "FourBranch.Chunk085.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk085"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk086.rows : List.{0} FourBranch.Row",
+    "module": "Chunk086",
+    "name": "FourBranch.Chunk086.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk086"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk086.segment : FourBranch.Segment",
+    "module": "Chunk086",
+    "name": "FourBranch.Chunk086.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk086"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk086.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk086.segment) Bool.true",
+    "module": "Chunk086",
+    "name": "FourBranch.Chunk086.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk086"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk087.rows : List.{0} FourBranch.Row",
+    "module": "Chunk087",
+    "name": "FourBranch.Chunk087.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk087"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk087.segment : FourBranch.Segment",
+    "module": "Chunk087",
+    "name": "FourBranch.Chunk087.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk087"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk087.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk087.segment) Bool.true",
+    "module": "Chunk087",
+    "name": "FourBranch.Chunk087.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk087"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk088.rows : List.{0} FourBranch.Row",
+    "module": "Chunk088",
+    "name": "FourBranch.Chunk088.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk088"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk088.segment : FourBranch.Segment",
+    "module": "Chunk088",
+    "name": "FourBranch.Chunk088.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk088"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk088.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk088.segment) Bool.true",
+    "module": "Chunk088",
+    "name": "FourBranch.Chunk088.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk088"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk089.rows : List.{0} FourBranch.Row",
+    "module": "Chunk089",
+    "name": "FourBranch.Chunk089.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk089"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk089.segment : FourBranch.Segment",
+    "module": "Chunk089",
+    "name": "FourBranch.Chunk089.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk089"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk089.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk089.segment) Bool.true",
+    "module": "Chunk089",
+    "name": "FourBranch.Chunk089.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk089"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk090.rows : List.{0} FourBranch.Row",
+    "module": "Chunk090",
+    "name": "FourBranch.Chunk090.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk090"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk090.segment : FourBranch.Segment",
+    "module": "Chunk090",
+    "name": "FourBranch.Chunk090.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk090"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk090.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk090.segment) Bool.true",
+    "module": "Chunk090",
+    "name": "FourBranch.Chunk090.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk090"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk091.rows : List.{0} FourBranch.Row",
+    "module": "Chunk091",
+    "name": "FourBranch.Chunk091.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk091"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk091.segment : FourBranch.Segment",
+    "module": "Chunk091",
+    "name": "FourBranch.Chunk091.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk091"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk091.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk091.segment) Bool.true",
+    "module": "Chunk091",
+    "name": "FourBranch.Chunk091.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk091"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk092.rows : List.{0} FourBranch.Row",
+    "module": "Chunk092",
+    "name": "FourBranch.Chunk092.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk092"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk092.segment : FourBranch.Segment",
+    "module": "Chunk092",
+    "name": "FourBranch.Chunk092.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk092"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk092.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk092.segment) Bool.true",
+    "module": "Chunk092",
+    "name": "FourBranch.Chunk092.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk092"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk093.rows : List.{0} FourBranch.Row",
+    "module": "Chunk093",
+    "name": "FourBranch.Chunk093.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk093"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk093.segment : FourBranch.Segment",
+    "module": "Chunk093",
+    "name": "FourBranch.Chunk093.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk093"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk093.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk093.segment) Bool.true",
+    "module": "Chunk093",
+    "name": "FourBranch.Chunk093.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk093"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk094.rows : List.{0} FourBranch.Row",
+    "module": "Chunk094",
+    "name": "FourBranch.Chunk094.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk094"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk094.segment : FourBranch.Segment",
+    "module": "Chunk094",
+    "name": "FourBranch.Chunk094.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk094"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk094.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk094.segment) Bool.true",
+    "module": "Chunk094",
+    "name": "FourBranch.Chunk094.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk094"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk095.rows : List.{0} FourBranch.Row",
+    "module": "Chunk095",
+    "name": "FourBranch.Chunk095.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk095"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk095.segment : FourBranch.Segment",
+    "module": "Chunk095",
+    "name": "FourBranch.Chunk095.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk095"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk095.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk095.segment) Bool.true",
+    "module": "Chunk095",
+    "name": "FourBranch.Chunk095.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk095"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk096.rows : List.{0} FourBranch.Row",
+    "module": "Chunk096",
+    "name": "FourBranch.Chunk096.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk096"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk096.segment : FourBranch.Segment",
+    "module": "Chunk096",
+    "name": "FourBranch.Chunk096.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk096"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk096.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk096.segment) Bool.true",
+    "module": "Chunk096",
+    "name": "FourBranch.Chunk096.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk096"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk097.rows : List.{0} FourBranch.Row",
+    "module": "Chunk097",
+    "name": "FourBranch.Chunk097.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk097"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk097.segment : FourBranch.Segment",
+    "module": "Chunk097",
+    "name": "FourBranch.Chunk097.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk097"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk097.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk097.segment) Bool.true",
+    "module": "Chunk097",
+    "name": "FourBranch.Chunk097.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk097"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk098.rows : List.{0} FourBranch.Row",
+    "module": "Chunk098",
+    "name": "FourBranch.Chunk098.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk098"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk098.segment : FourBranch.Segment",
+    "module": "Chunk098",
+    "name": "FourBranch.Chunk098.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk098"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk098.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk098.segment) Bool.true",
+    "module": "Chunk098",
+    "name": "FourBranch.Chunk098.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk098"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk099.rows : List.{0} FourBranch.Row",
+    "module": "Chunk099",
+    "name": "FourBranch.Chunk099.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk099"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk099.segment : FourBranch.Segment",
+    "module": "Chunk099",
+    "name": "FourBranch.Chunk099.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk099"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk099.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk099.segment) Bool.true",
+    "module": "Chunk099",
+    "name": "FourBranch.Chunk099.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk099"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk100.rows : List.{0} FourBranch.Row",
+    "module": "Chunk100",
+    "name": "FourBranch.Chunk100.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk100"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk100.segment : FourBranch.Segment",
+    "module": "Chunk100",
+    "name": "FourBranch.Chunk100.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk100"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk100.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk100.segment) Bool.true",
+    "module": "Chunk100",
+    "name": "FourBranch.Chunk100.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk100"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk101.rows : List.{0} FourBranch.Row",
+    "module": "Chunk101",
+    "name": "FourBranch.Chunk101.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk101"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk101.segment : FourBranch.Segment",
+    "module": "Chunk101",
+    "name": "FourBranch.Chunk101.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk101"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk101.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk101.segment) Bool.true",
+    "module": "Chunk101",
+    "name": "FourBranch.Chunk101.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk101"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk102.rows : List.{0} FourBranch.Row",
+    "module": "Chunk102",
+    "name": "FourBranch.Chunk102.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk102"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk102.segment : FourBranch.Segment",
+    "module": "Chunk102",
+    "name": "FourBranch.Chunk102.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk102"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk102.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk102.segment) Bool.true",
+    "module": "Chunk102",
+    "name": "FourBranch.Chunk102.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk102"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk103.rows : List.{0} FourBranch.Row",
+    "module": "Chunk103",
+    "name": "FourBranch.Chunk103.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk103"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk103.segment : FourBranch.Segment",
+    "module": "Chunk103",
+    "name": "FourBranch.Chunk103.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk103"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk103.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk103.segment) Bool.true",
+    "module": "Chunk103",
+    "name": "FourBranch.Chunk103.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk103"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk104.rows : List.{0} FourBranch.Row",
+    "module": "Chunk104",
+    "name": "FourBranch.Chunk104.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk104"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk104.segment : FourBranch.Segment",
+    "module": "Chunk104",
+    "name": "FourBranch.Chunk104.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk104"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk104.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk104.segment) Bool.true",
+    "module": "Chunk104",
+    "name": "FourBranch.Chunk104.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk104"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk105.rows : List.{0} FourBranch.Row",
+    "module": "Chunk105",
+    "name": "FourBranch.Chunk105.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk105"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk105.segment : FourBranch.Segment",
+    "module": "Chunk105",
+    "name": "FourBranch.Chunk105.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk105"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk105.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk105.segment) Bool.true",
+    "module": "Chunk105",
+    "name": "FourBranch.Chunk105.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk105"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk106.rows : List.{0} FourBranch.Row",
+    "module": "Chunk106",
+    "name": "FourBranch.Chunk106.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk106"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk106.segment : FourBranch.Segment",
+    "module": "Chunk106",
+    "name": "FourBranch.Chunk106.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk106"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk106.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk106.segment) Bool.true",
+    "module": "Chunk106",
+    "name": "FourBranch.Chunk106.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk106"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk107.rows : List.{0} FourBranch.Row",
+    "module": "Chunk107",
+    "name": "FourBranch.Chunk107.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk107"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk107.segment : FourBranch.Segment",
+    "module": "Chunk107",
+    "name": "FourBranch.Chunk107.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk107"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk107.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk107.segment) Bool.true",
+    "module": "Chunk107",
+    "name": "FourBranch.Chunk107.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk107"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk108.rows : List.{0} FourBranch.Row",
+    "module": "Chunk108",
+    "name": "FourBranch.Chunk108.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk108"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk108.segment : FourBranch.Segment",
+    "module": "Chunk108",
+    "name": "FourBranch.Chunk108.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk108"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk108.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk108.segment) Bool.true",
+    "module": "Chunk108",
+    "name": "FourBranch.Chunk108.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk108"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk109.rows : List.{0} FourBranch.Row",
+    "module": "Chunk109",
+    "name": "FourBranch.Chunk109.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk109"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk109.segment : FourBranch.Segment",
+    "module": "Chunk109",
+    "name": "FourBranch.Chunk109.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk109"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk109.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk109.segment) Bool.true",
+    "module": "Chunk109",
+    "name": "FourBranch.Chunk109.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk109"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk110.rows : List.{0} FourBranch.Row",
+    "module": "Chunk110",
+    "name": "FourBranch.Chunk110.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk110"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk110.segment : FourBranch.Segment",
+    "module": "Chunk110",
+    "name": "FourBranch.Chunk110.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk110"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk110.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk110.segment) Bool.true",
+    "module": "Chunk110",
+    "name": "FourBranch.Chunk110.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk110"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk111.rows : List.{0} FourBranch.Row",
+    "module": "Chunk111",
+    "name": "FourBranch.Chunk111.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk111"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk111.segment : FourBranch.Segment",
+    "module": "Chunk111",
+    "name": "FourBranch.Chunk111.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk111"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk111.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk111.segment) Bool.true",
+    "module": "Chunk111",
+    "name": "FourBranch.Chunk111.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk111"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk112.rows : List.{0} FourBranch.Row",
+    "module": "Chunk112",
+    "name": "FourBranch.Chunk112.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk112"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk112.segment : FourBranch.Segment",
+    "module": "Chunk112",
+    "name": "FourBranch.Chunk112.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk112"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk112.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk112.segment) Bool.true",
+    "module": "Chunk112",
+    "name": "FourBranch.Chunk112.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk112"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk113.rows : List.{0} FourBranch.Row",
+    "module": "Chunk113",
+    "name": "FourBranch.Chunk113.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk113"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk113.segment : FourBranch.Segment",
+    "module": "Chunk113",
+    "name": "FourBranch.Chunk113.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk113"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk113.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk113.segment) Bool.true",
+    "module": "Chunk113",
+    "name": "FourBranch.Chunk113.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk113"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk114.rows : List.{0} FourBranch.Row",
+    "module": "Chunk114",
+    "name": "FourBranch.Chunk114.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk114"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk114.segment : FourBranch.Segment",
+    "module": "Chunk114",
+    "name": "FourBranch.Chunk114.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk114"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk114.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk114.segment) Bool.true",
+    "module": "Chunk114",
+    "name": "FourBranch.Chunk114.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk114"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk115.rows : List.{0} FourBranch.Row",
+    "module": "Chunk115",
+    "name": "FourBranch.Chunk115.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk115"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk115.segment : FourBranch.Segment",
+    "module": "Chunk115",
+    "name": "FourBranch.Chunk115.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk115"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk115.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk115.segment) Bool.true",
+    "module": "Chunk115",
+    "name": "FourBranch.Chunk115.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk115"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk116.rows : List.{0} FourBranch.Row",
+    "module": "Chunk116",
+    "name": "FourBranch.Chunk116.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk116"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk116.segment : FourBranch.Segment",
+    "module": "Chunk116",
+    "name": "FourBranch.Chunk116.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk116"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk116.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk116.segment) Bool.true",
+    "module": "Chunk116",
+    "name": "FourBranch.Chunk116.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk116"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk117.rows : List.{0} FourBranch.Row",
+    "module": "Chunk117",
+    "name": "FourBranch.Chunk117.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk117"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk117.segment : FourBranch.Segment",
+    "module": "Chunk117",
+    "name": "FourBranch.Chunk117.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk117"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk117.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk117.segment) Bool.true",
+    "module": "Chunk117",
+    "name": "FourBranch.Chunk117.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk117"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk118.rows : List.{0} FourBranch.Row",
+    "module": "Chunk118",
+    "name": "FourBranch.Chunk118.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk118"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk118.segment : FourBranch.Segment",
+    "module": "Chunk118",
+    "name": "FourBranch.Chunk118.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk118"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk118.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk118.segment) Bool.true",
+    "module": "Chunk118",
+    "name": "FourBranch.Chunk118.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk118"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk119.rows : List.{0} FourBranch.Row",
+    "module": "Chunk119",
+    "name": "FourBranch.Chunk119.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk119"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk119.segment : FourBranch.Segment",
+    "module": "Chunk119",
+    "name": "FourBranch.Chunk119.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk119"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk119.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk119.segment) Bool.true",
+    "module": "Chunk119",
+    "name": "FourBranch.Chunk119.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk119"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk120.rows : List.{0} FourBranch.Row",
+    "module": "Chunk120",
+    "name": "FourBranch.Chunk120.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk120"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk120.segment : FourBranch.Segment",
+    "module": "Chunk120",
+    "name": "FourBranch.Chunk120.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk120"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk120.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk120.segment) Bool.true",
+    "module": "Chunk120",
+    "name": "FourBranch.Chunk120.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk120"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk121.rows : List.{0} FourBranch.Row",
+    "module": "Chunk121",
+    "name": "FourBranch.Chunk121.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk121"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk121.segment : FourBranch.Segment",
+    "module": "Chunk121",
+    "name": "FourBranch.Chunk121.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk121"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk121.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk121.segment) Bool.true",
+    "module": "Chunk121",
+    "name": "FourBranch.Chunk121.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk121"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk122.rows : List.{0} FourBranch.Row",
+    "module": "Chunk122",
+    "name": "FourBranch.Chunk122.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk122"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk122.segment : FourBranch.Segment",
+    "module": "Chunk122",
+    "name": "FourBranch.Chunk122.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk122"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk122.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk122.segment) Bool.true",
+    "module": "Chunk122",
+    "name": "FourBranch.Chunk122.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk122"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk123.rows : List.{0} FourBranch.Row",
+    "module": "Chunk123",
+    "name": "FourBranch.Chunk123.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk123"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk123.segment : FourBranch.Segment",
+    "module": "Chunk123",
+    "name": "FourBranch.Chunk123.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk123"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk123.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk123.segment) Bool.true",
+    "module": "Chunk123",
+    "name": "FourBranch.Chunk123.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk123"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk124.rows : List.{0} FourBranch.Row",
+    "module": "Chunk124",
+    "name": "FourBranch.Chunk124.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk124"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk124.segment : FourBranch.Segment",
+    "module": "Chunk124",
+    "name": "FourBranch.Chunk124.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk124"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk124.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk124.segment) Bool.true",
+    "module": "Chunk124",
+    "name": "FourBranch.Chunk124.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk124"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk125.rows : List.{0} FourBranch.Row",
+    "module": "Chunk125",
+    "name": "FourBranch.Chunk125.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk125"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk125.segment : FourBranch.Segment",
+    "module": "Chunk125",
+    "name": "FourBranch.Chunk125.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk125"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk125.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk125.segment) Bool.true",
+    "module": "Chunk125",
+    "name": "FourBranch.Chunk125.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk125"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk126.rows : List.{0} FourBranch.Row",
+    "module": "Chunk126",
+    "name": "FourBranch.Chunk126.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk126"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk126.segment : FourBranch.Segment",
+    "module": "Chunk126",
+    "name": "FourBranch.Chunk126.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk126"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk126.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk126.segment) Bool.true",
+    "module": "Chunk126",
+    "name": "FourBranch.Chunk126.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk126"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk127.rows : List.{0} FourBranch.Row",
+    "module": "Chunk127",
+    "name": "FourBranch.Chunk127.rows",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk127"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Chunk127.segment : FourBranch.Segment",
+    "module": "Chunk127",
+    "name": "FourBranch.Chunk127.segment",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk127"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Chunk127.correct : Eq.{1} (FourBranch.checkSegment FourBranch.Chunk127.segment) Bool.true",
+    "module": "Chunk127",
+    "name": "FourBranch.Chunk127.correct",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Chunk127"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.mem_vectors_iff (k : Nat) (s : List.{0} Nat) :\n  Membership.mem.{0, 0} (FourBranch.vectors k) s ↔\n    Eq.{1} (List.length.{0} s) k ∧ ∀ (x : Nat), Membership.mem.{0, 0} s x → LT.lt.{0} x 5",
+    "module": "Domain",
+    "name": "FourBranch.mem_vectors_iff",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_Domain"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.vectors_add (a b : Nat) :\n  Eq.{1} (FourBranch.vectors (HAdd.hAdd.{0, 0, 0} a b))\n    (List.flatMap.{0, 0} (fun p => List.map.{0, 0} (fun x => HAppend.hAppend.{0, 0, 0} p x) (FourBranch.vectors b))\n      (FourBranch.vectors a))",
+    "module": "Domain",
+    "name": "FourBranch.vectors_add",
+    "transitive_axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_Domain"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.vectors_length (k : Nat) : Eq.{1} (List.length.{0} (FourBranch.vectors k)) (HPow.hPow.{0, 0, 0} 5 k)",
+    "module": "Domain",
+    "name": "FourBranch.vectors_length",
+    "transitive_axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_Domain"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Coverage.recordedHeaders : List.{0} (Prod.{0, 0} Nat (Prod.{0, 0} (List.{0} Nat) Nat))",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.recordedHeaders",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Coverage.expectedSchedule : List.{0} (Prod.{0, 0} Nat (Prod.{0, 0} (List.{0} Nat) Nat))",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.expectedSchedule",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Coverage.schedule_complete : Eq.{1} FourBranch.Coverage.recordedHeaders FourBranch.Coverage.expectedSchedule",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.schedule_complete",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Coverage.segment_count : Eq.{1} (List.length.{0} FourBranch.Coverage.recordedHeaders) 128",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.segment_count",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Coverage.six_state_vectors_complete :\n  Eq.{1} (FourBranch.vectors 6)\n    (List.flatMap.{0, 0} (fun p => List.map.{0, 0} (fun x => HAppend.hAppend.{0, 0, 0} p x) (FourBranch.vectors 3))\n      (FourBranch.vectors 3))",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.six_state_vectors_complete",
+    "transitive_axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Coverage.raw_domain_count :\n  Eq.{1}\n    (HAdd.hAdd.{0, 0, 0}\n      (HAdd.hAdd.{0, 0, 0}\n        (HAdd.hAdd.{0, 0, 0} (List.length.{0} (FourBranch.vectors 0)) (List.length.{0} (FourBranch.vectors 1)))\n        (List.length.{0} (FourBranch.vectors 3)))\n      (List.length.{0} (FourBranch.vectors 6)))\n    15756",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.raw_domain_count",
+    "transitive_axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Coverage.recordedRetainedCounts : List.{0} Nat",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.recordedRetainedCounts",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Coverage.retained_count_sum : Eq.{1} (List.sum.{0} FourBranch.Coverage.recordedRetainedCounts) 5375",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.retained_count_sum",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Coverage.small_branch_counts :\n  Eq.{1} (List.take.{0} 3 FourBranch.Coverage.recordedRetainedCounts)\n    (List.cons.{0} 0 (List.cons.{0} 0 (List.cons.{0} 10 List.nil.{0})))",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.small_branch_counts",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Coverage.four_branch_count_sum :\n  Eq.{1} (List.sum.{0} (List.drop.{0} 3 FourBranch.Coverage.recordedRetainedCounts)) 5365",
+    "module": "Coverage",
+    "name": "FourBranch.Coverage.four_branch_count_sum",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_Coverage"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Negative.missingRow : FourBranch.Segment",
+    "module": "NegativeChecks",
+    "name": "FourBranch.Negative.missingRow",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_NegativeChecks"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Negative.emptyCover : FourBranch.Segment",
+    "module": "NegativeChecks",
+    "name": "FourBranch.Negative.emptyCover",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_NegativeChecks"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "FourBranch.Negative.repeatedMatching : FourBranch.Segment",
+    "module": "NegativeChecks",
+    "name": "FourBranch.Negative.repeatedMatching",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_NegativeChecks"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Negative.missing_row_rejected : Eq.{1} (FourBranch.checkSegment FourBranch.Negative.missingRow) Bool.false",
+    "module": "NegativeChecks",
+    "name": "FourBranch.Negative.missing_row_rejected",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_NegativeChecks"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Negative.empty_cover_rejected : Eq.{1} (FourBranch.checkSegment FourBranch.Negative.emptyCover) Bool.false",
+    "module": "NegativeChecks",
+    "name": "FourBranch.Negative.empty_cover_rejected",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_NegativeChecks"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "FourBranch.Negative.repeated_matching_rejected :\n  Eq.{1} (FourBranch.checkSegment FourBranch.Negative.repeatedMatching) Bool.false",
+    "module": "NegativeChecks",
+    "name": "FourBranch.Negative.repeated_matching_rejected",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_NegativeChecks"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "abbrev",
+    "literal_type": "Tuza18Role.Edge : Type",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.Edge",
+    "transitive_axioms": [],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "abbrev",
+    "literal_type": "Tuza18Role.Triangle : Type",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.Triangle",
+    "transitive_axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.graphEdges : Finset.{0} Tuza18Role.Edge",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.graphEdges",
+    "transitive_axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.tri (a b c : ℕ) : Tuza18Role.Triangle",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.tri",
+    "transitive_axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.actualTriangles : Finset.{0} Tuza18Role.Triangle",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.actualTriangles",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.literalTriangles : Finset.{0} Tuza18Role.Triangle",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.literalTriangles",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.packing (P : Finset.{0} Tuza18Role.Triangle) : Prop",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.packing",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.packings : Finset.{0} (Finset.{0} Tuza18Role.Triangle)",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.packings",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.support (P : Finset.{0} Tuza18Role.Triangle) : Finset.{0} Tuza18Role.Edge",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.support",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.verts (T : Tuza18Role.Triangle) : Finset.{0} ℕ",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.verts",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.usedVerts (P : Finset.{0} Tuza18Role.Triangle) : Finset.{0} ℕ",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.usedVerts",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.privateBases (T : Tuza18Role.Triangle) (P : Finset.{0} Tuza18Role.Triangle) : Finset.{0} Tuza18Role.Edge",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.privateBases",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.roleCollision (P : Finset.{0} Tuza18Role.Triangle) : Prop",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.roleCollision",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.covers (C : Finset.{0} Tuza18Role.Edge) : Prop",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.covers",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.witnessPacking : Finset.{0} Tuza18Role.Triangle",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.witnessPacking",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.witnessCover : Finset.{0} Tuza18Role.Edge",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.witnessCover",
+    "transitive_axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "Tuza18Role.every_actual_triangle : Eq.{1} Tuza18Role.actualTriangles Tuza18Role.literalTriangles",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.every_actual_triangle",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "Tuza18Role.packing_upper_bound (P : Finset.{0} Tuza18Role.Triangle) :\n  Membership.mem.{0, 0} Tuza18Role.packings P → LE.le.{0} (Finset.card.{0} P) 2",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.packing_upper_bound",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "Tuza18Role.packing_attained :\n  Membership.mem.{0, 0} Tuza18Role.packings Tuza18Role.witnessPacking ∧\n    Eq.{1} (Finset.card.{0} Tuza18Role.witnessPacking) 2",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.packing_attained",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "Tuza18Role.cover_attained :\n  Tuza18Role.witnessCover ⊆ Tuza18Role.graphEdges ∧\n    Tuza18Role.covers Tuza18Role.witnessCover ∧ Eq.{1} (Finset.card.{0} Tuza18Role.witnessCover) 2",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.cover_attained",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "def",
+    "literal_type": "Tuza18Role.smallCoverCandidates : Finset.{0} (Finset.{0} Tuza18Role.Edge)",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.smallCoverCandidates",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "Tuza18Role.no_small_cover (C : Finset.{0} Tuza18Role.Edge) :\n  Membership.mem.{0, 0} Tuza18Role.smallCoverCandidates C → ¬Tuza18Role.covers C",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.no_small_cover",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "Tuza18Role.cover_lower_bound (C : Finset.{0} Tuza18Role.Edge) (hsub : C ⊆ Tuza18Role.graphEdges)\n  (hcov : Tuza18Role.covers C) : LE.le.{0} 2 (Finset.card.{0} C)",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.cover_lower_bound",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "Tuza18Role.graph_packing_bound (P : Finset.{0} Tuza18Role.Triangle) (hsub : P ⊆ Tuza18Role.actualTriangles)\n  (hdis : Tuza18Role.packing P) : LE.le.{0} (Finset.card.{0} P) 2",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.graph_packing_bound",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "Tuza18Role.canonical_simple_edges (e : Tuza18Role.Edge) :\n  Membership.mem.{0, 0} Tuza18Role.graphEdges e → LT.lt.{0} e.1 e.2 ∧ LT.lt.{0} e.2 6",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.canonical_simple_edges",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  },
+  {
+    "audit_stdout": "LOGS.jsonl",
+    "kind": "theorem",
+    "literal_type": "Tuza18Role.all_maximum_packings_obstruct_roles (P : Finset.{0} Tuza18Role.Triangle) :\n  Membership.mem.{0, 0} Tuza18Role.packings P →\n    Eq.{1} (Finset.card.{0} P) 2 →\n      (∀ (T : Tuza18Role.Triangle),\n          Membership.mem.{0, 0} P T → Eq.{1} (Finset.card.{0} (Tuza18Role.privateBases T P)) 1) ∧\n        Eq.{1} (Finset.card.{0} (Tuza18Role.usedVerts P)) 5 ∧ Tuza18Role.roleCollision P",
+    "module": "RoleWitness",
+    "name": "Tuza18Role.all_maximum_packings_obstruct_roles",
+    "transitive_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "audit_log_key": "audit_RoleWitness"
+  }
+]

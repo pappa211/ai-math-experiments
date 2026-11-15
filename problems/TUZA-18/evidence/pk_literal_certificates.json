@@ -1,0 +1,110 @@
+{
+  "elapsed_seconds": 0.02852300000085961,
+  "finished_utc": "2026-11-14T19:14:31.411889+00:00",
+  "input_sha256": {
+    "apex_role_witness_verified.json": "b0f9c987a68ff3f93b7f0c25978b98e235c57615c6cabb3be0533ef41331621f",
+    "criticality_type0_nonmaximum.json": "9c5c312140b20ecc00a4feb1487316d799e181180f5263f4566c9dd921631511"
+  },
+  "limits": [
+    "No exact maximum triangle packing of the48vertexgraph is asserted.",
+    "The528 cover lower bound uses the reconstructed neighborhood argument, not an exact restricted optimization.",
+    "Neither witness refutes maximum-packing PK."
+  ],
+  "nonmaximum_type0": {
+    "Clebsch_alpha": 5,
+    "actual_triangles": 7936,
+    "edges": 888,
+    "independent_subsets": 65536,
+    "larger_packing_size": 260,
+    "ordinary_Tuza_certified": true,
+    "ordinary_cover_size": 376,
+    "prescribed_packing_size": 256,
+    "replacement_local_triangles": 20,
+    "restricted_cover_lower_bound": 528,
+    "support_intersection_counts": {
+      "2": 3840,
+      "3": 4096
+    },
+    "vertices": 48
+  },
+  "role_witness": {
+    "actual_triangles": 6,
+    "all_have_forced_role_collision": true,
+    "all_maximum_packings": [
+      {
+        "mixed_tips": [
+          4
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            2,
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "mixed_tips": [
+          4
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "mixed_tips": [
+          5
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            2,
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "mixed_tips": [
+          5
+        ],
+        "packing": [
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            3,
+            4,
+            5
+          ]
+        ]
+      }
+    ],
+    "all_vertex_supports": 5,
+    "nu": 2,
+    "tau": 2
+  },
+  "script_sha256": "307ec90b6f5f10c1009a934f56246f0e2dd7f9398a0cc167a18bc46ac20d18d5",
+  "started_utc": "2026-11-14T19:14:31.383365+00:00",
+  "status": "PASS"
+}

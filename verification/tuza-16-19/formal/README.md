@@ -1,0 +1,13 @@
+# Fresh finite formal replay, 15 November 2026
+
+[Result](verification.json), [commands and resources](commands.jsonl), [literal declaration types and transitive axioms](declarations.json), [complete stdout/stderr](LOGS.jsonl), [source correspondence](source_correspondence.json), [environment and exact dependency pins](environment.json), and [new object hashes](object_hashes.json).
+
+All 133 accepted source modules were compiled afresh, serially, including all 128 WKE chunks. The audit covers 444 explicitly named source declarations, including 150 theorems. The 5,375 finite cases and all 15,756 raw vectors were independently regenerated and matched to the 128 memberships. The three deliberately false controls failed with the intended `decide` false-proposition diagnostic, not import failures. No accepted aggregate, all-size WKE/core proof, or common-vertex theorem was compiled.
+
+The command records retain output-relative log names as execution provenance. Their `archive_log` and `archive_log_key` locate the corresponding text in the single compact LOGS.jsonl archive, including empty streams. Private executable/output/cache prefixes were replaced by symbolic labels; original and sanitized stream hashes are both recorded. Compiled objects are hashed, not distributed. Literal theorem types and axiom text are unchanged.
+
+Observed aggregate process RSS was supervised at 2,200 MiB with a 240-second deadline per command, one thread and one compiler at a time. Actual sampled and `/usr/bin/time -l` peaks are recorded in verification.json and each command record. This is observed-process supervision, not an OS allocation guarantee. Exact installed dependencies were reused without updates or a cold rebuild.
+
+Two preliminary driver attempts exposed audit-format issues: an unsupported pretty-printer option, then universe suffixes on standard axiom names. The final driver uses `format.width` and normalizes universe suffixes only when checking the standard-axiom allowlist; literal output remains intact. No mathematical source or proof mode changed. An unused pinned Cli package has no compiled library; all actual direct imports and package revisions were verified.
+
+Independent candidate review found that the first driver could invoke an elan hard-link proxy before verifying installation. The accepted replay resolves both hard-link and symlink proxies without execution, requires the native installed toolchain layout/Mach-O binary first, and records proxy and native compiler hashes separately. Six resolver checks include missing-toolchain refusal. All 269 formal commands were then rerun against the explicit native compiler. [Resolver checks](../LEAN_RESOLUTION_CHECK.json).

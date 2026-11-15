@@ -1,0 +1,30 @@
+{
+  "status": "LOCAL_ACCEPTANCE_PASS",
+  "host": "Darwin",
+  "frozen_content_manifest_sha256": "d683bf904d32db17fb51da9dd2c001324bcb0309b50c4ee0decc4e80fa2e6c2e",
+  "frozen_scientific_editorial_files": 3134,
+  "source_mapping_sha256": "9129e1a74056866a70536d0c091f3cddba3bfd28703e561f15ea8c5a6c48a052",
+  "finite_receipt": "finite/VERIFICATION.json",
+  "finite_targets": 23,
+  "formal_receipt": "formal/verification.json",
+  "formal_accepted_modules": 133,
+  "formal_named_theorems": 150,
+  "formal_explicit_declarations": 444,
+  "formal_finite_records": 5375,
+  "formal_separate_chunks": 128,
+  "formal_expected_rejections": 3,
+  "pdf_pages_visually_reviewed": 13,
+  "pdf_review": "PDF_REVIEW.json",
+  "source_integrity": "SOURCE_INTEGRITY.json",
+  "internal_candidate_reviews": "INDEPENDENT_PUBLICATION_REVIEW.json",
+  "navigation": "All relative links and Markdown anchors in the publication overlay checked; all 46 PDF repository links resolve in the candidate. Primary-source external-link/edition limits are in LITERATURE_RECHECK.md.",
+  "privacy": "Explicit changed-file, decompressed-content and PDF metadata/text/bookmark/link checks passed. Installed dedicated secret scanners unavailable. Final staged/new-history and remote metadata results retained in external closeout.",
+  "not_replayed": [
+    "historical large discovery censuses",
+    "earlier TUZA-01–15 formal campaigns",
+    "rainbow solver proof traces",
+    "Ramsey-catalogue completeness",
+    "cold dependency build"
+  ],
+  "public_verification": "This file is a pre-publication local acceptance receipt. Exact PR/head/merge, live public downloads and fresh public-clone replay belong to the external publication receipt; no self-referential commit hash."
+}

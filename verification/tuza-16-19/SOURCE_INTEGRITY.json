@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "host": "Darwin",
+  "baseline_commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+  "sources": [
+    {
+      "source_alias": "TUZA-16",
+      "entries_compared": 247,
+      "git": {
+        "commit": "405e41c1eb24739405f4b06d8cdcd5715bb9fd13",
+        "tree": "cb812a36d61b81b586731278c305b8144c598d1b",
+        "status": "",
+        "branch": "main",
+        "tags": ""
+      },
+      "unchanged": true
+    },
+    {
+      "source_alias": "TUZA-17",
+      "entries_compared": 485,
+      "git": {
+        "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+        "tree": "73dd4cabb6a6af747adc3b245811d27f4c8fa53e",
+        "status": "",
+        "branch": "codex/tuza17-critical-core-apex",
+        "tags": ""
+      },
+      "unchanged": true
+    },
+    {
+      "source_alias": "TUZA-18",
+      "entries_compared": 621,
+      "git": {
+        "commit": "57708a8413929012d9ca8d15b0f925b3ef6b51e8",
+        "tree": "0e03c90b4f0de472eaf442e3d9bc811a0cbba669",
+        "status": "",
+        "branch": "codex/tuza-18",
+        "tags": "tuza18-final-checkpoint"
+      },
+      "unchanged": true
+    },
+    {
+      "source_alias": "TUZA-18-replay",
+      "entries_compared": 20,
+      "git": null,
+      "unchanged": true
+    },
+    {
+      "source_alias": "TUZA-19",
+      "entries_compared": 2441,
+      "git": {
+        "commit": "7563fdeeb5afb81ebe6ef005b5c5f9f7261ca670",
+        "tree": "207ad25f17e87caa850b1edfe021f251c4d008c1",
+        "status": "",
+        "branch": "codex/tuza19",
+        "tags": "tuza19-final-checkpoint"
+      },
+      "unchanged": true
+    }
+  ],
+  "scope": "All regular files (including Git metadata), symlink identities and modes in five frozen source workspaces; Git commands use --no-optional-locks. Read-only operation with integrity detection, not OS-enforced immutability.",
+  "older_public_files_compared": 1861,
+  "changed_old_paths": [
+    "DECLARATION_INDEX.md",
+    "ORDINARY_PROOF_INDEX.md",
+    "README.md",
+    "REPRODUCTION.md",
+    "STATUS_AND_PROVENANCE.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "older_mathematics_and_papers_unchanged": true,
+  "method": "Read-only operation with before/after integrity detection; not OS-enforced immutability. Pinned dependency Git states and direct import source/object hashes are separately recorded in formal evidence."
+}

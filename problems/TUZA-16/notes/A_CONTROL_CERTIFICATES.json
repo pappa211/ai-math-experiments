@@ -1,0 +1,187 @@
+{
+  "empty": {
+    "colouring": [],
+    "feasible_fourcut_defects": [],
+    "defect_upper_bound_for_every_maximum_fourcut": 0,
+    "packing_size": 0,
+    "cover_size": 0,
+    "universal_maximum_fourcut_lift_bound": 0,
+    "twice_packing": 0,
+    "argument": "For any maximum four-cut its defect cardinality is no larger; restricting the supplied original graph cover covers its residual."
+  },
+  "K3": {
+    "colouring": [
+      0,
+      1,
+      2
+    ],
+    "feasible_fourcut_defects": [],
+    "defect_upper_bound_for_every_maximum_fourcut": 0,
+    "packing_size": 1,
+    "cover_size": 1,
+    "universal_maximum_fourcut_lift_bound": 1,
+    "twice_packing": 2,
+    "argument": "For any maximum four-cut its defect cardinality is no larger; restricting the supplied original graph cover covers its residual."
+  },
+  "K4": {
+    "colouring": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "feasible_fourcut_defects": [],
+    "defect_upper_bound_for_every_maximum_fourcut": 0,
+    "packing_size": 1,
+    "cover_size": 2,
+    "universal_maximum_fourcut_lift_bound": 2,
+    "twice_packing": 2,
+    "argument": "For any maximum four-cut its defect cardinality is no larger; restricting the supplied original graph cover covers its residual."
+  },
+  "book7": {
+    "colouring": [
+      0,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "feasible_fourcut_defects": [],
+    "defect_upper_bound_for_every_maximum_fourcut": 0,
+    "packing_size": 1,
+    "cover_size": 1,
+    "universal_maximum_fourcut_lift_bound": 1,
+    "twice_packing": 2,
+    "argument": "For any maximum four-cut its defect cardinality is no larger; restricting the supplied original graph cover covers its residual."
+  },
+  "four_port_G": {
+    "colouring": [
+      0,
+      1,
+      2,
+      3,
+      2,
+      0,
+      1,
+      1
+    ],
+    "feasible_fourcut_defects": [],
+    "defect_upper_bound_for_every_maximum_fourcut": 0,
+    "packing_size": 4,
+    "cover_size": 5,
+    "universal_maximum_fourcut_lift_bound": 5,
+    "twice_packing": 8,
+    "argument": "For any maximum four-cut its defect cardinality is no larger; restricting the supplied original graph cover covers its residual."
+  },
+  "four_port_H": {
+    "colouring": [
+      0,
+      1,
+      2,
+      1,
+      2,
+      0,
+      3,
+      3
+    ],
+    "feasible_fourcut_defects": [],
+    "defect_upper_bound_for_every_maximum_fourcut": 0,
+    "packing_size": 4,
+    "cover_size": 4,
+    "universal_maximum_fourcut_lift_bound": 4,
+    "twice_packing": 8,
+    "argument": "For any maximum four-cut its defect cardinality is no larger; restricting the supplied original graph cover covers its residual."
+  },
+  "VB27": {
+    "colouring": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      0,
+      0,
+      2,
+      2,
+      0,
+      0,
+      3,
+      3,
+      3
+    ],
+    "feasible_fourcut_defects": [
+      [
+        24,
+        26
+      ],
+      [
+        25,
+        26
+      ]
+    ],
+    "defect_upper_bound_for_every_maximum_fourcut": 2,
+    "packing_size": 13,
+    "cover_size": 18,
+    "universal_maximum_fourcut_lift_bound": 20,
+    "twice_packing": 26,
+    "argument": "For any maximum four-cut its defect cardinality is no larger; restricting the supplied original graph cover covers its residual."
+  },
+  "clebsch": {
+    "colouring": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      2,
+      1,
+      2,
+      0,
+      3,
+      2,
+      3,
+      2,
+      0,
+      3,
+      3
+    ],
+    "feasible_fourcut_defects": [
+      [
+        10,
+        16
+      ],
+      [
+        12,
+        16
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "defect_upper_bound_for_every_maximum_fourcut": 3,
+    "packing_size": 8,
+    "cover_size": 11,
+    "universal_maximum_fourcut_lift_bound": 14,
+    "twice_packing": 16,
+    "argument": "For any maximum four-cut its defect cardinality is no larger; restricting the supplied original graph cover covers its residual."
+  }
+}

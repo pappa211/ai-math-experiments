@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-15T07:32:56.332261+00:00",
+  "host": "Darwin",
+  "original_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_effort": "Ultra",
+  "actual_model": "not exposed",
+  "actual_effort": "not exposed",
+  "verdict": "PASS ordinary fresh AI reconstruction; no material mathematical gap",
+  "scope": "All-size doubling family, zero/positive internal subsets, exact orbit mixture, local-polytope quantifiers, absence of joint-moment consistency, exact objective and incidence amplification. Nine independent fixed rational controls; no producer checker, census, optimization, Lean or novelty claim.",
+  "sha256": {
+    "notes/fresh_global_star_polytope_obstruction.md": "40896772e0eba03072bdab40c9e8ba95b708c0c6cd17f1dc1c17970f0ec7886e",
+    "notes/global_routes_universal_clique_reduction.md": "83d9549aae898656b2d09871c5f87c481d6b36116f7ac37d23f534df92f527a1",
+    "review/star_polytope_fresh_audit.md": "c4e8542b2746a0c1980d207530a80bb8d2be58a751c1e0fc1e61377187954521",
+    "review/star_polytope_fresh_verify.py": "e4cbd77857b2e784d988c131958e09221861247af91a07ebb5108c269254ddbf",
+    "evidence/star_polytope_fresh/local_certificates.json": "1a3487a03e07ca9bd33d775e38ce2125df7897f878cf70b3e7b95af8e5c0cddf",
+    "operations/clock.json": "db8baaaf29708e4be97741aa4ce9df1216c63c4895ab50bbdda5c9eeca715781"
+  },
+  "updated_utc": "2026-11-15T07:33:22.859321+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 17052026,
+  "runtime_s": 98.23082208399137,
+  "counts": {
+    "graphs": 4129,
+    "complete": 3808,
+    "timeout": 321,
+    "all_rim_old": 4129,
+    "hard_budget": 0,
+    "failure": 0
+  },
+  "hard_rows": [],
+  "limits": "115s wall batch,0.16s pergraph,125s CPU,700MiB peak RSS stop check between 0.16s cases; cache max200000"
+}

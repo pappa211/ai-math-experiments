@@ -1,0 +1,38 @@
+[
+  {
+    "file": "sources/rainbow_mixed_cover/haxell_narins_szabo_ryser_2018.pdf",
+    "url": "https://page.mi.fu-berlin.de/szabo/PDF/ryser.pdf",
+    "final_url": "https://page.mi.fu-berlin.de/szabo/PDF/ryser.pdf",
+    "sha256": "27938a622b0c28d867c2c61500da606ee319a069f39967e5076afcd35ea060f5",
+    "bytes": 590464,
+    "pages": 56,
+    "retrieved_utc": "2026-11-15T07:58:30.627507+00:00"
+  },
+  {
+    "file": "sources/rainbow_mixed_cover/lesaulnier_stocker_wenger_west_2010.pdf",
+    "url": "https://dwest.web.illinois.edu/pubs/rainmat.pdf",
+    "final_url": "https://dwest.web.illinois.edu/pubs/rainmat.pdf",
+    "sha256": "a98bfb3260fd333e9dbfd326a254a7e1d6042ce4ee8baacde8a326d28f395203",
+    "bytes": 103334,
+    "pages": 5,
+    "retrieved_utc": "2026-11-15T07:58:31.748310+00:00"
+  },
+  {
+    "file": "sources/rainbow_mixed_cover/wang_2011.pdf",
+    "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v18i1p162/pdf/",
+    "final_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v18i1p162/pdf/",
+    "sha256": "dbcbeb61ae31afc79970897de96534345bd4cc6eae96dde54cabe5411e77d185",
+    "bytes": 112863,
+    "pages": 7,
+    "retrieved_utc": "2026-11-15T07:58:34.423859+00:00"
+  },
+  {
+    "file": "sources/rainbow_mixed_cover/clow_haxell_mohar_2505.05339v2.pdf",
+    "url": "https://arxiv.org/pdf/2505.05339v2",
+    "sha256": "8aa27b2af2b1b0f8d133e8eab263dea688e8600205b0976fa39b38f0b16b0126",
+    "bytes": 504542,
+    "pages": 23,
+    "retrieved_utc": "2026-11-15T08:03:35.365940+00:00",
+    "scope": "Theorem1.3, Theorem2.1, Lemma2.2 and line-hypergraph definition; no independent replay of alpha(B)=43 or all lemma cases"
+  }
+]

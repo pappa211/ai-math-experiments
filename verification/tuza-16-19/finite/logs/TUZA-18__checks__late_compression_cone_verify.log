@@ -1,0 +1,1 @@
+{"status": "PASS", "original_nu_tau": [16, 24], "adjacent_nu_lower_tau_upper": [17, 25], "nonadjacent_nu_lower_tau_upper": [18, 24], "output": "FINITE_OUTPUT/work/TUZA-18/evidence/late_compression_cone_verified.json"}

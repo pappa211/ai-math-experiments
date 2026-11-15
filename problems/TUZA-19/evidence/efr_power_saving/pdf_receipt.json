@@ -1,0 +1,16 @@
+{
+  "requested_url": "https://www.renyi.hu/~p_erdos/1986-17.pdf",
+  "retrieved_url": "https://users.renyi.hu/~p_erdos/1986-17.pdf",
+  "final_url": "https://users.renyi.hu/~p_erdos/1986-17.pdf",
+  "retrieved_utc": "2026-11-15T07:35:34.341898+00:00",
+  "host": "Darwin",
+  "path": "sources/efr_power_saving/erdos_frankl_rodl_1986.pdf",
+  "bytes": 1331159,
+  "sha256": "81e2c6b4b8fd3378bc7139f90ce64b2aa0bf8d3dac5bcef470dcfcf4ff6f5ba9",
+  "previous_failures": [
+    "Initial curl request to www.renyi.hu returned HTTP403"
+  ],
+  "original_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z"
+}

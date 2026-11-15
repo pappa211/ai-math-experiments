@@ -1,0 +1,141 @@
+{
+  "reviewer": "fresh_critic",
+  "independence": "No producer program read or imported; reconstructed definitions and checked saved witnesses.",
+  "python": "3.12.12",
+  "started_utc": "2026-11-15T14:54:05.919838+00:00",
+  "checks": {
+    "VB27": {
+      "n": 27,
+      "edges": 130,
+      "triangles": 104,
+      "alpha_J": 4,
+      "maximum_independent_sets_J": 39,
+      "nu": 13,
+      "tau": 18,
+      "all_minimum_covers_spokes": true,
+      "method": "Independent-set extension enumeration on J plus audited ordinary double-twin optimal-cover proof; no 3^13 census repeated."
+    },
+    "Clebsch": {
+      "nu": 8,
+      "tau": 11,
+      "minimum_covers": 16,
+      "private_nu_each": 5,
+      "subset_states": 65536
+    },
+    "other_controls": {
+      "K3": [
+        1,
+        1
+      ],
+      "K4": [
+        1,
+        2
+      ],
+      "K5": [
+        2,
+        4
+      ],
+      "book7": [
+        1,
+        1
+      ],
+      "cartesian_K4_K5": [
+        13,
+        26
+      ],
+      "shared_vertex_blocks": [
+        7,
+        14
+      ],
+      "four_port_G": [
+        4,
+        5
+      ],
+      "four_port_H": [
+        4,
+        4
+      ],
+      "abstract_Fano": [
+        1,
+        3
+      ]
+    },
+    "K10_K11": {
+      "labeled_5_vertex_graphs_including_empty": 1024,
+      "permutations_each": 120,
+      "nonempty_isomorphism_classes": 33,
+      "complete": true,
+      "baseline_nu": {
+        "10": 13,
+        "11": 17
+      },
+      "verified_residual_packings": 66,
+      "residual_optima": "NOT_CLAIMED"
+    },
+    "B": {
+      "small_graphs_with_independent_optima": 6,
+      "K10_minus_edge_independent_sets": 11,
+      "dense_obstruction_verified": true
+    },
+    "C_affine": {
+      "rows_slopes_edges_triangles_planted_mixed_packing": [
+        [
+          1,
+          24,
+          16,
+          16,
+          0,
+          4
+        ],
+        [
+          2,
+          48,
+          32,
+          32,
+          0,
+          8
+        ],
+        [
+          3,
+          72,
+          96,
+          48,
+          48,
+          20
+        ],
+        [
+          4,
+          96,
+          256,
+          64,
+          192,
+          32
+        ]
+      ],
+      "partial_optimum": "NOT_COMPUTED; 20<=nu<=21",
+      "full_optima": [
+        32,
+        32
+      ],
+      "exact_cover_and_fractional_values": "2r by checked edge partition, pullback cover and per-copy K4 half-face packing"
+    },
+    "A": {
+      "base_vertices": 23,
+      "base_edges": 71,
+      "vertices": 553,
+      "edges": 41448,
+      "actual_triangles": 40896,
+      "packing_certificate": 192,
+      "cover_certificate": 384,
+      "fourcut_defect_lower": 576,
+      "twice_nu_upper": 552,
+      "maxcut_search": "NOT_RUN; ordinary proof establishes every partition bound",
+      "easy_control_colourings": 8
+    }
+  },
+  "source_hashes_unchanged": true,
+  "elapsed_seconds": 0.3569900000002235,
+  "status": "PASS",
+  "independent_final_verification": "NOT_RUN",
+  "finished_utc": "2026-11-15T14:54:06.276757+00:00"
+}

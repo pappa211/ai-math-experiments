@@ -1,0 +1,20 @@
+{
+  "gate": "Every minimum B-cover of a maximum all-type1 P can reach Hall deficiency zero by equal-cost single-edge swaps with nonincreasing deficiency.",
+  "source": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/evidence/apex_type1_directed_ledger.json.gz",
+  "source_sha256": "7cbae4b4721c0a77dd968e0118eefd575d067573fe13e0e25cd0ae1e01e19a86",
+  "seen_rows": 393643,
+  "last_index": 393642,
+  "totals": {
+    "states": 74698,
+    "bad_states": 355,
+    "monotone_traps": 0,
+    "component_traps": 0,
+    "eligible_rows": 36218,
+    "sum_of_row_max_deficiency": 331
+  },
+  "elapsed_seconds": 2.8798999580030795,
+  "first_failure": null,
+  "stop": "SOURCE_END",
+  "qualification": "New exact gate on old retained inputs. Source optimum/max-P status is imported; any decisive witness must be independently reconstructed.",
+  "execution_qualification": "Initial run took 2.862281082998379 s. A missing python command before sourcing the pinned environment prevented the planned main-guard edit, so importing the file in the next test reran the identical corpus once (2.8798999580030795 s) and replaced this receipt. Counts unchanged; main guard now fixed."
+}

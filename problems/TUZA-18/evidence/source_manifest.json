@@ -1,0 +1,156 @@
+[
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+    "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+    "path": "REPORT.md",
+    "sha256": "8a89d80eee8155bcd9351391fdcbc22d039b7cf569b0cf96fa56776a725ad61c",
+    "snapshot": "sources/tuza17/REPORT.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+    "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+    "path": "STATUS_MATRIX.json",
+    "sha256": "7cece9fa3d80aa0a6d6a57af286b6b579a3000823134719f4d9981f1bf357d97",
+    "snapshot": "sources/tuza17/STATUS_MATRIX.json"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+    "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+    "path": "PROOFS_AND_OBSTRUCTIONS.md",
+    "sha256": "dbe91ada89792e0ffe171ed75293ac8fbac12ee740814428816899ba30b25c7e",
+    "snapshot": "sources/tuza17/PROOFS_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+    "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+    "path": "notes/A_CRITICAL_NONSATURATION.md",
+    "sha256": "2de0d6031a5c8a60f028db2eaf5a324c77de2847373dda217ba03c8d4c0cd5ba",
+    "snapshot": "sources/tuza17/notes/A_CRITICAL_NONSATURATION.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+    "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+    "path": "notes/A_ELEMENTARY_MATCHING_BLOCKER.md",
+    "sha256": "59d77b3695af21922b7ba8079c802420c632bad2439c2a6cb8baf107c78af8fd",
+    "snapshot": "sources/tuza17/notes/A_ELEMENTARY_MATCHING_BLOCKER.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+    "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+    "path": "notes/B_FROZEN_v1.md",
+    "sha256": "225fe6d10e0255241db325a762c96203f4a0604b1dd0aac7885a8983dd32db42",
+    "snapshot": "sources/tuza17/notes/B_FROZEN_v1.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+    "commit": "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+    "path": "notes/B_FRONTIER_MATCHING_CERTIFICATE.md",
+    "sha256": "947d740d1316715bd44b41827d545a0f85aaceebcd05dfb84d96a810f02f874c",
+    "snapshot": "sources/tuza17/notes/B_FRONTIER_MATCHING_CERTIFICATE.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-16",
+    "commit": "405e41c1eb24739405f4b06d8cdcd5715bb9fd13",
+    "path": "REPORT.md",
+    "sha256": "7e784a9edf73f6e6494f932a096dc12de6a401ebbf559b0f450d9492c5deb58d",
+    "snapshot": "sources/tuza16/REPORT.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-16",
+    "commit": "405e41c1eb24739405f4b06d8cdcd5715bb9fd13",
+    "path": "ROUTES.md",
+    "sha256": "d9f4f926047d9d1c89db2d4b29e8977d7c7220eb425596362ec76dd0d0a0ad4e",
+    "snapshot": "sources/tuza16/ROUTES.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "RESEARCH_STATUS_2026-11-03.md",
+    "sha256": "4165e25cf9aa74a3a228de97ea64de0d4c4475350e18ba8e7f770a4c7fd4a6b7",
+    "snapshot": "sources/published/RESEARCH_STATUS_2026-11-03.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "STATUS_AND_PROVENANCE.md",
+    "sha256": "0bd25689cdfd4231dd67d19e89fe7f2940283a309346f6be923f3842914d341a",
+    "snapshot": "sources/published/STATUS_AND_PROVENANCE.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "ORDINARY_PROOF_INDEX.md",
+    "sha256": "0a8b307c238c95b3212be5d6406b1cd94c390f2fb356cdbe2ea5d2ea09b8fde9",
+    "snapshot": "sources/published/ORDINARY_PROOF_INDEX.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-07/notes/CRITICALITY_PACKAGE.md",
+    "sha256": "73c4f75375df6f04820ffeaf3e5e62a79f6c87ddeec76ecb7bc68c27bb4c8dc4",
+    "snapshot": "sources/published/problems/TUZA-07/notes/CRITICALITY_PACKAGE.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md",
+    "sha256": "124e50e3f564316b88e2cf5048fcd206f61d1c8230d8f0798891ed1bb7dafe41",
+    "snapshot": "sources/published/problems/TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-11/arguments/CLEBSCH_PRIVATE_OBSTRUCTION.md",
+    "sha256": "61900f98b6cb47f9446c0d1786c9c3dfd18bff24238a3c536ff0edd0e0ef0506",
+    "snapshot": "sources/published/problems/TUZA-11/arguments/CLEBSCH_PRIVATE_OBSTRUCTION.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md",
+    "sha256": "2be839e081d9b8e7fd77ad36c84b5ef0aff7f330a2987b5d5758ffb3c46ba481",
+    "snapshot": "sources/published/problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+    "sha256": "dee0a68245caa047a5f14cc3d1ba743320ef4d0e9f82c7bb0d379782ad3573fd",
+    "snapshot": "sources/published/problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "sha256": "f95552f45f4e83ad76be5c575e145ead8e3191235a86cd64899f3167749d3bff",
+    "snapshot": "sources/published/problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-07/notes/GAIN_ONE_THEOREM.md",
+    "sha256": "89c9d8f84ab4bc37f99ca7da1c5a1beca25dd5d0b163cc1ddbb2eb383bf881b6",
+    "snapshot": "sources/published/problems/TUZA-07/notes/GAIN_ONE_THEOREM.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-07/notes/COUNTEREXAMPLES_AND_FAILURES.md",
+    "sha256": "b29240ca18426cee29c29d7c7384ed69e999c5b7b543ee0493a07667d7e1cb1a",
+    "snapshot": "sources/published/problems/TUZA-07/notes/COUNTEREXAMPLES_AND_FAILURES.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-14B/notes/TRACK_A.md",
+    "sha256": "fd49f57fc0c028342f9225b65189f870dcf6166d556178c2de8d8fd10c55d1f0",
+    "snapshot": "sources/published/problems/TUZA-14B/notes/TRACK_A.md"
+  },
+  {
+    "repo": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-14/PROOF_WORKBOOK.md",
+    "sha256": "8f96edef7f4cb579aeb6f96883bc9b4512a6a28b362dd7e9a568f629d70a2abb",
+    "snapshot": "sources/published/problems/TUZA-14/PROOF_WORKBOOK.md"
+  }
+]

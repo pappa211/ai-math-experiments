@@ -1,0 +1,68 @@
+{
+  "status": "FROZEN_ORDINARY_PROOF_AWAITING_NEW_RECONSTRUCTION",
+  "created_utc": "2026-11-15T07:25:12.040393+00:00",
+  "original_research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "requested_model": "Astra",
+  "requested_effort": "Ultra",
+  "actual_serving_identity": "Not independently exposed",
+  "host": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "inputs": [
+    {
+      "path": "notes/packing_new_link_debt.md",
+      "snapshot": "evidence/fresh_global_star_polytope/inputs/notes__packing_new_link_debt.md",
+      "sha256": "6ea116c410e09f184a52ca564edfb86c8028a4b1c83313750c19a881b9e77e32"
+    },
+    {
+      "path": "review/link_debt_fresh_audit.md",
+      "snapshot": "evidence/fresh_global_star_polytope/inputs/review__link_debt_fresh_audit.md",
+      "sha256": "a9f999173bbbc90e63f63faf7da031560be3609113968cf928aba47325ddce89"
+    },
+    {
+      "path": "notes/global_routes_universal_clique_reduction.md",
+      "snapshot": "evidence/fresh_global_star_polytope/inputs/notes__global_routes_universal_clique_reduction.md",
+      "sha256": "83d9549aae898656b2d09871c5f87c481d6b36116f7ac37d23f534df92f527a1"
+    },
+    {
+      "path": "AGENTS.md",
+      "snapshot": "evidence/fresh_global_star_polytope/inputs/AGENTS.md",
+      "sha256": "03130ddf542fa57094ec18d43a81cf9e306073fd5defa27079347ea791ed18cf"
+    },
+    {
+      "path": "MISSION.txt",
+      "snapshot": "evidence/fresh_global_star_polytope/inputs/MISSION.txt",
+      "sha256": "26356f13532fa68c7a3362f42c65369abec51adb49531c18549f509e1fe42cda"
+    },
+    {
+      "path": "operations/clock.json",
+      "snapshot": "evidence/fresh_global_star_polytope/inputs/operations__clock.json",
+      "sha256": "db8baaaf29708e4be97741aa4ce9df1216c63c4895ab50bbdda5c9eeca715781"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "notes/fresh_global_star_polytope_obstruction.md",
+      "sha256": "40896772e0eba03072bdab40c9e8ba95b708c0c6cd17f1dc1c17970f0ec7886e"
+    },
+    {
+      "path": "checks/fresh_global_star_polytope.py",
+      "sha256": "712f4ccb8c9af800477190fada3db3d65b28fbd6cf8f53b4c26bab357cf87a96"
+    },
+    {
+      "path": "evidence/fresh_global_star_polytope/literal_receipt.json",
+      "sha256": "944b6d9beadf98d051a3093d51f8263589a2c679caf7e6672e6b5aa851df78f7"
+    }
+  ],
+  "commands": [
+    {
+      "command": "source LOCAL_ENVIRONMENT && python3 checks/fresh_global_star_polytope.py",
+      "returncode": 0
+    }
+  ],
+  "scope": "All-size ordinary fixed-k local convex-hull obstruction and incidence-amplification corollary; exact finite rational checks on K11/K23. Not joint-distribution consistency, Sherali-Adams, Lean, human review or a Tuza counterexample.",
+  "negative_controls": [
+    "Zero-internal-triple orbit alone fails required positive internal triangle marginal",
+    "Floor of local optimum still exceeds true packing optimum"
+  ],
+  "decision": "Stop exact local-star synchronization lane; any next bridge requires global constraints or different approximate accounting."
+}

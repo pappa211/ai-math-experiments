@@ -1,0 +1,69 @@
+{
+  "status": "FROZEN_READY_FOR_CANONICAL_TRANSFER",
+  "created_utc": "2026-11-14T20:27:31.251933+00:00",
+  "mathematical_stop_utc": "2026-11-14T21:00:10Z",
+  "manifest_target_relative_path": "evidence/compression_transfer_manifest.json",
+  "scope": "Independent continuation reconstruction of degree-directed compression transfer and its three scoped failures, with fixed literal certificates and statement-level verification of imported threshold theorem.",
+  "unchanged_prior_packages": {
+    "tuza18_critic_transfer_manifest.json": 22,
+    "tuza18_pk_transfer_manifest.json": 37,
+    "tuza18_addendum_transfer_manifest.json": 17,
+    "tuza18_chain_transfer_manifest.json": 8
+  },
+  "files": [
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_compression_input_late_compression_cone_verified.json",
+      "target_relative_path": "review/compression_inputs/late_compression_cone_verified.json",
+      "bytes": 33724,
+      "sha256": "b93d74b0962393b2574ebe6fc2cacda12f93500ae1e0ab80160a450eb4e619a9"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_compression_input_late_compression_gate.md",
+      "target_relative_path": "review/compression_inputs/late_compression_gate.md",
+      "bytes": 17531,
+      "sha256": "a0bb2de7f235f7a7329de8f3605285221c6c33e6dc3646643d301c8298749aea"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_compression_input_late_compression_rook_verified.json",
+      "target_relative_path": "review/compression_inputs/late_compression_rook_verified.json",
+      "bytes": 18185,
+      "sha256": "e9bc1a5c337ddcd0cf469e9c0d418354a220c104c3c946be729d73d09ae856e3"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_compression_input_late_compression_source.json",
+      "target_relative_path": "review/compression_inputs/late_compression_source.json",
+      "bytes": 855,
+      "sha256": "6a1d84a188dac53821b199ee443ad29cbb0540fb8dededa3d7adae5920d90071"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_compression_input_late_compression_verified.json",
+      "target_relative_path": "review/compression_inputs/late_compression_verified.json",
+      "bytes": 204932,
+      "sha256": "a69b30f5292a8ee4cde382ede0548259b5b5564c1baddfaf80d47702721d6796"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_compression_literal_check.json",
+      "target_relative_path": "evidence/compression_literal_check.json",
+      "bytes": 2971,
+      "sha256": "b79622840578f74cc86329438543b270f6dbd641d5d248597c5f784ae8c6ada2"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_compression_literal_check.py",
+      "target_relative_path": "checks/compression_literal_check.py",
+      "bytes": 8338,
+      "sha256": "840dbe3057e909ba589601e24d6eb1960cbd181812e8cb303ac00db9ae28fffd"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_compression_review.md",
+      "target_relative_path": "review/compression_review.md",
+      "bytes": 17398,
+      "sha256": "7f36927f21a31df5aa3951ee13f69a488f8f1777535efef90113d00a52517a99"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_compression_source_review.json",
+      "target_relative_path": "evidence/compression_source_review.json",
+      "bytes": 867,
+      "sha256": "69e344147bb475991bfb8ac5983bf58569cfb43476e409996374c66dfc2f6d7f"
+    }
+  ]
+}

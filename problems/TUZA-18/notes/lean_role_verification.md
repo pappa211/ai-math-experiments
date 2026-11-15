@@ -1,0 +1,15 @@
+# Finite Lean verification of the role obstruction
+
+Status: successful local Lean check of a finite auxiliary statement. This is not a Lean proof of unrestricted Tuza or of the new general ordinary lemmas.
+
+`lean/RoleWitness.lean` at SHA256 `bda7467d6fb23bd221f7792ff350206e8f93ddabdfd674e77b14bbfe6c1666f6` defines the six-vertex graph from `apex_role_obstruction.md` by its ten canonical actual edges. It enumerates all ordered triples of vertices 0,...,5 and requires all three edges, then proves that this full actual triangle set is exactly the six displayed triangles. Packings use disjoint graph-edge sets. The finite result is lifted to arbitrary packings of actual triangles, giving packing number two. An explicit two-edge cover and a lower bound quantified over arbitrary subsets of the actual edge set give cover number two.
+
+Every maximum packing uses five graph vertices, every packed member has exactly one edge supporting private pages, and a forced opposite-tip/base collision occurs. The source therefore checks the failure of the proposed universal vertex-role selection, including its quantifier over every maximum packing. It does not assert a failure of the permitted-edge PK candidate or of Tuza.
+
+Final local run: 2026-11-14 19:23:25.751612 through 19:23:26.842893 UTC, return code zero, 1.09 seconds. The command and complete output are in `evidence/lean_role_20261114T192326Z.json` and `.log`. All nine printed transitive axiom lists contain only `propext`, `Classical.choice`, and `Quot.sound`. The file contains no `sorry`, custom axiom, or `native_decide`; its finite computations use kernel-checked `decide` and ordinary proofs.
+
+The first attempt, retained as `evidence/lean_role_20261114T192106Z.{json,log}`, failed: an unavailable finite-set convenience predicate and an overly expanded finite decision exceeded the 2200 MiB bound. It was repaired by an explicit pairwise-disjointness predicate, rewriting the proved finite triangle identity before decisions, and reducing the small-cover lower bound to empty/singleton candidates. The intermediate successful run at 19:22:34 is retained. The final nine-theorem source was checked again at 19:23:26; the final source hash, rather than that intermediate hash, governs the claim.
+
+Pinned local Lean is 4.33.1, compiler `819816b2e0a3bf405af45ae5c7af2491d8f5bee6`, arm64-apple-darwin24.6.0. Mathlib is `0df444a360eaa60ab8c11dca51a86af692955474`. `evidence/lean_environment.json` records all nine installed dependency revisions, confirms they match the manifest and their worktrees were clean, and hashes the direct imported sources and compiled objects. The complete unchanged dependency manifest is `evidence/lean_lake_manifest.json`. The check reused installed compiled dependencies; no cold dependency build or independent kernel replay was performed.
+
+The continuing critic inspected the exact final definitions, theorem quantifiers, source, receipt, and all logged axiom lists and accepted the ordinary-to-formal mapping. This was an independent continuation review, not a fresh context or a second Lean execution. Its frozen record belongs to the separate PK review package.

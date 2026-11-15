@@ -1,0 +1,266 @@
+{
+  "after": {
+    "head": "57708a8413929012d9ca8d15b0f925b3ef6b51e8",
+    "remotes": [],
+    "status": ""
+  },
+  "before": {
+    "head": "57708a8413929012d9ca8d15b0f925b3ef6b51e8",
+    "remotes": [],
+    "status": "",
+    "tag_object": "f321778765a10f2bd4cf100b85988abca0e9c275",
+    "tag_target": "57708a8413929012d9ca8d15b0f925b3ef6b51e8"
+  },
+  "frozen_chain_check_summary": {
+    "N": 3,
+    "actual_triangles": 48,
+    "all_type1": true,
+    "compatible_states": 560,
+    "edges": 49,
+    "finished_utc": "2026-11-14T20:00:57.343492+00:00",
+    "initial_deficiency": 1,
+    "input_sha256": {
+      "tuza18_chain_input_late_star_connected_chain_verified.json": "0a552f9d2205363f4199d103720a26e26d6d3ea7c7354223dae877393f100e2d",
+      "tuza18_chain_input_late_star_connected_chain_verify.py": "1a62ed083fe4e9ef5fcbccc137c757bb793004917c2ae711401c4b46cfd3a00b",
+      "tuza18_chain_input_late_star_connected_pivot_obstruction.md": "0a5491534d7c85fb7206e4f0ffddafaf1c179f2b40ad0c198135f229e124f4cd",
+      "tuza18_chain_input_late_star_gluing_obstruction.md": "6ded16c3c61ef3029e86d7c9399bac6e3090ff80e204fd50023ce0f8fc6fee0b",
+      "tuza18_chain_input_late_star_literal_verified.json": "932dd4dcf96819c89094c91302218a3d3a7154254f063b8457b7b0e8539c90a0"
+    },
+    "limitations": [
+      "Only N=3 is replayed. The unbounded radius obstruction is an ordinary proof.",
+      "No broad graph corpus or producer checker is used.",
+      "The obstruction concerns strict decrease of global Hall deficiency on equal-cost covers for this fixed P."
+    ],
+    "minimum_states": 729,
+    "minimum_symmetric_difference": 4,
+    "nu": 12,
+    "packing_upper_method": "Unique local triangle ownership plus the six-odd-vertices local parity bound; no global packing oracle.",
+    "private_K4_completions": 0,
+    "repair_matching_indices": [
+      [
+        1,
+        7
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        9,
+        8
+      ]
+    ],
+    "script_sha256": "c299bb410a266acaf3c780e4bc8c1dbc5f162b70d83bd52d7599b3ec2aebd904",
+    "started_utc": "2026-11-14T20:00:57.311411+00:00",
+    "status": "PASS",
+    "support_cover_minimum": 24,
+    "support_minimum_factorization": "Each B edge belongs to one block, every actual triangle belongs to one block, and each local minimum is eight.",
+    "triangle_components": 1,
+    "vertices": 17
+  },
+  "host": "macOS-27.2.1-arm64-arm-64bit",
+  "observed_replay_scope": "Common-vertex packing theorem and local exchange corollary; not connected chain",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "replay_inventory_files": [
+    {
+      "bytes": 8049,
+      "path": "RECONSTRUCTION.md",
+      "sha256": "3219a7624dcf161239f8912524fd51cd37d8adef3dbd8b7bd8564ca5ecb95fb3"
+    },
+    {
+      "bytes": 3708,
+      "path": "REPLAY_RECEIPT.md",
+      "sha256": "3fb299b89e83b0ab7be58aa8dadb08332f31d39adfe81438ce02d348bf37cd5c"
+    },
+    {
+      "bytes": 0,
+      "path": "checker.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6745,
+      "path": "checker.stdout.json",
+      "sha256": "806ec58d7d9052d9405f932f70421bdb141ea0500ae5dd86310cdcd652912cdf"
+    },
+    {
+      "bytes": 1107,
+      "path": "checker_comparison.json",
+      "sha256": "512c941679f6286df1fbc993bd0ece7ad10e8954addd686843aeb6ef041fe2d5"
+    },
+    {
+      "bytes": 744,
+      "path": "checker_execution.json",
+      "sha256": "e400df322b7ebccf797710af3868db453527b7d929f19153bc4ddb4d658e7864"
+    },
+    {
+      "bytes": 6745,
+      "path": "checker_result.json",
+      "sha256": "806ec58d7d9052d9405f932f70421bdb141ea0500ae5dd86310cdcd652912cdf"
+    },
+    {
+      "bytes": 52596,
+      "path": "frozen/ARTIFACTS_SHA256.json",
+      "sha256": "026a1cf95f849123548b43fe4783d18558b3707eb35687151f4da14723de8525"
+    },
+    {
+      "bytes": 968,
+      "path": "frozen/checkpoint_tag_object.txt",
+      "sha256": "e98bb8bfb109d5d9bbef8b2fa94e2bbe389595b0799adf09d89d507eff7d3b25"
+    },
+    {
+      "bytes": 2924,
+      "path": "frozen/notes/criticality_star_local_dichotomy.md",
+      "sha256": "ef9e1a69c6722a648eb35549295e80d18b2e062ee6b2d6421bf91dbbcf8c7575"
+    },
+    {
+      "bytes": 12867,
+      "path": "frozen/notes/criticality_star_pk_theorem.md",
+      "sha256": "f08cc442241eef4b790bc4b5228c958045593f97ebf56c1259a6f6b1ffe5488b"
+    },
+    {
+      "bytes": 21072,
+      "path": "frozen/review/star_fresh_audit.md",
+      "sha256": "3c306e52feb2de93f676ff29ee33ef32e3efa2f8606061aa5f8a1fc627df6b94"
+    },
+    {
+      "bytes": 2149,
+      "path": "frozen/review/star_fresh_manifest.json",
+      "sha256": "74ddcd72e2042f0996c68b3dcdcf2c0091162eb6803e280a6ac5194e4baa6866"
+    },
+    {
+      "bytes": 6745,
+      "path": "frozen/review/star_fresh_verifier.json",
+      "sha256": "af7088e244ffa601847d4fa0a7bbdb1139d70090f0d7b1897a43fc828f2c4a36"
+    },
+    {
+      "bytes": 11128,
+      "path": "frozen/review/star_fresh_verify.py",
+      "sha256": "0993ae3d533433616a41ec3834331329746244fbdbd60491264b7651c78576f3"
+    },
+    {
+      "bytes": 560,
+      "path": "output_path.patch",
+      "sha256": "c7616b46eae2e9fca73c4dac2ea8810e72c0b5bc97441bfe9807a91575489b60"
+    },
+    {
+      "bytes": 8881,
+      "path": "run_replay.py",
+      "sha256": "b9dc01f3afc8e905886c89ec60fade5b28f04a5f6a836c0b83c62b9947fc9115"
+    },
+    {
+      "bytes": 1645,
+      "path": "source_verification.json",
+      "sha256": "a56a5c4471ba015833e84d9c5c0cfbafc3ad2b47ac5feed66dd7a45fbe3593e0"
+    },
+    {
+      "bytes": 11133,
+      "path": "star_fresh_verify_replay.py",
+      "sha256": "045062b47ead6af29a096f4fa3017a6ee144ab648f4052127c2714bd28001bd7"
+    }
+  ],
+  "replay_is_git_repository": false,
+  "replay_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18-replay",
+  "review_provenance": "Current AI continuation source audit and ordinary reconstruction; not independent formal or human verification. Parent requested gpt-6-astra / ultra; child has no separately exposed serving identity.",
+  "selected_sources": [
+    {
+      "bytes": 18709,
+      "git_blob": "81abff49984ff58dbdf6865c9cfbc88af709b0d8",
+      "manifest_matches": true,
+      "path": "REPORT.md",
+      "sha256": "464cbe005c1527e766ed21a7c98757a404fae7b149811c8968b41f795c34d4fa",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 10341,
+      "git_blob": "2794e93e5cc0f80783bfeaddb3907703f72c8992",
+      "manifest_matches": true,
+      "path": "STATUS_MATRIX.md",
+      "sha256": "ffabc0fef5870efef44d5d6d36eec87b0d793bfab8a866ea648e76cefb3f40b0",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 6286,
+      "git_blob": "6c4316cc769ac8e46286b5dffdc07e0d44c11728",
+      "manifest_matches": true,
+      "path": "FINAL_RECEIPT.md",
+      "sha256": "be094047ae739940e7e8f01cce7c53f13d5ff95494c8e95cc61792939749ea4d",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 7992,
+      "git_blob": "1e017dea02e277393df35fccca64783f3323564a",
+      "manifest_matches": true,
+      "path": "notes/late_star_connected_pivot_obstruction.md",
+      "sha256": "0a5491534d7c85fb7206e4f0ffddafaf1c179f2b40ad0c198135f229e124f4cd",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 6339,
+      "git_blob": "d6b2049b79521cc0703cd8c08a7ec43a9d5c1b64",
+      "manifest_matches": true,
+      "path": "notes/late_star_gluing_obstruction.md",
+      "sha256": "6ded16c3c61ef3029e86d7c9399bac6e3090ff80e204fd50023ce0f8fc6fee0b",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 13470,
+      "git_blob": "42460594e8757161375a71e4fb9388e46f2e6063",
+      "manifest_matches": true,
+      "path": "review/chain_review.md",
+      "sha256": "e4584143f39969ff20ffa48a6dbc56b2d45d1ca32f0b4df4168f5007e7fa10f4",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 7558,
+      "git_blob": "a0fceeee98c9aecb7413826f78f1bcabc3dee813",
+      "manifest_matches": true,
+      "path": "checks/chain_literal_check.py",
+      "sha256": "c299bb410a266acaf3c780e4bc8c1dbc5f162b70d83bd52d7599b3ec2aebd904",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 4238,
+      "git_blob": "5c0fc9b14e3cd8472ba8176824bc63e0379cd6fd",
+      "manifest_matches": true,
+      "path": "checks/late_star_connected_chain_verify.py",
+      "sha256": "1a62ed083fe4e9ef5fcbccc137c757bb793004917c2ae711401c4b46cfd3a00b",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 147661,
+      "git_blob": "4bde80cc123a34270a38a0c54d0007c8763860d4",
+      "manifest_matches": true,
+      "path": "evidence/chain_literal_check.json",
+      "sha256": "a1d485655dfa34029a1cfbe20036549df05f86b25579741052e2f3f7c61bf7a2",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 6665,
+      "git_blob": "296e454c766a42cd24b475e91836cacde80ac7e7",
+      "manifest_matches": true,
+      "path": "evidence/late_star_connected_chain_verified.json",
+      "sha256": "0a552f9d2205363f4199d103720a26e26d6d3ea7c7354223dae877393f100e2d",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 2855,
+      "git_blob": "d31a83747d83116c421c0194ed3b282ffadc148a",
+      "manifest_matches": true,
+      "path": "evidence/chain_transfer_manifest.json",
+      "sha256": "581e4722263c9da700d641b660cef24e961da74eb5a72e2fcf4451ca829224f8",
+      "worktree_matches_commit": true
+    },
+    {
+      "bytes": 196,
+      "git_blob": "bf929923f7148b8f91857347a43a368dc9e270bc",
+      "manifest_matches": true,
+      "path": "evidence/chain_transfer_manifest_import_receipt.json",
+      "sha256": "1f6e348a6d5d44b02e265788c780400aca119556d1e81950172707e90da0a856",
+      "worktree_matches_commit": true
+    }
+  ],
+  "source": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18",
+  "source_gap": "No newer connected-chain replay receipt located by bounded filename searches in canonical workspaces, initial Math Proof 2 cwd, or local-legacy-mirror; existing Nov15 replay positively identified as star-only. This does not assert absence elsewhere.",
+  "status": "PASS",
+  "utc": "2026-11-15T01:57:48.011897+00:00"
+}

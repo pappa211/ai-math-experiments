@@ -1,0 +1,87 @@
+{
+  "frozen_sources": [
+    {
+      "commit": "405e41c1eb24739405f4b06d8cdcd5715bb9fd13",
+      "files": [
+        {
+          "git_blob": "5ea0da3017635d14743e11552a4525b81e6b5862",
+          "matches_commit": true,
+          "path": "PROOFS_AND_OBSTRUCTIONS.md",
+          "sha256": "88b3e16310a3e89c28621081801acb3b32bb30526a9052d57bf6697e9dfafc10"
+        }
+      ],
+      "path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-16",
+      "status_porcelain": ""
+    },
+    {
+      "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+      "files": [
+        {
+          "git_blob": "d0b71812e1d1be2a2187f7c09ed8187bb3d0b309",
+          "matches_commit": true,
+          "path": "problems/TUZA-09/notes/MULTICOVER.md",
+          "sha256": "82d2de87874f0221b1e2102ebbfaf6c0ae079fa59d945cba26b17192a1404c96"
+        },
+        {
+          "git_blob": "9ff14919b80e0adb7f2ce5a60d125cb133882770",
+          "matches_commit": true,
+          "path": "problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+          "sha256": "731d276e2a65283cf90243aefa9d94badb66d3729d488184835ab237e526d922"
+        },
+        {
+          "git_blob": "19fc8efec4082a8ae1208b5d027490777c704a2a",
+          "matches_commit": true,
+          "path": "problems/TUZA-14B/notes/TRACK_B.md",
+          "sha256": "338cb87af4175512b26c79ae713893a6dd2b0bbe0e6a87e2b45a2171f949071f"
+        }
+      ],
+      "path": "https://github.com/pappa211/ai-math-experiments/blob/main",
+      "status_porcelain": ""
+    }
+  ],
+  "metadata": "Parent requested gpt-6-astra / ultra; no separately exposed serving metadata. Local Darwin computation only.",
+  "outputs": [
+    {
+      "bytes": 9954,
+      "path": "notes/fractional_routes_halfcover_embedding.md",
+      "sha256": "6166d3f4202cb91769e09508ba6601db56f320e06b6a2032e9b6960c738d7434"
+    },
+    {
+      "bytes": 5860,
+      "path": "checks/fractional_routes_halfcover_embedding.py",
+      "sha256": "736211c748f3937be1787659c9284103e12d70cb6f0a7f8dc47a29d6011267f3"
+    },
+    {
+      "bytes": 55782,
+      "path": "evidence/fractional_routes/halfcover_embedding_check.json",
+      "sha256": "2fa95f61aed86daba7f709f82fe321db9da4f726ff06b5060e42a81821f9b6fd"
+    }
+  ],
+  "primary_literature": [
+    {
+      "authors": "Chalermsook, Khuller, Sukprasert, Uniyal",
+      "observed_version": "v2, 3 February 2021",
+      "read_scope": "Theorem2 and surrounding denominator-k definition; Proposition6; partial introductory discussion. Full 69-page argument not audited.",
+      "title": "Multi-transversals for Triangles and the Tuza's Conjecture",
+      "url": "https://arxiv.org/pdf/2001.00257",
+      "use": "Prior-art exclusion only; not an input to the W(J) ordinary proof."
+    },
+    {
+      "authors": "Chapuy, DeVos, McDonald, Mohar, Scheide",
+      "observed_version": "v2, 25 May 2015",
+      "read_scope": "Weighted definitions, Theorem1.6, Theorem1.10 and surrounding discussion. Full proof not audited.",
+      "title": "Packing triangles in weighted graphs",
+      "url": "https://arxiv.org/pdf/1012.0372",
+      "use": "Prior-art exclusion of universal fixed LP denominators only."
+    },
+    {
+      "authors": "Haxell, Kostochka, Thomasse",
+      "read_scope": "Primary search extraction of abstract only. No full paper audit.",
+      "title": "A Stability Theorem on Fractional Covering of Triangles by Edges",
+      "url": "https://perso.ens-lyon.fr/stephan.thomasse/liste/fractuza.pdf",
+      "use": "Orientation only, no decisive import."
+    }
+  ],
+  "status": "PASS",
+  "utc": "2026-11-15T02:12:46.609951+00:00"
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "repository": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-14B/README.md",
+    "sha256": "8e9504900d3f6b1182aa093b946c46b7146f992d74fb5bf817f8d95a5167b654"
+  },
+  {
+    "repository": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+    "sha256": "731d276e2a65283cf90243aefa9d94badb66d3729d488184835ab237e526d922"
+  },
+  {
+    "repository": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-14B/notes/TRACK_A.md",
+    "sha256": "fd49f57fc0c028342f9225b65189f870dcf6166d556178c2de8d8fd10c55d1f0"
+  },
+  {
+    "repository": "https://github.com/pappa211/ai-math-experiments/blob/main",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-14B/notes/TRACK_B.md",
+    "sha256": "338cb87af4175512b26c79ae713893a6dd2b0bbe0e6a87e2b45a2171f949071f"
+  },
+  {
+    "path": "LOCAL_ENVIRONMENT",
+    "observed_repository_head": "43ff4ae91f2b51ce1a70cce69e5e2290f2fc1a24",
+    "sha256": "90e3b5e562a6892bd7556e97b20c2bdcab706640d9858cd347893cc228edfcfe"
+  }
+]

@@ -1,0 +1,1 @@
+{"system":"Darwin","release":"27.2.0","machine":"arm64","model":"Mac17,2","memory_bytes":17179869184,"cpu_count":10,"macOS":"27.2","build":"26B123","free_disk_observed":"633 GiB","python":"3.12.12","networkx":"3.7","lean":"4.33.1","lean_commit":"819816b2e0a3bf405af45ae5c7af2491d8f5bee6","initial_sysctl":"sandbox denied","subsequent_sysctl":"authorized read succeeded"}

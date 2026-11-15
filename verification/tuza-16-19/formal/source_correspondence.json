@@ -1,0 +1,18 @@
+{
+  "branch_1_records": 0,
+  "branch_2_records": 0,
+  "canonical_records": 5375,
+  "complete_regenerated_domain": true,
+  "coverage_counts_equal": true,
+  "coverage_headers_equal": true,
+  "generation_schedule_equal": true,
+  "input_sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+  "largest_chunk": 112,
+  "per_branch_records": {
+    "3": 10,
+    "4": 5365
+  },
+  "raw_vectors": 15756,
+  "source_bytes_equal_modules": 128,
+  "status": "PASS"
+}

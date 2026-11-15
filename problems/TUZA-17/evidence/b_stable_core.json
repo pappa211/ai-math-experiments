@@ -1,0 +1,17 @@
+{
+  "target": "SMALL-CORE: stable slack-one triangle-connected rainbow3colourable implies nu<=2",
+  "seed": 170611,
+  "counts": {
+    "attempted": 2304,
+    "complete": 2304,
+    "timeout_UNKNOWN": 0,
+    "slack1": 3,
+    "stable_slack1": 3,
+    "connected_stable_slack1": 0
+  },
+  "witnesses": [],
+  "elapsed_seconds": 1.2290328749950277,
+  "status": "NO_COUNTEREXAMPLE_IN_COMPLETED_PROBES",
+  "scope": "targeted K4 attachments, no broad graph census",
+  "limits": "50s self-wall,55s CPU,0.15s/case; external60s/512MiB watchdog"
+}

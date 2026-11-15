@@ -1,0 +1,237 @@
+{
+  "status": "FROZEN_READY_FOR_CANONICAL_TRANSFER",
+  "created_utc": "2026-11-14T19:39:30.368123+00:00",
+  "mathematical_stop_utc": "2026-11-14T21:00:10Z",
+  "manifest_target_relative_path": "evidence/pk_transfer_manifest.json",
+  "scope": "Independent continuation review, ordinary all-size proofs and separate literal checks; semantic audit of coordinator finite Lean role certificate; no unrestricted result.",
+  "original_review_package_unchanged_files": 22,
+  "canonical_private_replacement": {
+    "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_late_cover_gate_corrected.md",
+    "target_relative_path": "notes/late_cover_gate.md",
+    "sha256": "9fcdea12fa9893196e7ebd81abf3c9e4ebefd27b223559300d6b5fc1c2deee9d"
+  },
+  "files": [
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_RoleWitness.lean",
+      "target_relative_path": "review/pk_inputs/RoleWitness.lean",
+      "bytes": 4810,
+      "sha256": "bda7467d6fb23bd221f7792ff350206e8f93ddabdfd674e77b14bbfe6c1666f6"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_apex_private_k4_gate.md",
+      "target_relative_path": "review/pk_inputs/apex_private_k4_gate.md",
+      "bytes": 6758,
+      "sha256": "64eb527d7d417d23fdeed77f0a0d3e5e545a2e71a7ea81d2ceaa4a70c532b3ad"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_apex_role_obstruction.md",
+      "target_relative_path": "review/pk_inputs/apex_role_obstruction.md",
+      "bytes": 5318,
+      "sha256": "552d445d929481a668c3e2709a55376853e843cce102eb85c9f1c3f6cff88342"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_apex_role_witness_verified.json",
+      "target_relative_path": "review/pk_inputs/apex_role_witness_verified.json",
+      "bytes": 5198,
+      "sha256": "b0f9c987a68ff3f93b7f0c25978b98e235c57615c6cabb3be0533ef41331621f"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_apex_type1_embedding.md",
+      "target_relative_path": "review/pk_inputs/apex_type1_embedding.md",
+      "bytes": 5266,
+      "sha256": "ab8e1d7a28a72854e9ff4324b62b2e22847d31decddea751698e6165973a27fd"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_coordinator_pk_block_extension.md",
+      "target_relative_path": "review/pk_inputs/coordinator_pk_block_extension.md",
+      "bytes": 7481,
+      "sha256": "a2124ffc1d0fa3208537741c6616ae128ad331b86a2652ee59d43e00dcc1b1b3"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_coordinator_type_budget_gate.md",
+      "target_relative_path": "review/pk_inputs/coordinator_type_budget_gate.md",
+      "bytes": 4460,
+      "sha256": "ad34035620a5c85274eb39a1da2a29b990ddad896319cd5a6088dc3e7d11a78b"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_criticality_private_tip_pk.md",
+      "target_relative_path": "review/pk_inputs/criticality_private_tip_pk.md",
+      "bytes": 7147,
+      "sha256": "d0e343bac9b509710c454ac4e0b5b8483d8b980ca2411ad50b48cfc607cfdedf"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_criticality_star_local_dichotomy.md",
+      "target_relative_path": "review/pk_inputs/criticality_star_local_dichotomy.md",
+      "bytes": 2924,
+      "sha256": "ef9e1a69c6722a648eb35549295e80d18b2e062ee6b2d6421bf91dbbcf8c7575"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_criticality_star_pk_theorem.md",
+      "target_relative_path": "review/pk_inputs/criticality_star_pk_theorem.md",
+      "bytes": 12867,
+      "sha256": "f08cc442241eef4b790bc4b5228c958045593f97ebf56c1259a6f6b1ffe5488b"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_criticality_star_tight_control.json",
+      "target_relative_path": "review/pk_inputs/criticality_star_tight_control.json",
+      "bytes": 10537,
+      "sha256": "0fe1baed906b5685564cbba94db407da2a943d49a5c0af27ff70cabc2f03b63f"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_criticality_star_tight_control.md",
+      "target_relative_path": "review/pk_inputs/criticality_star_tight_control.md",
+      "bytes": 5218,
+      "sha256": "cec71b76e7695f6e319464851891cb2226acbbf1a3d8c0790eafb42f838be2cd"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_criticality_type0_gate.md",
+      "target_relative_path": "review/pk_inputs/criticality_type0_gate.md",
+      "bytes": 5601,
+      "sha256": "39d73fe5dc92b48c8ea0bd8acb93994e4c1d09d5f2cc8c8447ccd91cbc4d57e8"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_criticality_type0_local_geometry.md",
+      "target_relative_path": "review/pk_inputs/criticality_type0_local_geometry.md",
+      "bytes": 4476,
+      "sha256": "a860d165e00fbfeafc593d746ed5ff995dfd6a9423b06a5666a1d4a0f8ac7faf"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_criticality_type0_nonmaximum.json",
+      "target_relative_path": "review/pk_inputs/criticality_type0_nonmaximum.json",
+      "bytes": 92262,
+      "sha256": "9c5c312140b20ecc00a4feb1487316d799e181180f5263f4566c9dd921631511"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_late_cover_gate.md",
+      "target_relative_path": "review/pk_inputs/late_cover_gate.md",
+      "bytes": 6584,
+      "sha256": "c0bf6c91879dc2981c41138f00a59cdb9c10737d2c13e1ec135f6dcabba53f0c"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_late_cover_gate_corrected.md",
+      "target_relative_path": "review/pk_inputs/late_cover_gate_corrected.md",
+      "bytes": 7509,
+      "sha256": "9fcdea12fa9893196e7ebd81abf3c9e4ebefd27b223559300d6b5fc1c2deee9d"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_late_cover_verified.json",
+      "target_relative_path": "review/pk_inputs/late_cover_verified.json",
+      "bytes": 3768,
+      "sha256": "5699930e916dbbe45d09b86bdce25b6bb96796b56c8270256a658d9443ed2078"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_lean_role.json",
+      "target_relative_path": "review/pk_inputs/lean_role.json",
+      "bytes": 1715,
+      "sha256": "9abaa1c2eb19411bfe18a5afe64da166b6d10d03dcb7367ffbd33fdfe64f755d"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_input_lean_role.log",
+      "target_relative_path": "review/pk_inputs/lean_role.log",
+      "bytes": 834,
+      "sha256": "25670523144bae896985722879480988148cccdc459d57687fbc34081ce7171f"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_k4free_star_lemma.md",
+      "target_relative_path": "review/pk_k4free_star_lemma.md",
+      "bytes": 3993,
+      "sha256": "972fb71030bbad57fbff75db4fcef8860d3a7a76ba9c8cacc6126c8ff362519b"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_late_cover_check.json",
+      "target_relative_path": "evidence/pk_late_cover_check.json",
+      "bytes": 979,
+      "sha256": "a96e5dbb2476481c458ec4a92b97a1d61822d5d41c7c79cdfba4406035d01643"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_late_cover_check.py",
+      "target_relative_path": "checks/pk_late_cover_check.py",
+      "bytes": 3372,
+      "sha256": "e931d3fd858727d3d23a82bbbb10798932513a0ae23c64102d032d7d754ba62c"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_literal_certificates.json",
+      "target_relative_path": "evidence/pk_literal_certificates.json",
+      "bytes": 2322,
+      "sha256": "bbaaa32a8d74422b41aa01ca218b02a2383e78d136cbe9e82d9988b5ef868844"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_literal_certificates.py",
+      "target_relative_path": "checks/pk_literal_certificates.py",
+      "bytes": 5387,
+      "sha256": "307ec90b6f5f10c1009a934f56246f0e2dd7f9398a0cc167a18bc46ac20d18d5"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_maximal_star_control.json",
+      "target_relative_path": "evidence/pk_maximal_star_control.json",
+      "bytes": 5216,
+      "sha256": "8ea0bc369662e10d5cda2ab018f5d4b0a5494c67d399b998b24fdda11fc87f35"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_maximal_star_control.py",
+      "target_relative_path": "checks/pk_maximal_star_control.py",
+      "bytes": 3341,
+      "sha256": "bc6c76ccecf8d604c6e513173989b8eb924cf9bb82230ceaaff2303a38d3e1d2"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_package.md",
+      "target_relative_path": "review/pk_package.md",
+      "bytes": 3874,
+      "sha256": "666a4523689976cdab6cd3b21b0bf57c8e745b190c6e8e3545c2f937817723fa"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_pair_matrix_check.json",
+      "target_relative_path": "evidence/pk_pair_matrix_check.json",
+      "bytes": 25795,
+      "sha256": "8c883d01d7ff00e3d563c4d8a4f44cecd8d620ea7988ac1ce22b85a957606c6e"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_pair_matrix_check.py",
+      "target_relative_path": "checks/pk_pair_matrix_check.py",
+      "bytes": 3332,
+      "sha256": "4aae70c7de79ba700144552776bdc8457b6cd2c1a4d490f3d4d0b577f9127e51"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_source_clebsch.md",
+      "target_relative_path": "review/pk_sources/clebsch.md",
+      "bytes": 7056,
+      "sha256": "61900f98b6cb47f9446c0d1786c9c3dfd18bff24238a3c536ff0edd0e0ef0506"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_source_se_workbook.md",
+      "target_relative_path": "review/pk_sources/se_workbook.md",
+      "bytes": 12251,
+      "sha256": "8f96edef7f4cb579aeb6f96883bc9b4512a6a28b362dd7e9a568f629d70a2abb"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_star_review.md",
+      "target_relative_path": "review/pk_star_review.md",
+      "bytes": 61595,
+      "sha256": "0dc39e1179d362718cee2b3c692292131abe2d49c801204198f76eed2d386fe4"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_tight_control_check.json",
+      "target_relative_path": "evidence/pk_tight_control_check.json",
+      "bytes": 1006,
+      "sha256": "fe8acff4fe462211e406d92204d114bf01c89eb7e356d523374bbf4ce6816bc7"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_tight_control_check.py",
+      "target_relative_path": "checks/pk_tight_control_check.py",
+      "bytes": 4197,
+      "sha256": "514f3856296f2b1d2e0ec32a98dfed3149aa176d999483d9f9012d79fe07a507"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_wagner_deletion_repair.json",
+      "target_relative_path": "evidence/pk_wagner_deletion_repair.json",
+      "bytes": 524908,
+      "sha256": "5f7c91942ad42bbd3ca907e84e051089da015df19f43990ee9fd5aa059d24dd6"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_pk_wagner_deletion_repair.py",
+      "target_relative_path": "checks/pk_wagner_deletion_repair.py",
+      "bytes": 4193,
+      "sha256": "0e140f41a061415bc2d1abf730dea9c29ca83819d005dbce67fe4c20843b4559"
+    }
+  ]
+}

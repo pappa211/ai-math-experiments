@@ -1,0 +1,1 @@
+{"core": [8, 16, 13, 3, 5], "core_maximum_packings": 36, "obstructed_core_states": 6, "padded": [32, 76, 73, 15, 29], "padded_Fmax": 99, "padded_Fmax_count": 4374, "profile_cases": 2304, "receipt_sha256": "853b34ffa1073ecc29683ea28e18ec31b77e73c1b6c3bfea0d5842e19b3ee52a", "status": "PASS_FIXED_GATE_COUNTEREXAMPLE"}

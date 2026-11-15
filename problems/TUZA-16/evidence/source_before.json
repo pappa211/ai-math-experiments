@@ -1,0 +1,106 @@
+[
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/RESEARCH_STATUS_2026-11-03.md",
+    "snapshot": "sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "4165e25cf9aa74a3a228de97ea64de0d4c4475350e18ba8e7f770a4c7fd4a6b7",
+    "working_before_sha256": "4165e25cf9aa74a3a228de97ea64de0d4c4475350e18ba8e7f770a4c7fd4a6b7"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/STATUS_AND_PROVENANCE.md",
+    "snapshot": "sources/public/STATUS_AND_PROVENANCE.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "0bd25689cdfd4231dd67d19e89fe7f2940283a309346f6be923f3842914d341a",
+    "working_before_sha256": "0bd25689cdfd4231dd67d19e89fe7f2940283a309346f6be923f3842914d341a"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/ORDINARY_PROOF_INDEX.md",
+    "snapshot": "sources/public/ORDINARY_PROOF_INDEX.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "0a8b307c238c95b3212be5d6406b1cd94c390f2fb356cdbe2ea5d2ea09b8fde9",
+    "working_before_sha256": "0a8b307c238c95b3212be5d6406b1cd94c390f2fb356cdbe2ea5d2ea09b8fde9"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/papers/tuza-11-15-research-summary/main.md",
+    "snapshot": "sources/public/papers/tuza-11-15-research-summary/main.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "48a25dcec27f7019890a4a0f09080b85ea7b69e9df51eb66d7b9710e4768a817",
+    "working_before_sha256": "48a25dcec27f7019890a4a0f09080b85ea7b69e9df51eb66d7b9710e4768a817"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/REPRODUCTION.md",
+    "snapshot": "sources/public/REPRODUCTION.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "94a381f6d059bbf2f87cf43effff9b0582cb8aaa8d360a7db0bf314339423aab",
+    "working_before_sha256": "94a381f6d059bbf2f87cf43effff9b0582cb8aaa8d360a7db0bf314339423aab"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/verification/tuza-11-15/DEPENDENCIES.md",
+    "snapshot": "sources/public/verification/tuza-11-15/DEPENDENCIES.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "fab8f69ec936549280cab2b658231ae6bfded1062c0d20a625e7ced9231f0872",
+    "working_before_sha256": "fab8f69ec936549280cab2b658231ae6bfded1062c0d20a625e7ced9231f0872"
+  },
+  {
+    "source": "LOCAL_ENVIRONMENT",
+    "snapshot": "sources/operating/AGENTS.md",
+    "working_before_sha256": "ce1f13146460d47c74fe6c9fa85d10e44cbec0a865eacc35a314141dc1a9678d"
+  },
+  {
+    "source": "LOCAL_ENVIRONMENT",
+    "snapshot": "sources/operating/migration/MAC_MATH_PROOF_HANDOFF.md",
+    "working_before_sha256": "2c03ccaa9d141b16ae76caaaa8d143838d9a02c4f2bdb5a3209634f6613a32fe"
+  },
+  {
+    "source": "LOCAL_ENVIRONMENT",
+    "snapshot": "sources/operating/migration/MIGRATION_REPORT.md",
+    "working_before_sha256": "3057cc5569183c85f9ebb756da24754ae2c6e26f20db3bd1564821cf593fb494"
+  },
+  {
+    "source": "LOCAL_ENVIRONMENT",
+    "snapshot": "sources/operating/migration/env.sh",
+    "working_before_sha256": "00a6e964c0f1cbe0c277b210230fa14e40927b0081dd12a8d98031ddc6e83f68"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-11/arguments/CLEBSCH_PRIVATE_OBSTRUCTION.md",
+    "snapshot": "sources/public/problems/TUZA-11/arguments/CLEBSCH_PRIVATE_OBSTRUCTION.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "61900f98b6cb47f9446c0d1786c9c3dfd18bff24238a3c536ff0edd0e0ef0506",
+    "working_before_sha256": "61900f98b6cb47f9446c0d1786c9c3dfd18bff24238a3c536ff0edd0e0ef0506"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-11/evidence/CLEBSCH_PRIVATE_OBSTRUCTION.json",
+    "snapshot": "sources/public/problems/TUZA-11/evidence/CLEBSCH_PRIVATE_OBSTRUCTION.json",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "3d00709e66f9850ddb37e6ba35785c22fb6441f8b451e1ad839d7dbbc1fac896",
+    "working_before_sha256": "3d00709e66f9850ddb37e6ba35785c22fb6441f8b451e1ad839d7dbbc1fac896"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-12/notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md",
+    "snapshot": "sources/public/problems/TUZA-12/notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "c3613267623fe025f398ef95c92f49c6c425e3e703984961555ef7a755eceb62",
+    "working_before_sha256": "c3613267623fe025f398ef95c92f49c6c425e3e703984961555ef7a755eceb62"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-12/experiments/C_four_port_probe.json",
+    "snapshot": "sources/public/problems/TUZA-12/experiments/C_four_port_probe.json",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "3c8cd3063aa23138d4a44058dc036ec9fc55fb6337a58199da6afbf456386577",
+    "working_before_sha256": "3c8cd3063aa23138d4a44058dc036ec9fc55fb6337a58199da6afbf456386577"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-11/REPRODUCTION.md",
+    "snapshot": "sources/public/problems/TUZA-11/REPRODUCTION.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "53a65480ff0db8354d092dcf68a7f662aef50cf40e3ffb6cfc6e17a7a8b673c9",
+    "working_before_sha256": "53a65480ff0db8354d092dcf68a7f662aef50cf40e3ffb6cfc6e17a7a8b673c9"
+  },
+  {
+    "source": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-12/REPRODUCTION.md",
+    "snapshot": "sources/public/problems/TUZA-12/REPRODUCTION.md",
+    "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "frozen_sha256": "71630fee704f775ba55ca0fa0119ff82f00ab55621890a1bdb294073d57a6d03",
+    "working_before_sha256": "71630fee704f775ba55ca0fa0119ff82f00ab55621890a1bdb294073d57a6d03"
+  }
+]

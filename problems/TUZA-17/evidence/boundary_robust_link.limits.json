@@ -1,0 +1,15 @@
+{
+  "command": [
+    "LOCAL_ENVIRONMENT",
+    "-B",
+    "checks/boundary_robust_link.py"
+  ],
+  "pid": 56611,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 25.204499500003294,
+  "peak_sampled_RSS_bytes": 15663104,
+  "wall_limit_seconds": 35.0,
+  "RSS_limit_MiB": 256.0,
+  "status": "PASS"
+}

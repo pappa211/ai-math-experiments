@@ -1,0 +1,30 @@
+{
+  "recorded_utc": "2026-11-15T04:29:45.665557+00:00",
+  "host": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "mission_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "serving_metadata": "Exact serving model and effort not exposed; no serving assertion made.",
+  "result": "H-BTF and TF-alone odd normalization/factor-two gates refuted by an ordinary actual-graph existence construction.",
+  "construction": "H is the K5-incidence graph from the frozen source, B=cone(H), W attaches K5 to every new apex spoke.",
+  "exact_symbolic_values": {
+    "tau": "4n+4b",
+    "nu": "2n+2b+mu(H)",
+    "pi": "4n+tau_B(H)>4n+4b+2Ln",
+    "vertices": "4n+1",
+    "edges": "10b+10n",
+    "triangles": "20b+10n"
+  },
+  "explicit_missing_hypothesis": "Two-edge packing resilience fails: for every H-edge uv, deleting original apex spokes au,av lowers the packing number by at least one.",
+  "verification": "Ordinary all-size proof, incidence-source reconstruction and root agreement; fresh independent audit requested. The large graph is probabilistic existence, not a retained literal finite graph. Only the separate prescribed11-point rank5 control was enumerated.",
+  "preserved_scope": "Not a Tuza counterexample; tau<2nu. TF-plus-two-edge-resilience odd gate remains untouched. Rank-four normalization theorem remains true.",
+  "execution": "Local owner Darwin; no higher-rank census, explicit-large-instance search, remote execution, Lean, human review or publication.",
+  "hashes": {
+    "notes/binary_tf_cone_decoration_obstruction.md": "db3a479a74064b0038274cefc0b64bc9356e79d5dfd37706eb89221fb75c7a16",
+    "evidence/binary_tf/cut_obstruction_input.md": "2ec94c291275ae6d02628ffd227d2acd9bb2c3eee638a1369c40bd8fc053ac1b",
+    "checks/binary_tf_rank5_control.py": "8f8bc5d937a632ab43262951c648f34963fe06dee642a1bcb5cfcfd274cd2ef9",
+    "evidence/binary_tf/rank5_control.json": "6a04d48869a2b10b996e6ad6c1d4bd1871302c9b62f52121bdd8ed335baecde6"
+  }
+}

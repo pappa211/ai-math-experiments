@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "returncode": 0,
+  "command": [
+    "LOCAL_ENVIRONMENT",
+    "-M",
+    "2200",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/lean/RoleWitness.lean"
+  ],
+  "start_utc": "2026-11-14T19:22:33.578075+00:00",
+  "finish_utc": "2026-11-14T19:22:34.652933+00:00",
+  "elapsed": 1.0748553330049617,
+  "source_sha256": "eceecc682933731af5543e3721c7d49267f954d14c82a7d98e60c50ffd689dc4",
+  "lean_path": "LOCAL_ENVIRONMENT",
+  "scope": "Finite six-vertex role-selection obstruction only; not unrestricted Tuza",
+  "log": "evidence/lean_role_20261114T192234Z.log"
+}

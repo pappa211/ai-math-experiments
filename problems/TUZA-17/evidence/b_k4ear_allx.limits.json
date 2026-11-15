@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "checks/b_k4ear_allx.py"
+  ],
+  "pid": 54887,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.20864670800801832,
+  "peak_sampled_RSS_bytes": 4259840,
+  "wall_limit_seconds": 15.0,
+  "RSS_limit_MiB": 512.0,
+  "status": "PASS"
+}

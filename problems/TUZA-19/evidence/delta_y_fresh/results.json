@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "host": "Darwin",
+  "frozen_note_sha256": "ac32c0f5d76207fb644b5f82bf34b1d1e99ecef2015ace820eb548fd07b0c8a8",
+  "checker_sha256": "89e3d250c50393526e93974689ed361b84b4a70dc44a1898fa58787501403e91",
+  "K5_maximum_packings": 15,
+  "K5_join_states_per_packing": 16,
+  "K5_covering_join_cost_distribution": {
+    "6": 5,
+    "8": 2
+  },
+  "K5_full_cover_equivalence_states": 15360,
+  "K5_local_boundary_rows": 150,
+  "K7_nonpacked_triangles_and_six_cycles": 28,
+  "local_boundary_options": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      3
+    ]
+  ],
+  "bouquet_bounds": [
+    {
+      "m": 1,
+      "minimum_old_boundary": 2
+    },
+    {
+      "m": 2,
+      "minimum_old_boundary": 2
+    },
+    {
+      "m": 3,
+      "minimum_old_boundary": 4
+    },
+    {
+      "m": 4,
+      "minimum_old_boundary": 4
+    },
+    {
+      "m": 5,
+      "minimum_old_boundary": 6
+    },
+    {
+      "m": 6,
+      "minimum_old_boundary": 6
+    },
+    {
+      "m": 7,
+      "minimum_old_boundary": 8
+    },
+    {
+      "m": 8,
+      "minimum_old_boundary": 8
+    }
+  ]
+}

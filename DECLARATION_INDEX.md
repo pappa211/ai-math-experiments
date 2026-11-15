@@ -319,3 +319,161 @@ Internal AI-produced evidence. Each literal type begins at the linked compiler l
 | `Tuza08.arbitrary_graph_cover_switch` | [Main.lean](problems/TUZA-08/lean/Tuza08/Main.lean#L65) | [literal type](verification/tuza-07-10/cover-switch/literal-types-and-axioms.log#L46416) |
 | `Tuza08.sharp_bounds` | [Main.lean](problems/TUZA-08/lean/Tuza08/Main.lean#L75) | [literal type](verification/tuza-07-10/cover-switch/literal-types-and-axioms.log#L46468) |
 | `Tuza08.rigid_six_classes` | [Main.lean](problems/TUZA-08/lean/Tuza08/Main.lean#L82) | [literal type](verification/tuza-07-10/cover-switch/literal-types-and-axioms.log#L46495) |
+
+
+## TUZA-16–19 publication: finite scope only
+
+Fresh native Lean 4.33.1 replay accepted 150 named theorems below, within 444 explicitly named declarations. [Literal types and transitive axioms](verification/tuza-16-19/formal/declarations.json) and [full evidence](verification/tuza-16-19/formal/README.md) control their scope. The all-size four-branch reduction, core localization, common-vertex theorem and connected-chain theorem remain ordinary proofs. No monolithic aggregate is accepted.
+
+| Theorem | Source | Transitive axioms |
+|---|---|---|
+| `FourBranch.Chunk000.correct` | [Chunk000.lean](problems/TUZA-19/formal/four_branch_wke/Chunk000.lean) | none |
+| `FourBranch.Chunk001.correct` | [Chunk001.lean](problems/TUZA-19/formal/four_branch_wke/Chunk001.lean) | none |
+| `FourBranch.Chunk002.correct` | [Chunk002.lean](problems/TUZA-19/formal/four_branch_wke/Chunk002.lean) | none |
+| `FourBranch.Chunk003.correct` | [Chunk003.lean](problems/TUZA-19/formal/four_branch_wke/Chunk003.lean) | none |
+| `FourBranch.Chunk004.correct` | [Chunk004.lean](problems/TUZA-19/formal/four_branch_wke/Chunk004.lean) | none |
+| `FourBranch.Chunk005.correct` | [Chunk005.lean](problems/TUZA-19/formal/four_branch_wke/Chunk005.lean) | none |
+| `FourBranch.Chunk006.correct` | [Chunk006.lean](problems/TUZA-19/formal/four_branch_wke/Chunk006.lean) | none |
+| `FourBranch.Chunk007.correct` | [Chunk007.lean](problems/TUZA-19/formal/four_branch_wke/Chunk007.lean) | none |
+| `FourBranch.Chunk008.correct` | [Chunk008.lean](problems/TUZA-19/formal/four_branch_wke/Chunk008.lean) | none |
+| `FourBranch.Chunk009.correct` | [Chunk009.lean](problems/TUZA-19/formal/four_branch_wke/Chunk009.lean) | none |
+| `FourBranch.Chunk010.correct` | [Chunk010.lean](problems/TUZA-19/formal/four_branch_wke/Chunk010.lean) | none |
+| `FourBranch.Chunk011.correct` | [Chunk011.lean](problems/TUZA-19/formal/four_branch_wke/Chunk011.lean) | none |
+| `FourBranch.Chunk012.correct` | [Chunk012.lean](problems/TUZA-19/formal/four_branch_wke/Chunk012.lean) | none |
+| `FourBranch.Chunk013.correct` | [Chunk013.lean](problems/TUZA-19/formal/four_branch_wke/Chunk013.lean) | none |
+| `FourBranch.Chunk014.correct` | [Chunk014.lean](problems/TUZA-19/formal/four_branch_wke/Chunk014.lean) | none |
+| `FourBranch.Chunk015.correct` | [Chunk015.lean](problems/TUZA-19/formal/four_branch_wke/Chunk015.lean) | none |
+| `FourBranch.Chunk016.correct` | [Chunk016.lean](problems/TUZA-19/formal/four_branch_wke/Chunk016.lean) | none |
+| `FourBranch.Chunk017.correct` | [Chunk017.lean](problems/TUZA-19/formal/four_branch_wke/Chunk017.lean) | none |
+| `FourBranch.Chunk018.correct` | [Chunk018.lean](problems/TUZA-19/formal/four_branch_wke/Chunk018.lean) | none |
+| `FourBranch.Chunk019.correct` | [Chunk019.lean](problems/TUZA-19/formal/four_branch_wke/Chunk019.lean) | none |
+| `FourBranch.Chunk020.correct` | [Chunk020.lean](problems/TUZA-19/formal/four_branch_wke/Chunk020.lean) | none |
+| `FourBranch.Chunk021.correct` | [Chunk021.lean](problems/TUZA-19/formal/four_branch_wke/Chunk021.lean) | none |
+| `FourBranch.Chunk022.correct` | [Chunk022.lean](problems/TUZA-19/formal/four_branch_wke/Chunk022.lean) | none |
+| `FourBranch.Chunk023.correct` | [Chunk023.lean](problems/TUZA-19/formal/four_branch_wke/Chunk023.lean) | none |
+| `FourBranch.Chunk024.correct` | [Chunk024.lean](problems/TUZA-19/formal/four_branch_wke/Chunk024.lean) | none |
+| `FourBranch.Chunk025.correct` | [Chunk025.lean](problems/TUZA-19/formal/four_branch_wke/Chunk025.lean) | none |
+| `FourBranch.Chunk026.correct` | [Chunk026.lean](problems/TUZA-19/formal/four_branch_wke/Chunk026.lean) | none |
+| `FourBranch.Chunk027.correct` | [Chunk027.lean](problems/TUZA-19/formal/four_branch_wke/Chunk027.lean) | none |
+| `FourBranch.Chunk028.correct` | [Chunk028.lean](problems/TUZA-19/formal/four_branch_wke/Chunk028.lean) | none |
+| `FourBranch.Chunk029.correct` | [Chunk029.lean](problems/TUZA-19/formal/four_branch_wke/Chunk029.lean) | none |
+| `FourBranch.Chunk030.correct` | [Chunk030.lean](problems/TUZA-19/formal/four_branch_wke/Chunk030.lean) | none |
+| `FourBranch.Chunk031.correct` | [Chunk031.lean](problems/TUZA-19/formal/four_branch_wke/Chunk031.lean) | none |
+| `FourBranch.Chunk032.correct` | [Chunk032.lean](problems/TUZA-19/formal/four_branch_wke/Chunk032.lean) | none |
+| `FourBranch.Chunk033.correct` | [Chunk033.lean](problems/TUZA-19/formal/four_branch_wke/Chunk033.lean) | none |
+| `FourBranch.Chunk034.correct` | [Chunk034.lean](problems/TUZA-19/formal/four_branch_wke/Chunk034.lean) | none |
+| `FourBranch.Chunk035.correct` | [Chunk035.lean](problems/TUZA-19/formal/four_branch_wke/Chunk035.lean) | none |
+| `FourBranch.Chunk036.correct` | [Chunk036.lean](problems/TUZA-19/formal/four_branch_wke/Chunk036.lean) | none |
+| `FourBranch.Chunk037.correct` | [Chunk037.lean](problems/TUZA-19/formal/four_branch_wke/Chunk037.lean) | none |
+| `FourBranch.Chunk038.correct` | [Chunk038.lean](problems/TUZA-19/formal/four_branch_wke/Chunk038.lean) | none |
+| `FourBranch.Chunk039.correct` | [Chunk039.lean](problems/TUZA-19/formal/four_branch_wke/Chunk039.lean) | none |
+| `FourBranch.Chunk040.correct` | [Chunk040.lean](problems/TUZA-19/formal/four_branch_wke/Chunk040.lean) | none |
+| `FourBranch.Chunk041.correct` | [Chunk041.lean](problems/TUZA-19/formal/four_branch_wke/Chunk041.lean) | none |
+| `FourBranch.Chunk042.correct` | [Chunk042.lean](problems/TUZA-19/formal/four_branch_wke/Chunk042.lean) | none |
+| `FourBranch.Chunk043.correct` | [Chunk043.lean](problems/TUZA-19/formal/four_branch_wke/Chunk043.lean) | none |
+| `FourBranch.Chunk044.correct` | [Chunk044.lean](problems/TUZA-19/formal/four_branch_wke/Chunk044.lean) | none |
+| `FourBranch.Chunk045.correct` | [Chunk045.lean](problems/TUZA-19/formal/four_branch_wke/Chunk045.lean) | none |
+| `FourBranch.Chunk046.correct` | [Chunk046.lean](problems/TUZA-19/formal/four_branch_wke/Chunk046.lean) | none |
+| `FourBranch.Chunk047.correct` | [Chunk047.lean](problems/TUZA-19/formal/four_branch_wke/Chunk047.lean) | none |
+| `FourBranch.Chunk048.correct` | [Chunk048.lean](problems/TUZA-19/formal/four_branch_wke/Chunk048.lean) | none |
+| `FourBranch.Chunk049.correct` | [Chunk049.lean](problems/TUZA-19/formal/four_branch_wke/Chunk049.lean) | none |
+| `FourBranch.Chunk050.correct` | [Chunk050.lean](problems/TUZA-19/formal/four_branch_wke/Chunk050.lean) | none |
+| `FourBranch.Chunk051.correct` | [Chunk051.lean](problems/TUZA-19/formal/four_branch_wke/Chunk051.lean) | none |
+| `FourBranch.Chunk052.correct` | [Chunk052.lean](problems/TUZA-19/formal/four_branch_wke/Chunk052.lean) | none |
+| `FourBranch.Chunk053.correct` | [Chunk053.lean](problems/TUZA-19/formal/four_branch_wke/Chunk053.lean) | none |
+| `FourBranch.Chunk054.correct` | [Chunk054.lean](problems/TUZA-19/formal/four_branch_wke/Chunk054.lean) | none |
+| `FourBranch.Chunk055.correct` | [Chunk055.lean](problems/TUZA-19/formal/four_branch_wke/Chunk055.lean) | none |
+| `FourBranch.Chunk056.correct` | [Chunk056.lean](problems/TUZA-19/formal/four_branch_wke/Chunk056.lean) | none |
+| `FourBranch.Chunk057.correct` | [Chunk057.lean](problems/TUZA-19/formal/four_branch_wke/Chunk057.lean) | none |
+| `FourBranch.Chunk058.correct` | [Chunk058.lean](problems/TUZA-19/formal/four_branch_wke/Chunk058.lean) | none |
+| `FourBranch.Chunk059.correct` | [Chunk059.lean](problems/TUZA-19/formal/four_branch_wke/Chunk059.lean) | none |
+| `FourBranch.Chunk060.correct` | [Chunk060.lean](problems/TUZA-19/formal/four_branch_wke/Chunk060.lean) | none |
+| `FourBranch.Chunk061.correct` | [Chunk061.lean](problems/TUZA-19/formal/four_branch_wke/Chunk061.lean) | none |
+| `FourBranch.Chunk062.correct` | [Chunk062.lean](problems/TUZA-19/formal/four_branch_wke/Chunk062.lean) | none |
+| `FourBranch.Chunk063.correct` | [Chunk063.lean](problems/TUZA-19/formal/four_branch_wke/Chunk063.lean) | none |
+| `FourBranch.Chunk064.correct` | [Chunk064.lean](problems/TUZA-19/formal/four_branch_wke/Chunk064.lean) | none |
+| `FourBranch.Chunk065.correct` | [Chunk065.lean](problems/TUZA-19/formal/four_branch_wke/Chunk065.lean) | none |
+| `FourBranch.Chunk066.correct` | [Chunk066.lean](problems/TUZA-19/formal/four_branch_wke/Chunk066.lean) | none |
+| `FourBranch.Chunk067.correct` | [Chunk067.lean](problems/TUZA-19/formal/four_branch_wke/Chunk067.lean) | none |
+| `FourBranch.Chunk068.correct` | [Chunk068.lean](problems/TUZA-19/formal/four_branch_wke/Chunk068.lean) | none |
+| `FourBranch.Chunk069.correct` | [Chunk069.lean](problems/TUZA-19/formal/four_branch_wke/Chunk069.lean) | none |
+| `FourBranch.Chunk070.correct` | [Chunk070.lean](problems/TUZA-19/formal/four_branch_wke/Chunk070.lean) | none |
+| `FourBranch.Chunk071.correct` | [Chunk071.lean](problems/TUZA-19/formal/four_branch_wke/Chunk071.lean) | none |
+| `FourBranch.Chunk072.correct` | [Chunk072.lean](problems/TUZA-19/formal/four_branch_wke/Chunk072.lean) | none |
+| `FourBranch.Chunk073.correct` | [Chunk073.lean](problems/TUZA-19/formal/four_branch_wke/Chunk073.lean) | none |
+| `FourBranch.Chunk074.correct` | [Chunk074.lean](problems/TUZA-19/formal/four_branch_wke/Chunk074.lean) | none |
+| `FourBranch.Chunk075.correct` | [Chunk075.lean](problems/TUZA-19/formal/four_branch_wke/Chunk075.lean) | none |
+| `FourBranch.Chunk076.correct` | [Chunk076.lean](problems/TUZA-19/formal/four_branch_wke/Chunk076.lean) | none |
+| `FourBranch.Chunk077.correct` | [Chunk077.lean](problems/TUZA-19/formal/four_branch_wke/Chunk077.lean) | none |
+| `FourBranch.Chunk078.correct` | [Chunk078.lean](problems/TUZA-19/formal/four_branch_wke/Chunk078.lean) | none |
+| `FourBranch.Chunk079.correct` | [Chunk079.lean](problems/TUZA-19/formal/four_branch_wke/Chunk079.lean) | none |
+| `FourBranch.Chunk080.correct` | [Chunk080.lean](problems/TUZA-19/formal/four_branch_wke/Chunk080.lean) | none |
+| `FourBranch.Chunk081.correct` | [Chunk081.lean](problems/TUZA-19/formal/four_branch_wke/Chunk081.lean) | none |
+| `FourBranch.Chunk082.correct` | [Chunk082.lean](problems/TUZA-19/formal/four_branch_wke/Chunk082.lean) | none |
+| `FourBranch.Chunk083.correct` | [Chunk083.lean](problems/TUZA-19/formal/four_branch_wke/Chunk083.lean) | none |
+| `FourBranch.Chunk084.correct` | [Chunk084.lean](problems/TUZA-19/formal/four_branch_wke/Chunk084.lean) | none |
+| `FourBranch.Chunk085.correct` | [Chunk085.lean](problems/TUZA-19/formal/four_branch_wke/Chunk085.lean) | none |
+| `FourBranch.Chunk086.correct` | [Chunk086.lean](problems/TUZA-19/formal/four_branch_wke/Chunk086.lean) | none |
+| `FourBranch.Chunk087.correct` | [Chunk087.lean](problems/TUZA-19/formal/four_branch_wke/Chunk087.lean) | none |
+| `FourBranch.Chunk088.correct` | [Chunk088.lean](problems/TUZA-19/formal/four_branch_wke/Chunk088.lean) | none |
+| `FourBranch.Chunk089.correct` | [Chunk089.lean](problems/TUZA-19/formal/four_branch_wke/Chunk089.lean) | none |
+| `FourBranch.Chunk090.correct` | [Chunk090.lean](problems/TUZA-19/formal/four_branch_wke/Chunk090.lean) | none |
+| `FourBranch.Chunk091.correct` | [Chunk091.lean](problems/TUZA-19/formal/four_branch_wke/Chunk091.lean) | none |
+| `FourBranch.Chunk092.correct` | [Chunk092.lean](problems/TUZA-19/formal/four_branch_wke/Chunk092.lean) | none |
+| `FourBranch.Chunk093.correct` | [Chunk093.lean](problems/TUZA-19/formal/four_branch_wke/Chunk093.lean) | none |
+| `FourBranch.Chunk094.correct` | [Chunk094.lean](problems/TUZA-19/formal/four_branch_wke/Chunk094.lean) | none |
+| `FourBranch.Chunk095.correct` | [Chunk095.lean](problems/TUZA-19/formal/four_branch_wke/Chunk095.lean) | none |
+| `FourBranch.Chunk096.correct` | [Chunk096.lean](problems/TUZA-19/formal/four_branch_wke/Chunk096.lean) | none |
+| `FourBranch.Chunk097.correct` | [Chunk097.lean](problems/TUZA-19/formal/four_branch_wke/Chunk097.lean) | none |
+| `FourBranch.Chunk098.correct` | [Chunk098.lean](problems/TUZA-19/formal/four_branch_wke/Chunk098.lean) | none |
+| `FourBranch.Chunk099.correct` | [Chunk099.lean](problems/TUZA-19/formal/four_branch_wke/Chunk099.lean) | none |
+| `FourBranch.Chunk100.correct` | [Chunk100.lean](problems/TUZA-19/formal/four_branch_wke/Chunk100.lean) | none |
+| `FourBranch.Chunk101.correct` | [Chunk101.lean](problems/TUZA-19/formal/four_branch_wke/Chunk101.lean) | none |
+| `FourBranch.Chunk102.correct` | [Chunk102.lean](problems/TUZA-19/formal/four_branch_wke/Chunk102.lean) | none |
+| `FourBranch.Chunk103.correct` | [Chunk103.lean](problems/TUZA-19/formal/four_branch_wke/Chunk103.lean) | none |
+| `FourBranch.Chunk104.correct` | [Chunk104.lean](problems/TUZA-19/formal/four_branch_wke/Chunk104.lean) | none |
+| `FourBranch.Chunk105.correct` | [Chunk105.lean](problems/TUZA-19/formal/four_branch_wke/Chunk105.lean) | none |
+| `FourBranch.Chunk106.correct` | [Chunk106.lean](problems/TUZA-19/formal/four_branch_wke/Chunk106.lean) | none |
+| `FourBranch.Chunk107.correct` | [Chunk107.lean](problems/TUZA-19/formal/four_branch_wke/Chunk107.lean) | none |
+| `FourBranch.Chunk108.correct` | [Chunk108.lean](problems/TUZA-19/formal/four_branch_wke/Chunk108.lean) | none |
+| `FourBranch.Chunk109.correct` | [Chunk109.lean](problems/TUZA-19/formal/four_branch_wke/Chunk109.lean) | none |
+| `FourBranch.Chunk110.correct` | [Chunk110.lean](problems/TUZA-19/formal/four_branch_wke/Chunk110.lean) | none |
+| `FourBranch.Chunk111.correct` | [Chunk111.lean](problems/TUZA-19/formal/four_branch_wke/Chunk111.lean) | none |
+| `FourBranch.Chunk112.correct` | [Chunk112.lean](problems/TUZA-19/formal/four_branch_wke/Chunk112.lean) | none |
+| `FourBranch.Chunk113.correct` | [Chunk113.lean](problems/TUZA-19/formal/four_branch_wke/Chunk113.lean) | none |
+| `FourBranch.Chunk114.correct` | [Chunk114.lean](problems/TUZA-19/formal/four_branch_wke/Chunk114.lean) | none |
+| `FourBranch.Chunk115.correct` | [Chunk115.lean](problems/TUZA-19/formal/four_branch_wke/Chunk115.lean) | none |
+| `FourBranch.Chunk116.correct` | [Chunk116.lean](problems/TUZA-19/formal/four_branch_wke/Chunk116.lean) | none |
+| `FourBranch.Chunk117.correct` | [Chunk117.lean](problems/TUZA-19/formal/four_branch_wke/Chunk117.lean) | none |
+| `FourBranch.Chunk118.correct` | [Chunk118.lean](problems/TUZA-19/formal/four_branch_wke/Chunk118.lean) | none |
+| `FourBranch.Chunk119.correct` | [Chunk119.lean](problems/TUZA-19/formal/four_branch_wke/Chunk119.lean) | none |
+| `FourBranch.Chunk120.correct` | [Chunk120.lean](problems/TUZA-19/formal/four_branch_wke/Chunk120.lean) | none |
+| `FourBranch.Chunk121.correct` | [Chunk121.lean](problems/TUZA-19/formal/four_branch_wke/Chunk121.lean) | none |
+| `FourBranch.Chunk122.correct` | [Chunk122.lean](problems/TUZA-19/formal/four_branch_wke/Chunk122.lean) | none |
+| `FourBranch.Chunk123.correct` | [Chunk123.lean](problems/TUZA-19/formal/four_branch_wke/Chunk123.lean) | none |
+| `FourBranch.Chunk124.correct` | [Chunk124.lean](problems/TUZA-19/formal/four_branch_wke/Chunk124.lean) | none |
+| `FourBranch.Chunk125.correct` | [Chunk125.lean](problems/TUZA-19/formal/four_branch_wke/Chunk125.lean) | none |
+| `FourBranch.Chunk126.correct` | [Chunk126.lean](problems/TUZA-19/formal/four_branch_wke/Chunk126.lean) | none |
+| `FourBranch.Chunk127.correct` | [Chunk127.lean](problems/TUZA-19/formal/four_branch_wke/Chunk127.lean) | none |
+| `FourBranch.mem_vectors_iff` | [Domain.lean](problems/TUZA-19/formal/four_branch_wke/Domain.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+| `FourBranch.vectors_add` | [Domain.lean](problems/TUZA-19/formal/four_branch_wke/Domain.lean) | `propext`, `Quot.sound` |
+| `FourBranch.vectors_length` | [Domain.lean](problems/TUZA-19/formal/four_branch_wke/Domain.lean) | `propext`, `Quot.sound` |
+| `FourBranch.Coverage.schedule_complete` | [Coverage.lean](problems/TUZA-19/formal/four_branch_wke/Coverage.lean) | none |
+| `FourBranch.Coverage.segment_count` | [Coverage.lean](problems/TUZA-19/formal/four_branch_wke/Coverage.lean) | none |
+| `FourBranch.Coverage.six_state_vectors_complete` | [Coverage.lean](problems/TUZA-19/formal/four_branch_wke/Coverage.lean) | `propext`, `Quot.sound` |
+| `FourBranch.Coverage.raw_domain_count` | [Coverage.lean](problems/TUZA-19/formal/four_branch_wke/Coverage.lean) | `propext`, `Quot.sound` |
+| `FourBranch.Coverage.retained_count_sum` | [Coverage.lean](problems/TUZA-19/formal/four_branch_wke/Coverage.lean) | none |
+| `FourBranch.Coverage.small_branch_counts` | [Coverage.lean](problems/TUZA-19/formal/four_branch_wke/Coverage.lean) | none |
+| `FourBranch.Coverage.four_branch_count_sum` | [Coverage.lean](problems/TUZA-19/formal/four_branch_wke/Coverage.lean) | none |
+| `FourBranch.Negative.missing_row_rejected` | [NegativeChecks.lean](problems/TUZA-19/formal/four_branch_wke/NegativeChecks.lean) | none |
+| `FourBranch.Negative.empty_cover_rejected` | [NegativeChecks.lean](problems/TUZA-19/formal/four_branch_wke/NegativeChecks.lean) | none |
+| `FourBranch.Negative.repeated_matching_rejected` | [NegativeChecks.lean](problems/TUZA-19/formal/four_branch_wke/NegativeChecks.lean) | none |
+| `Tuza18Role.every_actual_triangle` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+| `Tuza18Role.packing_upper_bound` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+| `Tuza18Role.packing_attained` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+| `Tuza18Role.cover_attained` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+| `Tuza18Role.no_small_cover` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+| `Tuza18Role.cover_lower_bound` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+| `Tuza18Role.graph_packing_bound` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+| `Tuza18Role.canonical_simple_edges` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+| `Tuza18Role.all_maximum_packings_obstruct_roles` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |

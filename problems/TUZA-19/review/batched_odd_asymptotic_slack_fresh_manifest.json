@@ -1,0 +1,41 @@
+{
+  "verdict": "PASS",
+  "frozen_utc": "2026-11-15T09:19:27Z",
+  "reviewer": "batched_odd_fresh",
+  "host": "Darwin",
+  "scope": "Ordinary asymptotic ratio corollary and seed-dependent multiplicative odd-cover gap",
+  "sources_unchanged": true,
+  "sources": [
+    {
+      "path": "notes/root_batched_odd_asymptotic_slack.md",
+      "sha256": "7cbe5c47364408799b25f683205f1e265aeb7d9afa8d9f008aadc98457a44e2d"
+    },
+    {
+      "path": "notes/root_batched_odd_cover_obstruction.md",
+      "sha256": "240f03702de1bc3f2deadb1be99307c27de26849607b2bd50e8ecd2cffcca4f7"
+    },
+    {
+      "path": "notes/root_batched_odd_cover_exact_identity.md",
+      "sha256": "57d44a9d95e66f1885272f2e184954772c224f977c15238424e935b6be4189c8"
+    },
+    {
+      "path": "review/batched_odd_cover_fresh_audit.md",
+      "sha256": "c920eb32e8cdb2bd619c728098f29d5f90529f7551498b8eddc495f9ee164f08"
+    },
+    {
+      "path": "review/batched_odd_cover_fresh_manifest.json",
+      "sha256": "7e7aa0b6479120b4574b45c83090dd611ce3b2396387a3f1fcdc4435769c6015"
+    }
+  ],
+  "audit": {
+    "path": "review/batched_odd_asymptotic_slack_fresh_audit.md",
+    "sha256": "a3efe384a9c9991409e846ee80d3bfc1a18ece7850eb94e7fc76c1946c1f97ff"
+  },
+  "earlier_audit_and_manifest_unchanged": true,
+  "new_mathematical_computation": false,
+  "resilience_claim": false,
+  "created_files": [
+    "review/batched_odd_asymptotic_slack_fresh_audit.md",
+    "review/batched_odd_asymptotic_slack_fresh_manifest.json"
+  ]
+}

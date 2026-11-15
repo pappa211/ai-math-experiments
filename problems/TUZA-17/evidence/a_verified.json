@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "verifier": "separate source; same Track A AI author; no call to producer and no optimisation solver",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "scope": "all actual triangles of three finite probe graphs; 116 packing certificates; independently rebuilt 23-vertex seed and symbolic large-example arithmetic",
+  "summaries": [
+    {
+      "q": 1,
+      "t": 10,
+      "graph_order": 101,
+      "graph_edges": 1600,
+      "all_actual_triangles": 1500,
+      "exact_nu_from_spoke_upper_and_witness": 50,
+      "checked_packing_certificates": 24,
+      "minimum_triangle_codegree": 1,
+      "status": "PASS"
+    },
+    {
+      "q": 2,
+      "t": 12,
+      "graph_order": 122,
+      "graph_edges": 2400,
+      "all_actual_triangles": 4320,
+      "exact_nu_from_spoke_upper_and_witness": 120,
+      "checked_packing_certificates": 46,
+      "minimum_triangle_codegree": 2,
+      "status": "PASS"
+    },
+    {
+      "q": 3,
+      "t": 14,
+      "graph_order": 143,
+      "graph_edges": 3360,
+      "all_actual_triangles": 8820,
+      "exact_nu_from_spoke_upper_and_witness": 210,
+      "checked_packing_certificates": 46,
+      "minimum_triangle_codegree": 3,
+      "status": "PASS"
+    }
+  ],
+  "large_graph_enumerated": false,
+  "universal_extension_theorem": "ordinary proof; not inferred from finite checks",
+  "time_limit_seconds": 60,
+  "elapsed_seconds": 0.5103574579989072,
+  "peak_rss_bytes_darwin": 24100864
+}

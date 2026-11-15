@@ -1,0 +1,11 @@
+[
+  {
+    "k": 50,
+    "status": "UNSAT",
+    "seconds": 5.4417605829949025,
+    "returncode": 20,
+    "variables": 9100,
+    "clauses": 35935,
+    "cnf_sha256": "e25b75d372407b39d778aa14f2aa48ae5c022ac2fb8f1bffff10123d1f22cc58"
+  }
+]

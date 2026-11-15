@@ -1,0 +1,15 @@
+{
+  "command": [
+    "LOCAL_ENVIRONMENT",
+    "-B",
+    "checks/boundary_cycle_attachment.py"
+  ],
+  "pid": 57003,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.21315308299381286,
+  "peak_sampled_RSS_bytes": 1261568,
+  "wall_limit_seconds": 20.0,
+  "RSS_limit_MiB": 256.0,
+  "status": "PASS"
+}

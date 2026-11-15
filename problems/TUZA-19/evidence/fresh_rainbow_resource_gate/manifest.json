@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-15T08:03:46.109520+00:00",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "actual_serving_identity": "not independently exposed",
+  "host": "Darwin",
+  "python": "3.12.12",
+  "solver": "CaDiCaL 2.1.2",
+  "solver_path": "LOCAL_ENVIRONMENT",
+  "solver_sha256": "3ad7b97a2fb92d97554fb8c6de1fee36217de80952568eef4067634664d6661e",
+  "files": {
+    "notes/fresh_rainbow_resource_gate.md": "0ca82fd8177f58873b44672eb4f2960aedf42e06b58add4b7cf8b0c7d9586a54",
+    "checks/fresh_rainbow_resource_gate_search.py": "9cbfda967bc17b4bdf2ae59f755d1ca4f71bc849d6179a9c9d7c38b07e163c7f",
+    "checks/fresh_rainbow_resource_gate_kernel.py": "b6c9708c4eac14546d143389233d3bb9abd7d74ce0c7ed9a8a96a9070bad52d3",
+    "checks/global_routes_sat.py": "8e0d5d2c15b0bb2c87a7c6e032ba86de619f2b94eb6a730d2809cf3e3e9aa2cb",
+    "evidence/fresh_rainbow_resource_gate/kernel_receipt.json": "0c3bcfbc7852093aac5a76b82dfc525e2efc7c6ff7463cec8495464f3b0779de",
+    "evidence/fresh_rainbow_resource_gate/semantic_controls.json": "ca48fc1beabb78ac2f936ef78d1d94faff9f21c06ad76f1f6f8049bb03e24e8c",
+    "evidence/fresh_rainbow_resource_gate/clow_haxell_mohar_2505.05339v2.pdf": "8aa27b2af2b1b0f8d133e8eab263dea688e8600205b0976fa39b38f0b16b0126"
+  },
+  "replay_command": "source LOCAL_ENVIRONMENT && python checks/fresh_rainbow_resource_gate_kernel.py",
+  "source_url": "https://arxiv.org/pdf/2505.05339v2",
+  "scope": "Ordinary reduction plus 28 SAT UNSAT outcomes, no checked proof traces. Published Biggs-Smith inputs imported, not independently replayed. General inequality unresolved."
+}

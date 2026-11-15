@@ -1,0 +1,8 @@
+Coverage.lean:16:2: error: No goals to be solved
+'FourBranch.Coverage.schedule_complete' does not depend on any axioms
+'FourBranch.Coverage.segment_count' does not depend on any axioms
+'FourBranch.Coverage.six_state_vectors_complete' depends on axioms: [propext, Quot.sound]
+'FourBranch.Coverage.raw_domain_count' depends on axioms: [propext, Quot.sound]
+'FourBranch.Coverage.retained_count_sum' does not depend on any axioms
+'FourBranch.Coverage.small_branch_counts' does not depend on any axioms
+'FourBranch.Coverage.four_branch_count_sum' does not depend on any axioms

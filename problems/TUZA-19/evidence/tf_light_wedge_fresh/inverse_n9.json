@@ -1,0 +1,5616 @@
+{
+  "status": "COUNTEREXAMPLE_SOLVER_LOWER",
+  "n": 9,
+  "scope": "One inverse-design domain, no graph census. UNSAT/optimality are solver-only.",
+  "iterations": [
+    {
+      "status": "SAT",
+      "seconds": 0.030784083995968103,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210701,
+      "cnf_sha256": "b6a8143df26ee93be69e0dbf5e05b088aec2036ed299f9b941bb0e903f8fbb06",
+      "target": 16,
+      "edges": 12,
+      "triangles": 8,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 4
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04096420799032785,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210702,
+      "cnf_sha256": "d1a8dc9653d7db29617065370c691403fd30a5fa0894143ab7a164504fa044b9",
+      "target": 10,
+      "edges": 21,
+      "triangles": 14,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04529525000543799,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210703,
+      "cnf_sha256": "1db459097e3dbc2a77a801d38801ec5a498c2798df0cb2743c73f08e25ac8228",
+      "target": 15,
+      "edges": 20,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04836862499359995,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210704,
+      "cnf_sha256": "6b38255104f14c500f5b7052405cd4e4fbe946a40d61514fd9377f25a3249f4a",
+      "target": 16,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04862995799339842,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210705,
+      "cnf_sha256": "c4675a047656bbf922b082e5b049f4c22f9a587032770d3ba3a589cae2835410",
+      "target": 16,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.051096791998133995,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210706,
+      "cnf_sha256": "cc9d2947936a7639ce7374dda32ce9f387cace870dfdb6566a4e181e587176ce",
+      "target": 16,
+      "edges": 20,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05044099999940954,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210707,
+      "cnf_sha256": "32acc68508fb4cdee69fcd52b1ad0c49ae0552783b82391de7f4087a52ce3f63",
+      "target": 16,
+      "edges": 21,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05565424999804236,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210708,
+      "cnf_sha256": "77ab94f8f04d7911ae572398e6847497c20fbddaef31640e75124c594110b627",
+      "target": 16,
+      "edges": 21,
+      "triangles": 14,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.054229166998993605,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210709,
+      "cnf_sha256": "bb122592ae419360476533a71eb4411df74c60c44801d4d9eeb533a80e0e40ff",
+      "target": 16,
+      "edges": 22,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07600549999915529,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210710,
+      "cnf_sha256": "39f19ca42cc73108508d70630e6985cceb8d3718651e717fde7967792a9a84a1",
+      "target": 14,
+      "edges": 27,
+      "triangles": 36,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07564404100412503,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210711,
+      "cnf_sha256": "61d7bae1f266ddc112a4fc83403fb50bd1a77f3d06a7e7d1ff81d42c46d3c8ae",
+      "target": 14,
+      "edges": 27,
+      "triangles": 34,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07259229199553374,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210712,
+      "cnf_sha256": "b5d4d8728383b0b8528a11f3fbb4df93f9a5e8b688e53154447c13d2714ba770",
+      "target": 13,
+      "edges": 26,
+      "triangles": 32,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.049890917012817226,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210713,
+      "cnf_sha256": "5f8bfffb206ae76da81a4340500b46380a773bd438dd151f099957558e466d17",
+      "target": 16,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05322349999914877,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210714,
+      "cnf_sha256": "1a63ef4a0aed970563b9f5ca96b3e8a3e4108d1c269824d7d27c0e5ee7b39de6",
+      "target": 16,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.1008007920027012,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210715,
+      "cnf_sha256": "95882165776ed0d70db6a3c7fded666e08071e3da27b11deba8697e0c59e3bdf",
+      "target": 7,
+      "edges": 19,
+      "triangles": 10,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.10251700000662822,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210716,
+      "cnf_sha256": "38a4179bed15c9a6a3d9d5df5f68a5ecad1895b9c2081f1458ad927b607ece42",
+      "target": 11,
+      "edges": 21,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.10099304099276196,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210717,
+      "cnf_sha256": "f5b9980066a3e2f16c40c6b0a583d0f053821e21662159de009f298a2003c20a",
+      "target": 9,
+      "edges": 19,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.1171571659942856,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210718,
+      "cnf_sha256": "1477cc6b88d6ae2b4c7c44ab90d36b29b5b5d62ade077bd8e85c360708f51cc7",
+      "target": 16,
+      "edges": 21,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.11210279200167861,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210719,
+      "cnf_sha256": "84855daa9cfddd4a29eb27e4b56e6e5e6d99975d4a417efa0cf4892ca84230b9",
+      "target": 14,
+      "edges": 19,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.1111237080040155,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210720,
+      "cnf_sha256": "e78aec7eda894d87d6fe439487bbfea6661e7881204dd7203f82a187b755ca9e",
+      "target": 14,
+      "edges": 20,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.11020483399624936,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210721,
+      "cnf_sha256": "8673541cc7222c58d8dab6a6f18313d9fe7477514fbbcb8e3f9a2c776cfb9686",
+      "target": 14,
+      "edges": 20,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.11126004200195894,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210722,
+      "cnf_sha256": "456a65a3fbdc44ee48f0eae5b10bcf27d4bdde4815852229c2c8d5677c64e9b7",
+      "target": 14,
+      "edges": 20,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.11237045799498446,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210723,
+      "cnf_sha256": "82be9da2e98b583bd414b6926da19313b09153284872947d957b26173e7d66d4",
+      "target": 16,
+      "edges": 21,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.11060320799879264,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210724,
+      "cnf_sha256": "fc4b2f85a828310a32d5f298143155b5a027d005c33cdd128d0ac9f6bd4074e8",
+      "target": 14,
+      "edges": 20,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.12076979200355709,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210725,
+      "cnf_sha256": "c068d2f31e66c27a6ec6be69bfd929f6ce531568489d51a22dda7586dc670b3f",
+      "target": 12,
+      "edges": 21,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.2217680829926394,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210726,
+      "cnf_sha256": "1d120d8d0e43fc624993a3d0c6cca61708c7759ceaad3bb7d20fc2f45c6cecc5",
+      "target": 13,
+      "edges": 23,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.12509216699982062,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210727,
+      "cnf_sha256": "572ba5071a4bca397b1d4cebb4d01e23e552ecb59e480778f3d7c5a3bb48a781",
+      "target": 14,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.12531708298774902,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210728,
+      "cnf_sha256": "e0d51728fb49d34e2fb4569a8ce5bd3e360b1d1c9b3ee0e869991162ef7a5876",
+      "target": 14,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.22017995800706558,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210729,
+      "cnf_sha256": "1db651e1e37a6da307a81ea01d6b8d41a659d0fab39023f0d1cb03d87a134be5",
+      "target": 14,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.22515579099126626,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210730,
+      "cnf_sha256": "26aba3f57856255fece1e259c62ac40986cef324cd87be8e567274050f8e35e0",
+      "target": 12,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.22619562498584855,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210731,
+      "cnf_sha256": "2c2c1eedf5484c4dc46d3f70c8d1a37df3402f2c62b9072d34bb126a9a347d90",
+      "target": 12,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.2239764170080889,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210732,
+      "cnf_sha256": "7385a0ab7e3a2a48ce24c849ee33aeaf972e04884513769bd27d12d81bceb701",
+      "target": 12,
+      "edges": 24,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.22464337501151022,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210733,
+      "cnf_sha256": "fe5942c0fedbc9dfaf257c73cd2e66c10ea7aabf43d8dcf698bb557c27de6ed6",
+      "target": 12,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.23686454200651497,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210734,
+      "cnf_sha256": "4c33bec70044a5be6df2eafeeddae9cc7d9220cc2989607f6c3136ee34e78a0d",
+      "target": 12,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.045157540997024626,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210735,
+      "cnf_sha256": "e9eac53fe6cf76e16647fc65329f11d3248407b1f0549e6b3ef379100728ef41",
+      "target": 15,
+      "edges": 21,
+      "triangles": 14,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04625112500798423,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210736,
+      "cnf_sha256": "abe24ba881199d13519b93f495c1c136ee7dd493ac327d1fd3983fb687a5f0ee",
+      "target": 15,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04957299999659881,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210737,
+      "cnf_sha256": "1e69dc52fd6f754994b5a167ea5b4eacfb671286d03be62d1deb4d7fa0c67106",
+      "target": 15,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06671570800244808,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210738,
+      "cnf_sha256": "fbb34416aae30ed8a924b9efffd2330a88f1fb61596ed557350df4dab8c6d573",
+      "target": 16,
+      "edges": 27,
+      "triangles": 36,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.042445375001989305,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210739,
+      "cnf_sha256": "97a541ff3ed85c1b39a094b3f87929fcb7ea28bd6fb2fbc796f1af0f709680f4",
+      "target": 9,
+      "edges": 19,
+      "triangles": 12,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04240304201084655,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210740,
+      "cnf_sha256": "f1f1923c3a453b515a02a24d2d0000c707999fd5e582bf0c7b8edf2d5b00eb4d",
+      "target": 9,
+      "edges": 19,
+      "triangles": 11,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04573120801069308,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210741,
+      "cnf_sha256": "c9d217f291226213ecd588d0ebaff9aef240ef5175506588d7a7adef8f2517cc",
+      "target": 9,
+      "edges": 20,
+      "triangles": 14,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04451412500930019,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210742,
+      "cnf_sha256": "a94b8fe9022915064d4352ab415e9474607ffa7675a5351a8b2a1a189a08aeb4",
+      "target": 10,
+      "edges": 20,
+      "triangles": 14,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.042271874990547076,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210743,
+      "cnf_sha256": "ee90097c7b8ce5df10e64b0ae8a63f35a92d989bf00ec9b447644a8dd2e683d8",
+      "target": 9,
+      "edges": 20,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04388254199875519,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210744,
+      "cnf_sha256": "981797ecf0926685df4aa894a1f8356bd2f6f90f24e206a5051e7825d6454e67",
+      "target": 10,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.046922666995669715,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210745,
+      "cnf_sha256": "72a99e6735587ff0137054ac9effe6f0b1147ace8af7c51be3c95326185d90dd",
+      "target": 11,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.049615833995630965,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210746,
+      "cnf_sha256": "23e20424d845813441988a2d3d8a3ec511d90e8eb5d5abd9a161741c71e1329f",
+      "target": 16,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.048495791997993365,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210747,
+      "cnf_sha256": "addbcc43c97afef30bb88e96d538391c1524e9cf3852485f690229758c7d4789",
+      "target": 16,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05015774999628775,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210748,
+      "cnf_sha256": "6383582b5a48020d5a3726f6b1b864ba43800673be151978c98bebc8303d9a84",
+      "target": 16,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06764383299741894,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210749,
+      "cnf_sha256": "7e4fed5c2ec0ef992fd7ff93730faec7b50f33bd3572d97ac7069ab308f500e5",
+      "target": 9,
+      "edges": 22,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06967995800368953,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210750,
+      "cnf_sha256": "709918eeb6cd13363457106a3c8fa9cf2cb594fbfa9ea10cf37c6b1d7e8cd62c",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0735904580069473,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210751,
+      "cnf_sha256": "f3933b8babe13ef6ab744a11aa5cb7c8e0fca2a78836ff67f0d58e0d3408e7bf",
+      "target": 9,
+      "edges": 22,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0708065409999108,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210752,
+      "cnf_sha256": "c7012eda4be8b5200fe5aa4cef4a6369eb36f3413a06f6bdfc8d12100771f1a6",
+      "target": 9,
+      "edges": 22,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07095808300073259,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210753,
+      "cnf_sha256": "7280e87e668caaeb224449f2156b6acd69393e2e89ac888aa705c0a7bd0c4dcd",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07095583400223404,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210754,
+      "cnf_sha256": "1fcf88c46f8f74b556d38cbc144d392be7aefb2155b1a538257502aa5e190303",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0709764159983024,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210755,
+      "cnf_sha256": "61b8f5dc84bbae656acbb76d9c1fb6c23c46ab529bed037bfd565aed2f802e29",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07151095900917426,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210756,
+      "cnf_sha256": "b96dee86c049db8d3f9ef4e2b0ffd4042bfcf1f3b6a17a8fe315152d87ed9e24",
+      "target": 9,
+      "edges": 22,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0757548750116257,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210757,
+      "cnf_sha256": "dca61f58c38c2c46f4cd8e35bc175bd7200cf135e1904432f4e5ffc992db027e",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07167325000045821,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210758,
+      "cnf_sha256": "3b2de89b96ce825403200de76fd656004d00ada2c8c6b0a1ebc385f4c7e5d276",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07545091700740159,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210759,
+      "cnf_sha256": "74d9f37d17c9850acb1636c935a22788f94277f9782938da18265acb2f735fb1",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08066504099406302,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210760,
+      "cnf_sha256": "9d3964d591385c7854fa2c8bfa90ae718a7747cef4a3bc02dd8c411bc930f563",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07207641600689385,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210761,
+      "cnf_sha256": "0293c25ddfc44b977894ebee4a13bea04486916db9682d9c92fd9671cfe685fb",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07464641598926391,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210762,
+      "cnf_sha256": "886b3823116622e12233794bf62bc4d6fa524a57dea08dcbc2777a9e68b805c3",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07364012500329409,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210763,
+      "cnf_sha256": "35076d6d3994a88cee1cedc13b5f7c4dbbdbf63146fc5809cdffc6405351511f",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0856710829975782,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210764,
+      "cnf_sha256": "62f093263781a4b66787c9b83aaed7559d836c555011db6cf8f865b9ac3fbe21",
+      "target": 9,
+      "edges": 22,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09579650001251139,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210765,
+      "cnf_sha256": "ca091942bc0bc76058aa33a57eb87aa15a73983df6d3baed63d792d8dbf316e7",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08070520900946576,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210766,
+      "cnf_sha256": "939782bd6d8143f0034da8066e419e4f6bb67564154bc097c4f110cbfffa4e8f",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0813714579999214,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210767,
+      "cnf_sha256": "2925f7095fe5b393b92632a361913d49e6d648f593f0dd39d770fad8bf8a0215",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08080804199562408,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210768,
+      "cnf_sha256": "5be6ff5e8fae20bb48622c73047465e528ef9eb8b7a7dba7aa9171fcac8a2461",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.10132133300066926,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210769,
+      "cnf_sha256": "4ca1858b4fa58e2b5645677a3972239d9254f5192a23b1b562c4e0110b8e7d27",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08233437499438878,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210770,
+      "cnf_sha256": "fa5571e661ba61d14fc22d566ac20ec1d855ef5b8077ed0c9b59fb73b811653e",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0815202079975279,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210771,
+      "cnf_sha256": "efadfe8633f9c8bc59e5d5eb42922162ce8c02e000e5918bf38d0738712752c0",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07669216700014658,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210772,
+      "cnf_sha256": "d66511af3df464b97f60d76e0e6fe91915f5debd32cc5a394bd1904a5e31c20a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08067000001028646,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210773,
+      "cnf_sha256": "d30942d638d8110f2825da65eef1be4a167c3389df46ef92e34d0a20800a36cc",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0827080000017304,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210774,
+      "cnf_sha256": "5fcf2fe8a1732fda13e393abdc538a9e913b86541458448fea2d155422dcce5a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08203991698974278,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210775,
+      "cnf_sha256": "bb2f6c086fb0e8418103d32a042c479be396e16875af190e8d9d8a254b1e05a5",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09360120799101423,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210776,
+      "cnf_sha256": "c79ea8f330a1dd5198cb3cc73220840fd09e41fd876906273b7d9a8ff05ae710",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08155554099357687,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210777,
+      "cnf_sha256": "4660c5c4685d2f07cfec017f6c037daeae60c998c6915231edb0d83d4edb573c",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08194412500597537,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210778,
+      "cnf_sha256": "6c637ce5687b82e402bb294bb69df86e8f5329990df018bf2351dbcc550ea4b8",
+      "target": 9,
+      "edges": 24,
+      "triangles": 24,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0834034590079682,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210779,
+      "cnf_sha256": "9ae15027710e3fda4d27120242caff6d28d0983f65efee336a5f35f5ac926819",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09643837499606889,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210780,
+      "cnf_sha256": "6f8ad27e232e9779609650260698a26147c83a6252b2a96cb7ac7103fae75e37",
+      "target": 9,
+      "edges": 22,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09513470900128596,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210781,
+      "cnf_sha256": "b9172cb2c1f4d9d324e5f191137131d0b13030c14ac8d32daba82317bae35acc",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0831103329983307,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210782,
+      "cnf_sha256": "433696ef8a6e6592400d3a5f1246f336cea553a472b13032ff53610cfcf8140e",
+      "target": 9,
+      "edges": 22,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08627200000046287,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210783,
+      "cnf_sha256": "10c7462e02e5cd6dc2e2bde24e30ece95cd6eed0a98ab3bca7f9c119fd19eda7",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08432333299424499,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210784,
+      "cnf_sha256": "7e5d79543f61ab32a22b4571a7fb61bba26116e87aa224e2acbb338000a9f176",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08553741699142847,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210785,
+      "cnf_sha256": "36d146d28a9c450f1a7b053bed4449b1bce216efed329b86ed51f8791c2af2ad",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08289704199705739,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210786,
+      "cnf_sha256": "19bfe748efbfd7ae51c76a1c9110fc23bd7952efcc65b00a4a6dd9d86c202888",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08220420900033787,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210787,
+      "cnf_sha256": "33d26132bfc026b4187e0032abf4249ef5e16372fb8b5fbaa161fa9bdabd00fc",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08090762500069104,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210788,
+      "cnf_sha256": "75699a19f75873e8a9f84bbed9ac35e69bb58175a529c0de12d2b2d51800d212",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08203887499985285,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210789,
+      "cnf_sha256": "feb5c1730d3ac8d62494322637cfeb8318f6604a2525293b1614d005fb2842d3",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08178125000267755,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210790,
+      "cnf_sha256": "858efae77ab93e085286f61b80c03ae2177b5d969e8cec981667ee93b526db40",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08196470800612587,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210791,
+      "cnf_sha256": "bb7664d7e68a7b594c1925e8994042910602ac2100dedd866042927095e046a6",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08125562500208616,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210792,
+      "cnf_sha256": "b58da7ffba5d6be58b36e23f860dfe9723d3b6bd1206d21a40e2a66b750c95eb",
+      "target": 9,
+      "edges": 22,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0932838750013616,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210793,
+      "cnf_sha256": "5deb09f1dd6be962076e42bfd8710a13bda62682801216642025e3eecbfd86cf",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08118379200459458,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210794,
+      "cnf_sha256": "f991b114ca21b763d473c24c5fa285862014f9326488eb7268bab55bbca288fd",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08124566699552815,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210795,
+      "cnf_sha256": "9a027d71ded6438fc9850056b5dd81dab68732df1df0a1ab92a84b8219c2535c",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0710812920005992,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210796,
+      "cnf_sha256": "951512a2ae68bac54f0bec7dd4d83bbb797161ebf97b33aa34dd4fe4ba4e66e6",
+      "target": 7,
+      "edges": 19,
+      "triangles": 11,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07143545799772255,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210797,
+      "cnf_sha256": "2dbf09dc7d32690dea46b92e387cb7666881df6321d174ebe2aed63218fd1fab",
+      "target": 7,
+      "edges": 20,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07209616700129118,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210798,
+      "cnf_sha256": "00962c98c2ec21608da8848a3a736f906dd8c7378985a641b5f29aa71c87b81b",
+      "target": 7,
+      "edges": 19,
+      "triangles": 12,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07198479099315591,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210799,
+      "cnf_sha256": "b5eead389d6fffe520d2785b4b366df9ce862f28b55f69cf69d55b4af296534f",
+      "target": 7,
+      "edges": 19,
+      "triangles": 12,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0728170000074897,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210800,
+      "cnf_sha256": "68be7f262b10c51665648abac397cafef77f4456d04f50d6381fea8807bc78a6",
+      "target": 7,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07322008299524896,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210801,
+      "cnf_sha256": "cc20cad5e7467b996859294646106b0f63f2951864992b52eed524f4d99db504",
+      "target": 7,
+      "edges": 19,
+      "triangles": 12,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07369033299619332,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210802,
+      "cnf_sha256": "a59585a7e5fa208ba0991eb58b27bd6d1eeb40486555bbb888efdc6468362368",
+      "target": 7,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07234066601085942,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210803,
+      "cnf_sha256": "7eee2ac3c062b9ba63f46e36e5ebd475c6123d0525de86c48203c23e008a3fa7",
+      "target": 7,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07364845799747854,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210804,
+      "cnf_sha256": "b8772e19f5daad2a83fb5c8141a09d01f209be545c6b42dbcb817306a8e2c626",
+      "target": 7,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0831431669939775,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210805,
+      "cnf_sha256": "23c7740c9f98cc4a7e0267de31084e013c689d5929b1ddde415cce1100e28483",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07376479200320318,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210806,
+      "cnf_sha256": "95ab1de33231e5e04ce037f079644239dd1b506a9a5fab56c5990bb79fd7adc2",
+      "target": 9,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.074151458000415,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210807,
+      "cnf_sha256": "50f79fa271165de734794687929bf26f2abc5000bd688a84afa1f06074f44518",
+      "target": 9,
+      "edges": 21,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08352983399527147,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210808,
+      "cnf_sha256": "004eceb95ca9e5b7909ebc916fa96899eda2ab86851bc9731d74a71b42133cd4",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08269679200020619,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210809,
+      "cnf_sha256": "57f07fad8a85368cc83b54e43e46ae79cf210a75e465804896f732a2dc53238e",
+      "target": 9,
+      "edges": 22,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08286712499102578,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210810,
+      "cnf_sha256": "c6727addda731c11f29e4a9ea8f9a6b36ddc91dc63e99d3efd95ede108f26d31",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08592483299435116,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210811,
+      "cnf_sha256": "6474f334089721d70d14ba4687b924ce6d0b76f565fdd1cd9023c26ab75d167c",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09505158300453331,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210812,
+      "cnf_sha256": "91b688329c34164251e4cf9fc332541ba701b22184ff6e17c73efe1d96bf6c15",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09446600000956096,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210813,
+      "cnf_sha256": "670b997fa8be6c4cbec8312edd3dc5e59de19360f6e6777850236eb1f40b9c11",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0939396250032587,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210814,
+      "cnf_sha256": "06d77f581022a0bb948ddf4450608bf0d499300e698a81751426cf6b095068f2",
+      "target": 9,
+      "edges": 22,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09547062500496395,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210815,
+      "cnf_sha256": "d5b073cff5ae1091052fc63dc020349f6762f42392dd6b0ef2e246fee75ac1f7",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08322112499445211,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210816,
+      "cnf_sha256": "16686c26939a8449991a366ffb2536a79bc0a6d8c55a6172a2f7b3042a8e47fb",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08423525000398513,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210817,
+      "cnf_sha256": "f51e71f82e086641c46b1713ce0d04c264a883725ccde0b44cc3d85a3019bd1a",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08439004099636804,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210818,
+      "cnf_sha256": "fa6f955aa18e3f075fc930d12edac904b3ad55b474d53c0a2681d9a0ce004ae4",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0836669999989681,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210819,
+      "cnf_sha256": "012e9752287c29e3d650804ed9f950866118b05f698d4ba3ee5b4f2097a261ce",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08363641699543223,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210820,
+      "cnf_sha256": "50dbd0660d6368343e4cafdab6ac11d63f92e81a0124a274e750b3b4e89e8f41",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08416120801120996,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210821,
+      "cnf_sha256": "8d775ed35c6f72066c2f66e95a14125d248265e16624f91f945207b4ad0428f8",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0824622090003686,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210822,
+      "cnf_sha256": "8f910140d0e0991fceff66755ee9b31d7b7a3740e8cb982ae698cc4231705aeb",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08244362499681301,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210823,
+      "cnf_sha256": "cb2dd3ee5a9cdeb6d35d7ad91579d4a2b57bf3297ba70cfef4d65deca3fefb88",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08436337499006186,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210824,
+      "cnf_sha256": "7eccb1a01240df255fbe3f5dfb556ee9b51a0a98c01fdb066ecbcfe106da89dd",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08387629200296942,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210825,
+      "cnf_sha256": "c5a905cc7eda766f5bef3d2c81fe115f80037f39bd260a9632edb8e0c65fcb7b",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08410633300081827,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210826,
+      "cnf_sha256": "6aa1558119f776e6a9fc7d4b72b70ec89ff54b208ee5f95e329ec0d740b8a825",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08384704100899398,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210827,
+      "cnf_sha256": "b3e35628fd5b5705fa8159864ad888769eac1685414446533e6a2c3547718912",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08373662499070633,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210828,
+      "cnf_sha256": "9a4463fb223d1d523b650300f7a2feecadf956f5f9fbc18f8f03b1d83a816446",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0854826669965405,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210829,
+      "cnf_sha256": "52f06dfcb62c3e308edf027eff5ce650d1e52ce2a816170f9bb29c714967f1ca",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08651029100292362,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210830,
+      "cnf_sha256": "cbc7ca8810155d899509bc979256bf511ef22cdf20631afb215fb5f8bbdcdc56",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08868637500563636,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210831,
+      "cnf_sha256": "72ddf3446c0fcc45961251f4b55d96dcd922aff49b340d2c612b1bf4b4917f87",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08852208299504127,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210832,
+      "cnf_sha256": "3ccde7d22618c7d7d4d79159e54650c256cd41ae4eff3e7ef3f6d4a92ac18eaa",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08571233300608583,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210833,
+      "cnf_sha256": "5c223b98280c6065af3c16dbd96259dbab6cc7ce0405106942141bccf17b199b",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08719083400501404,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210834,
+      "cnf_sha256": "f962da52c954f3d4776e61114685018e93fa012e33f42f26f46b14960ad51c2f",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08586383299552836,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210835,
+      "cnf_sha256": "17a95817dcdfddd03d45bf497f829f8fa1e91059475e0251f5942d99dc36c89f",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08523375001095701,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210836,
+      "cnf_sha256": "138df981aae7dcc68f23e8e109356ab7b40ab4f0799d408b24c378e6089a7a9b",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08741649999865331,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210837,
+      "cnf_sha256": "05dd496d7c1164a643b613030b803ebaaa111d2f55c6389d6283463681a39b2e",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09337349999987055,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210838,
+      "cnf_sha256": "d5eff2ccfdcec3530922cc1a0264d5b79e9474e97f4a58def04524cacaedcef0",
+      "target": 9,
+      "edges": 22,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0934350839961553,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210839,
+      "cnf_sha256": "b1246c298c24c4b0e59cd041d10479fe91dd1fd830c3bcf5fed62bb8829c30a2",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0822590419993503,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210840,
+      "cnf_sha256": "f481a676143369ecdf9efb6e62567beb821eab82106b1c513a7d1961c50f0177",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08377970800211187,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210841,
+      "cnf_sha256": "72045529394fe592620beeddd5fc256f208d3e39a87950bb58ed6b21c5ad229e",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09410579199902713,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210842,
+      "cnf_sha256": "ce5638dae008deed9990d6a272799a25ba9200ea245802873f0e01c50dc4c77d",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08188920900283847,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210843,
+      "cnf_sha256": "67ec51af47887e26f3c11de6b507754d57b1a2c3d009153ed8e7c5761db612c1",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08298662499873899,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210844,
+      "cnf_sha256": "010aa1a10959545163978870011408121b7181529f8a414c52ef36f70708d1c5",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08251383400056511,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210845,
+      "cnf_sha256": "b0f8b57c19b633049d36fac5e251c3b688fdb73229e8302da511890a0f275f36",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08088470899383537,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210846,
+      "cnf_sha256": "b75505d090cae6be7253ab3e94bfbf54587d08d283e347eaa4b6d2880bd0ab58",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08258950000163168,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210847,
+      "cnf_sha256": "2fbdd2ad61312f0f1869d91fc0b533d460da580043a4182588ccd7fbd6a608b8",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08414300000004005,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210848,
+      "cnf_sha256": "c6a166e20c2db6cf268cc4897c582268aa57235109e62caba4e387d89c2a4ab3",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0839622499916004,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210849,
+      "cnf_sha256": "0939b82fb26536ee76cb58139248a735f88e4fbfa180d5245d791ea50dd177d3",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08590066700708121,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210850,
+      "cnf_sha256": "b8ee74789a3f1578fe20752a015265b9e314ed1bdc79c0b5ace73208b1b63ca4",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0865745409973897,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210851,
+      "cnf_sha256": "bd6e92754b9ff3b9cc6611d858d9dee7b2ae49cd54a9d7eb0bafa3f19837ae21",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.082107291003922,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210852,
+      "cnf_sha256": "3d28644a126123f03ddfa7477bad115f53fedec328eaab0eac5dc68158ae4e03",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08541437500389293,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210853,
+      "cnf_sha256": "652a7b4ca39f49c333ebb9a86135fbef1b14ab6902a4b64df3bf5b638a50ba3e",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08652970900584478,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210854,
+      "cnf_sha256": "8389b4ca52c98fdadb0754d2426db10651fda899854714326fe2c48f49e057ea",
+      "target": 9,
+      "edges": 25,
+      "triangles": 25,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08427337500324938,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210855,
+      "cnf_sha256": "c9a02c6bffe1ddb0c33b5c2cfb5d5fcfde2b81cabb43640ad3d8f41a8115e746",
+      "target": 16,
+      "edges": 25,
+      "triangles": 25,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04551108401210513,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210856,
+      "cnf_sha256": "87054c1af1349cae1865d3778517738e3ef70e6c658b91a5ad0698c203de8e86",
+      "target": 9,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.043979041001875885,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210857,
+      "cnf_sha256": "ecb7d9412864027cf19f17a7eca48c928168868f7fee2f1fe3ca5ec5d34a5487",
+      "target": 9,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.043652708001900464,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210858,
+      "cnf_sha256": "a0443f613209eabdc9b70466f3bb92d04ba103640c655bca11ee5fe25a38238e",
+      "target": 16,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04330529100843705,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210859,
+      "cnf_sha256": "57f0a76cb5772814a57042d3b9522001c3b1da9f6f31fad65e4cc32987aa9793",
+      "target": 10,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04422883399820421,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210860,
+      "cnf_sha256": "b67d3b29710d59cc82ffe5e21ff9c69540702a17c4bc5e48ac52988bdddb8e0b",
+      "target": 11,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.042904292000457644,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210861,
+      "cnf_sha256": "1fcddf7845b10069caf6753579e0b6dc713ee48e9c39b6e89a122efbc083bd61",
+      "target": 9,
+      "edges": 20,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04594650000217371,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210862,
+      "cnf_sha256": "d7b219e892d3bc470281c9a9c513769eb4bc162a490fd505efc56c2b08eddefa",
+      "target": 13,
+      "edges": 24,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.048816958005772904,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210863,
+      "cnf_sha256": "81fd8bc70aa6d3584f4cec860fdfcb6cfd7771089f0028c6e897e75aef73e31b",
+      "target": 9,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04549358399526682,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210864,
+      "cnf_sha256": "8c8b0bc7a637fdecf60216e41125fe264f37051a8fdadef512ee8b7ce57a2256",
+      "target": 9,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.10098504199413583,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210865,
+      "cnf_sha256": "a53e297fd10267081af3a5ab10c239d7dd9769309c9e4dab737d910bcd5399e2",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09715837499243207,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210866,
+      "cnf_sha256": "05ee5ff400d3177b999c1c12f89444d9ecfbd668d49febc4ff1ab8bffe6efd74",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09526295799878426,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210867,
+      "cnf_sha256": "ad4efc51a4fbcf825857e50325024186fd26da195d728490e91ec0049e36b936",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09314470799290575,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210868,
+      "cnf_sha256": "4f03a0d9c40a1ea61a595774363ae52b6d58d59b8dc157a2cf3bed859bab38a4",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09489204200508539,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210869,
+      "cnf_sha256": "9299d2369e375c3699351e8bf1fcebd21330cb39bf67a5a808b8863c99aa3155",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09707620801054873,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210870,
+      "cnf_sha256": "a5c2200a444d4951aec9e38b0791254eb44c8b5e534a9a8a9dc4a71c7b2a2876",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09927370799414348,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210871,
+      "cnf_sha256": "67522d614cc5d7ea2c8ff635cad39a1c60d652a2a9c65b48ce4e553783917c53",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09613404200354125,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210872,
+      "cnf_sha256": "f96bec1b03a3b3d2800d9020be0757e097a13d067aee6e36805e1344e66083d7",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09851908301061485,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210873,
+      "cnf_sha256": "8dfae8ecd8a952bdd9096f0f8edd911b5724a3a8778353f69ddc2dbe3b5ea851",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09910916700027883,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210874,
+      "cnf_sha256": "31a5895ef892a15d5d39a6de99c0c19142dc04b863c2b0d3b5050807f05db96c",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0958834159973776,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210875,
+      "cnf_sha256": "83a134479d2bf6ed97afdaeb2ca8e1dccbe6338c31f9a96bcacc42169f03dd6c",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09774225000001024,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210876,
+      "cnf_sha256": "37373dd9b45ef2c2b5d54e231fd01e19b4ef39bcc224901c502dd795dffc9c54",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.10362345901376102,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210877,
+      "cnf_sha256": "59de0243b7a604ddaac7362e24262d71180c612ae41d1ba8ad677f33188b509e",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.11436250001133885,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210878,
+      "cnf_sha256": "a78f669dc0cfd9a2cbeb3f05a28300d0abf492f231d13a01cc61e6c242a59f0c",
+      "target": 9,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.11233524999988731,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210879,
+      "cnf_sha256": "4aed9dd625ed74a2cf695cc5da774726d1190a33075cf9daaa8e0fdcf2cdff23",
+      "target": 6,
+      "edges": 18,
+      "triangles": 10,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.12099870800739154,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210880,
+      "cnf_sha256": "0fef914c351f9ebb4a819cf4d3200b853f6288b35ceb503800fa58220e1c9388",
+      "target": 9,
+      "edges": 21,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.2423925000039162,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210881,
+      "cnf_sha256": "4c8c0eb0e084a8a56fbd21af549b3a9e80429f02c749b97d1f34666c0fba9dad",
+      "target": 14,
+      "edges": 24,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13717037499009166,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210882,
+      "cnf_sha256": "b5f66402cf0ade7bfad26d0e0eabb2e8ba4243922a2f9e36ef5398255f7313e4",
+      "target": 16,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13627874999656342,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210883,
+      "cnf_sha256": "a253f0c0fdf176554538331b6e2072b3309effbe0a51d71b0369edf520cc1d76",
+      "target": 16,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13615329199819826,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210884,
+      "cnf_sha256": "416ae5f759bf6384a2660eb0135571817be7a91b506f8f3223df4ba79f08addf",
+      "target": 16,
+      "edges": 20,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.1361346249905182,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210885,
+      "cnf_sha256": "265ff1e0751d52db33edd51ab6a1a10672ebfde6c7e50093379af8a920d46bb0",
+      "target": 16,
+      "edges": 21,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13944504200480878,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210886,
+      "cnf_sha256": "4700e8aff5aa04152ad62c952432f2fafe55ebdbb53340dcca72d083119766de",
+      "target": 16,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.046316709005623125,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210887,
+      "cnf_sha256": "faadecacff42934810886e68f53a940a0f12a452319421c7af887ccbefe8bae3",
+      "target": 11,
+      "edges": 21,
+      "triangles": 14,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04622679100430105,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210888,
+      "cnf_sha256": "84237168517cb2b48c36fbac2f6199f87b2ea774ecfa2e1093e507a94ea196b0",
+      "target": 11,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07140179199632257,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210889,
+      "cnf_sha256": "98ee2fa684be9ce563296d448723135b37f88c361a5c5fe316c5303982226b24",
+      "target": 9,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06847766699502245,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210890,
+      "cnf_sha256": "b5fcc913f107a25a6b56a705460010607e7280007c028594a5850d8c62234022",
+      "target": 9,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07096016600553412,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210891,
+      "cnf_sha256": "a7ecf96375b443fd0964387c9116805f50929d0b4526e79068360110670cb5bb",
+      "target": 9,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07724116700410377,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210892,
+      "cnf_sha256": "42ee66b4963205392b0e6fab2f3484359160ba1ca9916e323a66d5b20d7c1dde",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07165687500673812,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210893,
+      "cnf_sha256": "abd54745695104d72015e0969b203f77c488a5a9f2b3db3a92d0874c8824918b",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07260958300321363,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210894,
+      "cnf_sha256": "2657bb29dd7d9a042e598c2464cc5d4399020df891b3a6506058e5f665c799a2",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07260250000399537,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210895,
+      "cnf_sha256": "7d05e7f5f52abccbd41e43316e636abcaa0234521428388bad68a83e0f7e5898",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07192883300012909,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210896,
+      "cnf_sha256": "055b08e63327f8db870f5ea1c53b1853da9f71ba2c78eeda8543d4a958b55623",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07097379201150034,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210897,
+      "cnf_sha256": "739a8b6c8aba50352b9c4df43545f4bea1fb14601d1dde8b7245bc8b3137730a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07430962499347515,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210898,
+      "cnf_sha256": "fab11328be7df0427e33bb273cb4e94b9e7976adea2e3bd23f3910d70a6d1d25",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08182845798728522,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210899,
+      "cnf_sha256": "53d7eb7f0e1422fd83469d353b2a6f1839d8d5d21469ed967d7f394890efe1c0",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08216020799591206,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210900,
+      "cnf_sha256": "be45e481187e0813a5992b6ab427b11ffc25c00cd842f72fdc1316ad6eca2dfd",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.082199208001839,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210901,
+      "cnf_sha256": "c6f6a0d14e71f15934e96ec8e02f7314f0a1341b1c84d240ad3971fec0a1246d",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08343087500543334,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210902,
+      "cnf_sha256": "378fc3acca3e6496e5eb7cb772b3cfc6a062c9c3823a385ce26aa07db43449eb",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0843865829956485,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210903,
+      "cnf_sha256": "00463ea2b92dfd16db3b9a26816cf1028d043a2c2c11e64a26d059aa765ef2c1",
+      "target": 9,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.084040041998378,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210904,
+      "cnf_sha256": "f0dde34002c02d1f9601a490bb17467d96f1ca02994b2ce22edf1a98730ae24a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08261683300952427,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210905,
+      "cnf_sha256": "d5cc1c4cc9bd74ab38e3e32fda9e0f609054ef075d1be4421a4f8de92b3187fd",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0835277500009397,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210906,
+      "cnf_sha256": "8094472997784617e172524cd03694219c5768720311711e877c276fcfd79f7a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08394362499529961,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210907,
+      "cnf_sha256": "e48610fd1c8ce8c9bd667d54c450001385ff4029cfe42ac3b5e0b5e35e363c1a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0833700830116868,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210908,
+      "cnf_sha256": "841ae1307be8271b1d0a58b213a220f7630e61815d298679e093bf6793e872ed",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0839944579929579,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210909,
+      "cnf_sha256": "7f4e724ec305c5fde77f83389923fd0227906692d856e9a62cb30ab225e2a99c",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08375287499802653,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210910,
+      "cnf_sha256": "ebe5db46d0d14b532710acfaff5ed747b131fe7a6fd186bf76846cb1c113df77",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0845117920107441,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210911,
+      "cnf_sha256": "29dc121db80d75abdc0ef5db019e00172ecc75306f98207585ddbf9544abecee",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0852379579882836,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210912,
+      "cnf_sha256": "251088da15521c2d6fcd579ed81e1e501e853ce9729428f7bf09087191f61f9d",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08620254100242164,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210913,
+      "cnf_sha256": "d8242dc59f96fae31b0fecdb91d316929246a583544df2cd0d02f01d97ec9afd",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08761429200239945,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210914,
+      "cnf_sha256": "cd1734b8b2bc07cd79d0820c911712bf95beca7dc1f9b5050ca4fdb52074016b",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08727362500212621,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210915,
+      "cnf_sha256": "dd833528ecb9fc548ea539a8fd530522a3ce389fb3df32280061603a8d57d0ae",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08781220899254549,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210916,
+      "cnf_sha256": "7af1240aeddaaf6cda6f4297cf60ddcece0a8e277a84fee9605e229e25825f6f",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08514774999639485,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210917,
+      "cnf_sha256": "5d90325dcc7793b8c20ed1187eaae2adfa43c4e0f5bba2f74752454d4262bc59",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08428333399933763,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210918,
+      "cnf_sha256": "07018029cd6e809635a801e75071f0b90e4e0647bc433bc71b89d2afb6bb77c7",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09983325000212062,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210919,
+      "cnf_sha256": "92dedc97c389ed63b96ce18675798c6e66f317d95d6da01e4e578abc965a5319",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08922941700438969,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210920,
+      "cnf_sha256": "4e475daa61b4ebdcdc36a4dbb8954cb5896804c5da23ef971bbb8f911da8fede",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09069912500854116,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210921,
+      "cnf_sha256": "8eac2e60e9d2d6b1620a267ce5df06ff8b42d4b68834b6e926917d34e5e91ffd",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08788995900249574,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210922,
+      "cnf_sha256": "aeb54b33e5fc7ba2935ea82f3dc8026b2b941e4fc635af680ecb41879a61dfe8",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08635966599103995,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210923,
+      "cnf_sha256": "9307a7a9a10ba0443a8d8237e2eeadfb20c98ec934080699f50a75c335a80c25",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08412833399779629,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210924,
+      "cnf_sha256": "0a5f85ea3554cb12a8b464ef7b6ae0920ac94e97c7e5970a6f86c77b5271e2fe",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08626724999339785,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210925,
+      "cnf_sha256": "f311ac9395d852621bbcb34347d0b74363f3517213d9271a5f6035275573efa3",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08991708399844356,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210926,
+      "cnf_sha256": "64b5f6769e600f07a0c36100d6e30dc031b61c702bcc63e18e6ff77ec761960d",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.084063457994489,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210927,
+      "cnf_sha256": "0c96a509b8134f6cabb6909819f9488527da25f8a1362fd315e1b21896401d55",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08403329200518783,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210928,
+      "cnf_sha256": "5be0374c0062bc4737d2b6941a13e88ae2c9c8e32cdc764e82b2d46e88720d0e",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08477470799698494,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210929,
+      "cnf_sha256": "8c071b448b0d0779651b5257b51c2b3a54ab91fcf0dd4ef75b777db2fd3ced26",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08553491700149607,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210930,
+      "cnf_sha256": "d9d9cacdfb2abbf7a809a8e8250f7e6407d74264274d1052ff8716474efba390",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08614566700998694,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210931,
+      "cnf_sha256": "c0b0d29c80f281abb93171a3b2a8722561743c0ab9f90704aa9931ed57aaa0d1",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0881652079988271,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210932,
+      "cnf_sha256": "55182ac49c23737c46464f851ab4838d8939180b7895c76b9a508185f2b50d9a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08616262499708682,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210933,
+      "cnf_sha256": "3d08b9715912986bb48d7fc836b3f061d03b445531f9ea79b1849833efd9b179",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08484958299959544,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210934,
+      "cnf_sha256": "4908d6784c34cf418332f194d9840a73bdc8eb498a829230d7c28156e98666ae",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0845317920029629,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210935,
+      "cnf_sha256": "2bcfe1faf89be18de7da5c7d2cf772e75a6170eb0ee7d8949d963713b26d9687",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08555775000422727,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210936,
+      "cnf_sha256": "00e4f659ce600b0c0021ea5cc0cb4a5b121bd3464c669a3482d69967f917e051",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08976045800955035,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210937,
+      "cnf_sha256": "b1551b2f9743ad212ab07d763b481433c0f8ebd74b853a7003abf656408d7329",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09229120799864177,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210938,
+      "cnf_sha256": "9096803d78fd0aa444fa2056452ccf60a047eeeefbaae3a2145c9b847b035bb8",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08755437500076368,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210939,
+      "cnf_sha256": "8beabf09b7e5b13a62e7eac03248e41452eb36e6351a79c55959845205500b3c",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08966262498870492,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210940,
+      "cnf_sha256": "fd95c42672b54998c53923eb30812795d1677846d84591facf8a8189eaf500e5",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08831400000781287,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210941,
+      "cnf_sha256": "f833122499a9f63f19b461a80064604d80d6f66b8c5c1c27d645201d983b0f74",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09038262499962002,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210942,
+      "cnf_sha256": "3b192b0aa6ac211eb80da5edf6019295db47ede612a8b877f1a3e6db52bfd971",
+      "target": 9,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09131783399789128,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210943,
+      "cnf_sha256": "c62722b6cd612bff5e564a9e5ac5a483265fad53f736572dd859586160b7895a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08882054200512357,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210944,
+      "cnf_sha256": "fab9ed6190154e0ff1917b31167d7551e4e14f3431f837ffb5365c4036ac574a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0901757079991512,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210945,
+      "cnf_sha256": "ea1b1db33dbf9f8fc0b6b49673b738765326f237309d2a67e52a4446daaaa99a",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08908929199969862,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210946,
+      "cnf_sha256": "6d48f486719d9d4607823e9f5cbd5ed987f6292de5933cdb8af095f0112d90aa",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09122995800862554,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210947,
+      "cnf_sha256": "bc782cc94c7e3b18a2f482b0769f246391dac9f852e134909b5734efb8d8beb1",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09244491599383764,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210948,
+      "cnf_sha256": "9e45bc0d72d0e4176038886fef97140fbd1a6dd83f1dc3143fefd629facc0c69",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09369091600819957,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210949,
+      "cnf_sha256": "22c407deb57d8018e19582c90ec10873c05193962b9eb29df38ec6f0db10cd25",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09225391699874308,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210950,
+      "cnf_sha256": "592dad922d238d6b3d30abec0b234e005c391c3a09b05be84b7ea9e3be7b7e64",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09338833400397561,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210951,
+      "cnf_sha256": "00c39fe1ae4961ae20af19fc4d7739618a6610b2a81afc1658974d78f15124cb",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0944397499988554,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210952,
+      "cnf_sha256": "af2af11b540f0a6487a018bb615ff0383d85153e372cd2679ecf70d05e4aad78",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09246179199544713,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210953,
+      "cnf_sha256": "e850b47fe8291416b0ddad93f61677bd73e320de3f0c4b6b2cbd39c44ca49f46",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.12031479099823628,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210954,
+      "cnf_sha256": "836ae52564c802dfeba9e848f8bb8be40cd820be6e27cbdc5e96f824e9822fef",
+      "target": 15,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.1290621249936521,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210955,
+      "cnf_sha256": "b5bab331be98158d9ff95743efa4d13abff1bb75e73a135c25c9e7cd7de45f86",
+      "target": 16,
+      "edges": 21,
+      "triangles": 14,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13166245800675824,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210956,
+      "cnf_sha256": "9ecca5a57d4d6ae6fedda9a6e2b2d5e2313d6922395a609960996ee3e5c1ca19",
+      "target": 12,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13040249999903608,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210957,
+      "cnf_sha256": "d0fcbe8f1defd57dfaf94b291d253654cba46a7cf5f8df71c09dfc009b6cb990",
+      "target": 15,
+      "edges": 23,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.1317049999925075,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210958,
+      "cnf_sha256": "a8e061ffde1b0288e6e6d6697fe754e897ee550dc8e90adc7efc7a98ad6ed261",
+      "target": 13,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13173000000824686,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210959,
+      "cnf_sha256": "e9ccef4166b5346bad14b86d0bd6a8853bf23addeb18c87d37559681561b52fc",
+      "target": 16,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13384150000638328,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210960,
+      "cnf_sha256": "e2c85dbe0734a7ed1a3a3d868d9b0906a26563ae13b3b25ef35ce2b02f3140e7",
+      "target": 16,
+      "edges": 23,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.12919137500284705,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210961,
+      "cnf_sha256": "efaf3ac2994388af44d35fbe454556943207ab7f2ef30ea3ef75c4e01afd071c",
+      "target": 16,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13121720800700132,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210962,
+      "cnf_sha256": "753df9ce37e567a1b5dc460b6360f3f03deffd8f79d7f6eadc3a9dc60923886c",
+      "target": 16,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13250287499977276,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210963,
+      "cnf_sha256": "0132752e8ee41cc49e36347c2d9956ab03f0476c403700ee2c9c4ad8e9fd08ff",
+      "target": 16,
+      "edges": 22,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13569983399065677,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210964,
+      "cnf_sha256": "5058747b82f0eec23d431e687187f6b23afe1749d8306a03bbe0f441fa03da53",
+      "target": 16,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13717962498776615,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210965,
+      "cnf_sha256": "1e0b426cf642c7c963ead03d9e16612fd28b63f8bd6b3b0968adb6434a76d124",
+      "target": 16,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13558149999880698,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210966,
+      "cnf_sha256": "abe2d797be81fc2d4a9bbf57be47ce065a1e8664b1e0fcd6619918674341fcda",
+      "target": 16,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.15560337499482557,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210967,
+      "cnf_sha256": "18e2826d8163b3ce4481ce25689958345c6c4c547748402de52e2f1e971f612d",
+      "target": 16,
+      "edges": 23,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13869466599135194,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210968,
+      "cnf_sha256": "796ab4196cb75eba3bd3e4feb266440ef28a07a967c655be1576b58edb026467",
+      "target": 16,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.24719949999416713,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210969,
+      "cnf_sha256": "e86d6d33ab4e8640fd58156b5cb03a70565f57946309a49ed6ff2e70eaca7d50",
+      "target": 15,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.24791775000630878,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210970,
+      "cnf_sha256": "840a161fdae4d9957a435cec3737ba64adcd43821949eef4eb578bf9b2fd2216",
+      "target": 14,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.24769137499970384,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210971,
+      "cnf_sha256": "3c7a3e6a7d249dc045c44170a9aaa0e93d0a7535033d74493041944fd0fe4cec",
+      "target": 14,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.2601387920003617,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210972,
+      "cnf_sha256": "59b7f6c1afe5444dd7a3bc8b65716209f335e78783a01cb7910bf6fd40495972",
+      "target": 14,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.24829800000588875,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210973,
+      "cnf_sha256": "54a6e17a89e7d0dcf09ff410f3614b51d88ffa9cf9591dc79f7ab2b9c04aa079",
+      "target": 14,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.2511452909966465,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210974,
+      "cnf_sha256": "9cd48a6170ae70add3eae84b3f2b8a38b98c2cb56599cf92c923cea393f804a7",
+      "target": 15,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04360170899599325,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210975,
+      "cnf_sha256": "efd201b5df3ff0cba0fea031cf81fe64aad43d2f29073b5ad5f46a7fcd6baec2",
+      "target": 6,
+      "edges": 18,
+      "triangles": 10,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.047162125003524125,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210976,
+      "cnf_sha256": "63526623b1706390df93b0333454589f2f2649fe3db08b3ac07f324fa0d683ec",
+      "target": 6,
+      "edges": 19,
+      "triangles": 10,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 5
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07268054199812468,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210977,
+      "cnf_sha256": "55e64c285d1a98bba5c3c71aec102c3ae3566e60bcb1460c0a0fbe8f54112868",
+      "target": 16,
+      "edges": 27,
+      "triangles": 33,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07318674999987707,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210978,
+      "cnf_sha256": "16cca8790af1cb506d56bb8196953ac78301cca3a8b4db784a9eba704f0abe14",
+      "target": 16,
+      "edges": 27,
+      "triangles": 33,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07005529200250749,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210979,
+      "cnf_sha256": "edee79dc6cd26ded1cdb93e2ee953a8079a3fbc5f88c8977eac5759aaf103845",
+      "target": 16,
+      "edges": 26,
+      "triangles": 29,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04468416699091904,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210980,
+      "cnf_sha256": "70140c67de188f71eae7a00cce93a64177af9f03d6e25f6ae91585dcb7a83d1e",
+      "target": 7,
+      "edges": 20,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04970170800515916,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210981,
+      "cnf_sha256": "afe86f0163882ae0a3587092a16a609fd520b1702a309bc3332d0e289829f801",
+      "target": 11,
+      "edges": 21,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0682293749996461,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210982,
+      "cnf_sha256": "4dbf6969f5919debaee5fa0d8a16187594fa3a0af74bab38288feab4b31fefef",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0665409159992123,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210983,
+      "cnf_sha256": "9788be02e85d9b1a738db3970c422f885e32f0c1ba5cecba4e322e33e08a8323",
+      "target": 16,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06521895799960475,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210984,
+      "cnf_sha256": "48c1c24ca4db6219278990b9b62a03dd30fd67e6d45aabeda3b4ea1d7a734eb7",
+      "target": 16,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06640454201260582,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210985,
+      "cnf_sha256": "4930b28bcc1a58c3b033864c33f1277a91ecb2970e645a18a24f9175167ef177",
+      "target": 16,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06662712500838097,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210986,
+      "cnf_sha256": "c4d1fadd3f326b1158cf03e10552433f10fe4d3c608b7e2f41526edcd9439033",
+      "target": 16,
+      "edges": 25,
+      "triangles": 26,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06768908300728071,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210987,
+      "cnf_sha256": "0a003c7b07603dad5f62284c41baa26ec27425cd5932b929daf2e6151e9f9763",
+      "target": 16,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06785366700205486,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210988,
+      "cnf_sha256": "d0ec837f830fa94b2a9e7f048e781262414f3e5601e7f499598bba95649bb6f6",
+      "target": 16,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07160158299666364,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210989,
+      "cnf_sha256": "b436dd6a1c6b0ae8e0a684869ddf6f4f23a965f096bcd520a3cbae5100bc4a8a",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06835545800277032,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210990,
+      "cnf_sha256": "5c4114cec935952420e80eb20031d4c69d8a651d9f1896f08efff9a6de330a4e",
+      "target": 16,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.046297416993184015,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210991,
+      "cnf_sha256": "752b649942c04e8791f616dfb69b88d91e1ef71acda434cfab688b5276b38095",
+      "target": 15,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0465417920058826,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210992,
+      "cnf_sha256": "914ed1b3df769234d94a28c17a521ab5ab97bd7542bd97cfffa86b6908604eb3",
+      "target": 14,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.050559416005853564,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210993,
+      "cnf_sha256": "a29e3cc74a1fb85ec2b855c2e3c24ef729166485450b154c1bd4476d5dfb144c",
+      "target": 9,
+      "edges": 21,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.046636999992188066,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210994,
+      "cnf_sha256": "86189e3368f11557367372196c894f63f1f1a7d516658e72384901973c221d82",
+      "target": 14,
+      "edges": 21,
+      "triangles": 14,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04962508300377522,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210995,
+      "cnf_sha256": "ccdca3937e29a6023127a8e5fcf792e0b5442fb16eadf2a8d87ae2be61924213",
+      "target": 14,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04791637501330115,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210996,
+      "cnf_sha256": "4da56a2c4ae6a15484e014e134ec38585a7c7965a913e189b22e6602c8055e5c",
+      "target": 12,
+      "edges": 22,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.057421541001531295,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210997,
+      "cnf_sha256": "82ed2bc12a8d1ffc2522540637db1d9bd441505f41699f3235d89c609ef60d23",
+      "target": 12,
+      "edges": 23,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06716779200360179,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210998,
+      "cnf_sha256": "a38526b8ce4d4cfe162ea0e2b58e451fc46f3f4a4367c00d42e829d0ef0a80ec",
+      "target": 15,
+      "edges": 26,
+      "triangles": 31,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06602191599085927,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 210999,
+      "cnf_sha256": "255081f5195b4742d1d3b2902aea024bdce324e3447d08070f6210c5b0bcba6c",
+      "target": 16,
+      "edges": 26,
+      "triangles": 30,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06621754099614918,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211000,
+      "cnf_sha256": "b3356a1b56c44893a2fa00c5fc0c41fa4a80d26c937433de42f50e4a40707719",
+      "target": 16,
+      "edges": 26,
+      "triangles": 30,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06704950000857934,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211001,
+      "cnf_sha256": "ce1e474283df9e10e07dbc51559d2d68960d95687d952ef28add86c07bf69096",
+      "target": 16,
+      "edges": 25,
+      "triangles": 27,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0671135000011418,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211002,
+      "cnf_sha256": "0bf6c0f2f5d9661d27a9a097fb20dae84fb8c0eca44006a54e71cf00ab9160a6",
+      "target": 16,
+      "edges": 26,
+      "triangles": 30,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04353537499264348,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211003,
+      "cnf_sha256": "2beeb4657734ef101cf35124b0150f6649aabe10a34c61a827f8f391e25ffbea",
+      "target": 11,
+      "edges": 21,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04537504199834075,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211004,
+      "cnf_sha256": "e63ce023fad658f5c1f51fc3c3c818ac22a03ff8c0a40dcb7a27bcab0c31cba5",
+      "target": 13,
+      "edges": 23,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0679787500121165,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211005,
+      "cnf_sha256": "356ad92d61907fb2912d533c8bfca981b0f89742c5038f4da4525f812ae18446",
+      "target": 16,
+      "edges": 27,
+      "triangles": 33,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06807204200595152,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211006,
+      "cnf_sha256": "107268dd0932cfbba49f3c0b453f7226ca8ed6bff6f5a221cc1b7921f2b743cd",
+      "target": 16,
+      "edges": 27,
+      "triangles": 32,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06623320799553767,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211007,
+      "cnf_sha256": "e9f575df25263899bfe459a65cd6ef24afdfc0aa499adcd6d221b472d66e1cef",
+      "target": 14,
+      "edges": 25,
+      "triangles": 27,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06790670899499673,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211008,
+      "cnf_sha256": "12ea2c4b44eaf3e856a5aa0beac61aa4b919bfe4fa5fb1664d75f8a8c6e003fc",
+      "target": 14,
+      "edges": 26,
+      "triangles": 29,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06702545900770929,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211009,
+      "cnf_sha256": "590690743a61b45b2aa4f4b51a6837668b712232a63b2a3a67cc20d9273f62dc",
+      "target": 14,
+      "edges": 26,
+      "triangles": 28,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06644462500116788,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211010,
+      "cnf_sha256": "fff218f7d01920e744e5e5757c92cc8bb8fc94d6136b221e367388071f35f5ea",
+      "target": 16,
+      "edges": 26,
+      "triangles": 28,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05532070800836664,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211011,
+      "cnf_sha256": "218bc33b34b1dc8dafae48504434b5a69534208995f130a44c41122e759a511b",
+      "target": 10,
+      "edges": 21,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05054662498878315,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211012,
+      "cnf_sha256": "86c74629b33fcfaed68fedaa4d26c554b7083c74f0c00d2b91d45875f14d5a39",
+      "target": 11,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05179675000545103,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211013,
+      "cnf_sha256": "960387af8c0a212530c03115610f55db3e1c0887768e21c01a2cb6fbc03804f2",
+      "target": 11,
+      "edges": 24,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.050199417004478164,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211014,
+      "cnf_sha256": "1ee24808ec17fc792d7d55af4951af98f300da6a806c57080749f89790001cfe",
+      "target": 9,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08336387500457931,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211015,
+      "cnf_sha256": "2ad9f856e844888639c342b477d8616ae47991bfab632004aa68425d7a66cbc6",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08392970799468458,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211016,
+      "cnf_sha256": "0a38d79be6981158f596ceb2d3db6b3be8e95ab403ab7ea19808f136b8dcdec5",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08386854200216476,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211017,
+      "cnf_sha256": "1a490414e05dac905e13cfb24b68c270d33f3d2c4b2a5708fe68a8fca618c558",
+      "target": 9,
+      "edges": 23,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08573929099657107,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211018,
+      "cnf_sha256": "502ed3cdf4d9778e0f2cdf56d3fdc38a3a9a14000c4923c48b59a50703250c83",
+      "target": 9,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08506537499488331,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211019,
+      "cnf_sha256": "cba3e3a2e5caadbab2c9d54f742be920e2baab34fa25a358e9ca97e9f710882e",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08763533300952986,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211020,
+      "cnf_sha256": "6a8d7fb67bae2ed1945d880869d18303975f6c83c6cb5640a1c0d3217c63f0e0",
+      "target": 9,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.08745404200453777,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211021,
+      "cnf_sha256": "acc2d9fb20ab7e2a20b8a4f6f96a063a8e7a98408fae933f2d2c37c14e9b0db4",
+      "target": 7,
+      "edges": 20,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09202825000102166,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211022,
+      "cnf_sha256": "dda8417940a592e7f19a7aed473fca7177378cbf8e0375dcdb64666e4a754f9c",
+      "target": 9,
+      "edges": 23,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.053503000002820045,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211023,
+      "cnf_sha256": "5e917c5465e616f4b84b361183f7b5f3e142e06f9442a359819e7ec839e35ff4",
+      "target": 12,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.049953207999351434,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211024,
+      "cnf_sha256": "30deb4df35fda3f7c1b8c56e9a372be047f5969bd825c419d0b87a7917ffc025",
+      "target": 13,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.058838583005126566,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211025,
+      "cnf_sha256": "51b603f0738f6961e465024154e6220a558d92f651cfd8ef902ba555d6534bcb",
+      "target": 12,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07196845799626317,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211026,
+      "cnf_sha256": "899dab6dcd75183225f12255df990371b110e1dc72d330c6d99eeb55f9c2ecbd",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.07494779200351331,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211027,
+      "cnf_sha256": "c2e7913d88e7e0c358e19e2649ee554a26f6a8bb290ff4fc3345ef6f26e62865",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09738804200605955,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211028,
+      "cnf_sha256": "30af912e6fa6d95bccdd627bfb2a66eacc054f2fb11ec92e8253ae044de019fc",
+      "target": 9,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.09904608399665449,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211029,
+      "cnf_sha256": "cd94cbe2d529b92b9225113b27a7c1573434a98ef6a9d892fa80f5bb827446c7",
+      "target": 9,
+      "edges": 24,
+      "triangles": 22,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05171916700783186,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211030,
+      "cnf_sha256": "fec3a92c291607616fbb71741979251397cc8a55438080415df03c2389dc111f",
+      "target": 12,
+      "edges": 20,
+      "triangles": 15,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05338029199629091,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211031,
+      "cnf_sha256": "d779688f9f20b67b29336b8a70a9f9d1d460a01931a02a4258b7e1ddcf35e31a",
+      "target": 7,
+      "edges": 20,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04891774999850895,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211032,
+      "cnf_sha256": "96876ffa85bf3d4dcc5a2549d2d80e9416afebc754ea0c474cb18f952c885b42",
+      "target": 7,
+      "edges": 19,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.1133690840069903,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211033,
+      "cnf_sha256": "ac6a6c2d89d2004235ddc94440d44e7408fe3f5ca4d8bde98d7f557e72baf40d",
+      "target": 16,
+      "edges": 23,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.14324474999739323,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211034,
+      "cnf_sha256": "a0eced436a1acb2808930eac7b97e70c9f224057b55cf98ae0f7532cf66f96ce",
+      "target": 16,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.1449386250023963,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211035,
+      "cnf_sha256": "0983bf1f7b5370ecf63626bfaf29abea2dbaac37158b570dcd2470b2284d72ad",
+      "target": 16,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.14914662498631515,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211036,
+      "cnf_sha256": "296efafb624aea02369751ea2f07eb01d925fa8b68c8820ccabf2ccded3d1c0e",
+      "target": 16,
+      "edges": 23,
+      "triangles": 20,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.25642954198701773,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211037,
+      "cnf_sha256": "71064b4810226d1d877ee770dddab3a9d99366b867cdd991c329ba0e83894cd6",
+      "target": 15,
+      "edges": 22,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.2568146249977872,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211038,
+      "cnf_sha256": "2dc65d27d1c35e23daefc5105e0900a21ad2f591bd509abf25202b3d22736cc8",
+      "target": 15,
+      "edges": 23,
+      "triangles": 21,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.2587599589896854,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211039,
+      "cnf_sha256": "f1e952567871da3a5a5e680a96d3905442ae377ff5507812d42336dfe57b316a",
+      "target": 15,
+      "edges": 24,
+      "triangles": 23,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.13775329101190437,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211040,
+      "cnf_sha256": "a303f33ff5ed57aaea0b71d681f4ec6294437e4d45dc7f46ba3b10373f3db5c4",
+      "target": 7,
+      "edges": 20,
+      "triangles": 13,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 6
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.25082204199861735,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211041,
+      "cnf_sha256": "8430fd80180b33a6c799278e660a543966cf5cf5983796a97344a2b34f1c026c",
+      "target": 13,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.0516318330046488,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211042,
+      "cnf_sha256": "e945de7b22171bc9795da16b9147ab5d99a7062fdc97b612e833332c3d795de9",
+      "target": 9,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04901724999945145,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211043,
+      "cnf_sha256": "bd7337def10dd30b85bb49242567d7659eb1dbf661163d66e1c3262a2678ae55",
+      "target": 13,
+      "edges": 22,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.05456704100652132,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211044,
+      "cnf_sha256": "8f5b87bd94c0f68d2d0df99fcc01d3a343276cb9c2e9a40c8d4a3611175a881a",
+      "target": 14,
+      "edges": 23,
+      "triangles": 19,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.06636279200029094,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211045,
+      "cnf_sha256": "4f0ed13d2f3ae1a36cfdafa1ffe6536a2e4f51c37720987cfd5cadb37e5aa61a",
+      "target": 16,
+      "edges": 27,
+      "triangles": 36,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 9
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.04940150000038557,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211046,
+      "cnf_sha256": "e43ef4b80a44fef218fbe83d899b4c24d06c445a5bc51f989f7d6a21e131586a",
+      "target": 9,
+      "edges": 21,
+      "triangles": 17,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.12056095800653566,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211047,
+      "cnf_sha256": "3f3c6fef344692bff3f32eef12a179fbace03d3b32702859a58927cf5704ba9a",
+      "target": 16,
+      "edges": 25,
+      "triangles": 27,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.12929466599598527,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211048,
+      "cnf_sha256": "f4bd13b07e07dec97a5ed735725c21c6012b0220b643cf3645a18697bff73c82",
+      "target": 8,
+      "edges": 21,
+      "triangles": 16,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 7
+    },
+    {
+      "status": "SAT",
+      "seconds": 0.12666716700186953,
+      "returncode": 10,
+      "variables": 54594,
+      "clauses": 211049,
+      "cnf_sha256": "a322a2d7a7140aa31f3e534dd4462a96be4e51ffb717393b82002d3a271d3d42",
+      "target": 8,
+      "edges": 22,
+      "triangles": 18,
+      "optimum_status": "EXACT_SOLVER",
+      "tau": 8
+    }
+  ],
+  "seconds": 68.0906108749914,
+  "candidate": {
+    "n": 9,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "triangles": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        2,
+        8
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        6,
+        8
+      ],
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        2,
+        4,
+        7
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        2,
+        6,
+        8
+      ],
+      [
+        2,
+        7,
+        8
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        6,
+        7,
+        8
+      ]
+    ],
+    "tau": 8,
+    "TF_witnesses": [
+      {
+        "triangle": [
+          0,
+          1,
+          2
+        ],
+        "cover": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          0,
+          1,
+          3
+        ],
+        "cover": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          0,
+          2,
+          4
+        ],
+        "cover": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          0,
+          3,
+          4
+        ],
+        "cover": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          1,
+          2,
+          6
+        ],
+        "cover": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            7,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          1,
+          2,
+          8
+        ],
+        "cover": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          1,
+          3,
+          5
+        ],
+        "cover": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          1,
+          5,
+          6
+        ],
+        "cover": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          1,
+          6,
+          8
+        ],
+        "cover": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          2,
+          4,
+          6
+        ],
+        "cover": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          2,
+          4,
+          7
+        ],
+        "cover": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          2,
+          6,
+          7
+        ],
+        "cover": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          2,
+          6,
+          8
+        ],
+        "cover": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          2,
+          7,
+          8
+        ],
+        "cover": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            7,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          3,
+          4,
+          5
+        ],
+        "cover": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          4,
+          5,
+          6
+        ],
+        "cover": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          4,
+          6,
+          7
+        ],
+        "cover": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      {
+        "triangle": [
+          6,
+          7,
+          8
+        ],
+        "cover": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            8
+          ]
+        ]
+      }
+    ],
+    "optimum_certificate": {
+      "status": "EXACT_SOLVER",
+      "value": 8,
+      "cover": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "calls": [
+        {
+          "k": 11,
+          "status": "SAT",
+          "seconds": 0.0029589580080937594,
+          "returncode": 10,
+          "variables": 286,
+          "clauses": 1019,
+          "cnf_sha256": "7cc11b048d4465199b8d040b0f11bc0f3e42edb5a1782d70cf09909b2da929b5",
+          "cover_indices": [
+            4,
+            5,
+            9,
+            13,
+            18,
+            19,
+            20,
+            21
+          ],
+          "cover": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        },
+        {
+          "k": 4,
+          "status": "UNSAT",
+          "seconds": 0.0022007080115145072,
+          "returncode": 20,
+          "variables": 132,
+          "clauses": 424,
+          "cnf_sha256": "c5b08f6be4a22481d6fc58eef03d4bc4ff2446fc0cddbd55202ed587db0663d2"
+        },
+        {
+          "k": 6,
+          "status": "UNSAT",
+          "seconds": 0.0023136660020099953,
+          "returncode": 20,
+          "variables": 176,
+          "clauses": 594,
+          "cnf_sha256": "1261c3d7f16cfd3a517bf63432b83044e147fbe79bcdd183ca6cee37558b7c13"
+        },
+        {
+          "k": 7,
+          "status": "UNSAT",
+          "seconds": 0.002350208000279963,
+          "returncode": 20,
+          "variables": 198,
+          "clauses": 679,
+          "cnf_sha256": "495bcb6ddec3178ae068652703a25c2a69209627739cb1baa3e265e736145b61"
+        }
+      ]
+    },
+    "codegrees": {
+      "(0, 1)": 2,
+      "(0, 2)": 2,
+      "(0, 3)": 2,
+      "(0, 4)": 2,
+      "(1, 2)": 3,
+      "(1, 3)": 2,
+      "(1, 5)": 2,
+      "(1, 6)": 3,
+      "(1, 8)": 2,
+      "(2, 4)": 3,
+      "(2, 6)": 4,
+      "(2, 7)": 3,
+      "(2, 8)": 3,
+      "(3, 4)": 2,
+      "(3, 5)": 2,
+      "(4, 5)": 2,
+      "(4, 6)": 3,
+      "(4, 7)": 2,
+      "(5, 6)": 2,
+      "(6, 7)": 3,
+      "(6, 8)": 3,
+      "(7, 8)": 2
+    }
+  },
+  "checker_sha256": "7725b6e4e3d921ea70329f30186e181ebbce856edae87e0d81d493300dc935dd"
+}

@@ -1,0 +1,5 @@
+# Targeted boundary link probe
+
+Frozen before execution. This is a helper falsification attempt for the user-directed boundary analysis, not a new AC variant. The exact helper is: every triangle-free factor-critical eleven-vertex graph of independence number four has an edge whose deletion increases independence number to five. Such an edge would be in a maximum matching and, by the separately proved frontier argument, rule out an AC failure at budget six for that link.
+
+The bounded generator starts with a Hamiltonian C11 and greedily adds randomly ordered chords retaining triangle-freeness and maximum degree at most four. Every generated link is factor-critical because deleting any vertex from the retained C11 leaves a perfect matching. All462 five-vertex subsets are inspected exactly. A graph with at least two induced edges on every five-set would refute the helper. Failure to find one is finite evidence only, not a classification. This is a targeted link-family probe, not a broad all-graphs-on-ten/eleven-vertices H census. No claim of a full surrounding H is made.

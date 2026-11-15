@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17/checks/a_boundary_link_probe.py"
+  ],
+  "pid": 57105,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.21378670798731036,
+  "peak_sampled_RSS_bytes": 4456448,
+  "wall_limit_seconds": 50.0,
+  "RSS_limit_MiB": 384.0,
+  "status": "PASS"
+}

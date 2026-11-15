@@ -1,0 +1,69 @@
+{
+  "status": "PASS_ORDINARY_FRESH_AI_RECONSTRUCTION",
+  "start_utc": "2026-11-15T06:51:42Z",
+  "completed_utc": "2026-11-15T06:56:19.415138+00:00",
+  "original_research_cutoff": "2026-11-15T09:23:58Z",
+  "original_hard_deadline": "2026-11-15T09:53:58Z",
+  "candidate_sha256": "1c59c9c58a0ba5b0ad9c5d90d3f0d1f3794b4300f7b28a06524da0f71ee39c2c",
+  "host": "Darwin",
+  "requested_model": "Astra",
+  "requested_effort": "Ultra",
+  "exposed_serving_metadata": "Exact serving model and effort not independently exposed.",
+  "read_inputs": [
+    "frozen candidate",
+    "primary Tutte\u2013Berge statement and section 3 source excerpt"
+  ],
+  "other_reviews_read": false,
+  "producer_code_read": false,
+  "finite_census": false,
+  "mathematical_computation": false,
+  "lean": false,
+  "external_contact": false,
+  "checks": {
+    "actual_triangle_ownership": "PASS",
+    "matching_identity": "PASS",
+    "auxiliary_odd_cycles_at_least_four_terminals": "PASS",
+    "maximum_cardinality_barrier_factor_criticality": "PASS",
+    "random_representative_bound": "PASS",
+    "orphan_internal_bijection_and_subtraction": "PASS",
+    "cover_expectation": "PASS",
+    "restricted_domain": "PASS"
+  },
+  "files": [
+    {
+      "path": "evidence/square_cells_fresh_audit/frozen_input.md",
+      "bytes": 11184,
+      "sha256": "1c59c9c58a0ba5b0ad9c5d90d3f0d1f3794b4300f7b28a06524da0f71ee39c2c"
+    },
+    {
+      "path": "evidence/square_cells_fresh_audit/paths_page_5.png",
+      "bytes": 166851,
+      "sha256": "93bfeab51a7ed172d2078ddd992d4aa27421b3d2858ed344138f7f1befe8c7fc"
+    },
+    {
+      "path": "evidence/square_cells_fresh_audit/paths_page_6.png",
+      "bytes": 173067,
+      "sha256": "da272b0000c4dd4516db12fbc9af4a370ea083a30337c985ffe7db3a11e6ad66"
+    },
+    {
+      "path": "evidence/square_cells_fresh_audit/paths_primary.pdf",
+      "bytes": 198228,
+      "sha256": "fcb3b27d490c903b79f7a3a1a7875d712cc36eb7a021647c4d259c970ce1a7ed"
+    },
+    {
+      "path": "evidence/square_cells_fresh_audit/paths_section3_extract.txt",
+      "bytes": 4715,
+      "sha256": "46f186307102454ce0ccfceae6260d1855809564daea264817fa00b21a58ab2a"
+    },
+    {
+      "path": "evidence/square_cells_fresh_audit/primary_download_receipt.json",
+      "bytes": 382,
+      "sha256": "400b60965d9a912f91e5f671be662a57d377f1913d3a96f66bf299bd417cc8e8"
+    },
+    {
+      "path": "review/square_cells_fresh_independent_audit.md",
+      "bytes": 12464,
+      "sha256": "a58d63e6c869ab9c04f1350d884ce8a97519620cb1ca43de7db811330ba2b542"
+    }
+  ]
+}

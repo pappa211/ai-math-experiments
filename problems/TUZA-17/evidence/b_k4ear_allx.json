@@ -1,0 +1,5377 @@
+{
+  "status": "PASS",
+  "eligible_instances": 223,
+  "branch_counts": {
+    "other_membership": 149,
+    "tip_old_stable": 38,
+    "tip_old_essential": 36
+  },
+  "cases": [
+    {
+      "name": "K4",
+      "H0_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "Q": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "root_edge": [
+        0,
+        1
+      ],
+      "rows": [
+        {
+          "X": [],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            1
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            4
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            4
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2,
+            4
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            4
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            4
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            4
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2,
+            5
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            5
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            5
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            5
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "name": "twoK4-forbidden",
+      "H0_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "Q": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "root_edge": [
+        0,
+        2
+      ],
+      "rows": [
+        {
+          "X": [],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            1
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            1,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            4,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            4,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            4,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            4,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            5,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            5,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            5,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            7
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            1,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            7
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            4,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            4,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4,
+            7
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            4,
+            7
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            4,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            4,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            5,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            5,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            5,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            5,
+            7
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            5,
+            7
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            5,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            5,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            5,
+            7
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            5,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4,
+            5,
+            7
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            5,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            4,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            4,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            5,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            5,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            5,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 5,
+            "lambda": 0,
+            "nu_G": 5,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "name": "book-side",
+      "H0_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "Q": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "root_edge": [
+        0,
+        2
+      ],
+      "rows": [
+        {
+          "X": [],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            1
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            3
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            1,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            5
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            5
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            4,
+            5
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            4,
+            5
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            1,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            4,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            4,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            4,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            4,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            0,
+            3,
+            4,
+            6
+          ],
+          "branch": "tip_old_essential",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            2,
+            3,
+            4,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "branch": "tip_old_stable",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "status": "PASS"
+        },
+        {
+          "X": [
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            4,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 0,
+            "nu_G": 3,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 0,
+            "nu_G": 1,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        },
+        {
+          "X": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "branch": "other_membership",
+          "H_prime": {
+            "tau_H": 3,
+            "lambda": 1,
+            "nu_G": 4,
+            "eligible": true
+          },
+          "R": {
+            "tau_H": 1,
+            "lambda": 1,
+            "nu_G": 2,
+            "eligible": true
+          },
+          "R_without_endpoint_spoke": null,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "runtime_seconds": 0.049860458995681256,
+  "scope": "finite supplement; ordinary proof supplies arbitrary graph-order transfer"
+}

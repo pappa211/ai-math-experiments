@@ -1,0 +1,245 @@
+{
+  "hypothesis": "H-D",
+  "scope": "Every NetworkX graph_atlas_g graph (one representative through seven vertices), actual triangles, exact recursion.",
+  "checked": 1253,
+  "nu1_qualifiers": 336,
+  "nontrivial_qualifiers": [
+    {
+      "n": 7,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          3,
+          6
+        ],
+        [
+          0,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          6
+        ]
+      ],
+      "nu": 2,
+      "tau": 4,
+      "deletion_rows": [
+        {
+          "triangle": [
+            0,
+            3,
+            4
+          ],
+          "nu_remainder": 1,
+          "tau_remainder": 2
+        },
+        {
+          "triangle": [
+            0,
+            3,
+            6
+          ],
+          "nu_remainder": 1,
+          "tau_remainder": 2
+        },
+        {
+          "triangle": [
+            0,
+            4,
+            6
+          ],
+          "nu_remainder": 1,
+          "tau_remainder": 2
+        },
+        {
+          "triangle": [
+            1,
+            2,
+            4
+          ],
+          "nu_remainder": 1,
+          "tau_remainder": 2
+        },
+        {
+          "triangle": [
+            1,
+            2,
+            5
+          ],
+          "nu_remainder": 1,
+          "tau_remainder": 2
+        },
+        {
+          "triangle": [
+            1,
+            4,
+            5
+          ],
+          "nu_remainder": 1,
+          "tau_remainder": 2
+        },
+        {
+          "triangle": [
+            2,
+            4,
+            5
+          ],
+          "nu_remainder": 1,
+          "tau_remainder": 2
+        },
+        {
+          "triangle": [
+            3,
+            4,
+            6
+          ],
+          "nu_remainder": 1,
+          "tau_remainder": 2
+        }
+      ],
+      "two_edge_blockers": [
+        [
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            4
+          ],
+          [
+            3,
+            6
+          ]
+        ],
+        [
+          [
+            0,
+            6
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "counterexample_H_D": false,
+      "graph6": "F~GhW"
+    }
+  ],
+  "seconds": 0.23520588874816895,
+  "status": "NO_COUNTEREXAMPLE_IN_FINITE_DOMAIN"
+}

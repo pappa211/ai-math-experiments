@@ -1,0 +1,543 @@
+{
+  "mission": "TUZA-17",
+  "decision": "REDIRECT",
+  "original_start_utc": "2026-11-04T00:45:12Z",
+  "deadline_utc": "2026-11-04T02:45:12Z",
+  "overall_AC": "UNKNOWN",
+  "originality": "UNESTABLISHED",
+  "claims": [
+    {
+      "id": "BASELINE",
+      "status": "KNOWN_INPUT",
+      "scope": "Pinned TUZA16 and published project, exact actual-edge-minimal violation object",
+      "evidence": [
+        "BASELINE_AND_SCOPE.md",
+        "evidence/source_before.json"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "ACTUAL_CRITICAL_PACKAGE",
+      "status": "KNOWN_INPUT",
+      "scope": "Six authenticated consequences for actual edge-minimal Tuza violations; not minimal S/E failure",
+      "evidence": [
+        "sources/published/problems/TUZA-07/notes/CRITICALITY_PACKAGE.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "APEX_IDENTITIES",
+      "status": "KNOWN_INPUT",
+      "scope": "All old covers in cover identity; ordinary link matchings delete graph edges in packing identity",
+      "evidence": [
+        "notes/B_FROZEN_v1.md",
+        "evidence/critic_independent.json"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "AHARONI",
+      "status": "KNOWN_INPUT",
+      "scope": "Tripartite 3-uniform hypergraph tau<=2nu",
+      "evidence": [
+        "PRIOR_ART_AND_DEPENDENCIES.md",
+        "evidence/literature/hns_inspected_sections.txt"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "COLOURABLE_TIGHT_K4",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "All actual triangles of colourable tight J are faces of edge-disjoint K4 blocks, allowing shared vertices and irrelevant edges",
+      "evidence": [
+        "notes/B_FROZEN_v1.md",
+        "notes/CRITIC_ORIGINAL.md"
+      ],
+      "dependencies": [
+        "HNS Theorem1.1",
+        "TUZA01 extraction",
+        "TUZA03 exhaustion"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "BLOWUP_COLOUR_COST",
+      "status": "PROVED_ORDINARY",
+      "scope": "Arbitrary mixed clone colours: m_r(B[t])=t^2 m_r(B)",
+      "evidence": [
+        "notes/A_RESULTS.md",
+        "evidence/a_constructive_checks.json",
+        "evidence/critic_independent.json"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "STRONG_RELAXED_REPAIR",
+      "status": "REFUTED",
+      "scope": "Prescribed colour-deletion repair under fixed codegree/connectivity, one triangle component and every prescribed <=2 packing extension",
+      "evidence": [
+        "notes/A_RESULTS.md",
+        "evidence/a_verified.json",
+        "notes/CRITIC_ORIGINAL.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "exact_counterexample_scope": "Does not satisfy actual criticality; spoke deletion reduces nu and explicit Tuza slack is positive"
+    },
+    {
+      "id": "CRITICAL_NONSATURATION",
+      "status": "PROVED_ORDINARY",
+      "scope": "Actual critical G: nuG<=nu(G-v)+mu(link)-1 at every nonisolatedv; every maximum link matching hits every maximum old packing",
+      "evidence": [
+        "notes/A_CRITICAL_NONSATURATION.md",
+        "notes/A_ELEMENTARY_MATCHING_BLOCKER.md",
+        "notes/CRITIC_ORIGINAL.md"
+      ],
+      "dependencies": [
+        "ACTUAL_CRITICAL_PACKAGE",
+        "elementary Gallai reconstruction"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "SEPARATOR_4CONNECTIVITY",
+      "status": "KNOWN_INPUT",
+      "scope": "Reconstructed common-triangle gluing consequence agrees with Freitas2014 prior conclusion",
+      "evidence": [
+        "notes/A_RESULTS.md",
+        "PRIOR_ART_AND_DEPENDENCIES.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "full_prior_proof_access": "NOT_AVAILABLE: institutional statement inspected, thesis PDF timeout"
+    },
+    {
+      "id": "MATCHING_BUDGET_BOUND",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "Every eligible AC pair satisfies m<=b",
+      "evidence": [
+        "notes/B_FROZEN_v1.md"
+      ],
+      "dependencies": [
+        "AHARONI"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "BUDGET4_MATCHING_GE5",
+      "status": "NOT_APPLICABLE",
+      "scope": "No eligible instance can have b4 and m>=5",
+      "evidence": [
+        "notes/B_FROZEN_v1.md",
+        "notes/BOUNDARY_CRITIC.md"
+      ],
+      "dependencies": [
+        "MATCHING_BUDGET_BOUND"
+      ],
+      "independent_final_verification": "NOT_RUN",
+      "realizability": "IMPOSSIBLE_BY_PROOF"
+    },
+    {
+      "id": "MATCHING3_COVER4",
+      "status": "PROVED_ORDINARY",
+      "scope": "Every triangle-free link with m3 has vc<=4, so budget4 works for EVERY minimum H cover",
+      "evidence": [
+        "notes/B_FROZEN_ADDENDUM_1.md",
+        "notes/BOUNDARY_CRITIC.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "SATURATED_MATCHING_AC",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "m=b implies existence of compatible MINIMUM H cover with residual vc<=2a",
+      "evidence": [
+        "notes/B_FROZEN_v1.md",
+        "notes/CRITIC_ORIGINAL.md"
+      ],
+      "dependencies": [
+        "AHARONI",
+        "COLOURABLE_TIGHT_K4"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "TIGHT_H_AC",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "D(H)=0; additionally a>=m and b>=2m",
+      "evidence": [
+        "notes/B_FROZEN_v1.md",
+        "notes/B_BOUNDARY_REALIZABILITY.md"
+      ],
+      "dependencies": [
+        "COLOURABLE_TIGHT_K4"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "SLACK1_ESSENTIAL_AC",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "D(H)=1 and at least one packing-essential old edge",
+      "evidence": [
+        "notes/B_FROZEN_v1.md"
+      ],
+      "dependencies": [
+        "COLOURABLE_TIGHT_K4"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "FRONTIER_ESSENTIAL_AC",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "m=b-1 and slack-one H-M has packing-essential edge",
+      "evidence": [
+        "notes/B_FROZEN_v1.md"
+      ],
+      "dependencies": [
+        "COLOURABLE_TIGHT_K4"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "TIGHT_DELETION_COMPONENT_TRANSFER",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "Any matching M with tight H-M; exact componentwise AC transfer over induced link components",
+      "evidence": [
+        "notes/B_FROZEN_ADDENDUM_2.md",
+        "notes/CRITIC_ORIGINAL.md"
+      ],
+      "dependencies": [
+        "COLOURABLE_TIGHT_K4"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "BUDGETS_LE6_AC",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "ALL eligible finite H,X with b<=6, arbitrary outside incidence",
+      "evidence": [
+        "notes/BOUNDARY6_FROZEN_LINK_LEMMA.md",
+        "notes/CRITIC_BUDGET_SIX.md",
+        "notes/CRITIC_TIGHT_FRONTIER.md"
+      ],
+      "dependencies": [
+        "AHARONI",
+        "COLOURABLE_TIGHT_K4",
+        "elementary link classifications"
+      ],
+      "independent_final_verification": "NOT_RUN",
+      "catalogue_dependency": false
+    },
+    {
+      "id": "LINK_MU5_VC7_CRITICAL_EDGE",
+      "status": "PROVED_ORDINARY",
+      "scope": "Every triangle-free mu5/vc7 link has a vertex-cover-critical edge in some maximum matching",
+      "evidence": [
+        "notes/BOUNDARY6_FROZEN_LINK_LEMMA.md",
+        "notes/CRITIC_BUDGET_SIX.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "TIGHT_FRONTIER_FORCED_EDGES",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "m=b-1 and tight H-M imply at least m-1 link edges lie in EVERY maximum link matching",
+      "evidence": [
+        "notes/CRITIC_TIGHT_FRONTIER.md"
+      ],
+      "dependencies": [
+        "COLOURABLE_TIGHT_K4"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "K4_EAR_REDUCTION",
+      "status": "PROVED_ORDINARY",
+      "scope": "Private degree-three tips, arbitrary eligible marking; explicit deterministic smaller pair; minimum covers lift; AC counterexamples preserved",
+      "evidence": [
+        "notes/B_FROZEN_ADDENDUM_5.md",
+        "notes/CRITIC_LATE.md",
+        "evidence/critic_late.json"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "global_availability": "UNKNOWN",
+      "review": "Collaborative final simplification; independently implemented finite checker, not blind mathematical authorship"
+    },
+    {
+      "id": "DEGREE2_EAR_REDUCTION",
+      "status": "PROVED_ORDINARY",
+      "scope": "Private degree-two triangle vertex; delete vertex and opposite edge; minimum-cover and packing transfer",
+      "evidence": [
+        "notes/B_FROZEN_ADDENDUM_5.md",
+        "notes/CRITIC_LATE.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "global_availability": "UNKNOWN"
+    },
+    {
+      "id": "SUPPORTED_LINK_SLACK",
+      "status": "REFUTED",
+      "scope": "Existence of minimumHcover with vc(supportedL-C)<=D(H) fails on rainbow W5",
+      "evidence": [
+        "notes/A_SLS_PROPOSAL.md",
+        "notes/A_SLS_RESULT.md",
+        "evidence/critic_late.json"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "AC_counterexample": false
+    },
+    {
+      "id": "STABLE_CORE_NU_LE2",
+      "status": "REFUTED",
+      "scope": "Triangle-connected, rainbow, packing-edge-stable slack-one H may have nu3 and nu4",
+      "evidence": [
+        "notes/B_CORE_LIMITATION.md",
+        "evidence/b_core_glue.json",
+        "evidence/critic_late.json"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "unbounded_family": "NOT_ESTABLISHED; documented attachment branch stops"
+    },
+    {
+      "id": "RAMSEY13_UNIQUENESS",
+      "status": "KNOWN_INPUT",
+      "scope": "Primary McKay complete Ramsey(3,5) catalogue lists exactly one thirteen-vertex graph",
+      "evidence": [
+        "sources/literature/mckay_ramsey_20261104.html",
+        "sources/literature/r35_13.g6",
+        "evidence/ramsey13_catalogue.json",
+        "evidence/critic_catalogue.json"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "completeness": "External input; NOT_RECOMPUTED; one listed graph independently checked"
+    },
+    {
+      "id": "BUDGET7_VC9_AC",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "Eligible b7 and vc(L)=9 (necessarily m6 unless saturation already settles); 3C5 or unique thirteen-vertex Ramsey link",
+      "evidence": [
+        "notes/BOUNDARY7_PROBE.md",
+        "evidence/a_boundary_link_probe.json",
+        "evidence/critic_catalogue.json"
+      ],
+      "dependencies": [
+        "AHARONI",
+        "COLOURABLE_TIGHT_K4",
+        "RAMSEY13_UNIQUENESS"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "FIRST_REMAINING_BOUNDARY",
+      "status": "UNKNOWN",
+      "scope": "First budget not fully settled: b7,m6,lambda=vc(L)=8; only necessary window, no full eligible H witness",
+      "evidence": [
+        "TRACK_B.md",
+        "REPORT.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "realizability": "UNKNOWN; bare link graphs and easy b7 cases are insufficient"
+    },
+    {
+      "id": "FULL_AC",
+      "status": "UNKNOWN",
+      "scope": "Exact literal all-orders AC with existence of a minimum compatible H cover",
+      "evidence": [
+        "TRACK_B.md",
+        "REPORT.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "verified_counterexample": "NONE",
+      "complete_proof": "NONE"
+    },
+    {
+      "id": "GLOBAL_AVAILABILITY",
+      "status": "UNKNOWN",
+      "scope": "No theorem puts every actual critical Tuza graph into eligible apex/reducible-ear class",
+      "evidence": [
+        "REPORT.md",
+        "TRACK_A.md",
+        "TRACK_B.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "UNRESTRICTED_TUZA",
+      "status": "UNKNOWN",
+      "scope": "Arbitrary finite simple graphs",
+      "evidence": [
+        "REPORT.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN",
+      "not_claimed": true
+    },
+    {
+      "id": "NEW_LEAN",
+      "status": "NOT_RUN",
+      "scope": "No new formal theorem or transitive-axiom result",
+      "evidence": [
+        "REPRODUCTION.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "FINAL_INDEPENDENT_AUDIT",
+      "status": "NOT_RUN",
+      "scope": "Separately commissioned frozen-source audit has not been initiated",
+      "evidence": [
+        "ADVERSARIAL_REVIEW.md"
+      ],
+      "dependencies": [],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "FRONTIER_MATCHING_CERTIFICATE",
+      "status": "PROVED_USING_PUBLISHED_INPUT",
+      "scope": "m=b-1; some maximumM has vc(L-M)<=b; intersection of all maximum matchings has size<=m-2; then AC",
+      "evidence": [
+        "notes/B_FRONTIER_MATCHING_CERTIFICATE.md",
+        "notes/CRITIC_CATALOGUE_SCOPE.md"
+      ],
+      "dependencies": [
+        "AHARONI",
+        "COLOURABLE_TIGHT_K4"
+      ],
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "UNIVERSAL_MATCHING_CERTIFICATE",
+      "status": "REFUTED",
+      "scope": "q>=2 disjoint Petersen links: every maxM has residualvc6q>m+1=5q+1 while forced-edge intersection empty",
+      "evidence": [
+        "notes/B_FRONTIER_MATCHING_CERTIFICATE.md",
+        "notes/CRITIC_PETERSEN_LIMITATION.md",
+        "evidence/b_petersen.json"
+      ],
+      "evidence_category": "PROVED_ORDINARY",
+      "AC_counterexample": false,
+      "full_frontier_H_realization": "NOT_ESTABLISHED",
+      "independent_final_verification": "NOT_RUN"
+    }
+  ],
+  "finite_checks": [
+    {
+      "id": "FRESH_INITIAL",
+      "status": "FINITE_CHECKED",
+      "eligible_instances": 28996,
+      "H_graphs": 1023,
+      "new_A_prescriptions": 330,
+      "evidence": "evidence/critic_independent.json"
+    },
+    {
+      "id": "FRESH_LATE",
+      "status": "FINITE_CHECKED",
+      "ear_instances": 8112,
+      "exceptional_markings": 2976,
+      "evidence": "evidence/critic_late.json"
+    },
+    {
+      "id": "RANDOM_AC",
+      "status": "FINITE_CHECKED",
+      "completed": 2588,
+      "timeouts": 70,
+      "timeout_status": "UNKNOWN",
+      "decisive": false,
+      "evidence": "evidence/random_ac.json"
+    },
+    {
+      "id": "C5_TARGET",
+      "status": "NOT_AVAILABLE",
+      "completed": 3808,
+      "timeouts": 321,
+      "actual_target_rows": 0,
+      "evidence": "evidence/b_c5_probe.json"
+    },
+    {
+      "id": "FOUR_PORT",
+      "status": "FINITE_CHECKED",
+      "eligible_apices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "ineligible_apices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "ineligible_status": "NOT_APPLICABLE",
+      "evidence": "evidence/critic_independent.json"
+    },
+    {
+      "id": "K5_AS_AC_H",
+      "status": "NOT_APPLICABLE",
+      "reason": "No rainbow triangle-edge-3-colouring; ordinary Tuza control only"
+    },
+    {
+      "id": "CLEBSCH_VB",
+      "status": "FINITE_CHECKED",
+      "scope": "Automatic triangle-free-H controls; not hard AC interaction",
+      "evidence": "evidence/controls.json"
+    },
+    {
+      "id": "K10_K11_66",
+      "status": "NOT_RUN",
+      "scope": "Prior authenticated certificates; no new decisive dependency"
+    },
+    {
+      "id": "PARTIAL_SLOPE_20_21",
+      "status": "UNKNOWN",
+      "search": "NOT_RUN"
+    },
+    {
+      "id": "LINK_HELPER_RANDOM",
+      "status": "FINITE_CHECKED",
+      "generated_with_repetition": 840633,
+      "alpha_four_rows": 231895,
+      "scope": "Finite nonfinding, superseded by ordinary proof; no H realization",
+      "evidence": "evidence/boundary_robust_link.json"
+    },
+    {
+      "id": "ODD_CYCLE_FULL_H_PROBE",
+      "status": "FINITE_CHECKED",
+      "cycle_lengths": [
+        5,
+        7,
+        9
+      ],
+      "budgets": [
+        5,
+        7,
+        9
+      ],
+      "lambda": [
+        1,
+        1,
+        1
+      ],
+      "hard_boundary_realized": false,
+      "evidence": "evidence/boundary_cycle_attachment.json"
+    }
+  ],
+  "source_integrity": "See SOURCE_INTEGRITY.json at closeout",
+  "independent_final_verification": "NOT_RUN"
+}

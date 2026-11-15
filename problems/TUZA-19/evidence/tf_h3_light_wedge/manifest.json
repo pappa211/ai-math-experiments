@@ -1,0 +1,14 @@
+{
+  "status": "OPEN; single inverse domain UNKNOWN_TIMEOUT",
+  "created_utc": "2026-11-15T08:58:09.013548+00:00",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "files": {
+    "notes/tf_heavy_triangle_free_light_matching.md": "a13d349c0e870a8699a565eab0ec6f39ed9f4fa37a5c34dd7589774c7c920b07",
+    "checks/tf_h3_light_wedge_inverse.py": "1ca63dcf32eb3d1dafc04eb86e2d7b05418d67a1d60af1d88994836575b6048d",
+    "checks/fresh_tf_light_wedge_inverse.py": "7725b6e4e3d921ea70329f30186e181ebbce856edae87e0d81d493300dc935dd",
+    "evidence/tf_h3_light_wedge/inverse_n9.json": "de0327d71f78d67cdaeda592b2c9376964f79abcb6e8fa8a7d39dcf070f220a6",
+    "notes/fresh_tf_light_wedge_counterexample.md": "ac39e3812be0a30857b3a1b9d33dcdc2637311f85feb4e50e78d16cf7470aef1",
+    "notes/fresh_global_light_diamond_transitions.md": "f12cfe61a82e4616db4619e6a4c9788cf6f9d53d0d0d76010b246351937d57e0"
+  },
+  "scope": "Ordinary matching reformulation and local exchanges; no general availability proof or counterexample; no larger search."
+}

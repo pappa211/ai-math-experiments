@@ -1,0 +1,114 @@
+{
+  "reviewer": "batched_odd_fresh",
+  "verdict": "PASS",
+  "frozen_utc": "2026-11-15T09:11:13Z",
+  "original_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "host": "Darwin",
+  "workspace": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19",
+  "scope": "Ordinary arbitrarily-large actual-graph odd-cover obstruction with explicit strict ordinary Tuza slack; independent AI review",
+  "target": "notes/root_batched_odd_cover_obstruction.md",
+  "target_sha256": "240f03702de1bc3f2deadb1be99307c27de26849607b2bd50e8ecd2cffcca4f7",
+  "sources_unchanged_before_and_after_audit_write": true,
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "03130ddf542fa57094ec18d43a81cf9e306073fd5defa27079347ea791ed18cf"
+    },
+    {
+      "path": "MISSION.txt",
+      "sha256": "26356f13532fa68c7a3362f42c65369abec51adb49531c18549f509e1fe42cda"
+    },
+    {
+      "path": "operations/clock.json",
+      "sha256": "db8baaaf29708e4be97741aa4ce9df1216c63c4895ab50bbdda5c9eeca715781"
+    },
+    {
+      "path": "notes/root_batched_odd_cover_obstruction.md",
+      "sha256": "240f03702de1bc3f2deadb1be99307c27de26849607b2bd50e8ecd2cffcca4f7"
+    },
+    {
+      "path": "notes/root_batched_universal_tf_nonwke.md",
+      "sha256": "d4ff2e5f0539b43fedc54fab7eef87a01717b43103577e5862b7739a63101913"
+    },
+    {
+      "path": "notes/global_routes_quantitative_amplification.md",
+      "sha256": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53"
+    },
+    {
+      "path": "notes/global_routes_critical_cut_obstruction.md",
+      "sha256": "2ec94c291275ae6d02628ffd227d2acd9bb2c3eee638a1369c40bd8fc053ac1b"
+    },
+    {
+      "path": "review/batched_universal_tf_nonwke_fresh_audit.md",
+      "sha256": "470c7dd4c7a068fb126dd791976cf2054546e1f92eb137cd79a8ae5d980e311f"
+    },
+    {
+      "path": "evidence/batched_odd_cover/base_certificate.json",
+      "sha256": "846fc4c490e88489848b4083840b5603d6788d5fae0bd8d53b39a606cd89873d"
+    },
+    {
+      "path": "review/efr_power_saving_source_audit.md",
+      "sha256": "33a3bfc8a6fe049f15d424a5f97e1f8084be40b705385975c994db6ecdfc874e"
+    },
+    {
+      "path": "notes/root_subexponential_normalization_corollary.md",
+      "sha256": "77da1f5cce4720e4a34b7e1d72c27d2ef4304a5f089129ed87bb611de9887c64"
+    },
+    {
+      "path": "notes/root_batched_odd_cover_exact_identity.md",
+      "sha256": "57d44a9d95e66f1885272f2e184954772c224f977c15238424e935b6be4189c8"
+    }
+  ],
+  "native_environment": {
+    "path": "LOCAL_ENVIRONMENT",
+    "sha256": "00a6e964c0f1cbe0c277b210230fa14e40927b0081dd12a8d98031ddc6e83f68",
+    "python": "3.12.12"
+  },
+  "base_check": {
+    "scope": "Eight displayed K_(2,2,2,2) base triples only; independently transcribed and checked by standard-library combinations and Counter",
+    "base_triangles": 8,
+    "expected_cross_edges": 24,
+    "used_edges": 24,
+    "all_edges_exactly_once": true,
+    "all_triples_have_three_distinct_parts": true,
+    "large_graph_generated": false,
+    "census": false
+  },
+  "audit": {
+    "path": "review/batched_odd_cover_fresh_audit.md",
+    "sha256": "c920eb32e8cdb2bd619c728098f29d5f90529f7551498b8eddc495f9ee164f08"
+  },
+  "limitations": [
+    "No literal huge graph or complete large edge list",
+    "No Lean or human verification",
+    "Originality unresolved",
+    "No packing resilience or H-O2 conclusion",
+    "No solution of unrestricted Tuza"
+  ],
+  "producer_files_mutated": false,
+  "created_files": [
+    "review/batched_odd_cover_fresh_audit.md",
+    "review/batched_odd_cover_fresh_manifest.json",
+    "checks/batched_odd_cover_fresh_base.py",
+    "evidence/batched_odd_cover/fresh_base_receipt.json"
+  ],
+  "initial_audit_frozen_utc": "2026-11-15T09:09:47Z",
+  "supplement": {
+    "scope": "Exact identity addendum PASS and retained standalone independent base checker",
+    "source": "notes/root_batched_odd_cover_exact_identity.md",
+    "sha256": "57d44a9d95e66f1885272f2e184954772c224f977c15238424e935b6be4189c8"
+  },
+  "checker": {
+    "path": "checks/batched_odd_cover_fresh_base.py",
+    "sha256": "0ee74aadcf4bf26586d3504676c46f1f044a00a5b4c99c17f4a5cdac8b9a1880",
+    "command": "source LOCAL_ENVIRONMENT checks/batched_odd_cover_fresh_base.py"
+  },
+  "checker_receipt": {
+    "path": "evidence/batched_odd_cover/fresh_base_receipt.json",
+    "sha256": "92cf443e65c0d86501d14aa0e710163ed054387559766a1ca67b23729cf96951",
+    "verdict": "PASS",
+    "executed_utc": "2026-11-15T09:11:13Z"
+  }
+}

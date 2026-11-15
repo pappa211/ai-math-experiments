@@ -1,0 +1,58 @@
+{
+  "arxiv_record_url": "https://arxiv.org/abs/2001.00257",
+  "files": [
+    {
+      "bytes": 8526,
+      "path": "review/cksu_prop13_independent_audit.md",
+      "sha256": "6fe94fb697d2ddc838c164e563d75494ea88895d70dd36ebd7d1ce2a8d37e1be"
+    },
+    {
+      "bytes": 5366,
+      "path": "checks/cksu_prop13_independent.py",
+      "sha256": "e3c68df4f482423fb536411ef5b83e39b97b0916bb01520d8c84da4e169482a8"
+    },
+    {
+      "bytes": 41534,
+      "path": "evidence/cksu_source_audit/k5_independent_check.json",
+      "sha256": "555fe8ffa5791f7d7978308512650e68cb08202e96fc7cd7d53828a95ddb64fb"
+    },
+    {
+      "bytes": 674,
+      "path": "evidence/cksu_source_audit/download_headers.txt",
+      "sha256": "fbced290ea1eeb464401a7cf63dcb360e58f2a64b149d41bbe47f97e1ab0fb41"
+    },
+    {
+      "bytes": 192400,
+      "path": "evidence/cksu_source_audit/extracted_text.txt",
+      "sha256": "1d1833bf8bdf36bd2bd618ace09c33040e1db79f89c5a8d281315faf4453deda"
+    }
+  ],
+  "full_page_renders_visually_reviewed": [
+    6,
+    7,
+    11,
+    12,
+    16,
+    17
+  ],
+  "host": "macOS-27.2.1-arm64-arm-64bit",
+  "observed_version": "v2, last revised 2021-02-03; arXiv record has v1 and v2 only at observation",
+  "pdf": {
+    "bytes": 726301,
+    "download_command": "curl --fail --location --max-time 60 --dump-header evidence/cksu_source_audit/download_headers.txt --output evidence/cksu_source_audit/2001.00257v2.pdf https://arxiv.org/pdf/2001.00257v2",
+    "download_headers_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/evidence/cksu_source_audit/download_headers.txt",
+    "file_mtime_utc": "2026-11-15T02:27:12.797435+00:00",
+    "pages": 69,
+    "path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/evidence/cksu_source_audit/2001.00257v2.pdf",
+    "sha256": "1ec683cf6d609daf53ee967d9f53a93a87c17286ae20a46191070c7ca5688897"
+  },
+  "receipt_utc": "2026-11-15T02:31:53.163264+00:00",
+  "scope": "Proposition13 is false as printed; Section3 procedure fails on K5. Lemma18 is not contradicted. No refutation of main existential theorem.",
+  "source_numbering": {
+    "13": "Proposition13, printed/PDF page11",
+    "18": "Lemma18, printed/PDF page17"
+  },
+  "source_url": "https://arxiv.org/pdf/2001.00257v2",
+  "status": "PRIMARY_PDF_RETAINED_AND_VISUALLY_CHECKED",
+  "text_read_scope": "Sections2.1,2.2,3 and Definition17/Lemma18; no complete audit of Section4 or appendix"
+}

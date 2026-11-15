@@ -1,0 +1,238 @@
+{
+  "updated_utc": "2026-11-15T09:07:06.555183+00:00",
+  "scope": "global_routes branch scoped files; excludes this manifest",
+  "files": [
+    {
+      "path": "checks/global_routes_abv_reservoir.py",
+      "sha256": "c550ba38362b35d81a2cf62e8cd178e89ce603914a3a6c65c6cf1015734fa9b7"
+    },
+    {
+      "path": "checks/global_routes_barycentric_control.py",
+      "sha256": "f2621cbc5405f76dcdec2df474e92fbacea55bb524207c154e034ca2a4cab61a"
+    },
+    {
+      "path": "checks/global_routes_clique_link_control.py",
+      "sha256": "2670f99e67cfa7da5e6e4c28fcf78fa68f66c2cb577109e111245cdd1976925d"
+    },
+    {
+      "path": "checks/global_routes_deletion_gate.py",
+      "sha256": "baa94baf97fa06cea3da955f63a396590fb576177720fa755d61e980a689b1b9"
+    },
+    {
+      "path": "checks/global_routes_k11_control.py",
+      "sha256": "86411d6f77537e8951ddfa7c6f56d9bfa174d5dfad63377a2fe4f2cd90ab801e"
+    },
+    {
+      "path": "checks/global_routes_k5_cycle_controls.py",
+      "sha256": "6b9f4b83a0041db2125ae0f6b7e55cd5592a9f0d6c2f029a72aaeb7de35f81a4"
+    },
+    {
+      "path": "checks/global_routes_k5_two_color_states.py",
+      "sha256": "0b10508b47cb266dba85267b4edbf081469e1df7503e77f28d4afa56782ee6e4"
+    },
+    {
+      "path": "checks/global_routes_parity_atlas.py",
+      "sha256": "8e36a7b79d06c8bf78911bd515ee24db3b2d6eb12def48be4d403b73e2d35d3f"
+    },
+    {
+      "path": "checks/global_routes_parity_cone.py",
+      "sha256": "aa0a20fa60a222e4d26089fca22c786ae5c922c7a51f4e434c76fe435eb8f2a1"
+    },
+    {
+      "path": "checks/global_routes_sat.py",
+      "sha256": "8e0d5d2c15b0bb2c87a7c6e032ba86de619f2b94eb6a730d2809cf3e3e9aa2cb"
+    },
+    {
+      "path": "checks/global_routes_triangle_extension.py",
+      "sha256": "b432c880857782c3cfcbfa53de9882bb35b76e8d61fc3e46345ee2009ed50d84"
+    },
+    {
+      "path": "checks/global_routes_worth_critical_sat.py",
+      "sha256": "e70186a200c8e529ff4173b5b12e882c462bc9f72342475188ebd558559262ab"
+    },
+    {
+      "path": "evidence/global_routes/abv_reservoir_controls.json",
+      "sha256": "3422b5b068fbdd4c82f706554c344502e40548222cc38648bf8961beccec9793"
+    },
+    {
+      "path": "evidence/global_routes/barycentric_k4.json",
+      "sha256": "695c9c995a18fefd222cd69d89b5923a5240b6fe5c83a935a012377b870c9cde"
+    },
+    {
+      "path": "evidence/global_routes/batched_odd_cover_partner_audit.json",
+      "sha256": "f915f3ec8772b2de41be63eb2909731dbe06183c521c6686f25b6472f6c718b7"
+    },
+    {
+      "path": "evidence/global_routes/batched_universal_partner_audit.json",
+      "sha256": "492bac22b90ae9d4f03a43c9e49512087bde9e704a474dc07d8ae6d3da89f227"
+    },
+    {
+      "path": "evidence/global_routes/clique_link_control.json",
+      "sha256": "a27c52c171bb0dcade1ce16678484c61e90dc1e5679643bd606feb7b911e6156"
+    },
+    {
+      "path": "evidence/global_routes/deletion_atlas.json",
+      "sha256": "c5bcd07cdb43b334ea390a6df3e36963ffbbfdd7a565865b8e2764ea488f6503"
+    },
+    {
+      "path": "evidence/global_routes/k11_odd_tf_resilience.json",
+      "sha256": "0ede812074a4297ca8dc5e8f7b235f2b8236804d94dd225a1cb43554c70d9217"
+    },
+    {
+      "path": "evidence/global_routes/k2_join_kalbfleisch_tie.json",
+      "sha256": "d0540a4fc757510ba96bb3f9bfd4c419516ce706219180b5869c381c969fab00"
+    },
+    {
+      "path": "evidence/global_routes/k5_cycle_controls.json",
+      "sha256": "0e22a9a0bda4601d46b4349c70fae2bd16f31ef9e531a7417fa2c20980e04554"
+    },
+    {
+      "path": "evidence/global_routes/k5_two_color_states.json",
+      "sha256": "e80e903e9d8b04aac7bb8dd830e75df8c1944f16073aebd9109507f9830183e9"
+    },
+    {
+      "path": "evidence/global_routes/parity_atlas.json",
+      "sha256": "0f9603411510d60dabbe6f67a38fd7ff82bf27c02ee4c93dea90ca6307320dac"
+    },
+    {
+      "path": "evidence/global_routes/parity_cone_sat_screen.json",
+      "sha256": "65957f3b076cec1edf18067929e00a47052f13aba1f3b39391e5954e829762d7"
+    },
+    {
+      "path": "evidence/global_routes/parity_cone_sat_tighten.json",
+      "sha256": "017bace104f1bb7d0b3f570f7288f8d4afa55b5e821e708f4ed7c3036d480be4"
+    },
+    {
+      "path": "evidence/global_routes/parity_kalbfleisch_cone.json",
+      "sha256": "0d98a18c009ec1c6cf3c766d25cfc32516f57c34780d747fd6feb9c1efe6e5ce"
+    },
+    {
+      "path": "evidence/global_routes/root_clique_tf_audit.json",
+      "sha256": "01298d6393cb05fac3424d59ad083c92fd9fa2b98b1ba3de8ad276826bbb3244"
+    },
+    {
+      "path": "evidence/global_routes/sat_interface_controls.json",
+      "sha256": "47a02910ec504385ebd40aab1a6269c743273cedae988515249d931db0c45683"
+    },
+    {
+      "path": "evidence/global_routes/triangle_extension_atlas.json",
+      "sha256": "f17b84708eaa34260f3b748833d4972f322e474cde257e9f58299a4ac23fdc40"
+    },
+    {
+      "path": "evidence/global_routes/worth_critical_n11_a4.json",
+      "sha256": "13792cf3c590d8c76852695d8e4057e9e6e322cd9dd9b0b5ae52acb8bb9008f0"
+    },
+    {
+      "path": "notes/global_routes_abv_reservoir_obstruction.md",
+      "sha256": "c774f28ad64d3672584ada9f5484cb64b8009da77aee9b7380c789ada4291872"
+    },
+    {
+      "path": "notes/global_routes_barycentric_transfer.md",
+      "sha256": "f7ce814b0d747ad8011cc896e65253a9230cc814f156d0cf5da2a276f7aafc93"
+    },
+    {
+      "path": "notes/global_routes_batched_odd_cover_audit.md",
+      "sha256": "ce729f583296dbdbde76edb4e2e23e085150a4f27c122724509cf9d2968c9398"
+    },
+    {
+      "path": "notes/global_routes_batched_universal_audit.md",
+      "sha256": "dfae955c83ebbe628afa52fec4600406e077eeb55052b9c824458d799ca4e6b0"
+    },
+    {
+      "path": "notes/global_routes_bounded_stars_all_cliques.md",
+      "sha256": "bfb6d0154ffbd225ac7d4c47f2a51d7f4725d8c9a1138bd64d562ebc5673b48a"
+    },
+    {
+      "path": "notes/global_routes_bounded_stars_scope_addendum.md",
+      "sha256": "709f4ed62a239125b1f0aea732beaed1c292059fbebe00e19b3fe78a9bc2fe2f"
+    },
+    {
+      "path": "notes/global_routes_clique_link_erratum.md",
+      "sha256": "1e9c00a28db5f98db56690de2a8605b7c9816aedf8c9d562d9ff0d4ab1af0429"
+    },
+    {
+      "path": "notes/global_routes_clique_link_polytope_obstruction.md",
+      "sha256": "58a6165eb965c00ae7c0fc711b9bdaf22a99809c616b2e8e04447bafccb32b07"
+    },
+    {
+      "path": "notes/global_routes_critical_cut_obstruction.md",
+      "sha256": "2ec94c291275ae6d02628ffd227d2acd9bb2c3eee638a1369c40bd8fc053ac1b"
+    },
+    {
+      "path": "notes/global_routes_deletion_gate.md",
+      "sha256": "3d023e159ff070ea33bc69cebfbeb1de6b73a45f492a0a72894603ed004f68db"
+    },
+    {
+      "path": "notes/global_routes_diamond_matching_obstruction.md",
+      "sha256": "c14c8fc8c6aecd32cf74edcd1c49be8364c0f05cf6686f063208c33ef274af42"
+    },
+    {
+      "path": "notes/global_routes_k11_control.md",
+      "sha256": "d0188d752680979e7e44e36002dd8af38a3083b2c6b7b1d020386bea0500df1b"
+    },
+    {
+      "path": "notes/global_routes_k2_join_tf.md",
+      "sha256": "e01b8f74c39c86fd4810fd4a6ad13e666441de359f708b9fd7548e0a8a5a53ef"
+    },
+    {
+      "path": "notes/global_routes_k4_incidence_envelope.md",
+      "sha256": "bab1d37689733de5e5cc12772aa74e77f3e8af952d70bceee157dec4d3b3bc8c"
+    },
+    {
+      "path": "notes/global_routes_k5_cycle_gate.md",
+      "sha256": "30b4f60638f7cc90f3ddc06408d47da1dd2283742c777c078bbbab949e44f2d4"
+    },
+    {
+      "path": "notes/global_routes_k5_endpoint_rotations.md",
+      "sha256": "f6ed8a819aa5f06f88e6449f9d7a24d2888be88f43ad24d0ba96fe35c7bc71c6"
+    },
+    {
+      "path": "notes/global_routes_log.md",
+      "sha256": "01edd11cb0f9845ad59bf1ebee9f0980890e25e0737c678d975465a2ec4ae971"
+    },
+    {
+      "path": "notes/global_routes_nonsaturation_addendum.md",
+      "sha256": "3005b796bafc0470f37c520f4e22da5d69a5741dee619536448a9b08270cbafd"
+    },
+    {
+      "path": "notes/global_routes_parity_gate.md",
+      "sha256": "850890c9bca9f3c8807fc8d8b59365dc00e09219575f1eb8129d9e698bad1053"
+    },
+    {
+      "path": "notes/global_routes_quantitative_amplification.md",
+      "sha256": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53"
+    },
+    {
+      "path": "notes/global_routes_resilient_envelope.md",
+      "sha256": "e18b35be69a725ac3530860a5aecab4d5c1a2a0c8f6e7099cae463b36cc02c0b"
+    },
+    {
+      "path": "notes/global_routes_root_clique_tf_audit.md",
+      "sha256": "1c9d6d5056fea5223f2729bad732e4da44a7de9b63a0e9d237ca7a5d64c5a2de"
+    },
+    {
+      "path": "notes/global_routes_square_cells_matching.md",
+      "sha256": "1c59c9c58a0ba5b0ad9c5d90d3f0d1f3794b4300f7b28a06524da0f71ee39c2c"
+    },
+    {
+      "path": "notes/global_routes_triangle_addition_frontier.md",
+      "sha256": "6901d2b336cb792789022545babe1501d0da1744ec3c10ee5ec5771222be9790"
+    },
+    {
+      "path": "notes/global_routes_two_apex_k5_states.md",
+      "sha256": "bf17d5a54c8642ecd4d5c8fbfe637da4dfb03087ac7696bd9b9edc49a6bd6ab5"
+    },
+    {
+      "path": "notes/global_routes_universal_clique_reduction.md",
+      "sha256": "83d9549aae898656b2d09871c5f87c481d6b36116f7ac37d23f534df92f527a1"
+    },
+    {
+      "path": "notes/global_routes_universal_join_saturation.md",
+      "sha256": "52a9dd5bcb6a43a5fc5f39fec6aa6792d70024c09e119f9a3bb8d861f8faffbb"
+    },
+    {
+      "path": "notes/global_routes_universal_tf_nonwke_addendum.md",
+      "sha256": "58dbcfc87ef9683801a666f8e159fd367e01376aa7c7bb79d1bf2296c3b020b4"
+    }
+  ]
+}

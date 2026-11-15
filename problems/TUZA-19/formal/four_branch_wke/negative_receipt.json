@@ -1,0 +1,20 @@
+[
+  {
+    "case": "MissingRow",
+    "expected_rejection": true,
+    "returncode": 1,
+    "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/reject_missingrow.stdout"
+  },
+  {
+    "case": "EmptyCover",
+    "expected_rejection": true,
+    "returncode": 1,
+    "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/reject_emptycover.stdout"
+  },
+  {
+    "case": "RepeatedMatching",
+    "expected_rejection": true,
+    "returncode": 1,
+    "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/reject_repeatedmatching.stdout"
+  }
+]

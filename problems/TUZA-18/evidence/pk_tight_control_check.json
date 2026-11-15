@@ -1,0 +1,33 @@
+{
+  "active_matching_edges": 8,
+  "all_triangles_individually_tight": true,
+  "cone_edges": 42,
+  "cone_triangles": 34,
+  "cone_vertices": 17,
+  "finished_utc": "2026-11-14T19:31:20.252731+00:00",
+  "independent_set": [
+    0,
+    2,
+    4,
+    7,
+    9,
+    12,
+    14
+  ],
+  "larger_packing_size": 9,
+  "ordinary_cover_size": 17,
+  "perfect_matching_count": 12,
+  "prescribed_packing_maximum": false,
+  "prescribed_packing_size": 8,
+  "producer_evidence_sha256": "0fe1baed906b5685564cbba94db407da2a943d49a5c0af27ff70cabc2f03b63f",
+  "proof_sha256": "cec71b76e7695f6e319464851891cb2226acbbf1a3d8c0790eafb42f838be2cd",
+  "residual_independence_number": 7,
+  "rim_edges": 26,
+  "rim_triangles": 8,
+  "rim_vertices": 16,
+  "scope": "Refutes individual-tight-triangle relaxation only; no PK or Tuza counterexample.",
+  "script_sha256": "514f3856296f2b1d2e0ec32a98dfed3149aa176d999483d9f9012d79fe07a507",
+  "started_utc": "2026-11-14T19:31:20.236093+00:00",
+  "status": "PASS",
+  "support_cover_optimum": 17
+}

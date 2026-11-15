@@ -1,0 +1,764 @@
+{
+  "runtime_s": 0.03309645799163263,
+  "cases": [
+    {
+      "name": "K4",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "vertex4colouring": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nu_H": 1,
+      "tau_H": 2,
+      "D_H": 0,
+      "minimum_cover_count": 3,
+      "eligible_nonempty_links": 6,
+      "gap_histogram": {
+        "-2": 6
+      },
+      "failures": [],
+      "nongain_positive_lambda": [],
+      "status": "PASS"
+    },
+    {
+      "name": "twoK4_edge",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "vertex4colouring": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        3
+      ],
+      "nu_H": 2,
+      "tau_H": 3,
+      "D_H": 1,
+      "minimum_cover_count": 1,
+      "eligible_nonempty_links": 24,
+      "gap_histogram": {
+        "-3": 8,
+        "-2": 16
+      },
+      "failures": [],
+      "nongain_positive_lambda": [],
+      "status": "PASS"
+    },
+    {
+      "name": "twoK4_triangle",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "vertex4colouring": [
+        0,
+        1,
+        2,
+        3,
+        3
+      ],
+      "nu_H": 2,
+      "tau_H": 3,
+      "D_H": 1,
+      "minimum_cover_count": 4,
+      "eligible_nonempty_links": 12,
+      "gap_histogram": {
+        "-3": 12
+      },
+      "failures": [],
+      "nongain_positive_lambda": [],
+      "status": "PASS"
+    },
+    {
+      "name": "threeK4_edge",
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "vertex4colouring": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        3,
+        2,
+        3
+      ],
+      "nu_H": 3,
+      "tau_H": 4,
+      "D_H": 2,
+      "minimum_cover_count": 1,
+      "eligible_nonempty_links": 90,
+      "gap_histogram": {
+        "-4": 38,
+        "-3": 52
+      },
+      "failures": [],
+      "nongain_positive_lambda": [],
+      "status": "PASS"
+    },
+    {
+      "name": "K4_path_edge",
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "vertex4colouring": [
+        2,
+        3,
+        0,
+        1,
+        2,
+        3,
+        0,
+        1
+      ],
+      "nu_H": 3,
+      "tau_H": 4,
+      "D_H": 2,
+      "minimum_cover_count": 1,
+      "eligible_nonempty_links": 87,
+      "gap_histogram": {
+        "-4": 35,
+        "-3": 44,
+        "-5": 8
+      },
+      "failures": [],
+      "nongain_positive_lambda": [],
+      "status": "PASS"
+    },
+    {
+      "name": "K4_cycle_edge",
+      "status": "NOT_APPLICABLE",
+      "why": "no vertex4color found (not full edge3colour test)"
+    },
+    {
+      "name": "K4_tri_pagetips",
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "vertex4colouring": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        0,
+        0,
+        1
+      ],
+      "nu_H": 4,
+      "tau_H": 4,
+      "D_H": 4,
+      "minimum_cover_count": 17,
+      "eligible_nonempty_links": 112,
+      "gap_histogram": {
+        "-4": 66,
+        "-5": 30,
+        "-3": 16
+      },
+      "failures": [],
+      "nongain_positive_lambda": [
+        {
+          "X": [
+            1,
+            4,
+            5
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            2,
+            5,
+            6
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            0,
+            4,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            0,
+            4,
+            5,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            1,
+            4,
+            5,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            3,
+            6,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            0,
+            4,
+            6,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            3,
+            4,
+            6,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            2,
+            5,
+            6,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            3,
+            5,
+            6,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            1,
+            4,
+            5,
+            6,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            2,
+            4,
+            5,
+            6,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        },
+        {
+          "X": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "lambda": 1,
+          "nu_G": 4,
+          "gain": 0,
+          "gap": -3,
+          "old_link_edges": 2
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "fourport_G",
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "vertex4colouring": [
+        0,
+        1,
+        2,
+        3,
+        2,
+        0,
+        1,
+        1
+      ],
+      "nu_H": 4,
+      "tau_H": 5,
+      "D_H": 3,
+      "minimum_cover_count": 10,
+      "eligible_nonempty_links": 100,
+      "gap_histogram": {
+        "-5": 49,
+        "-4": 27,
+        "-6": 18,
+        "-3": 6
+      },
+      "failures": [],
+      "nongain_positive_lambda": [],
+      "status": "PASS"
+    }
+  ]
+}

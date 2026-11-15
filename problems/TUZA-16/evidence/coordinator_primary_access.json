@@ -1,0 +1,10 @@
+{
+  "date_utc":"2026-11-03",
+  "tool":"web read-only public access",
+  "sources":[
+    {"url":"https://link.springer.com/article/10.1007/s00373-011-1048-8","edition":"Graphs and Combinatorics28(2012),381–392; online17April2011","inspected":"publisher abstract and bibliographic metadata","summary":"The abstract states Tuza for triangle-3-colourable graphs and the four-vertex-colourable consequence.","full_proof":"NOT_INSPECTED: subscription access"},
+    {"url":"https://link.springer.com/article/10.1007/s004930170001","edition":"Combinatorica21(2001),1–4","inspected":"publisher metadata; abstract formula not rendered","exact_theorem_fresh_authentication":"NOT_RUN","full_proof":"NOT_INSPECTED: subscription access"}
+  ],
+  "doi_redirect_access":"Initial doi.org opens failed; direct publisher URLs succeeded",
+  "secondary_search_results":"Discovery only; not mathematical premises"
+}

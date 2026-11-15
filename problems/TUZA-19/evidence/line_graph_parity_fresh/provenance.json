@@ -1,0 +1,19 @@
+{
+  "input_path": "notes/root_line_graph_parity.md",
+  "input_sha256": "65f65ed45fb9920b39c72491243eccc7ba880add1a1f1256b4e86c65d1ebd0f1",
+  "input_snapshot": "evidence/line_graph_parity_fresh/input_statement.md",
+  "audit_started_utc": "2026-11-15T03:21:45Z",
+  "recorded_utc": "2026-11-15T03:26:46.126883+00:00",
+  "mission_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "serving_metadata": "Exact serving model and effort not exposed; no assertion made.",
+  "input_isolation": "Only frozen statement/proof and its hash manifest read. No producer checker, result, research log or favorable review read.",
+  "declared_dependencies": "Euler tours, elementary parity, and explicit clique packing construction; no outside research theorem imported.",
+  "execution": "Local owner Darwin arm64, pinned Python3.12.12, standard library, no remote execution or Lean.",
+  "objections": "No mathematical objection or failing case found. Euler-tour starting point, clique avoidance at degree2, new w-edge conflicts and independent local coloring scope explicitly challenged and resolved.",
+  "development": "First complete verifier run passed.",
+  "delegation": "An attempted supplemental subagent launch was refused because the agent thread limit was reached; no supplemental agent review occurred."
+}

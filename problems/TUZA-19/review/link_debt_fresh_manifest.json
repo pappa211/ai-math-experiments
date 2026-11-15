@@ -1,0 +1,26 @@
+{
+  "completed_utc": "2026-11-15T05:22:56.955975+00:00",
+  "verdict": "ACCEPT ordinary results; no mathematical repair required",
+  "requested_model": "Astra",
+  "requested_reasoning": "Ultra",
+  "actual_serving_controls": "not independently exposed",
+  "original_research_cutoff": "2026-11-15T09:23:58Z",
+  "producer_code_read_or_imported": false,
+  "primary_source": {
+    "url": "https://arxiv.org/pdf/1308.2211v3",
+    "locations": [
+      "Definition 2.1",
+      "Lemma 2.2",
+      "Definition 4.1",
+      "Lemma 4.4"
+    ],
+    "access": "read-only web tool; no source computation"
+  },
+  "sha256": {
+    "notes/packing_new_link_debt.md": "6ea116c410e09f184a52ca564edfb86c8028a4b1c83313750c19a881b9e77e32",
+    "review/link_debt_fresh_inputs/packing_new_link_debt.md": "6ea116c410e09f184a52ca564edfb86c8028a4b1c83313750c19a881b9e77e32",
+    "review/link_debt_fresh_checker.py": "b065b655e62ca824d0516e3c3a7c4ff1c9c967583333b19bba7f5ca7a1e60dab",
+    "review/link_debt_fresh_audit.md": "a9f999173bbbc90e63f63faf7da031560be3609113968cf928aba47325ddce89",
+    "evidence/link_debt_fresh/results.json": "5afc873aede57346245aa36a22f3a78824b1f18afe493951005d98b2ace66e61"
+  }
+}

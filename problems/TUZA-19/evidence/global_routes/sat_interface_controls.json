@@ -1,0 +1,918 @@
+{
+  "status": "PASS",
+  "cardinality_domain": "all n1..5, every assignment, all k0..n+1, atmost and atleast",
+  "cadical": "2.1.2",
+  "graph_controls": [
+    {
+      "graph": "K3",
+      "nu": {
+        "status": "EXACT_SOLVER",
+        "value": 1,
+        "packing": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "calls": [
+          {
+            "k": 1,
+            "status": "SAT",
+            "seconds": 0.0017349999980069697,
+            "returncode": 10,
+            "variables": 2,
+            "clauses": 3,
+            "cnf_sha256": "ceee6258ace5b01040d945c2f48823aa837a2b39512532f2844a4377d237c937",
+            "packing_indices": [
+              0
+            ],
+            "packing": [
+              [
+                0,
+                1,
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "tau": {
+        "status": "EXACT_SOLVER",
+        "value": 1,
+        "cover": [
+          [
+            0,
+            1
+          ]
+        ],
+        "calls": [
+          {
+            "k": 1,
+            "status": "SAT",
+            "seconds": 0.001535708004666958,
+            "returncode": 10,
+            "variables": 9,
+            "clauses": 19,
+            "cnf_sha256": "5cb5edebfa1ba310f482ca526cf66aa0583ccf3d34733fad3ba1779b064f6542",
+            "cover_indices": [
+              0
+            ],
+            "cover": [
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          {
+            "k": 0,
+            "status": "UNSAT",
+            "seconds": 0.0018272499946760945,
+            "returncode": 20,
+            "variables": 6,
+            "clauses": 10,
+            "cnf_sha256": "d09fedfaa0f123935260db1b254f59459ff109782e8725ddcaf95bd38fafbab5"
+          }
+        ]
+      },
+      "pi": {
+        "status": "EXACT_SOLVER",
+        "value": 1,
+        "cover": [
+          [
+            0,
+            1
+          ]
+        ],
+        "calls": [
+          {
+            "k": 1,
+            "status": "SAT",
+            "seconds": 0.0015390000044135377,
+            "returncode": 10,
+            "variables": 9,
+            "clauses": 22,
+            "cnf_sha256": "e947475870a556a115eb9e18c6e4f68a144e5e5fcaad9f957f78d1788ff11313",
+            "cover_indices": [
+              0
+            ],
+            "cover": [
+              [
+                0,
+                1
+              ]
+            ]
+          },
+          {
+            "k": 0,
+            "status": "UNSAT",
+            "seconds": 0.0016719160048523918,
+            "returncode": 20,
+            "variables": 6,
+            "clauses": 13,
+            "cnf_sha256": "154ec915954ab743f9fcc9e3efd87ae0c98ec1ab8bf10d38f73e2c5cad14784b"
+          }
+        ]
+      }
+    },
+    {
+      "graph": "K4",
+      "nu": {
+        "status": "EXACT_SOLVER",
+        "value": 1,
+        "packing": [
+          [
+            0,
+            1,
+            2
+          ]
+        ],
+        "calls": [
+          {
+            "k": 1,
+            "status": "SAT",
+            "seconds": 0.0015300410013878718,
+            "returncode": 10,
+            "variables": 8,
+            "clauses": 18,
+            "cnf_sha256": "27ddaa8bccb7b55cb9e92d696d5649b3bdc59f754ca47a2165101d30536a41c7",
+            "packing_indices": [
+              0
+            ],
+            "packing": [
+              [
+                0,
+                1,
+                2
+              ]
+            ]
+          },
+          {
+            "k": 2,
+            "status": "UNSAT",
+            "seconds": 0.0017139159972430207,
+            "returncode": 20,
+            "variables": 12,
+            "clauses": 31,
+            "cnf_sha256": "ed38438b520356209eef0a8057f62e4ba3861a56bbf9e5be8c7492459ba1e9f5"
+          }
+        ]
+      },
+      "tau": {
+        "status": "EXACT_SOLVER",
+        "value": 2,
+        "cover": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "calls": [
+          {
+            "k": 3,
+            "status": "SAT",
+            "seconds": 0.0017625830005272292,
+            "returncode": 10,
+            "variables": 30,
+            "clauses": 85,
+            "cnf_sha256": "a2650ba4b97541dea2c708803f0a83737787d8de4f1271a48174c3839986b5a1",
+            "cover_indices": [
+              3,
+              4,
+              5
+            ],
+            "cover": [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "status": "UNSAT",
+            "seconds": 0.001650874997721985,
+            "returncode": 20,
+            "variables": 18,
+            "clauses": 43,
+            "cnf_sha256": "47fb9e7b15f1b5a78cd5940fd2485aa4fa23ad0a6c9df1b198f90535254e75d0"
+          },
+          {
+            "k": 2,
+            "status": "SAT",
+            "seconds": 0.0015693750028731301,
+            "returncode": 10,
+            "variables": 24,
+            "clauses": 64,
+            "cnf_sha256": "8232e933c2a78b3b64db1c7b9ef4a65d7bc50eff602415d82e5a5a4411025210",
+            "cover_indices": [
+              2,
+              3
+            ],
+            "cover": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "pi": {
+        "status": "EXACT_SOLVER",
+        "value": 2,
+        "cover": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "calls": [
+          {
+            "k": 3,
+            "status": "SAT",
+            "seconds": 0.0015257499981089495,
+            "returncode": 10,
+            "variables": 30,
+            "clauses": 97,
+            "cnf_sha256": "02ac8132ab4b4f8a59a7f7d9cb7a06e7b39a270f83488ac90c712c1dc50f1186",
+            "cover_indices": [
+              0,
+              1,
+              3
+            ],
+            "cover": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          },
+          {
+            "k": 1,
+            "status": "UNSAT",
+            "seconds": 0.0015216669999063015,
+            "returncode": 20,
+            "variables": 18,
+            "clauses": 55,
+            "cnf_sha256": "614e6b8d8ffa1ba1191e47e9cd87e727db0203602e4d1a5e243432efdca21ed6"
+          },
+          {
+            "k": 2,
+            "status": "SAT",
+            "seconds": 0.0016541250006412156,
+            "returncode": 10,
+            "variables": 24,
+            "clauses": 76,
+            "cnf_sha256": "0d3b40d54b0dcddfd1645dff2db1cd8a0193f6efc88c2c7097de6e4f735ea501",
+            "cover_indices": [
+              2,
+              3
+            ],
+            "cover": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "graph": "K5",
+      "nu": {
+        "status": "EXACT_SOLVER",
+        "value": 2,
+        "packing": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            3,
+            4
+          ]
+        ],
+        "calls": [
+          {
+            "k": 2,
+            "status": "SAT",
+            "seconds": 0.0016454999931738712,
+            "returncode": 10,
+            "variables": 30,
+            "clauses": 97,
+            "cnf_sha256": "2994c5fc9a6ed9ee18d5dc143d82416c7ff35030f5d3885e00e5446ad8ecfb55",
+            "packing_indices": [
+              0,
+              5
+            ],
+            "packing": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                3,
+                4
+              ]
+            ]
+          },
+          {
+            "k": 3,
+            "status": "UNSAT",
+            "seconds": 0.0017613340023672208,
+            "returncode": 20,
+            "variables": 40,
+            "clauses": 134,
+            "cnf_sha256": "60c723cb8a050bd11f9c61566d0f922252fe129577922daf940d76d91e739772"
+          }
+        ]
+      },
+      "tau": {
+        "status": "EXACT_SOLVER",
+        "value": 4,
+        "cover": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "calls": [
+          {
+            "k": 5,
+            "status": "SAT",
+            "seconds": 0.0018946660056826659,
+            "returncode": 10,
+            "variables": 70,
+            "clauses": 225,
+            "cnf_sha256": "50bbd94c667171bd3988997e74552ffe76a2c1eaeb089384c8903d2a2ec847e3",
+            "cover_indices": [
+              0,
+              3,
+              4,
+              5,
+              7
+            ],
+            "cover": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "k": 2,
+            "status": "UNSAT",
+            "seconds": 0.0018353330015088432,
+            "returncode": 20,
+            "variables": 40,
+            "clauses": 114,
+            "cnf_sha256": "43f82413260c05b16b01811fe43d7f024abbbd99c1e991fa687d70537717739d"
+          },
+          {
+            "k": 4,
+            "status": "SAT",
+            "seconds": 0.0016919170011533424,
+            "returncode": 10,
+            "variables": 60,
+            "clauses": 188,
+            "cnf_sha256": "0813115617e5f2a3b72354a3bc22ef1822ad2fded2468921ddf7942d77025cf2",
+            "cover_indices": [
+              3,
+              4,
+              5,
+              7
+            ],
+            "cover": [
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "k": 3,
+            "status": "UNSAT",
+            "seconds": 0.0018042500014416873,
+            "returncode": 20,
+            "variables": 50,
+            "clauses": 151,
+            "cnf_sha256": "2c82eda45703aa1a92a10c596c89f190c3414ca3563cd227962a01d40b99d195"
+          }
+        ]
+      },
+      "pi": {
+        "status": "EXACT_SOLVER",
+        "value": 4,
+        "cover": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "calls": [
+          {
+            "k": 5,
+            "status": "SAT",
+            "seconds": 0.0017852910023066215,
+            "returncode": 10,
+            "variables": 70,
+            "clauses": 255,
+            "cnf_sha256": "20b0a3f7ee071883bc6fa3408ffc6eb04f8119c8be2c3ca0102a2e92b5ab6539",
+            "cover_indices": [
+              2,
+              3,
+              4,
+              9
+            ],
+            "cover": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                3,
+                4
+              ]
+            ]
+          },
+          {
+            "k": 2,
+            "status": "UNSAT",
+            "seconds": 0.0017174170061480254,
+            "returncode": 20,
+            "variables": 40,
+            "clauses": 144,
+            "cnf_sha256": "ec77113e123368ce11ad788f9dabcd4cfb70a95ba9d4208947dcca0f753330aa"
+          },
+          {
+            "k": 3,
+            "status": "UNSAT",
+            "seconds": 0.001829917004215531,
+            "returncode": 20,
+            "variables": 50,
+            "clauses": 181,
+            "cnf_sha256": "e52aa91456a2b685b5475f3b84bf733bc1ab1885ad7da3685b5a1e986e61b7f1"
+          }
+        ]
+      }
+    },
+    {
+      "graph": "K6",
+      "nu": {
+        "status": "EXACT_SOLVER",
+        "value": 4,
+        "packing": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            3,
+            4
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            2,
+            4,
+            5
+          ]
+        ],
+        "calls": [
+          {
+            "k": 3,
+            "status": "SAT",
+            "seconds": 0.0016416250000474975,
+            "returncode": 10,
+            "variables": 80,
+            "clauses": 304,
+            "cnf_sha256": "9141750ad49bad64e29b578fa60a39c4d8d9be11dbda7c074f5a58439db4535b",
+            "packing_indices": [
+              0,
+              7,
+              14,
+              18
+            ],
+            "packing": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                3,
+                4
+              ],
+              [
+                1,
+                3,
+                5
+              ],
+              [
+                2,
+                4,
+                5
+              ]
+            ]
+          },
+          {
+            "k": 5,
+            "status": "UNSAT",
+            "seconds": 0.0019726669997908175,
+            "returncode": 20,
+            "variables": 120,
+            "clauses": 458,
+            "cnf_sha256": "e89f35bfe9549cf7aca3c549fea3ac8c23bed7f71ae4637ae753402a5ea0cdcb"
+          }
+        ]
+      },
+      "tau": {
+        "status": "EXACT_SOLVER",
+        "value": 6,
+        "cover": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "calls": [
+          {
+            "k": 7,
+            "status": "SAT",
+            "seconds": 0.0016784170002210885,
+            "returncode": 10,
+            "variables": 135,
+            "clauses": 464,
+            "cnf_sha256": "321ea2b1dde2e7799448e70a793866995d0d5a2573a0a5d06e2557679d0a81d1",
+            "cover_indices": [
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              12
+            ],
+            "cover": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ]
+          },
+          {
+            "k": 3,
+            "status": "UNSAT",
+            "seconds": 0.0016471659982926212,
+            "returncode": 20,
+            "variables": 75,
+            "clauses": 236,
+            "cnf_sha256": "dd39a64a663c21b115a8dbf91012413e5807a8b96a5749e746c3c2587d542447"
+          },
+          {
+            "k": 5,
+            "status": "UNSAT",
+            "seconds": 0.0019151669985149056,
+            "returncode": 20,
+            "variables": 105,
+            "clauses": 350,
+            "cnf_sha256": "61d3ef8f87ac6acd11ebcd02ff7623e3765be98c6bfc9b073fc19d5e6b21e331"
+          },
+          {
+            "k": 6,
+            "status": "SAT",
+            "seconds": 0.0017580420026206411,
+            "returncode": 10,
+            "variables": 120,
+            "clauses": 407,
+            "cnf_sha256": "c8cd7f810f907df572e8df9e784769b7b426edfd431538e963021c89444f6092",
+            "cover_indices": [
+              0,
+              4,
+              8,
+              9,
+              10,
+              12
+            ],
+            "cover": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ]
+          }
+        ]
+      },
+      "pi": {
+        "status": "EXACT_SOLVER",
+        "value": 6,
+        "cover": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "calls": [
+          {
+            "k": 7,
+            "status": "SAT",
+            "seconds": 0.001953583996510133,
+            "returncode": 10,
+            "variables": 135,
+            "clauses": 524,
+            "cnf_sha256": "8c7e59f8a298ceed9c7b1a5b1fb57b5e859e9fdcb280179de75160a19c8c621d",
+            "cover_indices": [
+              4,
+              5,
+              6,
+              7,
+              9,
+              10,
+              12
+            ],
+            "cover": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ]
+          },
+          {
+            "k": 3,
+            "status": "UNSAT",
+            "seconds": 0.001960333000170067,
+            "returncode": 20,
+            "variables": 75,
+            "clauses": 296,
+            "cnf_sha256": "76458544c093324074fd4cf66256f086558a16c3a38e5e22b7d63f0c85a65c42"
+          },
+          {
+            "k": 5,
+            "status": "UNSAT",
+            "seconds": 0.0019079580015386455,
+            "returncode": 20,
+            "variables": 105,
+            "clauses": 410,
+            "cnf_sha256": "18d97962595beda8f9f8cd63a2f80e0bd6311843da1ef2c2b1064687357237a6"
+          },
+          {
+            "k": 6,
+            "status": "SAT",
+            "seconds": 0.001795958996808622,
+            "returncode": 10,
+            "variables": 120,
+            "clauses": 467,
+            "cnf_sha256": "0b75cbf9d4693c2361b0dae70388835dabaa855c4ab808d450ed618710254dee",
+            "cover_indices": [
+              0,
+              4,
+              8,
+              9,
+              10,
+              12
+            ],
+            "cover": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

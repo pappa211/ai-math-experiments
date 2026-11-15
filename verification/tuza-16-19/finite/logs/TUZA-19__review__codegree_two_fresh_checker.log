@@ -1,0 +1,93 @@
+independent base: 332 matchings, 157258 packing masks, nu9, all630 pairs verified
+independent W: all240 TF covers and all23220 deletion pairs verified
+{
+  "status": "PASS",
+  "verification_scope": "Fresh ordinary reconstruction plus independent fixed-graph exhaustive certificate checks; no Lean or human review",
+  "frozen_note_sha256": "d52e27eb800ce5399b02b6e05b81518b26ca5422a78dfba2bf566f7aa3156395",
+  "checker_sha256": "4ef03690ef37fb9a145b83825942086e6ae8df49127b6bdbf538c92c92e8e4be",
+  "host": "Darwin",
+  "matching_count": 332,
+  "perfect_matching_count": 6,
+  "perfect_matching_complement_components": [
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      5
+    ]
+  ],
+  "base_packing_masks": 157258,
+  "base_maximum_masks": 960,
+  "base_nu": 9,
+  "base_deletion_pairs": 630,
+  "base_tau": 12,
+  "base_tau_without_ab": 13,
+  "base_pi": 12,
+  "base_minimum_cover_count": 5,
+  "base_TF_triangles": 10,
+  "base_edge_critical": true,
+  "H_tau": 6,
+  "H_minimum_cover_count": 31,
+  "W_vertices": 72,
+  "W_edges": 216,
+  "W_triangles": 240,
+  "W_nu": 49,
+  "W_tau": 86,
+  "W_pi": 86,
+  "W_codegree_histogram": {
+    "2": 5,
+    "3": 180,
+    "4": 10,
+    "5": 10,
+    "7": 10,
+    "10": 1
+  },
+  "W_codegree_two_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "independent_TF_certificates": 240,
+  "independent_deletion_pairs": 23220,
+  "independent_deletion_sequence_sha256": "e5f4b304a47e22f48134f521629933bfd5bff8b6d5b24c7d0bee5ad9ae94e9ac",
+  "producer_base_certificates_checked": 630,
+  "producer_TF_certificates_checked": 240,
+  "producer_local_K5_certificates_checked": 56,
+  "producer_checkers_imported": false,
+  "elapsed_seconds": 0.5060229301452637
+}

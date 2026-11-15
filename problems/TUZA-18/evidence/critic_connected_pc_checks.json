@@ -1,0 +1,25 @@
+{
+  "all_coloring_failure_bound": "< exp(-7N/12) < 1/4",
+  "balanced_fourset_inequality_cases": 8340,
+  "exact_minimum_retained_rim_cost_counts": {
+    "2": 48,
+    "3": 72,
+    "4": 8
+  },
+  "explicit_random_parameter_N": 1099511627776,
+  "finished_utc": "2026-11-14T18:30:33.050430+00:00",
+  "input_sha256": "aa6793e8674c1c01e447f966de04c34768e97d8d63659688eb17743608c1e63c",
+  "limitations": [
+    "No large random hypergraph or graph is sampled or stored.",
+    "The unbounded theorem is established by the separately reconstructed ordinary proof.",
+    "Local tests are lower-bound checks on old block edges, not complete global cover enumeration."
+  ],
+  "local_apex_face_cut_cases": 128,
+  "mu_greater_than_10N": true,
+  "mu_over_N_lower_bound": "64/3",
+  "script_sha256": "b58902435d8741fb4dfd5e8218b0fe9bab3a89158c3773961004cf89b94a6e49",
+  "short_cycle_failure_bound": "1025/1048576",
+  "simultaneous_good_outcome_probability_lower_bound": "> 1/2",
+  "started_utc": "2026-11-14T18:30:33.048803+00:00",
+  "status": "PASS"
+}

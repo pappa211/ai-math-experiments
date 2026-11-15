@@ -1,0 +1,35 @@
+{
+  "recorded_utc": "2026-11-15T04:06:54.230563+00:00",
+  "host": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "mission_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "serving_metadata": "Exact serving model and effort not exposed; no serving assertion made.",
+  "result": "TF plus two-edge packing resilience does not force every triangle edge to have codegree at least three.",
+  "witness_counts": {
+    "vertices": 72,
+    "edges": 216,
+    "triangles": 240,
+    "nu": 49,
+    "tau": 86,
+    "pi": 86,
+    "codegree_two_edges": 5
+  },
+  "preserved_failed_candidate": "Direct K2 join Petersen is two-edge resilient and edge-cover-critical but fails TF: tau with apex edge12, without13. Initial speculation that these costs tied was disproved by the exact check and the independent4-star cover. It is used only as the resilient base.",
+  "proof_dependencies": [
+    "Explicit local K5 facts and general induced-core lifting proof in this note",
+    "Root ordinary TF proof for K2 join C5, reconstructed here",
+    "Complete literal two-edge deletion certificate for K2 join Petersen"
+  ],
+  "verification": "Producer ordinary proof and exact finite certificate; fresh independent review requested, not yet claimed. No Lean or human review.",
+  "execution": "All fixed-gadget computation local Darwin, pinned Python standard library; no broad graph census, remote execution or publication.",
+  "hashes": {
+    "notes/codegree_two_tf_resilience_counterexample.md": "ae0bd41560dae51e58f5197a46eb5cd62e7859f10fb7aeb2f488178c052da1a4",
+    "checks/codegree_two_petersen_join.py": "4ab93113ed565ef3510082d5148638b4c4d61d7a702b00f4a3b5e6281efaab0e",
+    "checks/codegree_two_tf_lift.py": "1896c8e5df4a6d360289a3543daa1d1760d34b2a850e5c6ebe1a824e9086e1ee",
+    "evidence/codegree_two/petersen_join.json": "d517e3fd66923c02b079a66fad6291b66676235bb434a90d4b38375a036d5fb4",
+    "evidence/codegree_two/tf_lift_witness.json": "3dbd56433357c22745b2a96a733685874b94a9ed7c24463e27b88cdadd1def7e"
+  }
+}

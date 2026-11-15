@@ -1,0 +1,5 @@
+# Fresh exact finite checks
+
+The [23 target results](VERIFICATION.json) and linked logs are a complete fresh default run from an isolated copy containing only public candidate files. [Execution-copy adaptations](ADAPTATIONS.json) record hash rebinding, provenance-only exclusions, output redirection and renewed clocks. The archived historical sources were not overwritten. Logs replace any private output prefix by `FINITE_OUTPUT`; both original and public log digests are recorded.
+
+Coverage includes 66 K10/K11 certificates; TUZA-17 finite controls and the single catalogue graph (not catalogue completeness); 41,984 common-vertex cases plus ten targeted cases; the N=3 chain with 729 states, 560 compatible states and distance four; wheel/square-C7 identification controls; role/compression/cover controls; 5,375 WKE rows; CP5; the K_(2,2,2,2) base; nine-/72-vertex and private-pair controls; and all 15 K5 maxima/60 failing CKSU classifications. These are reruns of retained exact implementations, not new independent implementations or all-size proofs. Historical broad censuses and solver-only rainbow results were not rerun.
