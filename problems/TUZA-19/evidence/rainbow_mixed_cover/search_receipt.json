@@ -1,0 +1,43 @@
+{
+  "recorded_utc": "2026-11-15T08:01:42.367389+00:00",
+  "queries": [
+    "rainbow matching vertex color cover Ryser 2 1 partite hypergraph triangle free",
+    "\"rainbow matching\" \"cover\" \"colors\" \"vertices\" conjecture",
+    "\"mixed\" \"cover\" \"rainbow matching\"",
+    "\"(2,1)-partite\" hypergraph matching cover",
+    "\"triangle-free\" \"rainbow matching\" \"two\"",
+    "\"rainbow matching\" \"color class\" \"two edges\" cover",
+    "\"rainbow matching\" \"vertex cover\" theorem",
+    "\"rainbow\" \"mixed cover\"",
+    "\"3-uniform\" \"(2,1)\" transversal matching",
+    "\"bipartite hypergraphs\" \"Tuza\"",
+    "\"rainbow matching\" \"covering number\"",
+    "\"rainbow matching\" \"transversal number\" graph",
+    "\"matching complex\" \"triangle-free\" \"cover\"",
+    "\"line graph\" \"triangle-free\" \"connectivity\" \"matching complex\"",
+    "\"vertex cover\" \"homological connectivity\" graph",
+    "\"bipartite hypergraph\" \"degree\" \"two\" \"cover\"",
+    "\"3-uniform\" \"one part\" \"degree\" \"Ryser\"",
+    "\"rainbow\" \"color class\" \"at most two\" matching",
+    "\"hypergraph\" \"(1,2)-partite\" matching cover",
+    "\"rainbow matching\" \"independence number\" triangle",
+    "\"rainbow matching\" \"vertex covering\"",
+    "\"rainbow matching\" \"n-alpha\"",
+    "\"rainbow matching\" \"vertex cover number\" triangle-free",
+    "\"rainbow matching\" \"2-bounded\"",
+    "\"rainbow matching\" \"two-bounded\"",
+    "\"matching\" \"properly\" \"each color appears at most twice\"",
+    "\"rainbow matching\" \"colour class\" \"size two\"",
+    "rainbow matching Gallai theorem vertex cover colors"
+  ],
+  "scope": "bounded targeted primary-source screen, not exhaustive",
+  "exact_positive_theorem_located": false,
+  "admissible_negative_witness_located": false,
+  "unproved_bridge": "Cover-sensitive matching-complex connectivity for triangle-free graphs",
+  "no_computation_duplication": true,
+  "source_scopes": {
+    "lesaulnier_stocker_wenger_west_2010.pdf": "Theorems1.1/1.2 and short proof",
+    "wang_2011.pdf": "triangle-free result statement and primary text screen",
+    "haxell_narins_szabo_ryser_2018.pdf": "Theorem2.2; Section3 Proposition3.2 and proof visually checked; CP theorem scope and concluding discussion inspected"
+  }
+}

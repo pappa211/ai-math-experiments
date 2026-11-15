@@ -1,0 +1,66 @@
+{
+  "started_utc": "2026-11-15T05:47:38Z",
+  "retrieval_completed_utc": "2026-11-15T05:50:33.848395+00:00",
+  "host": "Darwin",
+  "input_note_sha256": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99",
+  "sources": [
+    {
+      "file": "puleo_1308.2211v3.pdf",
+      "requested_url": "https://arxiv.org/pdf/1308.2211v3",
+      "resolved_url": "https://arxiv.org/pdf/1308.2211v3",
+      "bytes": 313471,
+      "sha256": "822c158830f76c61edbb3a32e308b113059318718129c6ee8380b3e91fb3d241",
+      "retrieved_utc": "2026-11-15T05:50:32.213991+00:00",
+      "reading_scope": "Section4 definitions and sufficient conditions, printed pages9\u201314; reduction definition and lemmas; no whole-paper proof audit.",
+      "pages": 26
+    },
+    {
+      "file": "tsujimura_2611.11128v2.pdf",
+      "requested_url": "https://arxiv.org/pdf/2611.11128v2",
+      "resolved_url": "https://arxiv.org/pdf/2611.11128v2",
+      "bytes": 209481,
+      "sha256": "2ea5b6166a5d61b20624c34823ad5d40a96f618448431a6fafd5b6f5fd98bb7d",
+      "retrieved_utc": "2026-11-15T05:50:32.591759+00:00",
+      "reading_scope": "Theorem1.2 and classD, Lemma4.1 and localization proof, AppendixC, AppendixE; no supplement replay or density-proof audit.",
+      "pages": 21,
+      "rendered_pages": [
+        4,
+        9,
+        10,
+        11,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "file": "tsujimura_2611.11128v2.html",
+      "requested_url": "https://arxiv.org/html/2611.11128v2",
+      "resolved_url": "https://arxiv.org/html/2611.11128v2",
+      "bytes": 406832,
+      "sha256": "34cf130e4ebb291d6b5d60baf355ef3173d80d2eada3c27e4bfb3739f6d5a5e1",
+      "retrieved_utc": "2026-11-15T05:50:33.405483+00:00",
+      "reading_scope": "Same targeted passages as PDF; references."
+    },
+    {
+      "file": "kandasamy_2610.15269v1.html",
+      "requested_url": "https://arxiv.org/html/2610.15269v1",
+      "resolved_url": "https://arxiv.org/html/2610.15269v1",
+      "bytes": 1112259,
+      "sha256": "2c423ab18a4fa7a609311aa5af8df8d6a4535a709c1404a576d2011c5892edc2",
+      "retrieved_utc": "2026-11-15T05:50:33.662365+00:00",
+      "reading_scope": "WKE definition, Lemmas2.3 and3.1, scope of subcubic order<=10 classification, references; no proof or supplement replay."
+    },
+    {
+      "file": "gupta_2608.06538v1.html",
+      "requested_url": "https://arxiv.org/html/2608.06538v1",
+      "resolved_url": "https://arxiv.org/html/2608.06538v1",
+      "bytes": 564639,
+      "sha256": "d810d84c6bb6e4d5beb3995d5e3dfa73276337ed38b9128fe84dc5fda5f74fc3",
+      "retrieved_utc": "2026-11-15T05:50:33.847446+00:00",
+      "reading_scope": "WKE definition and7vertex nonWKE classification Lemma4.5, Corollary4.7; no whole-paper audit. Leveled scope distinct from unrestricted branch count."
+    }
+  ],
+  "scope": "Focused prior-art comparison only; primary texts inspected; no exhaustive literature search or novelty certification."
+}

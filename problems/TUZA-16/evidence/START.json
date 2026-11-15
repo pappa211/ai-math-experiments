@@ -1,0 +1,9 @@
+{
+  "original_start_utc": "2026-11-03T23:12:08Z",
+  "deadline_utc": "2026-11-04T01:12:08Z",
+  "host_system": "Darwin",
+  "host_release": "27.2.0",
+  "machine": "arm64",
+  "requested_configuration": "Astra / Ultra (not serving-model attestation)",
+  "initial_sysctl": "sandbox denied; Darwin arm64 confirmed"
+}

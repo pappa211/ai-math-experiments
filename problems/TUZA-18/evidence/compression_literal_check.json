@@ -1,0 +1,116 @@
+{
+  "C7_representatives": [
+    {
+      "donor": 1,
+      "nu": 4,
+      "receiver": 0,
+      "tau": 4
+    },
+    {
+      "donor": 2,
+      "nu": 3,
+      "receiver": 0,
+      "tau": 4
+    },
+    {
+      "donor": 3,
+      "nu": 4,
+      "receiver": 0,
+      "tau": 4
+    }
+  ],
+  "K4_forced_cover_costs": [
+    2,
+    2,
+    2,
+    3,
+    6
+  ],
+  "cone_allowed_moves": 240,
+  "cone_compressions": {
+    "adjacent": {
+      "cover": 25,
+      "defect_upper": -9,
+      "edges": 64,
+      "packing": 17,
+      "triangles": 83,
+      "vertices": 17
+    },
+    "nonadjacent": {
+      "cover": 24,
+      "defect_upper": -12,
+      "edges": 64,
+      "packing": 18,
+      "triangles": 84,
+      "vertices": 17
+    }
+  },
+  "cone_nu_exact": 16,
+  "cone_original": {
+    "cover": 24,
+    "defect_upper": -8,
+    "edges": 64,
+    "packing": 16,
+    "triangles": 80,
+    "vertices": 17
+  },
+  "cone_tau_exact": 24,
+  "cone_triangle_components": 1,
+  "finished_utc": "2026-11-14T20:24:02.317290+00:00",
+  "input_sha256": {
+    "tuza18_compression_input_late_compression_cone_verified.json": "b93d74b0962393b2574ebe6fc2cacda12f93500ae1e0ab80160a450eb4e619a9",
+    "tuza18_compression_input_late_compression_gate.md": "a0bb2de7f235f7a7329de8f3605285221c6c33e6dc3646643d301c8298749aea",
+    "tuza18_compression_input_late_compression_rook_verified.json": "e9bc1a5c337ddcd0cf469e9c0d418354a220c104c3c946be729d73d09ae856e3",
+    "tuza18_compression_input_late_compression_source.json": "6a1d84a188dac53821b199ee443ad29cbb0540fb8dededa3d7adae5920d90071",
+    "tuza18_compression_input_late_compression_verified.json": "a69b30f5292a8ee4cde382ede0548259b5b5564c1baddfaf80d47702721d6796"
+  },
+  "limitations": [
+    "Compressed rook and cone values are feasible bounds, not asserted exact optima.",
+    "Only supplied fixed graphs/orbit certificates are checked; no graph census.",
+    "Original cone exactness combines the finite local-cost audit with the ordinary block-incidence proof.",
+    "Published threshold theorem is a separately verified statement-level dependency, not reproved here."
+  ],
+  "rook_allowed_moves": 240,
+  "rook_compressions": {
+    "adjacent": {
+      "cover": 16,
+      "defect_upper": -6,
+      "edges": 48,
+      "packing": 11,
+      "triangles": 35,
+      "vertices": 16
+    },
+    "nonadjacent": {
+      "cover": 14,
+      "defect_upper": -10,
+      "edges": 48,
+      "packing": 12,
+      "triangles": 36,
+      "vertices": 16
+    }
+  },
+  "rook_orbit_counts": [
+    96,
+    144
+  ],
+  "rook_original": {
+    "cover": 16,
+    "defect_upper": 0,
+    "edges": 48,
+    "packing": 8,
+    "triangles": 32,
+    "vertices": 16
+  },
+  "script_sha256": "840dbe3057e909ba589601e24d6eb1960cbd181812e8cb303ac00db9ae28fffd",
+  "started_utc": "2026-11-14T20:24:02.308383+00:00",
+  "status": "PASS",
+  "two_K4_moves_checked": 8,
+  "two_K4_original": {
+    "cover": 3,
+    "defect_upper": -1,
+    "edges": 11,
+    "packing": 2,
+    "triangles": 8,
+    "vertices": 6
+  }
+}

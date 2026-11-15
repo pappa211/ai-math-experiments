@@ -1,0 +1,115 @@
+{
+  "status": "FROZEN_READY_FOR_CANONICAL_TRANSFER",
+  "created_utc": "2026-11-14T19:49:00.946366+00:00",
+  "mathematical_stop_utc": "2026-11-14T21:00:10Z",
+  "manifest_target_relative_path": "evidence/addendum_transfer_manifest.json",
+  "scope": "Independent continuation review of exact VI and VI-star failures, fixed support-cover gluing obstructions, and ordinary Hall equivalence; no broad corpus replay or unrestricted result.",
+  "unchanged_prior_packages": {
+    "original_files": 22,
+    "PK_files": 37
+  },
+  "files": [
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_coordinator_identification_gate.md",
+      "target_relative_path": "review/addendum_inputs/coordinator_identification_gate.md",
+      "bytes": 2957,
+      "sha256": "6eb4dd15e125746a59aeeb82898cae6599218a7b93409a93799810bdf77000b2"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_criticality_identification_star_repair.json",
+      "target_relative_path": "review/addendum_inputs/criticality_identification_star_repair.json",
+      "bytes": 37050,
+      "sha256": "1408615e95d3074d410fdf4860bb9fa9bc53d241792851bc9acd7419687167db"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_criticality_identification_star_repair.md",
+      "target_relative_path": "review/addendum_inputs/criticality_identification_star_repair.md",
+      "bytes": 4946,
+      "sha256": "4f76236b347df677bb4e052ac3fdcff027eabbdff897dc99e6c06aec51523a85"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_criticality_identification_wheel.json",
+      "target_relative_path": "review/addendum_inputs/criticality_identification_wheel.json",
+      "bytes": 19430,
+      "sha256": "1352469f9bd007d4ff3b9449cf5aef5d21f58e37cfd12338fd89ec23388cb3f5"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_criticality_identification_wheel.md",
+      "target_relative_path": "review/addendum_inputs/criticality_identification_wheel.md",
+      "bytes": 4689,
+      "sha256": "0e63f06780c7d71425f54295241c4ce8cf9181ff2ccd108bfaf8cfe61f24175c"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_identification_gate.json",
+      "target_relative_path": "review/addendum_inputs/identification_gate.json",
+      "bytes": 22187,
+      "sha256": "a993497c237e524c240d2a22112ba4b1109306f753aa45a079eaa0600a9e248b"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_identification_star_repair.json",
+      "target_relative_path": "review/addendum_inputs/identification_star_repair.json",
+      "bytes": 7481780,
+      "sha256": "2088fb8f73ce0d60bd1f2bb7b39e4daa563bd168d19c5f9dc1808fb2ea4bdded"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_late_star_global_gluing.json",
+      "target_relative_path": "review/addendum_inputs/late_star_global_gluing.json",
+      "bytes": 430,
+      "sha256": "6af82b450079a058f7375ee45cb91db720e748064abfded21d3bead163b24d45"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_late_star_gluing.json",
+      "target_relative_path": "review/addendum_inputs/late_star_gluing.json",
+      "bytes": 7984,
+      "sha256": "063019af5cfb0dcd2b9994c0adb6fb2535f0c1ccad76838c77a0ef588c888127"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_late_star_gluing_gate.md",
+      "target_relative_path": "review/addendum_inputs/late_star_gluing_gate.md",
+      "bytes": 5376,
+      "sha256": "6d6b772a0e415b80529029f7b0b4c99ec5b9cef93e662f79cad13c9fa16191c0"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_late_star_gluing_obstruction.md",
+      "target_relative_path": "review/addendum_inputs/late_star_gluing_obstruction.md",
+      "bytes": 6339,
+      "sha256": "6ded16c3c61ef3029e86d7c9399bac6e3090ff80e204fd50023ce0f8fc6fee0b"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_late_star_gluing_obstruction_v1.md",
+      "target_relative_path": "review/addendum_inputs/late_star_gluing_obstruction_v1.md",
+      "bytes": 6176,
+      "sha256": "800086b46b9119f84eeeaaadaaeb182fba16154c7fc20db0094693ff401764a0"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_late_star_literal_verified.json",
+      "target_relative_path": "review/addendum_inputs/late_star_literal_verified.json",
+      "bytes": 5440,
+      "sha256": "932dd4dcf96819c89094c91302218a3d3a7154254f063b8457b7b0e8539c90a0"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_input_late_star_review_revision.json",
+      "target_relative_path": "review/addendum_inputs/late_star_review_revision.json",
+      "bytes": 303,
+      "sha256": "5ff171be2bf7710fc036ff386abf8e418c4606e3100da9075df4263971758d2c"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_literal_check.json",
+      "target_relative_path": "evidence/addendum_literal_check.json",
+      "bytes": 83603,
+      "sha256": "1327f0ed348180b4cc3c8dcb0d5981e8351dede64df9fc00c6ca40784f25fdb8"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_literal_check.py",
+      "target_relative_path": "checks/addendum_literal_check.py",
+      "bytes": 7484,
+      "sha256": "08ed98d3105aa96c42ce96ebbef18a59f821bedc7c95e547f583ed860a6b2825"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_addendum_review.md",
+      "target_relative_path": "review/addendum_review.md",
+      "bytes": 16471,
+      "sha256": "41644481b1ebda8975162ca1448f71793d0c3370e788a5a76feaec789d3797c3"
+    }
+  ]
+}

@@ -1,0 +1,3310 @@
+{
+  "actual_triangles": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      0,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      2,
+      4
+    ],
+    [
+      1,
+      3,
+      4
+    ],
+    [
+      2,
+      3,
+      4
+    ]
+  ],
+  "doubly_attached": [
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      1,
+      4
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      4
+    ]
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "finished_utc": "2026-11-15T02:30:29.054436+00:00",
+  "host": "macOS-27.2.1-arm64-arm-64bit",
+  "label_map": {
+    "0": "v",
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d"
+  },
+  "lemma18": {
+    "definition17_singleton_private_hypothesis_satisfied": false,
+    "lend_arcs": [],
+    "source_numbering": "Lemma18, not Proposition18",
+    "verdict": "K5 does not refute Lemma18; lend relation empty."
+  },
+  "maximum_packing_number": 2,
+  "maximum_packing_upper_proof": "Three edge-disjoint triangles would leave one edge from K5; deleting triangle unions preserves even degrees, but a single edge has two odd endpoints.",
+  "maximum_packings": [
+    [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        2,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        4
+      ]
+    ]
+  ],
+  "packing": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      3,
+      4
+    ]
+  ],
+  "packing_support": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "primary_pdf_sha256": "1ec683cf6d609daf53ee967d9f53a93a87c17286ae20a46191070c7ca5688897",
+  "private_pages": [
+    {
+      "bases": [
+        [
+          1,
+          2
+        ]
+      ],
+      "packed": [
+        0,
+        1,
+        2
+      ],
+      "pages": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "bases": [
+        [
+          3,
+          4
+        ]
+      ],
+      "packed": [
+        0,
+        3,
+        4
+      ],
+      "pages": [
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    }
+  ],
+  "proposition13_all_K5_failures": [
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            3,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            1,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            4
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "base_edges": [
+        [
+          [
+            0,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "conclusions_1_2_3": [
+        false,
+        false,
+        false
+      ],
+      "packing": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "private_counts": [
+        2,
+        2
+      ],
+      "residual": [
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "script_sha256": "e3c68df4f482423fb536411ef5b83e39b97b0916bb01520d8c84da4e169482a8",
+  "section3_printed_charging": {
+    "edge_weights": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          4
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "total": [
+      10,
+      3
+    ],
+    "triangle_loads": [
+      {
+        "load": [
+          5,
+          3
+        ],
+        "triangle": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "load": [
+          2,
+          3
+        ],
+        "triangle": [
+          0,
+          1,
+          3
+        ]
+      },
+      {
+        "load": [
+          2,
+          3
+        ],
+        "triangle": [
+          0,
+          1,
+          4
+        ]
+      },
+      {
+        "load": [
+          2,
+          3
+        ],
+        "triangle": [
+          0,
+          2,
+          3
+        ]
+      },
+      {
+        "load": [
+          2,
+          3
+        ],
+        "triangle": [
+          0,
+          2,
+          4
+        ]
+      },
+      {
+        "load": [
+          5,
+          3
+        ],
+        "triangle": [
+          0,
+          3,
+          4
+        ]
+      },
+      {
+        "load": [
+          1,
+          1
+        ],
+        "triangle": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "load": [
+          1,
+          1
+        ],
+        "triangle": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "load": [
+          1,
+          1
+        ],
+        "triangle": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "load": [
+          1,
+          1
+        ],
+        "triangle": [
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "uncovered": [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        4
+      ]
+    ]
+  },
+  "specified_residual": [
+    0,
+    1,
+    3
+  ],
+  "started_utc": "2026-11-15T02:30:29.053276+00:00",
+  "status": "PASS_SCOPED_COUNTEREXAMPLE",
+  "swap_table": [
+    {
+      "first_intersection_residual": [
+        [
+          1,
+          3
+        ]
+      ],
+      "is_three_packing": false,
+      "mutual_intersection": [
+        [
+          1,
+          3
+        ]
+      ],
+      "private_first": [
+        1,
+        2,
+        3
+      ],
+      "private_second": [
+        1,
+        3,
+        4
+      ],
+      "second_intersection_residual": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "first_intersection_residual": [
+        [
+          1,
+          3
+        ]
+      ],
+      "is_three_packing": false,
+      "mutual_intersection": [
+        [
+          2,
+          3
+        ]
+      ],
+      "private_first": [
+        1,
+        2,
+        3
+      ],
+      "private_second": [
+        2,
+        3,
+        4
+      ],
+      "second_intersection_residual": []
+    },
+    {
+      "first_intersection_residual": [],
+      "is_three_packing": false,
+      "mutual_intersection": [
+        [
+          1,
+          4
+        ]
+      ],
+      "private_first": [
+        1,
+        2,
+        4
+      ],
+      "private_second": [
+        1,
+        3,
+        4
+      ],
+      "second_intersection_residual": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "first_intersection_residual": [],
+      "is_three_packing": false,
+      "mutual_intersection": [
+        [
+          2,
+          4
+        ]
+      ],
+      "private_first": [
+        1,
+        2,
+        4
+      ],
+      "private_second": [
+        2,
+        3,
+        4
+      ],
+      "second_intersection_residual": []
+    }
+  ],
+  "theorem_scope": {
+    "K5_tau": 4,
+    "claim": "No refutation of the main existential multicover theorem. Printed Proposition13 and Section3 procedure fail on this literal input.",
+    "ordinary_cover": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "valid_third_integral_cover": "Assign 1/3 to every K5 edge; total10/3<=4."
+  }
+}

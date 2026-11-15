@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-15T07:12:30.630507+00:00",
+  "host": "Darwin",
+  "original_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_effort": "Ultra",
+  "actual_model": "not exposed",
+  "actual_effort": "not exposed",
+  "verdict": "PASS ordinary fresh AI reconstruction; no material mathematical objection",
+  "scope": "Minimal seed WKE-component exclusion, exact inherited links, K11 parameters and literal packing, all triangles, TF compatibility, all three link types, positive-defect budget. No Lean, census, novelty claim, or resilience preservation.",
+  "excluded_inputs": [
+    "producer checker",
+    "producer search output",
+    "prior favorable review of addendum"
+  ],
+  "sha256": {
+    "notes/global_routes_universal_tf_nonwke_addendum.md": "58dbcfc87ef9683801a666f8e159fd367e01376aa7c7bb79d1bf2296c3b020b4",
+    "notes/global_routes_universal_clique_reduction.md": "83d9549aae898656b2d09871c5f87c481d6b36116f7ac37d23f534df92f527a1",
+    "notes/global_routes_k11_control.md": "d0188d752680979e7e44e36002dd8af38a3083b2c6b7b1d020386bea0500df1b",
+    "review/universal_tf_nonwke_fresh_audit.md": "d427787c3d4da1f56fbdd025b1baa31c3db18037f32298c35cd9f143f515c881",
+    "review/universal_tf_nonwke_fresh_local.py": "c77c253c92cb7c6ae378ad94715e7a26b49e6ebdcb5c8391820b91f959b37057",
+    "evidence/universal_tf_nonwke_fresh/k11_literal.json": "26cb63d2b2e4bbe18ff14998f7ed842535a0128de22e1490c11f77c9fe4e6daf",
+    "operations/clock.json": "db8baaaf29708e4be97741aa4ce9df1216c63c4895ab50bbdda5c9eeca715781"
+  }
+}

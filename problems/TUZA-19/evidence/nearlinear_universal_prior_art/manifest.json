@@ -1,0 +1,13 @@
+{
+  "status": "No exact prior statement located; originality unresolved",
+  "scope": "Bounded primary attribution-only screen; not a fresh mathematical audit",
+  "files": {
+    "review/nearlinear_universal_prior_art_screen.md": "b95c02538b930c420eafab48d77456522206038df641186cde56ad55cb6473d6",
+    "notes/root_batched_universal_tf_nonwke.md": "d4ff2e5f0539b43fedc54fab7eef87a01717b43103577e5862b7739a63101913",
+    "notes/root_subexponential_normalization_corollary.md": "77da1f5cce4720e4a34b7e1d72c27d2ef4304a5f089129ed87bb611de9887c64",
+    "sources/efr_power_saving/liu_zeng_2610.15539v1.pdf": "25ac91f2ab3da459c409bff335dbd106081e08063df6e032411b6c81a34ac34f",
+    "sources/efr_power_saving/yuster_1009.0353v1.pdf": "22859aa8ee69cc5a2a51da1ec2dcbfd66c5752f5f428ce05ca9d9c8b4ffa02be",
+    "sources/efr_power_saving/baron_kahn_1408.4870v2.pdf": "9cb0bf2c1fda35dd2cfa87a807305efeb08034cf7a95c33525a18a1dbcc68c02",
+    "evidence/nearlinear_universal_prior_art/search_receipt.json": "4e9f3bb71108eeeb4c3a3f35685acceba220f22ad201c4eeb2e3007db63e6a5e"
+  }
+}

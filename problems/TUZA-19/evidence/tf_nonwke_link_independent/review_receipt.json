@@ -1,0 +1,9 @@
+{
+  "completed_utc": "2026-11-15T06:09:41.322531+00:00",
+  "review": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/review/tf_nonwke_link_independent_audit.md",
+  "review_sha256": "a69d79275cd6a52250f4099fcec1791eb69ce15175282a29f5b81b972dcf8139",
+  "reviewed_statement_sha256": "02aa09e9ca43458282deff55073580510dcb2204ac3db57e8a88ad2d933f04ce",
+  "script_sha256": "3b5065d6affd1b0c73ca7863e579e4ee5fd404a10f7c8bbe64b3b9ef6895ac17",
+  "literal_receipt_sha256": "9ad46819b120cb430aeab65d6d4eb4d1a5c1b4c95c05b56a7f41076f46a3564f",
+  "verdict": "PASS ordinary existence reconstruction and independent local/interface control; no literal large counterexample or formal verification."
+}

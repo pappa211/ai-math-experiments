@@ -1,0 +1,11 @@
+{
+  "status": "UNSAT",
+  "seconds": 0.07674825000867713,
+  "returncode": 20,
+  "variables": 5472,
+  "clauses": 31025,
+  "cnf_sha256": "590aaeb4b0a22f7a0c16d7e79fb82aa368b4378c29857b96e93e0ae0e02e8fc2",
+  "n": 9,
+  "colors": 9,
+  "scope": "Exact proved nu_r=2 minimal-counterexample kernel; UNSAT solver-only, no independent proof trace."
+}

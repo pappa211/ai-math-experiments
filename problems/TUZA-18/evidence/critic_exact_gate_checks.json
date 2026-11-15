@@ -1,0 +1,133 @@
+{
+  "cone_formula": [
+    {
+      "n": 0,
+      "packing_cut_cases": 1,
+      "perfect_matchings": 1,
+      "triangle_free_rims_with_perfect_matching": 1
+    },
+    {
+      "n": 2,
+      "packing_cut_cases": 4,
+      "perfect_matchings": 1,
+      "triangle_free_rims_with_perfect_matching": 1
+    },
+    {
+      "n": 4,
+      "packing_cut_cases": 336,
+      "perfect_matchings": 21,
+      "triangle_free_rims_with_perfect_matching": 18
+    },
+    {
+      "n": 6,
+      "packing_cut_cases": 271680,
+      "perfect_matchings": 4245,
+      "triangle_free_rims_with_perfect_matching": 2740
+    }
+  ],
+  "elapsed_seconds": 1.8742540000021108,
+  "finished_utc": "2026-11-14T17:47:54.506535+00:00",
+  "forest_realization": {
+    "additional_81_hypervertex_forests": 2,
+    "by_order": [
+      {
+        "candidates": 1,
+        "forests": 1,
+        "n": 0
+      },
+      {
+        "candidates": 1,
+        "forests": 1,
+        "n": 1
+      },
+      {
+        "candidates": 1,
+        "forests": 1,
+        "n": 2
+      },
+      {
+        "candidates": 2,
+        "forests": 2,
+        "n": 3
+      },
+      {
+        "candidates": 5,
+        "forests": 5,
+        "n": 4
+      },
+      {
+        "candidates": 56,
+        "forests": 26,
+        "n": 5
+      },
+      {
+        "candidates": 211,
+        "forests": 121,
+        "n": 6
+      },
+      {
+        "candidates": 7176,
+        "forests": 1156,
+        "n": 7
+      }
+    ]
+  },
+  "graph_inequality_and_cover": [
+    {
+      "graphs": 1,
+      "maximum_packing_cut_cover_cases": 1,
+      "n": 0
+    },
+    {
+      "graphs": 1,
+      "maximum_packing_cut_cover_cases": 1,
+      "n": 1
+    },
+    {
+      "graphs": 2,
+      "maximum_packing_cut_cover_cases": 4,
+      "n": 2
+    },
+    {
+      "graphs": 8,
+      "maximum_packing_cut_cover_cases": 32,
+      "n": 3
+    },
+    {
+      "graphs": 64,
+      "maximum_packing_cut_cover_cases": 584,
+      "n": 4
+    },
+    {
+      "graphs": 1024,
+      "maximum_packing_cut_cover_cases": 22528,
+      "n": 5
+    },
+    {
+      "graphs": 32768,
+      "maximum_packing_cut_cover_cases": 0,
+      "n": 6
+    }
+  ],
+  "input_sha256": {
+    "notes/global_cut_gate.md": "83893dd6658e738ef91fb60ac2b5ed733160ec1a74b13732df40e72734b7486c",
+    "notes/global_finite_incidence_gate.md": "7ec106efb669f729e89d312b174be339474db93b1292945f56e01fec55ab8ac6"
+  },
+  "limitations": [
+    "Finite tests do not prove the unbounded existence statements.",
+    "No explicit large-ratio rim graph is produced.",
+    "No Lean verification or external human peer review."
+  ],
+  "model_request": "gpt-6-astra / ultra; runtime model identity not independently inspected",
+  "noninduced_embedding_warning": {
+    "actual_triangles": 4,
+    "designated_faces": 3,
+    "pairs": 6
+  },
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "script_sha256": "34fafa1a06d41d1a1f1935eb74aeb66c9a136ef348302b9a3d05bbb899ca0d83",
+  "started_utc": "2026-11-14T17:47:52.632289+00:00",
+  "status": "PASS",
+  "stop_utc": "2026-11-14T21:00:10+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "mission": "TUZA-19",
+  "start_utc": "2026-11-15T01:53:58+00:00",
+  "research_cutoff_utc": "2026-11-15T09:23:58+00:00",
+  "hard_deadline_utc": "2026-11-15T09:53:58+00:00",
+  "first_clock_read": "2026-11-15T01:53:58Z",
+  "pre_clock_actions": [
+    "Commentary announcing read",
+    "pwd and rg listing AGENTS.md in initial workspace",
+    "Read full pasted mission file"
+  ],
+  "host": "Darwin",
+  "canonical_root": "LOCAL_ENVIRONMENT",
+  "workspace": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "exposed_parent_metadata": "Developer identifies agent as Codex based on GPT-6; exact serving model and effort not exposed.",
+  "agent_controls": "collaboration.spawn_agent exposes gpt-6-astra and ultra; requested for research/review agents",
+  "status": "active"
+}

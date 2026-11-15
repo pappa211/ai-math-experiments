@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "-B",
+    "checks/controls.py"
+  ],
+  "pid": 54053,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.20868170900212135,
+  "peak_sampled_RSS_bytes": 1556480,
+  "wall_limit_seconds": 60.0,
+  "RSS_limit_MiB": 512.0,
+  "status": "PASS"
+}

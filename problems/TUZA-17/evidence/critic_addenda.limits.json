@@ -1,0 +1,14 @@
+{
+  "command": [
+    "LOCAL_ENVIRONMENT",
+    "checks/critic_addenda.py"
+  ],
+  "pid": 53151,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.20834666599694174,
+  "peak_sampled_RSS_bytes": 2162688,
+  "wall_limit_seconds": 60.0,
+  "RSS_limit_MiB": 512.0,
+  "status": "PASS"
+}

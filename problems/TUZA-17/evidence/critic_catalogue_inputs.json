@@ -1,0 +1,18 @@
+{
+  "checked_utc": "2026-11-04T01:48:14.621262+00:00",
+  "status": "PASS",
+  "earlier_frozen_critic_notes_unchanged": true,
+  "catalogue_completeness": "DECLARED_EXTERNAL_INPUT_NOT_RECOMPUTED",
+  "sha256": {
+    "notes/CRITIC_CATALOGUE_SCOPE.md": "01898aa6ebb8cc944dbc2e2758dd3398ebaf5e84c0f3d0e1341424428f6433df",
+    "checks/critic_catalogue.py": "6e6809e0f6ed22a8d28188a1efbfec011d55797ad34a9ddca0ae458150a3d33e",
+    "evidence/critic_catalogue.json": "c66cebaa25d98e64e46025f164f662e8989cc3bf522189b6c8523251c12ee666",
+    "evidence/critic_catalogue.limits.json": "19529fcadc1c93b8372bb933aacc357c577f5fd50557211619ef8b2878d6e42d",
+    "sources/literature/mckay_ramsey_20261104.html": "a7d8ac686583ee395f7104d6adf5aea6b994568ab2471c4728011159ad643bf3",
+    "sources/literature/r35_13.g6": "eb4d3f787f07ed14c0a82a83bee170ed096c24b6a7e971fded185ca1a760798f",
+    "notes/CRITIC_BUDGET_SIX.md": "92b65b507842297cf4855d63110b7ba10439caa3361185bec523f7d7d3e1ffb1",
+    "notes/CRITIC_TIGHT_FRONTIER.md": "18e87425d4e768b1d592d550c39b284d191017503368931ba7bde7536a24025a",
+    "notes/CRITIC_ORIGINAL.md": "4c98d4569101a20bd59d89666faf15b4554a693645f6798f50ac98fd3c523d36",
+    "notes/CRITIC_LATE.md": "7acc8d5108b6e8af56922c2c90f9eab7246a6886ebd7628d76a9820d990ee4d2"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "authorship": "fresh no-history internal AI critic; no producer imports",
+  "requested_configuration": "Astra / Ultra; serving configuration not exposed",
+  "independent_final_verification": "NOT_RUN",
+  "five_vertex_scope": {
+    "H_count": 1023,
+    "eligible_link_count": 28996,
+    "tight_H_count": 12966,
+    "saturated_link_count": 8234,
+    "b_counts": {
+      "0": 6019,
+      "2": 8080,
+      "1": 7750,
+      "4": 1642,
+      "3": 5190,
+      "5": 300,
+      "6": 15
+    }
+  },
+  "A_new_witnesses": [
+    {
+      "q": 1,
+      "t": 10,
+      "graph_order": 101,
+      "actual_triangle_count": 1500,
+      "minimum_codegree": 1,
+      "max_packing_size": 50,
+      "new_prescriptions_extended": 110,
+      "witnesses_sha256": "1344dc567e1a873f0323147471a5953ec383cf270b4e6af4f20009d3178ed8d8",
+      "status": "PASS"
+    },
+    {
+      "q": 2,
+      "t": 12,
+      "graph_order": 122,
+      "actual_triangle_count": 4320,
+      "minimum_codegree": 2,
+      "max_packing_size": 120,
+      "new_prescriptions_extended": 110,
+      "witnesses_sha256": "0373fb6d9a65159513b0d4675ee7b6cb9a2b23fb53d3ca1ead4a12c3dfa16d70",
+      "status": "PASS"
+    },
+    {
+      "q": 3,
+      "t": 14,
+      "graph_order": 143,
+      "actual_triangle_count": 8820,
+      "minimum_codegree": 3,
+      "max_packing_size": 210,
+      "new_prescriptions_extended": 110,
+      "witnesses_sha256": "63b8961b48bc0e93a57f200b94906f18b2e428d78ecd39180c370ad86760d189",
+      "status": "PASS"
+    }
+  ],
+  "A_large_arithmetic": {
+    "B0_n": 23,
+    "B0_edges": 71,
+    "B_edges": 165,
+    "G_order": 4282,
+    "triangle_count": 5708340,
+    "nu": 8556,
+    "two_nu": 17112,
+    "colour_cost_lower_bound": 17298,
+    "explicit_cover": 16740,
+    "nu_spoke_deleted": 8555,
+    "large_graph_enumerated": false
+  },
+  "elapsed_seconds": 1.4986438330088276,
+  "peak_rss_darwin_bytes": 24707072,
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "time_limit_seconds": 60,
+  "memory_watchdog_MiB": 512
+}

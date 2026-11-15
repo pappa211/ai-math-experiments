@@ -1,0 +1,16 @@
+# Track B initial freeze
+
+2026-11-04. Shared-context scout, independently developed mathematical proposals. Exact AC is frozen as in MISSION.txt: H has a rainbow 3-edge-colouring on every actual triangle, L=H[X] is induced and triangle-free, and G adds one vertex adjacent exactly to X. The assertion is existence of a MINIMUM H triangle-edge cover C with |C|+vc(L-C)<=2nu(G). Any failed arbitrary cover is insufficient. No alteration to the target has been made.
+
+Initial mathematical tasks:
+1. Derive exact cover and packing state identities independently. Covers of G split as C on H and spoke endpoints S subset X; C must cover H triangles and S covers L-C. Packings of G split into apex triangles from a matching M in L and old triangles in H-M (matching EDGES deleted). Conversely both constructions lift. Thus tau(G)=min_C[|C|+vc(L-C)] over ALL H covers and nu(G)=max_M[|M|+nu(H-M)]. These are known inputs, not new results.
+2. Probe overlapping rainbow-colourable K4 structures and old triangle attachments. Their minimum covers can correlate across shared edges while D(H) remains small. Exact bounded enumeration will check EVERY minimum cover through lambda, and reconstruct all actual triangles.
+3. Seek a structural extension of 3-partite triangle-hypergraph cover methods that selects a minimum H cover compatibly; merely invoking Aharoni/Ryser or an optimum G cover does not establish the minimum restriction.
+
+Initial observations (not claims of substantive progress): if H is triangle-free, C=empty and vc(L)<=2matching(L)<=2nu(G), so natural triangle-free cone controls are automatic. For H a literal K4 triangle block, induced triangle-free X meets the K4 in at most two vertices, hence has at most one link edge, and an opposite-edge minimum cover can include it. The disjoint-triangle-edge block extension must account for additional nontriangle edges in L before being stated globally.
+
+Computational plan: standard-library bitset exact packing/cover recurrences and explicit cover witnesses, applied to deliberately small structured H, all triangle-free X. Python312 existing environment has networkx/numpy but no scipy/pulp/ortools/z3. No installation. Heavy searches require coordinator serialization; bounded seed search first. Each graph requires an explicit checked edge colouring, and every claimed failure requires sufficient packing UPPER bound.
+
+## Later structural discriminator (frozen before search)
+
+Exact deliberately strong intermediate candidate SMALL-CORE: every triangle-edge-3-colourable graph J with tau(J)=2nu(J)-1, nu(J-e)=nu(J) for EVERY edge e, and one nonempty shared-edge triangle component has nu(J)<=2. This would make the stable slack-one obstruction a bounded packing core. It is not assumed true, is not AC, and may fail on simple glued examples. Targeted test: start with W5, K5-e, or two edge-sharing K4s; attach a new K4 at one shared vertex and add crossedges while retaining an explicit proper4colouring. Test all actual triangles, exact slack, all-edge stability, and triangle connectivity. A connected example with nu>=3 refutes SMALL-CORE at exactly this independently checkable scope. Passing the bounded family proves nothing global. This test is not a revision of AC.

@@ -1,5 +1,7 @@
 # Research archive reproduction
 
+Current edition: [TUZA-16–19 quick checks, finite Lean replay and report build](#tuza-16-19). Earlier sections below retain their dated publication scope. Current root inventories cover the full current tree and this release overlay; prior root inventories are preserved at [d4029fb](verification/tuza-16-19/release-at-d4029fb/README.md) and earlier editions.
+
 <a id="tuza-1115-ordinary-proofs-and-exact-finite-checks"></a>
 
 ## TUZA-11-15 ordinary proofs and exact finite checks
@@ -161,3 +163,38 @@ without claiming a new Lean run. The paper builder checks every local link targe
 and uses stable public GitHub URLs in the PDF; Markdown keeps its relative links.
 The root inventory identifies the current publication artifacts. Mathematical
 sources, theorem types, ordinary proofs and the exact source mapping are unchanged.
+
+## TUZA-16-19
+
+### Quick exact checks
+
+Python 3.10+ standard library, assertions enabled:
+
+```sh
+python3 tools/check_tuza_16_19.py --output ../tuza-finite-output
+python3 tools/check_tuza_16_19.py --only star,chain --output ../tuza-star-chain-output
+```
+
+Outputs must be new and outside the checkout. Available selections: `tuza16`, `tuza17`, `star`, `chain`, `tuza18`, `wke`, `cp5`, `odd-base`, `controls`, `cksu`. The default runs all 23 targets serially, with 240 seconds per target. Copies, logs and ADAPTATIONS.json live under the output. No private files or copyrighted article PDFs are prerequisites. All result assertions remain enabled.
+
+### Formal finite checks
+
+The tested publication replay is on Darwin using existing Lean 4.33.1/compiler 819816b2e0a3bf405af45ae5c7af2491d8f5bee6. RoleWitness needs the nine pinned packages in `problems/TUZA-18/evidence/lean_lake_manifest.json`, including Mathlib 0df444a360eaa60ab8c11dca51a86af692955474, with their existing native compiled dependencies. The WKE bundle itself imports only Std/core. Set the explicit path to your existing packages; no hidden research checkout is used:
+
+```sh
+python3 tools/replay_tuza_16_19_formal.py --repo . --output ../tuza-formal-output --mathlib-packages /path/to/pinned/packages
+```
+
+`--lean` accepts the installed compiler path. No toolchain installation or lake update occurs. The runner checks exact revisions, direct imports, 128 generated-source correspondences and full schedule membership, then compiles accepted modules and literal type/axiom audits serially. It enforces one thread, 240 seconds per command, and sampled aggregate process-tree RSS at 2,200 MiB, killing only the owned process tree on excess. This observed-process ceiling is not an OS allocation guarantee. Three intentionally false controls must fail for the intended false-proposition diagnostic. Historical aggregates are excluded. Fresh logs/objects/receipts are produced outside the checkout; old logs are never read as fresh evidence.
+
+### Report
+
+```sh
+python3 papers/tuza-16-19-research-summary/build.py --output ../tuza-report-build
+```
+
+Requires existing Pandoc 3.13, Tectonic 0.17.0 and cached typesetting assets. See the [build guide](papers/tuza-16-19-research-summary/README.md).
+
+### Historical searches and evidence
+
+The four archive HISTORICAL_REPRODUCTION.md files preserve old domains, deadlines and scripts. They are records, not automatic current entry points. Large historical censuses, expired solver kernels and failed aggregates are not part of the default replay. Solver-only UNSAT remains solver-only; timeouts and cutoff returns remain UNKNOWN. Read [actual receipts and scope](verification/tuza-16-19/README.md) before drawing mathematical conclusions.

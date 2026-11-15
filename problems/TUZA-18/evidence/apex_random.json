@@ -1,0 +1,46 @@
+{
+  "seed": 1814112026,
+  "domain": "three specified random/structured generators order7..12; individual .3s timeout",
+  "completed": 6144,
+  "unknown": 397,
+  "types": {
+    "0": 1817,
+    "1": 2178,
+    "2": 2149
+  },
+  "bad": [],
+  "max_excess": 0,
+  "best": [
+    {
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "row": {
+        "z": 0,
+        "tau_h": 0,
+        "lambda_min": 0,
+        "min_restricted": 0,
+        "tau_g": 0,
+        "nu_g": 0,
+        "S": []
+      }
+    }
+  ],
+  "elapsed": 175.28729701042175,
+  "script_sha256": "1c102cd7dfaacfd74faaa84b50d8d4a1993b513d56fe7efb70818a1af0c912b4"
+}

@@ -1,0 +1,8 @@
+{
+  "completed_utc": "2026-11-15T05:52:43.279980+00:00",
+  "review": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/review/four_branch_wke_prior_art_audit.md",
+  "review_sha256": "e6efe9baae3d3370677d5ee510e371ea5aa6904d05191ac7744a7b0e562c6243",
+  "candidate_sha256": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99",
+  "source_receipt_sha256": "c20d639575975e9949fa3a4614e8f34c1dd89b4095b7c929cac1e90f6fc8d3ae",
+  "conclusion": "Closest inspected primary statement is Tsujimura v2 Lemma4.1 with stricter degree/profile restrictions. No exact unrestricted four-branch or high-codegree5core statement located; historical novelty unresolved."
+}

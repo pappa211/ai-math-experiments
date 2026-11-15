@@ -1,0 +1,77 @@
+{
+  "status": "FROZEN",
+  "created_utc": "2026-11-14T20:19:17.626274+00:00",
+  "files": [
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/late_compression_gate.md",
+      "canonical_relative_path": "notes/late_compression_gate.md",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/notes/late_compression_gate.md",
+      "bytes": 17531,
+      "sha256": "a0bb2de7f235f7a7329de8f3605285221c6c33e6dc3646643d301c8298749aea"
+    },
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/late_compression_verify.py",
+      "canonical_relative_path": "checks/late_compression_verify.py",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/checks/late_compression_verify.py",
+      "bytes": 6372,
+      "sha256": "978632b7ece3f2e36c36c336ae5ce44bdedba3d8be320cba7b5a80a908204521"
+    },
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/late_compression_rook_verify.py",
+      "canonical_relative_path": "checks/late_compression_rook_verify.py",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/checks/late_compression_rook_verify.py",
+      "bytes": 5147,
+      "sha256": "016214044ebb84ea1268c4651f5e69aa66ef7b8497b0c099be114853d50cc6e7"
+    },
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/late_compression_cone_verify.py",
+      "canonical_relative_path": "checks/late_compression_cone_verify.py",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/checks/late_compression_cone_verify.py",
+      "bytes": 5420,
+      "sha256": "4f33a5d2aad99065f7ba634c90e10c62eda7b366fbefec8c005dce14a12e7ea1"
+    },
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/late_compression_verified.json",
+      "canonical_relative_path": "evidence/late_compression_verified.json",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/evidence/late_compression_verified.json",
+      "bytes": 204932,
+      "sha256": "a69b30f5292a8ee4cde382ede0548259b5b5564c1baddfaf80d47702721d6796"
+    },
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/late_compression_rook_verified.json",
+      "canonical_relative_path": "evidence/late_compression_rook_verified.json",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/evidence/late_compression_rook_verified.json",
+      "bytes": 18185,
+      "sha256": "e9bc1a5c337ddcd0cf469e9c0d418354a220c104c3c946be729d73d09ae856e3"
+    },
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/late_compression_cone_verified.json",
+      "canonical_relative_path": "evidence/late_compression_cone_verified.json",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/evidence/late_compression_cone_verified.json",
+      "bytes": 33724,
+      "sha256": "b93d74b0962393b2574ebe6fc2cacda12f93500ae1e0ab80160a450eb4e619a9"
+    },
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/late_compression_source.json",
+      "canonical_relative_path": "evidence/late_compression_source.json",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/evidence/late_compression_source.json",
+      "bytes": 855,
+      "sha256": "6a1d84a188dac53821b199ee443ad29cbb0540fb8dededa3d7adae5920d90071"
+    },
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/bonamy_et_al_threshold_dmtcs.pdf",
+      "canonical_relative_path": "evidence/late_compression_sources/bonamy_et_al_threshold_dmtcs.pdf",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/evidence/late_compression_sources/bonamy_et_al_threshold_dmtcs.pdf",
+      "bytes": 787620,
+      "sha256": "bda9d94f8c6fcbfe3b19fb27ee2729f664f6da2025083c4badf0c559e312ab07"
+    },
+    {
+      "staged_path": "SCRATCH_OUTPUT/tuza18-final-global-compression-20261114T2010Z/late_compression_producer_receipt.json",
+      "canonical_relative_path": "evidence/late_compression_producer_receipt.json",
+      "canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/evidence/late_compression_producer_receipt.json",
+      "bytes": 1687,
+      "sha256": "2777b33a6de46981ebd32d9aa98cc2bb0ab5d874639959f588bb960811eb8e6a"
+    }
+  ],
+  "manifest_canonical_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18/evidence/late_compression_transfer_manifest.json"
+}

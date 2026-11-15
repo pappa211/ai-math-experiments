@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-11-15T05:33:23.654925+00:00",
+  "result": "Explicit TF plus two-edge-resilient graph with tau_half<=85<tau=86; all integer orders k>=2 have normalized multi-transversal cost<=85",
+  "exact_half_optimum_claimed": false,
+  "Tuza_counterexample_claimed": false,
+  "requested_model": "Astra",
+  "requested_reasoning": "Ultra",
+  "actual_serving_controls": "not independently exposed",
+  "original_research_cutoff": "2026-11-15T09:23:58Z",
+  "input_sha256": {
+    "notes/codegree_two_tf_resilience_counterexample.md": "ae0bd41560dae51e58f5197a46eb5cd62e7859f10fb7aeb2f488178c052da1a4",
+    "evidence/codegree_two/petersen_join.json": "d517e3fd66923c02b079a66fad6291b66676235bb434a90d4b38375a036d5fb4",
+    "evidence/codegree_two/tf_lift_witness.json": "3dbd56433357c22745b2a96a733685874b94a9ed7c24463e27b88cdadd1def7e"
+  },
+  "artifact_sha256": {
+    "notes/fresh_halfcover_tf_resilience_counterexample.md": "5e8059ecd1bafd717ff19143c7d1233f4353f3d4b53d3295998675569722363e",
+    "review/halfcover_tf_fresh_checker.py": "30ccf2aca6598fbfe2bc5be628aaf1313032fbf274fcbdd9a2cd3182dc258602",
+    "evidence/halfcover_tf_fresh/cover_certificate.json": "8662604994074d5a5b1231c2eb574a8b2f4bf08e67d6e890bb1c791863d9df38",
+    "evidence/halfcover_tf_fresh/receipt.json": "6a5f7c92c415f5213a6f5336f3d99fc4409f7eca7d756aefcad74f6c7b44e847"
+  }
+}

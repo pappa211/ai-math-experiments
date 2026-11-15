@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "checks/b_core_glue.py"
+  ],
+  "pid": 54082,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 0.20995124999899417,
+  "peak_sampled_RSS_bytes": 32768,
+  "wall_limit_seconds": 20.0,
+  "RSS_limit_MiB": 512.0,
+  "status": "PASS"
+}

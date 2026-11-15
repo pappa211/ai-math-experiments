@@ -1,0 +1,16 @@
+{
+  "status": "READ_ONLY_VERIFIED",
+  "purpose": "Identify an old unresolved mixed-packet bridge during late-route triage; no new source theorem imported into the star proof",
+  "historical_repository": "https://github.com/pappa211/ai-math-experiments/blob/main",
+  "commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+  "object_path": "problems/TUZA-14B/notes/TRACK_A.md",
+  "workspace_snapshot": "sources/published/problems/TUZA-14B/notes/TRACK_A.md",
+  "sha256": "fd49f57fc0c028342f9225b65189f870dcf6166d556178c2de8d8fd10c55d1f0",
+  "read_scope": "lines1-110, including sectionsA1-A5; a prior broad text search of the frozen published snapshot was contextual only",
+  "verification": "Snapshot shasum matched GIT_OPTIONAL_LOCKS=0 git show of the immutable commit object piped to shasum",
+  "other_re_read": {
+    "path": "sources/tuza17/notes/A_CRITICAL_NONSATURATION.md",
+    "sha256": "2de0d6031a5c8a60f028db2eaf5a324c77de2847373dda217ba03c8d4c0cd5ba",
+    "status": "Already included in the original criticality source receipt; no new historical dependency"
+  }
+}

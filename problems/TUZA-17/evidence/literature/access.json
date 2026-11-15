@@ -1,0 +1,17 @@
+{
+  "url": "https://page.mi.fu-berlin.de/szabo/PDF/ryser.pdf",
+  "edition": "Author manuscript dated 18 March 2018",
+  "sha256": "27938a622b0c28d867c2c61500da606ee319a069f39967e5076afcd35ea060f5",
+  "pages_inspected": [
+    1,
+    3,
+    8,
+    9,
+    19,
+    20,
+    21
+  ],
+  "scope": "Statements, home-base definitions and extraction construction; deep proof not independently reverified",
+  "freitas_pdf": "NOT_AVAILABLE: HTTPS connection timeout; primary institutional abstract inspected",
+  "aharoni_original_pdf": "NOT_AVAILABLE: publisher subscription preview; exact theorem and rederivation checked in HNS section3"
+}

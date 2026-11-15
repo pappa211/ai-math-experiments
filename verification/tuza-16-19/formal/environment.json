@@ -1,0 +1,76 @@
+{
+  "compiler_resolution": {
+    "elan_proxy_resolved_without_execution": true,
+    "native_compiler": "NATIVE_LEAN_EXECUTABLE",
+    "native_compiler_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+    "policy": "Installed native layout/header checked before any executable invocation",
+    "requested_executable": "LEAN_EXECUTABLE",
+    "requested_executable_sha256": "d52c4516a6c6f0cc14cab0ecf36e5058a764f39b109d8609be7dd1279ca41e9f"
+  },
+  "created_utc": "2026-11-15T15:05:42.179921+00:00",
+  "dependency_scope": "Existing pinned compiled dependencies reused; no cold rebuild or independent kernel implementation",
+  "direct_imports": {
+    "Powerset": {
+      "object_sha256": "667384a87b942d6084148a18e1e026c9243eb5e8334db6c996161a68b301897e",
+      "source_sha256": "ffe38ab68a55fd3c24524e502afab8dad28588fb899157deae3976f24ff16b27"
+    },
+    "Union": {
+      "object_sha256": "95864107d94dbb329b50f400bfe6c891c6c0e122db03e915fa1b03a684cca92f",
+      "source_sha256": "e2202bb257f2d4de339beca0096c576027027af52ee5976733a214525464735a"
+    }
+  },
+  "lean": "NATIVE_LEAN_EXECUTABLE",
+  "lean_executable_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "packages": {
+    "Cli": {
+      "compiled_library": null,
+      "revision": "6130a47896ce867c6a4a55373441e59e565bad0f",
+      "tracked_status": ""
+    },
+    "LeanSearchClient": {
+      "compiled_library": "PINNED_PACKAGES/LeanSearchClient/.lake/build/lib/lean",
+      "revision": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+      "tracked_status": ""
+    },
+    "Qq": {
+      "compiled_library": "PINNED_PACKAGES/Qq/.lake/build/lib/lean",
+      "revision": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+      "tracked_status": ""
+    },
+    "aesop": {
+      "compiled_library": "PINNED_PACKAGES/aesop/.lake/build/lib/lean",
+      "revision": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+      "tracked_status": ""
+    },
+    "batteries": {
+      "compiled_library": "PINNED_PACKAGES/batteries/.lake/build/lib/lean",
+      "revision": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+      "tracked_status": ""
+    },
+    "importGraph": {
+      "compiled_library": "PINNED_PACKAGES/importGraph/.lake/build/lib/lean",
+      "revision": "16f02aa7642864af59f1ff0e384a015994db9118",
+      "tracked_status": ""
+    },
+    "mathlib": {
+      "compiled_library": "PINNED_PACKAGES/mathlib/.lake/build/lib/lean",
+      "revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "tracked_status": ""
+    },
+    "plausible": {
+      "compiled_library": "PINNED_PACKAGES/plausible/.lake/build/lib/lean",
+      "revision": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+      "tracked_status": ""
+    },
+    "proofwidgets": {
+      "compiled_library": "PINNED_PACKAGES/proofwidgets/.lake/build/lib/lean",
+      "revision": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+      "tracked_status": ""
+    }
+  },
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "runner_sha256": "29da00ba6bf5dbe74176682ea2e5f8b1a2e78cc323ffa8718e8851aa552d750c",
+  "toolchain": "leanprover/lean4:v4.33.1"
+}

@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-15T08:23:45.963706+00:00",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "serving_metadata": "not independently exposed",
+  "files": {
+    "notes/fresh_tf_light_wedge_counterexample.md": "ac39e3812be0a30857b3a1b9d33dcdc2637311f85feb4e50e78d16cf7470aef1",
+    "checks/fresh_tf_light_wedge_inverse.py": "7725b6e4e3d921ea70329f30186e181ebbce856edae87e0d81d493300dc935dd",
+    "checks/fresh_tf_light_wedge_verify.py": "c990f64b1fc99c314b38069d457bb1c28caca89e893e8925bc9ddf44c77fee13",
+    "checks/global_routes_sat.py": "8e0d5d2c15b0bb2c87a7c6e032ba86de619f2b94eb6a730d2809cf3e3e9aa2cb",
+    "evidence/tf_light_wedge_fresh/inverse_n9.json": "fe9b2658e090cf98cfd033b670f4cd5f58d5ec0665e99bfd8a8f781dbf2a7ff0",
+    "evidence/tf_light_wedge_fresh/literal_verification.json": "fee014b6b7b8bf4ed7bb1757af384c6ef28c69efda1f6adaf1cd142edb543362",
+    "evidence/tf_light_wedge_fresh/ordinary_lower_certificate.json": "0d84d01af4b6864333d665f142702855e6c6c0944ebcc48ea07cfd0c329884f5"
+  },
+  "scope": "Actual TF counterexample to at-most-one-light-edge per triangle. Ordinary \u03c4/\u03bd proofs plus independent fixed literal checks. Not two-edge resilient, heavy graph not triangle-free.",
+  "returncodes": {
+    "inverse": 0,
+    "independent_literal": 0,
+    "fractional_certificate": 0
+  }
+}

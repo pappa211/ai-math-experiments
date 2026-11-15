@@ -1,0 +1,9 @@
+{
+  "completed_utc": "2026-11-15T05:33:07.774368+00:00",
+  "review": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/review/cksu_half_prop13_dependency_audit.md",
+  "review_sha256": "af4ac7a2160473a6e91cbf10686cc99e99fac657c2648ede10de28f4f7960e23",
+  "source_receipt_sha256": "73d19fcd6a6a49b436e69b112520a95c5c4d7b4748960840824f8397a7963381",
+  "verdict": "The missing K5 case is excluded from later singleton-dependent applications and permanently covered under displayed credit operations; no whole-theorem verification.",
+  "primary_pdf_sha256": "1ec683cf6d609daf53ee967d9f53a93a87c17286ae20a46191070c7ca5688897",
+  "classification_note_sha256": "a0a8b8a2c8cdf3e0c028661bef9ce51c7586b13ffaed695ea99aa02ffe2c7ab9"
+}

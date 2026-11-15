@@ -1,0 +1,65 @@
+{
+  "utc": "2026-11-15T05:11:47.234167+00:00",
+  "status": "frozen_no_global_transfer_independent_review_pending",
+  "pass_start_utc": "2026-11-15T04:56:21Z",
+  "original_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "artifacts": [
+    {
+      "path": "notes/packing_new_link_debt.md",
+      "sha256": "6ea116c410e09f184a52ca564edfb86c8028a4b1c83313750c19a881b9e77e32",
+      "bytes": 12345
+    },
+    {
+      "path": "checks/packing_new_link_debt.py",
+      "sha256": "0efebe245e4df293da2f5d90d41fbc6fbd593734c596f97f6e9aa10fb3556140",
+      "bytes": 7761
+    },
+    {
+      "path": "evidence/packing_routes/packing_new_link_debt.json",
+      "sha256": "c439a9eda2f5ed271fe5092ff505dbc7f889a4454b02402c6ebc83fd65ed9afc",
+      "bytes": 222153
+    },
+    {
+      "path": "notes/packing_new_link_log.md",
+      "sha256": "357a6521a6315010af1112db28044eeb76ebd712b0a2708950895d9af69e619b",
+      "bytes": 4045
+    }
+  ],
+  "inputs": [
+    {
+      "path": "notes/root_triangle_full_criticality.md",
+      "sha256": "184e03494ff564aed4025ea875730ffae6e3aa5dc252aad24ca305e1f66f6dd7",
+      "bytes": 7012
+    },
+    {
+      "path": "notes/global_routes_k11_control.md",
+      "sha256": "d0188d752680979e7e44e36002dd8af38a3083b2c6b7b1d020386bea0500df1b",
+      "bytes": 2601
+    },
+    {
+      "path": "notes/codegree_two_tf_resilience_counterexample.md",
+      "sha256": "ae0bd41560dae51e58f5197a46eb5cd62e7859f10fb7aeb2f488178c052da1a4",
+      "bytes": 14461
+    },
+    {
+      "path": "evidence/codegree_two/tf_lift_witness.json",
+      "sha256": "3dbd56433357c22745b2a96a733685874b94a9ed7c24463e27b88cdadd1def7e",
+      "bytes": 858411
+    }
+  ],
+  "primary_source": {
+    "url": "https://arxiv.org/pdf/1308.2211v3",
+    "sections": [
+      "Definition2.1",
+      "Lemma2.2",
+      "Definition4.1",
+      "Lemma4.4"
+    ],
+    "access": "read-only web tool"
+  },
+  "replay": "source LOCAL_ENVIRONMENT python checks/packing_new_link_debt.py",
+  "verification": "ordinary proofs plus producer literal finite checks; independent review pending; no Lean",
+  "unresolved": "force an explicitly paid local/grouped reduction in an actual minimal Tuza violation"
+}

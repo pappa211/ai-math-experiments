@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-11-04T01:38:31.077908+00:00",
+  "status": "PASS",
+  "earlier_critic_notes_unchanged": true,
+  "sha256": {
+    "notes/CRITIC_TIGHT_FRONTIER.md": "18e87425d4e768b1d592d550c39b284d191017503368931ba7bde7536a24025a",
+    "notes/BOUNDARY_CRITIC.md": "bec9d5aed591e2f8bc4482b518a601e942e7da01fb43a738bf46dddaf045fbca",
+    "notes/B_FROZEN_v1.md": "225fe6d10e0255241db325a762c96203f4a0604b1dd0aac7885a8983dd32db42",
+    "notes/B_FROZEN_ADDENDUM_2.md": "d7675ff920c2edcd20d3003123ac39a5de04062238f5f35a0773a12db4d34890",
+    "notes/A_ELEMENTARY_MATCHING_BLOCKER.md": "59d77b3695af21922b7ba8079c802420c632bad2439c2a6cb8baf107c78af8fd",
+    "evidence/critic_boundary.json": "7f335e571ceb11585d95102acd4938feff0b0463f7febf4bc137511550f5183f",
+    "notes/CRITIC_ORIGINAL.md": "4c98d4569101a20bd59d89666faf15b4554a693645f6798f50ac98fd3c523d36",
+    "notes/CRITIC_LATE.md": "7acc8d5108b6e8af56922c2c90f9eab7246a6886ebd7628d76a9820d990ee4d2"
+  }
+}

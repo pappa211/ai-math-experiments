@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "n": 8,
+      "colors": 5,
+      "triangle_free_required": false,
+      "mixed_lower": 5,
+      "status": "SAT_LITERAL_CHECKED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "color_of_edge": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        4,
+        4
+      ],
+      "nu_r": 2,
+      "tau_mix": 5,
+      "cover": {
+        "vertices": [],
+        "colors": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "ordinary_triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "solver": {
+        "status": "SAT",
+        "seconds": 0.02739529100654181,
+        "returncode": 10,
+        "variables": 2305,
+        "clauses": 10452,
+        "cnf_sha256": "9839f9e832a1aa639189a01f44c495fa486f8b8e584584746cda8a4168ab22d2"
+      }
+    },
+    {
+      "n": 8,
+      "colors": 4,
+      "triangle_free_required": true,
+      "mixed_lower": 4,
+      "status": "SAT_LITERAL_CHECKED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "color_of_edge": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        3
+      ],
+      "nu_r": 2,
+      "tau_mix": 4,
+      "cover": {
+        "vertices": [],
+        "colors": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "ordinary_triangles": [],
+      "solver": {
+        "status": "SAT",
+        "seconds": 0.03203341699554585,
+        "returncode": 10,
+        "variables": 1856,
+        "clauses": 7620,
+        "cnf_sha256": "ea8f1f0601d2391f933bef73b21f2b61bbd999b57aa944603dbac725ab0c52d7"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "source_url": "https://cs.uwaterloo.ca/~lapchi/papers/hypergraph.pdf",
+  "final_url": "https://cs.uwaterloo.ca/~lapchi/papers/hypergraph.pdf",
+  "sha256": "ce486d455d83539911fa81d283d2b44a3b81cbe0cbbfd027153291d55fe4cce5",
+  "bytes": 614242,
+  "accessed_utc": "2026-11-15T08:18:20.779269+00:00",
+  "inspected_scope": "Introduction and Sections 4.1-4.2, particularly conflict-clique/intersecting-family LP distinction; no wholesale theorem replay."
+}

@@ -1,0 +1,1 @@
+Historical root release inventories from public commit d4029fbafc3dffc250b50ed237ad81c3206cd1a0. Paths inside these inventories refer to that historical root, not updated current bytes. The previous release-at-e93e3c8 location remains unchanged.

@@ -1,0 +1,177 @@
+[
+  {
+    "source": "TUZA-16-global-route-triage-20261103T231208Z",
+    "relative_file": "PROOFS_AND_OBSTRUCTIONS.md",
+    "sha256": "88b3e16310a3e89c28621081801acb3b32bb30526a9052d57bf6697e9dfafc10"
+  },
+  {
+    "source": "TUZA-16-global-route-triage-20261103T231208Z",
+    "relative_file": "STATUS_MATRIX.json",
+    "sha256": "5ec7dd6c99b593c587836b40ab5f21a71f234f1eb318a02820f4377851a8ed8b"
+  },
+  {
+    "source": "TUZA-16-global-route-triage-20261103T231208Z",
+    "relative_file": "ADVERSARIAL_REVIEW.md",
+    "sha256": "4f0101d0a3269254f54d7a31aa7f9f3e296320f1e76956959b508338c3888a70"
+  },
+  {
+    "source": "TUZA-16-global-route-triage-20261103T231208Z",
+    "relative_file": "PRIOR_ART_AND_DEPENDENCIES.md",
+    "sha256": "d192ff82fe870071b67a17e1751b32716e022be5d8fc022d81922c85eb8d8d99"
+  },
+  {
+    "source": "TUZA-17-critical-core-apex-20261104T004512Z",
+    "relative_file": "PROOFS_AND_OBSTRUCTIONS.md",
+    "sha256": "dbe91ada89792e0ffe171ed75293ac8fbac12ee740814428816899ba30b25c7e"
+  },
+  {
+    "source": "TUZA-17-critical-core-apex-20261104T004512Z",
+    "relative_file": "notes/B_FROZEN_v1.md",
+    "sha256": "225fe6d10e0255241db325a762c96203f4a0604b1dd0aac7885a8983dd32db42"
+  },
+  {
+    "source": "TUZA-17-critical-core-apex-20261104T004512Z",
+    "relative_file": "notes/BOUNDARY_A.md",
+    "sha256": "9acd745c1bda885714182d1068ac1d551211f599b06883cc24c8ba3ce34f8ea7"
+  },
+  {
+    "source": "TUZA-17-critical-core-apex-20261104T004512Z",
+    "relative_file": "notes/BOUNDARY6_FROZEN_LINK_LEMMA.md",
+    "sha256": "3f3c50fe0a56f6f442758162664b3305086aa1cb035753c70c594d54a68f8c29"
+  },
+  {
+    "source": "TUZA-17-critical-core-apex-20261104T004512Z",
+    "relative_file": "notes/B_FRONTIER_MATCHING_CERTIFICATE.md",
+    "sha256": "947d740d1316715bd44b41827d545a0f85aaceebcd05dfb84d96a810f02f874c"
+  },
+  {
+    "source": "TUZA-17-critical-core-apex-20261104T004512Z",
+    "relative_file": "notes/CRITIC_CATALOGUE_SCOPE.md",
+    "sha256": "01898aa6ebb8cc944dbc2e2758dd3398ebaf5e84c0f3d0e1341424428f6433df"
+  },
+  {
+    "source": "TUZA-17-critical-core-apex-20261104T004512Z",
+    "relative_file": "PRIOR_ART_AND_DEPENDENCIES.md",
+    "sha256": "48aa9d65e85c1bfbf5d82547299f01c15c770de553b0aee9678e4cd68c553869"
+  },
+  {
+    "source": "TUZA-18-adaptive-research-20261114T153010Z",
+    "relative_file": "notes/criticality_star_pk_theorem.md",
+    "sha256": "f08cc442241eef4b790bc4b5228c958045593f97ebf56c1259a6f6b1ffe5488b"
+  },
+  {
+    "source": "TUZA-18-adaptive-research-20261114T153010Z",
+    "relative_file": "notes/criticality_star_local_dichotomy.md",
+    "sha256": "ef9e1a69c6722a648eb35549295e80d18b2e062ee6b2d6421bf91dbbcf8c7575"
+  },
+  {
+    "source": "TUZA-18-adaptive-research-20261114T153010Z",
+    "relative_file": "notes/late_star_gluing_obstruction.md",
+    "sha256": "6ded16c3c61ef3029e86d7c9399bac6e3090ff80e204fd50023ce0f8fc6fee0b"
+  },
+  {
+    "source": "TUZA-18-adaptive-research-20261114T153010Z",
+    "relative_file": "notes/late_star_connected_pivot_obstruction.md",
+    "sha256": "0a5491534d7c85fb7206e4f0ffddafaf1c179f2b40ad0c198135f229e124f4cd"
+  },
+  {
+    "source": "TUZA-18-adaptive-research-20261114T153010Z",
+    "relative_file": "review/star_fresh_audit.md",
+    "sha256": "3c306e52feb2de93f676ff29ee33ef32e3efa2f8606061aa5f8a1fc627df6b94"
+  },
+  {
+    "source": "TUZA-18-adaptive-research-20261114T153010Z",
+    "relative_file": "review/chain_review.md",
+    "sha256": "e4584143f39969ff20ffa48a6dbc56b2d45d1ca32f0b4df4168f5007e7fa10f4"
+  },
+  {
+    "source": "TUZA-18-adaptive-research-20261114T153010Z",
+    "relative_file": "STATUS_MATRIX.md",
+    "sha256": "ffabc0fef5870efef44d5d6d36eec87b0d793bfab8a866ea648e76cefb3f40b0"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/root_batched_universal_tf_nonwke.md",
+    "sha256": "d4ff2e5f0539b43fedc54fab7eef87a01717b43103577e5862b7739a63101913"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/root_subexponential_normalization_corollary.md",
+    "sha256": "77da1f5cce4720e4a34b7e1d72c27d2ef4304a5f089129ed87bb611de9887c64"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/global_routes_quantitative_amplification.md",
+    "sha256": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/global_routes_critical_cut_obstruction.md",
+    "sha256": "2ec94c291275ae6d02628ffd227d2acd9bb2c3eee638a1369c40bd8fc053ac1b"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/root_batched_odd_cover_obstruction.md",
+    "sha256": "240f03702de1bc3f2deadb1be99307c27de26849607b2bd50e8ecd2cffcca4f7"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/root_batched_odd_cover_exact_identity.md",
+    "sha256": "57d44a9d95e66f1885272f2e184954772c224f977c15238424e935b6be4189c8"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/root_batched_odd_asymptotic_slack.md",
+    "sha256": "7cbe5c47364408799b25f683205f1e265aeb7d9afa8d9f008aadc98457a44e2d"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/root_four_branch_wke.md",
+    "sha256": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/four_branch_wke_scope_addendum.md",
+    "sha256": "a82826aaf673826a6b57eb10cac48ee8c2065cd369c4cb78d03f09f819a1175b"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/global_routes_bounded_stars_all_cliques.md",
+    "sha256": "bfb6d0154ffbd225ac7d4c47f2a51d7f4725d8c9a1138bd64d562ebc5673b48a"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/global_routes_bounded_stars_scope_addendum.md",
+    "sha256": "709f4ed62a239125b1f0aea732beaed1c292059fbebe00e19b3fe78a9bc2fe2f"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/global_routes_square_cells_matching.md",
+    "sha256": "1c59c9c58a0ba5b0ad9c5d90d3f0d1f3794b4300f7b28a06524da0f71ee39c2c"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/root_line_graph_parity.md",
+    "sha256": "65f65ed45fb9920b39c72491243eccc7ba880add1a1f1256b4e86c65d1ebd0f1"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/root_multi_private_integral_cover.md",
+    "sha256": "4791afd96e876088764cf13c37082e9fca23a1ee9a4f2a8ef12d84fcb324176b"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "notes/root_cksu_order3_repair.md",
+    "sha256": "a0a8b8a2c8cdf3e0c028661bef9ce51c7586b13ffaed695ea99aa02ffe2c7ab9"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "review/chain_plateau_control.md",
+    "sha256": "876ff6fcb2beb2566f53cb99b569be3878398923a6d56849832394a5ea2f8788"
+  },
+  {
+    "source": "TUZA-19-adaptive-research-20261115T015358Z",
+    "relative_file": "STATUS_MATRIX.md",
+    "sha256": "83593631046d0b5b60b82fb27c01c9a3cbae1d164e6949c077567c73f4ccaa81"
+  }
+]

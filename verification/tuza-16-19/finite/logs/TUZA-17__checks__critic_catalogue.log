@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "scope": "one downloaded13vertex graph record and two explicit link witnesses; NO completeness recomputation",
+  "catalogue_url": "https://users.cecs.anu.edu.au/~bdm/data/ramsey.html",
+  "record_url": "https://users.cecs.anu.edu.au/~bdm/data/r35_13.g6",
+  "source_sha256": "eb4d3f787f07ed14c0a82a83bee170ed096c24b6a7e971fded185ca1a760798f",
+  "catalogue_snapshot_sha256": "a7d8ac686583ee395f7104d6adf5aea6b994568ab2471c4728011159ad643bf3",
+  "graph6_record": "Ls`?XGRQR@B`Kc",
+  "circulant_witness": {
+    "matching_number": 6,
+    "vertex_cover_number": 9,
+    "F": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "I": [
+      0,
+      1,
+      3,
+      4,
+      7,
+      10
+    ],
+    "maximum_matching_extending_F": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    "vertex_cover_after_F": [
+      2,
+      5,
+      6,
+      8,
+      9,
+      11,
+      12
+    ],
+    "maximum_matching_intersection_empty_certificate": "13 rotated near-perfect cycle matchings"
+  },
+  "three_C5_witness": {
+    "F": [
+      [
+        0,
+        1
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "maximum_matching_extending_F": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        12,
+        13
+      ]
+    ],
+    "vertex_cover_after_F": [
+      2,
+      4,
+      7,
+      9,
+      10,
+      12,
+      14
+    ]
+  },
+  "elapsed_seconds": 0.015075000002980232,
+  "peak_rss_Darwin_bytes": 18366464,
+  "independent_final_verification": "NOT_RUN"
+}

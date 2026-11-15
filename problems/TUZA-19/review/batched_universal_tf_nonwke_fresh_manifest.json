@@ -1,0 +1,74 @@
+{
+  "audit": "batched_universal_tf_nonwke_fresh",
+  "verdict": "PASS",
+  "freeze_utc": "2026-11-15T08:56:11Z",
+  "reviewer": "/root/batched_fresh",
+  "host_check": "uname -s: Darwin",
+  "canonical_root_present": true,
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "exposed_serving_metadata": "Developer identifies Codex based on GPT-6; exact serving model and effort not exposed.",
+  "start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "verification_level": "Ordinary mathematical reconstruction and independent AI review; no census, solver, Lean, or human review.",
+  "scope": [
+    "Batched simultaneous normalization for every fixed 0<beta<1",
+    "Subexponential uniform-error and simultaneous-normalization equivalences for every fixed 1/2<a<1"
+  ],
+  "inputs": [
+    {
+      "path": "notes/root_batched_universal_tf_nonwke.md",
+      "sha256": "d4ff2e5f0539b43fedc54fab7eef87a01717b43103577e5862b7739a63101913",
+      "expected_sha256": "d4ff2e5f0539b43fedc54fab7eef87a01717b43103577e5862b7739a63101913",
+      "bytes": 11497,
+      "unchanged": true
+    },
+    {
+      "path": "notes/root_subexponential_normalization_corollary.md",
+      "sha256": "77da1f5cce4720e4a34b7e1d72c27d2ef4304a5f089129ed87bb611de9887c64",
+      "expected_sha256": "77da1f5cce4720e4a34b7e1d72c27d2ef4304a5f089129ed87bb611de9887c64",
+      "bytes": 2881,
+      "unchanged": true
+    },
+    {
+      "path": "notes/global_routes_quantitative_amplification.md",
+      "sha256": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53",
+      "expected_sha256": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53",
+      "bytes": 10381,
+      "unchanged": true
+    },
+    {
+      "path": "notes/global_routes_universal_tf_nonwke_addendum.md",
+      "sha256": "58dbcfc87ef9683801a666f8e159fd367e01376aa7c7bb79d1bf2296c3b020b4",
+      "expected_sha256": "58dbcfc87ef9683801a666f8e159fd367e01376aa7c7bb79d1bf2296c3b020b4",
+      "bytes": 10891,
+      "unchanged": true
+    },
+    {
+      "path": "review/efr_power_saving_source_audit.md",
+      "sha256": "33a3bfc8a6fe049f15d424a5f97e1f8084be40b705385975c994db6ecdfc874e",
+      "expected_sha256": "33a3bfc8a6fe049f15d424a5f97e1f8084be40b705385975c994db6ecdfc874e",
+      "bytes": 8442,
+      "unchanged": true
+    }
+  ],
+  "outputs": [
+    {
+      "path": "review/batched_universal_tf_nonwke_fresh_audit.md",
+      "sha256": "470c7dd4c7a068fb126dd791976cf2054546e1f92eb137cd79a8ae5d980e311f",
+      "bytes": 17761
+    }
+  ],
+  "producer_files_modified": false,
+  "remote_execution_or_publication": false,
+  "material_flaws_found": [],
+  "not_established": [
+    "Unrestricted Tuza",
+    "Counterexample existence",
+    "Packing resilience preservation",
+    "Edge-minimality preservation",
+    "Novelty or exhaustive prior-art search",
+    "Formal verification"
+  ]
+}

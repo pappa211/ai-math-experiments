@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-15T06:22:08.289253+00:00",
+  "host": "Darwin",
+  "start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "scope": "Ordinary endpoint analysis and two conditional all-size cell theorems; broad gate unresolved; no census and no Lean.",
+  "requested_model": "Astra",
+  "requested_effort": "Ultra",
+  "actual_model": "not exposed",
+  "actual_effort": "not exposed",
+  "sha256": {
+    "AGENTS.md": "03130ddf542fa57094ec18d43a81cf9e306073fd5defa27079347ea791ed18cf",
+    "MISSION.txt": "26356f13532fa68c7a3362f42c65369abec51adb49531c18549f509e1fe42cda",
+    "operations/clock.json": "db8baaaf29708e4be97741aa4ce9df1216c63c4895ab50bbdda5c9eeca715781",
+    "notes/root_four_branch_wke.md": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99",
+    "notes/root_triangle_full_criticality.md": "184e03494ff564aed4025ea875730ffae6e3aa5dc252aad24ca305e1f66f6dd7",
+    "notes/heavy_triangle_free_gate.md": "16704f37fad491bb9437c055383ac48dd52f0f270a650f63064475dfe3d59e72",
+    "evidence/heavy_triangle_free_gate/initial_screen.md": "ad1311c3894453ead002d13f11a9ab952f982047c69e44db965eaceeebf70757"
+  },
+  "updated_utc": "2026-11-15T06:23:31.300775+00:00",
+  "initial_screen_sha256": "ad1311c3894453ead002d13f11a9ab952f982047c69e44db965eaceeebf70757"
+}

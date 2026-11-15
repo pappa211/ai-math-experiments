@@ -1,0 +1,10 @@
+{
+  "status": "PASS partner reconstruction; not fresh context",
+  "target": "notes/root_batched_odd_cover_obstruction.md",
+  "target_sha256": "240f03702de1bc3f2deadb1be99307c27de26849607b2bd50e8ecd2cffcca4f7",
+  "audit": "notes/global_routes_batched_odd_cover_audit.md",
+  "audit_sha256": "ce729f583296dbdbde76edb4e2e23e085150a4f27c122724509cf9d2968c9398",
+  "utc": "2026-11-15T09:07:06.545386+00:00",
+  "new_computation": "none; base eight triples manually reconstructed",
+  "additional_observation": "pi(W)=B+b beta(S), using monochromatic role batches"
+}

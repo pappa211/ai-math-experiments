@@ -1,0 +1,15 @@
+{
+  "status": "PASS with link-component wording clarification",
+  "created_utc": "2026-11-15T08:23:17.077690+00:00",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "verification": "ordinary independent AI reconstruction plus three literal positive CP5 certificates; no all-size formal verification",
+  "files": {
+    "notes/global_routes_bounded_stars_all_cliques.md": "bfb6d0154ffbd225ac7d4c47f2a51d7f4725d8c9a1138bd64d562ebc5673b48a",
+    "notes/global_routes_clique_link_polytope_obstruction.md": "58a6165eb965c00ae7c0fc711b9bdaf22a99809c616b2e8e04447bafccb32b07",
+    "notes/global_routes_clique_link_erratum.md": "1e9c00a28db5f98db56690de2a8605b7c9816aedf8c9d562d9ff0d4ab1af0429",
+    "notes/global_routes_quantitative_amplification.md": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53",
+    "review/bounded_stars_all_cliques_fresh_audit.md": "212dd91cdd47c6cea3486e0d08457e748349a7f22627d88b750034803e23fe32",
+    "review/bounded_stars_all_cliques_fresh_base.py": "a3cae499dbd80436afac17920c25ae59e05d4ce950a1cd61a155c5863b26d0fb",
+    "evidence/bounded_stars_all_cliques_fresh_base.json": "01d35ed2f1e1f7fe2a500535f26640ee110ddef96dad80dcedfd5bf1af192ccb"
+  }
+}

@@ -1,0 +1,11 @@
+# Root reconstruction of the abv-page reservoir obstruction
+
+Reviewed frozen input: notes/global_routes_abv_reservoir_obstruction.md, SHA256 c774f28ad64d3672584ada9f5484cb64b8009da77aee9b7380c789ada4291872. This is a separate ordinary AI proof reconstruction, not fresh-context review, Lean, or an independent SAT replay.
+
+I checked the complete triangle ownership, the eight local reservation states, and the all-size reduction to two edge-disjoint matchings A,C. For U deleted a-spokes, vertices of U cannot meet A and have degree at most one in A union C. Its nontrivial components are paths/even cycles. Exactly d+s pages lose both spokes; only one can recover its second triangle by using ab. Therefore the extension formula 2n+|F|-max(0,d+s-1) is exact, not merely an upper bound.
+
+When d+s>0 the score is p-s+1. Equality to mu(R-U)+1 forces one matching edge per good path, excludes every even cycle, excludes paths of length at least two meeting U, and restricts good paths to K2/P3. A deficient component then supplies a maximum matching exposing a vertex nonisolated in ORIGINAL R. Conversely such a vertex supplies one extra b-edge through its neighbor, either in U or already matched, and only one page needs ab. This proves the stated epsilon criterion in both directions. The use of SOME maximum matching and original degree, rather than every maximum matching or current degree, is essential and correct.
+
+For any uv in E(R), mu(R-{u,v})<=mu(R)-1. If epsilon_empty=1 this immediately loses at least one packing unit. If epsilon_empty=0, all original nonisolates form a perfectly matched set; an equality-sized matching after deleting u,v covers all its surviving vertices and makes epsilon_U=0. Otherwise the matching number drops at least two and epsilon_U cannot compensate. Thus EVERY rim edge gives the claimed two-spoke blocker.
+
+Accepted at this exact ordinary all-size scope. The small SAT controls are corroboration only; their UNSAT results are solver-level and are not represented as proof-checked certificates. The literature screen's hypotheses are explicitly separated from the proved reservoir obstruction. No resilient-envelope impossibility for arbitrary constructions, H-O2 counterexample, or Tuza counterexample follows.

@@ -1,0 +1,381 @@
+{
+  "mission": "TUZA-16",
+  "created_utc": "2026-11-03T23:29:50.981673+00:00",
+  "recommendation": "REDIRECT",
+  "global_solution": "NOT_ESTABLISHED",
+  "evidence_labels": [
+    "KNOWN_INPUT",
+    "PROVED_ORDINARY",
+    "PROVED_USING_PUBLISHED_INPUT",
+    "FINITE_CHECKED",
+    "LEAN_PROVED",
+    "CONDITIONAL",
+    "SPECULATIVE",
+    "REFUTED",
+    "UNKNOWN",
+    "NOT_RUN",
+    "NOT_AVAILABLE",
+    "NOT_APPLICABLE",
+    "REPORTED_NOT_REPLAYED"
+  ],
+  "claims": [
+    {
+      "id": "BASELINE",
+      "evidence_label": "KNOWN_INPUT",
+      "statement": "Pinned public commit/tree and scoped TUZA01\u201315 results",
+      "source": "sources/public/ORDINARY_PROOF_INDEX.md",
+      "scope": "No unrestricted theorem or fresh Lean replay",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "A4",
+      "evidence_label": "REFUTED",
+      "statement": "Maximum-four-cut deletion paid by arbitrary global packing and residual cover",
+      "source": "notes/A_RESULTS.md",
+      "scope": "All finite simple graphs was the proposed scope; cone family disproves it",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "A_FIXED_R",
+      "evidence_label": "PROVED_ORDINARY",
+      "statement": "For every fixed r>=2, an unbounded family requires within-part deletion >2nu for every r-partition",
+      "source": "PROOFS_AND_OBSTRUCTIONS.md",
+      "scope": "Does not exclude general triangle-edge3-colourable repairs",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "A553",
+      "evidence_label": "FINITE_CHECKED",
+      "statement": "553 vertices,41448 edges,40896 actual triangles; lower deletion576>upper2nu552",
+      "source": "notes/A_FOURCUT_WITNESS.json",
+      "scope": "192-packing/384-cover are witnesses, not optima; global bounds ordinary",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "B1",
+      "evidence_label": "PROVED_ORDINARY",
+      "statement": "Independent twins with fully colored rim: nu and tau each equal residual optimum plus q",
+      "source": "notes/B_RESULTS.md",
+      "scope": "Exact common-neighborhood and proper rim coloring required; arbitrary outside attachments allowed",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "B_REDUCING_TEMPLATE",
+      "evidence_label": "KNOWN_INPUT",
+      "statement": "Half-saturated and all-rim payment fit Puleo reducing-set method",
+      "source": "PRIOR_ART_AND_DEPENDENCIES.md",
+      "scope": "Fresh exact identities do not establish a new global architecture",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "B_DENSE_OBSTRUCTION",
+      "evidence_label": "PROVED_ORDINARY",
+      "statement": "min link edge count >alpha(n-1) blocks all independent-set/all-rim apical payment; includes Kn-M,n>=9",
+      "source": "notes/B_RESULTS.md",
+      "scope": "Unconditional availability only; not a minimal-counterexample refutation",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "B_GLOBAL_EXISTENCE",
+      "evidence_label": "SPECULATIVE",
+      "statement": "Every minimal Tuza counterexample admits a certified safe compression",
+      "source": "ROUTES.md",
+      "scope": "No such theorem established or credible closure supplied",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "B_FORCED_OCCUPANCY",
+      "evidence_label": "REFUTED",
+      "statement": "Scalar twin compression preserves arbitrary forced residual-edge occupancy",
+      "source": "notes/B_RESULTS.md",
+      "scope": "Diamond witness; required scalar/resource compatibility remains valid",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "C_UNIFORM",
+      "evidence_label": "KNOWN_INPUT",
+      "statement": "For every epsilon>0 all sufficiently large graphs have nu*-nu<epsilon n\u00b2",
+      "source": "notes/C_PRIMARY_DEPENDENCIES.md",
+      "scope": "Yuster manuscript fixed familyK3; isolates handled; no numerical threshold",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "C1",
+      "evidence_label": "PROVED_USING_PUBLISHED_INPUT",
+      "statement": "Weighted copy system with edge loads<=1 has nu>=Mnu*(G)-e(N)N\u00b2",
+      "source": "notes/C_FROZEN_PROOF.md",
+      "scope": "Requires stated copy interface; full closure triangles included",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "C2_EXACT",
+      "evidence_label": "PROVED_ORDINARY",
+      "statement": "Globally labelled edge-partition gluing has tau=r tau(G),nu*=rnu*(G)",
+      "source": "notes/C_FROZEN_PROOF.md",
+      "scope": "Finite LP duality; global homomorphism plus edge partition mandatory",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "C2_DENSE_LIMIT",
+      "evidence_label": "PROVED_USING_PUBLISHED_INPUT",
+      "statement": "Such labelled gluings cannot preserve positive quadratic integral deficit",
+      "source": "PROOFS_AND_OBSTRUCTIONS.md",
+      "scope": "Uniform Yuster/Krivelevich inputs; same-vertex-set o(N\u00b2) edge edits do not rescue it",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "C_PARTIAL_SLOPE",
+      "evidence_label": "FINITE_CHECKED",
+      "statement": "GF4 partial slopes: N16,E72,T96,r12,tau=nu*=24,explicit packing20,upper21",
+      "source": "evidence/c_affine_diagnostic.json",
+      "scope": "Exact integral optimum UNKNOWN; not a Tuza violation",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "C_INTEGRAL_REPLICATION",
+      "evidence_label": "REFUTED",
+      "statement": "Unconditional exact integral packing replication in affine partial-slope construction",
+      "source": "notes/C_FROZEN_PROOF.md",
+      "scope": "20>12 on K4 base; conditional hypothetical-counterexample-only existence not finitely refuted",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "C_STRICT_MIXED",
+      "evidence_label": "PROVED_ORDINARY",
+      "statement": "Every triangle-containing graph satisfies tau<=2nu*-1",
+      "source": "PROOFS_AND_OBSTRUCTIONS.md",
+      "scope": "Finite LP duality; explicit adaptation of Krivelevich, originality unestablished; does not bound tau by2nu",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "VB",
+      "evidence_label": "REFUTED",
+      "statement": "Vertex-incidence balance over distributions of maximum packings/minimum covers",
+      "source": "notes/CONTROL_PROOFS.md",
+      "scope": "Every optimal cover apex18; every maximum packing apex13;18>52/3",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "VB_COUNTS",
+      "evidence_label": "FINITE_CHECKED",
+      "statement": "Jalpha4,Halpha8,G(n,e,t)=(27,130,104),nu13,tau18,39spokes-only minimum covers",
+      "source": "evidence/controls.json",
+      "scope": "Independent critic uses different independent-set traversal plus ordinary all-cover proof",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "K10K11_PAYMENT",
+      "evidence_label": "REFUTED",
+      "statement": "Nonempty deletion F of support<=5 can pay solely by2packing loss in K10/K11",
+      "source": "evidence/k10_k11.json",
+      "scope": "All33 classes each;66residual witnesses checked; no residual optimum needed",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "OTHER_K_TABLE",
+      "evidence_label": "REPORTED_NOT_REPLAYED",
+      "statement": "Supplied n8,9,12,13,14 payment counts",
+      "source": "sources/OWNER_REQUEST.txt",
+      "scope": "No general congruence pattern or larger support claim",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "CARTESIAN",
+      "evidence_label": "FINITE_CHECKED",
+      "statement": "K4 square K5 has nu13,tau26 via complete actual triangle block decomposition",
+      "source": "evidence/controls.json",
+      "scope": "No diagonal edges or arbitrary added attachments",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "CLEBSCH",
+      "evidence_label": "FINITE_CHECKED",
+      "statement": "Exact archived cone has nu8,tau11,16minimum covers,private_nu5 each",
+      "source": "evidence/controls.json",
+      "scope": "Refutes private-only bridge, not S/E or Tuza",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "FOUR_PORT",
+      "evidence_label": "FINITE_CHECKED",
+      "statement": "Exact archived G/H have optima(4,5)/(4,4)",
+      "source": "evidence/controls.json",
+      "scope": "Refutes neutral restoration only",
+      "internal_review": "PASS for stated scope; original critic qualifications retained",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "FANO",
+      "evidence_label": "NOT_APPLICABLE",
+      "statement": "Abstract hypergraph has nu1,tau3",
+      "source": "evidence/controls.json",
+      "scope": "Not an actual graph counterexample; generic criticality insufficient",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "BARON_KAHN_FINITE",
+      "evidence_label": "NOT_AVAILABLE",
+      "statement": "No certified finite construction used",
+      "source": "PRIOR_ART_AND_DEPENDENCIES.md",
+      "scope": "Primary asymptotic theorem context inspected, finite instance not built",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "APEX_REVISION",
+      "evidence_label": "SPECULATIVE",
+      "statement": "Minimum-cover apex compatibility with H triangle-edge3-colourable and triangle-free link",
+      "source": "ROUTES.md",
+      "scope": "Proposed separately authorizable discriminator; not tested/proved in this mission",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "LEAN",
+      "evidence_label": "NOT_RUN",
+      "statement": "No new Lean theorem",
+      "source": "BASELINE_AND_SCOPE.md",
+      "scope": "Compiler version checked only",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "INDEPENDENT_FINAL",
+      "evidence_label": "NOT_RUN",
+      "statement": "Separately commissioned frozen-source final audit",
+      "source": "ADVERSARIAL_REVIEW.md",
+      "scope": "Fresh critic here is internal AI review, not that audit",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    },
+    {
+      "id": "UNRESTRICTED_TUZA",
+      "evidence_label": "UNKNOWN",
+      "statement": "Unrestricted Tuza remains open in authenticated project baseline and unresolved here",
+      "source": "REPORT.md",
+      "scope": "No final solution claimed",
+      "internal_review": "Status/scope reviewed; not promoted to proof",
+      "independent_final_verification": "NOT_RUN"
+    }
+  ],
+  "test_applicability": {
+    "A4": {
+      "empty": "APPLICABLE_PASS",
+      "triangle": "APPLICABLE_PASS",
+      "books": "APPLICABLE_PASS",
+      "K4": "APPLICABLE_PASS",
+      "K5": "APPLICABLE_PASS",
+      "VB27": "APPLICABLE_PASS",
+      "K10": "APPLICABLE_PASS_AS_FOURCUT; five-support payment separately REFUTED",
+      "K11": "APPLICABLE_PASS_AS_FOURCUT; five-support payment separately REFUTED",
+      "shared_vertex_K4K5_blocks": "APPLICABLE; universal shared-vertex A4 claim NOT_RUN",
+      "cartesian_K4_K5": "APPLICABLE_PASS",
+      "Clebsch": "APPLICABLE_PASS",
+      "four_port_G": "APPLICABLE_PASS",
+      "four_port_H": "APPLICABLE_PASS",
+      "Fano": "NOT_APPLICABLE",
+      "Baron_Kahn_finite": "NOT_AVAILABLE",
+      "new_cone_family": "APPLICABLE_REFUTED_A4"
+    },
+    "B1": {
+      "empty": "TERMINAL_CASE",
+      "triangle": "APPLICABLE_B1",
+      "books": "APPLICABLE_B1",
+      "K4": "NOT_APPLICABLE",
+      "K5": "NOT_APPLICABLE",
+      "VB27": "NOT_APPLICABLE",
+      "K10": "NOT_APPLICABLE",
+      "K11": "NOT_APPLICABLE",
+      "shared_vertex_K4K5_blocks": "NOT_APPLICABLE",
+      "cartesian_K4_K5": "NOT_APPLICABLE",
+      "Clebsch": "NOT_APPLICABLE",
+      "four_port_G": "NOT_APPLICABLE",
+      "four_port_H": "APPLICABLE_B1_AT_VERTEX3",
+      "Fano": "NOT_APPLICABLE",
+      "Baron_Kahn_finite": "NOT_AVAILABLE",
+      "new_cone_family": "NOT_RUN_FOR_ALL_TWIN_CLASSES; not used as B refutation"
+    },
+    "C_copy_theorems": {
+      "empty": "TRIVIAL_SEPARATE_NULL_CASE",
+      "triangle": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "books": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "K4": "FINITE_AFFINE_WITNESS_CHECKED",
+      "K5": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "VB27": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "K10": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "K11": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "shared_vertex_K4K5_blocks": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "cartesian_K4_K5": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "Clebsch": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "four_port_G": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "four_port_H": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN",
+      "Fano": "NOT_APPLICABLE",
+      "Baron_Kahn_finite": "NOT_AVAILABLE",
+      "new_cone_family": "GRAPH_BASE_HYPOTHESES_APPLY_SYMBOLICALLY; numerical instance NOT_RUN"
+    }
+  },
+  "first_gate": {
+    "A": "REFUTED_CANDIDATE",
+    "B": "DEPRIORITIZE",
+    "C": "DEPRIORITIZE",
+    "selected_for_limitation_consolidation": [
+      "A",
+      "C"
+    ]
+  },
+  "reported_table_unreplayed": [
+    {
+      "n": 8,
+      "nu": 8,
+      "paying_classes": 3
+    },
+    {
+      "n": 9,
+      "nu": 12,
+      "paying_classes": 28
+    },
+    {
+      "n": 12,
+      "nu": 20,
+      "paying_classes": 2
+    },
+    {
+      "n": 13,
+      "nu": 26,
+      "paying_classes": 27
+    },
+    {
+      "n": 14,
+      "nu": 28,
+      "paying_classes": 2
+    }
+  ],
+  "finite_independent_receipt": "evidence/critic_verified.json",
+  "private_sources_optional": "NOT_USED",
+  "internal_independent_review": "PASS",
+  "review_finished_utc": "2026-11-03T23:30:02.790821+00:00",
+  "updated_utc": "2026-11-03T23:31:42.394855+00:00"
+}

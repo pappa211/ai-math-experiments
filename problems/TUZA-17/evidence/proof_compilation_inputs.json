@@ -1,0 +1,80 @@
+{
+  "compiled_utc": "2026-11-04T01:51:19.745138+00:00",
+  "inputs": [
+    {
+      "path": "notes/A_RESULTS.md",
+      "sha256": "c5a8cd7a2d0b170673461450266ddc1a0705573d5bb945b58c4161ef31ae151a",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/A_ELEMENTARY_MATCHING_BLOCKER.md",
+      "sha256": "59d77b3695af21922b7ba8079c802420c632bad2439c2a6cb8baf107c78af8fd",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/A_SLS_PROPOSAL.md",
+      "sha256": "0528bb9f7443051e60aa4f45697a674d67c2fba15dad221dcba89bceaf685213",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/A_SLS_RESULT.md",
+      "sha256": "df3ee3a94c17acdb683378656cada615c74b0d2b156ad1624870e514d5f81e06",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/B_FROZEN_v1.md",
+      "sha256": "225fe6d10e0255241db325a762c96203f4a0604b1dd0aac7885a8983dd32db42",
+      "selection": "explicit mathematical sections"
+    },
+    {
+      "path": "notes/B_FROZEN_ADDENDUM_1.md",
+      "sha256": "0b63d52c067b48a342dec669733a6cee347a31181f4df9ea8024d9fb9002329b",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/B_FROZEN_ADDENDUM_2.md",
+      "sha256": "d7675ff920c2edcd20d3003123ac39a5de04062238f5f35a0773a12db4d34890",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/B_CORE_LIMITATION.md",
+      "sha256": "66fabadc40555ea8515a884a8a1620870faedaba01d68fc5e70332372a04f214",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/B_FROZEN_ADDENDUM_5.md",
+      "sha256": "fe052a0c7bc28e09842592ef79559762e9310b9abb930d44c4330e06915fc99b",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/BOUNDARY6_FROZEN_LINK_LEMMA.md",
+      "sha256": "3f3c50fe0a56f6f442758162664b3305086aa1cb035753c70c594d54a68f8c29",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/CRITIC_BUDGET_SIX.md",
+      "sha256": "92b65b507842297cf4855d63110b7ba10439caa3361185bec523f7d7d3e1ffb1",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/B_FRONTIER_MATCHING_CERTIFICATE.md",
+      "sha256": "947d740d1316715bd44b41827d545a0f85aaceebcd05dfb84d96a810f02f874c",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/BOUNDARY7_PROBE.md",
+      "sha256": "4da1afaeb0ca77561d5c9e3ebd9d632b949d26eb2810f689c27c95ed93ae88b6",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/CRITIC_CATALOGUE_SCOPE.md",
+      "sha256": "01898aa6ebb8cc944dbc2e2758dd3398ebaf5e84c0f3d0e1341424428f6433df",
+      "selection": "whole note"
+    },
+    {
+      "path": "notes/B_BOUNDARY_REALIZABILITY.md",
+      "sha256": "d1a1748c62aad3e5d2009917d662fb5dfb052261396488e978ddebee472e48c9",
+      "selection": "whole note"
+    }
+  ]
+}

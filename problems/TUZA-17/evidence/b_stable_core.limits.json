@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "checks/b_stable_core.py"
+  ],
+  "pid": 53691,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 1.4509536249970552,
+  "peak_sampled_RSS_bytes": 22495232,
+  "wall_limit_seconds": 60.0,
+  "RSS_limit_MiB": 512.0,
+  "status": "PASS"
+}

@@ -1,0 +1,12 @@
+{
+  "claim": "Pure type1 existential-centre star quota gluing",
+  "canonical_failures": 576,
+  "first_canonical_failure_row": 214,
+  "source": "evidence/apex_type1_directed_ledger.json.gz",
+  "rows_seen": 393643,
+  "eligible_tested": 36218,
+  "elapsed_seconds": 4.716406375002407,
+  "first_failure": null,
+  "stop": "TIME_OR_SOURCE_END",
+  "scope": "New constrained-cover discriminator; no universal claim from finite survival"
+}

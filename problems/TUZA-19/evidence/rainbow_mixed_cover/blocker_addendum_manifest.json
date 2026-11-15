@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-11-15T08:03:35.365940+00:00",
+  "note": "notes/rainbow_mixed_cover_blocker_addendum.md",
+  "note_sha256": "42d2b25cc3a0181a73f06843a586832c3b87dc05dd9f69bf717bd9819b1cc149",
+  "source_pdf_sha256": "8aa27b2af2b1b0f8d133e8eab263dea688e8600205b0976fa39b38f0b16b0126",
+  "lead": "fresh_critic communication; then independent primary statement check and translation",
+  "verdict": "Two-resource matching-drop induction refuted; target mixed-cover inequality not refuted",
+  "imported_not_replayed": [
+    "alpha(Biggs-Smith)=43",
+    "Clow–Haxell–Mohar Lemma2.2 full proof"
+  ],
+  "clock": "Original research cutoff2026-11-15T09:23:58Z"
+}

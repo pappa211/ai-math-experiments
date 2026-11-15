@@ -1,0 +1,10 @@
+{
+  "start_utc": "2026-11-14T15:30:10Z",
+  "research_cutoff_utc": "2026-11-14T21:00:10Z",
+  "hard_deadline_utc": "2026-11-14T21:30:10Z",
+  "workspace": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18",
+  "requested_configuration": "Astra/Ultra if available",
+  "root_serving_metadata": "Root model/version/effort not exposed by runtime; no assertion of successful root model switch. Developer role describes Codex based on GPT-6.",
+  "delegates_requested": "gpt-6-astra / ultra, fresh contexts",
+  "clock_note": "First clock tool was called immediately after initial mission/workspace read in the same tool invocation; the strict requested ordering (clock before source read) was not achieved. Start never reset. Initial read-only phase extended through workspace sandbox approval timeouts; user explicitly approved access and said continue."
+}

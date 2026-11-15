@@ -1,0 +1,27 @@
+{
+  "status": "PASS independently regenerated complete kernel domain and all literal certificates",
+  "utc": "2026-11-15T14:54:12.192287+00:00",
+  "host": "macOS-27.2.1-arm64-arm-64bit",
+  "input_certificate_sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+  "verifier_sha256": "0230f6533f70d25673d7efe3aa0c3a38385d5cb8d6a9d12bde57bf3de177cc0b",
+  "raw_state_vectors": 15756,
+  "valid_kernels": 5375,
+  "valid_by_branch_count": {
+    "3": 10,
+    "4": 5365
+  },
+  "largest_kernel_order": 16,
+  "largest_kernel_edge_count": 18,
+  "witness_slack_histogram": {
+    "0": 2451,
+    "1": 2190,
+    "2": 734
+  },
+  "subdivision_cases": {
+    "only_first_endpoint_selected": 32671,
+    "both_endpoints_selected": 13560,
+    "only_second_endpoint_selected": 365,
+    "edge_in_matching": 24615
+  },
+  "scope": "Finite literal verification of all five-state kernels on at most four labelled degree-at-least-three branches, plus marked local bases and subdivision lifting. All-size completeness is the separately audited reduction proof. No producer search code read/imported."
+}

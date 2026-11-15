@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "host": "Darwin",
+  "large_hypergraph_generated": false,
+  "local_K5_tau": 4,
+  "local_K5_pi": 4,
+  "local_minimum_covers": 10,
+  "local_deletion_cases": 56,
+  "rank5_points": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    31,
+    3,
+    5,
+    9,
+    18,
+    29
+  ],
+  "rank5_all_triples": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      4,
+      5
+    ],
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      2,
+      16,
+      18
+    ],
+    [
+      2,
+      29,
+      31
+    ]
+  ],
+  "rank5_tau": 2,
+  "rank5_pi": 3,
+  "rank5_unique_minimum_cover": [
+    1,
+    2
+  ],
+  "rank5_TF": false,
+  "cone_control_vertices": 7,
+  "cone_control_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "cone_control_triangles": [
+    [
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      2,
+      6
+    ],
+    [
+      0,
+      3,
+      6
+    ],
+    [
+      1,
+      4,
+      6
+    ],
+    [
+      1,
+      5,
+      6
+    ]
+  ],
+  "explicit_sufficient_size_control": {
+    "L": 1,
+    "q": 7680,
+    "N": 3478923509760000,
+    "m0_over_N": [
+      6103350045860510412409444042286824110574411738867826688000001,
+      95364844466570749315602737269530291244892160000000000000000
+    ],
+    "comment": "Parameter inequality only; not a literal sampled hypergraph or graph."
+  },
+  "checker_sha256": "8db32f7c41720de465c732550905d8128293c8cfd12bcc894981658c2c54efab",
+  "frozen_input_hashes": {
+    "notes/binary_tf_cone_decoration_obstruction.md": "db3a479a74064b0038274cefc0b64bc9356e79d5dfd37706eb89221fb75c7a16",
+    "evidence/binary_tf/cut_obstruction_input.md": "2ec94c291275ae6d02628ffd227d2acd9bb2c3eee638a1369c40bd8fc053ac1b",
+    "checks/binary_tf_rank5_control.py": "8f8bc5d937a632ab43262951c648f34963fe06dee642a1bcb5cfcfd274cd2ef9",
+    "evidence/binary_tf/rank5_control.json": "6a04d48869a2b10b996e6ad6c1d4bd1871302c9b62f52121bdd8ed335baecde6"
+  }
+}

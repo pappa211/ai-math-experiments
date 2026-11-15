@@ -1,0 +1,1634 @@
+{
+  "both_active_states": 35,
+  "finished_utc": "2026-11-14T19:34:02.751078+00:00",
+  "limitations": [
+    "External-page multiplicities collapse to a presence bit because an external tip cannot create an edge intersection between pages on these two disjoint bases.",
+    "All internal pages forced by the literal cross matrix are included.",
+    "Surviving the local necessary condition does not assert global maximum packing.",
+    "The all-size functional-component argument is an ordinary proof, not this finite check."
+  ],
+  "records": [
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 0
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        1
+      ],
+      "mask": 0
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        1,
+        0
+      ],
+      "mask": 0
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "empty",
+      "cross_edges": [],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 0,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 1
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        1
+      ],
+      "mask": 1
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        1,
+        0
+      ],
+      "mask": 1
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "forbidden",
+      "cross_edges": [
+        [
+          0,
+          2
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 1,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 2
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        1
+      ],
+      "mask": 2
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        1,
+        0
+      ],
+      "mask": 2
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "forbidden",
+      "cross_edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 2,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 3
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        1
+      ],
+      "mask": 3
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "directed_star",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        0
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 3,
+      "right_tips": [
+        0
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "directed_star",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 3,
+      "right_tips": [
+        0,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 4
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        1
+      ],
+      "mask": 4
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        1,
+        0
+      ],
+      "mask": 4
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "forbidden",
+      "cross_edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 4,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 5
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "directed_star",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "external_flags": [
+        0,
+        1
+      ],
+      "left_tips": [
+        2
+      ],
+      "mask": 5,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        1,
+        0
+      ],
+      "mask": 5
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "directed_star",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        2,
+        4
+      ],
+      "mask": 5,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 6
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        1
+      ],
+      "mask": 6
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        1,
+        0
+      ],
+      "mask": 6
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "forbidden",
+      "cross_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 6,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "external_flags": [
+        0,
+        0
+      ],
+      "left_tips": [
+        2
+      ],
+      "mask": 7,
+      "right_tips": [
+        0
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 2,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "external_flags": [
+        0,
+        1
+      ],
+      "left_tips": [
+        2
+      ],
+      "mask": 7,
+      "right_tips": [
+        0,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 0
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "external_flags": [
+        1,
+        0
+      ],
+      "left_tips": [
+        2,
+        4
+      ],
+      "mask": 7,
+      "right_tips": [
+        0
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 2,
+          "right_tip": 5
+        },
+        {
+          "append_rim": [
+            1,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 0
+        },
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        2,
+        4
+      ],
+      "mask": 7,
+      "right_tips": [
+        0,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 8
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        1
+      ],
+      "mask": 8
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        1,
+        0
+      ],
+      "mask": 8
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            3
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "forbidden",
+      "cross_edges": [
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 8,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 9
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        1
+      ],
+      "mask": 9
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        1,
+        0
+      ],
+      "mask": 9
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "forbidden",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 9,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 10
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "directed_star",
+      "cross_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        0,
+        1
+      ],
+      "left_tips": [
+        3
+      ],
+      "mask": 10,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        1,
+        0
+      ],
+      "mask": 10
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "directed_star",
+      "cross_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        3,
+        4
+      ],
+      "mask": 10,
+      "right_tips": [
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        0,
+        0
+      ],
+      "left_tips": [
+        3
+      ],
+      "mask": 11,
+      "right_tips": [
+        0
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 3,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        0,
+        1
+      ],
+      "left_tips": [
+        3
+      ],
+      "mask": 11,
+      "right_tips": [
+        0,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            3
+          ],
+          "left_tip": 4,
+          "right_tip": 0
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        0
+      ],
+      "left_tips": [
+        3,
+        4
+      ],
+      "mask": 11,
+      "right_tips": [
+        0
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 3,
+          "right_tip": 5
+        },
+        {
+          "append_rim": [
+            1,
+            3
+          ],
+          "left_tip": 4,
+          "right_tip": 0
+        },
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        3,
+        4
+      ],
+      "mask": 11,
+      "right_tips": [
+        0,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        0
+      ],
+      "mask": 12
+    },
+    {
+      "both_active": false,
+      "external_flags": [
+        0,
+        1
+      ],
+      "mask": 12
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "directed_star",
+      "cross_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        0
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 12,
+      "right_tips": [
+        1
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "directed_star",
+      "cross_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        4
+      ],
+      "mask": 12,
+      "right_tips": [
+        1,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        0,
+        0
+      ],
+      "left_tips": [
+        2
+      ],
+      "mask": 13,
+      "right_tips": [
+        1
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            3
+          ],
+          "left_tip": 2,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        0,
+        1
+      ],
+      "left_tips": [
+        2
+      ],
+      "mask": 13,
+      "right_tips": [
+        1,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 1
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        0
+      ],
+      "left_tips": [
+        2,
+        4
+      ],
+      "mask": 13,
+      "right_tips": [
+        1
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            3
+          ],
+          "left_tip": 2,
+          "right_tip": 5
+        },
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 1
+        },
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        2,
+        4
+      ],
+      "mask": 13,
+      "right_tips": [
+        1,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        0,
+        0
+      ],
+      "left_tips": [
+        3
+      ],
+      "mask": 14,
+      "right_tips": [
+        1
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            2
+          ],
+          "left_tip": 3,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        0,
+        1
+      ],
+      "left_tips": [
+        3
+      ],
+      "mask": 14,
+      "right_tips": [
+        1,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 4,
+          "right_tip": 1
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        0
+      ],
+      "left_tips": [
+        3,
+        4
+      ],
+      "mask": 14,
+      "right_tips": [
+        1
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            2
+          ],
+          "left_tip": 3,
+          "right_tip": 5
+        },
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 4,
+          "right_tip": 1
+        },
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "P4_mutual",
+      "cross_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        3,
+        4
+      ],
+      "mask": 14,
+      "right_tips": [
+        1,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [],
+      "both_active": true,
+      "classification": "C4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        0,
+        0
+      ],
+      "left_tips": [
+        2,
+        3
+      ],
+      "mask": 15,
+      "right_tips": [
+        0,
+        1
+      ],
+      "survives_two_page_test": true
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 2,
+          "right_tip": 5
+        },
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 3,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "C4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        0,
+        1
+      ],
+      "left_tips": [
+        2,
+        3
+      ],
+      "mask": 15,
+      "right_tips": [
+        0,
+        1,
+        5
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            1,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 0
+        },
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 1
+        }
+      ],
+      "both_active": true,
+      "classification": "C4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        0
+      ],
+      "left_tips": [
+        2,
+        3,
+        4
+      ],
+      "mask": 15,
+      "right_tips": [
+        0,
+        1
+      ],
+      "survives_two_page_test": false
+    },
+    {
+      "augmentation_witnesses": [
+        {
+          "append_rim": [
+            0,
+            3
+          ],
+          "left_tip": 2,
+          "right_tip": 5
+        },
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 3,
+          "right_tip": 5
+        },
+        {
+          "append_rim": [
+            1,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 0
+        },
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 1
+        },
+        {
+          "append_rim": [
+            0,
+            2
+          ],
+          "left_tip": 4,
+          "right_tip": 5
+        }
+      ],
+      "both_active": true,
+      "classification": "C4_mutual",
+      "cross_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "external_flags": [
+        1,
+        1
+      ],
+      "left_tips": [
+        2,
+        3,
+        4
+      ],
+      "mask": 15,
+      "right_tips": [
+        0,
+        1,
+        5
+      ],
+      "survives_two_page_test": false
+    }
+  ],
+  "script_sha256": "4aae70c7de79ba700144552776bdc8457b6cd2c1a4d490f3d4d0b577f9127e51",
+  "started_utc": "2026-11-14T19:34:02.750805+00:00",
+  "states": 64,
+  "status": "PASS",
+  "surviving_states": 10
+}

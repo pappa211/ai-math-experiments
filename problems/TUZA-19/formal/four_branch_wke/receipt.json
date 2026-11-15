@@ -1,0 +1,262 @@
+{
+  "status": "PASS_FINITE_PROOF_BUNDLE",
+  "completed_utc": "2026-11-15T06:10:53.987860+00:00",
+  "scope": "128 separately compiled finite certificate/domain theorems plus separate state-enumerator and schedule proofs. No monolithic universal theorem, all-size WKE theorem or core localization formalization.",
+  "input_note_sha256": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99",
+  "input_data_sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+  "canonical_records": 5375,
+  "raw_state_vectors": 15756,
+  "segments": 128,
+  "per_branch_records": {
+    "1": 0,
+    "2": 0,
+    "3": 10,
+    "4": 5365
+  },
+  "certificate_axioms": "none for all128 Chunk.correct theorems",
+  "enumerator_axioms": {
+    "mem_vectors_iff": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "vectors_add": [
+      "propext",
+      "Quot.sound"
+    ],
+    "vectors_length": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "negative_controls": [
+    {
+      "case": "MissingRow",
+      "expected_rejection": true,
+      "returncode": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/reject_missingrow.stdout"
+    },
+    {
+      "case": "EmptyCover",
+      "expected_rejection": true,
+      "returncode": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/reject_emptycover.stdout"
+    },
+    {
+      "case": "RepeatedMatching",
+      "expected_rejection": true,
+      "returncode": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/reject_repeatedmatching.stdout"
+    }
+  ],
+  "accepted_command_count": 132,
+  "accepted_peak_RSS_bytes": 1781858304,
+  "accepted_max_command_seconds": 4.864308208008879,
+  "all_compiler_commands_time_limited_seconds": 240,
+  "all_compiler_commands_serial": true,
+  "configured_max_Lean_memory_MiB": 2200,
+  "failed_attempts": [
+    {
+      "command": [
+        "/usr/bin/time",
+        "-l",
+        "lean",
+        "-M",
+        "2200",
+        "-j",
+        "1",
+        "Core.lean",
+        "-o",
+        "Core.olean"
+      ],
+      "cwd": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke",
+      "started_utc": "2026-11-15T05:50:26.491998+00:00",
+      "seconds": 2.6015731670049718,
+      "returncode": 1,
+      "timeout": false,
+      "memory_limit_MiB": 2200,
+      "threads": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/core_initial.stdout",
+      "stderr": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/core_initial.stderr",
+      "observed_RSS_bytes": 673497088
+    },
+    {
+      "command": [
+        "/usr/bin/time",
+        "-l",
+        "lean",
+        "-M",
+        "2200",
+        "-j",
+        "1",
+        "Domain.lean",
+        "-o",
+        "Domain.olean"
+      ],
+      "cwd": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke",
+      "started_utc": "2026-11-15T05:56:58.738934+00:00",
+      "seconds": 0.26625775000138674,
+      "returncode": 1,
+      "timeout": false,
+      "memory_limit_MiB": 2200,
+      "threads": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/domain_initial.stdout",
+      "stderr": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/domain_initial.stderr",
+      "observed_RSS_bytes": 661700608
+    },
+    {
+      "command": [
+        "/usr/bin/time",
+        "-l",
+        "lean",
+        "-M",
+        "2200",
+        "-j",
+        "1",
+        "Assembly.lean",
+        "-o",
+        "Assembly.olean"
+      ],
+      "cwd": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke",
+      "started_utc": "2026-11-15T05:57:42.839602+00:00",
+      "seconds": 13.998305667002569,
+      "returncode": 1,
+      "timeout": false,
+      "memory_limit_MiB": 2200,
+      "threads": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/assembly_initial.stdout",
+      "stderr": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/assembly_initial.stderr",
+      "observed_RSS_bytes": 3644030976
+    },
+    {
+      "command": [
+        "/usr/bin/time",
+        "-l",
+        "lean",
+        "-M",
+        "1200",
+        "-j",
+        "1",
+        "Assembly.lean",
+        "-o",
+        "Assembly.olean"
+      ],
+      "cwd": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke",
+      "started_utc": "2026-11-15T06:00:03.142053+00:00",
+      "seconds": 13.834071207995294,
+      "returncode": 1,
+      "timeout": false,
+      "memory_limit_MiB": 1200,
+      "threads": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/assembly_conjunction.stdout",
+      "stderr": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/assembly_conjunction.stderr",
+      "observed_RSS_bytes": 4340842496
+    },
+    {
+      "command": [
+        "/usr/bin/time",
+        "-l",
+        "lean",
+        "-M",
+        "1500",
+        "-j",
+        "1",
+        "Coverage.lean",
+        "-o",
+        "Coverage.olean"
+      ],
+      "cwd": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke",
+      "started_utc": "2026-11-15T06:04:16.289286+00:00",
+      "seconds": 13.850382707998506,
+      "returncode": 1,
+      "timeout": false,
+      "memory_limit_MiB": 1500,
+      "threads": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/coverage_final.stdout",
+      "stderr": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/coverage_final.stderr",
+      "observed_RSS_bytes": 3799465984
+    },
+    {
+      "command": [
+        "/usr/bin/time",
+        "-l",
+        "lean",
+        "-M",
+        "800",
+        "-j",
+        "1",
+        "ScheduleProbe.lean",
+        "-o",
+        "ScheduleProbe.olean"
+      ],
+      "cwd": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke",
+      "started_utc": "2026-11-15T06:06:02.764744+00:00",
+      "seconds": 0.2699297499930253,
+      "returncode": 1,
+      "timeout": false,
+      "memory_limit_MiB": 800,
+      "threads": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/schedule_probe.stdout",
+      "stderr": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/schedule_probe.stderr",
+      "observed_RSS_bytes": 657850368
+    },
+    {
+      "command": [
+        "/usr/bin/time",
+        "-l",
+        "lean",
+        "-M",
+        "1200",
+        "-j",
+        "1",
+        "Domain.lean",
+        "-o",
+        "Domain.olean"
+      ],
+      "cwd": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke",
+      "started_utc": "2026-11-15T06:07:15.379991+00:00",
+      "seconds": 0.26044104200263973,
+      "returncode": 1,
+      "timeout": false,
+      "memory_limit_MiB": 1200,
+      "threads": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/domain_algebraic.stdout",
+      "stderr": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/domain_algebraic.stderr",
+      "observed_RSS_bytes": 663519232
+    },
+    {
+      "command": [
+        "/usr/bin/time",
+        "-l",
+        "lean",
+        "-M",
+        "1200",
+        "-j",
+        "1",
+        "Coverage.lean",
+        "-o",
+        "Coverage.olean"
+      ],
+      "cwd": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke",
+      "started_utc": "2026-11-15T06:07:42.164893+00:00",
+      "seconds": 0.4501858750008978,
+      "returncode": 1,
+      "timeout": false,
+      "memory_limit_MiB": 1200,
+      "threads": 1,
+      "stdout": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/coverage_algebraic.stdout",
+      "stderr": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/formal/four_branch_wke/logs/coverage_algebraic.stderr",
+      "observed_RSS_bytes": 691863552
+    }
+  ],
+  "failed_peak_RSS_bytes": 4340842496,
+  "memory_scope": "Lean -M is an allocation setting, not an OS hard RSS limit. Failed monolithic/naive-normalization attempts exceeded the nominal RSS size and are explicitly not accepted. Successful accepted checks fit below2200MiB.",
+  "no_new_axioms_or_admissions": true,
+  "native_decide_used": false,
+  "dependencies": "installed Lean Std/core only",
+  "all_size_WKE_formalized": false,
+  "core_localization_formalized": false,
+  "original_research_cutoff": "2026-11-15T09:23:58Z",
+  "requested_controls": "Astra / Ultra; actual serving identity and applied controls not independently exposed",
+  "header_connection": "Each compiled segment definition has the literal header recorded by Coverage; this cross-file correspondence is checked here without a monolithic Lean import."
+}

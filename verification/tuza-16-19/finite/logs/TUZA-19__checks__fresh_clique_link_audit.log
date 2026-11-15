@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-15T14:54:12.341892+00:00",
+  "host": "Darwin",
+  "python": "3.12.12",
+  "producer_code_imported": false,
+  "finite_scope": "Fixed CP5 positive certificates only; no SAT or graph search",
+  "counts": {
+    "vertices": 10,
+    "edges": 40,
+    "triangles": 80,
+    "base_packings": 3,
+    "cycles": 370,
+    "two_edge_pairs": 780,
+    "TF_covers": 80,
+    "link_distributions": 10,
+    "cliques": {
+      "3": 80,
+      "4": 80,
+      "5": 32
+    }
+  },
+  "negative_controls": {
+    "duplicate_triangle_rejected": true,
+    "wrong_state_probability_rejected": true
+  },
+  "derived_numbers": {
+    "nu": 12,
+    "tau": 16,
+    "rho": "40/3",
+    "gap": "4/3"
+  },
+  "ordinary_dependencies": "nu upper bound by degree parity; tau lower by Mantel equality; amplification reviewed in prose",
+  "input_sha256": "a27c52c171bb0dcade1ce16678484c61e90dc1e5679643bd606feb7b911e6156",
+  "checker_sha256": "c2c1cd33f294f60ca2fb82bc065cf7399db33d55106a9585f6a6c2b8a3292d81"
+}

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-03T23:24:37.827840+00:00",
+  "reviewer": "fresh_critic; independent context, same campaign; no producer code read/imported",
+  "source_hashes": {
+    "notes/C_FROZEN_PROOF.md": "aaa75c165295bd04bf2cd712bc171c34f871295a9fe9c14581a140adaa4cc1c0",
+    "notes/B_RESULTS.md": "8a18efb3ebd8283b075d12bf9c52dd055a7437841d7c844a69e4eb06e50d4d54",
+    "notes/CONTROL_PROOFS.md": "227842494eae74dc27ab5dcefe559b5bb680665f4fb7516e0afddafdc66e0cb0",
+    "notes/A_RESULTS.md": "2f77a896f8af78175dc0fef9222ea27a41fa886e62f7adbf484b1cf8e5725c77",
+    "evidence/controls.json": "b2ac5908a241deef5794c1e826a7f347968fb183adfae384a0573637cb4393a6",
+    "evidence/k10_k11.json": "ca979b84cac81838c6d9369ec5428f2e10cb3f7eb2a538bef36ff042e1d2f312",
+    "evidence/c_affine_diagnostic.json": "4ad75921634196993d4d957f38f7967fec65708f46ad433cb9892a0b09dc835b",
+    "checks/b_compression_results.json": "ceb154573416b62d4385a1096bb6a541e7ca7228b0006f99904cb203f4958c1d",
+    "notes/A_FOURCUT_WITNESS.json": "ee14497fb07441219e97f9a6779de9976bfbd66a7505eaabbaf551dbee65c2da",
+    "notes/A_CONTROL_CERTIFICATES.json": "db8f101fa96996cd51f7dd0d3f52191323a52265f84f8ff95e95102fc6f0820c",
+    "sources/c_primary/krivelevich_1995.pdf": "1c2a2c4fe55d08cff23ccd080bacb4d13b79d391f5329fda4197e974d64e82d1",
+    "sources/c_primary/yuster_fracpack.pdf": "b05c57063641aa4f663bcf53a87aec98e0501a4c4876b75db1f147b9d9353ccd"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "lane": "packing_routes",
+  "status": "frozen_no_active_research",
+  "utc": "2026-11-15T03:03:49.460035+00:00",
+  "mission_start": "2026-11-15T01:53:58Z",
+  "research_cutoff": "2026-11-15T09:23:58Z",
+  "hard_deadline": "2026-11-15T09:53:58Z",
+  "workspace": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19",
+  "artifacts": {
+    "checks/packing_routes_concentration.py": {
+      "sha256": "221663ad68806a0055ba0f0f36f510b0b0f982cd78693fdc228d9be24e76f2b8",
+      "bytes": 4375
+    },
+    "checks/packing_routes_concentration_witness.py": {
+      "sha256": "a80b127c7e5e967992e84891e41c086028f6e82400505e8ce4b6fbd03a17de87",
+      "bytes": 7627
+    },
+    "checks/packing_routes_old_block_selection.py": {
+      "sha256": "bfcaf62a649ba2f9f00cb13cbd26c1e3b02f64348e403f264c6a945bff81a852",
+      "bytes": 3298
+    },
+    "checks/packing_routes_plateau.py": {
+      "sha256": "b7a59471b90a50675ad14311da8867186085d96f7d4a3132547f4b6484bb92f9",
+      "bytes": 5304
+    },
+    "checks/packing_routes_rotation_verify.py": {
+      "sha256": "2caa5d90806f845360be955a2d974037b98f963cd015d3b910a00dbecb55821a",
+      "bytes": 5180
+    },
+    "evidence/packing_routes/concentration_corpus.json": {
+      "sha256": "a50a813aa1238899ffc24575c5ba618d48ba62f2ebeaea48d9021bba2315f858",
+      "bytes": 756
+    },
+    "evidence/packing_routes/concentration_manifest.json": {
+      "sha256": "fbba31d0d9caa42cb6cdd4becb8c0c7f06bd73b7ee1c5fe230e127336c676ce3",
+      "bytes": 370
+    },
+    "evidence/packing_routes/concentration_witness.json": {
+      "sha256": "d3984786baa2cfd303eb917feb7c3972ab48c44853a8f2578933780741388a20",
+      "bytes": 51319
+    },
+    "evidence/packing_routes/old_block_Fmax_Hall.json": {
+      "sha256": "a83c162659a4801ac755f8f92ce037ee1b394698cc3fedb4d5cf380f1970dd5b",
+      "bytes": 61440
+    },
+    "evidence/packing_routes/page_rotation_manifest.json": {
+      "sha256": "b382c725392dc8626f1ac58423f593a7d2bb40ef6871c0300254c5a5e3228a8a",
+      "bytes": 208
+    },
+    "evidence/packing_routes/page_rotation_verified.json": {
+      "sha256": "e3439c0942bc56afedfd9cd96001336f83f20fa7addda7d13926d38399314520",
+      "bytes": 217907
+    },
+    "evidence/packing_routes/plateau_corpus.json": {
+      "sha256": "28309da36815c57d3d7c60b74cfed2d44757c40755eb634949c780a4a33e8369",
+      "bytes": 1208
+    },
+    "notes/packing_routes_concentration_addendum.md": {
+      "sha256": "e5ba784b72a1f57b6cbf561c2ad98d269a761f04b77853abcd13e4cc817f43a7",
+      "bytes": 2049
+    },
+    "notes/packing_routes_concentration_obstruction.md": {
+      "sha256": "7faef08e207c5ef9dbfd58cc3b42820bb42012a451ce9932a7f68e8b598296c4",
+      "bytes": 12940
+    },
+    "notes/packing_routes_log.md": {
+      "sha256": "4246ca8be3f1f06e7a64be441c13aab18874bddbef0a693314eba817beb69dc5",
+      "bytes": 13092
+    },
+    "notes/packing_routes_page_rotation.md": {
+      "sha256": "38d665979b25527e5adb983e1d42773ba2f96a4ca98b427e99eceedd918adc10",
+      "bytes": 9290
+    },
+    "notes/packing_routes_private_fibre_gate.md": {
+      "sha256": "cee4449424acb00688b02b496b02afa6d6bd3aa41fe078dd629e3e42e73a0b98",
+      "bytes": 8981
+    }
+  },
+  "remaining_obligation": "Boundary-compatible integral cover transfer for coordinated mixed private-page rotations; no unrestricted proof/counterexample."
+}

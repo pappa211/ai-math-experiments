@@ -1,0 +1,68 @@
+{
+  "access_utc": "2026-11-03T23:16:14.856826+00:00",
+  "historical_protection": "Read-only by convention and Git frozen-object reads; hashes detect changes, not OS-enforced protection.",
+  "public_commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+  "files": [
+    {
+      "kind": "pinned_public_snapshot",
+      "path": "problems/TUZA-01/research-notes/INDEPENDENT_DENSITY_AUDIT.md",
+      "destination": "sources/c_primary/INDEPENDENT_DENSITY_AUDIT.md",
+      "pinned_sha256": "0ca23eb69978373fb5c1bb01976211b93fcac65abcace625a1ae24c63d623a8b",
+      "checkout_before_sha256": "0ca23eb69978373fb5c1bb01976211b93fcac65abcace625a1ae24c63d623a8b",
+      "snapshot_after_sha256": "0ca23eb69978373fb5c1bb01976211b93fcac65abcace625a1ae24c63d623a8b",
+      "checkout_after_sha256": "0ca23eb69978373fb5c1bb01976211b93fcac65abcace625a1ae24c63d623a8b",
+      "checkout_unchanged": true,
+      "snapshot_matches_pinned": true
+    },
+    {
+      "kind": "pinned_public_snapshot",
+      "path": "papers/tuza-further-investigations/LITERATURE_RECHECK.md",
+      "destination": "sources/c_primary/LITERATURE_RECHECK.md",
+      "pinned_sha256": "1b2739800a9c5bb0d364d3441b4b6df4cf8c658bfc41c288f18e520321891acc",
+      "checkout_before_sha256": "1b2739800a9c5bb0d364d3441b4b6df4cf8c658bfc41c288f18e520321891acc",
+      "snapshot_after_sha256": "1b2739800a9c5bb0d364d3441b4b6df4cf8c658bfc41c288f18e520321891acc",
+      "checkout_after_sha256": "1b2739800a9c5bb0d364d3441b4b6df4cf8c658bfc41c288f18e520321891acc",
+      "checkout_unchanged": true,
+      "snapshot_matches_pinned": true
+    },
+    {
+      "kind": "primary_download",
+      "url": "https://www.math.tau.ac.il/~krivelev/2.pdf",
+      "destination": "sources/c_primary/krivelevich_1995.pdf",
+      "sha256": "1c2a2c4fe55d08cff23ccd080bacb4d13b79d391f5329fda4197e974d64e82d1",
+      "bytes": 319966,
+      "snapshot_after_sha256": "1c2a2c4fe55d08cff23ccd080bacb4d13b79d391f5329fda4197e974d64e82d1",
+      "download_unchanged": true
+    },
+    {
+      "kind": "primary_download",
+      "url": "https://math.haifa.ac.il/raphy/papers/fracpack.pdf",
+      "destination": "sources/c_primary/yuster_fracpack.pdf",
+      "sha256": "b05c57063641aa4f663bcf53a87aec98e0501a4c4876b75db1f147b9d9353ccd",
+      "bytes": 154359,
+      "snapshot_after_sha256": "b05c57063641aa4f663bcf53a87aec98e0501a4c4876b75db1f147b9d9353ccd",
+      "download_unchanged": true
+    },
+    {
+      "kind": "primary_download",
+      "url": "https://arxiv.org/pdf/1408.4870v1",
+      "destination": "sources/c_primary/baron_kahn_1408.4870v1.pdf",
+      "sha256": "9529175b36a47b4c455cdd4fe39932fc4274252788ed3b201c7ca6c8bb81b6da",
+      "bytes": 285290,
+      "snapshot_after_sha256": "9529175b36a47b4c455cdd4fe39932fc4274252788ed3b201c7ca6c8bb81b6da",
+      "download_unchanged": true
+    },
+    {
+      "kind": "primary_download",
+      "url": "https://arxiv.org/pdf/1308.2211v3",
+      "destination": "sources/c_primary/puleo_1308.2211v3.pdf",
+      "sha256": "822c158830f76c61edbb3a32e308b113059318718129c6ee8380b3e91fb3d241",
+      "bytes": 313471,
+      "snapshot_after_sha256": "822c158830f76c61edbb3a32e308b113059318718129c6ee8380b3e91fb3d241",
+      "download_unchanged": true
+    }
+  ],
+  "proof_frozen_utc": "2026-11-03T23:21:57.073534+00:00",
+  "after_check_utc": "2026-11-03T23:23:00.540149+00:00",
+  "status": "PASS"
+}

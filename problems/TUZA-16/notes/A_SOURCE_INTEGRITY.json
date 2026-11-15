@@ -1,0 +1,62 @@
+[
+  {
+    "source_commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-01/manuscript/TuzaTriangleDeletion.tex",
+    "snapshot": "sources/route_a/problems/TUZA-01/manuscript/TuzaTriangleDeletion.tex",
+    "sha256_before": "8eae334bc6a90f21dbf8a340ca6c8b538db172d797b6172e9f912f9438c243b0",
+    "historical_worktree_sha256_before": "8eae334bc6a90f21dbf8a340ca6c8b538db172d797b6172e9f912f9438c243b0",
+    "protection": "Read-only convention and hash detection, not OS-enforced protection",
+    "sha256_after": "8eae334bc6a90f21dbf8a340ca6c8b538db172d797b6172e9f912f9438c243b0",
+    "snapshot_sha256_after": "8eae334bc6a90f21dbf8a340ca6c8b538db172d797b6172e9f912f9438c243b0",
+    "historical_worktree_sha256_after": "8eae334bc6a90f21dbf8a340ca6c8b538db172d797b6172e9f912f9438c243b0",
+    "unchanged": true
+  },
+  {
+    "source_commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-02/research/proof/ESSENTIAL_EDGE_RESTORATION.md",
+    "snapshot": "sources/route_a/problems/TUZA-02/research/proof/ESSENTIAL_EDGE_RESTORATION.md",
+    "sha256_before": "5e8c9c9c8b96464eb71b1bd8586621f8792e8d8973c285ce4e08375303ce25f1",
+    "historical_worktree_sha256_before": "5e8c9c9c8b96464eb71b1bd8586621f8792e8d8973c285ce4e08375303ce25f1",
+    "protection": "Read-only convention and hash detection, not OS-enforced protection",
+    "sha256_after": "5e8c9c9c8b96464eb71b1bd8586621f8792e8d8973c285ce4e08375303ce25f1",
+    "snapshot_sha256_after": "5e8c9c9c8b96464eb71b1bd8586621f8792e8d8973c285ce4e08375303ce25f1",
+    "historical_worktree_sha256_after": "5e8c9c9c8b96464eb71b1bd8586621f8792e8d8973c285ce4e08375303ce25f1",
+    "unchanged": true
+  },
+  {
+    "source_commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-03/CONSOLIDATED_MANUSCRIPT.md",
+    "snapshot": "sources/route_a/problems/TUZA-03/CONSOLIDATED_MANUSCRIPT.md",
+    "sha256_before": "146abc5ab2d83efc0991f6ca0b2e3b8890235e02cb5ed7530145434ff9b95315",
+    "historical_worktree_sha256_before": "146abc5ab2d83efc0991f6ca0b2e3b8890235e02cb5ed7530145434ff9b95315",
+    "protection": "Read-only convention and hash detection, not OS-enforced protection",
+    "sha256_after": "146abc5ab2d83efc0991f6ca0b2e3b8890235e02cb5ed7530145434ff9b95315",
+    "snapshot_sha256_after": "146abc5ab2d83efc0991f6ca0b2e3b8890235e02cb5ed7530145434ff9b95315",
+    "historical_worktree_sha256_after": "146abc5ab2d83efc0991f6ca0b2e3b8890235e02cb5ed7530145434ff9b95315",
+    "unchanged": true
+  },
+  {
+    "source_commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-03/literature/SOURCE_AUDIT.md",
+    "snapshot": "sources/route_a/problems/TUZA-03/literature/SOURCE_AUDIT.md",
+    "sha256_before": "602cc357d46553be45d07391a29ad1e1d2366b087eacb56436b6a9d08b2ec052",
+    "historical_worktree_sha256_before": "602cc357d46553be45d07391a29ad1e1d2366b087eacb56436b6a9d08b2ec052",
+    "protection": "Read-only convention and hash detection, not OS-enforced protection",
+    "sha256_after": "602cc357d46553be45d07391a29ad1e1d2366b087eacb56436b6a9d08b2ec052",
+    "snapshot_sha256_after": "602cc357d46553be45d07391a29ad1e1d2366b087eacb56436b6a9d08b2ec052",
+    "historical_worktree_sha256_after": "602cc357d46553be45d07391a29ad1e1d2366b087eacb56436b6a9d08b2ec052",
+    "unchanged": true
+  },
+  {
+    "source_commit": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+    "path": "problems/TUZA-03/research/proof/PARAMETERIZED_RESTORATION_COMPRESSION.md",
+    "snapshot": "sources/route_a/problems/TUZA-03/research/proof/PARAMETERIZED_RESTORATION_COMPRESSION.md",
+    "sha256_before": "9575f8894c1aabd4170a9329b7efa5c6efba75429fd73bfb5851f5c0799fe872",
+    "historical_worktree_sha256_before": "9575f8894c1aabd4170a9329b7efa5c6efba75429fd73bfb5851f5c0799fe872",
+    "protection": "Read-only convention and hash detection, not OS-enforced protection",
+    "sha256_after": "9575f8894c1aabd4170a9329b7efa5c6efba75429fd73bfb5851f5c0799fe872",
+    "snapshot_sha256_after": "9575f8894c1aabd4170a9329b7efa5c6efba75429fd73bfb5851f5c0799fe872",
+    "historical_worktree_sha256_after": "9575f8894c1aabd4170a9329b7efa5c6efba75429fd73bfb5851f5c0799fe872",
+    "unchanged": true
+  }
+]

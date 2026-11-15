@@ -1,0 +1,9 @@
+--- frozen/review/star_fresh_verify.py
++++ star_fresh_verify_replay.py
+@@ -260,5 +260,5 @@
+           'strict_local_examples': STRICT_LOCAL_EXAMPLES,
+           'elapsed_seconds': round(time.time()-START, 6),
+           'script_sha256': hashlib.sha256(pathlib.Path(__file__).read_bytes()).hexdigest()}
+-pathlib.Path('SCRATCH_OUTPUT/tuza18_star_fresh_verifier.json').write_text(json.dumps(result, indent=2)+'\n')
++pathlib.Path(__file__).resolve().with_name('checker_result.json').write_text(json.dumps(result, indent=2)+'\n')
+ print(json.dumps(result, indent=2))

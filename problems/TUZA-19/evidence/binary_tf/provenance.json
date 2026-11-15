@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-11-15T04:18:49.334490+00:00",
+  "host": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "mission_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "serving_metadata": "Exact serving model and effort not exposed; no serving assertion made.",
+  "result": "Every simple binary geometry restriction of rank at most four has pi=tau, without TF; complete rank-four census agrees.",
+  "complete_domain": "All32768 subsets of15 nonzero vectors in F2^4;14348907 exact parity submask states; no higher-rank search.",
+  "counts": {
+    "triangle_free": 3049,
+    "nonvacuous_TF": 319,
+    "TF_total": 3368,
+    "parity_gaps": 0
+  },
+  "verification": "Ordinary structural proof plus complete exact finite DP and parity enumeration; independent fresh review not yet claimed; no Lean or human review.",
+  "all_rank_status": "H-BTF remains unresolved. Rank-four proof does not use TF and depends on completeness of a five-circuit cap in the15-point ambient geometry.",
+  "nonbinary_control": "AG(2,3) TF with tau5 pi9, supplied by root and reconstructed; full binary incidence rank proves it has no nonzero binary representation.",
+  "execution": "Local owner Darwin, pinned Python standard library, no remote execution or publication.",
+  "hashes": {
+    "notes/binary_tf_rank4.md": "0e10b5f79cca524507afb0a88646d55c228862c2c44403ada21dbc3c6876fe7f",
+    "checks/binary_tf_rank4.py": "e875a60f14ed33642346f22e3f289d347a32c56f84f975e547bebdf31cc55ff6",
+    "evidence/binary_tf/rank4_summary.json": "e22c16e05c20c6c6dfe46d1b909ea7e557934a19aa0ac0395ea6e13fb8690c05",
+    "evidence/binary_tf/rank4_exact_table.json": "20b96d185138a9e5fe8eef8c7dd1100cf758a95cdc5b9537d7de196cd68663ad"
+  }
+}

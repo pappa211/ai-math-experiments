@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-11-15T08:01:42.367389+00:00",
+  "host": "Darwin",
+  "note": "notes/rainbow_mixed_cover_literature_screen.md",
+  "note_sha256": "938e5a038d055018449d460a56060e748cffa709a2f79f57649394af225b4b57",
+  "status": "Target unresolved by bounded primary/structural screen",
+  "proved_here": [
+    "Elementary bipartite special case with color classes≤2",
+    "Exact actual-graph resource reduction, including automatic triangle-freeness"
+  ],
+  "not_proved": [
+    "General mixed-cover inequality",
+    "Cover-sensitive matching-complex connectivity estimate",
+    "Availability of exact-one low-codegree red edge per triangle"
+  ],
+  "no_graph_search": true,
+  "no_Lean": true,
+  "clock": {
+    "start": "2026-11-15T01:53:58Z",
+    "research_cutoff": "2026-11-15T09:23:58Z",
+    "hard_deadline": "2026-11-15T09:53:58Z"
+  }
+}

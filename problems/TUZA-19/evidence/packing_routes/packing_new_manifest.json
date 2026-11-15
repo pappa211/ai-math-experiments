@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-15T04:45:26.753613+00:00",
+  "status": "exact_auxiliary_gate_refuted; independent_review_pending",
+  "artifacts": {
+    "notes/packing_new_delta_y_gate.md": "ac32c0f5d76207fb644b5f82bf34b1d1e99ecef2015ace820eb548fd07b0c8a8",
+    "notes/packing_new_log.md": "8a6c072b0aff3ee1ae8a588e41a99aace5fbcbc6b9b7015b230f082dd073e63e",
+    "checks/packing_new_delta_y.py": "e449e690ec20d7c211fa95e0cfe372d058f1099c00b694678e6546c95f3e1af7",
+    "evidence/packing_routes/packing_new_delta_y.json": "692ce242e55d4d1b15ce08d310017f6a5999ce2e78c31447c35c8df9a9c77909"
+  },
+  "remaining_obligation": "A paid integral cover transfer allowing the necessary original parity boundary and every weighted-length-three/off-cycle-spoke constraint."
+}

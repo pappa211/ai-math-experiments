@@ -1,0 +1,8 @@
+{
+  "time_utc": "2026-11-14T19:41:21.073797+00:00",
+  "files": 37,
+  "all_transferred_hashes_match": true,
+  "late_cover_previous_sha256": "3c4cdc9519f03b32d4887907f3286e5c3ae67b445a7626835d48d800dbee2f71",
+  "late_cover_final_sha256": "9fcdea12fa9893196e7ebd81abf3c9e4ebefd27b223559300d6b5fc1c2deee9d",
+  "change": "Provenance wording only: independent continuation review, not fresh-context review. Earlier scope revision and original snapshot retained."
+}

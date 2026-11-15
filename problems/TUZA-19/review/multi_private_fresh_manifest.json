@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-15T06:34:40.003684+00:00",
+  "verdict": "ACCEPT ordinary endpoint lemma and exact arbitrary-maximum-packing cover bound; no global parameter availability claimed",
+  "requested_controls": "Astra / Ultra; actual serving controls not independently exposed",
+  "sha256": {
+    "notes/root_multi_private_integral_cover.md": "4791afd96e876088764cf13c37082e9fca23a1ee9a4f2a8ef12d84fcb324176b",
+    "review/multi_private_fresh_inputs/root_multi_private_integral_cover.md": "4791afd96e876088764cf13c37082e9fca23a1ee9a4f2a8ef12d84fcb324176b",
+    "review/multi_private_fresh_inputs/root_cksu_order3_repair.md": "a0a8b8a2c8cdf3e0c028661bef9ce51c7586b13ffaed695ea99aa02ffe2c7ab9",
+    "review/multi_private_fresh_checker.py": "679e64a3f669e4a317898b607aba355a6746b9a9c95fc71682de15e344d3d4d1",
+    "review/multi_private_fresh_audit.md": "adf2ab46cfb670247fa969caaaa09aca580f0c8009515dcde11cdc05b0cb275a",
+    "evidence/multi_private_fresh/endpoint_receipt.json": "b44870f6d6af67ea2aab568f2e7fcc6e53a4c53bd2f897a8c7efe72b8bbdc55a"
+  }
+}

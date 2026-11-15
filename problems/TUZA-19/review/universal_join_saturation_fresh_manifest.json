@@ -1,0 +1,21 @@
+{
+  "status": "ACCEPT_ORDINARY_PROOF",
+  "created_utc": "2026-11-15T07:29:13.189163+00:00",
+  "original_research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "requested_model": "Astra",
+  "requested_effort": "Ultra",
+  "actual_serving_identity": "Not independently exposed",
+  "host": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "input": {
+    "path": "notes/global_routes_universal_join_saturation.md",
+    "snapshot": "review/universal_join_saturation_fresh_inputs/global_routes_universal_join_saturation.md",
+    "sha256": "52a9dd5bcb6a43a5fc5f39fec6aa6792d70024c09e119f9a3bb8d861f8faffbb"
+  },
+  "audit": {
+    "path": "review/universal_join_saturation_fresh_audit.md",
+    "sha256": "aa5113cbd14cb167b648070483a92f2048c54ce77d9a12c158ead2a4ba6eea7b"
+  },
+  "scope": "Independent ordinary reconstruction of all quantified construction and counting claims; no producer checker/evidence, numerical search, solver, Lean or human verification.",
+  "objections": "All recorded in audit; none unresolved; no source repair required.",
+  "separate_strengthening": "Every single cross-edge deletion lowers nu exactly by one; frozen source unchanged."
+}

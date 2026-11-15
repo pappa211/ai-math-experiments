@@ -1,0 +1,16 @@
+{
+  "completed_utc": "2026-11-15T05:14:18.230589+00:00",
+  "verdict": "Core TF iff and subcubic theorem accepted; explicit TF/tie-plus-OCT-criticality qualifier required for even-b all-edge criticality statements",
+  "requested_model": "Astra",
+  "requested_reasoning": "Ultra",
+  "actual_controls": "not independently exposed",
+  "producer_code_imported": false,
+  "original_research_cutoff": "2026-11-15T09:23:58Z",
+  "sha256": {
+    "notes/global_routes_k2_join_tf.md": "e01b8f74c39c86fd4810fd4a6ad13e666441de359f708b9fd7548e0a8a5a53ef",
+    "review/k2_join_tf_fresh_inputs/global_routes_k2_join_tf.md": "e01b8f74c39c86fd4810fd4a6ad13e666441de359f708b9fd7548e0a8a5a53ef",
+    "review/k2_join_tf_fresh_checker.py": "ec62430f8bfd2caca8224acd2e593576634bc5e32bbf0abf9e783b8a59eaa4d9",
+    "review/k2_join_tf_fresh_audit.md": "c43fa9d411e6a982c7d8405d3230d63e374ced2760ad942ff2202f63de90e4c5",
+    "evidence/k2_join_tf_fresh/results.json": "ef1695927dd30081a956ae1d38f205580b083947c2525d54c17eabbc6167bd46"
+  }
+}

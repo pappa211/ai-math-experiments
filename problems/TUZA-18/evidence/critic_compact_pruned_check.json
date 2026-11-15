@@ -1,0 +1,28 @@
+{
+  "actual_triangles": 620,
+  "blocks": 155,
+  "edges": 930,
+  "edges_per_triangle_component": 6,
+  "elapsed_seconds": 0.1218174169989652,
+  "explicit_cover_size": 310,
+  "explicit_packing_size": 155,
+  "finished_utc": "2026-11-14T18:18:13.015678+00:00",
+  "global_cut_PC_lower_bound": 311,
+  "input_sha256": {
+    "apex_pruned_graph.json": "1e0889243feb72248177184d1a4e7a129bad95f11a4e36482ea88266faba2039",
+    "apex_pruned_verified.json": "9ab398f90407d910c8b25af8952df445e7a4e9fe00471c7c64d05684a39ee543",
+    "apex_pruned_voltage.json": "5d98cda5a96c663ec7545e07ea175b3b6e08531dd2c7598d57cfa41da5624bee"
+  },
+  "limitation": "All actual triangles are independently enumerated; universal cut obstruction follows the reviewed parity/local-cost proof, not enumeration of 2^155 cuts.",
+  "local_face_cut_table_cases": 64,
+  "nu_via_block_upper_bound": 155,
+  "q": 31,
+  "scope": "Refutes one global cut only; independent cuts on the 155 K4 triangle components attain 310.",
+  "script_sha256": "b2425592853598791f35f73f8e3c947e79d9827f5a795009c80524a7432f87c8",
+  "shared_edge_triangle_components": 155,
+  "started_utc": "2026-11-14T18:18:12.893926+00:00",
+  "status": "PASS",
+  "tau_via_block_lower_bound": 310,
+  "vertex_block_degree": 4,
+  "vertices": 155
+}

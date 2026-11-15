@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": [
+    "actual installed hard-link proxy resolves to native Mach-O compiler",
+    "hard-link proxy with absent pinned toolchain rejected before invocation",
+    "hard-link proxy with installed fixture resolved without invocation",
+    "symlink proxy resolved without invocation",
+    "explicit native path accepted",
+    "missing native layout rejected before invocation"
+  ],
+  "scope": "Resolver tests use inert fixtures and never execute a proxy; full compiler replay follows separately."
+}

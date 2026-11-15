@@ -1,0 +1,5 @@
+{
+  "before_sha256": "800086b46b9119f84eeeaaadaaeb182fba16154c7fc20db0094693ff401764a0",
+  "after_sha256": "6ded16c3c61ef3029e86d7c9399bac6e3090ff80e204fd50023ce0f8fc6fee0b",
+  "correction": "Explicitly say only other packed-support edges are deleted; make support-constrained minimum scope explicit"
+}

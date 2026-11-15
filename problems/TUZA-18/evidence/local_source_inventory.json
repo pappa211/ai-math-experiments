@@ -1,0 +1,204 @@
+{
+  "time_utc": "2026-11-14T20:27:31.272235+00:00",
+  "scope": "Immediate local TUZA workspaces and their latest Git identity only. Names/commit dates do not certify mathematical results. No new theorem imported; no worktree or Git mutation.",
+  "current_campaign_excluded": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18",
+  "workspaces": [
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-07-10-publication-20261101T162700Z",
+      "git_metadata": "No immediate .git entry; not recursively searched"
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-07-formalization-20261101",
+      "git_read_returncode": 0,
+      "head_record": [
+        "b0ea70388f791087da7cc9874e271fee3f973491",
+        "2026-11-01T00:49:55+01:00",
+        "Record final private proof verification closeout"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-08-cover-switch-formalization-20261101T092346Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "91abf9d73fff783a5e655376bff7cca251cfa5e9",
+        "2026-11-01T10:43:57+01:00",
+        "Record completed TUZA-08 verification and local closeout receipt"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-09-fractional-integral-20261101T112531Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "c8f70f9b9e4bad13aa1d7d77a92929af485735ee",
+        "2026-11-01T12:52:19+01:00",
+        "Close TUZA-09 private checkpoint and integrity receipts"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-10-colored-support-20261101T133200Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "ab417de08d7004aafdc34f3486d7549f4f585ddf",
+        "2026-11-01T15:02:08+01:00",
+        "Record verified clean checkpoint and final TUZA-10 receipt"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-11-15-publication-20261103T181200Z",
+      "git_metadata": "No immediate .git entry; not recursively searched"
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-11-Liu-postcloseout-20261101T231704Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "1d6b4ae2654aa53bd008ad2c85a3d4d90043ef57",
+        "2026-11-02T01:12:02+01:00",
+        "Verify Liu prior art with explicit table erratum and prove five-edge gluing corollary"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-11-independent-verification-20261101T224437Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "2fa56be0e7b8c54f50e43da8e59674d373576552",
+        "2026-11-02T00:05:49+01:00",
+        "Close independent TUZA-11 verification with clock and source-integrity receipt"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-11-open-architecture-20261101T214200Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "96b15dd5afdb195a9f752df971ce1591a58ae211",
+        "2026-11-01T23:20:12+01:00",
+        "Close TUZA-11 with source integrity, fixed-clock and local-only receipt"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-12-independent-verification-20261102T151600Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "d4d0a44292ae188a143ce6e5cd75d01fb9bf2473",
+        "2026-11-02T16:54:06+01:00",
+        "Record final private verification closeout receipt"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-12-open-discovery-20261102T125925Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "1b9ded7eaae895d225c38d5a7249ccaf80abb0dc",
+        "2026-11-02T15:46:48+01:00",
+        "Complete TUZA-12: ordering obstruction, labelled matching structure, reviewed counterexamples and local closeout"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-13-two-red-falsification-20261102T161000Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "c47bfd61c245a361e401bef38aed6cc97b984d5d",
+        "2026-11-02T17:50:03+01:00",
+        "Complete TUZA-13 exact falsification search and independent audit"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-14-two-red-proof-discovery-20261102T180843Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "c49b317e3194e955176d5f32774ee39d39398b8d",
+        "2026-11-02T19:36:26+01:00",
+        "TUZA-14: reviewed two-red exchange lemmas and exact auxiliary obstructions"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-14B-independent-verification-20261102T221028Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "637bda966ba25922ad6221cdab434f7b42ee1b63",
+        "2026-11-02T23:37:24+01:00",
+        "Normalize derived PDF extraction and seal final verification checkpoint"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-14B-neartight-20261102T185825Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "43ff4ae91f2b51ce1a70cce69e5e2290f2fc1a24",
+        "2026-11-02T21:58:03+01:00",
+        "TUZA-14B: audit near-tight evidence and prove restricted two-red bounds"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-15-equality-reductions-20261103T122135Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "973b36b8c5117f4f2ee98c28dc5957af8bbe2bb7",
+        "2026-11-03T14:40:59+01:00",
+        "Complete private TUZA-15 equality reduction research"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "LOCAL_ENVIRONMENT",
+      "name": "TUZA-15-independent-verification-20261103T141745Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "58a0cc0fd4cf5d2ca9c260b7aaa9bd168e37e679",
+        "2026-11-03T15:53:13+01:00",
+        "Complete private audit closeout evidence and snapshot scope"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-16",
+      "name": "TUZA-16-global-route-triage-20261103T231208Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "405e41c1eb24739405f4b06d8cdcd5715bb9fd13",
+        "2026-11-04T00:32:59+01:00",
+        "TUZA-16: freeze global-route triage, exact obstructions and independent checks"
+      ],
+      "git_read_error": ""
+    },
+    {
+      "workspace": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17",
+      "name": "TUZA-17-critical-core-apex-20261104T004512Z",
+      "git_read_returncode": 0,
+      "head_record": [
+        "aa0de600d7fb0cfe4134e82ad056f02e4c465eb6",
+        "2026-11-04T02:55:31+01:00",
+        "TUZA-17: freeze critical-core and apex compatibility results"
+      ],
+      "git_read_error": ""
+    }
+  ]
+}

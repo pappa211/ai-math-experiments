@@ -1,0 +1,386 @@
+{
+  "status": "PASS",
+  "host": "Darwin",
+  "input_sha256": "e01b8f74c39c86fd4810fd4a6ad13e666441de359f708b9fd7548e0a8a5a53ef",
+  "checker_sha256": "ec62430f8bfd2caca8224acd2e593576634bc5e32bbf0abf9e783b8a59eaa4d9",
+  "fixed_cases": {
+    "K2": {
+      "rim": {
+        "n": 2,
+        "m": 1,
+        "alpha": 1,
+        "b": 2,
+        "k": 0,
+        "M": 3,
+        "t": 1,
+        "q": 1,
+        "eta": 0,
+        "minimizer_excludes_each_vertex": [
+          false,
+          false
+        ],
+        "edge_deletion_parameters": {
+          "(0, 1)": {
+            "oct": 0,
+            "alpha": 2
+          }
+        },
+        "tie": true,
+        "oct_edge_critical": false,
+        "condition_3": false,
+        "alpha_J_degree_three": 0
+      },
+      "literal_join": {
+        "edges": 6,
+        "triangles": 4,
+        "tau": 2,
+        "pi": 2,
+        "minimum_covers": 3,
+        "mode_ab_omitted": 2,
+        "mode_ab_selected": 2,
+        "TF": false,
+        "full_triangle_count": 0
+      }
+    },
+    "P3": {
+      "rim": {
+        "n": 3,
+        "m": 2,
+        "alpha": 2,
+        "b": 3,
+        "k": 0,
+        "M": 4,
+        "t": 2,
+        "q": 2,
+        "eta": 0,
+        "minimizer_excludes_each_vertex": [
+          false,
+          true,
+          false
+        ],
+        "edge_deletion_parameters": {
+          "(0, 1)": {
+            "oct": 0,
+            "alpha": 2
+          },
+          "(1, 2)": {
+            "oct": 0,
+            "alpha": 2
+          }
+        },
+        "tie": true,
+        "oct_edge_critical": false,
+        "condition_3": false,
+        "alpha_J_degree_three": 0
+      },
+      "literal_join": {
+        "edges": 9,
+        "triangles": 7,
+        "tau": 3,
+        "pi": 3,
+        "minimum_covers": 4,
+        "mode_ab_omitted": 3,
+        "mode_ab_selected": 3,
+        "TF": false,
+        "full_triangle_count": 1
+      }
+    },
+    "P4": {
+      "rim": {
+        "n": 4,
+        "m": 3,
+        "alpha": 2,
+        "b": 4,
+        "k": 0,
+        "M": 5,
+        "t": 3,
+        "q": 3,
+        "eta": 0,
+        "minimizer_excludes_each_vertex": [
+          false,
+          true,
+          true,
+          false
+        ],
+        "edge_deletion_parameters": {
+          "(0, 1)": {
+            "oct": 0,
+            "alpha": 3
+          },
+          "(1, 2)": {
+            "oct": 0,
+            "alpha": 2
+          },
+          "(2, 3)": {
+            "oct": 0,
+            "alpha": 3
+          }
+        },
+        "tie": true,
+        "oct_edge_critical": false,
+        "condition_3": false,
+        "alpha_J_degree_three": 0
+      },
+      "literal_join": {
+        "edges": 12,
+        "triangles": 10,
+        "tau": 4,
+        "pi": 4,
+        "minimum_covers": 5,
+        "mode_ab_omitted": 4,
+        "mode_ab_selected": 4,
+        "TF": false,
+        "full_triangle_count": 2
+      }
+    },
+    "C4": {
+      "rim": {
+        "n": 4,
+        "m": 4,
+        "alpha": 2,
+        "b": 4,
+        "k": 0,
+        "M": 4,
+        "t": 4,
+        "q": 4,
+        "eta": 0,
+        "minimizer_excludes_each_vertex": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "edge_deletion_parameters": {
+          "(0, 1)": {
+            "oct": 0,
+            "alpha": 2
+          },
+          "(1, 2)": {
+            "oct": 0,
+            "alpha": 2
+          },
+          "(2, 3)": {
+            "oct": 0,
+            "alpha": 2
+          },
+          "(0, 3)": {
+            "oct": 0,
+            "alpha": 2
+          }
+        },
+        "tie": false,
+        "oct_edge_critical": false,
+        "condition_3": true,
+        "alpha_J_degree_three": 0
+      },
+      "literal_join": {
+        "edges": 13,
+        "triangles": 12,
+        "tau": 4,
+        "pi": 4,
+        "minimum_covers": 2,
+        "mode_ab_omitted": 4,
+        "mode_ab_selected": 5,
+        "TF": false,
+        "full_triangle_count": 0
+      }
+    },
+    "C5": {
+      "rim": {
+        "n": 5,
+        "m": 5,
+        "alpha": 2,
+        "b": 4,
+        "k": 1,
+        "M": 5,
+        "t": 5,
+        "q": 5,
+        "eta": 1,
+        "minimizer_excludes_each_vertex": [
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "edge_deletion_parameters": {
+          "(0, 1)": {
+            "oct": 0,
+            "alpha": 3
+          },
+          "(1, 2)": {
+            "oct": 0,
+            "alpha": 3
+          },
+          "(2, 3)": {
+            "oct": 0,
+            "alpha": 3
+          },
+          "(3, 4)": {
+            "oct": 0,
+            "alpha": 3
+          },
+          "(0, 4)": {
+            "oct": 0,
+            "alpha": 3
+          }
+        },
+        "tie": true,
+        "oct_edge_critical": true,
+        "condition_3": true,
+        "alpha_J_degree_three": 0
+      },
+      "literal_join": {
+        "edges": 16,
+        "triangles": 15,
+        "tau": 6,
+        "pi": 6,
+        "minimum_covers": 31,
+        "mode_ab_omitted": 6,
+        "mode_ab_selected": 6,
+        "TF": true,
+        "full_triangle_count": 15
+      }
+    },
+    "claw": {
+      "rim": {
+        "n": 4,
+        "m": 3,
+        "alpha": 3,
+        "b": 4,
+        "k": 0,
+        "M": 6,
+        "t": 2,
+        "q": 2,
+        "eta": 0,
+        "minimizer_excludes_each_vertex": [
+          true,
+          false,
+          false,
+          false
+        ],
+        "edge_deletion_parameters": {
+          "(0, 1)": {
+            "oct": 0,
+            "alpha": 3
+          },
+          "(0, 2)": {
+            "oct": 0,
+            "alpha": 3
+          },
+          "(0, 3)": {
+            "oct": 0,
+            "alpha": 3
+          }
+        },
+        "tie": false,
+        "oct_edge_critical": false,
+        "condition_3": false,
+        "alpha_J_degree_three": 1
+      },
+      "literal_join": {
+        "edges": 12,
+        "triangles": 10,
+        "tau": 3,
+        "pi": 3,
+        "minimum_covers": 1,
+        "mode_ab_omitted": 4,
+        "mode_ab_selected": 3,
+        "TF": false,
+        "full_triangle_count": 1
+      }
+    },
+    "Petersen": {
+      "rim": {
+        "n": 10,
+        "m": 15,
+        "alpha": 4,
+        "b": 7,
+        "k": 3,
+        "M": 9,
+        "t": 11,
+        "q": 11,
+        "eta": 3,
+        "minimizer_excludes_each_vertex": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "edge_deletion_parameters": {
+          "(0, 1)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(0, 4)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(0, 5)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(1, 2)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(1, 6)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(2, 3)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(2, 7)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(3, 4)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(3, 8)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(4, 9)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(5, 7)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(5, 8)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(6, 8)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(6, 9)": {
+            "oct": 2,
+            "alpha": 4
+          },
+          "(7, 9)": {
+            "oct": 2,
+            "alpha": 4
+          }
+        },
+        "tie": false,
+        "oct_edge_critical": true,
+        "condition_3": true,
+        "alpha_J_degree_three": 4
+      }
+    }
+  },
+  "scope": "Six fixed tiny joins exhaustively enumerated; one named Petersen rim subset control. No producer imports, no expanded graph search."
+}

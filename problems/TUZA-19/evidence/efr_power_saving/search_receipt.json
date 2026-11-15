@@ -1,0 +1,77 @@
+{
+  "recorded_utc": "2026-11-15T07:44:07.092688+00:00",
+  "scope": "bounded web queries plus targeted primary text/page inspection, not exhaustive",
+  "queries": [
+    "\"Tuza\" \"power-saving\"",
+    "\"Tuza\" \"power saving\" triangle",
+    "\"Tuza\" \"subquadratic\" error",
+    "\"Tuza\" \"polynomial\" \"error\"",
+    "\"Tuza\" \"additive\" \"error\" conjecture",
+    "\"Tuza\" \"Behrend\" triangle packing",
+    "\"Tuza\" \"o(n^2)\" equivalent",
+    "\"Tuza\" \"n^{2-\\epsilon}\"",
+    "\"triangle packing\" \"covering\" \"n^{2-\" additive",
+    "\"Tuza\" \"Erdos-Frankl-Rodl\"",
+    "\"Tuza conjecture\" \"error term\"",
+    "\"Tuza’s conjecture\" \"subquadratic\"",
+    "\"Tuza\" \"Ruzsa\" \"Szemerédi\" packing covering",
+    "\"Tuza\" \"2nu\" \"o(n\"",
+    "Yuster triangle packing covering asymptotic Tuza additive error n squared",
+    "\"Tuza\" \"subquadratic\"",
+    "\"Tuza\" \"additive error\"",
+    "\"Tuza\" \"Ruzsa\" \"Szemerédi\"",
+    "\"Tuza’s Conjecture is Asymptotically Tight\" arxiv",
+    "Yuster \"packing and covering\" \"o(n\" Tuza graphs",
+    "\"Tuza\" \"equivalent\" \"asymptotic\"",
+    "\"Tuza\" \"n^{2-\" \"epsilon\"",
+    "\"Tuza\" \"polynomial error\"",
+    "\"triangle\" \"packing\" \"covering\" \"power-saving\"",
+    "\"Tuza\" \"sub-quadratic\"",
+    "\"Tuza\" \"2−\" \"error\"",
+    "\"Tuza\" \"Behrend\" equivalence"
+  ],
+  "exact_corollary_located": false,
+  "originality_conclusion": "unresolved; no novelty claim",
+  "primary_sources_reviewed": [
+    {
+      "url": "https://users.renyi.hu/~p_erdos/1986-17.pdf",
+      "scope": "Theorem1.7 printed114–115; Section5 Lemma5.1 and AP construction117–118; bibliographic/title checks"
+    },
+    {
+      "url": "https://doi.org/10.1007/BF01788085",
+      "scope": "publisher metadata and abstract via indexed primary page; later DOI open failed"
+    },
+    {
+      "url": "https://math.haifa.ac.il/raphy/papers/triangrich.pdf",
+      "scope": "introduction Theorem1.3 and concluding discussion, primary web extraction; local download was non-PDF response"
+    },
+    {
+      "url": "https://arxiv.org/abs/1009.0353v1",
+      "scope": "versioned primary copy retained; Theorem1.3"
+    },
+    {
+      "url": "https://arxiv.org/abs/1408.4870v2",
+      "scope": "introduction plus fulltext keyword search"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.15539v1",
+      "scope": "introduction Proposition1.2 plus fulltext keyword search"
+    }
+  ],
+  "unreviewed_search_leads": [
+    "Guruswami–Sandeep generalized Tuza obstruction",
+    "Haxell–Rödl original article full proof",
+    "Ruzsa–Szemerédi1978 original source",
+    "Behrend1946 original source"
+  ],
+  "source_limitations": [
+    "EFR scan top of p115 degraded; publisher abstract corroborates",
+    "EFR running header1968 is inconsistent with source copyright and publisher1986",
+    "pypdf fontTools warnings on Liu–Zeng extraction; main inspected statements also available in primary web extraction"
+  ],
+  "clock": {
+    "start": "2026-11-15T01:53:58Z",
+    "research_cutoff": "2026-11-15T09:23:58Z",
+    "hard_deadline": "2026-11-15T09:53:58Z"
+  }
+}

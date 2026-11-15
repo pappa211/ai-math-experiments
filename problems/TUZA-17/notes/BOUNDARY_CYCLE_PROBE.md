@@ -1,0 +1,3 @@
+# Full-instance cycle realizability probe
+
+Frozen before execution. To test full eligible H realizability rather than only bare link shapes, take an odd cycle C_n as X, join it to two adjacent outside vertices u,v, and omit one v-to-cycle spoke. This breaks the alternating-colour obstruction in the complete K2 join. Verify the full rainbow triangle-edge colouring, every actual triangle, and exact H/apex optima at n=5,7,9. The question is whether this family attains small b relative to vc(C_n). It is not a proposed AC counterexample without exact lambda and the appropriate inequality. The first tested family is fixed in advance, not a broad graph census.

@@ -1,0 +1,11 @@
+'FourBranch.mem_vectors_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+Domain.lean:20:14: error: unsolved goals
+case succ
+b a : Nat
+ih : vectors (a + b) = List.flatMap (fun p => List.map (fun x => p ++ x) (vectors b)) (vectors a)
+⊢ List.flatMap (fun s => List.flatMap (fun a => List.map ((fun x => s :: x) ∘ fun x => a ++ x) (vectors b)) (vectors a))
+      (List.range 5) =
+    List.flatMap (fun x => List.flatMap (fun a => List.map (fun x_1 => x :: (a ++ x_1)) (vectors b)) (vectors a))
+      (List.range 5)
+'FourBranch.vectors_add' depends on axioms: [propext, sorryAx, Quot.sound]
+'FourBranch.vectors_length' depends on axioms: [propext, Quot.sound]

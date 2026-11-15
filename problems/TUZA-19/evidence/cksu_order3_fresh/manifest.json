@@ -1,0 +1,7 @@
+{
+  "review/cksu_order3_repair_fresh_audit.md": "be98f11d9368f1355440d2ab23ebd67283621c8d2435a698a63e03fbde32e407",
+  "review/cksu_order3_fresh_verify.py": "76a4bda1d8a829e2391988d2452898f52ff9e59277233c3cf56815913030e888",
+  "evidence/cksu_order3_fresh/input_statement.md": "a0a8b8a2c8cdf3e0c028661bef9ce51c7586b13ffaed695ea99aa02ffe2c7ab9",
+  "evidence/cksu_order3_fresh/provenance.json": "e4a6ac6f5076a83bdbc388cf041b75196cba27fa74c50aace58233fe3f44626a",
+  "evidence/cksu_order3_fresh/verification.json": "0c5272c7dd7957fd6306f9440167b0f86fb01cec9798a59f35cb19887949f581"
+}

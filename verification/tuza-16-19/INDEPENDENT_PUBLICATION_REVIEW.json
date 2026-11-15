@@ -1,0 +1,617 @@
+{
+  "status": "PASS",
+  "content_manifest_sha256": "d683bf904d32db17fb51da9dd2c001324bcb0309b50c4ee0decc4e80fa2e6c2e",
+  "method": "Two fresh-context internal AI reviewers; separate mathematical/editorial and integrity/portability lanes. Final operational refreeze re-reviewed after concrete launcher correction.",
+  "requested_configuration": "Inherited owner-configured model; no override requested",
+  "independently_exposed_serving_identity": "NOT_AVAILABLE; not certified",
+  "external_peer_review": false,
+  "reviews": {
+    "mathematical": {
+      "file": "INDEPENDENT_MATH_REVIEW.md",
+      "sha256": "cec0706bc2964e601c0337d5a1b5de914c24a1b32485e1eaaa7d9f80620fcb29",
+      "inventory": {
+        "outcome": "PASS",
+        "scope": "Independent internal AI mathematical/editorial candidate review; not external peer review or priority certification",
+        "content_manifest_sha256": "d683bf904d32db17fb51da9dd2c001324bcb0309b50c4ee0decc4e80fa2e6c2e",
+        "manifest_file_sha256": "0570d52d18001b6e55cf3ff212a4594e7ba9c741986ae738c430c3b649472d1a",
+        "candidate_hashes_verified": 3134,
+        "candidate_hash_mismatches": [],
+        "files_content_inspected_or_parsed": {
+          "papers/tuza-16-19-research-summary/manuscript.md": {
+            "sha256": "8af81aa269de35eabb30ffba6b00514500372366d901b76d91809ade98751a12",
+            "bytes": 40603
+          },
+          "RESEARCH_STATUS_2026-11-15.md": {
+            "sha256": "b8044d9f8466c5fbf8f845de6d7b03daaedeb906bf3fb20527af14919a2c6403",
+            "bytes": 3897
+          },
+          "verification/tuza-16-19/DEPENDENCIES.md": {
+            "sha256": "c923d9a41939cd4dd6ed0dece7250b6ee5a33912e82c6067f4af25f601ef3b82",
+            "bytes": 3246
+          },
+          "papers/tuza-16-19-research-summary/LITERATURE_RECHECK.md": {
+            "sha256": "d50d45864282cb0c9e1840adc6a2fc5ee468290dfb89ad37ebefcc2112f72b70",
+            "bytes": 17322
+          },
+          "problems/TUZA-18/notes/criticality_star_pk_theorem.md": {
+            "sha256": "f08cc442241eef4b790bc4b5228c958045593f97ebf56c1259a6f6b1ffe5488b",
+            "bytes": 12867
+          },
+          "problems/TUZA-18/notes/criticality_star_local_dichotomy.md": {
+            "sha256": "ef9e1a69c6722a648eb35549295e80d18b2e062ee6b2d6421bf91dbbcf8c7575",
+            "bytes": 2924
+          },
+          "problems/TUZA-19/notes/root_four_branch_wke.md": {
+            "sha256": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99",
+            "bytes": 9412
+          },
+          "problems/TUZA-19/notes/four_branch_wke_scope_addendum.md": {
+            "sha256": "a82826aaf673826a6b57eb10cac48ee8c2065cd369c4cb78d03f09f819a1175b",
+            "bytes": 2050
+          },
+          "problems/TUZA-18/notes/late_star_connected_pivot_obstruction.md": {
+            "sha256": "0a5491534d7c85fb7206e4f0ffddafaf1c179f2b40ad0c198135f229e124f4cd",
+            "bytes": 7992
+          },
+          "problems/TUZA-19/review/chain_plateau_control.md": {
+            "sha256": "b8c9a9a26ee353218ea1a34aac855c2818891c72307b39a098ffcb237d0f7681",
+            "bytes": 3857
+          },
+          "problems/TUZA-19/notes/root_subexponential_normalization_corollary.md": {
+            "sha256": "77da1f5cce4720e4a34b7e1d72c27d2ef4304a5f089129ed87bb611de9887c64",
+            "bytes": 2881
+          },
+          "problems/TUZA-19/notes/root_batched_universal_tf_nonwke.md": {
+            "sha256": "d4ff2e5f0539b43fedc54fab7eef87a01717b43103577e5862b7739a63101913",
+            "bytes": 11497
+          },
+          "problems/TUZA-19/notes/global_routes_batched_universal_audit.md": {
+            "sha256": "dfae955c83ebbe628afa52fec4600406e077eeb55052b9c824458d799ca4e6b0",
+            "bytes": 8559
+          },
+          "problems/TUZA-19/notes/global_routes_quantitative_amplification.md": {
+            "sha256": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53",
+            "bytes": 10381
+          },
+          "problems/TUZA-19/notes/global_routes_universal_tf_nonwke_addendum.md": {
+            "sha256": "58dbcfc87ef9683801a666f8e159fd367e01376aa7c7bb79d1bf2296c3b020b4",
+            "bytes": 10891
+          },
+          "problems/TUZA-19/notes/root_batched_odd_cover_obstruction.md": {
+            "sha256": "240f03702de1bc3f2deadb1be99307c27de26849607b2bd50e8ecd2cffcca4f7",
+            "bytes": 10282
+          },
+          "problems/TUZA-19/notes/root_batched_odd_cover_exact_identity.md": {
+            "sha256": "57d44a9d95e66f1885272f2e184954772c224f977c15238424e935b6be4189c8",
+            "bytes": 1355
+          },
+          "problems/TUZA-19/notes/root_batched_odd_asymptotic_slack.md": {
+            "sha256": "7cbe5c47364408799b25f683205f1e265aeb7d9afa8d9f008aadc98457a44e2d",
+            "bytes": 1569
+          },
+          "problems/TUZA-19/notes/global_routes_critical_cut_obstruction.md": {
+            "sha256": "2ec94c291275ae6d02628ffd227d2acd9bb2c3eee638a1369c40bd8fc053ac1b",
+            "bytes": 9229
+          },
+          "problems/TUZA-16/PROOFS_AND_OBSTRUCTIONS.md": {
+            "sha256": "88b3e16310a3e89c28621081801acb3b32bb30526a9052d57bf6697e9dfafc10",
+            "bytes": 15157
+          },
+          "problems/TUZA-17/PROOFS_AND_OBSTRUCTIONS.md": {
+            "sha256": "1258a797ba5bc65904b668b4696313dfad3f3f178f2e256603be42eb6caed73c",
+            "bytes": 118605
+          },
+          "problems/TUZA-17/notes/B_FROZEN_v1.md": {
+            "sha256": "225fe6d10e0255241db325a762c96203f4a0604b1dd0aac7885a8983dd32db42",
+            "bytes": 17718
+          },
+          "problems/TUZA-17/notes/CRITIC_BUDGET_SIX.md": {
+            "sha256": "92b65b507842297cf4855d63110b7ba10439caa3361185bec523f7d7d3e1ffb1",
+            "bytes": 9224
+          },
+          "problems/TUZA-17/notes/BOUNDARY6_FROZEN_LINK_LEMMA.md": {
+            "sha256": "3f3c50fe0a56f6f442758162664b3305086aa1cb035753c70c594d54a68f8c29",
+            "bytes": 8136
+          },
+          "problems/TUZA-17/notes/CRITIC_TIGHT_FRONTIER.md": {
+            "sha256": "18e87425d4e768b1d592d550c39b284d191017503368931ba7bde7536a24025a",
+            "bytes": 8888
+          },
+          "problems/TUZA-17/notes/BOUNDARY_CRITIC.md": {
+            "sha256": "bec9d5aed591e2f8bc4482b518a601e942e7da01fb43a738bf46dddaf045fbca",
+            "bytes": 11135
+          },
+          "problems/TUZA-18/notes/coordinator_pk_block_extension.md": {
+            "sha256": "a2124ffc1d0fa3208537741c6616ae128ad331b86a2652ee59d43e00dcc1b1b3",
+            "bytes": 7481
+          },
+          "problems/TUZA-18/notes/criticality_private_tip_pk.md": {
+            "sha256": "d0e343bac9b509710c454ac4e0b5b8483d8b980ca2411ad50b48cfc607cfdedf",
+            "bytes": 7147
+          },
+          "problems/TUZA-19/notes/root_line_graph_parity.md": {
+            "sha256": "65f65ed45fb9920b39c72491243eccc7ba880add1a1f1256b4e86c65d1ebd0f1",
+            "bytes": 6296
+          },
+          "problems/TUZA-19/notes/global_routes_square_cells_matching.md": {
+            "sha256": "1c59c9c58a0ba5b0ad9c5d90d3f0d1f3794b4300f7b28a06524da0f71ee39c2c",
+            "bytes": 11184
+          },
+          "problems/TUZA-19/notes/root_multi_private_integral_cover.md": {
+            "sha256": "4791afd96e876088764cf13c37082e9fca23a1ee9a4f2a8ef12d84fcb324176b",
+            "bytes": 6947
+          },
+          "problems/TUZA-19/notes/global_routes_bounded_stars_all_cliques.md": {
+            "sha256": "bfb6d0154ffbd225ac7d4c47f2a51d7f4725d8c9a1138bd64d562ebc5673b48a",
+            "bytes": 16579
+          },
+          "problems/TUZA-19/notes/global_routes_bounded_stars_scope_addendum.md": {
+            "sha256": "709f4ed62a239125b1f0aea732beaed1c292059fbebe00e19b3fe78a9bc2fe2f",
+            "bytes": 1433
+          },
+          "problems/TUZA-19/notes/root_cksu_order3_repair.md": {
+            "sha256": "a0a8b8a2c8cdf3e0c028661bef9ce51c7586b13ffaed695ea99aa02ffe2c7ab9",
+            "bytes": 10888
+          },
+          "problems/TUZA-19/review/cksu_prop13_independent_audit.md": {
+            "sha256": "6fe94fb697d2ddc838c164e563d75494ea88895d70dd36ebd7d1ce2a8d37e1be",
+            "bytes": 8526
+          },
+          "problems/TUZA-19/review/cksu_half_prop13_dependency_audit.md": {
+            "sha256": "af4ac7a2160473a6e91cbf10686cc99e99fac657c2648ede10de28f4f7960e23",
+            "bytes": 9262
+          },
+          "problems/TUZA-18-replay/RECONSTRUCTION.md": {
+            "sha256": "3219a7624dcf161239f8912524fd51cd37d8adef3dbd8b7bd8564ca5ecb95fb3",
+            "bytes": 8049
+          },
+          "problems/TUZA-17/notes/A_ELEMENTARY_MATCHING_BLOCKER.md": {
+            "sha256": "59d77b3695af21922b7ba8079c802420c632bad2439c2a6cb8baf107c78af8fd",
+            "bytes": 3360
+          },
+          "problems/TUZA-19/notes/global_routes_clique_link_polytope_obstruction.md": {
+            "sha256": "ff98c8f970af1a1a1d33171c58fe6631d574873713fa34c36e209b94cdbd7263",
+            "bytes": 12917
+          },
+          "problems/TUZA-19/notes/global_routes_clique_link_erratum.md": {
+            "sha256": "1e9c00a28db5f98db56690de2a8605b7c9816aedf8c9d562d9ff0d4ab1af0429",
+            "bytes": 1219
+          },
+          "verification/tuza-16-19/CORRECTIONS.md": {
+            "sha256": "6d3776adccbe65ae8598f97d9e3397f78c0cd5698bf0ac01fa16f3ae2c5cfbdc",
+            "bytes": 3151
+          },
+          "verification/tuza-16-19/README.md": {
+            "sha256": "4e468d1846a695cc585815090a5fe96e5a253d9562c85afbb8490b15180016bb",
+            "bytes": 2366
+          },
+          "verification/tuza-16-19/CANDIDATE_MANIFEST.json": {
+            "sha256": "0570d52d18001b6e55cf3ff212a4594e7ba9c741986ae738c430c3b649472d1a",
+            "bytes": 436802
+          },
+          "problems/TUZA-16-19-SOURCE_MANIFEST.json": {
+            "sha256": "9129e1a74056866a70536d0c091f3cddba3bfd28703e561f15ea8c5a6c48a052",
+            "bytes": 1234846
+          },
+          "verification/tuza-16-19/CLAIMS.json": {
+            "sha256": "4d7b2e5e086913503859eaae1c0281fac8a2241c23cf030c6881687441c20e1c",
+            "bytes": 207189
+          },
+          "verification/tuza-16-19/CLAIM_EVIDENCE.md": {
+            "sha256": "cb117ee575e901705490076e5f190c463b023202514490994823f12973b2d67f",
+            "bytes": 1889
+          },
+          "verification/tuza-16-19/SOURCE_MATHEMATICAL_REVIEW.md": {
+            "sha256": "d3743d13587fedd6b5f0985367eb0b74c2cfa8a9f39d980a98d409d656c78955",
+            "bytes": 37137
+          },
+          "problems/TUZA-16/STATUS_MATRIX.json": {
+            "sha256": "5ec7dd6c99b593c587836b40ab5f21a71f234f1eb318a02820f4377851a8ed8b",
+            "bytes": 16564
+          },
+          "problems/TUZA-17/STATUS_MATRIX.json": {
+            "sha256": "7cece9fa3d80aa0a6d6a57af286b6b579a3000823134719f4d9981f1bf357d97",
+            "bytes": 17023
+          },
+          "problems/TUZA-18/STATUS_MATRIX.md": {
+            "sha256": "ffabc0fef5870efef44d5d6d36eec87b0d793bfab8a866ea648e76cefb3f40b0",
+            "bytes": 10341
+          },
+          "problems/TUZA-19/STATUS_MATRIX.md": {
+            "sha256": "84be3985a4294b9ebfa564f4c96415fa29895c4a4a4f599c11a420ce27f5f11b",
+            "bytes": 28183
+          },
+          "problems/TUZA-19/evidence/four_branch_wke/canonical_witnesses.json": {
+            "sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+            "bytes": 1046969
+          },
+          "verification/tuza-16-19/finite/VERIFICATION.json": {
+            "sha256": "94d8450c876d8677d0ed8ab3deba0b75c82cbc2d218a9d84d788aed0270ea4bd",
+            "bytes": 13517
+          }
+        },
+        "inspection_qualification": "TUZA-17 omnibus inspected in selected sections and through separately retained controlling complete proof files; source mapping originals were hash-checked, not all read as prose. The finite replay receipt was inspected only for scope metadata.",
+        "source_mapping_summary": {
+          "source_mapping_count": 1821,
+          "mapping_mismatches": [],
+          "ledger_comparison": {
+            "TUZA-16": {
+              "rows": 29,
+              "exact_original_entry_equality": true
+            },
+            "TUZA-17": {
+              "rows": 34,
+              "exact_original_entry_equality": true
+            },
+            "TUZA-18": {
+              "rows": 33,
+              "verbatim_columns_retained": true,
+              "mismatches": [],
+              "original_table_rows": 33
+            },
+            "TUZA-19": {
+              "rows": 73,
+              "verbatim_columns_retained": true,
+              "mismatches": [],
+              "original_table_rows": 73
+            }
+          },
+          "claim_count": 169,
+          "unknown_labels": [
+            "TUZA-16-UNRESTRICTED_TUZA",
+            "TUZA-17-FIRST_REMAINING_BOUNDARY",
+            "TUZA-17-FULL_AC",
+            "TUZA-17-GLOBAL_AVAILABILITY",
+            "TUZA-17-UNRESTRICTED_TUZA",
+            "TUZA-18-11",
+            "TUZA-18-19",
+            "TUZA-19-29",
+            "TUZA-19-71"
+          ],
+          "solver_labels": [
+            "TUZA-19-64",
+            "TUZA-19-69"
+          ]
+        },
+        "independent_literal_check": {
+          "status": "PASS",
+          "scope": "Independent direct checking of existing literal certificates, no search or new research",
+          "wke_raw_vectors": 15756,
+          "wke_accepted_vectors": {
+            "1": 0,
+            "2": 0,
+            "3": 10,
+            "4": 5365
+          },
+          "wke_count": 5375,
+          "wke_source_sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+          "cp5_three_literal_leaves": "PASS",
+          "k2222_eight_literal_triangles": "PASS"
+        },
+        "findings": [],
+        "original_content_manifest_sha256": "3cbb6122daa9f4fd28c33f337dcd09a57461f7a8af76ca2353b857113f1d2f3e",
+        "original_manifest_file_sha256": "5fa4fd4627d01bde2d311689f33525e51f1c3ad2c807ba66396372e5b6144d34",
+        "original_files_content_inspected_or_parsed": {
+          "papers/tuza-16-19-research-summary/manuscript.md": {
+            "sha256": "8af81aa269de35eabb30ffba6b00514500372366d901b76d91809ade98751a12",
+            "bytes": 40603
+          },
+          "RESEARCH_STATUS_2026-11-15.md": {
+            "sha256": "b8044d9f8466c5fbf8f845de6d7b03daaedeb906bf3fb20527af14919a2c6403",
+            "bytes": 3897
+          },
+          "verification/tuza-16-19/DEPENDENCIES.md": {
+            "sha256": "c923d9a41939cd4dd6ed0dece7250b6ee5a33912e82c6067f4af25f601ef3b82",
+            "bytes": 3246
+          },
+          "papers/tuza-16-19-research-summary/LITERATURE_RECHECK.md": {
+            "sha256": "d50d45864282cb0c9e1840adc6a2fc5ee468290dfb89ad37ebefcc2112f72b70",
+            "bytes": 17322
+          },
+          "problems/TUZA-18/notes/criticality_star_pk_theorem.md": {
+            "sha256": "f08cc442241eef4b790bc4b5228c958045593f97ebf56c1259a6f6b1ffe5488b",
+            "bytes": 12867
+          },
+          "problems/TUZA-18/notes/criticality_star_local_dichotomy.md": {
+            "sha256": "ef9e1a69c6722a648eb35549295e80d18b2e062ee6b2d6421bf91dbbcf8c7575",
+            "bytes": 2924
+          },
+          "problems/TUZA-19/notes/root_four_branch_wke.md": {
+            "sha256": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99",
+            "bytes": 9412
+          },
+          "problems/TUZA-19/notes/four_branch_wke_scope_addendum.md": {
+            "sha256": "a82826aaf673826a6b57eb10cac48ee8c2065cd369c4cb78d03f09f819a1175b",
+            "bytes": 2050
+          },
+          "problems/TUZA-18/notes/late_star_connected_pivot_obstruction.md": {
+            "sha256": "0a5491534d7c85fb7206e4f0ffddafaf1c179f2b40ad0c198135f229e124f4cd",
+            "bytes": 7992
+          },
+          "problems/TUZA-19/review/chain_plateau_control.md": {
+            "sha256": "b8c9a9a26ee353218ea1a34aac855c2818891c72307b39a098ffcb237d0f7681",
+            "bytes": 3857
+          },
+          "problems/TUZA-19/notes/root_subexponential_normalization_corollary.md": {
+            "sha256": "77da1f5cce4720e4a34b7e1d72c27d2ef4304a5f089129ed87bb611de9887c64",
+            "bytes": 2881
+          },
+          "problems/TUZA-19/notes/root_batched_universal_tf_nonwke.md": {
+            "sha256": "d4ff2e5f0539b43fedc54fab7eef87a01717b43103577e5862b7739a63101913",
+            "bytes": 11497
+          },
+          "problems/TUZA-19/notes/global_routes_batched_universal_audit.md": {
+            "sha256": "dfae955c83ebbe628afa52fec4600406e077eeb55052b9c824458d799ca4e6b0",
+            "bytes": 8559
+          },
+          "problems/TUZA-19/notes/global_routes_quantitative_amplification.md": {
+            "sha256": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53",
+            "bytes": 10381
+          },
+          "problems/TUZA-19/notes/global_routes_universal_tf_nonwke_addendum.md": {
+            "sha256": "58dbcfc87ef9683801a666f8e159fd367e01376aa7c7bb79d1bf2296c3b020b4",
+            "bytes": 10891
+          },
+          "problems/TUZA-19/notes/root_batched_odd_cover_obstruction.md": {
+            "sha256": "240f03702de1bc3f2deadb1be99307c27de26849607b2bd50e8ecd2cffcca4f7",
+            "bytes": 10282
+          },
+          "problems/TUZA-19/notes/root_batched_odd_cover_exact_identity.md": {
+            "sha256": "57d44a9d95e66f1885272f2e184954772c224f977c15238424e935b6be4189c8",
+            "bytes": 1355
+          },
+          "problems/TUZA-19/notes/root_batched_odd_asymptotic_slack.md": {
+            "sha256": "7cbe5c47364408799b25f683205f1e265aeb7d9afa8d9f008aadc98457a44e2d",
+            "bytes": 1569
+          },
+          "problems/TUZA-19/notes/global_routes_critical_cut_obstruction.md": {
+            "sha256": "2ec94c291275ae6d02628ffd227d2acd9bb2c3eee638a1369c40bd8fc053ac1b",
+            "bytes": 9229
+          },
+          "problems/TUZA-16/PROOFS_AND_OBSTRUCTIONS.md": {
+            "sha256": "88b3e16310a3e89c28621081801acb3b32bb30526a9052d57bf6697e9dfafc10",
+            "bytes": 15157
+          },
+          "problems/TUZA-17/PROOFS_AND_OBSTRUCTIONS.md": {
+            "sha256": "1258a797ba5bc65904b668b4696313dfad3f3f178f2e256603be42eb6caed73c",
+            "bytes": 118605
+          },
+          "problems/TUZA-17/notes/B_FROZEN_v1.md": {
+            "sha256": "225fe6d10e0255241db325a762c96203f4a0604b1dd0aac7885a8983dd32db42",
+            "bytes": 17718
+          },
+          "problems/TUZA-17/notes/CRITIC_BUDGET_SIX.md": {
+            "sha256": "92b65b507842297cf4855d63110b7ba10439caa3361185bec523f7d7d3e1ffb1",
+            "bytes": 9224
+          },
+          "problems/TUZA-17/notes/BOUNDARY6_FROZEN_LINK_LEMMA.md": {
+            "sha256": "3f3c50fe0a56f6f442758162664b3305086aa1cb035753c70c594d54a68f8c29",
+            "bytes": 8136
+          },
+          "problems/TUZA-17/notes/CRITIC_TIGHT_FRONTIER.md": {
+            "sha256": "18e87425d4e768b1d592d550c39b284d191017503368931ba7bde7536a24025a",
+            "bytes": 8888
+          },
+          "problems/TUZA-17/notes/BOUNDARY_CRITIC.md": {
+            "sha256": "bec9d5aed591e2f8bc4482b518a601e942e7da01fb43a738bf46dddaf045fbca",
+            "bytes": 11135
+          },
+          "problems/TUZA-18/notes/coordinator_pk_block_extension.md": {
+            "sha256": "a2124ffc1d0fa3208537741c6616ae128ad331b86a2652ee59d43e00dcc1b1b3",
+            "bytes": 7481
+          },
+          "problems/TUZA-18/notes/criticality_private_tip_pk.md": {
+            "sha256": "d0e343bac9b509710c454ac4e0b5b8483d8b980ca2411ad50b48cfc607cfdedf",
+            "bytes": 7147
+          },
+          "problems/TUZA-19/notes/root_line_graph_parity.md": {
+            "sha256": "65f65ed45fb9920b39c72491243eccc7ba880add1a1f1256b4e86c65d1ebd0f1",
+            "bytes": 6296
+          },
+          "problems/TUZA-19/notes/global_routes_square_cells_matching.md": {
+            "sha256": "1c59c9c58a0ba5b0ad9c5d90d3f0d1f3794b4300f7b28a06524da0f71ee39c2c",
+            "bytes": 11184
+          },
+          "problems/TUZA-19/notes/root_multi_private_integral_cover.md": {
+            "sha256": "4791afd96e876088764cf13c37082e9fca23a1ee9a4f2a8ef12d84fcb324176b",
+            "bytes": 6947
+          },
+          "problems/TUZA-19/notes/global_routes_bounded_stars_all_cliques.md": {
+            "sha256": "bfb6d0154ffbd225ac7d4c47f2a51d7f4725d8c9a1138bd64d562ebc5673b48a",
+            "bytes": 16579
+          },
+          "problems/TUZA-19/notes/global_routes_bounded_stars_scope_addendum.md": {
+            "sha256": "709f4ed62a239125b1f0aea732beaed1c292059fbebe00e19b3fe78a9bc2fe2f",
+            "bytes": 1433
+          },
+          "problems/TUZA-19/notes/root_cksu_order3_repair.md": {
+            "sha256": "a0a8b8a2c8cdf3e0c028661bef9ce51c7586b13ffaed695ea99aa02ffe2c7ab9",
+            "bytes": 10888
+          },
+          "problems/TUZA-19/review/cksu_prop13_independent_audit.md": {
+            "sha256": "6fe94fb697d2ddc838c164e563d75494ea88895d70dd36ebd7d1ce2a8d37e1be",
+            "bytes": 8526
+          },
+          "problems/TUZA-19/review/cksu_half_prop13_dependency_audit.md": {
+            "sha256": "af4ac7a2160473a6e91cbf10686cc99e99fac657c2648ede10de28f4f7960e23",
+            "bytes": 9262
+          },
+          "problems/TUZA-18-replay/RECONSTRUCTION.md": {
+            "sha256": "3219a7624dcf161239f8912524fd51cd37d8adef3dbd8b7bd8564ca5ecb95fb3",
+            "bytes": 8049
+          },
+          "problems/TUZA-17/notes/A_ELEMENTARY_MATCHING_BLOCKER.md": {
+            "sha256": "59d77b3695af21922b7ba8079c802420c632bad2439c2a6cb8baf107c78af8fd",
+            "bytes": 3360
+          },
+          "problems/TUZA-19/notes/global_routes_clique_link_polytope_obstruction.md": {
+            "sha256": "ff98c8f970af1a1a1d33171c58fe6631d574873713fa34c36e209b94cdbd7263",
+            "bytes": 12917
+          },
+          "problems/TUZA-19/notes/global_routes_clique_link_erratum.md": {
+            "sha256": "1e9c00a28db5f98db56690de2a8605b7c9816aedf8c9d562d9ff0d4ab1af0429",
+            "bytes": 1219
+          },
+          "verification/tuza-16-19/CORRECTIONS.md": {
+            "sha256": "d151ab5c4ffb361e82508f5ae0c6f50d3572a480f29b6fa66efe16ecc8fddf87",
+            "bytes": 2776
+          },
+          "verification/tuza-16-19/README.md": {
+            "sha256": "4544fbaae8a4586a250fbaa2372cfe4a5c21b3a823c499823c399a781b2ff123",
+            "bytes": 2239
+          },
+          "verification/tuza-16-19/CANDIDATE_MANIFEST.json": {
+            "sha256": "5fa4fd4627d01bde2d311689f33525e51f1c3ad2c807ba66396372e5b6144d34",
+            "bytes": 435800
+          },
+          "problems/TUZA-16-19-SOURCE_MANIFEST.json": {
+            "sha256": "9129e1a74056866a70536d0c091f3cddba3bfd28703e561f15ea8c5a6c48a052",
+            "bytes": 1234846
+          },
+          "verification/tuza-16-19/CLAIMS.json": {
+            "sha256": "4d7b2e5e086913503859eaae1c0281fac8a2241c23cf030c6881687441c20e1c",
+            "bytes": 207189
+          },
+          "verification/tuza-16-19/CLAIM_EVIDENCE.md": {
+            "sha256": "cb117ee575e901705490076e5f190c463b023202514490994823f12973b2d67f",
+            "bytes": 1889
+          },
+          "verification/tuza-16-19/SOURCE_MATHEMATICAL_REVIEW.md": {
+            "sha256": "d3743d13587fedd6b5f0985367eb0b74c2cfa8a9f39d980a98d409d656c78955",
+            "bytes": 37137
+          },
+          "problems/TUZA-16/STATUS_MATRIX.json": {
+            "sha256": "5ec7dd6c99b593c587836b40ab5f21a71f234f1eb318a02820f4377851a8ed8b",
+            "bytes": 16564
+          },
+          "problems/TUZA-17/STATUS_MATRIX.json": {
+            "sha256": "7cece9fa3d80aa0a6d6a57af286b6b579a3000823134719f4d9981f1bf357d97",
+            "bytes": 17023
+          },
+          "problems/TUZA-18/STATUS_MATRIX.md": {
+            "sha256": "ffabc0fef5870efef44d5d6d36eec87b0d793bfab8a866ea648e76cefb3f40b0",
+            "bytes": 10341
+          },
+          "problems/TUZA-19/STATUS_MATRIX.md": {
+            "sha256": "84be3985a4294b9ebfa564f4c96415fa29895c4a4a4f599c11a420ce27f5f11b",
+            "bytes": 28183
+          },
+          "problems/TUZA-19/evidence/four_branch_wke/canonical_witnesses.json": {
+            "sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+            "bytes": 1046969
+          },
+          "verification/tuza-16-19/finite/VERIFICATION.json": {
+            "sha256": "94d8450c876d8677d0ed8ab3deba0b75c82cbc2d218a9d84d788aed0270ea4bd",
+            "bytes": 13517
+          }
+        },
+        "carry_forward": {
+          "outcome": "PASS",
+          "unchanged_files": 3125,
+          "modified_files": 8,
+          "added_files": 1,
+          "deleted_files": 0,
+          "scientific_editorial_claims_unchanged": true,
+          "changed_paths": {
+            "tools/replay_tuza_16_19_formal.py": {
+              "original_sha256": "b748de32c31efdc1757827a28e80f7c01d2f66e149852ed42e3ec69a742dda86",
+              "final_sha256": "29da00ba6bf5dbe74176682ea2e5f8b1a2e78cc323ffa8718e8851aa552d750c"
+            },
+            "verification/tuza-16-19/CORRECTIONS.md": {
+              "original_sha256": "d151ab5c4ffb361e82508f5ae0c6f50d3572a480f29b6fa66efe16ecc8fddf87",
+              "final_sha256": "6d3776adccbe65ae8598f97d9e3397f78c0cd5698bf0ac01fa16f3ae2c5cfbdc"
+            },
+            "verification/tuza-16-19/LEAN_RESOLUTION_CHECK.json": {
+              "original_sha256": null,
+              "final_sha256": "07094d599d210438f58e68eeb607746cb0ac6fb9549d3576e96b76f45ca7fd75"
+            },
+            "verification/tuza-16-19/README.md": {
+              "original_sha256": "4544fbaae8a4586a250fbaa2372cfe4a5c21b3a823c499823c399a781b2ff123",
+              "final_sha256": "4e468d1846a695cc585815090a5fe96e5a253d9562c85afbb8490b15180016bb"
+            },
+            "verification/tuza-16-19/formal/LOGS.jsonl": {
+              "original_sha256": "057d8e23fa9c7cdfd1dfe0fac11c83237df3771ae7646a13853b898af939a4dd",
+              "final_sha256": "5ca01450b04b2f4e114fc38a205cdd13c0ed72bda508dd7b8a45232ece92cae0"
+            },
+            "verification/tuza-16-19/formal/README.md": {
+              "original_sha256": "a138599ab5c7d60650cc0f6ec3267d5025aaa5db8199bde8c0f4adea13df3b51",
+              "final_sha256": "30cee400cf2b2c227b489927682fa8b720f4c125763e63801fda162895b6d531"
+            },
+            "verification/tuza-16-19/formal/commands.jsonl": {
+              "original_sha256": "e3dd0a6b791a40115a5224ee335a7a51666904b25a51d4f2fbc425a16e934adb",
+              "final_sha256": "2c00594ee9187f62249b8c2ddd9e2d3a8e8f0932a5f55da674b9e9b7e3fe1923"
+            },
+            "verification/tuza-16-19/formal/environment.json": {
+              "original_sha256": "99cbdda530602338f3614a521ec08ec25e1c924f160dc446a4bb291eebbf571f",
+              "final_sha256": "a1639e3715ee28a6a006ce58a34113d53c8879a1810c104b9dd3040896c242ce"
+            },
+            "verification/tuza-16-19/formal/verification.json": {
+              "original_sha256": "b4af40c5f881103ada94ad3b85cce7bfac09fb31e9d02968acb1333139e05601",
+              "final_sha256": "9f1bba9afd9581bd53c208c517fc1fd1f3bf8ec4270c7025c046b6805671e7de"
+            }
+          },
+          "scope": "Driver diff and changed documentation/scope receipts inspected; full operational acceptance belongs to integrity reviewer. No new mathematical execution."
+        },
+        "review_file_sha256": "cec0706bc2964e601c0337d5a1b5de914c24a1b32485e1eaaa7d9f80620fcb29"
+      }
+    },
+    "integrity": {
+      "file": "INDEPENDENT_INTEGRITY_REVIEW.md",
+      "sha256": "f87f3fd80c7552a1d5de8568ba293b3d84796cafe7529b61cdc53244bae6cd67",
+      "summary": {
+        "review_status": "PASS_AFFECTED_INTEGRITY_REVIEW",
+        "content_manifest_sha256": "d683bf904d32db17fb51da9dd2c001324bcb0309b50c4ee0decc4e80fa2e6c2e",
+        "frozen_files": 3134,
+        "previous_content_manifest_sha256": "3cbb6122daa9f4fd28c33f337dcd09a57461f7a8af76ca2353b857113f1d2f3e",
+        "changed_included_paths": [
+          "tools/replay_tuza_16_19_formal.py",
+          "verification/tuza-16-19/CORRECTIONS.md",
+          "verification/tuza-16-19/LEAN_RESOLUTION_CHECK.json",
+          "verification/tuza-16-19/README.md",
+          "verification/tuza-16-19/formal/LOGS.jsonl",
+          "verification/tuza-16-19/formal/README.md",
+          "verification/tuza-16-19/formal/commands.jsonl",
+          "verification/tuza-16-19/formal/environment.json",
+          "verification/tuza-16-19/formal/verification.json"
+        ],
+        "errors": [],
+        "resolver_checks_independently_performed": [
+          "actual hard-link proxy native identity",
+          "missing toolchain refused without invocation",
+          "shell wrapper refused without invocation"
+        ],
+        "all_269_commands_select_explicit_native_executable": true,
+        "native_compiler_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+        "proxy_sha256": "d52c4516a6c6f0cc14cab0ecf36e5058a764f39b109d8609be7dd1279ca41e9f",
+        "complete_formal_receipt_audit": "PASS; 269 commands/log records, 266 objects, 444 declarations, 150 theorems, three intended negative diagnostics",
+        "maximum_sampled_RSS_bytes": 1756774400,
+        "maximum_time_reported_RSS_bytes": 1781809152,
+        "privacy_changed_files": 9,
+        "privacy_hits": [],
+        "broken_changed_markdown_links": [],
+        "scope": "Affected frozen-candidate integrity and portability re-review; no Lean compilation by this reviewer; no release-history or remote approval."
+      }
+    }
+  },
+  "independent_literal_audit": {
+    "status": "PASS",
+    "scope": "Independent direct checking of existing literal certificates, no search or new research",
+    "wke_raw_vectors": 15756,
+    "wke_accepted_vectors": {
+      "1": 0,
+      "2": 0,
+      "3": 10,
+      "4": 5365
+    },
+    "wke_count": 5375,
+    "wke_source_sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+    "cp5_three_literal_leaves": "PASS",
+    "k2222_eight_literal_triangles": "PASS"
+  },
+  "unperformed_at_review": [
+    "final release receipt/checksum additions",
+    "staged tree and new commit history",
+    "remote push/PR/merge",
+    "fresh public-clone checks"
+  ]
+}

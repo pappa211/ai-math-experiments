@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-11-15T03:44:08.156122+00:00",
+  "mission_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "serving_metadata": "Exact serving model and effort not exposed; no assertion made.",
+  "host": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "status": "Complete ordinary all-size TF exclusion; root reconstruction requested; original H-O2 multi-cone question unresolved.",
+  "execution": "No mathematical search or census run; local source reads and proof development only. No remote execution or Lean.",
+  "sources_and_result_sha256": {
+    "notes/parity_gadget_constraints.md": "dedde7192372fba54e8f1f5aa7a4bb38ad8d42192fced30e4f1ab902208cc321",
+    "notes/global_routes_nonsaturation_addendum.md": "3005b796bafc0470f37c520f4e22da5d69a5741dee619536448a9b08270cbafd",
+    "notes/global_routes_parity_gate.md": "850890c9bca9f3c8807fc8d8b59365dc00e09219575f1eb8129d9e698bad1053",
+    "notes/root_triangle_full_criticality.md": "d5c9b04e3ab30fa1e45ed36f4f84fca0fd07bdee5c2f95c7157f1bdde457e361",
+    "notes/independent_multicone_tf_exclusion.md": "18aba1671b088d58ab73235d24a66df95ccc45b8bb34dc0b6e2efd43185fc934"
+  },
+  "preserved_limits": "Two-apex necessary identities are not asserted sufficient or contradictory. No general resilient-multicone parity theorem or counterexample. No minimum-odd-cover existence claim.",
+  "cancelled_work": "Potential Kalbfleisch s=7,8 matching certificates cancelled before execution on root direction because simple existing lower bounds already close their relevance.",
+  "self_correction": "Before handoff, corrected the odd-n numerical corollary from k<=n-3 to k<=n-2: Proposition B gives k-1<=n-3. Propositions A-C and the TF exclusion were unchanged."
+}

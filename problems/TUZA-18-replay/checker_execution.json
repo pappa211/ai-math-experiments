@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "LOCAL_ENVIRONMENT",
+    "-I",
+    "star_fresh_verify_replay.py"
+  ],
+  "working_directory_at_execution": "SCRATCH_OUTPUT/TUZA-18-replay-20261115T014227Z.lf3Xg6",
+  "started_utc": "2026-11-15T01:43:47.465818+00:00",
+  "finished_utc": "2026-11-15T01:43:49.308537+00:00",
+  "wall_seconds": 1.8425268339997274,
+  "exit_code": 0,
+  "python_version": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "assertions_enabled": true,
+  "stdout_sha256": "806ec58d7d9052d9405f932f70421bdb141ea0500ae5dd86310cdcd652912cdf",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

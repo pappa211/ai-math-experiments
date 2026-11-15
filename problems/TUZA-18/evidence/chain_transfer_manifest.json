@@ -1,0 +1,62 @@
+{
+  "status": "FROZEN_READY_FOR_CANONICAL_TRANSFER",
+  "created_utc": "2026-11-14T20:03:50.854373+00:00",
+  "mathematical_stop_utc": "2026-11-14T21:00:10Z",
+  "manifest_target_relative_path": "evidence/chain_transfer_manifest.json",
+  "scope": "Independent continuation reconstruction of all-size connected fixed-radius Hall-descent obstruction and separate N=3 literal replay; no unrestricted PK or Tuza result.",
+  "unchanged_prior_packages": {
+    "tuza18_critic_transfer_manifest.json": 22,
+    "tuza18_pk_transfer_manifest.json": 37,
+    "tuza18_addendum_transfer_manifest.json": 17
+  },
+  "files": [
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_chain_input_late_star_connected_chain_verified.json",
+      "target_relative_path": "review/chain_inputs/late_star_connected_chain_verified.json",
+      "bytes": 6665,
+      "sha256": "0a552f9d2205363f4199d103720a26e26d6d3ea7c7354223dae877393f100e2d"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_chain_input_late_star_connected_chain_verify.py",
+      "target_relative_path": "review/chain_inputs/late_star_connected_chain_verify.py",
+      "bytes": 4238,
+      "sha256": "1a62ed083fe4e9ef5fcbccc137c757bb793004917c2ae711401c4b46cfd3a00b"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_chain_input_late_star_connected_pivot_obstruction.md",
+      "target_relative_path": "review/chain_inputs/late_star_connected_pivot_obstruction.md",
+      "bytes": 7992,
+      "sha256": "0a5491534d7c85fb7206e4f0ffddafaf1c179f2b40ad0c198135f229e124f4cd"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_chain_input_late_star_gluing_obstruction.md",
+      "target_relative_path": "review/chain_inputs/late_star_gluing_obstruction.md",
+      "bytes": 6339,
+      "sha256": "6ded16c3c61ef3029e86d7c9399bac6e3090ff80e204fd50023ce0f8fc6fee0b"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_chain_input_late_star_literal_verified.json",
+      "target_relative_path": "review/chain_inputs/late_star_literal_verified.json",
+      "bytes": 5440,
+      "sha256": "932dd4dcf96819c89094c91302218a3d3a7154254f063b8457b7b0e8539c90a0"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_chain_literal_check.json",
+      "target_relative_path": "evidence/chain_literal_check.json",
+      "bytes": 147661,
+      "sha256": "a1d485655dfa34029a1cfbe20036549df05f86b25579741052e2f3f7c61bf7a2"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_chain_literal_check.py",
+      "target_relative_path": "checks/chain_literal_check.py",
+      "bytes": 7558,
+      "sha256": "c299bb410a266acaf3c780e4bc8c1dbc5f162b70d83bd52d7599b3ec2aebd904"
+    },
+    {
+      "staged_source": "SCRATCH_OUTPUT/tuza18_chain_review.md",
+      "target_relative_path": "review/chain_review.md",
+      "bytes": 13470,
+      "sha256": "e4584143f39969ff20ffa48a6dbc56b2d45d1ca32f0b4df4168f5007e7fa10f4"
+    }
+  ]
+}

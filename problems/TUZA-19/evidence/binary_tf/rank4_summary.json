@@ -1,0 +1,345 @@
+{
+  "status": "H-BTF SURVIVES ALL RANK-FOUR RESTRICTIONS",
+  "utc": "2026-11-15T04:16:32.577052+00:00",
+  "host": "macOS-27.2.1-arm64-arm-64bit",
+  "verifier_sha256": "e875a60f14ed33642346f22e3f289d347a32c56f84f975e547bebdf31cc55ff6",
+  "geometry": "Nonzero vectors of F2^4, labelled1..15; triangles x,y,x xor y",
+  "lines": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      4,
+      5
+    ],
+    [
+      1,
+      6,
+      7
+    ],
+    [
+      1,
+      8,
+      9
+    ],
+    [
+      1,
+      10,
+      11
+    ],
+    [
+      1,
+      12,
+      13
+    ],
+    [
+      1,
+      14,
+      15
+    ],
+    [
+      2,
+      4,
+      6
+    ],
+    [
+      2,
+      5,
+      7
+    ],
+    [
+      2,
+      8,
+      10
+    ],
+    [
+      2,
+      9,
+      11
+    ],
+    [
+      2,
+      12,
+      14
+    ],
+    [
+      2,
+      13,
+      15
+    ],
+    [
+      3,
+      4,
+      7
+    ],
+    [
+      3,
+      5,
+      6
+    ],
+    [
+      3,
+      8,
+      11
+    ],
+    [
+      3,
+      9,
+      10
+    ],
+    [
+      3,
+      12,
+      15
+    ],
+    [
+      3,
+      13,
+      14
+    ],
+    [
+      4,
+      8,
+      12
+    ],
+    [
+      4,
+      9,
+      13
+    ],
+    [
+      4,
+      10,
+      14
+    ],
+    [
+      4,
+      11,
+      15
+    ],
+    [
+      5,
+      8,
+      13
+    ],
+    [
+      5,
+      9,
+      12
+    ],
+    [
+      5,
+      10,
+      15
+    ],
+    [
+      5,
+      11,
+      14
+    ],
+    [
+      6,
+      8,
+      14
+    ],
+    [
+      6,
+      9,
+      15
+    ],
+    [
+      6,
+      10,
+      12
+    ],
+    [
+      6,
+      11,
+      13
+    ],
+    [
+      7,
+      8,
+      15
+    ],
+    [
+      7,
+      9,
+      14
+    ],
+    [
+      7,
+      10,
+      13
+    ],
+    [
+      7,
+      11,
+      12
+    ]
+  ],
+  "counts": {
+    "restrictions": 32768,
+    "triangle_free": 3049,
+    "TF": 3368,
+    "with_triangles": 29719,
+    "not_TF": 29400,
+    "nonvacuous_TF": 319
+  },
+  "by_ground_set_size": {
+    "0": {
+      "restrictions": 1,
+      "TF": 1
+    },
+    "1": {
+      "restrictions": 15,
+      "TF": 15
+    },
+    "2": {
+      "restrictions": 105,
+      "TF": 105
+    },
+    "3": {
+      "restrictions": 455,
+      "TF": 420
+    },
+    "4": {
+      "restrictions": 1365,
+      "TF": 945
+    },
+    "5": {
+      "restrictions": 3003,
+      "TF": 1008
+    },
+    "6": {
+      "restrictions": 5005,
+      "TF": 420
+    },
+    "7": {
+      "restrictions": 6435,
+      "TF": 135,
+      "nonvacuous_TF": 15
+    },
+    "8": {
+      "restrictions": 6435,
+      "TF": 135,
+      "nonvacuous_TF": 120
+    },
+    "9": {
+      "restrictions": 5005
+    },
+    "10": {
+      "restrictions": 3003,
+      "TF": 168,
+      "nonvacuous_TF": 168
+    },
+    "11": {
+      "restrictions": 1365
+    },
+    "12": {
+      "restrictions": 455
+    },
+    "13": {
+      "restrictions": 105
+    },
+    "14": {
+      "restrictions": 15,
+      "TF": 15,
+      "nonvacuous_TF": 15
+    },
+    "15": {
+      "restrictions": 1,
+      "TF": 1,
+      "nonvacuous_TF": 1
+    }
+  },
+  "nonvacuous_TF_classification": {
+    "Fano_planes": 15,
+    "Fano_plane_plus_one_outside_point": 120,
+    "graphic_K5_representations": 168,
+    "full_geometry_minus_one_point": 15,
+    "full_geometry": 1
+  },
+  "maximum_affine_cap_formula_exceptions": 168,
+  "affine_cap_exceptions_are_exactly_five_circuits": true,
+  "exact_submask_states": 14348907,
+  "counterexample_count": 0,
+  "smallest_counterexample": null,
+  "smallest_unconditional_parity_gap": null,
+  "tau_pi_TF_counts": [
+    {
+      "tau": 0,
+      "pi": 0,
+      "TF": true,
+      "nonvacuous": false,
+      "count": 3049
+    },
+    {
+      "tau": 1,
+      "pi": 1,
+      "TF": false,
+      "nonvacuous": true,
+      "count": 10535
+    },
+    {
+      "tau": 2,
+      "pi": 2,
+      "TF": false,
+      "nonvacuous": true,
+      "count": 12040
+    },
+    {
+      "tau": 3,
+      "pi": 3,
+      "TF": false,
+      "nonvacuous": true,
+      "count": 5425
+    },
+    {
+      "tau": 3,
+      "pi": 3,
+      "TF": true,
+      "nonvacuous": true,
+      "count": 135
+    },
+    {
+      "tau": 4,
+      "pi": 4,
+      "TF": false,
+      "nonvacuous": true,
+      "count": 1295
+    },
+    {
+      "tau": 4,
+      "pi": 4,
+      "TF": true,
+      "nonvacuous": true,
+      "count": 168
+    },
+    {
+      "tau": 5,
+      "pi": 5,
+      "TF": false,
+      "nonvacuous": true,
+      "count": 105
+    },
+    {
+      "tau": 6,
+      "pi": 6,
+      "TF": true,
+      "nonvacuous": true,
+      "count": 15
+    },
+    {
+      "tau": 7,
+      "pi": 7,
+      "TF": true,
+      "nonvacuous": true,
+      "count": 1
+    }
+  ],
+  "scope": "Complete labelled restrictions of this fixed rank-four binary geometry, including lower ranks. Not a proof for arbitrary binary rank and not an actual-graph counterexample claim."
+}

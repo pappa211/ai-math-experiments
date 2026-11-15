@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-15T03:18:39.922856+00:00",
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/pdf/1410.8807v3",
+      "local_pdf": "evidence/triangle_graph_routes/1410.8807v3.pdf",
+      "sha256": "4fe1072e7b2a4cf8c12ef53009980f74d69990f252dd544e2b179ba5be847db1",
+      "reviewed_scope": "Theorems 17 and 18, including visual inspection of printed pages 23 and 24; adjacent note read through web primary source; no new imported graph class result"
+    },
+    {
+      "url": "https://ris.utwente.nl/ws/portalfiles/portal/421363158/22m1511229.pdf",
+      "reviewed_scope": "Primary abstract and introduction only, for binary-matroid conjecture/cographic result boundary; no theorem imported"
+    }
+  ],
+  "frozen_prior": {
+    "repository": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18",
+    "commit": "57708a8413929012d9ca8d15b0f925b3ef6b51e8",
+    "path": "review/pk_inputs/late_cover_gate_corrected.md",
+    "sha256": "9fcdea12fa9893196e7ebd81abf3c9e4ebefd27b223559300d6b5fc1c2deee9d",
+    "working_bytes_equal_commit": true
+  },
+  "requested_controls": "gpt-6-astra / ultra as stated by parent",
+  "exposed_serving_metadata": "not independently exposed",
+  "scope": "Private ordinary argument and bounded local finite computation; no formal verification, no publication or contact."
+}

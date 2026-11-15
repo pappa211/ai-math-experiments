@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "q": 31,
+  "n": 155,
+  "blocks": 155,
+  "edges_count": 930,
+  "actual_triangles": 620,
+  "nu": 155,
+  "tau": 310,
+  "PC_lower_bound": 311,
+  "all_actual_triangles_are_block_faces": true,
+  "regularity": 4,
+  "parity_obstruction": "4*red=2*b impossible for odd b",
+  "local_cut_pruning_cases": 64,
+  "elapsed": 0.13109779357910156,
+  "source_sha256": "5d98cda5a96c663ec7545e07ea175b3b6e08531dd2c7598d57cfa41da5624bee",
+  "script_sha256": "179550274b983bd71be8d573194de2bb22d4d502c52a8bc0272545337bfc5772"
+}

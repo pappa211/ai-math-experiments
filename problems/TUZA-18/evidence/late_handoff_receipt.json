@@ -1,0 +1,69 @@
+{
+  "utc": "2026-11-14T19:23:26.266562+00:00",
+  "scope": "Hashes at late-track handoff, not initial-to-final source stability proof",
+  "files": [
+    {
+      "path": "sources/tuza16/ROUTES.md",
+      "sha256": "d9f4f926047d9d1c89db2d4b29e8977d7c7220eb425596362ec76dd0d0a0ad4e"
+    },
+    {
+      "path": "sources/tuza16/REPORT.md",
+      "sha256": "7e784a9edf73f6e6494f932a096dc12de6a401ebbf559b0f450d9492c5deb58d"
+    },
+    {
+      "path": "sources/tuza17/REPORT.md",
+      "sha256": "8a89d80eee8155bcd9351391fdcbc22d039b7cf569b0cf96fa56776a725ad61c"
+    },
+    {
+      "path": "sources/tuza17/STATUS_MATRIX.json",
+      "sha256": "7cece9fa3d80aa0a6d6a57af286b6b579a3000823134719f4d9981f1bf357d97"
+    },
+    {
+      "path": "notes/global_cut_gate.md",
+      "sha256": "83893dd6658e738ef91fb60ac2b5ed733160ec1a74b13732df40e72734b7486c"
+    },
+    {
+      "path": "notes/criticality_global_gate.md",
+      "sha256": "1ee462019061e6857a7cb63d1c8e90e453795478d5ae1cbc04d5afaccc0b6a44"
+    },
+    {
+      "path": "notes/apex_private_k4_gate.md",
+      "sha256": "7fd8fd550df7a6fce4f31316a5ee7e9391751d0fe2bbfaee93395ffda88321ef"
+    },
+    {
+      "path": "notes/apex_type1_embedding.md",
+      "sha256": "ab8e1d7a28a72854e9ff4324b62b2e22847d31decddea751698e6165973a27fd"
+    },
+    {
+      "path": "notes/late_cover_gate.md",
+      "sha256": "3c4cdc9519f03b32d4887907f3286e5c3ae67b445a7626835d48d800dbee2f71"
+    },
+    {
+      "path": "notes/late_cover_corollary.md",
+      "sha256": "1c57fe0ed3642c5793aa4169c79e43292e0727a1c732807a8809969ade489e94"
+    },
+    {
+      "path": "notes/late_route_log.md",
+      "sha256": "14053d1989d864b2a439e78a1f7d36c9b1a563cec392374f3d1a37b4460ca3cf"
+    },
+    {
+      "path": "checks/late_cover_verify.py",
+      "sha256": "529735913c790b452fcfcf16e1722a55e743a933e76a90deb43ffab655fa3114"
+    },
+    {
+      "path": "evidence/late_cover_verified.json",
+      "sha256": "5699930e916dbbe45d09b86bdce25b6bb96796b56c8270256a658d9443ed2078"
+    },
+    {
+      "path": "evidence/late_cover_gate_v1.md",
+      "sha256": "c0bf6c91879dc2981c41138f00a59cdb9c10737d2c13e1ec135f6dcabba53f0c"
+    },
+    {
+      "path": "evidence/late_cover_scope_revision.json",
+      "sha256": "969cdfa770053173d9df56622a5d78b595d04ca864cf0abd98b5197b2a956632"
+    }
+  ],
+  "background_processes_launched": false,
+  "new_lean_result": false,
+  "unrestricted_tuza_result": false
+}

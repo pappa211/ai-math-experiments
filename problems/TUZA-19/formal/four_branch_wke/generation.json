@@ -1,0 +1,1402 @@
+{
+  "input_sha256": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1",
+  "rows": 5375,
+  "segments": [
+    {
+      "module": "Chunk000",
+      "branches": 1,
+      "head": [],
+      "suffixLength": 0,
+      "rows": 0
+    },
+    {
+      "module": "Chunk001",
+      "branches": 2,
+      "head": [],
+      "suffixLength": 1,
+      "rows": 0
+    },
+    {
+      "module": "Chunk002",
+      "branches": 3,
+      "head": [],
+      "suffixLength": 3,
+      "rows": 10
+    },
+    {
+      "module": "Chunk003",
+      "branches": 4,
+      "head": [
+        0,
+        0,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk004",
+      "branches": 4,
+      "head": [
+        0,
+        0,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk005",
+      "branches": 4,
+      "head": [
+        0,
+        0,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk006",
+      "branches": 4,
+      "head": [
+        0,
+        0,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk007",
+      "branches": 4,
+      "head": [
+        0,
+        0,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk008",
+      "branches": 4,
+      "head": [
+        0,
+        1,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk009",
+      "branches": 4,
+      "head": [
+        0,
+        1,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk010",
+      "branches": 4,
+      "head": [
+        0,
+        1,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk011",
+      "branches": 4,
+      "head": [
+        0,
+        1,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk012",
+      "branches": 4,
+      "head": [
+        0,
+        1,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk013",
+      "branches": 4,
+      "head": [
+        0,
+        2,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk014",
+      "branches": 4,
+      "head": [
+        0,
+        2,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk015",
+      "branches": 4,
+      "head": [
+        0,
+        2,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk016",
+      "branches": 4,
+      "head": [
+        0,
+        2,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk017",
+      "branches": 4,
+      "head": [
+        0,
+        2,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk018",
+      "branches": 4,
+      "head": [
+        0,
+        3,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk019",
+      "branches": 4,
+      "head": [
+        0,
+        3,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk020",
+      "branches": 4,
+      "head": [
+        0,
+        3,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk021",
+      "branches": 4,
+      "head": [
+        0,
+        3,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk022",
+      "branches": 4,
+      "head": [
+        0,
+        3,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk023",
+      "branches": 4,
+      "head": [
+        0,
+        4,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk024",
+      "branches": 4,
+      "head": [
+        0,
+        4,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk025",
+      "branches": 4,
+      "head": [
+        0,
+        4,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk026",
+      "branches": 4,
+      "head": [
+        0,
+        4,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk027",
+      "branches": 4,
+      "head": [
+        0,
+        4,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 35
+    },
+    {
+      "module": "Chunk028",
+      "branches": 4,
+      "head": [
+        1,
+        0,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk029",
+      "branches": 4,
+      "head": [
+        1,
+        0,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk030",
+      "branches": 4,
+      "head": [
+        1,
+        0,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk031",
+      "branches": 4,
+      "head": [
+        1,
+        0,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk032",
+      "branches": 4,
+      "head": [
+        1,
+        0,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk033",
+      "branches": 4,
+      "head": [
+        1,
+        1,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk034",
+      "branches": 4,
+      "head": [
+        1,
+        1,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk035",
+      "branches": 4,
+      "head": [
+        1,
+        1,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk036",
+      "branches": 4,
+      "head": [
+        1,
+        1,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk037",
+      "branches": 4,
+      "head": [
+        1,
+        1,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk038",
+      "branches": 4,
+      "head": [
+        1,
+        2,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk039",
+      "branches": 4,
+      "head": [
+        1,
+        2,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk040",
+      "branches": 4,
+      "head": [
+        1,
+        2,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk041",
+      "branches": 4,
+      "head": [
+        1,
+        2,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk042",
+      "branches": 4,
+      "head": [
+        1,
+        2,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk043",
+      "branches": 4,
+      "head": [
+        1,
+        3,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk044",
+      "branches": 4,
+      "head": [
+        1,
+        3,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk045",
+      "branches": 4,
+      "head": [
+        1,
+        3,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk046",
+      "branches": 4,
+      "head": [
+        1,
+        3,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk047",
+      "branches": 4,
+      "head": [
+        1,
+        3,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk048",
+      "branches": 4,
+      "head": [
+        1,
+        4,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk049",
+      "branches": 4,
+      "head": [
+        1,
+        4,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk050",
+      "branches": 4,
+      "head": [
+        1,
+        4,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk051",
+      "branches": 4,
+      "head": [
+        1,
+        4,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk052",
+      "branches": 4,
+      "head": [
+        1,
+        4,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 88
+    },
+    {
+      "module": "Chunk053",
+      "branches": 4,
+      "head": [
+        2,
+        0,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk054",
+      "branches": 4,
+      "head": [
+        2,
+        0,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk055",
+      "branches": 4,
+      "head": [
+        2,
+        0,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk056",
+      "branches": 4,
+      "head": [
+        2,
+        0,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk057",
+      "branches": 4,
+      "head": [
+        2,
+        0,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk058",
+      "branches": 4,
+      "head": [
+        2,
+        1,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk059",
+      "branches": 4,
+      "head": [
+        2,
+        1,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk060",
+      "branches": 4,
+      "head": [
+        2,
+        1,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk061",
+      "branches": 4,
+      "head": [
+        2,
+        1,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk062",
+      "branches": 4,
+      "head": [
+        2,
+        1,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk063",
+      "branches": 4,
+      "head": [
+        2,
+        2,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk064",
+      "branches": 4,
+      "head": [
+        2,
+        2,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk065",
+      "branches": 4,
+      "head": [
+        2,
+        2,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk066",
+      "branches": 4,
+      "head": [
+        2,
+        2,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk067",
+      "branches": 4,
+      "head": [
+        2,
+        2,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk068",
+      "branches": 4,
+      "head": [
+        2,
+        3,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk069",
+      "branches": 4,
+      "head": [
+        2,
+        3,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk070",
+      "branches": 4,
+      "head": [
+        2,
+        3,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk071",
+      "branches": 4,
+      "head": [
+        2,
+        3,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk072",
+      "branches": 4,
+      "head": [
+        2,
+        3,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk073",
+      "branches": 4,
+      "head": [
+        2,
+        4,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk074",
+      "branches": 4,
+      "head": [
+        2,
+        4,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk075",
+      "branches": 4,
+      "head": [
+        2,
+        4,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk076",
+      "branches": 4,
+      "head": [
+        2,
+        4,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk077",
+      "branches": 4,
+      "head": [
+        2,
+        4,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 88
+    },
+    {
+      "module": "Chunk078",
+      "branches": 4,
+      "head": [
+        3,
+        0,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk079",
+      "branches": 4,
+      "head": [
+        3,
+        0,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk080",
+      "branches": 4,
+      "head": [
+        3,
+        0,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk081",
+      "branches": 4,
+      "head": [
+        3,
+        0,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk082",
+      "branches": 4,
+      "head": [
+        3,
+        0,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk083",
+      "branches": 4,
+      "head": [
+        3,
+        1,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk084",
+      "branches": 4,
+      "head": [
+        3,
+        1,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk085",
+      "branches": 4,
+      "head": [
+        3,
+        1,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk086",
+      "branches": 4,
+      "head": [
+        3,
+        1,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk087",
+      "branches": 4,
+      "head": [
+        3,
+        1,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk088",
+      "branches": 4,
+      "head": [
+        3,
+        2,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk089",
+      "branches": 4,
+      "head": [
+        3,
+        2,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk090",
+      "branches": 4,
+      "head": [
+        3,
+        2,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk091",
+      "branches": 4,
+      "head": [
+        3,
+        2,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk092",
+      "branches": 4,
+      "head": [
+        3,
+        2,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk093",
+      "branches": 4,
+      "head": [
+        3,
+        3,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk094",
+      "branches": 4,
+      "head": [
+        3,
+        3,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk095",
+      "branches": 4,
+      "head": [
+        3,
+        3,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk096",
+      "branches": 4,
+      "head": [
+        3,
+        3,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 67
+    },
+    {
+      "module": "Chunk097",
+      "branches": 4,
+      "head": [
+        3,
+        3,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk098",
+      "branches": 4,
+      "head": [
+        3,
+        4,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk099",
+      "branches": 4,
+      "head": [
+        3,
+        4,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk100",
+      "branches": 4,
+      "head": [
+        3,
+        4,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk101",
+      "branches": 4,
+      "head": [
+        3,
+        4,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk102",
+      "branches": 4,
+      "head": [
+        3,
+        4,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 88
+    },
+    {
+      "module": "Chunk103",
+      "branches": 4,
+      "head": [
+        4,
+        0,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 0
+    },
+    {
+      "module": "Chunk104",
+      "branches": 4,
+      "head": [
+        4,
+        0,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk105",
+      "branches": 4,
+      "head": [
+        4,
+        0,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk106",
+      "branches": 4,
+      "head": [
+        4,
+        0,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk107",
+      "branches": 4,
+      "head": [
+        4,
+        0,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 35
+    },
+    {
+      "module": "Chunk108",
+      "branches": 4,
+      "head": [
+        4,
+        1,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk109",
+      "branches": 4,
+      "head": [
+        4,
+        1,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk110",
+      "branches": 4,
+      "head": [
+        4,
+        1,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk111",
+      "branches": 4,
+      "head": [
+        4,
+        1,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk112",
+      "branches": 4,
+      "head": [
+        4,
+        1,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 88
+    },
+    {
+      "module": "Chunk113",
+      "branches": 4,
+      "head": [
+        4,
+        2,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk114",
+      "branches": 4,
+      "head": [
+        4,
+        2,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk115",
+      "branches": 4,
+      "head": [
+        4,
+        2,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk116",
+      "branches": 4,
+      "head": [
+        4,
+        2,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk117",
+      "branches": 4,
+      "head": [
+        4,
+        2,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 88
+    },
+    {
+      "module": "Chunk118",
+      "branches": 4,
+      "head": [
+        4,
+        3,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 32
+    },
+    {
+      "module": "Chunk119",
+      "branches": 4,
+      "head": [
+        4,
+        3,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk120",
+      "branches": 4,
+      "head": [
+        4,
+        3,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk121",
+      "branches": 4,
+      "head": [
+        4,
+        3,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 73
+    },
+    {
+      "module": "Chunk122",
+      "branches": 4,
+      "head": [
+        4,
+        3,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 88
+    },
+    {
+      "module": "Chunk123",
+      "branches": 4,
+      "head": [
+        4,
+        4,
+        0
+      ],
+      "suffixLength": 3,
+      "rows": 35
+    },
+    {
+      "module": "Chunk124",
+      "branches": 4,
+      "head": [
+        4,
+        4,
+        1
+      ],
+      "suffixLength": 3,
+      "rows": 88
+    },
+    {
+      "module": "Chunk125",
+      "branches": 4,
+      "head": [
+        4,
+        4,
+        2
+      ],
+      "suffixLength": 3,
+      "rows": 88
+    },
+    {
+      "module": "Chunk126",
+      "branches": 4,
+      "head": [
+        4,
+        4,
+        3
+      ],
+      "suffixLength": 3,
+      "rows": 88
+    },
+    {
+      "module": "Chunk127",
+      "branches": 4,
+      "head": [
+        4,
+        4,
+        4
+      ],
+      "suffixLength": 3,
+      "rows": 112
+    }
+  ]
+}

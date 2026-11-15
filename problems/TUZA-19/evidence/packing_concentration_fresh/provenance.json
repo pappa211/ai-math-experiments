@@ -1,0 +1,23 @@
+{
+  "audit_started_utc": "2026-11-15T02:20:25Z",
+  "recorded_utc": "2026-11-15T02:24:14.301386+00:00",
+  "mission_start_utc": "2026-11-15T01:53:58Z",
+  "research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "hard_deadline_utc": "2026-11-15T09:53:58Z",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "serving_metadata": "Exact serving model and effort not exposed; no serving assertion made.",
+  "initial_input_sha256": "7faef08e207c5ef9dbfd58cc3b42820bb42012a451ce9932a7f68e8b598296c4",
+  "current_input_sha256": "7faef08e207c5ef9dbfd58cc3b42820bb42012a451ce9932a7f68e8b598296c4",
+  "input_manifest_use": "Hash strings only; no producer evidence used.",
+  "frozen_archive": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-18",
+  "frozen_commit": "57708a8413929012d9ca8d15b0f925b3ef6b51e8",
+  "frozen_sources_sha256": {
+    "notes/late_star_gluing_obstruction.md": "6ded16c3c61ef3029e86d7c9399bac6e3090ff80e204fd50023ce0f8fc6fee0b",
+    "notes/criticality_star_pk_theorem.md": "f08cc442241eef4b790bc4b5228c958045593f97ebf56c1259a6f6b1ffe5488b",
+    "notes/criticality_star_local_dichotomy.md": "ef9e1a69c6722a648eb35549295e80d18b2e062ee6b2d6421bf91dbbcf8c7575"
+  },
+  "isolation": "No producer checker, result, route/root log, or favorable review read before or during reconstruction.",
+  "execution": "Local owner Darwin arm64; source migration/env.sh; Python standard library; no Lean or remote execution.",
+  "verifier_development_note": "Initial run stopped at order-sensitive tuple assertion P0 in core_max. Replaced by set-of-triangles equality; no mathematical discrepancy. Full rerun passed."
+}

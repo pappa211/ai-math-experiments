@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-15T06:13:17.662556+00:00",
+  "status": "PASS",
+  "scope": "Independent root read-only cross-file comparison; no Lean replay",
+  "chunk_headers_match_coverage": true,
+  "chunk_counts_match_coverage": true,
+  "all_literal_records_match_frozen_json": true,
+  "records": 5375,
+  "source_sha256": {
+    "Core.lean": "77dad262c00416c2e8807a2b3539ce4b83ce621fc8b0fe859ef6c3a6174939f6",
+    "Domain.lean": "14fa6e706f08aa74d883eb7ac68600dc9e8c564c5cdf7cde5850ffd12b7ab734",
+    "Coverage.lean": "b3e4356a4275d7f2c8fafffcccc4d223f42f901d7f2cb77ae2bc56d6a68de33f",
+    "inputs/canonical_witnesses.json": "e69818bb2599b6b934dd945f3b6cd0305f6718c3d2fe165ea9f7f6d1bfe17cc1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "K4_free": true,
+  "actual_triangles": 20,
+  "finished_utc": "2026-11-14T19:19:10.493575+00:00",
+  "graph_edges": 31,
+  "graph_vertices": 12,
+  "input_sha256": "5699930e916dbbe45d09b86bdce25b6bb96796b56c8270256a658d9443ed2078",
+  "limitations": [
+    "Sheet-splitting is an ordinary unbounded proof, not a finite cover census.",
+    "The reviewed target needs assemblies to mean shared-edge triangle components; arbitrary overlapping additive gluings were not excluded.",
+    "No exact-minimal-Tuza-counterexample claim."
+  ],
+  "nu": 5,
+  "one_triangle_component": true,
+  "reviewed_proof_sha256": "c0bf6c91879dc2981c41138f00a59cdb9c10737d2c13e1ec135f6dcabba53f0c",
+  "rim_3_colourings_with_w_fixed": 0,
+  "rim_alpha": 5,
+  "rim_edges": 20,
+  "rim_vertex_subsets_checked": 2048,
+  "rim_vertices": 11,
+  "script_sha256": "e931d3fd858727d3d23a82bbbb10798932513a0ae23c64102d032d7d754ba62c",
+  "started_utc": "2026-11-14T19:19:10.492257+00:00",
+  "status": "PASS",
+  "tau": 6
+}

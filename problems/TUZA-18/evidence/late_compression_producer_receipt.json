@@ -1,0 +1,42 @@
+{
+  "status": "FROZEN_FOR_INDEPENDENT_REVIEW",
+  "freeze_utc": "2026-11-14T20:19:17.625484+00:00",
+  "research_stopped": true,
+  "producer": "/root/final_global",
+  "joint_derivation": "Root/coordinator and producer jointly derived controls and certificates; final independent fresh-critic review is separate and pending.",
+  "requested_model": "GPT-6 Astra",
+  "requested_reasoning": "Ultra",
+  "actual_runtime_model": "not exposed to this agent",
+  "actual_runtime_reasoning": "not exposed to this agent",
+  "availability_claim_status": {
+    "threshold_terminal": "REFUTED by edge-glued two K4s",
+    "threshold_plus_whole_graph_common_vertex_terminal": "REFUTED by 4x4 rook graph",
+    "closure_under_shared_edge_triangle_components": "REFUTED by cone over 4x4 rook graph",
+    "further_exemption_of_all_one_apex_literal_K3_K4_K5_block_graphs": "UNRESOLVED; cone belongs to this entire known terminal class"
+  },
+  "original_cone": {
+    "nu": 16,
+    "tau": 24,
+    "defect": -8,
+    "triangles": 80,
+    "edge_count": 64,
+    "shared_edge_triangle_components": 1
+  },
+  "compressed_cones": {
+    "adjacent": {
+      "nu_lower_bound": 17,
+      "tau_upper_bound": 25,
+      "defect_upper_bound": -9,
+      "actual_triangles": 83
+    },
+    "nonadjacent": {
+      "nu_lower_bound": 18,
+      "tau_upper_bound": 24,
+      "defect_upper_bound": -12,
+      "actual_triangles": 84
+    }
+  },
+  "ordinary_Tuza": "UNRESOLVED globally; no counterexample candidate",
+  "independent_final_review": "PENDING",
+  "operations": "All new files staged in explicit private tmp directory; no accepted source or archive write, installation, server, external message, publication, or remote write."
+}

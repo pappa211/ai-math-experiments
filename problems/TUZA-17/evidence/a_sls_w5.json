@@ -1,0 +1,825 @@
+{
+  "status": "SLS_REFUTED",
+  "AC_status": "PASS_FOR_THIS_WITNESS",
+  "H_order": 6,
+  "H_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      5
+    ]
+  ],
+  "X": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "H_actual_triangles": [
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      1,
+      2,
+      5
+    ],
+    [
+      2,
+      3,
+      5
+    ],
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "L_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "L_old_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "H_rainbow_coloring": [
+    {
+      "edge": [
+        0,
+        1
+      ],
+      "color": 2
+    },
+    {
+      "edge": [
+        0,
+        4
+      ],
+      "color": 1
+    },
+    {
+      "edge": [
+        0,
+        5
+      ],
+      "color": 0
+    },
+    {
+      "edge": [
+        1,
+        2
+      ],
+      "color": 2
+    },
+    {
+      "edge": [
+        1,
+        5
+      ],
+      "color": 1
+    },
+    {
+      "edge": [
+        2,
+        3
+      ],
+      "color": 2
+    },
+    {
+      "edge": [
+        2,
+        5
+      ],
+      "color": 0
+    },
+    {
+      "edge": [
+        3,
+        4
+      ],
+      "color": 0
+    },
+    {
+      "edge": [
+        3,
+        5
+      ],
+      "color": 1
+    },
+    {
+      "edge": [
+        4,
+        5
+      ],
+      "color": 2
+    }
+  ],
+  "nu_H": 2,
+  "packing_H": [
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      2,
+      3,
+      5
+    ]
+  ],
+  "tau_H": 3,
+  "D_H": 1,
+  "all_minimum_H_covers": [
+    {
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rim_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "residual_link_vc": 2,
+      "vertex_cover": [
+        2,
+        4
+      ]
+    },
+    {
+      "cover": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "rim_edges": [
+        [
+          0,
+          4
+        ]
+      ],
+      "residual_link_vc": 2,
+      "vertex_cover": [
+        1,
+        3
+      ]
+    },
+    {
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "rim_edges": [
+        [
+          1,
+          2
+        ]
+      ],
+      "residual_link_vc": 2,
+      "vertex_cover": [
+        0,
+        3
+      ]
+    },
+    {
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "rim_edges": [],
+      "residual_link_vc": 3,
+      "vertex_cover": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "rim_edges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "residual_link_vc": 2,
+      "vertex_cover": [
+        0,
+        2
+      ]
+    },
+    {
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "rim_edges": [],
+      "residual_link_vc": 3,
+      "vertex_cover": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "cover": [
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rim_edges": [],
+      "residual_link_vc": 3,
+      "vertex_cover": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "cover": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rim_edges": [
+        [
+          2,
+          3
+        ]
+      ],
+      "residual_link_vc": 2,
+      "vertex_cover": [
+        1,
+        4
+      ]
+    },
+    {
+      "cover": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rim_edges": [],
+      "residual_link_vc": 3,
+      "vertex_cover": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "cover": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "rim_edges": [],
+      "residual_link_vc": 3,
+      "vertex_cover": [
+        0,
+        1,
+        3
+      ]
+    }
+  ],
+  "lambda_old": 2,
+  "all_H_edges_packing_stable": [
+    {
+      "deleted_edge": [
+        0,
+        1
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "deleted_edge": [
+        0,
+        4
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "deleted_edge": [
+        0,
+        5
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        2
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "deleted_edge": [
+        1,
+        5
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "deleted_edge": [
+        2,
+        3
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "deleted_edge": [
+        2,
+        5
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "deleted_edge": [
+        3,
+        4
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "deleted_edge": [
+        3,
+        5
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "deleted_edge": [
+        4,
+        5
+      ],
+      "nu": 2,
+      "packing": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  ],
+  "G_order": 7,
+  "G_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "G_actual_triangles": [
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      4,
+      6
+    ],
+    [
+      1,
+      2,
+      5
+    ],
+    [
+      1,
+      2,
+      6
+    ],
+    [
+      2,
+      3,
+      5
+    ],
+    [
+      2,
+      3,
+      6
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      3,
+      4,
+      6
+    ]
+  ],
+  "nu_G": 4,
+  "packing_G": [
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      4,
+      6
+    ],
+    [
+      1,
+      2,
+      6
+    ],
+    [
+      2,
+      3,
+      5
+    ]
+  ],
+  "tau_G": 5,
+  "G_minimum_cover": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "apex_gain": 2,
+  "AC_budget": 5,
+  "best_minimum_H_compatibility_cost": 5,
+  "exact_method": "all subsets of the full actual triangle family for packing; all graph-edge subsets by increasing size for cover; all X vertex subsets by increasing size for ordinary vertex cover",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "elapsed_seconds": 0.0038337919977493584,
+  "peak_rss_bytes_darwin": 15171584
+}

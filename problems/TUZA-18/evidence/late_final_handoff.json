@@ -1,0 +1,168 @@
+{
+  "utc": "2026-11-14T19:59:39.252832+00:00",
+  "research_cutoff": "2026-11-14T21:00:10Z",
+  "subtask_requested_freeze": "2026-11-14T20:35:00Z",
+  "status": "Main hypotheses and decisive controls frozen; independent literal review in progress; no running job",
+  "new_unrestricted_tuza_result": false,
+  "new_lean_result": false,
+  "claims": [
+    {
+      "claim": "Genuine triangle-preserving covering reduction to rainbow/K5 components",
+      "status": "REFUTED_EXISTENCE",
+      "note": "notes/late_cover_gate.md"
+    },
+    {
+      "claim": "Existential star-cover gluing SG",
+      "status": "UNRESOLVED",
+      "note": "notes/late_star_gluing_gate.md"
+    },
+    {
+      "claim": "Support-cover star-quota compatibility iff heavy-light matching saturates heavy members",
+      "status": "PROVED_ORDINARY_REVIEWED",
+      "note": "notes/late_star_gluing_obstruction.md"
+    },
+    {
+      "claim": "Type1 canonical centres or arbitrary fixed minimum support-cover suffice for star gluing",
+      "status": "REFUTED_LITERAL_REVIEWED",
+      "note": "notes/late_star_gluing_obstruction.md"
+    },
+    {
+      "claim": "Fixed-radius strict global Hall-deficiency descent on minimum support covers",
+      "status": "REFUTED_UNBOUNDED_CONNECTED_FAMILY",
+      "note": "notes/late_star_connected_pivot_obstruction.md",
+      "review": "Fresh critic independently reconstructed all-N proof; separate N=3 verification pending at receipt time"
+    }
+  ],
+  "files": [
+    {
+      "path": "checks/late_cover_verify.py",
+      "sha256": "529735913c790b452fcfcf16e1722a55e743a933e76a90deb43ffab655fa3114"
+    },
+    {
+      "path": "checks/late_star_connected_chain_verify.py",
+      "sha256": "1a62ed083fe4e9ef5fcbccc137c757bb793004917c2ae711401c4b46cfd3a00b"
+    },
+    {
+      "path": "checks/late_star_edge_glue.py",
+      "sha256": "a06bb5353147f88c2a0965acd36d35dc6536d1e6600f46d6c83cb8f23e1de329"
+    },
+    {
+      "path": "checks/late_star_global_gluing.py",
+      "sha256": "fd5f7f63a7df4d1e399bd362b75e77c0f4d19b3e2ce1e69613e0308ded78ee45"
+    },
+    {
+      "path": "checks/late_star_gluing.py",
+      "sha256": "722da28f9c78968ab9fadc0e828cf826a40cc73b6a72f4fe6823c3817bea2014"
+    },
+    {
+      "path": "checks/late_star_literal_verify.py",
+      "sha256": "38257909df25453163d96a83a15d58a658db19ae97b094248d74442e052c075e"
+    },
+    {
+      "path": "checks/late_star_pivot.py",
+      "sha256": "875a3f395e89e8c86e4220bab1e377bba07464126994b47e77ff4d2a479b1b9f"
+    },
+    {
+      "path": "checks/late_star_pivot_chain_verify.py",
+      "sha256": "d57322ef8a5f2562d0284ff3a73e9d233c5200364860a0e88d6c579437f06c11"
+    },
+    {
+      "path": "evidence/late_cover_gate_v1.md",
+      "sha256": "c0bf6c91879dc2981c41138f00a59cdb9c10737d2c13e1ec135f6dcabba53f0c"
+    },
+    {
+      "path": "evidence/late_cover_scope_revision.json",
+      "sha256": "969cdfa770053173d9df56622a5d78b595d04ca864cf0abd98b5197b2a956632"
+    },
+    {
+      "path": "evidence/late_cover_verified.json",
+      "sha256": "5699930e916dbbe45d09b86bdce25b6bb96796b56c8270256a658d9443ed2078"
+    },
+    {
+      "path": "evidence/late_handoff_receipt.json",
+      "sha256": "b81609e8e36f6b0e48424301084938c15a1c077221c54ab6d8f24a00367c534c"
+    },
+    {
+      "path": "evidence/late_star_connected_chain_verified.json",
+      "sha256": "0a552f9d2205363f4199d103720a26e26d6d3ea7c7354223dae877393f100e2d"
+    },
+    {
+      "path": "evidence/late_star_edge_glue.json",
+      "sha256": "4eeb3e6c78a0e851c542dbc5f300574b49af98bff635fcd6587feebe1239195f"
+    },
+    {
+      "path": "evidence/late_star_global_gluing.json",
+      "sha256": "6af82b450079a058f7375ee45cb91db720e748064abfded21d3bead163b24d45"
+    },
+    {
+      "path": "evidence/late_star_gluing.json",
+      "sha256": "063019af5cfb0dcd2b9994c0adb6fb2535f0c1ccad76838c77a0ef588c888127"
+    },
+    {
+      "path": "evidence/late_star_gluing_obstruction_v1.md",
+      "sha256": "800086b46b9119f84eeeaaadaaeb182fba16154c7fc20db0094693ff401764a0"
+    },
+    {
+      "path": "evidence/late_star_literal_verified.json",
+      "sha256": "932dd4dcf96819c89094c91302218a3d3a7154254f063b8457b7b0e8539c90a0"
+    },
+    {
+      "path": "evidence/late_star_pivot.json",
+      "sha256": "86ad9d0f2b23d0a0b6d9072e7fc4ea024bd50d86ff9ad1676af6fae97c076290"
+    },
+    {
+      "path": "evidence/late_star_pivot_chain_verified.json",
+      "sha256": "23ad2229991b49907ba963faf43475c2c98c8f85444f4f6179d1e8361ddadb68"
+    },
+    {
+      "path": "evidence/late_star_review_revision.json",
+      "sha256": "5ff171be2bf7710fc036ff386abf8e418c4606e3100da9075df4263971758d2c"
+    },
+    {
+      "path": "evidence/late_triangle_glue_profiles.json",
+      "sha256": "a15ef5e7f0ddf7cae1ab6319eba08371dea347665e01a1d4120e4fccce0c9ed4"
+    },
+    {
+      "path": "notes/late_cover_corollary.md",
+      "sha256": "1c57fe0ed3642c5793aa4169c79e43292e0727a1c732807a8809969ade489e94"
+    },
+    {
+      "path": "notes/late_cover_gate.md",
+      "sha256": "9fcdea12fa9893196e7ebd81abf3c9e4ebefd27b223559300d6b5fc1c2deee9d"
+    },
+    {
+      "path": "notes/late_route_log.md",
+      "sha256": "7d1bd29cee833d8a90e88c0678d13fd6da863aecc1a53f3abc9cdcefd920c3ce"
+    },
+    {
+      "path": "notes/late_star_connected_pivot_obstruction.md",
+      "sha256": "0a5491534d7c85fb7206e4f0ffddafaf1c179f2b40ad0c198135f229e124f4cd"
+    },
+    {
+      "path": "notes/late_star_gluing_gate.md",
+      "sha256": "5838b0b2dd30ebc6a47bd8a6c56051daf635f5d6b71c3ce976fa64fffc03e28d"
+    },
+    {
+      "path": "notes/late_star_gluing_obstruction.md",
+      "sha256": "6ded16c3c61ef3029e86d7c9399bac6e3090ff80e204fd50023ce0f8fc6fee0b"
+    },
+    {
+      "path": "notes/late_star_pivot_obstruction.md",
+      "sha256": "9c82036891486fc770c09c71cfd7c636535e17dcb124f42d384da4ca31a484fd"
+    }
+  ],
+  "read_only_dependencies": [
+    {
+      "path": "sources/published/problems/TUZA-14B/notes/TRACK_A.md",
+      "sha256": "fd49f57fc0c028342f9225b65189f870dcf6166d556178c2de8d8fd10c55d1f0"
+    },
+    {
+      "path": "notes/criticality_star_pk_theorem.md",
+      "sha256": "f08cc442241eef4b790bc4b5228c958045593f97ebf56c1259a6f6b1ffe5488b"
+    },
+    {
+      "path": "evidence/apex_type1_directed_ledger.json.gz",
+      "sha256": "7cbae4b4721c0a77dd968e0118eefd575d067573fe13e0e25cd0ae1e01e19a86"
+    }
+  ]
+}

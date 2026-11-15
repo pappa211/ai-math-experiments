@@ -1,0 +1,34 @@
+[
+  {
+    "filename": "yuster_dense_triangle_cover.pdf",
+    "url": "https://math.haifa.ac.il/raphy/papers/triangrich.pdf",
+    "error": "Author-host response did not begin with %PDF; not retained as a PDF. Readable primary author PDF was inspected through web tool; arXiv v1 retained separately."
+  },
+  {
+    "filename": "sources/efr_power_saving/baron_kahn_1408.4870v2.pdf",
+    "url": "https://arxiv.org/pdf/1408.4870v2",
+    "final_url": "https://arxiv.org/pdf/1408.4870v2",
+    "sha256": "9cb0bf2c1fda35dd2cfa87a807305efeb08034cf7a95c33525a18a1dbcc68c02",
+    "bytes": 288029,
+    "pages": 22,
+    "retrieved_utc": "2026-11-15T07:41:50.993565+00:00"
+  },
+  {
+    "filename": "sources/efr_power_saving/liu_zeng_2610.15539v1.pdf",
+    "url": "https://arxiv.org/pdf/2610.15539v1",
+    "final_url": "https://arxiv.org/pdf/2610.15539v1",
+    "sha256": "25ac91f2ab3da459c409bff335dbd106081e08063df6e032411b6c81a34ac34f",
+    "bytes": 346591,
+    "pages": 15,
+    "retrieved_utc": "2026-11-15T07:41:51.560333+00:00"
+  },
+  {
+    "filename": "sources/efr_power_saving/yuster_1009.0353v1.pdf",
+    "url": "https://arxiv.org/pdf/1009.0353v1",
+    "sha256": "22859aa8ee69cc5a2a51da1ec2dcbfd66c5752f5f428ce05ca9d9c8b4ffa02be",
+    "bytes": 137911,
+    "pages": 11,
+    "retrieved_utc": "2026-11-15T07:42:38.264648+00:00",
+    "version_note": "arXiv v1 has quadratic beta improvement; author-host revised PDF has linear beta improvement. Only common Theorem1.3 used."
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-03T23:19:21.775119+00:00",
+  "python": "3.12.12",
+  "independence": "No producer import; GF(4) static table, adjacency intersections; exact integer checks. Not an independently authored implementation.",
+  "cases": [
+    {
+      "slopes": [
+        0
+      ],
+      "full_triangles_reconstructed": 16,
+      "packing_witness_size": 4
+    },
+    {
+      "slopes": [
+        0,
+        1
+      ],
+      "full_triangles_reconstructed": 32,
+      "packing_witness_size": 8
+    },
+    {
+      "slopes": [
+        0,
+        1,
+        2
+      ],
+      "full_triangles_reconstructed": 96,
+      "packing_witness_size": 20
+    },
+    {
+      "slopes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "full_triangles_reconstructed": 256,
+      "packing_witness_size": 28,
+      "nu": 32,
+      "tau": 32,
+      "certificate": "packing covers all edges; cover feasible; all 256 K4 transversals checked"
+    }
+  ]
+}

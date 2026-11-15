@@ -1,0 +1,8 @@
+RECORD 0 11 6 5 8 2 gap -8
+RECORD 0 11 6 5 7 1 gap -7
+RECORD 0 11 6 5 7 2 gap -6
+RECORD 1 8 1 1 4 3 gap -4
+RECORD 1 8 1 1 2 1 gap -2
+RECORD 279 8 1 1 1 0 gap -1
+progress 390 2300 59
+{"status": "PASS_FOR_COMPLETED_PROBES", "seed": 170401, "completed_AC_probes": 2588, "timeouts_UNKNOWN": [3, 6, 16, 23, 28, 36, 38, 39, 42, 76, 86, 90, 93, 112, 122, 126, 128, 130, 143, 149, 150, 152, 196, 200, 216, 229, 240, 246, 252, 264, 267, 269, 274, 276, 282, 284, 292, 306, 311, 316, 320, 323, 330, 332, 334, 339, 346, 347, 353, 358, 359, 362, 363, 368, 369, 371, 372, 374, 383, 393, 394, 396, 408, 409, 418, 420, 424, 427, 436, 437], "max_gap": -1, "elapsed_seconds": 180.1832981250045, "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]", "limits": {"per_H_seconds": 2, "total_seconds": 180, "supervisor_RSS_MiB": 1500}, "evidence": "exact exhaustive integer recursion; not full-class proof"}

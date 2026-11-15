@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-11-15T05:31:17.092400+00:00",
+  "primary_url": "https://arxiv.org/pdf/2001.00257v2",
+  "primary_version": "arXiv v2, revised 3 February 2021",
+  "pdf_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/evidence/cksu_source_audit/2001.00257v2.pdf",
+  "pdf_sha256": "1ec683cf6d609daf53ee967d9f53a93a87c17286ae20a46191070c7ca5688897",
+  "frozen_extraction_path": "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-19/evidence/cksu_source_audit/extracted_text.txt",
+  "extraction_sha256": "1d1833bf8bdf36bd2bd618ace09c33040e1db79f89c5a8d281315faf4453deda",
+  "classification_note_sha256": "a0a8b8a2c8cdf3e0c028661bef9ce51c7586b13ffaed695ea99aa02ffe2c7ab9",
+  "classification_fresh_review_sha256": "be98f11d9368f1355440d2ab23ebd67283621c8d2435a698a63e03fbde32e407",
+  "search_scope": "Every token 13 from PDF page14 onward in the frozen text extraction and independently in PyMuPDF extraction. Page14 begins with the end of Section3, whose two references are excluded from the Section4 inventory. Manually distinguish Proposition13 citations from fractions, figures, edge indices, Observation13 and A13 sets. Relevant definitions and algorithm neighborhoods read separately.",
+  "explicit_reference_groups": [
+    {
+      "page": 20,
+      "lines": [
+        953
+      ],
+      "context": "Potentially-uncovered enumeration cites Propositions 12,13,15; following lines impose a null edge of a chain tail."
+    },
+    {
+      "page": 44,
+      "lines": [
+        2324,
+        2325,
+        2340
+      ],
+      "context": "Claim45 cites13.2 then13.3 after starting with an unsatisfied chain tail and selecting two nonbase edges."
+    },
+    {
+      "page": 59,
+      "lines": [
+        3039
+      ],
+      "context": "Claim49 cites13.2 for uniqueness of the private anchor of an already-established chain member; direct chain-definition property."
+    }
+  ],
+  "scope_limits": "Dependency audit only. Does not verify Proposition15, alternate-packing lemmas, all remaining claims, or the whole half-integral theorem."
+}

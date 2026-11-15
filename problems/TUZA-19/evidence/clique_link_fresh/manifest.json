@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-11-15T08:08:39.264266+00:00",
+  "requested_model": "Astra",
+  "requested_reasoning_effort": "Ultra",
+  "serving_metadata": "not independently exposed",
+  "verdict": "PASS with two minor wording corrections; component-wise non-WKE scope",
+  "producer_checker_not_read_or_imported": true,
+  "command": "source LOCAL_ENVIRONMENT && python checks/fresh_clique_link_audit.py",
+  "returncode": 0,
+  "files": {
+    "review/clique_link_polytope_fresh_audit.md": "34473f4624acfacc7883d478684a8d890caf4456ed5b1f5e1615d4c2e87ef6f3",
+    "checks/fresh_clique_link_audit.py": "c2c1cd33f294f60ca2fb82bc065cf7399db33d55106a9585f6a6c2b8a3292d81",
+    "evidence/clique_link_fresh/global_routes_clique_link_polytope_obstruction.md": "58a6165eb965c00ae7c0fc711b9bdaf22a99809c616b2e8e04447bafccb32b07",
+    "evidence/clique_link_fresh/clique_link_control.json": "a27c52c171bb0dcade1ce16678484c61e90dc1e5679643bd606feb7b911e6156",
+    "evidence/clique_link_fresh/global_routes_quantitative_amplification.md": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53",
+    "evidence/clique_link_fresh/independent_receipt.json": "79d28df24862dbd1ca33ecce05b3d9234104210368fb56126f109ecc7af5b02b"
+  },
+  "scope": "Ordinary independent reconstruction plus fixed positive literal certificates; no Lean, SAT, broad search or joint-moment claim"
+}

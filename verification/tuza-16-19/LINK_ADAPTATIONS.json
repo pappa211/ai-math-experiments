@@ -1,0 +1,2452 @@
+[
+  {
+    "file": "problems/TUZA-16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "papers/tuza-11-15-research-summary/main.pdf",
+    "new": "../../../../papers/tuza-11-15-research-summary/main.pdf"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "RESEARCH_STATUS_2026-11-01.md",
+    "new": "../../../../RESEARCH_STATUS_2026-11-01.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-11/README.md",
+    "new": "../../../TUZA-11/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-12/README.md",
+    "new": "../../../TUZA-12/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-13/README.md",
+    "new": "../../../TUZA-13/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-14/README.md",
+    "new": "../../../TUZA-14/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-14B/README.md",
+    "new": "../../../TUZA-14B/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-15/README.md",
+    "new": "../../../TUZA-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "verification/tuza-11-15/README.md",
+    "new": "../../../../verification/tuza-11-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "DECLARATION_INDEX.md",
+    "new": "../../../../DECLARATION_INDEX.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md",
+    "new": "../../../TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md",
+    "new": "../../../TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/verification/PROOF_RECONSTRUCTION.md",
+    "new": "../../../TUZA-11/verification/PROOF_RECONSTRUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-12/INDEPENDENT_PROOF_A.md",
+    "new": "../../../TUZA-12/INDEPENDENT_PROOF_A.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-12/INDEPENDENT_PROOF_B.md",
+    "new": "../../../TUZA-12/INDEPENDENT_PROOF_B.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/HISTORICAL_RESULTS.md",
+    "new": "../../../TUZA-13/HISTORICAL_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/SEARCH_COVERAGE.json",
+    "new": "../../../TUZA-13/SEARCH_COVERAGE.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/RATIO_AUDIT.md",
+    "new": "../../../TUZA-14B/RATIO_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/notes/STRUCTURAL_ATTACK.md",
+    "new": "../../../TUZA-13/notes/STRUCTURAL_ATTACK.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md",
+    "new": "../../../TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/PROOF_WORKBOOK.md",
+    "new": "../../../TUZA-14/PROOF_WORKBOOK.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/TRACK_A.md",
+    "new": "../../../TUZA-14/notes/TRACK_A.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/TRACK_B.md",
+    "new": "../../../TUZA-14/notes/TRACK_B.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+    "new": "../../../TUZA-14B/PROOF_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/notes/TRACK_B.md",
+    "new": "../../../TUZA-14B/notes/TRACK_B.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+    "new": "../../../TUZA-15/PROOFS_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/notes/SCOUT_B_RESULTS.md",
+    "new": "../../../TUZA-15/notes/SCOUT_B_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+    "new": "../../../TUZA-15/notes/SCOUT_B_DEGREE8.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/evidence/six_link_certificates.json",
+    "new": "../../../TUZA-15/evidence/six_link_certificates.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/checks/independent_six_links.py",
+    "new": "../../../TUZA-15/checks/independent_six_links.py"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-11-15/README.md",
+    "new": "../../../../verification/tuza-11-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-13/REPRODUCTION.md",
+    "new": "../../../TUZA-13/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-14/REPRODUCTION.md",
+    "new": "../../../TUZA-14/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-14B/REPRODUCTION.md",
+    "new": "../../../TUZA-14B/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-15/REPRODUCTION.md",
+    "new": "../../../TUZA-15/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "papers/tuza-11-15-research-summary/README.md",
+    "new": "../../../../papers/tuza-11-15-research-summary/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-07-10/release-at-e93e3c8/README.md",
+    "new": "../../../../verification/tuza-07-10/release-at-e93e3c8/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-07-10/",
+    "new": "../../../../verification/tuza-07-10"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-07-10/FINITE_EXAMPLES.json",
+    "new": "../../../../verification/tuza-07-10/FINITE_EXAMPLES.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-07-10-PUBLIC_SOURCE_MANIFEST.json",
+    "new": "../../../TUZA-07-10-PUBLIC_SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "THIRD_PARTY_NOTICES.md",
+    "new": "../../../../THIRD_PARTY_NOTICES.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-07-10/publication-20261101/README.md",
+    "new": "../../../../verification/tuza-07-10/publication-20261101/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-11-15-SOURCE_MANIFEST.json",
+    "new": "../../../TUZA-11-15-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-11-15/REPRODUCTION.json",
+    "new": "../../../../verification/tuza-11-15/REPRODUCTION.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-06/FORMAL_STATEMENT.md",
+    "new": "../../../TUZA-06/FORMAL_STATEMENT.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Targets.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Completion.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Completion.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/GAIN_ONE_THEOREM.md",
+    "new": "../../../TUZA-07/notes/GAIN_ONE_THEOREM.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md",
+    "new": "../../../TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Basic.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Basic.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Main.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Targets.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md",
+    "new": "../../../TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Configurations.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Configurations.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Main.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Targets.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/CRITICALITY_PACKAGE.md",
+    "new": "../../../TUZA-07/notes/CRITICALITY_PACKAGE.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Criticality.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Criticality.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Extension.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Extension.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Wedge.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Wedge.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Codegree.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Codegree.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/lean/Tuza08/Targets.lean",
+    "new": "../../../TUZA-08/lean/Tuza08/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/lean/Tuza08/Main.lean",
+    "new": "../../../TUZA-08/lean/Tuza08/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/notes/COVER_SWITCH_PROOF.md",
+    "new": "../../../TUZA-08/notes/COVER_SWITCH_PROOF.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/notes/COUNTEREXAMPLES_AND_TESTS.md",
+    "new": "../../../TUZA-08/notes/COUNTEREXAMPLES_AND_TESTS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-09/notes/MULTICOVER.md",
+    "new": "../../../TUZA-09/notes/MULTICOVER.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-09/notes/LP_GEOMETRY.md",
+    "new": "../../../TUZA-09/notes/LP_GEOMETRY.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/RAINBOW_FORMULATION.md",
+    "new": "../../../TUZA-10/notes/RAINBOW_FORMULATION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/HALF_INTEGRAL_OBSTRUCTION.md",
+    "new": "../../../TUZA-10/notes/HALF_INTEGRAL_OBSTRUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md",
+    "new": "../../../TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/literal-types-and-axioms.log",
+    "new": "../../../../verification/tuza-07-10/b1b2/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/AXIOMS.json",
+    "new": "../../../../verification/tuza-07-10/b1b2/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/VERIFICATION.json",
+    "new": "../../../../verification/tuza-07-10/b1b2/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/declarations.json",
+    "new": "../../../TUZA-07/b1b2/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/literal-types-and-axioms.log",
+    "new": "../../../../verification/tuza-07-10/a1/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/AXIOMS.json",
+    "new": "../../../../verification/tuza-07-10/a1/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/VERIFICATION.json",
+    "new": "../../../../verification/tuza-07-10/a1/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/declarations.json",
+    "new": "../../../TUZA-07/a1/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/literal-types-and-axioms.log",
+    "new": "../../../../verification/tuza-07-10/cover-switch/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/AXIOMS.json",
+    "new": "../../../../verification/tuza-07-10/cover-switch/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/VERIFICATION.json",
+    "new": "../../../../verification/tuza-07-10/cover-switch/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/declarations.json",
+    "new": "../../../TUZA-08/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "papers/tuza-further-investigations/LITERATURE_RECHECK.md",
+    "new": "../../../../papers/tuza-further-investigations/LITERATURE_RECHECK.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/verification/tuza-11-15/DEPENDENCIES.md",
+    "old": "../../papers/tuza-five-degenerate/main.md",
+    "new": "../../../../../../papers/tuza-five-degenerate/main.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/verification/tuza-11-15/DEPENDENCIES.md",
+    "old": "../../problems/TUZA-11/external/README.md",
+    "new": "../../../../../TUZA-11/external/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/problems/TUZA-12/REPRODUCTION.md",
+    "old": "README.md",
+    "new": "../../../../../TUZA-12/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/problems/TUZA-11/REPRODUCTION.md",
+    "old": "README.md",
+    "new": "../../../../../TUZA-11/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "main.pdf",
+    "new": "../../../../../../papers/tuza-11-15-research-summary/main.pdf"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "manuscript.md",
+    "new": "../../../../../../papers/tuza-11-15-research-summary/manuscript.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "main.tex",
+    "new": "../../../../../../papers/tuza-11-15-research-summary/main.tex"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "references.bib",
+    "new": "../../../../../../papers/tuza-11-15-research-summary/references.bib"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../tuza-five-degenerate/main.md",
+    "new": "../../../../../../papers/tuza-five-degenerate/main.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+    "new": "../../../../../TUZA-15/PROOFS_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/notes/SCOUT_B_RESULTS.md",
+    "new": "../../../../../TUZA-15/notes/SCOUT_B_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+    "new": "../../../../../TUZA-15/notes/SCOUT_B_DEGREE8.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../../../TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../DECLARATION_INDEX.md",
+    "new": "../../../../../../DECLARATION_INDEX.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11/external/CLASS9_TABLE_ERRATUM.md",
+    "new": "../../../../../TUZA-11/external/CLASS9_TABLE_ERRATUM.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md",
+    "new": "../../../../../TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11/external/README.md",
+    "new": "../../../../../TUZA-11/external/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md",
+    "new": "../../../../../TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-12/INDEPENDENT_PROOF_B.md",
+    "new": "../../../../../TUZA-12/INDEPENDENT_PROOF_B.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-12/INDEPENDENT_PROOF_A.md",
+    "new": "../../../../../TUZA-12/INDEPENDENT_PROOF_A.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-13/SEARCH_COVERAGE.json",
+    "new": "../../../../../TUZA-13/SEARCH_COVERAGE.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14B/RATIO_AUDIT.md",
+    "new": "../../../../../TUZA-14B/RATIO_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md",
+    "new": "../../../../../TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14/PROOF_WORKBOOK.md",
+    "new": "../../../../../TUZA-14/PROOF_WORKBOOK.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+    "new": "../../../../../TUZA-14B/PROOF_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../tuza-five-degenerate/main.md",
+    "new": "../../../../../../papers/tuza-five-degenerate/main.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+    "new": "../../../../../TUZA-15/notes/SCOUT_B_DEGREE8.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/REPRODUCTION.md",
+    "new": "../../../../../TUZA-15/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../verification/tuza-11-15/README.md",
+    "new": "../../../../../../verification/tuza-11-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11-15-SOURCE_MANIFEST.json",
+    "new": "../../../../../TUZA-11-15-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "README.md",
+    "new": "../../../../../../papers/tuza-11-15-research-summary/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "papers/tuza-11-15-research-summary/main.pdf",
+    "new": "../../../../papers/tuza-11-15-research-summary/main.pdf"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "papers/tuza-11-15-research-summary/main.md",
+    "new": "../../../../papers/tuza-11-15-research-summary/main.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "REPRODUCTION.md#tuza-1115-ordinary-proofs-and-exact-finite-checks",
+    "new": "../../../../REPRODUCTION.md#tuza-1115-ordinary-proofs-and-exact-finite-checks"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "RESEARCH_STATUS_2026-11-01.md",
+    "new": "../../../../RESEARCH_STATUS_2026-11-01.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-11/README.md",
+    "new": "../../../TUZA-11/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-12/README.md",
+    "new": "../../../TUZA-12/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-13/README.md",
+    "new": "../../../TUZA-13/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-14/README.md",
+    "new": "../../../TUZA-14/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-14B/README.md",
+    "new": "../../../TUZA-14B/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-15/README.md",
+    "new": "../../../TUZA-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "verification/tuza-11-15/README.md",
+    "new": "../../../../verification/tuza-11-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "DECLARATION_INDEX.md",
+    "new": "../../../../DECLARATION_INDEX.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "verification/tuza-11-15/DEPENDENCIES.md",
+    "new": "../../../../verification/tuza-11-15/DEPENDENCIES.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md",
+    "new": "../../../TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/verification/PROOF_RECONSTRUCTION.md",
+    "new": "../../../TUZA-11/verification/PROOF_RECONSTRUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-12/INDEPENDENT_PROOF_A.md",
+    "new": "../../../TUZA-12/INDEPENDENT_PROOF_A.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-12/INDEPENDENT_PROOF_B.md",
+    "new": "../../../TUZA-12/INDEPENDENT_PROOF_B.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/HISTORICAL_RESULTS.md",
+    "new": "../../../TUZA-13/HISTORICAL_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/SEARCH_COVERAGE.json",
+    "new": "../../../TUZA-13/SEARCH_COVERAGE.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/RATIO_AUDIT.md",
+    "new": "../../../TUZA-14B/RATIO_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/notes/STRUCTURAL_ATTACK.md",
+    "new": "../../../TUZA-13/notes/STRUCTURAL_ATTACK.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/PROOF_WORKBOOK.md",
+    "new": "../../../TUZA-14/PROOF_WORKBOOK.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/TRACK_A.md",
+    "new": "../../../TUZA-14/notes/TRACK_A.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/TRACK_B.md",
+    "new": "../../../TUZA-14/notes/TRACK_B.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+    "new": "../../../TUZA-14B/PROOF_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/notes/TRACK_B.md",
+    "new": "../../../TUZA-14B/notes/TRACK_B.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+    "new": "../../../TUZA-15/PROOFS_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/notes/SCOUT_B_RESULTS.md",
+    "new": "../../../TUZA-15/notes/SCOUT_B_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+    "new": "../../../TUZA-15/notes/SCOUT_B_DEGREE8.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/evidence/six_link_certificates.json",
+    "new": "../../../TUZA-15/evidence/six_link_certificates.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/checks/independent_six_links.py",
+    "new": "../../../TUZA-15/checks/independent_six_links.py"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-11-15/DEPENDENCIES.md",
+    "new": "../../../../verification/tuza-11-15/DEPENDENCIES.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-11-15-SOURCE_MANIFEST.json",
+    "new": "../../../TUZA-11-15-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-11-15/REPRODUCTION.json",
+    "new": "../../../../verification/tuza-11-15/REPRODUCTION.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-06/FORMAL_STATEMENT.md",
+    "new": "../../../TUZA-06/FORMAL_STATEMENT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Targets.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Completion.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Completion.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/GAIN_ONE_THEOREM.md",
+    "new": "../../../TUZA-07/notes/GAIN_ONE_THEOREM.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Basic.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Basic.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Main.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Targets.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md",
+    "new": "../../../TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Configurations.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Configurations.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Main.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Targets.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Criticality.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Criticality.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Extension.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Extension.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Wedge.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Wedge.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Codegree.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Codegree.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/lean/Tuza08/Targets.lean",
+    "new": "../../../TUZA-08/lean/Tuza08/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/lean/Tuza08/Main.lean",
+    "new": "../../../TUZA-08/lean/Tuza08/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/notes/COVER_SWITCH_PROOF.md",
+    "new": "../../../TUZA-08/notes/COVER_SWITCH_PROOF.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/notes/COUNTEREXAMPLES_AND_TESTS.md",
+    "new": "../../../TUZA-08/notes/COUNTEREXAMPLES_AND_TESTS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-09/notes/MULTICOVER.md",
+    "new": "../../../TUZA-09/notes/MULTICOVER.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-09/notes/LP_GEOMETRY.md",
+    "new": "../../../TUZA-09/notes/LP_GEOMETRY.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/RAINBOW_FORMULATION.md",
+    "new": "../../../TUZA-10/notes/RAINBOW_FORMULATION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/HALF_INTEGRAL_OBSTRUCTION.md",
+    "new": "../../../TUZA-10/notes/HALF_INTEGRAL_OBSTRUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md",
+    "new": "../../../TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/literal-types-and-axioms.log",
+    "new": "../../../../verification/tuza-07-10/b1b2/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/AXIOMS.json",
+    "new": "../../../../verification/tuza-07-10/b1b2/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/VERIFICATION.json",
+    "new": "../../../../verification/tuza-07-10/b1b2/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/declarations.json",
+    "new": "../../../TUZA-07/b1b2/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/literal-types-and-axioms.log",
+    "new": "../../../../verification/tuza-07-10/a1/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/AXIOMS.json",
+    "new": "../../../../verification/tuza-07-10/a1/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/VERIFICATION.json",
+    "new": "../../../../verification/tuza-07-10/a1/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/declarations.json",
+    "new": "../../../TUZA-07/a1/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/literal-types-and-axioms.log",
+    "new": "../../../../verification/tuza-07-10/cover-switch/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/AXIOMS.json",
+    "new": "../../../../verification/tuza-07-10/cover-switch/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/VERIFICATION.json",
+    "new": "../../../../verification/tuza-07-10/cover-switch/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/declarations.json",
+    "new": "../../../TUZA-08/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "papers/tuza-further-investigations/LITERATURE_RECHECK.md",
+    "new": "../../../../papers/tuza-further-investigations/LITERATURE_RECHECK.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/ADVERSARIAL_REVIEW.md",
+    "old": "evidence/critic_start_hashes.json",
+    "new": "../../../TUZA-16/evidence/critic_start_hashes.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/ADVERSARIAL_REVIEW.md",
+    "old": "checks/critic_verify.py",
+    "new": "../../../TUZA-16/checks/critic_verify.py"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/ADVERSARIAL_REVIEW.md",
+    "old": "evidence/critic_verified.json",
+    "new": "../../../TUZA-16/evidence/critic_verified.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/PRIOR_ART_AND_DEPENDENCIES.md",
+    "old": "notes/C_SOURCE_LEDGER.json",
+    "new": "../../../TUZA-16/notes/C_SOURCE_LEDGER.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "notes/A_FOURCUT_WITNESS.json",
+    "new": "../../../TUZA-16/notes/A_FOURCUT_WITNESS.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "checks/b_compression_results.json",
+    "new": "../../../TUZA-16/checks/b_compression_results.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "evidence/c_affine_diagnostic.json",
+    "new": "../../../TUZA-16/evidence/c_affine_diagnostic.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "evidence/controls.json",
+    "new": "../../../TUZA-16/evidence/controls.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "evidence/k10_k11.json",
+    "new": "../../../TUZA-16/evidence/k10_k11.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/notes/C_RESULTS.md",
+    "old": "C_SOURCE_LEDGER.json",
+    "new": "../../../../TUZA-16/notes/C_SOURCE_LEDGER.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "papers/tuza-11-15-research-summary/main.pdf",
+    "new": "../../../../../../papers/tuza-11-15-research-summary/main.pdf"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "RESEARCH_STATUS_2026-11-01.md",
+    "new": "../../../../../../RESEARCH_STATUS_2026-11-01.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-11/README.md",
+    "new": "../../../../../TUZA-11/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-12/README.md",
+    "new": "../../../../../TUZA-12/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-13/README.md",
+    "new": "../../../../../TUZA-13/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-14/README.md",
+    "new": "../../../../../TUZA-14/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-14B/README.md",
+    "new": "../../../../../TUZA-14B/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-15/README.md",
+    "new": "../../../../../TUZA-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/RESEARCH_STATUS_2026-11-03.md",
+    "old": "verification/tuza-11-15/README.md",
+    "new": "../../../../../../verification/tuza-11-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "DECLARATION_INDEX.md",
+    "new": "../../../../../../DECLARATION_INDEX.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md",
+    "new": "../../../../../TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md",
+    "new": "../../../../../TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/verification/PROOF_RECONSTRUCTION.md",
+    "new": "../../../../../TUZA-11/verification/PROOF_RECONSTRUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-12/INDEPENDENT_PROOF_A.md",
+    "new": "../../../../../TUZA-12/INDEPENDENT_PROOF_A.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-12/INDEPENDENT_PROOF_B.md",
+    "new": "../../../../../TUZA-12/INDEPENDENT_PROOF_B.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/HISTORICAL_RESULTS.md",
+    "new": "../../../../../TUZA-13/HISTORICAL_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/SEARCH_COVERAGE.json",
+    "new": "../../../../../TUZA-13/SEARCH_COVERAGE.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/RATIO_AUDIT.md",
+    "new": "../../../../../TUZA-14B/RATIO_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/notes/STRUCTURAL_ATTACK.md",
+    "new": "../../../../../TUZA-13/notes/STRUCTURAL_ATTACK.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md",
+    "new": "../../../../../TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/PROOF_WORKBOOK.md",
+    "new": "../../../../../TUZA-14/PROOF_WORKBOOK.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/TRACK_A.md",
+    "new": "../../../../../TUZA-14/notes/TRACK_A.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/TRACK_B.md",
+    "new": "../../../../../TUZA-14/notes/TRACK_B.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+    "new": "../../../../../TUZA-14B/PROOF_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../../../TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/notes/TRACK_B.md",
+    "new": "../../../../../TUZA-14B/notes/TRACK_B.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../../../TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+    "new": "../../../../../TUZA-15/PROOFS_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/notes/SCOUT_B_RESULTS.md",
+    "new": "../../../../../TUZA-15/notes/SCOUT_B_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+    "new": "../../../../../TUZA-15/notes/SCOUT_B_DEGREE8.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../../../TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/evidence/six_link_certificates.json",
+    "new": "../../../../../TUZA-15/evidence/six_link_certificates.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/checks/independent_six_links.py",
+    "new": "../../../../../TUZA-15/checks/independent_six_links.py"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-11-15/README.md",
+    "new": "../../../../../../verification/tuza-11-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-13/REPRODUCTION.md",
+    "new": "../../../../../TUZA-13/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-14/REPRODUCTION.md",
+    "new": "../../../../../TUZA-14/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-14B/REPRODUCTION.md",
+    "new": "../../../../../TUZA-14B/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-15/REPRODUCTION.md",
+    "new": "../../../../../TUZA-15/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "papers/tuza-11-15-research-summary/README.md",
+    "new": "../../../../../../papers/tuza-11-15-research-summary/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-07-10/release-at-e93e3c8/README.md",
+    "new": "../../../../../../verification/tuza-07-10/release-at-e93e3c8/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-07-10/",
+    "new": "../../../../../../verification/tuza-07-10"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-07-10/FINITE_EXAMPLES.json",
+    "new": "../../../../../../verification/tuza-07-10/FINITE_EXAMPLES.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "problems/TUZA-07-10-PUBLIC_SOURCE_MANIFEST.json",
+    "new": "../../../../../TUZA-07-10-PUBLIC_SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "THIRD_PARTY_NOTICES.md",
+    "new": "../../../../../../THIRD_PARTY_NOTICES.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/REPRODUCTION.md",
+    "old": "verification/tuza-07-10/publication-20261101/README.md",
+    "new": "../../../../../../verification/tuza-07-10/publication-20261101/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-11-15-SOURCE_MANIFEST.json",
+    "new": "../../../../../TUZA-11-15-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-11-15/REPRODUCTION.json",
+    "new": "../../../../../../verification/tuza-11-15/REPRODUCTION.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-06/FORMAL_STATEMENT.md",
+    "new": "../../../../../TUZA-06/FORMAL_STATEMENT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Targets.lean",
+    "new": "../../../../../TUZA-07/b1b2/lean/Tuza07/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Completion.lean",
+    "new": "../../../../../TUZA-07/b1b2/lean/Tuza07/Completion.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/GAIN_ONE_THEOREM.md",
+    "new": "../../../../../TUZA-07/notes/GAIN_ONE_THEOREM.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md",
+    "new": "../../../../../TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Basic.lean",
+    "new": "../../../../../TUZA-07/b1b2/lean/Tuza07/Basic.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Main.lean",
+    "new": "../../../../../TUZA-07/b1b2/lean/Tuza07/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Targets.lean",
+    "new": "../../../../../TUZA-07/b1b2/lean/Tuza07/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md",
+    "new": "../../../../../TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Configurations.lean",
+    "new": "../../../../../TUZA-07/b1b2/lean/Tuza07/Configurations.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Main.lean",
+    "new": "../../../../../TUZA-07/a1/lean/TuzaA1/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Targets.lean",
+    "new": "../../../../../TUZA-07/a1/lean/TuzaA1/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/CRITICALITY_PACKAGE.md",
+    "new": "../../../../../TUZA-07/notes/CRITICALITY_PACKAGE.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Criticality.lean",
+    "new": "../../../../../TUZA-07/a1/lean/TuzaA1/Criticality.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Extension.lean",
+    "new": "../../../../../TUZA-07/a1/lean/TuzaA1/Extension.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Wedge.lean",
+    "new": "../../../../../TUZA-07/a1/lean/TuzaA1/Wedge.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Codegree.lean",
+    "new": "../../../../../TUZA-07/a1/lean/TuzaA1/Codegree.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/lean/Tuza08/Targets.lean",
+    "new": "../../../../../TUZA-08/lean/Tuza08/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/lean/Tuza08/Main.lean",
+    "new": "../../../../../TUZA-08/lean/Tuza08/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/notes/COVER_SWITCH_PROOF.md",
+    "new": "../../../../../TUZA-08/notes/COVER_SWITCH_PROOF.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/notes/COUNTEREXAMPLES_AND_TESTS.md",
+    "new": "../../../../../TUZA-08/notes/COUNTEREXAMPLES_AND_TESTS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-09/notes/MULTICOVER.md",
+    "new": "../../../../../TUZA-09/notes/MULTICOVER.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-09/notes/LP_GEOMETRY.md",
+    "new": "../../../../../TUZA-09/notes/LP_GEOMETRY.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/RAINBOW_FORMULATION.md",
+    "new": "../../../../../TUZA-10/notes/RAINBOW_FORMULATION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/HALF_INTEGRAL_OBSTRUCTION.md",
+    "new": "../../../../../TUZA-10/notes/HALF_INTEGRAL_OBSTRUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md",
+    "new": "../../../../../TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/literal-types-and-axioms.log",
+    "new": "../../../../../../verification/tuza-07-10/b1b2/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/AXIOMS.json",
+    "new": "../../../../../../verification/tuza-07-10/b1b2/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/VERIFICATION.json",
+    "new": "../../../../../../verification/tuza-07-10/b1b2/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/declarations.json",
+    "new": "../../../../../TUZA-07/b1b2/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/literal-types-and-axioms.log",
+    "new": "../../../../../../verification/tuza-07-10/a1/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/AXIOMS.json",
+    "new": "../../../../../../verification/tuza-07-10/a1/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/VERIFICATION.json",
+    "new": "../../../../../../verification/tuza-07-10/a1/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/declarations.json",
+    "new": "../../../../../TUZA-07/a1/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/literal-types-and-axioms.log",
+    "new": "../../../../../../verification/tuza-07-10/cover-switch/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/AXIOMS.json",
+    "new": "../../../../../../verification/tuza-07-10/cover-switch/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/VERIFICATION.json",
+    "new": "../../../../../../verification/tuza-07-10/cover-switch/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/declarations.json",
+    "new": "../../../../../TUZA-08/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/STATUS_AND_PROVENANCE.md",
+    "old": "papers/tuza-further-investigations/LITERATURE_RECHECK.md",
+    "new": "../../../../../../papers/tuza-further-investigations/LITERATURE_RECHECK.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/verification/tuza-11-15/DEPENDENCIES.md",
+    "old": "../../papers/tuza-five-degenerate/main.md",
+    "new": "../../../../../../../../papers/tuza-five-degenerate/main.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/verification/tuza-11-15/DEPENDENCIES.md",
+    "old": "../../problems/TUZA-11/external/README.md",
+    "new": "../../../../../../../TUZA-11/external/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/problems/TUZA-12/REPRODUCTION.md",
+    "old": "README.md",
+    "new": "../../../../../../../../README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/problems/TUZA-11/REPRODUCTION.md",
+    "old": "README.md",
+    "new": "../../../../../../../../README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "main.pdf",
+    "new": "../../../../../../../../papers/tuza-16-19-research-summary/LITERATURE_RECHECK.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+    "new": "../../../../../../../TUZA-15/PROOFS_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/notes/SCOUT_B_RESULTS.md",
+    "new": "../../../../../../../TUZA-15/notes/SCOUT_B_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+    "new": "../../../../../../../TUZA-15/notes/SCOUT_B_DEGREE8.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../../../../../TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../../../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../DECLARATION_INDEX.md",
+    "new": "../../../../../../../../DECLARATION_INDEX.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11/external/CLASS9_TABLE_ERRATUM.md",
+    "new": "../../../../../../../TUZA-11/external/CLASS9_TABLE_ERRATUM.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md",
+    "new": "../../../../../../../TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11/external/README.md",
+    "new": "../../../../../../../TUZA-11/external/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md",
+    "new": "../../../../../../../TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-12/INDEPENDENT_PROOF_B.md",
+    "new": "../../../../../../../TUZA-12/INDEPENDENT_PROOF_B.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-12/INDEPENDENT_PROOF_A.md",
+    "new": "../../../../../../../TUZA-12/INDEPENDENT_PROOF_A.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-13/SEARCH_COVERAGE.json",
+    "new": "../../../../../../../TUZA-13/SEARCH_COVERAGE.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14B/RATIO_AUDIT.md",
+    "new": "../../../../../../../TUZA-14B/RATIO_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md",
+    "new": "../../../../../../../TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14/PROOF_WORKBOOK.md",
+    "new": "../../../../../../../TUZA-14/PROOF_WORKBOOK.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+    "new": "../../../../../../../TUZA-14B/PROOF_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../../../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+    "new": "../../../../../../../TUZA-15/notes/SCOUT_B_DEGREE8.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-15/REPRODUCTION.md",
+    "new": "../../../../../../../TUZA-15/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../verification/tuza-11-15/README.md",
+    "new": "../../../../../../../../verification/tuza-11-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../../problems/TUZA-11-15-SOURCE_MANIFEST.json",
+    "new": "../../../../../../../TUZA-11-15-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "README.md",
+    "new": "../../../../../../../../README.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/problems/TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md",
+    "old": "../../../tools/check_tuza_examples.py",
+    "new": "../../../../../../../tools/check_tuza_examples.py"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/problems/TUZA-01/manuscript/README.md",
+    "old": "TuzaTriangleDeletion.tex",
+    "new": "../../../../../../TUZA-01/manuscript/TuzaTriangleDeletion.tex"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/problems/TUZA-01/manuscript/README.md",
+    "old": "references.bib",
+    "new": "../../../../../../TUZA-01/manuscript/references.bib"
+  },
+  {
+    "file": "problems/TUZA-17/sources/published/problems/TUZA-01/manuscript/README.md",
+    "old": "../reproduction/README.md",
+    "new": "../../../../../../TUZA-01/reproduction/README.md"
+  },
+  {
+    "file": "problems/TUZA-18/FINAL_RECEIPT.md",
+    "old": "ARTIFACTS_SHA256.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "papers/tuza-11-15-research-summary/main.pdf",
+    "new": "../../../../papers/tuza-11-15-research-summary/main.pdf"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "papers/tuza-11-15-research-summary/main.md",
+    "new": "../../../../papers/tuza-11-15-research-summary/main.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "REPRODUCTION.md#tuza-1115-ordinary-proofs-and-exact-finite-checks",
+    "new": "../../../../REPRODUCTION.md#tuza-1115-ordinary-proofs-and-exact-finite-checks"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "RESEARCH_STATUS_2026-11-01.md",
+    "new": "../../../../RESEARCH_STATUS_2026-11-01.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-11/README.md",
+    "new": "../../../TUZA-11/README.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-12/README.md",
+    "new": "../../../TUZA-12/README.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-13/README.md",
+    "new": "../../../TUZA-13/README.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-14/README.md",
+    "new": "../../../TUZA-14/README.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-14B/README.md",
+    "new": "../../../TUZA-14B/README.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "problems/TUZA-15/README.md",
+    "new": "../../../TUZA-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/RESEARCH_STATUS_2026-11-03.md",
+    "old": "verification/tuza-11-15/README.md",
+    "new": "../../../../verification/tuza-11-15/README.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "DECLARATION_INDEX.md",
+    "new": "../../../../DECLARATION_INDEX.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "verification/tuza-11-15/DEPENDENCIES.md",
+    "new": "../../../../verification/tuza-11-15/DEPENDENCIES.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md",
+    "new": "../../../TUZA-11/arguments/FLAT_GLUING_AND_KERNEL.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md",
+    "new": "../../../TUZA-11/external/FIVE_EDGE_GLUING_COROLLARY.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-11/verification/PROOF_RECONSTRUCTION.md",
+    "new": "../../../TUZA-11/verification/PROOF_RECONSTRUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-12/INDEPENDENT_PROOF_A.md",
+    "new": "../../../TUZA-12/INDEPENDENT_PROOF_A.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-12/INDEPENDENT_PROOF_B.md",
+    "new": "../../../TUZA-12/INDEPENDENT_PROOF_B.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-12/notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md",
+    "new": "../../../TUZA-12/notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/HISTORICAL_RESULTS.md",
+    "new": "../../../TUZA-13/HISTORICAL_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/SEARCH_COVERAGE.json",
+    "new": "../../../TUZA-13/SEARCH_COVERAGE.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/RATIO_AUDIT.md",
+    "new": "../../../TUZA-14B/RATIO_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-13/notes/STRUCTURAL_ATTACK.md",
+    "new": "../../../TUZA-13/notes/STRUCTURAL_ATTACK.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/TRACK_A.md",
+    "new": "../../../TUZA-14/notes/TRACK_A.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14/notes/TRACK_B.md",
+    "new": "../../../TUZA-14/notes/TRACK_B.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/PROOF_AND_OBSTRUCTIONS.md",
+    "new": "../../../TUZA-14B/PROOF_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/notes/TRACK_B.md",
+    "new": "../../../TUZA-14B/notes/TRACK_B.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "new": "../../../TUZA-14B/verification/INDEPENDENT_PROOF_AUDIT.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/notes/SCOUT_B_RESULTS.md",
+    "new": "../../../TUZA-15/notes/SCOUT_B_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+    "new": "../../../TUZA-15/notes/SCOUT_B_DEGREE8.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/evidence/six_link_certificates.json",
+    "new": "../../../TUZA-15/evidence/six_link_certificates.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/checks/independent_six_links.py",
+    "new": "../../../TUZA-15/checks/independent_six_links.py"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/ORDINARY_PROOF_INDEX.md",
+    "old": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-15/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-14B/verification/FROZEN_TARGETS.md",
+    "new": "../../../TUZA-14B/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-11-15/DEPENDENCIES.md",
+    "new": "../../../../verification/tuza-11-15/DEPENDENCIES.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-11-15-SOURCE_MANIFEST.json",
+    "new": "../../../TUZA-11-15-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-11-15/REPRODUCTION.json",
+    "new": "../../../../verification/tuza-11-15/REPRODUCTION.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-06/FORMAL_STATEMENT.md",
+    "new": "../../../TUZA-06/FORMAL_STATEMENT.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Targets.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Completion.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Completion.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Basic.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Basic.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Main.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Targets.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md",
+    "new": "../../../TUZA-07/notes/GAIN_ONE_EQUALITY_RIGIDITY.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/lean/Tuza07/Configurations.lean",
+    "new": "../../../TUZA-07/b1b2/lean/Tuza07/Configurations.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Main.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Targets.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Criticality.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Criticality.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Extension.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Extension.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Wedge.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Wedge.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/lean/TuzaA1/Codegree.lean",
+    "new": "../../../TUZA-07/a1/lean/TuzaA1/Codegree.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/lean/Tuza08/Targets.lean",
+    "new": "../../../TUZA-08/lean/Tuza08/Targets.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/lean/Tuza08/Main.lean",
+    "new": "../../../TUZA-08/lean/Tuza08/Main.lean"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/notes/COVER_SWITCH_PROOF.md",
+    "new": "../../../TUZA-08/notes/COVER_SWITCH_PROOF.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/notes/COUNTEREXAMPLES_AND_TESTS.md",
+    "new": "../../../TUZA-08/notes/COUNTEREXAMPLES_AND_TESTS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-09/notes/MULTICOVER.md",
+    "new": "../../../TUZA-09/notes/MULTICOVER.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-09/notes/LP_GEOMETRY.md",
+    "new": "../../../TUZA-09/notes/LP_GEOMETRY.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/RAINBOW_FORMULATION.md",
+    "new": "../../../TUZA-10/notes/RAINBOW_FORMULATION.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/HALF_INTEGRAL_OBSTRUCTION.md",
+    "new": "../../../TUZA-10/notes/HALF_INTEGRAL_OBSTRUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md",
+    "new": "../../../TUZA-10/notes/PROOFS_OR_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/literal-types-and-axioms.log",
+    "new": "../../../../verification/tuza-07-10/b1b2/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/AXIOMS.json",
+    "new": "../../../../verification/tuza-07-10/b1b2/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/b1b2/VERIFICATION.json",
+    "new": "../../../../verification/tuza-07-10/b1b2/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/b1b2/declarations.json",
+    "new": "../../../TUZA-07/b1b2/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/literal-types-and-axioms.log",
+    "new": "../../../../verification/tuza-07-10/a1/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/AXIOMS.json",
+    "new": "../../../../verification/tuza-07-10/a1/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/a1/VERIFICATION.json",
+    "new": "../../../../verification/tuza-07-10/a1/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-07/a1/declarations.json",
+    "new": "../../../TUZA-07/a1/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/literal-types-and-axioms.log",
+    "new": "../../../../verification/tuza-07-10/cover-switch/literal-types-and-axioms.log"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/AXIOMS.json",
+    "new": "../../../../verification/tuza-07-10/cover-switch/AXIOMS.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "verification/tuza-07-10/cover-switch/VERIFICATION.json",
+    "new": "../../../../verification/tuza-07-10/cover-switch/VERIFICATION.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "problems/TUZA-08/declarations.json",
+    "new": "../../../TUZA-08/declarations.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/STATUS_AND_PROVENANCE.md",
+    "old": "papers/tuza-further-investigations/LITERATURE_RECHECK.md",
+    "new": "../../../../papers/tuza-further-investigations/LITERATURE_RECHECK.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/REPORT.md",
+    "old": "GATE_1.md",
+    "new": "../../../TUZA-16/GATE_1.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/REPORT.md",
+    "old": "STATUS_MATRIX.json",
+    "new": "../../../TUZA-16/STATUS_MATRIX.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/REPORT.md",
+    "old": "PROOFS_AND_OBSTRUCTIONS.md",
+    "new": "../../../TUZA-16/PROOFS_AND_OBSTRUCTIONS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/REPORT.md",
+    "old": "ADVERSARIAL_REVIEW.md",
+    "new": "../../../TUZA-16/ADVERSARIAL_REVIEW.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/REPORT.md",
+    "old": "FINAL_RECEIPT.md",
+    "new": "../../../TUZA-16/FINAL_RECEIPT.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/REPORT.md",
+    "old": "REPRODUCTION.md",
+    "new": "../../../TUZA-16/REPRODUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/ROUTES.md",
+    "old": "notes/A_INITIAL.md",
+    "new": "../../../TUZA-16/notes/A_INITIAL.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/ROUTES.md",
+    "old": "notes/B_INITIAL.md",
+    "new": "../../../TUZA-16/notes/B_INITIAL.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/ROUTES.md",
+    "old": "notes/C_INITIAL.md",
+    "new": "../../../TUZA-16/notes/C_INITIAL.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/ROUTES.md",
+    "old": "GATE_1.md",
+    "new": "../../../TUZA-16/GATE_1.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/ROUTES.md",
+    "old": "notes/A_RESULTS.md",
+    "new": "../../../TUZA-16/notes/A_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/ROUTES.md",
+    "old": "notes/B_RESULTS.md",
+    "new": "../../../TUZA-16/notes/B_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/ROUTES.md",
+    "old": "notes/C_FROZEN_PROOF.md",
+    "new": "../../../TUZA-16/notes/C_FROZEN_PROOF.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/tuza16/ROUTES.md",
+    "old": "notes/C_ADDENDUM.md",
+    "new": "../../../TUZA-16/notes/C_ADDENDUM.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "verification/FROZEN_TARGETS.md",
+    "new": "../../../../../TUZA-15/verification/FROZEN_TARGETS.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/problems/TUZA-07/notes/CONSTRUCTIVE_AND_STAR_THEOREMS.md",
+    "old": "../../../tools/check_tuza_examples.py",
+    "new": "../../../../../../../tools/check_tuza_examples.py"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/problems/TUZA-07/notes/COUNTEREXAMPLES_AND_FAILURES.md",
+    "old": "PADDING_OBSTRUCTION.md",
+    "new": "../../../../../../TUZA-07/notes/PADDING_OBSTRUCTION.md"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "old": "../../TUZA-11-15-SOURCE_MANIFEST.json",
+    "new": "../../../../../../TUZA-11-15-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "old": "../../../verification/tuza-11-15/REPRODUCTION.json",
+    "new": "../../../../../../../verification/tuza-11-15/REPRODUCTION.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "old": "../../../verification/tuza-11-15/finite/TUZA-15/portable_six_links.json",
+    "new": "../../../../../../../verification/tuza-11-15/finite/TUZA-15/portable_six_links.json"
+  },
+  {
+    "file": "problems/TUZA-18/sources/published/problems/TUZA-15/verification/INDEPENDENT_PROOF_AUDIT.md",
+    "old": "../../../verification/tuza-11-15/finite/TUZA-15/scope_diagnostics.json",
+    "new": "../../../../../../../verification/tuza-11-15/finite/TUZA-15/scope_diagnostics.json"
+  },
+  {
+    "file": "problems/TUZA-19/REPORT.md",
+    "old": "operations/clock.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/REPORT.md",
+    "old": "MISSION.txt",
+    "new": "../../papers/tuza-16-19-research-summary/LITERATURE_RECHECK.md"
+  },
+  {
+    "file": "problems/TUZA-19/REPORT.md",
+    "old": "sources/source_manifest.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/REPORT.md",
+    "old": "operations/source_preservation.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/REPORT.md",
+    "old": "PRIVATE_PUBLICATION_HANDOFF.md",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/STATUS_MATRIX.md",
+    "old": "sources/source_manifest.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/FINAL_RECEIPT.md",
+    "old": "operations/clock.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/FINAL_RECEIPT.md",
+    "old": "operations/source_preservation.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/FINAL_RECEIPT.md",
+    "old": "ARTIFACTS_SHA256.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/FINAL_RECEIPT.md",
+    "old": "operations/closeout_integrity.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/FINAL_RECEIPT.md",
+    "old": "operations/process_snapshot.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/FINAL_RECEIPT.md",
+    "old": "PRIVATE_PUBLICATION_HANDOFF.md",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/criticality_star_pk_theorem.md",
+    "new": "../../../TUZA-18/notes/criticality_star_pk_theorem.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/criticality_star_local_dichotomy.md",
+    "new": "../../../TUZA-18/notes/criticality_star_local_dichotomy.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "review/star_fresh_audit.md",
+    "new": "../../../TUZA-18/review/star_fresh_audit.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/coordinator_pk_block_extension.md",
+    "new": "../../../TUZA-18/notes/coordinator_pk_block_extension.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/criticality_private_tip_pk.md",
+    "new": "../../../TUZA-18/notes/criticality_private_tip_pk.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/late_star_gluing_obstruction.md",
+    "new": "../../../TUZA-18/notes/late_star_gluing_obstruction.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/late_star_connected_pivot_obstruction.md",
+    "new": "../../../TUZA-18/notes/late_star_connected_pivot_obstruction.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "review/chain_review.md",
+    "new": "../../../TUZA-18/review/chain_review.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/global_cut_gate.md",
+    "new": "../../../TUZA-18/notes/global_cut_gate.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/apex_pruned_critique.md",
+    "new": "../../../TUZA-18/notes/apex_pruned_critique.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/criticality_connected_pc.md",
+    "new": "../../../TUZA-18/notes/criticality_connected_pc.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "evidence/source_access_correction.md",
+    "new": "../../../TUZA-18/evidence/source_access_correction.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/apex_minimum_restriction.md",
+    "new": "../../../TUZA-18/notes/apex_minimum_restriction.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/criticality_track_status.md",
+    "new": "../../../TUZA-18/notes/criticality_track_status.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/late_cover_gate.md",
+    "new": "../../../TUZA-18/notes/late_cover_gate.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/coordinator_identification_gate.md",
+    "new": "../../../TUZA-18/notes/coordinator_identification_gate.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "notes/late_compression_gate.md",
+    "new": "../../../TUZA-18/notes/late_compression_gate.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "review/compression_review.md",
+    "new": "../../../TUZA-18/review/compression_review.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/REPORT.md",
+    "old": "lean/RoleWitness.lean",
+    "new": "../../../TUZA-18/lean/RoleWitness.lean"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/FINAL_RECEIPT.md",
+    "old": "notes/lean_role_verification.md",
+    "new": "../../../TUZA-18/notes/lean_role_verification.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/FINAL_RECEIPT.md",
+    "old": "evidence/source_integrity_final.json",
+    "new": "../../../TUZA-18/evidence/source_integrity_final.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/FINAL_RECEIPT.md",
+    "old": "evidence/frozen_artifact_integrity_final.json",
+    "new": "../../../TUZA-18/evidence/frozen_artifact_integrity_final.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/FINAL_RECEIPT.md",
+    "old": "evidence/document_integrity_final.json",
+    "new": "../../../TUZA-18/evidence/document_integrity_final.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/FINAL_RECEIPT.md",
+    "old": "ARTIFACTS_SHA256.json",
+    "new": "../../../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/FINAL_RECEIPT.md",
+    "old": "evidence/stopped_agents.json",
+    "new": "../../../TUZA-18/evidence/stopped_agents.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/FINAL_RECEIPT.md",
+    "old": "evidence/stopped_native_jobs.json",
+    "new": "../../../TUZA-18/evidence/stopped_native_jobs.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/TUZA-18/FINAL_RECEIPT.md",
+    "old": "evidence/clock.json",
+    "new": "../../../TUZA-18/evidence/clock.json"
+  },
+  {
+    "file": "problems/TUZA-18-replay/REPLAY_RECEIPT.md",
+    "old": "source_verification.json",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-18-replay/REPLAY_RECEIPT.md",
+    "old": "frozen/checkpoint_tag_object.txt",
+    "new": "../../papers/tuza-16-19-research-summary/LITERATURE_RECHECK.md"
+  },
+  {
+    "file": "problems/TUZA-18-replay/REPLAY_RECEIPT.md",
+    "old": "run_replay.py",
+    "new": "../TUZA-16-19-SOURCE_MANIFEST.json"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "manuscript.md",
+    "new": "../../../../../../../../papers/tuza-11-15-research-summary/manuscript.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "main.tex",
+    "new": "../../../../../../../../papers/tuza-11-15-research-summary/main.tex"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "references.bib",
+    "new": "../../../../../../../../papers/tuza-11-15-research-summary/references.bib"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../tuza-five-degenerate/main.md",
+    "new": "../../../../../../../../papers/tuza-five-degenerate/main.md"
+  },
+  {
+    "file": "problems/TUZA-17/sources/tuza16/sources/public/papers/tuza-11-15-research-summary/main.md",
+    "old": "../tuza-five-degenerate/main.md",
+    "new": "../../../../../../../../papers/tuza-five-degenerate/main.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "notes/A_RESULTS.md",
+    "new": "../../../TUZA-16/notes/A_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "notes/B_RESULTS.md",
+    "new": "../../../TUZA-16/notes/B_RESULTS.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "notes/C_FROZEN_PROOF.md",
+    "new": "../../../TUZA-16/notes/C_FROZEN_PROOF.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "notes/C_ADDENDUM.md",
+    "new": "../../../TUZA-16/notes/C_ADDENDUM.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "notes/A_FOURCUT_WITNESS.json",
+    "new": "../../../TUZA-16/notes/A_FOURCUT_WITNESS.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "checks/b_compression_results.json",
+    "new": "../../../TUZA-16/checks/b_compression_results.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "PRIOR_ART_AND_DEPENDENCIES.md",
+    "new": "../../../TUZA-16/PRIOR_ART_AND_DEPENDENCIES.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "evidence/c_affine_diagnostic.json",
+    "new": "../../../TUZA-16/evidence/c_affine_diagnostic.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "notes/CONTROL_PROOFS.md",
+    "new": "../../../TUZA-16/notes/CONTROL_PROOFS.md"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "evidence/controls.json",
+    "new": "../../../TUZA-16/evidence/controls.json"
+  },
+  {
+    "file": "problems/TUZA-19/sources/universal_clique_prior_art/tuza16_PROOFS_AND_OBSTRUCTIONS.md",
+    "old": "evidence/k10_k11.json",
+    "new": "../../../TUZA-16/evidence/k10_k11.json"
+  }
+]

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "https://github.com/pappa211/ai-math-experiments/blob/main/problems/TUZA-17/checks/random_ac.py", line 6, in <module>
+    resource.setrlimit(resource.RLIMIT_AS,(1800*1024**2,1800*1024**2))
+ValueError: current limit exceeds maximum limit

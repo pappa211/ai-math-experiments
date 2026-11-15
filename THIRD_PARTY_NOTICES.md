@@ -68,3 +68,9 @@ Optional NetworkX generation uses the separately installed BSD-licensed package;
 no dependency or compiled cache is redistributed. Default checkers are Python
 standard-library-only. The numeric CSL asset is reused from the established
 public report tooling without modification.
+
+## TUZA-16–19 continuation (15 November 2026)
+
+The [primary-source recheck](papers/tuza-16-19-research-summary/LITERATURE_RECHECK.md) and [dependency guide](verification/tuza-16-19/DEPENDENCIES.md) retain mathematical attribution and inspected editions. The existing Apache-2.0 repository license is unchanged and does not extend over third-party publications or dependencies. Downloaded article PDFs, full text, source screenshots, external repositories and compiled dependency caches are excluded.
+
+The small Ramsey graph6 record in TUZA-17 is retained as scientific data with its original McKay source URL and digest; its checker does not certify catalogue completeness. The reused numeric.csl asset retains the prior report's license/notice. Lean and Mathlib dependencies retain their upstream licensing and are not vendored. No independent historical-priority claim is made for project deductions or reconstructions.

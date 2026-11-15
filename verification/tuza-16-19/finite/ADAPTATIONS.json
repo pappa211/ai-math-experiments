@@ -1,0 +1,574 @@
+[
+  {
+    "path": "TUZA-19/evidence/bounded_stars_all_cliques_fresh_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "d516d9bc62e6c666e09f257402b5a58e8607b36c4b47e3f5f9f47a2fd8399b58",
+    "after": "f5d413414ae5c7716afa02d4c4cd40f4a7ff7623f63f483c3e7538ad554d42c1"
+  },
+  {
+    "path": "TUZA-19/review/halfcover_tf_fresh_checker.py",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "30ccf2aca6598fbfe2bc5be628aaf1313032fbf274fcbdd9a2cd3182dc258602",
+    "after": "895f38f59f6a2655f1257ec0ea923221a41e88dbdca13be96554a36e7cd5c593"
+  },
+  {
+    "path": "TUZA-19/review/batched_odd_cover_fresh_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "bc8879d9f7f518c3eefff0979d181d17d7eb5217166140fbe6ca3aaa0cd003bc",
+    "after": "0e2716dcb406fcbb67ab47113ad2e7e1a6b83e49a4893796a7fc9837f7c79c5a"
+  },
+  {
+    "path": "TUZA-19/review/batched_universal_tf_nonwke_fresh_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "319d2b9a68900bce43d489c8148b3adb5899a92a290825b471abf49131787f54",
+    "after": "8396457e6db17a5e54e3c0487ba0d1af9762df8704e50df11256142aa447d974"
+  },
+  {
+    "path": "TUZA-19/review/fresh_global_star_polytope_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "a1fbf094cdcc0d1ebc9b465cc1fa6e945087c72b6ce96b92b5a4c05e79034ab2",
+    "after": "6ac63af10014eeb6ff86f5e49499e310da7d0a386788058a39593336017b6910"
+  },
+  {
+    "path": "TUZA-19/review/fresh_global_private_pair_gate_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "b413ce32383b5f5572512fb8d1c562436973d23ba5aadc28297bd157bca49640",
+    "after": "3bc6a69f02758859d5df2855ad742fb2f3dab8219c149053cd4c07e361cea582"
+  },
+  {
+    "path": "TUZA-19/review/codegree_two_fresh_checker.py",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "d45b90afe11d3dede0d39a1e284b16b5037d0aec0b980ad1d5af5c3461171374",
+    "after": "4ef03690ef37fb9a145b83825942086e6ae8df49127b6bdbf538c92c92e8e4be"
+  },
+  {
+    "path": "TUZA-19/review/batched_odd_asymptotic_slack_fresh_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "b0c1c99af1216255068063f58e2174c123e17749a1a3e80657c08dd66e3dd1e8",
+    "after": "9d7da153ad0fdad88d575cbd53f9fdcc41bada1a5eb7d0cc90bf0e242255a70d"
+  },
+  {
+    "path": "TUZA-19/review/delta_y_fresh_checker.py",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "89e3d250c50393526e93974689ed361b84b4a70dc44a1898fa58787501403e91",
+    "after": "04e2ab6e20d8663cfc78a38c8684f0c118f884677f7f692a153575fcb66e7245"
+  },
+  {
+    "path": "TUZA-19/review/delta_y_fresh_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "c4c9f18a75bf142ca48ff0c1e4f026d75b50c023d33458e6c9d1ed5d0d1b2c9b",
+    "after": "adac7ea7971c1ee15fd664e1c8652aa3630482bf6c97507dd967b2417ecfadea"
+  },
+  {
+    "path": "TUZA-19/review/link_debt_fresh_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "10f556c02fe93afeb4cef357666eb6445d5e0d559a51df941019e1f6c387c619",
+    "after": "a9365a067111c7b3c49495d15bebcfcb04218ba842ff34daa714f2dad6d3b8f3"
+  },
+  {
+    "path": "TUZA-19/evidence/clique_link_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "34e3ffa2b96ec5d3ca4b6e950a56d7f6fdd3940c2d67292983333b030a0bca4f",
+    "after": "7193193755275fe2526cadf50a61cbbeeef04ccdb65f5a45ed89ab8476c4c9fa"
+  },
+  {
+    "path": "TUZA-19/evidence/four_branch_wke_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "44e171d4d62ce1c64e89d719ac8d68ce45f91f80fd1c1da88b1b1ddc7b3dc685",
+    "after": "0ae0472ca703871d544ab43f7ce61f8491a90252fa7b3eb5b1e1cc506633f9ae"
+  },
+  {
+    "path": "TUZA-19/evidence/delta_y_fresh/results.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "27b78ff477d441d3895836607f18efcf17f16bb210a8497eecc6dd2b97d40097",
+    "after": "15c2f3533f1849c2894521acf7010365d28abcd13ed400a55c524a91243f2ca7"
+  },
+  {
+    "path": "TUZA-19/evidence/cocktail_party_source_audit/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "b1eb436997b06a566be3055ca3ee38578250e8a02378b5b73e2fdeccf8cdf091",
+    "after": "d0cc57d9cc01e9f2ac8c41dc01f1f59d5560435fd8c49251ac6b31af6344ef5d"
+  },
+  {
+    "path": "TUZA-19/evidence/codegree_two/input_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "464e21f552705dd2d45622247f16d127f4e85f9374e5c2e0070066e431ca3aaf",
+    "after": "0efc43427126920a10796fb07530e575c1b01818d7c7bbbf15deefc184757c92"
+  },
+  {
+    "path": "TUZA-19/evidence/codegree_two/provenance.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "2dc41fd5f6e2d356a24d7007819d9a5d0d994c0f5960dd3e30ab6f2ce0663d68",
+    "after": "d26bbd27b404a62f61865c1ffa05363dfd52816b3a0f2d7e1a3798b12f112790"
+  },
+  {
+    "path": "TUZA-19/evidence/h_o2_cluster_capacity/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "c409d3422b5961a3d80cdc4472810baacd4426911a03a0ad364e6e5efd05e134",
+    "after": "b8d695f5c5c1911fa58e9cbeb99811599e40c16f2a3a922053648120489c1837"
+  },
+  {
+    "path": "TUZA-19/evidence/universal_clique_reduction_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "6487d9534d39ac0336a7cd7ec08ddb4ecaaf0166bced1b36d6f35e4e19fd0194",
+    "after": "d718f9b79ec453fe041d8c208798888a743a9fb29360526f4cea7283c7328c4b"
+  },
+  {
+    "path": "TUZA-19/evidence/heavy_triangle_free_gate/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "ea9ceb169b7fc8993ac526fdadff401350da9f8793c2ad10a391d2ef75dc92bf",
+    "after": "14e6ce09856a8503d54225f7f9717b01fad30cfa0a471a2283d3bf9fa7a6167e"
+  },
+  {
+    "path": "TUZA-19/evidence/link_debt_fresh/results.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "5afc873aede57346245aa36a22f3a78824b1f18afe493951005d98b2ace66e61",
+    "after": "86d95c44c1cbc85070045b30a1f2b1af1720622d957ebc3a1455ed2692eb1a7b"
+  },
+  {
+    "path": "TUZA-19/evidence/tf_light_wedge_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "7304ab2f18ed4561be42201c463cbb31c14e35fcb12c7349b00fee4d136e3a8b",
+    "after": "9bed9b5af9e40c30c89e77dd4e3c3b72e28b56dbc6630572325aa57a4fa75e8e"
+  },
+  {
+    "path": "TUZA-19/evidence/tf_h3_light_wedge/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "b0d9043e1a7ed306bad16b7122be48b9d65e65bf9c4ecf6d1a446879258ac7dc",
+    "after": "4765423195247c45bdff36a238721b7d2ca20c63ad6caf33403327f876c98eaf"
+  },
+  {
+    "path": "TUZA-19/evidence/insulated_k5_two_spoke_blocker/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "5f8e39351d3041164926ef441925f606ac06b32ac34f92b9cfa09f53af097d2e",
+    "after": "d247c7a33d5090e2573d601e30e44e293237c6934a847bf3dfd24f7133192eaf"
+  },
+  {
+    "path": "TUZA-19/evidence/binary_tf/provenance.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "a50958b08a44ab1078fa9727adfeda9561e22628cc87c19ee8b2b75e40188b32",
+    "after": "4b4d85266207f29c198ac811370a8846359d9636f139e531ecf3d0bd0ebbd7a6"
+  },
+  {
+    "path": "TUZA-19/evidence/binary_tf/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "a1957eb8e3e5346fc6e94d2bb15ab506fab6b0a77af4e9a49afc0ae2f21c049e",
+    "after": "34a21648dc87c3c2b4388ca5ac6a25a83bfc13d97f92de43e13e81b3d316c088"
+  },
+  {
+    "path": "TUZA-19/evidence/star_polytope_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "fdfce3496c32ec73483374b511ca2bfc7747c300b4b208a2dc6151e6894ca40b",
+    "after": "b0e8bb9b31793494ce0320ee0dd59ea2d9217f04b6692872a812d6930020447f"
+  },
+  {
+    "path": "TUZA-19/evidence/cksu_order3_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "e06612988b244a98b1b3bbbb3dff90110c8cb40733e999efe456d27b6d3dabc3",
+    "after": "b41e28bcb3cc0b8c40cc1278410430df3ada8dc6ac3af87e36b0128e8371d81e"
+  },
+  {
+    "path": "TUZA-19/evidence/halfcover_tf_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "f0090a228d83642901b5baac3d37f8632bdacf0101aea326e9fac7c5a41c2808",
+    "after": "8b1e1edbd9bec2d54199a50cb2fe753e84d9efc282ae1351e7cfe3cd9088ccff"
+  },
+  {
+    "path": "TUZA-19/evidence/halfcover_tf_fresh/receipt.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "6a5f7c92c415f5213a6f5336f3d99fc4409f7eca7d756aefcad74f6c7b44e847",
+    "after": "02b19e0af98b1d357cfd3c1f1b2526eb97a80206212797cdb9806aad887f62b9"
+  },
+  {
+    "path": "TUZA-19/evidence/barycentric_independent_review/review_receipt.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "4c640a1661b1094a8ec0ea4408fe9f55385df8876fb477760e3243083312fa5a",
+    "after": "1236a87310ea300793f8271ee26c7f182b66dec85c5129239dd9f16a493d31c8"
+  },
+  {
+    "path": "TUZA-19/evidence/packing_routes/handoff.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "a19c34923c7bd3ab96116b93e140623954fb9616eaf041b215971d130269743f",
+    "after": "7606925a1d853bf27e4539c1c93e96802b49b94fdf6a836185cf76d094f53eaa"
+  },
+  {
+    "path": "TUZA-19/evidence/packing_routes/packing_new_link_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "e4c0f69a1698cbbca4326af28a479993f31b74a150cb5b5df85e91f921019b00",
+    "after": "6f251a7bb561485774e43d516418c553735e45dc7584c43858cc5b63052a1f1c"
+  },
+  {
+    "path": "TUZA-19/evidence/packing_routes/packing_new_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "a5fe00847fd4fdfe7d498f76c963148e46b0cc3732fc34c9b93f8d7dcd49fa6a",
+    "after": "8f3ae4ea8a50ac574faa90d330ea1ab62a6b0541732233d419da3cdc41586747"
+  },
+  {
+    "path": "TUZA-19/evidence/source_audit/source_inventory.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "d97edb13445aa543a02ca124a3366819b242fae45db438f452be58e88cfae7d1",
+    "after": "edb5303255ca94154800e8b5ec4c31edc55893d751a760f098b4d7d84c2b2c39"
+  },
+  {
+    "path": "TUZA-19/evidence/packing_concentration_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "5d3abdcb787f4c23219b7e32131987a5fa57afb5c989e1ae8c00ae0d0d512616",
+    "after": "94fe8804df9c224a0455f333ab2a04806f2114076fa2983b7e829879986fa720"
+  },
+  {
+    "path": "TUZA-19/evidence/cksu_half_prop13_dependency/source_receipt.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "5e7f4d265dfc649de334923088f2cd1a6c1fac934c043e993bfff67982e15748",
+    "after": "d400deb4374ec44e7c52efb43cf9b2e91452fa7a3f9cd367c5fb5d9e051db576"
+  },
+  {
+    "path": "TUZA-19/evidence/cksu_half_prop13_dependency/review_receipt.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "c511e0f9d45f9be512914f474650cb9f322b5adc9f61f7ba29847184816214d5",
+    "after": "22d4d610fba8def41ed8ec023459848aa20518e3aa2824924b2f3255ec174825"
+  },
+  {
+    "path": "TUZA-19/evidence/universal_tf_nonwke_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "62932570da7443f9e3fbafc37d2880530ecb908d61049be5f0a199bd22c476e0",
+    "after": "f856bc20729ca66a133e23f2de3b30027be9efda300503312b776aebd1b5aa26"
+  },
+  {
+    "path": "TUZA-19/evidence/fresh_rainbow_vertex_gate/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "3ee4c8c0f2a79684c4f688cf4715ea185ba0af4582767f59c5e9ab6123335b75",
+    "after": "bc7e6878f705a43c69947d63b7af9f8aba4ad3d932412dafa3380bdf58abfcd6"
+  },
+  {
+    "path": "TUZA-19/evidence/codegree_two_fresh/results.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "9b3fb9b018e945a48c4e7239fc33a5de8ab79d60c90857a4521b74ba87ef951f",
+    "after": "53849d185f09ace2bd6f7b59a81b132c03a7f77a14df7cd00d227ecba38a84b5"
+  },
+  {
+    "path": "TUZA-19/evidence/parity_cone_root/frozen_dependency.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "0bdc55983bf50e71be82bf8f1defa6f18ab6e1eba5ccf277f08edf5df44c6a58",
+    "after": "a8d0000e056a758add7f25d295c2672ed9040ed25484068c189e366565fe0ba5"
+  },
+  {
+    "path": "TUZA-19/evidence/line_graph_parity_fresh/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "b967568b3bf9fd430a6d58b50afce39ebc6b808ce9d7db144805beefb1347cd8",
+    "after": "c4251ae8a085106439e8014089e952590705b98db2ba1c7b400268febec5f26b"
+  },
+  {
+    "path": "TUZA-19/evidence/tf_nonwke_link_independent/review_receipt.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "ff127132624c17f5a0e128a3e9db118b0049488b5ed3951b9de29220b650a958",
+    "after": "f381c52b383c70af0063a58b31c037d72f06361268346b3f1a4311cf937b77b4"
+  },
+  {
+    "path": "TUZA-19/evidence/fresh_rainbow_resource_gate/manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "ebd352ac2d76089352fe7af8ea8d6bc69c451857fb6dec139d930c1bf788ba4a",
+    "after": "98a45704414a2a8a8e761dfedcfb1ec7e227dfb0bc5030c19a6784885b8ad8c9"
+  },
+  {
+    "path": "TUZA-19/evidence/fresh_global/klein_lift_explore.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "fb92179ac3260c4294d45aa34f0c8f3acf94cc2766d339e160382946b5088cd0",
+    "after": "f3e6464945a64c556f8cd02a9c4aa7eb056eb65083211c21743e8f85322234b6"
+  },
+  {
+    "path": "TUZA-19/evidence/global_routes/handoff_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "e08627bc118e8e82491c5c185b4a7c0d9c602d5ea858445995937326b624eecf",
+    "after": "92cdb29f6a064730c73752db5c81eee7aa5b165bdac16813390b1137c4897cf7"
+  },
+  {
+    "path": "TUZA-19/formal/four_branch_wke/FINAL_RECEIPT.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "9f95baf9c7c2bbb1c1e0536bef69c7842be9e884851e5cdd8e3389bf723773bc",
+    "after": "94c857ca1b2a103ae5cb39040ea76ee7139cb2d398a58de8534a400310a429ee"
+  },
+  {
+    "path": "TUZA-19/formal/four_branch_wke/FILES.sha256.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "4dac104b19362bcaf8621f42cf6a8fc288a6b083d1e162a5dd8cddba65d57f15",
+    "after": "b0a429cbcd9a94946c5dac01ffa15f0607775a2c48aca70aa2d8842f06e0c427"
+  },
+  {
+    "path": "TUZA-19/review/codegree_two_fresh_inputs/input_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "464e21f552705dd2d45622247f16d127f4e85f9374e5c2e0070066e431ca3aaf",
+    "after": "0efc43427126920a10796fb07530e575c1b01818d7c7bbbf15deefc184757c92"
+  },
+  {
+    "path": "TUZA-17/evidence/critic_late_inputs.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "42fef0668b9ce616a1e277f43607960ebea08a0e7e09ce199bf8e4fc18d64fb3",
+    "after": "a8a42681bef1d46482a45cf5d76ed0248f576b13bec941d6ca30c756aded06f4"
+  },
+  {
+    "path": "TUZA-17/evidence/critic_independent.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "c7994e1d8195055c5fa4cf7e801adfe58a03bb26ab103e814621d28cd65174c7",
+    "after": "0aab7373018dc4c369663e254753d7bc9e7d10e40067fb4bf080de9a2c958f04"
+  },
+  {
+    "path": "TUZA-17/evidence/critic_addenda.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "6e52799467981d006808697a8f184e43524ea40467430ac9bebaa8a7a9102958",
+    "after": "4cd28a722205e10c791e23111c7063adaea6aba69eb758f8f17637ee1682e51c"
+  },
+  {
+    "path": "TUZA-17/evidence/proof_compilation_inputs.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "437ab5d97061d70bcd7e123bc6e7cdf1c68f6a8853bb0ecb251dbb02cbe0574a",
+    "after": "92e9498b88f0464577296da932598e7666637abcbb24e04418ea38d23c84ff64"
+  },
+  {
+    "path": "TUZA-17/evidence/critic_review_inputs.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "bfc1b8243e971ce8048e4771ef59e0494149ca4958bee64912a77acac025af24",
+    "after": "c16b59cd1bb656e9a04a668765d6f2b0c03696a848beecf713dfc61e6585ffbd"
+  },
+  {
+    "path": "TUZA-17/evidence/critic_catalogue_inputs.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "556ec64a226df6dc881c76e766d758b8bbe0e3cd5ba628b76a7658bdbc7464a7",
+    "after": "67e3f68f81a77ee8c76806c6ff8576476051fe8624f497058a1135a703c2c2c7"
+  },
+  {
+    "path": "TUZA-17/evidence/source_before.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "48b0f46cbf47281db1b42d09e1dc6bb764b0ab651ebd621871ccecb786644325",
+    "after": "bf0f95be95bf9ce05edaedad7780b9b5626580359544592303820c4a0a37dcba"
+  },
+  {
+    "path": "TUZA-17/evidence/a_final_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "d62c982273b7c927540cd3ccb87eb73775fc2de7c62079cebe4c708303a3453a",
+    "after": "299fa367e6e8aa501d5eecbc8da7dd4408033f5ed4f6eca1c5cd46881df7ee8b"
+  },
+  {
+    "path": "TUZA-18/evidence/chain_literal_check.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "a1d485655dfa34029a1cfbe20036549df05f86b25579741052e2f3f7c61bf7a2",
+    "after": "9886b131455f8811d54dd2055bf8dd10e5dbccb99890fadddf8dcc3cb50b64b7"
+  },
+  {
+    "path": "TUZA-18/evidence/compression_transfer_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "145d1f28e9173fbe4198db5e77ff6b87b11179a74b8b49df3012b759b5fcef89",
+    "after": "e94e0131578eaebb1e1d00b20cd7c46dae36e23479e2971fd1e95dd82e105ff3"
+  },
+  {
+    "path": "TUZA-18/evidence/chain_transfer_manifest_import_receipt.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "1f6e348a6d5d44b02e265788c780400aca119556d1e81950172707e90da0a856",
+    "after": "5c6a6d9537ee9616e5cf2583faf46dfaf19c850661716830c54284fcd6d50fc2"
+  },
+  {
+    "path": "TUZA-18/evidence/source_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "ff6d2cacb85f415d67a4de9f6a7c965fdc7a168c8d08c56b1e4fc2c93943ca79",
+    "after": "6279e8217e9c6334296ce78f1d30001e59755af21fadbda87572e6d24005eb16"
+  },
+  {
+    "path": "TUZA-18/evidence/pk_tight_control_check.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "fe8acff4fe462211e406d92204d114bf01c89eb7e356d523374bbf4ce6816bc7",
+    "after": "2885cfb2926ef3067781d4960d89ab3626a4d1b14c0cbb80b2207832c1738677"
+  },
+  {
+    "path": "TUZA-18/evidence/pk_pair_matrix_check.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "8c883d01d7ff00e3d563c4d8a4f44cecd8d620ea7988ac1ce22b85a957606c6e",
+    "after": "27cafbce6e8c65e093b7e3c2cd13fd584d321699c21844ea614111333d906b7c"
+  },
+  {
+    "path": "TUZA-18/evidence/pk_transfer_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "04fbf548cacbc97de1ba5c2f5fcdd41d95a98f7e17f26cf463a19aac75fde24b",
+    "after": "180347b898c66fe5436c739090cc4b6b0a2934fe54f1ab42e2cf10cdb6ff66ae"
+  },
+  {
+    "path": "TUZA-18/evidence/apex_public_sources.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "f2163fa73e0de01893bb0e9eca45a0c4c1b5eaff988750896a4ac0eb79ddf067",
+    "after": "edc2d95c9396ad6520a8f1af739bc371c080baafc8de26b543971ccb54281bb4"
+  },
+  {
+    "path": "TUZA-18/evidence/criticality_sources.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "dc5dd9f253a9bc5c8bf620a0294256d2d0dfd57940ea21e1362c3b95841ee529",
+    "after": "c7e12954541d2d6aa03bd9eea9f2332155b1459f36c33c121934636a59f7d7e9"
+  },
+  {
+    "path": "TUZA-18/evidence/addendum_literal_check.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "1327f0ed348180b4cc3c8dcb0d5981e8351dede64df9fc00c6ca40784f25fdb8",
+    "after": "cace0ce89d752719651ab287e5eba56258dcd1ff59f9e6b373d99fc5f085a8cb"
+  },
+  {
+    "path": "TUZA-18/evidence/chain_transfer_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "0f94c64506e67bf57113625d6071c369bf9e8bdf52b332d416dbb52b9059acc8",
+    "after": "f798d87edddb52afba7ef6e68b7f458b2f9cf47483699574a111030d0dadad1f"
+  },
+  {
+    "path": "TUZA-18/evidence/criticality_controls.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "c79a4171a64c6b3b4e775544facc39abd235c33380a89c3944cce0d8c5ff4bc8",
+    "after": "0a7baaa383dc22435c4f94cd4ebe0d726f8925d078680213cf5f77945636faa0"
+  },
+  {
+    "path": "TUZA-18/evidence/late_compression_transfer_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "8a09b76cfaec5252611fab222d67c34d69c07d79a46e4d14908196eaf8b55120",
+    "after": "2d82f2c39d1e12772cbbc4e35c3e517c4c5143fac6fa7ab9005490aa38fa514a"
+  },
+  {
+    "path": "TUZA-18/evidence/critic_connected_pc_checks.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "a3ce056f55c8150d77ef65f8dad610e0dc97c4abce7df5095be2b548a0f300a3",
+    "after": "d17deb59f6a5e56f62e9ef02d9227b55a6dd8ad09acbf5cf33fbc6a527d08691"
+  },
+  {
+    "path": "TUZA-18/evidence/late_compression_transfer_manifest_import_receipt.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "76dfce21f93ef1bbfce856e01f043290c955e48adec32dc4b18439061eb63032",
+    "after": "78b883b0219b7b249c76f05fede582ecf4424f4399d61cf25b7c7ec675b3b4eb"
+  },
+  {
+    "path": "TUZA-18/evidence/pk_literal_certificates.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "bbaaa32a8d74422b41aa01ca218b02a2383e78d136cbe9e82d9988b5ef868844",
+    "after": "dc55c560f9b76c2e79bb19c5741c48b580ccf0f02fc35eb7217b4f6058f4987a"
+  },
+  {
+    "path": "TUZA-18/evidence/pk_late_cover_check.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "a96e5dbb2476481c458ec4a92b97a1d61822d5d41c7c79cdfba4406035d01643",
+    "after": "3f7859d0216464a7b6fb28fbdc08cf77b40fe353d407a94e974535c088d4425d"
+  },
+  {
+    "path": "TUZA-18/evidence/frozen_artifact_integrity_final.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "d99f7b62df72bd82f0b7fca8bbc6474fe58eb2338869505fecb3663346594429",
+    "after": "aeded8ccd9d046099471432b66474adcde4542489b5d30f2a62d9ba090dcd47b"
+  },
+  {
+    "path": "TUZA-18/evidence/criticality_late_source_receipt.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "902ac874e82ccb68c2c2f3c83298c995c8f205b5714109d9e78a5b37364c6a41",
+    "after": "629d68c13dbe13d805c42d1af0681504d38a84c97231b12c25ee391d7442535f"
+  },
+  {
+    "path": "TUZA-18/evidence/critic_compact_pruned_check.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "5471fc05259d4667a18f839bd22670a272fd49dd952c2e9a7d3250f24b4fbbf0",
+    "after": "decb2c5b283b5a6c30cb98dba443efd84ec5a863f720d1e01928489bd06cc04d"
+  },
+  {
+    "path": "TUZA-18/evidence/addendum_transfer_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "f0fb0fb18e0da4b5a9f7a79e238c51c302648d220df728b2d25e0f211be40bd0",
+    "after": "3544ebff85277becf7bc9116a37b6bf77edefa96a3ab79bd9674691cc8677aca"
+  },
+  {
+    "path": "TUZA-18/evidence/critic_exact_gate_checks.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "609081102f7ec1b0e83f494fb71ccb6f20cebe6c46cfbdaac9008db142fc2005",
+    "after": "45b1d97a4f3896dba41603acc70f67ea1c7966511d2f3d095856a8c2577cae68"
+  },
+  {
+    "path": "TUZA-18/evidence/compression_literal_check.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "b79622840578f74cc86329438543b270f6dbd641d5d248597c5f784ae8c6ada2",
+    "after": "83ce2eaeeead1c2ad30b1908aeb23c4ccce6341a2fb24fdaf555796ebb571a94"
+  },
+  {
+    "path": "TUZA-18/evidence/critic_followup_checks.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "5e477c3cc656d9468d6abf8cc09b7ffb207754214d4af5706484a7e93eec18ad",
+    "after": "bd56814d46024a67e26a9dca6abb574a872f17ebca540303306f8891518923ea"
+  },
+  {
+    "path": "TUZA-18/evidence/critic_transfer_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "3b5ce780748b7f1341c5a71d0591f469da99521e1bfda85db8660c7635307d42",
+    "after": "d0d3611a00afdb385039e4412aee29ce9a13a3995f254935d46695bb6b518542"
+  },
+  {
+    "path": "TUZA-18/evidence/compression_transfer_manifest_import_receipt.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "ccff84cfc56580183fd087baaa8dd8eeb32290f1fb3ff508e2bfc957f64ac2dc",
+    "after": "30abb1be62d1ca40e1d0feb4e7cc214a96398ea7706df02cde8a197c4ce6e3f9"
+  },
+  {
+    "path": "TUZA-18/review/star_fresh_manifest.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "d2502db762e916fe91aa01305028a16bb5840998d4076f5787f74512ef9ee902",
+    "after": "ccf8a9ffd2d25e2a54450472fa59af8ce62c61ec8be521c73464666fb9cf2f23"
+  },
+  {
+    "path": "TUZA-18/review/star_fresh_verifier.json",
+    "action": "Rebind hash references to mapped public source bytes",
+    "before": "af7088e244ffa601847d4fa0a7bbdb1139d70090f0d7b1897a43fc828f2c4a36",
+    "after": "1e8202f452c302685fd44b6003d69f283b2ba7728bd182bdd2d3cf523edc99f1"
+  },
+  {
+    "path": "TUZA-16/evidence/critic_start_hashes.json",
+    "action": "Retained mathematical inputs rebound to public hashes; non-distributed provenance omitted",
+    "omitted_original_digests": {
+      "sources/c_primary/krivelevich_1995.pdf": "1c2a2c4fe55d08cff23ccd080bacb4d13b79d391f5329fda4197e974d64e82d1",
+      "sources/c_primary/yuster_fracpack.pdf": "b05c57063641aa4f663bcf53a87aec98e0501a4c4876b75db1f147b9d9353ccd"
+    }
+  },
+  {
+    "path": "TUZA-17/checks/critic_independent.py",
+    "action": "Omit mission and copyrighted article used only for provenance hashes",
+    "old_literal": "INPUTS=['MISSION.txt','notes/A_RESULTS.md','notes/B_FROZEN_v1.md','sources/published/problems/TUZA-01/manuscript/README.md','sources/published/problems/TUZA-03/CONSOLIDATED_MANUSCRIPT.md','sources/published/problems/TUZA-07/notes/CRITICALITY_PACKAGE.md','sources/published/problems/TUZA-12/notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md','sources/literature/hns2018.pdf']",
+    "new_literal": "INPUTS=['notes/A_RESULTS.md', 'notes/B_FROZEN_v1.md', 'sources/published/problems/TUZA-01/manuscript/README.md', 'sources/published/problems/TUZA-03/CONSOLIDATED_MANUSCRIPT.md', 'sources/published/problems/TUZA-07/notes/CRITICALITY_PACKAGE.md', 'sources/published/problems/TUZA-12/notes/FOUR_PORT_RESTORATION_COUNTEREXAMPLE.md']"
+  },
+  {
+    "path": "TUZA-17/checks/critic_catalogue.py",
+    "action": "Record historical catalogue digest instead of reading unbundled HTML; graph6 mathematics unchanged",
+    "old_literal": "hashlib.sha256((r/'sources/literature/mckay_ramsey_20261104.html').read_bytes()).hexdigest()",
+    "new_literal": "'a7d8ac686583ee395f7104d6adf5aea6b994568ab2471c4728011159ad643bf3'"
+  },
+  {
+    "path": "TUZA-18/review/star_fresh_verify.py",
+    "action": "Redirect output to new external execution copy",
+    "old_literal": "pathlib.Path('SCRATCH_OUTPUT/tuza18_star_fresh_verifier.json')",
+    "new_literal": "pathlib.Path(__file__).resolve().parents[1] / 'evidence/publication_star_replay.json'"
+  },
+  {
+    "path": "TUZA-19/evidence/source_audit/chain_reconstruction_check.py",
+    "action": "Renew historical guard only in execution copy; external timeout also enforced",
+    "old_literal": "STOP=datetime(2026,11,15,9,23,58,tzinfo=timezone.utc)",
+    "new_literal": "STOP=START+__import__('datetime').timedelta(seconds=240)"
+  },
+  {
+    "path": "TUZA-19/evidence/source_audit/chain_reconstruction_check.py",
+    "action": "Remove historical host restriction for portable stdlib checker; actual publication host recorded",
+    "old_literal": "assert START<STOP and platform.system()=='Darwin'",
+    "new_literal": "assert START<STOP"
+  },
+  {
+    "path": "TUZA-19/checks/cksu_prop13_independent.py",
+    "action": "Renew historical guard only in execution copy; external timeout also enforced",
+    "old_literal": "STOP=datetime(2026,11,15,9,23,58,tzinfo=timezone.utc)",
+    "new_literal": "STOP=START+__import__('datetime').timedelta(seconds=240)"
+  },
+  {
+    "path": "TUZA-19/checks/cksu_prop13_independent.py",
+    "action": "Remove historical host restriction for portable stdlib checker; actual publication host recorded",
+    "old_literal": "assert START<STOP and platform.system()=='Darwin'",
+    "new_literal": "assert START<STOP"
+  },
+  {
+    "path": "TUZA-19/checks/cksu_prop13_independent.py",
+    "action": "Keep inspected-edition digest as historical provenance; K5 checker needs no PDF",
+    "old_literal": "sha256((OUT/'2001.00257v2.pdf').read_bytes()).hexdigest()",
+    "new_literal": "'1ec683cf6d609daf53ee967d9f53a93a87c17286ae20a46191070c7ca5688897'"
+  }
+]

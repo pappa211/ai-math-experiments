@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED",
+  "scope": "Installed atlas test corpus; no completeness inference.",
+  "graphs_completed": 1245,
+  "PM_all_counterexample": null,
+  "PM_exists_counterexample": null,
+  "minimum_private_gap_histogram": {
+    "0": 210,
+    "1": 366,
+    "2": 378,
+    "3": 212,
+    "4": 68,
+    "5": 10,
+    "6": 1
+  },
+  "maximum_number_of_minimum_covers": 37,
+  "seconds": 0.45670658299786737,
+  "peak_rss_bytes_darwin": 59752448
+}

@@ -1,0 +1,15 @@
+# Continuing independent audit of the parity-cone obstruction
+
+Verdict: the all-size criticality-only obstruction and the literal36-vertex witness are correct. The refined H-O2 gate remains unresolved. This is independent ordinary reconstruction by the coordinator and a separately authored local verifier, not fresh-context review, human review or Lean verification.
+
+Input: notes/global_routes_parity_gate.md, frozen SHA256d09c43a38137c69b9a2efdaa12fc0d513919b2c4aa4c085cd1cd1b630c391c35. I read this proof and the exact frozen TUZA17 matching-blocker dependency. I did not read the producer checker or its JSON before writing review/parity_cone_root_verify.py. The verifier reconstructs the circulant directly from distances{1,7,11,16}; no producer data or code is imported.
+
+The parity identity follows by fixing the spoke bits: each apex face determines its rim edge, and the resulting vector is precisely a complement of a vertex cut. In a triangle-free cone, triangle packing is ordinary rim matching and a triangle cover converts to a spoke-only cover of no greater cardinality. Rim α-edge-criticality supplies every rim-edge deletion certificate, and deleting one endpoint from an α+1 independent set after edge deletion proves every spoke critical as well.
+
+The random construction has the stated first-moment bounds: expected triangles O(N^(3/4)), while the union-bound exponent excluding a fixed positive independence ratio is −Ω(N^(5/4)). Removing at most N/2 triangle vertices, then deleting α-preserving edges, and selecting a component by its weighted-average independence ratio preserve all needed properties. The induced-subgraph independence bound applies even when q<α, where its negative lower bound is simply weak. Completing the square gives (n²−α²)/(4α). Letting α/n tend to zero makes the parity gap unbounded while ordinary Tuza follows from ordinary matching endpoints.
+
+The frozen Tutte–Berge deduction of a blocker of at most two rim vertices is correct in each case of its minimizing set. That classical theorem remains an imported input, not a newly proved or formalized theorem. The concrete circulant witness needs no such input: removing spokes to0,1 leaves33 spoke resources and an explicit16-packing.
+
+Independent finite verification passed. A max-degree include/exclude recursion proves α=8, confirms α=9 after deletion of each of the four edge-orbit representatives, and finds α=8 avoiding vertex0. Translation supplies all rim-edge/spoke certificates. Exhaustive triple reconstruction gives140 cone triangles and no rim triangles. Literal packing/cover checks give ν=17 and τ=27. Exact rational arithmetic checks the lower-bound quadratic for every rim-part size, yielding π≥37>34. The exact π value was not computed and is not claimed.
+
+Evidence: review/parity_cone_root_verify.py; evidence/parity_cone_root/verification.json; evidence/parity_cone_root/frozen_dependency.json. This control fails two-edge packing resilience explicitly and therefore does not refute H-O2. No unresolved mathematical objection was found within the reviewed scope.

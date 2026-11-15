@@ -1,0 +1,7 @@
+{
+  "notes/tf_nonwke_link_counterconstruction.md": "02aa09e9ca43458282deff55073580510dcb2204ac3db57e8a88ad2d933f04ce",
+  "checks/tf_nonwke_link_k11.py": "58f09c63c9452386d32ab006e0e24fc85a296a4e040c688c2178e6201f1d1ba6",
+  "evidence/tf_nonwke_link/k11_local_certificate.json": "28a184fe7ab48f1dafdf63ade62ec747ae4f5e56a56179b0474037b5c1f3ea7e",
+  "evidence/binary_tf/cut_obstruction_input.md": "2ec94c291275ae6d02628ffd227d2acd9bb2c3eee638a1369c40bd8fc053ac1b",
+  "notes/binary_tf_cone_decoration_obstruction.md": "db3a479a74064b0038274cefc0b64bc9356e79d5dfd37706eb89221fb75c7a16"
+}

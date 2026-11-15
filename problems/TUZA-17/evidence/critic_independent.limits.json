@@ -1,0 +1,14 @@
+{
+  "command": [
+    "LOCAL_ENVIRONMENT",
+    "checks/critic_independent.py"
+  ],
+  "pid": 52923,
+  "exit_code": 0,
+  "reason": null,
+  "elapsed_seconds": 1.660388582997257,
+  "peak_sampled_RSS_bytes": 25018368,
+  "wall_limit_seconds": 60.0,
+  "RSS_limit_MiB": 512.0,
+  "status": "PASS"
+}

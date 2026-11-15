@@ -1,0 +1,47 @@
+{
+  "base_triangles": [
+    [
+      "a0",
+      "b0",
+      "c0"
+    ],
+    [
+      "a1",
+      "b1",
+      "c1"
+    ],
+    [
+      "i0",
+      "b0",
+      "c1"
+    ],
+    [
+      "i1",
+      "b1",
+      "c0"
+    ],
+    [
+      "i0",
+      "c0",
+      "a1"
+    ],
+    [
+      "i1",
+      "a0",
+      "c1"
+    ],
+    [
+      "i0",
+      "a0",
+      "b1"
+    ],
+    [
+      "i1",
+      "b0",
+      "a1"
+    ]
+  ],
+  "edge_count": 24,
+  "all_cross_edges_once": true,
+  "scope": "Literal K_(2,2,2,2) base only; all-size Latin blowup proved in note."
+}

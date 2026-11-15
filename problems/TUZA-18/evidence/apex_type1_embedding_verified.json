@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "vertices": 26,
+  "edges": 65,
+  "triangles": 50,
+  "packing_size": 15,
+  "packing_upper_certificate": "head_count_argument",
+  "all_type1": true,
+  "canonical_multicover_total": 60,
+  "core_two_color_solutions": 0,
+  "core_cover_optimum": 6,
+  "constrained_B_cover_optimum": 21,
+  "unrestricted_tau": "NOT_COMPUTED",
+  "script_sha256": "e86a4a76fb041c0db0cdafe29b59328123ad98ba2052f5bb4488c8eb802d3db0"
+}

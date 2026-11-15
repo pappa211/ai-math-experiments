@@ -1,0 +1,74 @@
+{
+  "status": "PASS_FIXED_AUXILIARY_GATE_COUNTEREXAMPLE",
+  "created_utc": "2026-11-15T06:58:16.728198+00:00",
+  "original_research_cutoff_utc": "2026-11-15T09:23:58Z",
+  "requested_model": "Astra",
+  "requested_effort": "Ultra",
+  "serving_identity": "Not independently exposed",
+  "host": "macOS-27.2.1-arm64-arm-64bit-Mach-O",
+  "python": "3.13.7 (main, Aug 14 2025, 11:12:11) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "inputs": [
+    {
+      "path": "notes/fresh_multi_private_two_singletons_refinement.md",
+      "snapshot": "evidence/fresh_global_private_pair_gate/inputs/notes__fresh_multi_private_two_singletons_refinement.md",
+      "sha256": "0d50452be337fa439fc9250e5c8ac47cd59c3fb7045de913e2910bcc7297f9da"
+    },
+    {
+      "path": "notes/packing_routes_concentration_obstruction.md",
+      "snapshot": "evidence/fresh_global_private_pair_gate/inputs/notes__packing_routes_concentration_obstruction.md",
+      "sha256": "7faef08e207c5ef9dbfd58cc3b42820bb42012a451ce9932a7f68e8b598296c4"
+    },
+    {
+      "path": "notes/packing_routes_private_fibre_gate.md",
+      "snapshot": "evidence/fresh_global_private_pair_gate/inputs/notes__packing_routes_private_fibre_gate.md",
+      "sha256": "cee4449424acb00688b02b496b02afa6d6bd3aa41fe078dd629e3e42e73a0b98"
+    },
+    {
+      "path": "notes/packing_routes_page_rotation.md",
+      "snapshot": "evidence/fresh_global_private_pair_gate/inputs/notes__packing_routes_page_rotation.md",
+      "sha256": "38d665979b25527e5adb983e1d42773ba2f96a4ca98b427e99eceedd918adc10"
+    },
+    {
+      "path": "AGENTS.md",
+      "snapshot": "evidence/fresh_global_private_pair_gate/inputs/AGENTS.md",
+      "sha256": "03130ddf542fa57094ec18d43a81cf9e306073fd5defa27079347ea791ed18cf"
+    },
+    {
+      "path": "MISSION.txt",
+      "snapshot": "evidence/fresh_global_private_pair_gate/inputs/MISSION.txt",
+      "sha256": "26356f13532fa68c7a3362f42c65369abec51adb49531c18549f509e1fe42cda"
+    },
+    {
+      "path": "operations/clock.json",
+      "snapshot": "evidence/fresh_global_private_pair_gate/inputs/operations__clock.json",
+      "sha256": "db8baaaf29708e4be97741aa4ce9df1216c63c4895ab50bbdda5c9eeca715781"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "checks/fresh_global_private_pair_gate.py",
+      "sha256": "63142f0706e30450a7d6415ae94d680fe8efeed12f62ba612e191cc6bee5a1c4"
+    },
+    {
+      "path": "notes/fresh_global_private_pair_gate_obstruction.md",
+      "sha256": "e452b0a28ff59506c9321924bcfbd8846b968adc611350fa14db6cfbd2fbf961"
+    },
+    {
+      "path": "evidence/fresh_global_private_pair_gate/literal_receipt.json",
+      "sha256": "853b34ffa1073ecc29683ea28e18ec31b77e73c1b6c3bfea0d5842e19b3ee52a"
+    }
+  ],
+  "commands": [
+    {
+      "command": "source LOCAL_ENVIRONMENT && python3 checks/fresh_global_private_pair_gate.py",
+      "return_code": 0
+    }
+  ],
+  "scope": "Ordinary proof and fixed literal standard-library check; not independent AI review, human review, Lean, all-type1 Tuza, or unrestricted Tuza.",
+  "negative_controls": [
+    "Restore triple third literal: SAT",
+    "Allow both/none singleton spokes: five-cover",
+    "Delete required cover edge: rejected"
+  ],
+  "decision": "Stop pair-overcover 2SAT lane; full unequal-allocation/lending payment remains open."
+}

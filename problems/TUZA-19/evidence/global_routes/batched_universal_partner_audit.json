@@ -1,0 +1,9 @@
+{
+  "status": "PASS partner reconstruction; not fresh context",
+  "target": "notes/root_batched_universal_tf_nonwke.md",
+  "target_sha256": "d4ff2e5f0539b43fedc54fab7eef87a01717b43103577e5862b7739a63101913",
+  "audit": "notes/global_routes_batched_universal_audit.md",
+  "audit_sha256": "dfae955c83ebbe628afa52fec4600406e077eeb55052b9c824458d799ca4e6b0",
+  "utc": "2026-11-15T08:52:01.296864+00:00",
+  "new_computation": "none"
+}
