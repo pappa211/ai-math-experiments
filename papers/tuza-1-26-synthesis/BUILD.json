@@ -1,0 +1,22 @@
+{
+  "status": "COMPILED",
+  "canonical_source": "manuscript.md",
+  "source_sha256": "1906b62908224ef97e6b5ac9773f2ea4d0dda09121fd4729c222ab5fea4fb562",
+  "bibliography_sha256": "dfa16bb733087fba5aff03ab63629b8e9162c8614951dbd6a36ec965c310c6f2",
+  "filter_sha256": "7bb8012c08a1e578b02682e719e5e5707b5c200279fe8994a0de0aa0757f0162",
+  "build_script_sha256": "00df13e9bad3031068b028230296ddf03b0f203607d5d0677e5e128a4605c21f",
+  "style_sha256": "ad87814675ef1df8d841e5043be7be0fb3966f45509f4941475f96887c9280f7",
+  "code_font": "Menlo from installed macOS font collection",
+  "code_font_sha256": "f2d400484a6aace67980730ec0a9ef24ce9e535a2604f118e6fdc2510021b85f",
+  "figure_svg_sha256": "3a710080670c36b31525979131834d963206926b10a00a8adde01624e944f88c",
+  "figure_pdf_sha256": "d4feee8aed25a3cef793bf466173c7d12b545c9ca3a0d33900bed900e45d75e2",
+  "artifacts": {
+    "main.md": "1216c3bfde4a76bf6a837634b4d3b395a97f3f2e4d0e9447adcb29d84c3294a3",
+    "main.tex": "bff60876b78c365b90d60e7a98775d17b601b1cfd29ad57a1c0e6ec3f2183ca9",
+    "main.pdf": "f162a763fc654d2e53efae9d0ddca6322e35d839eb45460f152cd5bfb9c14b88"
+  },
+  "pandoc": "pandoc 3.13",
+  "tectonic": "Tectonic 0.17.0",
+  "cache_policy": "Existing bundle assets only; no download; SOURCE_DATE_EPOCH=1794873600",
+  "parity": "Markdown and LaTeX share the same citation-resolved manuscript; final visual/text checks recorded separately."
+}

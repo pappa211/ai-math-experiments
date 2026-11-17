@@ -1,5 +1,13 @@
 # Research archive reproduction
 
+## Comprehensive TUZA-1–26 paper
+
+The [build guide](papers/tuza-1-26-synthesis/README.md) describes the canonical Markdown → citation-resolved Markdown/LaTeX → PDF process. It uses pinned Pandoc3.13, cache-only Tectonic0.17.0 and installed macOS Menlo; the font collection and all artifacts are hash-recorded. The paper build is tested in that pinned Mac environment. Mathematical reproduction is separately recorded in [the synthesis supplement](verification/tuza-1-26/README.md) and [the archive evidence](verification/tuza-20-26/README.md).
+
+```sh
+python3 papers/tuza-1-26-synthesis/build.py --output ../tuza-1-26-paper-build
+```
+
 Current edition: [TUZA-20–26 source builds and exact finite checks](#tuza-20-26). The earlier [TUZA-16–19 edition](#tuza-16-19) remains reproducible. Earlier sections below retain their dated publication scope. Current root inventories cover the full current tree and this release overlay; prior root inventories are preserved at [d4029fb](verification/tuza-16-19/release-at-d4029fb/README.md) and earlier editions.
 
 <a id="tuza-1115-ordinary-proofs-and-exact-finite-checks"></a>

@@ -1,0 +1,1 @@
+These immutable inventories describe archive baseline `e04d2b5d3a9eeb6f01f3724acc30607f7274bd62`, before the synthesis supplement and its explicitly recorded four-branch scope clarification. Paths in the inventories are relative to the repository root at that commit.

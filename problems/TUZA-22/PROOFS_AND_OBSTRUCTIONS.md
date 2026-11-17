@@ -2,7 +2,7 @@
 
 # Final proof and obstruction index
 
-Frozen notes contain the complete arguments and exact hypotheses. All mathematical verification ended at the scheduled cutoff. Historical chronological index: operations/pre_consolidation_ledgers/PROOFS_AND_OBSTRUCTIONS.md. The ordinary four-branch replacement supersedes its finite predecessor at that exact conclusion; the one-cycle theorem retains its separate finite premises.
+Frozen notes contain the complete arguments and exact hypotheses. All mathematical verification ended at the scheduled cutoff. Historical chronological index: operations/pre_consolidation_ledgers/PROOFS_AND_OBSTRUCTIONS.md. The final ordinary four-branch theorem proves that every nonempty closed link in a minimum counterexample to combined CS has at least five branch vertices. It supersedes the historical 363/5375 finite premises for this minimum-CS closed-link exclusion and its heavy-core consequences. It does not replace the separate universal WKE or constructive signed-defect survivor theorem for arbitrary links with at most four branch vertices; that route retains the 5375-state finite certificate and its declared inputs. The one-cycle theorem retains its separate 2018/2422/8220 finite premises.
 
 | Claim | Evidence level | Frozen argument | Review |
 |---|---|---|---|

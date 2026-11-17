@@ -1,5 +1,8 @@
 # Technical reports
 
+- [TUZA-1–26 comprehensive synthesis](tuza-1-26-synthesis/main.md) · [PDF](tuza-1-26-synthesis/main.pdf) · [canonical source and build guide](tuza-1-26-synthesis/README.md).
+- [TUZA-16–19 historical report](tuza-16-19-research-summary/main.md) · [PDF](tuza-16-19-research-summary/main.pdf).
+
 - [TUZA-11-15 Research Summary: Sparse Equality, Compatibility and Proof Obstructions](tuza-11-15-research-summary/main.md) - [PDF](tuza-11-15-research-summary/main.pdf), [source/build guide](tuza-11-15-research-summary/README.md).
 
 - [Triangle Restoration and Packing–Covering Stability in Tuza's Conjecture](tuza-triangle-restoration/main.md) — TUZA-01–03.

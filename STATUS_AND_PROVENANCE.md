@@ -1,5 +1,9 @@
 # Status and source-specific provenance
 
+## Consolidation through TUZA-26
+
+The [comprehensive synthesis](papers/tuza-1-26-synthesis/README.md) and its [638-record ledger](papers/tuza-1-26-synthesis/CLAIM_LEDGER.md) use published archive baseline `e04d2b5d3a9eeb6f01f3724acc30607f7274bd62`. The [five-sentence four-branch scope clarification](verification/tuza-1-26/FOUR_BRANCH_SCOPE_CORRECTION.md) is explicitly recorded with before/after hashes; original mathematical notes are unchanged. R12 is distinct from broader R-F, and the actual residual is distinct from the separately minimized Q. The programme is paused; unrestricted Tuza and universal CS remain unresolved. No external human review or priority certification is asserted.
+
 **AI-developed mathematical research report — AI Math Experiments**
 
 All triangles are the full triangle family of their graph. All claimed cover

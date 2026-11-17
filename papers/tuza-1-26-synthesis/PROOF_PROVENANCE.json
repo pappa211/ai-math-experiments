@@ -1,0 +1,1417 @@
+{
+  "archive_baseline": "e04d2b5d3a9eeb6f01f3724acc30607f7274bd62",
+  "early": [
+    {
+      "tag": "R",
+      "title": "Restoration, closed boundaries, exact bowties, compression and density",
+      "source": "papers/tuza-triangle-restoration/main.md",
+      "sha256": "c23fddddcfb0b8b3f03683cb4131452366976d5127796a3e70b652c9902cf181",
+      "start": "## 2. Definitions and the one-triangle criterion",
+      "end": "## 15. Verification, evidence and open questions",
+      "appendix_id": "B.R",
+      "output_sha256": "a8074343ac34c45b27e5b31f04c94d3fb5adefbc5e6e20c1dc2c61fd4872fbf2",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": {
+        "1": "Aharoni",
+        "2": "AZ",
+        "3": "LBT",
+        "4": "SPGT",
+        "5": "CHM2010",
+        "6": "Hall",
+        "7": "HKTFlat",
+        "8": "HKT2012",
+        "9": "HNS",
+        "10": "HR",
+        "11": "Konig",
+        "12": "LiuZeng2026",
+        "13": "ShengXiao",
+        "14": "Tuza1990",
+        "15": "Yuster"
+      }
+    },
+    {
+      "tag": "R4",
+      "title": "Exact two-apex boundary consequences",
+      "source": "problems/TUZA-06/history/tuza04/BOUNDARY_ROUTE.md",
+      "sha256": "368ced80bf076765df3e0cbcb4c570a9bf02462428a7629779551ccd134117cf",
+      "start": "## Audited deduction:",
+      "end": "## A separate unproved independent-vertex avoidance target",
+      "appendix_id": "B.R4",
+      "output_sha256": "fa4b0c079ef1d7a7dd03adab6e40bbff8750136282d9b5ba55452774ff1deb9e",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "D5",
+      "title": "Conditional mixed-block stability-loss classification",
+      "source": "problems/TUZA-06/history/tuza05/notes/STABILITY_LOSS_GENERALIZATION.md",
+      "sha256": "33ba6ab330409a61c804e97b91e9460f4a01700fdcbf1c3a8d56a7d2aaf1b7ec",
+      "start": "## Exact statement",
+      "end": "## Use and limitation",
+      "appendix_id": "B.D5",
+      "output_sha256": "a29ba47c773c928ae5d48ed038a0a07b4551d5932dd64d595f41456dd8d8368e",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "D",
+      "title": "Combined minimality and complete five-degenerate equality proof",
+      "source": "papers/tuza-five-degenerate/main.md",
+      "sha256": "6f89ec20ce3d954a5912cd19e5e2156fbcab87460bdc6eeb4d09b9bcdc55d59f",
+      "start": "## 1. Elementary block facts",
+      "end": "## 10. Formal verification",
+      "appendix_id": "B.D",
+      "output_sha256": "36121d354892f0c99a1fe582efba8f9e455ee239c5699c5dc61419124f3006aa",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": {
+        "1": "Tuza1990",
+        "2": "Puleo2015",
+        "3": "BFG2021",
+        "4": "CHM2010",
+        "5": "Gupta2026",
+        "6": "LiuZeng2026",
+        "7": "TUZA06",
+        "8": "TriangleRestoration"
+      }
+    },
+    {
+      "tag": "D2",
+      "title": "Credited inequality proof and small-link supplement",
+      "source": "papers/tuza-five-degenerate/main.md",
+      "sha256": "6f89ec20ce3d954a5912cd19e5e2156fbcab87460bdc6eeb4d09b9bcdc55d59f",
+      "start": "## Appendix A. A short credited proof of the inequality",
+      "end": "## Appendix C. Declaration coverage and verification supplement",
+      "appendix_id": "B.D2",
+      "output_sha256": "8709f457539885665dfebc25b36891b2404533e86fb4e18cddcc92873dbce9dd",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": {
+        "1": "Tuza1990",
+        "2": "Puleo2015",
+        "3": "BFG2021",
+        "4": "CHM2010",
+        "5": "Gupta2026",
+        "6": "LiuZeng2026",
+        "7": "TUZA06",
+        "8": "TriangleRestoration"
+      }
+    },
+    {
+      "tag": "C",
+      "title": "Gain-one completion and equality rigidity",
+      "source": "papers/tuza-further-investigations/manuscript.md",
+      "sha256": "5acf01b9ede51b426d55e4ad14e77d94ff86df43262784bc1439aeb37dc06a28",
+      "start": "## 2. Block-type completion and gain-one equality",
+      "end": "## 3. Conditional edge-minimal-counterexample deductions",
+      "appendix_id": "B.C",
+      "output_sha256": "2f1bd6c5b9a1ca9d560622fa95be3de0e8b2e95c9fa25e9f57ae8ff0c93319c3",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "S",
+      "title": "Exact switching, sharp graph and packing-only obstruction",
+      "source": "papers/tuza-further-investigations/manuscript.md",
+      "sha256": "5acf01b9ede51b426d55e4ad14e77d94ff86df43262784bc1439aeb37dc06a28",
+      "start": "## 4. Arbitrary-graph cover switching and its limits",
+      "end": "## 5. Multicover and fractional-integrality obstructions",
+      "appendix_id": "B.S",
+      "output_sha256": "dd0af4e309ec2d358297c5bf02fc93b7b771adb6e3cf7059421f01981d516e16",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "I",
+      "title": "Multicover and colored-support barriers, with complete certificates",
+      "source": "papers/tuza-further-investigations/manuscript.md",
+      "sha256": "5acf01b9ede51b426d55e4ad14e77d94ff86df43262784bc1439aeb37dc06a28",
+      "start": "## 5. Multicover and fractional-integrality obstructions",
+      "end": "## 7. Synthesis and prior-art positioning",
+      "appendix_id": "B.I",
+      "output_sha256": "0bf3763fcfad4237a7e0f7b96a9362bf54915939a5150c9a9cd874976a4ba02e",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "X",
+      "title": "Exact minimum-cover parametrization",
+      "source": "problems/TUZA-14/notes/EXCHANGE_CHARACTERIZATION.md",
+      "sha256": "2be839e081d9b8e7fd77ad36c84b5ef0aff7f330a2987b5d5758ffb3c46ba481",
+      "start": null,
+      "end": null,
+      "appendix_id": "B.X",
+      "output_sha256": "9fca2745ac9089a327649f8b99c46f7c2cd6bf4b7140f82e358e374167ae0766",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "M",
+      "title": "Symbolic six-link reductions and final mad<7 proof",
+      "source": "problems/TUZA-15/PROOFS_AND_OBSTRUCTIONS.md",
+      "sha256": "dee0a68245caa047a5f14cc3d1ba743320ef4d0e9f82c7bb0d379782ad3573fd",
+      "start": null,
+      "end": null,
+      "appendix_id": "B.M",
+      "output_sha256": "d0d01190c27a122458bc5fe7e007c27508cac817920bf26a73855af0510fd38f",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "M7",
+      "title": "Donor bounds and degree-seven exclusion",
+      "source": "problems/TUZA-15/notes/SCOUT_B_RESULTS.md",
+      "sha256": "d64228f16ecb1718e59f6be016dc3e6557000cc7d64d94046c4ed62efb5a8fb0",
+      "start": null,
+      "end": null,
+      "appendix_id": "B.M7",
+      "output_sha256": "5ebd0ae3c49190889a3cb48d328e9f03c1b1ea88d754682afca15f9f64f099e3",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "M8",
+      "title": "Complete mandatory degree-eight exclusion",
+      "source": "problems/TUZA-15/notes/SCOUT_B_DEGREE8.md",
+      "sha256": "de045e1effcaa86c609b0c1d44651184e7cb5a0323bc130694d4ceaa88013546",
+      "start": null,
+      "end": null,
+      "appendix_id": "B.M8",
+      "output_sha256": "2bb31491e60bf14b4f0ca8679f27d696e7d36a4005f9ce4c82125d9f6b1d9bf5",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "P",
+      "title": "Full common-vertex packing proof",
+      "source": "problems/TUZA-18/notes/criticality_star_pk_theorem.md",
+      "sha256": "f08cc442241eef4b790bc4b5228c958045593f97ebf56c1259a6f6b1ffe5488b",
+      "start": "## Exact statement and global scope",
+      "end": "## Interpretation and provenance",
+      "appendix_id": "B.P",
+      "output_sha256": "38d44f7b29b8dfd952ddc70ca20483cd09c57e3162fb6b83fa2c775da72165b1",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "W",
+      "title": "Historical all-size four-branch reduction and finite-domain completeness",
+      "source": "problems/TUZA-19/notes/root_four_branch_wke.md",
+      "sha256": "67011b7544cd8d8c516a738572c10f5d828b5631c3d8ce491fcd08ae3f71ce99",
+      "start": "## Candidate theorem",
+      "end": "## Review and reproduction status",
+      "appendix_id": "B.W",
+      "output_sha256": "95e755870a6e55900b7212cd1df83ed4119e16c1dd30454e0a7af4dd61064cf7",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "Q",
+      "title": "Explicit near-quadratic incidence amplification",
+      "source": "problems/TUZA-19/notes/global_routes_quantitative_amplification.md",
+      "sha256": "4ddc162df0ceb5072b948d64cf7d09df1e2e7641d66dceb038aecce6cbb48d53",
+      "start": "## 1. Statements and unrestricted implication",
+      "end": "## 5. Scope, attribution, and what remains unavailable",
+      "appendix_id": "B.Q",
+      "output_sha256": "44dd2a76cd8e8847a60026effbda1a0a9fb40304e4430a64e8c298146c0b3672",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "B",
+      "title": "Batched TF/non-WKE normalization with exact local counts",
+      "source": "problems/TUZA-19/notes/root_batched_universal_tf_nonwke.md",
+      "sha256": "d4ff2e5f0539b43fedc54fab7eef87a01717b43103577e5862b7739a63101913",
+      "start": "## Exact theorem and role",
+      "end": "## Scope and verification boundary",
+      "appendix_id": "B.B",
+      "output_sha256": "97d2ad106cebaf00a1faa1c6bd0579bcb738a99290c078b3221e0d74170dcd5e",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "CL",
+      "title": "Clebsch private-witness obstruction for every minimum cover",
+      "source": "problems/TUZA-11/arguments/CLEBSCH_PRIVATE_OBSTRUCTION.md",
+      "sha256": "61900f98b6cb47f9446c0d1786c9c3dfd18bff24238a3c536ff0edd0e0ef0506",
+      "start": "For a minimum graph-edge triangle cover",
+      "end": "## 4. Consequences and evidence",
+      "appendix_id": "B.CL",
+      "output_sha256": "d92a9a8765399910941c3f5a942703c45934dec48722fea4edf3ea7fe89f9cd0",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "OL",
+      "title": "All-orders lift obstruction and connected-conflict extension",
+      "source": "problems/TUZA-12/INDEPENDENT_PROOF_A.md",
+      "sha256": "791a4e184ab4a99d2ff5966160c957f039e1e7b4e4b734cf4a924be557333947",
+      "start": "## 1. Exact conventions and the two statements",
+      "end": "## 9. Independent computation and controls",
+      "appendix_id": "B.OL",
+      "output_sha256": "f11e73d75fd112d2516bda0e7c0bbfe8bf02d9be76a6aa5e187fcf9307b68adc",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "CH0",
+      "title": "Literal support-cover block and exact Hall reformulation",
+      "source": "problems/TUZA-18/notes/late_star_gluing_obstruction.md",
+      "sha256": "6ded16c3c61ef3029e86d7c9399bac6e3090ff80e204fd50023ce0f8fc6fee0b",
+      "start": "## Literal graph, prescribed maximum packing, private states",
+      "end": "## Finite discriminator scope",
+      "appendix_id": "B.CH0",
+      "output_sha256": "7c1e077676894dafeb1830beeb989989db4fc5caf449dc8e436cf3dc6f8b4004",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "CH",
+      "title": "Connected Hall-deficiency chains and sharp distance",
+      "source": "problems/TUZA-18/notes/late_star_connected_pivot_obstruction.md",
+      "sha256": "0a5491534d7c85fb7206e4f0ffddafaf1c179f2b40ad0c198135f229e124f4cd",
+      "start": "## Fixed block and literal local states",
+      "end": "## Scope and relation to earlier gates",
+      "appendix_id": "B.CH",
+      "output_sha256": "9b890cf0d3d5701412d7692958833f42874f499631a66e5872480673a2a91d15",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "PL",
+      "title": "Optimal single-pivot plateau continuation",
+      "source": "problems/TUZA-19/review/chain_plateau_control.md",
+      "sha256": "b8c9a9a26ee353218ea1a34aac855c2818891c72307b39a098ffcb237d0f7681",
+      "start": "Use the notation",
+      "end": "Reproduction of the finite check:",
+      "appendix_id": "B.PL",
+      "output_sha256": "4735ec0dcecfe8e43f03d75154ae236ba40c04d49f46b524d3d553cd75116527",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "CP0",
+      "title": "Three literal cocktail-party base packings",
+      "source": "problems/TUZA-19/notes/global_routes_clique_link_polytope_obstruction.md",
+      "sha256": "ff98c8f970af1a1a1d33171c58fe6631d574873713fa34c36e209b94cdbd7263",
+      "start": "## 2. The fixed graph and exact packing number",
+      "end": "## 3. All two-edge deletions preserve12",
+      "appendix_id": "B.CP0",
+      "output_sha256": "494839ff16aa4ff26a796c44a115f4bb79705830811346fc0b07a876cf4d838f",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "CP",
+      "title": "Bounded unions of stars and all clique packing polytopes",
+      "source": "problems/TUZA-19/notes/global_routes_bounded_stars_all_cliques.md",
+      "sha256": "bfb6d0154ffbd225ac7d4c47f2a51d7f4725d8c9a1138bd64d562ebc5673b48a",
+      "start": "## 1. Precise combined relaxation",
+      "end": "## 8. Dependencies, verification, and limits",
+      "appendix_id": "B.CP",
+      "output_sha256": "20019a6e13afeaf7b814a9eb6652a791db84c5bfe46071680fde1c8190f9a3fa",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "CUT",
+      "title": "Resilient tight clique-incidence cut obstruction",
+      "source": "problems/TUZA-19/notes/global_routes_critical_cut_obstruction.md",
+      "sha256": "2ec94c291275ae6d02628ffd227d2acd9bb2c3eee638a1369c40bd8fc053ac1b",
+      "start": "Write τ_B(G)",
+      "end": "## Scope, overlap and live remainder",
+      "appendix_id": "B.CUT",
+      "output_sha256": "4e1719a4ff47f989f2b88d05bce5d77a49139aa01a98dfcf002a6589a7e0bc9a",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "OD",
+      "title": "Normalized strict ordinary-versus-odd-cover separation",
+      "source": "problems/TUZA-19/notes/root_batched_odd_cover_obstruction.md",
+      "sha256": "240f03702de1bc3f2deadb1be99307c27de26849607b2bd50e8ecd2cffcca4f7",
+      "start": "Write pi(G)",
+      "end": "## Scope and remaining gate",
+      "appendix_id": "B.OD",
+      "output_sha256": "61c035534a5227037b584e1a3231ed273cbfa63bb04b194dad6878fe4a896042",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    },
+    {
+      "tag": "ODE",
+      "title": "Exact batched odd-cover identity",
+      "source": "problems/TUZA-19/notes/root_batched_odd_cover_exact_identity.md",
+      "sha256": "57d44a9d95e66f1885272f2e184954772c224f977c15238424e935b6be4189c8",
+      "start": "In that proof,",
+      "end": "This equality was independently",
+      "appendix_id": "B.ODE",
+      "output_sha256": "bbb60149cfad6378dd68628d6cd6ecfe473cf4d317a339a1eeb51388f0fe3bca",
+      "edits": "Selective proof sections; workflow metadata removed; GFM math normalized; numbered citations resolved; local anchors/labels prefixed. Original proof assertions otherwise retained.",
+      "citation_map": "Existing Pandoc keys preserved; named prior-art mappings in early_citation_map.json."
+    }
+  ],
+  "late": {
+    "status": "ORDERED_MATHEMATICAL_SELECTION_WITH_RESOLVED_REFERENCE_BOUNDARIES",
+    "scope": "Restoration, forest, C12, conditional Q and actual-parent statements in late_proof_exposition.md. See late_appendix_plan.md for mathematical prerequisite closure and exclusions.",
+    "proofs": [
+      {
+        "label": "BP001",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/restoration.md",
+        "sha256": "7c6436c694edd930139984d201564645c40ed1f9d62cbceea23b0113aa353d71",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP002",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/r1_proof_v1.md",
+        "sha256": "f47bb0354a449061ff422e2cadf27f14acb9c264016c2dcd5cf717f23731a119",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP003",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP004",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/three_star_edge_restoration_v1.md",
+        "sha256": "d5ceac18fb352cecf785237ca3c7d88a8c446730f2ee92b93a1e814941ebccb6",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP005",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/three_path_edge_restoration_v1.md",
+        "sha256": "c3b4e1ad977eae97a1849a3812dd32e37f34533eeddfcef9b7ec77f8c7fdeaad",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP006",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/three_matching_edge_restoration_v1.md",
+        "sha256": "ebfa415056ec7cb38f4beb3a357b13dee4242c90066e12892eb722431a677f01",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP007",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/three_disconnected_path_edge_restoration_v1.md",
+        "sha256": "ccbce9b980ff4d8ad99de45001d0299a1411d7c5e03d165fa5a4aaf62a63e476",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP008",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/three_edge_restoration_full_cs_v1.md",
+        "sha256": "fba3658d1e537bd0a382f87a72971186fab892a1ba8772598de6b809d0f961e4",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/r1_proof_v1.md",
+          "problems/TUZA-22/notes/r2_proof_v1.md",
+          "problems/TUZA-22/notes/three_disconnected_path_edge_restoration_v1.md",
+          "problems/TUZA-22/notes/three_edge_restoration_boundary_v1.md",
+          "problems/TUZA-22/notes/three_matching_edge_restoration_v1.md",
+          "problems/TUZA-22/notes/three_path_edge_restoration_v1.md",
+          "problems/TUZA-22/notes/three_star_edge_restoration_v1.md"
+        ]
+      },
+      {
+        "label": "BP009",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/two_triangle_restoration_v1.md",
+        "sha256": "12121facd2e02c4dd79ec488698ffb7153c7c810b6a76219302c0efdd11c07c7",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP010",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/active_kernel_peeling_v1.md",
+        "sha256": "c69f69c03630db5d06e472c41913765758edf8772abbc33f5a6b16a4dc1a01bd",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP011",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/triangle_and_edge_restoration_v1.md",
+        "sha256": "47af760a002bac2502c152ecca7c51bd3080f9b64020ea2e2ed574008e4e0eb5",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/active_kernel_peeling_v1.md",
+          "problems/TUZA-22/notes/two_triangle_restoration_v1.md"
+        ]
+      },
+      {
+        "label": "BP012",
+        "section": "B.1 Restoration and minimum-parent extraction",
+        "path": "problems/TUZA-22/notes/two_triangle_extension_minimal_v1.md",
+        "sha256": "5d04171d00d09db1759ae058df20155f942f3aa2f714b5ce662b9b8cd5f5be97",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/two_triangle_restoration_v1.md"
+        ]
+      },
+      {
+        "label": "BP013",
+        "section": "B.2 Forest cover theorems",
+        "path": "problems/TUZA-22/notes/challenger_forest_anchored_cover_v1.md",
+        "sha256": "0ee6da23aa6d2601604c10c5080e4f1be6378dab53b66d8e95f6d3367c9c2277",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP014",
+        "section": "B.2 Forest cover theorems",
+        "path": "problems/TUZA-22/notes/apex_forest_perfect_link_exclusion_v2.md",
+        "sha256": "e82d2ea2eaeb42b3a91b67ddc4a52a30ce83e01f8e065a208f341d1cbf3052a6",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/apex_forest_nonperfect_branch_v2.md"
+        ]
+      },
+      {
+        "label": "BP015",
+        "section": "B.2 Forest cover theorems",
+        "path": "problems/TUZA-22/notes/apex_forest_nonperfect_branch_v2.md",
+        "sha256": "c587035bea6883c1a5f80d0fc261be3e02144c84dae1678a50a6dc82d67fec47",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP016",
+        "section": "B.2 Forest cover theorems",
+        "path": "problems/TUZA-22/notes/forest_triangle_cover_cs_v1.md",
+        "sha256": "c4c50c12294a609d00ea49fee692c3328f489826173d07defc2e08e040f63893",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/apex_forest_nonperfect_branch_v2.md",
+          "problems/TUZA-22/notes/apex_forest_perfect_link_exclusion_v2.md"
+        ]
+      },
+      {
+        "label": "BP017",
+        "section": "B.3 Known support classification and strict restoration",
+        "path": "problems/TUZA-22/notes/coordinator_defect_one_triangle_restoration_alternative_v1.md",
+        "sha256": "7a017a956bd731242b2b578fa1447ec93b029fc37ea2153d1fd113ae5177d71c",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/two_triangle_restoration_v1.md"
+        ]
+      },
+      {
+        "label": "BP018",
+        "section": "B.3 Known support classification and strict restoration",
+        "path": "problems/TUZA-22/notes/resilient_defect_one_two_edge_B_classification_v2.md",
+        "sha256": "95cc1d7859c32dc275e7766bfd139336a501b90513c16edac60b9e4615b53124",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP019",
+        "section": "B.3 Known support classification and strict restoration",
+        "path": "problems/TUZA-22/notes/defect_one_fresh_clique_tree_classification_v1.md",
+        "sha256": "65537b924e3f2b2e4a97ecadf08ccc0f79a6c2c97e173b651fb0394ff7dd6310",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/restoration.md"
+        ]
+      },
+      {
+        "label": "BP020",
+        "section": "B.3 Known support classification and strict restoration",
+        "path": "problems/TUZA-22/notes/two_edge_glued_k4_triangle_restoration_v1.md",
+        "sha256": "20324b2731aa35b53f95699be4f62eb77da49ca8c32afca4d0662d9f436f7fd4",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/hd_wang_book_defect_count_v1.md",
+          "problems/TUZA-22/notes/two_triangle_restoration_v1.md"
+        ]
+      },
+      {
+        "label": "BP021",
+        "section": "B.3 Known support classification and strict restoration",
+        "path": "problems/TUZA-22/notes/classified_two_edge_B_residual_triangle_restoration_v2.md",
+        "sha256": "cfb4a6bc6ce6bf8fd136982a8b997359293db0b14ce9aa32ba74220fd69b92c4",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/resilient_defect_one_two_edge_B_classification_v2.md",
+          "problems/TUZA-22/notes/two_edge_glued_k4_triangle_restoration_v1.md",
+          "problems/TUZA-22/notes/two_triangle_restoration_v1.md"
+        ]
+      },
+      {
+        "label": "BP022",
+        "section": "B.3 Known support classification and strict restoration",
+        "path": "problems/TUZA-22/notes/fresh_clique_defect_one_triangle_restoration_v1.md",
+        "sha256": "e7f61f375de2e11ecb26226bd398234a40c464c70935c3b41598eeaadf39a13e",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/classified_two_edge_B_residual_triangle_restoration_v2.md",
+          "problems/TUZA-22/notes/defect_one_fresh_clique_tree_classification_v1.md",
+          "problems/TUZA-22/notes/two_triangle_restoration_v1.md"
+        ]
+      },
+      {
+        "label": "BP023",
+        "section": "B.3 Known support classification and strict restoration",
+        "path": "problems/TUZA-22/notes/classified_two_edge_B_residual_edge_insertion_v1.md",
+        "sha256": "6a083eb49d0e30ddd4e77abb9a2c6c24fd621161ade98fe617634025d9aca84f",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-22/notes/resilient_defect_one_two_edge_B_classification_v2.md",
+          "problems/TUZA-22/notes/three_edge_restoration_full_cs_v1.md"
+        ]
+      },
+      {
+        "label": "BP024",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/residual_independent_star_avoidance.md",
+        "sha256": "04a952708b52d068d7bcac061212156ac37a0cc8b6a2fcd93e5ce823cfe51b84",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP025",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/residual_wheel_restoration.md",
+        "sha256": "cacc38dcff2878a0d4d29c31f9197ed740c7e92996f378c45f17c9f5c5f921f8",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-25/notes/residual_family_freeze.md"
+        ]
+      },
+      {
+        "label": "BP026",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/residual_edge_separator_core.md",
+        "sha256": "bcd4a1d9560d9e5132b37b5afa766f149fbd2eeb227c51cf3f87817756ea3c0c",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-25/notes/residual_wheel_restoration.md"
+        ]
+      },
+      {
+        "label": "BP027",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/critical_adjacent_edges_frozen.md",
+        "sha256": "3851774a1a4daae047b992de3efbc90ef03de1db0e61a00e565bb30c0ac35c05",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP028",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/mixed_k4_separator_zero_gain.md",
+        "sha256": "8b9ca841ba72f9907a74ad8dd2a84e9a5c69419d8e14fc22ce9c6322825f2cb6",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-25/notes/mixed_named_matching_reconstruction_frozen.md"
+        ]
+      },
+      {
+        "label": "BP029",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/residual_matching_component_confinement.md",
+        "sha256": "18834cbf2159411947e6086e172fe2a934b25a086f5d7a028ce7b2894ed71abc",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP030",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/mixed_critical_edge_addendum_frozen.md",
+        "sha256": "69e52ea56e9d58c9217f6016b4871bf6a503dcf9a17326c05b1b2661206a6017",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP031",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/mixed_matching_deletion_resilience_frozen.md",
+        "sha256": "bd3ce02a815ac54540c3f95bc55907dec2e8f32f957f769a7177c8916ebee12c",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-25/notes/mixed_k4_separator_zero_gain.md",
+          "problems/TUZA-25/notes/mixed_named_matching_reconstruction_frozen.md"
+        ]
+      },
+      {
+        "label": "BP032",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/mixed_named_matching_reconstruction_frozen.md",
+        "sha256": "916d639d5951a2fa3a0913a52b63285295750975d937b90d550b57e7195f688e",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-25/notes/residual_matching_component_confinement.md"
+        ]
+      },
+      {
+        "label": "BP033",
+        "section": "B.4 Separator and critical predecessor reductions",
+        "path": "problems/TUZA-25/notes/mixed_frozen_theorems.md",
+        "sha256": "4c2729968b8fc237fe94d23dd407046a64bb5d244df176cb3b77cce12b96bdf4",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP034",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/eligibility_saturation_v1.md",
+        "sha256": "1f0cd69bb1f9d79b65d1e288e9a7ac5585838e6f9bbfe9ba31170069fd42d15e",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP035",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/blocker_triangle_shape_v2.md",
+        "sha256": "483f11b9d7cf740990956964b796d306652ae57494899b4ec67c2f4f4d19a8ab",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP036",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/apex_three_star_defect_one_v2.md",
+        "sha256": "18b04ab57c8b15c0ef8d9b81db051bc01fb6ea60d6e4e6305b582e0f3462a354",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP037",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/apex_three_path_defect_gap_v1.md",
+        "sha256": "881e2bf60939a7017f1fc63298a35d16866be2af4e703cc4015027dae6ccb3ef",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP038",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/matching26_three_connected_exclusion_v1.md",
+        "sha256": "a592cd8fdfcc534e2292f14b0b10c24527403597ad18d5375c73ff6d24407f52",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/eligibility_saturation_v1.md",
+          "problems/TUZA-26/notes/matching26_terminal_confinement_v1.md"
+        ]
+      },
+      {
+        "label": "BP039",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/matching26_disconnected_path_classification_v1.md",
+        "sha256": "bee7b62c21de17c4bcde1223fae6ba3386bd3309c5aa20f6a2c7e4295cfc1fb8",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/eligibility_saturation_v1.md"
+        ]
+      },
+      {
+        "label": "BP040",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/matching26_terminal_confinement_v1.md",
+        "sha256": "3abdfc2def6e00dbfe361de5dc64b31bf8826a1024158d575197869832392836",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/eligibility_saturation_v1.md"
+        ]
+      },
+      {
+        "label": "BP041",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/apex_wedge_reduction_v1.md",
+        "sha256": "a468b591706ec9b4850cd93ede312679ecefb88a187b1befa0fc403d2eeaece5",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP042",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/apex_simplicial_reduction_v1.md",
+        "sha256": "6a0f32d7d0c1498a4f82a27a7dd2c6b29789f619590f5b9acbb883cab715ce25",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/eligibility_saturation_v1.md"
+        ]
+      },
+      {
+        "label": "BP043",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/two_edge_tight_boundary_v2.md",
+        "sha256": "462f0006b84cd6b9dea8b2b3606433bb333ebde16abfb78b370fc52df6a0dc8e",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP044",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/matching26_opposite_boundary_closure_v1.md",
+        "sha256": "2bc6ccd5f6a591b4f9f4a6a342f8793e007496089d917b72ecb72d5eca16f90e",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_three_path_defect_gap_v1.md",
+          "problems/TUZA-26/notes/eligibility_saturation_v1.md",
+          "problems/TUZA-26/notes/matching26_disconnected_path_classification_v1.md",
+          "problems/TUZA-26/notes/matching26_three_connected_exclusion_v1.md",
+          "problems/TUZA-26/notes/two_edge_tight_boundary_v1.md"
+        ]
+      },
+      {
+        "label": "BP045",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/apex_k5_triangle_leaf_v2.md",
+        "sha256": "f2f2a16eb2c4869023ab3da62b2a4f4c36ef99155d3d1284198259abf6bf3341",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP046",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/adjacent_blocker_tight_pieces_v1.md",
+        "sha256": "125b22d49cbd0047f70f52e52f97fb959907b637b16ba0b822b50f500a2c8d8d",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_k5_triangle_leaf_v2.md"
+        ]
+      },
+      {
+        "label": "BP047",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/matching26_disjoint_blocker_reconstruction_v1.md",
+        "sha256": "55abd283aee2535f7363a554512df6117397a87e6cd7b299a6f47bdfe55bb319",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/eligibility_saturation_v1.md",
+          "problems/TUZA-26/notes/matching26_opposite_boundary_closure_v1.md"
+        ]
+      },
+      {
+        "label": "BP048",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/apex_adjacent_interface_domain_v1.md",
+        "sha256": "63981c5c4a74ecf5b51dd9b8bf2c08f374be93490461a092f13138a8a725bad6",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP049",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/apex_adjacent_vertex_domain_v1.md",
+        "sha256": "e0e18239c5fc978e1e68fd4d44efad79f7cffa6dc9cca6ee2884923a292b72a4",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP050",
+        "section": "B.5 Minimum core through two-edge resilience",
+        "path": "problems/TUZA-26/notes/apex_adjacent_interface_result_v1.md",
+        "sha256": "3a02e3129a0c81a05be053cb9d07abcbe5da08d93dabb2958aa6f4e53890ab40",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_adjacent_interface_domain_v1.md"
+        ]
+      },
+      {
+        "label": "BP051",
+        "section": "B.6 Triangle and edge residuals of the core",
+        "path": "problems/TUZA-26/notes/no_blocker_triangle_residual_v1.md",
+        "sha256": "1b8687398d782e8e31c5da2048abe1511ffefe77e15fbd9fa51620ad27f61e49",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP052",
+        "section": "B.6 Triangle and edge residuals of the core",
+        "path": "problems/TUZA-26/notes/apex_triangle_edge_B_exclusion_v1.md",
+        "sha256": "ebad542d5e946ac6fef858a1da26883074b53678321ca1d73a6d3eda9e66c674",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_k5_triangle_leaf_v2.md",
+          "problems/TUZA-26/notes/matching26_opposite_boundary_closure_v1.md",
+          "problems/TUZA-26/notes/two_edge_tight_boundary_v2.md"
+        ]
+      },
+      {
+        "label": "BP053",
+        "section": "B.6 Triangle and edge residuals of the core",
+        "path": "problems/TUZA-26/notes/matching26_triangle_residual_domain_v1.md",
+        "sha256": "612cdb1dd9083dce9dd5bd80e298633af296b67bcc28c5f064a1a3e52ec8fdd1",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP054",
+        "section": "B.6 Triangle and edge residuals of the core",
+        "path": "problems/TUZA-26/notes/matching26_triangle_residual_result_v1.md",
+        "sha256": "6834cbd71e9600a04bdfa89cad8613f5a3bd44a657155e3c61d1116556b57926",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/matching26_triangle_residual_domain_v1.md"
+        ]
+      },
+      {
+        "label": "BP055",
+        "section": "B.6 Triangle and edge residuals of the core",
+        "path": "problems/TUZA-26/notes/single_deletion_connected_defect_two_v1.md",
+        "sha256": "d1323c858e1c1651f0242ff1335f6011089772a4410b491885cf11413ac5d38e",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP056",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/apex_simplicial_degree_four_v1.md",
+        "sha256": "ede56a2355489d0708f31bb44a2f1fe5d56d0ca54c6b0b0a32c437204d242930",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_degree_four_cap_descent_v1.md",
+          "problems/TUZA-26/notes/apex_k5_triangle_leaf_v2.md"
+        ]
+      },
+      {
+        "label": "BP057",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/apex_simplicial_four_opposite_resilience_v1.md",
+        "sha256": "677563a9299442b16f4dd53b61df8a51eab6177b39b3f377b6b0fec9c47144f0",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_simplicial_degree_four_v1.md"
+        ]
+      },
+      {
+        "label": "BP058",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/apex_simplicial_four_named_reconstruction_v1.md",
+        "sha256": "a184587b014c9adba7237b7aa6fdfe9587d2b3a472fb9495e9f11fe19ab7285e",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_simplicial_degree_four_v1.md",
+          "problems/TUZA-26/notes/apex_simplicial_four_opposite_resilience_v1.md"
+        ]
+      },
+      {
+        "label": "BP059",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/apex_k4_triangle_boundary_v1.md",
+        "sha256": "b5b55a83b1866c4fcffa5dff81f11070269643693c4ee2fc9bf798e8c09132af",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP060",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/k5_three_edge_path_boundary_v1.md",
+        "sha256": "ee0f7612099879f15d489c530cb505400bc33d0ca2d0801fcfb22bf2edace8eb",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP061",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/degree_four_cycle_link_v1.md",
+        "sha256": "ea0c9644a97ee4d5778574d0d3b060a3f8580064eb210b1dec86b56b9c7a0876",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP062",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/degree_four_cycle_named_reconstruction_v1.md",
+        "sha256": "4612022b3f03b0200fbce63f1085b59e2789a5ec135e11567513fa18b693ee61",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_k4_triangle_boundary_v1.md",
+          "problems/TUZA-26/notes/degree_four_cycle_link_v1.md",
+          "problems/TUZA-26/notes/k5_three_edge_path_boundary_v1.md",
+          "problems/TUZA-26/notes/two_edge_tight_boundary_v2.md"
+        ]
+      },
+      {
+        "label": "BP063",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/apex_diamond_degree_four_resilience_v1.md",
+        "sha256": "6244176a604ca91f7e065fa5280cf297909b3c5928c7d05eb6ae1ea3b4ef7259",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/matching26_diamond_neutral_named_reconstruction_v1.md"
+        ]
+      },
+      {
+        "label": "BP064",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/apex_diamond_opposite_augmentation_v2.md",
+        "sha256": "2aae53ccbb6ed3deb32aeddb2fb4f3030dc0eed4ca6a0e2b29aa73a516f08ef9",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_diamond_degree_four_resilience_v1.md",
+          "problems/TUZA-26/notes/matching26_diamond_neutral_named_reconstruction_v1.md"
+        ]
+      },
+      {
+        "label": "BP065",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/matching26_diamond_neutral_named_reconstruction_v1.md",
+        "sha256": "ad327e82f2e7f54f3c62badc49dde01a0a84b72abe399bec52af1aaeb0ebab64",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/two_edge_tight_boundary_v2.md"
+        ]
+      },
+      {
+        "label": "BP066",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/apex_two_hub_neighborhood_fragile_v1.md",
+        "sha256": "ef1e26e8c347495e3d30bb579e6d12a2608dffef8982c11fb20f44cd5bd2a4f6",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP067",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/apex_two_hub_small_fragile_v1.md",
+        "sha256": "37cb7a91c3c3555732804831f64f65e87b4c2194ffb36a322b4b663d078df02e",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_two_hub_neighborhood_fragile_v1.md",
+          "problems/TUZA-26/notes/matching26_two_hub_named_reconstruction_v1.md"
+        ]
+      },
+      {
+        "label": "BP068",
+        "section": "B.7 Degree four and two-hub links",
+        "path": "problems/TUZA-26/notes/matching26_two_hub_named_reconstruction_v1.md",
+        "sha256": "5a75bb989d73dfe8d7e8b1e5659bb8eedb150ea67a1fb353a05f6986bf986c25",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_k4_triangle_boundary_v1.md",
+          "problems/TUZA-26/notes/apex_k5_triangle_leaf_v2.md",
+          "problems/TUZA-26/notes/apex_two_hub_neighborhood_fragile_v1.md",
+          "problems/TUZA-26/notes/eligibility_saturation_v1.md",
+          "problems/TUZA-26/notes/k5_three_edge_path_boundary_v1.md",
+          "problems/TUZA-26/notes/two_edge_tight_boundary_v2.md"
+        ]
+      },
+      {
+        "label": "BP069",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/apex_actual_parent_two_triangle_decision_v1.md",
+        "sha256": "acec95818315e1ae69adfbbb2371d367bbf72b22a0c145d0fca5f8d163e64386",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP070",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/actual_parent_critical_square_v1.md",
+        "sha256": "ae6af22bbcd05f99421d614fe43546fedd65f4d225c33006d7a97039395c4456",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/eligibility_saturation_v1.md"
+        ]
+      },
+      {
+        "label": "BP071",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/apex_actual_parent_disjoint_restoration_v1.md",
+        "sha256": "cf389377d649c3b29be42224647709b057a856f85aa7583e4b51871496ecafc6",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP072",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/apex_actual_parent_low_gain_j0_j1_v1.md",
+        "sha256": "1bd3625d1077bede1b810222c6e3b9379296a10fbb9a0ce78d816f1b7db9f119",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP073",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/matching26_actual_parent_j2_classification_v2.md",
+        "sha256": "c8c2b456f666a89e2674a7301a17706a58ed3fe02501d78dfb6357ab97388264",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_actual_parent_disjoint_restoration_v1.md",
+          "problems/TUZA-26/notes/apex_actual_parent_two_triangle_decision_v1.md"
+        ]
+      },
+      {
+        "label": "BP074",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/actual_parent_large_cross_graph_v1.md",
+        "sha256": "ea3ce6dbd3a7d86f9f4c8f2f199645fcb9244b51823d9e7be227605e0c9b2efc",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/actual_parent_critical_square_v1.md"
+        ]
+      },
+      {
+        "label": "BP075",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/actual_parent_double_residual_resilience_v1.md",
+        "sha256": "91ada941f8fd8fee10153909c8969a81d296001316303a15b818d7047c758b13",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/actual_parent_critical_square_v1.md",
+          "problems/TUZA-26/notes/actual_parent_large_cross_graph_v1.md",
+          "problems/TUZA-26/notes/apex_actual_parent_disjoint_restoration_v1.md",
+          "problems/TUZA-26/notes/apex_actual_parent_low_gain_j0_j1_v1.md",
+          "problems/TUZA-26/notes/apex_actual_parent_two_triangle_decision_v1.md",
+          "problems/TUZA-26/notes/matching26_actual_parent_j2_classification_v2.md"
+        ]
+      },
+      {
+        "label": "BP076",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/apex_actual_parent_triple_B_disjoint_v1.md",
+        "sha256": "a39eee660d4a5683d2fa17a30fca17b07114b8b5c8419934352d9801316c8aa9",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_actual_parent_disjoint_restoration_v1.md",
+          "problems/TUZA-26/notes/apex_actual_parent_triple_selection_v1.md"
+        ]
+      },
+      {
+        "label": "BP077",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/actual_parent_triple_disjoint_partial_v1.md",
+        "sha256": "8ab651495634eacd6f2c37b5adf8473526d3030ce651c572edc73effc85313c7",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/matching26_actual_parent_triple_extension_v1.md"
+        ]
+      },
+      {
+        "label": "BP078",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/matching26_actual_parent_triple_extension_v1.md",
+        "sha256": "08e03e657c952ba341d7cca249ceda59a7e818f0002dff8ec76d04ded1419041",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/actual_parent_critical_square_v1.md",
+          "problems/TUZA-26/notes/actual_parent_double_residual_resilience_v1.md"
+        ]
+      },
+      {
+        "label": "BP079",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/matching26_actual_parent_two_peripheral_v1.md",
+        "sha256": "ae9c5550677f9f49c9d9c70ccebebbfff378a913426b7c18c99d03ce49e84293",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/actual_parent_critical_square_v1.md",
+          "problems/TUZA-26/notes/matching26_actual_parent_triple_extension_v1.md"
+        ]
+      },
+      {
+        "label": "BP080",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/actual_parent_defect_one_triple_extension_v1.md",
+        "sha256": "f35bf40284bc6aae4a7436ba38406cc106d126a18d323c1e86782bcc14f3f488",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/actual_parent_triple_disjoint_partial_v1.md",
+          "problems/TUZA-26/notes/apex_actual_parent_triple_selection_v1.md",
+          "problems/TUZA-26/notes/matching26_actual_parent_triple_extension_v1.md",
+          "problems/TUZA-26/notes/matching26_actual_parent_two_peripheral_v1.md"
+        ]
+      },
+      {
+        "label": "BP081",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/maximal_support_triangle_selection_v1.md",
+        "sha256": "cd0d1a5ca470a8cdd30ae77dfb9d4c0a78d40d659924941fb88f6107046a1e3d",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP082",
+        "section": "B.8 Actual-parent double residuals and selection",
+        "path": "problems/TUZA-26/notes/actual_parent_selected_triangle_dichotomy_v2.md",
+        "sha256": "9e48437d017437442e85b0eb73a4ace3bc4d95283b2a1ae69fd362ccd7811d13",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/actual_parent_defect_one_triple_extension_v1.md",
+          "problems/TUZA-26/notes/actual_parent_double_residual_resilience_v1.md",
+          "problems/TUZA-26/notes/maximal_support_triangle_selection_v1.md"
+        ]
+      },
+      {
+        "label": "BP083",
+        "section": "B.9 Supplied tight triple, optional endpoint result",
+        "path": "problems/TUZA-26/notes/apex_actual_parent_triple_selection_v1.md",
+        "sha256": "524fd503c10a5c28804f867900b324faf5c34685bdd90acf920ad032ccbf8d0c",
+        "explicit_same_mission_note_references": []
+      },
+      {
+        "label": "BP084",
+        "section": "B.9 Supplied tight triple, optional endpoint result",
+        "path": "problems/TUZA-26/notes/apex_actual_parent_shared_exceptional_families_v1.md",
+        "sha256": "5af1464ce882c63ab7a4b8e1824e82d95f2164fc6e2036bf0b109c4e2e93d8d5",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_actual_parent_triple_selection_v1.md"
+        ]
+      },
+      {
+        "label": "BP085",
+        "section": "B.9 Supplied tight triple, optional endpoint result",
+        "path": "problems/TUZA-26/notes/matching26_actual_parent_cycle_core_v1.md",
+        "sha256": "f04765cce7ded9dd664cf770878d9347b1e618288f8585c27e91dacfdaf65741",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_actual_parent_triple_B_disjoint_v1.md",
+          "problems/TUZA-26/notes/apex_actual_parent_triple_selection_v1.md"
+        ]
+      },
+      {
+        "label": "BP086",
+        "section": "B.9 Supplied tight triple, optional endpoint result",
+        "path": "problems/TUZA-26/notes/matching26_actual_parent_cycle_nonexceptional_v1.md",
+        "sha256": "7e3de72f084d8a69543951041dee8565e73fcb417acb1b4953549de33b1cde9c",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/matching26_actual_parent_cycle_core_v1.md"
+        ]
+      },
+      {
+        "label": "BP087",
+        "section": "B.9 Supplied tight triple, optional endpoint result",
+        "path": "problems/TUZA-26/notes/matching26_actual_parent_cycle_exceptional_v1.md",
+        "sha256": "61b10bbdce66f5b1a7b5bd2a2c4eb85a47e2a03cc3b05cfaf3a04bd994a17c4b",
+        "explicit_same_mission_note_references": [
+          "problems/TUZA-26/notes/apex_actual_parent_shared_exceptional_families_v1.md",
+          "problems/TUZA-26/notes/matching26_actual_parent_cycle_core_v1.md",
+          "problems/TUZA-26/notes/matching26_actual_parent_cycle_nonexceptional_v1.md"
+        ]
+      },
+      {
+        "label": "BP088",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/defect_one_perfect_tree_link_exclusion_v1.md",
+        "sha256": "179c8f06cbb351fd4668aa6e022fa1dae47f2b1577bb6d578e731099493fe443"
+      },
+      {
+        "label": "BP089",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/link_vertex_deletion_cyclic_components_v1.md",
+        "sha256": "1369c2ed436c3d3f166e5dc2b27df57dd9d98ccd08ac60a07eef47310b629791"
+      },
+      {
+        "label": "BP090",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/link_excess_and_one_cycle_leaf_v1.md",
+        "sha256": "46d361c2beabf6459cf97be797f65dfa90df419959173c844af24552c11b393b"
+      },
+      {
+        "label": "BP091",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/parallel_thread_link_exclusion_v1.md",
+        "sha256": "6eec22bff2400c5a3c07a43d41649a7b8e0d6e08f31d23c8e6e020c6f82718c4"
+      },
+      {
+        "label": "BP092",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/three_branch_cs_link_exclusion_v1.md",
+        "sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      },
+      {
+        "label": "BP093",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/k4_star_boundary_peeling_v1.md",
+        "sha256": "26c998ac69fa3a8225fabb96830bf25ecc66f922614186075c7a9370e83039dc"
+      },
+      {
+        "label": "BP094",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_cycle_link_exclusion_except_w5_v3.md",
+        "sha256": "29cfda23bc0b09ab09553a8d5baa6a7eaf5ad8add858ddaed1fd86118908f9f2"
+      },
+      {
+        "label": "BP095",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_cycle_link_exclusion_full_v2.md",
+        "sha256": "558a0d1f99c1672328aee8c1dd7a38d2c3dc9677233e561f0c90521a428815b7"
+      },
+      {
+        "label": "BP096",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_unicyclic_wke_v1.md",
+        "sha256": "d0fb7564463def15f0f77f9713aabfcfcb0437764cf1b9e19bf2dc8f848d968e"
+      },
+      {
+        "label": "BP097",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_unicyclic_perfect_remainder_restriction_v1.md",
+        "sha256": "64effb6b26ceabbb06b3507282fd6d3e487c6c6c6cf4ad500015d882958461ce"
+      },
+      {
+        "label": "BP098",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_triangle_odd_pendant_link_exclusion_v1.md",
+        "sha256": "b2e77ded7379826a436aa0c1a69f81c1e0facaec66553477d6facd66fb591f23"
+      },
+      {
+        "label": "BP099",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_unicyclic_triangle_cycle_perfect_exclusion_v1.md",
+        "sha256": "58d8ca562d17313aa4df6e9ca5992dd707589625aed00ebbfdd3da09da7bdc4c"
+      },
+      {
+        "label": "BP100",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_unicyclic_perfect_full_exclusion_v1.md",
+        "sha256": "780fde16ec90aefe4a6f22b5aaac942b011a93c19b756c27a7fab61fba699d73"
+      },
+      {
+        "label": "BP101",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/coordinator_wke_residual_cover_invariance_v1.md",
+        "sha256": "aafae631369cb67c7c13074efa850ce673fd47e161286fd7fae35d1ad76d8cfc"
+      },
+      {
+        "label": "BP102",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/coordinator_triangle_deletion_set_WKE_collapse_v1.md",
+        "sha256": "7c5e3ef8b7027f1d19e2de67a2edafe337c48fcb7883cf84539df27ff08a4f6c"
+      },
+      {
+        "label": "BP103",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/wke_residual_triangle_count_collapse_v1.md",
+        "sha256": "8143c49ad20f0dc7ef5d9d585be5d759b346be2ff1cf9b31ffab3e6f1cc57865"
+      },
+      {
+        "label": "BP104",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/near_bipartite_wke_cover_collapse_v1.md",
+        "sha256": "aec8d88dba77cc18895810e77ad27a626722ac68d381073709959ea851043fb3"
+      },
+      {
+        "label": "BP105",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/coordinator_triangle_free_WKE_residual_interface_v1.md",
+        "sha256": "e18b148c7903a71ea13213fbcdd9c2d0200f78182f62a4d94a3a80d0a3d2c793"
+      },
+      {
+        "label": "BP106",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/coordinator_TF_residual_equal_matching_exclusion_v1.md",
+        "sha256": "1c40a0c8be58ca926e7f35175448dc80c0d891c22128a6596af9a379775d88b6"
+      },
+      {
+        "label": "BP107",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_unicyclic_triangle_free_remainder_ordinary_v2.md",
+        "sha256": "3ea922cdab26e291196dd7537b46e7eb20dc872fca604532c11cf8372b93951d"
+      },
+      {
+        "label": "BP108",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/triangular_unicyclic_small_remainder_classification_v1.md",
+        "sha256": "c9b339a1ea4eb34e549a8a2786bad43685533afc85a8f7ec34fc3209e9871d53"
+      },
+      {
+        "label": "BP109",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/triangular_unicyclic_matching_two_ordinary_v1.md",
+        "sha256": "084ca3822c32b8c9442090a9177b2a73a1cec85db54eda8af6dd965c3aaa3074"
+      },
+      {
+        "label": "BP110",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_unicyclic_full_exclusion_ordinary_v2.md",
+        "sha256": "3adee37d0c9badaeec2b57088b694816bd811eef727dbcf2d5d9f4576c4e43c4"
+      },
+      {
+        "label": "BP111",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_pseudoforest_boundary_v1.md",
+        "sha256": "0750e728630749164c766aef4c2b4f85ea3917e325a7a49617cbeb12ba995b1e"
+      },
+      {
+        "label": "BP112",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/full_four_cycle_pseudoforest_component_exclusion_v1.md",
+        "sha256": "f2c204751a2b038b94d7bcf5d76b5152e0904d71935f2f0822c489c24bfa3945"
+      },
+      {
+        "label": "BP113",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/challenger_three_neighbor_four_cycle_bouquet_exclusion_v1.md",
+        "sha256": "c75c92699a9fea6b1b6588b8cf89e2e89b4322e802bf9ecd81263b8423019017"
+      },
+      {
+        "label": "BP114",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/apex_pseudoforest_full_exclusion_v1.md",
+        "sha256": "a4329ae4b512eb74e7efbf016e9299e756309052876a876dc6ad11cc82846ceb"
+      },
+      {
+        "label": "BP115",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/four_branch_k4_link_exclusion_v1.md",
+        "sha256": "80e48be8de314cc6b5ee8cdfefebd8862ab36a302eb34d3e7ef4d6955eb35992"
+      },
+      {
+        "label": "BP116",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/four_branch_many_even_threads_v1.md",
+        "sha256": "85ee58a58525eac621e79c8e3063c72b49c99f2b67b314766fa555dc06b623c9"
+      },
+      {
+        "label": "BP117",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/four_branch_after_pseudoforest_boundary_v1.md",
+        "sha256": "5989066caa71a743b319de79a3c209cf76cbf3fb41cab5a95a64818236f90d93"
+      },
+      {
+        "label": "BP118",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/four_branch_triangle_doubles_ordinary_exclusion_v1.md",
+        "sha256": "f34a13d77e679b77083b48970da521e97fd3688bafe826d3198ba9ada8bb235e"
+      },
+      {
+        "label": "BP119",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/four_branch_path_doubles_ordinary_exclusion_v1.md",
+        "sha256": "a0695f0fa2cc00f73dabd26bb01311831e5a6b7922f7a6de5e8d2103b77eeedd"
+      },
+      {
+        "label": "BP120",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/four_branch_two_doubles_extra_even_ordinary_v1.md",
+        "sha256": "aa03b5b129a83383d07c424747f37e0d1fc53ae0c50526a74429d60c67b20fcb"
+      },
+      {
+        "label": "BP121",
+        "section": "B.10 Ordinary four-branch theorem and heavy-core localization",
+        "path": "problems/TUZA-22/notes/coordinator_four_branch_ordinary_completion_v1.md",
+        "sha256": "a67ee9350b06917ad3b77b098244e35c160d7ef8074b0679a891090c0920a81b"
+      }
+    ],
+    "references_requiring_resolution": [
+      "problems/TUZA-22/notes/hd_wang_book_defect_count_v1.md",
+      "problems/TUZA-22/notes/three_edge_restoration_boundary_v1.md",
+      "problems/TUZA-25/notes/residual_family_freeze.md",
+      "problems/TUZA-26/notes/apex_degree_four_cap_descent_v1.md",
+      "problems/TUZA-26/notes/two_edge_tight_boundary_v1.md"
+    ],
+    "reference_resolutions": {
+      "problems/TUZA-22/notes/hd_wang_book_defect_count_v1.md": "Historical application only; excluded from used double-K4 proof.",
+      "problems/TUZA-22/notes/three_edge_restoration_boundary_v1.md": "Explicitly optional preliminary shortcut; full five-shape proof used.",
+      "problems/TUZA-25/notes/residual_family_freeze.md": "Definition and scope reproduced in main; no proof assumed.",
+      "problems/TUZA-26/notes/apex_degree_four_cap_descent_v1.md": "Distinct companion operation, not used in main proof.",
+      "problems/TUZA-26/notes/two_edge_tight_boundary_v1.md": "Use selected corrected v2 for cited boundary inputs."
+    },
+    "additional_mathematical_sources": [
+      "problems/TUZA-26/reviews/opening_composition_review.md (mathematical composition only)",
+      "problems/TUZA-26/reviews/opening_exact_codegree_two_exclusion.md (rewritten in late_graph_and_dual_proofs.md)",
+      "papers/tuza-five-degenerate/main.md Sections1–4 Lemmas2/2A/3/3A/4/5 (class-local proofs)"
+    ],
+    "selection_limits": {
+      "restoration.md": "Only Sections1–4.",
+      "challenger_forest_anchored_cover_v1.md": "Only Sections1–4; weighted corollary not used.",
+      "apex_actual_parent_triple_selection_v1.md": "Section4 cube with local failed-tight-triple justification; no global all-pairs assumption needed."
+    },
+    "publication_appendix": "late_proof_appendices.md",
+    "additional_four_branch_sources": 34,
+    "publication_appendix_sha256": "3c8efb8da920692ba69f0ec8ed12e68e081199963847ba7a85f3ba05b4e8d054",
+    "class_local_prelude_source": {
+      "path": "papers/tuza-five-degenerate/main.md",
+      "sha256": "6f89ec20ce3d954a5912cd19e5e2156fbcab87460bdc6eeb4d09b9bcdc55d59f",
+      "sections": "1–4 class-local framework and5.3 good-page endpoint proof only",
+      "edits": "Global B0 labels; external Puleo numbering retained; local conclusion restricted to displayed K(2,2,1) case."
+    },
+    "four_branch_scope": "BP121 excludes closed links with at most4 branch vertices in a class-minimum CS failure. It is not universal WKE existence and does not replace5375 in earlier signed-defect survivor route.",
+    "heavy_core_scope": "B-heavy reuses the existing monotone heavy-five-core localization proof with the final ordinary BP121 premise. Any hereditary base class retains its own stated inputs; no universal core availability.",
+    "publication_math_transformations": [
+      "Positive slack s=2nu-tau, opposite early violation defect; graph minimum degree delta preserved.",
+      "R3 five-case proof explicitly uses nu=m+1 and tau>=2m+2.",
+      "Actual tight-triple cube depends only on its own three double residuals via extension theorem.",
+      "Five-vertex link wheel distinguished from six-vertex C12 W5.",
+      "Historical review/status/clock/provenance paragraphs omitted; mathematical finite interfaces and exact witnesses retained.",
+      "No duplicate or undefined B0/BP subsection references in current mechanical audit.",
+      "Publication navigation repair: insert blank lines before BP077 and BP096; no mathematical content changed."
+    ]
+  },
+  "editorial_inputs": {
+    "early_proof_exposition.md": "0700c6ca71e2954c6d3724e455080e80b54dda4bfbb7a7eefbd058fe65eca0d2",
+    "early_proof_appendices.md": "e47cc3da3b1bc2788039ff985cfa3010a3601155045d9866723853be3d669eaf",
+    "late_proof_exposition.md": "9ea103771bacf5e57e9c10ffca531c8230bde52a8eae1f5482c3d65bd0917aa1",
+    "late_proof_appendices.md": "3c8efb8da920692ba69f0ec8ed12e68e081199963847ba7a85f3ba05b4e8d054",
+    "synthesis_critic_round1.md": "4eb421be164ed72ed6d178ff6316b8fd178c01673ede9c3a607f2b66cf73d503"
+  },
+  "bibliography_duplicate_keys": [
+    {
+      "key": "Puleo2015",
+      "retained_source": "first bibliography in ordered canonical map",
+      "alternate_source": "papers/tuza-five-degenerate/references.bib"
+    },
+    {
+      "key": "Tuza1990",
+      "retained_source": "first bibliography in ordered canonical map",
+      "alternate_source": "papers/tuza-five-degenerate/references.bib"
+    },
+    {
+      "key": "Tuza1990",
+      "retained_source": "first bibliography in ordered canonical map",
+      "alternate_source": "papers/tuza-further-investigations/references.bib"
+    },
+    {
+      "key": "Puleo2015",
+      "retained_source": "first bibliography in ordered canonical map",
+      "alternate_source": "papers/tuza-further-investigations/references.bib"
+    },
+    {
+      "key": "Parker2025",
+      "retained_source": "first bibliography in ordered canonical map",
+      "alternate_source": "papers/tuza-further-investigations/references.bib"
+    },
+    {
+      "key": "LiuZeng2026",
+      "retained_source": "first bibliography in ordered canonical map",
+      "alternate_source": "papers/tuza-further-investigations/references.bib"
+    },
+    {
+      "key": "Gupta2026",
+      "retained_source": "first bibliography in ordered canonical map",
+      "alternate_source": "papers/tuza-further-investigations/references.bib"
+    }
+  ],
+  "note": "Draft-input hashes identify editorial sources; final manuscript and artifact hashes are in BUILD.json. Reviewer corrections after initial extraction are detailed in REVIEW_ROUND1.md.",
+  "hash_conventions": "Early source SHA256 values bind published source bytes. Late source SHA256 values bind canonical-original bytes, resolved to sanitized public bytes by problems/TUZA-20-26-SOURCE_MANIFEST.json; CLAIM_LEDGER.json records both identities. Editorial draft hashes identify internal intermediate artifacts, not extra public research inputs.",
+  "canonical_manuscript_sha256": "1906b62908224ef97e6b5ac9773f2ea4d0dda09121fd4729c222ab5fea4fb562",
+  "final_presentation_repairs": [
+    "Two blank lines restore BP077/BP096 heading parsing.",
+    "Figure caption prefix no longer duplicates automatic numbering.",
+    "Native vector rendering preserves all23SVGedges and seven dashed hub strokes.",
+    "Printed TOC reserves page-number gutter; mathematical assertions unchanged."
+  ]
+}

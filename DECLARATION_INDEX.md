@@ -1,5 +1,9 @@
 # Complete inventoried declaration index
 
+## Synthesis correspondence
+
+The [TUZA-1–26 correspondence](papers/tuza-1-26-synthesis/FORMAL_CORRESPONDENCE.json) resolves85 exact names:39 inherited early names and46 freshly audited TUZA-23/24 targets. It records exact type/axiom evidence and warns about explicit mathematical parameters. Finite Lean kernels are not promoted to all-size ordinary proofs; the full late Q profile is not a Lean theorem.
+
 Internal AI-produced evidence. Each literal type begins at the linked compiler log line; the matching source contains the ordinary Lean proof.
 
 ## B1/B2 block-type extensions

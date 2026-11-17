@@ -1,5 +1,7 @@
 # TUZA-20–26 publication verification
 
+**Version boundary.** The frozen Phase A manifests and receipts describe the archive published at `e04d2b5d3a9eeb6f01f3724acc30607f7274bd62`. The synthesis supplement subsequently clarifies five summary sentences about the four-branch endpoint; see [the explicit correction record](../tuza-1-26/FOUR_BRANCH_SCOPE_CORRECTION.md). The original inventories are preserved [at their release boundary](../tuza-1-26/release-at-e04d2b5/README.md). Ordinary minimum-CS exclusion and universal WKE are distinct conclusions; the latter and its constructive signed-defect survivor still use the historical5375 finite witnesses.
+
 This record separates fresh source builds, exact finite certificate replay, inherited research evidence and ordinary proof review. All review is internal AI review. No external human specialist review, cold dependency rebuild, separate kernel implementation or unrestricted Tuza solution is claimed. The research series is paused.
 
 ## Fresh formal source builds

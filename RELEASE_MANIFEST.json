@@ -1,22 +1,21 @@
 {
-  "status": "REVIEWED_ARCHIVE_CANDIDATE",
-  "edition": "TUZA-20-26-2026-11-17",
-  "public_baseline": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
-  "archive_index": "TUZA_20_26_ARCHIVE.md",
-  "source_manifest": "problems/TUZA-20-26-SOURCE_MANIFEST.json",
-  "source_manifest_sha256": "a0ef27d1f5f5a02dc448b19e58df26b2c539cda821b903f6b071098afe15a280",
-  "proof_ledger": "verification/tuza-20-26/CLAIMS.json",
-  "current_guide": "RESEARCH_STATUS_2026-11-17.md",
-  "frozen_content_manifest_sha256": "cdc39b90ad08a5df81e2d3a222a8cbb69edce805ba875e0546691feb8474d082",
-  "independent_publication_review": "verification/tuza-20-26/INDEPENDENT_PUBLICATION_REVIEW.md",
-  "evidence_boundary": "31/79 clean-source formal modules, actual transitive axiom audits, 24 finite checks; ordinary reconstruction has explicit scope. Cached pinned dependencies, no cold rebuild or independent kernel. No external human peer review or priority claim.",
+  "status": "REVIEWED_REPRODUCED_SYNTHESIS",
+  "edition": "TUZA-1-26-2026-11-17",
+  "archive_baseline": "e04d2b5d3a9eeb6f01f3724acc30607f7274bd62",
+  "paper": "papers/tuza-1-26-synthesis/main.pdf",
+  "paper_pages": 398,
+  "canonical_source": "papers/tuza-1-26-synthesis/manuscript.md",
+  "claim_ledger": "papers/tuza-1-26-synthesis/CLAIM_LEDGER.json",
+  "claims": 638,
+  "formal_correspondence_names": 85,
+  "content_sha256": "a8d76761fb6634729910a108bc1395f8b94a7794cf31a11fe0f8e2067debb500",
+  "independent_publication_review": "verification/tuza-1-26/PUBLICATION_REVIEW.md",
+  "verification": "verification/tuza-1-26/RELEASE_VERIFICATION.json",
   "programme_state": "PAUSED; unrestricted Tuza and universal CS unresolved",
   "historical_release_records": [
-    "verification/tuza-20-26/release-at-4b72b6d/"
+    "verification/tuza-20-26/release-at-4b72b6d/",
+    "verification/tuza-1-26/release-at-e04d2b5/"
   ],
-  "inventories": {
-    "full_tree": "FILES.sha256",
-    "this_publication_overlay": "RELEASE_FILES.sha256",
-    "self_exclusions": "FILES excludes itself. RELEASE_FILES excludes both inventories. Release manifest does not hash inventories or itself."
-  }
+  "trust_boundary": "Internal AI mathematical/reproduction/layout reviews with explicit coverage. Fresh source compilation with cached pinned dependencies, not cold rebuild or separate kernel. No external human peer review or priority certification.",
+  "inventory_policy": "FILES excludes itself; RELEASE_FILES excludes both inventories. Release metadata does not hash inventories or itself."
 }

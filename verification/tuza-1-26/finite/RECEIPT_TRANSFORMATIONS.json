@@ -1,0 +1,182 @@
+[
+  {
+    "file": "VERIFICATION.json",
+    "raw_sha256": "c588e8c6e59b87a0c1f3a8af390a02fbbfca6fef46191887f6bbd22e8a25ed5e",
+    "public_sha256": "c588e8c6e59b87a0c1f3a8af390a02fbbfca6fef46191887f6bbd22e8a25ed5e",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "SOURCE_MANIFEST.json",
+    "raw_sha256": "d482a23001caf1ebb257d5b5a3ed0bca5af510764f1ea508fdbb128bfbb49638",
+    "public_sha256": "d482a23001caf1ebb257d5b5a3ed0bca5af510764f1ea508fdbb128bfbb49638",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "ADAPTATIONS.json",
+    "raw_sha256": "92ba6f70998fe7ebb5ed59a8ffa7a5a0a271ab7ce8cb5a08f1fd7430b3bf9875",
+    "public_sha256": "92ba6f70998fe7ebb5ed59a8ffa7a5a0a271ab7ce8cb5a08f1fd7430b3bf9875",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "COMMANDS.json",
+    "raw_sha256": "983cc9f31eef6f5d6a6af58b040e92590fdbc3dc9e938066f989bdeca9749f41",
+    "public_sha256": "983cc9f31eef6f5d6a6af58b040e92590fdbc3dc9e938066f989bdeca9749f41",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_candidate01/receipts/verifier_candidate01.json",
+    "raw_sha256": "4b99f11fba6b4e77392876e35509c78bfcd855bbcd8ef2e12274e4def7b89ae2",
+    "public_sha256": "4b99f11fba6b4e77392876e35509c78bfcd855bbcd8ef2e12274e4def7b89ae2",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_candidate02_counterexample/data/verifier_candidate02_counterexample.json",
+    "raw_sha256": "ed4dfa7bb56d74486231cd60426ee9dc94e32b23e6aad68341838548dbeeb585",
+    "public_sha256": "ed4dfa7bb56d74486231cd60426ee9dc94e32b23e6aad68341838548dbeeb585",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_candidate02_counterexample/receipts/verifier_candidate02_counterexample.json",
+    "raw_sha256": "5c58752bb66fd8ed5b51200266023f9cabed375e61f6672d7d3d94200c59d3e2",
+    "public_sha256": "5c58752bb66fd8ed5b51200266023f9cabed375e61f6672d7d3d94200c59d3e2",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_exact/data/verifier_controls.json",
+    "raw_sha256": "da925871fa7e75bc0445900676bd8be3d3b436beb267e09290e54c353c8ded67",
+    "public_sha256": "da925871fa7e75bc0445900676bd8be3d3b436beb267e09290e54c353c8ded67",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_exact/receipts/verifier_controls.json",
+    "raw_sha256": "cc4fe8a25edae4c47202b703b8e1d063c226c3dbe63eb606940bbf4346c0656c",
+    "public_sha256": "cc4fe8a25edae4c47202b703b8e1d063c226c3dbe63eb606940bbf4346c0656c",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-21-book_clebsch_private_verify/data/book_clebsch_private_certificate.json",
+    "raw_sha256": "0649f9dd12aac51b16462dfe80a7919179c1c3224fb13b0faa3200075223b960",
+    "public_sha256": "0649f9dd12aac51b16462dfe80a7919179c1c3224fb13b0faa3200075223b960",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-21-book_verify/results/book_verification.json",
+    "raw_sha256": "fc07b35e8efe8d64745560e07a4ca9ae411cc10d0cf9587ac64a2369b57dbdc8",
+    "public_sha256": "fc07b35e8efe8d64745560e07a4ca9ae411cc10d0cf9587ac64a2369b57dbdc8",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-22-coordinator_cycle_cover_complete_validator/evidence/coordinator_cycle_cover_complete_validation.json",
+    "raw_sha256": "dc955f46c5f1bc88bde1b479a82ca6376ef26080fba303d3e91cd13096a1196d",
+    "public_sha256": "dc955f46c5f1bc88bde1b479a82ca6376ef26080fba303d3e91cd13096a1196d",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-22-coordinator_cycle_cover_isolate_validator/evidence/coordinator_cycle_cover_isolate_validation.json",
+    "raw_sha256": "00455e85265397e9cfc6ab8f363a3a6e1c00e0be6f0753a4701cc8bfe917b025",
+    "public_sha256": "00455e85265397e9cfc6ab8f363a3a6e1c00e0be6f0753a4701cc8bfe917b025",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-22-coordinator_p6_interface_validator/evidence/coordinator_p6_interface_validation.json",
+    "raw_sha256": "4e84adf4d10181fd7cb24f815f29578a1c89aef5bba29e8bfde30e41cd5d78e7",
+    "public_sha256": "4e84adf4d10181fd7cb24f815f29578a1c89aef5bba29e8bfde30e41cd5d78e7",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-22-d_extension_independent_validator/evidence/d_extension_independent_verification.json",
+    "raw_sha256": "74e20d43e095aa5781f4c7a291676b0b41e5afc8e80fc9e950983f0607d7d467",
+    "public_sha256": "74e20d43e095aa5781f4c7a291676b0b41e5afc8e80fc9e950983f0607d7d467",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_bridge_check/reviews/critic_bridge_check.json",
+    "raw_sha256": "a9a50434f0a07f190dd9e45a7a4f8fb6334fa9c1699fdfd41207390e8a3aa4f3",
+    "public_sha256": "b2ac0464373465df7c1c3b9d1094658c0c8410dc74d3226eff4c98a9d2d7a2c4",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_edge_exchange_check/reviews/critic_edge_exchange_check.json",
+    "raw_sha256": "1892aac29a8f6d6a409d3c9ff0bae4b8204eac52ca08765c26773d9ca012ae88",
+    "public_sha256": "59f41585c094044a741678f3c761af7a355228f40b29dca814a62920aaf37c7e",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_matching_control/reviews/critic_matching_control.json",
+    "raw_sha256": "b25ec4710087349dc88d8c57c0717099f3141908cc9d2db0e8d8341978a37f9b",
+    "public_sha256": "75e23702f5c166906ca2195396059a7064c7f88c29016325f964e8859346a02a",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_ring_check/evidence/critic_ring_check.json",
+    "raw_sha256": "d2e325b9d52ceb26650c5befaee1a8df912f2df2bb8da3a6b35bfe93a3d14cd9",
+    "public_sha256": "3cfd7a5a0855ab62fcba3840b9a0fa0fb21fbcbb4aa25f5df5ed12e6f40463bf",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_role_check/reviews/critic_role_check.json",
+    "raw_sha256": "9c057fd7c13772ca50790bfcf9cb6b95717b2ff8ac12f584d40c9b2072bddd62",
+    "public_sha256": "2714bcb401a9c9636accaf8f885c762d0a79d5e3d330e7dc86d40d309474a78e",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-25-mixed_verify_named_interface/evidence/mixed_named_interface_verification.json",
+    "raw_sha256": "d8a89197704c10a8ba7deccf9cfc0405f8e30633bf44c7aa1039a68234a1df05",
+    "public_sha256": "358bc48d2b5d79dfab9800cf76dd2a80b7cbca789dbcf18ce2834231d1333807",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-25-role_status_mock/evidence/role_status_mock.json",
+    "raw_sha256": "1eebd1d297ccbeb1eb08fb27b38a7b025ed77d043ce976b3c68bd0770b3b6af1",
+    "public_sha256": "1eebd1d297ccbeb1eb08fb27b38a7b025ed77d043ce976b3c68bd0770b3b6af1",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-26-matching26_adjacent_replay/evidence/matching26_adjacent_replay.json",
+    "raw_sha256": "33fd7b5725f15be527bea431fbfb3ade3893d7f41011e961c036a23cb9f651a5",
+    "public_sha256": "41d38faf6a6efe10c490d280d99532784a9a2a3ac7aa054c6bd54ab734a2edee",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-26-matching26_book_controls/evidence/matching26_book_controls.json",
+    "raw_sha256": "b4138eb0aeb1b406ead2cc0b4ae6eae364af2b8716a8e7d7958694db22a6f4b6",
+    "public_sha256": "68268f91e1eea1144207fd9d26887e21589202a3787ad758c1f0fdc7ecd08c69",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_checks/evidence/opening_checks.json",
+    "raw_sha256": "0308dcc822e96a85f76483d45d4426fd646da21dd9f025e306f4e764e7e93b46",
+    "public_sha256": "ea34a593eb2722fc5bdb74ec1583b9cf4d0cc6c0d9ee82ba814ce8b8e80c1280",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_cover_operation_controls/evidence/opening_cover_operation_controls.json",
+    "raw_sha256": "a81921e661cdfc47ab723009c22616213208d7eb99e3cb57d780d430641f62f3",
+    "public_sha256": "6a89f7808aa2de34b6e5371d27644f88652be52196be29538c9c0f3135b5d850",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_matching_domain/evidence/opening_matching_domain.json",
+    "raw_sha256": "a04f77a208bf3051bb6792799738d3f3356bf3037114a7904ac7f949d390e73f",
+    "public_sha256": "3ac154edd48d175004e1f54a8c8d6b9e757fddf878c644f34a45ebf8d91f99fd",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_p3_domain/evidence/opening_p3_domain.json",
+    "raw_sha256": "e11e36f862d0da378f0ff5a5f8c29edfc02a0f1de3a79e31a5502f917b1432b4",
+    "public_sha256": "64256826441fe12e65a736f8d23e090d462be30c392ce83fcdfd78ecbb251edb",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_simplicial_internal/evidence/opening_simplicial_internal.json",
+    "raw_sha256": "f1fd6dfa30e237b5f010fe5486cd51fcc496cf99017d421fae3eb9daf4d38cc9",
+    "public_sha256": "3e83678df9dbbf3ff0e586b94bf95005e836fb377176288eb504138ab1d92be4",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_triangle_replay/evidence/opening_triangle_replay.json",
+    "raw_sha256": "3aaf96f7bf64cb6001b6f0c8257809e7516057cbbba5fb3009997c7036336f7e",
+    "public_sha256": "422fda318068ed75bf29d0f701fba2cd05c157fe094ab2c6007ff71a9d7e4633",
+    "transformation": "Host/user/home/PID keys omitted; execution prefixes made symbolic. All mathematical values, statuses and hashes preserved."
+  }
+]
