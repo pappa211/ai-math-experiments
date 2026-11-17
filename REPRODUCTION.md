@@ -201,7 +201,7 @@ The four archive HISTORICAL_REPRODUCTION.md files preserve old domains, deadline
 
 ## TUZA-20-26
 
-The [publication verification guide](verification/tuza-20-26/README.md) provides exact fresh versus inherited scope and [independent mathematical review](verification/tuza-20-26/MATHEMATICAL_REVIEW.md). Run the 21 selected exact checks from a new output directory:
+The [publication verification guide](verification/tuza-20-26/README.md) provides exact fresh versus inherited scope and [independent mathematical review](verification/tuza-20-26/MATHEMATICAL_REVIEW.md). Run the 24 selected exact checks from a new output directory:
 
 ```sh
 python3 tools/check_tuza_20_26.py --repo . --output ../tuza-20-26-finite --lock ../tuza-publication-build.lock

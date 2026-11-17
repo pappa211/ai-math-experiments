@@ -20,7 +20,7 @@ checks={
 '21': [('scripts/book_verify.py',[]),('scripts/book_clebsch_private_verify.py',[])],
 '22': [('scripts/coordinator_p6_interface_validator.py',[]),('scripts/coordinator_cycle_cover_isolate_validator.py',[]),('scripts/coordinator_cycle_cover_complete_validator.py',[]),('scripts/d_extension_independent_validator.py',[])],
 '25': [('scripts/critic_ring_check.py',[]),('reviews/critic_edge_exchange_check.py',[]),('reviews/critic_matching_control.py',[]),('reviews/critic_bridge_check.py',[]),('reviews/critic_role_check.py',[]),('scripts/mixed_verify_named_interface.py',[]),('scripts/role_status_mock.py',[])],
-'26': [('scripts/opening_checks.py',[]),('scripts/matching26_adjacent_replay.py',[]),('scripts/opening_triangle_replay.py',[]),('scripts/matching26_book_controls.py',[]),('scripts/opening_cover_operation_controls.py',[])]}
+'26': [('scripts/opening_checks.py',[]),('scripts/opening_simplicial_internal.py',[]),('scripts/opening_matching_domain.py',[]),('scripts/opening_p3_domain.py',[]),('scripts/matching26_adjacent_replay.py',[]),('scripts/opening_triangle_replay.py',[]),('scripts/matching26_book_controls.py',[]),('scripts/opening_cover_operation_controls.py',[])]}
 selected=a.only.split(',');assert selected and set(selected)<=set(checks)
 copy_ids=set(selected)|({'25'} if '26' in selected else set())
 sha=lambda f:hashlib.sha256(f.read_bytes()).hexdigest()

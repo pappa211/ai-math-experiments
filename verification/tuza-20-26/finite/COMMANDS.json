@@ -10,13 +10,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.06113341698073782,
-    "peak_tree_rss_bytes": 4505600,
+    "elapsed_seconds": 0.06974537498899736,
+    "peak_tree_rss_bytes": 6782976,
     "log": "logs/TUZA-20-verifier_exact.log",
     "fresh_json": [
       {
         "path": "receipts/verifier_controls.json",
-        "sha256": "4a001bc0faf4079c7bbe290f69554477d54ef383793bc6a23df4026f46eadd0f",
+        "sha256": "4d51cef4b8345def02e9c8c0ecd169be6243122406af4f981ec803442ff71e0d",
         "status": null
       },
       {
@@ -36,13 +36,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.9485798339883331,
-    "peak_tree_rss_bytes": 21905408,
+    "elapsed_seconds": 0.9693333329923917,
+    "peak_tree_rss_bytes": 22052864,
     "log": "logs/TUZA-20-verifier_candidate01.log",
     "fresh_json": [
       {
         "path": "receipts/verifier_candidate01.json",
-        "sha256": "cba91411eca0ee3da5e8642167d46aa8bc12e3e21fd794f22f24b6a9d62aa428",
+        "sha256": "c827ff2a03e50da72a2922a39c01286647a11c0ed95cf31d6ee7f9a0de6daaa5",
         "status": null
       }
     ]
@@ -57,13 +57,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 1.7643304579833057,
-    "peak_tree_rss_bytes": 91324416,
+    "elapsed_seconds": 1.7602122089883778,
+    "peak_tree_rss_bytes": 91308032,
     "log": "logs/TUZA-20-verifier_candidate02_counterexample.log",
     "fresh_json": [
       {
         "path": "receipts/verifier_candidate02_counterexample.json",
-        "sha256": "011730dee7fc9a2aa2207dab2cc4ca5f81d0811958a63b64bb7671eb25d8be7a",
+        "sha256": "5b25c6e955d5f4806c8f33e15011272c27f03167be9d1c802c6bc3a648a1e680",
         "status": null
       },
       {
@@ -83,13 +83,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.18105666598421521,
-    "peak_tree_rss_bytes": 18694144,
+    "elapsed_seconds": 0.2001498749887105,
+    "peak_tree_rss_bytes": 20185088,
     "log": "logs/TUZA-21-book_verify.log",
     "fresh_json": [
       {
         "path": "results/book_verification.json",
-        "sha256": "4e5d7c3f25df6cab5d43803a4cdf5093f350b0803eae8482387d08faf501b24a",
+        "sha256": "9010f4fe6021926a60050395646008d154f058c366a956b16ddbacb73ac818eb",
         "status": "PASS"
       }
     ]
@@ -104,13 +104,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.35874674998922274,
+    "elapsed_seconds": 0.3941667500184849,
     "peak_tree_rss_bytes": 18530304,
     "log": "logs/TUZA-21-book_clebsch_private_verify.log",
     "fresh_json": [
       {
         "path": "data/book_clebsch_private_certificate.json",
-        "sha256": "6b557cd66410fb77dae248962972ffebadd38e30dc5e91eda8116b7a870a15df",
+        "sha256": "995e890b26bbd1cfd1931b5aef8e4cabfff6fe89937956de8bd34b5bedd129d0",
         "status": "PASS"
       }
     ]
@@ -125,13 +125,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.24620279201189987,
-    "peak_tree_rss_bytes": 47153152,
+    "elapsed_seconds": 0.2684115419979207,
+    "peak_tree_rss_bytes": 48562176,
     "log": "logs/TUZA-22-coordinator_p6_interface_validator.log",
     "fresh_json": [
       {
         "path": "evidence/coordinator_p6_interface_validation.json",
-        "sha256": "0fd404768d16755f5daa8efd8bb10ed3043fd9c9861d4ff18c2ec38fc0274b7a",
+        "sha256": "b5da35c8cf0a36898276fdc3acf25932c4b7cf145ff2a9af05448fd0e30172b4",
         "status": "INDEPENDENTLY_VALIDATED_FINITE_INTERFACE"
       }
     ]
@@ -146,13 +146,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.5394228749792092,
-    "peak_tree_rss_bytes": 65077248,
+    "elapsed_seconds": 0.5270382089947816,
+    "peak_tree_rss_bytes": 68239360,
     "log": "logs/TUZA-22-coordinator_cycle_cover_isolate_validator.log",
     "fresh_json": [
       {
         "path": "evidence/coordinator_cycle_cover_isolate_validation.json",
-        "sha256": "fa52c2facd087d37b4fcf04bd6d56888ed043d043d0994bdf0c3c35ee5f567fb",
+        "sha256": "c310098c447cc5cd85417f56951ac0d1c972b24318397593b11f8c6ae9d3b87f",
         "status": "INDEPENDENTLY_VALIDATED_FINITE_SUBDOMAIN"
       }
     ]
@@ -167,13 +167,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 1.661531791993184,
-    "peak_tree_rss_bytes": 176357376,
+    "elapsed_seconds": 1.696579292009119,
+    "peak_tree_rss_bytes": 176537600,
     "log": "logs/TUZA-22-coordinator_cycle_cover_complete_validator.log",
     "fresh_json": [
       {
         "path": "evidence/coordinator_cycle_cover_complete_validation.json",
-        "sha256": "71f5d796e9dc1e3ff660b98e9c2395db586e0ffa6b01f1ce9ff4108d3070e07b",
+        "sha256": "7cde7dc049416b914ff5e8046bc8c5a97420aadc55af8d0725bf1ef6c807975a",
         "status": "INDEPENDENTLY_VALIDATED_COMPLETE_FINITE_INTERFACE"
       }
     ]
@@ -188,13 +188,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.12237220900715329,
-    "peak_tree_rss_bytes": 20611072,
+    "elapsed_seconds": 0.13687374998698942,
+    "peak_tree_rss_bytes": 20725760,
     "log": "logs/TUZA-22-d_extension_independent_validator.log",
     "fresh_json": [
       {
         "path": "evidence/d_extension_independent_verification.json",
-        "sha256": "73f7efba41a87b7a7a8bab0b08efdedac9a01175c753ac48fd581324f919d83e",
+        "sha256": "55a84f373e0776232cebfce934c88ee5144c35417a922ddd86432809bd5fd46b",
         "status": "PASS"
       }
     ]
@@ -209,13 +209,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.06231945802574046,
-    "peak_tree_rss_bytes": 4374528,
+    "elapsed_seconds": 0.06960666598752141,
+    "peak_tree_rss_bytes": 6176768,
     "log": "logs/TUZA-25-critic_ring_check.log",
     "fresh_json": [
       {
         "path": "evidence/critic_ring_check.json",
-        "sha256": "304b2679ebaef6832156a65d69dc8b13daac741aba5b620eec4e0d2a543efc54",
+        "sha256": "e8daae8913c463a2d1c9b078c379460596874953f2110900c594b4c0f3d0682e",
         "status": "PASS"
       }
     ]
@@ -230,13 +230,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.18257112498395145,
-    "peak_tree_rss_bytes": 23150592,
+    "elapsed_seconds": 0.19449533300939947,
+    "peak_tree_rss_bytes": 23822336,
     "log": "logs/TUZA-25-critic_edge_exchange_check.log",
     "fresh_json": [
       {
         "path": "reviews/critic_edge_exchange_check.json",
-        "sha256": "cdf46945199ea5b6fbe0798f07e9521e70d4890493a239be47559562a366c1d6",
+        "sha256": "709e4165718f27d10e08a03afae8f62cdddad77e945fb7552d07aa16bbec0c4f",
         "status": "PASS"
       }
     ]
@@ -251,8 +251,8 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.06481437498587184,
-    "peak_tree_rss_bytes": 4571136,
+    "elapsed_seconds": 0.0657841669744812,
+    "peak_tree_rss_bytes": 5259264,
     "log": "logs/TUZA-25-critic_matching_control.log",
     "fresh_json": [
       {
@@ -272,13 +272,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.06452037498820573,
-    "peak_tree_rss_bytes": 4751360,
+    "elapsed_seconds": 0.06973825002205558,
+    "peak_tree_rss_bytes": 5652480,
     "log": "logs/TUZA-25-critic_bridge_check.log",
     "fresh_json": [
       {
         "path": "reviews/critic_bridge_check.json",
-        "sha256": "f08596686d021cd69c19e51d3a79c74184a18998ed0d0766d13edff98378c4ce",
+        "sha256": "ff767ea12136ebfd4f8856ba7bb386d1a1faa6378a414517365eea1fe8e89b93",
         "status": "PASS"
       }
     ]
@@ -293,13 +293,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.06392483302624896,
-    "peak_tree_rss_bytes": 5111808,
+    "elapsed_seconds": 0.06946370800142176,
+    "peak_tree_rss_bytes": 6995968,
     "log": "logs/TUZA-25-critic_role_check.log",
     "fresh_json": [
       {
         "path": "reviews/critic_role_check.json",
-        "sha256": "5f7cd791baf1157918698ed3a1e5e2745d73f02f5bbfb2832ec39334969c55bf",
+        "sha256": "d9feb9b56a095ae8c258b3591c73c2917e3df5d3c54eafa472ffb19f5b484867",
         "status": "UNSAT_EXHAUSTIVE"
       }
     ]
@@ -314,13 +314,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 2.770277208997868,
+    "elapsed_seconds": 2.801298417005455,
     "peak_tree_rss_bytes": 39419904,
     "log": "logs/TUZA-25-mixed_verify_named_interface.log",
     "fresh_json": [
       {
         "path": "evidence/mixed_named_interface_verification.json",
-        "sha256": "b1eb4b061e1accc0249c1502ef4e11288e90932abe7c81d9fdac6083cbcae272",
+        "sha256": "582946c2ed62344f4ce2a7891ec47dd958af175c0dbc388671faa72e78e4380c",
         "status": "VERIFIED_FINITE"
       }
     ]
@@ -335,8 +335,8 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.0622892499959562,
-    "peak_tree_rss_bytes": 4685824,
+    "elapsed_seconds": 0.06958250000025146,
+    "peak_tree_rss_bytes": 6389760,
     "log": "logs/TUZA-25-role_status_mock.log",
     "fresh_json": [
       {
@@ -356,13 +356,76 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.9508855000021867,
-    "peak_tree_rss_bytes": 26542080,
+    "elapsed_seconds": 1.0324105829931796,
+    "peak_tree_rss_bytes": 28721152,
     "log": "logs/TUZA-26-opening_checks.log",
     "fresh_json": [
       {
         "path": "evidence/opening_checks.json",
-        "sha256": "ef7ba578eec03864ca49cb24fcc00af7c4c683c4c096e552a9c6edf26cfd5e6b",
+        "sha256": "d9c11a436f68d383048d3ac3d562e75398fcf42991f55045ad12614a66718745",
+        "status": "VERIFIED_FINITE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/opening_simplicial_internal.py",
+    "script_sha256": "e04a1f1fbb8000d4e7cf6de3134f6abc8eb658ad74e819e58c428412cf32f870",
+    "argv": [
+      "python",
+      "scripts/opening_simplicial_internal.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.07056095800362527,
+    "peak_tree_rss_bytes": 5357568,
+    "log": "logs/TUZA-26-opening_simplicial_internal.log",
+    "fresh_json": [
+      {
+        "path": "evidence/opening_simplicial_internal.json",
+        "sha256": "b33286d2cc2c9d6e118d36220808b36e216d1d5a219183ef5b90602ffd22f851",
+        "status": "VERIFIED_FINITE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/opening_matching_domain.py",
+    "script_sha256": "ccab6d3b7f90ba2e76bcf33210f4453189cc263dfe40bd07551ac6c1788f239d",
+    "argv": [
+      "python",
+      "scripts/opening_matching_domain.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.06933566700899974,
+    "peak_tree_rss_bytes": 5292032,
+    "log": "logs/TUZA-26-opening_matching_domain.log",
+    "fresh_json": [
+      {
+        "path": "evidence/opening_matching_domain.json",
+        "sha256": "d449547462b0672edc5337c8afb7951b46d1de6f0776b7cee1bbf8671cec513c",
+        "status": "VERIFIED_FINITE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/opening_p3_domain.py",
+    "script_sha256": "2f0edcc1108c55a602ada6aa0098612d90da85b17a5d75a16868ec1fa70687f9",
+    "argv": [
+      "python",
+      "scripts/opening_p3_domain.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.07001991602010094,
+    "peak_tree_rss_bytes": 6979584,
+    "log": "logs/TUZA-26-opening_p3_domain.log",
+    "fresh_json": [
+      {
+        "path": "evidence/opening_p3_domain.json",
+        "sha256": "147495e7c06c736979d97ec140885263df083ade31bfba76326b2d3d42d44215",
         "status": "VERIFIED_FINITE"
       }
     ]
@@ -377,13 +440,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.36543162501766346,
-    "peak_tree_rss_bytes": 32473088,
+    "elapsed_seconds": 0.33242391599924304,
+    "peak_tree_rss_bytes": 32784384,
     "log": "logs/TUZA-26-matching26_adjacent_replay.log",
     "fresh_json": [
       {
         "path": "evidence/matching26_adjacent_replay.json",
-        "sha256": "339d6e886dec7ad9f41aca25d68675e3b8765e013b3898a8a6fc225bd6876a69",
+        "sha256": "e32d729f4918ffecca73776fb45391cddad19c57a69474bd208fd6a604170c16",
         "status": "PASS_COMPLETE_INDEPENDENT_DOMAIN_AND_WITNESS_REPLAY"
       }
     ]
@@ -398,13 +461,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 1.3689987500256393,
-    "peak_tree_rss_bytes": 32800768,
+    "elapsed_seconds": 1.3718107909953687,
+    "peak_tree_rss_bytes": 33636352,
     "log": "logs/TUZA-26-opening_triangle_replay.log",
     "fresh_json": [
       {
         "path": "evidence/opening_triangle_replay.json",
-        "sha256": "95835eeaedf8649f0be9b8f8bf970b5e647f390a6f39ffa98a81c381dbce3735",
+        "sha256": "a137ae4fe32fca97fb42f54f4b7a373f647abfcb1de3ad421cc36fe2a9d5f461",
         "status": "VERIFIED_FINITE_INDEPENDENT_REPLAY"
       }
     ]
@@ -419,13 +482,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.121023082989268,
-    "peak_tree_rss_bytes": 28131328,
+    "elapsed_seconds": 0.13576137501513585,
+    "peak_tree_rss_bytes": 28049408,
     "log": "logs/TUZA-26-matching26_book_controls.log",
     "fresh_json": [
       {
         "path": "evidence/matching26_book_controls.json",
-        "sha256": "ddbd6dbf68c10fe765efdc37d31eda7c43174317f4317d6032881710f9f4422b",
+        "sha256": "6f3f622690fdb1e136cd8cc72e906254632687ec71d927d2b018198d4038c438",
         "status": "CERTIFIED_PRESCRIBED_BOOK_CONTROLS"
       }
     ]
@@ -440,13 +503,13 @@
     ],
     "exit_code": 0,
     "limit_reason": null,
-    "elapsed_seconds": 0.06374362498172559,
-    "peak_tree_rss_bytes": 5308416,
+    "elapsed_seconds": 0.06875370899797417,
+    "peak_tree_rss_bytes": 5931008,
     "log": "logs/TUZA-26-opening_cover_operation_controls.log",
     "fresh_json": [
       {
         "path": "evidence/opening_cover_operation_controls.json",
-        "sha256": "3efe97120163a412b16808814752ad08852500354985236e4b98ac9cc47bef7b",
+        "sha256": "1b9a8927bd9bb11bdb0c9465d2d58608eca5227a8823a6b619255cd120bd4037",
         "status": "VERIFIED_FINITE_PRESCRIBED_CONTROLS"
       }
     ]

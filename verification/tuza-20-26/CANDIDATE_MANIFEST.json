@@ -1,7 +1,7 @@
 {
   "phase": "A archive",
   "public_baseline": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
-  "content_sha256": "4014983386064362dfa4bff181701e3ee704ca784f9f0769590e7bb29c3399fd",
+  "content_sha256": "cdc39b90ad08a5df81e2d3a222a8cbb69edce805ba875e0546691feb8474d082",
   "self_exclusions": [
     "FILES.sha256",
     "RELEASE_FILES.sha256",
@@ -58,7 +58,7 @@
     },
     {
       "path": "REPRODUCTION.md",
-      "sha256": "cabbaccab0bc5d514d6b6a997b3c94c3913ad65b38dba920116187ae5c4849d4",
+      "sha256": "6e1249c58ee12e2a1da20e92a8bf4b1748f6b0d37f7b685dce7c09dd963756e4",
       "bytes": 13707
     },
     {
@@ -27989,8 +27989,8 @@
     },
     {
       "path": "tools/check_tuza_20_26.py",
-      "sha256": "92c75c1be201adfd4f3b3dd04713709ad11a55e9c5cdb2846de56a172caf6b82",
-      "bytes": 10068
+      "sha256": "6ef78e87c07f1f5e74c42b30cd7d9f6293c320f9a4a606f4ae28d483d9443552",
+      "bytes": 10192
     },
     {
       "path": "tools/check_tuza_examples.py",
@@ -29239,8 +29239,8 @@
     },
     {
       "path": "verification/tuza-20-26/README.md",
-      "sha256": "0fe3c1a53b083a7bae64def1abc2b2e075e3e87152c915a1037f17fd1cb6ac0d",
-      "bytes": 7343
+      "sha256": "921c5ad988a1acf45a0625408479cee0d02145542d5826849441d127fcdcf5e5",
+      "bytes": 7588
     },
     {
       "path": "verification/tuza-20-26/RIGIDITY_SCOPE_CORRECTION.md",
@@ -29254,32 +29254,32 @@
     },
     {
       "path": "verification/tuza-20-26/finite/COMMANDS.json",
-      "sha256": "28c14ee044642d20b6651fea2065a6ad31917199405ccf4914bf0b7d6d2ec064",
-      "bytes": 14448
+      "sha256": "01034ba7db0369db752d3fbeae0424855191d7081ef7146862fe4738f40c3174",
+      "bytes": 16413
     },
     {
       "path": "verification/tuza-20-26/finite/POST_REPLAY_EDITORIAL_CHANGES.json",
-      "sha256": "b3af20b63a86e10b75170e928e01f51c2075e02626ab666b6488531d81d60f71",
-      "bytes": 1226
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
     },
     {
       "path": "verification/tuza-20-26/finite/RECEIPT_TRANSFORMATIONS.json",
-      "sha256": "625454cffcc94da3d7d8fffcaa34b85002c17fa92086be5b03ee08c839cbb2db",
-      "bytes": 12712
+      "sha256": "2a6560ea09a732d6fa88ce2e4d0f601deaa785a6274571e6249836ffbae4258b",
+      "bytes": 14139
     },
     {
       "path": "verification/tuza-20-26/finite/SOURCE_MANIFEST.json",
-      "sha256": "9962876283834f0b9cf1c6a6b23120ef242b8f4cd1736d3566c08cc7a534d956",
+      "sha256": "30df27185498f8bf624a2eef5b3658049faad73cb1510b5a1fabf5108a2a194e",
       "bytes": 217888
     },
     {
       "path": "verification/tuza-20-26/finite/VERIFICATION.json",
-      "sha256": "e68322533f76e5768702e7a0f1c02abd95e17ad71f3d4bfdb11e01783336adf1",
+      "sha256": "ff3086dd6ed7804ce6d4a32221b9ee548e5bcd687afe2536fa4c19f085f67ffb",
       "bytes": 727
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-20-verifier_candidate01/receipts/verifier_candidate01.json",
-      "sha256": "cba91411eca0ee3da5e8642167d46aa8bc12e3e21fd794f22f24b6a9d62aa428",
+      "sha256": "c827ff2a03e50da72a2922a39c01286647a11c0ed95cf31d6ee7f9a0de6daaa5",
       "bytes": 494466
     },
     {
@@ -29289,7 +29289,7 @@
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-20-verifier_candidate02_counterexample/receipts/verifier_candidate02_counterexample.json",
-      "sha256": "011730dee7fc9a2aa2207dab2cc4ca5f81d0811958a63b64bb7671eb25d8be7a",
+      "sha256": "5b25c6e955d5f4806c8f33e15011272c27f03167be9d1c802c6bc3a648a1e680",
       "bytes": 441
     },
     {
@@ -29299,47 +29299,47 @@
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-20-verifier_exact/receipts/verifier_controls.json",
-      "sha256": "4a001bc0faf4079c7bbe290f69554477d54ef383793bc6a23df4026f46eadd0f",
+      "sha256": "4d51cef4b8345def02e9c8c0ecd169be6243122406af4f981ec803442ff71e0d",
       "bytes": 1877
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-21-book_clebsch_private_verify/data/book_clebsch_private_certificate.json",
-      "sha256": "6b557cd66410fb77dae248962972ffebadd38e30dc5e91eda8116b7a870a15df",
+      "sha256": "995e890b26bbd1cfd1931b5aef8e4cabfff6fe89937956de8bd34b5bedd129d0",
       "bytes": 15992
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-21-book_verify/results/book_verification.json",
-      "sha256": "4e5d7c3f25df6cab5d43803a4cdf5093f350b0803eae8482387d08faf501b24a",
-      "bytes": 15640
+      "sha256": "9010f4fe6021926a60050395646008d154f058c366a956b16ddbacb73ac818eb",
+      "bytes": 15639
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-22-coordinator_cycle_cover_complete_validator/evidence/coordinator_cycle_cover_complete_validation.json",
-      "sha256": "71f5d796e9dc1e3ff660b98e9c2395db586e0ffa6b01f1ce9ff4108d3070e07b",
+      "sha256": "7cde7dc049416b914ff5e8046bc8c5a97420aadc55af8d0725bf1ef6c807975a",
       "bytes": 4651
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-22-coordinator_cycle_cover_isolate_validator/evidence/coordinator_cycle_cover_isolate_validation.json",
-      "sha256": "fa52c2facd087d37b4fcf04bd6d56888ed043d043d0994bdf0c3c35ee5f567fb",
-      "bytes": 3008
+      "sha256": "c310098c447cc5cd85417f56951ac0d1c972b24318397593b11f8c6ae9d3b87f",
+      "bytes": 3009
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-22-coordinator_p6_interface_validator/evidence/coordinator_p6_interface_validation.json",
-      "sha256": "0fd404768d16755f5daa8efd8bb10ed3043fd9c9861d4ff18c2ec38fc0274b7a",
-      "bytes": 1662
+      "sha256": "b5da35c8cf0a36898276fdc3acf25932c4b7cf145ff2a9af05448fd0e30172b4",
+      "bytes": 1663
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-22-d_extension_independent_validator/evidence/d_extension_independent_verification.json",
-      "sha256": "73f7efba41a87b7a7a8bab0b08efdedac9a01175c753ac48fd581324f919d83e",
+      "sha256": "55a84f373e0776232cebfce934c88ee5144c35417a922ddd86432809bd5fd46b",
       "bytes": 67425
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-25-critic_bridge_check/reviews/critic_bridge_check.json",
-      "sha256": "24f8f6cb945fbd6447ea5c75e4a802123905b89f96c5e62da17ce35417f4e4ee",
-      "bytes": 89129
+      "sha256": "17017c5d07796bccebd67b728579ff4c200a921daee25bc73fa09347de8c3eaf",
+      "bytes": 89128
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-25-critic_edge_exchange_check/reviews/critic_edge_exchange_check.json",
-      "sha256": "c05685d7f5992005ce57df4d1e46e0ff7cb8fbe4ad7c90ff202a654aa802e9e6",
+      "sha256": "65c4b71f5394ca86e231ac167aad5cfaec741a8cb79abe57e9d2266ab9b1c426",
       "bytes": 98300
     },
     {
@@ -29349,18 +29349,18 @@
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-25-critic_ring_check/evidence/critic_ring_check.json",
-      "sha256": "d292cdd2f9b441b63fcd68d3544649aa13453d4dd869584b7116d8599c6030b3",
+      "sha256": "bc4e51d48b9bc3fd453b5cc694636ce97b4261f2987741dd6cc0cedd7b56e274",
       "bytes": 4370
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-25-critic_role_check/reviews/critic_role_check.json",
-      "sha256": "2fdcfa2be22286cdedd806ced2078f7dd8d695cdf239238cce1201e5eb28fb82",
+      "sha256": "7376c09f57454a1e1a5b807e1eb1f21bf89a405b9bb894b238180dba39bf8c88",
       "bytes": 4772
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-25-mixed_verify_named_interface/evidence/mixed_named_interface_verification.json",
-      "sha256": "145be502b0c6f66161afd38e8f9ca1220fc8eb1dc7830af577862fed40e33b66",
-      "bytes": 33475
+      "sha256": "1dfcc70610a9c56f107744721918e6cca2134049194f8d7bdbd9dd8cda17d980",
+      "bytes": 33474
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-25-role_status_mock/evidence/role_status_mock.json",
@@ -29369,27 +29369,42 @@
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-26-matching26_adjacent_replay/evidence/matching26_adjacent_replay.json",
-      "sha256": "a125d1645b7edcab9f1c186758ab9146b7e002f8643f2af6712950042c6e64f1",
-      "bytes": 1133028
+      "sha256": "31040a5889685e4857c55906087d19392a70e77e9a0538ea72e6f92838dd19ff",
+      "bytes": 1133029
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-26-matching26_book_controls/evidence/matching26_book_controls.json",
-      "sha256": "04f5627b814ec98ac5953b3615bd5ff78bda0f138224188b5382d5485b8dbdcd",
+      "sha256": "e8fd49cd0ca342c9c6c87966eead87c43489a13ed4455ae55ece92c598448dc5",
       "bytes": 54482
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-26-opening_checks/evidence/opening_checks.json",
-      "sha256": "5b37f5c32edcc89a69e4997ee019f1092a58094939777a63ad95f3bdfd0f4cd4",
+      "sha256": "3a222dac8e779eaa05597dbe3b70c81e590c71c30c15c9874f7f6a1cbdc5605f",
       "bytes": 324293
     },
     {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-26-opening_cover_operation_controls/evidence/opening_cover_operation_controls.json",
-      "sha256": "c72e0ddebd2395b818bfc53c5cfd8e3557e7417f8785f71bd2c417c11fe8b429",
+      "sha256": "ab298670ee03860ec88d52f221dbbcd62d81286b7317a5de16fc13fda528e2c1",
       "bytes": 12714
     },
     {
+      "path": "verification/tuza-20-26/finite/fresh-results/TUZA-26-opening_matching_domain/evidence/opening_matching_domain.json",
+      "sha256": "4d3d2701ba70de7c2e845dc6c8cd9b8f5d7791e466b267f1cebffd3510803e18",
+      "bytes": 105969
+    },
+    {
+      "path": "verification/tuza-20-26/finite/fresh-results/TUZA-26-opening_p3_domain/evidence/opening_p3_domain.json",
+      "sha256": "5d9f77176047ded67f8d7dc315a5f2aca9d16673bd5106cb88a2454cccaca276",
+      "bytes": 221776
+    },
+    {
+      "path": "verification/tuza-20-26/finite/fresh-results/TUZA-26-opening_simplicial_internal/evidence/opening_simplicial_internal.json",
+      "sha256": "db23e18f5c0ffbb63522328c8ed2a5ca73a51d42825dcf8a0f859a349205c650",
+      "bytes": 60022
+    },
+    {
       "path": "verification/tuza-20-26/finite/fresh-results/TUZA-26-opening_triangle_replay/evidence/opening_triangle_replay.json",
-      "sha256": "b4d336a010d19a9f99497e03449d7a4353de912f857e411d9ab9b7d0fcea9184",
+      "sha256": "e0110ce4d5ed018c8d7f529013f230eb33fbc4e1197b809984c10e8329960a75",
       "bytes": 1956
     },
     {

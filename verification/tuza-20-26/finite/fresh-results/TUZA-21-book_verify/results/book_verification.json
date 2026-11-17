@@ -1350,11 +1350,11 @@
   "minimum_book_construction_cost": 9,
   "seed": null,
   "deadline_seconds": 30,
-  "elapsed_seconds": 0.10901237500365824,
-  "peak_self_rss_bytes_Darwin": 18792448,
+  "elapsed_seconds": 0.1098492500022985,
+  "peak_self_rss_bytes_Darwin": 18808832,
   "platform": "macOS-27.2.1-arm64-arm-64bit",
   "python_version": "3.12.12",
-  "run_utc": "2026-11-17T19:03:01.151830+00:00",
+  "run_utc": "2026-11-17T19:15:22.007681+00:00",
   "checker_sha256": "2557f41fd684e6fa2affdc849fb2441af78cb798e342515f03c646b7b9118343",
   "evidence_limit": "Independent finite enumeration plus separate ordinary argument; no Lean or external human review."
 }

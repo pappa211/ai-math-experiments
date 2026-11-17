@@ -23299,7 +23299,7 @@
   "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
   "executable": "<PINNED_ENVIRONMENT>/toolchains/python312/bin/python",
   "platform": "macOS-27.2.1-arm64-arm-64bit",
-  "elapsed_seconds": 0.9123987499915529,
+  "elapsed_seconds": 0.9437059579940978,
   "processes": 1,
   "solver_threads": 1
 }

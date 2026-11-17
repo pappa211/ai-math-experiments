@@ -1,11 +1,415 @@
 {
   "status": "PASS",
-  "frozen_content": "4014983386064362dfa4bff181701e3ee704ca784f9f0769590e7bb29c3399fd",
+  "frozen_content": "cdc39b90ad08a5df81e2d3a222a8cbb69edce805ba875e0546691feb8474d082",
   "original_source_files_unchanged": 2656,
   "original_workspaces_clean": true,
   "prior_math_papers_A113010_unchanged": true,
   "source_manifest_entries": 2656,
-  "independent_review_sha256": "74fe6642aae029599a8b83471303ba419fcd96a9f567dad6437c6db0368cefed",
-  "mathematical_acceptance": "# Independent mathematical scope acceptance \u2014 frozen Phase A\n\nAccepted for publication at the reconstructed mathematical scopes documented in `phase_a_math.md`, with the rigidity clarification in `rigidity_scope_correction.md` applied.\n\nBound candidate content SHA-256: `4014983386064362dfa4bff181701e3ee704ca784f9f0769590e7bb29c3399fd` (5758 files in the frozen content manifest).\n\nThe seven final publication-status pages were inspected against the primary-source review. TUZA-25/26 now explicitly define R12 by nonempty triangle support connected through sharing graph edges, single-edge packing resilience and defect one, and conclude support isomorphism to C12. The definitions permit retained background. They distinguish the broader frozen R-F and make no sufficiency claim for it. TUZA-26's historical ambiguous sufficiency sentence has a conspicuous correction pointer at the top of PROOF_CHAIN.md. The exact R2/M0/forest scope, independently minimized Q versus actual-parent distinction, codegree conclusion, final unconditional support selections and remaining open outcomes are preserved.\n\nThis acceptance covers the central reconstructed statements and corrected publication scope, not a claim that all 345 ledger entries received fresh complete proof reconstruction. Mathematical source provenance, privacy and reproducibility are separately audited. This reviewer has not personally executed the reported fresh Lean/finite replays; acceptance does not convert those reports into a separate execution by this reviewer. No unrestricted solution, novelty claim or external human peer review is asserted. The synthesis manuscript requires its own subsequent proof and exposition review.\n",
+  "independent_review_sha256": "0eaa9b42be2beab16f53c45dba38a3884bf2b0a73e87aaee652fecd55ced81a1",
+  "mathematical_acceptance": "# Independent mathematical scope acceptance \u2014 frozen Phase A\n\nAccepted for publication at the reconstructed mathematical scopes documented in `phase_a_math.md`, with the rigidity clarification in `rigidity_scope_correction.md` applied.\n\nBound candidate content SHA-256: `4014983386064362dfa4bff181701e3ee704ca784f9f0769590e7bb29c3399fd` (5758 files in the frozen content manifest).\n\nThe seven final publication-status pages were inspected against the primary-source review. TUZA-25/26 now explicitly define R12 by nonempty triangle support connected through sharing graph edges, single-edge packing resilience and defect one, and conclude support isomorphism to C12. The definitions permit retained background. They distinguish the broader frozen R-F and make no sufficiency claim for it. TUZA-26's historical ambiguous sufficiency sentence has a conspicuous correction pointer at the top of PROOF_CHAIN.md. The exact R2/M0/forest scope, independently minimized Q versus actual-parent distinction, codegree conclusion, final unconditional support selections and remaining open outcomes are preserved.\n\nThis acceptance covers the central reconstructed statements and corrected publication scope, not a claim that all 345 ledger entries received fresh complete proof reconstruction. Mathematical source provenance, privacy and reproducibility are separately audited. This reviewer has not personally executed the reported fresh Lean/finite replays; acceptance does not convert those reports into a separate execution by this reviewer. No unrestricted solution, novelty claim or external human peer review is asserted. The synthesis manuscript requires its own subsequent proof and exposition review.\n\n## Verification-layer refreeze\n\nThe same mathematical-scope acceptance applies to content SHA-256 `cdc39b90ad08a5df81e2d3a222a8cbb69edce805ba875e0546691feb8474d082` (5761 manifest files). The updated manifest and final R12/R-F status definitions were rechecked. The coordinator reports only default TUZA24 runner, finite replay receipt, verification README and root reproduction-count (21 to 24) changes since the previous bound content; mathematical source changes are not part of this refreeze. This mathematical acceptance does not independently certify execution of those runners or the full byte-delta/privacy audit, which remain separate reviews.\n",
+  "clean_checkout_formal_and_original21": {
+    "status": "PASS",
+    "source_commit": "27b26e436d927b65dbd63db23187f08efa305951",
+    "source_tree": "fb1d06e793a7f4c1e95e588acb9bf136e4301cba",
+    "clean_git_checkout_before_and_after": true,
+    "reviewed_content_sha256": "4014983386064362dfa4bff181701e3ee704ca784f9f0769590e7bb29c3399fd",
+    "started_utc": "2026-11-17T19:10:27.923618+00:00",
+    "completed_utc": "2026-11-17T19:13:29.294834+00:00",
+    "formal": {
+      "23": {
+        "status": "PASS",
+        "modules_rebuilt": 31,
+        "audited_constants": 505,
+        "audited_theorems": 446,
+        "target_closures": 27,
+        "allowed_axioms_used": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "exact_types_and_direct_references_match_reviewed_candidate": true,
+        "target_local_dependency_closures_match_reviewed_candidate": true,
+        "all_canonical_source_hashes_match": true,
+        "source_hashes_verified": 31,
+        "peak_tree_rss_bytes": 2109161472,
+        "elapsed_seconds": 55.987149,
+        "receipt_hashes": {
+          "summary.json": "3e5a45b248b30fd420271157c9a25f85453695f4f7f36dcc45900c476f3e2de4",
+          "intake.json": "9cf924cef9a33ce786b1a9c84c3908f486b86a2971de49d73b8b663eee7a6261",
+          "commands.json": "cfaf524dc623180155047de304b51abc27df5a0ed330ca0fa973df5ef47b1c19",
+          "declarations.json": "ad0e818ea6596fb25b75ad3f1d7225c9a31078c287d40ca19dc54d2008ffe8e3",
+          "source_scan.json": "da61bbab2f0be9ee6468554fc1d91c3a1492df05e04765b9ce3bdb948b85f7f3",
+          "target_local_dependency_closures.json": "e4da32361f2f8bafcfe0a8925a1c7c63db68a6238682a0783e8836cd6783f43d"
+        }
+      },
+      "24": {
+        "status": "PASS",
+        "modules_rebuilt": 79,
+        "audited_constants": 1042,
+        "audited_theorems": 938,
+        "target_closures": 19,
+        "allowed_axioms_used": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "exact_types_and_direct_references_match_reviewed_candidate": true,
+        "target_local_dependency_closures_match_reviewed_candidate": true,
+        "all_canonical_source_hashes_match": true,
+        "source_hashes_verified": 79,
+        "peak_tree_rss_bytes": 2262155264,
+        "elapsed_seconds": 110.551886,
+        "receipt_hashes": {
+          "summary.json": "df70c519ddfe9b4cb04d1ff0ba4a6786bd2688ec45b4a722c2bad388fdee1f43",
+          "intake.json": "23468059bab537018e3c2c6a3b6cbc1729ba65c917001c6a5714dfa94acb1fa4",
+          "commands.json": "9686b74c7618884327bd0d4d41599a5cdfffc60a8cd87946497dd81df8fec454",
+          "declarations.json": "a6493d83c26459f76d34adcdfe9c3922e2146d92f0400277484a2f9336ad334d",
+          "source_scan.json": "45cb3a3ce00d4aa7c322fee81f5db3a536638e014cc221c3925bd62306b5b416",
+          "target_local_dependency_closures.json": "339c1e9d8e4a9f0df6b9e7a121ad70f8fa1e2aa8856db67fcb288f68dbdc2973"
+        }
+      }
+    },
+    "missing_B_guard": {
+      "status": "EXPECTED_API_REJECTION",
+      "source_sha256": "568c9eac0bc18d5e45650e81d0178c923b9d697a4822b19d5bca1c944aa87afe",
+      "exit_code": 1,
+      "limit_reason": null,
+      "elapsed_seconds": 0.9770914159889799,
+      "peak_tree_rss_bytes": 1545486336,
+      "scope": "Missing old-B argument is rejected by the exported API against freshly rebuilt objects; not a mathematical independence proof"
+    },
+    "finite": {
+      "status": "PASS",
+      "started_utc": "2026-11-17T19:13:16.121011+00:00",
+      "completed_utc": "2026-11-17T19:13:29.216584+00:00",
+      "missions": [
+        "20",
+        "21",
+        "22",
+        "25",
+        "26"
+      ],
+      "commands": 21,
+      "runner_sha256": "92c75c1be201adfd4f3b3dd04713709ad11a55e9c5cdb2846de56a172caf6b82",
+      "sources_unchanged": true,
+      "source_manifest": "SOURCE_MANIFEST.json",
+      "adaptations": "ADAPTATIONS.json",
+      "commands_receipt": "COMMANDS.json",
+      "max_process_tree_rss_bytes": 176390144,
+      "scope": "Fresh execution of selected independent finite validators, bounded exact domains and explicitly supplied certificates; not all historical searches, no new all-size theorem, no Lean build, no external human review."
+    },
+    "finite_comparison": [
+      {
+        "command": "TUZA-20-verifier_exact",
+        "output": "receipts/verifier_controls.json",
+        "status": null,
+        "fresh_raw_sha256": "50b3bdf3ba448e0b4008316454e9555ca1c893569729d2af92ab94edf7009464",
+        "reviewed_raw_sha256": "4a001bc0faf4079c7bbe290f69554477d54ef383793bc6a23df4026f46eadd0f",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": []
+      },
+      {
+        "command": "TUZA-20-verifier_exact",
+        "output": "data/verifier_controls.json",
+        "status": null,
+        "fresh_raw_sha256": "da925871fa7e75bc0445900676bd8be3d3b436beb267e09290e54c353c8ded67",
+        "reviewed_raw_sha256": "da925871fa7e75bc0445900676bd8be3d3b436beb267e09290e54c353c8ded67",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": []
+      },
+      {
+        "command": "TUZA-20-verifier_candidate01",
+        "output": "receipts/verifier_candidate01.json",
+        "status": null,
+        "fresh_raw_sha256": "c17a37e219c4f35d9d221be0d2c9f6786a13bd2feae087d3d16b5e2f5bf29c0c",
+        "reviewed_raw_sha256": "cba91411eca0ee3da5e8642167d46aa8bc12e3e21fd794f22f24b6a9d62aa428",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "counts",
+          "unknown"
+        ]
+      },
+      {
+        "command": "TUZA-20-verifier_candidate02_counterexample",
+        "output": "receipts/verifier_candidate02_counterexample.json",
+        "status": null,
+        "fresh_raw_sha256": "5d825d8c2ba246acd140b30e5e3a1d76db22c5374e961a6954b3de881b1206b4",
+        "reviewed_raw_sha256": "011730dee7fc9a2aa2207dab2cc4ca5f81d0811958a63b64bb7671eb25d8be7a",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "nu",
+          "tau",
+          "n",
+          "edges",
+          "triangles",
+          "all_maximum_packings",
+          "c_P",
+          "constrained_cost"
+        ]
+      },
+      {
+        "command": "TUZA-20-verifier_candidate02_counterexample",
+        "output": "data/verifier_candidate02_counterexample.json",
+        "status": null,
+        "fresh_raw_sha256": "ed4dfa7bb56d74486231cd60426ee9dc94e32b23e6aad68341838548dbeeb585",
+        "reviewed_raw_sha256": "ed4dfa7bb56d74486231cd60426ee9dc94e32b23e6aad68341838548dbeeb585",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "nu",
+          "n",
+          "edges",
+          "triangles",
+          "all_maximum_packings"
+        ]
+      },
+      {
+        "command": "TUZA-21-book_verify",
+        "output": "results/book_verification.json",
+        "status": "PASS",
+        "fresh_raw_sha256": "ea00c17c68eea7d138fe9cc44af7e1afb62b6fc8b166a8beb05757c42bf785de",
+        "reviewed_raw_sha256": "4e5d7c3f25df6cab5d43803a4cdf5093f350b0803eae8482387d08faf501b24a",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "nu",
+          "vertices",
+          "edges",
+          "triangles",
+          "ordinary_tau"
+        ]
+      },
+      {
+        "command": "TUZA-21-book_clebsch_private_verify",
+        "output": "data/book_clebsch_private_certificate.json",
+        "status": "PASS",
+        "fresh_raw_sha256": "59ff1e317f2ab1a96ab13a022a242f5ad13f9a2270bed0e74f1a9890ac649de6",
+        "reviewed_raw_sha256": "6b557cd66410fb77dae248962972ffebadd38e30dc5e91eda8116b7a870a15df",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "ordinary_tau",
+          "full_nu",
+          "private_nu",
+          "required_lower_bound",
+          "base_alpha",
+          "scope",
+          "statement_refuted"
+        ]
+      },
+      {
+        "command": "TUZA-22-coordinator_p6_interface_validator",
+        "output": "evidence/coordinator_p6_interface_validation.json",
+        "status": "INDEPENDENTLY_VALIDATED_FINITE_INTERFACE",
+        "fresh_raw_sha256": "18a33fe04dbbc932ba6ec57600552c3ade64ed8eb3c58f18017fce7a8744455a",
+        "reviewed_raw_sha256": "0fd404768d16755f5daa8efd8bb10ed3043fd9c9861d4ff18c2ec38fc0274b7a",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "counts",
+          "raw",
+          "eligible",
+          "unknown",
+          "scope"
+        ]
+      },
+      {
+        "command": "TUZA-22-coordinator_cycle_cover_isolate_validator",
+        "output": "evidence/coordinator_cycle_cover_isolate_validation.json",
+        "status": "INDEPENDENTLY_VALIDATED_FINITE_SUBDOMAIN",
+        "fresh_raw_sha256": "9288644a8e42c33b691c83e67792c3a3fab125cb67fc37b0d3032edc74b48c61",
+        "reviewed_raw_sha256": "fa52c2facd087d37b4fcf04bd6d56888ed043d043d0994bdf0c3c35ee5f567fb",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "counts",
+          "raw",
+          "eligible",
+          "unknown",
+          "scope"
+        ]
+      },
+      {
+        "command": "TUZA-22-coordinator_cycle_cover_complete_validator",
+        "output": "evidence/coordinator_cycle_cover_complete_validation.json",
+        "status": "INDEPENDENTLY_VALIDATED_COMPLETE_FINITE_INTERFACE",
+        "fresh_raw_sha256": "c1b6f36516f451c642e58e79af84f4f267d67991ac7cb5e5615b32d4a43a62b9",
+        "reviewed_raw_sha256": "71f5d796e9dc1e3ff660b98e9c2395db586e0ffa6b01f1ce9ff4108d3070e07b",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "counts",
+          "raw",
+          "eligible",
+          "unknown",
+          "scope"
+        ]
+      },
+      {
+        "command": "TUZA-22-d_extension_independent_validator",
+        "output": "evidence/d_extension_independent_verification.json",
+        "status": "PASS",
+        "fresh_raw_sha256": "42b6946ac611ff792a03b3ac1cea17993cab7842db39de958062528245e72d20",
+        "reviewed_raw_sha256": "73f7efba41a87b7a7a8bab0b08efdedac9a01175c753ac48fd581324f919d83e",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "validation",
+          "n",
+          "m",
+          "private_nu",
+          "source_literal_sha256"
+        ]
+      },
+      {
+        "command": "TUZA-25-critic_ring_check",
+        "output": "evidence/critic_ring_check.json",
+        "status": "PASS",
+        "fresh_raw_sha256": "947125ed2251c4cb909e7061041fc436aca3b6c48ab1ffa18fa43ca8c7c01279",
+        "reviewed_raw_sha256": "304b2679ebaef6832156a65d69dc8b13daac741aba5b620eec4e0d2a543efc54",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status"
+        ]
+      },
+      {
+        "command": "TUZA-25-critic_edge_exchange_check",
+        "output": "reviews/critic_edge_exchange_check.json",
+        "status": "PASS",
+        "fresh_raw_sha256": "d791a93eed862007c5ec9656944fc15faea82bcfecae2351f96a8cab9ed09ef8",
+        "reviewed_raw_sha256": "cdf46945199ea5b6fbe0798f07e9521e70d4890493a239be47559562a366c1d6",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "counts",
+          "scope"
+        ]
+      },
+      {
+        "command": "TUZA-25-critic_matching_control",
+        "output": "reviews/critic_matching_control.json",
+        "status": "PASS",
+        "fresh_raw_sha256": "b25ec4710087349dc88d8c57c0717099f3141908cc9d2db0e8d8341978a37f9b",
+        "reviewed_raw_sha256": "b25ec4710087349dc88d8c57c0717099f3141908cc9d2db0e8d8341978a37f9b",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "scope"
+        ]
+      },
+      {
+        "command": "TUZA-25-critic_bridge_check",
+        "output": "reviews/critic_bridge_check.json",
+        "status": "PASS",
+        "fresh_raw_sha256": "27f2f01e43f4ea8f7775881937a25190e05465001167f1c4a5d25b403f6fc6be",
+        "reviewed_raw_sha256": "f08596686d021cd69c19e51d3a79c74184a18998ed0d0766d13edff98378c4ce",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "scope"
+        ]
+      },
+      {
+        "command": "TUZA-25-critic_role_check",
+        "output": "reviews/critic_role_check.json",
+        "status": "UNSAT_EXHAUSTIVE",
+        "fresh_raw_sha256": "cbe64268ccd993362257b28a032fc54b9df4c86a6b787c27226bbbba46ce6019",
+        "reviewed_raw_sha256": "5f7cd791baf1157918698ed3a1e5e2745d73f02f5bbfb2832ec39334969c55bf",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "n",
+          "edges",
+          "triangles",
+          "ordinary_tau",
+          "scope"
+        ]
+      },
+      {
+        "command": "TUZA-25-mixed_verify_named_interface",
+        "output": "evidence/mixed_named_interface_verification.json",
+        "status": "VERIFIED_FINITE",
+        "fresh_raw_sha256": "68e5fbcce78bac3efcc0fc49b2c0143e12a4da720a0d82d3441e467940be4a32",
+        "reviewed_raw_sha256": "b1eb4b061e1accc0249c1502ef4e11288e90932abe7c81d9fdac6083cbcae272",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "counts"
+        ]
+      },
+      {
+        "command": "TUZA-25-role_status_mock",
+        "output": "evidence/role_status_mock.json",
+        "status": "PASS_MOCK_CONTROL_FLOW_ONLY",
+        "fresh_raw_sha256": "1eebd1d297ccbeb1eb08fb27b38a7b025ed77d043ce976b3c68bd0770b3b6af1",
+        "reviewed_raw_sha256": "1eebd1d297ccbeb1eb08fb27b38a7b025ed77d043ce976b3c68bd0770b3b6af1",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status"
+        ]
+      },
+      {
+        "command": "TUZA-26-opening_checks",
+        "output": "evidence/opening_checks.json",
+        "status": "VERIFIED_FINITE",
+        "fresh_raw_sha256": "c11ea83c1784ba963c44f934d6fc457098dc32fdeebe8a08cb178eda6b226a7b",
+        "reviewed_raw_sha256": "ef7ba578eec03864ca49cb24fcc00af7c4c683c4c096e552a9c6edf26cfd5e6b",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "counts",
+          "scope"
+        ]
+      },
+      {
+        "command": "TUZA-26-matching26_adjacent_replay",
+        "output": "evidence/matching26_adjacent_replay.json",
+        "status": "PASS_COMPLETE_INDEPENDENT_DOMAIN_AND_WITNESS_REPLAY",
+        "fresh_raw_sha256": "a8a5a068f22c16c001db662f6e6752173b4ac6dbb8e07179792bf31e3e37635c",
+        "reviewed_raw_sha256": "339d6e886dec7ad9f41aca25d68675e3b8765e013b3898a8a6fc225bd6876a69",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status"
+        ]
+      },
+      {
+        "command": "TUZA-26-opening_triangle_replay",
+        "output": "evidence/opening_triangle_replay.json",
+        "status": "VERIFIED_FINITE_INDEPENDENT_REPLAY",
+        "fresh_raw_sha256": "00502f7c3985964b84fec7f904f2d4b872efe3cbf94a328d2bafd78230627347",
+        "reviewed_raw_sha256": "95835eeaedf8649f0be9b8f8bf970b5e647f390a6f39ffa98a81c381dbce3735",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status",
+          "counts",
+          "scope"
+        ]
+      },
+      {
+        "command": "TUZA-26-matching26_book_controls",
+        "output": "evidence/matching26_book_controls.json",
+        "status": "CERTIFIED_PRESCRIBED_BOOK_CONTROLS",
+        "fresh_raw_sha256": "1e3cdddeda05d55fe2a89e63584f3abb108443ae0e8b314a191c8d1353c62ae9",
+        "reviewed_raw_sha256": "ddbd6dbf68c10fe765efdc37d31eda7c43174317f4317d6032881710f9f4422b",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status"
+        ]
+      },
+      {
+        "command": "TUZA-26-opening_cover_operation_controls",
+        "output": "evidence/opening_cover_operation_controls.json",
+        "status": "VERIFIED_FINITE_PRESCRIBED_CONTROLS",
+        "fresh_raw_sha256": "f6278feee3120ed137592e9b83e68eb24817c6b6c46560fd8bb01607cfcc15d4",
+        "reviewed_raw_sha256": "3efe97120163a412b16808814752ad08852500354985236e4b98ac9cc47bef7b",
+        "same_selected_exact_counts_and_statement_scope": true,
+        "compared_fields": [
+          "status"
+        ]
+      }
+    ],
+    "all_run_receipt_sha256": "ab7e41945986b96002664cc62f7937067f5e15f1e2bd531b5522cf6fe3efebb8",
+    "stage_commands_sha256": "d6a2d1380d6da315641cba098bd9a7e1666cbb82c27c1683d16a22f1aeb303d7",
+    "scope": "Fresh source builds from a clean Git checkout at the exact source commit; existing pinned compiler/dependency artifacts; actual environment types/axioms and named closures; fresh exact finite checks. Not cold rebuild, separate kernel implementation, object replay or external human review.",
+    "publication_note": "Raw execution receipts are retained in the private publication evidence directory; this compact record removes access paths while preserving exact source commit, semantic comparison and result hashes. Frozen mathematical content is unchanged."
+  },
   "note": "Checks bind the reviewed local candidate. Publication and clean Git-checkout replay have their own later receipts; no remote completion is claimed here."
 }

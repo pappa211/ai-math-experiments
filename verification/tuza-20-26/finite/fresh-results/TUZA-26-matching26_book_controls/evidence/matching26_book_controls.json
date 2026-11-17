@@ -1,6 +1,6 @@
 {
   "status": "CERTIFIED_PRESCRIBED_BOOK_CONTROLS",
-  "utc": "2026-11-17T19:03:10.615769+00:00",
+  "utc": "2026-11-17T19:15:31.908397+00:00",
   "method": "Two prescribed named book controls, no graph census or optimizer.\nLiteral clique-piece upper bounds and exhaustive local maximum-packing/minimum-\ncover response products certify the old named graph. Deletion extension and\nexplicit witnesses give all claimed residual optima.\n",
   "records": [
     {
@@ -3471,7 +3471,7 @@
   "sources": {
     "<FRESH_RUN>/work/TUZA-26/inputs/C12_frozen.json": "eae0cea592aa0bbcb2b8c1fe3bcdfe596474a0238095cbf8db451fbf3d3af2d7"
   },
-  "elapsed_seconds": 0.05798429201240651,
+  "elapsed_seconds": 0.05827958299778402,
   "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
   "platform": "macOS-27.2.1-arm64-arm-64bit",
   "processes": 1,

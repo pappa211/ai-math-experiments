@@ -163,7 +163,7 @@
       "rejected": true
     }
   ],
-  "elapsed_seconds": 1.4904555829998571,
+  "elapsed_seconds": 1.5408893330022693,
   "checker_reuse": "Coordinator P6/isolate literal checker, independently regenerated complete domain; no producer imports",
   "inputs_sha256": {
     "scripts/challenger_cycle_cover_residual_interface_v4.py": "d58a5c98140d0bb4ca458524c1faa9a07667f135e79e578ebd506e8321d8037b",

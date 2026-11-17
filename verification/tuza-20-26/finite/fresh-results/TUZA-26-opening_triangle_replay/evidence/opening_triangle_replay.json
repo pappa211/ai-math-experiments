@@ -1,6 +1,6 @@
 {
   "status": "VERIFIED_FINITE_INDEPENDENT_REPLAY",
-  "utc": "2026-11-17T19:03:10.484230+00:00",
+  "utc": "2026-11-17T19:15:31.760402+00:00",
   "method": "Independent literal C12 construction, independent-I-first domain generation, actual triangle reconstruction, every supplied rejection witness checked, structural survivors independently filtered, bijective cover certificate matching, direct cover and packing validation. No optimizer or author-script import.",
   "scope": "Exactly 160 internal triples and 6512 one-outside presentations; all-size reduction remains a separate ordinary proof obligation. No classification of arbitrary defect-one or defect-two graphs.",
   "counts": {
@@ -13,13 +13,13 @@
     "REJECT_TRIANGLE_PAIR_BLOCKER": 72
   },
   "retained_by_mode": {
-    "one_outside": 94,
-    "all_inside": 36
+    "all_inside": 36,
+    "one_outside": 94
   },
   "max_retained_order": 13,
   "source_hashes": {
     "<FRESH_RUN>/work/TUZA-26/inputs/C12_frozen.json": "eae0cea592aa0bbcb2b8c1fe3bcdfe596474a0238095cbf8db451fbf3d3af2d7",
-    "<FRESH_RUN>/work/TUZA-26/evidence/opening_checks.json": "ef7ba578eec03864ca49cb24fcc00af7c4c683c4c096e552a9c6edf26cfd5e6b",
+    "<FRESH_RUN>/work/TUZA-26/evidence/opening_checks.json": "d9c11a436f68d383048d3ac3d562e75398fcf42991f55045ad12614a66718745",
     "<FRESH_RUN>/work/TUZA-26/evidence/matching26_triangle_domain.json": "c8258599b6e5f6c012842f730ecfcd456017d81b5eece6836c17513667cdfcd2",
     "<FRESH_RUN>/work/TUZA-26/evidence/matching26_triangle_cover_certificates.json": "844ce130ecfa980f490882330c84d279dcbdc15ebbd9838a233c3680edb2d208"
   },
@@ -30,5 +30,5 @@
   "platform": "macOS-27.2.1-arm64-arm-64bit",
   "processes": 1,
   "solver_threads": 0,
-  "elapsed_seconds": 1.3053197920089588
+  "elapsed_seconds": 1.2957802079909015
 }

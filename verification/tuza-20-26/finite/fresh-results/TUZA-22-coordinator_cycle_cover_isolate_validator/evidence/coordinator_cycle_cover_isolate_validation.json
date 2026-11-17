@@ -107,7 +107,7 @@
       "rejected": true
     }
   ],
-  "elapsed_seconds": 0.4341040409926791,
+  "elapsed_seconds": 0.42978470798698254,
   "checker_reuse": "Independent coordinator P6 literal-checker kernel generalized to variable n; no producer code imported",
   "inputs_sha256": {
     "scripts/challenger_cycle_cover_isolate_interface.py": "15c620ca94b89679c88e1034540b696d61e0500b1a204d2c57e1d69487c61241",

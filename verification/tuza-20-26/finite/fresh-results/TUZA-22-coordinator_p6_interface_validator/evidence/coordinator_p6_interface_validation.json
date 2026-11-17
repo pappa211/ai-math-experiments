@@ -35,7 +35,7 @@
       "rejected": true
     }
   ],
-  "elapsed_seconds": 0.1770135830156505,
+  "elapsed_seconds": 0.17959174999850802,
   "inputs_sha256": {
     "scripts/challenger_p6_two_apex_interface.py": "c972c43f25d2b413bbdf382e4b42712ea99a767b43adcb6b72ee3e08da3e5a96",
     "evidence/challenger_p6_two_apex_interface.json": "490f12d9a3b61c0f691a1105d414da5ee1b495d16edab1d5424b8c8c42db5136",

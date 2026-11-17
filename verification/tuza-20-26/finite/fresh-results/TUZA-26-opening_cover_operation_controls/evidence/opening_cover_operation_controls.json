@@ -1,6 +1,6 @@
 {
   "status": "VERIFIED_FINITE_PRESCRIBED_CONTROLS",
-  "utc": "2026-11-17T19:03:10.699045+00:00",
+  "utc": "2026-11-17T19:15:32.003618+00:00",
   "method": "Literal graph reconstruction and exhaustive direct subset hitting checks for one prescribed seven-vertex graph; no discovery oracle, optimization or author-script import. Named controls replayed by direct witness checking against already accepted exact Q bounds.",
   "double_cone": {
     "edges": [
@@ -886,13 +886,13 @@
   "source_hashes": {
     "<FRESH_RUN>/work/TUZA-26/notes/double_cone_C5_cover_control_v1.md": "e7a8d256ad4462af253d68b89f88dd79ca276918b4777dedb427e7decc8ab970",
     "<FRESH_RUN>/work/TUZA-26/evidence/double_cone_C5_control.json": "e630287110c8505e91afe3bb8606fe7f283bdbdc7b96135f6676c7529565e569",
-    "<FRESH_RUN>/work/TUZA-26/evidence/matching26_book_controls.json": "ddbd6dbf68c10fe765efdc37d31eda7c43174317f4317d6032881710f9f4422b",
-    "<FRESH_RUN>/work/TUZA-26/evidence/opening_checks.json": "ef7ba578eec03864ca49cb24fcc00af7c4c683c4c096e552a9c6edf26cfd5e6b",
+    "<FRESH_RUN>/work/TUZA-26/evidence/matching26_book_controls.json": "6f3f622690fdb1e136cd8cc72e906254632687ec71d927d2b018198d4038c438",
+    "<FRESH_RUN>/work/TUZA-26/evidence/opening_checks.json": "d9c11a436f68d383048d3ac3d562e75398fcf42991f55045ad12614a66718745",
     "<FRESH_RUN>/work/TUZA-26/inputs/C12_frozen.json": "eae0cea592aa0bbcb2b8c1fe3bcdfe596474a0238095cbf8db451fbf3d3af2d7"
   },
   "source_hashes_stable": true,
   "checker_sha256": "f0ac6e3e8b9964ace78731724df60a48bf522344b02e59be3ce9c5930d157829",
-  "elapsed_seconds": 0.019853916979627684,
+  "elapsed_seconds": 0.019540667010005563,
   "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
   "platform": "macOS-27.2.1-arm64-arm-64bit",
   "processes": 1,

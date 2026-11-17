@@ -1666,10 +1666,10 @@
   "private_nu_upper_bound": "Each private triangle uses one of five apex-to-U spokes, so a packing has at most five.",
   "required_lower_bound": 6,
   "seed": null,
-  "elapsed_seconds": 0.3217778749822173,
+  "elapsed_seconds": 0.3260831249936018,
   "deadline_seconds": 30,
   "peak_self_rss_bytes_Darwin": 18644992,
-  "run_utc": "2026-11-17T19:03:01.535987+00:00",
+  "run_utc": "2026-11-17T19:15:22.418168+00:00",
   "checker_sha256": "28d8989f901428cbd19674b7fb3c1b3eed6327aa68c1cede8886ff5ac6115ab1",
   "python": "3.12.12",
   "scope": "Ordinary proof plus independent finite certificate; no Lean verification and no Tuza counterexample."
