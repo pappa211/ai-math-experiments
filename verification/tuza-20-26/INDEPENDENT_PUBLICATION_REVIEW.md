@@ -37,9 +37,9 @@ No material archive-completeness, reproduction or privacy issue remains within t
 
 ## Frozen content binding
 
-This independent review binds **5,758** file records in `CANDIDATE_MANIFEST.json` to content digest:
+This independent review binds **5,761** file records in `CANDIDATE_MANIFEST.json` to content digest:
 
-`4014983386064362dfa4bff181701e3ee704ca784f9f0769590e7bb29c3399fd`
+`cdc39b90ad08a5df81e2d3a222a8cbb69edce805ba875e0546691feb8474d082`
 
 The reviewer independently recomputed every listed file SHA-256 and size, every recorded symlink target, and the aggregate digest from UTF-8 `json.dumps(files, sort_keys=True, separators=(",", ":"))` with no trailing newline. All matched. The six explicit self-exclusions are root `FILES.sha256`, `RELEASE_FILES.sha256`, `RELEASE_MANIFEST.json`, this review, `CANDIDATE_MANIFEST.json` and `RELEASE_VERIFICATION.json` in this verification directory. They avoid self-referential hashes; they are not exclusions of mathematical source. The source-to-public manifest itself has SHA-256 `a0ef27d1f5f5a02dc448b19e58df26b2c539cda821b903f6b071098afe15a280`, agreeing with the independent source audit.
 
@@ -52,3 +52,9 @@ Final precision correction: the two publication-status R12 definitions now expli
 ## Reviewed default-suite expansion
 
 The additional 326/8 simplicial check reconstructs every internal nonedge/common-neighbor presentation from the independently solved 210-graph data. The matching-domain validator independently enumerates all 4096 cross-edge masks, reconstructs the full 48-element symmetry group and partitions the 147 retained labelled skeletons into eight orbits. The P3-plus-edge validator independently enumerates all 512 masks and reconstructs the four-element symmetry group, 59 retained labelled states, 21 orbits and 18 surviving types, retaining 134 extensions. The actual bare vertex set and equal/distinct outside-apex patterns are preserved; symbolic outside labels are not a bound on real outside vertices. This expansion changes no mathematical source or theorem statement and ensures these essential finite dependencies have one default public entry point. The former 21-command snapshot remains historical evidence at commit `27b26e436d927b65dbd63db23187f08efa305951`.
+
+## Final clean-checkout acceptance
+
+A fresh no-hardlinks clone of commit `ab7b21cfd991a87bcd2883284a0162d4ec1af795` passed the complete default 24-command finite suite and remained Git-clean before and after execution. Every frozen file hash matched the bound manifest. All 110 formal source occurrences and all toolchain/manifest pins matched the separately successful clean-checkout formal replay at commit `27b26e436d927b65dbd63db23187f08efa305951`; its exact type, direct-reference, axiom, target-closure and missing-B results therefore remain applicable. No additional formal rebuild is claimed for the tool-schedule followup. The sanitized final clean-checkout receipt, including exact commit/tree identities, source correspondence and result hashes, is embedded in the self-excluded `RELEASE_VERIFICATION.json`.
+
+The final 24-check schedule and its essential finite-domain completeness checks are accepted for Phase A publication. The digest above supersedes the earlier 5,758-file snapshot; the three new files are compact receipts for the added finite dependencies. The broader unrestricted conjecture and the R-F-to-R12 bridge remain unresolved.
