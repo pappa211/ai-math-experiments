@@ -1,0 +1,7 @@
+problems/TUZA-23/Tuza23/WholeFootprint.lean:46:23: error: `simp` made no progress
+problems/TUZA-23/Tuza23/WholeFootprint.lean:53:8: warning: automatically included section variable(s) unused in theorem `Tuza23.mem_pageApices`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

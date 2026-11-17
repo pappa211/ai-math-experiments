@@ -1,0 +1,19 @@
+{
+  "module": "Tuza24.PerfectForestStructure",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-24/.lake/build/lib/lean/Tuza24/PerfectForestStructure.olean",
+    "problems/TUZA-24/Tuza24/PerfectForestStructure.lean"
+  ],
+  "cwd": "problems/TUZA-24",
+  "lean_path": "problems/TUZA-24/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "4434239122dcee8fc1cc8a491e784febb49955093147c642ce5e6bafa9080f48",
+  "elapsed_seconds": 1.2333004170213826,
+  "peak_process_tree_rss_bytes": 1706229760,
+  "exit_code": 1,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T10:19:47.167123+00:00"
+}

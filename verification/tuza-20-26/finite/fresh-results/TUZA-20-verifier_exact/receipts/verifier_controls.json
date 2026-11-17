@@ -1,0 +1,79 @@
+{
+  "mode": "controls",
+  "started_utc": "2026-11-17T19:15:19.083111+00:00",
+  "elapsed_seconds": 0.005294084548950195,
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "script_sha256": "7c3287026d86ac60ec563e88c4eb1b3023b21f6a548bff3f937d8e94835a46a1",
+  "result": {
+    "controls": [
+      {
+        "name": "FCZnw-P",
+        "n": 7,
+        "edges": 13,
+        "triangles": 9,
+        "nu": 3,
+        "restricted_cost": 5,
+        "maximum_packings": 8
+      },
+      {
+        "name": "FCZnw-Pprime",
+        "n": 7,
+        "edges": 13,
+        "triangles": 9,
+        "nu": 3,
+        "restricted_cost": 4,
+        "maximum_packings": 8
+      },
+      {
+        "name": "K4",
+        "n": 4,
+        "edges": 6,
+        "triangles": 4,
+        "nu": 1,
+        "restricted_cost": 2,
+        "maximum_packings": 4
+      },
+      {
+        "name": "K5",
+        "n": 5,
+        "edges": 10,
+        "triangles": 10,
+        "nu": 2,
+        "restricted_cost": 4,
+        "maximum_packings": 15
+      },
+      {
+        "name": "private-pair-core",
+        "n": 8,
+        "edges": 16,
+        "triangles": 13,
+        "nu": 3,
+        "restricted_cost": 5,
+        "maximum_packings": 36
+      }
+    ],
+    "negative_controls": {
+      "omitted_triangle": {
+        "rejected": true,
+        "reason": "triangle family differs"
+      },
+      "missing_cover_edge": {
+        "rejected": true,
+        "reason": "not allowed cover"
+      },
+      "overlapping_packing_edges": {
+        "rejected": true,
+        "reason": "packing overlap"
+      },
+      "false_private_completion": {
+        "rejected": true,
+        "reason": "completion privacy mismatch"
+      },
+      "nonmaximum_packing": {
+        "rejected": true,
+        "reason": "packing not maximum"
+      }
+    }
+  }
+}

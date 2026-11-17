@@ -1,0 +1,34 @@
+[
+  {
+    "path": "sources/tuza22/notes/forest_triangle_cover_cs_v1.md",
+    "sha256": "c4c50c12294a609d00ea49fee692c3328f489826173d07defc2e08e040f63893"
+  },
+  {
+    "path": "sources/tuza22/notes/challenger_tree_triangle_cover_cs_v1.md",
+    "sha256": "352f3b8f8720449f2b08c735eb81fbbe0260b4c19c0cb37f6d5eadee17e149fd"
+  },
+  {
+    "path": "sources/tuza22/notes/challenger_tree_triangle_cover_tuza_v2.md",
+    "sha256": "8f4bc184a26596a8275c14d31e3b4340fa6996caddd4d16553e7ae1f25f32e20"
+  },
+  {
+    "path": "sources/tuza22/notes/challenger_forest_anchored_cover_v1.md",
+    "sha256": "0ee6da23aa6d2601604c10c5080e4f1be6378dab53b66d8e95f6d3367c9c2277"
+  },
+  {
+    "path": "sources/tuza22/notes/challenger_forest_external_minmax_v1.md",
+    "sha256": "926a9fd211d1fcbed389f8670bafeedc8dc3f9e84fbe2a773eb14292a7bce429"
+  },
+  {
+    "path": "sources/tuza22/notes/apex_forest_perfect_link_exclusion_v2.md",
+    "sha256": "e82d2ea2eaeb42b3a91b67ddc4a52a30ce83e01f8e065a208f341d1cbf3052a6"
+  },
+  {
+    "path": "sources/tuza22/notes/apex_forest_nonperfect_branch_v2.md",
+    "sha256": "c587035bea6883c1a5f80d0fc261be3e02144c84dae1678a50a6dc82d67fec47"
+  },
+  {
+    "path": "sources/tuza22/review/tree_triangle_cover_cs_independent_review.md",
+    "sha256": "462dc66614199001940693a3a7fcfb6a5aa41ba17a986dc7c9cd8f8a9363eea0"
+  }
+]

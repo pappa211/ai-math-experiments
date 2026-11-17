@@ -1,0 +1,19 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent distinct-intersection cube partial payment review
+
+Status: ACCEPTED ORDINARY for the stated paid subcases and necessary orientation restriction. This does not close the cube or establish triple availability. No computation or Lean verification is claimed.
+
+I independently checked the six-core edge inventory. The only possible old core edges are ay,bz,cx,xy,xz,yz. All nine listed two-family mixed triangles are correct, and the always-present three-family triangle abc is retained. Ordinary pages with outside vertices remain in the individual complete families.
+
+If each family is covered by two own restored bases, six chosen bases cover all individual new triangles. Every unhit mixed triangle must contain at least two of the three omitted bases. Their three-edge graph cannot be a star, since no core vertex belongs to all three restored triangles. For a path the middle edge hits every two-edge wedge triangle; for a wedge plus disjoint edge either wedge edge suffices; for a matching there is no such triangle; for a triangle there is only its one face. These exhaustive cases give one further actual edge covering every remaining mixed triangle, including abc. The cover saving to 2m+7 is valid with arbitrary old attachments.
+
+For the shared-pair full-apex lemma, the displayed base-plus-opposite-spoke covers are complete. The single gain two forces opposite old spokes bp,dq to be background. Their four-edge union misses only possible hbd; its closing edge bd must therefore exist and be background, or an old cover gives pair gain at most four. Equal full apices would create the forbidden old triangle bpd. All full and extra apices lie outside the core because each is old-adjacent to h, whose core spokes are absent.
+
+An old clique containing two distinct such apices must contain h through their old triangle and hence cannot contain any other core terminal. For distinct extra apices r,s, the four selected pages are edge-disjoint even under r=q or s=p. A clique containing h sees only the adjacent hr,hs pair. A clique not containing h contains only one of the distinct apices and sees at most two incident footprint edges, one to a and one to c. Background bp,dq are correctly omitted. Full old packings avoid all these footprints, giving m+4. If all extra cross choices coincide, both extra sets equal {w}, distinct from p,q. The four pages hbd,haw,abp,cdq are edge-disjoint, and after removing background bd,bp,dq every old component sees at most one footprint edge. This also gives m+4. The full pair lemma therefore checks without a resilience or minimum-Q premise.
+
+Applying it to the three cyclic pairs yields the three displayed disjunctions. Each family can satisfy at most one, so each must satisfy exactly one, leaving precisely the two listed orientations. This is a necessary restriction only. The central-base old-cover criterion also covers all nine mixed triangles via the six outer edges and covers abc via the remaining central base. Finally G-abc really is B plus the outer six-cycle, with its actual-single-residual parameters; no naming is inferred from them.
+
+Mixed family types, a possible exceptional family, and the two surviving all-full-apex orientations remain unpaid. The exact ordinary-family classification is an archived dependency, and the source does not claim a new finite completeness check or global extension theorem.
+
+Bound source: notes/matching26_actual_parent_cycle_core_v1.md, SHA-256 f04765cce7ded9dd664cf770878d9347b1e618288f8585c27e91dacfdaf65741.

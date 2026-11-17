@@ -1,0 +1,19 @@
+{
+  "module": "Tuza23.PageGeometry",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-23/.lake/build/lib/lean/Tuza23/PageGeometry.olean",
+    "problems/TUZA-23/Tuza23/PageGeometry.lean"
+  ],
+  "cwd": "problems/TUZA-23",
+  "lean_path": "problems/TUZA-23/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "6880f81d725847b6f64649fc62b21f880c1a82a054197cf796b32407cecf6e88",
+  "elapsed_seconds": 4.766722792002838,
+  "peak_process_tree_rss_bytes": 1579237376,
+  "exit_code": 1,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T09:09:48.659043+00:00"
+}

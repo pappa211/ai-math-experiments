@@ -1,0 +1,3 @@
+problems/TUZA-24/Tuza24/ForestMatchingDeficiency.lean:137:4: warning: Try `simp at hxZ` instead of `simpa using hxZ`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`

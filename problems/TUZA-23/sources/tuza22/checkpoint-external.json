@@ -1,0 +1,19 @@
+{
+  "completed_utc": "2026-11-16T05:25:27.185156+00:00",
+  "workspace": "problems/TUZA-22",
+  "commit": "d048e6e8207d9dece8ee23af6e5085726d826db4",
+  "tree": "e273f3a2f426c9fb92c0f2c2d8ac89cc22541d66",
+  "branch": "codex/tuza22",
+  "clean_worktree": true,
+  "remotes": [],
+  "owned_mathematics_jobs": [],
+  "research_duration_seconds": 27000,
+  "total_elapsed_seconds": 27885.857156,
+  "total_elapsed_display": "7h44m45s",
+  "before_final_deadline": true,
+  "stopping_reason": "SCHEDULED_RESEARCH_CUTOFF",
+  "manifest_files_verified": 693,
+  "manifest_sha256": "61de98404dd7bc03cbbde0486940b630e5b229df481dac92ea5ed404f2c403b2",
+  "scope": "Postcommit Git/process/file-integrity checks only; no mathematical verification after cutoff",
+  "whitespace_note": "git diff --cached --check reported whitespace in preserved source/literature text. Frozen inputs were intentionally not reformatted; the private content commit succeeded."
+}

@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T04:15:54.386562+00:00",
+  "end_utc": "2026-11-16T04:15:54.636763+00:00",
+  "seconds": 0.25020480155944824,
+  "command": [
+    "python3",
+    "scripts/hd_survivor_lower_bridge_atlas.py"
+  ],
+  "pid": 98423,
+  "peak_sampled_tree_rss_mib": 41.5,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 30.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

@@ -1,0 +1,113 @@
+{
+  "reviewer": "tuza24_review",
+  "status": "SOURCE_SEMANTICS_REVIEW_ONLY",
+  "utc": "2026-11-16T09:57:03.663222+00:00",
+  "compiler_invoked": false,
+  "files": [
+    {
+      "path": "problems/TUZA-24/THEOREM_SPEC.md",
+      "sha256": "01c6ccd96320f3402c0220886abf5fbe2bd674c6ea6f94385e523f264e013232",
+      "bytes": 5893
+    },
+    {
+      "path": "problems/TUZA-24/Tuza24/MatchingAPI.lean",
+      "sha256": "e6e25fe100c6369c865dda5b98d16d74b074d290b12627b69f394bc7710025a6",
+      "bytes": 1792
+    },
+    {
+      "path": "problems/TUZA-24/sources/tuza23/FOREST_FORMALIZATION_PLAN.md",
+      "sha256": "1fda196d91bcfca5a2f1c7799592b4ddb9b91f40b4e928a37e5d7eec4bf12aad",
+      "bytes": 12376
+    },
+    {
+      "path": "problems/TUZA-24/sources/tuza22/notes/forest_triangle_cover_cs_v1.md",
+      "sha256": "c4c50c12294a609d00ea49fee692c3328f489826173d07defc2e08e040f63893",
+      "bytes": 5780
+    },
+    {
+      "path": "problems/TUZA-24/sources/tuza22/notes/apex_forest_perfect_link_exclusion_v2.md",
+      "sha256": "e82d2ea2eaeb42b3a91b67ddc4a52a30ce83e01f8e065a208f341d1cbf3052a6",
+      "bytes": 5762
+    },
+    {
+      "path": "problems/TUZA-24/sources/tuza22/notes/apex_forest_nonperfect_branch_v2.md",
+      "sha256": "c587035bea6883c1a5f80d0fc261be3e02144c84dae1678a50a6dc82d67fec47",
+      "bytes": 14609
+    },
+    {
+      "path": "problems/TUZA-24/sources/tuza22/notes/challenger_forest_anchored_cover_v1.md",
+      "sha256": "0ee6da23aa6d2601604c10c5080e4f1be6378dab53b66d8e95f6d3367c9c2277",
+      "bytes": 10516
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/MinimalObstruction.lean",
+      "sha256": "79010d586ee8d35b187213109fe6aa0b7222bdae81e0f92543c0b6af37b8325e",
+      "bytes": 5589
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/UniqueEdge.lean",
+      "sha256": "fc9c77bc94e2af03aaadc2f83128232a7fe161cea7f28ff24d5f20465c11cb88",
+      "bytes": 8938
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/PageAugmentation.lean",
+      "sha256": "2a7ab49af6c21e0f645c9bb191c7dbb8350c487630b4c5ba1e3a6f8c3f343a2b",
+      "bytes": 4702
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksBase.lean",
+      "sha256": "3d52a43fa7fd91342506949ada70e31820b5e460a4c5050a2d7d0833e95337cb",
+      "bytes": 6182
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksOperations.lean",
+      "sha256": "8a60a698242303388155dfefd4cb4478c641a7aaecd25d53ec7a8ebdf3661dae",
+      "bytes": 5574
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksPatterns.lean",
+      "sha256": "aa89ad6aeb0cb6dd12d0d518e7e57753d183082e44b89e5776da205802f573fd",
+      "bytes": 3427
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksK3.lean",
+      "sha256": "326b0473254705d504f9532f771a56e945590e32bb69782f163e2977621e372c",
+      "bytes": 7074
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksK4.lean",
+      "sha256": "95b6b95489c84ab8d1621bc03f4ea3c55dc57f25dff5a71f28edd7e012670e09",
+      "bytes": 13748
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksCross.lean",
+      "sha256": "cb543f1423d3f7675cdbe94d7ea17c738d824bc00fc454ce916b2afc4a230e0f",
+      "bytes": 8826
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksFour.lean",
+      "sha256": "f777892653ea172a3c292972ec587eb3ef6d145ffc64b491fae838e4ee5dc3ac",
+      "bytes": 11343
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinks.lean",
+      "sha256": "fde3e17afe2a1420c87da08cca1d9fd83806f70de40f1d216be3c60548beb834",
+      "bytes": 7625
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/MatchingReduction.lean",
+      "sha256": "03c4ee92e4f635badaf10a998a5f51651de8d375ed01afb5f23d614b56eb88e0",
+      "bytes": 6091
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Reducible.lean",
+      "sha256": "2db14a15df88e875493756480e2e92504ea1b8b3606bfd9f4066c8d06e95247d",
+      "bytes": 5807
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/GraphPeeling.lean",
+      "sha256": "89f3d7f2ef1b04289534337d4d7f534ee80205bc5ceb1eaaa87aa837e1d8dde6",
+      "bytes": 5685
+    }
+  ]
+}

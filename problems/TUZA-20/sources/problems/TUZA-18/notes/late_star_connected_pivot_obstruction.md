@@ -1,0 +1,1 @@
+../../../../../TUZA-18/notes/late_star_connected_pivot_obstruction.md

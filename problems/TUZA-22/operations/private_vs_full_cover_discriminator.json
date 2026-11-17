@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T23:26:16.457793+00:00",
+  "end_utc": "2026-11-15T23:26:17.521270+00:00",
+  "seconds": 1.0634818077087402,
+  "command": [
+    "python",
+    "scripts/private_vs_full_cover_discriminator.py"
+  ],
+  "pid": 83845,
+  "peak_sampled_tree_rss_mib": 130.21875,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 60.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

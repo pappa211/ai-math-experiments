@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T22:58:19.467039+00:00",
+  "end_utc": "2026-11-15T22:58:19.585573+00:00",
+  "seconds": 0.11853599548339844,
+  "command": [
+    "python3",
+    "scripts/challenger_verify_bipartite_private_bound.py"
+  ],
+  "pid": 77286,
+  "peak_sampled_tree_rss_mib": 4.25,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 10.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

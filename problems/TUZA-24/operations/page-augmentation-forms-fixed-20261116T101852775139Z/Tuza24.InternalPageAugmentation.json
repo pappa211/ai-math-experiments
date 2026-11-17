@@ -1,0 +1,19 @@
+{
+  "module": "Tuza24.InternalPageAugmentation",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-24/.lake/build/lib/lean/Tuza24/InternalPageAugmentation.olean",
+    "problems/TUZA-24/Tuza24/InternalPageAugmentation.lean"
+  ],
+  "cwd": "problems/TUZA-24",
+  "lean_path": "problems/TUZA-24/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "66da4ca2cbc778e6c95f59a13f7de2ae9e65c3eebc186beebc4c555fb88e03b0",
+  "elapsed_seconds": 1.017334749980364,
+  "peak_process_tree_rss_bytes": 1710276608,
+  "exit_code": 0,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T10:18:53.792662+00:00"
+}

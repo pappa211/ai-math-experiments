@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T01:38:38.374169+00:00",
+  "end_utc": "2026-11-16T01:38:38.608693+00:00",
+  "seconds": 0.2345268726348877,
+  "command": [
+    "python3",
+    "scripts/coordinator_four_branch_cs_validator.py"
+  ],
+  "pid": 90823,
+  "peak_sampled_tree_rss_mib": 21.421875,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 30.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

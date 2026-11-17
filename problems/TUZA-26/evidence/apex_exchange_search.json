@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED_FINITE_DOMAIN",
+  "domain": "all labelled C12 one-edge deletion/nonedge insertion presentations destroying every original universal vertex; all edges retained, no support pruning",
+  "seed_source": "problems/TUZA-25/evidence/residual_edge_exchange_seeds.json",
+  "counts": {
+    "labelled_presentations": 1908,
+    "nonapex_supported_connected": 1472,
+    "safe_defect_at_least_two_filter": 1419,
+    "triangle_disconnected": 226,
+    "exact_nu_tau": 53,
+    "exact_defect_3": 53,
+    "not_fully_triangle_supported": 210
+  },
+  "seconds": 4.716928958892822,
+  "maxrss_bytes": 18300928,
+  "survivors": [],
+  "fragile_defect_one": [],
+  "unknown": []
+}

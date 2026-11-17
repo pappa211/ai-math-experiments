@@ -1,0 +1,22 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent outside-hub packing repair and constrained-cover review
+
+Status: ACCEPTED ORDINARY. The operation assumes empty actual endpoint links, codegree exactly two, and the exact compatible-page packing profile. It does not assert availability. No numerical computation or Lean check was used.
+
+With empty endpoint links, the maximum L packing has no endpoint triangle. Retaining its triangles not containing g leaves an actual usable g-link, whose rim matching is maximum or the original L packing could be augmented. Because the four endpoint book spokes are absent from L, neither endpoint belongs to this g-link. A maximum matching containing a usable A-B cross edge therefore supplies an actual neutral outside-packing replacement containing gab, with no u/v-triangle. All endpoint spokes are unused. The three-for-one replacement by uga,vgb,uvh is edge-disjoint from the retained packing and increases the size to k+1.
+
+The four-for-two repair is likewise valid. Two packed triangles gap,gbq sharing only g have four pairwise distinct other vertices, none an endpoint. Remove them. The new triangles uga,vgb use their freed ga,gb; gpq uses the other freed g-spokes and the explicitly unoccupied edge pq; uvh uses the reserved hub spokes and uv. Every endpoint spoke was unused, and the remaining old packing misses all four freed g-spokes. The argument remains valid when p or q equals h: gpq then uses gh, not either reserved endpoint-h spoke. No edge ab is required. This changes the outside packing, so is not ruled out by the fixed-outside release-compression theorem. The conditional neutral switch when ab is also usable is correctly distinguished.
+
+The cover-family warning is exact. A minimum Q cover through an old triangle T gives a minimum K cover through T only when it also contains uv; otherwise it has one extra edge as a K cover. The displayed prescribed control pays all claimed cover optima with ordinary witnesses. The six-edge cover {24,25,45,03,12,36} hits all five spine and ten rim triangles and contains 245 while omitting 01. A five-cover omitting the hub edge would need one spoke at every rim vertex and two complementary vertex covers of an odd C5, which require at least six spokes total. A cover containing the hub edge needs five additional edges to hit ten rim triangles, since each other edge hits at most two. Thus tau(Q)=6. The displayed five-cover of K and the one-edge deletion bound give tau(K)=5.
+
+If a five-cover of K contained 24,25,45, its two remaining slots would have to hit 023,123,236. Without 23 these require three distinct slots, so one slot is 23; the other cannot hit both disjoint triangles 035 and 346. Hence the constrained K optimum is six, witnessed by the same displayed six-cover. This validates the lost-unit obstruction without relying on an optimizer or on a catalogue of minimum covers.
+
+The diagnosis source was also reconstructed ordinarily. K is exactly the hub-edge join of a four-edge path. Maximum four-packings either use all rim edges with alternating hubs, or use a spine triangle at an endpoint and all other three path edges with alternating hubs. These exhaust equality and force edges 24,34,45,46 in every maximum. Deleting any lowers packing to three. Q has packing four: five rim triangles cannot alternate on the odd rim, and a spine triangle leaves at most three rim triangles. Therefore the control's K is fragile defect three, Q has defect two, and Q fails two-edge resilience after deleting 01 together with any listed critical edge. It does not refute the full minimum-Q discriminator.
+
+Strategic scope: this supplies an actual mechanism for changing the outside packing, including a concrete four-for-two certificate. The unmatched task is to force an allowed cross edge in a maximum third-hub matching, or a usable chord pq for such a switch, from the full core hypotheses. Closest-cover reachability and whole-triangle Q eligibility alone have not paid the one-unit constrained-cover loss.
+
+## Bound sources
+
+- `notes/matching26_outside_hub_repair_v1.md` SHA-256 `02b5f7bd5f378197a6f6db231453ea95ea14d265fef7dd264f6d1105a454955e`.
+- `notes/matching26_doublecone_exchange_diagnosis_v1.md` SHA-256 `0e6cfad44d43e78eb9165bda65ab241eff142e61da35f45a1fbcf93f352285b3`.

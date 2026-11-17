@@ -1,0 +1,6566 @@
+{
+  "status": "PASS",
+  "scope": "Exactly twelve reconstructed named supports, no background edges or new external vertices, and every labeled missing-edge insertion; no universal availability claim.",
+  "counts": {
+    "seeds": 12,
+    "missing_edge_presentations": 210,
+    "triangle_bearing_insertions": 210,
+    "exact_optimization_representatives": 30,
+    "defect_two_insertions": 4,
+    "K4_completed_defect_two": 4,
+    "qualifying_with_critical_triangle": 0
+  },
+  "seeds": [
+    {
+      "name": "central_K4_star_4",
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "nu": 2,
+      "tau": 3,
+      "checked_automorphisms": 4
+    },
+    {
+      "name": "central_K4_star_5",
+      "n": 7,
+      "m": 15,
+      "triangles": 14,
+      "nu": 3,
+      "tau": 5,
+      "checked_automorphisms": 12
+    },
+    {
+      "name": "central_K4_star_44",
+      "n": 8,
+      "m": 16,
+      "triangles": 12,
+      "nu": 3,
+      "tau": 5,
+      "checked_automorphisms": 8
+    },
+    {
+      "name": "central_K4_star_45",
+      "n": 9,
+      "m": 20,
+      "triangles": 18,
+      "nu": 4,
+      "tau": 7,
+      "checked_automorphisms": 12
+    },
+    {
+      "name": "central_K4_star_55",
+      "n": 10,
+      "m": 24,
+      "triangles": 24,
+      "nu": 5,
+      "tau": 9,
+      "checked_automorphisms": 72
+    },
+    {
+      "name": "central_K4_star_444",
+      "n": 10,
+      "m": 21,
+      "triangles": 16,
+      "nu": 4,
+      "tau": 7,
+      "checked_automorphisms": 48
+    },
+    {
+      "name": "central_K4_star_445",
+      "n": 11,
+      "m": 25,
+      "triangles": 22,
+      "nu": 5,
+      "tau": 9,
+      "checked_automorphisms": 48
+    },
+    {
+      "name": "central_K4_star_455",
+      "n": 12,
+      "m": 29,
+      "triangles": 28,
+      "nu": 6,
+      "tau": 11,
+      "checked_automorphisms": 144
+    },
+    {
+      "name": "central_K4_star_555",
+      "n": 13,
+      "m": 33,
+      "triangles": 34,
+      "nu": 7,
+      "tau": 13,
+      "checked_automorphisms": 1296
+    },
+    {
+      "name": "two_K5_edge",
+      "n": 8,
+      "m": 19,
+      "triangles": 20,
+      "nu": 4,
+      "tau": 7,
+      "checked_automorphisms": 36
+    },
+    {
+      "name": "W5",
+      "n": 6,
+      "m": 10,
+      "triangles": 5,
+      "nu": 2,
+      "tau": 3,
+      "checked_automorphisms": 10
+    },
+    {
+      "name": "K5-e",
+      "n": 5,
+      "m": 9,
+      "triangles": 7,
+      "nu": 2,
+      "tau": 3,
+      "checked_automorphisms": 1
+    }
+  ],
+  "representatives": [
+    {
+      "seed": "central_K4_star_4",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 3,
+      "tau": 4
+    },
+    {
+      "seed": "central_K4_star_5",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 4,
+      "tau": 5
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 4,
+      "tau": 5
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 4,
+      "tau": 5
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 5,
+      "tau": 7
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 7
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 7
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 7
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 7
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        1,
+        7
+      ],
+      "nu": 6,
+      "tau": 9
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 9
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 9
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 5,
+      "tau": 7
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 7
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 6,
+      "tau": 9
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        1,
+        8
+      ],
+      "nu": 6,
+      "tau": 9
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 9
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 9
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        4,
+        8
+      ],
+      "nu": 6,
+      "tau": 9
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 7,
+      "tau": 11
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 7,
+      "tau": 11
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        2,
+        9
+      ],
+      "nu": 7,
+      "tau": 11
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 11
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        6,
+        9
+      ],
+      "nu": 7,
+      "tau": 11
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        1,
+        7
+      ],
+      "nu": 8,
+      "tau": 13
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 8,
+      "tau": 13
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 5,
+      "tau": 7
+    },
+    {
+      "seed": "W5",
+      "inserted": [
+        0,
+        2
+      ],
+      "nu": 3,
+      "tau": 3
+    },
+    {
+      "seed": "K5-e",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 2,
+      "tau": 4
+    }
+  ],
+  "rows": [
+    {
+      "seed": "central_K4_star_4",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "defect": 2,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "critical_edges": [
+        [
+          2,
+          4
+        ]
+      ],
+      "all_critical_triangles": []
+    },
+    {
+      "seed": "central_K4_star_4",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 3,
+      "tau": 4,
+      "defect": 2,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4
+      ],
+      "critical_edges": [
+        [
+          2,
+          5
+        ]
+      ],
+      "all_critical_triangles": []
+    },
+    {
+      "seed": "central_K4_star_4",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "defect": 2,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "critical_edges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "all_critical_triangles": []
+    },
+    {
+      "seed": "central_K4_star_4",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 3,
+      "tau": 4,
+      "defect": 2,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4
+      ],
+      "critical_edges": [
+        [
+          3,
+          5
+        ]
+      ],
+      "all_critical_triangles": []
+    },
+    {
+      "seed": "central_K4_star_5",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "inserted": [
+        2,
+        6
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        4
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        6,
+        4
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        1,
+        7
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        7,
+        6,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        3,
+        7
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        5,
+        4
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        5,
+        6
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "inserted": [
+        5,
+        7
+      ],
+      "nu": 4,
+      "tau": 5,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        1,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        1,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        3,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        3,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        4,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "inserted": [
+        5,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        8,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        1,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        1,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        1,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        7,
+        8,
+        9,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        8,
+        7,
+        9,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        2,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        8,
+        9,
+        7,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        4,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        7,
+        8,
+        9,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        3,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        7,
+        8,
+        9,
+        5,
+        4,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        3,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        7,
+        8,
+        9,
+        5,
+        6,
+        4
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        4,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        4,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        5,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        5,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        4,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        6,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        4,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "inserted": [
+        6,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        4,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        1,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        1,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        8,
+        9,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        1,
+        9
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        8,
+        9,
+        7,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        7,
+        6,
+        4,
+        5,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        2,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        8,
+        9,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        2,
+        9
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        8,
+        9,
+        4,
+        5,
+        7,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        3,
+        1,
+        6,
+        7,
+        8,
+        9,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        3,
+        1,
+        7,
+        6,
+        8,
+        9,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        2,
+        1,
+        8,
+        9,
+        6,
+        7,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        3,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        2,
+        1,
+        8,
+        9,
+        7,
+        6,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        4,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        8,
+        9,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        4,
+        9
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        8,
+        9,
+        7,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        5,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        8,
+        9,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        5,
+        9
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        8,
+        9,
+        7,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        6,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        8,
+        9,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        6,
+        9
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        8,
+        9,
+        4,
+        5,
+        7,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        7,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        8,
+        9,
+        5,
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "inserted": [
+        7,
+        9
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        8,
+        9,
+        5,
+        4,
+        7,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        1,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        1,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        1,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        8,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        1,
+        10
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        7,
+        6,
+        4,
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        2,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        2,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5,
+        9,
+        8,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        2,
+        10
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5,
+        9,
+        10,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        5,
+        4,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        4,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        4,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        8,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        4,
+        10
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        6,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        5,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        5,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        9,
+        8,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        5,
+        10
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        9,
+        10,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        6,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        6,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5,
+        9,
+        8,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        6,
+        10
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        4,
+        5,
+        9,
+        10,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        7,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        5,
+        4,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        7,
+        9
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        5,
+        4,
+        9,
+        8,
+        10
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "inserted": [
+        7,
+        10
+      ],
+      "nu": 6,
+      "tau": 9,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        8
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        6,
+        7,
+        5,
+        4,
+        9,
+        10,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        1,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        1,
+        7
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        1,
+        8
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        1,
+        9
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        9,
+        10,
+        11,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        1,
+        10
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        9,
+        10,
+        11,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        1,
+        11
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        9,
+        10,
+        11,
+        7,
+        8,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        2,
+        9
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        2,
+        10
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        2,
+        11
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        9,
+        10,
+        11,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        9,
+        10,
+        11,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        9,
+        10,
+        11,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        10,
+        9,
+        11,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        3,
+        8
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        10,
+        11,
+        9,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        4,
+        8
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        4,
+        9
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        9,
+        10,
+        11,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        4,
+        10
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        9,
+        10,
+        11,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        4,
+        11
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        9,
+        10,
+        11,
+        7,
+        8,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        6,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        5,
+        8
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        8,
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        5,
+        9
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        9,
+        10,
+        11,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        5,
+        10
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        9,
+        10,
+        11,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        5,
+        11
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        6
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        9,
+        10,
+        11,
+        7,
+        8,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        6,
+        9
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        6,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        6,
+        10
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        6,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        9,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        6,
+        11
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        6,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        7,
+        9
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        6,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        7,
+        10
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        6,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        10,
+        9,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        7,
+        11
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        6,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        10,
+        11,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        8,
+        9
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        6,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        8,
+        10
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        6,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        6,
+        10,
+        9,
+        11
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "inserted": [
+        8,
+        11
+      ],
+      "nu": 7,
+      "tau": 11,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        6,
+        9
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        6,
+        10,
+        11,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        1,
+        7
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        1,
+        8
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        7,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        1,
+        9
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        7,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        1,
+        10
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        1,
+        11
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        1,
+        12
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        7,
+        8,
+        9,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        8,
+        7,
+        9,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        2,
+        6
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        1,
+        3,
+        8,
+        9,
+        7,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        2,
+        10
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        2,
+        11
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        2,
+        12
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        3,
+        1,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        3,
+        1,
+        8,
+        7,
+        9,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        2,
+        3,
+        1,
+        8,
+        9,
+        7,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        3,
+        7
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        2,
+        1,
+        10,
+        11,
+        12,
+        7,
+        8,
+        9,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        3,
+        8
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        2,
+        1,
+        10,
+        11,
+        12,
+        8,
+        7,
+        9,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        3,
+        9
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        1,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        2,
+        1,
+        10,
+        11,
+        12,
+        8,
+        9,
+        7,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        4,
+        8
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        7,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        4,
+        9
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        7,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        4,
+        10
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        4,
+        11
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        4,
+        12
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        5,
+        8
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        5,
+        9
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        8,
+        9,
+        7,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        5,
+        10
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        10,
+        11,
+        12,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        5,
+        11
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        10,
+        11,
+        12,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        5,
+        12
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4,
+        6,
+        10,
+        11,
+        12,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        6,
+        8
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        4,
+        8,
+        7,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        6,
+        9
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        4,
+        8,
+        9,
+        7,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        6,
+        10
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        6,
+        4,
+        10,
+        11,
+        12,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        6,
+        11
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        6,
+        4,
+        10,
+        11,
+        12,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        6,
+        12
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        6,
+        4,
+        10,
+        11,
+        12,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        7,
+        10
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        7,
+        11
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        7,
+        12
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        4,
+        5,
+        6,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        8,
+        10
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        5,
+        4,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        8,
+        11
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        5,
+        4,
+        6,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        8,
+        12
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        5,
+        4,
+        6,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        9,
+        10
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        5,
+        6,
+        4,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        9,
+        11
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        5,
+        6,
+        4,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "inserted": [
+        9,
+        12
+      ],
+      "nu": 8,
+      "tau": 13,
+      "defect": 3,
+      "new_triangles": 1,
+      "all_triangles_in_K4": false,
+      "representative": [
+        4,
+        7
+      ],
+      "checked_isomorphism": [
+        0,
+        3,
+        1,
+        2,
+        10,
+        11,
+        12,
+        5,
+        6,
+        4,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        5
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        2,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        5
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        7
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        2,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        5
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        5
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        5
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        5
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        6,
+        5,
+        7
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        3,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        5
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        6,
+        7,
+        5
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        5
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        5
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        6,
+        5,
+        7
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "inserted": [
+        4,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        5
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        6,
+        7,
+        5
+      ]
+    },
+    {
+      "seed": "W5",
+      "inserted": [
+        0,
+        2
+      ],
+      "nu": 3,
+      "tau": 3,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": false,
+      "representative": [
+        0,
+        2
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": "W5",
+      "inserted": [
+        0,
+        3
+      ],
+      "nu": 3,
+      "tau": 3,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": false,
+      "representative": [
+        0,
+        2
+      ],
+      "checked_isomorphism": [
+        0,
+        4,
+        3,
+        2,
+        1,
+        5
+      ]
+    },
+    {
+      "seed": "W5",
+      "inserted": [
+        1,
+        3
+      ],
+      "nu": 3,
+      "tau": 3,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": false,
+      "representative": [
+        0,
+        2
+      ],
+      "checked_isomorphism": [
+        3,
+        2,
+        1,
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "seed": "W5",
+      "inserted": [
+        1,
+        4
+      ],
+      "nu": 3,
+      "tau": 3,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": false,
+      "representative": [
+        0,
+        2
+      ],
+      "checked_isomorphism": [
+        1,
+        0,
+        4,
+        3,
+        2,
+        5
+      ]
+    },
+    {
+      "seed": "W5",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 3,
+      "tau": 3,
+      "defect": 3,
+      "new_triangles": 2,
+      "all_triangles_in_K4": false,
+      "representative": [
+        0,
+        2
+      ],
+      "checked_isomorphism": [
+        3,
+        4,
+        0,
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "seed": "K5-e",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 2,
+      "tau": 4,
+      "defect": 0,
+      "new_triangles": 3,
+      "all_triangles_in_K4": true,
+      "representative": [
+        3,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "qualifying": [
+    {
+      "seed": "central_K4_star_4",
+      "inserted": [
+        2,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "defect": 2,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "critical_edges": [
+        [
+          2,
+          4
+        ]
+      ],
+      "all_critical_triangles": []
+    },
+    {
+      "seed": "central_K4_star_4",
+      "inserted": [
+        2,
+        5
+      ],
+      "nu": 3,
+      "tau": 4,
+      "defect": 2,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4
+      ],
+      "critical_edges": [
+        [
+          2,
+          5
+        ]
+      ],
+      "all_critical_triangles": []
+    },
+    {
+      "seed": "central_K4_star_4",
+      "inserted": [
+        3,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "defect": 2,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "critical_edges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "all_critical_triangles": []
+    },
+    {
+      "seed": "central_K4_star_4",
+      "inserted": [
+        3,
+        5
+      ],
+      "nu": 3,
+      "tau": 4,
+      "defect": 2,
+      "new_triangles": 2,
+      "all_triangles_in_K4": true,
+      "representative": [
+        2,
+        4
+      ],
+      "checked_isomorphism": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4
+      ],
+      "critical_edges": [
+        [
+          3,
+          5
+        ]
+      ],
+      "all_critical_triangles": []
+    }
+  ],
+  "method": "Independent triangle-mask maximum-independent-set and minimum-cover recursions with exact component splitting; verified explicit automorphisms reduce repeated optimizations.",
+  "states": {
+    "packing_states": 4783,
+    "cover_states": 16266
+  },
+  "seed_sha256": "eae0cea592aa0bbcb2b8c1fe3bcdfe596474a0238095cbf8db451fbf3d3af2d7",
+  "discovery_receipt_sha256": "c41ce23ae75b0e0bfde55768ab30ba30ac8b81366ebcbc5fbe8e344ad26e5738",
+  "checker_sha256": "741556bda8a0e3e52771a764a8851d5f584010b5fbfb1333fb112a998427f328",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "python_executable": "PRIVATE_PATH_REMOVED",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "elapsed_seconds": 0.11417424998944625,
+  "timeout_seconds": 55
+}

@@ -1,0 +1,77 @@
+{
+  "source_manifest_sha256": "a0ef27d1f5f5a02dc448b19e58df26b2c539cda821b903f6b071098afe15a280",
+  "missions": {
+    "TUZA-20": {
+      "tracked_original_files": 114,
+      "accounted": 114,
+      "dispositions": {
+        "excluded": 13,
+        "sanitized": 23,
+        "retained": 57,
+        "deduplicated": 21
+      }
+    },
+    "TUZA-21": {
+      "tracked_original_files": 81,
+      "accounted": 81,
+      "dispositions": {
+        "sanitized": 22,
+        "excluded": 9,
+        "retained": 21,
+        "deduplicated": 29
+      }
+    },
+    "TUZA-22": {
+      "tracked_original_files": 694,
+      "accounted": 694,
+      "dispositions": {
+        "excluded": 44,
+        "sanitized": 421,
+        "retained": 207,
+        "deduplicated": 22
+      }
+    },
+    "TUZA-23": {
+      "tracked_original_files": 667,
+      "accounted": 667,
+      "dispositions": {
+        "excluded": 10,
+        "sanitized": 105,
+        "retained": 115,
+        "deduplicated": 437
+      }
+    },
+    "TUZA-24": {
+      "tracked_original_files": 590,
+      "accounted": 590,
+      "dispositions": {
+        "excluded": 9,
+        "sanitized": 199,
+        "retained": 235,
+        "deduplicated": 147
+      }
+    },
+    "TUZA-25": {
+      "tracked_original_files": 215,
+      "accounted": 215,
+      "dispositions": {
+        "excluded": 29,
+        "sanitized": 69,
+        "retained": 72,
+        "deduplicated": 45
+      }
+    },
+    "TUZA-26": {
+      "tracked_original_files": 295,
+      "accounted": 295,
+      "dispositions": {
+        "excluded": 9,
+        "sanitized": 251,
+        "retained": 35
+      }
+    }
+  },
+  "relative_in_repository_symlinks_checked": 701,
+  "issues": [],
+  "post_review_editorial_refresh": "R12/R-F clarification in TUZA25/26 publication status and TUZA26 proof-chain banner; no formal source, validator, certificate or mathematical premise changed."
+}

@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/external_page_clique_footprint_certificate_v1.md

@@ -1,0 +1,34 @@
+problems/TUZA-24/Tuza24/PointedAssembly.lean:48:42: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+L : SimpleGraph V
+w u : V
+hwu : L.Adj w u
+N : Finset (Finset V)
+B : Finset V
+hN : EdgeMatching (isolate L {w}) N
+hu : u ∉ matchingVertices N
+hB : VertexCover (isolate L {w}) B
+hcard : #B ≤ #N
+hw : w ∉ matchingVertices N
+havoid : ∀ e ∈ N, Disjoint e {w, u}
+he : {w, u} ∈ N
+⊢ ?m.166 = w ∨ ?m.166 = u
+problems/TUZA-24/Tuza24/PointedAssembly.lean:48:52: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+L : SimpleGraph V
+w u : V
+hwu : L.Adj w u
+N : Finset (Finset V)
+B : Finset V
+hN : EdgeMatching (isolate L {w}) N
+hu : u ∉ matchingVertices N
+hB : VertexCover (isolate L {w}) B
+hcard : #B ≤ #N
+hw : w ∉ matchingVertices N
+havoid : ∀ e ∈ N, Disjoint e {w, u}
+he : {w, u} ∈ N
+⊢ ?m.166 = w ∨ ?m.166 = u

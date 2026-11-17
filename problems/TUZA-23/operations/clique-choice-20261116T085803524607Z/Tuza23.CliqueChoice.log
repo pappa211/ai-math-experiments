@@ -1,0 +1,14 @@
+problems/TUZA-23/Tuza23/CliqueChoice.lean:16:2: error: failed to synthesize
+  Decidable
+    (∀ (e : ↥(edges univ)),
+      Covers (cliqueFamily univ) (insert (↑e) (edges (univ \ ↑e))) ∧
+        #(insert (↑e) (edges (univ \ ↑e))) = 2 ∧ insert (↑e) (edges (univ \ ↑e)) ⊆ edges univ)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+problems/TUZA-23/Tuza23/CliqueChoice.lean:23:2: error: failed to synthesize
+  Decidable
+    (∀ (e : ↥(edges univ)),
+      Covers (cliqueFamily univ) (insert (↑e) (edges (univ \ ↑e))) ∧
+        #(insert (↑e) (edges (univ \ ↑e))) = 4 ∧ insert (↑e) (edges (univ \ ↑e)) ⊆ edges univ)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

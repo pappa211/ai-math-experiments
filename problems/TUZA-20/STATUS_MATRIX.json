@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "outcome": "REFUTED_CANDIDATE",
+  "recommendation": "STOP",
+  "categories": [
+    "REPORTED_UNVERIFIED",
+    "CONJECTURE",
+    "ORDINARY_PROOF",
+    "PROOF_USING_DECLARED_INPUT",
+    "FINITE_CERTIFICATE",
+    "SOLVER_ONLY",
+    "LEAN_VERIFIED_EXACT_SCOPE",
+    "REFUTED",
+    "UNKNOWN"
+  ],
+  "unused_categories": [
+    "PROOF_USING_DECLARED_INPUT",
+    "SOLVER_ONLY",
+    "LEAN_VERIFIED_EXACT_SCOPE"
+  ],
+  "claims": [
+    {
+      "id": "unrestricted-Tuza",
+      "status": "UNKNOWN",
+      "statement": "No proof or counterexample obtained; unrestricted Tuza remains unresolved."
+    },
+    {
+      "id": "PK-all",
+      "status": "CONJECTURE",
+      "statement": "Every maximum P admits a cover <=2|P| in original A(P). No counterexample found; no general proof."
+    },
+    {
+      "id": "PK-exists",
+      "status": "CONJECTURE",
+      "statement": "Some maximum P admits such a cover; not substituted for PK-all."
+    },
+    {
+      "id": "Claude-census",
+      "status": "REPORTED_UNVERIFIED",
+      "statement": "Through-ten/approximately145million, K10 count1814400,1137largergraphs/14partial,19cost-changinggraphs. Producer package absent in inspected relevant locations."
+    },
+    {
+      "id": "C01",
+      "status": "REFUTED",
+      "statement": "Universal gain-prepayment with barred lenders fails on K6 minus35,45. nu3,c(P)5.",
+      "evidence": [
+        "CANDIDATE_01.md",
+        "receipts/verifier_candidate01.json",
+        "ADVERSARIAL_REVIEW.md"
+      ]
+    },
+    {
+      "id": "C02",
+      "status": "REFUTED",
+      "statement": "All-gain extension within global budget fails even with six distinct nonbase gains; twelve-vertex graph hasnu6,c(P)12,forcedoptimum13.",
+      "evidence": [
+        "CANDIDATE_02.md",
+        "notes/candidate02_counterexample.md",
+        "review/verifier_candidate02_refutation.md",
+        "ADVERSARIAL_REVIEW.md"
+      ]
+    },
+    {
+      "id": "C01-exact-values",
+      "status": "ORDINARY_PROOF",
+      "statement": "Exact specified six-vertex graph: nu3,c(P)5; complete parity/cover proof.",
+      "evidence": "PROOFS_AND_OBSTRUCTIONS.md"
+    },
+    {
+      "id": "C02-exact-values",
+      "status": "ORDINARY_PROOF",
+      "statement": "Exact specified twelve-vertex graph: nu6,c(P)12,forced13,tau10. No all-size positive theorem claimed.",
+      "evidence": [
+        "notes/candidate02_counterexample.md",
+        "review/verifier_candidate02_refutation.md"
+      ]
+    },
+    {
+      "id": "C02-independent-certificate",
+      "status": "FINITE_CERTIFICATE",
+      "statement": "12vertices29edges26triangles; all891maximum packings reconstructed; exact optima12/13/10. This is not a PK-all cover audit of every packing.",
+      "evidence": "data/verifier_candidate02_counterexample.json"
+    },
+    {
+      "id": "FCZnw",
+      "status": "FINITE_CERTIFICATE",
+      "statement": "Specified maximum packings have costs5/4,nu3; move private both ways.",
+      "evidence": "data/verifier_controls.json"
+    },
+    {
+      "id": "labelled-through-six",
+      "status": "FINITE_CERTIFICATE",
+      "statement": "33868labelled graphs,60262maximum packings,all checked,no PK failures/partials/UNKNOWNs.",
+      "evidence": "receipts/verifier_census.json"
+    },
+    {
+      "id": "structured-examined-prefixes",
+      "status": "FINITE_CERTIFICATE",
+      "statement": "560instances/544distinctlabelled graphs,66406packing states;509completeinstances/51partial; no PK failure among examined states. Two same-corpus runs not added.",
+      "evidence": [
+        "receipts/root_structured_summary.json",
+        "receipts/verifier_root_sample.json"
+      ]
+    },
+    {
+      "id": "structured-unexamined",
+      "status": "UNKNOWN",
+      "statement": "Unexamined maximum packings of51 capped instances; each preserved individually.",
+      "evidence": "data/partial_cases.json"
+    },
+    {
+      "id": "twelvevertex-unexamined-cover-audit",
+      "status": "UNKNOWN",
+      "statement": "Root cover scan checked512 of891maximum packings; exact witness proof needs only the specified packing.",
+      "evidence": "data/saturated_private_pair_four_probe.json"
+    },
+    {
+      "id": "book-interface",
+      "status": "ORDINARY_PROOF",
+      "statement": "Scoped support-preserving prior-art reconstruction with cost3k-2a+r_new; availability missing, no novelty/globaladvance.",
+      "evidence": "notes/prior_art_book_interface.md"
+    },
+    {
+      "id": "mixed-state-global-bridge",
+      "status": "UNKNOWN",
+      "statement": "All four unrestricted obligations remain open.",
+      "evidence": "GLOBAL_OBLIGATIONS.md"
+    }
+  ]
+}

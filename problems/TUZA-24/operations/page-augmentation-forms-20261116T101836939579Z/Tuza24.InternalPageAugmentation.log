@@ -1,0 +1,3 @@
+problems/TUZA-24/Tuza24/InternalPageAugmentation.lean:22:14: error: Invalid projection: Projection operates on types of the form `C ...` where C is a constant. The expression
+  h
+has type `?m.154.1 a b` which does not have the necessary form.

@@ -1,0 +1,2 @@
+problems/TUZA-24/Tuza24/LinkAPI.lean:90:5: error(lean.unknownIdentifier): Unknown constant `Tuza23.minimalCS_iff_minimalObstruction.mp`
+problems/TUZA-24/Tuza24/LinkAPI.lean:96:34: error(lean.unknownIdentifier): Unknown constant `Tuza23.minimalCS_iff_minimalObstruction.mp`

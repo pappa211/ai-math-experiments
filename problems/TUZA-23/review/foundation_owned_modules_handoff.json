@@ -1,0 +1,66 @@
+[
+  {
+    "module": "Tuza23.CliqueChoice",
+    "source_sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91",
+    "public_theorems": [
+      "clique_cover_choice_transport",
+      "clique_min_cover_containing",
+      "clique_max_packing_avoiding"
+    ],
+    "status": "COMPILED_AWAITING_FINAL_CLEAN_BUILD_AND_AXIOM_AUDIT"
+  },
+  {
+    "module": "Tuza23.BlockChoice",
+    "source_sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389",
+    "public_theorems": [
+      "clique_min_cover_footprint",
+      "blocks_min_cover_footprint",
+      "blocks_max_packing_footprint"
+    ],
+    "status": "COMPILED_AWAITING_FINAL_CLEAN_BUILD_AND_AXIOM_AUDIT"
+  },
+  {
+    "module": "Tuza23.M0",
+    "source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+    "public_theorems": [
+      "supportGraph_le",
+      "triangles_supportGraph",
+      "triangleClosed_component",
+      "triangleClosed_complement",
+      "closed_support_disjoint_complement",
+      "triangleConnected_mono",
+      "closed_connected_restrict",
+      "closed_component_preserved",
+      "good_of_closed_split",
+      "supportGraph_strict_of_triangle_outside",
+      "minimal_triangle_connected",
+      "edgeCount_lt_of_lt",
+      "minimalCS_iff_minimalObstruction",
+      "exists_minimal_cs",
+      "exists_minimal_cs_in_class",
+      "minimal_cs_package"
+    ],
+    "status": "COMPILED_AWAITING_FINAL_CLEAN_BUILD_AND_AXIOM_AUDIT"
+  },
+  {
+    "module": "Tuza23.FourSet",
+    "source_sha256": "51a55aa25bf72583539b34720f6189e598dcf4ad9c62368d0156af53a256d3c4",
+    "public_theorems": [
+      "four_set_opposite_subset",
+      "opposite_pair_covers_four_set",
+      "four_set_triangle_contains_opposite_of_missing",
+      "block_edges_supported",
+      "componentCliques_add_disjoint_K4"
+    ],
+    "status": "COMPILED_AWAITING_FINAL_CLEAN_BUILD_AND_AXIOM_AUDIT"
+  },
+  {
+    "module": "Tuza23.DisjointRestoration",
+    "source_sha256": "a339b13fed0cf91ce726533cadc67687193a8f37137f8d4aea4c413ec85c21b8",
+    "public_theorems": [
+      "componentCliques_min_cover_containing",
+      "disjoint_tight_restoration"
+    ],
+    "status": "COMPILED_AWAITING_FINAL_CLEAN_BUILD_AND_AXIOM_AUDIT"
+  }
+]

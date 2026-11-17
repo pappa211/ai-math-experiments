@@ -1,0 +1,20 @@
+[
+  {
+    "file": "heckman_thomas_514.pdf",
+    "url": "https://thomas.math.gatech.edu/PAP/514.pdf",
+    "final_url": "https://thomas.math.gatech.edu/PAP/514.pdf",
+    "bytes": 70761,
+    "sha256": "3bc31df70ee7175e3c23fc0da9c10c95b303280d54c82609b183c9d97e115a07",
+    "pages": 4,
+    "retrieved_utc": "2026-11-16T01:10:02.113837+00:00"
+  },
+  {
+    "file": "schrijver_tutte_berge.pdf",
+    "url": "https://homepages.cwi.nl/~lex/files/tutteb.pdf",
+    "final_url": "https://homepages.cwi.nl/~lex/files/tutteb.pdf",
+    "bytes": 25238,
+    "sha256": "9e5fa747fdc37b0687b7c6ba69128478b04f73cfd2fd7f0062b4f68dc70faaab",
+    "pages": 1,
+    "retrieved_utc": "2026-11-16T01:10:02.372171+00:00"
+  }
+]

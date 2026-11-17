@@ -1,0 +1,4322 @@
+{
+  "seed": 21003,
+  "seconds": 29.605356041996856,
+  "deadline_seconds": 45,
+  "cover_cap": 2000,
+  "counterexample": null,
+  "records": [
+    {
+      "label": "random-0-p0.6",
+      "n": 7,
+      "m": 9,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-1-p0.6",
+      "n": 7,
+      "m": 12,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-2-p0.6",
+      "n": 8,
+      "m": 17,
+      "triangles": 12,
+      "tau": 5,
+      "covers_checked": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-3-p0.6",
+      "n": 7,
+      "m": 14,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-5-p0.75",
+      "n": 8,
+      "m": 21,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-6-p0.75",
+      "n": 8,
+      "m": 21,
+      "triangles": 22,
+      "tau": 7,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-7-p0.6",
+      "n": 8,
+      "m": 18,
+      "triangles": 11,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-8-p0.75",
+      "n": 9,
+      "m": 28,
+      "triangles": 36,
+      "tau": 9,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-9-p0.9",
+      "n": 8,
+      "m": 26,
+      "triangles": 44,
+      "tau": 10,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-10-p0.45",
+      "n": 9,
+      "m": 17,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-11-p0.75",
+      "n": 9,
+      "m": 28,
+      "triangles": 40,
+      "tau": 9,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-12-p0.9",
+      "n": 8,
+      "m": 24,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-13-p0.9",
+      "n": 6,
+      "m": 12,
+      "triangles": 9,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-14-p0.6",
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-15-p0.9",
+      "n": 8,
+      "m": 24,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-16-p0.6",
+      "n": 8,
+      "m": 18,
+      "triangles": 13,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-17-p0.45",
+      "n": 8,
+      "m": 12,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-18-p0.75",
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-19-p0.45",
+      "n": 9,
+      "m": 17,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-20-p0.75",
+      "n": 7,
+      "m": 17,
+      "triangles": 17,
+      "tau": 5,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-21-p0.9",
+      "n": 9,
+      "m": 32,
+      "triangles": 60,
+      "tau": 12,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-22-p0.9",
+      "n": 6,
+      "m": 13,
+      "triangles": 13,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-23-p0.45",
+      "n": 9,
+      "m": 17,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-24-p0.6",
+      "n": 9,
+      "m": 24,
+      "triangles": 22,
+      "tau": 7,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-25-p0.6",
+      "n": 9,
+      "m": 22,
+      "triangles": 18,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-26-p0.9",
+      "n": 9,
+      "m": 34,
+      "triangles": 70,
+      "tau": 14,
+      "covers_checked": 26,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-27-p0.6",
+      "n": 9,
+      "m": 23,
+      "triangles": 25,
+      "tau": 7,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-28-p0.75",
+      "n": 6,
+      "m": 8,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-29-p0.45",
+      "n": 9,
+      "m": 20,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-30-p0.45",
+      "n": 6,
+      "m": 9,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-31-p0.45",
+      "n": 7,
+      "m": 6,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-32-p0.6",
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-33-p0.9",
+      "n": 8,
+      "m": 23,
+      "triangles": 31,
+      "tau": 8,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-34-p0.75",
+      "n": 8,
+      "m": 19,
+      "triangles": 17,
+      "tau": 6,
+      "covers_checked": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-35-p0.75",
+      "n": 9,
+      "m": 29,
+      "triangles": 42,
+      "tau": 10,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-36-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-37-p0.9",
+      "n": 7,
+      "m": 17,
+      "triangles": 19,
+      "tau": 6,
+      "covers_checked": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-38-p0.75",
+      "n": 8,
+      "m": 26,
+      "triangles": 45,
+      "tau": 10,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-39-p0.45",
+      "n": 6,
+      "m": 5,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-40-p0.75",
+      "n": 7,
+      "m": 17,
+      "triangles": 17,
+      "tau": 5,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-41-p0.75",
+      "n": 9,
+      "m": 25,
+      "triangles": 25,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-42-p0.9",
+      "n": 8,
+      "m": 28,
+      "triangles": 56,
+      "tau": 12,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-43-p0.9",
+      "n": 8,
+      "m": 28,
+      "triangles": 56,
+      "tau": 12,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-44-p0.75",
+      "n": 9,
+      "m": 25,
+      "triangles": 27,
+      "tau": 8,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-45-p0.45",
+      "n": 7,
+      "m": 7,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-46-p0.6",
+      "n": 9,
+      "m": 22,
+      "triangles": 16,
+      "tau": 6,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-47-p0.75",
+      "n": 7,
+      "m": 16,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-49-p0.75",
+      "n": 8,
+      "m": 23,
+      "triangles": 31,
+      "tau": 8,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-50-p0.75",
+      "n": 7,
+      "m": 13,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-51-p0.6",
+      "n": 9,
+      "m": 22,
+      "triangles": 16,
+      "tau": 6,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-52-p0.9",
+      "n": 7,
+      "m": 19,
+      "triangles": 26,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-53-p0.9",
+      "n": 9,
+      "m": 35,
+      "triangles": 77,
+      "tau": 15,
+      "covers_checked": 56,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-54-p0.45",
+      "n": 8,
+      "m": 9,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-55-p0.9",
+      "n": 9,
+      "m": 30,
+      "triangles": 48,
+      "tau": 11,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-57-p0.9",
+      "n": 9,
+      "m": 34,
+      "triangles": 70,
+      "tau": 14,
+      "covers_checked": 26,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-58-p0.75",
+      "n": 8,
+      "m": 19,
+      "triangles": 14,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-59-p0.45",
+      "n": 9,
+      "m": 10,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-60-p0.75",
+      "n": 7,
+      "m": 16,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-61-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-62-p0.9",
+      "n": 7,
+      "m": 17,
+      "triangles": 19,
+      "tau": 6,
+      "covers_checked": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-63-p0.45",
+      "n": 8,
+      "m": 14,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-64-p0.6",
+      "n": 7,
+      "m": 14,
+      "triangles": 8,
+      "tau": 4,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-65-p0.45",
+      "n": 9,
+      "m": 18,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-66-p0.9",
+      "n": 7,
+      "m": 19,
+      "triangles": 26,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-67-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-68-p0.75",
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-69-p0.45",
+      "n": 7,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-70-p0.75",
+      "n": 9,
+      "m": 28,
+      "triangles": 41,
+      "tau": 10,
+      "covers_checked": 8,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-71-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-72-p0.45",
+      "n": 7,
+      "m": 12,
+      "triangles": 3,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-73-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-74-p0.9",
+      "n": 7,
+      "m": 19,
+      "triangles": 25,
+      "tau": 7,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-75-p0.45",
+      "n": 9,
+      "m": 22,
+      "triangles": 18,
+      "tau": 5,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-76-p0.9",
+      "n": 8,
+      "m": 25,
+      "triangles": 39,
+      "tau": 9,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-77-p0.75",
+      "n": 9,
+      "m": 31,
+      "triangles": 55,
+      "tau": 11,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-78-p0.6",
+      "n": 9,
+      "m": 20,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-79-p0.6",
+      "n": 8,
+      "m": 13,
+      "triangles": 3,
+      "tau": 3,
+      "covers_checked": 27,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-80-p0.75",
+      "n": 8,
+      "m": 24,
+      "triangles": 34,
+      "tau": 8,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-81-p0.45",
+      "n": 9,
+      "m": 21,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-83-p0.6",
+      "n": 7,
+      "m": 14,
+      "triangles": 9,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-84-p0.75",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-85-p0.75",
+      "n": 6,
+      "m": 12,
+      "triangles": 9,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-86-p0.45",
+      "n": 6,
+      "m": 7,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-87-p0.45",
+      "n": 8,
+      "m": 12,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-88-p0.75",
+      "n": 9,
+      "m": 28,
+      "triangles": 38,
+      "tau": 9,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-89-p0.9",
+      "n": 7,
+      "m": 21,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-90-p0.75",
+      "n": 9,
+      "m": 30,
+      "triangles": 47,
+      "tau": 11,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-91-p0.75",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-92-p0.45",
+      "n": 6,
+      "m": 6,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-93-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-94-p0.75",
+      "n": 6,
+      "m": 7,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-95-p0.45",
+      "n": 8,
+      "m": 13,
+      "triangles": 4,
+      "tau": 3,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-96-p0.75",
+      "n": 7,
+      "m": 19,
+      "triangles": 26,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-97-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-98-p0.6",
+      "n": 7,
+      "m": 13,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-99-p0.75",
+      "n": 7,
+      "m": 18,
+      "triangles": 22,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-100-p0.75",
+      "n": 6,
+      "m": 6,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-101-p0.6",
+      "n": 8,
+      "m": 19,
+      "triangles": 14,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-102-p0.45",
+      "n": 7,
+      "m": 11,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-103-p0.9",
+      "n": 7,
+      "m": 18,
+      "triangles": 20,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-104-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-105-p0.45",
+      "n": 8,
+      "m": 14,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-106-p0.75",
+      "n": 7,
+      "m": 19,
+      "triangles": 26,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-107-p0.6",
+      "n": 8,
+      "m": 20,
+      "triangles": 19,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-108-p0.6",
+      "n": 6,
+      "m": 8,
+      "triangles": 3,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-109-p0.6",
+      "n": 7,
+      "m": 15,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-110-p0.9",
+      "n": 7,
+      "m": 21,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-111-p0.9",
+      "n": 7,
+      "m": 18,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-112-p0.45",
+      "n": 9,
+      "m": 15,
+      "triangles": 5,
+      "tau": 4,
+      "covers_checked": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-113-p0.75",
+      "n": 8,
+      "m": 23,
+      "triangles": 30,
+      "tau": 7,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-114-p0.75",
+      "n": 9,
+      "m": 29,
+      "triangles": 43,
+      "tau": 11,
+      "covers_checked": 20,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-115-p0.6",
+      "n": 6,
+      "m": 9,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-116-p0.75",
+      "n": 8,
+      "m": 23,
+      "triangles": 29,
+      "tau": 8,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-117-p0.6",
+      "n": 9,
+      "m": 24,
+      "triangles": 23,
+      "tau": 7,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-118-p0.6",
+      "n": 9,
+      "m": 24,
+      "triangles": 22,
+      "tau": 7,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-119-p0.75",
+      "n": 8,
+      "m": 21,
+      "triangles": 22,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-120-p0.6",
+      "n": 6,
+      "m": 11,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-121-p0.45",
+      "n": 8,
+      "m": 11,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-122-p0.45",
+      "n": 7,
+      "m": 7,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-123-p0.9",
+      "n": 8,
+      "m": 22,
+      "triangles": 29,
+      "tau": 8,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-124-p0.6",
+      "n": 9,
+      "m": 24,
+      "triangles": 24,
+      "tau": 7,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-125-p0.45",
+      "n": 8,
+      "m": 15,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-126-p0.6",
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-127-p0.45",
+      "n": 8,
+      "m": 16,
+      "triangles": 14,
+      "tau": 5,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-128-p0.45",
+      "n": 9,
+      "m": 17,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-129-p0.75",
+      "n": 6,
+      "m": 9,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-130-p0.75",
+      "n": 9,
+      "m": 26,
+      "triangles": 32,
+      "tau": 9,
+      "covers_checked": 8,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-131-p0.45",
+      "n": 8,
+      "m": 18,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-132-p0.6",
+      "n": 9,
+      "m": 21,
+      "triangles": 17,
+      "tau": 6,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-133-p0.75",
+      "n": 8,
+      "m": 23,
+      "triangles": 32,
+      "tau": 8,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-134-p0.75",
+      "n": 8,
+      "m": 23,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-135-p0.75",
+      "n": 8,
+      "m": 25,
+      "triangles": 39,
+      "tau": 9,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-136-p0.75",
+      "n": 9,
+      "m": 26,
+      "triangles": 31,
+      "tau": 8,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-137-p0.75",
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-138-p0.45",
+      "n": 6,
+      "m": 7,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-139-p0.75",
+      "n": 6,
+      "m": 9,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-141-p0.75",
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-142-p0.45",
+      "n": 7,
+      "m": 11,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-143-p0.6",
+      "n": 6,
+      "m": 10,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-144-p0.9",
+      "n": 7,
+      "m": 18,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-145-p0.75",
+      "n": 9,
+      "m": 25,
+      "triangles": 28,
+      "tau": 8,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-146-p0.45",
+      "n": 7,
+      "m": 7,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-147-p0.9",
+      "n": 9,
+      "m": 35,
+      "triangles": 77,
+      "tau": 15,
+      "covers_checked": 56,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-148-p0.75",
+      "n": 6,
+      "m": 10,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-149-p0.6",
+      "n": 8,
+      "m": 18,
+      "triangles": 12,
+      "tau": 5,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-150-p0.6",
+      "n": 8,
+      "m": 19,
+      "triangles": 18,
+      "tau": 6,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-152-p0.45",
+      "n": 7,
+      "m": 13,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-153-p0.75",
+      "n": 8,
+      "m": 22,
+      "triangles": 29,
+      "tau": 8,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-154-p0.9",
+      "n": 9,
+      "m": 34,
+      "triangles": 70,
+      "tau": 14,
+      "covers_checked": 26,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-155-p0.6",
+      "n": 8,
+      "m": 19,
+      "triangles": 15,
+      "tau": 6,
+      "covers_checked": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-156-p0.9",
+      "n": 7,
+      "m": 18,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-157-p0.75",
+      "n": 6,
+      "m": 10,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-158-p0.75",
+      "n": 7,
+      "m": 16,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-159-p0.9",
+      "n": 8,
+      "m": 27,
+      "triangles": 50,
+      "tau": 11,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-160-p0.6",
+      "n": 8,
+      "m": 15,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-161-p0.45",
+      "n": 6,
+      "m": 7,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-162-p0.9",
+      "n": 9,
+      "m": 31,
+      "triangles": 53,
+      "tau": 11,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-163-p0.75",
+      "n": 9,
+      "m": 23,
+      "triangles": 20,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-164-p0.45",
+      "n": 7,
+      "m": 11,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-165-p0.6",
+      "n": 9,
+      "m": 21,
+      "triangles": 16,
+      "tau": 6,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-166-p0.9",
+      "n": 7,
+      "m": 19,
+      "triangles": 26,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-167-p0.45",
+      "n": 8,
+      "m": 13,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-168-p0.45",
+      "n": 9,
+      "m": 19,
+      "triangles": 11,
+      "tau": 5,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-169-p0.45",
+      "n": 7,
+      "m": 10,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-170-p0.45",
+      "n": 8,
+      "m": 13,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-171-p0.6",
+      "n": 8,
+      "m": 21,
+      "triangles": 23,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-172-p0.45",
+      "n": 8,
+      "m": 15,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-173-p0.45",
+      "n": 7,
+      "m": 9,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-174-p0.45",
+      "n": 6,
+      "m": 9,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-175-p0.45",
+      "n": 9,
+      "m": 18,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-176-p0.9",
+      "n": 6,
+      "m": 15,
+      "triangles": 20,
+      "tau": 6,
+      "covers_checked": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-177-p0.6",
+      "n": 7,
+      "m": 11,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-178-p0.45",
+      "n": 9,
+      "m": 15,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-179-p0.45",
+      "n": 7,
+      "m": 7,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-180-p0.9",
+      "n": 6,
+      "m": 12,
+      "triangles": 9,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-181-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-182-p0.45",
+      "n": 6,
+      "m": 5,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-183-p0.9",
+      "n": 8,
+      "m": 23,
+      "triangles": 31,
+      "tau": 8,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-184-p0.6",
+      "n": 8,
+      "m": 17,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-186-p0.45",
+      "n": 7,
+      "m": 8,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-187-p0.9",
+      "n": 7,
+      "m": 18,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-188-p0.75",
+      "n": 8,
+      "m": 19,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-189-p0.9",
+      "n": 9,
+      "m": 34,
+      "triangles": 71,
+      "tau": 14,
+      "covers_checked": 21,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-190-p0.45",
+      "n": 9,
+      "m": 14,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-191-p0.6",
+      "n": 9,
+      "m": 21,
+      "triangles": 14,
+      "tau": 6,
+      "covers_checked": 23,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-192-p0.45",
+      "n": 9,
+      "m": 20,
+      "triangles": 11,
+      "tau": 5,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-193-p0.9",
+      "n": 9,
+      "m": 33,
+      "triangles": 64,
+      "tau": 13,
+      "covers_checked": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-194-p0.6",
+      "n": 9,
+      "m": 21,
+      "triangles": 16,
+      "tau": 6,
+      "covers_checked": 12,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-196-p0.6",
+      "n": 9,
+      "m": 18,
+      "triangles": 13,
+      "tau": 5,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-197-p0.9",
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-198-p0.45",
+      "n": 8,
+      "m": 8,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-199-p0.45",
+      "n": 9,
+      "m": 14,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-200-p0.75",
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-201-p0.6",
+      "n": 8,
+      "m": 16,
+      "triangles": 8,
+      "tau": 4,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-202-p0.75",
+      "n": 6,
+      "m": 12,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-203-p0.45",
+      "n": 6,
+      "m": 8,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-204-p0.45",
+      "n": 6,
+      "m": 5,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-205-p0.45",
+      "n": 7,
+      "m": 12,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-206-p0.75",
+      "n": 9,
+      "m": 24,
+      "triangles": 25,
+      "tau": 7,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-207-p0.75",
+      "n": 8,
+      "m": 21,
+      "triangles": 23,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-208-p0.9",
+      "n": 9,
+      "m": 34,
+      "triangles": 70,
+      "tau": 14,
+      "covers_checked": 26,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-209-p0.6",
+      "n": 7,
+      "m": 13,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-210-p0.6",
+      "n": 7,
+      "m": 13,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-211-p0.45",
+      "n": 7,
+      "m": 9,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-212-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-213-p0.75",
+      "n": 8,
+      "m": 22,
+      "triangles": 27,
+      "tau": 7,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-214-p0.45",
+      "n": 7,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-215-p0.75",
+      "n": 8,
+      "m": 22,
+      "triangles": 24,
+      "tau": 7,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-216-p0.45",
+      "n": 9,
+      "m": 9,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-217-p0.9",
+      "n": 6,
+      "m": 13,
+      "triangles": 13,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-218-p0.75",
+      "n": 7,
+      "m": 16,
+      "triangles": 14,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-220-p0.6",
+      "n": 6,
+      "m": 11,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-221-p0.45",
+      "n": 7,
+      "m": 10,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-222-p0.45",
+      "n": 8,
+      "m": 13,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-223-p0.9",
+      "n": 9,
+      "m": 33,
+      "triangles": 64,
+      "tau": 13,
+      "covers_checked": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-224-p0.6",
+      "n": 8,
+      "m": 18,
+      "triangles": 14,
+      "tau": 6,
+      "covers_checked": 17,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-225-p0.9",
+      "n": 9,
+      "m": 30,
+      "triangles": 50,
+      "tau": 11,
+      "covers_checked": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-226-p0.6",
+      "n": 9,
+      "m": 24,
+      "triangles": 20,
+      "tau": 7,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-227-p0.6",
+      "n": 8,
+      "m": 17,
+      "triangles": 14,
+      "tau": 5,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-228-p0.9",
+      "n": 8,
+      "m": 24,
+      "triangles": 35,
+      "tau": 8,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-229-p0.45",
+      "n": 8,
+      "m": 14,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-230-p0.75",
+      "n": 7,
+      "m": 19,
+      "triangles": 26,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-231-p0.45",
+      "n": 9,
+      "m": 18,
+      "triangles": 8,
+      "tau": 4,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-232-p0.75",
+      "n": 7,
+      "m": 16,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-233-p0.75",
+      "n": 7,
+      "m": 15,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-234-p0.75",
+      "n": 7,
+      "m": 18,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-235-p0.9",
+      "n": 8,
+      "m": 25,
+      "triangles": 38,
+      "tau": 9,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-236-p0.9",
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-237-p0.75",
+      "n": 9,
+      "m": 30,
+      "triangles": 47,
+      "tau": 11,
+      "covers_checked": 8,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-238-p0.45",
+      "n": 8,
+      "m": 12,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-239-p0.9",
+      "n": 8,
+      "m": 27,
+      "triangles": 50,
+      "tau": 11,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-241-p0.75",
+      "n": 8,
+      "m": 20,
+      "triangles": 18,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-243-p0.6",
+      "n": 7,
+      "m": 12,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-244-p0.45",
+      "n": 9,
+      "m": 21,
+      "triangles": 18,
+      "tau": 6,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-245-p0.6",
+      "n": 7,
+      "m": 15,
+      "triangles": 10,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-246-p0.75",
+      "n": 8,
+      "m": 21,
+      "triangles": 21,
+      "tau": 7,
+      "covers_checked": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-247-p0.75",
+      "n": 6,
+      "m": 10,
+      "triangles": 6,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-248-p0.9",
+      "n": 7,
+      "m": 21,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-249-p0.45",
+      "n": 9,
+      "m": 15,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-250-p0.9",
+      "n": 6,
+      "m": 15,
+      "triangles": 20,
+      "tau": 6,
+      "covers_checked": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-251-p0.9",
+      "n": 7,
+      "m": 15,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-252-p0.9",
+      "n": 9,
+      "m": 34,
+      "triangles": 71,
+      "tau": 14,
+      "covers_checked": 21,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-253-p0.6",
+      "n": 7,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-255-p0.45",
+      "n": 7,
+      "m": 9,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-256-p0.6",
+      "n": 9,
+      "m": 18,
+      "triangles": 9,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-257-p0.45",
+      "n": 6,
+      "m": 6,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-258-p0.75",
+      "n": 6,
+      "m": 9,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-259-p0.6",
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-260-p0.6",
+      "n": 7,
+      "m": 13,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-261-p0.75",
+      "n": 7,
+      "m": 19,
+      "triangles": 26,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-262-p0.45",
+      "n": 6,
+      "m": 7,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-263-p0.9",
+      "n": 9,
+      "m": 30,
+      "triangles": 46,
+      "tau": 11,
+      "covers_checked": 8,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-264-p0.75",
+      "n": 9,
+      "m": 30,
+      "triangles": 46,
+      "tau": 10,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-265-p0.6",
+      "n": 7,
+      "m": 10,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-266-p0.45",
+      "n": 7,
+      "m": 10,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-267-p0.45",
+      "n": 8,
+      "m": 17,
+      "triangles": 12,
+      "tau": 5,
+      "covers_checked": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-268-p0.6",
+      "n": 6,
+      "m": 9,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-269-p0.9",
+      "n": 8,
+      "m": 26,
+      "triangles": 45,
+      "tau": 10,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-270-p0.75",
+      "n": 9,
+      "m": 27,
+      "triangles": 38,
+      "tau": 9,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-271-p0.6",
+      "n": 7,
+      "m": 13,
+      "triangles": 9,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-272-p0.75",
+      "n": 8,
+      "m": 21,
+      "triangles": 22,
+      "tau": 7,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-274-p0.45",
+      "n": 7,
+      "m": 11,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-275-p0.6",
+      "n": 8,
+      "m": 16,
+      "triangles": 9,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-276-p0.6",
+      "n": 6,
+      "m": 12,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-277-p0.6",
+      "n": 7,
+      "m": 11,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-279-p0.6",
+      "n": 9,
+      "m": 22,
+      "triangles": 22,
+      "tau": 7,
+      "covers_checked": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-280-p0.75",
+      "n": 7,
+      "m": 15,
+      "triangles": 13,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-281-p0.9",
+      "n": 7,
+      "m": 19,
+      "triangles": 25,
+      "tau": 7,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-282-p0.45",
+      "n": 6,
+      "m": 11,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-283-p0.75",
+      "n": 9,
+      "m": 25,
+      "triangles": 27,
+      "tau": 8,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-284-p0.45",
+      "n": 7,
+      "m": 12,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-285-p0.9",
+      "n": 8,
+      "m": 28,
+      "triangles": 56,
+      "tau": 12,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-286-p0.9",
+      "n": 6,
+      "m": 13,
+      "triangles": 13,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-288-p0.45",
+      "n": 7,
+      "m": 9,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-289-p0.9",
+      "n": 8,
+      "m": 23,
+      "triangles": 32,
+      "tau": 8,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-290-p0.45",
+      "n": 8,
+      "m": 14,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-291-p0.75",
+      "n": 9,
+      "m": 27,
+      "triangles": 33,
+      "tau": 8,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-292-p0.75",
+      "n": 8,
+      "m": 24,
+      "triangles": 34,
+      "tau": 8,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-293-p0.6",
+      "n": 9,
+      "m": 17,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-294-p0.75",
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-295-p0.9",
+      "n": 8,
+      "m": 24,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-296-p0.45",
+      "n": 8,
+      "m": 13,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-297-p0.9",
+      "n": 8,
+      "m": 25,
+      "triangles": 39,
+      "tau": 9,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-298-p0.45",
+      "n": 9,
+      "m": 14,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-299-p0.9",
+      "n": 7,
+      "m": 18,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-300-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-301-p0.75",
+      "n": 6,
+      "m": 11,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-302-p0.6",
+      "n": 9,
+      "m": 26,
+      "triangles": 31,
+      "tau": 8,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-303-p0.6",
+      "n": 9,
+      "m": 22,
+      "triangles": 21,
+      "tau": 7,
+      "covers_checked": 13,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-304-p0.75",
+      "n": 8,
+      "m": 21,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-305-p0.75",
+      "n": 7,
+      "m": 15,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-306-p0.9",
+      "n": 8,
+      "m": 26,
+      "triangles": 44,
+      "tau": 10,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-307-p0.9",
+      "n": 8,
+      "m": 25,
+      "triangles": 39,
+      "tau": 9,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-308-p0.45",
+      "n": 8,
+      "m": 13,
+      "triangles": 9,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-309-p0.45",
+      "n": 8,
+      "m": 11,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-310-p0.6",
+      "n": 8,
+      "m": 14,
+      "triangles": 4,
+      "tau": 3,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-311-p0.75",
+      "n": 6,
+      "m": 11,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-312-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-313-p0.45",
+      "n": 9,
+      "m": 22,
+      "triangles": 24,
+      "tau": 7,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-314-p0.45",
+      "n": 8,
+      "m": 12,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-315-p0.6",
+      "n": 9,
+      "m": 23,
+      "triangles": 19,
+      "tau": 7,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-316-p0.9",
+      "n": 6,
+      "m": 15,
+      "triangles": 20,
+      "tau": 6,
+      "covers_checked": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-317-p0.45",
+      "n": 9,
+      "m": 18,
+      "triangles": 8,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-318-p0.6",
+      "n": 8,
+      "m": 18,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-319-p0.6",
+      "n": 8,
+      "m": 22,
+      "triangles": 26,
+      "tau": 7,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-320-p0.6",
+      "n": 8,
+      "m": 15,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-321-p0.6",
+      "n": 8,
+      "m": 19,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-323-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-324-p0.9",
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-325-p0.75",
+      "n": 9,
+      "m": 26,
+      "triangles": 32,
+      "tau": 7,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-326-p0.9",
+      "n": 8,
+      "m": 26,
+      "triangles": 45,
+      "tau": 10,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-327-p0.75",
+      "n": 9,
+      "m": 25,
+      "triangles": 29,
+      "tau": 8,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-328-p0.45",
+      "n": 6,
+      "m": 5,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-329-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-330-p0.45",
+      "n": 7,
+      "m": 11,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-331-p0.6",
+      "n": 7,
+      "m": 13,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-332-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-333-p0.45",
+      "n": 6,
+      "m": 8,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-334-p0.75",
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-335-p0.75",
+      "n": 8,
+      "m": 23,
+      "triangles": 29,
+      "tau": 8,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-336-p0.9",
+      "n": 9,
+      "m": 32,
+      "triangles": 57,
+      "tau": 12,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-337-p0.6",
+      "n": 9,
+      "m": 24,
+      "triangles": 25,
+      "tau": 8,
+      "covers_checked": 10,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-338-p0.6",
+      "n": 7,
+      "m": 15,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-339-p0.6",
+      "n": 8,
+      "m": 13,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-340-p0.9",
+      "n": 8,
+      "m": 24,
+      "triangles": 34,
+      "tau": 8,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-341-p0.45",
+      "n": 7,
+      "m": 7,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-342-p0.75",
+      "n": 8,
+      "m": 20,
+      "triangles": 18,
+      "tau": 6,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-343-p0.45",
+      "n": 8,
+      "m": 18,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-344-p0.6",
+      "n": 9,
+      "m": 22,
+      "triangles": 19,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-345-p0.45",
+      "n": 8,
+      "m": 12,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-346-p0.75",
+      "n": 7,
+      "m": 14,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-347-p0.6",
+      "n": 9,
+      "m": 29,
+      "triangles": 44,
+      "tau": 10,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-348-p0.75",
+      "n": 9,
+      "m": 27,
+      "triangles": 34,
+      "tau": 8,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-349-p0.75",
+      "n": 8,
+      "m": 21,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-350-p0.9",
+      "n": 8,
+      "m": 23,
+      "triangles": 31,
+      "tau": 8,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-351-p0.45",
+      "n": 8,
+      "m": 14,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-352-p0.75",
+      "n": 7,
+      "m": 15,
+      "triangles": 14,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-353-p0.6",
+      "n": 9,
+      "m": 24,
+      "triangles": 23,
+      "tau": 7,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-354-p0.45",
+      "n": 9,
+      "m": 24,
+      "triangles": 25,
+      "tau": 7,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-355-p0.6",
+      "n": 8,
+      "m": 16,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-356-p0.75",
+      "n": 8,
+      "m": 26,
+      "triangles": 45,
+      "tau": 10,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-357-p0.9",
+      "n": 7,
+      "m": 19,
+      "triangles": 26,
+      "tau": 7,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-358-p0.9",
+      "n": 8,
+      "m": 23,
+      "triangles": 32,
+      "tau": 8,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-359-p0.75",
+      "n": 9,
+      "m": 23,
+      "triangles": 21,
+      "tau": 7,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-360-p0.9",
+      "n": 7,
+      "m": 21,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-361-p0.9",
+      "n": 8,
+      "m": 26,
+      "triangles": 44,
+      "tau": 10,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-362-p0.9",
+      "n": 9,
+      "m": 33,
+      "triangles": 64,
+      "tau": 13,
+      "covers_checked": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-363-p0.45",
+      "n": 9,
+      "m": 16,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-364-p0.6",
+      "n": 7,
+      "m": 8,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-366-p0.9",
+      "n": 8,
+      "m": 26,
+      "triangles": 45,
+      "tau": 10,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-367-p0.9",
+      "n": 9,
+      "m": 30,
+      "triangles": 47,
+      "tau": 11,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-368-p0.9",
+      "n": 7,
+      "m": 18,
+      "triangles": 22,
+      "tau": 6,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-369-p0.6",
+      "n": 6,
+      "m": 10,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-370-p0.6",
+      "n": 7,
+      "m": 13,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-371-p0.45",
+      "n": 6,
+      "m": 8,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-372-p0.45",
+      "n": 9,
+      "m": 19,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-373-p0.75",
+      "n": 7,
+      "m": 15,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-374-p0.9",
+      "n": 7,
+      "m": 17,
+      "triangles": 17,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-375-p0.6",
+      "n": 9,
+      "m": 20,
+      "triangles": 13,
+      "tau": 6,
+      "covers_checked": 20,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-376-p0.45",
+      "n": 9,
+      "m": 13,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-377-p0.45",
+      "n": 8,
+      "m": 14,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-378-p0.45",
+      "n": 9,
+      "m": 12,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-379-p0.9",
+      "n": 9,
+      "m": 31,
+      "triangles": 51,
+      "tau": 11,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-380-p0.75",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-381-p0.9",
+      "n": 9,
+      "m": 36,
+      "triangles": 84,
+      "tau": 16,
+      "covers_checked": 126,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-382-p0.75",
+      "n": 7,
+      "m": 16,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-383-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-384-p0.45",
+      "n": 6,
+      "m": 5,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-385-p0.9",
+      "n": 8,
+      "m": 24,
+      "triangles": 36,
+      "tau": 8,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-386-p0.45",
+      "n": 9,
+      "m": 18,
+      "triangles": 8,
+      "tau": 4,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-387-p0.75",
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-388-p0.9",
+      "n": 9,
+      "m": 35,
+      "triangles": 77,
+      "tau": 15,
+      "covers_checked": 56,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-389-p0.45",
+      "n": 6,
+      "m": 4,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-390-p0.45",
+      "n": 7,
+      "m": 12,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-391-p0.6",
+      "n": 6,
+      "m": 7,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-392-p0.9",
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-393-p0.75",
+      "n": 7,
+      "m": 16,
+      "triangles": 14,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-394-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-395-p0.45",
+      "n": 6,
+      "m": 7,
+      "triangles": 1,
+      "tau": 1,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-396-p0.45",
+      "n": 8,
+      "m": 12,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-397-p0.9",
+      "n": 9,
+      "m": 35,
+      "triangles": 77,
+      "tau": 15,
+      "covers_checked": 56,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-398-p0.9",
+      "n": 9,
+      "m": 31,
+      "triangles": 54,
+      "tau": 12,
+      "covers_checked": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-399-p0.6",
+      "n": 7,
+      "m": 14,
+      "triangles": 8,
+      "tau": 4,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-400-p0.45",
+      "n": 8,
+      "m": 10,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-401-p0.6",
+      "n": 9,
+      "m": 23,
+      "triangles": 20,
+      "tau": 7,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-402-p0.6",
+      "n": 7,
+      "m": 12,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-403-p0.75",
+      "n": 7,
+      "m": 14,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-404-p0.45",
+      "n": 8,
+      "m": 17,
+      "triangles": 13,
+      "tau": 5,
+      "covers_checked": 6,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-405-p0.75",
+      "n": 7,
+      "m": 12,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-407-p0.6",
+      "n": 9,
+      "m": 17,
+      "triangles": 9,
+      "tau": 4,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-408-p0.6",
+      "n": 9,
+      "m": 18,
+      "triangles": 8,
+      "tau": 4,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-409-p0.6",
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-410-p0.45",
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-411-p0.9",
+      "n": 7,
+      "m": 18,
+      "triangles": 21,
+      "tau": 6,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-412-p0.45",
+      "n": 8,
+      "m": 14,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-413-p0.75",
+      "n": 6,
+      "m": 11,
+      "triangles": 6,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-414-p0.75",
+      "n": 8,
+      "m": 23,
+      "triangles": 30,
+      "tau": 7,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-415-p0.75",
+      "n": 7,
+      "m": 15,
+      "triangles": 12,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-416-p0.9",
+      "n": 9,
+      "m": 34,
+      "triangles": 70,
+      "tau": 14,
+      "covers_checked": 26,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-417-p0.45",
+      "n": 9,
+      "m": 15,
+      "triangles": 4,
+      "tau": 3,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-418-p0.75",
+      "n": 7,
+      "m": 17,
+      "triangles": 17,
+      "tau": 5,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-419-p0.75",
+      "n": 6,
+      "m": 12,
+      "triangles": 9,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-420-p0.9",
+      "n": 7,
+      "m": 21,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-421-p0.6",
+      "n": 8,
+      "m": 22,
+      "triangles": 27,
+      "tau": 7,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-422-p0.9",
+      "n": 7,
+      "m": 21,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-423-p0.45",
+      "n": 7,
+      "m": 13,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-424-p0.9",
+      "n": 6,
+      "m": 12,
+      "triangles": 8,
+      "tau": 4,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-425-p0.9",
+      "n": 7,
+      "m": 21,
+      "triangles": 35,
+      "tau": 9,
+      "covers_checked": 35,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-426-p0.9",
+      "n": 8,
+      "m": 27,
+      "triangles": 50,
+      "tau": 11,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-427-p0.75",
+      "n": 8,
+      "m": 23,
+      "triangles": 30,
+      "tau": 7,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-428-p0.9",
+      "n": 9,
+      "m": 31,
+      "triangles": 53,
+      "tau": 11,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-429-p0.9",
+      "n": 8,
+      "m": 25,
+      "triangles": 39,
+      "tau": 9,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-430-p0.6",
+      "n": 8,
+      "m": 18,
+      "triangles": 13,
+      "tau": 5,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-431-p0.6",
+      "n": 7,
+      "m": 12,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-432-p0.45",
+      "n": 9,
+      "m": 16,
+      "triangles": 6,
+      "tau": 4,
+      "covers_checked": 21,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-433-p0.75",
+      "n": 6,
+      "m": 12,
+      "triangles": 9,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-434-p0.75",
+      "n": 9,
+      "m": 29,
+      "triangles": 40,
+      "tau": 9,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-435-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-436-p0.6",
+      "n": 8,
+      "m": 17,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-437-p0.75",
+      "n": 6,
+      "m": 10,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-438-p0.6",
+      "n": 6,
+      "m": 7,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-439-p0.45",
+      "n": 7,
+      "m": 12,
+      "triangles": 8,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-440-p0.9",
+      "n": 9,
+      "m": 30,
+      "triangles": 49,
+      "tau": 11,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-441-p0.6",
+      "n": 8,
+      "m": 16,
+      "triangles": 9,
+      "tau": 4,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-442-p0.9",
+      "n": 8,
+      "m": 25,
+      "triangles": 40,
+      "tau": 9,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-443-p0.45",
+      "n": 8,
+      "m": 13,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-444-p0.45",
+      "n": 9,
+      "m": 13,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-445-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-446-p0.6",
+      "n": 9,
+      "m": 21,
+      "triangles": 17,
+      "tau": 5,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-447-p0.6",
+      "n": 9,
+      "m": 25,
+      "triangles": 25,
+      "tau": 7,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-448-p0.6",
+      "n": 8,
+      "m": 17,
+      "triangles": 14,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-449-p0.6",
+      "n": 8,
+      "m": 18,
+      "triangles": 15,
+      "tau": 6,
+      "covers_checked": 24,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-450-p0.75",
+      "n": 8,
+      "m": 19,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-451-p0.6",
+      "n": 9,
+      "m": 19,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-452-p0.9",
+      "n": 8,
+      "m": 25,
+      "triangles": 40,
+      "tau": 9,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-453-p0.45",
+      "n": 9,
+      "m": 15,
+      "triangles": 5,
+      "tau": 3,
+      "covers_checked": 7,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-454-p0.75",
+      "n": 7,
+      "m": 15,
+      "triangles": 13,
+      "tau": 4,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-455-p0.45",
+      "n": 8,
+      "m": 12,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-456-p0.6",
+      "n": 8,
+      "m": 16,
+      "triangles": 11,
+      "tau": 5,
+      "covers_checked": 17,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-457-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-458-p0.6",
+      "n": 8,
+      "m": 10,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-460-p0.6",
+      "n": 7,
+      "m": 17,
+      "triangles": 18,
+      "tau": 6,
+      "covers_checked": 8,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-461-p0.45",
+      "n": 6,
+      "m": 8,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-462-p0.45",
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-463-p0.9",
+      "n": 9,
+      "m": 33,
+      "triangles": 64,
+      "tau": 13,
+      "covers_checked": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-464-p0.75",
+      "n": 7,
+      "m": 17,
+      "triangles": 18,
+      "tau": 6,
+      "covers_checked": 8,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-465-p0.45",
+      "n": 7,
+      "m": 14,
+      "triangles": 8,
+      "tau": 4,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-467-p0.6",
+      "n": 6,
+      "m": 9,
+      "triangles": 5,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-468-p0.75",
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-469-p0.9",
+      "n": 8,
+      "m": 24,
+      "triangles": 35,
+      "tau": 8,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-470-p0.6",
+      "n": 9,
+      "m": 22,
+      "triangles": 17,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-471-p0.45",
+      "n": 7,
+      "m": 9,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-472-p0.45",
+      "n": 8,
+      "m": 10,
+      "triangles": 3,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-473-p0.45",
+      "n": 6,
+      "m": 8,
+      "triangles": 3,
+      "tau": 2,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-474-p0.45",
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-475-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-476-p0.45",
+      "n": 8,
+      "m": 13,
+      "triangles": 4,
+      "tau": 3,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-477-p0.75",
+      "n": 6,
+      "m": 10,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-478-p0.75",
+      "n": 8,
+      "m": 20,
+      "triangles": 22,
+      "tau": 6,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-480-p0.9",
+      "n": 9,
+      "m": 34,
+      "triangles": 71,
+      "tau": 14,
+      "covers_checked": 21,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-481-p0.6",
+      "n": 7,
+      "m": 10,
+      "triangles": 2,
+      "tau": 2,
+      "covers_checked": 9,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-482-p0.6",
+      "n": 7,
+      "m": 14,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-483-p0.45",
+      "n": 7,
+      "m": 12,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-484-p0.6",
+      "n": 9,
+      "m": 26,
+      "triangles": 31,
+      "tau": 8,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-485-p0.9",
+      "n": 8,
+      "m": 27,
+      "triangles": 50,
+      "tau": 11,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-486-p0.45",
+      "n": 7,
+      "m": 13,
+      "triangles": 7,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-487-p0.9",
+      "n": 9,
+      "m": 35,
+      "triangles": 77,
+      "tau": 15,
+      "covers_checked": 56,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-488-p0.6",
+      "n": 6,
+      "m": 8,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-489-p0.6",
+      "n": 6,
+      "m": 11,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 3,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-490-p0.45",
+      "n": 9,
+      "m": 20,
+      "triangles": 15,
+      "tau": 6,
+      "covers_checked": 11,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-491-p0.45",
+      "n": 8,
+      "m": 12,
+      "triangles": 4,
+      "tau": 2,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-492-p0.45",
+      "n": 9,
+      "m": 17,
+      "triangles": 6,
+      "tau": 3,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-493-p0.6",
+      "n": 6,
+      "m": 8,
+      "triangles": 3,
+      "tau": 1,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-494-p0.75",
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "covers_checked": 5,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-495-p0.9",
+      "n": 6,
+      "m": 12,
+      "triangles": 11,
+      "tau": 4,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-496-p0.9",
+      "n": 8,
+      "m": 27,
+      "triangles": 50,
+      "tau": 11,
+      "covers_checked": 15,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-497-p0.9",
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "covers_checked": 4,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-498-p0.6",
+      "n": 9,
+      "m": 21,
+      "triangles": 15,
+      "tau": 5,
+      "covers_checked": 1,
+      "status": "COMPLETE"
+    },
+    {
+      "label": "random-499-p0.75",
+      "n": 8,
+      "m": 18,
+      "triangles": 13,
+      "tau": 5,
+      "covers_checked": 2,
+      "status": "COMPLETE"
+    }
+  ],
+  "peak_self_rss_bytes_Darwin": 692518912,
+  "run_utc": "2026-11-15T18:09:06.302304+00:00"
+}

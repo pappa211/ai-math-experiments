@@ -1,0 +1,182 @@
+[
+  {
+    "file": "VERIFICATION.json",
+    "original_sha256": "ff3086dd6ed7804ce6d4a32221b9ee548e5bcd687afe2536fa4c19f085f67ffb",
+    "public_sha256": "ff3086dd6ed7804ce6d4a32221b9ee548e5bcd687afe2536fa4c19f085f67ffb",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "SOURCE_MANIFEST.json",
+    "original_sha256": "30df27185498f8bf624a2eef5b3658049faad73cb1510b5a1fabf5108a2a194e",
+    "public_sha256": "30df27185498f8bf624a2eef5b3658049faad73cb1510b5a1fabf5108a2a194e",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "ADAPTATIONS.json",
+    "original_sha256": "92ba6f70998fe7ebb5ed59a8ffa7a5a0a271ab7ce8cb5a08f1fd7430b3bf9875",
+    "public_sha256": "92ba6f70998fe7ebb5ed59a8ffa7a5a0a271ab7ce8cb5a08f1fd7430b3bf9875",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "COMMANDS.json",
+    "original_sha256": "01034ba7db0369db752d3fbeae0424855191d7081ef7146862fe4738f40c3174",
+    "public_sha256": "01034ba7db0369db752d3fbeae0424855191d7081ef7146862fe4738f40c3174",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_candidate01/receipts/verifier_candidate01.json",
+    "original_sha256": "c827ff2a03e50da72a2922a39c01286647a11c0ed95cf31d6ee7f9a0de6daaa5",
+    "public_sha256": "c827ff2a03e50da72a2922a39c01286647a11c0ed95cf31d6ee7f9a0de6daaa5",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_candidate02_counterexample/data/verifier_candidate02_counterexample.json",
+    "original_sha256": "ed4dfa7bb56d74486231cd60426ee9dc94e32b23e6aad68341838548dbeeb585",
+    "public_sha256": "ed4dfa7bb56d74486231cd60426ee9dc94e32b23e6aad68341838548dbeeb585",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_candidate02_counterexample/receipts/verifier_candidate02_counterexample.json",
+    "original_sha256": "5b25c6e955d5f4806c8f33e15011272c27f03167be9d1c802c6bc3a648a1e680",
+    "public_sha256": "5b25c6e955d5f4806c8f33e15011272c27f03167be9d1c802c6bc3a648a1e680",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_exact/data/verifier_controls.json",
+    "original_sha256": "da925871fa7e75bc0445900676bd8be3d3b436beb267e09290e54c353c8ded67",
+    "public_sha256": "da925871fa7e75bc0445900676bd8be3d3b436beb267e09290e54c353c8ded67",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-20-verifier_exact/receipts/verifier_controls.json",
+    "original_sha256": "4d51cef4b8345def02e9c8c0ecd169be6243122406af4f981ec803442ff71e0d",
+    "public_sha256": "4d51cef4b8345def02e9c8c0ecd169be6243122406af4f981ec803442ff71e0d",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-21-book_clebsch_private_verify/data/book_clebsch_private_certificate.json",
+    "original_sha256": "995e890b26bbd1cfd1931b5aef8e4cabfff6fe89937956de8bd34b5bedd129d0",
+    "public_sha256": "995e890b26bbd1cfd1931b5aef8e4cabfff6fe89937956de8bd34b5bedd129d0",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-21-book_verify/results/book_verification.json",
+    "original_sha256": "9010f4fe6021926a60050395646008d154f058c366a956b16ddbacb73ac818eb",
+    "public_sha256": "9010f4fe6021926a60050395646008d154f058c366a956b16ddbacb73ac818eb",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-22-coordinator_cycle_cover_complete_validator/evidence/coordinator_cycle_cover_complete_validation.json",
+    "original_sha256": "7cde7dc049416b914ff5e8046bc8c5a97420aadc55af8d0725bf1ef6c807975a",
+    "public_sha256": "7cde7dc049416b914ff5e8046bc8c5a97420aadc55af8d0725bf1ef6c807975a",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-22-coordinator_cycle_cover_isolate_validator/evidence/coordinator_cycle_cover_isolate_validation.json",
+    "original_sha256": "c310098c447cc5cd85417f56951ac0d1c972b24318397593b11f8c6ae9d3b87f",
+    "public_sha256": "c310098c447cc5cd85417f56951ac0d1c972b24318397593b11f8c6ae9d3b87f",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-22-coordinator_p6_interface_validator/evidence/coordinator_p6_interface_validation.json",
+    "original_sha256": "b5da35c8cf0a36898276fdc3acf25932c4b7cf145ff2a9af05448fd0e30172b4",
+    "public_sha256": "b5da35c8cf0a36898276fdc3acf25932c4b7cf145ff2a9af05448fd0e30172b4",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-22-d_extension_independent_validator/evidence/d_extension_independent_verification.json",
+    "original_sha256": "55a84f373e0776232cebfce934c88ee5144c35417a922ddd86432809bd5fd46b",
+    "public_sha256": "55a84f373e0776232cebfce934c88ee5144c35417a922ddd86432809bd5fd46b",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_bridge_check/reviews/critic_bridge_check.json",
+    "original_sha256": "ff767ea12136ebfd4f8856ba7bb386d1a1faa6378a414517365eea1fe8e89b93",
+    "public_sha256": "17017c5d07796bccebd67b728579ff4c200a921daee25bc73fa09347de8c3eaf",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_edge_exchange_check/reviews/critic_edge_exchange_check.json",
+    "original_sha256": "709e4165718f27d10e08a03afae8f62cdddad77e945fb7552d07aa16bbec0c4f",
+    "public_sha256": "65c4b71f5394ca86e231ac167aad5cfaec741a8cb79abe57e9d2266ab9b1c426",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_matching_control/reviews/critic_matching_control.json",
+    "original_sha256": "b25ec4710087349dc88d8c57c0717099f3141908cc9d2db0e8d8341978a37f9b",
+    "public_sha256": "75e23702f5c166906ca2195396059a7064c7f88c29016325f964e8859346a02a",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_ring_check/evidence/critic_ring_check.json",
+    "original_sha256": "e8daae8913c463a2d1c9b078c379460596874953f2110900c594b4c0f3d0682e",
+    "public_sha256": "bc4e51d48b9bc3fd453b5cc694636ce97b4261f2987741dd6cc0cedd7b56e274",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-25-critic_role_check/reviews/critic_role_check.json",
+    "original_sha256": "d9feb9b56a095ae8c258b3591c73c2917e3df5d3c54eafa472ffb19f5b484867",
+    "public_sha256": "7376c09f57454a1e1a5b807e1eb1f21bf89a405b9bb894b238180dba39bf8c88",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-25-mixed_verify_named_interface/evidence/mixed_named_interface_verification.json",
+    "original_sha256": "582946c2ed62344f4ce2a7891ec47dd958af175c0dbc388671faa72e78e4380c",
+    "public_sha256": "1dfcc70610a9c56f107744721918e6cca2134049194f8d7bdbd9dd8cda17d980",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-25-role_status_mock/evidence/role_status_mock.json",
+    "original_sha256": "1eebd1d297ccbeb1eb08fb27b38a7b025ed77d043ce976b3c68bd0770b3b6af1",
+    "public_sha256": "1eebd1d297ccbeb1eb08fb27b38a7b025ed77d043ce976b3c68bd0770b3b6af1",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-26-matching26_adjacent_replay/evidence/matching26_adjacent_replay.json",
+    "original_sha256": "e32d729f4918ffecca73776fb45391cddad19c57a69474bd208fd6a604170c16",
+    "public_sha256": "31040a5889685e4857c55906087d19392a70e77e9a0538ea72e6f92838dd19ff",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-26-matching26_book_controls/evidence/matching26_book_controls.json",
+    "original_sha256": "6f3f622690fdb1e136cd8cc72e906254632687ec71d927d2b018198d4038c438",
+    "public_sha256": "e8fd49cd0ca342c9c6c87966eead87c43489a13ed4455ae55ece92c598448dc5",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_checks/evidence/opening_checks.json",
+    "original_sha256": "d9c11a436f68d383048d3ac3d562e75398fcf42991f55045ad12614a66718745",
+    "public_sha256": "3a222dac8e779eaa05597dbe3b70c81e590c71c30c15c9874f7f6a1cbdc5605f",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_cover_operation_controls/evidence/opening_cover_operation_controls.json",
+    "original_sha256": "1b9a8927bd9bb11bdb0c9465d2d58608eca5227a8823a6b619255cd120bd4037",
+    "public_sha256": "ab298670ee03860ec88d52f221dbbcd62d81286b7317a5de16fc13fda528e2c1",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_matching_domain/evidence/opening_matching_domain.json",
+    "original_sha256": "d449547462b0672edc5337c8afb7951b46d1de6f0776b7cee1bbf8671cec513c",
+    "public_sha256": "4d3d2701ba70de7c2e845dc6c8cd9b8f5d7791e466b267f1cebffd3510803e18",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_p3_domain/evidence/opening_p3_domain.json",
+    "original_sha256": "147495e7c06c736979d97ec140885263df083ade31bfba76326b2d3d42d44215",
+    "public_sha256": "5d9f77176047ded67f8d7dc315a5f2aca9d16673bd5106cb88a2454cccaca276",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_simplicial_internal/evidence/opening_simplicial_internal.json",
+    "original_sha256": "b33286d2cc2c9d6e118d36220808b36e216d1d5a219183ef5b90602ffd22f851",
+    "public_sha256": "db23e18f5c0ffbb63522328c8ed2a5ca73a51d42825dcf8a0f859a349205c650",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  },
+  {
+    "file": "fresh-results/TUZA-26-opening_triangle_replay/evidence/opening_triangle_replay.json",
+    "original_sha256": "a137ae4fe32fca97fb42f54f4b7a373f647abfcb1de3ad421cc36fe2a9d5f461",
+    "public_sha256": "e0110ce4d5ed018c8d7f529013f230eb33fbc4e1197b809984c10e8329960a75",
+    "transformation": "Private path prefixes replaced with symbolic locations; host, user, home and PID fields omitted. Mathematical data, exact counts, status and source hashes retained."
+  }
+]

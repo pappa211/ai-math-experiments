@@ -1,0 +1,9 @@
+{
+  "pid": 48799,
+  "exit": 0,
+  "seconds": 12.905134915999952,
+  "peak_sampled_tree_RSS_KiB": 57952,
+  "samples": 60,
+  "termination_reason": null,
+  "finished_utc": "2026-11-15T16:40:22.523056+00:00"
+}

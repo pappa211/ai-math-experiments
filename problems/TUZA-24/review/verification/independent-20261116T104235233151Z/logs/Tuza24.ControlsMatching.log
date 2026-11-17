@@ -1,0 +1,9 @@
+problems/TUZA-24/review/verification/independent-20261116T104235233151Z/clean/Tuza24/ControlsMatching.lean:23:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+problems/TUZA-24/review/verification/independent-20261116T104235233151Z/clean/Tuza24/ControlsMatching.lean:44:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+problems/TUZA-24/review/verification/independent-20261116T104235233151Z/clean/Tuza24/ControlsMatching.lean:55:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

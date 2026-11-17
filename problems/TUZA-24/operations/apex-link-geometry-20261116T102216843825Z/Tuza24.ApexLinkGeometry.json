@@ -1,0 +1,19 @@
+{
+  "module": "Tuza24.ApexLinkGeometry",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-24/.lake/build/lib/lean/Tuza24/ApexLinkGeometry.olean",
+    "problems/TUZA-24/Tuza24/ApexLinkGeometry.lean"
+  ],
+  "cwd": "problems/TUZA-24",
+  "lean_path": "problems/TUZA-24/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "40a305dd6380dd2f06e5af19179902db907aa5422ceafb1eb6de84da17cd4b20",
+  "elapsed_seconds": 1.9113329999963753,
+  "peak_process_tree_rss_bytes": 1695498240,
+  "exit_code": 0,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T10:22:18.755377+00:00"
+}

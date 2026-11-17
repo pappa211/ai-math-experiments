@@ -1,0 +1,19 @@
+{
+  "module": "Tuza06.Additivity",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-23/.lake/build/lib/lean/Tuza06/Additivity.olean",
+    "problems/TUZA-23/Tuza06/Additivity.lean"
+  ],
+  "cwd": "problems/TUZA-23",
+  "lean_path": "problems/TUZA-23/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+  "elapsed_seconds": 0.9716052500007208,
+  "peak_process_tree_rss_bytes": 1580924928,
+  "exit_code": 0,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T08:57:14.475243+00:00"
+}

@@ -1,0 +1,402 @@
+{
+  "status": "UNSAT_EXHAUSTIVE",
+  "method": "Independent equality-disjunction branching, component merging, and exact DSATUR 3-color search; no permutation-domain search/import.",
+  "graph": "K2 joined to C5",
+  "n": 7,
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "triangles": [
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      4,
+      5
+    ],
+    [
+      0,
+      4,
+      6
+    ],
+    [
+      0,
+      5,
+      6
+    ],
+    [
+      1,
+      2,
+      5
+    ],
+    [
+      1,
+      2,
+      6
+    ],
+    [
+      1,
+      5,
+      6
+    ],
+    [
+      2,
+      3,
+      5
+    ],
+    [
+      2,
+      3,
+      6
+    ],
+    [
+      2,
+      5,
+      6
+    ],
+    [
+      3,
+      4,
+      5
+    ],
+    [
+      3,
+      4,
+      6
+    ],
+    [
+      3,
+      5,
+      6
+    ],
+    [
+      4,
+      5,
+      6
+    ]
+  ],
+  "ordinary_nu": 4,
+  "ordinary_tau": 6,
+  "ordinary_packing": [
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      0,
+      4,
+      6
+    ],
+    [
+      1,
+      2,
+      6
+    ],
+    [
+      2,
+      3,
+      5
+    ]
+  ],
+  "ordinary_cover": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "all_five_families": 3003,
+  "raw_distinct_clauses": 2533,
+  "minimal_clauses": 41,
+  "minimal_clause_lengths": {
+    "1": 30,
+    "2": 5,
+    "4": 5,
+    "10": 1
+  },
+  "independent_search_stats": {
+    "color_search_nodes": 247,
+    "equality_search_nodes": 15,
+    "forced_merges": 20,
+    "non_three_colorable_leaves": 6,
+    "memoized_failures": 2
+  },
+  "equality_branch_trace": [
+    {
+      "depth": 0,
+      "components": 25,
+      "alternatives": [
+        [
+          0,
+          3
+        ],
+        [
+          24,
+          27
+        ]
+      ]
+    },
+    {
+      "depth": 1,
+      "components": 24,
+      "alternatives": [
+        [
+          6,
+          9
+        ],
+        [
+          15,
+          18
+        ]
+      ]
+    },
+    {
+      "depth": 2,
+      "components": 23,
+      "alternatives": [
+        [
+          15,
+          18
+        ],
+        [
+          33,
+          36
+        ]
+      ]
+    },
+    {
+      "depth": 2,
+      "components": 23,
+      "alternatives": [
+        [
+          6,
+          9
+        ],
+        [
+          24,
+          27
+        ]
+      ]
+    },
+    {
+      "depth": 1,
+      "components": 24,
+      "alternatives": [
+        [
+          0,
+          3
+        ],
+        [
+          33,
+          36
+        ]
+      ]
+    },
+    {
+      "depth": 2,
+      "components": 23,
+      "alternatives": [
+        [
+          6,
+          9
+        ],
+        [
+          15,
+          18
+        ]
+      ]
+    },
+    {
+      "depth": 2,
+      "components": 23,
+      "alternatives": [
+        [
+          6,
+          9
+        ],
+        [
+          15,
+          18
+        ]
+      ]
+    }
+  ],
+  "unit_relaxation_status": "SAT",
+  "unit_relaxation_roles": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "scope": "One graph; all role assignments ruled out by complete exact search over necessary-and-sufficient no-five-family clauses. Not a role census.",
+  "certificate_sha256": "0fdb8d70c13af9abaacba6da9dff1a4dc393a0a41945cfce0576a2891cbfcca2",
+  "frozen_note_sha256": "383aaa0dbd2451c98f7ab0dd635f8af771cd1a73bb46f501233e63a07dd629d3",
+  "checker_sha256": "c19bbeb37c26acfddf450ca7abbe73477e98a2ff0bc9c99b89f66ddaa054be0b",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "python_executable": "PRIVATE_PATH_REMOVED",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "elapsed_seconds": 0.027421792008681223,
+  "timeout_seconds": 30
+}

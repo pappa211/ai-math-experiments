@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/red_book_diagonal_singleton_bound_v1.md

@@ -1,0 +1,16 @@
+problems/TUZA-24/Tuza24/ForestMatchingDeletion.lean:38:40: error: Application type mismatch: The argument
+  hf
+has type
+  f ∈ insert g N
+but is expected to have type
+  f ∈ N
+in the application
+  hN.left f hf
+problems/TUZA-24/Tuza24/ForestMatchingDeletion.lean:71:76: error: Application type mismatch: The argument
+  hN
+has type
+  MaximumMatching (isolate G e) N
+but is expected to have type
+  EdgeMatching (isolate G e) ?m.57
+in the application
+  isolated_edge_not_mem_matching (hM.left.left e he) hN

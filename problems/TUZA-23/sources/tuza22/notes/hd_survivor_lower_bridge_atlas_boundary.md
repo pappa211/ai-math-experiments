@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/hd_survivor_lower_bridge_atlas_boundary.md

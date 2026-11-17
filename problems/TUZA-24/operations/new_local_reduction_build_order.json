@@ -1,0 +1,19 @@
+[
+  "Tuza06.GraphOperations",
+  "Tuza06.PageAugmentation",
+  "Tuza.Intersecting",
+  "Tuza.IntersectingStructure",
+  "Tuza06.UniqueEdge",
+  "Tuza06.SmallLinksBase",
+  "Tuza06.SmallLinksOperations",
+  "Tuza06.SmallLinksK3",
+  "Tuza06.SmallLinksPatterns",
+  "Tuza06.SmallLinksK4",
+  "Tuza06.SmallLinksCross",
+  "Tuza06.SmallLinksFour",
+  "Tuza06.SmallLinks",
+  "Tuza06.Reducible",
+  "Tuza06.SetPeeling",
+  "Tuza06.GraphPeeling",
+  "Tuza06.MatchingReduction"
+]

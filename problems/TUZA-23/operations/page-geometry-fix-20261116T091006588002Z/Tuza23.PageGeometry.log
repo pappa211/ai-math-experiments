@@ -1,0 +1,64 @@
+problems/TUZA-23/Tuza23/PageGeometry.lean:51:44: error: Application type mismatch: The argument
+  z
+has type
+  V
+of sort `Type u_1` but is expected to have type
+  Prop
+of sort `Type` in the application
+  @Iff.mp z
+problems/TUZA-23/Tuza23/PageGeometry.lean:52:44: error: Application type mismatch: The argument
+  z
+has type
+  V
+of sort `Type u_1` but is expected to have type
+  Prop
+of sort `Type` in the application
+  @Iff.mp z
+problems/TUZA-23/Tuza23/PageGeometry.lean:55:44: error: Application type mismatch: The argument
+  z
+has type
+  V
+of sort `Type u_1` but is expected to have type
+  Prop
+of sort `Type` in the application
+  @Iff.mp z
+problems/TUZA-23/Tuza23/PageGeometry.lean:56:44: error: Application type mismatch: The argument
+  z
+has type
+  V
+of sort `Type u_1` but is expected to have type
+  Prop
+of sort `Type` in the application
+  @Iff.mp z
+problems/TUZA-23/Tuza23/PageGeometry.lean:68:44: error: Application type mismatch: The argument
+  z
+has type
+  V
+of sort `Type u_1` but is expected to have type
+  Prop
+of sort `Type` in the application
+  @Iff.mp z
+problems/TUZA-23/Tuza23/PageGeometry.lean:69:44: error: Application type mismatch: The argument
+  z
+has type
+  V
+of sort `Type u_1` but is expected to have type
+  Prop
+of sort `Type` in the application
+  @Iff.mp z
+problems/TUZA-23/Tuza23/PageGeometry.lean:72:44: error: Application type mismatch: The argument
+  z
+has type
+  V
+of sort `Type u_1` but is expected to have type
+  Prop
+of sort `Type` in the application
+  @Iff.mp z
+problems/TUZA-23/Tuza23/PageGeometry.lean:73:44: error: Application type mismatch: The argument
+  z
+has type
+  V
+of sort `Type u_1` but is expected to have type
+  Prop
+of sort `Type` in the application
+  @Iff.mp z

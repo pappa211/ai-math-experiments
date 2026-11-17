@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/hd_distinct_good_books_residual_reduction_v1.md

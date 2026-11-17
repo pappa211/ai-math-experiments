@@ -1,0 +1,10021 @@
+{
+  "seed": 21032026,
+  "per_case_seconds": 3,
+  "minimum_cover_cap": 128,
+  "rows": [
+    {
+      "n": 4,
+      "m": 6,
+      "triangles": 4,
+      "tau": 2,
+      "checked_covers": 3,
+      "min_nu_private_seen": 1,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 7,
+      "pack_states": 5,
+      "name": "K4",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "graph_sha256": "57175d86920e97d9bf2ec0ddddc4455f05deb193d7895b1a3d0372dd19344eff"
+    },
+    {
+      "n": 5,
+      "m": 10,
+      "triangles": 10,
+      "tau": 4,
+      "checked_covers": 10,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 35,
+      "pack_states": 69,
+      "name": "K5",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "graph_sha256": "2b17afc4f7555389b0ae9aafa546b1dc26dbca4bd518297b4e882a1c2857043b"
+    },
+    {
+      "n": 6,
+      "m": 15,
+      "triangles": 20,
+      "tau": 6,
+      "checked_covers": 10,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 250,
+      "pack_states": 507,
+      "name": "K6",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "6a7041fdb76b314264b84c30c0fbb61fdea24851c72190eb17565c6c3c5e80d5"
+    },
+    {
+      "n": 7,
+      "m": 21,
+      "triangles": 35,
+      "tau": 9,
+      "checked_covers": 35,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 2688,
+      "pack_states": 9462,
+      "name": "K7",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "2ed7e3e8898c137bbf3cba7a85d9e0b751a51756055c3e1b48758088c6af94ff"
+    },
+    {
+      "n": 8,
+      "m": 18,
+      "triangles": 16,
+      "tau": 6,
+      "checked_covers": 8,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 92,
+      "pack_states": 87,
+      "name": "switched4",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "graph_sha256": "a0d8b7dd9b3cb351373ddc876ae7b521afead733a193c7bb77d43f69b7196260"
+    },
+    {
+      "n": 12,
+      "m": 29,
+      "triangles": 26,
+      "tau": 10,
+      "checked_covers": 56,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 339,
+      "pack_states": 728,
+      "name": "tuza20_12",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "graph_sha256": "2562e7b9beafc5d5a189b3980103d8bd0d6837052293c80474b7c0248de32ae6"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "triangles": 8,
+      "tau": 4,
+      "checked_covers": 9,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 19,
+      "pack_states": 13,
+      "name": "cliques_4_4_overlap1",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "8e1e5ffcdae0c4598f2e0c8fdf5ab9bb9fcc9fffc11876f5308937041f373961"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 25,
+      "pack_states": 12,
+      "name": "cliques_4_4_overlap2",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "fe5862e691af23afc206b93b4978b229721b592c1ebf07806192671db993110b"
+    },
+    {
+      "n": 5,
+      "m": 9,
+      "triangles": 7,
+      "tau": 3,
+      "checked_covers": 4,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 17,
+      "pack_states": 11,
+      "name": "cliques_4_4_overlap3",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "graph_sha256": "0d0c89c320edac2d85a21527879b5ee54e0754f6b4405e430eaa06e49210702e"
+    },
+    {
+      "n": 8,
+      "m": 16,
+      "triangles": 14,
+      "tau": 6,
+      "checked_covers": 30,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 101,
+      "pack_states": 133,
+      "name": "cliques_5_4_overlap1",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "aa6548d34509f4dda83dadd2f74f117259d9f1bcb23fed4287619f1c45c88123"
+    },
+    {
+      "n": 7,
+      "m": 15,
+      "triangles": 14,
+      "tau": 5,
+      "checked_covers": 4,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 105,
+      "pack_states": 70,
+      "name": "cliques_5_4_overlap2",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "6d9ac95a065136df8f809505c561613fdc546ee54b09b9962088d7506b8f03ed"
+    },
+    {
+      "n": 6,
+      "m": 13,
+      "triangles": 13,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 67,
+      "pack_states": 38,
+      "name": "cliques_5_4_overlap3",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "graph_sha256": "fb5dbf15296dcc6ccb6e69a874b2c75ece4bfd12413d93776b0b5231a411b88d"
+    },
+    {
+      "n": 8,
+      "m": 19,
+      "triangles": 20,
+      "tau": 7,
+      "checked_covers": 16,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 393,
+      "pack_states": 361,
+      "name": "cliques_5_5_overlap2",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "6dbf1204b7bf6f7bcdfa2440eece08af968979cc75b907daf650170a0ba30777"
+    },
+    {
+      "n": 7,
+      "m": 17,
+      "triangles": 19,
+      "tau": 5,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 262,
+      "pack_states": 120,
+      "name": "cliques_5_5_overlap3",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "8cfef9e858acb9f997d72d3260b143351ea4a4c18edc68ec0305adfb3dacff6d"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 6,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 15,
+      "pack_states": 10,
+      "name": "bipartite_substrate_6_0",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "graph_sha256": "20f5c195f04345ef6046f3bbdf8b39b246f5aac3eec0a7a7b3592436492b2084"
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "triangles": 1,
+      "tau": 1,
+      "checked_covers": 3,
+      "min_nu_private_seen": 1,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 2,
+      "pack_states": 2,
+      "name": "bipartite_substrate_6_1",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "graph_sha256": "f9261b18f405357ff5aae37f6cc8c340f64c907430aa0c20de57d300e12041ed"
+    },
+    {
+      "n": 6,
+      "m": 9,
+      "triangles": 4,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 7,
+      "pack_states": 7,
+      "name": "bipartite_substrate_6_2",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "cd905fc75bfd7a3041e497bfa696bb5b3506ad0965e3908270ce9075e25e64b0"
+    },
+    {
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "checked_covers": 4,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 122,
+      "pack_states": 93,
+      "name": "bipartite_substrate_6_3",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "90c50ff159c9b30a75a9760b152068865f012cd7a64ad1dd5af4bcdabfd66c62"
+    },
+    {
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "checked_covers": 4,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 122,
+      "pack_states": 135,
+      "name": "bipartite_substrate_6_4",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "46aaf385f1a486674e21d77809b68a9469979240bcb12233387313c64b565332"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "checked_covers": 5,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 24,
+      "pack_states": 29,
+      "name": "bipartite_substrate_6_5",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "14f65dd0e20aaed477f6b7acc8c1bb0ed0e50b6d4719db6e193c0775ea0fd667"
+    },
+    {
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "checked_covers": 4,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 85,
+      "pack_states": 100,
+      "name": "bipartite_substrate_6_6",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "dee2e069fa0c5054a3efb48c871d7b1f22d18cd414ed34f04ded26b37b2aed18"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 19,
+      "pack_states": 15,
+      "name": "bipartite_substrate_6_7",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "a2a356fc2febaad3693e558f40359160d3f82810431d6bacac5dc39d1dbb3c63"
+    },
+    {
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "checked_covers": 2,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 62,
+      "pack_states": 35,
+      "name": "bipartite_substrate_6_8",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "3a859122710a62100d3c5ec436adf24ea6a36dc628a182d2cd539685fb528c43"
+    },
+    {
+      "n": 6,
+      "m": 10,
+      "triangles": 5,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 9,
+      "pack_states": 8,
+      "name": "bipartite_substrate_6_9",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "ce790912abe980dfce247b71d561ec9fb982fb82d2317e94e161f24a0ceb2772"
+    },
+    {
+      "n": 6,
+      "m": 9,
+      "triangles": 3,
+      "tau": 2,
+      "checked_covers": 3,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 4,
+      "pack_states": 4,
+      "name": "bipartite_substrate_6_10",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "08abe42ce659a45543c10ec609f58c7712a944588468cfeabf9c11d110bc436b"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 6,
+      "tau": 3,
+      "checked_covers": 3,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 13,
+      "pack_states": 12,
+      "name": "bipartite_substrate_6_11",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "graph_sha256": "81826757ac955038f4f3cf7a45ddb69e63dc966a1dda9eb034d650f74c7cd9a2"
+    },
+    {
+      "n": 6,
+      "m": 10,
+      "triangles": 5,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 8,
+      "pack_states": 6,
+      "name": "bipartite_substrate_6_12",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "49afb62eafa5b08439b49230d032129d912d9a3ed3f66c715be1ecaf299685e2"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "triangles": 8,
+      "tau": 4,
+      "checked_covers": 9,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 28,
+      "pack_states": 18,
+      "name": "bipartite_substrate_6_13",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "a53de106e6f8fd7200b78bc9e0d83a2de379abb22cffb01492ee1961a3295931"
+    },
+    {
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "checked_covers": 2,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 62,
+      "pack_states": 34,
+      "name": "bipartite_substrate_6_14",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "34d364618abd117a3a21cd29c64b6e55c35c17fd58b7e16a303e022fbe6b587f"
+    },
+    {
+      "n": 6,
+      "m": 13,
+      "triangles": 13,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 67,
+      "pack_states": 38,
+      "name": "bipartite_substrate_6_15",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "graph_sha256": "fb5dbf15296dcc6ccb6e69a874b2c75ece4bfd12413d93776b0b5231a411b88d"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "checked_covers": 5,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 55,
+      "pack_states": 32,
+      "name": "bipartite_substrate_6_16",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "57c1ac731c7f5568e96a77fcd5fa9a2f38087dafdc2e41bf9da1073231c04e18"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "triangles": 9,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 29,
+      "pack_states": 21,
+      "name": "bipartite_substrate_6_17",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "fcd50cfcee5adcf839b6639642db1f6b71cbf1f24a771087fbb33017b1ac6a4c"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 31,
+      "pack_states": 20,
+      "name": "bipartite_substrate_6_18",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "70b452a21148752d9f7c71ae261d8b023814a8b3842c1a431108f138be3faba7"
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "triangles": 1,
+      "tau": 1,
+      "checked_covers": 3,
+      "min_nu_private_seen": 1,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 2,
+      "pack_states": 2,
+      "name": "bipartite_substrate_6_19",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "01e35a982cf4ee41eaa36b6218ca643ceb261d596c1e43a8a61f073da096169a"
+    },
+    {
+      "n": 6,
+      "m": 10,
+      "triangles": 6,
+      "tau": 3,
+      "checked_covers": 7,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 12,
+      "pack_states": 14,
+      "name": "bipartite_substrate_6_20",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "b49cd079b784d43b4ca512ca16fcceef70b65dabdaf11e5fe3eff2d6c37cab6b"
+    },
+    {
+      "n": 6,
+      "m": 13,
+      "triangles": 13,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 79,
+      "pack_states": 40,
+      "name": "bipartite_substrate_6_21",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "89d84b10dac00743fb65e3e60ebf476c5624e50b9681aef936880bc379179bf4"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 6,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 11,
+      "pack_states": 10,
+      "name": "bipartite_substrate_6_22",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "236a576f4671a60c2d81084e1beedda2e631dc7010f1271cf81936ae2e11607e"
+    },
+    {
+      "n": 6,
+      "m": 9,
+      "triangles": 4,
+      "tau": 2,
+      "checked_covers": 3,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 5,
+      "pack_states": 6,
+      "name": "bipartite_substrate_6_23",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "graph_sha256": "55e203fe6c16c5b3165f162bf29432c8a9729f2bc5f136fc9bf622edc87cda0b"
+    },
+    {
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 2,
+      "checked_covers": 9,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 3,
+      "pack_states": 3,
+      "name": "bipartite_substrate_6_24",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "a86f7ea789661d08897ef5455ca0f24213edee9f53a97367f71871a0c9af02cb"
+    },
+    {
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "checked_covers": 1,
+      "min_nu_private_seen": 1,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 3,
+      "pack_states": 3,
+      "name": "bipartite_substrate_6_25",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "a7e5cb5128d18dfce70780953f59fe6ce4aa5c7c0a5897a3014d9861eb66b002"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 4,
+      "checked_covers": 5,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 40,
+      "pack_states": 35,
+      "name": "bipartite_substrate_6_26",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "9d46a3c828e86e032d74937d2ecea21c2a4cfdff00cbe9d13968956e64e57bf9"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 37,
+      "pack_states": 20,
+      "name": "bipartite_substrate_6_27",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "graph_sha256": "483b85d18db198cab9f9acf611d708df1d3aa53f931bfdf300bc505445fceebf"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "triangles": 11,
+      "tau": 4,
+      "checked_covers": 4,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 50,
+      "pack_states": 52,
+      "name": "bipartite_substrate_6_28",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "986ac5b1b7b3336e832b73b2d247ab5310de9eea903d9c748324833ce6f63167"
+    },
+    {
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "checked_covers": 1,
+      "min_nu_private_seen": 1,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 3,
+      "pack_states": 3,
+      "name": "bipartite_substrate_6_29",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "graph_sha256": "a4141ce32a1f4eb5ce6ff91bcbfe5036b46ca058e488a8e9b6aa30bad5b78aa8"
+    },
+    {
+      "n": 6,
+      "m": 8,
+      "triangles": 2,
+      "tau": 1,
+      "checked_covers": 1,
+      "min_nu_private_seen": 1,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 3,
+      "pack_states": 3,
+      "name": "bipartite_substrate_6_30",
+      "edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "c2d2fd3eebf0717b3d49f32bcf19457389383ce0bd0ca5a8156081b041742934"
+    },
+    {
+      "n": 6,
+      "m": 10,
+      "triangles": 6,
+      "tau": 3,
+      "checked_covers": 5,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 13,
+      "pack_states": 14,
+      "name": "bipartite_substrate_6_31",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "9078356e43e6af5bc2120b87c698511bec36a0356731778992826d71048c0e83"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 6,
+      "tau": 3,
+      "checked_covers": 3,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 13,
+      "pack_states": 12,
+      "name": "bipartite_substrate_6_32",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "graph_sha256": "db333b95c7e7e836e01ad9bf4482dfcf6b033104f36ed65667e159fe561bddf4"
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 38,
+      "pack_states": 20,
+      "name": "bipartite_substrate_6_33",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "3feec7c6e2f2cb7778629be2e626c920dd596fc542a996d3d6a8028eef16c2a9"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 19,
+      "pack_states": 15,
+      "name": "bipartite_substrate_6_34",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "a2a356fc2febaad3693e558f40359160d3f82810431d6bacac5dc39d1dbb3c63"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 7,
+      "tau": 3,
+      "checked_covers": 4,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 18,
+      "pack_states": 15,
+      "name": "bipartite_substrate_6_35",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "graph_sha256": "1ccf327e0a1c5b01686351894e7e6736b90dcfb91321adcc4a6c83bdef367936"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 22,
+      "pack_states": 12,
+      "name": "bipartite_substrate_6_36",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "graph_sha256": "197ba0495db59fd9d0d654dc85690ed8442d630e082d3df01a45eeee909120b2"
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "triangles": 7,
+      "tau": 3,
+      "checked_covers": 2,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 21,
+      "pack_states": 14,
+      "name": "bipartite_substrate_6_37",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "8cb07334ed78956caed5465992fe1f3151d20647ced153e24c1d4372e6173bbb"
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "triangles": 1,
+      "tau": 1,
+      "checked_covers": 3,
+      "min_nu_private_seen": 1,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 2,
+      "pack_states": 2,
+      "name": "bipartite_substrate_6_38",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "graph_sha256": "cc62ba04273e4050214f6b81f25efc10d6027829ff87a2bfde40ac053be9bb6a"
+    },
+    {
+      "n": 6,
+      "m": 10,
+      "triangles": 4,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 5,
+      "pack_states": 5,
+      "name": "bipartite_substrate_6_39",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "0cce0fca9e17afa55d896f2a7340cabc69c734c323d4ca48a8a553ec2ef7c0d2"
+    },
+    {
+      "n": 7,
+      "m": 18,
+      "triangles": 20,
+      "tau": 6,
+      "checked_covers": 3,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 363,
+      "pack_states": 158,
+      "name": "bipartite_substrate_7_0",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "ab79b7323cafb8f068327b3b6d4b0212babebac2ce8b509dd8aaa3de176eff22"
+    },
+    {
+      "n": 7,
+      "m": 16,
+      "triangles": 15,
+      "tau": 5,
+      "checked_covers": 3,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 65,
+      "pack_states": 56,
+      "name": "bipartite_substrate_7_1",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "448142dc7be447524252567029a4d025d70fc3495a5158b1475236f48339c2f5"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "triangles": 5,
+      "tau": 3,
+      "checked_covers": 7,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 8,
+      "pack_states": 11,
+      "name": "bipartite_substrate_7_2",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "494bf363a39e697dcbd54cd8e59375521e2c18f06364db667ad13dddee64cf16"
+    },
+    {
+      "n": 7,
+      "m": 15,
+      "triangles": 11,
+      "tau": 4,
+      "checked_covers": 3,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 53,
+      "pack_states": 34,
+      "name": "bipartite_substrate_7_3",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "87af195c211bca317135b5ae322a7d65583b3a0d62aaca619273f4bfdcd98fff"
+    },
+    {
+      "n": 7,
+      "m": 15,
+      "triangles": 16,
+      "tau": 5,
+      "checked_covers": 4,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 142,
+      "pack_states": 123,
+      "name": "bipartite_substrate_7_4",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "413322b307072dd6bf0d85f9586636e0525ac091bfd0f568f69fff5f5a8fb2ef"
+    },
+    {
+      "n": 7,
+      "m": 13,
+      "triangles": 7,
+      "tau": 3,
+      "checked_covers": 2,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 20,
+      "pack_states": 11,
+      "name": "bipartite_substrate_7_5",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "graph_sha256": "25b99cbfe639df0a89d5adf38eb88c4fec571a7fb9d1d54383398467d32a4312"
+    },
+    {
+      "n": 7,
+      "m": 13,
+      "triangles": 9,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 24,
+      "pack_states": 16,
+      "name": "bipartite_substrate_7_6",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "06b1d6523b64e6105bb8cb18e863049ff07a36b1c50f19d9e6d1c0fe57d2af91"
+    },
+    {
+      "n": 7,
+      "m": 14,
+      "triangles": 10,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 41,
+      "pack_states": 24,
+      "name": "bipartite_substrate_7_7",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "b5be5ab6154a2496cd9d0c0186d588bec83fecfec0cb242d056c41d958b4ec27"
+    },
+    {
+      "n": 7,
+      "m": 16,
+      "triangles": 14,
+      "tau": 5,
+      "checked_covers": 4,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 76,
+      "pack_states": 79,
+      "name": "bipartite_substrate_7_8",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "54e88b6cb27cd922754e123f30a614d070685bb3df1893e935873b6eaabc257f"
+    },
+    {
+      "n": 7,
+      "m": 16,
+      "triangles": 14,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 77,
+      "pack_states": 47,
+      "name": "bipartite_substrate_7_9",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "3d5caeb185fe29f00e6350d9e8164c7767019749e1551430efc153bc945f786e"
+    },
+    {
+      "n": 7,
+      "m": 17,
+      "triangles": 17,
+      "tau": 5,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 208,
+      "pack_states": 99,
+      "name": "bipartite_substrate_7_10",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "88638ad7a069b33ca9db629ee8f353fb2f5b09504f2e1f92e23ddfc92dc0633d"
+    },
+    {
+      "n": 7,
+      "m": 13,
+      "triangles": 7,
+      "tau": 3,
+      "checked_covers": 2,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 17,
+      "pack_states": 15,
+      "name": "bipartite_substrate_7_11",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "f82299df15a5f54ff54a00d753a2f7f95fe873cf2d2cdc21e4bebe94ab46a3d6"
+    },
+    {
+      "n": 7,
+      "m": 14,
+      "triangles": 8,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 22,
+      "pack_states": 15,
+      "name": "bipartite_substrate_7_12",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "731cbfb3b249d354cbdc6e971c67fbb2ad1df941411598131a3501537c490368"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "triangles": 6,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 11,
+      "pack_states": 9,
+      "name": "bipartite_substrate_7_13",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "7b06a3a0178cca2dffc79165751abcb82cab65fa4313318017b92ab1e342a345"
+    },
+    {
+      "n": 7,
+      "m": 18,
+      "triangles": 23,
+      "tau": 6,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 380,
+      "pack_states": 178,
+      "name": "bipartite_substrate_7_14",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "5dd217ead8df523beb60158f1ef58d25f3d6338af6e7abcc19a49ebf000fd87a"
+    },
+    {
+      "n": 7,
+      "m": 15,
+      "triangles": 13,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 54,
+      "pack_states": 36,
+      "name": "bipartite_substrate_7_15",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "3e4770cbfb26cfe38a28b19458a40ab7a10c1d7df530478fa43dffec94f9cfd0"
+    },
+    {
+      "n": 7,
+      "m": 13,
+      "triangles": 6,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 12,
+      "pack_states": 10,
+      "name": "bipartite_substrate_7_16",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "0ea50a4adee5726c13fd6dd67814dca9c51de23592d6aedca9daa5feac9a9122"
+    },
+    {
+      "n": 7,
+      "m": 18,
+      "triangles": 22,
+      "tau": 6,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 550,
+      "pack_states": 160,
+      "name": "bipartite_substrate_7_17",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "2a4da7c1efa91ea6040d523ff4eaa4833252f70496aff9fa28da06d5f971f42b"
+    },
+    {
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "checked_covers": 15,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 1619,
+      "pack_states": 2789,
+      "name": "bipartite_substrate_7_18",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "2d5f4b6f1f797510fa366d0fa01a2c6b89362c7c4b92744687d3f1f82d16f2a0"
+    },
+    {
+      "n": 7,
+      "m": 17,
+      "triangles": 17,
+      "tau": 5,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 249,
+      "pack_states": 122,
+      "name": "bipartite_substrate_7_19",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "4e2bf749ad78524cd575407c3ed847afa4f91eca532effd6d0917b5432400b1a"
+    },
+    {
+      "n": 7,
+      "m": 11,
+      "triangles": 5,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 9,
+      "pack_states": 7,
+      "name": "bipartite_substrate_7_20",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "graph_sha256": "3a175f945416ba08d82cda4535a8a8188a781026528716c5fd857a28b9fd16a6"
+    },
+    {
+      "n": 7,
+      "m": 20,
+      "triangles": 30,
+      "tau": 8,
+      "checked_covers": 15,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 1647,
+      "pack_states": 2807,
+      "name": "bipartite_substrate_7_21",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "eaba622e757be0f5ee6d246056db8f5c998f5ecbafe1376ea53bfc115ffcc7ee"
+    },
+    {
+      "n": 7,
+      "m": 14,
+      "triangles": 11,
+      "tau": 4,
+      "checked_covers": 2,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 37,
+      "pack_states": 25,
+      "name": "bipartite_substrate_7_22",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "5544c8332c6fe391326ac6e3756ec0919434bd46cda995724d28ecc6f448c7fe"
+    },
+    {
+      "n": 7,
+      "m": 14,
+      "triangles": 9,
+      "tau": 4,
+      "checked_covers": 8,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 35,
+      "pack_states": 37,
+      "name": "bipartite_substrate_7_23",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "6cc79b96495d4ed16a3b39e3a8ceb6bde902df9c5ca1c07a9d31cc09d8069095"
+    },
+    {
+      "n": 7,
+      "m": 11,
+      "triangles": 5,
+      "tau": 3,
+      "checked_covers": 9,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 8,
+      "pack_states": 9,
+      "name": "bipartite_substrate_7_24",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "5cf79ef288a83cf9a6a316fefdcfcfb83d9d27f3e51c9ad574e7416a588f0422"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "triangles": 5,
+      "tau": 3,
+      "checked_covers": 7,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 11,
+      "pack_states": 13,
+      "name": "bipartite_substrate_7_25",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "49dec656c8b14be49eb7fa0f2ec219ea99300185b3abd63392368d4e599e75f4"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "triangles": 7,
+      "tau": 4,
+      "checked_covers": 33,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 13,
+      "pack_states": 19,
+      "name": "bipartite_substrate_7_26",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "84065b120a5bc56d4fb353b4ab442fb932c48e0db65b32cd80e926e2bea84d9d"
+    },
+    {
+      "n": 7,
+      "m": 15,
+      "triangles": 11,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 34,
+      "pack_states": 30,
+      "name": "bipartite_substrate_7_27",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "fb01252e8bcd0914095f45b69d5e2cf28f9c3c444c1b056b5ad11fa4e018a1f9"
+    },
+    {
+      "n": 7,
+      "m": 10,
+      "triangles": 3,
+      "tau": 2,
+      "checked_covers": 3,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 4,
+      "pack_states": 4,
+      "name": "bipartite_substrate_7_28",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "c614097238d98f2d27dfd46077efee43730a1076b20473b9f30967dea4bcbf25"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "triangles": 5,
+      "tau": 3,
+      "checked_covers": 5,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 8,
+      "pack_states": 9,
+      "name": "bipartite_substrate_7_29",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "7815ad207ac55a604db24eaf1d214038990e157a6d51dc8c9a625e0533626d44"
+    },
+    {
+      "n": 7,
+      "m": 19,
+      "triangles": 25,
+      "tau": 7,
+      "checked_covers": 7,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 554,
+      "pack_states": 825,
+      "name": "bipartite_substrate_7_30",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "854bb09268d7f15748376e60ca77bb0853214d3c586fb891be9a8ed822c94110"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "triangles": 5,
+      "tau": 3,
+      "checked_covers": 5,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 8,
+      "pack_states": 8,
+      "name": "bipartite_substrate_7_31",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "4cfe0e673a9840b86d37493110823fed6aa782709d0801e77db4bed7dac6a4cf"
+    },
+    {
+      "n": 7,
+      "m": 15,
+      "triangles": 11,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 67,
+      "pack_states": 30,
+      "name": "bipartite_substrate_7_32",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "ec5ce8055c0f88e7275be30a56709d6272abe299f5b58d680c1308c3dbcf53b2"
+    },
+    {
+      "n": 7,
+      "m": 13,
+      "triangles": 10,
+      "tau": 4,
+      "checked_covers": 5,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 36,
+      "pack_states": 35,
+      "name": "bipartite_substrate_7_33",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "graph_sha256": "5e754475aed988fe742316d9d16f13329662da8fba6e2c88faaed97bcfd1d14e"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "triangles": 6,
+      "tau": 3,
+      "checked_covers": 7,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 11,
+      "pack_states": 14,
+      "name": "bipartite_substrate_7_34",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "9a037abcbc8dd6799fd4c549fa39a0f1645dba7b6398977576dc4376910e4d2c"
+    },
+    {
+      "n": 7,
+      "m": 14,
+      "triangles": 9,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 31,
+      "pack_states": 18,
+      "name": "bipartite_substrate_7_35",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "d40f657a486758685cc1ced91981811f84c750f2b6c24a5cfa3f4eaf772f64e7"
+    },
+    {
+      "n": 7,
+      "m": 12,
+      "triangles": 3,
+      "tau": 1,
+      "checked_covers": 1,
+      "min_nu_private_seen": 1,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 4,
+      "pack_states": 4,
+      "name": "bipartite_substrate_7_36",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "graph_sha256": "322e2a80e31b14d445d40efacb47bca0f6dec30e11d87dae96e57d5128757837"
+    },
+    {
+      "n": 7,
+      "m": 19,
+      "triangles": 25,
+      "tau": 7,
+      "checked_covers": 7,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 717,
+      "pack_states": 905,
+      "name": "bipartite_substrate_7_37",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "dad3109b1acec6ba1d37faded5f29dc168a47687ef1fdb27e94331849c9b58ba"
+    },
+    {
+      "n": 7,
+      "m": 16,
+      "triangles": 17,
+      "tau": 5,
+      "checked_covers": 2,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 177,
+      "pack_states": 130,
+      "name": "bipartite_substrate_7_38",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "80015b973da4b513f3efbcac5b3563aa1b7e367cd4399a158ba4192b10237b08"
+    },
+    {
+      "n": 7,
+      "m": 14,
+      "triangles": 8,
+      "tau": 3,
+      "checked_covers": 2,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 24,
+      "pack_states": 16,
+      "name": "bipartite_substrate_7_39",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "3810be8b9ec77a40163609fd1134474f7b8be6276f43276f014484c14ff8d5da"
+    },
+    {
+      "n": 8,
+      "m": 20,
+      "triangles": 17,
+      "tau": 6,
+      "checked_covers": 2,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 285,
+      "pack_states": 115,
+      "name": "bipartite_substrate_8_0",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "23e991075933ea216927959ee7d5f68ac7749e090dab7bfa82bb829975c4ba8d"
+    },
+    {
+      "n": 8,
+      "m": 19,
+      "triangles": 16,
+      "tau": 5,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 148,
+      "pack_states": 66,
+      "name": "bipartite_substrate_8_1",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "2f9431139b897ec2e5cb4b85f373846aa5f300be1aa9363d672a44983f96a964"
+    },
+    {
+      "n": 8,
+      "m": 22,
+      "triangles": 25,
+      "tau": 6,
+      "checked_covers": 1,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 1088,
+      "pack_states": 282,
+      "name": "bipartite_substrate_8_2",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "fcb56fa1211ce4189fc332c7e33ad0392d4d9667272e81370ffe23eb3e6e9608"
+    },
+    {
+      "n": 8,
+      "m": 18,
+      "triangles": 13,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 68,
+      "pack_states": 43,
+      "name": "bipartite_substrate_8_3",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "1d6a769fbcf73a58697228f5b9654e7351ee5a97532467b29af20e820dcdc438"
+    },
+    {
+      "n": 8,
+      "m": 19,
+      "triangles": 19,
+      "tau": 6,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 356,
+      "pack_states": 140,
+      "name": "bipartite_substrate_8_4",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "828bd46b0ac8807a0214d7f6b7074fbe3c65859806173c5db8fc166f5300e73f"
+    },
+    {
+      "n": 8,
+      "m": 18,
+      "triangles": 11,
+      "tau": 5,
+      "checked_covers": 8,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 33,
+      "pack_states": 46,
+      "name": "bipartite_substrate_8_5",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "fcf2aa4ade74086af32f63f7f667f0d2005a60bc5e087c4cd5682f6a992f4865"
+    },
+    {
+      "n": 8,
+      "m": 23,
+      "triangles": 30,
+      "tau": 7,
+      "checked_covers": 1,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 3672,
+      "pack_states": 769,
+      "name": "bipartite_substrate_8_6",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "3a044cca0498b7368bf85b40a8955b869698812e40b8bbe18d9edbd01d049b19"
+    },
+    {
+      "n": 8,
+      "m": 20,
+      "triangles": 22,
+      "tau": 7,
+      "checked_covers": 8,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 599,
+      "pack_states": 409,
+      "name": "bipartite_substrate_8_7",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "6703ceec555c0841146df78caad7242ad7a7f80deeb091f9301c3cb0f8c4e50c"
+    },
+    {
+      "n": 8,
+      "m": 20,
+      "triangles": 21,
+      "tau": 6,
+      "checked_covers": 3,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 307,
+      "pack_states": 256,
+      "name": "bipartite_substrate_8_8",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "5cbe91abe8e10fddd97eca6ee27646fa7d2141dd2ef185f06b05082538e7779c"
+    },
+    {
+      "n": 8,
+      "m": 17,
+      "triangles": 10,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 47,
+      "pack_states": 26,
+      "name": "bipartite_substrate_8_9",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "fcc85be39470f31f4ccd75ae26b55f0bbb246cda5be9c8d0c42fb8f34ecc4b57"
+    },
+    {
+      "n": 8,
+      "m": 20,
+      "triangles": 19,
+      "tau": 6,
+      "checked_covers": 4,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 274,
+      "pack_states": 206,
+      "name": "bipartite_substrate_8_10",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "10c61e1635d02b6d286c43bc2f95fa5d6a466d51a003d043a2c6130345075f5d"
+    },
+    {
+      "n": 8,
+      "m": 15,
+      "triangles": 4,
+      "tau": 2,
+      "checked_covers": 1,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 7,
+      "pack_states": 6,
+      "name": "bipartite_substrate_8_11",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "graph_sha256": "878c3eae348d50165e4155e325703e0a887225061e3a1cfd6ba20e495de51185"
+    },
+    {
+      "n": 8,
+      "m": 18,
+      "triangles": 13,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 46,
+      "pack_states": 34,
+      "name": "bipartite_substrate_8_12",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "d492d884a58a32273e7d97d9748e130b5b970de0bc206bc7f2010dc2948a658c"
+    },
+    {
+      "n": 8,
+      "m": 20,
+      "triangles": 18,
+      "tau": 5,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 350,
+      "pack_states": 134,
+      "name": "bipartite_substrate_8_13",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "15dd37754eac0490be7383744868c51851173732022157f18f661548733fe07e"
+    },
+    {
+      "n": 8,
+      "m": 15,
+      "triangles": 6,
+      "tau": 3,
+      "checked_covers": 4,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 16,
+      "pack_states": 10,
+      "name": "bipartite_substrate_8_14",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "graph_sha256": "25a7ce979096af52b68a64045a5ee7f7aabfd58b029d276c8d7b8260bf5de1ad"
+    },
+    {
+      "n": 8,
+      "m": 19,
+      "triangles": 14,
+      "tau": 5,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 118,
+      "pack_states": 78,
+      "name": "bipartite_substrate_8_15",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "f09de47742582e5e746f24d0fec30a2858447464818f180a4dce88806aa542a0"
+    },
+    {
+      "n": 8,
+      "m": 18,
+      "triangles": 13,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 60,
+      "pack_states": 37,
+      "name": "bipartite_substrate_8_16",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "40156b037931b906a2f952511733bd6e06807cf92e6ab8d027c591e943d8745c"
+    },
+    {
+      "n": 8,
+      "m": 12,
+      "triangles": 3,
+      "tau": 2,
+      "checked_covers": 3,
+      "min_nu_private_seen": 2,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 4,
+      "pack_states": 4,
+      "name": "bipartite_substrate_8_17",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "f947c4a44cbb1555af27e12b32e84a6ec6102670dd60d6864ac4f90bd6a1559b"
+    },
+    {
+      "n": 8,
+      "m": 19,
+      "triangles": 14,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 86,
+      "pack_states": 54,
+      "name": "bipartite_substrate_8_18",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "bbf964f9b24df8c5f9945baebae0c780556d75e94396e93705d01b7798462349"
+    },
+    {
+      "n": 8,
+      "m": 16,
+      "triangles": 13,
+      "tau": 5,
+      "checked_covers": 6,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 67,
+      "pack_states": 75,
+      "name": "bipartite_substrate_8_19",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "4ac25d21af804756240300d0ef58ce22d2a5e9a5a1f10ebbeba914cc3a954e65"
+    },
+    {
+      "n": 8,
+      "m": 21,
+      "triangles": 21,
+      "tau": 6,
+      "checked_covers": 2,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 523,
+      "pack_states": 202,
+      "name": "bipartite_substrate_8_20",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "efb685f4f1c77f5ee5c34aba374325d949a189859794bca10ef2e97b8a09b93c"
+    },
+    {
+      "n": 8,
+      "m": 21,
+      "triangles": 24,
+      "tau": 7,
+      "checked_covers": 1,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 590,
+      "pack_states": 255,
+      "name": "bipartite_substrate_8_21",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "34895aac2fd905bb999e755132450d4f193ad65ca6ac54f499523f3adcb8d59c"
+    },
+    {
+      "n": 8,
+      "m": 17,
+      "triangles": 11,
+      "tau": 4,
+      "checked_covers": 2,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 35,
+      "pack_states": 31,
+      "name": "bipartite_substrate_8_22",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "dab74664fe006b107b139e0fb5410e475a87d7471ce6256c380816a25834e0f3"
+    },
+    {
+      "n": 8,
+      "m": 16,
+      "triangles": 9,
+      "tau": 4,
+      "checked_covers": 6,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 28,
+      "pack_states": 27,
+      "name": "bipartite_substrate_8_23",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "07796495c66be6fbcd14e8cd4212e68bc9fee6afd3af7ea164eb4b0875751297"
+    },
+    {
+      "n": 8,
+      "m": 18,
+      "triangles": 13,
+      "tau": 5,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 124,
+      "pack_states": 58,
+      "name": "bipartite_substrate_8_24",
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "e890f33b7c0233241391f5469e850637cc56be9de329aa3660a51ae8dbece200"
+    },
+    {
+      "n": 8,
+      "m": 18,
+      "triangles": 12,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 83,
+      "pack_states": 36,
+      "name": "bipartite_substrate_8_25",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "bcdcd344ee46a7c45a923a54b3b80a294f1277cd28459bbc96e9fb9a15a2ff6d"
+    },
+    {
+      "n": 8,
+      "m": 20,
+      "triangles": 18,
+      "tau": 5,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 115,
+      "pack_states": 66,
+      "name": "bipartite_substrate_8_26",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "38984584368635b955e7a88def14e979026ec35044f108e4b960538839e08b23"
+    },
+    {
+      "n": 8,
+      "m": 18,
+      "triangles": 20,
+      "tau": 6,
+      "checked_covers": 10,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 250,
+      "pack_states": 507,
+      "name": "bipartite_substrate_8_27",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "c05743841c9a197ad9181dacbd3fa432331c4f8becbb57649969136e3ee9c91f"
+    },
+    {
+      "n": 8,
+      "m": 20,
+      "triangles": 18,
+      "tau": 5,
+      "checked_covers": 1,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 229,
+      "pack_states": 138,
+      "name": "bipartite_substrate_8_28",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "graph_sha256": "24f37e2d7411f5314c002ad2ba4f4cd6f3d3b6a5a05a1275e43b03a047c27d6a"
+    },
+    {
+      "n": 8,
+      "m": 16,
+      "triangles": 9,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 19,
+      "pack_states": 17,
+      "name": "bipartite_substrate_8_29",
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "0d31f329020abbef1cc4bac321b1611d3aac29b522068b4f1f8ec2d7f9d524c3"
+    },
+    {
+      "n": 8,
+      "m": 24,
+      "triangles": 36,
+      "tau": 9,
+      "checked_covers": 7,
+      "min_nu_private_seen": 7,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 2724,
+      "pack_states": 4006,
+      "name": "bipartite_substrate_8_30",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "375e3926a707ede5617c04fd67c9a0cb18d9c6fb5a75d8e3777160f71747a4a6"
+    },
+    {
+      "n": 8,
+      "m": 22,
+      "triangles": 26,
+      "tau": 8,
+      "checked_covers": 12,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 625,
+      "pack_states": 1761,
+      "name": "bipartite_substrate_8_31",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "427c4c66703ee9918807207ff9e2de804b338703f826b9ba13dfefcde8984be5"
+    },
+    {
+      "n": 8,
+      "m": 18,
+      "triangles": 13,
+      "tau": 5,
+      "checked_covers": 2,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 110,
+      "pack_states": 47,
+      "name": "bipartite_substrate_8_32",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "graph_sha256": "9fba70c75b3a2705e128d4f23540075404704f829515c5dd5cdffb7596951ce6"
+    },
+    {
+      "n": 8,
+      "m": 17,
+      "triangles": 10,
+      "tau": 5,
+      "checked_covers": 11,
+      "min_nu_private_seen": 5,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 31,
+      "pack_states": 34,
+      "name": "bipartite_substrate_8_33",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "69f0f2a1abf5be67870b5a119893cc342406df8073d9e862f887becbc800340a"
+    },
+    {
+      "n": 8,
+      "m": 22,
+      "triangles": 27,
+      "tau": 7,
+      "checked_covers": 1,
+      "min_nu_private_seen": 7,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 1269,
+      "pack_states": 394,
+      "name": "bipartite_substrate_8_34",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "29f958d430437f475565e7e401ce9a4248f8665c57b0d149b1b02e5b994e618a"
+    },
+    {
+      "n": 8,
+      "m": 17,
+      "triangles": 11,
+      "tau": 4,
+      "checked_covers": 1,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 42,
+      "pack_states": 23,
+      "name": "bipartite_substrate_8_35",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "67e932a44d0673b963d5181a2c93312990d0e025849249cec4970c6073b626ca"
+    },
+    {
+      "n": 8,
+      "m": 16,
+      "triangles": 11,
+      "tau": 4,
+      "checked_covers": 2,
+      "min_nu_private_seen": 4,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 39,
+      "pack_states": 25,
+      "name": "bipartite_substrate_8_36",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "graph_sha256": "5f6652a4c514a9f49ebabbce08c5b303c20f1fefd64d4c47b80dcc1a5e312297"
+    },
+    {
+      "n": 8,
+      "m": 20,
+      "triangles": 17,
+      "tau": 6,
+      "checked_covers": 2,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 214,
+      "pack_states": 112,
+      "name": "bipartite_substrate_8_37",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "graph_sha256": "04996b200a6d73d2562ae92e56f5c51bf93c768a136ea50da3c5a00bd5cf8f17"
+    },
+    {
+      "n": 8,
+      "m": 17,
+      "triangles": 11,
+      "tau": 3,
+      "checked_covers": 1,
+      "min_nu_private_seen": 3,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 31,
+      "pack_states": 20,
+      "name": "bipartite_substrate_8_38",
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "graph_sha256": "3e8bc22516fba9fefdff34389bcca80067c400defdb0869186c90c5dc6082a1f"
+    },
+    {
+      "n": 8,
+      "m": 21,
+      "triangles": 24,
+      "tau": 6,
+      "checked_covers": 1,
+      "min_nu_private_seen": 6,
+      "covers_partial": false,
+      "result": "PASS_EXAMINED",
+      "cover_states": 673,
+      "pack_states": 223,
+      "name": "bipartite_substrate_8_39",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ]
+      ],
+      "graph_sha256": "9c6541c7d902c3f82c16f68266810d202d62beba64fd31153a0dc9310c49d97e"
+    }
+  ],
+  "elapsed": 0.0774688720703125,
+  "identity_receipt": "Literal deterministic corpus regenerated without rerunning optimization; each completed row linked by its original case name."
+}

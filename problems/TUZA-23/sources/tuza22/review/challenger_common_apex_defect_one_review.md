@@ -1,0 +1,1 @@
+../../../../TUZA-22/review/challenger_common_apex_defect_one_review.md

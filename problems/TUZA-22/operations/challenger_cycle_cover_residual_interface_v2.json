@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T04:05:55.205457+00:00",
+  "end_utc": "2026-11-16T04:05:55.921315+00:00",
+  "seconds": 0.7158608436584473,
+  "command": [
+    "python3",
+    "scripts/challenger_cycle_cover_residual_interface_v2.py"
+  ],
+  "pid": 97973,
+  "peak_sampled_tree_rss_mib": 32.5625,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 60.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

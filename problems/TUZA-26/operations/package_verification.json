@@ -1,0 +1,525 @@
+{
+  "checked_utc": "2026-11-17T04:13:09.387607+00:00",
+  "claim_count": 76,
+  "missing_evidence": [],
+  "json_files_parsed": 45,
+  "json_errors": [],
+  "local_frozen_binding_count": 128,
+  "changed_frozen_bindings": [],
+  "local_bindings": [
+    {
+      "path": "operations/clock.json",
+      "unchanged": true
+    },
+    {
+      "path": "notes/eligibility_saturation_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_three_star_defect_one_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/blocker_triangle_shape_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_three_star_defect_one_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_three_path_defect_gap_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/no_blocker_triangle_residual_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_three_connected_exclusion_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_terminal_confinement_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/matching26_bare_skeletons.py",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/matching26_bare_skeletons.json",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_wedge_reduction_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_disconnected_path_classification_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/matching26_disconnected_path_geometry_v2.py",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/matching26_disconnected_path_geometry_v2.json",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_simplicial_reduction_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/apex_simplicial_internal_checks.py",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/apex_simplicial_internal_checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_k5_triangle_leaf_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/two_edge_tight_boundary_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/adjacent_blocker_tight_pieces_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_opposite_boundary_closure_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_disjoint_blocker_reconstruction_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_adjacent_interface_domain_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_adjacent_vertex_domain_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_adjacent_interface_result_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/apex_boundary_review.md",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/apex_opposite_boundary_review.md",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/apex_disjoint_reconstruction_review.md",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/apex_adjacent_boundary_review.md",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/matching26_adjacent_interface_review.md",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/matching26_adjacent_replay.json",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_triangle_edge_B_exclusion_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/triangle_residual_frontier_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/apex_triangle_edge_control.py",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/apex_triangle_edge_control.json",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/opening_composition_review.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/single_deletion_connected_defect_two_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_triangle_residual_domain_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_triangle_residual_result_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "inputs/C12_frozen.json",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/opening_checks.json",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/matching26_triangle_domain.json",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/matching26_triangle_cover_certificates.json",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_two_active_triangle_domain_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_two_active_triangle_domain_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/defect_zero_triangle_exclusion_dependency.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_codegree_two_cover_exchange_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_book_exchange_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/double_cone_C5_cover_control_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/double_cone_C5_control.json",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/matching26_book_controls.json",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_book_exchange_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_marked_strip_augmentation_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_full_disagreement_cover_operation_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_two_hub_strip_payment_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_strip_crossing_repair_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_local_cap_augmentation_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_degree_four_cap_descent_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/apex_degree_four_cap_control.py",
+      "unchanged": true
+    },
+    {
+      "path": "evidence/apex_degree_four_cap_control.json",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_endpoint_link_operations_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_one_outside_triangle_repair_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/degree_four_cap_critical_wedge_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_simplicial_degree_four_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_simplicial_four_opposite_resilience_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_two_edge_critical_wedge_background_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_critical_wedge_same_edge_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/degree_four_cycle_link_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_simplicial_four_named_reconstruction_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/k5_three_edge_path_boundary_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_k4_triangle_boundary_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/degree_four_cycle_named_reconstruction_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_diamond_degree_four_resilience_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_diamond_opposite_augmentation_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_diamond_neutral_named_reconstruction_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_critical_wedge_wheel_classification_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_wheel_rim_q_payment_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_two_hub_neighborhood_fragile_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_two_hub_named_reconstruction_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_two_hub_small_fragile_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_release_set_compression_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_outside_hub_repair_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_doublecone_exchange_diagnosis_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_one_unit_cover_exchange_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_canonical_outside_packing_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_missing_edge_triangle_surplus_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/arbitrary_book_release_compression_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_empty_link_defect_two_descent_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_empty_link_multiple_page_reduction_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_arbitrary_book_crossing_switch_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "reviews/root_exact_codegree_two_review.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_two_edge_critical_envelope_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_compatible_pair_rebasing_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_outside_fragile_component_exclusion_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_outside_resilient_component_exclusion_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_empty_link_unique_page_exclusion_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_empty_link_two_edge_paid_exclusion_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_two_triangle_decision_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/actual_parent_critical_square_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_disjoint_restoration_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/actual_parent_large_cross_graph_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_low_gain_j0_j1_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_actual_parent_j2_classification_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_actual_parent_j2_classification_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/actual_parent_double_residual_resilience_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_actual_parent_triple_extension_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_triple_selection_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/actual_parent_triple_disjoint_partial_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_triple_B_disjoint_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_actual_parent_two_peripheral_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/actual_parent_defect_one_triple_extension_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_shared_exceptional_families_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/maximal_support_triangle_selection_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_ordered_selection_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_common_center_discriminator_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_common_center_discriminator_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_actual_parent_cycle_core_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_q2_family_frontier_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/actual_parent_selected_triangle_dichotomy_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_actual_parent_cycle_nonexceptional_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_common_center_three_opposite_B_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/apex_actual_parent_common_center_one_hub_B_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/matching26_actual_parent_cycle_exceptional_v1.md",
+      "unchanged": true
+    },
+    {
+      "path": "notes/actual_parent_selected_triangle_dichotomy_v2.md",
+      "unchanged": true
+    },
+    {
+      "path": "REPORT.md",
+      "unchanged": true
+    },
+    {
+      "path": "PROOF_CHAIN.md",
+      "unchanged": true
+    },
+    {
+      "path": "STATUS_MATRIX.json",
+      "unchanged": true
+    }
+  ],
+  "source_integrity_pass": true,
+  "pass": true
+}

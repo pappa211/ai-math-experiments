@@ -1,0 +1,19 @@
+{
+  "module": "Tuza06.FiniteCliques",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-23/.lake/build/lib/lean/Tuza06/FiniteCliques.olean",
+    "problems/TUZA-23/Tuza06/FiniteCliques.lean"
+  ],
+  "cwd": "problems/TUZA-23",
+  "lean_path": "problems/TUZA-23/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+  "elapsed_seconds": 7.7503092080005445,
+  "peak_process_tree_rss_bytes": 1744535552,
+  "exit_code": 0,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T08:57:11.555315+00:00"
+}

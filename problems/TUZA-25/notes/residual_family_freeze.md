@@ -1,0 +1,21 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Frozen residual rigidity candidate F (2026-11-16, before search)
+
+All graphs are finite and simple, with every actual triangle counted. Let S(H) be the graph with exactly the triangle-supported edges and their endpoints; arbitrary other edges/vertices of H are retained when doing restoration, but membership below concerns S(H) only. Defect one means tau(H)=2nu(H)-1.
+
+**Frozen F.** S(H) is either the wheel with a five-cycle rim and one universal hub, or has the following certificate. Start with a literal K4 or K5. At a step choose an old complete subgraph A of size at least two and strictly smaller than s in {4,5}; add s-|A| wholly fresh vertices, and precisely the missing edges of the K_s on A and those new vertices. No other edges, identifications, or overlaps are permitted. Require the final support to equal exactly the union of all piece edges. These operations allow edge and triangle sums, and K5 attachment on a K4. Each fresh vertex has no old neighbour outside A at its addition. Thus every newly created actual triangle lies in its new clique, with no uncounted crossing triangle. The final H may have background edges only if no actual triangle of H uses them.
+
+This strictly includes the archived fresh edge-gluing construction: in particular the 13-vertex central K4 with three fresh K5 leaves on the three edges of one star. It is broader than the archived classification/restoration theorem, which covers edge gluings only. It is a precise testable interpretation of the informal K4/K5-gluing suggestion, not a definition of every conceivable gluing.
+
+**Certificate/checker.** A certificate is the ordered list of clique vertex sets and their old overlaps; check every overlap is complete, sizes/newness, equality of generated and support edges, and all actual triangles. Exhaustive reverse elimination of fresh simplicial sets of size s-|A| is a decision procedure. Every graph in the clique branch is chordal, because fresh simplicial vertices can be eliminated in reverse order. Consequently an induced cycle of length >=4 is a concise certificate of nonmembership in that branch; nonisomorphism with W5 then certifies nonmembership in F.
+
+**Candidate R-F.** Every H with connected nonempty actual shared-edge triangle support, defect one, and packing number unchanged by deleting any single edge belongs to F.
+
+**Stronger minimum-CS profile to audit separately.** Every triangle U of H extends to a maximum packing, equivalently nu(H-E(U))=nu(H)-1; H cannot have a B residual after deleting at most two edges; H must admit a missing triangle T whose restoration G is tight non-B and two-edge packing-resilient. These conditions have different status: the first two are archived necessary residual conditions, while the last records the actual parent and cannot be replaced by resilience of H itself. R-F failure alone does not refute the narrower minimum-CS application.
+
+**Bridge and open cases.** Archived strict triangle restoration excludes the edge-gluing branch. It does not yet exclude W5 or all triangle/K4-overlap gluings at the scope of this freeze. Even a proof of R-F would require these missing restoration cases before implying CS. Full minimal residual profile is also subject to the source's precise minimality hypotheses.
+
+**Planned falsification.** Start exact small controls, then 11–14-vertex overlapping clique systems, wheels with clique attachments and fresh/nonfresh vertex identifications. Count screened, defect-one, resilient, triangle-extensible, and non-F records. Finite survival is not an availability theorem. No redefinition of F after failure.
+
+Dependencies read: TUZA-22 notes/defect_one_fresh_clique_tree_classification_v1.md; notes/fresh_clique_defect_one_triangle_restoration_v1.md; notes/two_triangle_extension_minimal_v1.md; notes/triangle_and_edge_restoration_v1.md; notes/active_kernel_peeling_v1.md. Relevant selected sources have scoped snapshots.

@@ -1,0 +1,330 @@
+{
+  "updated_utc": "2026-11-16T17:01:55.825074+00:00",
+  "decision": "CONTINUE_SCOPED_RESIDUAL_ROUTE",
+  "global_status": "OPEN",
+  "unknown_core_defect_one_instances_reached": 0,
+  "numerical_unknown_records_across_streams": 218,
+  "claims": [
+    {
+      "id": "global_tuza_cs",
+      "status": "OPEN",
+      "hypotheses": "All finite simple graphs",
+      "result": "Neither unrestricted Tuza nor CS solved.",
+      "evidence": [
+        "PROOF_CHAIN.md",
+        "REPORT.md"
+      ],
+      "verification_method": "Partial ordinary proof chain",
+      "unresolved_obligations": "Applicable configuration in unknown core; complete reconstruction outside checked hypotheses.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "archived_minimum_cs_profile",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Minimum-edge CS failure, archived restoration premises",
+      "result": "Actual triangle residual connected, delta1, single-edge resilient; extension scope retained.",
+      "evidence": [
+        "sources/tuza22_initial",
+        "PROOF_CHAIN.md"
+      ],
+      "verification_method": "Selected archived ordinary proofs/reviews inspected",
+      "unresolved_obligations": "Not a new universal classification.",
+      "historical_priority": "Archived TUZA22 and earlier, not new."
+    },
+    {
+      "id": "archived_lean_scopes",
+      "status": "LEAN_KERNEL_CHECKED",
+      "hypotheses": "Recorded R2 all-size; M0 conditional; forest CS/anchor scope",
+      "result": "Historical kernel-checked statements only.",
+      "evidence": [
+        "sources/formal_scope_selected"
+      ],
+      "verification_method": "Selected Lean source and recorded verification inspected; no new build",
+      "unresolved_obligations": "Fresh build NOT_RUN; no unrestricted inference.",
+      "historical_priority": "Historical TUZA23/24 scope."
+    },
+    {
+      "id": "separator_core",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Connected supported resilient delta1 graph; proper-subgraph CS; actual two-vertex separator",
+      "result": "Exact additive packing and eligibility cover formula; neutral clique peel to unknown 3connected core.",
+      "evidence": [
+        "notes/residual_edge_separator_core.md",
+        "reviews/critic_separator.md"
+      ],
+      "verification_method": "Independent ordinary reconstruction",
+      "unresolved_obligations": "Separator/core configuration availability; retain background.",
+      "historical_priority": "Related to archived SEP; new integration not claimed historically novel."
+    },
+    {
+      "id": "critical_adjacent",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Delta1 J, proper-CS, two adjacent critical edges",
+      "result": "Isolated K3 triangle component; degree3 wedge predecessor has delta2.",
+      "evidence": [
+        "notes/critical_adjacent_edges_frozen.md",
+        "reviews/critic_critical_edges.md"
+      ],
+      "verification_method": "Independent ordinary reconstruction",
+      "unresolved_obligations": "General predecessor classification and replacement.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "critical_deletion",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Delta2 J, all actual triangles in K4, proper-CS, critical edge",
+      "result": "Deletion is resilient delta1; support connectivity inherited when J has it.",
+      "evidence": [
+        "notes/mixed_critical_edge_addendum_frozen.md",
+        "reviews/critic_defect_two_deletion.md"
+      ],
+      "verification_method": "Independent ordinary reconstruction",
+      "unresolved_obligations": "K4-completion and applicable region must be verified.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "named_210_interface",
+      "status": "VERIFIED_FINITE",
+      "hypotheses": "Exactly twelve stated supports and all210 nonedges",
+      "result": "Only4 delta2 insertions, one isomorphism type; only inserted edge critical.",
+      "evidence": [
+        "evidence/residual_edge_exchange.json",
+        "evidence/mixed_named_interface_verification.json",
+        "reviews/critic_edge_exchange_check.json",
+        "reviews/critic_edge_exchange.md"
+      ],
+      "verification_method": "Independent regenerated exact optimizations and automorphism checks",
+      "unresolved_obligations": "0 unknown-core instances; not a universal census.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "critical_triangle_exclusion",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Explicit wider minimum Q; genuine leaf predecessor K4-completed, delta2, wholly critical triangle",
+      "result": "Smaller residual named by separate minimality; finite interface gives contradiction.",
+      "evidence": [
+        "PROOF_CHAIN.md",
+        "notes/mixed_conditional_leaf_bridge.md",
+        "reviews/critic_leaf_bridge.md"
+      ],
+      "verification_method": "Ordinary confinement + VERIFIED_FINITE premise + independent circularity review",
+      "unresolved_obligations": "Availability of configuration; no F-closure assumed.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "matching_resilience",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "K4-completed delta3 J; opposite pair with packing/cover loss2; proper-CS",
+      "result": "Matching residual resilient delta1; unique active component plus B components.",
+      "evidence": [
+        "notes/mixed_matching_deletion_resilience_frozen.md",
+        "reviews/critic_matching_deletion.md"
+      ],
+      "verification_method": "Independent three-shape ordinary reconstruction",
+      "unresolved_obligations": "No automatic triangle-extension or original-parent inheritance.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "marked_boundary",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Specified zero-gain matching region and active plus B component profile",
+      "result": "At most4 single-edge tight boundaries; nuH=r+nuK; tauH=2r+tau(K\u2212F).",
+      "evidence": [
+        "notes/residual_matching_component_confinement.md",
+        "reviews/critic_matching_components.md"
+      ],
+      "verification_method": "Independent ordinary reconstruction",
+      "unresolved_obligations": "A single-edge triangle boundary alone is not fresh gluing.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "named_matching_reconstruction",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "K4-completed predecessor and named active matching residual; connected restored support",
+      "result": "Peeling preserves completion and packing response; support-intersection cases force gain1; excludes zero gain.",
+      "evidence": [
+        "notes/mixed_named_matching_reconstruction_frozen.md",
+        "PROOF_CHAIN.md",
+        "reviews/critic_named_matching_reconstruction.md"
+      ],
+      "verification_method": "Fresh critic independent ordinary reconstruction; see final review receipts",
+      "unresolved_obligations": "Minimum Q names active component; proper-CS alone does not. Configuration availability open.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "circularity_audit",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Fixed minimum-CS G, explicit minimum supported-edge Q in wider class",
+      "result": "Partial chain is noncircular; checked local branches excluded, universal induction not closed.",
+      "evidence": [
+        "PROOF_CHAIN.md",
+        "reviews/critic_proof_chain.md"
+      ],
+      "verification_method": "Fresh independent AI audit of frozen versions",
+      "unresolved_obligations": "General core availability and non-K4-completed predecessor.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "mixed_equivalences",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Triangle-free N; finite capacity M=allowed-edge count+1",
+      "result": "Universal mixed inequality iff ordinary Tuza; full mixed equality iff CS.",
+      "evidence": [
+        "notes/mixed_frozen_theorems.md",
+        "reviews/critic_mixed.md"
+      ],
+      "verification_method": "Independent ordinary reconstruction and finite semantic controls",
+      "unresolved_obligations": "No new ordinary N-empty reduction; strictness alone equivalence not claimed.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "mixed_payment_surrogate",
+      "status": "REFUTED_CANDIDATE",
+      "hypotheses": "Packing-stable deletion; proposed forbid surcharge at most1",
+      "result": "Exact counterexamples; K4-petal family unbounded.",
+      "evidence": [
+        "notes/mixed_payment_limitations.md",
+        "evidence/mixed_bouquet_surcharge.json",
+        "reviews/critic_mixed_payment.md"
+      ],
+      "verification_method": "Ordinary family + finite exact controls",
+      "unresolved_obligations": "Stronger surrogate contains original problem; not recommended.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "resilience_implies_h1_zero",
+      "status": "REFUTED_CANDIDATE",
+      "hypotheses": "Triangle-supported connected 2res graph",
+      "result": "K5 ring has nu8,tau12,dimH1=1,667 resilient deletion sets.",
+      "evidence": [
+        "evidence/ring_certificate.json",
+        "evidence/critic_ring_check.json",
+        "reviews/critic_ring.md"
+      ],
+      "verification_method": "Independent exact certificates and ordinary cocycle proof",
+      "unresolved_obligations": "Does not refute scoped cut minimum, Tuza or CS.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "topology_accounting",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "All actual triangles; stated F2 definitions/normalization",
+      "result": "Odd covers/cut covers and normalized expansion identities correctly separated.",
+      "evidence": [
+        "notes/topology_scope.md",
+        "reviews/critic_topology.md"
+      ],
+      "verification_method": "Independent ordinary reconstruction",
+      "unresolved_obligations": "Exact2nu payment and available graph region missing.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "kernel_transfers",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Full supplied crown / literal K4 component / triangle-separated split hypotheses",
+      "result": "Exact transfers and legitimate lexicographic split measure.",
+      "evidence": [
+        "KERNEL_TRANSFER_AUDIT.md",
+        "reviews/critic_kernel.md"
+      ],
+      "verification_method": "Primary-source inspection and independent ordinary reconstruction",
+      "unresolved_obligations": "Crown availability, search completeness and discharging audit absent.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "generic_resilience_descent",
+      "status": "REFUTED_CANDIDATE",
+      "hypotheses": "Resilient final clique attachment, no full-gain premise",
+      "result": "Seven/eight-vertex controls have nonresilient predecessor at child defects3/2.",
+      "evidence": [
+        "evidence/mixed_residual_bridge_search.json",
+        "reviews/critic_bridge_check.json"
+      ],
+      "verification_method": "Independent exact witness reconstruction",
+      "unresolved_obligations": "Does not refute narrower defect1 assertion.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "packing_only_three_edge_bound",
+      "status": "REFUTED_CANDIDATE",
+      "hypotheses": "K4-completed J; delete3edges formingP4 to tightB",
+      "result": "Gain3 occurs; cover saving remains, so mixed numerical lemma survives.",
+      "evidence": [
+        "evidence/mixed_three_edge_negative_control.json",
+        "reviews/critic_matching_control.json"
+      ],
+      "verification_method": "Independent exact optimization",
+      "unresolved_obligations": "Cover accounting indispensable.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "residual_rigidity",
+      "status": "OPEN",
+      "hypotheses": "Connected supported resilient delta1 graphs; frozen F",
+      "result": "No counterexample found, no unknown-core defect1 test reached.",
+      "evidence": [
+        "notes/residual_family_freeze.md",
+        "notes/residual_track_status.md",
+        "evidence/residual_survivor_audit.json"
+      ],
+      "verification_method": "Bounded local exact streams and membership witnesses",
+      "unresolved_obligations": "0 unresolved mathematical core states; numerical UNKNOWNs retained.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "claude_full_censuses",
+      "status": "REPORTED_UNVERIFIED",
+      "hypotheses": "Reported order/generator domains not fully authenticated",
+      "result": "Programs and bounded replay inspected; full totals not reproduced.",
+      "evidence": [
+        "notes/mixed_program_audit.md",
+        "evidence/mixed_claude_replay.json"
+      ],
+      "verification_method": "Source audit and limited native replay",
+      "unresolved_obligations": "Raw streams/logs/generator version missing; K4 order-scope correction.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "role_obstructions",
+      "status": "VERIFIED_FINITE",
+      "hypotheses": "K5 and K2 joined to C5 in stated role model",
+      "result": "K5 ordinary obstruction; K2joinC5 exact constraint UNSAT.",
+      "evidence": [
+        "notes/role_audit_frozen.md",
+        "evidence/role_k2c5_csp.json",
+        "reviews/critic_role_check.json",
+        "reviews/critic_roles.md"
+      ],
+      "verification_method": "Ordinary K5 argument and independent finite CSPs",
+      "unresolved_obligations": "No role census; neither is a Tuza counterexample.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "corrected_ortools_role_runtime",
+      "status": "NOT_RUN",
+      "hypotheses": "Corrected source copy status discipline",
+      "result": "Mock status flow passed; actual ORTools algorithm not executed.",
+      "evidence": [
+        "scripts/role_status_corrected.py",
+        "evidence/role_status_correction.diff",
+        "evidence/role_status_mock.json"
+      ],
+      "verification_method": "Static patch and mock only",
+      "unresolved_obligations": "ORTools absent; no installation authorized.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    },
+    {
+      "id": "separate_external_final_audit",
+      "status": "NOT_RUN",
+      "hypotheses": "Separate commissioned final review",
+      "result": "No external/human audit or publication initiated.",
+      "evidence": [
+        "ADVERSARIAL_REVIEW.md"
+      ],
+      "verification_method": "In-session AI review only",
+      "unresolved_obligations": "Requires later owner decision.",
+      "historical_priority": "No novelty claim; scoped archive comparison only."
+    }
+  ],
+  "final_critic_receipt": "reviews/critic_final_receipt.json"
+}

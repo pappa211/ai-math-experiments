@@ -1,0 +1,27 @@
+@Tuza06.two_triangle_augmentation : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G H : SimpleGraph V},
+  H ≤ G →
+    Tuza06.ComponentCliques H →
+      ∀ {A s t : Finset V},
+        Tuza.IndependentVertices H A →
+          s ∈ Tuza.triangles G →
+            t ∈ Tuza.triangles G →
+              Tuza06.HasBase A s →
+                Tuza06.HasBase A t →
+                  Disjoint (Tuza.edges s) (Tuza.edges t) → Tuza.nu (Tuza.triangles H) + 2 ≤ Tuza.nu (Tuza.triangles G)
+@Tuza06.k4_second_triangle : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V}
+  {k T A : Finset V},
+  G.IsNClique 4 k → T.card = 3 → T ⊆ k → A ∈ Tuza.edges T → ∃ S ∈ Tuza.triangles G, A ∈ Tuza.edges S ∧ S ≠ T
+@Tuza06.minimal_no_unique_triangle_edge : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V]
+  {G : SimpleGraph V},
+  Tuza06.MinimalObstruction G →
+    ∀ {A : Finset V},
+      G.IsNClique 2 A →
+        (∃ T ∈ Tuza.triangles G, A ∈ Tuza.edges T ∧ ∀ S ∈ Tuza.triangles G, A ∈ Tuza.edges S → S = T) → False
+@Tuza06.minimal_edge_two_triangles : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V},
+  Tuza06.MinimalObstruction G →
+    ∀ {A : Finset V},
+      G.IsNClique 2 A → ∃ T ∈ Tuza.triangles G, ∃ S ∈ Tuza.triangles G, A ∈ Tuza.edges T ∧ A ∈ Tuza.edges S ∧ T ≠ S
+@Tuza06.minimal_edge_codegree : ∀ {V : Type u_1} [inst : Fintype V] [inst_1 : DecidableEq V] {G : SimpleGraph V},
+  Tuza06.MinimalObstruction G → ∀ {A : Finset V}, G.IsNClique 2 A → 2 ≤ {T ∈ Tuza.triangles G | A ∈ Tuza.edges T}.card
+'Tuza06.minimal_no_unique_triangle_edge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Tuza06.minimal_edge_codegree' depends on axioms: [propext, Classical.choice, Quot.sound]

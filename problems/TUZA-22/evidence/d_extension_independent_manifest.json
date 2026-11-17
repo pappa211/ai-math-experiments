@@ -1,0 +1,9 @@
+{
+  "frozen_utc": "2026-11-15T22:17:57.366101+00:00",
+  "files": {
+    "evidence/d_extension_literal_input.json": "b6395ef2ac1237c1c3abd3fdb7f83b1336914729f054e62a49f0801669a4a3cc",
+    "scripts/d_extension_independent_validator.py": "50e261ade86e5c6ac8762ee261241eedf76d2782389a630580fe39a035d8b9bd",
+    "evidence/d_extension_independent_verification.json": "4a2380141b6eace55ef790a35d88a9f959870555cb7bd20c9aa07bad6a4937f9",
+    "review/d_extension_counterexample_review.md": "fbf8ca76ad174dd389486b9c345588c6e17b571b40bd5aff7101e5168200c2a0"
+  }
+}

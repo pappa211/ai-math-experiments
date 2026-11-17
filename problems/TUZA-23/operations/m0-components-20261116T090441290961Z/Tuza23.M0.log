@@ -1,0 +1,6 @@
+problems/TUZA-23/Tuza23/M0.lean:42:24: error: Type mismatch: After simplification, term
+  ⟨ha, hb⟩
+ has type
+  And (a ∈ ↑t) (b ∈ ↑t)
+but is expected to have type
+  And (a ∈ t) (b ∈ t)

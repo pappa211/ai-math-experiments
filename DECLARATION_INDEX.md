@@ -477,3 +477,12 @@ Fresh native Lean 4.33.1 replay accepted 150 named theorems below, within 444 ex
 | `Tuza18Role.graph_packing_bound` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
 | `Tuza18Role.canonical_simple_edges` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
 | `Tuza18Role.all_maximum_packings_obstruct_roles` | [RoleWitness.lean](problems/TUZA-18/lean/RoleWitness.lean) | `propext`, `Classical.choice`, `Quot.sound` |
+
+## TUZA-23 and TUZA-24: fresh all-size source audits (17 November 2026)
+
+R2 is equality restoration; M0 is conditional on minimal combined failure; forest CS assumes a supplied forest cover. Exact types, implicit parameters, dependencies and standard axioms are included in the linked machine audits. Finite controls are not substituted for universal proofs.
+
+| Library | Audited constants / theorems | Exact types and axioms | Target closures |
+|---|---:|---|---|
+| TUZA-23 | 505 / 446 | [Every declaration](verification/tuza-20-26/formal-23/declarations.json) | [Local transitive closures](verification/tuza-20-26/formal-23/target_local_dependency_closures.json) |
+| TUZA-24 | 1042 / 938 | [Every declaration](verification/tuza-20-26/formal-24/declarations.json) | [Local transitive closures](verification/tuza-20-26/formal-24/target_local_dependency_closures.json) |

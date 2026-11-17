@@ -1,0 +1,17 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent review: anchored forest cover with at most one private packed triangle
+
+Verdict: ACCEPT as ORDINARY_PROOF at the supplied extremal-packing scope. Source `notes/challenger_tree_anchor_one_private_v1.md`, SHA256 ea876eb435455e99324f0671fadef79fc49a851462c1ba1ff456478f8182bbc8.
+
+I reconstructed the residual argument. A triangle surviving deletion of the selected forest edges used by P cannot meet P through a selected edge. A two-selected-edge residual triangle cannot share a nonselected chord with a different two-selected-edge packed triangle, by uniqueness of the forest path. A one-selected-edge residual triangle has only one same-bipartition nonselected edge and hence meets at most one two-selected-edge packed triangle. If it avoided all one-selected-edge packed members, it would either augment or replace that single two-selected-edge member, decreasing p2. Thus the nonselected edges of the one-selected-edge P members cover the residual.
+
+When p1=1, the two covering edges ac,bc are adjacent. If the residual had no two edge-disjoint triangles, actual pairwise-intersection classification would make it a book or a full literal K4 family. A book has a one-edge cover; two adjacent edges cannot cover all four K4 faces. Therefore tau>1 supplies disjoint A=acd and B=bce. Neither contains an edge of S; their new vertices are distinct because otherwise they share a c-spoke.
+
+With ac chosen same-side, A's only possible chord eligible for a two-selected-edge packed triangle is ac itself, already occupied by the unique one-selected-edge packed triangle. Hence A avoids all other P members. The odd edge bc forces B to have exactly one selected edge, and its even chord can meet only one two-selected-edge member U. The augmentation and p2-decreasing exchanges are consequently valid in the first two cases.
+
+In the remaining case A has selected edges ad,dc. The two possible selected bases of B give exactly the displayed six-edge closed trails. Three of their edges come from residual A,B and are outside S; the other three come from the original packed triangle and U and lie in S. Edge-disjointness within each pair of triangles makes all six edges distinct. A repeated vertex cannot rescue a closed trail in a forest. This disposes of the only exchange case not already strictly improving the chosen packing.
+
+For the weighted application, let the internal anchored cover D contain S and have size at most 2|P|. D together with a minimum cover of the outside page family on bases T minus S covers the entire assigned family. Minimum ordinary-cover optimality yields |T|≤|D|+tau_external. The accepted exact outside-forest minmax supplies an outside packing of size tau_external; its bases avoid S and its spokes leave the core, so it is compatible with P. Thus the weighted target follows at precisely p1≤1. No unrestricted availability of this condition, general anchored cover theorem, or simultaneous local one-edge-per-spoke selection is used.
+
+The argument works for a forest, with arbitrary orientations of its component bipartitions; only parity of selected edges and uniqueness of paths are used. There is no finite or external matching-theorem premise.

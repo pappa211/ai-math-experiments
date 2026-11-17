@@ -1,0 +1,21 @@
+problems/TUZA-24/Tuza24/ForestMatchingBoundary.lean:32:10: warning: This simp argument is unused:
+  Sym2.eq_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hxy.symm, hax.ne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-24/Tuza24/ForestMatchingBoundary.lean:48:10: warning: This simp argument is unused:
+  Sym2.eq_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hxb, hab.ne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-24/Tuza24/ForestMatchingBoundary.lean:53:10: warning: This simp argument is unused:
+  Sym2.eq_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hya, hab.ne.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

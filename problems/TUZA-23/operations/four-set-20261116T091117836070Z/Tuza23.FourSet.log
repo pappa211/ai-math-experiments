@@ -1,0 +1,14 @@
+problems/TUZA-23/Tuza23/FourSet.lean:10:36: warning: Variable name `hs2` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs2
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+problems/TUZA-23/Tuza23/FourSet.lean:87:56: error: Application type mismatch: The argument
+  hk
+has type
+  k ∈ insert l K
+but is expected to have type
+  k ∈ K
+in the application
+  block_edges_supported hK hk

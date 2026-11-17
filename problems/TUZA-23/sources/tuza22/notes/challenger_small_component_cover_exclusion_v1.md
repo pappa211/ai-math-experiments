@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/challenger_small_component_cover_exclusion_v1.md

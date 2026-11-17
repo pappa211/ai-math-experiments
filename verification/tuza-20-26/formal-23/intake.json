@@ -1,0 +1,238 @@
+{
+  "started_utc": "2026-11-17T18:53:23.085216+00:00",
+  "roots": [
+    "Research",
+    "Tuza23.Controls"
+  ],
+  "order": [
+    "Tuza.Basic",
+    "Tuza.Graph",
+    "Tuza06.Statement",
+    "Tuza06.Transport",
+    "Tuza06.FiniteCliques",
+    "Tuza06.Pages",
+    "Tuza06.Reduction",
+    "Tuza06.Additivity",
+    "Tuza06.BlockAggregation",
+    "Tuza06.Components",
+    "Tuza06.Critical",
+    "Tuza06.MinimalObstruction",
+    "Tuza23.GraphAPI",
+    "Tuza23.WholeFootprint",
+    "Tuza06.Footprints",
+    "Tuza23.CliqueChoice",
+    "Tuza23.BlockChoice",
+    "Tuza23.PageAssembly",
+    "Tuza23.InsertionAccounting",
+    "Tuza23.BarePages",
+    "Tuza23.PageGeometry",
+    "Tuza23.AdjacentRestoration",
+    "Tuza23.FourSet",
+    "Tuza23.DisjointRestoration",
+    "Tuza23.R2",
+    "Tuza23.M0",
+    "Research",
+    "Tuza23.ControlBasic",
+    "Tuza23.ControlSharedBlocks",
+    "Tuza23.ControlRestoration",
+    "Tuza23.Controls"
+  ],
+  "sources": {
+    "Tuza.Basic": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza/Basic.lean",
+      "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc"
+    },
+    "Tuza.Graph": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza/Graph.lean",
+      "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a"
+    },
+    "Tuza06.Statement": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/Statement.lean",
+      "sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7"
+    },
+    "Tuza06.Transport": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/Transport.lean",
+      "sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32"
+    },
+    "Tuza06.FiniteCliques": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/FiniteCliques.lean",
+      "sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430"
+    },
+    "Tuza06.Pages": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/Pages.lean",
+      "sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045"
+    },
+    "Tuza06.Reduction": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/Reduction.lean",
+      "sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10"
+    },
+    "Tuza06.Additivity": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/Additivity.lean",
+      "sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621"
+    },
+    "Tuza06.BlockAggregation": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/BlockAggregation.lean",
+      "sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f"
+    },
+    "Tuza06.Components": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/Components.lean",
+      "sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e"
+    },
+    "Tuza06.Critical": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/Critical.lean",
+      "sha256": "fdb687027dd5dd299d6985b23383e98407a00dd24a60d55643e66a3462e3b200"
+    },
+    "Tuza06.MinimalObstruction": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/MinimalObstruction.lean",
+      "sha256": "79010d586ee8d35b187213109fe6aa0b7222bdae81e0f92543c0b6af37b8325e"
+    },
+    "Tuza23.GraphAPI": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/GraphAPI.lean",
+      "sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e"
+    },
+    "Tuza23.WholeFootprint": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/WholeFootprint.lean",
+      "sha256": "bd843ef4a16d101c2731b6247e5eaae7cb03172537461bdfe5aed0bfb589b535"
+    },
+    "Tuza06.Footprints": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza06/Footprints.lean",
+      "sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b"
+    },
+    "Tuza23.CliqueChoice": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/CliqueChoice.lean",
+      "sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91"
+    },
+    "Tuza23.BlockChoice": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/BlockChoice.lean",
+      "sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389"
+    },
+    "Tuza23.PageAssembly": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/PageAssembly.lean",
+      "sha256": "b45080856bf28a9fadb7f7e747340e3670b2b3451b844e77f4cf77b2fb5c990c"
+    },
+    "Tuza23.InsertionAccounting": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/InsertionAccounting.lean",
+      "sha256": "401360733507cd667cfb4b7075a1194dffed6bac046ce8ed19af8ac08a02e5fc"
+    },
+    "Tuza23.BarePages": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/BarePages.lean",
+      "sha256": "f472ab49170a0f98d1a4d39ccca234c1221c951931ac85c53e2688feab8649f7"
+    },
+    "Tuza23.PageGeometry": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/PageGeometry.lean",
+      "sha256": "d33aa91055e8a171d89e6121da06022f68815d4e7d842f66cd99976d488a4560"
+    },
+    "Tuza23.AdjacentRestoration": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/AdjacentRestoration.lean",
+      "sha256": "4614e2ef592fc2023a3596ccde86135f413fd77b3f8b9c6f69e94585599754bd"
+    },
+    "Tuza23.FourSet": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/FourSet.lean",
+      "sha256": "51a55aa25bf72583539b34720f6189e598dcf4ad9c62368d0156af53a256d3c4"
+    },
+    "Tuza23.DisjointRestoration": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/DisjointRestoration.lean",
+      "sha256": "a339b13fed0cf91ce726533cadc67687193a8f37137f8d4aea4c413ec85c21b8"
+    },
+    "Tuza23.R2": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/R2.lean",
+      "sha256": "79766812d134e499174e4d1fe0cb6051780707a923b9c1df09ec62f1941f1c70"
+    },
+    "Tuza23.M0": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/M0.lean",
+      "sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d"
+    },
+    "Research": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Research.lean",
+      "sha256": "3159fb9154ad172105d03ec557f6d1ffc75cde60914231cb8149e7da51a801b9"
+    },
+    "Tuza23.ControlBasic": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/ControlBasic.lean",
+      "sha256": "dca5db007dce00223b6f0332d74ca845c7e49b4b003048ae5c2c72d0d5312f6a"
+    },
+    "Tuza23.ControlSharedBlocks": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/ControlSharedBlocks.lean",
+      "sha256": "b842d3c129928dc074c80f648823f68988038bfb290adb40c7ef215d5a7910ef"
+    },
+    "Tuza23.ControlRestoration": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/ControlRestoration.lean",
+      "sha256": "d5c96a50f33837e8a82ce47d66e9c6dce0be1023fb9582fa7c3550e15427181c"
+    },
+    "Tuza23.Controls": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-23/Tuza23/Controls.lean",
+      "sha256": "60a15b8c3d40363930017b1a795589b30856ed2a39ba07a665a0dd8f88520474"
+    }
+  },
+  "pins": [
+    {
+      "name": "mathlib",
+      "expected": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "actual": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "plausible",
+      "expected": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+      "actual": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "expected": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+      "actual": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "importGraph",
+      "expected": "16f02aa7642864af59f1ff0e384a015994db9118",
+      "actual": "16f02aa7642864af59f1ff0e384a015994db9118",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "expected": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+      "actual": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "aesop",
+      "expected": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+      "actual": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "Qq",
+      "expected": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+      "actual": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "batteries",
+      "expected": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+      "actual": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "Cli",
+      "expected": "6130a47896ce867c6a4a55373441e59e565bad0f",
+      "actual": "6130a47896ce867c6a4a55373441e59e565bad0f",
+      "matches": true,
+      "tracked_clean": true
+    }
+  ],
+  "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "manifest_sha256": "14f74d212534629c4fb863dd30215409dc98447d6a91b453fb4e33f077addb78",
+  "toolchain_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "clean_workspace": "<FRESH_RUN>/clean",
+  "lean_path": "<FRESH_RUN>/clean/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/mathlib/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/plausible/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/LeanSearchClient/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/importGraph/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/proofwidgets/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/aesop/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/Qq/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/batteries/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/Cli/.lake/build/lib/lean",
+  "trust_boundary": "Fresh local project objects; pinned existing compiler/Mathlib/dependency artifacts, no cold dependency rebuild."
+}

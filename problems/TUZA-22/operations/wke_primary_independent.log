@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "finite_scope": "All F007/F008 literal witnesses and complete suppressed/path parity domains; no other obligations",
+  "independent_of_producer_checkers": true,
+  "input_sha256": {
+    "kernels/F007/WKE_KERNELS.json": "f7137f40d85f3640527187d10845f05547f9e6e339814eabb7bcc46f3fa46e0e",
+    "kernels/F008/KERNELS.json": "42d800f58b05855e4ceea597c41ce2c7ef007d03910798e4e5c5f7d39f474151"
+  },
+  "script_sha256": "9fb1e79f6e459d6a051970f017caa950167ca25d86e498e1da0ba16a9d511683",
+  "literal_records_checked": 10888,
+  "invalid_witnesses": 0,
+  "unknown": 0,
+  "domains": [
+    {
+      "profile": [],
+      "labeled_suppressed_models": 1,
+      "unordered_path_records_before_branch_symmetry": 2,
+      "canonical_parity_records": 2,
+      "saved_records": 2,
+      "max_vertices": 4,
+      "max_edges": 4,
+      "domain_sha256": "d5602e0e3905367766f47eaaaae423884e01645811bbbb154007667dd77b299d",
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "profile": [
+        4
+      ],
+      "labeled_suppressed_models": 1,
+      "unordered_path_records_before_branch_symmetry": 3,
+      "canonical_parity_records": 3,
+      "saved_records": 4,
+      "max_vertices": 7,
+      "max_edges": 8,
+      "domain_sha256": "113eccdde56fc595902d39ce671f21349fc637f973e608309bccc20aa2e5c312",
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "profile": [
+        3,
+        3
+      ],
+      "labeled_suppressed_models": 2,
+      "unordered_path_records_before_branch_symmetry": 19,
+      "canonical_parity_records": 16,
+      "saved_records": 32,
+      "max_vertices": 10,
+      "max_edges": 11,
+      "domain_sha256": "f5d10120c142d0b8011fe92fb324f1ca074c5038234794403a88ebaaa8c10ccd",
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "profile": [
+        4,
+        4
+      ],
+      "labeled_suppressed_models": 2,
+      "unordered_path_records_before_branch_symmetry": 29,
+      "canonical_parity_records": 24,
+      "saved_records": 80,
+      "max_vertices": 12,
+      "max_edges": 14,
+      "domain_sha256": "f87f3fc6d00329a54349f2d7263b2ba3e363040a971cf5d97806f0e993c9d197",
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "profile": [
+        3,
+        3,
+        4
+      ],
+      "labeled_suppressed_models": 7,
+      "unordered_path_records_before_branch_symmetry": 441,
+      "canonical_parity_records": 249,
+      "saved_records": 339,
+      "max_vertices": 16,
+      "max_edges": 18,
+      "domain_sha256": "7aeee3b9bd1a63a95a4638ebdc5d07c7fce10a881d9a6ba1e7761e0e9965c598",
+      "missing": 0,
+      "extra": 0
+    },
+    {
+      "profile": [
+        3,
+        3,
+        4,
+        4
+      ],
+      "labeled_suppressed_models": 56,
+      "unordered_path_records_before_branch_symmetry": 24519,
+      "canonical_parity_records": 6744,
+      "saved_records": 10431,
+      "max_vertices": 22,
+      "max_edges": 25,
+      "domain_sha256": "453b82c0309b02ae01cab4bfc429ba0b3481f7b4b4cb342b87c8811d5348c0c0",
+      "missing": 0,
+      "extra": 0
+    }
+  ],
+  "seconds": 0.5894947089982452,
+  "completed_utc": "2026-11-15T22:40:08.037696+00:00"
+}

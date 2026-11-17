@@ -1,0 +1,15 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent actual-parent three/four-cross-edge review
+
+Status: ACCEPTED ORDINARY classification at the stated supplied low-gain two-triangle interface. No Q-minimality, Q degree/boundary theorem, or numerical computation is used.
+
+The no-outside-page argument was independently reconstructed. In the five-vertex core, every restored base can be avoided by a two-packing for both K5-e and K5. For K5-e, symmetry reduces this to a universal-universal edge or a universal-peripheral edge, each directly avoidable by two triangles. An outside ordinary page on that base is edge-disjoint from the chosen core packing. Each old clique contains at most one cross edge and sees at most one outside-page footprint. If both occur, they are adjacent: a clique contains only one terminal from each of {b,c},{d,e} and cannot contain a with any of the four other terminals, so the page's old endpoint must be an endpoint of that cross edge. A full old K4/K5 packing avoids the resulting at-most-two adjacent footprints. This gives m+3, contradiction. Any new triangle with an external vertex uses exactly one restored base; all mixed restored-edge triangles lie in the five-vertex core. Thus the new family is completely confined.
+
+For three cross edges, the three displayed covers were checked against all seven core triangles. Every cross edge belongs to one of them. A supported cross edge would overlap an old minimum cover and reduce the total to 2m+2. Hence all cross edges are background, the literal K5-e core is edge-disjoint from every old triangle component, and connected H support removes all old components. The support is exactly K5-e; retained ambient background is not declared absent.
+
+For four cross edges, the core is K5. With no supported cross edge, edgewise additivity gives cover 2m+4, too large. Two supported cross edges would lie in distinct old cliques, since a clique contains at most one such edge. Independent old covers plus a K5 minimum cover through both would save two overlaps, too small. Thus exactly one supported edge belongs to exactly one old piece D. Connected support excludes every other piece. D can share only that edge's two endpoints with the core: any third core vertex would force an old missing restored edge. The support is a fresh K5 glued on one edge to K4 or K5, precisely the two stated frozen C12 models.
+
+For the supplied H0=G-E0, the archived strict actual-parent restoration theorem excludes these supports with retained background. This closes |J|=3,4. The |J|=0,1,2 cases remain separate until independently reviewed.
+
+Bound source: `notes/actual_parent_large_cross_graph_v1.md` SHA-256 `ea3ce6dbd3a7d86f9f4c8f2f199645fcb9244b51823d9e7be227605e0c9b2efc`.

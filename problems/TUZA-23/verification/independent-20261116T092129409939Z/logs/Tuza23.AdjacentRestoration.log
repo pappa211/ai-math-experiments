@@ -1,0 +1,3 @@
+problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/AdjacentRestoration.lean:98:18: warning: Try `simp at h` instead of `simpa using h`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`

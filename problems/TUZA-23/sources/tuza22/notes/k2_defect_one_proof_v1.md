@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/k2_defect_one_proof_v1.md

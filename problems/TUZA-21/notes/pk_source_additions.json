@@ -1,0 +1,12 @@
+[
+  {
+    "path": "repository-root/problems/TUZA-19/notes/root_cksu_order3_repair.md",
+    "copy": "sources/public/problems/TUZA-19/notes/root_cksu_order3_repair.md",
+    "before_sha256": "a0a8b8a2c8cdf3e0c028661bef9ce51c7586b13ffaed695ea99aa02ffe2c7ab9"
+  },
+  {
+    "path": "repository-root/problems/TUZA-19/notes/fresh_multi_private_two_singletons_refinement.md",
+    "copy": "sources/public/problems/TUZA-19/notes/fresh_multi_private_two_singletons_refinement.md",
+    "before_sha256": "0d50452be337fa439fc9250e5c8ac47cd59c3fb7045de913e2910bcc7297f9da"
+  }
+]

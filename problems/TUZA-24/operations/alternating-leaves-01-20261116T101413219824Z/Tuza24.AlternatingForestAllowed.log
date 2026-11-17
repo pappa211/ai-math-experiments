@@ -1,0 +1,29 @@
+problems/TUZA-24/Tuza24/AlternatingForestAllowed.lean:38:37: error: overloaded, errors 
+  38:38 Unknown identifier `a`
+  
+  38:38 `a` is not a field of structure `Finset`
+problems/TUZA-24/Tuza24/AlternatingForestAllowed.lean:38:63: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+M : Finset (Finset V)
+hM : MaximumMatching G M
+b u : V
+hu : u ∉ matchingVertices M
+hnot : ∀ e ∈ M, u ∉ e
+hbu : b ≠ u
+e : Finset V
+heM : e ∈ M
+x : V
+hxe : x ∈ e
+he : {x, b} ∈ M
+hau : G.Adj x u
+hab : x ≠ b
+hnew : {x, u} ∉ M
+hnewErase : {x, u} ∉ M.erase {x, b}
+hnewEdge : G.IsNClique 2 {x, u}
+heErase : e ∈ M.erase {x, b}
+hne : e ≠ {x, b}
+hx : x ∈ {x, u}
+⊢ x ∈ sorry ()

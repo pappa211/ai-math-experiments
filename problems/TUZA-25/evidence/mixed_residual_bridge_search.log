@@ -1,0 +1,8 @@
+PRIVATE_PATH_REMOVED UserWarning: The hashes produced for graphs without node or edge attributes changed in v3.5 due to a bugfix (see documentation).
+  node_labels = _init_node_labels(G, edge_attr, node_attr)
+depth 1 front 5 {'roots': 2, 'distinct_children': 5, 'leaf_presentations': 34, 'final_resilient': 29, 'final_defect_one_resilient': 4} seconds 0.006073951721191406
+depth 2 front 19 {'roots': 2, 'distinct_children': 24, 'leaf_presentations': 196, 'final_resilient': 106, 'final_defect_one_resilient': 4} seconds 0.08822798728942871
+depth 3 front 149 {'roots': 2, 'distinct_children': 173, 'leaf_presentations': 1085, 'final_resilient': 317, 'final_defect_one_resilient': 4, 'resilience_descent_failures': 122} seconds 2.2626888751983643
+depth 4 front 962 {'roots': 2, 'distinct_children': 1135, 'leaf_presentations': 6051, 'final_resilient': 1334, 'final_defect_one_resilient': 4, 'resilience_descent_failures': 708} seconds 23.91354012489319
+depth 5 front 2245 {'roots': 2, 'distinct_children': 3380, 'leaf_presentations': 17014, 'final_resilient': 3588, 'final_defect_one_resilient': 4, 'resilience_descent_failures': 2048} seconds 81.4744040966034
+DONE {'roots': 2, 'distinct_children': 3380, 'leaf_presentations': 17014, 'final_resilient': 3588, 'final_defect_one_resilient': 4, 'resilience_descent_failures': 2048} failures 2048

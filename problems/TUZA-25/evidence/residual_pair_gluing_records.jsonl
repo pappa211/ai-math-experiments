@@ -1,0 +1,332 @@
+{"kind": "star5+star45", "n": 12, "m": 34, "triangles": 39, "nu": 10, "tau": 12, "seconds": 0.20767593383789062, "status": "EXACT"}
+{"kind": "star444+star445", "n": 14, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.0050129890441895}
+{"kind": "star45+star44", "n": 12, "m": 32, "triangles": 32, "nu": 8, "tau": 10, "seconds": 0.05993509292602539, "status": "EXACT"}
+{"kind": "star455+star44", "n": 14, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.004578113555908}
+{"kind": "star55+K5-e", "n": 12, "m": 32, "triangles": 35, "nu": 8, "tau": 11, "seconds": 0.15085387229919434, "status": "EXACT"}
+{"kind": "star444+W5", "n": 12, "m": 29, "triangles": 25, "nu": 7, "tau": 9, "seconds": 0.014474868774414062, "status": "EXACT"}
+{"kind": "K5-e+star55", "n": 13, "m": 33, "triangles": 32, "nu": 8, "tau": 12, "seconds": 0.09974288940429688, "status": "EXACT"}
+{"kind": "star444+star45", "n": 11, "m": 38, "status": "UNKNOWN_timeout", "seconds": 3.0036442279815674}
+{"kind": "star455+star455", "n": 14, "m": 49, "status": "UNKNOWN_timeout", "seconds": 3.004603147506714}
+{"kind": "star5+star45", "n": 11, "m": 33, "triangles": 41, "nu": 10, "tau": 11, "seconds": 0.5240931510925293, "status": "EXACT"}
+{"kind": "star55+star45", "n": 12, "m": 37, "status": "UNKNOWN_timeout", "seconds": 3.0018277168273926}
+{"kind": "star555+star455", "n": 14, "m": 48, "status": "UNKNOWN_timeout", "seconds": 3.002288818359375}
+{"kind": "star555+star455", "n": 14, "m": 54, "status": "UNKNOWN_timeout", "seconds": 3.0049870014190674}
+{"kind": "star445+star44", "n": 14, "m": 40, "triangles": 43, "nu": 11, "tau": 13, "seconds": 1.5198819637298584, "status": "EXACT"}
+{"kind": "star55+K5-e", "n": 12, "m": 31, "triangles": 33, "nu": 7, "tau": 12, "seconds": 0.16221284866333008, "status": "EXACT"}
+{"kind": "star45+star44", "n": 13, "m": 34, "triangles": 36, "nu": 8, "tau": 11, "seconds": 0.2344350814819336, "status": "EXACT"}
+{"kind": "star44+star444", "n": 13, "m": 35, "triangles": 35, "nu": 9, "tau": 11, "seconds": 0.14218711853027344, "status": "EXACT"}
+{"kind": "star445+star555", "n": 14, "m": 52, "status": "UNKNOWN_timeout", "seconds": 3.004302978515625}
+{"kind": "star55+star555", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.004096031188965}
+{"kind": "star5+star555", "n": 14, "m": 46, "status": "UNKNOWN_timeout", "seconds": 3.0047059059143066}
+{"kind": "star455+star5", "n": 13, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.003387928009033}
+{"kind": "star45+K5-e", "n": 11, "m": 26, "triangles": 24, "nu": 6, "tau": 8, "seconds": 0.009567022323608398, "status": "EXACT"}
+{"kind": "star444+star555", "n": 14, "m": 49, "status": "UNKNOWN_timeout", "seconds": 3.003875732421875}
+{"kind": "star5+star445", "n": 13, "m": 39, "triangles": 47, "nu": 11, "tau": 14, "seconds": 2.910642147064209, "status": "EXACT"}
+{"kind": "W5+star444", "n": 14, "m": 30, "triangles": 21, "nu": 6, "tau": 9, "seconds": 0.00873708724975586, "status": "EXACT"}
+{"kind": "K5-e+star444", "n": 11, "m": 30, "triangles": 33, "nu": 8, "tau": 10, "seconds": 0.05421113967895508, "status": "EXACT"}
+{"kind": "star45+star445", "n": 14, "m": 40, "triangles": 44, "nu": 11, "tau": 13, "seconds": 0.8425970077514648, "status": "EXACT"}
+{"kind": "star555+star445", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.0037999153137207}
+{"kind": "star4+star45", "n": 12, "m": 28, "triangles": 25, "nu": 6, "tau": 10, "seconds": 0.01854705810546875, "status": "EXACT"}
+{"kind": "star45+star445", "n": 14, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.0030291080474854}
+{"kind": "star5+star5", "n": 11, "m": 30, "triangles": 34, "nu": 8, "tau": 10, "seconds": 0.11498904228210449, "status": "EXACT"}
+{"kind": "K5-e+star45", "n": 12, "m": 28, "triangles": 25, "nu": 6, "tau": 9, "seconds": 0.012737751007080078, "status": "EXACT"}
+{"kind": "star445+star444", "n": 12, "m": 42, "status": "UNKNOWN_timeout", "seconds": 3.0042669773101807}
+{"kind": "star55+star455", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.002424955368042}
+{"kind": "star555+star555", "n": 14, "m": 57, "status": "UNKNOWN_timeout", "seconds": 3.0046420097351074}
+{"kind": "star444+star5", "n": 11, "m": 33, "triangles": 40, "nu": 9, "tau": 11, "seconds": 0.4004788398742676, "status": "EXACT"}
+{"kind": "star5+star5", "n": 12, "m": 30, "triangles": 30, "nu": 7, "tau": 10, "seconds": 0.03952598571777344, "status": "EXACT"}
+{"kind": "star455+star5", "n": 13, "m": 39, "status": "UNKNOWN_timeout", "seconds": 3.0037989616394043}
+{"kind": "star55+star5", "n": 13, "m": 36, "triangles": 40, "nu": 10, "tau": 12, "seconds": 0.6547958850860596, "status": "EXACT"}
+{"kind": "star55+star4", "n": 13, "m": 34, "triangles": 32, "nu": 7, "tau": 11, "seconds": 0.17518877983093262, "status": "EXACT"}
+{"kind": "star445+star555", "n": 14, "m": 49, "status": "UNKNOWN_timeout", "seconds": 3.003279685974121}
+{"kind": "star455+star444", "n": 13, "m": 45, "status": "UNKNOWN_timeout", "seconds": 3.0045700073242188}
+{"kind": "star444+star445", "n": 14, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.004242181777954}
+{"kind": "star44+star4", "n": 11, "m": 24, "triangles": 19, "nu": 5, "tau": 7, "seconds": 0.002196073532104492, "status": "EXACT"}
+{"kind": "W5+star55", "n": 11, "m": 31, "triangles": 36, "nu": 8, "tau": 11, "seconds": 0.18326497077941895, "status": "EXACT"}
+{"kind": "star44+K5-e", "n": 11, "m": 24, "triangles": 19, "nu": 5, "tau": 7, "seconds": 0.003292083740234375, "status": "EXACT"}
+{"kind": "W5+star55", "n": 14, "m": 33, "triangles": 29, "nu": 7, "tau": 11, "seconds": 0.055941104888916016, "status": "EXACT"}
+{"kind": "star455+star455", "n": 13, "m": 50, "status": "UNKNOWN_timeout", "seconds": 3.003021001815796}
+{"kind": "star5+star444", "n": 11, "m": 28, "triangles": 29, "nu": 7, "tau": 9, "seconds": 0.02972102165222168, "status": "EXACT"}
+{"kind": "star44+W5", "n": 12, "m": 25, "triangles": 17, "nu": 5, "tau": 7, "seconds": 0.0010530948638916016, "status": "EXACT"}
+{"kind": "star445+star444", "n": 13, "m": 42, "status": "UNKNOWN_timeout", "seconds": 3.0044119358062744}
+{"kind": "star455+star55", "n": 14, "m": 50, "status": "UNKNOWN_timeout", "seconds": 3.0036401748657227}
+{"kind": "W5+star444", "n": 11, "m": 29, "triangles": 29, "nu": 8, "tau": 9, "seconds": 0.01751708984375, "status": "EXACT"}
+{"kind": "star555+star444", "n": 14, "m": 48, "status": "UNKNOWN_timeout", "seconds": 3.0042781829833984}
+{"kind": "star45+star445", "n": 14, "m": 41, "triangles": 46, "nu": 11, "tau": 14, "seconds": 2.1380951404571533, "status": "EXACT"}
+{"kind": "K5-e+star555", "n": 14, "m": 40, "triangles": 45, "nu": 10, "tau": 14, "seconds": 2.3503530025482178, "status": "EXACT"}
+{"kind": "W5+star45", "n": 11, "m": 28, "triangles": 25, "nu": 7, "tau": 9, "seconds": 0.020379066467285156, "status": "EXACT"}
+{"kind": "star45+star455", "n": 14, "m": 43, "status": "UNKNOWN_timeout", "seconds": 3.0034637451171875}
+{"kind": "star45+K5-e", "n": 11, "m": 27, "triangles": 27, "nu": 6, "tau": 8, "seconds": 0.023342132568359375, "status": "EXACT"}
+{"kind": "star445+star444", "n": 12, "m": 40, "status": "UNKNOWN_timeout", "seconds": 3.002267837524414}
+{"kind": "star455+star455", "n": 14, "m": 45, "status": "UNKNOWN_timeout", "seconds": 3.003460168838501}
+{"kind": "star45+star4", "n": 11, "m": 28, "triangles": 28, "nu": 7, "tau": 9, "seconds": 0.027503013610839844, "status": "EXACT"}
+{"kind": "star555+star5", "n": 14, "m": 42, "status": "UNKNOWN_timeout", "seconds": 3.0046780109405518}
+{"kind": "star4+star444", "n": 12, "m": 31, "triangles": 25, "nu": 7, "tau": 9, "seconds": 0.0204927921295166, "status": "EXACT"}
+{"kind": "star445+star55", "n": 13, "m": 43, "status": "UNKNOWN_timeout", "seconds": 3.001176118850708}
+{"kind": "star5+W5", "n": 11, "m": 25, "triangles": 21, "nu": 6, "tau": 8, "seconds": 0.00337982177734375, "status": "EXACT"}
+{"kind": "star455+star44", "n": 13, "m": 36, "triangles": 40, "nu": 10, "tau": 13, "seconds": 0.6753699779510498, "status": "EXACT"}
+{"kind": "star445+star444", "n": 13, "m": 42, "status": "UNKNOWN_timeout", "seconds": 3.003471851348877}
+{"kind": "star444+star4", "n": 11, "m": 29, "triangles": 30, "nu": 7, "tau": 9, "seconds": 0.025210142135620117, "status": "EXACT"}
+{"kind": "star44+K5-e", "n": 11, "m": 24, "triangles": 19, "nu": 5, "tau": 7, "seconds": 0.0032770633697509766, "status": "EXACT"}
+{"kind": "star445+star4", "n": 13, "m": 35, "triangles": 38, "nu": 10, "tau": 11, "seconds": 0.24057722091674805, "status": "EXACT"}
+{"kind": "W5+star44", "n": 12, "m": 26, "triangles": 19, "nu": 6, "tau": 8, "seconds": 0.002566814422607422, "status": "EXACT"}
+{"kind": "star4+star5", "n": 11, "m": 26, "triangles": 24, "nu": 6, "tau": 8, "seconds": 0.008815288543701172, "status": "EXACT"}
+{"kind": "star444+star555", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.0035512447357178}
+{"kind": "star44+star44", "n": 11, "m": 29, "triangles": 27, "nu": 7, "tau": 9, "seconds": 0.027440786361694336, "status": "EXACT"}
+{"kind": "star44+star5", "n": 11, "m": 28, "triangles": 28, "nu": 8, "tau": 9, "seconds": 0.01639389991760254, "status": "EXACT"}
+{"kind": "star5+star45", "n": 14, "m": 35, "triangles": 34, "nu": 8, "tau": 12, "seconds": 0.15633511543273926, "status": "EXACT"}
+{"kind": "star4+star444", "n": 13, "m": 31, "triangles": 28, "nu": 7, "tau": 9, "seconds": 0.023292064666748047, "status": "EXACT"}
+{"kind": "W5+star555", "n": 14, "m": 39, "triangles": 40, "nu": 9, "tau": 14, "seconds": 1.174616813659668, "status": "EXACT"}
+{"kind": "star45+star4", "n": 12, "m": 30, "triangles": 30, "nu": 8, "tau": 10, "seconds": 0.061747074127197266, "status": "EXACT"}
+{"kind": "star445+star55", "n": 13, "m": 42, "status": "UNKNOWN_timeout", "seconds": 3.0051259994506836}
+{"kind": "star445+star44", "n": 13, "m": 37, "triangles": 41, "nu": 10, "tau": 12, "seconds": 0.6355457305908203, "status": "EXACT"}
+{"kind": "star455+star44", "n": 14, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0037832260131836}
+{"kind": "star4+star55", "n": 13, "m": 34, "triangles": 34, "nu": 8, "tau": 11, "seconds": 0.20415520668029785, "status": "EXACT"}
+{"kind": "star55+W5", "n": 11, "m": 31, "triangles": 35, "nu": 9, "tau": 11, "seconds": 0.16773104667663574, "status": "EXACT"}
+{"kind": "star445+W5", "n": 14, "m": 34, "triangles": 28, "nu": 8, "tau": 11, "seconds": 0.03136897087097168, "status": "EXACT"}
+{"kind": "star44+K5-e", "n": 11, "m": 25, "triangles": 21, "nu": 6, "tau": 8, "seconds": 0.0049779415130615234, "status": "EXACT"}
+{"kind": "star444+star44", "n": 14, "m": 35, "triangles": 32, "nu": 8, "tau": 11, "seconds": 0.05560803413391113, "status": "EXACT"}
+{"kind": "star444+star5", "n": 12, "m": 30, "triangles": 29, "nu": 8, "tau": 10, "seconds": 0.03704977035522461, "status": "EXACT"}
+{"kind": "star455+star555", "n": 14, "m": 51, "status": "UNKNOWN_timeout", "seconds": 3.004486083984375}
+{"kind": "star4+star555", "n": 14, "m": 39, "triangles": 43, "nu": 10, "tau": 14, "seconds": 2.2129440307617188, "status": "EXACT"}
+{"kind": "star45+K5-e", "n": 12, "m": 29, "triangles": 28, "nu": 6, "tau": 10, "seconds": 0.04447627067565918, "status": "EXACT"}
+{"kind": "star55+star4", "n": 11, "m": 30, "triangles": 33, "nu": 8, "tau": 10, "seconds": 0.0836029052734375, "status": "EXACT"}
+{"kind": "star4+star444", "n": 14, "m": 31, "triangles": 24, "nu": 6, "tau": 9, "seconds": 0.01554417610168457, "status": "EXACT"}
+{"kind": "star45+star5", "n": 13, "m": 34, "triangles": 36, "nu": 9, "tau": 12, "seconds": 0.2739741802215576, "status": "EXACT"}
+{"kind": "star44+star455", "n": 13, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0087180137634277}
+{"kind": "star55+star45", "n": 11, "m": 34, "triangles": 48, "nu": 10, "tau": 12, "seconds": 1.6393120288848877, "status": "EXACT"}
+{"kind": "star4+star55", "n": 13, "m": 35, "triangles": 38, "nu": 9, "tau": 12, "seconds": 0.22014093399047852, "status": "EXACT"}
+{"kind": "W5+star45", "n": 11, "m": 28, "triangles": 25, "nu": 7, "tau": 9, "seconds": 0.014163970947265625, "status": "EXACT"}
+{"kind": "star44+star444", "n": 14, "m": 33, "triangles": 27, "nu": 7, "tau": 10, "seconds": 0.03061079978942871, "status": "EXACT"}
+{"kind": "star444+star4", "n": 13, "m": 30, "triangles": 24, "nu": 6, "tau": 9, "seconds": 0.014792919158935547, "status": "EXACT"}
+{"kind": "star5+star45", "n": 14, "m": 34, "triangles": 32, "nu": 7, "tau": 11, "seconds": 0.1046299934387207, "status": "EXACT"}
+{"kind": "star445+star5", "n": 14, "m": 37, "triangles": 37, "nu": 9, "tau": 13, "seconds": 0.4409339427947998, "status": "EXACT"}
+{"kind": "star44+star44", "n": 12, "m": 30, "triangles": 28, "nu": 7, "tau": 9, "seconds": 0.02679920196533203, "status": "EXACT"}
+{"kind": "star455+star555", "n": 14, "m": 52, "status": "UNKNOWN_timeout", "seconds": 3.000131130218506}
+{"kind": "star44+star455", "n": 14, "m": 38, "triangles": 38, "nu": 9, "tau": 13, "seconds": 0.352337121963501, "status": "EXACT"}
+{"kind": "star4+star455", "n": 13, "m": 38, "triangles": 46, "nu": 10, "tau": 13, "seconds": 2.199410915374756, "status": "EXACT"}
+{"kind": "W5+star444", "n": 12, "m": 30, "triangles": 27, "nu": 7, "tau": 9, "seconds": 0.016398906707763672, "status": "EXACT"}
+{"kind": "star455+K5-e", "n": 13, "m": 37, "triangles": 40, "nu": 9, "tau": 13, "seconds": 0.719498872756958, "status": "EXACT"}
+{"kind": "star455+K5-e", "n": 13, "m": 34, "triangles": 35, "nu": 8, "tau": 12, "seconds": 0.2201547622680664, "status": "EXACT"}
+{"kind": "star445+K5-e", "n": 13, "m": 33, "triangles": 33, "nu": 8, "tau": 11, "seconds": 0.11457991600036621, "status": "EXACT"}
+{"kind": "star445+star444", "n": 12, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.002058982849121}
+{"kind": "K5-e+star455", "n": 14, "m": 38, "triangles": 40, "nu": 9, "tau": 14, "seconds": 0.9913139343261719, "status": "EXACT"}
+{"kind": "star444+star555", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.0011813640594482}
+{"kind": "K5-e+star555", "n": 14, "m": 39, "triangles": 44, "nu": 10, "tau": 14, "seconds": 1.8201091289520264, "status": "EXACT"}
+{"kind": "star5+star55", "n": 11, "m": 30, "triangles": 35, "nu": 8, "tau": 11, "seconds": 0.11483597755432129, "status": "EXACT"}
+{"kind": "star45+K5-e", "n": 12, "m": 29, "triangles": 26, "nu": 7, "tau": 10, "seconds": 0.015453100204467773, "status": "EXACT"}
+{"kind": "star444+K5-e", "n": 11, "m": 27, "triangles": 27, "nu": 7, "tau": 9, "seconds": 0.020489215850830078, "status": "EXACT"}
+{"kind": "K5-e+star55", "n": 11, "m": 29, "triangles": 30, "nu": 7, "tau": 10, "seconds": 0.04194784164428711, "status": "EXACT"}
+{"kind": "star444+star555", "n": 14, "m": 46, "status": "UNKNOWN_timeout", "seconds": 3.0017621517181396}
+{"kind": "star445+star444", "n": 13, "m": 38, "triangles": 45, "nu": 11, "tau": 13, "seconds": 1.5731298923492432, "status": "EXACT"}
+{"kind": "star555+star555", "n": 14, "m": 57, "status": "UNKNOWN_timeout", "seconds": 3.0089328289031982}
+{"kind": "star455+K5-e", "n": 14, "m": 36, "triangles": 35, "nu": 8, "tau": 13, "seconds": 0.4726548194885254, "status": "EXACT"}
+{"kind": "star55+star45", "n": 13, "m": 37, "triangles": 43, "nu": 10, "tau": 12, "seconds": 0.5351788997650146, "status": "EXACT"}
+{"kind": "star455+star44", "n": 13, "m": 40, "status": "UNKNOWN_timeout", "seconds": 3.0072569847106934}
+{"kind": "star4+star44", "n": 12, "m": 27, "triangles": 22, "nu": 6, "tau": 8, "seconds": 0.004550933837890625, "status": "EXACT"}
+{"kind": "star555+star4", "n": 14, "m": 40, "status": "UNKNOWN_timeout", "seconds": 3.0045671463012695}
+{"kind": "star44+star55", "n": 12, "m": 36, "triangles": 41, "nu": 10, "tau": 12, "seconds": 1.0972609519958496, "status": "EXACT"}
+{"kind": "star45+W5", "n": 12, "m": 29, "triangles": 27, "nu": 7, "tau": 9, "seconds": 0.012839317321777344, "status": "EXACT"}
+{"kind": "star55+star44", "n": 13, "m": 37, "triangles": 43, "nu": 10, "tau": 13, "seconds": 0.8704493045806885, "status": "EXACT"}
+{"kind": "K5-e+star44", "n": 11, "m": 24, "triangles": 19, "nu": 5, "tau": 7, "seconds": 0.0017819404602050781, "status": "EXACT"}
+{"kind": "W5+star444", "n": 12, "m": 30, "triangles": 27, "nu": 8, "tau": 9, "seconds": 0.022996902465820312, "status": "EXACT"}
+{"kind": "W5+star555", "n": 14, "m": 38, "triangles": 40, "nu": 9, "tau": 14, "seconds": 1.045861005783081, "status": "EXACT"}
+{"kind": "W5+star44", "n": 11, "m": 26, "triangles": 21, "nu": 6, "tau": 8, "seconds": 0.004195213317871094, "status": "EXACT"}
+{"kind": "star444+star55", "n": 12, "m": 34, "triangles": 40, "nu": 9, "tau": 11, "seconds": 0.5097489356994629, "status": "EXACT"}
+{"kind": "star445+star4", "n": 13, "m": 35, "triangles": 36, "nu": 9, "tau": 12, "seconds": 0.2293989658355713, "status": "EXACT"}
+{"kind": "star4+star555", "n": 14, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0015780925750732}
+{"kind": "star445+star445", "n": 13, "m": 38, "triangles": 42, "nu": 10, "tau": 11, "seconds": 1.2247428894042969, "status": "EXACT"}
+{"kind": "star55+star445", "n": 14, "m": 45, "status": "UNKNOWN_timeout", "seconds": 3.010065793991089}
+{"kind": "star45+star4", "n": 11, "m": 28, "triangles": 29, "nu": 7, "tau": 9, "seconds": 0.0256497859954834, "status": "EXACT"}
+{"kind": "star445+W5", "n": 14, "m": 34, "triangles": 29, "nu": 8, "tau": 11, "seconds": 0.04751706123352051, "status": "EXACT"}
+{"kind": "star555+star445", "n": 14, "m": 50, "status": "UNKNOWN_timeout", "seconds": 3.0093910694122314}
+{"kind": "star555+star444", "n": 14, "m": 43, "status": "UNKNOWN_timeout", "seconds": 3.002124071121216}
+{"kind": "star45+star55", "n": 13, "m": 39, "status": "UNKNOWN_timeout", "seconds": 3.0035767555236816}
+{"kind": "star555+star5", "n": 14, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0047669410705566}
+{"kind": "star5+star455", "n": 14, "m": 38, "triangles": 42, "nu": 10, "tau": 13, "seconds": 0.7269701957702637, "status": "EXACT"}
+{"kind": "star55+star5", "n": 14, "m": 37, "triangles": 38, "nu": 8, "tau": 13, "seconds": 0.7973072528839111, "status": "EXACT"}
+{"kind": "K5-e+star45", "n": 12, "m": 29, "triangles": 27, "nu": 7, "tau": 10, "seconds": 0.01777482032775879, "status": "EXACT"}
+{"kind": "star444+star555", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.0090489387512207}
+{"kind": "K5-e+star55", "n": 13, "m": 33, "triangles": 33, "nu": 8, "tau": 12, "seconds": 0.09482979774475098, "status": "EXACT"}
+{"kind": "star455+star55", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.0035400390625}
+{"kind": "star555+star4", "n": 14, "m": 39, "triangles": 41, "nu": 9, "tau": 14, "seconds": 1.7021267414093018, "status": "EXACT"}
+{"kind": "W5+star455", "n": 13, "m": 35, "triangles": 36, "nu": 9, "tau": 12, "seconds": 0.3373911380767822, "status": "EXACT"}
+{"kind": "star55+star555", "n": 14, "m": 49, "status": "UNKNOWN_timeout", "seconds": 3.0002498626708984}
+{"kind": "star444+star444", "n": 13, "m": 37, "triangles": 40, "nu": 10, "tau": 12, "seconds": 0.3815140724182129, "status": "EXACT"}
+{"kind": "star5+star55", "n": 13, "m": 35, "triangles": 39, "nu": 9, "tau": 12, "seconds": 0.4096059799194336, "status": "EXACT"}
+{"kind": "star445+star555", "n": 14, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.0083248615264893}
+{"kind": "star455+star44", "n": 14, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.005192995071411}
+{"kind": "star445+star445", "n": 12, "m": 40, "status": "UNKNOWN_timeout", "seconds": 3.000833034515381}
+{"kind": "K5-e+star455", "n": 13, "m": 34, "triangles": 36, "nu": 8, "tau": 12, "seconds": 0.19527912139892578, "status": "EXACT"}
+{"kind": "star445+star444", "n": 14, "m": 40, "triangles": 46, "nu": 11, "tau": 14, "seconds": 1.4219138622283936, "status": "EXACT"}
+{"kind": "star4+star455", "n": 13, "m": 38, "triangles": 45, "nu": 11, "tau": 13, "seconds": 1.5072829723358154, "status": "EXACT"}
+{"kind": "star55+K5-e", "n": 13, "m": 32, "triangles": 31, "nu": 7, "tau": 11, "seconds": 0.1090691089630127, "status": "EXACT"}
+{"kind": "star55+K5-e", "n": 13, "m": 32, "triangles": 31, "nu": 7, "tau": 11, "seconds": 0.06289100646972656, "status": "EXACT"}
+{"kind": "star55+K5-e", "n": 12, "m": 32, "triangles": 34, "nu": 7, "tau": 11, "seconds": 0.2058727741241455, "status": "EXACT"}
+{"kind": "star55+star5", "n": 14, "m": 36, "triangles": 37, "nu": 8, "tau": 13, "seconds": 0.5630090236663818, "status": "EXACT"}
+{"kind": "star55+star555", "n": 14, "m": 48, "status": "UNKNOWN_timeout", "seconds": 3.002650737762451}
+{"kind": "star55+star555", "n": 14, "m": 46, "status": "UNKNOWN_timeout", "seconds": 3.0062248706817627}
+{"kind": "star5+star55", "n": 12, "m": 34, "triangles": 40, "nu": 9, "tau": 11, "seconds": 0.2968130111694336, "status": "EXACT"}
+{"kind": "star455+star444", "n": 14, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.001309871673584}
+{"kind": "star444+star45", "n": 13, "m": 39, "triangles": 41, "nu": 11, "tau": 12, "seconds": 1.1624560356140137, "status": "EXACT"}
+{"kind": "star555+star55", "n": 14, "m": 51, "status": "UNKNOWN_timeout", "seconds": 3.004526138305664}
+{"kind": "star445+K5-e", "n": 13, "m": 32, "triangles": 30, "nu": 8, "tau": 11, "seconds": 0.05014824867248535, "status": "EXACT"}
+{"kind": "W5+star45", "n": 13, "m": 30, "triangles": 24, "nu": 7, "tau": 10, "seconds": 0.014502763748168945, "status": "EXACT"}
+{"kind": "star555+star5", "n": 14, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.004848003387451}
+{"kind": "star455+star45", "n": 13, "m": 45, "status": "UNKNOWN_timeout", "seconds": 3.003643751144409}
+{"kind": "star44+star555", "n": 14, "m": 46, "status": "UNKNOWN_timeout", "seconds": 3.001863956451416}
+{"kind": "W5+star45", "n": 11, "m": 26, "triangles": 22, "nu": 6, "tau": 8, "seconds": 0.004167079925537109, "status": "EXACT"}
+{"kind": "star445+W5", "n": 13, "m": 33, "triangles": 31, "nu": 8, "tau": 11, "seconds": 0.07607316970825195, "status": "EXACT"}
+{"kind": "star455+K5-e", "n": 14, "m": 37, "triangles": 38, "nu": 9, "tau": 13, "seconds": 0.45679402351379395, "status": "EXACT"}
+{"kind": "K5-e+star444", "n": 12, "m": 29, "triangles": 27, "nu": 7, "tau": 9, "seconds": 0.015745878219604492, "status": "EXACT"}
+{"kind": "W5+star455", "n": 14, "m": 34, "triangles": 31, "nu": 8, "tau": 12, "seconds": 0.15684294700622559, "status": "EXACT"}
+{"kind": "star45+star445", "n": 13, "m": 39, "triangles": 49, "nu": 11, "tau": 13, "seconds": 2.11446475982666, "status": "EXACT"}
+{"kind": "star5+star5", "n": 11, "m": 28, "triangles": 29, "nu": 7, "tau": 9, "seconds": 0.021358728408813477, "status": "EXACT"}
+{"kind": "star455+star445", "n": 13, "m": 45, "status": "UNKNOWN_timeout", "seconds": 3.002408027648926}
+{"kind": "K5-e+star555", "n": 14, "m": 38, "triangles": 42, "nu": 10, "tau": 13, "seconds": 0.7661569118499756, "status": "EXACT"}
+{"kind": "star555+star5", "n": 14, "m": 43, "status": "UNKNOWN_timeout", "seconds": 3.002516031265259}
+{"kind": "star45+star55", "n": 11, "m": 32, "triangles": 39, "nu": 9, "tau": 11, "seconds": 0.3308448791503906, "status": "EXACT"}
+{"kind": "star44+star445", "n": 13, "m": 38, "triangles": 42, "nu": 10, "tau": 12, "seconds": 1.192878007888794, "status": "EXACT"}
+{"kind": "star45+W5", "n": 11, "m": 28, "triangles": 28, "nu": 7, "tau": 9, "seconds": 0.01257181167602539, "status": "EXACT"}
+{"kind": "W5+star55", "n": 12, "m": 32, "triangles": 33, "nu": 8, "tau": 10, "seconds": 0.10655999183654785, "status": "EXACT"}
+{"kind": "K5-e+star555", "n": 14, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.006971836090088}
+{"kind": "star4+star455", "n": 13, "m": 36, "triangles": 40, "nu": 9, "tau": 13, "seconds": 0.7160177230834961, "status": "EXACT"}
+{"kind": "star455+star55", "n": 14, "m": 48, "status": "UNKNOWN_timeout", "seconds": 3.007844924926758}
+{"kind": "star5+star445", "n": 14, "m": 37, "triangles": 39, "nu": 9, "tau": 13, "seconds": 0.3058350086212158, "status": "EXACT"}
+{"kind": "star5+star44", "n": 12, "m": 31, "triangles": 30, "nu": 8, "tau": 10, "seconds": 0.07875680923461914, "status": "EXACT"}
+{"kind": "star45+star44", "n": 11, "m": 30, "triangles": 34, "nu": 8, "tau": 10, "seconds": 0.06756806373596191, "status": "EXACT"}
+{"kind": "star445+star55", "n": 14, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.0022647380828857}
+{"kind": "star555+star45", "n": 14, "m": 49, "status": "UNKNOWN_timeout", "seconds": 3.0052082538604736}
+{"kind": "K5-e+star55", "n": 11, "m": 30, "triangles": 33, "nu": 8, "tau": 10, "seconds": 0.13692808151245117, "status": "EXACT"}
+{"kind": "star555+star5", "n": 14, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0025970935821533}
+{"kind": "star444+star44", "n": 11, "m": 27, "triangles": 25, "nu": 7, "tau": 9, "seconds": 0.014219999313354492, "status": "EXACT"}
+{"kind": "star555+star45", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.000562906265259}
+{"kind": "K5-e+star444", "n": 12, "m": 27, "triangles": 22, "nu": 6, "tau": 9, "seconds": 0.005393028259277344, "status": "EXACT"}
+{"kind": "star45+star55", "n": 14, "m": 43, "status": "UNKNOWN_timeout", "seconds": 3.005173921585083}
+{"kind": "star444+star55", "n": 14, "m": 39, "triangles": 42, "nu": 10, "tau": 13, "seconds": 1.0331010818481445, "status": "EXACT"}
+{"kind": "star555+star455", "n": 14, "m": 50, "status": "UNKNOWN_timeout", "seconds": 3.003120183944702}
+{"kind": "star55+star455", "n": 13, "m": 46, "status": "UNKNOWN_timeout", "seconds": 3.0005030632019043}
+{"kind": "star44+W5", "n": 12, "m": 26, "triangles": 18, "nu": 6, "tau": 8, "seconds": 0.0024302005767822266, "status": "EXACT"}
+{"kind": "star44+star44", "n": 11, "m": 27, "triangles": 26, "nu": 7, "tau": 9, "seconds": 0.012855052947998047, "status": "EXACT"}
+{"kind": "star44+star445", "n": 14, "m": 37, "triangles": 35, "nu": 9, "tau": 11, "seconds": 0.14321279525756836, "status": "EXACT"}
+{"kind": "star45+star455", "n": 13, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0015828609466553}
+{"kind": "star45+star4", "n": 11, "m": 29, "triangles": 30, "nu": 8, "tau": 10, "seconds": 0.04258990287780762, "status": "EXACT"}
+{"kind": "star555+star5", "n": 14, "m": 43, "status": "UNKNOWN_timeout", "seconds": 3.006899118423462}
+{"kind": "star55+W5", "n": 12, "m": 32, "triangles": 32, "nu": 8, "tau": 11, "seconds": 0.10171198844909668, "status": "EXACT"}
+{"kind": "star44+star444", "n": 14, "m": 36, "triangles": 31, "nu": 9, "tau": 11, "seconds": 0.10557103157043457, "status": "EXACT"}
+{"kind": "star45+star44", "n": 11, "m": 29, "triangles": 30, "nu": 8, "tau": 9, "seconds": 0.0383298397064209, "status": "EXACT"}
+{"kind": "star555+star5", "n": 14, "m": 46, "status": "UNKNOWN_timeout", "seconds": 3.0022530555725098}
+{"kind": "star45+star5", "n": 13, "m": 34, "triangles": 36, "nu": 8, "tau": 11, "seconds": 0.21881818771362305, "status": "EXACT"}
+{"kind": "star444+W5", "n": 11, "m": 26, "triangles": 22, "nu": 6, "tau": 8, "seconds": 0.007910966873168945, "status": "EXACT"}
+{"kind": "W5+star555", "n": 14, "m": 38, "triangles": 40, "nu": 10, "tau": 14, "seconds": 0.6947200298309326, "status": "EXACT"}
+{"kind": "star4+star44", "n": 11, "m": 25, "triangles": 21, "nu": 6, "tau": 8, "seconds": 0.0033369064331054688, "status": "EXACT"}
+{"kind": "star45+star4", "n": 12, "m": 30, "triangles": 28, "nu": 7, "tau": 9, "seconds": 0.04286003112792969, "status": "EXACT"}
+{"kind": "star455+W5", "n": 14, "m": 39, "triangles": 38, "nu": 10, "tau": 14, "seconds": 0.6429300308227539, "status": "EXACT"}
+{"kind": "star55+star444", "n": 12, "m": 40, "status": "UNKNOWN_timeout", "seconds": 3.003526210784912}
+{"kind": "star445+star555", "n": 14, "m": 49, "status": "UNKNOWN_timeout", "seconds": 3.0030648708343506}
+{"kind": "star455+star45", "n": 13, "m": 38, "triangles": 45, "nu": 10, "tau": 13, "seconds": 1.8929519653320312, "status": "EXACT"}
+{"kind": "star445+star55", "n": 14, "m": 46, "status": "UNKNOWN_timeout", "seconds": 3.0012717247009277}
+{"kind": "star445+star5", "n": 13, "m": 39, "status": "UNKNOWN_timeout", "seconds": 3.0052828788757324}
+{"kind": "star445+K5-e", "n": 14, "m": 33, "triangles": 29, "nu": 7, "tau": 11, "seconds": 0.06534409523010254, "status": "EXACT"}
+{"kind": "star44+star4", "n": 11, "m": 26, "triangles": 20, "nu": 5, "tau": 7, "seconds": 0.004246950149536133, "status": "EXACT"}
+{"kind": "star55+star4", "n": 14, "m": 35, "triangles": 34, "nu": 8, "tau": 12, "seconds": 0.30765795707702637, "status": "EXACT"}
+{"kind": "star44+star55", "n": 11, "m": 35, "triangles": 50, "nu": 10, "tau": 12, "seconds": 1.2439830303192139, "status": "EXACT"}
+{"kind": "star45+star445", "n": 13, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0048720836639404}
+{"kind": "star555+K5-e", "n": 14, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0043740272521973}
+{"kind": "star44+K5-e", "n": 11, "m": 25, "triangles": 21, "nu": 6, "tau": 8, "seconds": 0.005831003189086914, "status": "EXACT"}
+{"kind": "star5+star44", "n": 11, "m": 28, "triangles": 28, "nu": 7, "tau": 10, "seconds": 0.027684926986694336, "status": "EXACT"}
+{"kind": "W5+star455", "n": 14, "m": 37, "triangles": 38, "nu": 9, "tau": 13, "seconds": 0.48479175567626953, "status": "EXACT"}
+{"kind": "star444+star455", "n": 14, "m": 40, "triangles": 43, "nu": 10, "tau": 13, "seconds": 1.9107768535614014, "status": "EXACT"}
+{"kind": "star45+star455", "n": 13, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.006596088409424}
+{"kind": "star455+star45", "n": 13, "m": 39, "status": "UNKNOWN_timeout", "seconds": 3.002927780151367}
+{"kind": "star45+star44", "n": 12, "m": 31, "triangles": 32, "nu": 8, "tau": 10, "seconds": 0.0469210147857666, "status": "EXACT"}
+{"kind": "star444+star44", "n": 11, "m": 33, "triangles": 39, "nu": 9, "tau": 11, "seconds": 0.5326271057128906, "status": "EXACT"}
+{"kind": "star44+W5", "n": 11, "m": 25, "triangles": 20, "nu": 6, "tau": 7, "seconds": 0.0028319358825683594, "status": "EXACT"}
+{"kind": "W5+star55", "n": 14, "m": 34, "triangles": 31, "nu": 8, "tau": 12, "seconds": 0.12258315086364746, "status": "EXACT"}
+{"kind": "star44+star444", "n": 13, "m": 34, "triangles": 35, "nu": 9, "tau": 11, "seconds": 0.11766195297241211, "status": "EXACT"}
+{"kind": "star455+star455", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.0013539791107178}
+{"kind": "star55+K5-e", "n": 11, "m": 28, "triangles": 29, "nu": 7, "tau": 9, "seconds": 0.035218000411987305, "status": "EXACT"}
+{"kind": "star444+star4", "n": 14, "m": 32, "triangles": 26, "nu": 7, "tau": 10, "seconds": 0.020782947540283203, "status": "EXACT"}
+{"kind": "star445+star5", "n": 14, "m": 39, "triangles": 42, "nu": 10, "tau": 14, "seconds": 0.9704530239105225, "status": "EXACT"}
+{"kind": "star444+star5", "n": 14, "m": 35, "triangles": 32, "nu": 8, "tau": 11, "seconds": 0.12269115447998047, "status": "EXACT"}
+{"kind": "star44+star4", "n": 12, "m": 26, "triangles": 20, "nu": 5, "tau": 8, "seconds": 0.004735231399536133, "status": "EXACT"}
+{"kind": "star555+star5", "n": 14, "m": 40, "status": "UNKNOWN_timeout", "seconds": 3.0009748935699463}
+{"kind": "star455+star45", "n": 13, "m": 42, "status": "UNKNOWN_timeout", "seconds": 3.0056440830230713}
+{"kind": "star444+star445", "n": 14, "m": 43, "status": "UNKNOWN_timeout", "seconds": 3.002671003341675}
+{"kind": "star5+star5", "n": 12, "m": 29, "triangles": 28, "nu": 6, "tau": 10, "seconds": 0.03621101379394531, "status": "EXACT"}
+{"kind": "star444+star455", "n": 13, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.0055320262908936}
+{"kind": "star55+star45", "n": 13, "m": 40, "status": "UNKNOWN_timeout", "seconds": 3.0081968307495117}
+{"kind": "star455+star55", "n": 13, "m": 45, "status": "UNKNOWN_timeout", "seconds": 3.002030849456787}
+{"kind": "K5-e+star445", "n": 12, "m": 31, "triangles": 29, "nu": 7, "tau": 10, "seconds": 0.03371000289916992, "status": "EXACT"}
+{"kind": "K5-e+star445", "n": 12, "m": 33, "triangles": 36, "nu": 9, "tau": 11, "seconds": 0.10985612869262695, "status": "EXACT"}
+{"kind": "star455+K5-e", "n": 13, "m": 35, "triangles": 39, "nu": 9, "tau": 13, "seconds": 0.5019581317901611, "status": "EXACT"}
+{"kind": "star45+star44", "n": 13, "m": 35, "triangles": 35, "nu": 9, "tau": 12, "seconds": 0.29079604148864746, "status": "EXACT"}
+{"kind": "W5+star445", "n": 12, "m": 31, "triangles": 31, "nu": 8, "tau": 10, "seconds": 0.0684359073638916, "status": "EXACT"}
+{"kind": "star455+star44", "n": 14, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.000408887863159}
+{"kind": "K5-e+star55", "n": 13, "m": 32, "triangles": 31, "nu": 7, "tau": 11, "seconds": 0.07860398292541504, "status": "EXACT"}
+{"kind": "star44+K5-e", "n": 11, "m": 24, "triangles": 19, "nu": 5, "tau": 7, "seconds": 0.003435850143432617, "status": "EXACT"}
+{"kind": "K5-e+star445", "n": 14, "m": 33, "triangles": 29, "nu": 7, "tau": 11, "seconds": 0.052392005920410156, "status": "EXACT"}
+{"kind": "star444+star455", "n": 14, "m": 43, "status": "UNKNOWN_timeout", "seconds": 3.0097460746765137}
+{"kind": "star445+star5", "n": 14, "m": 37, "triangles": 39, "nu": 9, "tau": 12, "seconds": 0.7314190864562988, "status": "EXACT"}
+{"kind": "K5-e+star44", "n": 11, "m": 24, "triangles": 19, "nu": 5, "tau": 7, "seconds": 0.0025920867919921875, "status": "EXACT"}
+{"kind": "star5+W5", "n": 11, "m": 24, "triangles": 19, "nu": 5, "tau": 7, "seconds": 0.002229928970336914, "status": "EXACT"}
+{"kind": "star444+star5", "n": 11, "m": 30, "triangles": 33, "nu": 8, "tau": 10, "seconds": 0.06108593940734863, "status": "EXACT"}
+{"kind": "star445+star4", "n": 14, "m": 35, "triangles": 33, "nu": 8, "tau": 12, "seconds": 0.09465193748474121, "status": "EXACT"}
+{"kind": "star444+star45", "n": 11, "m": 32, "triangles": 40, "nu": 9, "tau": 11, "seconds": 0.372164249420166, "status": "EXACT"}
+{"kind": "W5+star455", "n": 14, "m": 37, "triangles": 38, "nu": 9, "tau": 13, "seconds": 0.4401397705078125, "status": "EXACT"}
+{"kind": "star444+star5", "n": 14, "m": 36, "triangles": 35, "nu": 9, "tau": 12, "seconds": 0.19455695152282715, "status": "EXACT"}
+{"kind": "star45+K5-e", "n": 12, "m": 28, "triangles": 25, "nu": 6, "tau": 9, "seconds": 0.012458086013793945, "status": "EXACT"}
+{"kind": "star445+star445", "n": 12, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.0043420791625977}
+{"kind": "star44+star555", "n": 14, "m": 45, "status": "UNKNOWN_timeout", "seconds": 3.0040221214294434}
+{"kind": "star445+K5-e", "n": 13, "m": 32, "triangles": 29, "nu": 7, "tau": 11, "seconds": 0.06904411315917969, "status": "EXACT"}
+{"kind": "K5-e+star55", "n": 11, "m": 29, "triangles": 30, "nu": 7, "tau": 10, "seconds": 0.04642295837402344, "status": "EXACT"}
+{"kind": "star44+star5", "n": 11, "m": 30, "triangles": 34, "nu": 8, "tau": 9, "seconds": 0.10603022575378418, "status": "EXACT"}
+{"kind": "K5-e+star44", "n": 11, "m": 25, "triangles": 21, "nu": 6, "tau": 8, "seconds": 0.005074977874755859, "status": "EXACT"}
+{"kind": "K5-e+star444", "n": 12, "m": 29, "triangles": 24, "nu": 7, "tau": 9, "seconds": 0.013250112533569336, "status": "EXACT"}
+{"kind": "star5+star555", "n": 14, "m": 42, "status": "UNKNOWN_timeout", "seconds": 3.003005027770996}
+{"kind": "star444+star55", "n": 11, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.002711057662964}
+{"kind": "star555+star455", "n": 14, "m": 54, "status": "UNKNOWN_timeout", "seconds": 3.002725839614868}
+{"kind": "star44+star55", "n": 14, "m": 39, "triangles": 40, "nu": 10, "tau": 13, "seconds": 1.5092670917510986, "status": "EXACT"}
+{"kind": "star45+star44", "n": 14, "m": 36, "triangles": 33, "nu": 9, "tau": 12, "seconds": 0.16485095024108887, "status": "EXACT"}
+{"kind": "star44+star44", "n": 11, "m": 29, "triangles": 30, "nu": 8, "tau": 9, "seconds": 0.022701025009155273, "status": "EXACT"}
+{"kind": "star444+star444", "n": 11, "m": 33, "triangles": 43, "nu": 10, "tau": 11, "seconds": 0.3995790481567383, "status": "EXACT"}
+{"kind": "star455+star555", "n": 14, "m": 49, "status": "UNKNOWN_timeout", "seconds": 3.0035271644592285}
+{"kind": "star44+star444", "n": 11, "m": 34, "triangles": 40, "nu": 10, "tau": 11, "seconds": 0.6499228477478027, "status": "EXACT"}
+{"kind": "W5+star444", "n": 12, "m": 28, "triangles": 23, "nu": 7, "tau": 8, "seconds": 0.00763702392578125, "status": "EXACT"}
+{"kind": "star555+K5-e", "n": 14, "m": 39, "triangles": 42, "nu": 10, "tau": 14, "seconds": 2.0749497413635254, "status": "EXACT"}
+{"kind": "star5+star44", "n": 12, "m": 30, "triangles": 28, "nu": 7, "tau": 10, "seconds": 0.031219005584716797, "status": "EXACT"}
+{"kind": "star4+star45", "n": 12, "m": 29, "triangles": 27, "nu": 7, "tau": 10, "seconds": 0.03244376182556152, "status": "EXACT"}
+{"kind": "star55+star455", "n": 13, "m": 45, "status": "UNKNOWN_timeout", "seconds": 3.0042340755462646}
+{"kind": "star445+star444", "n": 14, "m": 44, "status": "UNKNOWN_timeout", "seconds": 3.0039381980895996}
+{"kind": "W5+star555", "n": 14, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.002993106842041}
+{"kind": "W5+star45", "n": 11, "m": 26, "triangles": 23, "nu": 7, "tau": 8, "seconds": 0.006224155426025391, "status": "EXACT"}
+{"kind": "star4+star44", "n": 12, "m": 26, "triangles": 20, "nu": 5, "tau": 7, "seconds": 0.003721952438354492, "status": "EXACT"}
+{"kind": "star4+star5", "n": 11, "m": 26, "triangles": 24, "nu": 6, "tau": 8, "seconds": 0.009996891021728516, "status": "EXACT"}
+{"kind": "star5+star4", "n": 11, "m": 25, "triangles": 22, "nu": 5, "tau": 8, "seconds": 0.0058422088623046875, "status": "EXACT"}
+{"kind": "star455+star455", "n": 14, "m": 51, "status": "UNKNOWN_timeout", "seconds": 3.0021700859069824}
+{"kind": "star445+star5", "n": 13, "m": 34, "triangles": 35, "nu": 8, "tau": 11, "seconds": 0.2127518653869629, "status": "EXACT"}
+{"kind": "star4+star455", "n": 13, "m": 37, "triangles": 45, "nu": 10, "tau": 12, "seconds": 0.726172924041748, "status": "EXACT"}
+{"kind": "star444+star4", "n": 13, "m": 31, "triangles": 27, "nu": 7, "tau": 10, "seconds": 0.01590418815612793, "status": "EXACT"}
+{"kind": "star455+star55", "n": 14, "m": 47, "status": "UNKNOWN_timeout", "seconds": 3.0011191368103027}
+{"kind": "star45+W5", "n": 13, "m": 29, "triangles": 23, "nu": 6, "tau": 9, "seconds": 0.006658077239990234, "status": "EXACT"}
+{"kind": "star455+star44", "n": 13, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0046658515930176}
+{"kind": "star45+star45", "n": 11, "m": 35, "triangles": 46, "nu": 10, "tau": 12, "seconds": 2.0367796421051025, "status": "EXACT"}
+{"kind": "star44+star45", "n": 11, "m": 32, "triangles": 40, "nu": 8, "tau": 10, "seconds": 0.25055789947509766, "status": "EXACT"}
+{"kind": "W5+star445", "n": 12, "m": 33, "triangles": 38, "nu": 9, "tau": 11, "seconds": 0.1784830093383789, "status": "EXACT"}
+{"kind": "star5+star444", "n": 14, "m": 34, "triangles": 30, "nu": 7, "tau": 11, "seconds": 0.07348084449768066, "status": "EXACT"}
+{"kind": "star444+star44", "n": 14, "m": 35, "triangles": 30, "nu": 8, "tau": 11, "seconds": 0.1053619384765625, "status": "EXACT"}
+{"kind": "star45+star45", "n": 12, "m": 35, "triangles": 42, "nu": 9, "tau": 11, "seconds": 0.3172001838684082, "status": "EXACT"}
+{"kind": "star55+star44", "n": 14, "m": 37, "triangles": 38, "nu": 10, "tau": 12, "seconds": 0.34298014640808105, "status": "EXACT"}
+{"kind": "star555+W5", "n": 14, "m": 42, "status": "UNKNOWN_timeout", "seconds": 3.0033998489379883}
+{"kind": "star4+star55", "n": 14, "m": 34, "triangles": 32, "nu": 7, "tau": 12, "seconds": 0.12280082702636719, "status": "EXACT"}
+{"kind": "star555+star455", "n": 14, "m": 48, "status": "UNKNOWN_timeout", "seconds": 3.0044240951538086}
+{"kind": "star55+star4", "n": 12, "m": 33, "triangles": 37, "nu": 8, "tau": 11, "seconds": 0.21683406829833984, "status": "EXACT"}
+{"kind": "K5-e+star44", "n": 11, "m": 25, "triangles": 21, "nu": 6, "tau": 8, "seconds": 0.003217935562133789, "status": "EXACT"}
+{"kind": "star445+star445", "n": 13, "m": 41, "status": "UNKNOWN_timeout", "seconds": 3.0024590492248535}
+{"kind": "star55+W5", "n": 14, "m": 33, "triangles": 29, "nu": 7, "tau": 11, "seconds": 0.04892420768737793, "status": "EXACT"}
+{"kind": "star555+K5-e", "n": 14, "m": 38, "triangles": 41, "nu": 10, "tau": 14, "seconds": 1.9580390453338623, "status": "EXACT"}
+{"kind": "star44+star445", "n": 14, "m": 39, "triangles": 40, "nu": 10, "tau": 12, "seconds": 0.9592030048370361, "status": "EXACT"}
+{"kind": "star45+star44", "n": 12, "m": 35, "triangles": 43, "nu": 9, "tau": 11, "seconds": 0.7842328548431396, "status": "EXACT"}
+{"kind": "K5-e+star555", "n": 14, "m": 39, "triangles": 43, "nu": 10, "tau": 15, "seconds": 1.4287340641021729, "status": "EXACT"}
+{"kind": "star44+W5", "n": 11, "m": 25, "triangles": 19, "nu": 6, "tau": 7, "seconds": 0.0014488697052001953, "status": "EXACT"}
+{"kind": "star4+star444", "n": 13, "m": 31, "triangles": 26, "nu": 7, "tau": 9, "seconds": 0.01950383186340332, "status": "EXACT"}

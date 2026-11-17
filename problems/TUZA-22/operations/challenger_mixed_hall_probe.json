@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T00:35:45.451653+00:00",
+  "end_utc": "2026-11-16T00:35:45.573286+00:00",
+  "seconds": 0.12163496017456055,
+  "command": [
+    "python3",
+    "scripts/challenger_mixed_hall_probe.py"
+  ],
+  "pid": 88432,
+  "peak_sampled_tree_rss_mib": 3.765625,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 10.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

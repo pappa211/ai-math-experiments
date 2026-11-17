@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/challenger_forest_external_minmax_v1.md

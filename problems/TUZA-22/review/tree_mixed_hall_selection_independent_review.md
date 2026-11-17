@@ -1,0 +1,15 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent review: mixed tree matching and list selection
+
+Verdict: ACCEPT as ORDINARY_PROOF of the exact selection lemma, not of the unresolved weighted TREE packing statement. Frozen source `notes/challenger_tree_mixed_hall_selection_v1.md`, SHA256 8f23ba5177daf3bee31954e8e3fb488638c32c220e2e8803929e6cbb12fbdb14.
+
+In the abstract lemma, any maximal J matching leaves a J-independent set U. Every subset of U consequently satisfies the assumed list-capacity inequality, and the induced clique-block graph remains in the same class. The previously self-contained clique-block Hall lemma therefore colors all of U. No special compatibility between J and F is required for this abstract step, and no matroid assertion is used.
+
+For the actual minimum tree cover component, every triangle has one or two selected edges. J-independence of a removed base set S means that every two-selected-edge triangle retains a selected edge. All remaining lost triangles are private pages. Per-apex spoke replacement covers them at a cost equal to a vertex cover of the corresponding forest of bases, hence to its matching number. Duplicate spokes or spokes already retained by C only decrease the true replacement cost, so they do not invalidate the lower bound derived from minimum C. The resulting list-capacity hypothesis is correct.
+
+A J matching indeed gives mutually edge-disjoint internal two-base triangles: their selected edges are distinct, and equality of their nonselected chord would yield two distinct length-two paths in the selected tree. Proper coloring of the unmatched bases produces pages with no repeated base and no repeated spoke among pages with the same apex. It does not remove reciprocal collisions between different internal apices or collisions with chosen chords. The note explicitly retains these gaps.
+
+The stated collision bounds are exact. A private internal triangle has one nonselected spoke within a tree-bipartition side and one crossing sides. Only the former can be a two-base triangle chord, uniquely if it exists. A fixed chord can occur in at most two properly selected private pages, one for each possible apex endpoint; more at one apex would repeat a tree-base endpoint and violate proper list coloring. The displayed three-triangle book really has all selected triangles sharing ab and selected tree edges au,ub,ac,bd. Its ordinary cover {ab} is smaller, so it is correctly used only as a selection-versus-packing boundary.
+
+The finite abstract experiment is not needed for this review. The outstanding obligation remains a new minimum-cover exchange that repairs chord-book and reciprocal conflicts without losing the full weighted target. No triangle packing theorem follows from the selection lemma alone.

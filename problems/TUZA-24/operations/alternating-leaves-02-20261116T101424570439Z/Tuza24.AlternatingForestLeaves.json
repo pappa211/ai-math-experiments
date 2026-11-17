@@ -1,0 +1,19 @@
+{
+  "module": "Tuza24.AlternatingForestLeaves",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-24/.lake/build/lib/lean/Tuza24/AlternatingForestLeaves.olean",
+    "problems/TUZA-24/Tuza24/AlternatingForestLeaves.lean"
+  ],
+  "cwd": "problems/TUZA-24",
+  "lean_path": "problems/TUZA-24/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "d409851698f8919899c1c96b39aa4e4e1de1c1c142af7d27ba552d9760ff08db",
+  "elapsed_seconds": 1.0138364160084166,
+  "peak_process_tree_rss_bytes": 1674412032,
+  "exit_code": 1,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T10:14:26.598413+00:00"
+}

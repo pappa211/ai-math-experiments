@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/cover_ten_outside_degree_reduction_v1.md

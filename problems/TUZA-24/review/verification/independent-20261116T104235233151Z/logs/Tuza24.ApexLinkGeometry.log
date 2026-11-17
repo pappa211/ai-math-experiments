@@ -1,0 +1,7 @@
+problems/TUZA-24/review/verification/independent-20261116T104235233151Z/clean/Tuza24/ApexLinkGeometry.lean:76:33: warning: This simp argument is unused:
+  or_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, or_left_comm, or_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

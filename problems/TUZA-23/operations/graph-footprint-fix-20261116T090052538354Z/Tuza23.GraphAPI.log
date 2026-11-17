@@ -1,0 +1,19 @@
+problems/TUZA-23/Tuza23/GraphAPI.lean:18:14: error: unexpected token ';'; expected '{' or tactic
+problems/TUZA-23/Tuza23/GraphAPI.lean:18:2: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+⊢ Finset (Finset V)
+problems/TUZA-23/Tuza23/GraphAPI.lean:23:8: error: typeclass instance problem is stuck
+  DecidableRel (SimpleGraph.Adj ?m.11)
+
+Note: Lean will not try to resolve this typeclass instance problem because the first, second, and third type arguments to `DecidableRel` contain metavariables. These arguments must be fully determined before Lean will try to resolve the typeclass.
+
+Hint: Adding type annotations and supplying implicit arguments to functions can give Lean more information for typeclass resolution. For example, if you have a variable `x` that you intend to be a `Nat`, but Lean reports it as having an unresolved type like `?m`, replacing `x` with `(x : Nat)` can get typeclass resolution un-stuck.
+problems/TUZA-23/Tuza23/GraphAPI.lean:74:43: error: Type mismatch: After simplification, term
+  ⟨ha, hb⟩
+ has type
+  And (a ∈ ↑t) (b ∈ ↑t)
+but is expected to have type
+  And (a ∈ t) (b ∈ t)

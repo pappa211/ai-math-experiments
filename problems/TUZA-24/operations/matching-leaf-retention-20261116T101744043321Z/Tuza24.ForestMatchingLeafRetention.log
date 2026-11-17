@@ -1,0 +1,28 @@
+problems/TUZA-24/Tuza24/ForestMatchingLeafRetention.lean:16:2: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+problems/TUZA-24/Tuza24/ForestMatchingLeafRetention.lean:18:6: error(lean.unknownIdentifier): Unknown identifier `matchingVertices_card`
+problems/TUZA-24/Tuza24/ForestMatchingLeafRetention.lean:13:39: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+M : Finset (Finset V)
+hM : EdgeMatching G M
+S : Finset V
+hdef : 2 * #M < #S
+h : ∀ u ∈ S, u ∈ matchingVertices M
+hc : #S ≤ #(matchingVertices M)
+⊢ False
+problems/TUZA-24/Tuza24/ForestMatchingLeafRetention.lean:60:33: error: Application type mismatch: The argument
+  hz
+has type
+  z ∈ {t, b}
+but is expected to have type
+  ?m.219 ∈ {?m.218}
+in the application
+  mem_singleton.mp hz

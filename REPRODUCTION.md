@@ -1,6 +1,6 @@
 # Research archive reproduction
 
-Current edition: [TUZA-16–19 quick checks, finite Lean replay and report build](#tuza-16-19). Earlier sections below retain their dated publication scope. Current root inventories cover the full current tree and this release overlay; prior root inventories are preserved at [d4029fb](verification/tuza-16-19/release-at-d4029fb/README.md) and earlier editions.
+Current edition: [TUZA-20–26 source builds and exact finite checks](#tuza-20-26). The earlier [TUZA-16–19 edition](#tuza-16-19) remains reproducible. Earlier sections below retain their dated publication scope. Current root inventories cover the full current tree and this release overlay; prior root inventories are preserved at [d4029fb](verification/tuza-16-19/release-at-d4029fb/README.md) and earlier editions.
 
 <a id="tuza-1115-ordinary-proofs-and-exact-finite-checks"></a>
 
@@ -198,3 +198,17 @@ Requires existing Pandoc 3.13, Tectonic 0.17.0 and cached typesetting assets. Se
 ### Historical searches and evidence
 
 The four archive HISTORICAL_REPRODUCTION.md files preserve old domains, deadlines and scripts. They are records, not automatic current entry points. Large historical censuses, expired solver kernels and failed aggregates are not part of the default replay. Solver-only UNSAT remains solver-only; timeouts and cutoff returns remain UNKNOWN. Read [actual receipts and scope](verification/tuza-16-19/README.md) before drawing mathematical conclusions.
+
+## TUZA-20-26
+
+The [publication verification guide](verification/tuza-20-26/README.md) provides exact fresh versus inherited scope and [independent mathematical review](verification/tuza-20-26/MATHEMATICAL_REVIEW.md). Run the 24 selected exact checks from a new output directory:
+
+```sh
+python3 tools/check_tuza_20_26.py --repo . --output ../tuza-20-26-finite --lock ../tuza-publication-build.lock
+```
+
+Use Python 3.12 with assertions enabled. The runner copies each target into a fresh output location, verifies source identities and records every portability adapter. It does not launch large historical censuses or external solvers. Literal finite domains and UNKNOWN/NOT_RUN boundaries are listed in the guide.
+
+For fresh formal source compilation and all-declaration transitive-axiom auditing, use [TUZA-23](problems/TUZA-23/REPRODUCTION.md) and [TUZA-24](problems/TUZA-24/REPRODUCTION.md) instructions with explicit paths to existing Lean 4.33.1 and the nine exact pinned packages. Run serially. Accepted local module closures are 31 and 79 respectively. This is not a cold dependency rebuild or a separate object-kernel replay. No toolchain or dependency update is performed. Required process-tree monitoring must be permitted by the execution environment; a monitoring failure is not a proof result.
+
+The current root inventories supersede prior root bytes. [The exact 15 November inventory](verification/tuza-20-26/release-at-4b72b6d/README.md) is preserved for its immutable edition. All prior papers and unrelated A113010 sources remain unchanged.

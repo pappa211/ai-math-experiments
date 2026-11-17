@@ -1,0 +1,35 @@
+K4 PASS_EXAMINED 2 1
+K5 PASS_EXAMINED 4 2
+three_sun PASS_EXAMINED 3 3
+wheel_5rim PASS_EXAMINED 3 2
+cells_4_4_overlap_1 PASS_EXAMINED 4 2
+cells_4_4_overlap_2 PASS_EXAMINED 3 2
+cells_4_4_overlap_3 PASS_EXAMINED 3 2
+cells_5_4_overlap_1 PASS_EXAMINED 6 3
+cells_5_4_overlap_2 PASS_EXAMINED 5 3
+cells_5_4_overlap_3 PASS_EXAMINED 4 3
+cells_5_5_overlap_1 PASS_EXAMINED 8 4
+cells_5_5_overlap_2 PASS_EXAMINED 7 4
+cells_5_5_overlap_3 PASS_EXAMINED 5 4
+three_cells_((0, 1, 2, 3), (2, 3, 4, 5), (4, 5, 0, 1)) PASS_EXAMINED 6 4
+three_cells_((0, 1, 2, 3), (0, 1, 4, 5), (2, 3, 4, 5)) PASS_EXAMINED 6 4
+three_cells_((0, 1, 2, 3, 4), (0, 1, 5, 6), (2, 3, 6, 7)) PASS_EXAMINED 7 6
+three_cells_((0, 1, 2, 3, 4), (0, 1, 5, 6), (0, 2, 7, 8)) PASS_EXAMINED 6 4
+red_triangle_opposite_0_tip_clique_False PASS_EXAMINED 3 3
+red_triangle_opposite_0_tip_clique_True PASS_EXAMINED 4 4
+red_triangle_opposite_1_tip_clique_False PASS_EXAMINED 3 3
+red_triangle_opposite_1_tip_clique_True PASS_EXAMINED 4 4
+red_triangle_opposite_2_tip_clique_False PASS_EXAMINED 3 3
+red_triangle_opposite_2_tip_clique_True PASS_EXAMINED 4 4
+red_triangle_opposite_3_tip_clique_False PASS_EXAMINED 3 3
+red_triangle_opposite_3_tip_clique_True PASS_EXAMINED 5 4
+red_triangle_opposite_4_tip_clique_False PASS_EXAMINED 3 3
+red_triangle_opposite_4_tip_clique_True PASS_EXAMINED 4 4
+red_triangle_opposite_5_tip_clique_False PASS_EXAMINED 3 3
+red_triangle_opposite_5_tip_clique_True PASS_EXAMINED 5 4
+red_triangle_opposite_6_tip_clique_False PASS_EXAMINED 3 3
+red_triangle_opposite_6_tip_clique_True PASS_EXAMINED 5 4
+red_triangle_opposite_7_tip_clique_False PASS_EXAMINED 3 3
+red_triangle_opposite_7_tip_clique_True PASS_EXAMINED 6 4
+TUZA20_twelve PASS_EXAMINED 10 6
+DONE 34 0.019045459004701115 True

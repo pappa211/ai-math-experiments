@@ -1,0 +1,19 @@
+{
+  "module": "Tuza24.ForestK5Exclusion",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-24/.lake/build/lib/lean/Tuza24/ForestK5Exclusion.olean",
+    "problems/TUZA-24/Tuza24/ForestK5Exclusion.lean"
+  ],
+  "cwd": "problems/TUZA-24",
+  "lean_path": "problems/TUZA-24/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "7d3c75d37528617c3703fbb737a0f538f839a876fcf1ac2e2278638d9838f3b3",
+  "elapsed_seconds": 1.1317464580060914,
+  "peak_process_tree_rss_bytes": 1694416896,
+  "exit_code": 0,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T10:33:14.170510+00:00"
+}

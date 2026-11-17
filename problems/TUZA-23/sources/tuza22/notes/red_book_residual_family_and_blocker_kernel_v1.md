@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/red_book_residual_family_and_blocker_kernel_v1.md

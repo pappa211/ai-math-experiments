@@ -1,0 +1,8 @@
+pattern 0 fullfirst (32, 20) privatefirst (20, 32) joint True
+pattern 3 fullfirst (32, 22) privatefirst (22, 32) joint True
+pattern 12 fullfirst (32, 22) privatefirst (22, 32) joint True
+pattern 48 fullfirst (32, 22) privatefirst (22, 32) joint True
+pattern 51 fullfirst (32, 24) privatefirst (24, 32) joint True
+pattern 192 fullfirst (32, 22) privatefirst (22, 32) joint True
+pattern 204 fullfirst (32, 24) privatefirst (24, 32) joint True
+DONE 7 0.15072987500752788

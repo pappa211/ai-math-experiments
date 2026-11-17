@@ -1,0 +1,2 @@
+{'completion': 1, 'invariance_holds': True, 'packing_balance_holds': True} G_tau_nu 6 4 H_tau_nu 2 1
+{'completion': 2, 'invariance_holds': True, 'packing_balance_holds': True} G_tau_nu 7 5 H_tau_nu 4 2

@@ -1,0 +1,157 @@
+[
+  {
+    "module": "Tuza.Basic",
+    "source_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza.Graph",
+    "source_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.Statement",
+    "source_sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.Transport",
+    "source_sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.FiniteCliques",
+    "source_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.Pages",
+    "source_sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.Reduction",
+    "source_sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.Additivity",
+    "source_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.BlockAggregation",
+    "source_sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.Components",
+    "source_sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.Critical",
+    "source_sha256": "fdb687027dd5dd299d6985b23383e98407a00dd24a60d55643e66a3462e3b200",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.MinimalObstruction",
+    "source_sha256": "79010d586ee8d35b187213109fe6aa0b7222bdae81e0f92543c0b6af37b8325e",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.GraphAPI",
+    "source_sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.WholeFootprint",
+    "source_sha256": "bd843ef4a16d101c2731b6247e5eaae7cb03172537461bdfe5aed0bfb589b535",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza06.Footprints",
+    "source_sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.CliqueChoice",
+    "source_sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.BlockChoice",
+    "source_sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.PageAssembly",
+    "source_sha256": "b45080856bf28a9fadb7f7e747340e3670b2b3451b844e77f4cf77b2fb5c990c",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.InsertionAccounting",
+    "source_sha256": "401360733507cd667cfb4b7075a1194dffed6bac046ce8ed19af8ac08a02e5fc",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.BarePages",
+    "source_sha256": "f472ab49170a0f98d1a4d39ccca234c1221c951931ac85c53e2688feab8649f7",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.PageGeometry",
+    "source_sha256": "d33aa91055e8a171d89e6121da06022f68815d4e7d842f66cd99976d488a4560",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.AdjacentRestoration",
+    "source_sha256": "4614e2ef592fc2023a3596ccde86135f413fd77b3f8b9c6f69e94585599754bd",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.FourSet",
+    "source_sha256": "51a55aa25bf72583539b34720f6189e598dcf4ad9c62368d0156af53a256d3c4",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.DisjointRestoration",
+    "source_sha256": "a339b13fed0cf91ce726533cadc67687193a8f37137f8d4aea4c413ec85c21b8",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.R2",
+    "source_sha256": "79766812d134e499174e4d1fe0cb6051780707a923b9c1df09ec62f1941f1c70",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.M0",
+    "source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Research",
+    "source_sha256": "3159fb9154ad172105d03ec557f6d1ffc75cde60914231cb8149e7da51a801b9",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.ControlBasic",
+    "source_sha256": "dca5db007dce00223b6f0332d74ca845c7e49b4b003048ae5c2c72d0d5312f6a",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.ControlSharedBlocks",
+    "source_sha256": "b842d3c129928dc074c80f648823f68988038bfb290adb40c7ef215d5a7910ef",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.ControlRestoration",
+    "source_sha256": "d5c96a50f33837e8a82ce47d66e9c6dce0be1023fb9582fa7c3550e15427181c",
+    "forbidden_construct_tokens": []
+  },
+  {
+    "module": "Tuza23.Controls",
+    "source_sha256": "60a15b8c3d40363930017b1a795589b30856ed2a39ba07a665a0dd8f88520474",
+    "forbidden_construct_tokens": []
+  }
+]

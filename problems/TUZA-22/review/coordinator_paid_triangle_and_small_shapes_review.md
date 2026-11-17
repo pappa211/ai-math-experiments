@@ -1,0 +1,11 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent ordinary review: paid triangle collapse and two small shapes
+
+Coordinator fresh review, 2026-11-16 UTC. ACCEPT both exact ordinary statements.
+
+Paid theorem: notes/wke_residual_triangle_count_collapse_v1.md, SHA256 8143c49ad20f0dc7ef5d9d585be5d759b346be2ff1cf9b31ffab3e6f1cc57865. Independently checked all clique-intersection cover costs: K4 excess0,0,1,4 at q<=1,2,3,4; K5 excess0,0,0,2,6 at q<=1,2,3,4,5. Each is bounded by its intact F triangles. Every such triangle belongs to exactly one residual B component. Each unsupported surviving F edge either touches an outside P-mate of S or belongs to a broken F triangle and is hit by its opposite vertex. Codegree and closedness supply the complete second-page audit. The resulting D+P+hub(S+Z+W) covers every actual triangle at cost at most2nu(G)-|P|+|S|+|Z|+t(F). Thus |P|<=|S|+|Z|+t(F), with no pseudoforest assumption, finite premise or outside-attachment bound.
+
+Small shapes: notes/triangular_unicyclic_matching_two_ordinary_v1.md, SHA256 084ca3822c32b8c9442090a9177b2a73a1cec85db54eda8af6dd965c3aaa3074. The ordinary attachment formula gives exactly triangle+two differently rooted leaves or triangle+path2. Checked every displayed P matching and residual Q cover. ShapeI missingwc has at most3branches; presentwc and missingwb has all triangles througha, and P pairs a outside; fullwa,wb,wc leaves the explicit connected residual diamond. ShapeII with fewer than2 neighbors amongb,c,x has at most3branches; otherwise symmetry supplieswc, and the wx / no-wx cases have internally P-matched S and triangle-free remainder. Optionalwa is covered in both. These symbolic cases are exhaustive and do not consult finite certificates.
+
+The finite374 proof remains valid independently, but these ordinary results remove it from the full apex-unicyclic dependency chain once assembled. The proof still uses reviewed ordinary three-branch, parallel-thread, exposed-leaf and matching-complement arguments, plus authenticated class-local minimality.

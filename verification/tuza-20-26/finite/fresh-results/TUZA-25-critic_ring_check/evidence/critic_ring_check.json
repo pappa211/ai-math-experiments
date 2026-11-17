@@ -1,0 +1,208 @@
+{
+  "status": "PASS",
+  "verification_status": "VERIFIED_FINITE",
+  "independence": "New standard-library checker reconstructed graph and predicates; no discovery script read, imported or executed.",
+  "universe": "One explicitly labelled 12-vertex graph; every actual triangle; all graph-edge deletion sets of size at most two.",
+  "computed": {
+    "n": 12,
+    "m": 36,
+    "nu": 8,
+    "tau": 12,
+    "rank_d0": 11,
+    "rank_d1": 24,
+    "h1_dimension": 1,
+    "deletion_cases": 667
+  },
+  "triangle_count": 40,
+  "clique_triangle_counts": {
+    "0": 10,
+    "3": 10,
+    "1": 10,
+    "2": 10
+  },
+  "local_exhaustive_bounds": [
+    {
+      "clique": 0,
+      "triangle_count": 10,
+      "packing_max": 2,
+      "cover_min": 4,
+      "packing_min_after_at_most_two_deletions": 2
+    },
+    {
+      "clique": 1,
+      "triangle_count": 10,
+      "packing_max": 2,
+      "cover_min": 4,
+      "packing_min_after_at_most_two_deletions": 2
+    },
+    {
+      "clique": 2,
+      "triangle_count": 10,
+      "packing_max": 2,
+      "cover_min": 4,
+      "packing_min_after_at_most_two_deletions": 2
+    },
+    {
+      "clique": 3,
+      "triangle_count": 10,
+      "packing_max": 2,
+      "cover_min": 4,
+      "packing_min_after_at_most_two_deletions": 2
+    }
+  ],
+  "packing_upper": 8,
+  "packing_lower": 8,
+  "cover_lower": 12,
+  "cover_upper": 12,
+  "cover_witness": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      3,
+      9
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      10
+    ],
+    [
+      5,
+      10
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      11
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "cut_cover_minimum": 12,
+  "certificate_cut_bits_encoding": "Vertex 0 has color 0; bit v-1 is color of vertex v for 1 <= v <= 11.",
+  "resolved_schema_omission": "Initial certificate omitted the fixed-vertex convention; independent reconstruction identified it.",
+  "K4_scope_control": {
+    "n": 4,
+    "m": 6,
+    "triangles": 4,
+    "nu": 1,
+    "tau": 2,
+    "single_edge_resilient": true,
+    "deletion_cases": 7,
+    "nu_by_deletion": {
+      "()": 1,
+      "((0, 1),)": 1,
+      "((0, 2),)": 1,
+      "((0, 3),)": 1,
+      "((1, 2),)": 1,
+      "((1, 3),)": 1,
+      "((2, 3),)": 1
+    },
+    "implication": "K5 is not the sole tight one-edge-resilient graph through order 10 when order 4 is included."
+  },
+  "cut_partitions_examined": 2048,
+  "cut_cover_minimizers_up_to_complement": 16,
+  "all_667_deletion_witnesses_valid": true,
+  "deletion_sets_by_size": {
+    "2": 630,
+    "1": 36,
+    "0": 1
+  },
+  "packing_sizes_by_case_count": {
+    "8": 667
+  },
+  "triangle_components": 1,
+  "every_edge_triangular": true,
+  "vertex_components": 1,
+  "cocycle": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      8
+    ]
+  ],
+  "noncut_cycle_edges": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "cocycle_cycle_pairing": 1,
+  "proof_status": "Finite certificate verification plus ordinary proofs; no Lean, external peer review, or separate final audit.",
+  "refutation_scope": "Two-edge packing resilience plus connected nonempty triangle support and every edge triangular does not imply H1(F2)=0.",
+  "excluded_refutations": [
+    "unrestricted Tuza",
+    "universal CS",
+    "defect-one residual rigidity",
+    "scoped cut-cover bound",
+    "reported census through ten vertices"
+  ],
+  "solver": "None; complete local enumeration, witness verification, and exact F2 elimination.",
+  "timeouts": 0,
+  "script_sha256": "8baf62d3513beda3c5cd2ee47e6886042355905a425ca0e764a19c518ed8b3df",
+  "certificate_sha256": "4afb5c50cbd0a761e1078b71c4c6b680b142a6117cb83526d04f96cd585da5af",
+  "frozen_note_sha256": "9eef823f771bb9eecabcd7dd2688118d5e205a233a0149223c9cade557fa5ec1",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "python_executable": "<PINNED_ENVIRONMENT>/toolchains/python312/bin/python",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "completed_utc": "2026-11-17T19:15:25.559549+00:00",
+  "elapsed_seconds": 0.02357879199553281,
+  "max_rss_bytes_darwin": 23642112
+}

@@ -49,3 +49,9 @@ Unrestricted Tuza remains unresolved. The [15 November guide](RESEARCH_STATUS_20
 | Positive square/line/private-page classes | [Square cells](problems/TUZA-19/notes/global_routes_square_cells_matching.md), [simple-root line graphs](problems/TUZA-19/notes/root_line_graph_parity.md), [private pages](problems/TUZA-19/notes/root_multi_private_integral_cover.md) | Complete scoped ordinary interfaces, no general availability theorem. |
 
 [Dependencies](verification/tuza-16-19/DEPENDENCIES.md), [source transformations](problems/TUZA-16-19-SOURCE_MANIFEST.json), [fresh finite receipt](verification/tuza-16-19/finite/VERIFICATION.json), and [formal scope](verification/tuza-16-19/README.md) are separate. Historical NOT_RUN statuses remain historical; no solver-only UNSAT or UNKNOWN is promoted. New literal formal declarations are added only after compilation to DECLARATION_INDEX.md.
+
+## Final archive: TUZA-20–26 (17 November 2026)
+
+**Series paused; unrestricted Tuza unresolved.** The [archive index](TUZA_20_26_ARCHIVE.md) and [current guide](RESEARCH_STATUS_2026-11-17.md) supersede historical continuation recommendations. Every mission has a final scope/corrections page and exact original claim/declaration ledger. [Source-to-public mapping](problems/TUZA-20-26-SOURCE_MANIFEST.json) accounts for every tracked input; [publication verification](verification/tuza-20-26/README.md) distinguishes fresh checks from inherited evidence.
+
+R2’s formal conclusion is equality restoration, not full CS. The forest theorem assumes a supplied forest cover, not its universal availability. M0 and the later Q/parent arguments are deductions at explicit conditional hypotheses. TUZA-26’s selected actual residual is not a separately minimized Q. Historical finite and solver statuses are not upgraded by this archive.

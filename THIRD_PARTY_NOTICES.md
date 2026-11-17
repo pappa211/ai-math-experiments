@@ -74,3 +74,9 @@ public report tooling without modification.
 The [primary-source recheck](papers/tuza-16-19-research-summary/LITERATURE_RECHECK.md) and [dependency guide](verification/tuza-16-19/DEPENDENCIES.md) retain mathematical attribution and inspected editions. The existing Apache-2.0 repository license is unchanged and does not extend over third-party publications or dependencies. Downloaded article PDFs, full text, source screenshots, external repositories and compiled dependency caches are excluded.
 
 The small Ramsey graph6 record in TUZA-17 is retained as scientific data with its original McKay source URL and digest; its checker does not certify catalogue completeness. The reused numeric.csl asset retains the prior report's license/notice. Lean and Mathlib dependencies retain their upstream licensing and are not vendored. No independent historical-priority claim is made for project deductions or reconstructions.
+
+## TUZA-20–26 archive (17 November 2026)
+
+Downloaded external papers and full-text extracts are not redistributed. The external verification package associated with DOI [10.5281/zenodo.24047493](https://doi.org/10.5281/zenodo.24047493) permits local verification but requires permission for redistribution of its programs, certificates and data. Those materials are excluded; this archive retains project-authored analysis, factual bibliography, intake hashes and links. Its historical replay is not a fresh public-only replay. The final ordinary four-branch replacement does not depend on redistribution of that package.
+
+Native Lean/Mathlib dependencies and caches are not vendored. Existing third-party notices, mathematical attribution, AI contribution disclosures and the repository license remain in force. No new external author or endorsement is asserted.

@@ -1,0 +1,19 @@
+{
+  "module": "Tuza23.ControlRestoration",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-23/.lake/build/lib/lean/Tuza23/ControlRestoration.olean",
+    "problems/TUZA-23/Tuza23/ControlRestoration.lean"
+  ],
+  "cwd": "problems/TUZA-23",
+  "lean_path": "problems/TUZA-23/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "d5c96a50f33837e8a82ce47d66e9c6dce0be1023fb9582fa7c3550e15427181c",
+  "elapsed_seconds": 1.302766957989661,
+  "peak_process_tree_rss_bytes": 1606615040,
+  "exit_code": 0,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T09:20:29.996510+00:00"
+}

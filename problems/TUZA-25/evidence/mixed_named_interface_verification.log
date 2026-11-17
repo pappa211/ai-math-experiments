@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED_FINITE",
+  "method": "independently generated 12 explicit models and every nonedge; actual triangles and K4s reconstructed; independent exact footprint recursions re-solved nu,tau; all deletion optima re-solved for defect-two survivors",
+  "counts": {
+    "exact": 210,
+    "defect_two": 4,
+    "completed_defect_two": 4,
+    "critical_triangles": 0
+  },
+  "models": 12,
+  "nonedges": 210,
+  "seconds": 2.6351170539855957
+}

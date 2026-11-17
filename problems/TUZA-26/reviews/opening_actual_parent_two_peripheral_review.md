@@ -1,0 +1,17 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent two-peripheral actual-parent restoration review
+
+Status: ACCEPTED ORDINARY at the supplied H interface, including its explicit connected support and single-edge resilience. No double-residual connectedness, minimum-Q property, computation or Lean verification is used.
+
+The three existing xy-pages at a,b,c give the exact q_U=2 pressure. If xd and yd have distinct apices p,q, an xy-page with core apex different from both completes a three-packing. Thus both nonempty side families must share a single apex. The complete one-base footprint fact applies to all pages, with old crossing triangles included.
+
+For a one-sided family, failure of a bare xd-page would give an old minimum cover hitting the whole side family, plus the four-edge K5 cover through xy, saving one. A bare side apex z is outside the core because a core apex would also give a yd-page. Resilience at xd forces an external xy-page; otherwise H-xd has only old B triangles and the literal K5. Its apex w differs from z, since equality would create the forbidden yd-page. The bare side page, this external xy-page and two K5 triangles avoiding xy form four edge-disjoint triangles. Only the external xy-page contributes supported old spokes, at most one per old component, so an old maximum avoids them. This validates the one-sided contradiction.
+
+A common side apex inside the core is covered by the displayed four-edge cover {xy,xa,ya,bc}, including the K5, both side pages and every xy-page. For an external common apex z, the actual new family contains K5(F) and K4(x,y,d,z). Any further external xy-page pairs with xdz and a two-packing of the K5 avoiding xy. The full old footprint {xz,dz,xw,yw} has at most one edge per old clique: the whole xy-family gives the first restriction, and coexistence with dz forces a missing xd or yd. Hence a four-packing contradiction excludes every further page. No mixed restored-family triangle exists because the two terminal triples are vertex-disjoint.
+
+The attachment cover savings are exact. Supported dz, or both supported xz,yz in their necessarily distinct old components, permits an old minimum cover plus the four-edge K5 cover through xy, saving one. Thus dz is background and at most one of xz,yz is supported. Connected triangle support removes every old component except the possible one on that single edge. Such a clique meets the new union in exactly its attachment endpoints: y or d forces a missing old edge, and a,b,c would support a prescribed bare old spoke. Its private vertices are genuinely fresh. Completeness of the triangle list identifies support only and leaves every other background edge in H.
+
+The resulting support is exactly star_5, star_45 or star_55, with central K4 and the stated adjacent attachment edges. These are admissible modular controls. In the actual application, H=G-T is a SINGLE residual, so the accepted strict named-support restoration with arbitrary background legitimately supplies the final contradiction. It is not applied directly to the double residual R.
+
+Bound source: notes/matching26_actual_parent_two_peripheral_v1.md, SHA-256 ae9c5550677f9f49c9d9c70ccebebbfff378a913426b7c18c99d03ce49e84293.

@@ -1,0 +1,50 @@
+problems/TUZA-24/Tuza24/PerfectForestStructure.lean:79:8: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+problems/TUZA-24/Tuza24/PerfectForestStructure.lean:111:58: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+M : Finset (Finset V)
+hM : EdgeMatching G M
+t : V
+ht : t ∈ matchingVertices M \ matchingVertices (matchingResidualEdges G M)
+a : V
+hta : G.Adj t a
+hea : {t, a} ∈ M
+b : V
+htb : G.Adj t b
+heb : G.IsNClique 2 {t, b}
+htbM : {t, b} ∈ M
+h : ¬{t, b} = {t, a}
+⊢ ?m.189 = t ∨ ?m.189 = b
+problems/TUZA-24/Tuza24/PerfectForestStructure.lean:111:68: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+M : Finset (Finset V)
+hM : EdgeMatching G M
+t : V
+ht : t ∈ matchingVertices M \ matchingVertices (matchingResidualEdges G M)
+a : V
+hta : G.Adj t a
+hea : {t, a} ∈ M
+b : V
+htb : G.Adj t b
+heb : G.IsNClique 2 {t, b}
+htbM : {t, b} ∈ M
+h : ¬{t, b} = {t, a}
+⊢ ?m.189 = t ∨ ?m.189 = a
+problems/TUZA-24/Tuza24/PerfectForestStructure.lean:153:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```

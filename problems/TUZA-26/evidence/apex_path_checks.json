@@ -1,0 +1,366 @@
+{
+  "status": "VERIFIED_FINITE",
+  "domain": "All 4096 labelled graphs L on vertexset0..5 excluding fixed P4 edges01,12,23; independently reconstruct all actual triangles and filter literal B(L). No graph connectivity/support requirement. All packing-gain-two cases solved exactly for cover.",
+  "counts": {
+    "labelled_backgrounds": 4096,
+    "B_backgrounds": 1555,
+    "packing_gain_0": 190,
+    "packing_gain_1": 827,
+    "packing_gain_2": 519,
+    "gain_two_exact_cover": 519,
+    "cover_gain_2": 485,
+    "packing_gain_3": 19,
+    "cover_gain_1": 34
+  },
+  "sharp_examples": [
+    {
+      "old_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "new_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "old_nu": 0,
+      "new_nu": 2,
+      "new_tau": 2
+    },
+    {
+      "old_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "new_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "old_nu": 0,
+      "new_nu": 2,
+      "new_tau": 2
+    },
+    {
+      "old_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "new_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "old_nu": 0,
+      "new_nu": 2,
+      "new_tau": 2
+    }
+  ],
+  "negative_control": {
+    "cliques": [
+      [
+        0,
+        2,
+        4,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        3,
+        5,
+        7
+      ]
+    ],
+    "deleted_path": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "old_nu": 2,
+    "old_tau": 4,
+    "new_nu": 5,
+    "new_tau": 6,
+    "new_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "old_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ]
+  },
+  "seconds": 0.09547901153564453,
+  "maxrss_bytes": 16302080
+}

@@ -1,0 +1,13 @@
+problems/TUZA-23/Tuza23/BarePages.lean:25:25: error: unexpected identifier; expected '⟩'
+problems/TUZA-23/Tuza23/BarePages.lean:24:28: error: Insufficient number of fields for `⟨...⟩` constructor: Constructor `And.intro` has 2 explicit field, but only 1 was provided
+problems/TUZA-23/Tuza23/BarePages.lean:24:32: error: Type mismatch: After simplification, term
+  And.intro
+ has type
+  ?m.155 → ?m.156 → ?m.155 ∧ ?m.156
+but is expected to have type
+  a ∈ t ∧ b ∈ t
+problems/TUZA-23/Tuza23/BarePages.lean:105:2: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≥ 0
+where
+ a := ↑(#P)

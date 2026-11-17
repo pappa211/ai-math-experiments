@@ -1,0 +1,12 @@
+{
+  "recorded_utc": "2026-11-15T18:07:47.675073+00:00",
+  "public_live_main": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+  "command": "git ls-remote https://github.com/pappa211/ai-math-experiments.git refs/heads/main",
+  "dependency_revision": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+  "tuza20_commit": "62f522a9b0554ecfc92b1133cdbbfdd7f2eac7d7",
+  "public_and_tuza20_initial_worktrees": "clean",
+  "archives_untouched": true,
+  "documentation_zip": "not needed: exact Git source available",
+  "requested_models": "owner-selected inherited configuration",
+  "serving_identity": "not independently attested"
+}

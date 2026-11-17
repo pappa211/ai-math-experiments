@@ -1,0 +1,15 @@
+{
+  "retrieved_utc": "2026-11-16T02:43:20.401704+00:00",
+  "requested_url": "https://dwest.web.illinois.edu/pubs/degpack.pdf",
+  "final_url": "https://dwest.web.illinois.edu/pubs/degpack.pdf",
+  "bytes": 150870,
+  "sha256": "11a5945258dc4818c5492df9e62962f75e84d4584659a974ed32586bcb7ac264",
+  "pages": 12,
+  "version_date_on_title_page": "January 10, 2011",
+  "title": "Packing of Graphic n-tuples",
+  "inspected_statement": "Theorem 3.6, printed/PDF page9",
+  "notation_mapping": "source(A,B,C) = mission(D,A,R)",
+  "inspection": "Exact statement authenticated by web extraction and local PDF page text; full original GE proof not revalidated",
+  "response_content_type": "application/pdf",
+  "original_gallai_repository": "https://real.mtak.hu/189486/"
+}

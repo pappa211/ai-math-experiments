@@ -1,0 +1,13 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Fresh reconstruction of the Petersen fractional and residual boundaries
+
+Coordinator, 2026-11-16 UTC. ACCEPT ordinary proofs. Sources `notes/minimum_exact_cover_fractional_boundary_v1.md` SHA26f7d808b9e9737569ba40a46d91cd6da04a0827ba76e283cea868ec4abd44dd and `notes/minimum_exact_cover_fractional_residual_boundary_v1.md` SHAfb7cddf0ea0a90f94c3687843a56a91d4ece334f336ebf965df284125674ea83.
+
+The Kneser proof gives exactly five maximum independent four-sets, all stars, and every outside vertex has two neighbors in each star. The function |Q|-e(Q) is at most4, with equality only at those stars: any degree>=2 vertex could be removed to improve the value; otherwise an induced matching plus isolates would yield a maximum independent star with an outside vertex of only one star-neighbor.
+
+The double-cone cover formula is exact even when the two apex spoke sets initially differ. For any minimum cover both spoke sets must be minimum covers of the same remaining Petersen graph. Canonical replacement using either one cannot lower cost; hence each is a maximum independent star and the residual rim set equals its complementary matching. This forces both stars equal and proves EVERY minimum cover is exact-one. Half-spokes and one-third weights on every actual triangle give matching fractional certificates at10, while ordinary tau is11.
+
+For a deleted actual triangle a uv, the residual family has rim graph P-{u,v} at a and P-uv at b. I checked every cardinality case of the lower bound. The inequality d>=14-3t+e(Q_b) safely omits a nonnegative endpoint correction. At t4, equality forces that correction and e(Q_b) to vanish, so uv is outside the unique appropriate star and the remaining four-by-four bipartite graph is2-regular. At t5, the only candidate d1,s3 would leave a five-set inducing at most one Petersen edge, impossible by the previously proved strict form of |Q|-e(Q)<=4. The t<=3 and t>=6 arithmetic excludes all other costs<=9. The upper10 follows from exact-one minimum covers. This applies to every triangle, with no computational symmetry premise.
+
+Thus even the complete cover-side endpoint-deletion condition does not imply fractional integrality. The explicit nine-packing keeps this graph far from the original H-D near-tight ratio; original H-D is NOT refuted. The subsequent single-instance solver check is corroboration, not a premise.

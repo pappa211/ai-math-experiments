@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-11-16T10:47:10.002746+00:00",
+  "accepted_source_freeze_unchanged": true,
+  "accepted_modules": 79,
+  "selected_original_copy_pairs": 114,
+  "all_originals_and_copies_unchanged": true,
+  "authenticated_source_checkpoints": {
+    "tuza23": {
+      "commit": "1c75228297205295bafa100564bebfe2e216988c",
+      "tree": "aed31e2d76a6fc1d3f37e5762dd103e3c66fb908",
+      "clean": true
+    },
+    "tuza22": {
+      "commit": "d048e6e8207d9dece8ee23af6e5085726d826db4",
+      "tree": "e273f3a2f426c9fb92c0f2c2d8ac89cc22541d66",
+      "clean": true
+    },
+    "public": {
+      "commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+      "tree": "f6716f2578ba5346960cbb69b9b2e0698b834b4f",
+      "clean": true
+    }
+  },
+  "workspace_remotes": [],
+  "owned_controlled_compiler_jobs": []
+}

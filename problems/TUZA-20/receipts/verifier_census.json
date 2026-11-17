@@ -1,0 +1,65 @@
+{
+  "mode": "census",
+  "started_utc": "2026-11-15T16:47:26.446768+00:00",
+  "elapsed_seconds": 1.0708460807800293,
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "script_sha256": "7c3287026d86ac60ec563e88c4eb1b3023b21f6a548bff3f937d8e94835a46a1",
+  "result": {
+    "universe": "Every labelled simple graph on vertex set range(n), each order 0 through maxn; all binary edge masks. No isomorphism/orbit reduction. Every maximum packing checked; no exit on successful packing. Empty packing counted once for triangle-free graph.",
+    "maxn": 6,
+    "counts": [
+      {
+        "n": 0,
+        "universe_graph_count": 1,
+        "fully_checked_graphs": 1,
+        "partly_checked_graphs": 0,
+        "all_maximum_packings_checked": 1
+      },
+      {
+        "n": 1,
+        "universe_graph_count": 1,
+        "fully_checked_graphs": 1,
+        "partly_checked_graphs": 0,
+        "all_maximum_packings_checked": 1
+      },
+      {
+        "n": 2,
+        "universe_graph_count": 2,
+        "fully_checked_graphs": 2,
+        "partly_checked_graphs": 0,
+        "all_maximum_packings_checked": 2
+      },
+      {
+        "n": 3,
+        "universe_graph_count": 8,
+        "fully_checked_graphs": 8,
+        "partly_checked_graphs": 0,
+        "all_maximum_packings_checked": 8
+      },
+      {
+        "n": 4,
+        "universe_graph_count": 64,
+        "fully_checked_graphs": 64,
+        "partly_checked_graphs": 0,
+        "all_maximum_packings_checked": 73
+      },
+      {
+        "n": 5,
+        "universe_graph_count": 1024,
+        "fully_checked_graphs": 1024,
+        "partly_checked_graphs": 0,
+        "all_maximum_packings_checked": 1408
+      },
+      {
+        "n": 6,
+        "universe_graph_count": 32768,
+        "fully_checked_graphs": 32768,
+        "partly_checked_graphs": 0,
+        "all_maximum_packings_checked": 58769
+      }
+    ],
+    "failures": [],
+    "unknown": []
+  }
+}

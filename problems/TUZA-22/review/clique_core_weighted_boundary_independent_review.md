@@ -1,0 +1,11 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent review: K4 face-apex weighted boundary
+
+Verdict: ACCEPT as ORDINARY_COUNTEREXAMPLE at the exact stated local weighted scope. Frozen source `notes/challenger_clique_core_weighted_boundary_v1.md`, SHA256 b060022882cb2a708f726cfa7d500e7055832ec5ddd78a385253f2a0c709c82d.
+
+I reconstructed the actual graph: K4 on four core vertices, and four independent outside apices, one on each three-vertex face. Its 18 edges give exactly four internal and twelve outside triangles. For any triangle cover, the omitted core edges S must be triangle-free, and each apex independently pays a vertex cover of its induced omitted-base graph. The exhaustive triangle-free four-vertex types are empty, one edge, two adjacent edges, two disjoint edges, K1,3, P4, and C4. Their summed apex-cover costs are respectively 0,2,3,4,3,4,4. Each is at least its number of omitted core edges, proving the ordinary optimum six. No extra graph type or triangle family is omitted.
+
+Every apex link is K3, so at most one private page can be used per apex. The four listed private pages have distinct core bases and disjoint spoke pairs. An internal triangle consumes three of six possible bases and excludes every other internal triangle; hence any packing with one internal triangle has at most three outside pages and weighted total at most five. The displayed internal triangle plus three pages uses exactly the complementary core star and has distinct apices, attaining five and ordinary size four. Thus tau=6, nu=4, private maximum=4, weighted maximum=5 exactly.
+
+The example refutes the weighted target for an arbitrary connected or clique minimum-cover component. It has a K4 selected component, so it does not refute the remaining tree-component target. It also does not violate Tuza or the accepted star-component theorem. This review uses ordinary finite case reasoning only, without a solver or historical census.

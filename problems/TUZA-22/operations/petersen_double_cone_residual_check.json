@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T02:27:18.908661+00:00",
+  "end_utc": "2026-11-16T02:27:19.030444+00:00",
+  "seconds": 0.12178730964660645,
+  "command": [
+    "python3",
+    "scripts/petersen_double_cone_residual_check.py"
+  ],
+  "pid": 93616,
+  "peak_sampled_tree_rss_mib": 4.171875,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 30.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

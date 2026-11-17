@@ -1,0 +1,1 @@
+../../../../../../TUZA-03/lean/Tuza/IntersectingStructure.lean

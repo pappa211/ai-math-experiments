@@ -1,0 +1,20 @@
+[
+  "Tuza.Basic",
+  "Tuza.Graph",
+  "Tuza06.Statement",
+  "Tuza06.Transport",
+  "Tuza06.FiniteCliques",
+  "Tuza06.Pages",
+  "Tuza06.Reduction",
+  "Tuza06.Additivity",
+  "Tuza06.BlockAggregation",
+  "Tuza06.Components",
+  "Tuza06.Critical",
+  "Tuza06.MinimalObstruction",
+  "Tuza23.GraphAPI",
+  "Tuza23.M0",
+  "Tuza06.Footprints",
+  "Tuza23.CliqueChoice",
+  "Tuza23.BlockChoice",
+  "Tuza23.WholeFootprint"
+]

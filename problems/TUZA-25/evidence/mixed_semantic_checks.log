@@ -1,0 +1,37 @@
+{
+  "status": "EXACT_COMPLETED",
+  "weighted": {
+    "K3": {
+      "admissible": 7,
+      "inadmissible": 1,
+      "tight": 0
+    },
+    "K4": {
+      "admissible": 41,
+      "inadmissible": 23,
+      "tight": 1
+    },
+    "K5": {
+      "admissible": 388,
+      "inadmissible": 636,
+      "tight": 1
+    },
+    "K4_background": {
+      "admissible": 82,
+      "inadmissible": 46,
+      "tight": 2
+    },
+    "C5_all_forbidden": {
+      "status": "EXACT_BRUTE",
+      "M": 1,
+      "tau_weighted": 0,
+      "nu_capacitated": 0
+    }
+  },
+  "recurrence": {
+    "branches": 2973,
+    "inadmissible_forbids": 1225
+  },
+  "elapsed_seconds": 1.6534628868103027
+}
+restoration 10 peeling 166

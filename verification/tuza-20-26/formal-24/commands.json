@@ -1,0 +1,1599 @@
+[
+  {
+    "module": "Tuza.Basic",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza/Basic.olean",
+      "<FRESH_RUN>/clean/Tuza/Basic.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0978833340050187,
+    "peak_tree_rss_bytes": 1574731776,
+    "log": "<FRESH_RUN>/logs/Tuza.Basic.log",
+    "completed_utc": "2026-11-17T18:55:07.694924+00:00",
+    "object_sha256": "653c1ec4ea07cc0131527202dc444b3e534960bed9f1fcfd72c314768f2c3640"
+  },
+  {
+    "module": "Tuza.Graph",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza/Graph.olean",
+      "<FRESH_RUN>/clean/Tuza/Graph.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0856768329977058,
+    "peak_tree_rss_bytes": 1592213504,
+    "log": "<FRESH_RUN>/logs/Tuza.Graph.log",
+    "completed_utc": "2026-11-17T18:55:08.781123+00:00",
+    "object_sha256": "bbc75e2f8bbe345b3205892124e88a0406dce0485f91a3e65a7630bb6fc0ab28"
+  },
+  {
+    "module": "Tuza06.Statement",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/Statement.olean",
+      "<FRESH_RUN>/clean/Tuza06/Statement.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9771139590011444,
+    "peak_tree_rss_bytes": 1552941056,
+    "log": "<FRESH_RUN>/logs/Tuza06.Statement.log",
+    "completed_utc": "2026-11-17T18:55:09.758790+00:00",
+    "object_sha256": "7a589196cc63fce61b64dc203fa4d4ccf05999f00f036decc243696df2a3c896"
+  },
+  {
+    "module": "Tuza06.Transport",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/Transport.olean",
+      "<FRESH_RUN>/clean/Tuza06/Transport.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0912527090113144,
+    "peak_tree_rss_bytes": 1586249728,
+    "log": "<FRESH_RUN>/logs/Tuza06.Transport.log",
+    "completed_utc": "2026-11-17T18:55:10.850514+00:00",
+    "object_sha256": "f6f1534bfa5d81719826efc3898e482534018acb387dc3c3e28632a7004e8fd3"
+  },
+  {
+    "module": "Tuza06.FiniteCliques",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/FiniteCliques.olean",
+      "<FRESH_RUN>/clean/Tuza06/FiniteCliques.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 7.987925666006049,
+    "peak_tree_rss_bytes": 1743732736,
+    "log": "<FRESH_RUN>/logs/Tuza06.FiniteCliques.log",
+    "completed_utc": "2026-11-17T18:55:18.839063+00:00",
+    "object_sha256": "628ed35cfe8ae7f12bc51eb871599b31408684add8c9192f11851a461fb2658d"
+  },
+  {
+    "module": "Tuza06.Pages",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/Pages.olean",
+      "<FRESH_RUN>/clean/Tuza06/Pages.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9882324999780394,
+    "peak_tree_rss_bytes": 1585135616,
+    "log": "<FRESH_RUN>/logs/Tuza06.Pages.log",
+    "completed_utc": "2026-11-17T18:55:19.828463+00:00",
+    "object_sha256": "92c12c5e9a2fd061404ba059777956b2dfdab92dc0c0f838757163b6984cd7cf"
+  },
+  {
+    "module": "Tuza06.Reduction",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/Reduction.olean",
+      "<FRESH_RUN>/clean/Tuza06/Reduction.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9891492919996381,
+    "peak_tree_rss_bytes": 1558052864,
+    "log": "<FRESH_RUN>/logs/Tuza06.Reduction.log",
+    "completed_utc": "2026-11-17T18:55:20.818190+00:00",
+    "object_sha256": "0da1c0f5e5106795f7a35ed2923e490a03db816543608c06db003b2d7d74e315"
+  },
+  {
+    "module": "Tuza06.Additivity",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/Additivity.olean",
+      "<FRESH_RUN>/clean/Tuza06/Additivity.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9815719999896828,
+    "peak_tree_rss_bytes": 1584070656,
+    "log": "<FRESH_RUN>/logs/Tuza06.Additivity.log",
+    "completed_utc": "2026-11-17T18:55:21.800269+00:00",
+    "object_sha256": "b8cf6c03866e5d205a8ca4c4c576d6378a6c05686bba78bcecec3f8f08047017"
+  },
+  {
+    "module": "Tuza06.BlockAggregation",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/BlockAggregation.olean",
+      "<FRESH_RUN>/clean/Tuza06/BlockAggregation.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9828500840230845,
+    "peak_tree_rss_bytes": 1583251456,
+    "log": "<FRESH_RUN>/logs/Tuza06.BlockAggregation.log",
+    "completed_utc": "2026-11-17T18:55:22.783664+00:00",
+    "object_sha256": "bf4b94280a611b34cf5b58b0977293b5dead8d0c0d21c8ddb5af1f87dd68f4af"
+  },
+  {
+    "module": "Tuza06.Components",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/Components.olean",
+      "<FRESH_RUN>/clean/Tuza06/Components.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.1912577920011245,
+    "peak_tree_rss_bytes": 1600290816,
+    "log": "<FRESH_RUN>/logs/Tuza06.Components.log",
+    "completed_utc": "2026-11-17T18:55:23.975421+00:00",
+    "object_sha256": "56c6a8e993f25891d1118be11fd16d5099bdb7add6d27fb519a1e567df6f5359"
+  },
+  {
+    "module": "Tuza06.Critical",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/Critical.olean",
+      "<FRESH_RUN>/clean/Tuza06/Critical.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "fdb687027dd5dd299d6985b23383e98407a00dd24a60d55643e66a3462e3b200",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9876043330004904,
+    "peak_tree_rss_bytes": 1587036160,
+    "log": "<FRESH_RUN>/logs/Tuza06.Critical.log",
+    "completed_utc": "2026-11-17T18:55:24.963660+00:00",
+    "object_sha256": "92443bee834093800340490180c20831920fea55454c99a2670a0bbf94ee9ba2"
+  },
+  {
+    "module": "Tuza06.MinimalObstruction",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/MinimalObstruction.olean",
+      "<FRESH_RUN>/clean/Tuza06/MinimalObstruction.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "79010d586ee8d35b187213109fe6aa0b7222bdae81e0f92543c0b6af37b8325e",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9777417080185842,
+    "peak_tree_rss_bytes": 1585790976,
+    "log": "<FRESH_RUN>/logs/Tuza06.MinimalObstruction.log",
+    "completed_utc": "2026-11-17T18:55:25.941955+00:00",
+    "object_sha256": "5b7c958a865037e20fece9d0ec84e48a3dd140489e28ff125a52f0e717c46722"
+  },
+  {
+    "module": "Tuza23.GraphAPI",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza23/GraphAPI.olean",
+      "<FRESH_RUN>/clean/Tuza23/GraphAPI.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9844972499995492,
+    "peak_tree_rss_bytes": 1589903360,
+    "log": "<FRESH_RUN>/logs/Tuza23.GraphAPI.log",
+    "completed_utc": "2026-11-17T18:55:26.927103+00:00",
+    "object_sha256": "f2159ee2574e5249b8fec512f290637e262434615ed1ef1d5f497cb13181338b"
+  },
+  {
+    "module": "Tuza23.M0",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza23/M0.olean",
+      "<FRESH_RUN>/clean/Tuza23/M0.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.19324312498793,
+    "peak_tree_rss_bytes": 1600585728,
+    "log": "<FRESH_RUN>/logs/Tuza23.M0.log",
+    "completed_utc": "2026-11-17T18:55:28.120917+00:00",
+    "object_sha256": "953dd4b72dbe951a91da489ba1b19b561e3ab0b04d623f84944f12bd6d5c7656"
+  },
+  {
+    "module": "Tuza24.ForestAPI",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestAPI.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestAPI.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "f09e878c4aafcd10d1d4e8347e847fd3bc66dd2e34c2bac18d3535109709da54",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.4285353339801077,
+    "peak_tree_rss_bytes": 1692942336,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestAPI.log",
+    "completed_utc": "2026-11-17T18:55:29.550267+00:00",
+    "object_sha256": "1fcfeb3f7a8fac52925949b26ac108129d3be3f14ca560dc521fcd55dbe6fd10"
+  },
+  {
+    "module": "Tuza24.MatchingAPI",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/MatchingAPI.olean",
+      "<FRESH_RUN>/clean/Tuza24/MatchingAPI.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "e6e25fe100c6369c865dda5b98d16d74b074d290b12627b69f394bc7710025a6",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.8843656670069322,
+    "peak_tree_rss_bytes": 1671774208,
+    "log": "<FRESH_RUN>/logs/Tuza24.MatchingAPI.log",
+    "completed_utc": "2026-11-17T18:55:30.435338+00:00",
+    "object_sha256": "fbdb72843589b00bcd87431d1c151394288de6dc7be34e75aa65833606176255"
+  },
+  {
+    "module": "Tuza24.ForestMatching",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestMatching.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestMatching.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "bbebdf2beb9594a877885f0655acec89a52cdcffc00c00b2ddd1180d6b669493",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0896324580244254,
+    "peak_tree_rss_bytes": 1694040064,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestMatching.log",
+    "completed_utc": "2026-11-17T18:55:31.525389+00:00",
+    "object_sha256": "a874bcaa07b8af767ca1bcf2cb40785883f156e3bb0f2f6724a53b6368e026d6"
+  },
+  {
+    "module": "Tuza23.WholeFootprint",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza23/WholeFootprint.olean",
+      "<FRESH_RUN>/clean/Tuza23/WholeFootprint.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "bd843ef4a16d101c2731b6247e5eaae7cb03172537461bdfe5aed0bfb589b535",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9824344169755932,
+    "peak_tree_rss_bytes": 1587544064,
+    "log": "<FRESH_RUN>/logs/Tuza23.WholeFootprint.log",
+    "completed_utc": "2026-11-17T18:55:32.508618+00:00",
+    "object_sha256": "9444b4430f7bef258e44fd6e17b4e33516cb56579b946030166f1572d876b6e5"
+  },
+  {
+    "module": "Tuza06.Footprints",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/Footprints.olean",
+      "<FRESH_RUN>/clean/Tuza06/Footprints.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9878353330132086,
+    "peak_tree_rss_bytes": 1585397760,
+    "log": "<FRESH_RUN>/logs/Tuza06.Footprints.log",
+    "completed_utc": "2026-11-17T18:55:33.497113+00:00",
+    "object_sha256": "5e2bafc837ac317a1ad184dfffd95028b5794298e33fce5bd71e18c67680d1d5"
+  },
+  {
+    "module": "Tuza23.CliqueChoice",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza23/CliqueChoice.olean",
+      "<FRESH_RUN>/clean/Tuza23/CliqueChoice.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.4286039590078872,
+    "peak_tree_rss_bytes": 1660878848,
+    "log": "<FRESH_RUN>/logs/Tuza23.CliqueChoice.log",
+    "completed_utc": "2026-11-17T18:55:34.926288+00:00",
+    "object_sha256": "d889955e08cc957b0a2aff8d36d6195adbbccb32962b1bb101e24c14d64ee763"
+  },
+  {
+    "module": "Tuza23.BlockChoice",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza23/BlockChoice.olean",
+      "<FRESH_RUN>/clean/Tuza23/BlockChoice.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9831791250035167,
+    "peak_tree_rss_bytes": 1581318144,
+    "log": "<FRESH_RUN>/logs/Tuza23.BlockChoice.log",
+    "completed_utc": "2026-11-17T18:55:35.909931+00:00",
+    "object_sha256": "23681064a4b93f72d48387ea58dddcb3b327ad8fed36f800d9ae9682ae5bfbbe"
+  },
+  {
+    "module": "Tuza23.PageAssembly",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza23/PageAssembly.olean",
+      "<FRESH_RUN>/clean/Tuza23/PageAssembly.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "b45080856bf28a9fadb7f7e747340e3670b2b3451b844e77f4cf77b2fb5c990c",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0957484169921372,
+    "peak_tree_rss_bytes": 1589493760,
+    "log": "<FRESH_RUN>/logs/Tuza23.PageAssembly.log",
+    "completed_utc": "2026-11-17T18:55:37.006190+00:00",
+    "object_sha256": "6385685cc5a5b8998c52d44af94b5304d695616fe0db977440ab72da3e046b66"
+  },
+  {
+    "module": "Tuza06.Reducible",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/Reducible.olean",
+      "<FRESH_RUN>/clean/Tuza06/Reducible.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "2db14a15df88e875493756480e2e92504ea1b8b3606bfd9f4066c8d06e95247d",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.979516124993097,
+    "peak_tree_rss_bytes": 1589379072,
+    "log": "<FRESH_RUN>/logs/Tuza06.Reducible.log",
+    "completed_utc": "2026-11-17T18:55:37.986408+00:00",
+    "object_sha256": "91eadb461f0e9c5caf47f5d02807084e56053905be9b3fa740f15460938db11c"
+  },
+  {
+    "module": "Tuza06.SetPeeling",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/SetPeeling.olean",
+      "<FRESH_RUN>/clean/Tuza06/SetPeeling.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "96fd16ee26f0028fc9af0bffa5822c815a4e59e312ba679aee096df5bd923415",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9869187080184929,
+    "peak_tree_rss_bytes": 1578876928,
+    "log": "<FRESH_RUN>/logs/Tuza06.SetPeeling.log",
+    "completed_utc": "2026-11-17T18:55:38.973906+00:00",
+    "object_sha256": "c52cecb999af385c15e7af1c614b877484056fb31c08b70ac403301f94c95330"
+  },
+  {
+    "module": "Tuza06.GraphPeeling",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/GraphPeeling.olean",
+      "<FRESH_RUN>/clean/Tuza06/GraphPeeling.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "89f3d7f2ef1b04289534337d4d7f534ee80205bc5ceb1eaaa87aa837e1d8dde6",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9894091250025667,
+    "peak_tree_rss_bytes": 1583972352,
+    "log": "<FRESH_RUN>/logs/Tuza06.GraphPeeling.log",
+    "completed_utc": "2026-11-17T18:55:39.963835+00:00",
+    "object_sha256": "c9f1ca57df726983b44c5e13f650edfe3bffbf054981204c34f54250571c649d"
+  },
+  {
+    "module": "Tuza06.MatchingReduction",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/MatchingReduction.olean",
+      "<FRESH_RUN>/clean/Tuza06/MatchingReduction.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "03c4ee92e4f635badaf10a998a5f51651de8d375ed01afb5f23d614b56eb88e0",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9858953749935608,
+    "peak_tree_rss_bytes": 1589739520,
+    "log": "<FRESH_RUN>/logs/Tuza06.MatchingReduction.log",
+    "completed_utc": "2026-11-17T18:55:40.950305+00:00",
+    "object_sha256": "a3a6bed06241d51550f046bdd7604a17adbbb3fd5d2b157b656570fead70200a"
+  },
+  {
+    "module": "Tuza06.GraphOperations",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/GraphOperations.olean",
+      "<FRESH_RUN>/clean/Tuza06/GraphOperations.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "9f6316f84081c10b80852908da81bfe382a325e66198df52b00a4dd5a139b849",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9909853329882026,
+    "peak_tree_rss_bytes": 1561313280,
+    "log": "<FRESH_RUN>/logs/Tuza06.GraphOperations.log",
+    "completed_utc": "2026-11-17T18:55:41.941903+00:00",
+    "object_sha256": "305933004e46bb6375d5c6ab75fabb04e706ab848504d752442ec63284995c36"
+  },
+  {
+    "module": "Tuza06.PageAugmentation",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/PageAugmentation.olean",
+      "<FRESH_RUN>/clean/Tuza06/PageAugmentation.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "2a7ab49af6c21e0f645c9bb191c7dbb8350c487630b4c5ba1e3a6f8c3f343a2b",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9897244169842452,
+    "peak_tree_rss_bytes": 1586774016,
+    "log": "<FRESH_RUN>/logs/Tuza06.PageAugmentation.log",
+    "completed_utc": "2026-11-17T18:55:42.932308+00:00",
+    "object_sha256": "01f70b1442db9b8603b94601da95eec48dc0da54e9a643b5e0fc40ffd4d028e4"
+  },
+  {
+    "module": "Tuza.Intersecting",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza/Intersecting.olean",
+      "<FRESH_RUN>/clean/Tuza/Intersecting.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9951644169923384,
+    "peak_tree_rss_bytes": 1579139072,
+    "log": "<FRESH_RUN>/logs/Tuza.Intersecting.log",
+    "completed_utc": "2026-11-17T18:55:43.928193+00:00",
+    "object_sha256": "1fb635e6cb420658fc50a0ec475bb0cab421b8cb8a86ef886429be6cf023793f"
+  },
+  {
+    "module": "Tuza.IntersectingStructure",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza/IntersectingStructure.olean",
+      "<FRESH_RUN>/clean/Tuza/IntersectingStructure.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "15669245659268212e376d29cd37ac60d854139c5337907c5d5c5c94f3d11357",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.3149893329828046,
+    "peak_tree_rss_bytes": 1592295424,
+    "log": "<FRESH_RUN>/logs/Tuza.IntersectingStructure.log",
+    "completed_utc": "2026-11-17T18:55:45.243710+00:00",
+    "object_sha256": "8b8b162314a95f4005659b06f3fc8154dec00d6c1d7445320fe816da44a26665"
+  },
+  {
+    "module": "Tuza06.UniqueEdge",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/UniqueEdge.olean",
+      "<FRESH_RUN>/clean/Tuza06/UniqueEdge.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "fc9c77bc94e2af03aaadc2f83128232a7fe161cea7f28ff24d5f20465c11cb88",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0990345000172965,
+    "peak_tree_rss_bytes": 1597440000,
+    "log": "<FRESH_RUN>/logs/Tuza06.UniqueEdge.log",
+    "completed_utc": "2026-11-17T18:55:46.343463+00:00",
+    "object_sha256": "dfe9c56e501ad4595e3613e2139d7d05da6415412899bee4b32997dfcb1b1e37"
+  },
+  {
+    "module": "Tuza06.SmallLinksBase",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/SmallLinksBase.olean",
+      "<FRESH_RUN>/clean/Tuza06/SmallLinksBase.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "3d52a43fa7fd91342506949ada70e31820b5e460a4c5050a2d7d0833e95337cb",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.984721457993146,
+    "peak_tree_rss_bytes": 1584611328,
+    "log": "<FRESH_RUN>/logs/Tuza06.SmallLinksBase.log",
+    "completed_utc": "2026-11-17T18:55:47.329470+00:00",
+    "object_sha256": "6a646ee065e86111fa3347a81f486eae4b5571a8608df95017d059b204401c60"
+  },
+  {
+    "module": "Tuza06.SmallLinksOperations",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/SmallLinksOperations.olean",
+      "<FRESH_RUN>/clean/Tuza06/SmallLinksOperations.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "8a60a698242303388155dfefd4cb4478c641a7aaecd25d53ec7a8ebdf3661dae",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.983958042023005,
+    "peak_tree_rss_bytes": 1592115200,
+    "log": "<FRESH_RUN>/logs/Tuza06.SmallLinksOperations.log",
+    "completed_utc": "2026-11-17T18:55:48.313998+00:00",
+    "object_sha256": "b9f4ea5e9a74d12617ee8d60156654031bc0d9e03a321d604b901a72149ee56a"
+  },
+  {
+    "module": "Tuza06.SmallLinksK3",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/SmallLinksK3.olean",
+      "<FRESH_RUN>/clean/Tuza06/SmallLinksK3.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "326b0473254705d504f9532f771a56e945590e32bb69782f163e2977621e372c",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.101074999984121,
+    "peak_tree_rss_bytes": 1595244544,
+    "log": "<FRESH_RUN>/logs/Tuza06.SmallLinksK3.log",
+    "completed_utc": "2026-11-17T18:55:49.415765+00:00",
+    "object_sha256": "4ee00d8f03fd4ea607197742f515a88fb06ed34e432bbaa9ccf35d4fbf916bf7"
+  },
+  {
+    "module": "Tuza06.SmallLinksPatterns",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/SmallLinksPatterns.olean",
+      "<FRESH_RUN>/clean/Tuza06/SmallLinksPatterns.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "aa89ad6aeb0cb6dd12d0d518e7e57753d183082e44b89e5776da205802f573fd",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9835439580201637,
+    "peak_tree_rss_bytes": 1580826624,
+    "log": "<FRESH_RUN>/logs/Tuza06.SmallLinksPatterns.log",
+    "completed_utc": "2026-11-17T18:55:50.400114+00:00",
+    "object_sha256": "f30cc6254235d8905cbc577a5af4c5b871a0c8d1e7fe9ab47aa9554890f0a36a"
+  },
+  {
+    "module": "Tuza06.SmallLinksK4",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/SmallLinksK4.olean",
+      "<FRESH_RUN>/clean/Tuza06/SmallLinksK4.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "95b6b95489c84ab8d1621bc03f4ea3c55dc57f25dff5a71f28edd7e012670e09",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.4245230840169825,
+    "peak_tree_rss_bytes": 1618345984,
+    "log": "<FRESH_RUN>/logs/Tuza06.SmallLinksK4.log",
+    "completed_utc": "2026-11-17T18:55:51.825210+00:00",
+    "object_sha256": "409d0ac08ebdaa4779aed71c076a5f358a6dc8bc2ea8275a6664d89cbfb601bb"
+  },
+  {
+    "module": "Tuza06.SmallLinksCross",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/SmallLinksCross.olean",
+      "<FRESH_RUN>/clean/Tuza06/SmallLinksCross.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "cb543f1423d3f7675cdbe94d7ea17c738d824bc00fc454ce916b2afc4a230e0f",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.3158564170007594,
+    "peak_tree_rss_bytes": 1600028672,
+    "log": "<FRESH_RUN>/logs/Tuza06.SmallLinksCross.log",
+    "completed_utc": "2026-11-17T18:55:53.141829+00:00",
+    "object_sha256": "09e44ea05080cf37049ba3a590dd4ba6a20c8ad668ea39aa0e9c7d064f3c9d6b"
+  },
+  {
+    "module": "Tuza06.SmallLinksFour",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/SmallLinksFour.olean",
+      "<FRESH_RUN>/clean/Tuza06/SmallLinksFour.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "f777892653ea172a3c292972ec587eb3ef6d145ffc64b491fae838e4ee5dc3ac",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.4311115829914343,
+    "peak_tree_rss_bytes": 1606107136,
+    "log": "<FRESH_RUN>/logs/Tuza06.SmallLinksFour.log",
+    "completed_utc": "2026-11-17T18:55:54.574115+00:00",
+    "object_sha256": "24e9addac330753a3725aeeeaefac6d562cda4382f8c1e4b0572e358fd6cae45"
+  },
+  {
+    "module": "Tuza06.SmallLinks",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza06/SmallLinks.olean",
+      "<FRESH_RUN>/clean/Tuza06/SmallLinks.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "fde3e17afe2a1420c87da08cca1d9fd83806f70de40f1d216be3c60548beb834",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.6417371249990538,
+    "peak_tree_rss_bytes": 1592213504,
+    "log": "<FRESH_RUN>/logs/Tuza06.SmallLinks.log",
+    "completed_utc": "2026-11-17T18:55:56.216897+00:00",
+    "object_sha256": "6895700c688187bd3b7d509aa9d8630ef94cebd8f2debe11fcbf13ffb1b690ae"
+  },
+  {
+    "module": "Tuza24.LinkAPI",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/LinkAPI.olean",
+      "<FRESH_RUN>/clean/Tuza24/LinkAPI.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "4bc2a6bd053af2636370013a81cdd95aab960d772c4f377320f36d29ab74738c",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.3205712090129964,
+    "peak_tree_rss_bytes": 1717485568,
+    "log": "<FRESH_RUN>/logs/Tuza24.LinkAPI.log",
+    "completed_utc": "2026-11-17T18:55:57.538411+00:00",
+    "object_sha256": "ff8496dfa9b471b9853b55b80ffe02b6a09c15a81f38a4bdd239816638e554a7"
+  },
+  {
+    "module": "Tuza24.AnchorLift",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/AnchorLift.olean",
+      "<FRESH_RUN>/clean/Tuza24/AnchorLift.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "450e323a9b80ad1e9a405cff074452dfb2b373fada13f3d59a125b8d583f87de",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0914057500194758,
+    "peak_tree_rss_bytes": 1693958144,
+    "log": "<FRESH_RUN>/logs/Tuza24.AnchorLift.log",
+    "completed_utc": "2026-11-17T18:55:58.630603+00:00",
+    "object_sha256": "383a318fb4925ed8da50f078ca0fe6f6664c1d18e7fdca6d3e221f0471eff835"
+  },
+  {
+    "module": "Tuza24.ForestMatchingSlack",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestMatchingSlack.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestMatchingSlack.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "4ac89cf3a565143cf0bbd578e624c183ce28d224c575b22f9705e272dc564b07",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.1020815419906285,
+    "peak_tree_rss_bytes": 1723056128,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestMatchingSlack.log",
+    "completed_utc": "2026-11-17T18:55:59.733583+00:00",
+    "object_sha256": "ae01fa1e60e705392fb1269c958a05918ccf4707ef7f1c9f74959c3918aa68fa"
+  },
+  {
+    "module": "Tuza24.PointedAssembly",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/PointedAssembly.olean",
+      "<FRESH_RUN>/clean/Tuza24/PointedAssembly.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "162c72f57d9a27a341ffe1a6e854858ff4113d00851f92384b3f95521a88bc5b",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9824845000111964,
+    "peak_tree_rss_bytes": 1692041216,
+    "log": "<FRESH_RUN>/logs/Tuza24.PointedAssembly.log",
+    "completed_utc": "2026-11-17T18:56:00.716974+00:00",
+    "object_sha256": "954887a58b6244e47e29b242de318b75a728ce146f660b95ba0f872c64d83d80"
+  },
+  {
+    "module": "Tuza24.AlternatingForestExchange",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/AlternatingForestExchange.olean",
+      "<FRESH_RUN>/clean/Tuza24/AlternatingForestExchange.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "cd93f41478a5cb4416143380a28b6d5a45722e11e10bf630807cd828f87b614a",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.1020855829992797,
+    "peak_tree_rss_bytes": 1695121408,
+    "log": "<FRESH_RUN>/logs/Tuza24.AlternatingForestExchange.log",
+    "completed_utc": "2026-11-17T18:56:01.819670+00:00",
+    "object_sha256": "ecfde742fa84afb6ddbc70fc02f0169e575b8f4e40a4b8d6af3b5945dd7f07a9"
+  },
+  {
+    "module": "Tuza24.AlternatingForestDecomposition",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/AlternatingForestDecomposition.olean",
+      "<FRESH_RUN>/clean/Tuza24/AlternatingForestDecomposition.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "c17deb82d175113355486170360aee4bd6b85a4224ad4d342b8a90d1b32a47c9",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.205760332988575,
+    "peak_tree_rss_bytes": 1712750592,
+    "log": "<FRESH_RUN>/logs/Tuza24.AlternatingForestDecomposition.log",
+    "completed_utc": "2026-11-17T18:56:03.026390+00:00",
+    "object_sha256": "7fb92c6ce9ea55f1e4d3c1ef047874d049e07141655a455adc0d1d9a6ead94bd"
+  },
+  {
+    "module": "Tuza24.PointedForest",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/PointedForest.olean",
+      "<FRESH_RUN>/clean/Tuza24/PointedForest.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "205f9aa169e29b61fcefc2581826589895f584e2299475b8b24c26aa2cf57a38",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.2061297920008656,
+    "peak_tree_rss_bytes": 1701986304,
+    "log": "<FRESH_RUN>/logs/Tuza24.PointedForest.log",
+    "completed_utc": "2026-11-17T18:56:04.233426+00:00",
+    "object_sha256": "918d28de02d32078927bcbe7f33663b7d42e87a2ba030c46fd18fb71fe59d9bd"
+  },
+  {
+    "module": "Tuza24.ForestAnchor",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestAnchor.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestAnchor.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "c8127dc85f2cfbc91ae7f259db66ad23815472638df90010b9970c2bca85009a",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9910530000051949,
+    "peak_tree_rss_bytes": 1696514048,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestAnchor.log",
+    "completed_utc": "2026-11-17T18:56:05.225192+00:00",
+    "object_sha256": "bfbec6e8739aa00aff59d770217b63d4874241471340f2441e2e39b99e45e527"
+  },
+  {
+    "module": "Tuza24.PerfectForestStructure",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/PerfectForestStructure.olean",
+      "<FRESH_RUN>/clean/Tuza24/PerfectForestStructure.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "2da61cb09a9d39865bc378c9af5c736c5f5f329fb98f755e473b708f7753239c",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.1990690419916064,
+    "peak_tree_rss_bytes": 1711734784,
+    "log": "<FRESH_RUN>/logs/Tuza24.PerfectForestStructure.log",
+    "completed_utc": "2026-11-17T18:56:06.425088+00:00",
+    "object_sha256": "9d655c978214f8bfb0bc1625c19d8c52e7d85d249065bdcc9112a0a639bc53e5"
+  },
+  {
+    "module": "Tuza24.FootprintGeometry",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/FootprintGeometry.olean",
+      "<FRESH_RUN>/clean/Tuza24/FootprintGeometry.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "96a9dcf33da56e0eecc484698e1a033012b0715e2223aaba5405460f247d6240",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.082525292003993,
+    "peak_tree_rss_bytes": 1708032000,
+    "log": "<FRESH_RUN>/logs/Tuza24.FootprintGeometry.log",
+    "completed_utc": "2026-11-17T18:56:07.508445+00:00",
+    "object_sha256": "2940db09e3d6e7cc2397efb82aeb9a7f6af4b2d85ddcaa5267ce791762e62881"
+  },
+  {
+    "module": "Tuza24.LinkAugmentation",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/LinkAugmentation.olean",
+      "<FRESH_RUN>/clean/Tuza24/LinkAugmentation.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "be8acf482552375c01745590d62bcf8ba1233ec91662ace6d4d6c67b46af8fe0",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0906496250245254,
+    "peak_tree_rss_bytes": 1705820160,
+    "log": "<FRESH_RUN>/logs/Tuza24.LinkAugmentation.log",
+    "completed_utc": "2026-11-17T18:56:08.600010+00:00",
+    "object_sha256": "8eb8c20c389b29457eca6f0c3b31e53732620255d2c4980d0b537df0ecbab143"
+  },
+  {
+    "module": "Tuza24.InternalPageAugmentation",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/InternalPageAugmentation.olean",
+      "<FRESH_RUN>/clean/Tuza24/InternalPageAugmentation.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "66da4ca2cbc778e6c95f59a13f7de2ae9e65c3eebc186beebc4c555fb88e03b0",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0991483329853509,
+    "peak_tree_rss_bytes": 1701920768,
+    "log": "<FRESH_RUN>/logs/Tuza24.InternalPageAugmentation.log",
+    "completed_utc": "2026-11-17T18:56:09.700082+00:00",
+    "object_sha256": "659ada824b251ab519eda884e6432cc735657c51ffd3388333d31f0356105e6d"
+  },
+  {
+    "module": "Tuza24.ExternalPageAugmentation",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ExternalPageAugmentation.olean",
+      "<FRESH_RUN>/clean/Tuza24/ExternalPageAugmentation.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "f2f3873f8b454f3112c7eef3f80cb9e124c6abbd7959c273e365a91285b64d76",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0952610000094865,
+    "peak_tree_rss_bytes": 1705623552,
+    "log": "<FRESH_RUN>/logs/Tuza24.ExternalPageAugmentation.log",
+    "completed_utc": "2026-11-17T18:56:10.796147+00:00",
+    "object_sha256": "56a35e243a2093cf5fca0f7308c9144dd4eccffa0d6cde20d219fbee16af576e"
+  },
+  {
+    "module": "Tuza24.PerfectForestExclusionBase",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/PerfectForestExclusionBase.olean",
+      "<FRESH_RUN>/clean/Tuza24/PerfectForestExclusionBase.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "8f99e475f2f867c38054d88013c8cf160395e4173a4fbc1ea20a138e7c58682f",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0975664999859873,
+    "peak_tree_rss_bytes": 1696481280,
+    "log": "<FRESH_RUN>/logs/Tuza24.PerfectForestExclusionBase.log",
+    "completed_utc": "2026-11-17T18:56:11.894500+00:00",
+    "object_sha256": "d29a727681786cf1df46d9ae0beefd9e817d6089a8ea9d47481296435f4e6b8c"
+  },
+  {
+    "module": "Tuza24.ApexLinkGeometry",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ApexLinkGeometry.olean",
+      "<FRESH_RUN>/clean/Tuza24/ApexLinkGeometry.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "40a305dd6380dd2f06e5af19179902db907aa5422ceafb1eb6de84da17cd4b20",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.093439791991841,
+    "peak_tree_rss_bytes": 1695121408,
+    "log": "<FRESH_RUN>/logs/Tuza24.ApexLinkGeometry.log",
+    "completed_utc": "2026-11-17T18:56:12.988975+00:00",
+    "object_sha256": "732377ae57da884be8f478e220381216cf61f257e9380ead2c0a8a9fd772e47b"
+  },
+  {
+    "module": "Tuza24.MatchingChoice",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/MatchingChoice.olean",
+      "<FRESH_RUN>/clean/Tuza24/MatchingChoice.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "a907941a8f0a65cc485a89d1ac3568c785230f663d23622ba2b4598ebeb2c68e",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9950992499943823,
+    "peak_tree_rss_bytes": 1698529280,
+    "log": "<FRESH_RUN>/logs/Tuza24.MatchingChoice.log",
+    "completed_utc": "2026-11-17T18:56:13.985267+00:00",
+    "object_sha256": "9aa85d21b8a766f0e4a5f566200c11927a901749932e9518dff67ed610df9bd0"
+  },
+  {
+    "module": "Tuza24.PerfectForestExclusionTools",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/PerfectForestExclusionTools.olean",
+      "<FRESH_RUN>/clean/Tuza24/PerfectForestExclusionTools.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "8767611af2a10bfe8dd52520bbcdaa7656ebc0928431d493c9d706928af744d9",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.097275374981109,
+    "peak_tree_rss_bytes": 1692680192,
+    "log": "<FRESH_RUN>/logs/Tuza24.PerfectForestExclusionTools.log",
+    "completed_utc": "2026-11-17T18:56:15.083403+00:00",
+    "object_sha256": "988f7fc11b43478c909446e1c667f0f24d961b3f95259efb398bc3465ba390ee"
+  },
+  {
+    "module": "Tuza24.PerfectForestExclusion",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/PerfectForestExclusion.olean",
+      "<FRESH_RUN>/clean/Tuza24/PerfectForestExclusion.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "083151918d1ece52cedcd2ddf24ed5cccb031ea9c7deda882221acb07c764ed5",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.1072296249913052,
+    "peak_tree_rss_bytes": 1708113920,
+    "log": "<FRESH_RUN>/logs/Tuza24.PerfectForestExclusion.log",
+    "completed_utc": "2026-11-17T18:56:16.191689+00:00",
+    "object_sha256": "024023a1dbc969153eb54102d25337a3d2b4a146a7bea6b6024315271731b351"
+  },
+  {
+    "module": "Tuza24.ForestMatchingUnique",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestMatchingUnique.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestMatchingUnique.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "eaac5b3c798181f58119c74d7b77b624473bfa888b6c0cced5ea5c7bcc758198",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.982628541009035,
+    "peak_tree_rss_bytes": 1692680192,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestMatchingUnique.log",
+    "completed_utc": "2026-11-17T18:56:17.175048+00:00",
+    "object_sha256": "1b13838abbb9d5f535e91b1515a4a6f6e28e81805ec405f4d65b2616cf7cc4fe"
+  },
+  {
+    "module": "Tuza24.ForestMatchingBoundary",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestMatchingBoundary.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestMatchingBoundary.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "102ac150285ee5f270ed73cdffe7cf4b3ab436739bd22e09cc79a83121b6f151",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0910049579979386,
+    "peak_tree_rss_bytes": 1684619264,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestMatchingBoundary.log",
+    "completed_utc": "2026-11-17T18:56:18.266795+00:00",
+    "object_sha256": "234207b4ed625f3fb58d77ac205596fee53b1ece1c286e64f8da1a3703310cbe"
+  },
+  {
+    "module": "Tuza24.ForestMatchingDeletion",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestMatchingDeletion.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestMatchingDeletion.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "31e3fb9382ea1b39c34f8c597c1275fd2e2a6682c8907ba316fe7a5136e1ade2",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.1008307079900987,
+    "peak_tree_rss_bytes": 1678360576,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestMatchingDeletion.log",
+    "completed_utc": "2026-11-17T18:56:19.368698+00:00",
+    "object_sha256": "4e267958a690e5dbad1e4835765ab264921313fd280678763af0099d7447e693"
+  },
+  {
+    "module": "Tuza24.AlternatingForestAllowed",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/AlternatingForestAllowed.olean",
+      "<FRESH_RUN>/clean/Tuza24/AlternatingForestAllowed.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "75ffd0b7e18d1a944dfdc3beb6f57091159b9c22b648f04340678d6a68273a81",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0968483750184532,
+    "peak_tree_rss_bytes": 1687650304,
+    "log": "<FRESH_RUN>/logs/Tuza24.AlternatingForestAllowed.log",
+    "completed_utc": "2026-11-17T18:56:20.466613+00:00",
+    "object_sha256": "9694b71ab1fc90cb88868a2c4788312ada41fd906ddfb7cb331909feddd8d425"
+  },
+  {
+    "module": "Tuza24.AlternatingForestLeaves",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/AlternatingForestLeaves.olean",
+      "<FRESH_RUN>/clean/Tuza24/AlternatingForestLeaves.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "3cb6e819f9b585bee3a87901f4a54628038d2bfab2e488c0af7b795e584b2057",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9853921670001,
+    "peak_tree_rss_bytes": 1694318592,
+    "log": "<FRESH_RUN>/logs/Tuza24.AlternatingForestLeaves.log",
+    "completed_utc": "2026-11-17T18:56:21.453134+00:00",
+    "object_sha256": "8ca37b6a5ee41ba316bb9263f843c828afe9c53b5d990f8434194b14d78b5f58"
+  },
+  {
+    "module": "Tuza24.ForestMatchingLeafRetention",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestMatchingLeafRetention.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestMatchingLeafRetention.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "59cbdcf99e2125640e4fd2ec0bcd2f5b083d192dea61126e69bde9223ea4decb",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.097787459002575,
+    "peak_tree_rss_bytes": 1720958976,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestMatchingLeafRetention.log",
+    "completed_utc": "2026-11-17T18:56:22.551685+00:00",
+    "object_sha256": "52ec64a5346d4d8fbdb09a6580e02248a8adec70c1e93407d7a795826d2e8590"
+  },
+  {
+    "module": "Tuza24.ForestMatchingLeafAvoidance",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestMatchingLeafAvoidance.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestMatchingLeafAvoidance.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "2a33ca9539820842fd85ed70ab76301cf82cd5180cacba88d0d668c5ee8c27fb",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.1029650420241524,
+    "peak_tree_rss_bytes": 1697005568,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestMatchingLeafAvoidance.log",
+    "completed_utc": "2026-11-17T18:56:23.655592+00:00",
+    "object_sha256": "300e7e47f0512258072d7e23bd07089b494f80404b69794c7f5c0fab2cf383ba"
+  },
+  {
+    "module": "Tuza24.ResidualMatching",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ResidualMatching.olean",
+      "<FRESH_RUN>/clean/Tuza24/ResidualMatching.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "5b43871729c49a5d0988c6ea99d1045182c779c9776be9a5c116561cc604561f",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0953307500167284,
+    "peak_tree_rss_bytes": 1702625280,
+    "log": "<FRESH_RUN>/logs/Tuza24.ResidualMatching.log",
+    "completed_utc": "2026-11-17T18:56:24.751963+00:00",
+    "object_sha256": "4889c14704d94a41324bad3c65f59243a89e637cb476406a93e3ab3e81366df4"
+  },
+  {
+    "module": "Tuza24.ForestMatchingDeficiency",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestMatchingDeficiency.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestMatchingDeficiency.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "dbe340343ec807d13d3a0cc52c1e686681986686b39b131d77f2973d466edfea",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.100043624988757,
+    "peak_tree_rss_bytes": 1708851200,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestMatchingDeficiency.log",
+    "completed_utc": "2026-11-17T18:56:25.852747+00:00",
+    "object_sha256": "eddb095fbbe4a71024ade050dbac6c3bbc676be8b64d6eaf2277d96a893a218d"
+  },
+  {
+    "module": "Tuza24.NonperfectLinkReduction",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/NonperfectLinkReduction.olean",
+      "<FRESH_RUN>/clean/Tuza24/NonperfectLinkReduction.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "51a0cdc9f93dd7ab052ddb86240523d8dd02072ddaa228d88271e93317c9c093",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0985367500106804,
+    "peak_tree_rss_bytes": 1707245568,
+    "log": "<FRESH_RUN>/logs/Tuza24.NonperfectLinkReduction.log",
+    "completed_utc": "2026-11-17T18:56:26.952086+00:00",
+    "object_sha256": "96db22f2257559d694034c2db0ca5d6536b2ce86fcd0ad33e2fc0536b69ea553"
+  },
+  {
+    "module": "Tuza24.ForestMatchingSafeEdge",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestMatchingSafeEdge.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestMatchingSafeEdge.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "40459a61937e85e40c3c8e34e669b73b8eb10a717e774582968d52db12b80848",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0971995829895604,
+    "peak_tree_rss_bytes": 1698922496,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestMatchingSafeEdge.log",
+    "completed_utc": "2026-11-17T18:56:28.050062+00:00",
+    "object_sha256": "f323640b25341c3332efd665554ac84c59da0e3559396141f4e61681fdc01800"
+  },
+  {
+    "module": "Tuza24.NonperfectForestExclusion",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/NonperfectForestExclusion.olean",
+      "<FRESH_RUN>/clean/Tuza24/NonperfectForestExclusion.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "6b72da71b419538cbda4c05448347d44516fda75318ec5d60c7bff37d13639e4",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.097380624996731,
+    "peak_tree_rss_bytes": 1697579008,
+    "log": "<FRESH_RUN>/logs/Tuza24.NonperfectForestExclusion.log",
+    "completed_utc": "2026-11-17T18:56:29.148371+00:00",
+    "object_sha256": "6be257560f45429e847d463be90c9f30471cdb416a94b92967e51a0a0e796c77"
+  },
+  {
+    "module": "Tuza24.ForestCS",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestCS.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestCS.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "a78ef7bf5d1274a29a5316a740c9713d9c8dfde2ea4a4e41087e178eda6546f3",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9918870409892406,
+    "peak_tree_rss_bytes": 1695481856,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestCS.log",
+    "completed_utc": "2026-11-17T18:56:30.141543+00:00",
+    "object_sha256": "1cfdb74734008b390b6d105eae1f91ab90d53fd773b6f1e3c8fe8a336b3c8948"
+  },
+  {
+    "module": "Tuza24.ForestK5Exclusion",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestK5Exclusion.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestK5Exclusion.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "7d3c75d37528617c3703fbb737a0f538f839a876fcf1ac2e2278638d9838f3b3",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0963731670053676,
+    "peak_tree_rss_bytes": 1690894336,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestK5Exclusion.log",
+    "completed_utc": "2026-11-17T18:56:31.238755+00:00",
+    "object_sha256": "e10d8a31bf5fc3689c428a6b3ba1bc101f793b9a94eb6e32e10d22dc783e38e7"
+  },
+  {
+    "module": "Tuza24.ForestK4Equality",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ForestK4Equality.olean",
+      "<FRESH_RUN>/clean/Tuza24/ForestK4Equality.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "f764e1af574e48f62f597d48c6751917c0b05f4ed4e2a6b345a05448abd80741",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0952808750153054,
+    "peak_tree_rss_bytes": 1687388160,
+    "log": "<FRESH_RUN>/logs/Tuza24.ForestK4Equality.log",
+    "completed_utc": "2026-11-17T18:56:32.335146+00:00",
+    "object_sha256": "567207a073069d7e1588f54431dea47d20aab0170da9ab2dd4bbd62ca57b09fc"
+  },
+  {
+    "module": "Research",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Research.olean",
+      "<FRESH_RUN>/clean/Research.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "5b96e69f370b7ee28b44fcda6c6e8c2710d4268b89e2880d5057643e977bd0c8",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9803081669961102,
+    "peak_tree_rss_bytes": 1645690880,
+    "log": "<FRESH_RUN>/logs/Research.log",
+    "completed_utc": "2026-11-17T18:56:33.316582+00:00",
+    "object_sha256": "5204f5516a95b1ae24b6014101dd2f3570381033b9914ef99b13e38deb44fa31"
+  },
+  {
+    "module": "Tuza23.ControlBasic",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza23/ControlBasic.olean",
+      "<FRESH_RUN>/clean/Tuza23/ControlBasic.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "dca5db007dce00223b6f0332d74ca845c7e49b4b003048ae5c2c72d0d5312f6a",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.4343949170142878,
+    "peak_tree_rss_bytes": 1658011648,
+    "log": "<FRESH_RUN>/logs/Tuza23.ControlBasic.log",
+    "completed_utc": "2026-11-17T18:56:34.751972+00:00",
+    "object_sha256": "a3543c2e1d15cb668ace34a9331b025b4fc548c9b581ce1fd45e7b1183548bf6"
+  },
+  {
+    "module": "Tuza24.ControlsForest",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ControlsForest.olean",
+      "<FRESH_RUN>/clean/Tuza24/ControlsForest.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "fe6b588c8ac83efa139fb9f6c2c900e4763ea41e33283ba01287a70edd7ae42a",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.308006875013234,
+    "peak_tree_rss_bytes": 1733328896,
+    "log": "<FRESH_RUN>/logs/Tuza24.ControlsForest.log",
+    "completed_utc": "2026-11-17T18:56:36.061016+00:00",
+    "object_sha256": "89813d8b78d09548a0f70f4243f2817a52221d06fdcb78c1cd6d17c206f625de"
+  },
+  {
+    "module": "Tuza24.ControlsMatching",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ControlsMatching.olean",
+      "<FRESH_RUN>/clean/Tuza24/ControlsMatching.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "2319be238e9adb2da305552bde2f607d18399bb50c4773da0cb03436488bf9ce",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.3175846250087488,
+    "peak_tree_rss_bytes": 1723957248,
+    "log": "<FRESH_RUN>/logs/Tuza24.ControlsMatching.log",
+    "completed_utc": "2026-11-17T18:56:37.379434+00:00",
+    "object_sha256": "df2802dec764f0f0e50693fe97fc8504cd13cf03cb6810a59acc9e6a19916eb0"
+  },
+  {
+    "module": "Tuza23.ControlSharedBlocks",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza23/ControlSharedBlocks.olean",
+      "<FRESH_RUN>/clean/Tuza23/ControlSharedBlocks.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "b842d3c129928dc074c80f648823f68988038bfb290adb40c7ef215d5a7910ef",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 4.569553874986013,
+    "peak_tree_rss_bytes": 2066104320,
+    "log": "<FRESH_RUN>/logs/Tuza23.ControlSharedBlocks.log",
+    "completed_utc": "2026-11-17T18:56:41.949950+00:00",
+    "object_sha256": "5cff8f9a72a30659f775ac5dbdf7025419bd4a4eb74fb5cbaed0af92469c44f5"
+  },
+  {
+    "module": "Tuza24.ControlsShared",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/ControlsShared.olean",
+      "<FRESH_RUN>/clean/Tuza24/ControlsShared.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "6726a12a3efcaa11e4eb70bbf986911b64b9dfe10bf2c8ab8168094a3b9b6732",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 4.465583207987947,
+    "peak_tree_rss_bytes": 2257764352,
+    "log": "<FRESH_RUN>/logs/Tuza24.ControlsShared.log",
+    "completed_utc": "2026-11-17T18:56:46.416568+00:00",
+    "object_sha256": "88559b857682e5a9bbe1efd8611121721349f582d674a22ff58c5274b953a5cb"
+  },
+  {
+    "module": "Tuza24.Controls",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "-o",
+      "<FRESH_RUN>/clean/.lake/build/lib/lean/Tuza24/Controls.olean",
+      "<FRESH_RUN>/clean/Tuza24/Controls.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "ab81afce9447b6e5439840f85f9903bb514f0124913e0b9e7c57b6f726f42a8d",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9964352499810047,
+    "peak_tree_rss_bytes": 1630109696,
+    "log": "<FRESH_RUN>/logs/Tuza24.Controls.log",
+    "completed_utc": "2026-11-17T18:56:47.414287+00:00",
+    "object_sha256": "62a87af47e5f08ba26618becf5384c8725e447087f7b78be52aa13d45e0914ce"
+  },
+  {
+    "module": "IndependentAudit",
+    "command": [
+      "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+      "-j1",
+      "-M2200",
+      "<FRESH_RUN>/clean/IndependentAudit.lean"
+    ],
+    "cwd": "<FRESH_RUN>/clean",
+    "source_sha256": "e59c3f61c5efa494c9e1b848e29f2bceac79d7a54565d71e6f517b4752329731",
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 6.75935949999257,
+    "peak_tree_rss_bytes": 1778925568,
+    "log": "<FRESH_RUN>/logs/IndependentAudit.log",
+    "completed_utc": "2026-11-17T18:56:54.174925+00:00"
+  }
+]

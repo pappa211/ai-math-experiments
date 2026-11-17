@@ -1,0 +1,72 @@
+{
+  "reviewed_utc": "2026-11-16T08:57:10.311991+00:00",
+  "scope": "read-only independent source inspection, no Lean build or axiom check at this stage",
+  "public_commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+  "spec_sha256": "88a0e779eaf8090f8bdb7b7152d8b4d3803db4b92f6fc6b1bf45cb6ce479da8b",
+  "sources": [
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza/Basic.lean",
+      "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza/Graph.lean",
+      "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Statement.lean",
+      "sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Transport.lean",
+      "sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/FiniteCliques.lean",
+      "sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Pages.lean",
+      "sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/BlockAggregation.lean",
+      "sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Components.lean",
+      "sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Critical.lean",
+      "sha256": "fdb687027dd5dd299d6985b23383e98407a00dd24a60d55643e66a3462e3b200"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/MinimalObstruction.lean",
+      "sha256": "79010d586ee8d35b187213109fe6aa0b7222bdae81e0f92543c0b6af37b8325e"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Footprints.lean",
+      "sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Additivity.lean",
+      "sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Reduction.lean",
+      "sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/UniqueEdge.lean",
+      "sha256": "fc9c77bc94e2af03aaadc2f83128232a7fe161cea7f28ff24d5f20465c11cb88"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/MatchingReduction.lean",
+      "sha256": "03c4ee92e4f635badaf10a998a5f51651de8d375ed01afb5f23d614b56eb88e0"
+    },
+    {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksBase.lean",
+      "sha256": "3d52a43fa7fd91342506949ada70e31820b5e460a4c5050a2d7d0833e95337cb"
+    }
+  ]
+}

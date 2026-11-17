@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/challenger_tight_mixed_cover_q2_k5_v1.md

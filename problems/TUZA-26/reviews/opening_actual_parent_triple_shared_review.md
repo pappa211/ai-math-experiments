@@ -1,0 +1,17 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent third-triangle failure and shared-vertex review
+
+Status: ACCEPTED ORDINARY at the stated actual-parent interface. The vertex-disjoint case remains open in this source. Neither the newly proved resilience of R nor any minimum-Q property is needed. No numerical or Lean verification is claimed.
+
+The failure arrow was independently reconstructed before reading the source. If V does not extend in a defect-one R with parameters (n,2n-1), then cover extension and proper CS force R-E(V) to be tight B with parameters (n-2,2n-4). Exact one-triangle additivity gives new-family packing number two. A two-edge new-family cover would save one, so the ordinary incidence classification forces the seven-triangle K5-e. Every old spoke lies in a minimum three-edge cover of that family; overlap with an old minimum cover proves every spoke is background. The missing apex edge would create an old triangle through such a spoke, so it is absent. Hence the exact triangle-support decomposition is K5-e plus unchanged B components, with vertex sharing and background retained. K5-e itself is the sharp nonextension control.
+
+For V=abc and U=ade, d,e are outside the five-vertex C: ax,ay already exist in B, whereas ad,ae are missing restored edges. Actual simultaneous two-triangle extension in G gives nu(B+U)=m+2, hence q_U=2. Any U two-packing consists of ordinary pages. Its old-clique footprints are adjacent stars of at most two edges and can be avoided simultaneously by a full old packing. If its C footprint has size at most one, literal C resilience supplies a disjoint two-packing, yielding m+4 in H against its required m+3. No old-C conflict is hidden, since all old C spokes are background in B.
+
+The only possible C footprints of ordinary U-pages are ax and ay. Thus any U two-packing has adjacent-base pages adx,aey, up to exchanging the apices. A de-page with apex z!=x pairs with adx; when z=x it pairs with aey. Both alternatives would have at most one C edge, so every de-page is forbidden. An ad/ae page with another apex similarly pairs with the fixed opposite-base page. An additional ady or aex would create an actual forbidden de-page from the old spokes. The complete U-family is therefore precisely ade,adx,aey.
+
+The four possible mixed triangles are also excluded literally: old bd or cd creates bdx or cdx through a bare C spoke; old be or ce creates bey or cey. This accounts for every actual H triangle, including possible old crossing triangles. The displayed cover {ax,ay,bc,ad} hits all seven C triangles and all three U triangles. Together with an old minimum B cover it has size at most 2m+4, contradicting tau(H)=2m+5. Interchanging the two originally deleted triangles proves that a failing V must be vertex-disjoint from both.
+
+The exact remaining obligation is the actual vertex-disjoint restoration over the supplied bare K5-e-plus-B residual. The named support of a double residual cannot itself invoke strict single-triangle restoration. No general triple-extension theorem is accepted by this receipt.
+
+Bound source: notes/matching26_actual_parent_triple_extension_v1.md, SHA-256 08e03e657c952ba341d7cca249ceda59a7e818f0002dff8ec76d04ded1419041.

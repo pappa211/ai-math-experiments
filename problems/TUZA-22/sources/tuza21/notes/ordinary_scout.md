@@ -1,0 +1,1 @@
+../../../../TUZA-21/notes/ordinary_scout.md

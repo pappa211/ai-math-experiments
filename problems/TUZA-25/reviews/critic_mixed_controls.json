@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "scope": "All three-state edge colorings on a fixed four-vertex universe; tiny semantic controls only, not the reported census or a universal proof.",
+  "counts": {
+    "edge_colorings_examined": 729,
+    "admissible_instances": 636,
+    "inadmissible_instances": 93,
+    "allowed_edge_branches": 1356,
+    "inadmissible_forbid_branches": 252,
+    "fan_checks": 1104,
+    "inclusion_maximal_active_packings_checked": 738,
+    "equality_classifications_checked": 636,
+    "weighted_cover_checks": 636
+  },
+  "lemma4_examples": [
+    {
+      "name": "one_page_with_extra_forbidden_background",
+      "H_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "N": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "restored_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "H_nu": 1,
+      "H_tau": 2,
+      "G_nu": 2,
+      "G_tau": 3,
+      "H_triangles": 4,
+      "G_triangles": 6
+    },
+    {
+      "name": "two_pages_with_two_extra_forbidden_background_edges",
+      "H_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "N": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "restored_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "H_nu": 2,
+      "H_tau": 4,
+      "G_nu": 4,
+      "G_tau": 5,
+      "H_triangles": 10,
+      "G_triangles": 13
+    },
+    {
+      "name": "two_pages_across_vertex_sharing_old_cliques",
+      "H_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "N": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "restored_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "H_nu": 2,
+      "H_tau": 4,
+      "G_nu": 4,
+      "G_tau": 5,
+      "H_triangles": 8,
+      "G_triangles": 11
+    }
+  ],
+  "negative_control": "Same-apex new pages have an old triangle meeting forbidden uv; inactivity is correctly rejected.",
+  "method": "Independent standard-library exact enumeration; no discovery imports, optimization packages, remote execution, or timeout.",
+  "proof_sha256": "4c2729968b8fc237fe94d23dd407046a64bb5d244df176cb3b77cce12b96bdf4",
+  "checker_sha256": "42c9306f02b7b4e5b01058a34ce27b05ddbe4656d4c2bd67b5bdae95f9acee9d",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "python_executable": "PRIVATE_PATH_REMOVED",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "elapsed_seconds": 0.03805974998977035
+}

@@ -1,0 +1,17 @@
+{
+  "independent_run": "review/verification/independent-20261116T104235233151Z",
+  "summary": "review/verification/independent-20261116T104235233151Z/summary.json",
+  "declarations": "review/verification/independent-20261116T104235233151Z/declarations.json",
+  "target_closures": "review/verification/independent-20261116T104235233151Z/target_local_dependency_closures.json",
+  "source_scan": "review/verification/independent-20261116T104235233151Z/source_scan.json",
+  "source_freeze": "operations/accepted_source_freeze.json",
+  "accepted_build_order": "operations/accepted_build_order.json",
+  "dependency_pins": "operations/dependency_pins.json",
+  "semantic_reviews": [
+    "review/initial_semantic_reconstruction.md",
+    "review/interim_anchor_semantic_review.md",
+    "review/interim_augmentation_semantic_review.md",
+    "review/full_route_semantic_review.md",
+    "INDEPENDENT_REVIEW.md"
+  ]
+}

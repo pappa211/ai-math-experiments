@@ -1,0 +1,19 @@
+{
+  "module": "Tuza23.Controls",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-23/.lake/build/lib/lean/Tuza23/Controls.olean",
+    "problems/TUZA-23/Tuza23/Controls.lean"
+  ],
+  "cwd": "problems/TUZA-23",
+  "lean_path": "problems/TUZA-23/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "60a15b8c3d40363930017b1a795589b30856ed2a39ba07a665a0dd8f88520474",
+  "elapsed_seconds": 0.8665166249847971,
+  "peak_process_tree_rss_bytes": 1562558464,
+  "exit_code": 0,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T09:20:30.863318+00:00"
+}

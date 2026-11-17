@@ -1,0 +1,168 @@
+problems/TUZA-23/Tuza23/DisjointRestoration.lean:35:26: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+hB : B H
+a b c d : V
+hab : a ≠ b
+hcd : c ≠ d
+hbase : Disjoint {a, b} {c, d}
+hnab : ¬H.Adj a b
+hncd : ¬H.Adj c d
+hnu : nu (triangles (addEdges H {{a, b}, {c, d}})) = nu (triangles H) + 1
+htau : tau (triangles (addEdges H {{a, b}, {c, d}})) = 2 * nu (triangles H) + 2
+G : SimpleGraph V := addEdges H {{a, b}, {c, d}}
+S : Finset V := {a, b} ∪ {c, d}
+⊢ #{c, a, b, d} = 4
+problems/TUZA-23/Tuza23/DisjointRestoration.lean:64:4: error: unsolved goals
+case inl.inl
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+hB : B H
+a b d : V
+hab : a ≠ b
+hnab : ¬H.Adj a b
+heAB : ¬H.IsNClique 2 {a, b}
+x : V
+hax : H.Adj a x
+hbx : H.Adj b x
+hbareX : Disjoint (edges {a, b, x}) (support (triangles H))
+y : V
+hdy : H.Adj d y
+z : V
+haz : H.Adj a z
+hbz : H.Adj b z
+hold : {a, b, z} ∉ triangles H
+hone : {a, b, z} ∈ triangles (addEdges H {{a, b}})
+hcd : z ≠ d
+hbase : Disjoint {a, b} {z, d}
+hncd : ¬H.Adj z d
+hnu : nu (triangles (addEdges H {{a, b}, {z, d}})) = nu (triangles H) + 1
+htau : tau (triangles (addEdges H {{a, b}, {z, d}})) = 2 * nu (triangles H) + 2
+G : SimpleGraph V := addEdges H {{a, b}, {z, d}}
+S : Finset V := {a, b} ∪ {z, d}
+hS : #S = 4
+hHG : H ≤ G
+hgAB : G.Adj a b
+hgCD : G.Adj z d
+heCD : ¬H.IsNClique 2 {z, d}
+htau' : tau (triangles (addEdges H {{z, d}, {a, b}})) = 2 * nu (triangles H) + 2
+hcy : H.Adj z y
+hbareY : Disjoint (edges {z, d, y}) (support (triangles H))
+htx : {a, b, x} ∈ triangles G
+hty : {z, d, y} ∈ triangles G
+hE : ∀ (z_1 : V), H.Adj a z_1 → H.Adj b z_1 → z_1 = z ∨ z_1 = d
+hF : ∀ (z_1 : V), H.Adj z z_1 → H.Adj d z_1 → z_1 = a ∨ z_1 = b
+ht : {a, b, z} ∈ triangles G
+⊢ {a, b, z} ⊆ {z, a, b, d}
+problems/TUZA-23/Tuza23/DisjointRestoration.lean:66:4: error: unsolved goals
+case inr.inl.inl
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+hB : B H
+b c d : V
+hcd : c ≠ d
+hncd : ¬H.Adj c d
+heCD : ¬H.IsNClique 2 {c, d}
+x : V
+hbx : H.Adj b x
+y : V
+hcy : H.Adj c y
+hdy : H.Adj d y
+hbareY : Disjoint (edges {c, d, y}) (support (triangles H))
+z : V
+hcz : H.Adj c z
+hdz : H.Adj d z
+hold : {c, d, z} ∉ triangles H
+hone : {c, d, z} ∈ triangles (addEdges H {{c, d}})
+hab : z ≠ b
+hbase : Disjoint {z, b} {c, d}
+hnab : ¬H.Adj z b
+hnu : nu (triangles (addEdges H {{z, b}, {c, d}})) = nu (triangles H) + 1
+htau : tau (triangles (addEdges H {{z, b}, {c, d}})) = 2 * nu (triangles H) + 2
+G : SimpleGraph V := addEdges H {{z, b}, {c, d}}
+S : Finset V := {z, b} ∪ {c, d}
+hS : #S = 4
+hHG : H ≤ G
+hgAB : G.Adj z b
+hgCD : G.Adj c d
+heAB : ¬H.IsNClique 2 {z, b}
+hax : H.Adj z x
+hbareX : Disjoint (edges {z, b, x}) (support (triangles H))
+htau' : tau (triangles (addEdges H {{c, d}, {z, b}})) = 2 * nu (triangles H) + 2
+htx : {z, b, x} ∈ triangles G
+hty : {c, d, y} ∈ triangles G
+hE : ∀ (z_1 : V), H.Adj z z_1 → H.Adj b z_1 → z_1 = c ∨ z_1 = d
+hF : ∀ (z_1 : V), H.Adj c z_1 → H.Adj d z_1 → z_1 = z ∨ z_1 = b
+ht : {c, d, z} ∈ triangles G
+⊢ {c, d, z} ⊆ {c, z, b, d}
+
+case inr.inl.inr
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+hB : B H
+a c d : V
+hcd : c ≠ d
+hncd : ¬H.Adj c d
+heCD : ¬H.IsNClique 2 {c, d}
+x : V
+hax : H.Adj a x
+y : V
+hcy : H.Adj c y
+hdy : H.Adj d y
+hbareY : Disjoint (edges {c, d, y}) (support (triangles H))
+z : V
+hcz : H.Adj c z
+hdz : H.Adj d z
+hold : {c, d, z} ∉ triangles H
+hone : {c, d, z} ∈ triangles (addEdges H {{c, d}})
+hab : a ≠ z
+hbase : Disjoint {a, z} {c, d}
+hnab : ¬H.Adj a z
+hnu : nu (triangles (addEdges H {{a, z}, {c, d}})) = nu (triangles H) + 1
+htau : tau (triangles (addEdges H {{a, z}, {c, d}})) = 2 * nu (triangles H) + 2
+G : SimpleGraph V := addEdges H {{a, z}, {c, d}}
+S : Finset V := {a, z} ∪ {c, d}
+hS : #S = 4
+hHG : H ≤ G
+hgAB : G.Adj a z
+hgCD : G.Adj c d
+heAB : ¬H.IsNClique 2 {a, z}
+hbx : H.Adj z x
+hbareX : Disjoint (edges {a, z, x}) (support (triangles H))
+htau' : tau (triangles (addEdges H {{c, d}, {a, z}})) = 2 * nu (triangles H) + 2
+htx : {a, z, x} ∈ triangles G
+hty : {c, d, y} ∈ triangles G
+hE : ∀ (z_1 : V), H.Adj a z_1 → H.Adj z z_1 → z_1 = c ∨ z_1 = d
+hF : ∀ (z_1 : V), H.Adj c z_1 → H.Adj d z_1 → z_1 = a ∨ z_1 = z
+ht : {c, d, z} ∈ triangles G
+⊢ {c, d, z} ⊆ {c, a, z, d}
+problems/TUZA-23/Tuza23/DisjointRestoration.lean:102:17: error(lean.unknownIdentifier): Unknown identifier `s`
+problems/TUZA-23/Tuza23/DisjointRestoration.lean:35:38: warning: This simp argument is unused:
+  card_union_of_disjoint hbase
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [S, hab, hcd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-23/Tuza23/DisjointRestoration.lean:35:68: warning: This simp argument is unused:
+  hab
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [S, card_union_of_disjoint hbase, hcd]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-23/Tuza23/DisjointRestoration.lean:35:73: warning: This simp argument is unused:
+  hcd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [S, card_union_of_disjoint hbase, hab]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

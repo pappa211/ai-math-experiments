@@ -1,0 +1,8 @@
+<FRESH_RUN>/clean/MissingBGuard.lean:10:24: error: Application type mismatch: The argument
+  htight
+has type
+  tau (triangles (addEdges H F)) = 2 * nu (triangles (addEdges H F))
+but is expected to have type
+  B H
+in the application
+  r2 H F hF hcard htight

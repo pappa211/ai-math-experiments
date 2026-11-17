@@ -1,0 +1,26 @@
+{
+  "reviewed_utc": "2026-11-16T09:18:33.373900+00:00",
+  "kind": "independent AI source/statement review before clean build",
+  "files": [
+    {
+      "path": "Tuza23/PageGeometry.lean",
+      "sha256": "d33aa91055e8a171d89e6121da06022f68815d4e7d842f66cd99976d488a4560"
+    },
+    {
+      "path": "Tuza23/AdjacentRestoration.lean",
+      "sha256": "4614e2ef592fc2023a3596ccde86135f413fd77b3f8b9c6f69e94585599754bd"
+    },
+    {
+      "path": "Tuza23/FourSet.lean",
+      "sha256": "51a55aa25bf72583539b34720f6189e598dcf4ad9c62368d0156af53a256d3c4"
+    },
+    {
+      "path": "Tuza23/DisjointRestoration.lean",
+      "sha256": "a339b13fed0cf91ce726533cadc67687193a8f37137f8d4aea4c413ec85c21b8"
+    },
+    {
+      "path": "Tuza23/R2.lean",
+      "sha256": "79766812d134e499174e4d1fe0cb6051780707a923b9c1df09ec62f1941f1c70"
+    }
+  ]
+}

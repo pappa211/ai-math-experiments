@@ -1,0 +1,22 @@
+{
+  "reviewed_utc": "2026-11-16T09:04:42.625066+00:00",
+  "kind": "independent AI source and statement audit; no reviewer compiler invocation",
+  "files": [
+    {
+      "path": "Tuza23/GraphAPI.lean",
+      "sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e"
+    },
+    {
+      "path": "Tuza23/WholeFootprint.lean",
+      "sha256": "bd843ef4a16d101c2731b6247e5eaae7cb03172537461bdfe5aed0bfb589b535"
+    },
+    {
+      "path": "Tuza23/CliqueChoice.lean",
+      "sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91"
+    },
+    {
+      "path": "Tuza23/BlockChoice.lean",
+      "sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389"
+    }
+  ]
+}

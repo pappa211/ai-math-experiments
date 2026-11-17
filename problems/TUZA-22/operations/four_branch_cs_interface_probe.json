@@ -1,0 +1,17 @@
+{
+  "start_utc": "2026-11-16T01:36:07.896712+00:00",
+  "end_utc": "2026-11-16T01:36:10.892966+00:00",
+  "seconds": 2.99625825881958,
+  "command": [
+    "python",
+    "-B",
+    "scripts/four_branch_cs_interface_probe.py"
+  ],
+  "pid": 90692,
+  "peak_sampled_tree_rss_mib": 26.921875,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 60.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

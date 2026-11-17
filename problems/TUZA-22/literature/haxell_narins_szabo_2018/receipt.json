@@ -1,0 +1,18 @@
+{
+  "url": "https://page.mi.fu-berlin.de/szabo/PDF/ryser.pdf",
+  "final_url": "https://page.mi.fu-berlin.de/szabo/PDF/ryser.pdf",
+  "retrieved_utc": "2026-11-16T00:22:56.714315+00:00",
+  "bytes": 590464,
+  "sha256": "27938a622b0c28d867c2c61500da606ee319a069f39967e5076afcd35ea060f5",
+  "headers": {
+    "Date": "Mon, 16 Nov 2026 00:22:56 GMT",
+    "Server": "Apache/2.4.71 (Debian)",
+    "Last-Modified": "Sun, 18 Mar 2018 14:02:22 GMT",
+    "ETag": "\"90280-567b04a4cb780\"",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "590464",
+    "Content-Type": "application/pdf",
+    "Connection": "close"
+  },
+  "scope": "Author-hosted combined 56-page version dated March 18 2018; theorem 1.1, definitions 7.1-7.4, source restatement/reproof of Aharoni inspected; full topology not independently revalidated."
+}

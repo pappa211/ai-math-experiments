@@ -1,0 +1,11 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Optional census discovery, bounded and not promoted
+
+Narrow lookup found r0.c and r2.c in the supplied local `Claude outputs` directory, together with ALT_RESULTS.txt, PK_RESULTS.txt and claude_census_package.zip. Originals were read only. The ZIP listing contains gen.py, eq.c, pk.c, d_check.py, README.md, rotation_invariance.py, typeB.py and PK_RESULTS.txt; it does not contain a complete resilience generator stream/log or r0/r2 full-run outputs. ALT_RESULTS.txt gives the claimed command `geng -c -d2 n` and reported cloud-workspace totals, explicitly requiring local reproduction. The exact generator build/version and full output are not authenticated by those summary files.
+
+The r0/r2 source headers misleadingly describe PK maximum-packing tests, while their actual main routines filter triangle-supported/shared-edge-connected graphs and compute resilience, tau and cut bounds. No source edit was made. This mission has not compiled or rerun these campaigns. Ten-vertex totals, nine-model count and all related full-census claims remain REPORTED_UNVERIFIED. A census beginning at order five still omits K4 at order four. The frozen C12 was copied from TUZA25, not reconstructed from these counts.
+
+No eleven-vertex benchmark or full enumeration has been launched. Current exact computations discharge specific finite interfaces after all-size confinement proofs or test an explicit challenger. A new general census would not discharge the remaining reconstruction/availability obligation, so it has no current priority. A future decision to launch an eleven-vertex run would require the requested measured generation/filter/tail benchmark and 90-minute aggregate cap; neither condition is being represented as met here.
+
+Lookup completed using only the supplied attachment directory and the named Claude outputs directory, far below the ten-minute optional-material limit. No remote computation, upload or historical rerun occurred.

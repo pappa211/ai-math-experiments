@@ -1,0 +1,44 @@
+[
+  {
+    "file": "summary.json",
+    "original_sha256": "6df92541f4191b6c970491475e785e4f38c2574245c5d5773b8fc66fb5ed85b0",
+    "public_sha256": "6df92541f4191b6c970491475e785e4f38c2574245c5d5773b8fc66fb5ed85b0",
+    "transformation": "Private execution paths replaced with symbolic locations; repeated build receipt omitted from declaration rows (retained once in commands.json). All literal types, references, axioms, source hashes and outcomes retained."
+  },
+  {
+    "file": "intake.json",
+    "original_sha256": "8359df472ef46a7a51f9c3c07c67b44e021ebc3a2a47280c5dfea41f765c109a",
+    "public_sha256": "f501c9c0da766431d48224d4c3cafa3964101e2987652ed9808d76560879a6c2",
+    "transformation": "Private execution paths replaced with symbolic locations; repeated build receipt omitted from declaration rows (retained once in commands.json). All literal types, references, axioms, source hashes and outcomes retained."
+  },
+  {
+    "file": "commands.json",
+    "original_sha256": "a7ea01c6b17ff59b710675e8e3414bd32a77145f6d48747ade684dee6e0560e1",
+    "public_sha256": "1c752dfd736ecc921d743a5cf244f8ec34757aa651c5a24f98083b9a4454ad4d",
+    "transformation": "Private execution paths replaced with symbolic locations; repeated build receipt omitted from declaration rows (retained once in commands.json). All literal types, references, axioms, source hashes and outcomes retained."
+  },
+  {
+    "file": "source_scan.json",
+    "original_sha256": "da61bbab2f0be9ee6468554fc1d91c3a1492df05e04765b9ce3bdb948b85f7f3",
+    "public_sha256": "da61bbab2f0be9ee6468554fc1d91c3a1492df05e04765b9ce3bdb948b85f7f3",
+    "transformation": "Private execution paths replaced with symbolic locations; repeated build receipt omitted from declaration rows (retained once in commands.json). All literal types, references, axioms, source hashes and outcomes retained."
+  },
+  {
+    "file": "target_local_dependency_closures.json",
+    "original_sha256": "e4da32361f2f8bafcfe0a8925a1c7c63db68a6238682a0783e8836cd6783f43d",
+    "public_sha256": "e4da32361f2f8bafcfe0a8925a1c7c63db68a6238682a0783e8836cd6783f43d",
+    "transformation": "Private execution paths replaced with symbolic locations; repeated build receipt omitted from declaration rows (retained once in commands.json). All literal types, references, axioms, source hashes and outcomes retained."
+  },
+  {
+    "file": "declarations.json",
+    "original_sha256": "8c191894b25e775271e5a5f7de9b23d427307dff3e5da0fef8ef223352b584b9",
+    "public_sha256": "dfee44a9c0ba90c08835e2b75a1cc4fb1a11173598c222dc759293d5c007b269",
+    "transformation": "Private execution paths replaced with symbolic locations; repeated build receipt omitted from declaration rows (retained once in commands.json). All literal types, references, axioms, source hashes and outcomes retained."
+  },
+  {
+    "file": "negative_guard.json",
+    "original_sha256": "bb6186b637a43dc13e1e2af7369394568cf339245549e3a5f2ee71d7df118aa9",
+    "public_sha256": "61eacf5babafe1f829c9c7bc5de244d03c3366a4d3737d22ef3c273f3868f8e4",
+    "transformation": "Private execution paths replaced with symbolic locations; repeated build receipt omitted from declaration rows (retained once in commands.json). All literal types, references, axioms, source hashes and outcomes retained."
+  }
+]

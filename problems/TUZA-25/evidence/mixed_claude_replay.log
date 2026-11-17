@@ -1,0 +1,35 @@
+['clang', '-O2', '-Wall', '-Wextra', '-o', 'problems/TUZA-25/operations/mixed_bins/mt', 'PRIVATE_PATH_REMOVED outputs/mt.c'] COMPLETED 0.2731640338897705 
+['problems/TUZA-25/operations/mixed_bins/mt', '0'] COMPLETED 0.6151449680328369 graphs_with_triangles=4 (G,N)_pairs=518 tight=4 FAIL=0
+
+['clang', '-O2', '-Wall', '-Wextra', '-o', 'problems/TUZA-25/operations/mixed_bins/r0', 'PRIVATE_PATH_REMOVED outputs/r0.c'] COMPLETED 0.09865784645080566 PRIVATE_PATH_REMOVED outputs/r0.c:35:9: warning: variable 'bit' set but not used [-Wunused-but-set-variable]
+    int bit=0; const char *p=s+1; int cur=0, k=6;
+        ^
+1 warning generated.
+
+['problems/TUZA-25/operations/mixed_bins/r0', '0'] COMPLETED 0.16503596305847168 graphs=12 triangle-connected-all-edges-in-triangles=11 R1=11 R2=0
+
+['problems/TUZA-25/operations/mixed_bins/r0', '1'] COMPLETED 0.01182699203491211 graphs=12 triangle-connected-all-edges-in-triangles=11 R1=7 R2=0
+
+['clang', '-O2', '-Wall', '-Wextra', '-o', 'problems/TUZA-25/operations/mixed_bins/r2', 'PRIVATE_PATH_REMOVED outputs/r2.c'] COMPLETED 0.07778191566467285 PRIVATE_PATH_REMOVED outputs/r2.c:35:9: warning: variable 'bit' set but not used [-Wunused-but-set-variable]
+    int bit=0; const char *p=s+1; int cur=0, k=6;
+        ^
+1 warning generated.
+
+['problems/TUZA-25/operations/mixed_bins/r2', '2'] COMPLETED 0.1789250373840332 graphs=12 triangle-connected-all-edges-in-triangles=11 R1=7 R2=2
+
+['clang', '-O2', '-Wall', '-Wextra', '-o', 'problems/TUZA-25/operations/mixed_bins/eq', 'PRIVATE_PATH_REMOVED outputs/eq.c'] COMPLETED 0.07836484909057617 PRIVATE_PATH_REMOVED outputs/eq.c:35:9: warning: variable 'bit' set but not used [-Wunused-but-set-variable]
+    int bit=0; const char *p=s+1; int cur=0, k=6;
+        ^
+PRIVATE_PATH_REMOVED outputs/eq.c:153:14: warning: unused parameter 'argc' [-Wunused-parameter]
+int main(int argc, char **argv){
+             ^
+PRIVATE_PATH_REMOVED outputs/eq.c:153:27: warning: unused parameter 'argv' [-Wunused-parameter]
+int main(int argc, char **argv){
+                          ^
+PRIVATE_PATH_REMOVED outputs/eq.c:123:13: warning: function 'enum_rec' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+static void enum_rec(u128 used, u128 undecided, int cur){
+            ^
+4 warnings generated.
+
+['problems/TUZA-25/operations/mixed_bins/eq'] COMPLETED 0.16025495529174805 graphs=12 tight=3 tight_nonblock=0 slack_exactly_one=5
+

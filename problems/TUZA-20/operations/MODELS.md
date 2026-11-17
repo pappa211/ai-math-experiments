@@ -1,0 +1,3 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+Requested: focused coordinator, mathematical collaborator, independent verifier/critic; no particular model selected by owner. System identifies coordinator as Codex based on GPT-6. Serving weights/version/effort are not independently exposed; no attestation claimed. Subagents inherit configuration. All execution is local Darwin via shell tools; no remote mathematical execution.

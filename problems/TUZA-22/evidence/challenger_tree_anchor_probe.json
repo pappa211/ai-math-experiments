@@ -1,0 +1,87 @@
+{
+  "target": "For every internal graph H covered by spanning tree C, some triangle packing I has internal cover D containing C\u2229E(I), |D|\u22642|I|",
+  "tested_tree_covered_graphs": 1761,
+  "domains": [
+    {
+      "tree": "path6",
+      "chord_masks_completed": 1024,
+      "complete": true
+    },
+    {
+      "tree": "double_star6",
+      "chord_masks_completed": 1024,
+      "complete": true
+    },
+    {
+      "tree": "fork_long_arm6",
+      "chord_masks_completed": 1024,
+      "complete": true
+    }
+  ],
+  "controls": [
+    {
+      "name": "K4 path3",
+      "result": {
+        "solutions": [
+          {
+            "packing": [
+              [
+                0,
+                1,
+                3
+              ]
+            ],
+            "forced_C_edges": [
+              [
+                0,
+                1
+              ]
+            ],
+            "cover": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "packing_size": 1
+          },
+          {
+            "packing": [
+              [
+                0,
+                2,
+                3
+              ]
+            ],
+            "forced_C_edges": [
+              [
+                2,
+                3
+              ]
+            ],
+            "cover": [
+              [
+                0,
+                1
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            "packing_size": 1
+          }
+        ],
+        "tested_packings": 4
+      }
+    }
+  ],
+  "failure": null,
+  "unknown": [],
+  "elapsed_seconds": 0.04114000000117812,
+  "utc": "2026-11-16T01:07:50.225076+00:00"
+}

@@ -1,0 +1,967 @@
+{
+  "updated_utc": "2026-11-17T04:07:44.559379+00:00",
+  "mission_status": "RESEARCH_CONCLUSIONS_FROZEN_FOR_PRIVATE_CLOSEOUT",
+  "decision": "INCONCLUSIVE",
+  "unknown_core_defect_one_instances_reached": 0,
+  "claims": [
+    {
+      "id": "global_tuza_cs_R",
+      "status": "OPEN",
+      "hypotheses": "All finite simple graphs",
+      "result": "No universal solution/counterexample; R is a stronger sufficient route.",
+      "evidence": [
+        "PROOF_CHAIN.md"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "OPEN_OR_DIAGNOSTIC; consult cited evidence"
+    },
+    {
+      "id": "opening_dependencies",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact TUZA25 critical-edge/matching/leaf/marked-boundary scopes",
+      "result": "Opening ordinary reconstruction passes; availability is not supplied.",
+      "evidence": [
+        "reviews/opening_dependency_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "C12_210_replay",
+      "status": "VERIFIED_FINITE",
+      "hypotheses": "12 frozen supports; all210 labelled nonedge insertions",
+      "result": "Independent exact replay and all-model structural/resilience checks pass.",
+      "evidence": [
+        "evidence/opening_checks.json"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "minimum_Q_saturation",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Explicit minimum unknown Q inside fixed minimum-CS G; archived classification/restoration at scope",
+      "result": "Every edge eligible; blocker pairs jointly in minimum covers and leave defect1.",
+      "evidence": [
+        "notes/eligibility_saturation_v1.md",
+        "reviews/opening_saturation_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "triangle_fragile_shape",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "B(L), missingtriangle S, gainnu2 and gaintau3, one triangle component",
+      "result": "Support exactly K5-e; excludes this fragile triple in Q.",
+      "evidence": [
+        "notes/blocker_triangle_shape_v2.md",
+        "reviews/opening_triangle_shape_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "star_fragile_shape",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "B(L), missing3star S, gainnu2 and gaintau3, one triangle component",
+      "result": "Support exactly W5; excludes this fragile triple in Q.",
+      "evidence": [
+        "notes/apex_three_star_defect_one_v2.md",
+        "reviews/opening_three_star_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "P4_fragile_shape",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "B(L), missingP4 S, gainnu2",
+      "result": "Cover gain at most2; excludes fragile P4 profile. Does not prohibit gain3.",
+      "evidence": [
+        "notes/apex_three_path_defect_gap_v1.md",
+        "reviews/opening_three_path_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "remaining_fragile_shapes",
+      "status": "PROVED_ORDINARY + VERIFIED_FINITE",
+      "hypotheses": "Conditional minimum Q with accepted three-vertex connectivity; three-edge matching or P3 plus a disjoint edge; exact B-restoration profile and complete actual boundary at each cited scope.",
+      "result": "Matching and P3-plus-edge complete all five shapes; every blocker residual in minimum Q is resilient.",
+      "evidence": [
+        "notes/matching26_three_connected_exclusion_v1.md",
+        "notes/matching26_disconnected_path_classification_v1.md",
+        "reviews/opening_matching_shape_review.md",
+        "reviews/opening_p3_shape_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "no_blocker_triangle_profile",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Two-edge-resilient Q; proper-CS only for cover corollary",
+      "result": "No B triangle residual; defect1/2 dichotomy and every-triangle extension. Does not establish useful residual availability.",
+      "evidence": [
+        "notes/no_blocker_triangle_residual_v1.md",
+        "reviews/opening_no_blocker_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "apex_rigidity",
+      "status": "OPEN",
+      "hypotheses": "Connected single-edge-resilient defect-one supports",
+      "result": "Mandatory cone control verified; targeted search no defect1 states, so INCONCLUSIVE.",
+      "evidence": [
+        "evidence/apex_source_paths.json"
+      ],
+      "novelty_limits": "No historical-originality claim; ordinary and finite scopes distinguished.",
+      "review_status": "OPEN_OR_DIAGNOSTIC; consult cited evidence"
+    },
+    {
+      "id": "minimum_degree_four",
+      "status": "PROVED_ORDINARY + VERIFIED_FINITE",
+      "hypotheses": "Explicit minimum Q; archived three-connectivity; complete three-edge profile",
+      "result": "Every degree-three wedge or simplicial vertex excluded without predecessor K4 completion.",
+      "evidence": [
+        "notes/apex_wedge_reduction_v1.md",
+        "notes/apex_simplicial_reduction_v1.md",
+        "reviews/opening_wedge_review.md",
+        "reviews/opening_simplicial_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim. Ordinary, complete finite interfaces and global availability remain distinct.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "tight_piece_removal",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Minimum Q; complete actual boundary; min degree4",
+      "result": "All tight pieces removed from blocker residuals via <=2 boundary and genuine triangle-leaf reductions.",
+      "evidence": [
+        "notes/two_edge_tight_boundary_v2.md",
+        "notes/matching26_opposite_boundary_closure_v1.md",
+        "notes/adjacent_blocker_tight_pieces_v1.md",
+        "notes/apex_k5_triangle_leaf_v2.md",
+        "reviews/opening_k5_leaf_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim. Ordinary, complete finite interfaces and global availability remain distinct.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "disjoint_reconstruction",
+      "status": "PROVED_ORDINARY + VERIFIED_FINITE",
+      "hypotheses": "Minimum degree4; named sole active support; disjoint eligible blocker",
+      "result": "Every disjoint restored-pair interface excluded, including arbitrary retained background.",
+      "evidence": [
+        "notes/matching26_disjoint_blocker_reconstruction_v1.md",
+        "reviews/apex_disjoint_reconstruction_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim. Ordinary, complete finite interfaces and global availability remain distinct.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "adjacent_reconstruction",
+      "status": "PROVED_ORDINARY + VERIFIED_FINITE",
+      "hypotheses": "Minimum degree4; named sole active support; adjacent eligible blocker",
+      "result": "All-size domain reduction and complete independent certificate replay pass; final composition is noncircular.",
+      "evidence": [
+        "notes/apex_adjacent_interface_domain_v1.md",
+        "notes/apex_adjacent_interface_result_v1.md",
+        "reviews/matching26_adjacent_interface_review.md",
+        "reviews/opening_composition_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim. Ordinary, complete finite interfaces and global availability remain distinct.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "triangle_critical_B_residual",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Conditional minimum Q, using two-edge resilience and the paid complete-boundary exclusions",
+      "result": "Minimum-Q triangle-plus-critical-edge B profile excluded by paid boundary and leaf reductions. Broad unqualified assertion refuted by named double-K5.",
+      "evidence": [
+        "notes/apex_triangle_edge_B_exclusion_v1.md",
+        "reviews/opening_triangle_edge_B_review.md"
+      ],
+      "novelty_limits": "No historical-originality claim. Ordinary, complete finite interfaces and global availability remain distinct.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "no_blockers_composed",
+      "status": "PROVED_ORDINARY + VERIFIED_FINITE",
+      "hypotheses": "Conditional minimum-Q universe inside fixed minimum-CS failure; archived foundations retained",
+      "result": "Q is three-connected, minimum degree at least four, all edges cover-eligible, two-edge packing resilient, and every edge lies in at least two actual triangles.",
+      "evidence": [
+        "reviews/opening_composition_review.md"
+      ],
+      "novelty_limits": "Global rigidity and Tuza remain open; this is a constraint on every conditional minimum unknown core.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "defect_zero_triangle_exclusion",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Two-edge packing resilience forbidsB; proper-subgraphCS converts defectzero toB",
+      "result": "Elementary accounting allows0/1/2; separate no-B lemma eliminates0.",
+      "evidence": [
+        "notes/defect_zero_triangle_exclusion_dependency.md",
+        "reviews/opening_no_blocker_review.md"
+      ],
+      "novelty_limits": "No historical-originality or unrestricted-solution claim. Minimum-Q reasoning does not classify defect-two supports.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "single_deletion_defect_two",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Conditional minimum Q with accepted saturation and no-blocker composition",
+      "result": "Every Q-e is itself connected, supported, single-edge resilient and defect2; the missing-edge page-spoke pairs are blockers. Defect2 remains unnamed.",
+      "evidence": [
+        "notes/single_deletion_connected_defect_two_v1.md",
+        "reviews/opening_single_deletion_review.md"
+      ],
+      "novelty_limits": "No historical-originality or unrestricted-solution claim. Minimum-Q reasoning does not classify defect-two supports.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "all_triangle_residual_defect_two",
+      "status": "PROVED_ORDINARY + VERIFIED_FINITE",
+      "hypotheses": "Conditional minimum Q and accepted triangle-plus-edge B exclusion",
+      "result": "Every actual triangle residual has defect2; every triangle is contained in some minimum Q cover, with cover depending ontriangle. Complete6672 presentations/130certificates independentlyreplayed.",
+      "evidence": [
+        "notes/matching26_triangle_residual_result_v1.md",
+        "reviews/opening_triangle_reconstruction_review.md",
+        "evidence/opening_triangle_replay.json"
+      ],
+      "novelty_limits": "No historical-originality or unrestricted-solution claim. Minimum-Q reasoning does not classify defect-two supports.",
+      "review_status": "See cited independent review and evidence at exact ordinary/finite scope"
+    },
+    {
+      "id": "codegree_two_short_cover_exchange",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Actual codegree-two missing-edge interface; closest full-page minimum covers differ outside four spokes by at most one exchange",
+      "result": "Explicit minimum K cover hits both pages, contradicting tau(Q)=tau(K)+1. Closeness is not universally available.",
+      "evidence": [
+        "notes/apex_codegree_two_cover_exchange_v1.md",
+        "reviews/opening_codegree_cover_review.md"
+      ],
+      "review_status": "Independent ordinary review at the cited scope",
+      "novelty_limits": "No historical-originality or unrestricted-solution claim; minimum-Q does not classify defect-two supports."
+    },
+    {
+      "id": "full_disagreement_cover_operation",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Two actual minimum K covers and complete bipartite disagreement graph on every triangle missed by their intersection",
+      "result": "All minimum auxiliary vertex covers yield actual minimum K covers. A missing prescribed directed reachability gives a paid two-page cover saving; surviving reachability does not establish a literal strip.",
+      "evidence": [
+        "notes/apex_full_disagreement_cover_operation_v1.md",
+        "reviews/opening_full_disagreement_review.md"
+      ],
+      "review_status": "Independent ordinary review at the cited scope",
+      "novelty_limits": "No historical-originality or unrestricted-solution claim; minimum-Q does not classify defect-two supports."
+    },
+    {
+      "id": "compatible_page_partners",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Q two-edge packing resilient; actual edge uv; arbitrary codegree",
+      "result": "Every page has a distinct compatible partner: deleting both spoke pairs from K leaves packing k-1.",
+      "evidence": [
+        "notes/matching26_book_exchange_v2.md",
+        "reviews/opening_book_exchange_review.md"
+      ],
+      "review_status": "Independent ordinary review at the cited scope",
+      "novelty_limits": "No historical-originality or unrestricted-solution claim; minimum-Q does not classify defect-two supports."
+    },
+    {
+      "id": "marked_strip_augmentation",
+      "status": "PROVED_ORDINARY / CONDITIONAL_ON_AVAILABILITY",
+      "hypotheses": "Compatible pages; literal two-hub path of length at least3 (or length2 without hubedge); complete K boundary at endpoint spokes and optional hubedge",
+      "result": "Remove at most l-2 local packed triangles and insert l alternating rim triangles to produce k+1. No cover or naming premise is used.",
+      "evidence": [
+        "notes/matching26_marked_strip_augmentation_v2.md",
+        "reviews/opening_marked_strip_review.md"
+      ],
+      "review_status": "Independent ordinary review at the cited scope",
+      "novelty_limits": "No historical-originality or unrestricted-solution claim; minimum-Q does not classify defect-two supports."
+    },
+    {
+      "id": "marked_crossing_repairs",
+      "status": "PROVED_ORDINARY / CONDITIONAL_ON_AVAILABILITY",
+      "hypotheses": "Specified actual rim/spoke crossing regimes and compatible pages; all outside triangles counted",
+      "result": "Crossing losses can be compensated by internal packing slack; odd paths additionally use the restored uv page. Mixed charges require disjointness.",
+      "evidence": [
+        "notes/apex_strip_crossing_repair_v1.md",
+        "reviews/opening_strip_crossing_review.md"
+      ],
+      "review_status": "Independent ordinary review at the cited scope",
+      "novelty_limits": "No historical-originality or unrestricted-solution claim; minimum-Q does not classify defect-two supports."
+    },
+    {
+      "id": "local_cap_operation",
+      "status": "PROVED_ORDINARY / CONDITIONAL_ON_AVAILABILITY",
+      "hypotheses": "Compatible pair; cap rim belongs to no L triangle; cross pairs of non-spine triangles on its two hub spokes always meet",
+      "result": "A maximum L packing omitting the exact cap spine augments by two actual Q triangles. Hence that spine is compulsory and all three edges critical; two distinct cap vertices are impossible.",
+      "evidence": [
+        "notes/matching26_local_cap_augmentation_v1.md",
+        "reviews/opening_local_cap_review.md"
+      ],
+      "review_status": "Independent ordinary review at the cited scope",
+      "novelty_limits": "No historical-originality or unrestricted-solution claim; minimum-Q does not classify defect-two supports."
+    },
+    {
+      "id": "cover_only_closeness_control",
+      "status": "REFUTED_CANDIDATE / VERIFIED_FINITE",
+      "hypotheses": "Broader codegree-two cover-only hypothesis, without the full defect/resilience profile",
+      "result": "K2 joined to C5 has all triangles minimum-cover eligible but unique page-cover outside distance3. Its predecessor has defect3 and is fragile; it does not refute the full target.",
+      "evidence": [
+        "notes/double_cone_C5_cover_control_v1.md",
+        "reviews/opening_double_cone_review.md"
+      ],
+      "review_status": "Independent ordinary review at the cited scope",
+      "novelty_limits": "No historical-originality or unrestricted-solution claim; minimum-Q does not classify defect-two supports."
+    },
+    {
+      "id": "cap_availability_and_payment",
+      "status": "OPEN",
+      "hypotheses": "Full conditional minimum Q; codegree-specific cover bounds retained",
+      "result": "Universal cap or strip availability remains open. The genuine degree-four cap payment is now complete and independently reviewed. Codegree-two residual defect is2or3; arbitrary-codegree direct bounds also allow4.",
+      "evidence": [
+        "notes/matching26_local_cap_augmentation_v1.md",
+        "reviews/opening_local_cap_review.md",
+        "notes/matching26_critical_wedge_wheel_classification_v1.md",
+        "notes/matching26_wheel_rim_q_payment_v1.md",
+        "reviews/opening_wheel_reconstruction_review.md"
+      ],
+      "review_status": "Specific degree-four cap payment accepted; universal availability open",
+      "novelty_limits": "No historical-originality or unrestricted-solution claim; minimum-Q does not classify defect-two supports."
+    },
+    {
+      "id": "endpoint_link_operations",
+      "status": "PROVED_ORDINARY / CONDITIONAL_ON_AVAILABILITY",
+      "hypotheses": "Actual compatible-page residual maximum packing, all retained outside triangle edges removed from usable links",
+      "result": "One endpoint matching augmentation plus a free page, or two compatible endpoint augmentations, gives k+1 actual triangles. Fixed outside packings may block both links.",
+      "evidence": [
+        "notes/matching26_endpoint_link_operations_v1.md",
+        "reviews/opening_endpoint_link_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "one_outside_triangle_repair",
+      "status": "PROVED_ORDINARY / CONDITIONAL_ON_AVAILABILITY",
+      "hypotheses": "Codegree2 for automatic rim disjointness; one released outside triangle and same reserved hub",
+      "result": "Two endpoint matching increases paid by one removed triangle and one restored page give k+1. Joint release availability remains open.",
+      "evidence": [
+        "notes/matching26_one_outside_triangle_repair_v1.md",
+        "reviews/opening_one_outside_repair_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "degree_four_cap_first_descent",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Codegree2 base and genuine degree-four cap; exact hub eligibility branches",
+      "result": "Excludes L defect2 and defect3 with ineligible hub, via resilient defect1 W5 descent and literal five-packing.",
+      "evidence": [
+        "notes/apex_degree_four_cap_descent_v1.md",
+        "reviews/opening_degree_four_cap_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "degree_four_cap_critical_wedge",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Remaining genuine degree-four cap with L defect3",
+      "result": "Deleting cap gives actual defect2 critical wedge; deleting one critical edge gives fragile defect1, then B after one further critical deletion. No defect2 naming.",
+      "evidence": [
+        "notes/degree_four_cap_critical_wedge_v1.md",
+        "reviews/opening_critical_wedge_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "critical_wedge_background",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact two-edge B restoration gain2/cover2 with critical yz and noncritical xy",
+      "result": "yz cannot be supported in B; remaining restoration edge is incident with y or z.",
+      "evidence": [
+        "notes/matching26_two_edge_critical_wedge_background_v1.md",
+        "reviews/opening_wedge_background_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "critical_wedge_same_edge",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Actual degree-four cap Q interface; further critical deletion equals yz",
+      "result": "Complete-boundary exclusion and bare-apex degree bound rule out this branch.",
+      "evidence": [
+        "notes/matching26_critical_wedge_same_edge_v1.md",
+        "reviews/opening_wedge_same_edge_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "k4_private_edges_matching",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Every Q triangle contained in a minimum cover; literal K4 with complete actual boundary",
+      "result": "Adjacent private edges give a direct one-edge cover saving. In particular no K4 with boundary at most3 survives.",
+      "evidence": [
+        "notes/apex_k4_triangle_boundary_v1.md",
+        "reviews/opening_k4_private_matching_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "k5_path_boundary",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Literal K5 with complete three-edge path boundary; fixed minimum-Q universe",
+      "result": "Private-edge deletion pays exactly2 packing units; exact marked cover formula gives resilient defect0/1 descent and contradiction.",
+      "evidence": [
+        "notes/k5_three_edge_path_boundary_v1.md",
+        "reviews/opening_k5_path_boundary_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "simplicial_degree_four",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Conditional minimum Q; degree-four vertex with K4 neighborhood",
+      "result": "Positive-gain deletion is paid and named; neutral opposite residuals resilient without global completion; complete named reconstruction gives k+1 packing. Entire case excluded.",
+      "evidence": [
+        "notes/apex_simplicial_four_named_reconstruction_v1.md",
+        "reviews/opening_simplicial_final_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "cycle_degree_four",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Conditional minimum Q; degree-four vertex with induced C4 neighborhood",
+      "result": "Universal single-deletion resilience and full triangle covers enable opposite residuals; complete boundary removal and C12 cover save one. Entire case excluded.",
+      "evidence": [
+        "notes/degree_four_cycle_named_reconstruction_v1.md",
+        "reviews/opening_cycle_final_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No historical originality or unrestricted solution claimed. No arbitrary defect-two support named."
+    },
+    {
+      "id": "diamond_degree_four",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Conditional minimum Q; degree-four vertex with diamond neighborhood",
+      "result": "Neutral opposite residuals are resilient by literal augmentation; positive and named neutral reconstructions are paid. Combined with C4/K4 cases, minimum degree of Q is at least five.",
+      "evidence": [
+        "notes/apex_diamond_opposite_augmentation_v2.md",
+        "notes/matching26_diamond_neutral_named_reconstruction_v1.md",
+        "reviews/opening_diamond_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "Conditional minimum-CS universe; no historical-originality or unrestricted-solution claim; no classification of defect-two supports."
+    },
+    {
+      "id": "critical_wedge_cap_complete",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact genuine degree-four cap interface and accepted independent simplicial-degree-four exclusion",
+      "result": "Fragile wedge restoration is a wheel with paid rim pieces; all remaining cap branches excluded.",
+      "evidence": [
+        "notes/matching26_critical_wedge_wheel_classification_v1.md",
+        "notes/matching26_wheel_rim_q_payment_v1.md",
+        "reviews/opening_wheel_reconstruction_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "Conditional minimum-CS universe; no historical-originality or unrestricted-solution claim; no classification of defect-two supports."
+    },
+    {
+      "id": "uniform_two_hub_neighborhood",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Conditional minimum Q; actual neighborhood K2,t with independent leaves, t>=2, and optional hub edge",
+      "result": "Every such neighborhood excluded, with no upper bound on t. With link minimum degree two, every vertex link therefore has vertex-cover number at least three. Availability of a two-hub link is not asserted.",
+      "evidence": [
+        "notes/apex_two_hub_neighborhood_fragile_v1.md",
+        "notes/matching26_two_hub_named_reconstruction_v1.md",
+        "notes/apex_two_hub_small_fragile_v1.md",
+        "reviews/opening_two_hub_review.md",
+        "reviews/opening_two_hub_small_fragile_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "Conditional minimum-CS universe; no historical-originality or unrestricted-solution claim; no classification of defect-two supports."
+    },
+    {
+      "id": "release_set_compression",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Codegree-two compatible interface; fixed outside maximum packing; same reserved page hub",
+      "result": "Every profitable released set, when replacing only endpoint fans, contains a jointly releasing singleton. Larger release sets alone add no power.",
+      "evidence": [
+        "notes/matching26_release_set_compression_v1.md",
+        "reviews/opening_release_compression_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "Conditional minimum-CS universe; no historical-originality or unrestricted-solution claim; no classification of defect-two supports."
+    },
+    {
+      "id": "outside_hub_repair",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Codegree-two interface with empty usable endpoint links; actual usable third-hub matching or specified two packed triangles and free connecting rim",
+      "result": "Neutral outside matching switch exposing a mixed triangle, or direct four-for-two replacement, gives k+1. Availability remains open.",
+      "evidence": [
+        "notes/matching26_outside_hub_repair_v1.md",
+        "reviews/opening_outside_hub_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "Conditional minimum-CS universe; no historical-originality or unrestricted-solution claim; no classification of defect-two supports."
+    },
+    {
+      "id": "exact_codegree_two_exclusion",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "All supported edges have codegree exactly two; Brooks and Tutte-Berge stated explicitly",
+      "result": "Defect is zero with literal K4 triangle components, or at least two. Hence conditional Q has SOME edge of codegree>=3; no existence of a codegree-two edge is inferred.",
+      "evidence": [
+        "reviews/opening_exact_codegree_two_exclusion.md",
+        "reviews/root_exact_codegree_two_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No unrestricted-solution or originality claim; arbitrary defect-two supports are not classified."
+    },
+    {
+      "id": "one_unit_cover_exchange",
+      "status": "PROVED_ORDINARY / CONDITIONAL_OPERATION",
+      "hypotheses": "Actual min K cover and one-larger min Q cover omitting uv; full disagreement graph",
+      "result": "Exact forced-closure criterion within the constructed auxiliary-cover family can pay the surplus; control shows it can be absorbed. No classification of all min K covers.",
+      "evidence": [
+        "notes/matching26_one_unit_cover_exchange_v1.md",
+        "reviews/opening_one_unit_exchange_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No unrestricted-solution or originality claim; arbitrary defect-two supports are not classified."
+    },
+    {
+      "id": "canonical_outside_packing",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Maximum compatible residual packing maximizing outside triangles",
+      "result": "Usable endpoint links triangle-free; at codegree2 outside triangles all hit M0. Empty fans imply every endpoint rim except xy critical in W; arbitrary W defect retained.",
+      "evidence": [
+        "notes/matching26_canonical_outside_packing_v1.md",
+        "reviews/opening_canonical_outside_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No unrestricted-solution or originality claim; arbitrary defect-two supports are not classified."
+    },
+    {
+      "id": "arbitrary_book_release_compression",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Actual compatible pair; coupled physically disjoint fans; arbitrary codegree",
+      "result": "Every profitable released set contains a profitable doubly supplying subset of size<=codegree-1. Larger-page control shows singleton compression does not extend.",
+      "evidence": [
+        "notes/arbitrary_book_release_compression_v1.md",
+        "reviews/opening_arbitrary_release_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No unrestricted-solution or originality claim; arbitrary defect-two supports are not classified."
+    },
+    {
+      "id": "arbitrary_book_crossing_switch",
+      "status": "PROVED_ORDINARY / CONDITIONAL_OPERATION",
+      "hypotheses": "Specified actual extra-apex crossing, two outside labels and unoccupied edges",
+      "result": "Literal six-for-four outside packing change produces k+1. Its additional edges are not forced by the current global proof.",
+      "evidence": [
+        "notes/apex_arbitrary_book_crossing_switch_v1.md",
+        "reviews/opening_arbitrary_crossing_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No unrestricted-solution or originality claim; arbitrary defect-two supports are not classified."
+    },
+    {
+      "id": "triangle_surplus_commutation",
+      "status": "PROVED_ORDINARY / CONDITIONAL_OPERATION",
+      "hypotheses": "Actual triangle avoiding uv and full Q profile, arbitrary codegree",
+      "result": "Three exact deletion profiles; the lost unit is a neutral insertion into unnamed defect2. Whole-family retained-cover criterion pays it conditionally.",
+      "evidence": [
+        "notes/apex_missing_edge_triangle_surplus_v1.md",
+        "reviews/opening_triangle_surplus_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No unrestricted-solution or originality claim; arbitrary defect-two supports are not classified."
+    },
+    {
+      "id": "empty_link_exact_defect_two_descent",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Codegree2 and outside nu=m=k-1, exact tau(W)=2m-2",
+      "result": "Every critical W edge is cover-eligible; a critical-rim deletion has defect1 rather than direct B. Larger-defect W is not named.",
+      "evidence": [
+        "notes/matching26_empty_link_defect_two_descent_v1.md",
+        "reviews/opening_empty_link_descent_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No unrestricted-solution or originality claim; arbitrary defect-two supports are not classified."
+    },
+    {
+      "id": "empty_link_multiple_extendable_pages",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Same exact outside defect2 branch; resilient critical-rim residual",
+      "result": "Two extendable restored pages impossible; exactly one extendable page remains. Other actual nonextendable pages are retained. The formerly remaining unique-page branch is subsequently excluded by outside_unique_page_exclusion.",
+      "evidence": [
+        "notes/matching26_empty_link_multiple_page_reduction_v1.md",
+        "reviews/opening_empty_link_multiple_page_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No unrestricted-solution or originality claim; arbitrary defect-two supports are not classified."
+    },
+    {
+      "id": "two_edge_critical_envelope",
+      "status": "PROVED_ORDINARY / DOMAIN_BOUND",
+      "hypotheses": "Exact B+two-edge restoration with packing gain2; actual empty-link minQ interface for final domain",
+      "result": "Critical envelope <=14 edges/incident vertices; at most6 old pieces and32 actual vertices in the fragile branch. This is a bounded domain, not exclusion or census authorization.",
+      "evidence": [
+        "notes/matching26_two_edge_critical_envelope_v1.md",
+        "reviews/opening_critical_envelope_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No unrestricted-solution or originality claim; arbitrary defect-two supports are not classified."
+    },
+    {
+      "id": "compatible_pair_rebasing",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Global maximum outside-count choice over all actual compatible pairs",
+      "result": "Every rebase at an uncovered crossing apex loses some old outside triangle; actual hybrid localizes changes to at most5 conflict components. Components unbounded; payment unproved.",
+      "evidence": [
+        "notes/apex_compatible_pair_rebasing_v1.md",
+        "reviews/opening_rebasing_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No global availability, unrestricted-solution or originality claim; defect-two supports not classified."
+    },
+    {
+      "id": "outside_fragile_component_exclusion",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Codegree2 uv and nu(Q\u2212{u,v})=nuQ\u22121; no total-defect assumption",
+      "result": "No fragile defect1 outside triangle component, via whole-footprint B payment and literal K4 cover saving.",
+      "evidence": [
+        "notes/matching26_outside_fragile_component_exclusion_v1.md",
+        "reviews/opening_outside_fragile_component_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No global availability, unrestricted-solution or originality claim; defect-two supports not classified."
+    },
+    {
+      "id": "outside_resilient_component_exclusion",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Same supplied outside interface, full accepted minQ constraints",
+      "result": "No resilient outside component of ANY defect; exact one-edge boundary peel uses properCS or legitimate defect1 naming. Every component fragile with defect>=2; onlypossiblebackgroundxy.",
+      "evidence": [
+        "notes/matching26_outside_resilient_component_exclusion_v1.md",
+        "reviews/opening_outside_resilient_component_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No global availability, unrestricted-solution or originality claim; defect-two supports not classified."
+    },
+    {
+      "id": "outside_unique_page_exclusion",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact total outside defect2; resilient critical-rim residual with one extendable page",
+      "result": "Entire unique-page case excluded, with named ineligible-edge partner geometry checked ordinarily and internal210 scope confined first.",
+      "evidence": [
+        "notes/matching26_empty_link_unique_page_exclusion_v1.md",
+        "reviews/opening_unique_page_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No global availability, unrestricted-solution or originality claim; defect-two supports not classified."
+    },
+    {
+      "id": "outside_two_edge_paid_exclusion",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact B+two-edge restoration gains2/2 in supplied minQ outside interface",
+      "result": "Bare-page case split pays EVERY remaining fragile branch; no32-vertex enumeration. Exact outside defect2 impossible, so supplied interface has deltaW>=3.",
+      "evidence": [
+        "notes/matching26_empty_link_two_edge_paid_exclusion_v1.md",
+        "reviews/opening_two_edge_paid_review.md"
+      ],
+      "review_status": "Independent ordinary PASS at stated scope",
+      "novelty_limits": "No global availability, unrestricted-solution or originality claim; defect-two supports not classified."
+    },
+    {
+      "id": "actual_parent_critical_square",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact fixed minimum-CS G; defect-one double residual with a critical edge",
+      "result": "Both B+T and B+U have gains (nu,tau)=(2,2); a bare critical-edge page supplies an actual connected resilient low-gain residual.",
+      "evidence": [
+        "notes/actual_parent_critical_square_v1.md",
+        "reviews/opening_actual_parent_square_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "New within this mission; no historical originality or Lean claim. No arbitrary defect-two naming; global Tuza/CS/R remain open."
+    },
+    {
+      "id": "actual_parent_double_residual_resilience",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Every actual edge-disjoint triangle pair in the fixed minimum-CS G; residual defect one",
+      "result": "The double residual is single-edge packing-resilient. No connectedness, C12 membership, or defect-one pair existence is concluded.",
+      "evidence": [
+        "notes/actual_parent_double_residual_resilience_v1.md",
+        "reviews/opening_actual_parent_composition_binding.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "New within this mission; no historical originality or Lean claim. No arbitrary defect-two naming; global Tuza/CS/R remain open."
+    },
+    {
+      "id": "actual_parent_low_gain_two_triangle_classification",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Supplied connected resilient B+two-shared-vertex-triangles residual; gains (2,3), each individual new-family packing one; arbitrary background",
+      "result": "All six cross-graph orbits are paid or have literal C12 triangle support, enabling strict actual-parent restoration.",
+      "evidence": [
+        "notes/actual_parent_double_residual_resilience_v1.md",
+        "reviews/opening_actual_parent_double_residual_composition.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "New within this mission; no historical originality or Lean claim. No arbitrary defect-two naming; global Tuza/CS/R remain open."
+    },
+    {
+      "id": "actual_parent_triple_failure_partial",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "A triangle fails extension in a defect-one double residual of actual G",
+      "result": "Failure forces a bare K5-e component plus B; shared-vertex and zero/one-peripheral payments are accepted, and the remaining two-peripheral classification has now composed to full defect-one double-residual triangle extension.",
+      "evidence": [
+        "notes/matching26_actual_parent_triple_extension_v1.md",
+        "reviews/opening_actual_parent_triple_shared_review.md",
+        "notes/matching26_actual_parent_two_peripheral_v1.md",
+        "reviews/opening_actual_parent_two_peripheral_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "New within this mission; no historical originality or Lean claim. No arbitrary defect-two naming; global Tuza/CS/R remain open."
+    },
+    {
+      "id": "pairwise_cover_helly_control",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Actual graph K9; arbitrary edge-disjoint triangles",
+      "result": "Every pair occurs in a minimum cover, but a specified center-sharing triple does not. This graph fails tight-parent hypotheses, so no parent selection is refuted.",
+      "evidence": [
+        "notes/apex_actual_parent_triple_selection_v1.md",
+        "reviews/opening_actual_parent_triple_selection_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "New within this mission; no historical originality or Lean claim. No arbitrary defect-two naming; global Tuza/CS/R remain open."
+    },
+    {
+      "id": "actual_parent_defect_one_triple_extension",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Fixed minimum-CS G, actual pair T,U whose double residual R has defect one",
+      "result": "Every actual triangle V in R extends to a maximum R packing. Any triple-extension failure requires all three double residuals defect two. This proof is independent of the new R resilience theorem.",
+      "evidence": [
+        "notes/actual_parent_defect_one_triple_extension_v1.md",
+        "reviews/opening_actual_parent_triple_extension_composition.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality or new Lean claim; all background retained. No defect-two naming or unrestricted solution."
+    },
+    {
+      "id": "actual_parent_triple_B_disjoint_exclusion",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "An actual failed triple of the fixed parent whose triple residual is tight B; exact single/pair/triple gains (2,2),(3,5),(4,8). Global all-pair defect-two is unnecessary.",
+      "result": "No two of the three restored triangles can be vertex-disjoint. Surviving intersection cores have a common center or three distinct pairwise intersections.",
+      "evidence": [
+        "notes/apex_actual_parent_triple_B_disjoint_v1.md",
+        "reviews/opening_actual_parent_cube_disjoint_review.md",
+        "notes/actual_parent_defect_one_triple_extension_v1.md",
+        "reviews/opening_actual_parent_triple_extension_composition.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality or new Lean claim; all background retained. No defect-two naming or unrestricted solution."
+    },
+    {
+      "id": "actual_parent_shared_exceptional_families",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Two shared-vertex missing triangles over B, each with a complete exceptional K5-e new family",
+      "result": "Four actual pages append over B. Therefore the low-packing triple cube has at most one exceptional individual family in either surviving intersection pattern. Mixed-triangle cover payment is separate.",
+      "evidence": [
+        "notes/apex_actual_parent_shared_exceptional_families_v1.md",
+        "reviews/opening_actual_parent_shared_exceptional_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality or new Lean claim; all background retained. No defect-two naming or unrestricted solution."
+    },
+    {
+      "id": "maximal_support_triangle_selection",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Any finite simple graph; T globally maximizes support(X-T), and this selected T is wholly contained in some minimum X cover (the earlier all-triangle version is sufficient).",
+      "result": "A triangle maximizing residual supported-edge count has no ordinary restored page with both spokes background in that residual. Applies to actual G and minimum Q, but does not place the selected triangle inside an arbitrary failing triple.",
+      "evidence": [
+        "notes/maximal_support_triangle_selection_v1.md",
+        "reviews/opening_maximal_support_selection_review.md",
+        "notes/actual_parent_selected_triangle_dichotomy_v2.md",
+        "reviews/opening_selected_triangle_dichotomy_v2_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality or new Lean claim; all background retained. No defect-two naming or unrestricted solution."
+    },
+    {
+      "id": "actual_parent_ordered_selection",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "All double residuals through the selected T have defect two; in the frozen v1 a stronger global hypothesis is used",
+      "result": "Second maximum-support triangle selection is valid; conditional low-B common-center bare opposite pages lie in an explicit three/four-edge cross interface. Superseded in strength by the localized v2 selected-triangle dichotomy, which makes both choices unconditionally and tests only the selected pair defect.",
+      "evidence": [
+        "notes/apex_actual_parent_ordered_selection_v1.md",
+        "reviews/opening_actual_parent_ordered_selection_review.md",
+        "notes/actual_parent_selected_triangle_dichotomy_v1.md",
+        "reviews/opening_selected_triangle_dichotomy_review.md",
+        "notes/actual_parent_selected_triangle_dichotomy_v2.md",
+        "reviews/opening_selected_triangle_dichotomy_v2_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality, formal Lean or unrestricted solution claim; no defect-two naming and no unproved global availability."
+    },
+    {
+      "id": "actual_parent_selected_triangle_dichotomy",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "The fixed minimum-CS parent with accepted single/double residual facts",
+      "result": "Choose T globally maximizing support(G-T), then U globally maximizing support((G-T)-U) in the fixed first residual. Both choices are unconditional. Selected defect-one R is resilient/extendable; selected defect-two R gives the second no-bare-page property because only selected U needs a full minimum cover. No condition on other partners and no contradiction/naming is inferred.",
+      "evidence": [
+        "notes/actual_parent_selected_triangle_dichotomy_v1.md",
+        "reviews/opening_selected_triangle_dichotomy_review.md",
+        "notes/actual_parent_selected_triangle_dichotomy_v2.md",
+        "reviews/opening_selected_triangle_dichotomy_v2_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality, formal Lean or unrestricted solution claim; no defect-two naming and no unproved global availability."
+    },
+    {
+      "id": "actual_parent_common_center_discriminator",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact supplied low-packing tight common-center triple cube; all old background retained",
+      "result": "Matching old core rims have avoidable footprints; two bare outside pages plus a perfect core matching give a five-packing. With all families two-coverable, complete cover accounting forces two unhit mixed rims. With one exceptional family, the v2 extension uses a chosen old minimum cover realizing its supported-spoke overlap. Neither case supplies the remaining compatible pages.",
+      "evidence": [
+        "notes/apex_actual_parent_common_center_discriminator_v1.md",
+        "reviews/opening_actual_parent_common_center_review.md",
+        "notes/apex_actual_parent_common_center_discriminator_v2.md",
+        "reviews/opening_actual_parent_common_center_v2_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality, formal Lean or unrestricted solution claim; no defect-two naming and no unproved global availability."
+    },
+    {
+      "id": "actual_parent_common_center_conflict_star",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Same cube, with at most one exceptional family; specified old K4 conflict-star and background partner spokes",
+      "result": "Selected old-cover overlap keeps individual-family cost at most six; a complete K4 conflict-star forces the mixed graph to one old triangle and yields cover cost at most seven. General conflicts not classified.",
+      "evidence": [
+        "notes/apex_actual_parent_common_center_discriminator_v2.md",
+        "reviews/opening_actual_parent_common_center_v2_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality, formal Lean or unrestricted solution claim; no defect-two naming and no unproved global availability."
+    },
+    {
+      "id": "actual_parent_q2_family_frontier",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact individual q=2 ordinary-page families in the supplied cube",
+      "result": "Complete A/B/exceptional normal form; three two-own-base families are paid in the common-center cube with all mixed triangles retained.",
+      "evidence": [
+        "notes/apex_actual_parent_q2_family_frontier_v1.md",
+        "reviews/opening_actual_parent_q2_frontier_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality, formal Lean or unrestricted solution claim; no defect-two naming and no unproved global availability."
+    },
+    {
+      "id": "actual_parent_cycle_partial_payments",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact distinct-intersection low-packing tight triple cube",
+      "result": "All-two-base direct seven-edge cover and shared-pair full-apex payment are valid; complete mixed list includes central triangle abc.",
+      "evidence": [
+        "notes/matching26_actual_parent_cycle_core_v1.md",
+        "reviews/opening_actual_parent_cycle_core_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality, formal Lean or unrestricted solution claim; no defect-two naming and no unproved global availability."
+    },
+    {
+      "id": "actual_parent_cycle_nonexceptional_closure",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Same distinct-intersection cube; none of three individual families exceptional",
+      "result": "All nonexceptional combinations are excluded by explicit cover savings or a five-packing. Exactly-one-exceptional branch is not treated here.",
+      "evidence": [
+        "notes/matching26_actual_parent_cycle_nonexceptional_v1.md",
+        "reviews/opening_actual_parent_cycle_nonexceptional_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No historical originality, formal Lean or unrestricted solution claim; no defect-two naming and no unproved global availability."
+    },
+    {
+      "id": "actual_parent_common_center_three_opposite_B",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Supplied common-center tight triple cube; all three families type B with extra books on opposite bases",
+      "result": "Every full-apex identification pattern is paid by a complete mixed cover or five-packing. Does not treat A/B mixtures or exceptional families.",
+      "evidence": [
+        "notes/apex_actual_parent_common_center_three_opposite_B_v1.md",
+        "reviews/opening_common_center_three_opposite_B_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "Actual supplied cube only; no global selection, defect-two naming, new Lean or historical originality claim."
+    },
+    {
+      "id": "actual_parent_common_center_one_hub_B",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Same cube; two type B extra books opposite the common hub and one incident to it",
+      "result": "Equal-apex cover and complete five-packing cases pay this interface. Together with the accepted two-hub B pair payment and three-opposite theorem, all-three-B is excluded.",
+      "evidence": [
+        "notes/apex_actual_parent_common_center_one_hub_B_v1.md",
+        "reviews/opening_common_center_one_hub_B_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "Actual supplied cube only; no global selection, defect-two naming, new Lean or historical originality claim."
+    },
+    {
+      "id": "actual_parent_cycle_exceptional_closure",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact distinct-intersection tight triple cube with exactly one exceptional individual family",
+      "result": "Both CBB and CAB configurations are paid by complete cover savings or four-page packings over B, including all apex equalities and old footprints.",
+      "evidence": [
+        "notes/matching26_actual_parent_cycle_exceptional_v1.md",
+        "reviews/opening_actual_parent_cycle_exceptional_review.md",
+        "notes/matching26_actual_parent_cycle_nonexceptional_v1.md",
+        "reviews/opening_actual_parent_cycle_nonexceptional_review.md",
+        "notes/apex_actual_parent_shared_exceptional_families_v1.md",
+        "reviews/opening_actual_parent_shared_exceptional_review.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No global selection or unrestricted solution; no defect-two naming, historical originality or new Lean claim."
+    },
+    {
+      "id": "actual_parent_cycle_complete",
+      "status": "PROVED_ORDINARY",
+      "hypotheses": "Exact supplied distinct-intersection tight triple cube, arbitrary background and old shared vertices",
+      "result": "At most one exceptional family plus the reviewed nonexceptional and exceptional closures exclude the entire cyclic pattern. Any actual failed tight triple must therefore have common center; its existence and tightness are not forced.",
+      "evidence": [
+        "notes/matching26_actual_parent_cycle_exceptional_v1.md",
+        "reviews/opening_actual_parent_cycle_exceptional_review.md",
+        "notes/matching26_actual_parent_cycle_nonexceptional_v1.md",
+        "reviews/opening_actual_parent_cycle_nonexceptional_review.md",
+        "notes/apex_actual_parent_shared_exceptional_families_v1.md",
+        "reviews/opening_actual_parent_shared_exceptional_review.md",
+        "notes/apex_actual_parent_triple_B_disjoint_v1.md",
+        "reviews/opening_actual_parent_cube_disjoint_review.md",
+        "notes/actual_parent_defect_one_triple_extension_v1.md",
+        "reviews/opening_actual_parent_triple_extension_composition.md"
+      ],
+      "review_status": "INDEPENDENT_PASS_AT_STATED_SCOPE",
+      "novelty_limits": "No global selection or unrestricted solution; no defect-two naming, historical originality or new Lean claim."
+    }
+  ],
+  "definitions": {
+    "B": "Every nonempty shared-edge triangle component has literal K4 or K5 support.",
+    "CS": "tau<=2nu, with equality exactly for B.",
+    "defect": "delta=2nu-tau; defect one satisfies Tuza.",
+    "resilience": "Single-edge: nu(X-e)=nu(X) for every actual edge; two-edge: for every edge set of size at most two.",
+    "triangle_support": "Edges lying in actual triangles; background retained during restoration.",
+    "minimum_Q": "Minimum supported-edge count over connected resilient defect-one non-C12 supports inside proper edge-subgraphs of the fixed minimum-CS G; not a defect-two classification."
+  }
+}

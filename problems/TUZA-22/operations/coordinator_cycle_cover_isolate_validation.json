@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T04:24:29.575539+00:00",
+  "end_utc": "2026-11-16T04:24:30.057854+00:00",
+  "seconds": 0.4823191165924072,
+  "command": [
+    "python",
+    "scripts/coordinator_cycle_cover_isolate_validator.py"
+  ],
+  "pid": 98781,
+  "peak_sampled_tree_rss_mib": 61.9375,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 30.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

@@ -1,0 +1,90 @@
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:33:53: error: unexpected token ';'; expected '{' or tactic
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:33:41: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+v : V
+⊢ v ∈ exposureSet G ↔ Exposable G v
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:37:11: error: unexpected token ';'; expected '{' or tactic
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:36:64: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+v : V
+⊢ v ∈ exposureNeighbors G ↔ ∃ d, Exposable G d ∧ G.Adj d v
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:41:11: error: unexpected token ';'; expected '{' or tactic
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:40:75: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+v : V
+⊢ v ∈ exposureRemainder G ↔ ¬Exposable G v ∧ v ∉ exposureNeighbors G
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:133:65: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+hG : G.IsAcyclic
+M : Finset (Finset V)
+hM : MaximumMatching G M
+z : V
+hz : z ∈ exposureRemainder G
+b : V
+hzb : G.Adj z b
+he : {z, b} ∈ M
+hbA : b ∉ exposureNeighbors G
+⊢ (∀ (x : V), Exposable G x → ¬G.Adj x z) ∧ ∀ (x : V), Exposable G x → ¬G.Adj x b
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:135:42: error: Function expected at
+  hM.left
+but this term has type
+  EdgeMatching G M
+
+Note: Expected a function because this term is being applied to the argument
+  _
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:134:24: warning: This simp argument is unused:
+  (mem_exposureRemainder.mp hz).2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [disjoint_left, hbA]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:134:56: warning: This simp argument is unused:
+  hbA
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [disjoint_left, (mem_exposureRemainder.mp hz).2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:164:2: error: unsolved goals
+case mpr
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+hG : G.IsAcyclic
+M : Finset (Finset V)
+hM : MaximumMatching G M
+z : V
+hz : z ∈ exposureRemainder G
+b : V
+hb : b ∈ exposureRemainder G
+hzb : G.Adj z b
+he : {z, b} ∈ M
+⊢ (∀ (x : V), Exposable G x → ¬G.Adj x z) ∧ ∀ (x : V), Exposable G x → ¬G.Adj x b
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:168:24: warning: This simp argument is unused:
+  (mem_exposureRemainder.mp hz).2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [disjoint_left, (mem_exposureRemainder.mp hb).2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean:168:56: warning: This simp argument is unused:
+  (mem_exposureRemainder.mp hb).2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [disjoint_left, (mem_exposureRemainder.mp hz).2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

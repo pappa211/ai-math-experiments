@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T22:07:44.539823+00:00",
+  "end_utc": "2026-11-15T22:07:44.657903+00:00",
+  "seconds": 0.11808276176452637,
+  "command": [
+    "python",
+    "scripts/challenger_cycle_cones.py"
+  ],
+  "pid": 69360,
+  "peak_sampled_tree_rss_mib": 4.21875,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 30.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

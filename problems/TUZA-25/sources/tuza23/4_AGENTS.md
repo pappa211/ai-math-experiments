@@ -1,0 +1,3 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+TUZA-23 only. Read sources/MISSION.txt. Mac-only under this workspace; no frozen source/cache writes, downloads, native_decide, sorry or project axioms in accepted closure. Coordinator owns build slot by default. Agents must request slot before Lean/Lake invocation. One process tree, 2200 MiB ceiling, explicit deadline. Ownership recorded in operations/OWNERSHIP.md. Original clock never resets.

@@ -1,0 +1,3327 @@
+{
+  "identity": "TUZA22-independent-tiny-source-controls-v1",
+  "created_utc": "2026-11-15T21:45:50.036110+00:00",
+  "original_source_sha256": "897b7dd264554bd1db901537a6a544276834005a753c0b82be49fa845198c34c",
+  "original_binary_sha256": "33923042967fa5757e7dd0f88707cb2f6e7d5699346ce6abc1e98cc059345131",
+  "original_input_domain": "Explicit short graph6, n<=8; no census completeness asserted",
+  "original_controls": {
+    "empty": {
+      "n": 0,
+      "edges": [],
+      "triangle_count": 0,
+      "nu": 0,
+      "tau": 0,
+      "B": true,
+      "components": [],
+      "graph6": "?",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.049663666999549605,
+        "sampled_peak_process_tree_rss_kib": 32,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=0\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "isolates": {
+      "n": 4,
+      "edges": [],
+      "triangle_count": 0,
+      "nu": 0,
+      "tau": 0,
+      "B": true,
+      "components": [],
+      "graph6": "C?",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.024888832995202392,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=0\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "path6": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangle_count": 0,
+      "nu": 0,
+      "tau": 0,
+      "B": true,
+      "components": [],
+      "graph6": "EhCG",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.024519291997421533,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=0\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "K3": {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "triangle_count": 1,
+      "nu": 1,
+      "tau": 1,
+      "B": false,
+      "components": [
+        {
+          "vertices": [
+            0,
+            1,
+            2
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "triangles": 1,
+          "literal_K4_K5": false,
+          "nu": 1,
+          "tau": 1,
+          "packing": [
+            [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                1,
+                2
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              0,
+              1
+            ]
+          ]
+        }
+      ],
+      "graph6": "Bw",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.02620441699400544,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=1\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "K4": {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triangle_count": 4,
+      "nu": 1,
+      "tau": 2,
+      "B": true,
+      "components": [
+        {
+          "vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "graph6": "C~",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.02581191599892918,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "K5": {
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangle_count": 10,
+      "nu": 2,
+      "tau": 4,
+      "B": true,
+      "components": [
+        {
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "triangles": 10,
+          "literal_K4_K5": true,
+          "nu": 2,
+          "tau": 4,
+          "packing": [
+            [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                4
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        }
+      ],
+      "graph6": "D~{",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.03102333399874624,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "K6": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangle_count": 20,
+      "nu": 4,
+      "tau": 6,
+      "B": false,
+      "components": [
+        {
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "triangles": 20,
+          "literal_K4_K5": false,
+          "nu": 4,
+          "tau": 6,
+          "packing": [
+            [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            [
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                3,
+                5
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              2,
+              5
+            ],
+            [
+              3,
+              5
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        }
+      ],
+      "graph6": "E~~w",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.026100457995198667,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=0\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "disjoint_K4_K4": {
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "triangle_count": 8,
+      "nu": 2,
+      "tau": 4,
+      "B": true,
+      "components": [
+        {
+          "vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "edges": [
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                5,
+                6
+              ],
+              [
+                5,
+                7
+              ],
+              [
+                6,
+                7
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ]
+          ]
+        }
+      ],
+      "graph6": "G~?GW[",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.024972750004963018,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "vertex_shared_K4_K5": {
+      "n": 8,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "triangle_count": 14,
+      "nu": 3,
+      "tau": 6,
+      "B": true,
+      "components": [
+        {
+          "vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            0,
+            4,
+            5,
+            6,
+            7
+          ],
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              7
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "triangles": 10,
+          "literal_K4_K5": true,
+          "nu": 2,
+          "tau": 4,
+          "packing": [
+            [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                6,
+                7
+              ]
+            ],
+            [
+              [
+                4,
+                5
+              ],
+              [
+                4,
+                7
+              ],
+              [
+                5,
+                7
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              4,
+              5
+            ],
+            [
+              4,
+              6
+            ],
+            [
+              0,
+              7
+            ],
+            [
+              5,
+              6
+            ]
+          ]
+        }
+      ],
+      "graph6": "G~aK[[",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.025169792002998292,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "K4_with_trianglefree_edge": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangle_count": 4,
+      "nu": 1,
+      "tau": 2,
+      "B": true,
+      "components": [
+        {
+          "vertices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "graph6": "E~?G",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.025507749989628792,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "two_K4_edge_shared": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangle_count": 8,
+      "nu": 2,
+      "tau": 3,
+      "B": false,
+      "components": [
+        {
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "triangles": 8,
+          "literal_K4_K5": false,
+          "nu": 2,
+          "tau": 3,
+          "packing": [
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ]
+            ],
+            [
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        }
+      ],
+      "graph6": "E~rG",
+      "original_replay": {
+        "argv": [
+          "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+        ],
+        "timeout_seconds": 5,
+        "elapsed_seconds": 0.028334500006167218,
+        "sampled_peak_process_tree_rss_kib": 0,
+        "rss_limit_kib": 2252800,
+        "status": "COMPLETE",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=1\n"
+      },
+      "original_matches_independent_classification": true
+    },
+    "K4_cartesian_K5": {
+      "n": 20,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          2,
+          17
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          13
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          5,
+          15
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          7,
+          17
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          11,
+          16
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          12,
+          17
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          15,
+          16
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          16,
+          17
+        ],
+        [
+          16,
+          18
+        ],
+        [
+          16,
+          19
+        ],
+        [
+          17,
+          18
+        ],
+        [
+          17,
+          19
+        ],
+        [
+          18,
+          19
+        ]
+      ],
+      "triangle_count": 60,
+      "nu": 13,
+      "tau": 26,
+      "B": true,
+      "components": [
+        {
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "triangles": 10,
+          "literal_K4_K5": true,
+          "nu": 2,
+          "tau": 4,
+          "packing": [
+            [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                4
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              0,
+              1
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            0,
+            5,
+            10,
+            15
+          ],
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              0,
+              10
+            ],
+            [
+              0,
+              15
+            ],
+            [
+              5,
+              10
+            ],
+            [
+              5,
+              15
+            ],
+            [
+              10,
+              15
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                5,
+                10
+              ],
+              [
+                5,
+                15
+              ],
+              [
+                10,
+                15
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              5,
+              10
+            ],
+            [
+              0,
+              15
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            1,
+            6,
+            11,
+            16
+          ],
+          "edges": [
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              11
+            ],
+            [
+              1,
+              16
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              6,
+              16
+            ],
+            [
+              11,
+              16
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                6,
+                11
+              ],
+              [
+                6,
+                16
+              ],
+              [
+                11,
+                16
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              1,
+              11
+            ],
+            [
+              6,
+              16
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            2,
+            7,
+            12,
+            17
+          ],
+          "edges": [
+            [
+              2,
+              7
+            ],
+            [
+              2,
+              12
+            ],
+            [
+              2,
+              17
+            ],
+            [
+              7,
+              12
+            ],
+            [
+              7,
+              17
+            ],
+            [
+              12,
+              17
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                7,
+                12
+              ],
+              [
+                7,
+                17
+              ],
+              [
+                12,
+                17
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              7,
+              12
+            ],
+            [
+              2,
+              17
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            3,
+            8,
+            13,
+            18
+          ],
+          "edges": [
+            [
+              3,
+              8
+            ],
+            [
+              3,
+              13
+            ],
+            [
+              3,
+              18
+            ],
+            [
+              8,
+              13
+            ],
+            [
+              8,
+              18
+            ],
+            [
+              13,
+              18
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                8,
+                13
+              ],
+              [
+                8,
+                18
+              ],
+              [
+                13,
+                18
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              8,
+              13
+            ],
+            [
+              3,
+              18
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            4,
+            9,
+            14,
+            19
+          ],
+          "edges": [
+            [
+              4,
+              9
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              4,
+              19
+            ],
+            [
+              9,
+              14
+            ],
+            [
+              9,
+              19
+            ],
+            [
+              14,
+              19
+            ]
+          ],
+          "triangles": 4,
+          "literal_K4_K5": true,
+          "nu": 1,
+          "tau": 2,
+          "packing": [
+            [
+              [
+                9,
+                14
+              ],
+              [
+                9,
+                19
+              ],
+              [
+                14,
+                19
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              4,
+              9
+            ],
+            [
+              14,
+              19
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "edges": [
+            [
+              5,
+              6
+            ],
+            [
+              5,
+              7
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              7,
+              9
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "triangles": 10,
+          "literal_K4_K5": true,
+          "nu": 2,
+          "tau": 4,
+          "packing": [
+            [
+              [
+                5,
+                8
+              ],
+              [
+                5,
+                9
+              ],
+              [
+                8,
+                9
+              ]
+            ],
+            [
+              [
+                6,
+                7
+              ],
+              [
+                6,
+                9
+              ],
+              [
+                7,
+                9
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              6,
+              7
+            ],
+            [
+              6,
+              8
+            ],
+            [
+              5,
+              9
+            ],
+            [
+              7,
+              8
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "edges": [
+            [
+              10,
+              11
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              10,
+              13
+            ],
+            [
+              10,
+              14
+            ],
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              11,
+              14
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              12,
+              14
+            ],
+            [
+              13,
+              14
+            ]
+          ],
+          "triangles": 10,
+          "literal_K4_K5": true,
+          "nu": 2,
+          "tau": 4,
+          "packing": [
+            [
+              [
+                10,
+                13
+              ],
+              [
+                10,
+                14
+              ],
+              [
+                13,
+                14
+              ]
+            ],
+            [
+              [
+                11,
+                12
+              ],
+              [
+                11,
+                14
+              ],
+              [
+                12,
+                14
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              11,
+              12
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              10,
+              14
+            ],
+            [
+              12,
+              13
+            ]
+          ]
+        },
+        {
+          "vertices": [
+            15,
+            16,
+            17,
+            18,
+            19
+          ],
+          "edges": [
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ],
+            [
+              15,
+              18
+            ],
+            [
+              15,
+              19
+            ],
+            [
+              16,
+              17
+            ],
+            [
+              16,
+              18
+            ],
+            [
+              16,
+              19
+            ],
+            [
+              17,
+              18
+            ],
+            [
+              17,
+              19
+            ],
+            [
+              18,
+              19
+            ]
+          ],
+          "triangles": 10,
+          "literal_K4_K5": true,
+          "nu": 2,
+          "tau": 4,
+          "packing": [
+            [
+              [
+                15,
+                18
+              ],
+              [
+                15,
+                19
+              ],
+              [
+                18,
+                19
+              ]
+            ],
+            [
+              [
+                16,
+                17
+              ],
+              [
+                16,
+                19
+              ],
+              [
+                17,
+                19
+              ]
+            ]
+          ],
+          "cover": [
+            [
+              15,
+              16
+            ],
+            [
+              15,
+              17
+            ],
+            [
+              18,
+              19
+            ],
+            [
+              16,
+              17
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "independent_PK_controls": {
+    "K4": {
+      "maximum_packing_count": 4,
+      "records": [
+        {
+          "triangle_indices": [
+            0
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "permitted_cover_optimum": 2,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            1
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "permitted_cover_optimum": 2,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            2
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "permitted_cover_optimum": 2,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            3
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "permitted_cover_optimum": 2,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        }
+      ]
+    },
+    "K5": {
+      "maximum_packing_count": 15,
+      "records": [
+        {
+          "triangle_indices": [
+            0,
+            5
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            0,
+            8
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            0,
+            9
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            1,
+            4
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            1,
+            7
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            1,
+            9
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            2,
+            3
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            2,
+            6
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            2,
+            9
+          ],
+          "allowed_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            3,
+            7
+          ],
+          "allowed_edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            3,
+            8
+          ],
+          "allowed_edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            4,
+            6
+          ],
+          "allowed_edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            4,
+            8
+          ],
+          "allowed_edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            5,
+            6
+          ],
+          "allowed_edges": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        },
+        {
+          "triangle_indices": [
+            5,
+            7
+          ],
+          "allowed_edges": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "permitted_cover_optimum": 4,
+          "budget_2nu_pass": true,
+          "budget_2nu_minus_1_pass": false
+        }
+      ]
+    }
+  },
+  "process_receipts": [
+    {
+      "argv": [
+        "/usr/bin/clang",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "problems/TUZA-22/sources/claude/eq.c",
+        "-o",
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 30,
+      "elapsed_seconds": 0.10914000000047963,
+      "sampled_peak_process_tree_rss_kib": 54336,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "problems/TUZA-22/sources/claude/eq.c:35:9: warning: variable 'bit' set but not used [-Wunused-but-set-variable]\n    int bit=0; const char *p=s+1; int cur=0, k=6;\n        ^\nproblems/TUZA-22/sources/claude/eq.c:153:14: warning: unused parameter 'argc' [-Wunused-parameter]\nint main(int argc, char **argv){\n             ^\nproblems/TUZA-22/sources/claude/eq.c:153:27: warning: unused parameter 'argv' [-Wunused-parameter]\nint main(int argc, char **argv){\n                          ^\nproblems/TUZA-22/sources/claude/eq.c:123:13: warning: function 'enum_rec' is not needed and will not be emitted [-Wunneeded-internal-declaration]\nstatic void enum_rec(u128 used, u128 undecided, int cur){\n            ^\n4 warnings generated.\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.049663666999549605,
+      "sampled_peak_process_tree_rss_kib": 32,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=0\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.024888832995202392,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=0\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.024519291997421533,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=0\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.02620441699400544,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=1\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.02581191599892918,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.03102333399874624,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.026100457995198667,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=0\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.024972750004963018,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.025169792002998292,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.025507749989628792,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=1 tight_nonblock=0 slack_exactly_one=0\n"
+    },
+    {
+      "argv": [
+        "problems/TUZA-22/evidence/source_audit/claude_eq_original"
+      ],
+      "timeout_seconds": 5,
+      "elapsed_seconds": 0.028334500006167218,
+      "sampled_peak_process_tree_rss_kib": 0,
+      "rss_limit_kib": 2252800,
+      "status": "COMPLETE",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "graphs=1 tight=0 tight_nonblock=0 slack_exactly_one=1\n"
+    }
+  ]
+}

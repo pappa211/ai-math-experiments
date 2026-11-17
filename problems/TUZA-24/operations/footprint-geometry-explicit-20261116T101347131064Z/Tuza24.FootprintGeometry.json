@@ -1,0 +1,19 @@
+{
+  "module": "Tuza24.FootprintGeometry",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-24/.lake/build/lib/lean/Tuza24/FootprintGeometry.olean",
+    "problems/TUZA-24/Tuza24/FootprintGeometry.lean"
+  ],
+  "cwd": "problems/TUZA-24",
+  "lean_path": "problems/TUZA-24/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-24/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "96a9dcf33da56e0eecc484698e1a033012b0715e2223aaba5405460f247d6240",
+  "elapsed_seconds": 1.1231210410187487,
+  "peak_process_tree_rss_bytes": 1709244416,
+  "exit_code": 0,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T10:13:48.254366+00:00"
+}

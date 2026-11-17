@@ -1,0 +1,517 @@
+[
+  {
+    "mission": "TUZA-20",
+    "script": "checks/verifier_exact.py",
+    "script_sha256": "7c3287026d86ac60ec563e88c4eb1b3023b21f6a548bff3f937d8e94835a46a1",
+    "argv": [
+      "python",
+      "checks/verifier_exact.py",
+      "controls"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.06974537498899736,
+    "peak_tree_rss_bytes": 6782976,
+    "log": "logs/TUZA-20-verifier_exact.log",
+    "fresh_json": [
+      {
+        "path": "receipts/verifier_controls.json",
+        "sha256": "4d51cef4b8345def02e9c8c0ecd169be6243122406af4f981ec803442ff71e0d",
+        "status": null
+      },
+      {
+        "path": "data/verifier_controls.json",
+        "sha256": "da925871fa7e75bc0445900676bd8be3d3b436beb267e09290e54c353c8ded67",
+        "status": null
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-20",
+    "script": "checks/verifier_candidate01.py",
+    "script_sha256": "239f455397ea32c00a9aac139e3fcb7ea4f4039ee8026bb3cc49b5bda5f6acb4",
+    "argv": [
+      "python",
+      "checks/verifier_candidate01.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.9693333329923917,
+    "peak_tree_rss_bytes": 22052864,
+    "log": "logs/TUZA-20-verifier_candidate01.log",
+    "fresh_json": [
+      {
+        "path": "receipts/verifier_candidate01.json",
+        "sha256": "c827ff2a03e50da72a2922a39c01286647a11c0ed95cf31d6ee7f9a0de6daaa5",
+        "status": null
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-20",
+    "script": "checks/verifier_candidate02_counterexample.py",
+    "script_sha256": "8eacea52cb7ced48ede197320eb424ba307efbd79460edd1a10e519a632470a7",
+    "argv": [
+      "python",
+      "checks/verifier_candidate02_counterexample.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.7602122089883778,
+    "peak_tree_rss_bytes": 91308032,
+    "log": "logs/TUZA-20-verifier_candidate02_counterexample.log",
+    "fresh_json": [
+      {
+        "path": "receipts/verifier_candidate02_counterexample.json",
+        "sha256": "5b25c6e955d5f4806c8f33e15011272c27f03167be9d1c802c6bc3a648a1e680",
+        "status": null
+      },
+      {
+        "path": "data/verifier_candidate02_counterexample.json",
+        "sha256": "ed4dfa7bb56d74486231cd60426ee9dc94e32b23e6aad68341838548dbeeb585",
+        "status": null
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-21",
+    "script": "scripts/book_verify.py",
+    "script_sha256": "2557f41fd684e6fa2affdc849fb2441af78cb798e342515f03c646b7b9118343",
+    "argv": [
+      "python",
+      "scripts/book_verify.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.2001498749887105,
+    "peak_tree_rss_bytes": 20185088,
+    "log": "logs/TUZA-21-book_verify.log",
+    "fresh_json": [
+      {
+        "path": "results/book_verification.json",
+        "sha256": "9010f4fe6021926a60050395646008d154f058c366a956b16ddbacb73ac818eb",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-21",
+    "script": "scripts/book_clebsch_private_verify.py",
+    "script_sha256": "28d8989f901428cbd19674b7fb3c1b3eed6327aa68c1cede8886ff5ac6115ab1",
+    "argv": [
+      "python",
+      "scripts/book_clebsch_private_verify.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.3941667500184849,
+    "peak_tree_rss_bytes": 18530304,
+    "log": "logs/TUZA-21-book_clebsch_private_verify.log",
+    "fresh_json": [
+      {
+        "path": "data/book_clebsch_private_certificate.json",
+        "sha256": "995e890b26bbd1cfd1931b5aef8e4cabfff6fe89937956de8bd34b5bedd129d0",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-22",
+    "script": "scripts/coordinator_p6_interface_validator.py",
+    "script_sha256": "185ca17492f7adad4ee0a0f9ee172717527864d93208cbd97f20ed6878f755a2",
+    "argv": [
+      "python",
+      "scripts/coordinator_p6_interface_validator.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.2684115419979207,
+    "peak_tree_rss_bytes": 48562176,
+    "log": "logs/TUZA-22-coordinator_p6_interface_validator.log",
+    "fresh_json": [
+      {
+        "path": "evidence/coordinator_p6_interface_validation.json",
+        "sha256": "b5da35c8cf0a36898276fdc3acf25932c4b7cf145ff2a9af05448fd0e30172b4",
+        "status": "INDEPENDENTLY_VALIDATED_FINITE_INTERFACE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-22",
+    "script": "scripts/coordinator_cycle_cover_isolate_validator.py",
+    "script_sha256": "1c2b5fcf57253bf128ca68ba0acc65c89a190a4f872ff9b92c66cd687da1f013",
+    "argv": [
+      "python",
+      "scripts/coordinator_cycle_cover_isolate_validator.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.5270382089947816,
+    "peak_tree_rss_bytes": 68239360,
+    "log": "logs/TUZA-22-coordinator_cycle_cover_isolate_validator.log",
+    "fresh_json": [
+      {
+        "path": "evidence/coordinator_cycle_cover_isolate_validation.json",
+        "sha256": "c310098c447cc5cd85417f56951ac0d1c972b24318397593b11f8c6ae9d3b87f",
+        "status": "INDEPENDENTLY_VALIDATED_FINITE_SUBDOMAIN"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-22",
+    "script": "scripts/coordinator_cycle_cover_complete_validator.py",
+    "script_sha256": "a3be6b0e95322530de498f9cf511a92d70940a1efec38e734587957edb338c7b",
+    "argv": [
+      "python",
+      "scripts/coordinator_cycle_cover_complete_validator.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.696579292009119,
+    "peak_tree_rss_bytes": 176537600,
+    "log": "logs/TUZA-22-coordinator_cycle_cover_complete_validator.log",
+    "fresh_json": [
+      {
+        "path": "evidence/coordinator_cycle_cover_complete_validation.json",
+        "sha256": "7cde7dc049416b914ff5e8046bc8c5a97420aadc55af8d0725bf1ef6c807975a",
+        "status": "INDEPENDENTLY_VALIDATED_COMPLETE_FINITE_INTERFACE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-22",
+    "script": "scripts/d_extension_independent_validator.py",
+    "script_sha256": "50e261ade86e5c6ac8762ee261241eedf76d2782389a630580fe39a035d8b9bd",
+    "argv": [
+      "python",
+      "scripts/d_extension_independent_validator.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.13687374998698942,
+    "peak_tree_rss_bytes": 20725760,
+    "log": "logs/TUZA-22-d_extension_independent_validator.log",
+    "fresh_json": [
+      {
+        "path": "evidence/d_extension_independent_verification.json",
+        "sha256": "55a84f373e0776232cebfce934c88ee5144c35417a922ddd86432809bd5fd46b",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-25",
+    "script": "scripts/critic_ring_check.py",
+    "script_sha256": "8baf62d3513beda3c5cd2ee47e6886042355905a425ca0e764a19c518ed8b3df",
+    "argv": [
+      "python",
+      "scripts/critic_ring_check.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.06960666598752141,
+    "peak_tree_rss_bytes": 6176768,
+    "log": "logs/TUZA-25-critic_ring_check.log",
+    "fresh_json": [
+      {
+        "path": "evidence/critic_ring_check.json",
+        "sha256": "e8daae8913c463a2d1c9b078c379460596874953f2110900c594b4c0f3d0682e",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-25",
+    "script": "reviews/critic_edge_exchange_check.py",
+    "script_sha256": "2e40a6ee2ad77b3120bff990daedde77baab7d19407db4f20bf9f3abe5991f4a",
+    "argv": [
+      "python",
+      "reviews/critic_edge_exchange_check.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.19449533300939947,
+    "peak_tree_rss_bytes": 23822336,
+    "log": "logs/TUZA-25-critic_edge_exchange_check.log",
+    "fresh_json": [
+      {
+        "path": "reviews/critic_edge_exchange_check.json",
+        "sha256": "709e4165718f27d10e08a03afae8f62cdddad77e945fb7552d07aa16bbec0c4f",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-25",
+    "script": "reviews/critic_matching_control.py",
+    "script_sha256": "eab5df8741129b5b3751304dc4adb93bda29219f1ee8c1283c9a6ec746f4010e",
+    "argv": [
+      "python",
+      "reviews/critic_matching_control.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.0657841669744812,
+    "peak_tree_rss_bytes": 5259264,
+    "log": "logs/TUZA-25-critic_matching_control.log",
+    "fresh_json": [
+      {
+        "path": "reviews/critic_matching_control.json",
+        "sha256": "b25ec4710087349dc88d8c57c0717099f3141908cc9d2db0e8d8341978a37f9b",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-25",
+    "script": "reviews/critic_bridge_check.py",
+    "script_sha256": "ee3290c4f29e8626e541c59e78ab08074132b6424fe4d89ad61dcba051a1a23c",
+    "argv": [
+      "python",
+      "reviews/critic_bridge_check.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.06973825002205558,
+    "peak_tree_rss_bytes": 5652480,
+    "log": "logs/TUZA-25-critic_bridge_check.log",
+    "fresh_json": [
+      {
+        "path": "reviews/critic_bridge_check.json",
+        "sha256": "ff767ea12136ebfd4f8856ba7bb386d1a1faa6378a414517365eea1fe8e89b93",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-25",
+    "script": "reviews/critic_role_check.py",
+    "script_sha256": "c167007334cc6602fc9b9a4b0e4b52e2575606a6f8e9482b0ba7cbe2012354d8",
+    "argv": [
+      "python",
+      "reviews/critic_role_check.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.06946370800142176,
+    "peak_tree_rss_bytes": 6995968,
+    "log": "logs/TUZA-25-critic_role_check.log",
+    "fresh_json": [
+      {
+        "path": "reviews/critic_role_check.json",
+        "sha256": "d9feb9b56a095ae8c258b3591c73c2917e3df5d3c54eafa472ffb19f5b484867",
+        "status": "UNSAT_EXHAUSTIVE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-25",
+    "script": "scripts/mixed_verify_named_interface.py",
+    "script_sha256": "d2b04fcee88588858609419a0dc7875513186bc64ca5127f1a705d873cd5749e",
+    "argv": [
+      "python",
+      "scripts/mixed_verify_named_interface.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 2.801298417005455,
+    "peak_tree_rss_bytes": 39419904,
+    "log": "logs/TUZA-25-mixed_verify_named_interface.log",
+    "fresh_json": [
+      {
+        "path": "evidence/mixed_named_interface_verification.json",
+        "sha256": "582946c2ed62344f4ce2a7891ec47dd958af175c0dbc388671faa72e78e4380c",
+        "status": "VERIFIED_FINITE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-25",
+    "script": "scripts/role_status_mock.py",
+    "script_sha256": "775544b1d734de80a32511a2cc011e8c8b37c0f10bfce5a07cad2b4a1633a0c5",
+    "argv": [
+      "python",
+      "scripts/role_status_mock.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.06958250000025146,
+    "peak_tree_rss_bytes": 6389760,
+    "log": "logs/TUZA-25-role_status_mock.log",
+    "fresh_json": [
+      {
+        "path": "evidence/role_status_mock.json",
+        "sha256": "1eebd1d297ccbeb1eb08fb27b38a7b025ed77d043ce976b3c68bd0770b3b6af1",
+        "status": "PASS_MOCK_CONTROL_FLOW_ONLY"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/opening_checks.py",
+    "script_sha256": "cabd16d8262ed2272cb390843a95643f62c014d277624e100f69a654ea7af44c",
+    "argv": [
+      "python",
+      "scripts/opening_checks.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.0324105829931796,
+    "peak_tree_rss_bytes": 28721152,
+    "log": "logs/TUZA-26-opening_checks.log",
+    "fresh_json": [
+      {
+        "path": "evidence/opening_checks.json",
+        "sha256": "d9c11a436f68d383048d3ac3d562e75398fcf42991f55045ad12614a66718745",
+        "status": "VERIFIED_FINITE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/opening_simplicial_internal.py",
+    "script_sha256": "e04a1f1fbb8000d4e7cf6de3134f6abc8eb658ad74e819e58c428412cf32f870",
+    "argv": [
+      "python",
+      "scripts/opening_simplicial_internal.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.07056095800362527,
+    "peak_tree_rss_bytes": 5357568,
+    "log": "logs/TUZA-26-opening_simplicial_internal.log",
+    "fresh_json": [
+      {
+        "path": "evidence/opening_simplicial_internal.json",
+        "sha256": "b33286d2cc2c9d6e118d36220808b36e216d1d5a219183ef5b90602ffd22f851",
+        "status": "VERIFIED_FINITE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/opening_matching_domain.py",
+    "script_sha256": "ccab6d3b7f90ba2e76bcf33210f4453189cc263dfe40bd07551ac6c1788f239d",
+    "argv": [
+      "python",
+      "scripts/opening_matching_domain.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.06933566700899974,
+    "peak_tree_rss_bytes": 5292032,
+    "log": "logs/TUZA-26-opening_matching_domain.log",
+    "fresh_json": [
+      {
+        "path": "evidence/opening_matching_domain.json",
+        "sha256": "d449547462b0672edc5337c8afb7951b46d1de6f0776b7cee1bbf8671cec513c",
+        "status": "VERIFIED_FINITE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/opening_p3_domain.py",
+    "script_sha256": "2f0edcc1108c55a602ada6aa0098612d90da85b17a5d75a16868ec1fa70687f9",
+    "argv": [
+      "python",
+      "scripts/opening_p3_domain.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.07001991602010094,
+    "peak_tree_rss_bytes": 6979584,
+    "log": "logs/TUZA-26-opening_p3_domain.log",
+    "fresh_json": [
+      {
+        "path": "evidence/opening_p3_domain.json",
+        "sha256": "147495e7c06c736979d97ec140885263df083ade31bfba76326b2d3d42d44215",
+        "status": "VERIFIED_FINITE"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/matching26_adjacent_replay.py",
+    "script_sha256": "705bcf61c60c7b9a58a0a65ecd175406ca68117ffaf28a32267c501aafdd15e6",
+    "argv": [
+      "python",
+      "scripts/matching26_adjacent_replay.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.33242391599924304,
+    "peak_tree_rss_bytes": 32784384,
+    "log": "logs/TUZA-26-matching26_adjacent_replay.log",
+    "fresh_json": [
+      {
+        "path": "evidence/matching26_adjacent_replay.json",
+        "sha256": "e32d729f4918ffecca73776fb45391cddad19c57a69474bd208fd6a604170c16",
+        "status": "PASS_COMPLETE_INDEPENDENT_DOMAIN_AND_WITNESS_REPLAY"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/opening_triangle_replay.py",
+    "script_sha256": "ccc595acd726e453dac4d961ea8e1a7b8693059bcf0b083f5d64522e467bc76b",
+    "argv": [
+      "python",
+      "scripts/opening_triangle_replay.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 1.3718107909953687,
+    "peak_tree_rss_bytes": 33636352,
+    "log": "logs/TUZA-26-opening_triangle_replay.log",
+    "fresh_json": [
+      {
+        "path": "evidence/opening_triangle_replay.json",
+        "sha256": "a137ae4fe32fca97fb42f54f4b7a373f647abfcb1de3ad421cc36fe2a9d5f461",
+        "status": "VERIFIED_FINITE_INDEPENDENT_REPLAY"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/matching26_book_controls.py",
+    "script_sha256": "7992696d0a53454fe7d5e68e5a9c91c550855ec2f93bc859fb5b00dbb27d39d1",
+    "argv": [
+      "python",
+      "scripts/matching26_book_controls.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.13576137501513585,
+    "peak_tree_rss_bytes": 28049408,
+    "log": "logs/TUZA-26-matching26_book_controls.log",
+    "fresh_json": [
+      {
+        "path": "evidence/matching26_book_controls.json",
+        "sha256": "6f3f622690fdb1e136cd8cc72e906254632687ec71d927d2b018198d4038c438",
+        "status": "CERTIFIED_PRESCRIBED_BOOK_CONTROLS"
+      }
+    ]
+  },
+  {
+    "mission": "TUZA-26",
+    "script": "scripts/opening_cover_operation_controls.py",
+    "script_sha256": "f0ac6e3e8b9964ace78731724df60a48bf522344b02e59be3ce9c5930d157829",
+    "argv": [
+      "python",
+      "scripts/opening_cover_operation_controls.py"
+    ],
+    "exit_code": 0,
+    "limit_reason": null,
+    "elapsed_seconds": 0.06875370899797417,
+    "peak_tree_rss_bytes": 5931008,
+    "log": "logs/TUZA-26-opening_cover_operation_controls.log",
+    "fresh_json": [
+      {
+        "path": "evidence/opening_cover_operation_controls.json",
+        "sha256": "1b9a8927bd9bb11bdb0c9465d2d58608eca5227a8823a6b619255cd120bd4037",
+        "status": "VERIFIED_FINITE_PRESCRIBED_CONTROLS"
+      }
+    ]
+  }
+]

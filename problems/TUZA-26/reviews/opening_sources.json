@@ -1,0 +1,1015 @@
+{
+  "created_utc": "2026-11-16T20:56:07.258463+00:00",
+  "scope": "Files read and relied on or consulted in the independent opening audit, including the subsequent saturation review; no modification of shared SOURCE_INTEGRITY. Current-campaign proof/clock are mutable and are bound only to these reviewed bytes. Earlier source HEADs and clean states were independently observed.",
+  "sources": [
+    {
+      "path": "PRIVATE_PATH_REMOVED",
+      "sha256": "ce1f13146460d47c74fe6c9fa85d10e44cbec0a865eacc35a314141dc1a9678d",
+      "bytes": 2290,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "PRIVATE_PATH_REMOVED",
+      "sha256": "2c03ccaa9d141b16ae76caaaa8d143838d9a02c4f2bdb5a3209634f6613a32fe",
+      "bytes": 11003,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "PRIVATE_PATH_REMOVED",
+      "sha256": "3057cc5569183c85f9ebb756da24754ae2c6e26f20db3bd1564821cf593fb494",
+      "bytes": 19538,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "PRIVATE_PATH_REMOVED",
+      "sha256": "00a6e964c0f1cbe0c277b210230fa14e40927b0081dd12a8d98031ddc6e83f68",
+      "bytes": 712,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "PRIVATE_PATH_REMOVED tekst.txt",
+      "sha256": "18c34ff12e583d708f25b3d388fab049fc1acd217022cf901a632a4be0ffaf7a",
+      "bytes": 30623,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-26/operations/clock.json",
+      "sha256": "3479f697c22293331527fbd635865ca4485fe12531ecc109e59b40218b91aafe",
+      "bytes": 909,
+      "role": "current_campaign"
+    },
+    {
+      "path": "problems/TUZA-26/notes/eligibility_saturation_v1.md",
+      "sha256": "1f0cd69bb1f9d79b65d1e288e9a7ac5585838e6f9bbfe9ba31170069fd42d15e",
+      "bytes": 8823,
+      "role": "current_campaign"
+    },
+    {
+      "path": "problems/TUZA-25/AGENTS.md",
+      "sha256": "94789f59af0bc05f810e7ea5e1f6914976f7cff6963f1520605af6ea39b5bb6c",
+      "bytes": 604,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/PROOF_CHAIN.md",
+      "sha256": "3a4a16e6f7eed71ed7db54c48be4771f01321c54a1ab4c52bc840e0970efa4e6",
+      "bytes": 15329,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/REPORT.md",
+      "sha256": "74928c7b02b2dfd7c3aaf4460d400c9a1e9fb596991cca8e798912d1c845b0f8",
+      "bytes": 14546,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/STATUS_MATRIX.json",
+      "sha256": "28c57b17ae1589f0ba2bb2170703111aba623a62a6e9e30eb528d2bd596dbb06",
+      "bytes": 15630,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/ADVERSARIAL_REVIEW.md",
+      "sha256": "e1b3481f116198c640464c6522fe53b8299d0b4af2dead66b64d4ccfac989fd5",
+      "bytes": 6206,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/REPRODUCTION.md",
+      "sha256": "2db24571fe02ab61ad4afee914f8d06742f0ecc6d03c036f0cffba161697a089",
+      "bytes": 4632,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/HYPOTHESIS_QUEUE.md",
+      "sha256": "cfe98a01a5db84ddf8a92c80acfebd2e9f3dd3a2ddedab97c05815f3fb940ffc",
+      "bytes": 10645,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/notes/mixed_named_matching_reconstruction_frozen.md",
+      "sha256": "916d639d5951a2fa3a0913a52b63285295750975d937b90d550b57e7195f688e",
+      "bytes": 7298,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/notes/mixed_matching_deletion_resilience_frozen.md",
+      "sha256": "bd3ce02a815ac54540c3f95bc55907dec2e8f32f957f769a7177c8916ebee12c",
+      "bytes": 7159,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/notes/mixed_critical_edge_addendum_frozen.md",
+      "sha256": "69e52ea56e9d58c9217f6016b4871bf6a503dcf9a17326c05b1b2661206a6017",
+      "bytes": 6163,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/notes/mixed_residual_bridge_frozen.md",
+      "sha256": "ce7d096da7b2d00e32001fad34cece9b2e7a516864121eb776c6f9a1c1914e3d",
+      "bytes": 9110,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/notes/residual_matching_component_confinement.md",
+      "sha256": "18834cbf2159411947e6086e172fe2a934b25a086f5d7a028ce7b2894ed71abc",
+      "bytes": 7209,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/notes/residual_family_freeze.md",
+      "sha256": "c9324eb673cd2f175fc1044dcfe747c51c50d7ec45228f4cc5f6aa402baa89db",
+      "bytes": 3926,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/notes/residual_independent_star_avoidance.md",
+      "sha256": "04a952708b52d068d7bcac061212156ac37a0cc8b6a2fcd93e5ce823cfe51b84",
+      "bytes": 3654,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/scripts/mixed_verify_named_interface.py",
+      "sha256": "d2b04fcee88588858609419a0dc7875513186bc64ca5127f1a705d873cd5749e",
+      "bytes": 3175,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/scripts/residual_family_certificates.py",
+      "sha256": "2620de8e48af2c25833012ddb01fa459cd89c48408a3e6978a3906cd52233fd3",
+      "bytes": 1653,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_named_matching_reconstruction.md",
+      "sha256": "7d0504c06c09825794a95232f473429f4589e949b0fca5950ace13dad6836454",
+      "bytes": 6868,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_matching_deletion.md",
+      "sha256": "381d1e3af633eb6ab7783741966f499973f0b1ffa67c04d7054326931078c242",
+      "bytes": 7095,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_leaf_profiles.md",
+      "sha256": "0b1719c60808ee916daa87859ec26dc4d5d410dc4daad155a2a529fdf35d239b",
+      "bytes": 6367,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_edge_exchange.md",
+      "sha256": "7f5d750be15effa81e12fd99009477896a05f5fb8ea370d28d5014d300c810b3",
+      "bytes": 6463,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_leaf_bridge.md",
+      "sha256": "37567d3ec9631810c43793f189ed3693a7d91e4a018516b6aef69c9ef5c5ee3b",
+      "bytes": 5988,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_matching_components.md",
+      "sha256": "a2c0cdd60fbbe57de50fb6f1927434e80ac4407d91ba60db81e4285ab21153e8",
+      "bytes": 5567,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_defect_two_deletion.md",
+      "sha256": "1eb5d3590edcbcc688da91428120a4b072833cbdc7813469baffe61337ce7870",
+      "bytes": 5800,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_edge_exchange_check.py",
+      "sha256": "741556bda8a0e3e52771a764a8851d5f584010b5fbfb1333fb112a998427f328",
+      "bytes": 9529,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_matching_control.py",
+      "sha256": "eab5df8741129b5b3751304dc4adb93bda29219f1ee8c1283c9a6ec746f4010e",
+      "bytes": 1913,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/evidence/residual_edge_exchange_seeds.json",
+      "sha256": "eae0cea592aa0bbcb2b8c1fe3bcdfe596474a0238095cbf8db451fbf3d3af2d7",
+      "bytes": 11931,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-25/evidence/residual_edge_exchange.json",
+      "sha256": "c41ce23ae75b0e0bfde55768ab30ba30ac8b81366ebcbc5fbe8e344ad26e5738",
+      "bytes": 366329,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-22/notes/resilient_defect_one_two_edge_B_classification_v2.md",
+      "sha256": "95cc1d7859c32dc275e7766bfd139336a501b90513c16edac60b9e4615b53124",
+      "bytes": 9893,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-22/notes/r2_proof_v1.md",
+      "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13",
+      "bytes": 7774,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-22/notes/three_star_edge_restoration_v1.md",
+      "sha256": "d5ceac18fb352cecf785237ca3c7d88a8c446730f2ee92b93a1e814941ebccb6",
+      "bytes": 6127,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-22/notes/three_edge_restoration_full_cs_v1.md",
+      "sha256": "fba3658d1e537bd0a382f87a72971186fab892a1ba8772598de6b809d0f961e4",
+      "bytes": 9015,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-22/notes/coordinator_defect_one_triangle_restoration_alternative_v1.md",
+      "sha256": "7a017a956bd731242b2b578fa1447ec93b029fc37ea2153d1fd113ae5177d71c",
+      "bytes": 4722,
+      "role": "frozen_source_or_rules"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_three_star_defect_one_v1.md",
+      "sha256": "b2a2c1624b7494cc7a65afc56fbc2a857c677b526c19c106286daa467ec8a386",
+      "bytes": 9356,
+      "role": "current_campaign_reviewed_star_proof"
+    },
+    {
+      "path": "problems/TUZA-26/notes/blocker_triangle_shape_v2.md",
+      "sha256": "483f11b9d7cf740990956964b796d306652ae57494899b4ec67c2f4f4d19a8ab",
+      "bytes": 4238,
+      "role": "current_campaign_reviewed_triangle_proof"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_three_star_defect_one_v2.md",
+      "sha256": "18b04ab57c8b15c0ef8d9b81db051bc01fb6ea60d6e4e6305b582e0f3462a354",
+      "bytes": 9638,
+      "role": "current_campaign_accepted_star_v2"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_three_path_defect_gap_v1.md",
+      "sha256": "881e2bf60939a7017f1fc63298a35d16866be2af4e703cc4015027dae6ccb3ef",
+      "bytes": 8667,
+      "role": "current_campaign_reviewed_P4_proof"
+    },
+    {
+      "path": "problems/TUZA-26/notes/no_blocker_triangle_residual_v1.md",
+      "sha256": "1b8687398d782e8e31c5da2048abe1511ffefe77e15fbd9fa51620ad27f61e49",
+      "bytes": 3113,
+      "role": "current_campaign_reviewed_no_blocker_proof"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_three_connected_exclusion_v1.md",
+      "sha256": "a592cd8fdfcc534e2292f14b0b10c24527403597ad18d5375c73ff6d24407f52",
+      "bytes": 10940,
+      "role": "matching_or_wedge_review_dependency"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_terminal_confinement_v1.md",
+      "sha256": "3abdfc2def6e00dbfe361de5dc64b31bf8826a1024158d575197869832392836",
+      "bytes": 3058,
+      "role": "matching_or_wedge_review_dependency"
+    },
+    {
+      "path": "problems/TUZA-26/scripts/matching26_bare_skeletons.py",
+      "sha256": "6ecd380c0e94837c0d401b3a50a1ed2202b441c4f74ef6395d72ef592639fccc",
+      "bytes": 4130,
+      "role": "matching_or_wedge_review_dependency"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/matching26_bare_skeletons.json",
+      "sha256": "55ca158c121cbd981ed7d49fe1b402836a3396adfcd1d09f26f16c1932a15330",
+      "bytes": 26950,
+      "role": "matching_or_wedge_review_dependency"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_wedge_reduction_v1.md",
+      "sha256": "a468b591706ec9b4850cd93ede312679ecefb88a187b1befa0fc403d2eeaece5",
+      "bytes": 8660,
+      "role": "matching_or_wedge_review_dependency"
+    },
+    {
+      "path": "problems/TUZA-22/notes/three_matching_edge_restoration_v1.md",
+      "sha256": "ebfa415056ec7cb38f4beb3a357b13dee4242c90066e12892eb722431a677f01",
+      "bytes": 5961,
+      "role": "matching_or_wedge_review_dependency"
+    },
+    {
+      "path": "problems/TUZA-25/notes/critical_adjacent_edges_frozen.md",
+      "sha256": "3851774a1a4daae047b992de3efbc90ef03de1db0e61a00e565bb30c0ac35c05",
+      "bytes": 4833,
+      "role": "matching_or_wedge_review_dependency"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_disconnected_path_classification_v1.md",
+      "sha256": "bee7b62c21de17c4bcde1223fae6ba3386bd3309c5aa20f6a2c7e4295cfc1fb8",
+      "bytes": 14864,
+      "role": "P3_simplicial_leaf_prerequisite"
+    },
+    {
+      "path": "problems/TUZA-26/scripts/matching26_disconnected_path_geometry_v2.py",
+      "sha256": "989c25a1f4bd973e894dc80cac171ed51a65bb27e528a3cea068c2a9d6b35cba",
+      "bytes": 4384,
+      "role": "P3_simplicial_leaf_prerequisite"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/matching26_disconnected_path_geometry_v2.json",
+      "sha256": "8e2093e4069d6cdf5d744f702250ca8f3213455ad8b2169a8361f91e94359a99",
+      "bytes": 194529,
+      "role": "P3_simplicial_leaf_prerequisite"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_simplicial_reduction_v1.md",
+      "sha256": "6a0f32d7d0c1498a4f82a27a7dd2c6b29789f619590f5b9acbb883cab715ce25",
+      "bytes": 14334,
+      "role": "P3_simplicial_leaf_prerequisite"
+    },
+    {
+      "path": "problems/TUZA-26/scripts/apex_simplicial_internal_checks.py",
+      "sha256": "aca47f7eb9e2b13c14c2195027be0678f457d845d1586a3d6855958dcd7f30ea",
+      "bytes": 1699,
+      "role": "P3_simplicial_leaf_prerequisite"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/apex_simplicial_internal_checks.json",
+      "sha256": "04afdbda801318a6c7adaa8b867a2558c609ad2206d5c2293d98fb2843ffa599",
+      "bytes": 96844,
+      "role": "P3_simplicial_leaf_prerequisite"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_k5_triangle_leaf_v2.md",
+      "sha256": "f2f2a16eb2c4869023ab3da62b2a4f4c36ef99155d3d1284198259abf6bf3341",
+      "bytes": 10356,
+      "role": "P3_simplicial_leaf_prerequisite"
+    },
+    {
+      "path": "problems/TUZA-22/notes/defect_one_fresh_clique_tree_classification_v1.md",
+      "sha256": "65537b924e3f2b2e4a97ecadf08ccc0f79a6c2c97e173b651fb0394ff7dd6310",
+      "bytes": 9062,
+      "role": "P3_simplicial_leaf_prerequisite"
+    },
+    {
+      "path": "problems/TUZA-26/notes/two_edge_tight_boundary_v2.md",
+      "sha256": "462f0006b84cd6b9dea8b2b3606433bb333ebde16abfb78b370fc52df6a0dc8e",
+      "bytes": 9958,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/notes/adjacent_blocker_tight_pieces_v1.md",
+      "sha256": "125b22d49cbd0047f70f52e52f97fb959907b637b16ba0b822b50f500a2c8d8d",
+      "bytes": 5721,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_opposite_boundary_closure_v1.md",
+      "sha256": "2bc6ccd5f6a591b4f9f4a6a342f8793e007496089d917b72ecb72d5eca16f90e",
+      "bytes": 9132,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_disjoint_blocker_reconstruction_v1.md",
+      "sha256": "55abd283aee2535f7363a554512df6117397a87e6cd7b299a6f47bdfe55bb319",
+      "bytes": 10932,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_adjacent_interface_domain_v1.md",
+      "sha256": "63981c5c4a74ecf5b51dd9b8bf2c08f374be93490461a092f13138a8a725bad6",
+      "bytes": 3803,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_adjacent_vertex_domain_v1.md",
+      "sha256": "e0e18239c5fc978e1e68fd4d44efad79f7cffa6dc9cca6ee2884923a292b72a4",
+      "bytes": 8305,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_adjacent_interface_result_v1.md",
+      "sha256": "3a02e3129a0c81a05be053cb9d07abcbe5da08d93dabb2958aa6f4e53890ab40",
+      "bytes": 3533,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/reviews/apex_boundary_review.md",
+      "sha256": "5eaa34f1abde773694d2e267d61e4b5e72e5668eb43fb91007f3e2cffb2ff70d",
+      "bytes": 6798,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/reviews/apex_opposite_boundary_review.md",
+      "sha256": "db21c2a3f8b29d394578d689f824c91f20d7203d1566c8afe921d07457857e43",
+      "bytes": 5713,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/reviews/apex_disjoint_reconstruction_review.md",
+      "sha256": "98628360af3cdff01a8d9eb2c09f2df39db537c40c52151afca9d6e96dd290e0",
+      "bytes": 6167,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/reviews/apex_adjacent_boundary_review.md",
+      "sha256": "a2af2d197041c7ed9a1c9df06e5e1f703aedc00f6d447196f0c7f466a0780fba",
+      "bytes": 3413,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/reviews/matching26_adjacent_interface_review.md",
+      "sha256": "fc7c19322a8ae6c28b9ca7541d0b0405d85d4be336c34dbb31d82feb3f2d3499",
+      "bytes": 11736,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/matching26_adjacent_replay.json",
+      "sha256": "8d641c4c0e0eeeadbad7d533bdef13736e651b0dd306a0c6155eb04c5f5d2f13",
+      "bytes": 1133676,
+      "role": "composition_dependency_or_independent_review"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_triangle_edge_B_exclusion_v1.md",
+      "sha256": "ebad542d5e946ac6fef858a1da26883074b53678321ca1d73a6d3eda9e66c674",
+      "bytes": 13152,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/triangle_residual_frontier_v1.md",
+      "sha256": "e41268a897e1e875e1b1411a70b96645abe6dbbc14173265956229f1afa24673",
+      "bytes": 4564,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/scripts/apex_triangle_edge_control.py",
+      "sha256": "77d21e6d2f254d2908add2c9498e877baf640eb311cd1e92bdd7332977817993",
+      "bytes": 1513,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/apex_triangle_edge_control.json",
+      "sha256": "dffeab9322da0a8a81c3fdbd896cb66395e2df38c8d86aef9321bd1fab099007",
+      "bytes": 110002,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/reviews/opening_composition_review.md",
+      "sha256": "7bc1d773a33c52ebbd88be077bf07d4a0be9d1e97c95ab4cee31d2c579b9b5f6",
+      "bytes": 10659,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/single_deletion_connected_defect_two_v1.md",
+      "sha256": "d1323c858e1c1651f0242ff1335f6011089772a4410b491885cf11413ac5d38e",
+      "bytes": 6431,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_triangle_residual_domain_v1.md",
+      "sha256": "612cdb1dd9083dce9dd5bd80e298633af296b67bcc28c5f064a1a3e52ec8fdd1",
+      "bytes": 8221,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_triangle_residual_result_v1.md",
+      "sha256": "6834cbd71e9600a04bdfa89cad8613f5a3bd44a657155e3c61d1116556b57926",
+      "bytes": 5835,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/inputs/C12_frozen.json",
+      "sha256": "eae0cea592aa0bbcb2b8c1fe3bcdfe596474a0238095cbf8db451fbf3d3af2d7",
+      "bytes": 11931,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/opening_checks.json",
+      "sha256": "c838e6bb94c9bcfad9ea523f599897d856f576b418cab2264ac873e759e08f2a",
+      "bytes": 324449,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/matching26_triangle_domain.json",
+      "sha256": "17c552385b8d60cf830693daa0a2f9bb3bf9010447e2d1d6f72dc64404a75240",
+      "bytes": 2294771,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/matching26_triangle_cover_certificates.json",
+      "sha256": "82913ed5901491ba72c4b5e8ba099a48ccc740bf65c7cf821e21cf31c01574ec",
+      "bytes": 159056,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_two_active_triangle_domain_v1.md",
+      "sha256": "31f3777979b05c6c923c20ef8e44c47ef56eec9054ed0712383a86ad93a0c769",
+      "bytes": 13601,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_two_active_triangle_domain_v2.md",
+      "sha256": "cec7298baeddb12cd4e57d41d24d5d966fb7cd0b4dbfdfa84f0f1d9fc138aba0",
+      "bytes": 13796,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/defect_zero_triangle_exclusion_dependency.md",
+      "sha256": "100ef1ce40c86154e69ebb97a633ceac4c9b9e31d26c07153fbff64d2f125b90",
+      "bytes": 2073,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_codegree_two_cover_exchange_v1.md",
+      "sha256": "2784d72dbb82ac389d70af37fc7a7b7dad963aac75c0c5031468d42223573922",
+      "bytes": 8284,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_book_exchange_v1.md",
+      "sha256": "e0ac6af231f00b7da68bc6a341208d8f318ac268784c729dce6bfb7967d0c25c",
+      "bytes": 8496,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/double_cone_C5_cover_control_v1.md",
+      "sha256": "7a0e0ce26c974a4e0beb85323a04af75a1affe4abc049044c68b3378538c5db8",
+      "bytes": 4375,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/double_cone_C5_control.json",
+      "sha256": "e630287110c8505e91afe3bb8606fe7f283bdbdc7b96135f6676c7529565e569",
+      "bytes": 56967,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/matching26_book_controls.json",
+      "sha256": "df908fe7a4870e2806630cf7eceba841ee3ce6115b177a38ee72850638b26d9c",
+      "bytes": 54554,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_book_exchange_v2.md",
+      "sha256": "cb501bb2ea47b0ad3f6bc55550088fa4bc743fd12bfffb83641ab2ea1895b282",
+      "bytes": 8959,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_marked_strip_augmentation_v2.md",
+      "sha256": "b1c9d183cbd242c760677600867e9a25752dcdb9b6235e23b4581df8cb28bad7",
+      "bytes": 6147,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_full_disagreement_cover_operation_v1.md",
+      "sha256": "abda1ab37997115b06cc60c61328552756502f79038645750c03a1930a38c384",
+      "bytes": 5250,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_two_hub_strip_payment_v1.md",
+      "sha256": "79aaea4692037759a9912b73d5f3eac9c6afaf0a690cc85e61c08a8283dfca3b",
+      "bytes": 5581,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_strip_crossing_repair_v1.md",
+      "sha256": "2d3f3b85240e1e309ef35d8e104dfb648f78407a1672e66c2d2c9b13dbfb034f",
+      "bytes": 9104,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_local_cap_augmentation_v1.md",
+      "sha256": "fb1f9307be2f15ec6c393eb8a630817c815bf7985ab2d40aaf55e0f674b6ecea",
+      "bytes": 6905,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_degree_four_cap_descent_v1.md",
+      "sha256": "e1e0a0f4d04d9daa54c8fd19db0c3e04a7fdfa78c608095a1a3d14ed8ea4f969",
+      "bytes": 10996,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/scripts/apex_degree_four_cap_control.py",
+      "sha256": "168075c79145e0b3129e40712df55e7bbd12019688cfe1f29856f187d39ffb28",
+      "bytes": 2289,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/evidence/apex_degree_four_cap_control.json",
+      "sha256": "14615700e0a8ade481389e238ee36aedfb0b304e58509b5fc4d77663382a799c",
+      "bytes": 48699,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_endpoint_link_operations_v1.md",
+      "sha256": "bd036561b1f7ce72e97584ee541105b12ce20be51b21e4a99b81c381f834f901",
+      "bytes": 8148,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_one_outside_triangle_repair_v1.md",
+      "sha256": "016bc719e8a5018972fd616932938c4f78d8ca18eb8b7d9df3808cfcb473ade0",
+      "bytes": 6102,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/degree_four_cap_critical_wedge_v1.md",
+      "sha256": "1c30d689d579447b7e365760c85f6a2070eea19fd292aa8d2eac42ca0719b716",
+      "bytes": 6355,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_simplicial_degree_four_v1.md",
+      "sha256": "ede56a2355489d0708f31bb44a2f1fe5d56d0ca54c6b0b0a32c437204d242930",
+      "bytes": 8312,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_simplicial_four_opposite_resilience_v1.md",
+      "sha256": "677563a9299442b16f4dd53b61df8a51eab6177b39b3f377b6b0fec9c47144f0",
+      "bytes": 9640,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_two_edge_critical_wedge_background_v1.md",
+      "sha256": "f003e80f01ed324093a7c9fc805cbc7cc56affbee38c9b5b7191a1819767d7e3",
+      "bytes": 8266,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_critical_wedge_same_edge_v1.md",
+      "sha256": "25f489b38510129da74f2225aa4915ab62802eea2e3d8dbfebe4779d0403e90d",
+      "bytes": 5703,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/degree_four_cycle_link_v1.md",
+      "sha256": "ea0c9644a97ee4d5778574d0d3b060a3f8580064eb210b1dec86b56b9c7a0876",
+      "bytes": 5621,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_simplicial_four_named_reconstruction_v1.md",
+      "sha256": "a184587b014c9adba7237b7aa6fdfe9587d2b3a472fb9495e9f11fe19ab7285e",
+      "bytes": 8130,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/k5_three_edge_path_boundary_v1.md",
+      "sha256": "ee0f7612099879f15d489c530cb505400bc33d0ca2d0801fcfb22bf2edace8eb",
+      "bytes": 5205,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_k4_triangle_boundary_v1.md",
+      "sha256": "b5b55a83b1866c4fcffa5dff81f11070269643693c4ee2fc9bf798e8c09132af",
+      "bytes": 2056,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/degree_four_cycle_named_reconstruction_v1.md",
+      "sha256": "4612022b3f03b0200fbce63f1085b59e2789a5ec135e11567513fa18b693ee61",
+      "bytes": 5188,
+      "role": "current_campaign_reviewed_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_diamond_degree_four_resilience_v1.md",
+      "sha256": "6244176a604ca91f7e065fa5280cf297909b3c5928c7d05eb6ae1ea3b4ef7259",
+      "bytes": 10382,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_diamond_opposite_augmentation_v2.md",
+      "sha256": "2aae53ccbb6ed3deb32aeddb2fb4f3030dc0eed4ca6a0e2b29aa73a516f08ef9",
+      "bytes": 4788,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_diamond_neutral_named_reconstruction_v1.md",
+      "sha256": "ad327e82f2e7f54f3c62badc49dde01a0a84b72abe399bec52af1aaeb0ebab64",
+      "bytes": 8396,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_critical_wedge_wheel_classification_v1.md",
+      "sha256": "74eb91a9181e640c7228018b07352e1f18bc6c6ca16899caa6a32aa5fefa316d",
+      "bytes": 9246,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_wheel_rim_q_payment_v1.md",
+      "sha256": "ad32d9d00da905ad4803697cf5e7ac07fe43ac78f274309403e9f48cd571fc36",
+      "bytes": 10051,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_two_hub_neighborhood_fragile_v1.md",
+      "sha256": "ef1e26e8c347495e3d30bb579e6d12a2608dffef8982c11fb20f44cd5bd2a4f6",
+      "bytes": 8376,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_two_hub_named_reconstruction_v1.md",
+      "sha256": "5a75bb989d73dfe8d7e8b1e5659bb8eedb150ea67a1fb353a05f6986bf986c25",
+      "bytes": 16087,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_two_hub_small_fragile_v1.md",
+      "sha256": "37cb7a91c3c3555732804831f64f65e87b4c2194ffb36a322b4b663d078df02e",
+      "bytes": 14953,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_release_set_compression_v1.md",
+      "sha256": "1f88815e6b058baad9f9fce5982029cc63b089fe1641f7c773ae2f70f13bce2b",
+      "bytes": 7071,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_outside_hub_repair_v1.md",
+      "sha256": "02b5f7bd5f378197a6f6db231453ea95ea14d265fef7dd264f6d1105a454955e",
+      "bytes": 7698,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_doublecone_exchange_diagnosis_v1.md",
+      "sha256": "0e6cfad44d43e78eb9165bda65ab241eff142e61da35f45a1fbcf93f352285b3",
+      "bytes": 4513,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_one_unit_cover_exchange_v1.md",
+      "sha256": "4864911a112eba43087d75238a668710b57eaac222972c5c7c3129ecd7635aaa",
+      "bytes": 6668,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_canonical_outside_packing_v1.md",
+      "sha256": "337743ea3a7cf525f8d95f195afba3c913f3af7a9a5dfa58a473034db6ca7dbe",
+      "bytes": 6907,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_missing_edge_triangle_surplus_v1.md",
+      "sha256": "013909b8e103abb4883195f3bea84674fea5dc35d6eccc336b2e90683bc61510",
+      "bytes": 5648,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/arbitrary_book_release_compression_v1.md",
+      "sha256": "019b234fb7bac2ee1637847839986d0311c857d045ef0d3a69425cb8dd5e2659",
+      "bytes": 6342,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_empty_link_defect_two_descent_v1.md",
+      "sha256": "afbdc0ccc8b01057ed649cf39cfbad57a1bda231182737b1ebc4c5090ef1762b",
+      "bytes": 6856,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_empty_link_multiple_page_reduction_v1.md",
+      "sha256": "153bb281620cce51e5279559487adaa5f13af0c4a60826322d6135cbdaeff19c",
+      "bytes": 6980,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_arbitrary_book_crossing_switch_v1.md",
+      "sha256": "370f0033adabce2aadb7744739cf72b9a12ba5534ca175020d6bfe8e41d98f81",
+      "bytes": 6515,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/reviews/root_exact_codegree_two_review.md",
+      "sha256": "765cf10f86e9ac67065c900d81c77fcebd680c199d7a0bc5c28a41142df34f09",
+      "bytes": 1969,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_two_edge_critical_envelope_v1.md",
+      "sha256": "9eba758fbf7146a25e1dcfc9f191a94e8dffd2b6c317bf2f9e67bcc4b6477a3a",
+      "bytes": 9525,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_compatible_pair_rebasing_v1.md",
+      "sha256": "317077a91ed455313c53456d6b7054236422cfc1698289e8127946821a999f81",
+      "bytes": 9963,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_outside_fragile_component_exclusion_v1.md",
+      "sha256": "d2b7b3e82218d776159342608f3a80504994400522a9a2572bdbb30733c43683",
+      "bytes": 8812,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_outside_resilient_component_exclusion_v1.md",
+      "sha256": "1a91149793bcf54406e0218727b747e173ea9209d6116883c8a5e220a830f1da",
+      "bytes": 8787,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_empty_link_unique_page_exclusion_v1.md",
+      "sha256": "1983ef2e9f0b321b93e80409e94d5b1cdd6817d2d38ca6792703341fbebad968",
+      "bytes": 11425,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_empty_link_two_edge_paid_exclusion_v1.md",
+      "sha256": "3a5057ec4f25e4dec1bb8f1b320be2538e4af05e796fdae96c686afcfbf60483",
+      "bytes": 12175,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_two_triangle_decision_v1.md",
+      "sha256": "acec95818315e1ae69adfbbb2371d367bbf72b22a0c145d0fca5f8d163e64386",
+      "bytes": 4051,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/actual_parent_critical_square_v1.md",
+      "sha256": "ae6af22bbcd05f99421d614fe43546fedd65f4d225c33006d7a97039395c4456",
+      "bytes": 6145,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_disjoint_restoration_v1.md",
+      "sha256": "cf389377d649c3b29be42224647709b057a856f85aa7583e4b51871496ecafc6",
+      "bytes": 6837,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/actual_parent_large_cross_graph_v1.md",
+      "sha256": "ea3ce6dbd3a7d86f9f4c8f2f199645fcb9244b51823d9e7be227605e0c9b2efc",
+      "bytes": 3714,
+      "role": "frozen_candidate_independently_reviewed"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_low_gain_j0_j1_v1.md",
+      "sha256": "1bd3625d1077bede1b810222c6e3b9379296a10fbb9a0ce78d816f1b7db9f119",
+      "bytes": 9451,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_actual_parent_j2_classification_v1.md",
+      "sha256": "5dcf6bf1930f84ebacb127899cab7ee916baaa9c5672f371f7b3dd83afd490c6",
+      "bytes": 13295,
+      "role": "superseded_scope_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_actual_parent_j2_classification_v2.md",
+      "sha256": "c8c2b456f666a89e2674a7301a17706a58ed3fe02501d78dfb6357ab97388264",
+      "bytes": 13510,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/actual_parent_double_residual_resilience_v1.md",
+      "sha256": "91ada941f8fd8fee10153909c8969a81d296001316303a15b818d7047c758b13",
+      "bytes": 5522,
+      "role": "reviewed_composed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_actual_parent_triple_extension_v1.md",
+      "sha256": "08e03e657c952ba341d7cca249ceda59a7e818f0002dff8ec76d04ded1419041",
+      "bytes": 8628,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_triple_selection_v1.md",
+      "sha256": "524fd503c10a5c28804f867900b324faf5c34685bdd90acf920ad032ccbf8d0c",
+      "bytes": 7170,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/actual_parent_triple_disjoint_partial_v1.md",
+      "sha256": "8ab651495634eacd6f2c37b5adf8473526d3030ce651c572edc73effc85313c7",
+      "bytes": 3632,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_triple_B_disjoint_v1.md",
+      "sha256": "a39eee660d4a5683d2fa17a30fca17b07114b8b5c8419934352d9801316c8aa9",
+      "bytes": 5927,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_actual_parent_two_peripheral_v1.md",
+      "sha256": "ae9c5550677f9f49c9d9c70ccebebbfff378a913426b7c18c99d03ce49e84293",
+      "bytes": 9790,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/actual_parent_defect_one_triple_extension_v1.md",
+      "sha256": "f35bf40284bc6aae4a7436ba38406cc106d126a18d323c1e86782bcc14f3f488",
+      "bytes": 4536,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_shared_exceptional_families_v1.md",
+      "sha256": "5af1464ce882c63ab7a4b8e1824e82d95f2164fc6e2036bf0b109c4e2e93d8d5",
+      "bytes": 4451,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/maximal_support_triangle_selection_v1.md",
+      "sha256": "cd0d1a5ca470a8cdd30ae77dfb9d4c0a78d40d659924941fb88f6107046a1e3d",
+      "bytes": 4719,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_ordered_selection_v1.md",
+      "sha256": "e0f79c8052a8cad74e6aa93e179fd93d1ebf21be66b5ab9dfa9770f3e27b6c41",
+      "bytes": 4188,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_common_center_discriminator_v1.md",
+      "sha256": "c2f6d7d4fec40c4e6116ae9757f245c9603da61915b3645b86bf5affa4500730",
+      "bytes": 6522,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_common_center_discriminator_v2.md",
+      "sha256": "0e005051bc691787fb5b1cf41a1556df12919f96f823ef3cb7abafbb571e4d14",
+      "bytes": 4587,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_actual_parent_cycle_core_v1.md",
+      "sha256": "f04765cce7ded9dd664cf770878d9347b1e618288f8585c27e91dacfdaf65741",
+      "bytes": 9228,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_q2_family_frontier_v1.md",
+      "sha256": "665d80138997b3f73b58028c67d81e32f4398a950da48e570ac1d6b08adcefd8",
+      "bytes": 5467,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/actual_parent_selected_triangle_dichotomy_v1.md",
+      "sha256": "aa2c4b4b94506f950de321927147c37620844c7176010dd8905f71478576ba99",
+      "bytes": 4077,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_actual_parent_cycle_nonexceptional_v1.md",
+      "sha256": "7e3de72f084d8a69543951041dee8565e73fcb417acb1b4953549de33b1cde9c",
+      "bytes": 8622,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_common_center_three_opposite_B_v1.md",
+      "sha256": "0d62c3b5d10420e8e76a180077bd7536260f0b3bf2fc3417eb6efb4f6057a803",
+      "bytes": 7071,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/apex_actual_parent_common_center_one_hub_B_v1.md",
+      "sha256": "c968f90fc693717e8bd622e02badbd637c8769118a613265da558e7377b8937f",
+      "bytes": 5862,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/matching26_actual_parent_cycle_exceptional_v1.md",
+      "sha256": "61b10bbdce66f5b1a7b5bd2a2c4eb85a47e2a03cc3b05cfaf3a04bd994a17c4b",
+      "bytes": 9514,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/notes/actual_parent_selected_triangle_dichotomy_v2.md",
+      "sha256": "9e48437d017437442e85b0eb73a4ace3bc4d95283b2a1ae69fd362ccd7811d13",
+      "bytes": 4532,
+      "role": "reviewed_ordinary_source"
+    },
+    {
+      "path": "problems/TUZA-26/REPORT.md",
+      "sha256": "8a69197ea2ffdb2f3b9f4741d1c3d398f9ddc0a508f2ae270448c308c2d2aa56",
+      "bytes": 9207,
+      "role": "final_synthesis_snapshot_bound_by_closeout_critic"
+    },
+    {
+      "path": "problems/TUZA-26/PROOF_CHAIN.md",
+      "sha256": "2076dba4199333b7c3c3a6ea049a48532500ce36aedcfb7fab705cdf64e71b2d",
+      "bytes": 10034,
+      "role": "final_synthesis_snapshot_bound_by_closeout_critic"
+    },
+    {
+      "path": "problems/TUZA-26/STATUS_MATRIX.json",
+      "sha256": "2feb921b5e1789e81dc3368215dbe8291fc075379670b5b939406c8ba9033805",
+      "bytes": 58283,
+      "role": "final_synthesis_snapshot_bound_by_closeout_critic"
+    }
+  ],
+  "updated_utc": "2026-11-17T04:10:27.161864+00:00"
+}

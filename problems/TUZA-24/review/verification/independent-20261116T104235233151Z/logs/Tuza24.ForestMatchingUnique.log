@@ -1,0 +1,6 @@
+problems/TUZA-24/review/verification/independent-20261116T104235233151Z/clean/Tuza24/ForestMatchingUnique.lean:54:6: warning: Try `simp at heE` instead of `simpa using heE`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+problems/TUZA-24/review/verification/independent-20261116T104235233151Z/clean/Tuza24/ForestMatchingUnique.lean:58:6: warning: Try `simp at heE` instead of `simpa using heE`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`

@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-11-16T16:21:15.654621+00:00",
+  "elapsed_minutes": 58.26091035,
+  "leading_route": "residual separator/critical-edge descent",
+  "reason": [
+    "Exact one-edge separator transfer isolates a three-connected defect-one core under proper-subgraph CS.",
+    "Degree-three and K4-completed defect-two predecessor responses provide actual smaller graphs and exact packing/cover accounting."
+  ],
+  "concentration": "Attempt reconstruction/exclusion of the wholly packing-critical separator triangle via smaller resilient defect-one deletion graphs; separately retain neutral-insertion and degree-three availability gaps.",
+  "secondary_route_outcome": "Mixed inequality equivalent to ordinary Tuza; combined equality extension equivalent to CS. Exact payment paid but no independent ordinary induction step.",
+  "topology_outcome": "K5 ring refutes resilience=>H1=0; exact cut payment/replaceable-region availability remain open.",
+  "finite_coverage_limit": "219 retained resilient records have fresh-edge membership certificates; nonchordal three-connected screen reached zero defect-one states. No census survival counted as structural availability.",
+  "freeze_target_utc": "2026-11-16T16:48:00Z",
+  "research_cutoff_utc": "2026-11-16T17:03:00Z"
+}

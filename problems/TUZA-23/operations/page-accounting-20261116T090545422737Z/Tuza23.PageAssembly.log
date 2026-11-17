@@ -1,0 +1,8 @@
+problems/TUZA-23/Tuza23/PageAssembly.lean:16:8: error: Function expected at
+  card_sdiff
+but this term has type
+  #(?m.65 \ ?m.64) = #?m.65 - #(?m.64 ∩ ?m.65)
+
+Note: Expected a function because this term is being applied to the argument
+  hsub
+problems/TUZA-23/Tuza23/PageAssembly.lean:25:46: error: No goals to be solved

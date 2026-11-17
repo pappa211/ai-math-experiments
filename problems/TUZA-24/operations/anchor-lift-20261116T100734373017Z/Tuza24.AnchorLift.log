@@ -1,0 +1,24 @@
+problems/TUZA-24/Tuza24/AnchorLift.lean:69:31: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+C X : Finset (Finset V)
+v w : V
+hleaf : SelectedLeaf C v w
+heC : {v, w} ∈ C
+he : {v, w} ∈ graphEdges (remove G {v} X)
+hd : Disjoint {v, w} {v}
+⊢ ?m.80 = v ∨ ?m.80 = w
+problems/TUZA-24/Tuza24/AnchorLift.lean:69:41: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+C X : Finset (Finset V)
+v w : V
+hleaf : SelectedLeaf C v w
+heC : {v, w} ∈ C
+he : {v, w} ∈ graphEdges (remove G {v} X)
+hd : Disjoint {v, w} {v}
+⊢ ?m.80 = v

@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "examined": 2382,
+    "kind:star_control": 1,
+    "exact": 1846,
+    "defect_one": 12,
+    "defect_one_resilient": 11,
+    "full_extension_profile": 11,
+    "kind:star_identify_one": 12,
+    "kind:star_identify_two": 126,
+    "disconnected": 440,
+    "kind:clique_overlap_11_14": 1198,
+    "UNKNOWN_timeout": 96,
+    "kind:wheel_overlap_11_14": 578,
+    "kind:sharp_mutation": 467
+  },
+  "seconds": 704.228621006012,
+  "seed": 251116,
+  "universe": "targeted labelled constructions; no isomorphism completeness claimed",
+  "timeout_seconds_per_instance": 3,
+  "nonF": []
+}

@@ -1,0 +1,18 @@
+{
+  "identity": "TUZA22-independent-D-extension-validator-v1",
+  "elapsed_seconds": 0.09570254100253806,
+  "n": 52,
+  "m": 216,
+  "actual_triangle_count": 160,
+  "cover_optimum": 44,
+  "private_triangle_count": 100,
+  "private_nu": 20,
+  "maximum_extension_size": 20,
+  "ordinary_nu": 32,
+  "triangle_component_count": 1,
+  "common_apex_vertices": [],
+  "D_all": "REFUTED_BY_DISPLAYED_MINIMUM_C_AND_MAXIMUM_PRIVATE_Q",
+  "D_some_extension": "REFUTED_BY_SAME_C_Q_NO_RESIDUAL_TRIANGLE",
+  "D_some_choice": "NOT_DETERMINED",
+  "validation": "PASS"
+}

@@ -2,7 +2,11 @@
 
 **AI-developed mathematical research — AI Math Experiments**
 
-Current report: **[TUZA-16–19: Global Proof Routes, Structural Reductions, and Obstructions](papers/tuza-16-19-research-summary/main.md)**.
+**Current archive: [TUZA-20–26](TUZA_20_26_ARCHIVE.md). Research series paused; unrestricted Tuza remains unresolved.**
+
+The [17 November research guide](RESEARCH_STATUS_2026-11-17.md) records the final restoration, forest-cover and conditional core results, their verification limits, and the unresolved endpoint. [Archive index](TUZA_20_26_ARCHIVE.md) · [Source inventory](verification/tuza-20-26/MISSION_INVENTORY.json) · [Source dispositions](problems/TUZA-20-26-SOURCE_MANIFEST.json) · [Verification and reviews](verification/tuza-20-26/README.md).
+
+Historical latest report through TUZA-19: **[TUZA-16–19: Global Proof Routes, Structural Reductions, and Obstructions](papers/tuza-16-19-research-summary/main.md)**.
 
 [PDF](papers/tuza-16-19-research-summary/main.pdf) · [Markdown](papers/tuza-16-19-research-summary/main.md) · [Editable source](papers/tuza-16-19-research-summary/manuscript.md) · [Build guide](papers/tuza-16-19-research-summary/README.md).
 
@@ -12,7 +16,7 @@ Current report: **[TUZA-16–19: Global Proof Routes, Structural Reductions, and
 
 The [TUZA-11–15 paper](papers/tuza-11-15-research-summary/main.md) ([PDF](papers/tuza-11-15-research-summary/main.pdf)) remains a separate historical publication. It classifies equality for mad<7; Puleo previously proved that inequality. Earlier [TUZA-07–10](papers/tuza-further-investigations/main.md), [five-degenerate](papers/tuza-five-degenerate/main.md), and restoration reports retain their original results and links.
 
-The mathematical development, proofs, code, formalization and internal reviews used AI systems and tools. The owner supplied objectives, budgets and coordination. No external peer review or historical priority is claimed. The proposed next priority is global packing-support exchange, with H-O2 secondary; neither is a supported complete solution, and no new campaign begins with this publication.
+The mathematical development, proofs, code, formalization and internal reviews used AI systems and tools. The owner supplied objectives, budgets and coordination. No external peer review or historical priority is claimed. The research series is now paused by the owner. Historical proposed next priorities remain in their dated reports; no new campaign begins with this publication.
 
 ## Triangle restoration and Tuza’s conjecture
 
@@ -106,3 +110,13 @@ Two consequences follow: Tuza's inequality holds when deleting at most four vert
 Each investigation will have its own folder under `problems/`, keeping statements, sessions, evidence, and outcomes separate. Start from the [problem template](templates/PROBLEM_TEMPLATE.md). Corrections and additional results are welcome through ordinary issues and pull requests; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Newly authored material is offered under [Apache-2.0](LICENSE). Retained third-party notices and dependency licensing are described in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The public Git history starts with sanitized files; private operational history, credentials, application transcripts, and binary backups are not included.
+
+## Final archived missions: TUZA-20–26
+
+- [TUZA-20 research record](problems/TUZA-20/README.md) · [final scope and corrections](problems/TUZA-20/PUBLICATION_STATUS.md).
+- [TUZA-21 research record](problems/TUZA-21/README.md) · [final scope and corrections](problems/TUZA-21/PUBLICATION_STATUS.md).
+- [TUZA-22 research record](problems/TUZA-22/README.md) · [final scope and corrections](problems/TUZA-22/PUBLICATION_STATUS.md).
+- [TUZA-23 research record](problems/TUZA-23/README.md) · [final scope and corrections](problems/TUZA-23/PUBLICATION_STATUS.md).
+- [TUZA-24 research record](problems/TUZA-24/README.md) · [final scope and corrections](problems/TUZA-24/PUBLICATION_STATUS.md).
+- [TUZA-25 research record](problems/TUZA-25/README.md) · [final scope and corrections](problems/TUZA-25/PUBLICATION_STATUS.md).
+- [TUZA-26 research record](problems/TUZA-26/README.md) · [final scope and corrections](problems/TUZA-26/PUBLICATION_STATUS.md).

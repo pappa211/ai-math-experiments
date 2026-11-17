@@ -1,0 +1,17 @@
+{
+  "start_utc": "2026-11-15T23:09:48.066387+00:00",
+  "end_utc": "2026-11-15T23:10:03.367848+00:00",
+  "seconds": 15.301465034484863,
+  "command": [
+    "python",
+    "-B",
+    "scripts/resilient_neartight_gluings_v2.py"
+  ],
+  "pid": 78961,
+  "peak_sampled_tree_rss_mib": 33.8125,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 240.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

@@ -1,0 +1,194 @@
+{
+  "status": "STOPPED_INTENTIONALLY_AFTER_ZERO_HARD_STATES",
+  "recorded_completed_connected_cases": 332,
+  "recorded_statuses": {
+    "EXACT": 224,
+    "UNKNOWN_timeout": 108
+  },
+  "completed_unique_examined": 335,
+  "completed_disconnected": 3,
+  "inflight_case": {
+    "kind": "star45+star455",
+    "n": 14,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        8
+      ],
+      [
+        0,
+        9
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        9
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        5,
+        12
+      ],
+      [
+        5,
+        13
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        11
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        13
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        11,
+        13
+      ],
+      [
+        12,
+        13
+      ]
+    ],
+    "status": "INTERRUPTED_UNKNOWN"
+  },
+  "defect_one_exact_completed": 0,
+  "seed": 25111602,
+  "stop_method": "SIGINT owned PID20241, exec exit130",
+  "elapsed_approx_seconds": 410,
+  "count_scope": "completed case counts reconstructed from deterministic generator and row-by-row metadata; interrupted case retained UNKNOWN"
+}

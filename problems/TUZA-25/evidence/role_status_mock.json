@@ -1,0 +1,54 @@
+{
+  "status": "PASS_MOCK_CONTROL_FLOW_ONLY",
+  "cases": [
+    {
+      "status": 0,
+      "result": [
+        null,
+        false
+      ],
+      "value_calls": 0
+    },
+    {
+      "status": 1,
+      "result": [
+        null,
+        false
+      ],
+      "value_calls": 0
+    },
+    {
+      "status": 2,
+      "result": [
+        [
+          0,
+          1
+        ],
+        false
+      ],
+      "value_calls": 2
+    },
+    {
+      "status": 3,
+      "result": [
+        null,
+        false
+      ],
+      "value_calls": 0
+    },
+    {
+      "status": 4,
+      "result": [
+        [
+          0,
+          1
+        ],
+        true
+      ],
+      "value_calls": 2
+    }
+  ],
+  "feasible_baseline_rejected": true,
+  "missing_baseline_rejected": true,
+  "actual_ortools_run": "NOT_RUN_DEPENDENCY_ABSENT"
+}

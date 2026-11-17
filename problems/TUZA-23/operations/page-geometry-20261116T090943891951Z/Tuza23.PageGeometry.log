@@ -1,0 +1,318 @@
+problems/TUZA-23/Tuza23/PageGeometry.lean:44:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+problems/TUZA-23/Tuza23/PageGeometry.lean:51:39: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a b d x y : V
+hax : x ≠ a
+hbx : x ≠ b
+hdy : y ≠ d
+z : V
+hbase : Disjoint {a, b} {z, d}
+hcy : y ≠ z
+hshare : ¬Disjoint (edges {a, b, x}) (edges {z, d, y})
+hn : x ≠ z ∧ x ≠ d
+h : z = a
+⊢ ?m.155 = a ∨ ?m.155 = b
+problems/TUZA-23/Tuza23/PageGeometry.lean:51:53: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a b d x y : V
+hax : x ≠ a
+hbx : x ≠ b
+hdy : y ≠ d
+z : V
+hbase : Disjoint {a, b} {z, d}
+hcy : y ≠ z
+hshare : ¬Disjoint (edges {a, b, x}) (edges {z, d, y})
+hn : x ≠ z ∧ x ≠ d
+h : z = a
+⊢ ?m.155 = z ∨ ?m.155 = d
+problems/TUZA-23/Tuza23/PageGeometry.lean:52:39: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a b d x y : V
+hax : x ≠ a
+hbx : x ≠ b
+hdy : y ≠ d
+z : V
+hbase : Disjoint {a, b} {z, d}
+hcy : y ≠ z
+hshare : ¬Disjoint (edges {a, b, x}) (edges {z, d, y})
+hn : x ≠ z ∧ x ≠ d
+h : z = b
+⊢ ?m.166 = a ∨ ?m.166 = b
+problems/TUZA-23/Tuza23/PageGeometry.lean:52:53: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a b d x y : V
+hax : x ≠ a
+hbx : x ≠ b
+hdy : y ≠ d
+z : V
+hbase : Disjoint {a, b} {z, d}
+hcy : y ≠ z
+hshare : ¬Disjoint (edges {a, b, x}) (edges {z, d, y})
+hn : x ≠ z ∧ x ≠ d
+h : z = b
+⊢ ?m.166 = z ∨ ?m.166 = d
+problems/TUZA-23/Tuza23/PageGeometry.lean:55:39: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a b c x y : V
+hax : x ≠ a
+hbx : x ≠ b
+hcy : y ≠ c
+z : V
+hbase : Disjoint {a, b} {c, z}
+hdy : y ≠ z
+hshare : ¬Disjoint (edges {a, b, x}) (edges {c, z, y})
+hn : x ≠ c ∧ x ≠ z
+h : z = a
+⊢ ?m.206 = a ∨ ?m.206 = b
+problems/TUZA-23/Tuza23/PageGeometry.lean:55:53: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a b c x y : V
+hax : x ≠ a
+hbx : x ≠ b
+hcy : y ≠ c
+z : V
+hbase : Disjoint {a, b} {c, z}
+hdy : y ≠ z
+hshare : ¬Disjoint (edges {a, b, x}) (edges {c, z, y})
+hn : x ≠ c ∧ x ≠ z
+h : z = a
+⊢ ?m.206 = c ∨ ?m.206 = z
+problems/TUZA-23/Tuza23/PageGeometry.lean:56:39: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a b c x y : V
+hax : x ≠ a
+hbx : x ≠ b
+hcy : y ≠ c
+z : V
+hbase : Disjoint {a, b} {c, z}
+hdy : y ≠ z
+hshare : ¬Disjoint (edges {a, b, x}) (edges {c, z, y})
+hn : x ≠ c ∧ x ≠ z
+h : z = b
+⊢ ?m.217 = a ∨ ?m.217 = b
+problems/TUZA-23/Tuza23/PageGeometry.lean:56:53: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a b c x y : V
+hax : x ≠ a
+hbx : x ≠ b
+hcy : y ≠ c
+z : V
+hbase : Disjoint {a, b} {c, z}
+hdy : y ≠ z
+hshare : ¬Disjoint (edges {a, b, x}) (edges {c, z, y})
+hn : x ≠ c ∧ x ≠ z
+h : z = b
+⊢ ?m.217 = c ∨ ?m.217 = z
+problems/TUZA-23/Tuza23/PageGeometry.lean:61:4: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+problems/TUZA-23/Tuza23/PageGeometry.lean:68:39: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+b c d x y : V
+hbx : x ≠ b
+hcy : y ≠ c
+hdy : y ≠ d
+hx : x = c ∨ x = d
+z : V
+hbase : Disjoint {z, b} {c, d}
+hax : x ≠ z
+hshare : ¬Disjoint (edges {z, b, x}) (edges {c, d, y})
+hn : y ≠ z ∧ y ≠ b
+h : z = c
+⊢ ?m.336 = z ∨ ?m.336 = b
+problems/TUZA-23/Tuza23/PageGeometry.lean:68:49: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+b c d x y : V
+hbx : x ≠ b
+hcy : y ≠ c
+hdy : y ≠ d
+hx : x = c ∨ x = d
+z : V
+hbase : Disjoint {z, b} {c, d}
+hax : x ≠ z
+hshare : ¬Disjoint (edges {z, b, x}) (edges {c, d, y})
+hn : y ≠ z ∧ y ≠ b
+h : z = c
+⊢ ?m.336 = c ∨ ?m.336 = d
+problems/TUZA-23/Tuza23/PageGeometry.lean:69:39: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+b c d x y : V
+hbx : x ≠ b
+hcy : y ≠ c
+hdy : y ≠ d
+hx : x = c ∨ x = d
+z : V
+hbase : Disjoint {z, b} {c, d}
+hax : x ≠ z
+hshare : ¬Disjoint (edges {z, b, x}) (edges {c, d, y})
+hn : y ≠ z ∧ y ≠ b
+h : z = d
+⊢ ?m.347 = z ∨ ?m.347 = b
+problems/TUZA-23/Tuza23/PageGeometry.lean:69:49: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+b c d x y : V
+hbx : x ≠ b
+hcy : y ≠ c
+hdy : y ≠ d
+hx : x = c ∨ x = d
+z : V
+hbase : Disjoint {z, b} {c, d}
+hax : x ≠ z
+hshare : ¬Disjoint (edges {z, b, x}) (edges {c, d, y})
+hn : y ≠ z ∧ y ≠ b
+h : z = d
+⊢ ?m.347 = c ∨ ?m.347 = d
+problems/TUZA-23/Tuza23/PageGeometry.lean:72:39: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a c d x y : V
+hax : x ≠ a
+hcy : y ≠ c
+hdy : y ≠ d
+hx : x = c ∨ x = d
+z : V
+hbase : Disjoint {a, z} {c, d}
+hbx : x ≠ z
+hshare : ¬Disjoint (edges {a, z, x}) (edges {c, d, y})
+hn : y ≠ a ∧ y ≠ z
+h : z = c
+⊢ ?m.387 = a ∨ ?m.387 = z
+problems/TUZA-23/Tuza23/PageGeometry.lean:72:49: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a c d x y : V
+hax : x ≠ a
+hcy : y ≠ c
+hdy : y ≠ d
+hx : x = c ∨ x = d
+z : V
+hbase : Disjoint {a, z} {c, d}
+hbx : x ≠ z
+hshare : ¬Disjoint (edges {a, z, x}) (edges {c, d, y})
+hn : y ≠ a ∧ y ≠ z
+h : z = c
+⊢ ?m.387 = c ∨ ?m.387 = d
+problems/TUZA-23/Tuza23/PageGeometry.lean:73:39: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a c d x y : V
+hax : x ≠ a
+hcy : y ≠ c
+hdy : y ≠ d
+hx : x = c ∨ x = d
+z : V
+hbase : Disjoint {a, z} {c, d}
+hbx : x ≠ z
+hshare : ¬Disjoint (edges {a, z, x}) (edges {c, d, y})
+hn : y ≠ a ∧ y ≠ z
+h : z = d
+⊢ ?m.398 = a ∨ ?m.398 = z
+problems/TUZA-23/Tuza23/PageGeometry.lean:73:49: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+a c d x y : V
+hax : x ≠ a
+hcy : y ≠ c
+hdy : y ≠ d
+hx : x = c ∨ x = d
+z : V
+hbase : Disjoint {a, z} {c, d}
+hbx : x ≠ z
+hshare : ¬Disjoint (edges {a, z, x}) (edges {c, d, y})
+hn : y ≠ a ∧ y ≠ z
+h : z = d
+⊢ ?m.398 = c ∨ ?m.398 = d
+problems/TUZA-23/Tuza23/PageGeometry.lean:51:48: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-23/Tuza23/PageGeometry.lean:52:48: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-23/Tuza23/PageGeometry.lean:55:48: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-23/Tuza23/PageGeometry.lean:56:48: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-23/Tuza23/PageGeometry.lean:68:58: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-23/Tuza23/PageGeometry.lean:69:58: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-23/Tuza23/PageGeometry.lean:72:58: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+problems/TUZA-23/Tuza23/PageGeometry.lean:73:58: warning: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

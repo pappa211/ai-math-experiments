@@ -1,0 +1,15 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Fresh review: triangle-bearing subcubic four-branch links
+
+Decision: ACCEPT USING DECLARED INPUTS, with the triangle-free corollary retaining its separate historical premises. Reviewer: TUZA-22 challenger, 2026-11-16 UTC. Frozen primary: notes/subcubic_four_branch_triangleful_link_v1.md, SHA25624e94f0d47b46d86d5339ce373e46b2bc3ab197449d2a8905e7433613a8a9c9a.
+
+The suppression reduction is complete. A connected loopless cubic multigraph on four vertices with no triple edge is either simple K4 or two doubled opposite pairs joined by a matching. A doubled pair forces the other pair doubled by the remaining degree counts. The reviewed parallel-thread restriction makes each double exactly a direct edge plus an even nondirect path. In the simple kernel, any actual triangle must consist of three branch vertices; an interior triangle would require a second path between its branch endpoints. In the doubled kernel, a triangle is necessarily a short ear on one doubled pair.
+
+I checked EVERY table row directly from its literal edge list. In each case P is a matching and Q covers all non-P core/path edges. Every strict row has the claimed one-edge slack. Every larger Z is disjoint and has one more edge than P. Every rim Z has the same size as P and avoids all three fixed rim-triangle edges, with at least one fixed triangle edge selected in P. This includes all shortest lengths and both mixed-parity symmetry identifications.
+
+The simultaneous subdivision lift is valid: when the subdivided edge belongs to a matching it is replaced by its two outer replacement edges; otherwise the new middle edge is added. Each matching size increases by one without altering old endpoint saturation improperly. The cover lift covers the two nonmatching replacement edges and adds exactly one vertex. Since no fixed rim-triangle edge is subdivided, its selected P-edge and the entire rim-deletion comparison matching remain valid. Thus the finite tables are explicit parity witnesses within a proved all-size reduction, not a graph census premise.
+
+Every nontrivial base and its lifted graph is K4-free, so the stated residual block footprints are at most one matching edge plus one rim edge, necessarily adjacent. Closedness covers all removed hub triangles; selecting P covers arbitrary outside rim pages. These yield the three sufficient CS forms at exactly their stated scopes.
+
+The final triangle-free corollary explicitly retains the historical four-branch WKE availability and declared Kotzig dependency; neither was revalidated or relabeled ordinary in this review. The triangle-bearing theorem itself uses only the displayed witnesses, direct lift, and already authenticated minimal-CS/clique inputs. The one-cycle-leaf parent-degree consequence follows through the separately reviewed subcubic four-branch interface.
