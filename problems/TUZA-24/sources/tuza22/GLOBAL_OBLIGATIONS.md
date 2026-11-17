@@ -1,0 +1,1 @@
+../../../TUZA-22/GLOBAL_OBLIGATIONS.md

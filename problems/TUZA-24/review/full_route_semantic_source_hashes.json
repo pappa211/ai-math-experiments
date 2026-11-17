@@ -1,0 +1,208 @@
+{
+  "utc": "2026-11-16T10:35:50.071132+00:00",
+  "reviewer": "tuza24_review",
+  "reviewer_compiler_invoked": false,
+  "modules": [
+    {
+      "module": "Tuza24.AlternatingForestLeaves",
+      "source": "problems/TUZA-24/Tuza24/AlternatingForestLeaves.lean",
+      "sha256": "3cb6e819f9b585bee3a87901f4a54628038d2bfab2e488c0af7b795e584b2057",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/alternating-leaves-bipartite-01-20261116T102554049780Z/Tuza24.AlternatingForestLeaves.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ApexLinkGeometry",
+      "source": "problems/TUZA-24/Tuza24/ApexLinkGeometry.lean",
+      "sha256": "40a305dd6380dd2f06e5af19179902db907aa5422ceafb1eb6de84da17cd4b20",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/apex-link-geometry-20261116T102216843825Z/Tuza24.ApexLinkGeometry.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.PerfectForestStructure",
+      "source": "problems/TUZA-24/Tuza24/PerfectForestStructure.lean",
+      "sha256": "2da61cb09a9d39865bc378c9af5c736c5f5f329fb98f755e473b708f7753239c",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/perfect-structure-02-20261116T102001943650Z/Tuza24.PerfectForestStructure.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.PerfectForestExclusionBase",
+      "source": "problems/TUZA-24/Tuza24/PerfectForestExclusionBase.lean",
+      "sha256": "8f99e475f2f867c38054d88013c8cf160395e4173a4fbc1ea20a138e7c58682f",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/perfect-exclusion-base-01-20261116T102421953878Z/Tuza24.PerfectForestExclusionBase.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.PerfectForestExclusionTools",
+      "source": "problems/TUZA-24/Tuza24/PerfectForestExclusionTools.lean",
+      "sha256": "8767611af2a10bfe8dd52520bbcdaa7656ebc0928431d493c9d706928af744d9",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/perfect-exclusion-02-20261116T103055365127Z/Tuza24.PerfectForestExclusionTools.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.PerfectForestExclusion",
+      "source": "problems/TUZA-24/Tuza24/PerfectForestExclusion.lean",
+      "sha256": "083151918d1ece52cedcd2ddf24ed5cccb031ea9c7deda882221acb07c764ed5",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/perfect-exclusion-02-20261116T103055365127Z/Tuza24.PerfectForestExclusion.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.MatchingChoice",
+      "source": "problems/TUZA-24/Tuza24/MatchingChoice.lean",
+      "sha256": "a907941a8f0a65cc485a89d1ac3568c785230f663d23622ba2b4598ebeb2c68e",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/matching-choice-20261116T102310075656Z/Tuza24.MatchingChoice.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestMatchingBoundary",
+      "source": "problems/TUZA-24/Tuza24/ForestMatchingBoundary.lean",
+      "sha256": "102ac150285ee5f270ed73cdffe7cf4b3ab436739bd22e09cc79a83121b6f151",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/matching-leaf-retention-20261116T101712577803Z/Tuza24.ForestMatchingBoundary.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestMatchingDeletion",
+      "source": "problems/TUZA-24/Tuza24/ForestMatchingDeletion.lean",
+      "sha256": "31e3fb9382ea1b39c34f8c597c1275fd2e2a6682c8907ba316fe7a5136e1ade2",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/matching-leaf-retention-20261116T101744043321Z/Tuza24.ForestMatchingDeletion.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestMatchingLeafRetention",
+      "source": "problems/TUZA-24/Tuza24/ForestMatchingLeafRetention.lean",
+      "sha256": "59cbdcf99e2125640e4fd2ec0bcd2f5b083d192dea61126e69bde9223ea4decb",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/matching-leaf-retention-20261116T101806950683Z/Tuza24.ForestMatchingLeafRetention.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestMatchingLeafAvoidance",
+      "source": "problems/TUZA-24/Tuza24/ForestMatchingLeafAvoidance.lean",
+      "sha256": "2a33ca9539820842fd85ed70ab76301cf82cd5180cacba88d0d668c5ee8c27fb",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/matching-leaf-avoidance-20261116T102108613799Z/Tuza24.ForestMatchingLeafAvoidance.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestMatchingUnique",
+      "source": "problems/TUZA-24/Tuza24/ForestMatchingUnique.lean",
+      "sha256": "eaac5b3c798181f58119c74d7b77b624473bfa888b6c0cced5ea5c7bcc758198",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/matching-leaf-retention-20261116T101712577803Z/Tuza24.ForestMatchingUnique.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestMatchingDeficiency",
+      "source": "problems/TUZA-24/Tuza24/ForestMatchingDeficiency.lean",
+      "sha256": "dbe340343ec807d13d3a0cc52c1e686681986686b39b131d77f2973d466edfea",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/matching-deficiency-20261116T102515978736Z/Tuza24.ForestMatchingDeficiency.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestMatchingSafeEdge",
+      "source": "problems/TUZA-24/Tuza24/ForestMatchingSafeEdge.lean",
+      "sha256": "40459a61937e85e40c3c8e34e669b73b8eb10a717e774582968d52db12b80848",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/matching-safe-edge-20261116T102912348769Z/Tuza24.ForestMatchingSafeEdge.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ResidualMatching",
+      "source": "problems/TUZA-24/Tuza24/ResidualMatching.lean",
+      "sha256": "5b43871729c49a5d0988c6ea99d1045182c779c9776be9a5c116561cc604561f",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/nonperfect-residual-fixed-20261116T102716756760Z/Tuza24.ResidualMatching.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.NonperfectLinkReduction",
+      "source": "problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean",
+      "sha256": "51a0cdc9f93dd7ab052ddb86240523d8dd02072ddaa228d88271e93317c9c093",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/nonperfect-local-augmentations-fixed-20261116T102852431915Z/Tuza24.NonperfectLinkReduction.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.NonperfectForestExclusion",
+      "source": "problems/TUZA-24/Tuza24/NonperfectForestExclusion.lean",
+      "sha256": "6b72da71b419538cbda4c05448347d44516fda75318ec5d60c7bff37d13639e4",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/forest-cs-20261116T103207795569Z/Tuza24.NonperfectForestExclusion.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestCS",
+      "source": "problems/TUZA-24/Tuza24/ForestCS.lean",
+      "sha256": "a78ef7bf5d1274a29a5316a740c9713d9c8dfde2ea4a4e41087e178eda6546f3",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/forest-cs-fixed-20261116T103241009745Z/Tuza24.ForestCS.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestK5Exclusion",
+      "source": "problems/TUZA-24/Tuza24/ForestK5Exclusion.lean",
+      "sha256": "7d3c75d37528617c3703fbb737a0f538f839a876fcf1ac2e2278638d9838f3b3",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/forest-k5-exclusion-20261116T103313038578Z/Tuza24.ForestK5Exclusion.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    },
+    {
+      "module": "Tuza24.ForestK4Equality",
+      "source": "problems/TUZA-24/Tuza24/ForestK4Equality.lean",
+      "sha256": "f764e1af574e48f62f597d48c6751917c0b05f4ed4e2a6b345a05448abd80741",
+      "coordinator_matching_successful_receipts": [
+        "problems/TUZA-24/operations/forest-k4-equality-20261116T103344024639Z/Tuza24.ForestK4Equality.json"
+      ],
+      "semantic_status": "ACCEPTED_SOURCE_SNAPSHOT",
+      "independent_build_audit": "PENDING"
+    }
+  ],
+  "full_cs": "COORDINATOR_COMPILED_SEMANTICALLY_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+}

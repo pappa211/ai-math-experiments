@@ -1,0 +1,18 @@
+{
+  "status": "EXPECTED_API_REJECTION",
+  "command": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/MissingBGuard.lean"
+  ],
+  "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+  "source_sha256": "568c9eac0bc18d5e45650e81d0178c923b9d697a4822b19d5bca1c944aa87afe",
+  "exit_code": 1,
+  "limit_reason": null,
+  "elapsed_seconds": 5.946080166992033,
+  "peak_tree_rss_bytes": 1560133632,
+  "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/MissingBGuard.log",
+  "scope": "Independent replay against fresh project objects: omitting B fails exported theorem application; no mathematical independence claim",
+  "excluded_from_accepted_library": true
+}

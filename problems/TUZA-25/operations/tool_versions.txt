@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-11-16T17:04:31.627850+00:00",
+  "python_executable": "PRIVATE_PATH_REMOVED",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "networkx": "3.7",
+  "numpy": "2.5.4",
+  "scipy": "NOT_INSTALLED",
+  "ortools": "NOT_INSTALLED",
+  "pulp": "NOT_INSTALLED",
+  "git": {
+    "returncode": 0,
+    "stdout": "git version 2.39.2 (Apple Git-143)\n",
+    "stderr": ""
+  },
+  "clang": {
+    "returncode": 0,
+    "stdout": "Apple clang version 14.0.3 (clang-1403.0.22.14.1)\nTarget: arm64-apple-darwin27.2.0\nThread model: posix\nInstalledDir: /Library/Developer/CommandLineTools/usr/bin\n",
+    "stderr": ""
+  },
+  "memory_pressure": {
+    "returncode": 0,
+    "stdout": "The system has 17179869184 (1048576 pages with a page size of 16384).\nSystem-wide memory free percentage: 45%\n",
+    "stderr": ""
+  }
+}

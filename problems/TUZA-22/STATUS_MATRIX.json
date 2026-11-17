@@ -1,0 +1,1119 @@
+{
+  "claims": {
+    "unrestricted_Tuza": {
+      "status": "CONJECTURE",
+      "outcome": "unresolved"
+    },
+    "CS": {
+      "status": "CONJECTURE",
+      "outcome": "unresolved"
+    },
+    "R2": {
+      "status": "ORDINARY_PROOF",
+      "scope": "B(H), <=2 nonedges F, equality H+F implies B(H+F)",
+      "proof": "notes/r2_proof_v1.md",
+      "review": "review/r2_independent_review.md",
+      "global_role": "Removes restoration bridge; blocker not supplied"
+    },
+    "R1": {
+      "status": "ORDINARY_PROOF",
+      "scope": "CS for B(H) plus completed independent triple, including exact equality restoration",
+      "proof": "notes/r1_proof_v1.md",
+      "review": "review/r1_independent_review.md"
+    },
+    "H-D-CS-min": {
+      "status": "CONJECTURE",
+      "outcome": "unresolved"
+    },
+    "H-D-CS-broad": {
+      "status": "CONJECTURE",
+      "outcome": "unresolved"
+    },
+    "H-D": {
+      "status": "CONJECTURE",
+      "scoped_inherited_result": "ordinary proof nu<=2",
+      "scoped_result": "originalH-D throughk5, withallK4components for2<=k<=5; k4/5 extensionsdeclarehistoricalinputs",
+      "outcome": "unresolved globally; throughk5 only with declared historical input chain"
+    },
+    "C21-D-all": {
+      "status": "REFUTED",
+      "scope": "minimum C44 and maximum private Q20 with no extension in literal52-vertex216-edge graph; tau44,nu32",
+      "proof": "notes/challenger_D_counterexample.md",
+      "independent_review": "review/d_extension_counterexample_review.md",
+      "ordinary_lower_bound": "review/clebsch_cycle_cover_ordinary.md",
+      "certificate": "evidence/d_extension_independent_verification.json",
+      "not_Tuza_counterexample": true
+    },
+    "C21-D-some-extension": {
+      "status": "REFUTED",
+      "scope": "minimum C44 and maximum private Q20 with no extension in literal52-vertex216-edge graph; tau44,nu32",
+      "proof": "notes/challenger_D_counterexample.md",
+      "independent_review": "review/d_extension_counterexample_review.md",
+      "ordinary_lower_bound": "review/clebsch_cycle_cover_ordinary.md",
+      "certificate": "evidence/d_extension_independent_verification.json",
+      "not_Tuza_counterexample": true
+    },
+    "C21-D-some-choice": {
+      "status": "CONJECTURE",
+      "witness_boundary": "Four-cone graph satisfies existential choice, with sameC44,alternateQ20 extendingto32",
+      "outcome": "unresolved"
+    },
+    "PK-all": {
+      "status": "CONJECTURE",
+      "outcome": "unresolved"
+    },
+    "PK-exists": {
+      "status": "CONJECTURE",
+      "outcome": "unresolved"
+    },
+    "Claude_PK_census": {
+      "status": "REPORTED_UNVERIFIED",
+      "source": "eq.c and PK_RESULTS.txt available; pk.c, original generator commands and input domains unavailable after targeted search"
+    },
+    "Claude_equality_full_census": {
+      "status": "REPORTED_UNVERIFIED",
+      "source": "eq.c found; input completeness unknown"
+    },
+    "targeted_restoration_sample": {
+      "status": "FINITE_CERTIFICATE",
+      "scope": "new independent exact recurrences on1145 explicitly retained constructed graphs; not Lean and not all graphs11\u201314"
+    },
+    "matching_triangle_cover": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Matching transversal of all actual triangles implies Tuza; equality components literalK4",
+      "proof": "notes/matching_cover_proof_v1.md",
+      "review": "review/matching_cover_independent_review.md",
+      "global_availability": "UNKNOWN"
+    },
+    "k2_defect_one": {
+      "status": "ORDINARY_PROOF",
+      "scope": "codegree>=2,nu2,tau4 and one triangle residualtau1 forceK5",
+      "review": "review/coordinator_k2_review.md",
+      "minimum_CS_corollary": "PROOF_USING_DECLARED_INPUT: M3 yields nu>=3"
+    },
+    "interacting_Clebsch_D": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "TwoClebschcones gluedonone rimedge: all256minimumC have22edges,private nu10,and every maximal full extension of every maxprivateQ has>=12triangles",
+      "input": "TUZA21 ordinary Clebsch and all-minimum-cover classification",
+      "review": "review/coordinator_interacting_review.md"
+    },
+    "minimum_CS_nu_at_least4": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "minimumunrestrictedCSfailure mustnu>=4",
+      "new_lemmas": "six-edge-coverkernel and nine-vertexdensitybridge",
+      "dependencies": [
+        "M0",
+        "R1",
+        "M3",
+        "TUZA15 T0 mad<7"
+      ],
+      "review": "review/coordinator_k3_review.md"
+    },
+    "two_triangle_restoration": {
+      "status": "ORDINARY_PROOF",
+      "scope": "CS for B plus two edge-disjoint missing triangles, including sharedvertex attachments",
+      "proof": "notes/two_triangle_restoration_v1.md",
+      "review": "review/two_triangle_restoration_independent_review.md",
+      "corollary": "CS for all graphs with nu<=2"
+    },
+    "H-D_one_B_residual": {
+      "status": "ORDINARY_PROOF",
+      "scope": "original H-D plus at leastone B triangle residual gives blocker; k>=2 alltrianglecomponentsK4",
+      "proof": "notes/hd_one_classified_residual_v1.md",
+      "review": "review/coordinator_hd_classified_review.md",
+      "conditional_implication": "universal CS implies original H-D"
+    },
+    "book_residual_restoration": {
+      "status": "ORDINARY_PROOF",
+      "scope": "CS aftertriangle restoration fromB plusbookcomponents; equalityone3pagebookcompletedtoK5",
+      "proof": "notes/book_residual_triangle_restoration_v1.md",
+      "review": "review/book_residual_restoration_independent_review.md"
+    },
+    "active_kernel_peeling": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Exactnuadditivity/CStransfer afterpeelingoldBcomponents fromtriangle restoration; minimumCS everytriangle residualone defect1component",
+      "proof": "notes/active_kernel_peeling_v1.md",
+      "review": "review/active_kernel_peeling_independent_review.md"
+    },
+    "odd_cycle_link_exclusion": {
+      "status": "ORDINARY_PROOF",
+      "scope": "No closedoddcyclelink oflength>=5 inminimumCSfailure; arbitraryattachments",
+      "proof": "notes/odd_cycle_link_exclusion_v1.md",
+      "review": "review/wke_and_odd_cycle_independent_review.md"
+    },
+    "triangle_free_WKE_link_exclusion": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "No trianglefreeWKEclosedlinkcomponent inminimumCSfailure; Kotzig uniqueperfectmatchingbridge input",
+      "proof": "notes/triangle_free_wke_link_exclusion_v1.md",
+      "review": "review/wke_and_odd_cycle_independent_review.md",
+      "historical_proof_status": "Preserved Kotzig-dependent proof version; the later ordinary S=empty simultaneous/paid-cover collapse supplies the conclusion without Kotzig",
+      "ordinary_successor": "notes/wke_residual_triangle_count_collapse_v1.md, S=empty"
+    },
+    "k4_cover_kernel": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "ExplicitM3/SIX numericalhypotheses,nu<=4,8edgecovercontainsT impliesn<=13",
+      "proof": "notes/k4_cover_kernel_proof_v1.md",
+      "review": "review/coordinator_k4_kernel_review.md"
+    },
+    "triangle_plus_matching_minimum_cover": {
+      "status": "ORDINARY_PROOF",
+      "scope": "CS ifminimumcover isone triangle plusvertexdisjointmatching; equalityoneK5 plusK4s",
+      "proof": "notes/triangle_plus_matching_cover_v1.md",
+      "review": "review/triangle_plus_matching_cover_independent_review.md"
+    },
+    "minimum_CS_nu4_order": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Intermediate n<=12 bound for a hypothetical nu4 minimum failure; subsequently excluded by density plus T0",
+      "dependencies": [
+        "k4_cover_kernel",
+        "triangle_plus_matching_minimum_cover",
+        "M0",
+        "M3",
+        "SIX",
+        "R1"
+      ]
+    },
+    "CS_nu_at_most4": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "proof": "notes/cs_nu4_hd_k5_assembly.md",
+      "review": "review/k4_density_and_five_packing_independent_review.md",
+      "dependencies": [
+        "M0 class-independent",
+        "M3 class-independent",
+        "SIX class-independent",
+        "T0 mad<7",
+        "current reviewed ordinary lemmas"
+      ],
+      "not_unrestricted": true
+    },
+    "minimum_CS_packing_lower_bound": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "nu_at_least": 5,
+      "proof": "notes/cs_nu4_hd_k5_assembly.md"
+    },
+    "triangle_and_edge_restoration": {
+      "status": "ORDINARY_PROOF",
+      "scope": "CS forB plus missingtriangleT andoneabsentedgee alreadytriangle-bearingbeforeT; equalitycompletiontoK5",
+      "proof": "notes/triangle_and_edge_restoration_v1.md",
+      "review": "review/triangle_and_edge_restoration_independent_review.md"
+    },
+    "minimum_CS_triangle_residual_edge_resilience": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Everytriangle residual preservesits packingnumber afteranysingleedge deletion",
+      "dependency": "triangle_and_edge_restoration"
+    },
+    "common_apex_defect_one": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Onlybookor5wheel; packing>=3 impossible",
+      "proof": "notes/near_tight_common_apex_v1.md",
+      "review": "review/challenger_common_apex_defect_one_review.md"
+    },
+    "one_edge_active_kernel": {
+      "status": "ORDINARY_PROOF",
+      "scope": "EveryG-e residual of minimumCSfailure has exactlyone defect1trianglecomponent",
+      "proof": "notes/one_edge_active_kernel_v1.md",
+      "review": "review/one_edge_active_kernel_independent_review.md"
+    },
+    "safe_clique_patch_peeling": {
+      "status": "ORDINARY_PROOF",
+      "scope": "No safe tight patch inminimumCS; K4boundarycannotfitstar,K5boundarycannotfitC4",
+      "proof": "notes/safe_clique_patch_peeling_v1.md",
+      "review": "review/clique_patch_and_attachment_guardrails_review.md"
+    },
+    "bipartite_page_strictness": {
+      "status": "ORDINARY_PROOF",
+      "scope": "k>=4,minC2k equalsinternaledgesofpartition,everyinternaledgehas>=kcrosspages impliesnu>=k+1",
+      "proof": "notes/challenger_bipartite_page_strictness_v1.md",
+      "review": "review/bipartite_page_strictness_independent_review.md"
+    },
+    "sparse_triangle_free_WKE": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Trianglefree mindeg2 link with<=10edges isWKE; includesverifiedfiniteprimarypremises",
+      "proof": "notes/sparse_triangle_free_wke_v1.md",
+      "review": "review/sparse_triangle_free_wke_restoration_review.md"
+    },
+    "Tsujimura_WKE_premises": {
+      "status": "FINITE_CERTIFICATE",
+      "scope": "10888literalwitnesses plusindependentcompleteparity/suppressed-domaincoverage andsymboliclift forLemma4.1",
+      "proof": "review/tsujimura_wke_primary_audit.md",
+      "review": "evidence/wke_primary_independent_verification.json"
+    },
+    "small_matching_WKE_conjecture": {
+      "status": "REFUTED",
+      "scope": "FALSE: trianglefreeC5blowup(2,2,1,2,2),matching4,notWKE",
+      "proof": "notes/c5_blowup_wke_boundary_v1.md",
+      "review": "review/hamiltonian_and_nonwke_boundaries_review.md"
+    },
+    "cover10_outside_degree": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "minimumCSnu5, anyminimumC10: verticesoutsideV(C) havedegree7or8; noendpoint-exhaustionclaim",
+      "proof": "notes/cover_ten_outside_degree_reduction_v1.md",
+      "review": "review/coordinator_cover_ten_degree_review.md"
+    },
+    "cover_critical_linear_bound": {
+      "status": "REFUTED",
+      "scope": "covercriticalityalone doesnotimplym<=4tau; actualconeoddsubdivisionK6 hasn37,m81,tau20,nu18",
+      "proof": "notes/cover_critical_size_bound_obstruction.md",
+      "review": "review/cover_critical_size_obstruction_independent_review.md",
+      "not_minimum_CS": true
+    },
+    "bipartite_triangle_matching_private_bound": {
+      "status": "ORDINARY_PROOF",
+      "scope": "minimumC=triangle+vertexdisjointmatching andG-Cbipartite implies|C|<=2nu_private",
+      "proof": "notes/challenger_triangle_matching_private_v1.md",
+      "review": "review/triangle_matching_private_independent_review.md",
+      "global_availability": "CONJECTURAL/NOT_SUPPLIED"
+    },
+    "connected_matching_cover": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Connected triangle support and a matching triangle cover imply tau<=nu+1",
+      "proof": "notes/connected_matching_cover_bound_v1.md",
+      "review": "review/connected_matching_cover_bound_independent_review.md"
+    },
+    "isolated_cover_bases": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Connected triangle support, r isolated cover-edge components and nonempty remainder imply nu>=r",
+      "proof": "notes/isolated_cover_edges_bound_v1.md",
+      "review": "review/isolated_bases_and_classified_defect_one_review.md"
+    },
+    "classified_resilient_defect_one": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Connected packing-edge-resilient defect-one graph with one B triangle deletion has nu<=7, sharply",
+      "proof": "notes/resilient_defect_one_classified_residual_v1.md",
+      "review": "review/isolated_bases_and_classified_defect_one_review.md"
+    },
+    "minimum_CS_pair_extension": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Every prescribed pair of edge-disjoint triangles extends to a maximum packing in a minimum CS failure",
+      "proof": "notes/two_triangle_extension_minimal_v1.md",
+      "review": "review/two_triangle_extension_minimal_independent_review.md"
+    },
+    "independent_side_cover_identity": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Exact ordinary cover formula retains a triangle-free core-edge subset restriction",
+      "proof": "notes/challenger_independent_side_cover_identity_v1.md",
+      "review": "review/global_cover_identity_and_hall_boundary_review.md"
+    },
+    "local_star_Hall_private_bound": {
+      "status": "REFUTED",
+      "scope": "Actual K5,5 core with closed-neighborhood apices satisfies local Hall but not a private half-size bound; its proposed C is not minimum",
+      "proof": "notes/challenger_local_hall_boundary_v1.md",
+      "review": "review/global_cover_identity_and_hall_boundary_review.md"
+    },
+    "ordinary_equals_private_cover_optimum": {
+      "status": "REFUTED",
+      "scope": "Unbounded actual independent-side family has ordinary tau=m and private tau=m-1 for a minimum C of size m; not a Tuza counterexample",
+      "proof": "notes/minimum_cover_private_cover_gap_v1.md",
+      "review": "review/coordinator_private_cover_gap_review.md"
+    },
+    "universal_independent_apices": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Independent side complete to the other side, with all internal edges a nonempty minimum cover, implies private packing strictly above half the cover size",
+      "proof": "notes/challenger_universal_apex_private_strictness_v1.md",
+      "review": "review/independent_apex_strictness_and_critical_swaps_review.md"
+    },
+    "independent_side_critical_swaps": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Exact critical-spoke and simultaneous triangle-in-minimum-cover reformulations as tight triangle-free core swaps",
+      "proof": "notes/challenger_independent_side_critical_swaps_v1.md",
+      "review": "review/independent_apex_strictness_and_critical_swaps_review.md"
+    },
+    "apex_forest_perfect_link": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Minimum CS failure has no closed link L with L-w a forest admitting a perfect matching",
+      "proof": "notes/apex_forest_perfect_link_exclusion_v2.md",
+      "review": "review/forest_cover_cs_assembly_independent_review.md"
+    },
+    "one_sided_forest_exact_packing": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Independent B and entire induced forest A, C=E(G[A]) minimum imply private nu=nu=tau=|C|",
+      "proof": "notes/one_sided_forest_exact_packing_v1.md",
+      "review": "review/coordinator_one_sided_forest_review.md",
+      "known_input": "Self-contained reconstruction of attributed clique-block Hall theorem"
+    },
+    "two_full_apices_disjoint_cores": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Any t vertex-disjoint triangle cores with two supplied full apices each admit 2t mutually compatible pages",
+      "proof": "notes/challenger_two_full_apices_packing_v1.md",
+      "review": "review/two_full_apices_packing_independent_review.md",
+      "availability": "Not supplied"
+    },
+    "cover_component_conflicts": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Selected local packings across minimum-cover components have cross-conflict paths/even cycles; weighted local sufficient bound is false on K5-e",
+      "proof": "notes/cover_component_interaction_v1.md",
+      "review": "review/cover_component_interaction_independent_review.md"
+    },
+    "forest_triangle_cover_CS": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "All finite graphs admitting any forest triangle-edge cover satisfy CS, with only literal K4 equality components",
+      "proof": "notes/forest_triangle_cover_cs_v1.md",
+      "review": "review/forest_cover_cs_assembly_independent_review.md"
+    },
+    "apex_forest_link_exclusion": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "No closed apex-forest link in a class-minimum CS failure; both matching branches self-contained",
+      "proof": "notes/apex_forest_nonperfect_branch_v2.md",
+      "review": "review/apex_forest_nonperfect_v2_independent_review.md"
+    },
+    "cover_leaf_sees_cycle": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Every leaf of any triangle cover in a minimum CS failure sees a selected cycle avoiding its selected parent",
+      "proof": "notes/cover_leaf_cycle_corollary_v1.md",
+      "review": "review/coordinator_triangle_normalization_and_page_review.md"
+    },
+    "extremal_triangle_cover_components": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Some extremal minimum cover of any minimum CS failure has three private pages on every literal triangle component",
+      "proof": "notes/challenger_triangle_component_normalization_v1.md",
+      "review": "review/coordinator_triangle_normalization_and_page_review.md"
+    },
+    "three_pages_disjoint_triangle_cores": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Three supplied private pages per vertex-disjoint triangle core give nu>3t/2 for t>0",
+      "proof": "notes/three_private_pages_triangle_cores_v1.md",
+      "review": "review/coordinator_triangle_normalization_and_page_review.md"
+    },
+    "C4_induced_core_exact": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Independent apex side and whole C4 core minimum cover imply private nu=nu=tau=4",
+      "proof": "notes/even_cycle_induced_list_boundary_v1.md",
+      "review": "review/coordinator_even_cycle_list_boundary_review.md"
+    },
+    "even_cycle_induced_core_exact": {
+      "status": "REFUTED",
+      "scope": "C_(2r) induced-core family r>=3 with minimum C has tau=2r and private nu=nu=2r-1; not a Tuza counterexample",
+      "proof": "notes/even_cycle_induced_list_boundary_v1.md",
+      "review": "review/coordinator_even_cycle_list_boundary_review.md"
+    },
+    "triangle_edge_three_color_CS": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Rainbow triangle-edge three-colorable graphs satisfy CS with only K4 equality components; external Aharoni and HNS classification admitted at exact scope",
+      "proof": "notes/triangle_edge_three_color_cs_v1.md",
+      "review": "review/coordinator_homebase_triangle_transfer_review.md"
+    },
+    "independent_hub_fiber_saving": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Independent hubs, maximum packing and residual link matching-cover equality imply tau<=2nu-sum essential bases",
+      "proof": "notes/independent_hub_fiber_cover_v1.md",
+      "review": "review/coordinator_fiber_and_clique_tree_review.md"
+    },
+    "fresh_clique_defect_one_class": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Literal fresh K4/K5 edge-gluing defect-one graphs are two K5s or central K4 with at most three star leaves; sharp nu<=7",
+      "proof": "notes/defect_one_fresh_clique_tree_classification_v1.md",
+      "review": "review/coordinator_fiber_and_clique_tree_review.md"
+    },
+    "matching_and_triangle_mincover_Tuza": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Minimum cover consisting of any number of vertex-disjoint triangles and matching edges implies Tuza",
+      "proof": "notes/matching_and_triangle_cover_tuza_v1.md",
+      "review": "review/matching_and_triangle_cover_tuza_independent_review.md"
+    },
+    "two_page_triangle_matching_CS": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Same minimum-cover shape, all triangle components with private packing two, implies full CS",
+      "proof": "notes/challenger_two_page_triangle_matching_cs_v1.md",
+      "review": "review/two_page_triangle_matching_cs_independent_review.md"
+    },
+    "minimum_CS_small_cover_components_exclusion": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "No class-minimum CS failure has a minimum cover consisting solely of vertex-disjoint K2/K3 components",
+      "proof": "notes/challenger_small_component_cover_exclusion_v1.md",
+      "review": "review/small_component_cover_exclusion_independent_review.md"
+    },
+    "one_cycle_cover_Tuza": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Any triangle cover with total cycle rank at most one implies Tuza; the later full CS theorem separately classifies equality",
+      "proof": "notes/one_cycle_cover_tuza_v1.md",
+      "review": "review/one_cycle_cover_tuza_independent_review.md",
+      "historical_scope": "Any triangle cover with total cycle rank at most one implies Tuza; equality classification remains open",
+      "superseded_by": "one_cycle_cover_full_CS"
+    },
+    "minimum_vertex_cover_matching_saturation": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Every minimum vertex cover is saturated by a maximum matching; elementary maximal-internal-matching/Hall proof; weighted star cover-component corollary",
+      "proof": "notes/challenger_minimum_vertex_cover_matching_v2.md",
+      "review": "review/minimum_vertex_cover_matching_v2_independent_review.md"
+    },
+    "weighted_cover_component_internal_strictness": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Supplied component packings with total 2I+E>=|C| give Tuza, strictly if one component has an unused internal triangle",
+      "proof": "notes/weighted_component_internal_strictness_v2.md",
+      "review": "review/coordinator_tree_internal_interface_review.md",
+      "review_note": "Independent source-audit reconstruction recorded in source note; coordinator reconstructed balanced component argument. Local packing availability is not universal."
+    },
+    "link_vertex_deletion_cyclic_components": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "In a class-minimum CS failure every nonempty component of L(v)-w contains a cycle",
+      "proof": "notes/link_vertex_deletion_cyclic_components_v1.md",
+      "review": "review/link_vertex_deletion_cyclic_components_independent_review.md"
+    },
+    "conditional_tree_internal_interface": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Supplied internal packing I and D subset E(T), meeting every internal triangle and containing E(T) intersect E(I), with |D|<=2|I| imply weighted TREE; availability of THIS RESTRICTED D was refuted",
+      "proof": "notes/tree_internal_packing_interface_v1.md",
+      "review": "review/coordinator_tree_internal_interface_review.md",
+      "distinction": "The later existential forest anchor permits unrestricted D and is proved; its availability is not refuted by this restricted-D counterexample"
+    },
+    "tree_mixed_hall_selection": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Maximal matching of internal two-base triangles plus private-list selection accounts for all minimum tree-component bases; nonselected chord collisions remain",
+      "proof": "notes/challenger_tree_mixed_hall_selection_v1.md",
+      "review": "review/coordinator_tree_mixed_hall_review.md"
+    },
+    "weighted_tree_cover_component": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Minimum ordinary cover tree component admits assigned packing with 2 internal + external weight at least its edge count",
+      "historical_status": "CONJECTURE at initial formulation; resolved during this campaign",
+      "historical_obligation": "Repair chord-book and reciprocal conflicts using full minimum-cover optimality",
+      "resolved_by": "weighted_TREE",
+      "proof": "notes/challenger_forest_anchored_cover_v1.md",
+      "review": "review/forest_anchored_cover_independent_review.md"
+    },
+    "forest_cover_optimum_equality": {
+      "status": "REFUTED",
+      "scope": "Forest-cover membership does not ensure an optimum forest cover; K3 join independent t has tau=nu=3 but minimum forest cover t+1",
+      "proof": "notes/forest_cover_optimum_boundary_v1.md",
+      "review": "review/forest_cover_optimum_boundary_independent_review.md"
+    },
+    "parallel_thread_link_exclusion": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Minimum-CS links exclude two nondirect parallel threads and direct plus odd nondirect thread, with arbitrary branch count and outside attachments",
+      "proof": "notes/parallel_thread_link_exclusion_v1.md",
+      "review": "review/coordinator_parallel_threads_review.md"
+    },
+    "link_excess": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Every closed link component has cyclomatic number at least maximum degree and at least n+2 edges; one-cycle cover leaf has mu=d(parent)=Delta",
+      "proof": "notes/link_excess_and_one_cycle_leaf_v1.md",
+      "review": "review/coordinator_parallel_threads_review.md"
+    },
+    "private_tree_component_weighted": {
+      "status": "ORDINARY_PROOF",
+      "scope": "A tree component of a minimum cover with only one-selected-edge assigned triangles has local packing weight 2internal+external at least its edge count",
+      "proof": "notes/private_tree_component_weighted_v1.md",
+      "review": "review/challenger_private_tree_weighted_review.md"
+    },
+    "forest_external_family_minmax": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Any family of outside pages on forest bases has exact triangle packing-cover equality; no minimum-C premise",
+      "proof": "notes/challenger_forest_external_minmax_v1.md",
+      "review": "review/forest_external_minmax_independent_review.md"
+    },
+    "three_branch_CS_link_exclusion": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "A class-minimum CS failure has no closed link component with at most three vertices of degree greater than two",
+      "proof": "notes/three_branch_cs_link_exclusion_v1.md",
+      "review": "review/challenger_three_branch_cs_review.md"
+    },
+    "anchored_internal_tree_cover": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Any forest triangle-edge cover C admits existential packing I and unrestricted cover D with C intersect E(I) contained in D and |D|<=2|I|; C need not be minimum or spanning",
+      "proof": "notes/challenger_forest_anchored_cover_v1.md",
+      "review": "review/forest_anchored_cover_independent_review.md",
+      "coordinator_review": "review/coordinator_forest_anchored_cover_review.md",
+      "guardrail": "Packing is existential, not every prescribed maximum packing; unicyclic extension fails on K4 with C4 cover"
+    },
+    "codegree_two_defect_one": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Edges in at most two actual triangles: CS with K4-only equality; defect-one components are K4s plus exactly K3, diamond, or five-wheel",
+      "proof": "notes/codegree_two_defect_one_classification_v1.md",
+      "review": "review/coordinator_codegree_two_review.md",
+      "external_inputs": [
+        "Staton independence bound via Heckman\u2013Thomas primary proof",
+        "Tutte\u2013Berge formula"
+      ],
+      "minimum_CS_consequence": "Every one-edge and triangle residual contains an edge with at least three residual triangles"
+    },
+    "high_codegree_four_core_localization": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Minimum CS failure has min degree4 in edges of triangle-codegree>=3; CS localizes to any hereditary proved class on the induced four-core of this edge graph",
+      "proof": "notes/high_codegree_core_cs_v1.md",
+      "review": "review/high_codegree_core_localization_independent_review.md"
+    },
+    "perfect_triangle_intersection_CS": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Perfect actual triangle-intersection graph implies CS with only K4 components; inequality method has authenticated published antecedent",
+      "proof": "notes/perfect_triangle_intersection_cs_v1.md",
+      "review": "review/coordinator_perfect_triangle_intersection_review.md"
+    },
+    "crown_classified_residual_interface": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Every maximum independent crown choice gives a B residual by balanced accounting; does not prove general crown exclusion",
+      "proof": "notes/crown_balanced_residual_interface_v1.md",
+      "review": "review/crown_balanced_residual_independent_review.md"
+    },
+    "anchor_residual_packing_bound": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Maximum internal packing minimizing two-selected-edge members gives residual nu<=p1; residual tau<=p1 remains open",
+      "proof": "notes/challenger_tree_anchor_residual_packing_v2.md",
+      "review": "review/coordinator_tree_anchor_residual_packing_review.md"
+    },
+    "anchor_one_private_case": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Extremal tree-cover anchor residual tau<=p1 for p1<=1; weighted TREE follows under this supplied condition",
+      "proof": "notes/challenger_tree_anchor_one_private_v1.md",
+      "review": "review/tree_anchor_one_private_independent_review.md"
+    },
+    "anchor_residual_perfection_every_choice": {
+      "status": "REFUTED",
+      "scope": "Nine-vertex literal example has maximum p2-minimal packing with C5 residual; arbitrary forest-covered residuals can be realized with an exact budget",
+      "proof": "notes/challenger_anchor_residual_realization_boundary_v1.md",
+      "review": "review/coordinator_tree_anchor_residual_packing_review.md"
+    },
+    "claw_free_triangle_intersection_CS": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Claw-free actual triangle-intersection graph implies CS with K4/K5 equality; ordinary new proof uses authenticated local M0 and reviewed link deletion",
+      "proof": "notes/claw_free_triangle_intersection_cs_v1.md",
+      "review": "review/coordinator_claw_free_triangle_intersection_review.md"
+    },
+    "four_branch_CS_finite_interface": {
+      "status": "FINITE_CERTIFICATE",
+      "scope": "All363 fixed remaining parity profiles:170STRICT and193RIM certificates; independent full-domain regeneration and literal validation; symbolic assembly still separately reviewed",
+      "evidence": "evidence/four_branch_cs_interface_probe.json",
+      "independent_validation": "evidence/four_branch_cs_independent_validation.json",
+      "not_unrestricted": true
+    },
+    "centered_three_sun_core_localization": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Each link component of a minimum CS failure contains a centered-three-sun triangle at its hub; monotone induced center-kernel localizes any hereditary CS base",
+      "proof": "notes/centered_three_sun_core_localization_v1.md",
+      "review": "review/coordinator_centered_three_sun_core_review.md"
+    },
+    "anchor_implication_repeated_base": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Every simple forced contradiction path in the restricted literal-choice system reuses an unused selected tree edge; global paid repair budget open",
+      "proof": "notes/challenger_tree_anchor_implication_paths_v1.md",
+      "review": "review/coordinator_anchor_implication_path_review.md"
+    },
+    "clique_odd_cycle_cover_certificate": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Supplied clique/odd-cycle cover of actual triangle-intersection graph at stable-set cost implies CS with strict cycle savings and K4-only equality",
+      "proof": "notes/clique_odd_cycle_cover_certificate_v1.md",
+      "review": "review/coordinator_clique_odd_cycle_certificate_review.md",
+      "availability": "Not universal; K5 and K6 refute it; TDI interface is a separate sufficient assumption"
+    },
+    "four_branch_CS_link_exclusion": {
+      "status": "PROOF_USING_FINITE_CERTIFICATES_AND_DECLARED_INPUTS",
+      "scope": "Every nonempty closed link component of a class-minimum CS failure has at least five branch vertices",
+      "proof": "notes/four_branch_cs_link_exclusion_v1.md",
+      "review": "review/challenger_four_branch_cs_assembly_review.md",
+      "coordinator_review": "review/coordinator_four_branch_cs_assembly_review.md",
+      "finite_validation": "evidence/four_branch_cs_independent_validation.json",
+      "historical_inputs": "four-branch triangle-free WKE complete domain and Kotzig, plus authenticated local M0/codegree/robustness",
+      "historical_proof_status": "Preserved finite/declared-input predecessor; ordinary replacement separately accepted before cutoff",
+      "superseded_by": "four_branch_CS_ordinary_replacement"
+    },
+    "high_codegree_five_core_localization": {
+      "status": "PROOF_USING_FINITE_CERTIFICATES_AND_DECLARED_INPUTS",
+      "scope": "CS for empty high-codegree five-core, or hereditary established CS base on its induced core; full K4/K5 equality",
+      "proof": "notes/high_codegree_five_core_cs_v1.md",
+      "review": "review/high_codegree_five_core_independent_review.md"
+    },
+    "weighted_TREE": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Every tree component of a minimum triangle cover admits assigned-family packing with 2internal+external at least its edge count",
+      "proof": "notes/challenger_forest_anchored_cover_v1.md",
+      "review": "review/forest_anchored_cover_independent_review.md",
+      "dependencies": [
+        "self-contained forest anchor",
+        "forest external-family minmax"
+      ],
+      "global_availability": "Arbitrary graph cover structure not supplied"
+    },
+    "tree_triangle_minimum_cover_Tuza": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Minimum cover whose components are trees or literal K3s implies Tuza inequality, without equality classification",
+      "proof": "notes/challenger_tree_triangle_cover_tuza_v1.md",
+      "review": "review/tree_triangle_cover_tuza_independent_review.md"
+    },
+    "independent_branch_link_exclusion": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Every closed link component of a class-minimum CS failure has adjacent branch vertices, with arbitrary branch count",
+      "proof": "notes/independent_branch_link_exclusion_v1.md",
+      "review": "review/independent_branch_link_exclusion_review.md",
+      "inputs": "Authenticated local M0/codegree/robustness; new proof ordinary, no finite census or Kotzig"
+    },
+    "apex_unicyclic_matching": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Closed minimum-degree-two L with L-w connected unicyclic is WKE except possibly when L-w is a perfect cycle and w has consecutive neighbors; triangle-free case always WKE",
+      "proof": "notes/apex_unicyclic_wke_v1.md",
+      "review": "review/challenger_apex_unicyclic_wke_review.md",
+      "CS_use": "Triangle-free branch uses separately declared TF WKE exclusion; no general WKE-to-CS inference"
+    },
+    "tree_triangle_any_cover_Tuza": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Any triangle-edge cover with tree or literal K3 components implies tau(G)<=sum of assigned-family cover costs<=2nu(G); later full CS theorem classifies equality",
+      "proof": "notes/challenger_tree_triangle_cover_tuza_v2.md",
+      "review": "review/tree_triangle_cover_tuza_v2_independent_review.md",
+      "historical_scope": "Any triangle-edge cover with tree or literal K3 components implies tau(G)<=sum of assigned-family cover costs<=2nu(G); hereditary class, equality not yet classified",
+      "superseded_by": "tree_triangle_any_cover_CS"
+    },
+    "mixed_cover_q3_strictness": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Any q3 cost-three triangle core or any q2 target cycle forces strict inequality in the arbitrary tree/triangle-cover class",
+      "proof": "notes/challenger_mixed_cover_q3_strictness_v1.md",
+      "review": "review/mixed_cover_q3_strictness_independent_review.md",
+      "remaining": "Resolved by the full ANY tree/K3-cover CS theorem",
+      "historical_remaining": "Cost-two triangle families and q2 paths meeting trees",
+      "superseded_by": "tree_triangle_any_cover_CS"
+    },
+    "original_HD_colored_interface": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Exact min-cover intersection counts and strict-branch proper triangle-free colored model with endpoint-deletion cover inequalities",
+      "proof": "notes/hd_minimum_cover_colored_interface_v1.md",
+      "review": "review/coordinator_hd_colored_interface_review.md",
+      "declared_input_corollary": "No strict-branch k>=2 candidate has a minimum cover made bipartite by deleting one edge; uses rainbow-CS plus one-B-residual HD"
+    },
+    "mixed_cover_q2_K5": {
+      "status": "ORDINARY_PROOF",
+      "scope": "In equality under any tree/triangle cover, every cost-three triangle core forms K5 with two apices joined by a selected TREE edge",
+      "proof": "notes/challenger_tight_mixed_cover_q2_k5_v1.md",
+      "review": "review/coordinator_q2_k5_and_low_cost_review.md",
+      "not_claimed": "Isolation of K5 support or full mixed-cover CS"
+    },
+    "mixed_cover_low_cost_triangle": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Cost2 plus private two-packing is strict; class-minimum CS mixed covers have only q2 K5 triangle components attached at tree edges",
+      "proof": "notes/challenger_mixed_cover_low_cost_triangle_exclusion_v1.md",
+      "review": "review/coordinator_q2_k5_and_low_cost_review.md",
+      "inputs": "Ordinary compatibility plus authenticated local minimality/codegree and K4 star peeling"
+    },
+    "WKE_residual_cover_invariance": {
+      "status": "ORDINARY_PROOF",
+      "scope": "For balanced link tuple and B residual, every residual minimum cover preserves the remaining rim vertex-cover number; supported edges cannot be cover-critical",
+      "proof": "notes/coordinator_wke_residual_cover_invariance_v1.md",
+      "review": "review/restoration_wke_cover_invariance_review.md",
+      "not_claimed": "General WKE equality exclusion"
+    },
+    "perfect_apex_unicyclic_CS_exclusion": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "No closed L with L-w connected unicyclic admitting a perfect matching in a class-minimum CS failure, arbitrary size/attachments",
+      "proof": "notes/apex_unicyclic_perfect_full_exclusion_v1.md",
+      "review": "review/coordinator_perfect_unicyclic_full_review.md",
+      "inputs": "Ordinary local matching and substitution, authenticated class-local M0/codegree/robustness and historical W5 exclusion; no finite census or Kotzig"
+    },
+    "minimum_exact_cover_fractional_integrality": {
+      "status": "REFUTED",
+      "scope": "Petersen doublecone: all five minimum covers exact-one and bipartite, tau11 versus fractional10; every triangle residual tau10, so cover-side endpoint-deletion condition also holds",
+      "proof": "notes/minimum_exact_cover_fractional_boundary_v1.md",
+      "residual_proof": "notes/minimum_exact_cover_fractional_residual_boundary_v1.md",
+      "review": "review/coordinator_petersen_fractional_boundary_review.md",
+      "not_HD_counterexample": true
+    },
+    "TF_apex_unicyclic_deficiency_one": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "No closed L with L-w connected triangle-free unicyclic of matching deficiency1 in a class-minimum CS failure",
+      "proof": "notes/apex_unicyclic_triangle_free_deficiency_one_exclusion_v1.md",
+      "review": "review/coordinator_tf_unicyclic_deficiency_one_review.md",
+      "remaining": "Resolved by the ordinary full apex-unicyclic theorem; later apex-pseudoforest theorem is broader",
+      "historical_remaining": "Triangle-free nonperfect remainder deficiency>=2, and nonperfect triangular-cycle remainders",
+      "superseded_by": "apex_unicyclic_closedlink_exclusion"
+    },
+    "prescribed_one_C_forest_anchor": {
+      "status": "REFUTED",
+      "scope": "Five-vertex fan refutes requiring an arbitrary prescribed one-C triangle in the anchored packing",
+      "proof": "notes/challenger_prescribed_one_c_anchor_boundary_v1.md",
+      "review": "review/coordinator_prescribed_anchor_boundaries_review.md"
+    },
+    "prescribed_base_forest_anchor": {
+      "status": "REFUTED",
+      "scope": "K4 with a selected spanning path refutes requiring its middle selected edge in an anchored cover",
+      "proof": "notes/challenger_forced_base_anchor_boundary_v1.md",
+      "review": "review/coordinator_prescribed_anchor_boundaries_review.md"
+    },
+    "unicyclic_exposable_leaf_facts": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Connected unicyclic matching deficiency>=2: retain an allowed edge while exposing an original leaf; matching-preserving deletion exposes an original leaf away from its endpoints",
+      "proof": "notes/unicyclic_exposable_leaf_matching_v1.md",
+      "review": "review/coordinator_unicyclic_leaf_and_TF_remainder_review.md",
+      "external_input": "Authenticated Gallai-Edmonds structure theorem, Busch et al. theorem3.6 author manuscript Jan10,2011; historical proof declared"
+    },
+    "TF_apex_unicyclic_full": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "No closed L with L-w connected triangle-free unicyclic in a class-minimum CS failure, arbitrary order and outside attachments",
+      "proof": "notes/apex_unicyclic_triangle_free_remainder_ordinary_v2.md",
+      "review": "review/challenger_simultaneous_cover_collapse_review.md",
+      "external_input": "Authenticated ordinary local M0/codegree/clique and five-wheel/cycle facts; no GE/Kotzig/finite premise in the shorter v2",
+      "remaining": "Resolved by the ordinary full apex-unicyclic theorem; later apex-pseudoforest theorem is broader",
+      "independent_declared_GE_proof": "notes/apex_unicyclic_triangle_free_remainder_exclusion_v1.md, reviewed in review/coordinator_unicyclic_leaf_and_TF_remainder_review.md",
+      "historical_remaining": "Nonperfect remainders whose unique cycle is a triangle",
+      "superseded_by": "apex_unicyclic_closedlink_exclusion"
+    },
+    "tree_triangle_any_cover_CS": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "Any graph admitting a triangle-edge cover whose components are trees or literal K3 satisfies Tuza and exact actual K4/K5 triangle-component equality classification; cover need not be minimum",
+      "proof": "notes/challenger_tree_triangle_cover_cs_v1.md",
+      "review": "review/tree_triangle_cover_cs_independent_review.md",
+      "inputs": "New ordinary forest anchor/compatibility/equality normalization/residual-diamond proof plus authenticated class-local M0/codegree/robustness and ordinary apex-forest v2; no GE/Kotzig/finite premise",
+      "global_role": "Closes equality in this hereditary class and supplies a new CS base for the proved core localizations; unrestricted availability not supplied",
+      "evidence_note": "Ordinary proof with explicitly inherited class-local lemmas; no new finite, GE or Kotzig premise"
+    },
+    "near_TF_WKE_full_exclusion": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "scope": "No WKE closed link with a triangle-free vertex deletion in a class-minimum CS failure, arbitrary order/attachments",
+      "proof": "notes/challenger_near_triangle_free_wke_exclusion_v1.md",
+      "review": "review/coordinator_near_TF_WKE_full_review.md",
+      "inputs": "Ordinary simultaneous cover and matching-two classification, authenticated five-vertex closed-link and apex-forest proofs; no GE/Kotzig/finite premise"
+    },
+    "WKE_general_triangle_transversal_collapse": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Minimum-CS WKE closedlink(P,Q), L-S trianglefree => |P|<=|S|+|Z| for outside Pmates Z",
+      "proof": "notes/coordinator_triangle_deletion_set_WKE_collapse_v1.md",
+      "review": "review/restoration_general_S_cover_collapse_review.md",
+      "consequence": "S empty supplies ordinary trianglefree WKE exclusion without Kotzig"
+    },
+    "H-D_unicyclic_component_weighted_packing": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Minimum exact-one cover and every triangle deletion drops tau by1: each unicyclic assigned component has weighted2I+E>=m; internal cycle-page gives surplus; entirely external family has full m-page packing",
+      "proof": "notes/unicyclic_cover_drop_one_packing_v2.md",
+      "review": "review/coordinator_external_page_and_unicyclic_hd_review.md",
+      "limitation": "No global compatibility or cover-shape availability"
+    },
+    "external_page_clique_footprint_certificate": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/external_page_clique_footprint_certificate_v3.md",
+      "review": "review/coordinator_external_page_and_unicyclic_hd_review.md",
+      "scope": "Sufficient fully literal all-residual-cliques matching/page augmentation test"
+    },
+    "triangular_unicyclic_finite_interface": {
+      "status": "FINITE_CERTIFICATES_INDEPENDENTLY_VALIDATED",
+      "ordinary_domain": "notes/triangular_unicyclic_small_remainder_classification_v1.md",
+      "independent_domain": "evidence/coordinator_triangular_unicyclic_domain.json",
+      "domain_counts": {
+        "F_shapes": 12,
+        "raw_apex_attachments": 374
+      },
+      "v1": "Stopped fourth record on known three-sun; UNKNOWN preserved; not complete",
+      "v2": "374 records,0UNKNOWN,5negativecontrols rejected; exact independent-domain bijection and literal certificate check",
+      "validation": "evidence/coordinator_triangular_unicyclic_validation.json"
+    },
+    "apex_unicyclic_closedlink_exclusion": {
+      "status": "ORDINARY_PROOF",
+      "scope": "No closed link L in a class-minimum CS failure has L-w connected unicyclic",
+      "proof": "notes/apex_unicyclic_full_exclusion_ordinary_v2.md",
+      "reviews": [
+        "review/coordinator_research_reviews_0408.md",
+        "review/challenger_paid_triangle_and_two_shape_review.md"
+      ],
+      "finite_interface": "evidence/coordinator_triangular_unicyclic_validation.json",
+      "limits": "This ordinary connected-unicyclic proof has no374-state/GE/Kotzig/four-branch finite premise; the later full apex-pseudoforest theorem separately handles disconnected unicyclic remainders",
+      "independent_finite_predecessor": "notes/apex_unicyclic_full_exclusion_v1.md"
+    },
+    "one_cycle_cover_CS_failure_Hamiltonian": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Every total-cycle-rank-one triangle cover in a minimum-CS failure is a spanning cycle",
+      "proof": "notes/apex_unicyclic_full_exclusion_ordinary_v2.md",
+      "limits": "Intermediate necessary condition; the remaining Hamiltonian case was subsequently excluded with the explicit finite interfaces",
+      "historical_limits": "Remaining Hamiltonian cycle-cover equality case open",
+      "superseded_by": "one_cycle_cover_full_CS"
+    },
+    "triangle_free_WKE_residual_whole_cone_interface": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/coordinator_triangle_free_WKE_residual_interface_v1.md",
+      "review": "review/restoration_triangle_free_WKE_residual_interface_review.md",
+      "scope": "For R=L-P TF, unsupportedR has vertex cover r, cone packing exactlyr, and outside-page bases packing-critical in cone",
+      "limits": "Necessary conditions only; proper-cone induction excluded when cone equalsG"
+    },
+    "regular_base_full_page_extension": {
+      "status": "REFUTED",
+      "proof": "notes/regular_base_private_packing_boundary_v1.md",
+      "review": "review/coordinator_regular_base_and_cycle_boundaries_review.md",
+      "witness": "Petersen plus3 independent universal apices; tau15,nu13; every triangle residual tau14,nu12; allminimumcovers exact-one",
+      "limits": "Not an H-D counterexample: near-tight equation fails"
+    },
+    "WKE_paid_triangle_transversal_collapse": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Minimum-CS WKE(P,Q): |P|<=|S|+|outside Pmates|+#actual triangles(L-S), arbitraryS",
+      "proof": "notes/wke_residual_triangle_count_collapse_v1.md",
+      "review": "review/coordinator_paid_triangle_and_small_shapes_review.md"
+    },
+    "H-D_blue_deletion_survivor_bound": {
+      "status": "ORDINARY_PROOF",
+      "scope": "nu=k>=2,tau=2k-1,everytriangle residualtau=2k-2 => EVERY minC/maxP has nu(G\u2212blue(P))<=k-2",
+      "proofs": [
+        "notes/hd_wang_full_survivor_exclusion_v1.md",
+        "notes/hd_wang_one_missing_survivor_exclusion_v1.md"
+      ],
+      "review": "review/coordinator_hd_wang_survivor_reviews.md",
+      "primary_mechanism": "Wang2609.13831v1 Lemmas2.1\u20132.2 reconstructed",
+      "limits": "Residualpacking hypothesis unused; no blocker/unrestricted conclusion"
+    },
+    "two_apex_forest_link_matching_bound": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Minimum-CS closedlink L with L\u2212{a,b} forest has matchingnumber<=3",
+      "proof": "notes/challenger_two_apex_forest_large_matching_exclusion_v1.md",
+      "review": "review/two_apex_forest_large_matching_independent_review.md",
+      "corollary": "Hamiltonian cycle-cover minimumCS failure has maximumdegree<=12; no completeclass conclusion"
+    },
+    "TF_WKE_residual_matching_deficit": {
+      "status": "ORDINARY_PROOF",
+      "scope": "TF R=L-P inminCSWKEtuple hasmatching(R)<=|P|-1; bipartiteresidualexcluded",
+      "proof": "notes/coordinator_TF_residual_equal_matching_exclusion_v1.md",
+      "review": "review/restoration_TF_residual_equal_matching_review.md",
+      "limits": "NoWKEavailability; nonKETFresidualopen"
+    },
+    "WKE_degree_two_residual_exclusion": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/coordinator_WKE_degree_two_residual_exclusion_v1.md",
+      "review": "review/wke_degree_two_residual_independent_review.md",
+      "scope": "No minCSWKEtuple residual hasmaximumdegree<=2"
+    },
+    "apex_pseudoforest_remaining_boundary": {
+      "status": "ORDINARY_PROOF",
+      "proofs": [
+        "notes/apex_pseudoforest_boundary_v1.md",
+        "notes/full_four_cycle_pseudoforest_component_exclusion_v1.md"
+      ],
+      "review": "review/coordinator_research_reviews_0408.md",
+      "scope": "RemainingL-wpseudoforest: >=2C4s,eachexactly3w-neighbors",
+      "limits": "Historical exact boundary; now fully excluded by ordinary bouquet reduction, not an open case",
+      "superseded_by": "apex_pseudoforest_full_exclusion; three-neighbor bouquet now excluded ordinarily"
+    },
+    "two_apex_forest_link_matching_bound_finite": {
+      "status": "PROOF_USING_FINITE_CERTIFICATES",
+      "scope": "Matching(L-{a,b})<=2; HamiltoniancyclecoverminCS maximumdegree<=9",
+      "proof": "notes/challenger_two_apex_forest_matching_two_bound_v1.md",
+      "review": "review/coordinator_research_reviews_0408.md",
+      "finite_evidence": "evidence/coordinator_p6_interface_validation.json"
+    },
+    "two_glued_K4_triangle_strict_restoration": {
+      "status": "ORDINARY_PROOF",
+      "scope": "ActualtrianglecomponentsB+exactlytwoK4sharingedge; restoreonemissingtriangle =>tau<=2nu-1",
+      "proof": "notes/two_edge_glued_k4_triangle_restoration_v1.md",
+      "review": "review/coordinator_research_reviews_0408.md"
+    },
+    "H-D_book_defect_count": {
+      "status": "ORDINARY_PROOF",
+      "scope": "q paired books,s singletons,g distinct unused opposites imply q-g<=s-1; all s2 cases excluded under full H-D by separate ordinary restoration",
+      "proofs": [
+        "notes/hd_wang_book_defect_count_v1.md",
+        "notes/hd_distinct_good_books_residual_reduction_v1.md"
+      ],
+      "review": "review/coordinator_research_reviews_0408.md"
+    },
+    "H-D_blue_deletion_survivor_bound_original": {
+      "status": "ORDINARY_PROOF",
+      "scope": "FULL originalHD,nu=k>=2,tau=2k-1 => EVERYminC/maxP hasnu(G-blue(P))<=k-3",
+      "proof": "notes/hd_two_missing_survivors_exclusion_v1.md",
+      "review": "review/coordinator_R3_shapes_and_HD_kminus3_review.md",
+      "limits": "No survivor lower bound or global blocker; cover-only k-2 theorem retained separately"
+    },
+    "three_edge_restoration_star": {
+      "status": "ORDINARY_PROOF",
+      "scope": "B(H)+three missingedges ofspecifiedshape, tightness =>B",
+      "proof": "notes/three_star_edge_restoration_v1.md",
+      "review": "review/coordinator_R3_shapes_and_HD_kminus3_review.md"
+    },
+    "three_edge_restoration_path": {
+      "status": "ORDINARY_PROOF",
+      "scope": "B(H)+three missingedges ofspecifiedshape, tightness =>B",
+      "proof": "notes/three_path_edge_restoration_v1.md",
+      "review": "review/coordinator_R3_shapes_and_HD_kminus3_review.md"
+    },
+    "three_edge_restoration_matching": {
+      "status": "ORDINARY_PROOF",
+      "scope": "B(H)+three missingedges ofspecifiedshape, tightness =>B",
+      "proof": "notes/three_matching_edge_restoration_v1.md",
+      "review": "review/coordinator_R3_shapes_and_HD_kminus3_review.md"
+    },
+    "cycle_cover_remaining_interface": {
+      "status": "FINITE_CERTIFICATE",
+      "raw": 67360,
+      "eligible": 8220,
+      "unknown": 0,
+      "negative_controls_rejected": 8,
+      "evidence": "evidence/coordinator_cycle_cover_complete_validation.json",
+      "historical_unknowns": "v1 knownW5; v2 genuinely nonWKE P5; v3 ordinary parallel-thread witness; original records preserved",
+      "scope": "Derived fourteen-shape link domain; global internal-vertex rule only in Hamiltonian-cover minimum-CS context"
+    },
+    "R3_full_CS": {
+      "status": "ORDINARY_PROOF",
+      "scope": "B(H) plus at most three arbitrary nonedges satisfies full CS",
+      "proof": "notes/three_edge_restoration_full_cs_v1.md",
+      "review": "review/coordinator_R3_defect_one_and_isolate_review.md",
+      "limits": "No global B-residual or packing-blocker availability"
+    },
+    "resilient_defect_one_two_edge_B": {
+      "status": "ORDINARY_PROOF",
+      "scope": "One shared-edge triangle component, tau=2nu-1, single-edge packing resilience, some <=2-edge B deletion: K5-e or K4 with one/two adjacent-edge K4/K5 attachments; nu<=5 sharp",
+      "proof": "notes/resilient_defect_one_two_edge_B_classification_v2.md",
+      "review": "review/coordinator_R3_defect_one_and_isolate_review.md",
+      "limits": "Two-edge B deletion availability not proved; vertex connectivity is insufficient"
+    },
+    "cycle_cover_one_isolate_interface": {
+      "status": "FINITE_CERTIFICATE",
+      "raw": 26944,
+      "eligible": 2422,
+      "unknown": 0,
+      "negative_controls_rejected": 5,
+      "evidence": "evidence/coordinator_cycle_cover_isolate_validation.json",
+      "review": "review/coordinator_R3_defect_one_and_isolate_review.md"
+    },
+    "cycle_cover_two_link_transport": {
+      "status": "PROOF_USING_FINITE_CERTIFICATES",
+      "proof": "notes/challenger_cycle_cover_two_link_isolate_bridge_v2.md",
+      "review": "review/coordinator_R3_defect_one_and_isolate_review.md",
+      "scope": "Hamiltonian-cycle-cover minimum-CS failure excludes internal F vertex of full-link degree two",
+      "dependencies": [
+        "P6 finite matching bound",
+        "one-isolate finite subdomain",
+        "ordinary full-link common-neighbor identity"
+      ]
+    },
+    "one_cycle_cover_full_CS": {
+      "status": "PROOF_USING_FINITE_CERTIFICATES",
+      "scope": "Any triangle-edge cover of total selected cycle rank <=1 implies full CS; cover need not be minimum",
+      "proof": "notes/challenger_one_cycle_cover_cs_v1.md",
+      "review": "review/coordinator_cycle_CS_and_book_kernel_review.md",
+      "finite_interfaces": [
+        2018,
+        2422,
+        8220
+      ],
+      "limits": "No unrestricted cover availability; arbitrary pseudoforest covers remain open"
+    },
+    "classified_two_edge_B_residual_triangle_restoration": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/classified_two_edge_B_residual_triangle_restoration_v2.md",
+      "review": "review/coordinator_cycle_CS_and_book_kernel_review.md",
+      "scope": "Single shared-edge component, deficit one, single-edge resilience and available two-edge B deletion imply strict arbitrary missing-triangle restoration",
+      "consequence": "No minimum-CS triangle residual becomes B after two further edge deletions",
+      "limits": "Does not prove two-edge packing resilience or residual availability"
+    },
+    "red_book_rerooting": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/red_book_tree_rerooting_v1.md",
+      "review": "review/coordinator_cycle_CS_and_book_kernel_review.md",
+      "scope": "Exact red-page identity for every unused-root auxiliary tree; exceptional slots <=2(q-g)<=2(s-1)",
+      "limits": "Literal K4 slots need not be whole triangle components"
+    },
+    "H-D_parameterized_book_blocker_kernel": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/red_book_residual_family_and_blocker_kernel_v1.md",
+      "review": "review/coordinator_cycle_CS_and_book_kernel_review.md",
+      "scope": "Original strict H-D: either a star-boundary regular K4 gives a two-edge blocker, or q<=binom(5s-2,2)+s-1 for each supplied P/Q, s=k-q>=1",
+      "limits": "No bound independent of s, no survivor lower bridge, H-D remains open"
+    },
+    "apex_pseudoforest_full_exclusion": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/apex_pseudoforest_full_exclusion_v1.md",
+      "review": "review/coordinator_late_structural_results_review.md",
+      "scope": "Every closed link in a proper-subgraph-minimum CS failure has no vertex deletion that is a pseudoforest; mu>=Delta+1 and m>=n+3",
+      "limits": "No global link-availability or unrestricted contradiction"
+    },
+    "two_cycle_cover_Tuza": {
+      "status": "PROOF_USING_FINITE_CERTIFICATES",
+      "proof": "notes/challenger_two_cycle_cover_tuza_v2.md",
+      "review": "review/coordinator_late_structural_results_review.md",
+      "scope": "ANY supplied triangle cover of total selected cycle rank<=2 implies Tuza",
+      "finite_dependencies": "Inherited rank-one CS interfaces2018/2422/8220; no new computation",
+      "limits": "Rank-two equality classification and unrestricted cover availability open"
+    },
+    "fresh_clique_defect_one_triangle_restoration": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/fresh_clique_defect_one_triangle_restoration_v1.md",
+      "review": "review/coordinator_late_structural_results_review.md",
+      "scope": "Strict missing-triangle restoration from literal fresh K4/K5 edge-gluing deficit-one components with arbitrary triangle-free background",
+      "limits": "Representation not available for arbitrary residuals"
+    },
+    "classified_two_edge_B_residual_edge_insertion": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/classified_two_edge_B_residual_edge_insertion_v1.md",
+      "review": "review/coordinator_late_structural_results_review.md",
+      "scope": "Strict one-edge insertion except K5-e completed to K5 with no outside new pages; exact supplied resilient two-edge-B representation only"
+    },
+    "H-D_regular_diagonal_singleton_bound": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/red_book_diagonal_singleton_bound_v1.md",
+      "review": "review/coordinator_late_structural_results_review.md",
+      "scope": "Strict cover-deletion hypotheses, maxP and survivingQ, s=k-q>=1 imply q<=9binom(s,2)+2(s-1), k<=9binom(s,2)+3s-2",
+      "limits": "No survivor lower bound, no unrestricted H-D conclusion"
+    },
+    "defect_one_triangle_restoration_alternative": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/coordinator_defect_one_triangle_restoration_alternative_v1.md",
+      "review": "review/restoration_defect_one_triangle_alternative_review.md",
+      "scope": "Non-strict missing-triangle restoration from any deficit-one H forces independent-alternating C6 packing loss>=2, or exact K5-e new family with all spokes minimum-cover-ineligible",
+      "limits": "Neither branch generally excluded; three-page book toK5 controls second branch"
+    },
+    "all_minimum_exact_TF_cone_blocker": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "proof": "notes/all_minimum_exact_triangle_free_cone_blocker_v1.md",
+      "review": "review/coordinator_late_structural_results_review.md",
+      "scope": "An actual triangle component that is a TF-base cone under ALL-minimum-cover exactness has a one-edge packing blocker",
+      "declared_input": "Finite bipartite matching-cover equality",
+      "limits": "No component availability or rim-triangle cone claim"
+    },
+    "whole_cone_TF_matching_residual_exclusion": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/challenger_whole_cone_triangle_free_matching_residual_exclusion_v1.md",
+      "scope": "Minimum-CS whole cone with TF matching residual and cone packing equal to matching size is impossible; proper-cone outside-page branch remains",
+      "review": "review/coordinator_final_active_interfaces_review.md"
+    },
+    "outside_supported_WKE_matching_base": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/challenger_outside_supported_matching_base_restrictions_v1.md",
+      "scope": "Every outside-supported base is in every maximum L matching; no adjacent unmatched vertex and every other P-pair cross interface is a star",
+      "review": "review/coordinator_final_active_interfaces_review.md"
+    },
+    "cone_matching_robustness_characterization": {
+      "status": "REFUTED",
+      "proof": "notes/challenger_cone_matching_robustness_boundary_v1.md",
+      "scope": "K4 vertex-glued to K3,4 has all specified robustness and cone/matching equality, yet is neither small clique nor TF; cone nu5,tau7 strict",
+      "review": "review/coordinator_final_active_interfaces_review.md"
+    },
+    "all_minimum_exact_cone_unique_family": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/all_minimum_exact_cone_unique_family_v1.md",
+      "scope": "Supplied cone, ALL-minimum exactness and codegree>=2 imply unique rim-assigned all-base cover and strict subset-cover inequalities; no packing minmax",
+      "review": "review/coordinator_final_active_interfaces_review.md"
+    },
+    "cone_exact_cover_local_matching_interfaces": {
+      "status": "PROOF_USING_DECLARED_INPUT",
+      "proof": "notes/cone_exact_cover_local_matching_interfaces_v1.md",
+      "scope": "Local A-star private saturation and simultaneous cross-matching avoidance of endpoints of each A-edge under residual cover equality; Hall/Konig explicit",
+      "review": "review/coordinator_final_active_interfaces_review.md"
+    },
+    "pseudoforest_cover_two_factor_reduction": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/coordinator_pseudoforest_cover_two_factor_reduction_v1.md",
+      "scope": "ANY pseudoforest cover in a minimum-CS failure after discarding isolates is a spanning2factor; arbitrary cycle interactions remain",
+      "review": "review/challenger_pseudoforest_cover_two_factor_review.md"
+    },
+    "four_branch_triangle_doubles_ordinary": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/four_branch_triangle_doubles_ordinary_exclusion_v1.md",
+      "scope": "Arbitrary-length three-doubled-triangle branch shape excluded with ordinary matching/cover tuples",
+      "review": "review/coordinator_final_active_interfaces_review.md"
+    },
+    "four_branch_CS_ordinary_replacement": {
+      "status": "ORDINARY_PROOF",
+      "scope": "Every nonempty closed link of a minimum-CS failure has at least five branch vertices",
+      "proof": "notes/coordinator_four_branch_ordinary_completion_v1.md",
+      "review": "review/restoration_four_branch_ordinary_completion_review.md",
+      "standard_input": "Bipartite matching-cover equality in one explicitly constructed residual case",
+      "limits": "No historical5375/new363 finite premise; earlier proof and evidence preserved; no global link availability or unrestricted CS",
+      "additional_reviews": [
+        "review/challenger_four_branch_ordinary_completion_review.md",
+        "review/source_audit_four_branch_ordinary_completion_review.md"
+      ]
+    },
+    "cone_residual_cover_common_apices": {
+      "status": "ORDINARY_PROOF",
+      "proof": "notes/cone_residual_cover_common_apices_v1.md",
+      "review": "review/challenger_cone_common_apices_review.md",
+      "scope": "Exact supplied cone decomposition plus codegree and one-unit residual-cover drop force at least two nonhub common apices on every rim base",
+      "limits": "Literal K5-e subgraphs need not be whole components; no simultaneous selection"
+    },
+    "A1_packing_one_component_availability": {
+      "status": "CONJECTURE",
+      "outcome": "unresolved",
+      "scope": "Inherited packing-one-component availability route; stronger than original H-D; no availability proof supplied by this campaign"
+    }
+  },
+  "campaign_state": "CLOSED_SCHEDULED",
+  "last_updated_utc": "2026-11-16T05:24:56.425810+00:00",
+  "research_stopping_reason": "SCHEDULED_RESEARCH_CUTOFF"
+}

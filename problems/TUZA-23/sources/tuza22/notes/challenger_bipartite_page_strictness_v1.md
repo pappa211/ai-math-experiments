@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/challenger_bipartite_page_strictness_v1.md

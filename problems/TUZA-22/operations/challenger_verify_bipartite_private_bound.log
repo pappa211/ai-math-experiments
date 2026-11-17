@@ -1,0 +1,1 @@
+{'status': 'PASS', 'domain_size': 4096, 'verified_rows': 4096, 'witness_counts': {'CHEAPER_COVER': 2663, 'PRIVATE3_WITNESS': 1433}, 'method': 'Reconstruct each literal graph and all actual triangles; check explicit private3 or ordinary cover<=4, with no recurrence or optimizer.'}

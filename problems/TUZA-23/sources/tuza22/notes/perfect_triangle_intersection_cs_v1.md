@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/perfect_triangle_intersection_cs_v1.md

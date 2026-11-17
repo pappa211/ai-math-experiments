@@ -1,0 +1,15 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Fresh review: one-branch perfect unicyclic remainder
+
+Verdict: ACCEPT using the stated ordinary minimum-CS inputs. Primary notes/apex_unicyclic_one_branch_perfect_exclusion_v1.md, SHA8b15fb10811d0c02e1a4ce333b7463a61e82611d3a38e71ba4a8a819a6c44d79. Reviewer: challenger, 2026-11-16 UTC. No finite computation or Kotzig premise is used.
+
+The shared perfect-matching complement has exactly one degree-two vertex at the cycle attachment, so its one P3 plus isolated edges gives the r-1 cover. For cycles of length at least four the link is K4-free, and both rim and safe-endpoint external-page augmentations have the exact full two-edge-star footprint already reconstructed in the corrected apex-cycle review.
+
+In the even-cycle case, the even pendant path cannot match its first vertex to the attachment in a perfect F matching: the remaining path would have odd order. Thus both alternating perfect cycle matchings are available with the fixed interior path matching. An adjacent S_C pair is put in the initial matching and avoided by the other; if S_C is independent, any matching edge away from the attachment has both endpoints in no L triangle, including on C4. Arbitrary triangles along the pendant path do not affect those endpoint statements.
+
+In the odd-cycle case, the displayed original matching and every Z_c have size s+t+1 and are edge-disjoint unions as stated. Z_c uses wz with the leaf off the cycle, the alternating interior path edges, and M_c. This remains valid when the pendant path has length one. Independent S_C gives a safe original cycle edge, and a matched adjacent S_C edge gives a rim augmentation with Z_c.
+
+For an unmatched adjacent S_C edge, the chosen endpoint u can indeed be a or nonadjacent to a on a cycle of length at least five. In the new P_u, the F portion has r-1 edges. If u=a, its complement is one three-edge star plus isolated edges. Otherwise a and u are its only degree-two vertices, are nonadjacent, and cannot share a complement leaf because every other vertex has degree at most one; hence it has two disjoint P3s plus isolated edges. Both patterns save two covering vertices from r+1 edges and give the r-1 cover. Adding w yields the balanced tuple. The original F perfect matching avoids all three edges of wuv because it has no w-edge and uv was the unmatched case. This is a valid comparison matching in that NEW residual.
+
+The cases are exhaustive and use arbitrary apex-neighbor patterns, with codegree supplying genuine outside pages only where the safe-endpoint audit applies. The final progress statement correctly combines earlier results to leave exactly two adjacent branch vertices on a cycle of length at least four in the perfect unicyclic branch; the nonperfect branch remains separate. No unrestricted availability is inferred.

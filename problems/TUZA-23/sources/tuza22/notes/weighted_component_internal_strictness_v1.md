@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/weighted_component_internal_strictness_v1.md

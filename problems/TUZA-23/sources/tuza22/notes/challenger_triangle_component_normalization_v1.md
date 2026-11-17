@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/challenger_triangle_component_normalization_v1.md

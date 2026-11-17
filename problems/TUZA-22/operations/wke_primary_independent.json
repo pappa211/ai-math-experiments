@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T22:40:07.427906+00:00",
+  "end_utc": "2026-11-15T22:40:08.131201+00:00",
+  "seconds": 0.7032980918884277,
+  "command": [
+    "python",
+    "scripts/wke_primary_independent_validator.py"
+  ],
+  "pid": 74636,
+  "peak_sampled_tree_rss_mib": 72.515625,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 60.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "frozen_content": "4014983386064362dfa4bff181701e3ee704ca784f9f0769590e7bb29c3399fd",
+  "original_source_files_unchanged": 2656,
+  "original_workspaces_clean": true,
+  "prior_math_papers_A113010_unchanged": true,
+  "source_manifest_entries": 2656,
+  "independent_review_sha256": "74fe6642aae029599a8b83471303ba419fcd96a9f567dad6437c6db0368cefed",
+  "mathematical_acceptance": "# Independent mathematical scope acceptance \u2014 frozen Phase A\n\nAccepted for publication at the reconstructed mathematical scopes documented in `phase_a_math.md`, with the rigidity clarification in `rigidity_scope_correction.md` applied.\n\nBound candidate content SHA-256: `4014983386064362dfa4bff181701e3ee704ca784f9f0769590e7bb29c3399fd` (5758 files in the frozen content manifest).\n\nThe seven final publication-status pages were inspected against the primary-source review. TUZA-25/26 now explicitly define R12 by nonempty triangle support connected through sharing graph edges, single-edge packing resilience and defect one, and conclude support isomorphism to C12. The definitions permit retained background. They distinguish the broader frozen R-F and make no sufficiency claim for it. TUZA-26's historical ambiguous sufficiency sentence has a conspicuous correction pointer at the top of PROOF_CHAIN.md. The exact R2/M0/forest scope, independently minimized Q versus actual-parent distinction, codegree conclusion, final unconditional support selections and remaining open outcomes are preserved.\n\nThis acceptance covers the central reconstructed statements and corrected publication scope, not a claim that all 345 ledger entries received fresh complete proof reconstruction. Mathematical source provenance, privacy and reproducibility are separately audited. This reviewer has not personally executed the reported fresh Lean/finite replays; acceptance does not convert those reports into a separate execution by this reviewer. No unrestricted solution, novelty claim or external human peer review is asserted. The synthesis manuscript requires its own subsequent proof and exposition review.\n",
+  "note": "Checks bind the reviewed local candidate. Publication and clean Git-checkout replay have their own later receipts; no remote completion is claimed here."
+}

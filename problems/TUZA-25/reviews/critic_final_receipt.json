@@ -1,0 +1,209 @@
+{
+  "completed_utc": "2026-11-16T17:00:33.147500+00:00",
+  "role": "Independent in-session AI critic; no serving-model attestation exposed.",
+  "verdict": "All assigned frozen claims accepted at stated scopes. Final integrated chain is partial and noncircular; unrestricted Tuza and CS remain OPEN.",
+  "final_chain_sha256": "3a4a16e6f7eed71ed7db54c48be4771f01321c54a1ab4c52bc840e0970efa4e6",
+  "final_named_matching_proof_sha256": "916d639d5951a2fa3a0913a52b63285295750975d937b90d550b57e7195f688e",
+  "ordinary_acceptances": [
+    "finite-capacity mixed semantics and exact branch/fan identities",
+    "mixed inequality equivalent to ordinary Tuza",
+    "full mixed equality statement equivalent to ordinary CS",
+    "kernel crown and split transfers at declared hypotheses",
+    "topology parity and normalization identities",
+    "W5/K5-e strict restoration with background",
+    "one-edge separator/core descent",
+    "adjacent-critical-edge and degree-three response lemmas",
+    "higher-overlap exact leaf profiles",
+    "defect-two critical-edge deletion and conditional connectivity",
+    "independent-star avoidance for literal fresh edge gluings",
+    "three-edge restoration and matching-deletion resilience",
+    "marked tight-component confinement and exact cover transfer",
+    "final named active-core matching reconstruction",
+    "final separate-minimum-Q circularity audit"
+  ],
+  "finite_checks": {
+    "ring_deletion_cases": 667,
+    "role_five_triangle_families": 3003,
+    "role_minimal_clauses": 41,
+    "role_result": "UNSAT_EXHAUSTIVE by independent equality-merging/three-color search",
+    "mixed_semantic_admissible_four_vertex_states": 636,
+    "explicit_descent_failure_graphs": 2,
+    "matching_negative_controls": 1,
+    "named_supports": 12,
+    "named_missing_edge_presentations": 210,
+    "named_exact_insertion_representatives_under_verified_symmetries": 30,
+    "qualifying_defect_two_presentations": 4
+  },
+  "scope_limits": [
+    "Proper-subgraph CS does not classify defect-one graphs; named smaller states use the separate explicit minimum-Q choice.",
+    "No universal configuration availability, predecessor K4-completion, or complete unrestricted induction was proved.",
+    "No inherited actual missing-triangle parent, two-edge resilience, or triangle-extension assertion beyond separately proved transfers.",
+    "Large historical or worker census counts were not independently replayed; finite controls retain their explicit universes.",
+    "Corrected original ORTools role program NOT_RUN_DEPENDENCY_ABSENT.",
+    "Declared Staton/Tutte-Berge full external proofs not newly certified.",
+    "No Lean execution, separate commissioned final audit, external peer review, or novelty determination."
+  ],
+  "resolved_issues": [
+    "Ring cut-bit convention documented.",
+    "Leaf deletion set clarified to exclude old separator edges.",
+    "Connected triangle support distinguished from full edge triangularity with background retained.",
+    "Unnecessary triangle-extension premise removed by direct opposite-pair packing append.",
+    "Earlier open matching-interface review text superseded by the final named-core reconstruction review."
+  ],
+  "execution": {
+    "platform": "macOS-27.2.1-arm64-arm-64bit",
+    "python_executable": "PRIVATE_PATH_REMOVED",
+    "remote_mathematical_computation": false,
+    "installations": false,
+    "source_archive_edits": false,
+    "external_messages_or_publication": false,
+    "owned_computation_jobs_remaining": 0
+  },
+  "artifacts": [
+    {
+      "path": "reviews/critic_bridge_check.json",
+      "bytes": 89148,
+      "sha256": "58aa60526e2dd13a5e92981c7dc22445155c1f223e5c4b4117e9f24da3034d5d"
+    },
+    {
+      "path": "reviews/critic_bridge_check.py",
+      "bytes": 2717,
+      "sha256": "b0c60ba95d901a5762453b7745d2c5b531e3bf8bbabed3fbecfe4ba97bcec7a6"
+    },
+    {
+      "path": "reviews/critic_critical_edges.md",
+      "bytes": 4731,
+      "sha256": "55f3916f7621c1c26517ac146daefec6d685eb33addc60d78c08f7b2c202cca1"
+    },
+    {
+      "path": "reviews/critic_defect_two_deletion.md",
+      "bytes": 5800,
+      "sha256": "1eb5d3590edcbcc688da91428120a4b072833cbdc7813469baffe61337ce7870"
+    },
+    {
+      "path": "reviews/critic_edge_exchange.md",
+      "bytes": 6463,
+      "sha256": "7f5d750be15effa81e12fd99009477896a05f5fb8ea370d28d5014d300c810b3"
+    },
+    {
+      "path": "reviews/critic_edge_exchange_check.json",
+      "bytes": 98320,
+      "sha256": "01d19e3cfbaf5589de7f4114fd64b8b4225724f2f1e71caef9d5f84dbbcfdaa0"
+    },
+    {
+      "path": "reviews/critic_edge_exchange_check.py",
+      "bytes": 9529,
+      "sha256": "741556bda8a0e3e52771a764a8851d5f584010b5fbfb1333fb112a998427f328"
+    },
+    {
+      "path": "reviews/critic_kernel.md",
+      "bytes": 9176,
+      "sha256": "003196656ccc212580b6e27d020903f0a195776a4cd99498f6392e28df3634b2"
+    },
+    {
+      "path": "reviews/critic_leaf_bridge.md",
+      "bytes": 5988,
+      "sha256": "37567d3ec9631810c43793f189ed3693a7d91e4a018516b6aef69c9ef5c5ee3b"
+    },
+    {
+      "path": "reviews/critic_leaf_profiles.md",
+      "bytes": 6367,
+      "sha256": "0b1719c60808ee916daa87859ec26dc4d5d410dc4daad155a2a529fdf35d239b"
+    },
+    {
+      "path": "reviews/critic_matching_components.md",
+      "bytes": 5567,
+      "sha256": "a2c0cdd60fbbe57de50fb6f1927434e80ac4407d91ba60db81e4285ab21153e8"
+    },
+    {
+      "path": "reviews/critic_matching_control.json",
+      "bytes": 6479,
+      "sha256": "b25ec4710087349dc88d8c57c0717099f3141908cc9d2db0e8d8341978a37f9b"
+    },
+    {
+      "path": "reviews/critic_matching_control.py",
+      "bytes": 1913,
+      "sha256": "eab5df8741129b5b3751304dc4adb93bda29219f1ee8c1283c9a6ec746f4010e"
+    },
+    {
+      "path": "reviews/critic_matching_deletion.md",
+      "bytes": 7095,
+      "sha256": "381d1e3af633eb6ab7783741966f499973f0b1ffa67c04d7054326931078c242"
+    },
+    {
+      "path": "reviews/critic_mixed.md",
+      "bytes": 11332,
+      "sha256": "2ae6297442e67d5ca288c9a643790af3a6e0d685127370c055eb7404547fd481"
+    },
+    {
+      "path": "reviews/critic_mixed_controls.json",
+      "bytes": 4301,
+      "sha256": "dec96a0ed1a72dff4c6d0a72d2c3ce35c23c29503d530c3e8d9f5389a0455b16"
+    },
+    {
+      "path": "reviews/critic_mixed_controls.py",
+      "bytes": 7675,
+      "sha256": "42c9306f02b7b4e5b01058a34ce27b05ddbe4656d4c2bd67b5bdae95f9acee9d"
+    },
+    {
+      "path": "reviews/critic_mixed_payment.md",
+      "bytes": 3491,
+      "sha256": "55f86bd72def1366563f1ee84346a20f4714cf7b35582d50ee40c3437d622199"
+    },
+    {
+      "path": "reviews/critic_named_matching_reconstruction.md",
+      "bytes": 6868,
+      "sha256": "7d0504c06c09825794a95232f473429f4589e949b0fca5950ace13dad6836454"
+    },
+    {
+      "path": "reviews/critic_proof_chain.md",
+      "bytes": 12111,
+      "sha256": "038ae6eeefbfbd7b7a14fa7378ddc85d4234e65edeaeeee2ecc1716513d3fbae"
+    },
+    {
+      "path": "reviews/critic_ring.md",
+      "bytes": 6474,
+      "sha256": "7a729bfec20f792f0c12383dfd293d2bed7747faf3d4f5af94b37af928b4aad4"
+    },
+    {
+      "path": "reviews/critic_role_check.json",
+      "bytes": 4792,
+      "sha256": "e1645ea544c0a5bdc19c2b471dbdbc432f2c1f0a36851d093815946e0d5211de"
+    },
+    {
+      "path": "reviews/critic_role_check.py",
+      "bytes": 8862,
+      "sha256": "c19bbeb37c26acfddf450ca7abbe73477e98a2ff0bc9c99b89f66ddaa054be0b"
+    },
+    {
+      "path": "reviews/critic_roles.md",
+      "bytes": 6057,
+      "sha256": "f296b3edeb19bb9a2ad42acc58a842afdc43a2e5d96ad52a750a92f0f74ab5b6"
+    },
+    {
+      "path": "reviews/critic_separator.md",
+      "bytes": 8820,
+      "sha256": "ac66e85baf148da2cd5b7f0e8c421ec7510bdd0b3869423e2a3a96161f6d23b5"
+    },
+    {
+      "path": "reviews/critic_topology.md",
+      "bytes": 4070,
+      "sha256": "5c3c60c501626823dee9b8b270d264ba7335148ecd984ebc5f609033c3965b81"
+    },
+    {
+      "path": "reviews/critic_wheel.md",
+      "bytes": 8641,
+      "sha256": "0e13688d57fc6bc13baebabd04ed3306dbb269bafe7654abd074d81d9ba239f6"
+    },
+    {
+      "path": "scripts/critic_ring_check.py",
+      "bytes": 14681,
+      "sha256": "5d1892c5bed7fb6b724c1fa02cae01c63969858827d3ac0ef9965f5ed883b255"
+    },
+    {
+      "path": "evidence/critic_ring_check.json",
+      "bytes": 4502,
+      "sha256": "70ef1529c07f841d8e80bf1d334e941feeabe28c5a61670892815b9a8e9fe737"
+    }
+  ]
+}

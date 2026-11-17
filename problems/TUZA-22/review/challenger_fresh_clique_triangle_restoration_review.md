@@ -1,0 +1,13 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Fresh review: strict triangle restoration for the fresh-clique defect-one class
+
+2026-11-16. **ACCEPT as an ordinary proof using the explicitly declared classification and ordinary page-family inputs.** Reviewed source: `notes/fresh_clique_defect_one_triangle_restoration_v1.md`, SHA256 `e7f61f375de2e11ecb26226bd398234a40c464c70935c3b41598eeaadf39a13e`.
+
+I independently reconstructed the two new forms. For the central K4 with three star attachments, the independent restored terminals meet each leaf clique in at most one vertex. A three-page incidence matching therefore has a whole at-most-two-edge star footprint in every leaf, simultaneously avoidable by maximum leaf packings. The leaves supply exactly p−1 old triangles. Every supported edge is minimum-cover eligible: all three attachment edges may be selected in the leaf covers, with any desired opposite-face edge added for the root; an arbitrary leaf edge incompatible with its own attachment in a K4 cover can instead use another attachment as the overlap of a root opposite-pair cover. The total cost remains 2p−1.
+
+For two K5s sharing an edge, eligibility follows from two-edge coeligibility in K5 and overlapping the old covers on their common edge. A maximum two-packing in the first K5 avoids the entire star footprint. A triangle in the second can avoid its entire footprint and the common edge, since these forbid at most three edges and K5 minus three edges still contains a triangle. Avoidance of the common edge makes the three old triangles compatible, so they supply p−1 as required.
+
+The general eligibility argument then correctly forces the new family to be K5−e, rules out every TRIANGLE-SUPPORTED old spoke by a minimum-cover overlap, and appends a new two-packing to a maximum old packing. Background old spokes cause no conflict because no old triangle uses them. All actual new triangles are accounted for by the restored triangle and its pages. The one-/two-leaf cases are delegated to the corrected v2 restoration theorem, freshly reviewed separately.
+
+The exact literal fresh-clique construction and its defect-one classification remain explicit premises. The final minimum-CS consequence excludes that construction as a triangle-deletion residual, and does not assert its availability for arbitrary near-tight graphs. No finite enumeration or matching theorem is added.

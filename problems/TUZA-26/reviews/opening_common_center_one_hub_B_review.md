@@ -1,0 +1,15 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent one-hub-book common-center payment
+
+Status: ACCEPTED ORDINARY for the supplied two-opposite/one-hub type-B family combination. Combined with the accepted three-opposite theorem and the accepted shared-pair two-hub-B lemma, this closes the all-B common-center cube. It does not close A/B mixtures or an exceptional family.
+
+The canonical covers are complete, and their opposite old spokes are background by the single gain two. All four full/extra apices are outside the core, because their old a-spokes cannot be restored core spokes. If p=q, the first two pairs' old cross graph is a matching whose edges lie in distinct old components. A minimum old cover can contain all of them. The canonical union has five edges, and ag covers all remaining mixed triangles not already hit by af or that old cover, giving a strict saving.
+
+For p!=q, an empty first-two-pairs cross graph gives the same complete cover saving with at most seven extra edges. Otherwise choose an actual cross rim ij. The five pages bcp,deq,fgr,afs,aij are edge-disjoint, including all permitted equalities of r or s with p or q. The only possible collision between the V pages would require s=r, expressly excluded; their other shared objects are vertices, not edges.
+
+The complete old footprint audit checks. A clique containing ij cannot contain p or q, because its cross adjacency creates a forbidden hub page in the other opposite-book family. The same argument with old ar/as excludes r,s, including their identifications with p,q. Thus the rim component meets no other footprint. A clique cannot meet both first-two-page footprints, since it would create a forbidden U hub page at p!=q. A clique containing t-p cannot contain as (missing a-t), can contain fr only if r=p, and can contain fs only if s=p. It cannot contain both, because r!=s. Therefore its footprint is at most an adjacent p-star of size two; the q case is symmetric. A remaining clique sees at most fr plus one of as,fs. The fr/as pair forces missing af, while fr/fs is adjacent. Known background gr contributes nothing. Full old maximum packings avoid these singleton/adjacent-pair footprints and append the five pages, contradicting the total packing target.
+
+All mixed triangles are paid explicitly in the cover branches, and all old packing conflicts are retained in the augmentation branch. The stated common-center all-B composition is now complete, because two hub-extra families are excluded by the separately accepted shared-pair lemma. No new availability or broader family combination is inferred.
+
+Bound source: notes/apex_actual_parent_common_center_one_hub_B_v1.md, SHA-256 c968f90fc693717e8bd622e02badbd637c8769118a613265da558e7377b8937f.

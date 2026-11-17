@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "bases_verified": 95,
+    "deletions_screened": 39105,
+    "packing_drop_exact": 5330,
+    "defect_one": 611,
+    "defect_one_resilient_connected": 208,
+    "all_triangles_extend": 208,
+    "defect_one_disconnected": 294
+  },
+  "seconds": 30.524548768997192,
+  "bases_total": 95,
+  "witnesses": []
+}

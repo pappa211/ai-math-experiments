@@ -1,0 +1,20 @@
+{
+  "start_utc": "2026-11-15T21:51:48.725690+00:00",
+  "end_utc": "2026-11-15T21:51:55.605281+00:00",
+  "seconds": 6.879595041275024,
+  "command": [
+    "python",
+    "scripts/challenger_cone_modifications.py",
+    "--seconds",
+    "100",
+    "--case-seconds",
+    "12"
+  ],
+  "pid": 67150,
+  "peak_sampled_tree_rss_mib": 45.015625,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 120.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

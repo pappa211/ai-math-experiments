@@ -1,0 +1,6707 @@
+{
+  "status": "VERIFIED_FINITE",
+  "domain": "Exactly the12 frozen C12 supports, every labelled nonedgeab, and every common neighborc ofa,b inC. J=C+ab. Independently exactnu,tau and single deletions of triangleabc; all required critical-triangle profiles retained.",
+  "source": "problems/TUZA-25/evidence/residual_edge_exchange_seeds.json",
+  "counts": {
+    "labelled_internal_interfaces": 326,
+    "required_J_numeric_profile": 8
+  },
+  "rows": [
+    {
+      "seed": "central_K4_star_4",
+      "n": 6,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 4,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_4",
+      "n": 6,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 4,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_4",
+      "n": 6,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 4,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_4",
+      "n": 6,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 4,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_4",
+      "n": 6,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 4,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_4",
+      "n": 6,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 4,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_4",
+      "n": 6,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 4,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_4",
+      "n": 6,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 4,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        2,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        2,
+        6
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_5",
+      "n": 7,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        4,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        4,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        5,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_44",
+      "n": 8,
+      "inserted": [
+        5,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 3,
+      "nu_J": 4,
+      "tau_J": 5,
+      "critical_A_edges": [
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        3,
+        8
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        4,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        4,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        4,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          8
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        5,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        5,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_45",
+      "n": 9,
+      "inserted": [
+        5,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          5,
+          8
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        2,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        2,
+        6
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        8
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        3,
+        9
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        4,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        4,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          4,
+          8
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        4,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          4,
+          9
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        5,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        5,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          5,
+          8
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        5,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          5,
+          9
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        6,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        6,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_55",
+      "n": 10,
+      "inserted": [
+        6,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          6,
+          9
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 3,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 3,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        2,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        2,
+        8
+      ],
+      "apex_c": 3,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        2,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        2,
+        9
+      ],
+      "apex_c": 3,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        4,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        4,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        4,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          8
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        4,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          9
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        5,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        5,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        5,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          5,
+          8
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        5,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          5,
+          9
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        6,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        6,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          6,
+          9
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        7,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          7,
+          8
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_444",
+      "n": 10,
+      "inserted": [
+        7,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          7,
+          9
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 3,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 3,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        1,
+        10
+      ],
+      "apex_c": 3,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        8
+      ],
+      "apex_c": 3,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        9
+      ],
+      "apex_c": 3,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        2,
+        10
+      ],
+      "apex_c": 3,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        4,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        4,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        4,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          4,
+          8
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        4,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          4,
+          9
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        4,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          4,
+          10
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        5,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        5,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        5,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          5,
+          8
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        5,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          5,
+          9
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        5,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          5,
+          10
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        6,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        6,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          6,
+          9
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        6,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          6,
+          10
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        7,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          7,
+          8
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        7,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          7,
+          9
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_445",
+      "n": 11,
+      "inserted": [
+        7,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 5,
+      "nu_J": 6,
+      "tau_J": 9,
+      "critical_A_edges": [
+        [
+          7,
+          10
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 2,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 3,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        10
+      ],
+      "apex_c": 3,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        1,
+        11
+      ],
+      "apex_c": 3,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        9
+      ],
+      "apex_c": 3,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        10
+      ],
+      "apex_c": 3,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        2,
+        11
+      ],
+      "apex_c": 3,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          2,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 2,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        3,
+        8
+      ],
+      "apex_c": 2,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        4,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        4,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        4,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          4,
+          8
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        4,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          4,
+          9
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        4,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          4,
+          10
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        4,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          4,
+          11
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        5,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        5,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        5,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          5,
+          8
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        5,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          5,
+          9
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        5,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          5,
+          10
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        5,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          5,
+          11
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        6,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          6,
+          9
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        6,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          6,
+          10
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        6,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          6,
+          11
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        7,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          7,
+          9
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        7,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          7,
+          10
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        7,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          7,
+          11
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        8,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          8,
+          9
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        8,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          8,
+          10
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_455",
+      "n": 12,
+      "inserted": [
+        8,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 6,
+      "nu_J": 7,
+      "tau_J": 11,
+      "critical_A_edges": [
+        [
+          8,
+          11
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        8
+      ],
+      "apex_c": 2,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        9
+      ],
+      "apex_c": 2,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        10
+      ],
+      "apex_c": 3,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        11
+      ],
+      "apex_c": 3,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        12
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        1,
+        12
+      ],
+      "apex_c": 3,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          1,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        6
+      ],
+      "apex_c": 1,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        10
+      ],
+      "apex_c": 3,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        11
+      ],
+      "apex_c": 3,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        12
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        2,
+        12
+      ],
+      "apex_c": 3,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          2,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 1,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 2,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        8
+      ],
+      "apex_c": 2,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        3,
+        9
+      ],
+      "apex_c": 2,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        4,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        4,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          4,
+          8
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        4,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          4,
+          9
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        4,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          4,
+          10
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        4,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          4,
+          11
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        4,
+        12
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          4,
+          12
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        5,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          5,
+          7
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        5,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          5,
+          8
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        5,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          5,
+          9
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        5,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          5,
+          10
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        5,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          5,
+          11
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        5,
+        12
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          5,
+          12
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        6,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          6,
+          7
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        6,
+        8
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          6,
+          8
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        6,
+        9
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          6,
+          9
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          9
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        6,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          6,
+          10
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        6,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          6,
+          11
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        6,
+        12
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          6,
+          12
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        7,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          7,
+          10
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        7,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          7,
+          11
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        7,
+        12
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          7,
+          12
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        8,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          8,
+          10
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        8,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          8,
+          11
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        8,
+        12
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          8,
+          12
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        9,
+        10
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          9,
+          10
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        9,
+        11
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          9,
+          11
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "seed": "central_K4_star_555",
+      "n": 13,
+      "inserted": [
+        9,
+        12
+      ],
+      "apex_c": 0,
+      "nu_C": 7,
+      "nu_J": 8,
+      "tau_J": 13,
+      "critical_A_edges": [
+        [
+          9,
+          12
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        2,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        2,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        2,
+        6
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        2,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        2,
+        7
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          2,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        3,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        3,
+        6
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        3,
+        7
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        4,
+        5
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        4,
+        5
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        4,
+        6
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        4,
+        6
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        4,
+        7
+      ],
+      "apex_c": 0,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "two_K5_edge",
+      "n": 8,
+      "inserted": [
+        4,
+        7
+      ],
+      "apex_c": 1,
+      "nu_C": 4,
+      "nu_J": 5,
+      "tau_J": 7,
+      "critical_A_edges": [
+        [
+          4,
+          7
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        0,
+        2
+      ],
+      "apex_c": 1,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        0,
+        2
+      ],
+      "apex_c": 5,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        0,
+        3
+      ],
+      "apex_c": 4,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        0,
+        3
+      ],
+      "apex_c": 5,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        1,
+        3
+      ],
+      "apex_c": 2,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        1,
+        3
+      ],
+      "apex_c": 5,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        1,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        1,
+        4
+      ],
+      "apex_c": 5,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 3,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "seed": "W5",
+      "n": 6,
+      "inserted": [
+        2,
+        4
+      ],
+      "apex_c": 5,
+      "nu_C": 2,
+      "nu_J": 3,
+      "tau_J": 3,
+      "critical_A_edges": [
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ]
+    },
+    {
+      "seed": "K5-e",
+      "n": 5,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 0,
+      "nu_C": 2,
+      "nu_J": 2,
+      "tau_J": 4,
+      "critical_A_edges": []
+    },
+    {
+      "seed": "K5-e",
+      "n": 5,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 1,
+      "nu_C": 2,
+      "nu_J": 2,
+      "tau_J": 4,
+      "critical_A_edges": []
+    },
+    {
+      "seed": "K5-e",
+      "n": 5,
+      "inserted": [
+        3,
+        4
+      ],
+      "apex_c": 2,
+      "nu_C": 2,
+      "nu_J": 2,
+      "tau_J": 4,
+      "critical_A_edges": []
+    }
+  ],
+  "survivors": [],
+  "seconds": 28.561861038208008,
+  "maxrss_bytes": 145850368
+}

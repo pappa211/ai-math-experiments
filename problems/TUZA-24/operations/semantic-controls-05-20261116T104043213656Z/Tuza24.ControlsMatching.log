@@ -1,0 +1,10 @@
+problems/TUZA-24/Tuza24/ControlsMatching.lean:23:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+problems/TUZA-24/Tuza24/ControlsMatching.lean:44:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+problems/TUZA-24/Tuza24/ControlsMatching.lean:54:28: error: failed to synthesize
+  Decidable ((isolate cycleFour {0}).IsNClique 2 {1, 2})
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

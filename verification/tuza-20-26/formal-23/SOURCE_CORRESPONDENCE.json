@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Tuza.Basic",
+    "path": "Tuza/Basic.lean",
+    "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+    "public_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza.Graph",
+    "path": "Tuza/Graph.lean",
+    "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+    "public_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.Statement",
+    "path": "Tuza06/Statement.lean",
+    "sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7",
+    "public_sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.Transport",
+    "path": "Tuza06/Transport.lean",
+    "sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32",
+    "public_sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.FiniteCliques",
+    "path": "Tuza06/FiniteCliques.lean",
+    "sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+    "public_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.Pages",
+    "path": "Tuza06/Pages.lean",
+    "sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045",
+    "public_sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.Reduction",
+    "path": "Tuza06/Reduction.lean",
+    "sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10",
+    "public_sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.Additivity",
+    "path": "Tuza06/Additivity.lean",
+    "sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+    "public_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.BlockAggregation",
+    "path": "Tuza06/BlockAggregation.lean",
+    "sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f",
+    "public_sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.Components",
+    "path": "Tuza06/Components.lean",
+    "sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+    "public_sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.Critical",
+    "path": "Tuza06/Critical.lean",
+    "sha256": "fdb687027dd5dd299d6985b23383e98407a00dd24a60d55643e66a3462e3b200",
+    "public_sha256": "fdb687027dd5dd299d6985b23383e98407a00dd24a60d55643e66a3462e3b200",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.MinimalObstruction",
+    "path": "Tuza06/MinimalObstruction.lean",
+    "sha256": "79010d586ee8d35b187213109fe6aa0b7222bdae81e0f92543c0b6af37b8325e",
+    "public_sha256": "79010d586ee8d35b187213109fe6aa0b7222bdae81e0f92543c0b6af37b8325e",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.GraphAPI",
+    "path": "Tuza23/GraphAPI.lean",
+    "sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e",
+    "public_sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.WholeFootprint",
+    "path": "Tuza23/WholeFootprint.lean",
+    "sha256": "bd843ef4a16d101c2731b6247e5eaae7cb03172537461bdfe5aed0bfb589b535",
+    "public_sha256": "bd843ef4a16d101c2731b6247e5eaae7cb03172537461bdfe5aed0bfb589b535",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza06.Footprints",
+    "path": "Tuza06/Footprints.lean",
+    "sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b",
+    "public_sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.CliqueChoice",
+    "path": "Tuza23/CliqueChoice.lean",
+    "sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91",
+    "public_sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.BlockChoice",
+    "path": "Tuza23/BlockChoice.lean",
+    "sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389",
+    "public_sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.PageAssembly",
+    "path": "Tuza23/PageAssembly.lean",
+    "sha256": "b45080856bf28a9fadb7f7e747340e3670b2b3451b844e77f4cf77b2fb5c990c",
+    "public_sha256": "b45080856bf28a9fadb7f7e747340e3670b2b3451b844e77f4cf77b2fb5c990c",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.InsertionAccounting",
+    "path": "Tuza23/InsertionAccounting.lean",
+    "sha256": "401360733507cd667cfb4b7075a1194dffed6bac046ce8ed19af8ac08a02e5fc",
+    "public_sha256": "401360733507cd667cfb4b7075a1194dffed6bac046ce8ed19af8ac08a02e5fc",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.BarePages",
+    "path": "Tuza23/BarePages.lean",
+    "sha256": "f472ab49170a0f98d1a4d39ccca234c1221c951931ac85c53e2688feab8649f7",
+    "public_sha256": "f472ab49170a0f98d1a4d39ccca234c1221c951931ac85c53e2688feab8649f7",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.PageGeometry",
+    "path": "Tuza23/PageGeometry.lean",
+    "sha256": "d33aa91055e8a171d89e6121da06022f68815d4e7d842f66cd99976d488a4560",
+    "public_sha256": "d33aa91055e8a171d89e6121da06022f68815d4e7d842f66cd99976d488a4560",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.AdjacentRestoration",
+    "path": "Tuza23/AdjacentRestoration.lean",
+    "sha256": "4614e2ef592fc2023a3596ccde86135f413fd77b3f8b9c6f69e94585599754bd",
+    "public_sha256": "4614e2ef592fc2023a3596ccde86135f413fd77b3f8b9c6f69e94585599754bd",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.FourSet",
+    "path": "Tuza23/FourSet.lean",
+    "sha256": "51a55aa25bf72583539b34720f6189e598dcf4ad9c62368d0156af53a256d3c4",
+    "public_sha256": "51a55aa25bf72583539b34720f6189e598dcf4ad9c62368d0156af53a256d3c4",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.DisjointRestoration",
+    "path": "Tuza23/DisjointRestoration.lean",
+    "sha256": "a339b13fed0cf91ce726533cadc67687193a8f37137f8d4aea4c413ec85c21b8",
+    "public_sha256": "a339b13fed0cf91ce726533cadc67687193a8f37137f8d4aea4c413ec85c21b8",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.R2",
+    "path": "Tuza23/R2.lean",
+    "sha256": "79766812d134e499174e4d1fe0cb6051780707a923b9c1df09ec62f1941f1c70",
+    "public_sha256": "79766812d134e499174e4d1fe0cb6051780707a923b9c1df09ec62f1941f1c70",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.M0",
+    "path": "Tuza23/M0.lean",
+    "sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+    "public_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+    "matches_canonical": true
+  },
+  {
+    "name": "Research",
+    "path": "Research.lean",
+    "sha256": "3159fb9154ad172105d03ec557f6d1ffc75cde60914231cb8149e7da51a801b9",
+    "public_sha256": "3159fb9154ad172105d03ec557f6d1ffc75cde60914231cb8149e7da51a801b9",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.ControlBasic",
+    "path": "Tuza23/ControlBasic.lean",
+    "sha256": "dca5db007dce00223b6f0332d74ca845c7e49b4b003048ae5c2c72d0d5312f6a",
+    "public_sha256": "dca5db007dce00223b6f0332d74ca845c7e49b4b003048ae5c2c72d0d5312f6a",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.ControlSharedBlocks",
+    "path": "Tuza23/ControlSharedBlocks.lean",
+    "sha256": "b842d3c129928dc074c80f648823f68988038bfb290adb40c7ef215d5a7910ef",
+    "public_sha256": "b842d3c129928dc074c80f648823f68988038bfb290adb40c7ef215d5a7910ef",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.ControlRestoration",
+    "path": "Tuza23/ControlRestoration.lean",
+    "sha256": "d5c96a50f33837e8a82ce47d66e9c6dce0be1023fb9582fa7c3550e15427181c",
+    "public_sha256": "d5c96a50f33837e8a82ce47d66e9c6dce0be1023fb9582fa7c3550e15427181c",
+    "matches_canonical": true
+  },
+  {
+    "name": "Tuza23.Controls",
+    "path": "Tuza23/Controls.lean",
+    "sha256": "60a15b8c3d40363930017b1a795589b30856ed2a39ba07a665a0dd8f88520474",
+    "public_sha256": "60a15b8c3d40363930017b1a795589b30856ed2a39ba07a665a0dd8f88520474",
+    "matches_canonical": true
+  }
+]

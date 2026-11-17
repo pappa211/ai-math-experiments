@@ -1,0 +1,1 @@
+../../../../../../TUZA-18-replay/frozen/notes/criticality_star_local_dichotomy.md

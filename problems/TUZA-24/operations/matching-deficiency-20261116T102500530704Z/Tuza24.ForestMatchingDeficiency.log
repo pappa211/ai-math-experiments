@@ -1,0 +1,14 @@
+problems/TUZA-24/Tuza24/ForestMatchingDeficiency.lean:127:4: error: Type mismatch
+  fun x x_1 x_2 hd hdx hdy => forest_deficit_one_exposable_neighbors_unique hG hSactual hM hsize hpeer hd hdx hdy
+has type
+  ∀ (x : Exposable G d✝) (x_1 : G.Adj d✝ x✝) (x_2 : G.Adj d✝ y✝) (hd : Exposable G (?m.116 x x_1 x_2))
+    (hdx : G.Adj (?m.116 x x_1 x_2) (?m.117 x x_1 x_2 hd)),
+    G.Adj (?m.116 x x_1 x_2) (?m.118 x x_1 x_2 hd hdx) → ?m.117 x x_1 x_2 hd = ?m.118 x x_1 x_2 hd hdx
+but is expected to have type
+  Exposable G d✝ → G.Adj d✝ x✝ → G.Adj d✝ y✝ → x✝ = y✝
+the following variables have been introduced by the implicit lambda feature
+  d✝ : V
+  x✝ : V
+  y✝ : V
+you can disable implicit lambdas using `@` or writing a lambda expression with `{}` or `[]` binder annotations.
+problems/TUZA-24/Tuza24/ForestMatchingDeficiency.lean:128:2: error: No goals to be solved

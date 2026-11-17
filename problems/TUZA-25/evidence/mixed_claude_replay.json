@@ -1,0 +1,208 @@
+{
+  "source_hashes": {
+    "mt": "ad26308af356fb2d5e19f6d502724e8a96288b9f73614f032c5182f38da0eb67",
+    "r0": "f9aaf7a9d015e89de30bd1f64dcf73ad15d9966ca55a2600db80bdee5e668648",
+    "r2": "63453cb4bf9e743b6cbff4016ba604ea487f7e80c44aba40fd42f8ed23b2132f",
+    "eq": "897b7dd264554bd1db901537a6a544276834005a753c0b82be49fa845198c34c"
+  },
+  "controls": {
+    "K3": {
+      "graph6": "Bw",
+      "n": 3,
+      "m": 3,
+      "triangles": 1
+    },
+    "K4": {
+      "graph6": "C~",
+      "n": 4,
+      "m": 6,
+      "triangles": 4
+    },
+    "K5": {
+      "graph6": "D~{",
+      "n": 5,
+      "m": 10,
+      "triangles": 10
+    },
+    "K4_background": {
+      "graph6": "E~?G",
+      "n": 6,
+      "m": 7,
+      "triangles": 4
+    },
+    "K5_edge_K5": {
+      "graph6": "G~~EMK",
+      "n": 8,
+      "m": 19,
+      "triangles": 20
+    },
+    "K5_triangle_K5": {
+      "graph6": "F~~fG",
+      "n": 7,
+      "m": 17,
+      "triangles": 19
+    },
+    "K4_three_star_K5": {
+      "graph6": "L~rM\\A`g[_Q@cB",
+      "n": 13,
+      "m": 33,
+      "triangles": 34
+    },
+    "cocktail_6": {
+      "graph6": "E]~o",
+      "n": 6,
+      "m": 12,
+      "triangles": 8
+    },
+    "cocktail_8": {
+      "graph6": "G]~v~w",
+      "n": 8,
+      "m": 24,
+      "triangles": 32
+    },
+    "cone_C5": {
+      "graph6": "Ehfw",
+      "n": 6,
+      "m": 10,
+      "triangles": 5
+    },
+    "cone_C7": {
+      "graph6": "GhCKN{",
+      "n": 8,
+      "m": 14,
+      "triangles": 7
+    },
+    "book5": {
+      "graph6": "F}rE?",
+      "n": 7,
+      "m": 11,
+      "triangles": 5
+    }
+  },
+  "mt_controls": [
+    "K3",
+    "K4",
+    "K5",
+    "K4_background"
+  ],
+  "records": [
+    {
+      "command": [
+        "clang",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-o",
+        "problems/TUZA-25/operations/mixed_bins/mt",
+        "PRIVATE_PATH_REMOVED outputs/mt.c"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "elapsed_seconds": 0.2731640338897705,
+      "status": "COMPLETED"
+    },
+    {
+      "command": [
+        "problems/TUZA-25/operations/mixed_bins/mt",
+        "0"
+      ],
+      "exit": 0,
+      "stdout": "TIGHT E~?G N=40 nu=1 members=4\n",
+      "stderr": "graphs_with_triangles=4 (G,N)_pairs=518 tight=4 FAIL=0\n",
+      "elapsed_seconds": 0.6151449680328369,
+      "status": "COMPLETED"
+    },
+    {
+      "command": [
+        "clang",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-o",
+        "problems/TUZA-25/operations/mixed_bins/r0",
+        "PRIVATE_PATH_REMOVED outputs/r0.c"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "PRIVATE_PATH_REMOVED outputs/r0.c:35:9: warning: variable 'bit' set but not used [-Wunused-but-set-variable]\n    int bit=0; const char *p=s+1; int cur=0, k=6;\n        ^\n1 warning generated.\n",
+      "elapsed_seconds": 0.09865784645080566,
+      "status": "COMPLETED"
+    },
+    {
+      "command": [
+        "problems/TUZA-25/operations/mixed_bins/r0",
+        "0"
+      ],
+      "exit": 0,
+      "stdout": "Bw n=3 m=3 nt=1 nu=1 tau=1 beta=1 leave=0 mindeg=2 mincodeg=1 \nC~ n=4 m=6 nt=4 nu=1 tau=2 beta=2 leave=3 mindeg=3 mincodeg=2 TIGHT \nD~{ n=5 m=10 nt=10 nu=2 tau=4 beta=4 leave=4 mindeg=4 mincodeg=3 TIGHT \nG~~EMK n=8 m=19 nt=20 nu=4 tau=7 beta=7 leave=7 mindeg=4 mincodeg=3 \nF~~fG n=7 m=17 nt=19 nu=4 tau=5 beta=5 leave=5 mindeg=4 mincodeg=3 \nL~rM\\A`g[_Q@cB n=13 m=33 nt=34 nu=7 tau=13 beta=13 leave=12 mindeg=4 mincodeg=2 \nE]~o n=6 m=12 nt=8 nu=4 tau=4 beta=4 leave=0 mindeg=4 mincodeg=2 \nG]~v~w n=8 m=24 nt=32 nu=8 tau=8 beta=8 leave=0 mindeg=6 mincodeg=4 \nEhfw n=6 m=10 nt=5 nu=2 tau=3 beta=3 leave=4 mindeg=3 mincodeg=1 \nGhCKN{ n=8 m=14 nt=7 nu=3 tau=4 beta=4 leave=5 mindeg=3 mincodeg=1 \nF}rE? n=7 m=11 nt=5 nu=1 tau=1 beta=1 leave=8 mindeg=2 mincodeg=1 \n",
+      "stderr": "graphs=12 triangle-connected-all-edges-in-triangles=11 R1=11 R2=0\n",
+      "elapsed_seconds": 0.16503596305847168,
+      "status": "COMPLETED"
+    },
+    {
+      "command": [
+        "problems/TUZA-25/operations/mixed_bins/r0",
+        "1"
+      ],
+      "exit": 0,
+      "stdout": "C~ n=4 m=6 nt=4 nu=1 tau=2 beta=2 leave=3 mindeg=3 mincodeg=2 TIGHT \nD~{ n=5 m=10 nt=10 nu=2 tau=4 beta=4 leave=4 mindeg=4 mincodeg=3 TIGHT \nG~~EMK n=8 m=19 nt=20 nu=4 tau=7 beta=7 leave=7 mindeg=4 mincodeg=3 \nF~~fG n=7 m=17 nt=19 nu=4 tau=5 beta=5 leave=5 mindeg=4 mincodeg=3 \nL~rM\\A`g[_Q@cB n=13 m=33 nt=34 nu=7 tau=13 beta=13 leave=12 mindeg=4 mincodeg=2 \nEhfw n=6 m=10 nt=5 nu=2 tau=3 beta=3 leave=4 mindeg=3 mincodeg=1 \nGhCKN{ n=8 m=14 nt=7 nu=3 tau=4 beta=4 leave=5 mindeg=3 mincodeg=1 \n",
+      "stderr": "graphs=12 triangle-connected-all-edges-in-triangles=11 R1=7 R2=0\n",
+      "elapsed_seconds": 0.01182699203491211,
+      "status": "COMPLETED"
+    },
+    {
+      "command": [
+        "clang",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-o",
+        "problems/TUZA-25/operations/mixed_bins/r2",
+        "PRIVATE_PATH_REMOVED outputs/r2.c"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "PRIVATE_PATH_REMOVED outputs/r2.c:35:9: warning: variable 'bit' set but not used [-Wunused-but-set-variable]\n    int bit=0; const char *p=s+1; int cur=0, k=6;\n        ^\n1 warning generated.\n",
+      "elapsed_seconds": 0.07778191566467285,
+      "status": "COMPLETED"
+    },
+    {
+      "command": [
+        "problems/TUZA-25/operations/mixed_bins/r2",
+        "2"
+      ],
+      "exit": 0,
+      "stdout": "D~{ n=5 m=10 nt=10 nu=2 tau=4 beta=4 leave=4 mindeg=4 mincodeg=3 TIGHT \nG~~EMK n=8 m=19 nt=20 nu=4 tau=7 beta=7 leave=7 mindeg=4 mincodeg=3 \n",
+      "stderr": "graphs=12 triangle-connected-all-edges-in-triangles=11 R1=7 R2=2\n",
+      "elapsed_seconds": 0.1789250373840332,
+      "status": "COMPLETED"
+    },
+    {
+      "command": [
+        "clang",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-o",
+        "problems/TUZA-25/operations/mixed_bins/eq",
+        "PRIVATE_PATH_REMOVED outputs/eq.c"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "PRIVATE_PATH_REMOVED outputs/eq.c:35:9: warning: variable 'bit' set but not used [-Wunused-but-set-variable]\n    int bit=0; const char *p=s+1; int cur=0, k=6;\n        ^\nPRIVATE_PATH_REMOVED outputs/eq.c:153:14: warning: unused parameter 'argc' [-Wunused-parameter]\nint main(int argc, char **argv){\n             ^\nPRIVATE_PATH_REMOVED outputs/eq.c:153:27: warning: unused parameter 'argv' [-Wunused-parameter]\nint main(int argc, char **argv){\n                          ^\nPRIVATE_PATH_REMOVED outputs/eq.c:123:13: warning: function 'enum_rec' is not needed and will not be emitted [-Wunneeded-internal-declaration]\nstatic void enum_rec(u128 used, u128 undecided, int cur){\n            ^\n4 warnings generated.\n",
+      "elapsed_seconds": 0.07836484909057617,
+      "status": "COMPLETED"
+    },
+    {
+      "command": [
+        "problems/TUZA-25/operations/mixed_bins/eq"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "graphs=12 tight=3 tight_nonblock=0 slack_exactly_one=5\n",
+      "elapsed_seconds": 0.16025495529174805,
+      "status": "COMPLETED"
+    }
+  ]
+}

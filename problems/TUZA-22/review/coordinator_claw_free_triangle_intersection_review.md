@@ -1,0 +1,11 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent coordinator review of claw-free triangle-intersection CS
+
+ACCEPTED at the exact hereditary class scope, 2026-11-16. Reviewed frozen notes/claw_free_triangle_intersection_cs_v1.md. The source uses only authenticated class-local minimality and the already reviewed ordinary link-deletion theorem; no perfect-graph theorem or new finite premise is required.
+
+The three-list Hall criterion is exact because pages on the three bases of an actual triangle are pairwise edge-disjoint precisely when their outside apices are distinct. With two high edges, the two large lists and the nonempty third list have no deficient one- or two-list subfamily; their union must therefore have at most two vertices. Endpoint closure gives the nine edges of K5-e, not the optional apex edge. I separately checked the isolation claws on a core edge, a spoke edge and the optional apex edge. In each case three page apices are distinct and outside the center triangle. K5-e has exact parameters2,3 and K5 has2,4, so an isolated such component cannot occur in a class-minimum failure.
+
+For a remaining high spoke ab in the link at a, the other two edges in abc are low. If their singleton outside apices differ, the large ab list must equal those two vertices, and endpoint closure contradicts the low codegrees. If they coincide at x, literal K4 closure pairs c and x as degree-two link neighbors of b. Both spokes ac,ax are low by the established no-two-high-triangle condition. These pairs exhaust the link component: no paired vertex has a third neighbor. Thus a branch component is a friendship graph, and every branchless component is a cycle. Deleting the center or a cycle vertex leaves a tree component, contradicting the accepted link-deletion theorem.
+
+This proves the full combined statement in the claw-free-X class. The conclusion correctly retains K5 equality components; it is different from the K4-only equality of the perfect-X class. All actual triangles, not an arbitrary represented subfamily, are needed for closure and isolation.

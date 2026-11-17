@@ -1,0 +1,478 @@
+{
+  "started_utc": "2026-11-17T18:55:06.304078+00:00",
+  "roots": [
+    "Research",
+    "Tuza24.Controls"
+  ],
+  "order": [
+    "Tuza.Basic",
+    "Tuza.Graph",
+    "Tuza06.Statement",
+    "Tuza06.Transport",
+    "Tuza06.FiniteCliques",
+    "Tuza06.Pages",
+    "Tuza06.Reduction",
+    "Tuza06.Additivity",
+    "Tuza06.BlockAggregation",
+    "Tuza06.Components",
+    "Tuza06.Critical",
+    "Tuza06.MinimalObstruction",
+    "Tuza23.GraphAPI",
+    "Tuza23.M0",
+    "Tuza24.ForestAPI",
+    "Tuza24.MatchingAPI",
+    "Tuza24.ForestMatching",
+    "Tuza23.WholeFootprint",
+    "Tuza06.Footprints",
+    "Tuza23.CliqueChoice",
+    "Tuza23.BlockChoice",
+    "Tuza23.PageAssembly",
+    "Tuza06.Reducible",
+    "Tuza06.SetPeeling",
+    "Tuza06.GraphPeeling",
+    "Tuza06.MatchingReduction",
+    "Tuza06.GraphOperations",
+    "Tuza06.PageAugmentation",
+    "Tuza.Intersecting",
+    "Tuza.IntersectingStructure",
+    "Tuza06.UniqueEdge",
+    "Tuza06.SmallLinksBase",
+    "Tuza06.SmallLinksOperations",
+    "Tuza06.SmallLinksK3",
+    "Tuza06.SmallLinksPatterns",
+    "Tuza06.SmallLinksK4",
+    "Tuza06.SmallLinksCross",
+    "Tuza06.SmallLinksFour",
+    "Tuza06.SmallLinks",
+    "Tuza24.LinkAPI",
+    "Tuza24.AnchorLift",
+    "Tuza24.ForestMatchingSlack",
+    "Tuza24.PointedAssembly",
+    "Tuza24.AlternatingForestExchange",
+    "Tuza24.AlternatingForestDecomposition",
+    "Tuza24.PointedForest",
+    "Tuza24.ForestAnchor",
+    "Tuza24.PerfectForestStructure",
+    "Tuza24.FootprintGeometry",
+    "Tuza24.LinkAugmentation",
+    "Tuza24.InternalPageAugmentation",
+    "Tuza24.ExternalPageAugmentation",
+    "Tuza24.PerfectForestExclusionBase",
+    "Tuza24.ApexLinkGeometry",
+    "Tuza24.MatchingChoice",
+    "Tuza24.PerfectForestExclusionTools",
+    "Tuza24.PerfectForestExclusion",
+    "Tuza24.ForestMatchingUnique",
+    "Tuza24.ForestMatchingBoundary",
+    "Tuza24.ForestMatchingDeletion",
+    "Tuza24.AlternatingForestAllowed",
+    "Tuza24.AlternatingForestLeaves",
+    "Tuza24.ForestMatchingLeafRetention",
+    "Tuza24.ForestMatchingLeafAvoidance",
+    "Tuza24.ResidualMatching",
+    "Tuza24.ForestMatchingDeficiency",
+    "Tuza24.NonperfectLinkReduction",
+    "Tuza24.ForestMatchingSafeEdge",
+    "Tuza24.NonperfectForestExclusion",
+    "Tuza24.ForestCS",
+    "Tuza24.ForestK5Exclusion",
+    "Tuza24.ForestK4Equality",
+    "Research",
+    "Tuza23.ControlBasic",
+    "Tuza24.ControlsForest",
+    "Tuza24.ControlsMatching",
+    "Tuza23.ControlSharedBlocks",
+    "Tuza24.ControlsShared",
+    "Tuza24.Controls"
+  ],
+  "sources": {
+    "Tuza.Basic": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza/Basic.lean",
+      "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc"
+    },
+    "Tuza.Graph": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza/Graph.lean",
+      "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a"
+    },
+    "Tuza06.Statement": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/Statement.lean",
+      "sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7"
+    },
+    "Tuza06.Transport": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/Transport.lean",
+      "sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32"
+    },
+    "Tuza06.FiniteCliques": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/FiniteCliques.lean",
+      "sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430"
+    },
+    "Tuza06.Pages": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/Pages.lean",
+      "sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045"
+    },
+    "Tuza06.Reduction": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/Reduction.lean",
+      "sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10"
+    },
+    "Tuza06.Additivity": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/Additivity.lean",
+      "sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621"
+    },
+    "Tuza06.BlockAggregation": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/BlockAggregation.lean",
+      "sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f"
+    },
+    "Tuza06.Components": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/Components.lean",
+      "sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e"
+    },
+    "Tuza06.Critical": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/Critical.lean",
+      "sha256": "fdb687027dd5dd299d6985b23383e98407a00dd24a60d55643e66a3462e3b200"
+    },
+    "Tuza06.MinimalObstruction": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/MinimalObstruction.lean",
+      "sha256": "79010d586ee8d35b187213109fe6aa0b7222bdae81e0f92543c0b6af37b8325e"
+    },
+    "Tuza23.GraphAPI": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza23/GraphAPI.lean",
+      "sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e"
+    },
+    "Tuza23.M0": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza23/M0.lean",
+      "sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d"
+    },
+    "Tuza24.ForestAPI": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestAPI.lean",
+      "sha256": "f09e878c4aafcd10d1d4e8347e847fd3bc66dd2e34c2bac18d3535109709da54"
+    },
+    "Tuza24.MatchingAPI": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/MatchingAPI.lean",
+      "sha256": "e6e25fe100c6369c865dda5b98d16d74b074d290b12627b69f394bc7710025a6"
+    },
+    "Tuza24.ForestMatching": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestMatching.lean",
+      "sha256": "bbebdf2beb9594a877885f0655acec89a52cdcffc00c00b2ddd1180d6b669493"
+    },
+    "Tuza23.WholeFootprint": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza23/WholeFootprint.lean",
+      "sha256": "bd843ef4a16d101c2731b6247e5eaae7cb03172537461bdfe5aed0bfb589b535"
+    },
+    "Tuza06.Footprints": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/Footprints.lean",
+      "sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b"
+    },
+    "Tuza23.CliqueChoice": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza23/CliqueChoice.lean",
+      "sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91"
+    },
+    "Tuza23.BlockChoice": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza23/BlockChoice.lean",
+      "sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389"
+    },
+    "Tuza23.PageAssembly": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza23/PageAssembly.lean",
+      "sha256": "b45080856bf28a9fadb7f7e747340e3670b2b3451b844e77f4cf77b2fb5c990c"
+    },
+    "Tuza06.Reducible": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/Reducible.lean",
+      "sha256": "2db14a15df88e875493756480e2e92504ea1b8b3606bfd9f4066c8d06e95247d"
+    },
+    "Tuza06.SetPeeling": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/SetPeeling.lean",
+      "sha256": "96fd16ee26f0028fc9af0bffa5822c815a4e59e312ba679aee096df5bd923415"
+    },
+    "Tuza06.GraphPeeling": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/GraphPeeling.lean",
+      "sha256": "89f3d7f2ef1b04289534337d4d7f534ee80205bc5ceb1eaaa87aa837e1d8dde6"
+    },
+    "Tuza06.MatchingReduction": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/MatchingReduction.lean",
+      "sha256": "03c4ee92e4f635badaf10a998a5f51651de8d375ed01afb5f23d614b56eb88e0"
+    },
+    "Tuza06.GraphOperations": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/GraphOperations.lean",
+      "sha256": "9f6316f84081c10b80852908da81bfe382a325e66198df52b00a4dd5a139b849"
+    },
+    "Tuza06.PageAugmentation": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/PageAugmentation.lean",
+      "sha256": "2a7ab49af6c21e0f645c9bb191c7dbb8350c487630b4c5ba1e3a6f8c3f343a2b"
+    },
+    "Tuza.Intersecting": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza/Intersecting.lean",
+      "sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923"
+    },
+    "Tuza.IntersectingStructure": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza/IntersectingStructure.lean",
+      "sha256": "15669245659268212e376d29cd37ac60d854139c5337907c5d5c5c94f3d11357"
+    },
+    "Tuza06.UniqueEdge": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/UniqueEdge.lean",
+      "sha256": "fc9c77bc94e2af03aaadc2f83128232a7fe161cea7f28ff24d5f20465c11cb88"
+    },
+    "Tuza06.SmallLinksBase": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/SmallLinksBase.lean",
+      "sha256": "3d52a43fa7fd91342506949ada70e31820b5e460a4c5050a2d7d0833e95337cb"
+    },
+    "Tuza06.SmallLinksOperations": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/SmallLinksOperations.lean",
+      "sha256": "8a60a698242303388155dfefd4cb4478c641a7aaecd25d53ec7a8ebdf3661dae"
+    },
+    "Tuza06.SmallLinksK3": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/SmallLinksK3.lean",
+      "sha256": "326b0473254705d504f9532f771a56e945590e32bb69782f163e2977621e372c"
+    },
+    "Tuza06.SmallLinksPatterns": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/SmallLinksPatterns.lean",
+      "sha256": "aa89ad6aeb0cb6dd12d0d518e7e57753d183082e44b89e5776da205802f573fd"
+    },
+    "Tuza06.SmallLinksK4": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/SmallLinksK4.lean",
+      "sha256": "95b6b95489c84ab8d1621bc03f4ea3c55dc57f25dff5a71f28edd7e012670e09"
+    },
+    "Tuza06.SmallLinksCross": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/SmallLinksCross.lean",
+      "sha256": "cb543f1423d3f7675cdbe94d7ea17c738d824bc00fc454ce916b2afc4a230e0f"
+    },
+    "Tuza06.SmallLinksFour": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/SmallLinksFour.lean",
+      "sha256": "f777892653ea172a3c292972ec587eb3ef6d145ffc64b491fae838e4ee5dc3ac"
+    },
+    "Tuza06.SmallLinks": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza06/SmallLinks.lean",
+      "sha256": "fde3e17afe2a1420c87da08cca1d9fd83806f70de40f1d216be3c60548beb834"
+    },
+    "Tuza24.LinkAPI": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/LinkAPI.lean",
+      "sha256": "4bc2a6bd053af2636370013a81cdd95aab960d772c4f377320f36d29ab74738c"
+    },
+    "Tuza24.AnchorLift": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/AnchorLift.lean",
+      "sha256": "450e323a9b80ad1e9a405cff074452dfb2b373fada13f3d59a125b8d583f87de"
+    },
+    "Tuza24.ForestMatchingSlack": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestMatchingSlack.lean",
+      "sha256": "4ac89cf3a565143cf0bbd578e624c183ce28d224c575b22f9705e272dc564b07"
+    },
+    "Tuza24.PointedAssembly": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/PointedAssembly.lean",
+      "sha256": "162c72f57d9a27a341ffe1a6e854858ff4113d00851f92384b3f95521a88bc5b"
+    },
+    "Tuza24.AlternatingForestExchange": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/AlternatingForestExchange.lean",
+      "sha256": "cd93f41478a5cb4416143380a28b6d5a45722e11e10bf630807cd828f87b614a"
+    },
+    "Tuza24.AlternatingForestDecomposition": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean",
+      "sha256": "c17deb82d175113355486170360aee4bd6b85a4224ad4d342b8a90d1b32a47c9"
+    },
+    "Tuza24.PointedForest": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/PointedForest.lean",
+      "sha256": "205f9aa169e29b61fcefc2581826589895f584e2299475b8b24c26aa2cf57a38"
+    },
+    "Tuza24.ForestAnchor": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestAnchor.lean",
+      "sha256": "c8127dc85f2cfbc91ae7f259db66ad23815472638df90010b9970c2bca85009a"
+    },
+    "Tuza24.PerfectForestStructure": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/PerfectForestStructure.lean",
+      "sha256": "2da61cb09a9d39865bc378c9af5c736c5f5f329fb98f755e473b708f7753239c"
+    },
+    "Tuza24.FootprintGeometry": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/FootprintGeometry.lean",
+      "sha256": "96a9dcf33da56e0eecc484698e1a033012b0715e2223aaba5405460f247d6240"
+    },
+    "Tuza24.LinkAugmentation": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/LinkAugmentation.lean",
+      "sha256": "be8acf482552375c01745590d62bcf8ba1233ec91662ace6d4d6c67b46af8fe0"
+    },
+    "Tuza24.InternalPageAugmentation": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/InternalPageAugmentation.lean",
+      "sha256": "66da4ca2cbc778e6c95f59a13f7de2ae9e65c3eebc186beebc4c555fb88e03b0"
+    },
+    "Tuza24.ExternalPageAugmentation": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ExternalPageAugmentation.lean",
+      "sha256": "f2f3873f8b454f3112c7eef3f80cb9e124c6abbd7959c273e365a91285b64d76"
+    },
+    "Tuza24.PerfectForestExclusionBase": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/PerfectForestExclusionBase.lean",
+      "sha256": "8f99e475f2f867c38054d88013c8cf160395e4173a4fbc1ea20a138e7c58682f"
+    },
+    "Tuza24.ApexLinkGeometry": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ApexLinkGeometry.lean",
+      "sha256": "40a305dd6380dd2f06e5af19179902db907aa5422ceafb1eb6de84da17cd4b20"
+    },
+    "Tuza24.MatchingChoice": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/MatchingChoice.lean",
+      "sha256": "a907941a8f0a65cc485a89d1ac3568c785230f663d23622ba2b4598ebeb2c68e"
+    },
+    "Tuza24.PerfectForestExclusionTools": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/PerfectForestExclusionTools.lean",
+      "sha256": "8767611af2a10bfe8dd52520bbcdaa7656ebc0928431d493c9d706928af744d9"
+    },
+    "Tuza24.PerfectForestExclusion": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/PerfectForestExclusion.lean",
+      "sha256": "083151918d1ece52cedcd2ddf24ed5cccb031ea9c7deda882221acb07c764ed5"
+    },
+    "Tuza24.ForestMatchingUnique": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestMatchingUnique.lean",
+      "sha256": "eaac5b3c798181f58119c74d7b77b624473bfa888b6c0cced5ea5c7bcc758198"
+    },
+    "Tuza24.ForestMatchingBoundary": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestMatchingBoundary.lean",
+      "sha256": "102ac150285ee5f270ed73cdffe7cf4b3ab436739bd22e09cc79a83121b6f151"
+    },
+    "Tuza24.ForestMatchingDeletion": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestMatchingDeletion.lean",
+      "sha256": "31e3fb9382ea1b39c34f8c597c1275fd2e2a6682c8907ba316fe7a5136e1ade2"
+    },
+    "Tuza24.AlternatingForestAllowed": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/AlternatingForestAllowed.lean",
+      "sha256": "75ffd0b7e18d1a944dfdc3beb6f57091159b9c22b648f04340678d6a68273a81"
+    },
+    "Tuza24.AlternatingForestLeaves": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/AlternatingForestLeaves.lean",
+      "sha256": "3cb6e819f9b585bee3a87901f4a54628038d2bfab2e488c0af7b795e584b2057"
+    },
+    "Tuza24.ForestMatchingLeafRetention": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestMatchingLeafRetention.lean",
+      "sha256": "59cbdcf99e2125640e4fd2ec0bcd2f5b083d192dea61126e69bde9223ea4decb"
+    },
+    "Tuza24.ForestMatchingLeafAvoidance": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestMatchingLeafAvoidance.lean",
+      "sha256": "2a33ca9539820842fd85ed70ab76301cf82cd5180cacba88d0d668c5ee8c27fb"
+    },
+    "Tuza24.ResidualMatching": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ResidualMatching.lean",
+      "sha256": "5b43871729c49a5d0988c6ea99d1045182c779c9776be9a5c116561cc604561f"
+    },
+    "Tuza24.ForestMatchingDeficiency": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestMatchingDeficiency.lean",
+      "sha256": "dbe340343ec807d13d3a0cc52c1e686681986686b39b131d77f2973d466edfea"
+    },
+    "Tuza24.NonperfectLinkReduction": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean",
+      "sha256": "51a0cdc9f93dd7ab052ddb86240523d8dd02072ddaa228d88271e93317c9c093"
+    },
+    "Tuza24.ForestMatchingSafeEdge": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestMatchingSafeEdge.lean",
+      "sha256": "40459a61937e85e40c3c8e34e669b73b8eb10a717e774582968d52db12b80848"
+    },
+    "Tuza24.NonperfectForestExclusion": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/NonperfectForestExclusion.lean",
+      "sha256": "6b72da71b419538cbda4c05448347d44516fda75318ec5d60c7bff37d13639e4"
+    },
+    "Tuza24.ForestCS": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestCS.lean",
+      "sha256": "a78ef7bf5d1274a29a5316a740c9713d9c8dfde2ea4a4e41087e178eda6546f3"
+    },
+    "Tuza24.ForestK5Exclusion": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestK5Exclusion.lean",
+      "sha256": "7d3c75d37528617c3703fbb737a0f538f839a876fcf1ac2e2278638d9838f3b3"
+    },
+    "Tuza24.ForestK4Equality": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ForestK4Equality.lean",
+      "sha256": "f764e1af574e48f62f597d48c6751917c0b05f4ed4e2a6b345a05448abd80741"
+    },
+    "Research": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Research.lean",
+      "sha256": "5b96e69f370b7ee28b44fcda6c6e8c2710d4268b89e2880d5057643e977bd0c8"
+    },
+    "Tuza23.ControlBasic": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza23/ControlBasic.lean",
+      "sha256": "dca5db007dce00223b6f0332d74ca845c7e49b4b003048ae5c2c72d0d5312f6a"
+    },
+    "Tuza24.ControlsForest": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ControlsForest.lean",
+      "sha256": "fe6b588c8ac83efa139fb9f6c2c900e4763ea41e33283ba01287a70edd7ae42a"
+    },
+    "Tuza24.ControlsMatching": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ControlsMatching.lean",
+      "sha256": "2319be238e9adb2da305552bde2f607d18399bb50c4773da0cb03436488bf9ce"
+    },
+    "Tuza23.ControlSharedBlocks": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza23/ControlSharedBlocks.lean",
+      "sha256": "b842d3c129928dc074c80f648823f68988038bfb290adb40c7ef215d5a7910ef"
+    },
+    "Tuza24.ControlsShared": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/ControlsShared.lean",
+      "sha256": "6726a12a3efcaa11e4eb70bbf986911b64b9dfe10bf2c8ab8168094a3b9b6732"
+    },
+    "Tuza24.Controls": {
+      "source": "PUBLIC_REPOSITORY/problems/TUZA-24/Tuza24/Controls.lean",
+      "sha256": "ab81afce9447b6e5439840f85f9903bb514f0124913e0b9e7c57b6f726f42a8d"
+    }
+  },
+  "pins": [
+    {
+      "name": "mathlib",
+      "expected": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "actual": "0df444a360eaa60ab8c11dca51a86af692955474",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "plausible",
+      "expected": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+      "actual": "b7eb3304aeae834b12dda98993a37f6a41f6f0bb",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "expected": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+      "actual": "5f4d51b81cbd3f6b32b156bfad9056621a040404",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "importGraph",
+      "expected": "16f02aa7642864af59f1ff0e384a015994db9118",
+      "actual": "16f02aa7642864af59f1ff0e384a015994db9118",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "expected": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+      "actual": "4be2e3d5087eeb272cf5a8853b8f9dd025ef5957",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "aesop",
+      "expected": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+      "actual": "3448c0bcc5ce01b2d1546e483ec3620e32df3d0e",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "Qq",
+      "expected": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+      "actual": "92c15be17b7caf78c2ad767ec40f89052d908d81",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "batteries",
+      "expected": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+      "actual": "4488d40d070b9700d4d5a6aa342f0d40c31b2a2d",
+      "matches": true,
+      "tracked_clean": true
+    },
+    {
+      "name": "Cli",
+      "expected": "6130a47896ce867c6a4a55373441e59e565bad0f",
+      "actual": "6130a47896ce867c6a4a55373441e59e565bad0f",
+      "matches": true,
+      "tracked_clean": true
+    }
+  ],
+  "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "manifest_sha256": "14f74d212534629c4fb863dd30215409dc98447d6a91b453fb4e33f077addb78",
+  "toolchain_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "clean_workspace": "<FRESH_RUN>/clean",
+  "lean_path": "<FRESH_RUN>/clean/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/mathlib/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/plausible/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/LeanSearchClient/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/importGraph/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/proofwidgets/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/aesop/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/Qq/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/batteries/.lake/build/lib/lean:<PINNED_ENVIRONMENT>/workspaces/native-dependencies/.lake/packages/Cli/.lake/build/lib/lean",
+  "trust_boundary": "Fresh local project objects; pinned existing compiler/Mathlib/dependency artifacts, no cold dependency rebuild."
+}

@@ -1,0 +1,47 @@
+{
+  "status": "INDEPENDENTLY_VALIDATED_FINITE_INTERFACE",
+  "raw": 4096,
+  "eligible": 2018,
+  "rejected": 2078,
+  "counts": {
+    "ORDINARY_BRANCH_AT_MOST_3": 161,
+    "PAID_TRIANGLE_COLLAPSE": 1348,
+    "STRICT": 298,
+    "S_COLLAPSE": 98,
+    "TF_RESIDUAL_EQUAL_MATCHING": 24,
+    "RIM": 42,
+    "B_INCOMPATIBLE": 47
+  },
+  "unknown": 0,
+  "negative_controls": [
+    {
+      "name": "duplicate_P_edge",
+      "rejected": true
+    },
+    {
+      "name": "omitted_paid_triangles",
+      "rejected": true
+    },
+    {
+      "name": "P_reused_as_residual_matching",
+      "rejected": true
+    },
+    {
+      "name": "false_rim_triangle",
+      "rejected": true
+    },
+    {
+      "name": "missing_domain_record",
+      "rejected": true
+    }
+  ],
+  "elapsed_seconds": 0.1770135830156505,
+  "inputs_sha256": {
+    "scripts/challenger_p6_two_apex_interface.py": "c972c43f25d2b413bbdf382e4b42712ea99a767b43adcb6b72ee3e08da3e5a96",
+    "evidence/challenger_p6_two_apex_interface.json": "490f12d9a3b61c0f691a1105d414da5ee1b495d16edab1d5424b8c8c42db5136",
+    "notes/coordinator_TF_residual_equal_matching_exclusion_v1.md": "932c5366f2d3f4aac95cc3ef1779cb2bbe5e08a085d8986c2e5267a7ea979155",
+    "notes/wke_residual_triangle_count_collapse_v1.md": "c561065f333414aa61838d73a3871bab040a60b83b6f52ca2ebf0ed70df1a33e",
+    "notes/three_branch_cs_link_exclusion_v1.md": "ab170206487c0c72af3e2afc8376d47038684c744e1bd467640f4ba36281bc06"
+  },
+  "scope": "Exactly P6 with two nonadjacent apices, all ordered neighborhoods, minimumdegree2 and connectedness only. Ordinary all-size reduction and arbitrary-outside certificate semantics are separate premises; no Lean claim."
+}

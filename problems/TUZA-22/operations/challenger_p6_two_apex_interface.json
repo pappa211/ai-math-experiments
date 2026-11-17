@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T03:50:49.932622+00:00",
+  "end_utc": "2026-11-16T03:50:50.289139+00:00",
+  "seconds": 0.356522798538208,
+  "command": [
+    "python3",
+    "scripts/challenger_p6_two_apex_interface.py"
+  ],
+  "pid": 97338,
+  "peak_sampled_tree_rss_mib": 25.34375,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 10.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

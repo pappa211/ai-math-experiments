@@ -1,0 +1,7 @@
+{
+  "utc": "2026-11-15T17:03:58.331853+00:00",
+  "file": "notes/candidate02_counterexample.md",
+  "reviewed_sha256": "4f7938cb2aab81a6bfd22b96db42726593e082d127fc8f032d3507dfdf41ade8",
+  "final_sha256": "c468e5fac6a973700f8eddd6010bfd882b0cd1f27e1c72743d8b8b00be45c138",
+  "change": "Heading only: unrestricted support optimum -> support optimum; no mathematical statement or proof changed."
+}

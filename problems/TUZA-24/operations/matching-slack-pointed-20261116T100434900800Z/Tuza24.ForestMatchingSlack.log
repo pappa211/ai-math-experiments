@@ -1,0 +1,72 @@
+problems/TUZA-24/Tuza24/ForestMatchingSlack.lean:38:11: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+n : ℕ
+ih :
+  ∀ m < n,
+    ∀ {G : SimpleGraph V},
+      G.IsAcyclic →
+        ∀ {S : Finset V}, S.Nonempty → (∀ (e : Finset V), G.IsNClique 2 e → e ⊆ S) → #S = m → edgeCount G < m
+G : SimpleGraph V
+hG : G.IsAcyclic
+S : Finset V
+hSn : S.Nonempty
+hS : ∀ (e : Finset V), G.IsNClique 2 e → e ⊆ S
+hn : #S = n
+hne : ∃ a b, G.Adj a b
+x y : V
+hxy : G.Adj x y
+hleaf : ∀ (z : V), G.Adj x z → z = y
+hxyE : G.IsNClique 2 {x, y}
+hxS : x ∈ S
+hyS : y ∈ S
+H : SimpleGraph V := isolate G {x}
+hHacy : H.IsAcyclic
+hSn' : (S.erase x).Nonempty
+hS' : ∀ (e : Finset V), H.IsNClique 2 e → e ⊆ S.erase x
+hlt : #(S.erase x) < n
+hind : edgeCount H < #(S.erase x)
+he : {x, y} ∈ graphEdges H
+⊢ ?m.266 = x ∨ ?m.266 = y
+problems/TUZA-24/Tuza24/ForestMatchingSlack.lean:38:21: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+n : ℕ
+ih :
+  ∀ m < n,
+    ∀ {G : SimpleGraph V},
+      G.IsAcyclic →
+        ∀ {S : Finset V}, S.Nonempty → (∀ (e : Finset V), G.IsNClique 2 e → e ⊆ S) → #S = m → edgeCount G < m
+G : SimpleGraph V
+hG : G.IsAcyclic
+S : Finset V
+hSn : S.Nonempty
+hS : ∀ (e : Finset V), G.IsNClique 2 e → e ⊆ S
+hn : #S = n
+hne : ∃ a b, G.Adj a b
+x y : V
+hxy : G.Adj x y
+hleaf : ∀ (z : V), G.Adj x z → z = y
+hxyE : G.IsNClique 2 {x, y}
+hxS : x ∈ S
+hyS : y ∈ S
+H : SimpleGraph V := isolate G {x}
+hHacy : H.IsAcyclic
+hSn' : (S.erase x).Nonempty
+hS' : ∀ (e : Finset V), H.IsNClique 2 e → e ⊆ S.erase x
+hlt : #(S.erase x) < n
+hind : edgeCount H < #(S.erase x)
+he : {x, y} ∈ graphEdges H
+⊢ ?m.266 = x
+problems/TUZA-24/Tuza24/ForestMatchingSlack.lean:52:62: error(lean.invalidField): Invalid field `symm`: The environment does not contain `Function.symm`, so it is not possible to project the field `symm` from an expression
+  hax
+of type `a = x → False`
+problems/TUZA-24/Tuza24/ForestMatchingSlack.lean:102:36: error: Function expected at
+  card_attach
+but this term has type
+  #(attach ?m.95) = #?m.95
+
+Note: Expected a function because this term is being applied to the argument
+  _

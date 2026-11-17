@@ -1,0 +1,13 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Reusable foundation and limits
+
+The reusable all-size results are the actual forest-cover CS theorem, its independent existential anchor and inequality, and the pointed apex-forest matching/cover theorem. The anchor takes ANY supplied actual forest cover C and returns SOME actual triangle packing I and actual cover D with `C ∩ support I ⊆ D` and `|D| ≤ 2|I|`. I is not prescribed or required to be maximum; D may use any actual graph edges and need not lie in C. Shared vertices between packing triangles or equality components remain allowed.
+
+The matching library provides constructive forest matching/vertex-cover equality, exact exposure-set cardinality and saturation, uniqueness for matchings with identical endpoint support, retaining an allowed edge while exposing an original leaf, avoiding an edge while exposing a leaf outside its endpoints, the active deficiency-two reduction under disjoint-peer hypotheses, and safe-edge selection from a leaf marking. See `notes/matching_reuse.md` for exact interfaces and the ordinary-proof reorganization. The full-footprint augmentation interfaces can also be reused whenever their explicit structural hypotheses are proved.
+
+The formal route shortens several ordinary arguments without changing their claims: minimum-cover certificates replace explicit alternating-path development; residual edge counts replace ordered paths in the perfect branch; active deficiency one is excluded by exposure and disjoint-peer counting; and a marking invariant on actual exposure-bipartite reachability replaces the final parity path. These are proof engineering choices, with no originality claim.
+
+Cycles block identified steps. Odd cycles need not have matching/vertex-cover equality. A four-cycle has distinct perfect matchings on the same support and removing one leaves an equally large matching, so forest uniqueness and strict residual saving fail. Deleting adjacent vertices in a cyclic graph can also leave several changed boundary vertices in a single component, invalidating the original-leaf arguments.
+
+No theorem here supplies a forest triangle-edge cover for every graph. The result, the prior R2 interface and M0 therefore do not establish unrestricted Tuza or an unrestricted equality classification. No follow-on global research, historical census reconstruction, remote computation or publication is initiated by this mission.

@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "Cropper_Gyarfas_Lehel_2003.pdf",
+    "requested_url": "https://users.renyi.hu/~gyarfas/Cikkek/105_listmultihall.pdf",
+    "final_url": "https://users.renyi.hu/~gyarfas/Cikkek/105_listmultihall.pdf",
+    "utc": "2026-11-15T23:37:40.038247+00:00",
+    "bytes": 101019,
+    "sha256": "aa463cfaab2c6ad59e4a454925cbf33626cad018b4aa0a560a1e8c2edd37f027",
+    "content_type": "application/pdf"
+  },
+  {
+    "filename": "Hoffman_Johnson_2007.pdf",
+    "requested_url": "https://www.maths.tcd.ie/EMIS/journals/HOA/IJMMS/Volume2007/072168.pdf",
+    "final_url": "https://www.maths.tcd.ie/EMIS/journals/HOA/IJMMS/Volume2007/072168.pdf",
+    "utc": "2026-11-15T23:37:40.608553+00:00",
+    "bytes": 818358,
+    "sha256": "7660f64b9789e18900fb1b3f28ccab96042864a5767925f58ea72454f974804b",
+    "content_type": "application/pdf"
+  }
+]

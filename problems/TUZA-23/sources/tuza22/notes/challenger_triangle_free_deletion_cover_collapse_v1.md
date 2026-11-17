@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/challenger_triangle_free_deletion_cover_collapse_v1.md

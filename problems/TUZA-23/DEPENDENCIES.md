@@ -1,0 +1,11 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Formal dependency boundary
+
+Pinned Lean 4.33.1 compiler 819816b2e0a3bf405af45ae5c7af2491d8f5bee6; mathlib 0df444a360eaa60ab8c11dca51a86af692955474. All nine package Git revisions match the unchanged package revisions of the inherited manifest; receipt operations/dependency_pins.json. Root package name alone differs. Native dependency objects are reused read-only; no cold mathlib/compiler rebuild claimed.
+
+Copied public closure: Tuza.Basic, Graph; Tuza06.Statement, Transport, FiniteCliques, Pages, Reduction, Additivity, BlockAggregation, Components, Critical, Footprints, MinimalObstruction. All are rebuilt from copied source by scripts/build_serial.py; hashes reference public pin. This 13-module selection is a reusable all-size foundation, not the whole publication bundle. Historical TUZA-19 finite kernel is not imported.
+
+Installed Lake 5 help exposes no -j job-count flag. Lake source uses asynchronous job scheduling, so this mission does not assume LEAN_NUM_THREADS=1 limits concurrently spawned compilers. Instead the documented runner invokes the installed Lean compiler serially in topological order, with -j1 -M2200, an exclusive flock build slot, external 240-second deadline per module and sampled full process-tree RSS ceiling 2200 MiB. It constructs LEAN_PATH from the exact local package artifacts and output directory, never invokes a dependency updater, installer or cache downloader. Normal Lake project files remain available; the audited reproduction command is the serial runner.
+
+`Tuza.Graph` contains definitions AharoniInput/HNSInput of propositions, not axioms. No target may assume them. `Tuza06.Statement.CombinedStatement` has a five-degeneracy premise and is not the mission CS; GraphAPI defines the unrestricted proposition separately and relates it to Good. The accepted axiom audit must inspect each actual target dependency closure, not infer trust from import names or compilation alone.

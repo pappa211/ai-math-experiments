@@ -1,0 +1,44 @@
+{
+  "started_utc": "2026-11-15T16:41:58.183677+00:00",
+  "seed": 20261115,
+  "runtime_limit_seconds": 300.0,
+  "per_graph_seconds": 2,
+  "packing_cap": 512,
+  "graphs": 560,
+  "by_order": {
+    "11": {
+      "graphs": 140,
+      "fully_checked": 137,
+      "partly_checked": 3,
+      "packings": 10774
+    },
+    "12": {
+      "graphs": 140,
+      "fully_checked": 98,
+      "partly_checked": 42,
+      "packings": 29132
+    },
+    "13": {
+      "graphs": 140,
+      "fully_checked": 134,
+      "partly_checked": 6,
+      "packings": 17900
+    },
+    "14": {
+      "graphs": 140,
+      "fully_checked": 140,
+      "partly_checked": 0,
+      "packings": 8600
+    }
+  },
+  "statuses": {
+    "COMPLETE": 509,
+    "PARTIAL_PACKINGS": 51
+  },
+  "packings": 66406,
+  "candidate_tests": 10396,
+  "candidate_failures": 0,
+  "pk_failures": 0,
+  "generator_exhausted": true,
+  "elapsed_seconds": 12.68354458399699
+}

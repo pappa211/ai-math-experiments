@@ -1,0 +1,17 @@
+{
+  "start_utc": "2026-11-16T03:08:37.712752+00:00",
+  "end_utc": "2026-11-16T03:08:37.834818+00:00",
+  "seconds": 0.12206912040710449,
+  "command": [
+    "python",
+    "-B",
+    "scripts/triangular_unicyclic_cs_interface.py"
+  ],
+  "pid": 95176,
+  "peak_sampled_tree_rss_mib": 4.25,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 60.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

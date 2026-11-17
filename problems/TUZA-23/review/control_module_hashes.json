@@ -1,0 +1,18 @@
+[
+  {
+    "module": "Tuza23.ControlBasic",
+    "sha256": "dca5db007dce00223b6f0332d74ca845c7e49b4b003048ae5c2c72d0d5312f6a"
+  },
+  {
+    "module": "Tuza23.ControlSharedBlocks",
+    "sha256": "b842d3c129928dc074c80f648823f68988038bfb290adb40c7ef215d5a7910ef"
+  },
+  {
+    "module": "Tuza23.ControlRestoration",
+    "sha256": "d5c96a50f33837e8a82ce47d66e9c6dce0be1023fb9582fa7c3550e15427181c"
+  },
+  {
+    "module": "Tuza23.Controls",
+    "sha256": "60a15b8c3d40363930017b1a795589b30856ed2a39ba07a665a0dd8f88520474"
+  }
+]

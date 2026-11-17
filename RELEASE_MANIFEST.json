@@ -1,36 +1,22 @@
 {
-  "status": "REVIEWED_PUBLICATION_TREE",
-  "edition": "TUZA-16-19-2026-11-15",
-  "public_baseline": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
-  "report": "papers/tuza-16-19-research-summary/main.pdf",
-  "report_sha256": "debe8d851fd889a053d733519dd034dac68024eb88670a5df5ec024390866ef3",
-  "source_manifest": "problems/TUZA-16-19-SOURCE_MANIFEST.json",
-  "source_manifest_sha256": "9129e1a74056866a70536d0c091f3cddba3bfd28703e561f15ea8c5a6c48a052",
-  "current_guide": "RESEARCH_STATUS_2026-11-15.md",
-  "proof_ledger": "verification/tuza-16-19/CLAIMS.json",
-  "fresh_reproduction": "verification/tuza-16-19/finite/VERIFICATION.json",
-  "fresh_formal": "verification/tuza-16-19/formal/verification.json",
+  "status": "REVIEWED_ARCHIVE_CANDIDATE",
+  "edition": "TUZA-20-26-2026-11-17",
+  "public_baseline": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+  "archive_index": "TUZA_20_26_ARCHIVE.md",
+  "source_manifest": "problems/TUZA-20-26-SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "a0ef27d1f5f5a02dc448b19e58df26b2c539cda821b903f6b071098afe15a280",
+  "proof_ledger": "verification/tuza-20-26/CLAIMS.json",
+  "current_guide": "RESEARCH_STATUS_2026-11-17.md",
+  "frozen_content_manifest_sha256": "4014983386064362dfa4bff181701e3ee704ca784f9f0769590e7bb29c3399fd",
+  "independent_publication_review": "verification/tuza-20-26/INDEPENDENT_PUBLICATION_REVIEW.md",
+  "evidence_boundary": "31/79 clean-source formal modules, actual transitive axiom audits, 21 finite checks; ordinary reconstruction has explicit scope. Cached pinned dependencies, no cold rebuild or independent kernel. No external human peer review or priority claim.",
+  "programme_state": "PAUSED; unrestricted Tuza and universal CS unresolved",
   "historical_release_records": [
-    "verification/tuza-16-19/release-at-d4029fb/",
-    "verification/tuza-07-10/release-at-e93e3c8/"
-  ],
-  "evidence_boundary": "Ordinary AI-reviewed proofs and attributed external inputs; fresh exact finite checks and finite Lean kernels only. No unrestricted Tuza proof, external peer review or historical-priority certification. Historical broad censuses and solver-only outputs remain historical.",
-  "open": [
-    "unrestricted Tuza",
-    "global packing-support exchange",
-    "H-O2",
-    "AC remaining eligible window",
-    "rainbow/availability gates",
-    "nonessential priority comparisons"
+    "verification/tuza-20-26/release-at-4b72b6d/"
   ],
   "inventories": {
     "full_tree": "FILES.sha256",
     "this_publication_overlay": "RELEASE_FILES.sha256",
-    "self_exclusions": "FILES excludes itself. RELEASE_FILES excludes both inventories. This manifest does not hash inventories or itself. Historical inventories do not verify updated root bytes."
-  },
-  "frozen_candidate": "verification/tuza-16-19/CANDIDATE_MANIFEST.json",
-  "frozen_content_manifest_sha256": "d683bf904d32db17fb51da9dd2c001324bcb0309b50c4ee0decc4e80fa2e6c2e",
-  "independent_publication_review": "verification/tuza-16-19/INDEPENDENT_PUBLICATION_REVIEW.json",
-  "release_verification": "verification/tuza-16-19/RELEASE_VERIFICATION.json",
-  "publication_method": "Owner-authorized reviewed PR and normal guarded-head merge; exact final commit and remote checks recorded externally."
+    "self_exclusions": "FILES excludes itself. RELEASE_FILES excludes both inventories. Release manifest does not hash inventories or itself."
+  }
 }

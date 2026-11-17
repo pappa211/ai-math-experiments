@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-16T10:02:34.769760+00:00",
+  "reviewer": "tuza24_review",
+  "status": "SOURCE_SEMANTICS_ACCEPTED_NOT_COMPILED",
+  "scope": "Current definitions and stated elementary lemmas only; does not accept any future additions",
+  "snapshots": [
+    {
+      "path": "problems/TUZA-24/Tuza24/ForestAPI.lean",
+      "sha256": "f09e878c4aafcd10d1d4e8347e847fd3bc66dd2e34c2bac18d3535109709da54"
+    },
+    {
+      "path": "problems/TUZA-24/Tuza24/ForestMatching.lean",
+      "sha256": "bbebdf2beb9594a877885f0655acec89a52cdcffc00c00b2ddd1180d6b669493"
+    },
+    {
+      "path": "problems/TUZA-24/Tuza24/AlternatingForestExchange.lean",
+      "sha256": "a187bd714558a3bd73a0a52105051bdde3d0ac0cbdb70a6b7c95e328ec2f8a63"
+    }
+  ],
+  "findings": [
+    "ForestAPI actualize_cover/anchored_actualize preserve the actual-edge requirement, anchor and cost; same-vertex heredity supplies the exact unrestricted CS premise.",
+    "ForestMatching leaf induction constructs matching/cover witnesses without an optimizer assumption; weak duality establishes the claimed true maximum.",
+    "Exposable is correctly existential over all true maximum matchings. Equal-cover saturation and exposable-independence are sound in any graph supplied with a matching-equal vertex cover.",
+    "No alternating-path/reach representation is introduced yet; any future representation needs a separate semantic review before use."
+  ],
+  "compiler_invoked_by_reviewer": false
+}

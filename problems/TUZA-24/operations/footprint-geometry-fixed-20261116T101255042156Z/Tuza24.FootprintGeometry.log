@@ -1,0 +1,60 @@
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:84:45: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+a b z : V
+hab : a ≠ b
+hbase : ¬H.Adj a b
+k : Finset V
+hk : H.IsClique ↑k
+he : {a, z} ∈ edges {a, b, z} ∩ edges k
+hek : {a, z} ⊆ k
+hf : {a, b} ∈ edges {a, b, z} ∩ edges k
+hfk : {a, b} ⊆ k
+⊢ b = a ∨ b = z
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:84:45: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+a b z : V
+hab : a ≠ b
+hbase : ¬H.Adj a b
+k : Finset V
+hk : H.IsClique ↑k
+he : {a, z} ∈ edges {a, b, z} ∩ edges k
+hek : {a, z} ⊆ k
+hf : {b, z} ∈ edges {a, b, z} ∩ edges k
+hfk : {b, z} ⊆ k
+⊢ b = a ∨ b = z
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:84:29: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+a b z : V
+hab : a ≠ b
+hbase : ¬H.Adj a b
+k : Finset V
+hk : H.IsClique ↑k
+he : {b, z} ∈ edges {a, b, z} ∩ edges k
+hek : {b, z} ⊆ k
+hf : {a, b} ∈ edges {a, b, z} ∩ edges k
+hfk : {a, b} ⊆ k
+⊢ a = b ∨ a = z
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:84:29: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+a b z : V
+hab : a ≠ b
+hbase : ¬H.Adj a b
+k : Finset V
+hk : H.IsClique ↑k
+he : {b, z} ∈ edges {a, b, z} ∩ edges k
+hek : {b, z} ⊆ k
+hf : {a, z} ∈ edges {a, b, z} ∩ edges k
+hfk : {a, z} ⊆ k
+⊢ a = b ∨ a = z

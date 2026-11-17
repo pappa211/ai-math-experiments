@@ -1,0 +1,17 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# One-edge active-kernel peeling — independent review
+
+**ACCEPT** `notes/one_edge_active_kernel_v1.md` at its stated arbitrary-attachment scope. Source SHA-256: `c39108e89bd86a993181b1e17cf4495e00694608ab294178257d2fbdfce99950`. This is an ordinary proof from the reviewed M0/minimality package and literal clique facts; no finite search or external paper is needed.
+
+The whole-family footprint bound is the decisive point. A selected old literal clique cannot contain both endpoints of the absent edge uv. If it contains u and two page spokes ux,uy, the other two spokes vx,vy already exist before restoration. The actual old triangle vxy then shares the clique edge xy, so its entire support belongs to that old shared-edge component. Literal clique support forces v into the clique and forces uv to exist, contradiction. Thus the entire restored family meets a selected block in at most one edge, even when old nonselected components and background edges are arbitrary.
+
+The active graph's actual triangle family is exactly old nonselected triangles plus new uv-pages. An actual triangle of the active graph is also an actual triangle of G; any old triangle in a selected block is impossible because at most one of that block's edges enters the active graph. Distinct old triangle-component supports are edge-disjoint, so nonselected supports cannot add a second selected-block edge. This addresses the main possible closure issue without assuming the active graph is induced.
+
+Every selected K4/K5 maximum packing can avoid its one possible shared edge. Combining these packings with any active packing gives the lower additive bound; classifying every G-packing triangle into selected blocks or the exact active triangle family gives the upper bound. Therefore the stated equality of packing numbers is exact. The cover upper bound is equally valid.
+
+Under tightness, CS of the active graph forces it to have only literal clique triangle components. If a selected block shares an edge with the active graph, that edge lies in a new triangle there: it cannot come from a different old component. Thus it is a triangle-support edge of a literal active clique, not merely a background edge. Minimum covers containing the shared edge exist on both sides, and their union saves at least one edge. This contradicts tightness. Once overlap is absent, full triangle-family accounting establishes B(G), including any harmless background edges.
+
+For a minimum CS failure, the reviewed single-edge identities give residual defect exactly1. Component additivity and proper-subgraph CS leave precisely one positive-defect triangle component and any number of tight literal blocks. If any tight block remained, the active graph would omit at least five of its edges and hence be a proper edge-subgraph of G. Its CS would transfer back, contradiction. Therefore every single-edge residual has one nonempty triangle component of defect1, with triangle-free background allowed. The conclusion is about connectivity through shared triangle edges, not ordinary vertex connectivity or a classification of the defect-one component.
+
+Completed2026-11-15 UTC. Neither this review nor the accepted source claims new historical priority for separator consequences.

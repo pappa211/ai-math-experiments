@@ -1,0 +1,26 @@
+{
+  "claim": "Every minimum TREE cover C admits edge-disjoint triangles of weight\u2265|C|, with weight2 internal toV(C),weight1 external",
+  "scope": "Finite P4/P5 covers; every actual internal triangle retained; independent outside vertices with at most3 permitted-neighborhood occurrences; stop first failure",
+  "counts": {
+    "graphs": 8215,
+    "nonminimal": 686,
+    "minimum": 742,
+    "not_inclusion_minimal": 6787
+  },
+  "domains": [
+    {
+      "core": "P4",
+      "internal_masks_completed": 6,
+      "apex_cap": 3
+    },
+    {
+      "core": "P5",
+      "internal_masks_completed": 51,
+      "apex_cap": 3
+    }
+  ],
+  "failure": null,
+  "unknown": [],
+  "elapsed_seconds": 0.16250662501261104,
+  "utc": "2026-11-16T00:22:22.208836+00:00"
+}

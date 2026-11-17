@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T22:22:01.182588+00:00",
+  "end_utc": "2026-11-15T22:22:01.539785+00:00",
+  "seconds": 0.35720229148864746,
+  "command": [
+    "python",
+    "scripts/challenger_joint_attainability.py"
+  ],
+  "pid": 72236,
+  "peak_sampled_tree_rss_mib": 19.484375,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 60.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

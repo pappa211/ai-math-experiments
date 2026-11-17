@@ -1,0 +1,1 @@
+{"status": "STOPPED_FIRST_UNKNOWN", "processed": 4, "domain": 374, "shape": 1, "neighbors": [0, 1, 3, 4], "certificate": {"kind": "UNKNOWN_NO_APPROVED_CERTIFICATE", "tested_matchings": 26, "nu_matching_not_premise": 3}}

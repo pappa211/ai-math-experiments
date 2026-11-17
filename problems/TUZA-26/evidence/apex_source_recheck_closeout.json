@@ -1,0 +1,255 @@
+{
+  "checked_utc": "2026-11-17T03:54:58.407660+00:00",
+  "scope": "Selected apex external sources only; scoped integrity detection, not archive-wide immutability.",
+  "file_count": 35,
+  "all_unchanged": true,
+  "files": [
+    {
+      "path": "PRIVATE_PATH_REMOVED",
+      "expected": "ce1f13146460d47c74fe6c9fa85d10e44cbec0a865eacc35a314141dc1a9678d",
+      "actual": "ce1f13146460d47c74fe6c9fa85d10e44cbec0a865eacc35a314141dc1a9678d",
+      "bytes": 2290,
+      "unchanged": true
+    },
+    {
+      "path": "PRIVATE_PATH_REMOVED",
+      "expected": "2c03ccaa9d141b16ae76caaaa8d143838d9a02c4f2bdb5a3209634f6613a32fe",
+      "actual": "2c03ccaa9d141b16ae76caaaa8d143838d9a02c4f2bdb5a3209634f6613a32fe",
+      "bytes": 11003,
+      "unchanged": true
+    },
+    {
+      "path": "PRIVATE_PATH_REMOVED",
+      "expected": "3057cc5569183c85f9ebb756da24754ae2c6e26f20db3bd1564821cf593fb494",
+      "actual": "3057cc5569183c85f9ebb756da24754ae2c6e26f20db3bd1564821cf593fb494",
+      "bytes": 19538,
+      "unchanged": true
+    },
+    {
+      "path": "PRIVATE_PATH_REMOVED",
+      "expected": "00a6e964c0f1cbe0c277b210230fa14e40927b0081dd12a8d98031ddc6e83f68",
+      "actual": "00a6e964c0f1cbe0c277b210230fa14e40927b0081dd12a8d98031ddc6e83f68",
+      "bytes": 712,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/AGENTS.md",
+      "expected": "94789f59af0bc05f810e7ea5e1f6914976f7cff6963f1520605af6ea39b5bb6c",
+      "actual": "94789f59af0bc05f810e7ea5e1f6914976f7cff6963f1520605af6ea39b5bb6c",
+      "bytes": 604,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/PROOF_CHAIN.md",
+      "expected": "3a4a16e6f7eed71ed7db54c48be4771f01321c54a1ab4c52bc840e0970efa4e6",
+      "actual": "3a4a16e6f7eed71ed7db54c48be4771f01321c54a1ab4c52bc840e0970efa4e6",
+      "bytes": 15329,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/REPORT.md",
+      "expected": "74928c7b02b2dfd7c3aaf4460d400c9a1e9fb596991cca8e798912d1c845b0f8",
+      "actual": "74928c7b02b2dfd7c3aaf4460d400c9a1e9fb596991cca8e798912d1c845b0f8",
+      "bytes": 14546,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/STATUS_MATRIX.json",
+      "expected": "28c57b17ae1589f0ba2bb2170703111aba623a62a6e9e30eb528d2bd596dbb06",
+      "actual": "28c57b17ae1589f0ba2bb2170703111aba623a62a6e9e30eb528d2bd596dbb06",
+      "bytes": 15630,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/ADVERSARIAL_REVIEW.md",
+      "expected": "e1b3481f116198c640464c6522fe53b8299d0b4af2dead66b64d4ccfac989fd5",
+      "actual": "e1b3481f116198c640464c6522fe53b8299d0b4af2dead66b64d4ccfac989fd5",
+      "bytes": 6206,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/REPRODUCTION.md",
+      "expected": "2db24571fe02ab61ad4afee914f8d06742f0ecc6d03c036f0cffba161697a089",
+      "actual": "2db24571fe02ab61ad4afee914f8d06742f0ecc6d03c036f0cffba161697a089",
+      "bytes": 4632,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/HYPOTHESIS_QUEUE.md",
+      "expected": "cfe98a01a5db84ddf8a92c80acfebd2e9f3dd3a2ddedab97c05815f3fb940ffc",
+      "actual": "cfe98a01a5db84ddf8a92c80acfebd2e9f3dd3a2ddedab97c05815f3fb940ffc",
+      "bytes": 10645,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/notes/residual_family_freeze.md",
+      "expected": "c9324eb673cd2f175fc1044dcfe747c51c50d7ec45228f4cc5f6aa402baa89db",
+      "actual": "c9324eb673cd2f175fc1044dcfe747c51c50d7ec45228f4cc5f6aa402baa89db",
+      "bytes": 3926,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/notes/mixed_named_matching_reconstruction_frozen.md",
+      "expected": "916d639d5951a2fa3a0913a52b63285295750975d937b90d550b57e7195f688e",
+      "actual": "916d639d5951a2fa3a0913a52b63285295750975d937b90d550b57e7195f688e",
+      "bytes": 7298,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/scripts/residual_edge_exchange.py",
+      "expected": "b78801249241cb43be82b96ec922c152189d8b5dbfead944e082194a6a76c24d",
+      "actual": "b78801249241cb43be82b96ec922c152189d8b5dbfead944e082194a6a76c24d",
+      "bytes": 3632,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/scripts/residual_oracle.py",
+      "expected": "57b74bea55c51bacd75ca6437ba4f209fd082bfae309ffd9b990dac2339d2fa6",
+      "actual": "57b74bea55c51bacd75ca6437ba4f209fd082bfae309ffd9b990dac2339d2fa6",
+      "bytes": 3468,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/evidence/residual_edge_exchange_seeds.json",
+      "expected": "eae0cea592aa0bbcb2b8c1fe3bcdfe596474a0238095cbf8db451fbf3d3af2d7",
+      "actual": "eae0cea592aa0bbcb2b8c1fe3bcdfe596474a0238095cbf8db451fbf3d3af2d7",
+      "bytes": 11931,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_matching_control.py",
+      "expected": "eab5df8741129b5b3751304dc4adb93bda29219f1ee8c1283c9a6ec746f4010e",
+      "actual": "eab5df8741129b5b3751304dc4adb93bda29219f1ee8c1283c9a6ec746f4010e",
+      "bytes": 1913,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-22/notes/near_tight_common_apex_v1.md",
+      "expected": "5926a71a34b8ecaf10ae5da565c58c4df2c288f05ef5fe2fa445fa4358c4e19d",
+      "actual": "5926a71a34b8ecaf10ae5da565c58c4df2c288f05ef5fe2fa445fa4358c4e19d",
+      "bytes": 4025,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-22/notes/three_star_edge_restoration_v1.md",
+      "expected": "d5ceac18fb352cecf785237ca3c7d88a8c446730f2ee92b93a1e814941ebccb6",
+      "actual": "d5ceac18fb352cecf785237ca3c7d88a8c446730f2ee92b93a1e814941ebccb6",
+      "bytes": 6127,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-22/notes/three_path_edge_restoration_v1.md",
+      "expected": "c3b4e1ad977eae97a1849a3812dd32e37f34533eeddfcef9b7ec77f8c7fdeaad",
+      "actual": "c3b4e1ad977eae97a1849a3812dd32e37f34533eeddfcef9b7ec77f8c7fdeaad",
+      "bytes": 6790,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/notes/critical_adjacent_edges_frozen.md",
+      "expected": "3851774a1a4daae047b992de3efbc90ef03de1db0e61a00e565bb30c0ac35c05",
+      "actual": "3851774a1a4daae047b992de3efbc90ef03de1db0e61a00e565bb30c0ac35c05",
+      "bytes": 4833,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/notes/residual_track_status.md",
+      "expected": "2d599fb536a9d7a8362bf5285ccd6b1bf117222e0d68185eeff4de347fd12937",
+      "actual": "2d599fb536a9d7a8362bf5285ccd6b1bf117222e0d68185eeff4de347fd12937",
+      "bytes": 17268,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/reviews/critic_bridge_check.py",
+      "expected": "b0c60ba95d901a5762453b7745d2c5b531e3bf8bbabed3fbecfe4ba97bcec7a6",
+      "actual": "b0c60ba95d901a5762453b7745d2c5b531e3bf8bbabed3fbecfe4ba97bcec7a6",
+      "bytes": 2717,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-22/notes/defect_one_fresh_clique_tree_classification_v1.md",
+      "expected": "65537b924e3f2b2e4a97ecadf08ccc0f79a6c2c97e173b651fb0394ff7dd6310",
+      "actual": "65537b924e3f2b2e4a97ecadf08ccc0f79a6c2c97e173b651fb0394ff7dd6310",
+      "bytes": 9062,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/evidence/residual_edge_exchange.json",
+      "expected": "c41ce23ae75b0e0bfde55768ab30ba30ac8b81366ebcbc5fbe8e344ad26e5738",
+      "actual": "c41ce23ae75b0e0bfde55768ab30ba30ac8b81366ebcbc5fbe8e344ad26e5738",
+      "bytes": 366329,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/notes/residual_independent_star_avoidance.md",
+      "expected": "04a952708b52d068d7bcac061212156ac37a0cc8b6a2fcd93e5ce823cfe51b84",
+      "actual": "04a952708b52d068d7bcac061212156ac37a0cc8b6a2fcd93e5ce823cfe51b84",
+      "bytes": 3654,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-22/notes/two_triangle_restoration_v1.md",
+      "expected": "12121facd2e02c4dd79ec488698ffb7153c7c810b6a76219302c0efdd11c07c7",
+      "actual": "12121facd2e02c4dd79ec488698ffb7153c7c810b6a76219302c0efdd11c07c7",
+      "bytes": 17234,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-22/notes/triangle_and_edge_restoration_v1.md",
+      "expected": "47af760a002bac2502c152ecca7c51bd3080f9b64020ea2e2ed574008e4e0eb5",
+      "actual": "47af760a002bac2502c152ecca7c51bd3080f9b64020ea2e2ed574008e4e0eb5",
+      "bytes": 5310,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/notes/mixed_matching_deletion_resilience_frozen.md",
+      "expected": "bd3ce02a815ac54540c3f95bc55907dec2e8f32f957f769a7177c8916ebee12c",
+      "actual": "bd3ce02a815ac54540c3f95bc55907dec2e8f32f957f769a7177c8916ebee12c",
+      "bytes": 7159,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/notes/residual_matching_component_confinement.md",
+      "expected": "18834cbf2159411947e6086e172fe2a934b25a086f5d7a028ce7b2894ed71abc",
+      "actual": "18834cbf2159411947e6086e172fe2a934b25a086f5d7a028ce7b2894ed71abc",
+      "bytes": 7209,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-22/review/two_triangle_restoration_independent_review.md",
+      "expected": "f716b04d855d19e62788e9caa85aa927826eab2053682897280344d716b53ba9",
+      "actual": "f716b04d855d19e62788e9caa85aa927826eab2053682897280344d716b53ba9",
+      "bytes": 9004,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/sources/tuza22_initial/9_two_triangle_extension_minimal_v1.md",
+      "expected": "5d04171d00d09db1759ae058df20155f942f3aa2f714b5ce662b9b8cd5f5be97",
+      "actual": "5d04171d00d09db1759ae058df20155f942f3aa2f714b5ce662b9b8cd5f5be97",
+      "bytes": 1922,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/sources/residual_exact/2_two_triangle_extension_minimal_independent_review.md",
+      "expected": "ed4005749adec37374132cda3fecb1bc82f46f571c3105e89d73fcf0a994afa2",
+      "actual": "ed4005749adec37374132cda3fecb1bc82f46f571c3105e89d73fcf0a994afa2",
+      "bytes": 1666,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/sources/tuza22_initial/1_restoration.md",
+      "expected": "7c6436c694edd930139984d201564645c40ed1f9d62cbceea23b0113aa353d71",
+      "actual": "7c6436c694edd930139984d201564645c40ed1f9d62cbceea23b0113aa353d71",
+      "bytes": 50258,
+      "unchanged": true
+    },
+    {
+      "path": "problems/TUZA-25/sources/tuza22_initial/5_fresh_clique_defect_one_triangle_restoration_v1.md",
+      "expected": "e7f61f375de2e11ecb26226bd398234a40c464c70935c3b41598eeaadf39a13e",
+      "actual": "e7f61f375de2e11ecb26226bd398234a40c464c70935c3b41598eeaadf39a13e",
+      "bytes": 6484,
+      "unchanged": true
+    }
+  ],
+  "owned_jobs_running": 0,
+  "new_numerical_jobs_in_actual_parent_selection_phase": 0
+}

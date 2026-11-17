@@ -1,0 +1,81 @@
+{
+  "reviewer": "tuza24_review",
+  "utc": "2026-11-16T10:11:41.072212+00:00",
+  "compiler_invoked_by_reviewer": false,
+  "modules": [
+    {
+      "module": "Tuza24.LinkAPI",
+      "source": "problems/TUZA-24/Tuza24/LinkAPI.lean",
+      "sha256": "4bc2a6bd053af2636370013a81cdd95aab960d772c4f377320f36d29ab74738c",
+      "matching_successful_coordinator_receipts": [
+        "problems/TUZA-24/operations/link-api-fixed-20261116T100552878662Z/Tuza24.LinkAPI.json"
+      ],
+      "status": "SOURCE_SEMANTICS_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+    },
+    {
+      "module": "Tuza24.AnchorLift",
+      "source": "problems/TUZA-24/Tuza24/AnchorLift.lean",
+      "sha256": "450e323a9b80ad1e9a405cff074452dfb2b373fada13f3d59a125b8d583f87de",
+      "matching_successful_coordinator_receipts": [
+        "problems/TUZA-24/operations/anchor-lift-fixed-20261116T100747673451Z/Tuza24.AnchorLift.json"
+      ],
+      "status": "SOURCE_SEMANTICS_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+    },
+    {
+      "module": "Tuza24.ForestMatchingSlack",
+      "source": "problems/TUZA-24/Tuza24/ForestMatchingSlack.lean",
+      "sha256": "4ac89cf3a565143cf0bbd578e624c183ce28d224c575b22f9705e272dc564b07",
+      "matching_successful_coordinator_receipts": [
+        "problems/TUZA-24/operations/matching-slack-pointed-20261116T100449427534Z/Tuza24.ForestMatchingSlack.json"
+      ],
+      "status": "SOURCE_SEMANTICS_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+    },
+    {
+      "module": "Tuza24.PointedAssembly",
+      "source": "problems/TUZA-24/Tuza24/PointedAssembly.lean",
+      "sha256": "162c72f57d9a27a341ffe1a6e854858ff4113d00851f92384b3f95521a88bc5b",
+      "matching_successful_coordinator_receipts": [
+        "problems/TUZA-24/operations/pointed-assembly-20261116T100505390377Z/Tuza24.PointedAssembly.json"
+      ],
+      "status": "SOURCE_SEMANTICS_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+    },
+    {
+      "module": "Tuza24.AlternatingForestExchange",
+      "source": "problems/TUZA-24/Tuza24/AlternatingForestExchange.lean",
+      "sha256": "cd93f41478a5cb4416143380a28b6d5a45722e11e10bf630807cd828f87b614a",
+      "matching_successful_coordinator_receipts": [
+        "problems/TUZA-24/operations/alternating-exchange-01-20261116T100253639597Z/Tuza24.AlternatingForestExchange.json"
+      ],
+      "status": "SOURCE_SEMANTICS_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+    },
+    {
+      "module": "Tuza24.AlternatingForestDecomposition",
+      "source": "problems/TUZA-24/Tuza24/AlternatingForestDecomposition.lean",
+      "sha256": "c17deb82d175113355486170360aee4bd6b85a4224ad4d342b8a90d1b32a47c9",
+      "matching_successful_coordinator_receipts": [
+        "problems/TUZA-24/operations/alternating-decomposition-02-20261116T100837543454Z/Tuza24.AlternatingForestDecomposition.json"
+      ],
+      "status": "SOURCE_SEMANTICS_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+    },
+    {
+      "module": "Tuza24.PointedForest",
+      "source": "problems/TUZA-24/Tuza24/PointedForest.lean",
+      "sha256": "205f9aa169e29b61fcefc2581826589895f584e2299475b8b24c26aa2cf57a38",
+      "matching_successful_coordinator_receipts": [
+        "problems/TUZA-24/operations/pointed-forest-20261116T100917943912Z/Tuza24.PointedForest.json"
+      ],
+      "status": "SOURCE_SEMANTICS_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+    },
+    {
+      "module": "Tuza24.ForestAnchor",
+      "source": "problems/TUZA-24/Tuza24/ForestAnchor.lean",
+      "sha256": "c8127dc85f2cfbc91ae7f259db66ad23815472638df90010b9970c2bca85009a",
+      "matching_successful_coordinator_receipts": [
+        "problems/TUZA-24/operations/forest-anchor-20261116T101004287050Z/Tuza24.ForestAnchor.json"
+      ],
+      "status": "SOURCE_SEMANTICS_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+    }
+  ],
+  "full_forest_cs_status": "INCOMPLETE",
+  "inequality_anchor_status": "COORDINATOR_COMPILED_SOURCE_SEMANTICS_ACCEPTED_FINAL_INDEPENDENT_AUDIT_PENDING"
+}

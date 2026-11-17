@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T00:18:24.455621+00:00",
+  "end_utc": "2026-11-16T00:18:24.823594+00:00",
+  "seconds": 0.3679800033569336,
+  "command": [
+    "python3",
+    "scripts/challenger_cover_saturating_matching.py"
+  ],
+  "pid": 87615,
+  "peak_sampled_tree_rss_mib": 40.875,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 60.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

@@ -1,0 +1,1 @@
+../../../../TUZA-22/review/challenger_apex_triangle_odd_pendant_review.md

@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T00:22:22.030539+00:00",
+  "end_utc": "2026-11-16T00:22:22.265232+00:00",
+  "seconds": 0.2346968650817871,
+  "command": [
+    "python3",
+    "scripts/challenger_tree_weighted_probe.py"
+  ],
+  "pid": 87736,
+  "peak_sampled_tree_rss_mib": 15.078125,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 60.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

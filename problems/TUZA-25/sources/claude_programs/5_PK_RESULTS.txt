@@ -1,0 +1,14 @@
+Independent PK-all / PK-exists check (definitions of TUZA-18 apex_private_k4_gate.md), pk.c
+n<=8 : all graphs, all maximum packings: 0 PK-all failures
+n=9  : 274,668 graphs, 2,130,141 maximum packings: 0 failures
+n=10 : 12,005,168 graphs, ~144.6M maximum packings: 0 failures (K10 initially hit the 500k packing cap;
+       rerun uncapped: 1,814,400 maximum packings, 0 failures)
+random 11-16 vertices (G(n,p) and K4/K5 block gluings + extra edges): 1,137 graphs, 0 failures (14 hit packing cap)
+negative control (budget 2k-1): K4 and K5 correctly flagged for every maximum packing.
+Rotation invariance (rotation_invariance.py, connected graphs n<=7): 19 graphs have a single private-page
+rotation P->P' with c(P') != c(P); smallest: graph6 FCZnw, P={036,145,246} c=5 -> P'={056,145,246} c=4 (2k=6).
+
+Equality-structure check (eq.c): for every graph on <=10 vertices, tau=2nu implies every shared-edge
+triangle component is a literal K4 or K5.
+n<=9: 0 exceptions (766 tight graphs at n=9).  n=10: 12,005,168 graphs, 5,756 tight, 0 exceptions.
+Also: 0 Tuza failures; 136,085 graphs at n=10 have slack exactly one (tau = 2nu-1).

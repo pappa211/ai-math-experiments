@@ -1,0 +1,36 @@
+{
+  "status": "REVIEWED_PUBLICATION_TREE",
+  "edition": "TUZA-16-19-2026-11-15",
+  "public_baseline": "d4029fbafc3dffc250b50ed237ad81c3206cd1a0",
+  "report": "papers/tuza-16-19-research-summary/main.pdf",
+  "report_sha256": "debe8d851fd889a053d733519dd034dac68024eb88670a5df5ec024390866ef3",
+  "source_manifest": "problems/TUZA-16-19-SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "9129e1a74056866a70536d0c091f3cddba3bfd28703e561f15ea8c5a6c48a052",
+  "current_guide": "RESEARCH_STATUS_2026-11-15.md",
+  "proof_ledger": "verification/tuza-16-19/CLAIMS.json",
+  "fresh_reproduction": "verification/tuza-16-19/finite/VERIFICATION.json",
+  "fresh_formal": "verification/tuza-16-19/formal/verification.json",
+  "historical_release_records": [
+    "verification/tuza-16-19/release-at-d4029fb/",
+    "verification/tuza-07-10/release-at-e93e3c8/"
+  ],
+  "evidence_boundary": "Ordinary AI-reviewed proofs and attributed external inputs; fresh exact finite checks and finite Lean kernels only. No unrestricted Tuza proof, external peer review or historical-priority certification. Historical broad censuses and solver-only outputs remain historical.",
+  "open": [
+    "unrestricted Tuza",
+    "global packing-support exchange",
+    "H-O2",
+    "AC remaining eligible window",
+    "rainbow/availability gates",
+    "nonessential priority comparisons"
+  ],
+  "inventories": {
+    "full_tree": "FILES.sha256",
+    "this_publication_overlay": "RELEASE_FILES.sha256",
+    "self_exclusions": "FILES excludes itself. RELEASE_FILES excludes both inventories. This manifest does not hash inventories or itself. Historical inventories do not verify updated root bytes."
+  },
+  "frozen_candidate": "verification/tuza-16-19/CANDIDATE_MANIFEST.json",
+  "frozen_content_manifest_sha256": "d683bf904d32db17fb51da9dd2c001324bcb0309b50c4ee0decc4e80fa2e6c2e",
+  "independent_publication_review": "verification/tuza-16-19/INDEPENDENT_PUBLICATION_REVIEW.json",
+  "release_verification": "verification/tuza-16-19/RELEASE_VERIFICATION.json",
+  "publication_method": "Owner-authorized reviewed PR and normal guarded-head merge; exact final commit and remote checks recorded externally."
+}

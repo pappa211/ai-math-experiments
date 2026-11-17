@@ -1,0 +1,215 @@
+{
+  "started_utc": "2026-11-15T16:45:04.629939+00:00",
+  "elapsed_seconds": 0.8771400451660156,
+  "small_corpus": [
+    {
+      "n": 0,
+      "eligible_packings": 1,
+      "cycles": 0,
+      "noncommon_centre_cycles": 0
+    },
+    {
+      "n": 1,
+      "eligible_packings": 1,
+      "cycles": 0,
+      "noncommon_centre_cycles": 0
+    },
+    {
+      "n": 2,
+      "eligible_packings": 2,
+      "cycles": 0,
+      "noncommon_centre_cycles": 0
+    },
+    {
+      "n": 3,
+      "eligible_packings": 7,
+      "cycles": 0,
+      "noncommon_centre_cycles": 0
+    },
+    {
+      "n": 4,
+      "eligible_packings": 53,
+      "cycles": 0,
+      "noncommon_centre_cycles": 0
+    },
+    {
+      "n": 5,
+      "eligible_packings": 853,
+      "cycles": 60,
+      "noncommon_centre_cycles": 0
+    },
+    {
+      "n": 6,
+      "eligible_packings": 26729,
+      "cycles": 3240,
+      "noncommon_centre_cycles": 0
+    }
+  ],
+  "first_small_noncommon_cycle": null,
+  "explicit_eight_vertex_control": {
+    "nu": 4,
+    "restricted_cost": 8,
+    "all_maximum_packings": 38,
+    "diagnostic": {
+      "centres": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "arcs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "cycles": [
+        {
+          "owners": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "centres": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "common_centre": false
+        }
+      ]
+    },
+    "candidate02": {
+      "eligible": true,
+      "feasible": true,
+      "bases": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "F": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "L": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "gains": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "remaining_triangles": [],
+      "available_spokes": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ]
+      ],
+      "spoke_budget_remaining": 0,
+      "cover": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    }
+  }
+}

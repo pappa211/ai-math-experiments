@@ -1,0 +1,21 @@
+[
+  "Tuza24.forest_cover_cs",
+  "Tuza24.forest_cover_inequality",
+  "Tuza24.forest_cover_anchor",
+  "Tuza24.forest_cover_equality",
+  "Tuza24.forest_cover_equality_k4",
+  "Tuza24.pointed_apex_forest",
+  "Tuza24.forest_maximum_matching_cover",
+  "Tuza24.forest_matching_exposure_card",
+  "Tuza24.forest_matching_eq_of_vertices_eq",
+  "Tuza24.forest_retain_edge_expose_leaf",
+  "Tuza24.forest_avoid_edge_expose_leaf",
+  "Tuza24.forest_nonperfect_deficiency_two",
+  "Tuza24.forest_safe_allowed_edge",
+  "Tuza24.perfect_apex_link_excluded",
+  "Tuza24.nonperfect_apex_link_excluded",
+  "Tuza24.minimal_internal_page_augmentation",
+  "Tuza24.minimal_safe_external_page_augmentation",
+  "Tuza24.forestCover_no_five_clique",
+  "Tuza24.forestCover_B_iff_K4"
+]

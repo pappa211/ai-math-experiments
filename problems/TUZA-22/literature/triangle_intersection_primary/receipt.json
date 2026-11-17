@@ -1,0 +1,20 @@
+[
+  {
+    "file": "literature/triangle_intersection_primary/lakshmanan_bujtas_tuza_1410.8807v3.pdf",
+    "requested_url": "https://real.mtak.hu/39565/1/1410.8807v3.pdf",
+    "final_url": "https://real.mtak.hu/39565/1/1410.8807v3.pdf",
+    "bytes": 237129,
+    "sha256": "3c9ee73727a51a4de70c82326291f0d5cb151a4eb719083ac276138347534633",
+    "pages": 27,
+    "retrieved_utc": "2026-11-16T01:27:32.351632+00:00"
+  },
+  {
+    "file": "literature/triangle_intersection_primary/haxell_kostochka_thomasse_plan_ht.pdf",
+    "requested_url": "https://kostochk.web.illinois.edu/docs/accepted/plan-ht.pdf",
+    "final_url": "https://kostochk.web.illinois.edu/docs/accepted/plan-ht.pdf",
+    "bytes": 150722,
+    "sha256": "a6f0d975820a34ace112bb5db41bae0c77d5bc9f4c2da590ea612b2ba3d465b4",
+    "pages": 10,
+    "retrieved_utc": "2026-11-16T01:27:33.489594+00:00"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.columbia.edu/~wm2428/papers/packing_covering_triangles.pdf",
+  "access_utc": "2026-11-15T18:14:13.855712+00:00",
+  "bibliography": "Cui, Haxell, Ma; Graphs and Combinatorics 25 (2009), 817\u2013824; online 2010-02-10; DOI 10.1007/s00373-010-0881-5",
+  "inspection": "Browser web tool extracted all eight PDF pages; Theorem 1.2, Section 2 definition, Proposition 2.2 and Lemma 2.3 inspected",
+  "local_download": "HTTP 403 Forbidden; no local PDF snapshot or hash obtained",
+  "dependency": "Contextual prior-art comparison only; no proof step requires this external theorem"
+}

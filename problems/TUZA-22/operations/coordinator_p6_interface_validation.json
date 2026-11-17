@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T03:52:58.271249+00:00",
+  "end_utc": "2026-11-16T03:52:58.513424+00:00",
+  "seconds": 0.24217915534973145,
+  "command": [
+    "python",
+    "scripts/coordinator_p6_interface_validator.py"
+  ],
+  "pid": 97471,
+  "peak_sampled_tree_rss_mib": 35.890625,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 30.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

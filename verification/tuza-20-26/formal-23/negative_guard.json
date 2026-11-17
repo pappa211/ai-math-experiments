@@ -1,0 +1,18 @@
+{
+  "status": "EXPECTED_API_REJECTION",
+  "command": [
+    "<PINNED_ENVIRONMENT>/toolchains/elan/toolchains/leanprover--lean4---v4.33.1/bin/lean",
+    "-j1",
+    "-M2200",
+    "<FRESH_RUN>/clean/MissingBGuard.lean"
+  ],
+  "source_sha256": "568c9eac0bc18d5e45650e81d0178c923b9d697a4822b19d5bca1c944aa87afe",
+  "source_fixture": "control_guard_missing_B.lean",
+  "exit_code": 1,
+  "limit_reason": null,
+  "elapsed_seconds": 0.8751374999992549,
+  "peak_tree_rss_bytes": 1563852800,
+  "log": "logs/MissingBGuard.log",
+  "scope": "Missing old-B argument is rejected by the exported API against freshly rebuilt objects; not a mathematical independence proof",
+  "excluded_from_accepted_library": true
+}

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-15T23:59:49.235735+00:00",
+  "index_url": "https://users.ime.usp.br/~cris/gcomb/tem-fapesp/publications.html",
+  "requested_url": "https://users.ime.usp.br/~yoshi/pronex/publications/MS/Journals/J5/paper.tex.gz",
+  "final_url": "https://users.ime.usp.br/~yoshi/pronex/publications/MS/Journals/J5/paper.tex.gz",
+  "compressed_bytes": 12427,
+  "compressed_sha256": "f95c21d11948be2a7aa8550ef6ad8f9f2fac365eb2daed64da1136244095891b",
+  "uncompressed_bytes": 38784,
+  "uncompressed_sha256": "39e5e0b78e873abe92bd550153ea323c004705f6d03f2458cc09539ff771ebd9",
+  "content_type": "application/x-gzip",
+  "transformation": "gzip decompression only; no compilation or macros executed"
+}

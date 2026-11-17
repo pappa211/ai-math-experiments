@@ -1,0 +1,19 @@
+{
+  "module": "Tuza23.DisjointRestoration",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-23/.lake/build/lib/lean/Tuza23/DisjointRestoration.olean",
+    "problems/TUZA-23/Tuza23/DisjointRestoration.lean"
+  ],
+  "cwd": "problems/TUZA-23",
+  "lean_path": "problems/TUZA-23/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "270f23d82d89212826e892e2a190dff544aea69f63dc16502f3111dc3b61df10",
+  "elapsed_seconds": 3.8985807079880033,
+  "peak_process_tree_rss_bytes": 1577517056,
+  "exit_code": 1,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T09:14:26.265595+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "claim": "Any specified minimum vertex cover is saturated by a matching",
+  "domain": "networkx graph_atlas_g, all simple graph isomorphism types through seven vertices, sequential until first failure or internal45s",
+  "graphs_completed": 1253,
+  "trianglefree_graphs_completed": 173,
+  "minimum_covers_tested": 3726,
+  "failures": [],
+  "unknown": [],
+  "elapsed_seconds": 0.07956983300391585,
+  "utc": "2026-11-16T00:18:24.713955+00:00",
+  "evidence": "finite exact independent-set and weighted-matching subset recurrences; not an all-size proof"
+}

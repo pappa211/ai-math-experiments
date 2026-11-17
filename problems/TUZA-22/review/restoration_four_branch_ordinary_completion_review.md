@@ -1,0 +1,15 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Fresh review: ordinary full four-branch completion
+
+Reviewer: restoration. Frozen 2026-11-16 before05:10:41 UTC. Verdict: ACCEPT, ordinary all-size at the minimum-CS closed-link scope.
+
+Reviewed source: `notes/coordinator_four_branch_ordinary_completion_v1.md`, SHA-256 `a67ee9350b06917ad3b77b098244e35c160d7ef8074b0679a891090c0920a81b`.
+
+I independently reconstructed the two-disjoint-doubles/no-extra-even case before reading the frozen source, then checked the full written assembly. The even-path orientations leave exactly the endpoints of a chosen direct cross pair free, so adding that pair is a legitimate matching extension. Q retains every branch vertex, and the count |Q|=|P|+1-q is exact. q>=2 is strict; q4 uses P0 directly. For q1, the chosen direct pair is opposite the unique odd path, so the surviving direct core is exactly C4. Its entire residual consists of that C4 with pendant or isolated edges, hence is triangle-free. The complementary even-path matchings cover the two direct-pair endpoints; the full odd-path matching covers the other two. They are disjoint and give the exact equal-size residual matching needed by the ordinary theorem. q0 uses the separately ordinary K4-bearing four-branch theorem, not a finite table.
+
+I also checked assembly completeness. At least four even pairs give a connected four-vertex pair graph and a spanning unicyclic endpoint assignment. Its P/Q construction is valid without triangle presence; for a triangle-free link the ordinary S-empty collapse excludes the resulting tuple. Thus the historical finite WKE availability is not needed in this branch. Triangle-bearing links use the earlier ordinary many-even theorem at its stated scope.
+
+With at most three even paths, the apex-pseudoforest deletion theorem forces every three-branch core to have multiplicity at least four. The resulting complete-K4 underlying graph and 2K2/K3/P4 double shapes are exhaustive. Three doubles have no other even single; two doubles permit exactly the separately treated zero- or one-extra-even cases. The triangle and path double arguments use explicit all-length counts and residual diamonds. The extra-even case uses a literal near-perfect matching, whole residual bipartiteness and the explicitly declared elementary bipartite matching-cover theorem.
+
+I inspected the dependency direction: ordinary apex-pseudoforest and TF equal-matching arguments do not use the former finite four-branch theorem. The q0 K4-bearing input is itself ordinary. No new finite-domain premise, unrestricted availability, or global CS assertion is introduced. The conclusion that every nonempty closed link has at least five branch vertices therefore has an ordinary replacement proof. Earlier363-state and historical5375-state evidence remains preserved as predecessor evidence, not proof premises here. No gap found.

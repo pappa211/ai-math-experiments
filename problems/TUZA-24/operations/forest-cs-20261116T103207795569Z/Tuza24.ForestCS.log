@@ -1,0 +1,6 @@
+problems/TUZA-24/Tuza24/ForestCS.lean:21:30: error: Ambiguous term
+  ssubset_iff_subset_ne.mpr
+Possible interpretations:
+  _root_.ssubset_iff_subset_ne.mpr ⟨hsub, hperfect⟩ : matchingVertices M ⊂ (peelNeighbors G univ v).erase w
+  
+  Finset.ssubset_iff_subset_ne.mpr ⟨hsub, hperfect⟩ : matchingVertices M ⊂ (peelNeighbors G univ v).erase w

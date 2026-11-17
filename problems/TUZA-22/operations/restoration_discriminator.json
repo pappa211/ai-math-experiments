@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T21:45:54.420712+00:00",
+  "end_utc": "2026-11-15T21:46:16.282371+00:00",
+  "seconds": 21.861664056777954,
+  "command": [
+    "python",
+    "scripts/restoration_discriminator.py"
+  ],
+  "pid": 64950,
+  "peak_sampled_tree_rss_mib": 82.59375,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 270.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

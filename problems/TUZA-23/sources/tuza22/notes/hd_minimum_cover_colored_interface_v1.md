@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/hd_minimum_cover_colored_interface_v1.md

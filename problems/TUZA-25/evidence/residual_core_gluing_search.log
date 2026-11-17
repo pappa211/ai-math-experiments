@@ -1,0 +1,14 @@
+{'generated': 101, 'chordal_reject': 53, 'nonchordal_3connected_distinct': 31, 'exact': 31, 'two_separator_reject': 15, 'duplicate_isomorphism': 2} seconds 2.6 rss 76955648
+{'generated': 501, 'chordal_reject': 272, 'nonchordal_3connected_distinct': 148, 'exact': 148, 'two_separator_reject': 58, 'duplicate_isomorphism': 23} seconds 18.6 rss 95649792
+{'generated': 601, 'chordal_reject': 324, 'nonchordal_3connected_distinct': 183, 'exact': 182, 'two_separator_reject': 65, 'duplicate_isomorphism': 29, 'UNKNOWN_timeout': 1} seconds 26.0 rss 112820224
+{'generated': 701, 'chordal_reject': 387, 'nonchordal_3connected_distinct': 201, 'exact': 199, 'two_separator_reject': 76, 'duplicate_isomorphism': 37, 'UNKNOWN_timeout': 2} seconds 31.1 rss 114638848
+{'generated': 1001, 'chordal_reject': 541, 'nonchordal_3connected_distinct': 284, 'exact': 281, 'two_separator_reject': 110, 'duplicate_isomorphism': 66, 'UNKNOWN_timeout': 3} seconds 42.8 rss 115048448
+{'generated': 1301, 'chordal_reject': 684, 'nonchordal_3connected_distinct': 365, 'exact': 362, 'two_separator_reject': 140, 'duplicate_isomorphism': 112, 'UNKNOWN_timeout': 3} seconds 52.1 rss 115048448
+{'generated': 1601, 'chordal_reject': 851, 'nonchordal_3connected_distinct': 427, 'exact': 424, 'two_separator_reject': 175, 'duplicate_isomorphism': 148, 'UNKNOWN_timeout': 3} seconds 57.9 rss 115048448
+{'generated': 1901, 'chordal_reject': 1013, 'nonchordal_3connected_distinct': 499, 'exact': 494, 'two_separator_reject': 194, 'duplicate_isomorphism': 195, 'UNKNOWN_timeout': 5} seconds 71.3 rss 120127488
+{'generated': 3201, 'chordal_reject': 1687, 'nonchordal_3connected_distinct': 748, 'exact': 739, 'two_separator_reject': 338, 'duplicate_isomorphism': 428, 'UNKNOWN_timeout': 9} seconds 123.4 rss 120127488
+{'generated': 4201, 'chordal_reject': 2223, 'nonchordal_3connected_distinct': 930, 'exact': 919, 'two_separator_reject': 414, 'duplicate_isomorphism': 634, 'UNKNOWN_timeout': 11} seconds 159.8 rss 120127488
+{'generated': 4701, 'chordal_reject': 2478, 'nonchordal_3connected_distinct': 1028, 'exact': 1017, 'two_separator_reject': 466, 'duplicate_isomorphism': 729, 'UNKNOWN_timeout': 11} seconds 187.1 rss 120127488
+{'generated': 5101, 'chordal_reject': 2667, 'nonchordal_3connected_distinct': 1104, 'exact': 1093, 'two_separator_reject': 508, 'duplicate_isomorphism': 822, 'UNKNOWN_timeout': 11} seconds 197.3 rss 120127488
+{'generated': 5501, 'chordal_reject': 2879, 'nonchordal_3connected_distinct': 1169, 'exact': 1158, 'two_separator_reject': 543, 'duplicate_isomorphism': 910, 'UNKNOWN_timeout': 11} seconds 207.9 rss 120127488
+DONE {'generated': 6000, 'chordal_reject': 3122, 'nonchordal_3connected_distinct': 1245, 'exact': 1232, 'two_separator_reject': 608, 'duplicate_isomorphism': 1025, 'UNKNOWN_timeout': 13}

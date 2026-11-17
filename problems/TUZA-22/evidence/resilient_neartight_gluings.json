@@ -1,0 +1,11200 @@
+{
+  "identity": "TUZA22 targeted overlap construction probe v1",
+  "status": "STOPPED_ON_FRESH_INELIGIBLE_PATTERN",
+  "seed": 22111604,
+  "internal_seconds_cap": 275,
+  "per_instance_seconds": 0.9,
+  "elapsed_seconds": 13.413371000002371,
+  "processed": 798,
+  "unknown": 0,
+  "seed_graphs": [
+    {
+      "n": 6,
+      "edge_count": 11,
+      "triangle_count": 8,
+      "nu": 2,
+      "tau": 3,
+      "defect": 1,
+      "edge_nu": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "resilient": true,
+      "cover_ineligible": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "triangle_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "name": "twoK4edge"
+    },
+    {
+      "n": 7,
+      "edge_count": 15,
+      "triangle_count": 14,
+      "nu": 3,
+      "tau": 5,
+      "defect": 1,
+      "edge_nu": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "resilient": true,
+      "cover_ineligible": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triangle_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "name": "K4K5edge"
+    },
+    {
+      "n": 8,
+      "edge_count": 19,
+      "triangle_count": 20,
+      "nu": 4,
+      "tau": 7,
+      "defect": 1,
+      "edge_nu": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "resilient": true,
+      "cover_ineligible": [],
+      "triangle_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "name": "twoK5edge"
+    },
+    {
+      "n": 5,
+      "edge_count": 9,
+      "triangle_count": 7,
+      "nu": 2,
+      "tau": 3,
+      "defect": 1,
+      "edge_nu": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "resilient": true,
+      "cover_ineligible": [],
+      "triangle_connected": true,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "name": "K5minus01"
+    },
+    {
+      "n": 8,
+      "edge_count": 16,
+      "triangle_count": 12,
+      "nu": 3,
+      "tau": 5,
+      "defect": 1,
+      "edge_nu": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "resilient": true,
+      "cover_ineligible": [
+        [
+          0,
+          3
+        ]
+      ],
+      "triangle_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "name": "twoK4plusK4"
+    },
+    {
+      "n": 9,
+      "edge_count": 20,
+      "triangle_count": 18,
+      "nu": 4,
+      "tau": 7,
+      "defect": 1,
+      "edge_nu": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "resilient": true,
+      "cover_ineligible": [
+        [
+          0,
+          3
+        ]
+      ],
+      "triangle_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "name": "twoK4plusK5"
+    }
+  ],
+  "hits": [
+    {
+      "n": 7,
+      "edge_count": 15,
+      "triangle_count": 14,
+      "nu": 3,
+      "tau": 5,
+      "defect": 1,
+      "edge_nu": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "resilient": true,
+      "cover_ineligible": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "triangle_connected": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "parent_seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "fresh_ineligible": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "old_nu": 2
+    }
+  ],
+  "rows": [
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        6
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        8
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        6,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        5,
+        6
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        6,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        6,
+        7,
+        8
+      ],
+      "nu": 8,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        6,
+        8
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        8
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        8
+      ],
+      "nu": 8,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        6,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        7,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        6
+      ],
+      "nu": 8,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        7,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5,
+        8
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        7
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        6
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        6,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        5,
+        8
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        6,
+        7,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3
+      ],
+      "nu": 5,
+      "tau": 9,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        6,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5,
+        6,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        7
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        6,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        7,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        6,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        7,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        8
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        6
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        5,
+        7
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        6
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        6
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        7
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        6
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        6,
+        7
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2
+      ],
+      "nu": 5,
+      "tau": 9,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        6
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        5,
+        6
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        6
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        6,
+        7
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        7,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "nu": 8,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        6,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        6
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        8
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        6,
+        8
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        8
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        5
+      ],
+      "nu": 3,
+      "tau": 5,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        7,
+        8
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        6,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        7,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        7
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        6,
+        7,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        6
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        7,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        7
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        8
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        6,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3
+      ],
+      "nu": 5,
+      "tau": 9,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        6
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        6
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        6
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        6,
+        7,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "nu": 8,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        7
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        5
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        6,
+        7
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        7,
+        8
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        8
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5,
+        8
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 0,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        6
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        5,
+        6
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2
+      ],
+      "nu": 3,
+      "tau": 5,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        7,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        8
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        6,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        6,
+        7,
+        8
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        7
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5,
+        7,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        7,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        6,
+        7
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        7,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        7,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4
+      ],
+      "nu": 4,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3
+      ],
+      "nu": 5,
+      "tau": 9,
+      "resilient": true,
+      "ineligible_count": 0,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        5
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3
+      ],
+      "nu": 5,
+      "tau": 9,
+      "resilient": true,
+      "ineligible_count": 0,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        5,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        6,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        7
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 0,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        6
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        5,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5,
+        8
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        6,
+        8
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        4,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        8
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        6,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2
+      ],
+      "nu": 5,
+      "tau": 9,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        8
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "nu": 5,
+      "tau": 9,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        6
+      ],
+      "nu": 7,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        6
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5,
+        7,
+        8
+      ],
+      "nu": 8,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2
+      ],
+      "nu": 3,
+      "tau": 5,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        4
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "nu": 8,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        3,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        2,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        6,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        8
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3
+      ],
+      "nu": 3,
+      "tau": 5,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        4,
+        5,
+        6
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        7,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        5
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        7
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        8
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        7
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        6
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2,
+        3
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        5
+      ],
+      "nu": 4,
+      "tau": 5,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5
+      ],
+      "nu": 4,
+      "tau": 7,
+      "resilient": true,
+      "ineligible_count": 1,
+      "fresh_ineligible": []
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        4
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        3,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        7
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5,
+        6,
+        8
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 3,
+      "tau": 4,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        1,
+        2
+      ],
+      "nu": 5,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        4,
+        5,
+        8
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        5
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        6
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2,
+        3
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        5
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        3,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        2,
+        5,
+        8
+      ],
+      "nu": 7,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        5,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K4K5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        5,
+        6
+      ],
+      "nu": 7,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        4,
+        5,
+        6
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 9,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        2
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        1,
+        2
+      ],
+      "nu": 6,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        4,
+        6
+      ],
+      "nu": 4,
+      "tau": 6,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 5,
+      "shared_vertices": [
+        2,
+        3,
+        6
+      ],
+      "nu": 6,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        7
+      ],
+      "nu": 8,
+      "tau": 10,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 5,
+      "shared_vertices": [
+        3,
+        5,
+        8
+      ],
+      "nu": 8,
+      "tau": 11,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK4",
+      "clique_size": 4,
+      "shared_vertices": [
+        2,
+        4
+      ],
+      "nu": 5,
+      "tau": 7,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK4plusK5",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        3,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 4,
+      "shared_vertices": [
+        1,
+        5
+      ],
+      "nu": 5,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "twoK5edge",
+      "clique_size": 5,
+      "shared_vertices": [
+        5,
+        6,
+        7
+      ],
+      "nu": 6,
+      "tau": 8,
+      "resilient": null,
+      "ineligible_count": 0
+    },
+    {
+      "seed": "K5minus01",
+      "clique_size": 4,
+      "shared_vertices": [
+        0,
+        1
+      ],
+      "nu": 3,
+      "tau": 5,
+      "resilient": true,
+      "ineligible_count": 4,
+      "fresh_ineligible": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ]
+    }
+  ],
+  "scope": "Sampled literal K4/K5 completion on2-4 existing vertices with fresh remaining vertices; actual triangles rebuilt. Not exhaustive; no unbounded claim from finite survivors."
+}

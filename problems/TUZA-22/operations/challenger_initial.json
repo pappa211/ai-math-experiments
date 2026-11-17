@@ -1,0 +1,20 @@
+{
+  "start_utc": "2026-11-15T21:47:04.075745+00:00",
+  "end_utc": "2026-11-15T21:48:46.513043+00:00",
+  "seconds": 102.43730401992798,
+  "command": [
+    "python",
+    "scripts/challenger_probe.py",
+    "--seconds",
+    "100",
+    "--case-seconds",
+    "3"
+  ],
+  "pid": 65338,
+  "peak_sampled_tree_rss_mib": 647.75,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 120.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

@@ -1,0 +1,9 @@
+{
+  "vertices": 32,
+  "edges": 111,
+  "actual_triangles": 80,
+  "full_packing_size": 16,
+  "literal_triangle_and_packing_check": "PASS",
+  "optimum_lower_upper_proof": "review/coordinator_interacting_review.md",
+  "input_sha256": "b412935b6ca83e66e198a31307d446c4abac30597eae9f644bb8ae45a264c3ad"
+}

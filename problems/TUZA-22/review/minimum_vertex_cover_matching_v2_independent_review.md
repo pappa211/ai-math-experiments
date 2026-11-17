@@ -1,0 +1,11 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent review: elementary minimum-cover saturation v2
+
+Verdict: ACCEPT as ORDINARY_PROOF. Frozen source `notes/challenger_minimum_vertex_cover_matching_v2.md`, SHA256 32f741c1892cb527f60806fdb2be3d27ffce8ea8fe08ee051c5789e71a41a578. This replaces the external Gallai–Edmonds dependency at the exact weighted-star and prescribed-cover saturation scopes. It does not change the accepted status of preserved v1.
+
+I independently checked the new argument from the coordinator's proposal before reading v2. A maximal matching M0 inside the specified minimum vertex cover Q leaves an independent set U. For every S⊆U, (Q minus S) union N_B(S), where B is the independent complement of Q, covers every edge: the only possibly lost edges go from S to B, and their endpoints in B were added. Minimum cardinality of Q therefore supplies Hall's inequalities. The Hall matching between U and B is disjoint from M0 and saturates U, so their union saturates all Q.
+
+Each augmenting-path flip preserves the matched status of every previously matched vertex, and iteration reaches a maximum matching, proving the stronger cardinality statement if desired. Such augmentation need not preserve the individual M0 edges. V2 explicitly distinguishes this from the unaugmented Hall extension, which preserves any prescribed maximal internal M0 and is already sufficient for exact weighted-star payment. Taking M0 maximum internally is permitted.
+
+The actual-triangle star support, triangle-free cone rim, ordinary minimum-cover replacement, and weight accounting were reconstructed in `review/minimum_vertex_cover_matching_independent_review.md`; v2 retains them unchanged and I checked their presentation again. No additional premise enters: each internal rim matching edge accounts for two Q endpoints and each external one for one, with none wholly outside Q. Thus weight equals |Q|. There is no GE, census, or topological dependency, and no arbitrary-tree or global compatibility assertion.

@@ -1,0 +1,3 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+TUZA-24 only. Read sources/MISSION.txt. Mac-only; frozen sources and dependency caches read-only. No downloads, updates, sorry, project axioms, native_decide or unsafe accepted proofs. Coordinator owns shared compiler slot by default; request it before Lean/Lake. Use scripts/build_serial.py lock, process RSS2200MiB and deadline. File ownership explicit in operations/OWNERSHIP.md. Original clock never resets.

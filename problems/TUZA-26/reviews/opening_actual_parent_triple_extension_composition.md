@@ -1,0 +1,13 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent defect-one double-residual triangle-extension composition
+
+Status: ACCEPTED ORDINARY, conditional on the accepted exact minimum-CS-parent extraction and archived restoration/extension statements. Binds notes/actual_parent_defect_one_triple_extension_v1.md, SHA-256 f35bf40284bc6aae4a7436ba38406cc106d126a18d323c1e86782bcc14f3f488.
+
+For every actual edge-disjoint T,U with defect-one double residual R, and every actual triangle V of R, the claimed conclusion is nu(R-E(V))=k-3. Its equivalence to simultaneous extension of the prescribed triple follows by adding or removing the already edge-disjoint T,U. The proof does not use the new single-edge resilience theorem for R.
+
+The failure interface is exhaustive and correctly quantified: proper CS forces B=R-V tight, the exact one-triangle gain (2,3) forces the bare K5-e family, and H=G-T is an ACTUAL single residual. Its connected support and single-edge resilience are therefore legitimate. Simultaneous extension of T,V gives nu(B+U)=m+2 and q_U=2. If U and V intersect, the accepted shared-vertex cover payment applies. Otherwise U contains zero, one or both K5-e peripherals. The accepted partial payment closes zero and one; the independently reviewed two-peripheral theorem identifies the actual H support as one of three C12 stars. Strict single-triangle restoration applies to H with background retained. Edge-disjoint triangles cannot share two vertices, so these cases cover every possibility.
+
+The conclusion names neither R nor its active component and asserts no connectedness for R. It does not prove unconditional triple extension. The corollary that any failing prescribed triple has all three double residuals of defect two additionally uses the already accepted defect-zero exclusion for double residuals, which comes from the archived B-plus-two-triangle theorem. With that dependency explicit, the corollary is valid by applying the proved statement to each of the three pairs. No pairwise-cover Helly assertion or classification of defect-two graphs is used.
+
+Component receipts: opening_actual_parent_triple_shared_review.md; opening_actual_parent_disjoint_partial_review.md; opening_actual_parent_two_peripheral_review.md. The remaining all-three-double-defect-two branch and global residual selection remain open.

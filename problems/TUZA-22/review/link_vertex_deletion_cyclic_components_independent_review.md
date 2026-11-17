@@ -1,0 +1,25 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Fresh review: every component after deleting a link vertex is cyclic
+
+Verdict: ACCEPT as ORDINARY_PROOF using the stated previously reviewed minimal-CS framework and local proof dependencies. Frozen source `notes/link_vertex_deletion_cyclic_components_v1.md`, source SHA256 1369c2ed436c3d3f166e5dc2b27df57dd9d98ccd08ac60a07eef47310b629791. This review reconstructs arbitrary attachments and both matching branches; it does not assume that an arbitrary link has a tree component after deletion.
+
+## Perfect tree branch
+
+Deleting vw from minimum CS G gives H with the declared exact parameters nu(H)=k, tau(H)=2k−1 and edge packing resilience, by M0 and the accepted two-edge resilience theorem. Its induced link at v is exactly L_G(v)−w. I checked the cited perfect-tree residual proof directly. Deleting all rim edges of a closed perfect tree F and all its spokes costs 2r−1 in cover and permits an r-packing, forcing a tight classified residual K. Every residual clique contains at most one F vertex. A page on a nonmatching rim edge would augment; pages on matching bases can be selected simultaneously with at most one footprint edge per block. This proves the matching identity for every subset of externally supported matching bases. The partition of an arbitrary packing after deleting one such base is exhaustive and proves that base packing-critical. If there is no external page, uniqueness of the tree's perfect matching gives the same contradiction. No cover tuple omitting the boundary vertex is localized.
+
+## Boundary accounting and nonperfect branch
+
+For a tree component F of L−w, minimum link degree two excludes a singleton and forces all F leaves adjacent to w. An F vertex has no link neighbor outside F∪{w}. Deleting its spokes, vw, and a selected matching P is covered by P and the spokes to Q provided w∈Q. This last condition covers all removed triangles using vw and a link vertex outside the chosen region. Every other removed triangle either uses a matching rim edge or has its other link vertex within the region. The balanced inequalities therefore force Q of full size and a classified tight residual exactly as claimed.
+
+The local induced region has no K4, so a residual clique contains at most three region vertices and a matching contributes at most one surviving edge. In the internal augmentation the rim triangle contributes at most one edge because its deleted matching base prevents both other edges in a residual clique; disjointness from the matching footprint would require four region vertices. In the external augmentation the endpoints are F vertices in no local triangle. A page apex in the rest of N(v) would connect F to a different component of L−w, while an apex in the region would form a forbidden local triangle. Thus the apex is outside the entire N(v). A residual block containing a page endpoint cannot contain three region vertices; its possible matching and page edges consequently form a star. These are full simultaneous footprints, not separate per-triangle avoidance choices.
+
+I compared the imported nonperfect forest selection with its frozen v2 proof. Its only use of the old closed-link robustness in the purely matching argument is exclusion of F=P3. With that case set aside, all forest matching alternatives retain w in Q. The larger-matching alternative, allowed triangular edge alternative, and safe-edge alternative therefore transfer to this boundary setting. No hidden perfect-branch tuple is needed.
+
+## Small tree P3
+
+For F=a-b-c, P={ab,wc} and Q={w,b} cover both the four-cycle and diamond regions and include the boundary w. In the four-cycle case, a second page on ab has its apex outside N(v); each block has at most two region vertices, giving the stated two-edge star footprint after the alternate matching.
+
+In the diamond case with no outside neighbor of w, the whole region is a forbidden closed four-vertex link component. Otherwise choose d outside the region adjacent to w. The three triangles vab,wbc,vwd are pairwise edge-disjoint. Their surviving footprints are empty, {wb,bc}, and {vd,wd}. Each within-pair combination in one clique is prevented by deleted wc or vw. Every disjoint cross-pair would require a deleted spoke or wc. The only nominal shared-endpoint cross-pair {wb,wd} is harmless as a star (indeed bd is absent by the F component condition). Thus the whole selected family is simultaneously avoidable in every classified block and augments the balanced reduction by one.
+
+All cases are covered. The conclusion excludes tree components after any link-vertex deletion, but does not bound link order, classify the remaining cyclic components, or solve the unrestricted availability problem. No computation, Gallai–Edmonds input, or newly assumed WKE-to-CS theorem enters this proof.

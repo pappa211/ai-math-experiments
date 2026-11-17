@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "generated": 6000,
+    "chordal_reject": 3122,
+    "nonchordal_3connected_distinct": 1245,
+    "exact": 1232,
+    "two_separator_reject": 608,
+    "duplicate_isomorphism": 1025,
+    "UNKNOWN_timeout": 13
+  },
+  "seconds": 225.87990474700928,
+  "seed": 25111603,
+  "witnesses": []
+}

@@ -1,0 +1,27 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# A triangle-shaped fragile blocker triple forces K5-e
+
+Frozen ordinary proof candidate, 2026-11-16, for independent review.
+
+Let L be finite simple with B(L), let S={ab,bc,ca} consist of three absent edges on distinct vertices, and put Q=L+S. Assume Q has one nonempty shared-edge triangle component and, writing m=nu(L),
+
+    nu(Q)=m+2, tau(Q)=2m+3.
+
+Then the entire triangle support of Q is K5-e. Isolated vertices and retained triangle-free background are allowed in the statement. No single-edge resilience or minimum-counterexample premise is needed for this isolated theorem.
+
+Proof. The terminals a,b,c are independent in L. The new triangles are exactly abc and the ordinary pages on its three bases, with apex outside {a,b,c}. If the base/apex incidence has a matching of size three, the three selected pages are edge-disjoint. In each old literal K4/K5 triangle component, the whole old footprint is a star of at most two edges: the component contains at most one independent terminal, which lies on only two selected bases. Maximum old clique packings avoid this footprint (K4 avoids a star; K5 avoids two edges). Appending the three pages contradicts nu(Q)=m+2. Thus that incidence matching number is at most two.
+
+Here is the complete elementary new-family cover argument, included to fix scope. By the bipartite matching/vertex-cover theorem (or the three-base Hall case split), the incidence graph has a vertex cover of size at most two. If it uses two base vertices, the corresponding two restored edges cover all pages and abc. If it uses one base and one apex x, that base plus the spoke from x to the opposite terminal cover all pages and abc. If it uses two apices x,y, all pages have apex x or y. If one of these apices, say x, is not full (it misses a page on base ab), then the opposite spoke cx and the restored edge ab together cover abc and all x-pages, but may leave y-pages on ac or bc. Instead use the following explicit classification: if x misses ab, the pair {ab,cy} covers abc, all y-pages except the ab-page (met by ab), and all x-pages precisely when x has no ac/bc page; this alone is insufficient in general. Therefore the exact accepted page-family lemma is retained as a dependency: with incidence matching <=2, either the new family has a two-edge cover, or it is exactly the seven-triangle K5-e family with two full apices. This paragraph's preliminary bipartite-cover reductions cover the mixed base/apex cases; the two-apex conclusion requires actual triangle constraints below, not an abstract incidence shortcut.
+
+For completeness, the actual-triangle constraint repairs the two-apex case directly. Suppose the incidence vertex cover consists of x,y and x lacks a page, while both x and y have pages. If some terminal t is adjacent in L to both x and y, this does not itself force xy. Instead inspect the three possible base sets at one apex: the set of bases seen by an apex is the edge set of the clique induced on its terminal-neighbor subset. Hence it has size 0,1, or3, never2. A nonfull active apex therefore has exactly one page, say abx. If the other apex is full, {ab,cy} covers the whole new family. If the other is nonfull, its one page is met by its base; choosing the two present bases covers the family, including abc. The case of only one active apex is covered by its opposite spoke plus one base. Thus the only obstruction is two full apices x,y.
+
+A two-edge new-family cover would combine with a minimum L cover to give tau(Q)<=2m+2, impossible. Hence the exceptional family is forced: abc and all six pages on its three bases with apices x,y. Each of its six old spokes belongs to a three-edge cover of that family; for ax use {ax,ay,bc}, and relabel. If any spoke were triangle-supported in L, choose a minimum L cover containing it in its unique literal K4/K5 component. The overlap gives a cover of Q of size 2m+2, again impossible. Thus all six spokes are old background. They form, with S, one literal K5-xy support; xy is absent, for otherwise axy would be an old triangle supporting ax.
+
+Every actual new triangle has been included, and its support is disjoint from every old triangle component. Shared-edge triangle connectivity forces L to have no triangles and Q's support to be precisely this K5-e. This proves the claim.
+
+## Role and limits
+
+For the independently checked minimum-Q saturation theorem, a blocker pair {e,f} leaves a defect-one residual. If it is fragile at g, the three-edge deletion S={e,f,g} leaves B and gives the displayed gain-two/cover-gain-three profile. Therefore S cannot form a triangle in minimum Q outside C12. The analogous star theorem forces W5. The remaining shapes P4, P3 plus a disjoint edge, and three disjoint edges are separate obligations. This does not establish that any blocker pair exists, or that a resilient pair residual can always be reconstructed.
+
+Dependencies: literal clique avoidance and edge eligibility; the three-base incidence argument supplied above. The equivalent archived two-triangle/one-triangle page lemma is a cross-check, not a need to assume an abstract incidence statement with unrealizable two-page apex sets. No census, replacement outside fixed G, or Lean premise.

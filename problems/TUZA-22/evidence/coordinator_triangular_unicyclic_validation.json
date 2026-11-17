@@ -1,0 +1,61 @@
+{
+  "status": "INDEPENDENTLY_VALIDATED",
+  "finite_only": true,
+  "records": 374,
+  "F_shapes": 12,
+  "counts": {
+    "ORDINARY_BRANCH_AT_MOST_3": 66,
+    "S_COLLAPSE": 145,
+    "B_INCOMPATIBLE": 15,
+    "STRICT": 121,
+    "EXTERNAL_CLIQUE_STAR": 23,
+    "RIM": 4
+  },
+  "producer_to_AHU_shape": {
+    "1": 6,
+    "2": 0,
+    "3": 11,
+    "4": 7,
+    "5": 8,
+    "6": 3,
+    "7": 9,
+    "8": 10,
+    "9": 1,
+    "10": 4,
+    "11": 2,
+    "12": 5
+  },
+  "negative_controls": [
+    {
+      "name": "duplicate_matching_edge",
+      "rejected": true
+    },
+    {
+      "name": "empty_false_cover",
+      "rejected": true
+    },
+    {
+      "name": "false_rim_triangle",
+      "rejected": true
+    },
+    {
+      "name": "omitted_domain_record",
+      "rejected": true
+    },
+    {
+      "name": "false_external_base",
+      "rejected": true
+    }
+  ],
+  "unknown": 0,
+  "elapsed_seconds": 0.029059916007099673,
+  "inputs_sha256": {
+    "scripts/triangular_unicyclic_cs_interface_v2.py": "5571aac51d187e1abf7c8ae70114e30184ac27d7935ab94dcf1f1f2c11fe995b",
+    "evidence/triangular_unicyclic_cs_interface_v2.json": "12e188e2be5cdedfca7059fadfd95854620acc6abf3040e1cd3693ab4d82b758",
+    "scripts/coordinator_triangular_unicyclic_domain.py": "dd57fde093b36521acb42552c71cb4059e90a1c3bcf6afb52304ebefe426521e",
+    "evidence/coordinator_triangular_unicyclic_domain.json": "04be0966e52c297550a5e75dff667b85a00113a5fc3077ed891751b9eab7315f",
+    "notes/three_branch_cs_link_exclusion_v1.md": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4",
+    "notes/external_page_clique_footprint_certificate_v3.md": "556b9e18f700c80736f05f5cf62e9c5c044a3269df29b9af17cb1a19bbd80088"
+  },
+  "limitations": "Ordinary completeness reduction and arbitrary-outside-attachment proof are separate reviewed premises. No Lean formalization, no optimum values trusted, no historical census premise."
+}

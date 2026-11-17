@@ -1,0 +1,19 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# A support-preserving book interface (prior-art reconstruction)
+
+Status: ordinary argument adapting the book-cover mechanism inspected in Wang, arXiv:2609.13831v1 Lemma 2.2, which attributes its framework to Haxell. No novelty claim, no PK-all proof, no global advance claimed.
+
+Let P be a specified maximum triangle packing in a finite simple graph, all of whose owners have type1. Let B be its support, k=|P|. Choose any edge-disjoint family Q of private pages. Write a=|Q|. Because every private page meets B only on its base, Q has at most one page per owner (each owner has one base). For every selected page uvy belonging to packed owner uvx, pair them as a two-page book. Each unpaired owner is a one-page book. These books have pairwise edge-disjoint supports: P is a packing, Q is a packing, and a private page avoids every other packed owner. Every selection of one page per book is therefore a k-packing, hence maximum and maximal.
+
+Let C0 consist of all three edges of each unpaired owner and the base of each paired owner. Its size is 3k−2a. If an actual triangle T avoids C0, then some book has both pages meeting T. Otherwise choose one page avoiding T from every book and append T, contradicting maximality. A one-page book cannot be responsible because all its edges lie in C0. For a book {uvx,uvy}, T avoids uv and meets both pages, so its two meeting edges are ux,uy or vx,vy; two triangle edges must have a common vertex. Thus T is uxy or vxy and contains the opposite edge xy.
+
+Every present opposite edge xy lies in B. Indeed, if xy were outside B, then uxy would meet B exactly in ux (uy and xy are outside B), and vxy exactly in vx. They would be private pages on both spokes of owner uvx, contradicting its type1. Let X be the set of distinct present opposite edges, and let r_new=|X minus C0|. The cover C=C0 union X is contained in original B and satisfies
+
+    |C| = 3k−2a+r_new,   0<=r_new<=|X|<=a.
+
+This accounts for every actual triangle, including crossing triangles. Multiple books can use the same opposite edge; X is a set, so it is paid once. If a=k, the bound is at most2k. This sufficient condition is not universally available: for the usual K5 packing {vab,vcd}, no pair of private pages from the two owners is edge-disjoint, so a<=1 while k=2. Nevertheless, the opposite edge then lies in the unpaired owner and is already selected, so r_new=0; the construction itself gives the familiar cost4 and 3/1 split. The rough bound counting every present opposite edge would lose this saving. Thus this prior-art interface already captures that basic unequal allocation. What remains unproved is an availability condition such as 2a−r_new>=k, or further deletions when that condition fails.
+
+The all-type-one hypothesis is used only to keep opposite edges in B. In a mixed packing, a type3 opposite edge can belong to its original private completion and is permitted in A(P); a type0 owner has no private page to pair. Extending the bookkeeping to all states is possible at this weak budget, but no availability inequality making it at most2k has been established here. The support observation must not be promoted to a completed mixed-state bridge.
+
+Correction recorded during this source pass: an initial rough count mentioned cost5 for the K5 book construction. That was only the nonsharp union upper bound, not the actual union cost. The corrected argument above uses X minus C0 and gives4. This correction was sent to coordinator and mathematical collaborator before finalizing the note.

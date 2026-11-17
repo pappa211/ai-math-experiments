@@ -1,0 +1,234 @@
+{
+  "recorded_utc": "2026-11-16T05:23:43.525275+00:00",
+  "scope": "Explicit selected late-phase source_audit artifacts and review receipts only; not a full archive integrity claim. Mathematical work stopped at the original 2026-11-16T05:10:41.328Z cutoff; this is documentation/hash work.",
+  "files": [
+    {
+      "path": "notes/hd_minimum_cover_colored_interface_v1.md",
+      "sha256": "db89bcc0566214301c1921e1730fee416829fa45a11a9c023501f88abc810917",
+      "bytes": 6376,
+      "mtime_utc": "2026-11-16T02:04:13.353070+00:00"
+    },
+    {
+      "path": "notes/hd_wang_full_survivor_exclusion_v1.md",
+      "sha256": "a18dd329e75dd4eaafd17d6584a59792641b3df0adbf3794e58d5eea565e97df",
+      "bytes": 6281,
+      "mtime_utc": "2026-11-16T03:32:49.102993+00:00"
+    },
+    {
+      "path": "notes/hd_wang_one_missing_survivor_exclusion_v1.md",
+      "sha256": "cfc29f82836f59fddd6e2463f07dd7f1859c002b88690f0325975f0c7d2343d5",
+      "bytes": 6018,
+      "mtime_utc": "2026-11-16T03:37:06.422466+00:00"
+    },
+    {
+      "path": "notes/hd_distinct_good_books_residual_reduction_v1.md",
+      "sha256": "4fab2fa44cad378456c71c18973aa4d2953d3416b237dd52ed2956b18638acfe",
+      "bytes": 4749,
+      "mtime_utc": "2026-11-16T03:47:56.509870+00:00"
+    },
+    {
+      "path": "notes/hd_wang_book_defect_count_v1.md",
+      "sha256": "34abb4bc1672ab8d27e7075e7f7d583cf8272c78564262ed059b5e2d70c74afe",
+      "bytes": 4424,
+      "mtime_utc": "2026-11-16T03:57:47.579801+00:00"
+    },
+    {
+      "path": "notes/two_edge_glued_k4_triangle_restoration_v1.md",
+      "sha256": "20324b2731aa35b53f95699be4f62eb77da49ca8c32afca4d0662d9f436f7fd4",
+      "bytes": 7475,
+      "mtime_utc": "2026-11-16T04:03:51.324574+00:00"
+    },
+    {
+      "path": "notes/hd_two_missing_survivors_exclusion_v1.md",
+      "sha256": "d5ac6a4d2c207cf7cd9e700a881fa2898dd75b5b1fd5a47a25f339bfe1265632",
+      "bytes": 6809,
+      "mtime_utc": "2026-11-16T04:08:40.635664+00:00"
+    },
+    {
+      "path": "notes/red_book_tree_rerooting_v1.md",
+      "sha256": "5b33930813c67689a5dc98662a7f267c8490e00621ae51b3f8e3d71a9f38020e",
+      "bytes": 8476,
+      "mtime_utc": "2026-11-16T04:32:52.316139+00:00"
+    },
+    {
+      "path": "notes/red_book_residual_family_and_blocker_kernel_v1.md",
+      "sha256": "c5c231b93aee6ec9a620a0a2b341a2087ec399fea77d206486ce9914b007d813",
+      "bytes": 6894,
+      "mtime_utc": "2026-11-16T04:37:40.649459+00:00"
+    },
+    {
+      "path": "notes/red_book_diagonal_singleton_bound_v1.md",
+      "sha256": "28b1f4e06f001790a4558b53216abeeae44452a5cd7d92468ead05afc29f5400",
+      "bytes": 4170,
+      "mtime_utc": "2026-11-16T04:46:46.732500+00:00"
+    },
+    {
+      "path": "notes/all_minimum_exact_triangle_free_cone_blocker_v1.md",
+      "sha256": "8b477bd031e69a45c023dab547f2943b2ccf7a22b9d737e014e3dcb9d4acf900",
+      "bytes": 2854,
+      "mtime_utc": "2026-11-16T04:52:21.498229+00:00"
+    },
+    {
+      "path": "notes/all_minimum_exact_cone_unique_family_v1.md",
+      "sha256": "d8e7a0f01f70918856909901f88c966e1df453a4f0ac904642a95bd70644bf31",
+      "bytes": 4669,
+      "mtime_utc": "2026-11-16T05:00:14.894923+00:00"
+    },
+    {
+      "path": "notes/cone_exact_cover_local_matching_interfaces_v1.md",
+      "sha256": "bc3add7851919b3b5d23cf2addd66ba3bd632883eb38dd8a39799b8f90e6faff",
+      "bytes": 4052,
+      "mtime_utc": "2026-11-16T05:05:19.130189+00:00"
+    },
+    {
+      "path": "notes/cone_residual_cover_common_apices_v1.md",
+      "sha256": "da2b31b25d07c653ccd4860606c1dadbf4e091cf7d474befd7a3922113ab8fce",
+      "bytes": 1666,
+      "mtime_utc": "2026-11-16T05:07:15.632985+00:00"
+    },
+    {
+      "path": "notes/hd_survivor_lower_bridge_atlas_boundary.md",
+      "sha256": "70ffe3ce3d4abeefa11da322e401477365eddc68c64a65dac1e2ffa087f530e5",
+      "bytes": 2699,
+      "mtime_utc": "2026-11-16T04:16:56.255167+00:00"
+    },
+    {
+      "path": "operations/hd_survivor_lower_bridge_atlas_admission.md",
+      "sha256": "b01f3d14b3fb7c8d93507884a9a20f61a7c66020bd507c13639d05b29f0b8517",
+      "bytes": 2028,
+      "mtime_utc": "2026-11-16T04:15:33.554467+00:00"
+    },
+    {
+      "path": "operations/hd_survivor_lower_bridge_atlas.json",
+      "sha256": "153fbca9a435da8b68b53074a1ca55d07c340fe26682dfeac2a81adf2fc33df3",
+      "bytes": 413,
+      "mtime_utc": "2026-11-16T04:15:54.637004+00:00"
+    },
+    {
+      "path": "scripts/hd_survivor_lower_bridge_atlas.py",
+      "sha256": "5abeac6434cc8e1505ab550dfe162964ed1c4cfb0a7b38fe41eb272bceb56d16",
+      "bytes": 5619,
+      "mtime_utc": "2026-11-16T04:15:33.556727+00:00"
+    },
+    {
+      "path": "evidence/hd_survivor_lower_bridge_atlas.json",
+      "sha256": "46de31b6cad969f942e74008cf66f0c830f8720e40da3b6267fcb5516352b615",
+      "bytes": 93884,
+      "mtime_utc": "2026-11-16T04:15:54.573035+00:00"
+    },
+    {
+      "path": "review/two_apex_forest_large_matching_independent_review.md",
+      "sha256": "6b6074b419dcf98a8b9ce0eca771c62132d1b760cc5484f99f3f2a9c99eca941",
+      "bytes": 4770,
+      "mtime_utc": "2026-11-16T03:39:31.556886+00:00"
+    },
+    {
+      "path": "review/two_apex_forest_matching_three_independent_review.md",
+      "sha256": "3c456a95cf23a80fc07811e5229cf2b5c989c7f691272b2729430e32356292ee",
+      "bytes": 2770,
+      "mtime_utc": "2026-11-16T03:48:51.547158+00:00"
+    },
+    {
+      "path": "review/two_apex_forest_matching_two_assembly_review.md",
+      "sha256": "ac6c197559000983491a4806a803b4872b80942bb59e61e9330684b2c8af3cad",
+      "bytes": 3384,
+      "mtime_utc": "2026-11-16T03:56:31.662883+00:00"
+    },
+    {
+      "path": "review/wke_degree_two_residual_independent_review.md",
+      "sha256": "416383342c805dd8cebbafe367e6a1b93e365af7742aa547216f64144b85b6fd",
+      "bytes": 2084,
+      "mtime_utc": "2026-11-16T03:51:49.119416+00:00"
+    },
+    {
+      "path": "review/cycle_cover_two_link_isolate_bridge_independent_review.md",
+      "sha256": "988b02de391e268a6d74c40d8fb100a9d111e7560f85757761ba20e7adfb00e7",
+      "bytes": 2795,
+      "mtime_utc": "2026-11-16T04:25:51.150631+00:00"
+    },
+    {
+      "path": "review/one_cycle_cover_cs_independent_assembly_review.md",
+      "sha256": "2c39311fafa5a60bbc4d9c179dc55d3e9d16a52f97c99da484a9cf663774eab4",
+      "bytes": 6571,
+      "mtime_utc": "2026-11-16T04:39:56.619655+00:00"
+    },
+    {
+      "path": "review/two_cycle_cover_tuza_independent_review.md",
+      "sha256": "31bfef715f71d87a9157edf1e15b9be81f47dbcdaa0f03d4b60af1581bb34e56",
+      "bytes": 1983,
+      "mtime_utc": "2026-11-16T04:52:21.500340+00:00"
+    },
+    {
+      "path": "review/cone_matching_robustness_boundary_independent_review.md",
+      "sha256": "ab1ee9d9307f97911a09f143b53d270776a87ae89f6dedc63cd4654112b6a179",
+      "bytes": 2000,
+      "mtime_utc": "2026-11-16T05:01:52.162637+00:00"
+    },
+    {
+      "path": "review/source_audit_four_branch_ordinary_completion_review.md",
+      "sha256": "da888e3eef0cb2de1cb7644031349221d6fb48fa17442f39132357f632d2842a",
+      "bytes": 2974,
+      "mtime_utc": "2026-11-16T05:09:43.716114+00:00"
+    },
+    {
+      "path": "review/restoration_double_K4_triangle_restoration_review.md",
+      "sha256": "3df0c021715fe8301a614f2d839dbeab25234d62f4ad143c8af6c6b5ab94b33d",
+      "bytes": 2509,
+      "mtime_utc": "2026-11-16T04:28:04.279798+00:00"
+    },
+    {
+      "path": "review/restoration_red_book_tree_rerooting_review.md",
+      "sha256": "d6c12948db2eefb08a6ed1c28c3d45abefd591afe0ba9a29d1e04c15c974002a",
+      "bytes": 3424,
+      "mtime_utc": "2026-11-16T04:35:37.314722+00:00"
+    },
+    {
+      "path": "review/restoration_red_book_blocker_kernel_review.md",
+      "sha256": "e5b314fcb95096d1a47a8977e371aaf4c22bf8bb678ce0195b376da7534ec501",
+      "bytes": 2668,
+      "mtime_utc": "2026-11-16T04:39:16.599963+00:00"
+    },
+    {
+      "path": "review/restoration_diagonal_singleton_bound_review.md",
+      "sha256": "c77db8b7202abe93178d82ffabfa37f3f498893c7e5b251938e24ad275ea94f1",
+      "bytes": 1881,
+      "mtime_utc": "2026-11-16T04:51:58.675135+00:00"
+    },
+    {
+      "path": "review/restoration_all_minimum_exact_cone_unique_family_review.md",
+      "sha256": "1654b0d989200378be27670e0e17afd2b5b1df657c164d8aa4213cc0e266d5fa",
+      "bytes": 2139,
+      "mtime_utc": "2026-11-16T05:02:08.550219+00:00"
+    },
+    {
+      "path": "review/challenger_cone_common_apices_review.md",
+      "sha256": "c697a3cb1d8bdd20d2885615470977befe2581b10dbc1d09cbbd43b85edb94a3",
+      "bytes": 1064,
+      "mtime_utc": "2026-11-16T05:08:14.184989+00:00"
+    },
+    {
+      "path": "review/coordinator_final_active_interfaces_review.md",
+      "sha256": "6f7e3636c10e546d3064654401223d2cffbac6a3531baea1788fa16f43838b1e",
+      "bytes": 3400,
+      "mtime_utc": "2026-11-16T05:06:54.703371+00:00"
+    },
+    {
+      "path": "notes/source_audit_late_phase_closeout.md",
+      "sha256": "5095f8125e19c2b3cc4266f2ed4dbdadcd6f1ac32349cd13283f4bd17d2d78d5",
+      "bytes": 9579,
+      "mtime_utc": "2026-11-16T05:23:43.525098+00:00"
+    },
+    {
+      "path": "review/coordinator_late_structural_results_review.md",
+      "sha256": "d47ed048b3847f7bac8d6138c993945fafc5d056251a880d91013c4b6d5dd9d2",
+      "bytes": 4527,
+      "mtime_utc": "2026-11-16T04:55:33.326396+00:00"
+    },
+    {
+      "path": "review/source_audit_final_document_consistency_review.md",
+      "sha256": "0bddc507cf8697dbcccc10433f613563652195a9f4335922eb323c7e7cf19a56",
+      "bytes": 3645,
+      "mtime_utc": "2026-11-16T05:23:43.524867+00:00"
+    }
+  ]
+}

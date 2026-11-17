@@ -1,0 +1,15 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent strengthened common-center cover payment review
+
+Status: ACCEPTED ORDINARY at the stated supplied cube and explicit conflict-star hypotheses. This extends the v1 cover discriminator to a chosen old cover in the one-exceptional case. No general conflict-star availability or global reduction is claimed.
+
+At most one individual family is exceptional by the separately reviewed shared-family four-packing theorem. If one is exceptional, its exact single-restoration cover increment two rules out all old spokes being background: otherwise its entire triangle family would be edge-disjoint from the old triangles and contribute cover three. A minimum old cover through a supported spoke exists. The explicit three-edge exceptional-family cover through that spoke then needs only two additional edges. The other two families have absolute two-edge covers and impose no further constraint on the chosen old cover. Thus all individual-family triangles are covered by F plus at most six edges even in this branch.
+
+The uncovered mixed rim graph is an old subgraph avoiding F and hence triangle-free. If it has matching number at most one, an additional hub spoke completes the cover for a strict saving. The forced two-rim obstruction therefore applies to every construction of the specified kind, with F realizing the exceptional overlap. It is not asserted for an arbitrary old minimum F in the exceptional case, and it does not supply a five-packing by itself.
+
+For the explicit old K4 on b,d,f,p with ordinary pages bcp,dep,fgp and background partner spokes cp,ep,gp, every core leaf is adjacent to p in B. Any old cross rim incident to c,e,g would form an old triangle through its corresponding background spoke to p, contradiction. Thus the COMPLETE mixed rim graph is exactly the triangle bdf. Every old cover F, including the one chosen for the exceptional overlap, hits that old triangle. The remaining uncovered rims are a subset of at most two of its edges and hence form a star. One additional restored hub spoke covers them. Together with the complete individual-family covers this gives tau(X)<=2m+7, accounting for all old and outside-page triangles as well as every mixed triangle.
+
+The proof does not require new hub-page apices or a packing-availability assertion. It does require the stated common external apex and background partner spokes. General old-cover conflicts with supported partners, several components or internal apices have not been reduced to this condition. Ordered selection has not forced this supplied cube or this conflict star. Those availability gaps remain open.
+
+Bound source: notes/apex_actual_parent_common_center_discriminator_v2.md, SHA-256 0e005051bc691787fb5b1cf41a1556df12919f96f823ef3cb7abafbb571e4d14. The v1 source and its independent receipt remain unchanged.

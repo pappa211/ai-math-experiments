@@ -1,0 +1,11 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent localized-cover two-selection refinement
+
+Status: ACCEPTED ORDINARY. Binds notes/actual_parent_selected_triangle_dichotomy_v2.md, SHA-256 9e48437d017437442e85b0eb73a4ace3bc4d95283b2a1ae69fd362ccd7811d13. Earlier v1 and its receipt remain valid at their stronger hypothesis.
+
+The complete maximal-support exchange proof uses full minimum-cover eligibility ONLY for the selected maximizing triangle. Its bare page is an actual competing triangle in the same fixed graph; no cover property is used for that competitor. Background deletion preserves every old supported edge, a new triangle through a restored edge strictly improves the extremal count, and absence of any such triangle permits the same one-edge cover saving using the selected triangle's full cover. The localized hypothesis is therefore sufficient.
+
+Both maximizations may consequently be made unconditionally: first over actual G triangles, then over actual triangles of the fixed H=G-T. The first selected triangle is eligible from the actual single-residual profile. The second chosen U has a double residual R of defect one or two, using the separate archived zero exclusion. If its defect is two, tau(R)+3=tau(H), so a minimum R cover plus U is a minimum H cover containing THIS selected U. That is exactly the localized lemma's hypothesis. No condition on other partners through T, or on pairs elsewhere in G, is needed. If the selected defect is one, the accepted resilience and every-triangle-extension theorems apply instead, and no second bare-page statement is inferred.
+
+The conditional activation consequence uses only the second bare-page conclusion and the literal equality R=B+V, so it remains valid. Neither outcome forces such V, tightness, a failed triple, connectedness/naming of R or a contradiction. This is a stronger universally available selection rule inside the conditional parent, with both outcome branches still open. No numerical or Lean verification is claimed.

@@ -1,0 +1,277 @@
+{
+  "status": "SOURCE_ONLY_NOT_COMPILED",
+  "reviewer": "tuza24_review",
+  "utc": "2026-11-16T09:58:52.815247+00:00",
+  "root_entrypoints": [
+    "Tuza06.SmallLinks",
+    "Tuza06.MatchingReduction",
+    "Tuza06.Reducible",
+    "Tuza06.UniqueEdge"
+  ],
+  "local_module_count": 30,
+  "modules": {
+    "Tuza.Basic": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza/Basic.lean",
+      "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "imports": [
+        "Mathlib.Combinatorics.SimpleGraph.Clique",
+        "Mathlib.Data.Finset.Powerset",
+        "Mathlib.Order.Lattice.Nat",
+        "Mathlib.Tactic.FinCases",
+        "Mathlib.Tactic.NormNum"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza.Graph": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza/Graph.lean",
+      "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "imports": [
+        "Tuza.Basic"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza.Intersecting": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza/Intersecting.lean",
+      "sha256": "4f953f2b5b620c6c67c4b7e83317e6efe72ef3ab5fdee3b1d40eda07416a2923",
+      "imports": [
+        "Tuza.Basic",
+        "Mathlib.Tactic.Push"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza.IntersectingStructure": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza/IntersectingStructure.lean",
+      "sha256": "15669245659268212e376d29cd37ac60d854139c5337907c5d5c5c94f3d11357",
+      "imports": [
+        "Tuza.Intersecting",
+        "Tuza.Graph"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.Additivity": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Additivity.lean",
+      "sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+      "imports": [
+        "Tuza06.Reduction",
+        "Mathlib.Algebra.Order.BigOperators.Group.Finset"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.BlockAggregation": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/BlockAggregation.lean",
+      "sha256": "dd583aadd0a5c842e03a3726b4f87da53161bbd7be151f6e96ab2730e6314b7f",
+      "imports": [
+        "Tuza06.Pages",
+        "Tuza06.Additivity",
+        "Mathlib.Algebra.BigOperators.Ring.Finset"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.Components": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Components.lean",
+      "sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+      "imports": [
+        "Tuza06.BlockAggregation"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.Critical": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Critical.lean",
+      "sha256": "fdb687027dd5dd299d6985b23383e98407a00dd24a60d55643e66a3462e3b200",
+      "imports": [
+        "Tuza06.Components",
+        "Tuza06.Reduction"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.FiniteCliques": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/FiniteCliques.lean",
+      "sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+      "imports": [
+        "Tuza06.Transport",
+        "Mathlib.Algebra.Order.BigOperators.Group.Finset"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.Footprints": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Footprints.lean",
+      "sha256": "28dd2c8c203b3ad5841c2411180ee94d24d92924f1583b6553355ec508eb440b",
+      "imports": [
+        "Tuza06.BlockAggregation"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.GraphOperations": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/GraphOperations.lean",
+      "sha256": "9f6316f84081c10b80852908da81bfe382a325e66198df52b00a4dd5a139b849",
+      "imports": [
+        "Tuza06.Reduction",
+        "Tuza06.Pages"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.GraphPeeling": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/GraphPeeling.lean",
+      "sha256": "89f3d7f2ef1b04289534337d4d7f534ee80205bc5ceb1eaaa87aa837e1d8dde6",
+      "imports": [
+        "Tuza06.SetPeeling",
+        "Tuza.Graph"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.MatchingReduction": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/MatchingReduction.lean",
+      "sha256": "03c4ee92e4f635badaf10a998a5f51651de8d375ed01afb5f23d614b56eb88e0",
+      "imports": [
+        "Tuza06.Reducible",
+        "Tuza06.GraphPeeling"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.MinimalObstruction": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/MinimalObstruction.lean",
+      "sha256": "79010d586ee8d35b187213109fe6aa0b7222bdae81e0f92543c0b6af37b8325e",
+      "imports": [
+        "Tuza06.Critical"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.PageAugmentation": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/PageAugmentation.lean",
+      "sha256": "2a7ab49af6c21e0f645c9bb191c7dbb8350c487630b4c5ba1e3a6f8c3f343a2b",
+      "imports": [
+        "Tuza06.Components",
+        "Tuza06.GraphOperations"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.Pages": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Pages.lean",
+      "sha256": "ca3a12cc8715f6e4f71b1cc257e828ed58961d5870cf88c439741e3917cbf045",
+      "imports": [
+        "Tuza06.Statement",
+        "Tuza06.FiniteCliques"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.Reducible": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Reducible.lean",
+      "sha256": "2db14a15df88e875493756480e2e92504ea1b8b3606bfd9f4066c8d06e95247d",
+      "imports": [
+        "Tuza06.MinimalObstruction"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.Reduction": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Reduction.lean",
+      "sha256": "21304cdf50b188f847de8669c8d2a74f88de16eec1d139123f5af381cbea7b10",
+      "imports": [
+        "Tuza06.Statement"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.SetPeeling": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SetPeeling.lean",
+      "sha256": "96fd16ee26f0028fc9af0bffa5822c815a4e59e312ba679aee096df5bd923415",
+      "imports": [
+        "Tuza06.Statement",
+        "Mathlib.Data.Finset.Card"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.SmallLinks": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinks.lean",
+      "sha256": "fde3e17afe2a1420c87da08cca1d9fd83806f70de40f1d216be3c60548beb834",
+      "imports": [
+        "Tuza06.SmallLinksK4",
+        "Tuza06.SmallLinksFour"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.SmallLinksBase": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksBase.lean",
+      "sha256": "3d52a43fa7fd91342506949ada70e31820b5e460a4c5050a2d7d0833e95337cb",
+      "imports": [
+        "Tuza06.UniqueEdge"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.SmallLinksCross": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksCross.lean",
+      "sha256": "cb543f1423d3f7675cdbe94d7ea17c738d824bc00fc454ce916b2afc4a230e0f",
+      "imports": [
+        "Tuza06.SmallLinksPatterns"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.SmallLinksFour": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksFour.lean",
+      "sha256": "f777892653ea172a3c292972ec587eb3ef6d145ffc64b491fae838e4ee5dc3ac",
+      "imports": [
+        "Tuza06.SmallLinksCross"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.SmallLinksK3": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksK3.lean",
+      "sha256": "326b0473254705d504f9532f771a56e945590e32bb69782f163e2977621e372c",
+      "imports": [
+        "Tuza06.SmallLinksOperations"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.SmallLinksK4": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksK4.lean",
+      "sha256": "95b6b95489c84ab8d1621bc03f4ea3c55dc57f25dff5a71f28edd7e012670e09",
+      "imports": [
+        "Tuza06.SmallLinksPatterns"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.SmallLinksOperations": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksOperations.lean",
+      "sha256": "8a60a698242303388155dfefd4cb4478c641a7aaecd25d53ec7a8ebdf3661dae",
+      "imports": [
+        "Tuza06.SmallLinksBase"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.SmallLinksPatterns": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/SmallLinksPatterns.lean",
+      "sha256": "aa89ad6aeb0cb6dd12d0d518e7e57753d183082e44b89e5776da205802f573fd",
+      "imports": [
+        "Tuza06.SmallLinksK3",
+        "Tuza06.Footprints"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.Statement": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Statement.lean",
+      "sha256": "e4267fd52afb33cf18f56cccdbd275188195574e67c82ed34665c13d3d2515a7",
+      "imports": [
+        "Tuza.Graph",
+        "Mathlib.Logic.Relation"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.Transport": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/Transport.lean",
+      "sha256": "e9d0394513cadc486ee4ce0028e2559d8aaff22c49ca2cbcce692bf7a6a80e32",
+      "imports": [
+        "Tuza.Graph",
+        "Mathlib.Data.Fintype.EquivFin"
+      ],
+      "forbidden_source_tokens": []
+    },
+    "Tuza06.UniqueEdge": {
+      "path": "repository-root/problems/TUZA-06/lean/Tuza06/UniqueEdge.lean",
+      "sha256": "fc9c77bc94e2af03aaadc2f83128232a7fe161cea7f28ff24d5f20465c11cb88",
+      "imports": [
+        "Tuza06.MinimalObstruction",
+        "Tuza06.PageAugmentation",
+        "Tuza.IntersectingStructure"
+      ],
+      "forbidden_source_tokens": []
+    }
+  }
+}

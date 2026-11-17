@@ -1,0 +1,2386 @@
+{
+  "candidate": "C21-D-all",
+  "corpus": "Fixed cell overlaps and literal red-triangle templates; no random seed or generic census",
+  "complete_corpus": true,
+  "seconds": 0.019045459004701115,
+  "cover_cap": 64,
+  "private_packing_cap": 128,
+  "rows": [
+    {
+      "name": "K4",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "n": 4,
+      "m": 6,
+      "triangles": 4,
+      "tau": 2,
+      "minimum_nu_private_examined": 1,
+      "minimum_covers_checked": 3,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "K5",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "n": 5,
+      "m": 10,
+      "triangles": 10,
+      "tau": 4,
+      "minimum_nu_private_examined": 2,
+      "minimum_covers_checked": 10,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "three_sun",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 9,
+      "triangles": 4,
+      "tau": 3,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 19,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "wheel_5rim",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 10,
+      "triangles": 5,
+      "tau": 3,
+      "minimum_nu_private_examined": 2,
+      "minimum_covers_checked": 10,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "cells_4_4_overlap_1",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "n": 7,
+      "m": 12,
+      "triangles": 8,
+      "tau": 4,
+      "minimum_nu_private_examined": 2,
+      "minimum_covers_checked": 9,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "cells_4_4_overlap_2",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "minimum_nu_private_examined": 2,
+      "minimum_covers_checked": 1,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "cells_4_4_overlap_3",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "n": 5,
+      "m": 9,
+      "triangles": 7,
+      "tau": 3,
+      "minimum_nu_private_examined": 2,
+      "minimum_covers_checked": 4,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "cells_5_4_overlap_1",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "n": 8,
+      "m": 16,
+      "triangles": 14,
+      "tau": 6,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 30,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "cells_5_4_overlap_2",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "n": 7,
+      "m": 15,
+      "triangles": 14,
+      "tau": 5,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 4,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "cells_5_4_overlap_3",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "n": 6,
+      "m": 13,
+      "triangles": 13,
+      "tau": 4,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 1,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "cells_5_5_overlap_1",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "n": 9,
+      "m": 20,
+      "triangles": 20,
+      "tau": 8,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 64,
+      "minimum_covers_partial": true,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "cells_5_5_overlap_2",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "n": 8,
+      "m": 19,
+      "triangles": 20,
+      "tau": 7,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 16,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "cells_5_5_overlap_3",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "n": 7,
+      "m": 17,
+      "triangles": 19,
+      "tau": 5,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 1,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "three_cells_((0, 1, 2, 3), (2, 3, 4, 5), (4, 5, 0, 1))",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 15,
+      "triangles": 20,
+      "tau": 6,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 10,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "three_cells_((0, 1, 2, 3), (0, 1, 4, 5), (2, 3, 4, 5))",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 15,
+      "triangles": 20,
+      "tau": 6,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 10,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "three_cells_((0, 1, 2, 3, 4), (0, 1, 5, 6), (2, 3, 6, 7))",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "n": 8,
+      "m": 20,
+      "triangles": 22,
+      "tau": 7,
+      "minimum_nu_private_examined": 6,
+      "minimum_covers_checked": 8,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "three_cells_((0, 1, 2, 3, 4), (0, 1, 5, 6), (0, 2, 7, 8))",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "n": 9,
+      "m": 20,
+      "triangles": 18,
+      "tau": 6,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 1,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_0_tip_clique_False",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 9,
+      "triangles": 4,
+      "tau": 3,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 19,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_0_tip_clique_True",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 12,
+      "triangles": 8,
+      "tau": 4,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 9,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_1_tip_clique_False",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 10,
+      "triangles": 6,
+      "tau": 3,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 7,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_1_tip_clique_True",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 2,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_2_tip_clique_False",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 10,
+      "triangles": 6,
+      "tau": 3,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 7,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_2_tip_clique_True",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 2,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_3_tip_clique_False",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 2,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_3_tip_clique_True",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 4,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_4_tip_clique_False",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 10,
+      "triangles": 6,
+      "tau": 3,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 7,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_4_tip_clique_True",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 13,
+      "triangles": 12,
+      "tau": 4,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 2,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_5_tip_clique_False",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 2,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_5_tip_clique_True",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 4,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_6_tip_clique_False",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 11,
+      "triangles": 8,
+      "tau": 3,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 2,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_6_tip_clique_True",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 14,
+      "triangles": 16,
+      "tau": 5,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 4,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_7_tip_clique_False",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 12,
+      "triangles": 10,
+      "tau": 3,
+      "minimum_nu_private_examined": 3,
+      "minimum_covers_checked": 1,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "red_triangle_opposite_7_tip_clique_True",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "n": 6,
+      "m": 15,
+      "triangles": 20,
+      "tau": 6,
+      "minimum_nu_private_examined": 4,
+      "minimum_covers_checked": 10,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    },
+    {
+      "name": "TUZA20_twelve",
+      "status": "PASS_EXAMINED",
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "n": 12,
+      "m": 29,
+      "triangles": 26,
+      "tau": 10,
+      "minimum_nu_private_examined": 6,
+      "minimum_covers_checked": 56,
+      "minimum_covers_partial": false,
+      "deficient_minimum_covers": 0,
+      "maximum_private_packings_checked_for_extension": 0,
+      "maximum_private_packings_partial": false
+    }
+  ]
+}

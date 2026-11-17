@@ -1,0 +1,3 @@
+problems/TUZA-24/Tuza24/PointedForest.lean:90:8: warning: Try `simp at hz` instead of `simpa using hz`
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`

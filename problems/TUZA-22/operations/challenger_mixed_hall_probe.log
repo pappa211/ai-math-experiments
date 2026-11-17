@@ -1,0 +1,1 @@
+{"tested_states": 35408, "Hall_passing_states": 3420, "domains": [{"F": "two_triangles_at_cutvertex", "n": 5, "color_count": 2, "complete": true}, {"F": "path4", "n": 4, "color_count": 2, "complete": true}, {"F": "path5", "n": 5, "color_count": 2, "complete": true}], "failure": null, "unknown": [], "elapsed_seconds": 0.04414533299859613, "utc": "2026-11-16T00:35:45.511557+00:00"}

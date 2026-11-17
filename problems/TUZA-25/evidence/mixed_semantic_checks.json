@@ -1,0 +1,3466 @@
+{
+  "status": "EXACT_COMPLETED",
+  "weighted": {
+    "K3": {
+      "admissible": 7,
+      "inadmissible": 1,
+      "tight": 0
+    },
+    "K4": {
+      "admissible": 41,
+      "inadmissible": 23,
+      "tight": 1
+    },
+    "K5": {
+      "admissible": 388,
+      "inadmissible": 636,
+      "tight": 1
+    },
+    "K4_background": {
+      "admissible": 82,
+      "inadmissible": 46,
+      "tight": 2
+    },
+    "C5_all_forbidden": {
+      "status": "EXACT_BRUTE",
+      "M": 1,
+      "tau_weighted": 0,
+      "nu_capacitated": 0
+    }
+  },
+  "recurrence": {
+    "branches": 2973,
+    "inadmissible_forbids": 1225
+  },
+  "restoration": [
+    {
+      "old_clique": 4,
+      "pages": "none",
+      "other_N_page_spoke": false,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "N": 1,
+      "deleted": 6,
+      "old": {
+        "status": "EXACT",
+        "nu": 1,
+        "tau": 2,
+        "packing": [
+          0
+        ],
+        "cover": 264,
+        "packing_states": 5,
+        "cover_states": 7
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 2,
+        "tau": 3,
+        "packing": [
+          0,
+          1
+        ],
+        "cover": 266,
+        "packing_states": 6,
+        "cover_states": 8
+      }
+    },
+    {
+      "old_clique": 4,
+      "pages": "one",
+      "other_N_page_spoke": false,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "N": 1,
+      "deleted": 10,
+      "old": {
+        "status": "EXACT",
+        "nu": 1,
+        "tau": 2,
+        "packing": [
+          0
+        ],
+        "cover": 528,
+        "packing_states": 5,
+        "cover_states": 7
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 2,
+        "tau": 3,
+        "packing": [
+          2,
+          0
+        ],
+        "cover": 530,
+        "packing_states": 8,
+        "cover_states": 9
+      }
+    },
+    {
+      "old_clique": 4,
+      "pages": "one",
+      "other_N_page_spoke": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "N": 5,
+      "deleted": 10,
+      "old": {
+        "status": "EXACT",
+        "nu": 1,
+        "tau": 2,
+        "packing": [
+          0
+        ],
+        "cover": 528,
+        "packing_states": 5,
+        "cover_states": 7
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 2,
+        "tau": 3,
+        "packing": [
+          2,
+          0
+        ],
+        "cover": 530,
+        "packing_states": 8,
+        "cover_states": 9
+      }
+    },
+    {
+      "old_clique": 4,
+      "pages": "both",
+      "other_N_page_spoke": false,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "N": 1,
+      "deleted": 10,
+      "old": {
+        "status": "EXACT",
+        "nu": 1,
+        "tau": 2,
+        "packing": [
+          0
+        ],
+        "cover": 1056,
+        "packing_states": 5,
+        "cover_states": 7
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 3,
+        "tau": 3,
+        "packing": [
+          1,
+          2,
+          6
+        ],
+        "cover": 578,
+        "packing_states": 12,
+        "cover_states": 10
+      }
+    },
+    {
+      "old_clique": 4,
+      "pages": "both",
+      "other_N_page_spoke": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "N": 5,
+      "deleted": 10,
+      "old": {
+        "status": "EXACT",
+        "nu": 1,
+        "tau": 2,
+        "packing": [
+          0
+        ],
+        "cover": 1056,
+        "packing_states": 5,
+        "cover_states": 7
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 3,
+        "tau": 3,
+        "packing": [
+          1,
+          2,
+          6
+        ],
+        "cover": 578,
+        "packing_states": 12,
+        "cover_states": 10
+      }
+    },
+    {
+      "old_clique": 5,
+      "pages": "none",
+      "other_N_page_spoke": false,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "N": 1,
+      "deleted": 6,
+      "old": {
+        "status": "EXACT",
+        "nu": 2,
+        "tau": 4,
+        "packing": [
+          0,
+          5
+        ],
+        "cover": 1608,
+        "packing_states": 21,
+        "cover_states": 35
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 3,
+        "tau": 5,
+        "packing": [
+          0,
+          1,
+          6
+        ],
+        "cover": 1610,
+        "packing_states": 22,
+        "cover_states": 36
+      }
+    },
+    {
+      "old_clique": 5,
+      "pages": "one",
+      "other_N_page_spoke": false,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "N": 1,
+      "deleted": 10,
+      "old": {
+        "status": "EXACT",
+        "nu": 2,
+        "tau": 4,
+        "packing": [
+          0,
+          5
+        ],
+        "cover": 3216,
+        "packing_states": 21,
+        "cover_states": 35
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 3,
+        "tau": 5,
+        "packing": [
+          2,
+          0,
+          7
+        ],
+        "cover": 3218,
+        "packing_states": 33,
+        "cover_states": 37
+      }
+    },
+    {
+      "old_clique": 5,
+      "pages": "one",
+      "other_N_page_spoke": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "N": 5,
+      "deleted": 10,
+      "old": {
+        "status": "EXACT",
+        "nu": 2,
+        "tau": 4,
+        "packing": [
+          0,
+          5
+        ],
+        "cover": 3216,
+        "packing_states": 21,
+        "cover_states": 35
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 3,
+        "tau": 5,
+        "packing": [
+          2,
+          0,
+          7
+        ],
+        "cover": 3218,
+        "packing_states": 33,
+        "cover_states": 37
+      }
+    },
+    {
+      "old_clique": 5,
+      "pages": "both",
+      "other_N_page_spoke": false,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "N": 1,
+      "deleted": 10,
+      "old": {
+        "status": "EXACT",
+        "nu": 2,
+        "tau": 4,
+        "packing": [
+          0,
+          5
+        ],
+        "cover": 6432,
+        "packing_states": 21,
+        "cover_states": 35
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 4,
+        "tau": 5,
+        "packing": [
+          8,
+          1,
+          2,
+          9
+        ],
+        "cover": 9538,
+        "packing_states": 40,
+        "cover_states": 38
+      }
+    },
+    {
+      "old_clique": 5,
+      "pages": "both",
+      "other_N_page_spoke": true,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "N": 5,
+      "deleted": 10,
+      "old": {
+        "status": "EXACT",
+        "nu": 2,
+        "tau": 4,
+        "packing": [
+          0,
+          5
+        ],
+        "cover": 6432,
+        "packing_states": 21,
+        "cover_states": 35
+      },
+      "new": {
+        "status": "EXACT",
+        "nu": 4,
+        "tau": 5,
+        "packing": [
+          8,
+          1,
+          2,
+          9
+        ],
+        "cover": 9538,
+        "packing_states": 40,
+        "cover_states": 38
+      }
+    }
+  ],
+  "peeling": [
+    {
+      "graph": "K3",
+      "N": 1,
+      "P": [
+        0
+      ],
+      "S": 6,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "K3",
+      "N": 2,
+      "P": [
+        0
+      ],
+      "S": 5,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "K3",
+      "N": 4,
+      "P": [
+        0
+      ],
+      "S": 3,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "K4",
+      "N": 1,
+      "P": [
+        0,
+        1
+      ],
+      "S": 30,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4",
+      "N": 2,
+      "P": [
+        0,
+        2
+      ],
+      "S": 45,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4",
+      "N": 4,
+      "P": [
+        1,
+        2
+      ],
+      "S": 51,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4",
+      "N": 8,
+      "P": [
+        0,
+        3
+      ],
+      "S": 51,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4",
+      "N": 16,
+      "P": [
+        1,
+        3
+      ],
+      "S": 45,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4",
+      "N": 32,
+      "P": [
+        2,
+        3
+      ],
+      "S": 30,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K5",
+      "N": 1,
+      "P": [
+        0,
+        1,
+        2
+      ],
+      "S": 126,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K5",
+      "N": 2,
+      "P": [
+        0,
+        3,
+        4
+      ],
+      "S": 413,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K5",
+      "N": 4,
+      "P": [
+        1,
+        3,
+        5
+      ],
+      "S": 683,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K5",
+      "N": 8,
+      "P": [
+        2,
+        4,
+        5
+      ],
+      "S": 839,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K5",
+      "N": 16,
+      "P": [
+        0,
+        6,
+        7
+      ],
+      "S": 483,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K5",
+      "N": 32,
+      "P": [
+        1,
+        6,
+        8
+      ],
+      "S": 725,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K5",
+      "N": 64,
+      "P": [
+        2,
+        7,
+        8
+      ],
+      "S": 825,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K5",
+      "N": 128,
+      "P": [
+        3,
+        6,
+        9
+      ],
+      "S": 822,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K5",
+      "N": 256,
+      "P": [
+        4,
+        7,
+        9
+      ],
+      "S": 730,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K5",
+      "N": 512,
+      "P": [
+        5,
+        8,
+        9
+      ],
+      "S": 492,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "K4_background",
+      "N": 1,
+      "P": [
+        0,
+        1
+      ],
+      "S": 30,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4_background",
+      "N": 2,
+      "P": [
+        0,
+        2
+      ],
+      "S": 45,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4_background",
+      "N": 4,
+      "P": [
+        1,
+        2
+      ],
+      "S": 51,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4_background",
+      "N": 8,
+      "P": [
+        0,
+        3
+      ],
+      "S": 51,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4_background",
+      "N": 16,
+      "P": [
+        1,
+        3
+      ],
+      "S": 45,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4_background",
+      "N": 32,
+      "P": [
+        2,
+        3
+      ],
+      "S": 30,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 2,
+      "full_tau": 2,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "K4_background",
+      "N": 64,
+      "P": [],
+      "S": 0,
+      "residual_nu": 1,
+      "residual_tau": 2,
+      "full_nu": 1,
+      "full_tau": 2,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 1,
+      "P": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "S": 8190,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 2,
+      "P": [
+        0,
+        6,
+        7
+      ],
+      "S": 24717,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 4,
+      "P": [
+        1,
+        6,
+        8
+      ],
+      "S": 41227,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 8,
+      "P": [
+        2,
+        7,
+        8
+      ],
+      "S": 49671,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 16,
+      "P": [
+        3,
+        9,
+        10
+      ],
+      "S": 197729,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 32,
+      "P": [
+        4,
+        9,
+        11
+      ],
+      "S": 329809,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 64,
+      "P": [
+        5,
+        10,
+        11
+      ],
+      "S": 397361,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 128,
+      "P": [
+        0,
+        12,
+        13
+      ],
+      "S": 25347,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 256,
+      "P": [
+        1,
+        12,
+        14
+      ],
+      "S": 41605,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 512,
+      "P": [
+        2,
+        13,
+        14
+      ],
+      "S": 49545,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 1024,
+      "P": [
+        3,
+        15,
+        16
+      ],
+      "S": 202769,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 2048,
+      "P": [
+        4,
+        15,
+        17
+      ],
+      "S": 332833,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 4096,
+      "P": [
+        5,
+        16,
+        17
+      ],
+      "S": 396353,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 8192,
+      "P": [
+        6,
+        12,
+        18
+      ],
+      "S": 49542,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 16384,
+      "P": [
+        7,
+        13,
+        18
+      ],
+      "S": 41610,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 32768,
+      "P": [
+        8,
+        14,
+        18
+      ],
+      "S": 25356,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 65536,
+      "P": [
+        9,
+        15,
+        19
+      ],
+      "S": 396336,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 131072,
+      "P": [
+        10,
+        16,
+        19
+      ],
+      "S": 332880,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_edge_K5",
+      "N": 262144,
+      "P": [
+        11,
+        17,
+        19
+      ],
+      "S": 202848,
+      "residual_nu": 3,
+      "residual_tau": 4,
+      "full_nu": 6,
+      "full_tau": 7,
+      "paid_bound": 12,
+      "two_nu": 12
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 1,
+      "P": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": 2046,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 7,
+      "full_tau": 7,
+      "paid_bound": 14,
+      "two_nu": 14
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 2,
+      "P": [
+        0,
+        5,
+        6,
+        7,
+        8
+      ],
+      "S": 30845,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 7,
+      "full_tau": 7,
+      "paid_bound": 14,
+      "two_nu": 14
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 4,
+      "P": [
+        1,
+        5,
+        9
+      ],
+      "S": 34955,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 8,
+      "P": [
+        2,
+        6,
+        9
+      ],
+      "S": 37127,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 16,
+      "P": [
+        3,
+        7,
+        10
+      ],
+      "S": 74275,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 32,
+      "P": [
+        4,
+        8,
+        10
+      ],
+      "S": 82963,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 64,
+      "P": [
+        0,
+        11,
+        12,
+        13,
+        14
+      ],
+      "S": 32643,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 7,
+      "full_tau": 7,
+      "paid_bound": 14,
+      "two_nu": 14
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 128,
+      "P": [
+        1,
+        11,
+        15
+      ],
+      "S": 35141,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 256,
+      "P": [
+        2,
+        12,
+        15
+      ],
+      "S": 37065,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 512,
+      "P": [
+        3,
+        13,
+        16
+      ],
+      "S": 74833,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 1024,
+      "P": [
+        4,
+        14,
+        16
+      ],
+      "S": 82529,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 2048,
+      "P": [
+        5,
+        11,
+        17
+      ],
+      "S": 37062,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 4096,
+      "P": [
+        6,
+        12,
+        17
+      ],
+      "S": 35146,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 8192,
+      "P": [
+        7,
+        13,
+        18
+      ],
+      "S": 82514,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 16384,
+      "P": [
+        8,
+        14,
+        18
+      ],
+      "S": 74850,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 32768,
+      "P": [
+        9,
+        15,
+        17
+      ],
+      "S": 6540,
+      "residual_nu": 2,
+      "residual_tau": 4,
+      "full_nu": 5,
+      "full_tau": 7,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K5_triangle_K5",
+      "N": 65536,
+      "P": [
+        10,
+        16,
+        18
+      ],
+      "S": 26160,
+      "residual_nu": 2,
+      "residual_tau": 4,
+      "full_nu": 5,
+      "full_tau": 7,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 1,
+      "P": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": 127038,
+      "residual_nu": 5,
+      "residual_tau": 7,
+      "full_nu": 10,
+      "full_tau": 13,
+      "paid_bound": 20,
+      "two_nu": 20
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 2,
+      "P": [
+        0,
+        5,
+        6,
+        7,
+        8
+      ],
+      "S": 1970629,
+      "residual_nu": 5,
+      "residual_tau": 7,
+      "full_nu": 10,
+      "full_tau": 13,
+      "paid_bound": 20,
+      "two_nu": 20
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 4,
+      "P": [
+        1,
+        5,
+        9,
+        10,
+        11
+      ],
+      "S": 14822915,
+      "residual_nu": 5,
+      "residual_tau": 7,
+      "full_nu": 10,
+      "full_tau": 13,
+      "paid_bound": 20,
+      "two_nu": 20
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 8,
+      "P": [
+        2,
+        12,
+        13
+      ],
+      "S": 50348081,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 16,
+      "P": [
+        3,
+        12,
+        14
+      ],
+      "S": 83918889,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 32,
+      "P": [
+        4,
+        13,
+        14
+      ],
+      "S": 100728857,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 64,
+      "P": [
+        6,
+        15,
+        16
+      ],
+      "S": 402915714,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 128,
+      "P": [
+        7,
+        15,
+        17
+      ],
+      "S": 671613250,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 256,
+      "P": [
+        8,
+        16,
+        17
+      ],
+      "S": 806355138,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 512,
+      "P": [
+        9,
+        18,
+        19
+      ],
+      "S": 3223325700,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 1024,
+      "P": [
+        10,
+        18,
+        20
+      ],
+      "S": 5372905988,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 2048,
+      "P": [
+        11,
+        19,
+        20
+      ],
+      "S": 6450841092,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 4096,
+      "P": [
+        0,
+        21
+      ],
+      "S": 139267,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 8,
+      "full_tau": 13,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 8192,
+      "P": [
+        1,
+        21
+      ],
+      "S": 135173,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 8,
+      "full_tau": 13,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 16384,
+      "P": [
+        2,
+        22,
+        23
+      ],
+      "S": 50429961,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 32768,
+      "P": [
+        3,
+        22,
+        24
+      ],
+      "S": 83968017,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 65536,
+      "P": [
+        4,
+        23,
+        24
+      ],
+      "S": 100712481,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 131072,
+      "P": [
+        5,
+        21
+      ],
+      "S": 12294,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 8,
+      "full_tau": 13,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 262144,
+      "P": [
+        6,
+        25,
+        26
+      ],
+      "S": 404226114,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 524288,
+      "P": [
+        7,
+        25,
+        27
+      ],
+      "S": 672399490,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 1048576,
+      "P": [
+        8,
+        26,
+        27
+      ],
+      "S": 806093058,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 2097152,
+      "P": [
+        9,
+        28,
+        29
+      ],
+      "S": 3233808900,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 4194304,
+      "P": [
+        10,
+        28,
+        30
+      ],
+      "S": 5379195908,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 8388608,
+      "P": [
+        11,
+        29,
+        30
+      ],
+      "S": 6448744452,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 16777216,
+      "P": [
+        12,
+        22,
+        31
+      ],
+      "S": 100712472,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 33554432,
+      "P": [
+        13,
+        23,
+        31
+      ],
+      "S": 83968040,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 67108864,
+      "P": [
+        14,
+        24,
+        31
+      ],
+      "S": 50430000,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 134217728,
+      "P": [
+        15,
+        25,
+        32
+      ],
+      "S": 806092992,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 268435456,
+      "P": [
+        16,
+        26,
+        32
+      ],
+      "S": 672399680,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 536870912,
+      "P": [
+        17,
+        27,
+        32
+      ],
+      "S": 404226432,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 1073741824,
+      "P": [
+        18,
+        28,
+        33
+      ],
+      "S": 6448743936,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 2147483648,
+      "P": [
+        19,
+        29,
+        33
+      ],
+      "S": 5379197440,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "K4_three_star_K5",
+      "N": 4294967296,
+      "P": [
+        20,
+        30,
+        33
+      ],
+      "S": 3233811456,
+      "residual_nu": 6,
+      "residual_tau": 10,
+      "full_nu": 9,
+      "full_tau": 13,
+      "paid_bound": 18,
+      "two_nu": 18
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 1,
+      "P": [
+        0,
+        1
+      ],
+      "S": 780,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 2,
+      "P": [
+        2,
+        3
+      ],
+      "S": 3084,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 4,
+      "P": [
+        0,
+        2
+      ],
+      "S": 1283,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 8,
+      "P": [
+        1,
+        3
+      ],
+      "S": 2563,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 16,
+      "P": [
+        4,
+        5
+      ],
+      "S": 960,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 32,
+      "P": [
+        6,
+        7
+      ],
+      "S": 3264,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 64,
+      "P": [
+        4,
+        6
+      ],
+      "S": 1328,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 128,
+      "P": [
+        5,
+        7
+      ],
+      "S": 2608,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 256,
+      "P": [
+        0,
+        4
+      ],
+      "S": 85,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 512,
+      "P": [
+        1,
+        5
+      ],
+      "S": 153,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 1024,
+      "P": [
+        2,
+        6
+      ],
+      "S": 102,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_6",
+      "N": 2048,
+      "P": [
+        3,
+        7
+      ],
+      "S": 170,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 8
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 1,
+      "P": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "S": 61500,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 2,
+      "P": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "S": 983100,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 4,
+      "P": [
+        0,
+        4,
+        8,
+        9
+      ],
+      "S": 3215411,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 8,
+      "P": [
+        1,
+        5,
+        10,
+        11
+      ],
+      "S": 12722227,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 16,
+      "P": [
+        2,
+        6,
+        8,
+        10
+      ],
+      "S": 5521423,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 32,
+      "P": [
+        3,
+        7,
+        9,
+        11
+      ],
+      "S": 11042831,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 64,
+      "P": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "S": 65280,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 128,
+      "P": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "S": 986880,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 256,
+      "P": [
+        12,
+        16,
+        20,
+        21
+      ],
+      "S": 3218624,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 512,
+      "P": [
+        13,
+        17,
+        22,
+        23
+      ],
+      "S": 12725440,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 1024,
+      "P": [
+        14,
+        18,
+        20,
+        22
+      ],
+      "S": 5522368,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 2048,
+      "P": [
+        15,
+        19,
+        21,
+        23
+      ],
+      "S": 11043776,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 4096,
+      "P": [
+        0,
+        12,
+        24,
+        25
+      ],
+      "S": 3195205,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 8192,
+      "P": [
+        1,
+        13,
+        26,
+        27
+      ],
+      "S": 12632649,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 16384,
+      "P": [
+        2,
+        14,
+        24,
+        26
+      ],
+      "S": 5256273,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 32768,
+      "P": [
+        3,
+        15,
+        25,
+        27
+      ],
+      "S": 10500193,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 65536,
+      "P": [
+        4,
+        16,
+        28,
+        29
+      ],
+      "S": 3932550,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 131072,
+      "P": [
+        5,
+        17,
+        30,
+        31
+      ],
+      "S": 13369994,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 262144,
+      "P": [
+        6,
+        18,
+        28,
+        30
+      ],
+      "S": 5440658,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 524288,
+      "P": [
+        7,
+        19,
+        29,
+        31
+      ],
+      "S": 10684578,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 1048576,
+      "P": [
+        8,
+        20,
+        24,
+        28
+      ],
+      "S": 349460,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 2097152,
+      "P": [
+        9,
+        21,
+        25,
+        29
+      ],
+      "S": 629028,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 4194304,
+      "P": [
+        10,
+        22,
+        26,
+        30
+      ],
+      "S": 419352,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cocktail_8",
+      "N": 8388608,
+      "P": [
+        11,
+        23,
+        27,
+        31
+      ],
+      "S": 698920,
+      "residual_nu": 4,
+      "residual_tau": 4,
+      "full_nu": 8,
+      "full_tau": 8,
+      "paid_bound": 16,
+      "two_nu": 16
+    },
+    {
+      "graph": "cone_C5",
+      "N": 1,
+      "P": [
+        0
+      ],
+      "S": 20,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 2,
+      "full_tau": 3,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "cone_C5",
+      "N": 2,
+      "P": [
+        1
+      ],
+      "S": 516,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 2,
+      "full_tau": 3,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "cone_C5",
+      "N": 4,
+      "P": [
+        0,
+        1
+      ],
+      "S": 531,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 3,
+      "full_tau": 3,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C5",
+      "N": 8,
+      "P": [
+        2
+      ],
+      "S": 80,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 2,
+      "full_tau": 3,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "cone_C5",
+      "N": 16,
+      "P": [
+        0,
+        2
+      ],
+      "S": 77,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 3,
+      "full_tau": 3,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C5",
+      "N": 32,
+      "P": [
+        3
+      ],
+      "S": 320,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 2,
+      "full_tau": 3,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "cone_C5",
+      "N": 64,
+      "P": [
+        2,
+        3
+      ],
+      "S": 312,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 3,
+      "full_tau": 3,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C5",
+      "N": 128,
+      "P": [
+        4
+      ],
+      "S": 768,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 2,
+      "full_tau": 3,
+      "paid_bound": 4,
+      "two_nu": 4
+    },
+    {
+      "graph": "cone_C5",
+      "N": 256,
+      "P": [
+        3,
+        4
+      ],
+      "S": 736,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 3,
+      "full_tau": 3,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C5",
+      "N": 512,
+      "P": [
+        1,
+        4
+      ],
+      "S": 390,
+      "residual_nu": 1,
+      "residual_tau": 1,
+      "full_nu": 3,
+      "full_tau": 3,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C7",
+      "N": 1,
+      "P": [
+        0
+      ],
+      "S": 20,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 3,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C7",
+      "N": 2,
+      "P": [
+        1
+      ],
+      "S": 8196,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 3,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C7",
+      "N": 4,
+      "P": [
+        0,
+        1
+      ],
+      "S": 8211,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "cone_C7",
+      "N": 8,
+      "P": [
+        2
+      ],
+      "S": 80,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 3,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C7",
+      "N": 16,
+      "P": [
+        0,
+        2
+      ],
+      "S": 77,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "cone_C7",
+      "N": 32,
+      "P": [
+        3
+      ],
+      "S": 320,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 3,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C7",
+      "N": 64,
+      "P": [
+        2,
+        3
+      ],
+      "S": 312,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "cone_C7",
+      "N": 128,
+      "P": [
+        4
+      ],
+      "S": 1280,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 3,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C7",
+      "N": 256,
+      "P": [
+        3,
+        4
+      ],
+      "S": 1248,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "cone_C7",
+      "N": 512,
+      "P": [
+        5
+      ],
+      "S": 5120,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 3,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C7",
+      "N": 1024,
+      "P": [
+        4,
+        5
+      ],
+      "S": 4992,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "cone_C7",
+      "N": 2048,
+      "P": [
+        6
+      ],
+      "S": 12288,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 3,
+      "full_tau": 4,
+      "paid_bound": 6,
+      "two_nu": 6
+    },
+    {
+      "graph": "cone_C7",
+      "N": 4096,
+      "P": [
+        5,
+        6
+      ],
+      "S": 11776,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "cone_C7",
+      "N": 8192,
+      "P": [
+        1,
+        6
+      ],
+      "S": 6150,
+      "residual_nu": 2,
+      "residual_tau": 2,
+      "full_nu": 4,
+      "full_tau": 4,
+      "paid_bound": 8,
+      "two_nu": 8
+    },
+    {
+      "graph": "book5",
+      "N": 1,
+      "P": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "S": 2046,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 5,
+      "full_tau": 5,
+      "paid_bound": 10,
+      "two_nu": 10
+    },
+    {
+      "graph": "book5",
+      "N": 2,
+      "P": [
+        0
+      ],
+      "S": 65,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "book5",
+      "N": 4,
+      "P": [
+        1
+      ],
+      "S": 129,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "book5",
+      "N": 8,
+      "P": [
+        2
+      ],
+      "S": 257,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "book5",
+      "N": 16,
+      "P": [
+        3
+      ],
+      "S": 513,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "book5",
+      "N": 32,
+      "P": [
+        4
+      ],
+      "S": 1025,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "book5",
+      "N": 64,
+      "P": [
+        0
+      ],
+      "S": 3,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "book5",
+      "N": 128,
+      "P": [
+        1
+      ],
+      "S": 5,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "book5",
+      "N": 256,
+      "P": [
+        2
+      ],
+      "S": 9,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "book5",
+      "N": 512,
+      "P": [
+        3
+      ],
+      "S": 17,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    },
+    {
+      "graph": "book5",
+      "N": 1024,
+      "P": [
+        4
+      ],
+      "S": 33,
+      "residual_nu": 0,
+      "residual_tau": 0,
+      "full_nu": 1,
+      "full_tau": 1,
+      "paid_bound": 2,
+      "two_nu": 2
+    }
+  ],
+  "elapsed_seconds": 1.6534628868103027
+}

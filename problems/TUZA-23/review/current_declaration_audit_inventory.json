@@ -1,0 +1,377 @@
+{
+  "scope": "current source inventory only, not actual axiom output; final R2 and controls must be appended at freeze",
+  "declarations": [
+    {
+      "declaration": "Tuza23.B",
+      "module": "Tuza23.GraphAPI",
+      "kind": "abbrev",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.CS",
+      "module": "Tuza23.GraphAPI",
+      "kind": "def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.cs_iff_good",
+      "module": "Tuza23.GraphAPI",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.graphEdges",
+      "module": "Tuza23.GraphAPI",
+      "kind": "noncomputable def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.GraphCover",
+      "module": "Tuza23.GraphAPI",
+      "kind": "def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.exists_graph_min_cover",
+      "module": "Tuza23.GraphAPI",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.tau_le_iff_graph_cover",
+      "module": "Tuza23.GraphAPI",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.Nonedges",
+      "module": "Tuza23.GraphAPI",
+      "kind": "def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.addEdges",
+      "module": "Tuza23.GraphAPI",
+      "kind": "def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.le_addEdges",
+      "module": "Tuza23.GraphAPI",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.addEdges_empty",
+      "module": "Tuza23.GraphAPI",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.new_triangle_has_added_edge",
+      "module": "Tuza23.GraphAPI",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.insertion_cover_bound",
+      "module": "Tuza23.GraphAPI",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.one_edge_insertion",
+      "module": "Tuza23.GraphAPI",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.triangle_of_adj",
+      "module": "Tuza23.WholeFootprint",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.triangle_subset_block_of_edge",
+      "module": "Tuza23.WholeFootprint",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.two_neighbors_in_block",
+      "module": "Tuza23.WholeFootprint",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.pageApices",
+      "module": "Tuza23.WholeFootprint",
+      "kind": "noncomputable def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.pageSpokes",
+      "module": "Tuza23.WholeFootprint",
+      "kind": "noncomputable def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.pageSpokes_symm",
+      "module": "Tuza23.WholeFootprint",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.whole_page_footprint",
+      "module": "Tuza23.WholeFootprint",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.clique_cover_choice_transport",
+      "module": "Tuza23.CliqueChoice",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.clique_min_cover_containing",
+      "module": "Tuza23.CliqueChoice",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.clique_max_packing_avoiding",
+      "module": "Tuza23.CliqueChoice",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.clique_min_cover_footprint",
+      "module": "Tuza23.BlockChoice",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.blocks_min_cover_footprint",
+      "module": "Tuza23.BlockChoice",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.blocks_max_packing_footprint",
+      "module": "Tuza23.BlockChoice",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.triple_eq_pair_insert",
+      "module": "Tuza23.PageAssembly",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.old_edge_of_single_insertion",
+      "module": "Tuza23.PageAssembly",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.edge_of_triangle",
+      "module": "Tuza23.PageAssembly",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.single_new_triangle_is_page",
+      "module": "Tuza23.PageAssembly",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.edges_triple",
+      "module": "Tuza23.PageAssembly",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.min_cover_all_nonbare_pages",
+      "module": "Tuza23.PageAssembly",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.independent_nonedge",
+      "module": "Tuza23.InsertionAccounting",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.insertion_packing_gain",
+      "module": "Tuza23.InsertionAccounting",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.tight_two_insertion_increment",
+      "module": "Tuza23.InsertionAccounting",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.B_of_no_new_triangle",
+      "module": "Tuza23.InsertionAccounting",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.r2_at_most_one",
+      "module": "Tuza23.InsertionAccounting",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.triangle_pair_insertion_cases",
+      "module": "Tuza23.BarePages",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.triangle_not_bare",
+      "module": "Tuza23.BarePages",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.tight_pair_bare_page",
+      "module": "Tuza23.BarePages",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.max_packing_avoids_single_page",
+      "module": "Tuza23.BarePages",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.page_intersects_bare",
+      "module": "Tuza23.BarePages",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.TriangleClosed",
+      "module": "Tuza23.M0",
+      "kind": "def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.supportGraph",
+      "module": "Tuza23.M0",
+      "kind": "def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.supportGraph_le",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.triangles_supportGraph",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.triangleClosed_component",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.triangleClosed_complement",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.closed_support_disjoint_complement",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.triangleConnected_mono",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.closed_connected_restrict",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.closed_component_preserved",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.good_of_closed_split",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.supportGraph_strict_of_triangle_outside",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.minimal_triangle_connected",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.MinimalCS",
+      "module": "Tuza23.M0",
+      "kind": "def",
+      "audit": "print_definition_and_type"
+    },
+    {
+      "declaration": "Tuza23.edgeCount_lt_of_lt",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.minimalCS_iff_minimalObstruction",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.exists_minimal_cs",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.exists_minimal_cs_in_class",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    },
+    {
+      "declaration": "Tuza23.minimal_cs_package",
+      "module": "Tuza23.M0",
+      "kind": "theorem",
+      "audit": "print_type_and_axioms"
+    }
+  ]
+}

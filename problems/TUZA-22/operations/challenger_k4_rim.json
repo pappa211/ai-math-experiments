@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T21:56:58.301422+00:00",
+  "end_utc": "2026-11-15T21:57:07.072365+00:00",
+  "seconds": 8.770947694778442,
+  "command": [
+    "python",
+    "scripts/challenger_k4_rim_probe.py"
+  ],
+  "pid": 67804,
+  "peak_sampled_tree_rss_mib": 56.796875,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 200.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

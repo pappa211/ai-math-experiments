@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_NO_WITNESS_IN_DOMAIN",
+  "domain": "fixed edge01 with common neighbors exactly2,3; all labelled graphs on nvertices, isolates/background allowed; cover-only assertion, no packing/resilience assumptions",
+  "n": 6,
+  "expected_domain": 576,
+  "tested": 576,
+  "found": null,
+  "elapsed_seconds": 0.02618829201674089,
+  "script_sha256": "6c8ca04277ab15a4c12691e27120f5c884191719440a27601fe89dcc6dc1b558",
+  "python": "PRIVATE_PATH_REMOVED",
+  "threads": 1
+}

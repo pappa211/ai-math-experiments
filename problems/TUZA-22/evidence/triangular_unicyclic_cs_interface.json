@@ -1,0 +1,545 @@
+{
+  "identity": "TUZA22 complete twelve-shape triangular-unicyclic CS interface",
+  "status": "STOPPED_FIRST_UNKNOWN",
+  "elapsed_seconds": 0.006129624991444871,
+  "domain_records": 374,
+  "processed": 4,
+  "first_unknown": {
+    "shape_id": 1,
+    "n_F": 5,
+    "F_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "F_leaves": [
+      3,
+      4
+    ],
+    "apex": 5,
+    "apex_neighbors": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "n": 6,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "triangles": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        3,
+        5
+      ],
+      [
+        1,
+        4,
+        5
+      ]
+    ],
+    "certificate": {
+      "kind": "UNKNOWN_NO_APPROVED_CERTIFICATE",
+      "tested_matchings": 26,
+      "nu_matching_not_premise": 3
+    }
+  },
+  "rows": [
+    {
+      "shape_id": 1,
+      "n_F": 5,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "F_leaves": [
+        3,
+        4
+      ],
+      "apex": 5,
+      "apex_neighbors": [
+        3,
+        4
+      ],
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "certificate": {
+        "P": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "Q": [
+          0,
+          1,
+          4
+        ],
+        "tested_matchings": 1,
+        "nu_matching_not_premise": 3,
+        "kind": "S_COLLAPSE",
+        "S": [
+          0
+        ],
+        "S_mates": [
+          2
+        ]
+      }
+    },
+    {
+      "shape_id": 1,
+      "n_F": 5,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "F_leaves": [
+        3,
+        4
+      ],
+      "apex": 5,
+      "apex_neighbors": [
+        0,
+        3,
+        4
+      ],
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          3,
+          5
+        ]
+      ],
+      "certificate": {
+        "P": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "Q": [
+          0,
+          1,
+          4
+        ],
+        "tested_matchings": 1,
+        "nu_matching_not_premise": 3,
+        "kind": "S_COLLAPSE",
+        "S": [
+          0
+        ],
+        "S_mates": [
+          2
+        ]
+      }
+    },
+    {
+      "shape_id": 1,
+      "n_F": 5,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "F_leaves": [
+        3,
+        4
+      ],
+      "apex": 5,
+      "apex_neighbors": [
+        1,
+        3,
+        4
+      ],
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "certificate": {
+        "P": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "Q": [
+          0,
+          1,
+          4
+        ],
+        "tested_matchings": 1,
+        "nu_matching_not_premise": 3,
+        "kind": "S_COLLAPSE",
+        "S": [
+          1
+        ],
+        "S_mates": [
+          4
+        ]
+      }
+    },
+    {
+      "shape_id": 1,
+      "n_F": 5,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "F_leaves": [
+        3,
+        4
+      ],
+      "apex": 5,
+      "apex_neighbors": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "certificate": {
+        "kind": "UNKNOWN_NO_APPROVED_CERTIFICATE",
+        "tested_matchings": 26,
+        "nu_matching_not_premise": 3
+      }
+    }
+  ],
+  "scope": "All twelve proved F shapes, every apex neighborhood containing all original leaves and size>=2. No other pruning or symmetry quotient. Only approved literal CS certificates. Independent completeness and witness validation required."
+}

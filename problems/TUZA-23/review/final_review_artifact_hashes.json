@@ -1,0 +1,33 @@
+{
+  "completed_utc": "2026-11-16T09:26:47.664138+00:00",
+  "files": [
+    {
+      "path": "review/INDEPENDENT_FINAL_REVIEW.md",
+      "sha256": "c9691c1b2a1126f8d510dbd9297b3fa44a18e5f28b03128231d9bdcf94e3b18d"
+    },
+    {
+      "path": "review/independent_verify.py",
+      "sha256": "c2136eec46f439bd9eb8e9569448ca2ab48c4dd509d3f69536e5cfed8b2dd2d9"
+    },
+    {
+      "path": "review/independent_negative_guard.py",
+      "sha256": "6f138c13780bafa3f347b637449cfd12e1fde29e70cfeb6d8779f7e1360f6eca"
+    },
+    {
+      "path": "FOREST_FORMALIZATION_PLAN.md",
+      "sha256": "1fda196d91bcfca5a2f1c7799592b4ddb9b91f40b4e928a37e5d7eec4bf12aad"
+    },
+    {
+      "path": "verification/independent-20261116T092129409939Z/summary.json",
+      "sha256": "9813ef70033cfcbc131d7b8d1fd7c97e881714fcf6f1323a2aa9c144c1cdbbd2"
+    },
+    {
+      "path": "verification/independent-20261116T092129409939Z/declarations.json",
+      "sha256": "e9aff9abc70ac0648cfd1ff08ea8dc5c3fbcb15d4a22691ab493c64611fc716b"
+    },
+    {
+      "path": "verification/independent-20261116T092129409939Z/negative_guard.json",
+      "sha256": "911db768ed1e375c5e000f5bd68ab4f88f153645cb6d6fd761fcd03050bcb2d8"
+    }
+  ]
+}

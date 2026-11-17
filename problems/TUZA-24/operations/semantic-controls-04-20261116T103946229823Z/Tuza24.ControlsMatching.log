@@ -1,0 +1,27 @@
+problems/TUZA-24/Tuza24/ControlsMatching.lean:12:39: error(lean.unknownIdentifier): Unknown constant `Finset.forall_mem_singleton`
+problems/TUZA-24/Tuza24/ControlsMatching.lean:12:68: error(lean.unknownIdentifier): Unknown constant `Finset.forall_mem_empty`
+problems/TUZA-24/Tuza24/ControlsMatching.lean:12:2: error: `simp` made no progress
+problems/TUZA-24/Tuza24/ControlsMatching.lean:21:4: error: failed to synthesize
+  Decidable
+    (((∀ e ∈ {{1, 2}}, ⊤.IsNClique 2 e) ∧ ∀ e ∈ {{1, 2}}, ∀ f ∈ {{1, 2}}, e ≠ f → Disjoint e f) ∧
+      (∀ (e : Finset (Fin 3)), ⊤.IsNClique 2 e → e ∉ {{1, 2}} → ¬Disjoint e {0}) ∧
+        #{0} ≤ #{{1, 2}} ∧ (0 ∈ {{1, 2}}.biUnion id → 0 ∈ {0}))
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+problems/TUZA-24/Tuza24/ControlsMatching.lean:38:39: error(lean.unknownIdentifier): Unknown constant `Finset.forall_mem_singleton`
+problems/TUZA-24/Tuza24/ControlsMatching.lean:38:68: error(lean.unknownIdentifier): Unknown constant `Finset.forall_mem_empty`
+problems/TUZA-24/Tuza24/ControlsMatching.lean:39:2: error: failed to synthesize
+  Decidable
+    ((((Controls.edgeGraph {{0, 1}, {1, 2}, {2, 3}, {0, 3}}).IsNClique 2 {0, 1} ∧
+          ∀ x ∈ {{2, 3}}, (Controls.edgeGraph {{0, 1}, {1, 2}, {2, 3}, {0, 3}}).IsNClique 2 x) ∧
+        (({0, 1} ≠ {0, 1} → Disjoint {0, 1} {0, 1}) ∧ ∀ x ∈ {{2, 3}}, {0, 1} ≠ x → Disjoint {0, 1} x) ∧
+          ∀ x ∈ {{2, 3}}, (x ≠ {0, 1} → Disjoint x {0, 1}) ∧ ∀ x_1 ∈ {{2, 3}}, x ≠ x_1 → Disjoint x x_1) ∧
+      (∀ (e : Finset (Fin 4)),
+          (Controls.edgeGraph {{0, 1}, {1, 2}, {2, 3}, {0, 3}}).IsNClique 2 e →
+            e ∉ {{0, 1}, {2, 3}} → ¬Disjoint e {0, 2}) ∧
+        #{0, 2} ≤ #{{0, 1}, {2, 3}} ∧ (0 ∈ {{0, 1}, {2, 3}}.biUnion id → 0 ∈ {0, 2}))
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+problems/TUZA-24/Tuza24/ControlsMatching.lean:46:41: error(lean.unknownIdentifier): Unknown constant `Finset.forall_mem_singleton`
+problems/TUZA-24/Tuza24/ControlsMatching.lean:46:70: error(lean.unknownIdentifier): Unknown constant `Finset.forall_mem_empty`
+problems/TUZA-24/Tuza24/ControlsMatching.lean:46:4: error: `simp` made no progress

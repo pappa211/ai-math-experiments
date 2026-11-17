@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-15T17:05:23.381320+00:00",
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "python": "3.12.12 (main, Oct  9 2025, 11:07:00) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "executable": "PRIVATE_PATH_REMOVED",
+  "source_head": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+  "source_tree": "f6716f2578ba5346960cbb69b9b2e0698b834b4f",
+  "source_status": "",
+  "selected_source_files": 25,
+  "source_mismatches": [],
+  "private_remotes": "",
+  "heavy_process_monitors": [
+    "receipts/root_search_monitor.json",
+    "receipts/root_candidate02_monitor.json"
+  ]
+}

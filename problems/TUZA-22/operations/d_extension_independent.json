@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T22:14:54.839580+00:00",
+  "end_utc": "2026-11-15T22:14:55.075528+00:00",
+  "seconds": 0.23595333099365234,
+  "command": [
+    "python",
+    "scripts/d_extension_independent_validator.py"
+  ],
+  "pid": 70879,
+  "peak_sampled_tree_rss_mib": 4.3125,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 120.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

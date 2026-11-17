@@ -1,0 +1,30 @@
+--- preserved original role.py
++++ working copy role_status_corrected.py
+@@ -31,12 +31,17 @@
+     for i, j in conflicts: m.AddBoolOr([z[i].Not(), z[j].Not()])
+     m.Maximize(sum(z)); s = cp_model.CpSolver(); s.parameters.num_workers = 2; s.parameters.max_time_in_seconds = limit
+     st = s.Solve(m)
++    if st not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
++        return None, False
+     return [i for i in range(nT) if s.Value(z[i])], st == cp_model.OPTIMAL
+ 
+ def role_test(n, E, max_iter=4000, verbose=False):
+     T, te, share = tri_data(n, E)
+     if not T: return ('ok', 0, 0, None)
+-    P, _ = max_family(len(T), list(share.keys())); nu = len(P)
++    P, optimum = max_family(len(T), list(share.keys()))
++    if P is None or not optimum:
++        return ('unknown', None, 0, None)
++    nu = len(P)
+     M = cp_model.CpModel()
+     p = [M.NewIntVar(0, 5, '') for _ in T]
+     M.Add(p[0] == 0)
+@@ -53,6 +58,8 @@
+         rho = [solver.Value(x) for x in p]
+         conf = [(i, j) for (i, j), (a, b) in share.items() if PERMS[rho[i]][a] == PERMS[rho[j]][b]]
+         F, opt = max_family(len(T), conf)
++        if F is None:
++            return ('unknown', nu, it, None)
+         if len(F) <= nu:
+             return ('ok' if opt else 'unknown', nu, it, {T[i]: {te[i][k]: PERMS[rho[i]][k] for k in range(3)} for i in range(len(T))})
+         F = F[:nu + 1]

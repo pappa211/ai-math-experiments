@@ -1,0 +1,35 @@
+[
+  {
+    "file": "gupta_2608_06538v1.pdf",
+    "url": "https://arxiv.org/pdf/2608.06538v1",
+    "bytes": 479264,
+    "sha256": "c069ff4ff9a31023b71406c8ecc098ecdebe16797a5e99328e58a79addff45bf",
+    "retrieved_utc": "2026-11-15T22:11:31.849326+00:00"
+  },
+  {
+    "file": "cui_haxell_ma_planar.pdf",
+    "url": "https://www.columbia.edu/~wm2428/papers/packing_covering_triangles.pdf",
+    "status": "ACCESS_FAILURE",
+    "reason": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "hkt_planar_2011.pdf",
+    "url": "https://perso.ens-lyon.fr/stephan.thomasse/liste/packplanar.pdf",
+    "bytes": 150722,
+    "sha256": "a6f0d975820a34ace112bb5db41bae0c77d5bc9f4c2da590ea612b2ba3d465b4",
+    "retrieved_utc": "2026-11-15T22:11:32.331031+00:00"
+  },
+  {
+    "file": "hkt_fractional_stability.pdf",
+    "url": "https://kostochk.web.illinois.edu/docs/accepted/frac-ht.pdf",
+    "bytes": 145585,
+    "sha256": "100d9ad6ca780c225d57b6774891c19f9d80b72cd3011a8f47eb56d72b1f3b6a",
+    "retrieved_utc": "2026-11-15T22:11:33.473078+00:00"
+  },
+  {
+    "file": "gyarfas_lehel_tuza_critical_1982.pdf",
+    "url": "https://www.renyi.hu/~gyarfas/Cikkek/15_GyarfasLehelTuza_UpperBoundOnTheOrderofTauCriticalHypergraphs.pdf",
+    "status": "ACCESS_FAILURE",
+    "reason": "HTTP Error 403: Forbidden"
+  }
+]

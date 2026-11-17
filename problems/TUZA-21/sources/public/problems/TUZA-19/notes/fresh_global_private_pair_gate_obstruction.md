@@ -1,0 +1,1 @@
+../../../../../../TUZA-19/notes/fresh_global_private_pair_gate_obstruction.md

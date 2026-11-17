@@ -1,0 +1,13 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Adversarial review and acceptance
+
+The principal classification is **REFUTED_CANDIDATE**. The complete fresh critic report is review/final_independent_review.md, including the final early-stop governance addendum. It accepted the frozen PROOFS_AND_OBSTRUCTIONS.md SHA256 a42c010b8f0df5853f1cbea5f810a63b1df7b3094dab4e70a8c6aa3d914b559f without mathematical correction.
+
+The book verifier reconstructed the eight-vertex graph and all permitted/construction costs from literal edges, then independently reconstructed the Clebsch-cone argument after the coordinator supplied the structural idea. A separate fresh critic derived the Clebsch facts, classified arbitrary minimum covers including possible rim edges, reconstructed the H-D k2 proof, and checked the exact book scope. The critic wrote separate standard-input code and did not import producer code; all65,536 omitted-spoke sets and all16minimum covers were independently checked. Its separate bipartite augmenting-path calculation found five private triangles for each cover. The critic did not rerun the complete book enumeration because its ordinary set argument sufficed; ordinary tau6 on that control is auxiliary producer finite evidence.
+
+This is independent reconstruction and code checking, not independent discovery or blinded review: agents inherited coordinator context and proof sketches. No serving-model identity, human peer review, historical priority, Lean verification, cold compiler rebuild, or independent kernel check is claimed. No external theorem is indispensable to the accepted results.
+
+The accepted refutation defeats both quantifiers over minimum ordinary covers. It does not refute Tuza, H-D, PK, arbitrary book methods, nonminimum-cover methods, or full-packing extension. The H-D k<=2 theorem is scoped and is not classified as GLOBAL_MECHANISM_ADVANCE.
+
+The regenerated successor C21-D retained all actual triangle types but had no general augmentation theorem. Its bounded screen had zero private-deficient cases and one capped cover family; neither finite survival nor a cone matching analogy was promoted into global evidence. The final critic found the explicit regeneration and stopping decision consistent with the mission. STOP applies to this campaign after closeout; it does not declare the Tuza project impossible or start another mission.

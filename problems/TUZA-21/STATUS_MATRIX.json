@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "outcome": "REFUTED_CANDIDATE",
+  "recommendation": "STOP_CURRENT_CAMPAIGN",
+  "unrestricted_obligations_discharged": 0,
+  "categories": [
+    "REPORTED_UNVERIFIED",
+    "CONJECTURE",
+    "ORDINARY_PROOF",
+    "PROOF_USING_DECLARED_INPUT",
+    "FINITE_CERTIFICATE",
+    "SOLVER_ONLY",
+    "LEAN_VERIFIED_EXACT_SCOPE",
+    "REFUTED",
+    "UNKNOWN"
+  ],
+  "unused_categories": [
+    "PROOF_USING_DECLARED_INPUT",
+    "LEAN_VERIFIED_EXACT_SCOPE"
+  ],
+  "claims": [
+    {
+      "id": "unrestricted-Tuza",
+      "status": "UNKNOWN",
+      "statement": "Unrestricted Tuza remains unresolved; no proof or actual counterexample obtained."
+    },
+    {
+      "id": "H-D-global",
+      "status": "CONJECTURE",
+      "statement": "Inherited simultaneous-deletion gate remains unproved and unrefuted at arbitrary k."
+    },
+    {
+      "id": "H-D-implication",
+      "status": "ORDINARY_PROOF",
+      "statement": "H-D implies unrestricted Tuza by the reconstructed edge-minimal-counterexample argument; inherited infrastructure.",
+      "evidence": [
+        "sources/public/problems/TUZA-19/notes/global_routes_deletion_gate.md",
+        "notes/ordinary_scout.md"
+      ]
+    },
+    {
+      "id": "H-D-small-k",
+      "status": "ORDINARY_PROOF",
+      "statement": "H-D holds for k<=2; at k2 all actual triangles form exactly two edge-disjoint literal K4 components.",
+      "evidence": [
+        "notes/ordinary_scout.md",
+        "review/final_independent_review.md"
+      ]
+    },
+    {
+      "id": "A1-component-peeling",
+      "status": "CONJECTURE",
+      "disposition": "STALLED",
+      "statement": "H-D implies availability of a packing-one triangle-edge component for arbitrary k; no global bridge proved."
+    },
+    {
+      "id": "book-availability",
+      "status": "REFUTED",
+      "statement": "The stated independent-private-page construction without further deletions need not achieve2k: switched4 costs at least9 withk4."
+    },
+    {
+      "id": "book-control-proof",
+      "status": "ORDINARY_PROOF",
+      "statement": "Switched4 hasnu4, original c(P)8; exact construction costs12/10/9 for0/1/2selected pages.",
+      "evidence": [
+        "review/book_verification.md",
+        "review/final_independent_review.md"
+      ]
+    },
+    {
+      "id": "book-control-finite",
+      "status": "FINITE_CERTIFICATE",
+      "statement": "Literal graph, full16triangle family,9feasible book selections and permitted cover validated; auxiliary ordinary tau6 is exact finite enumeration and not load-bearing.",
+      "evidence": [
+        "scripts/book_verify.py",
+        "results/book_verification.json"
+      ]
+    },
+    {
+      "id": "C21-C-all",
+      "status": "REFUTED",
+      "statement": "Every-minimum-cover private-witness packing bound fails on Clebsch cone."
+    },
+    {
+      "id": "C21-C-exists",
+      "status": "REFUTED",
+      "statement": "Some-minimum-cover private-witness packing bound also fails; all16minimum covers have size11 and private packing optimum5."
+    },
+    {
+      "id": "Clebsch-ordinary",
+      "status": "ORDINARY_PROOF",
+      "statement": "Literal cone has17vertices,56edges,40triangles,tau11,nu8; exactly16minimum covers, all withnu(F_C)5.",
+      "evidence": [
+        "PROOFS_AND_OBSTRUCTIONS.md",
+        "review/book_clebsch_private_refutation.md",
+        "review/final_independent_review.md"
+      ]
+    },
+    {
+      "id": "Clebsch-independent-finite",
+      "status": "FINITE_CERTIFICATE",
+      "statement": "Producer and separate critic reconstruct literal graph and all65536omitted-spoke subsets; explicit full8packing and private5packings for every minimum cover.",
+      "evidence": [
+        "scripts/book_clebsch_private_verify.py",
+        "data/book_clebsch_private_certificate.json",
+        "review/final_independent_review.md"
+      ]
+    },
+    {
+      "id": "PK-all",
+      "status": "CONJECTURE",
+      "statement": "No proof or refutation; original permitted support/completion quantifier retained."
+    },
+    {
+      "id": "PK-exists",
+      "status": "CONJECTURE",
+      "statement": "No proof or refutation; existential maximum-packing choice not confused with PK-all."
+    },
+    {
+      "id": "PK-lender-only-screen",
+      "status": "REFUTED",
+      "statement": "Exploratory pair-kernel simplification omits known common-tip wheel clause; not a new global result.",
+      "evidence": [
+        "notes/pk_scout.md",
+        "data/pk_wheel_pair_control.json"
+      ]
+    },
+    {
+      "id": "C21-D-variants",
+      "status": "CONJECTURE",
+      "disposition": "STALLED",
+      "statement": "Every-maximal-extension, some-extension, some-choice variants remain unproved/unrefuted; cone specialization follows from elementary maximal matching endpoint cover.",
+      "evidence": [
+        "notes/pk_successor_candidate.md",
+        "notes/regeneration_pk_assessment.md"
+      ]
+    },
+    {
+      "id": "exploratory-search-outputs",
+      "status": "SOLVER_ONLY",
+      "statement": "Deterministic exact Python exploratory recurrences, not independently certified full censuses. Root134cases590minimum covers; independent-scout500random records3032minimum covers; ordinary24cell controls; successor34cases341covers. Passing counts are not mechanism evidence.",
+      "evidence": [
+        "results/private_cover_probe.json",
+        "results/book_private_cover_probe.json",
+        "data/ordinary_cell_controls.json",
+        "results/pk_successor_probe.json"
+      ],
+      "qualification": "SOLVER_ONLY is conservative here: no numerical/SAT/ILP solver was used; this label denotes unreviewed search output rather than a checked exported proof trace."
+    },
+    {
+      "id": "D-unexamined-covers",
+      "status": "UNKNOWN",
+      "statement": "One two-K5 vertex-sum case reached64minimum-cover cap; unexamined cover states retained. Zero deficient states and zero extension states tested across examined corpus.",
+      "evidence": [
+        "results/pk_successor_probe.json"
+      ]
+    },
+    {
+      "id": "Claude-through-ten-census",
+      "status": "REPORTED_UNVERIFIED",
+      "statement": "Inherited approximately145million through-ten report remains unverified; absent producer package was not replaced by this mission\u2019s unrelated small checks."
+    }
+  ]
+}

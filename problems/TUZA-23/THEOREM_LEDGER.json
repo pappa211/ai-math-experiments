@@ -1,0 +1,1172 @@
+{
+  "status": "FINAL_ACCEPTED",
+  "verification": "verification/independent-20261116T092129409939Z/summary.json",
+  "all_actual_local_constants_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+  "source_semantic_reviews": [
+    "review/specification_v1_review.md",
+    "review/foundation_semantic_review.md",
+    "review/accounting_m0_semantic_review.md",
+    "review/r2_final_semantic_review.md"
+  ],
+  "targets": [
+    {
+      "target": "maximum_packing",
+      "declaration": "Tuza.exists_max_packing",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "public_commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+        "path": "problems/TUZA-06/lean/Tuza/Basic.lean",
+        "sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc"
+      },
+      "formal_source": "Tuza/Basic.lean",
+      "formal_source_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+      "exact_type": "∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] (F : Finset.{u_1} (Finset.{u_1} V)),\n  ∃ P, And (@Tuza.Packing.{u_1} V F P) (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) P) (@Tuza.nu.{u_1} V F))",
+      "explicit_hypotheses": "Any finite triangle family; maximum is attained",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza.Basic",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza/Basic.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza/Basic.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "797e09e89ac42b02530243966c2178308fe1fe1b77cc1262d3faf0cd3855dadc",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.074424291989999,
+        "peak_tree_rss_bytes": 1588658176,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza.Basic.log",
+        "completed_utc": "2026-11-16T09:21:30.630526+00:00",
+        "object_sha256": "653c1ec4ea07cc0131527202dc444b3e534960bed9f1fcfd72c314768f2c3640"
+      }
+    },
+    {
+      "target": "actual_minimum_cover",
+      "declaration": "Tuza.graph_min_cover",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "public_commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+        "path": "problems/TUZA-06/lean/Tuza/Graph.lean",
+        "sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a"
+      },
+      "formal_source": "Tuza/Graph.lean",
+      "formal_source_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V),\n  ∃ C,\n    And (@Tuza.Covers.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G) C)\n      (And\n        (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) C)\n          (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))\n        (∀ (e : Finset.{u_1} V),\n          @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n              C e →\n            @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e))",
+      "explicit_hypotheses": "Any finite simple graph; minimum attained by actual graph edges",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza.Graph",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza/Graph.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza/Graph.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "fae56ae3c9925cba519efd2b7e47f80c4603b960d85cc76bcf6085a9be956b8a",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.0827717079955619,
+        "peak_tree_rss_bytes": 1577992192,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza.Graph.log",
+        "completed_utc": "2026-11-16T09:21:31.713863+00:00",
+        "object_sha256": "bbc75e2f8bbe345b3205892124e88a0406dce0485f91a3e65a7630bb6fc0ab28"
+      }
+    },
+    {
+      "target": "cover_optimum_bridge",
+      "declaration": "Tuza23.tau_le_iff_graph_cover",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/GraphAPI.lean",
+      "formal_source_sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (G : SimpleGraph.{u_1} V) (n : Nat),\n  Iff (@LE.le.{0} Nat instLENat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)) n)\n    (∃ C,\n      And (@Tuza23.GraphCover.{u_1} V inst inst_1 G C)\n        (@LE.le.{0} Nat instLENat (@Finset.card.{u_1} (Finset.{u_1} V) C) n))",
+      "explicit_hypotheses": "Any finite simple graph and natural threshold; actual-edge cover formulation",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.GraphAPI",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/GraphAPI.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/GraphAPI.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9791545420011971,
+        "peak_tree_rss_bytes": 1591459840,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.GraphAPI.log",
+        "completed_utc": "2026-11-16T09:21:49.568042+00:00",
+        "object_sha256": "f2159ee2574e5249b8fec512f290637e262434615ed1ef1d5f497cb13181338b"
+      }
+    },
+    {
+      "target": "component_equivalence",
+      "declaration": "Tuza06.componentCliques_iff_decomposition",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "public_commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+        "path": "problems/TUZA-06/lean/Tuza06/Components.lean",
+        "sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e"
+      },
+      "formal_source": "Tuza06/Components.lean",
+      "formal_source_sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},\n  Iff (@Tuza06.ComponentCliques.{u_1} V inst inst_1 G) (∃ K, @Tuza06.CliqueDecomposition.{u_1} V inst inst_1 G K)",
+      "explicit_hypotheses": "Actual shared-edge components iff exhaustive edge-disjoint literal K4/K5 decomposition",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza06.Components",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza06/Components.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza06/Components.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.1850744590046816,
+        "peak_tree_rss_bytes": 1599520768,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza06.Components.log",
+        "completed_utc": "2026-11-16T09:21:46.642983+00:00",
+        "object_sha256": "56c6a8e993f25891d1118be11fd16d5099bdb7add6d27fb519a1e567df6f5359"
+      }
+    },
+    {
+      "target": "packing_additivity",
+      "declaration": "Tuza06.nu_union_eq",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "public_commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+        "path": "problems/TUZA-06/lean/Tuza06/Additivity.lean",
+        "sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621"
+      },
+      "formal_source": "Tuza06/Additivity.lean",
+      "formal_source_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+      "exact_type": "∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] {F K : Finset.{u_1} (Finset.{u_1} V)},\n  @Tuza.Triangles.{u_1} V F →\n    @Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))\n        (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.support.{u_1} V inst F) (@Tuza.support.{u_1} V inst K) →\n      @Eq.{1} Nat\n        (@Tuza.nu.{u_1} V\n          (@Union.union.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n            (@Finset.instUnion.{u_1} (Finset.{u_1} V) fun a b => @Finset.decidableEq.{u_1} V inst a b) F K))\n        (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) (@Tuza.nu.{u_1} V F) (@Tuza.nu.{u_1} V K))",
+      "explicit_hypotheses": "Finite triangle families with disjoint edge supports",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza06.Additivity",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza06/Additivity.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza06/Additivity.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9748249579861294,
+        "peak_tree_rss_bytes": 1583349760,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza06.Additivity.log",
+        "completed_utc": "2026-11-16T09:21:44.376991+00:00",
+        "object_sha256": "b8cf6c03866e5d205a8ca4c4c576d6378a6c05686bba78bcecec3f8f08047017"
+      }
+    },
+    {
+      "target": "cover_additivity",
+      "declaration": "Tuza06.tau_union_eq",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "public_commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+        "path": "problems/TUZA-06/lean/Tuza06/Additivity.lean",
+        "sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621"
+      },
+      "formal_source": "Tuza06/Additivity.lean",
+      "formal_source_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+      "exact_type": "∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] {F K : Finset.{u_1} (Finset.{u_1} V)},\n  @Tuza.Triangles.{u_1} V F →\n    @Tuza.Triangles.{u_1} V K →\n      @Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))\n          (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.support.{u_1} V inst F) (@Tuza.support.{u_1} V inst K) →\n        @Eq.{1} Nat\n          (@Tuza.tau.{u_1} V\n            (@Union.union.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n              (@Finset.instUnion.{u_1} (Finset.{u_1} V) fun a b => @Finset.decidableEq.{u_1} V inst a b) F K))\n          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat) (@Tuza.tau.{u_1} V F) (@Tuza.tau.{u_1} V K))",
+      "explicit_hypotheses": "Finite triangle families with disjoint edge supports",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza06.Additivity",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza06/Additivity.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza06/Additivity.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "f0b38489aa3f2ba37743752754f89462048e3c4e038f34059ec13e6c2f748621",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9748249579861294,
+        "peak_tree_rss_bytes": 1583349760,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza06.Additivity.log",
+        "completed_utc": "2026-11-16T09:21:44.376991+00:00",
+        "object_sha256": "b8cf6c03866e5d205a8ca4c4c576d6378a6c05686bba78bcecec3f8f08047017"
+      }
+    },
+    {
+      "target": "component_graph_realization",
+      "declaration": "Tuza23.triangles_supportGraph",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/restoration.md",
+        "sha256": "7c6436c694edd930139984d201564645c40ed1f9d62cbceea23b0113aa353d71"
+      },
+      "formal_source": "Tuza23/M0.lean",
+      "formal_source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V}\n  {F : Finset.{u_1} (Finset.{u_1} V)},\n  @Tuza23.TriangleClosed.{u_1} V inst inst_1 G F →\n    @Eq.{u_1 + 1} (Finset.{u_1} (Finset.{u_1} V))\n      (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.supportGraph.{u_1} V inst_1 G F)) F",
+      "explicit_hypotheses": "Actual triangle family closed under shared-edge adjacency",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.M0",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/M0.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/M0.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.1823061250033788,
+        "peak_tree_rss_bytes": 1602109440,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.M0.log",
+        "completed_utc": "2026-11-16T09:22:03.426131+00:00",
+        "object_sha256": "953dd4b72dbe951a91da489ba1b19b561e3ab0b04d623f84944f12bd6d5c7656"
+      }
+    },
+    {
+      "target": "K4_parameters",
+      "declaration": "Tuza06.k4_parameters",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "public_commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+        "path": "problems/TUZA-06/lean/Tuza06/FiniteCliques.lean",
+        "sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430"
+      },
+      "formal_source": "Tuza06/FiniteCliques.lean",
+      "formal_source_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+      "exact_type": "∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {k : Finset.{u_1} V},\n  @Eq.{1} Nat (@Finset.card.{u_1} V k) (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))) →\n    And\n      (@Eq.{1} Nat (@Tuza.nu.{u_1} V (@Tuza06.cliqueFamily.{u_1} V k))\n        (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))\n      (@Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza06.cliqueFamily.{u_1} V k))\n        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))",
+      "explicit_hypotheses": "Arbitrary labelled vertex set of cardinality four",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza06.FiniteCliques",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza06/FiniteCliques.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza06/FiniteCliques.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 7.8878830000176094,
+        "peak_tree_rss_bytes": 1744404480,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza06.FiniteCliques.log",
+        "completed_utc": "2026-11-16T09:21:41.452233+00:00",
+        "object_sha256": "628ed35cfe8ae7f12bc51eb871599b31408684add8c9192f11851a461fb2658d"
+      }
+    },
+    {
+      "target": "K5_parameters",
+      "declaration": "Tuza06.k5_parameters",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "public_commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+        "path": "problems/TUZA-06/lean/Tuza06/FiniteCliques.lean",
+        "sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430"
+      },
+      "formal_source": "Tuza06/FiniteCliques.lean",
+      "formal_source_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+      "exact_type": "∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {k : Finset.{u_1} V},\n  @Eq.{1} Nat (@Finset.card.{u_1} V k) (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5))) →\n    And\n      (@Eq.{1} Nat (@Tuza.nu.{u_1} V (@Tuza06.cliqueFamily.{u_1} V k))\n        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))\n      (@Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza06.cliqueFamily.{u_1} V k))\n        (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))",
+      "explicit_hypotheses": "Arbitrary labelled vertex set of cardinality five",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza06.FiniteCliques",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza06/FiniteCliques.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza06/FiniteCliques.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "bc39b1d9f9ee2f2c808c29a78df483ea1bb75dec73ac0b34ecb4dd2c4271c430",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 7.8878830000176094,
+        "peak_tree_rss_bytes": 1744404480,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza06.FiniteCliques.log",
+        "completed_utc": "2026-11-16T09:21:41.452233+00:00",
+        "object_sha256": "628ed35cfe8ae7f12bc51eb871599b31408684add8c9192f11851a461fb2658d"
+      }
+    },
+    {
+      "target": "clique_prescribed_cover",
+      "declaration": "Tuza23.clique_min_cover_containing",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/CliqueChoice.lean",
+      "formal_source_sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91",
+      "exact_type": "∀ {V : Type u_1} [DecidableEq.{u_1 + 1} V] {k e : Finset.{u_1} V},\n  Or (@Eq.{1} Nat (@Finset.card.{u_1} V k) (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))\n      (@Eq.{1} Nat (@Finset.card.{u_1} V k) (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))) →\n    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n        (@Tuza.edges.{u_1} V k) e →\n      ∃ C,\n        And (@Tuza.Covers.{u_1} V (@Tuza06.cliqueFamily.{u_1} V k) C)\n          (And\n            (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) C) (@Tuza.tau.{u_1} V (@Tuza06.cliqueFamily.{u_1} V k)))\n            (And\n              (@LE.le.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                (@Preorder.toLE.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                  (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                    (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))))\n                C (@Tuza.edges.{u_1} V k))\n              (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                C e)))",
+      "explicit_hypotheses": "Literal K4/K5 and one prescribed edge",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.CliqueChoice",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/CliqueChoice.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/CliqueChoice.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.407703875011066,
+        "peak_tree_rss_bytes": 1660125184,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.CliqueChoice.log",
+        "completed_utc": "2026-11-16T09:21:52.926192+00:00",
+        "object_sha256": "d889955e08cc957b0a2aff8d36d6195adbbccb32962b1bb101e24c14d64ee763"
+      }
+    },
+    {
+      "target": "clique_edge_avoidance",
+      "declaration": "Tuza23.clique_max_packing_avoiding",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/CliqueChoice.lean",
+      "formal_source_sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91",
+      "exact_type": "∀ {V : Type u_1} [inst : DecidableEq.{u_1 + 1} V] [Fintype.{u_1} V] {H : SimpleGraph.{u_1} V} {k e : Finset.{u_1} V},\n  @SimpleGraph.IsClique.{u_1} V H (@SetLike.coe.{u_1, u_1} (Finset.{u_1} V) V (@Finset.instSetLike.{u_1} V) k) →\n    Or (@Eq.{1} Nat (@Finset.card.{u_1} V k) (@OfNat.ofNat.{0} Nat (nat_lit 4) (instOfNatNat (nat_lit 4))))\n        (@Eq.{1} Nat (@Finset.card.{u_1} V k) (@OfNat.ofNat.{0} Nat (nat_lit 5) (instOfNatNat (nat_lit 5)))) →\n      @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n          (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n            (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n          (@Tuza.edges.{u_1} V k) e →\n        ∃ P,\n          And (@Tuza.Packing.{u_1} V (@Tuza06.cliqueFamily.{u_1} V k) P)\n            (And\n              (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) P) (@Tuza.nu.{u_1} V (@Tuza06.cliqueFamily.{u_1} V k)))\n              (e ∉ @Tuza.support.{u_1} V inst P))",
+      "explicit_hypotheses": "Actual K4/K5 clique and one prescribed edge",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.CliqueChoice",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/CliqueChoice.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/CliqueChoice.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "74fcb35ff14823c1235b8c66743c4b64c28774955cc1091d975955fc0c6a5a91",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.407703875011066,
+        "peak_tree_rss_bytes": 1660125184,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.CliqueChoice.log",
+        "completed_utc": "2026-11-16T09:21:52.926192+00:00",
+        "object_sha256": "d889955e08cc957b0a2aff8d36d6195adbbccb32962b1bb101e24c14d64ee763"
+      }
+    },
+    {
+      "target": "B_implies_equality",
+      "declaration": "Tuza06.componentCliques_equality",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "public_commit": "4b72b6d5b4f71fcefa3f0314483bf58ce809d7b4",
+        "path": "problems/TUZA-06/lean/Tuza06/Components.lean",
+        "sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e"
+      },
+      "formal_source": "Tuza06/Components.lean",
+      "formal_source_sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},\n  @Tuza06.ComponentCliques.{u_1} V inst inst_1 G →\n    @Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))\n      (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n        (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))",
+      "explicit_hypotheses": "Actual component B property",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza06.Components",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza06/Components.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza06/Components.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "169c27a6c30668b573312b6e3d2d99fb059e094e63064db283a000e86871bd0e",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.1850744590046816,
+        "peak_tree_rss_bytes": 1599520768,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza06.Components.log",
+        "completed_utc": "2026-11-16T09:21:46.642983+00:00",
+        "object_sha256": "56c6a8e993f25891d1118be11fd16d5099bdb7add6d27fb519a1e567df6f5359"
+      }
+    },
+    {
+      "target": "one_edge_insertion",
+      "declaration": "Tuza23.one_edge_insertion",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/GraphAPI.lean",
+      "formal_source_sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V}\n  {e : Finset.{u_1} V},\n  @Tuza23.B.{u_1} V inst inst_1 H →\n    @Eq.{1} Nat (@Finset.card.{u_1} V e) (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) →\n      Not (@SimpleGraph.IsNClique.{u_1} V H (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e) →\n        (∃ t,\n            And\n              (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                (@Tuza.triangles.{u_1} V inst inst_1\n                  (@Tuza23.addEdges.{u_1} V inst_1 H\n                    (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                      (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) e)))\n                t)\n              (t ∉ @Tuza.triangles.{u_1} V inst inst_1 H)) →\n          @LE.le.{0} Nat instLENat\n            (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n              (@Tuza.tau.{u_1} V\n                (@Tuza.triangles.{u_1} V inst inst_1\n                  (@Tuza23.addEdges.{u_1} V inst_1 H\n                    (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                      (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) e))))\n              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))\n            (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n              (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n              (@Tuza.nu.{u_1} V\n                (@Tuza.triangles.{u_1} V inst inst_1\n                  (@Tuza23.addEdges.{u_1} V inst_1 H\n                    (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                      (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) e)))))",
+      "explicit_hypotheses": "B(H), actual old nonedge, and existence of a new triangle",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.GraphAPI",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/GraphAPI.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/GraphAPI.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "0c7de37d937381f89b505e3960d9a83d0bca585f90b11be5c4ff8e23e7fa5c2e",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9791545420011971,
+        "peak_tree_rss_bytes": 1591459840,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.GraphAPI.log",
+        "completed_utc": "2026-11-16T09:21:49.568042+00:00",
+        "object_sha256": "f2159ee2574e5249b8fec512f290637e262434615ed1ef1d5f497cb13181338b"
+      }
+    },
+    {
+      "target": "whole_page_footprint",
+      "declaration": "Tuza23.whole_page_footprint",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/WholeFootprint.lean",
+      "formal_source_sha256": "bd843ef4a16d101c2731b6247e5eaae7cb03172537461bdfe5aed0bfb589b535",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V}\n  {K : Finset.{u_1} (Finset.{u_1} V)},\n  @Tuza06.CliqueDecomposition.{u_1} V inst inst_1 H K →\n    ∀ {a b : V},\n      @Ne.{u_1 + 1} V a b →\n        Not (@SimpleGraph.Adj.{u_1} V H a b) →\n          ∀ {k : Finset.{u_1} V},\n            @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                K k →\n              @LE.le.{0} Nat instLENat\n                (@Finset.card.{u_1} (Finset.{u_1} V)\n                  (@Inter.inter.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                    (@Finset.instInter.{u_1} (Finset.{u_1} V) fun a b => @Finset.decidableEq.{u_1} V inst_1 a b)\n                    (@Tuza23.pageSpokes.{u_1} V inst inst_1 H a b) (@Tuza.edges.{u_1} V k)))\n                (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))",
+      "explicit_hypotheses": "Exhaustive old clique decomposition, distinct nonadjacent endpoints; ALL ordinary page spokes",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.WholeFootprint",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/WholeFootprint.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/WholeFootprint.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "bd843ef4a16d101c2731b6247e5eaae7cb03172537461bdfe5aed0bfb589b535",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9741531249892432,
+        "peak_tree_rss_bytes": 1587871744,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.WholeFootprint.log",
+        "completed_utc": "2026-11-16T09:21:50.542893+00:00",
+        "object_sha256": "9444b4430f7bef258e44fd6e17b4e33516cb56579b946030166f1572d876b6e5"
+      }
+    },
+    {
+      "target": "simultaneous_minimum_cover",
+      "declaration": "Tuza23.blocks_min_cover_footprint",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/BlockChoice.lean",
+      "formal_source_sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V}\n  {K : Finset.{u_1} (Finset.{u_1} V)},\n  @Tuza06.CliqueDecomposition.{u_1} V inst inst_1 H K →\n    ∀ {D : Finset.{u_1} (Finset.{u_1} V)},\n      (∀ (k : Finset.{u_1} V),\n          @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n              K k →\n            @LE.le.{0} Nat instLENat\n              (@Finset.card.{u_1} (Finset.{u_1} V)\n                (@Inter.inter.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                  (@Finset.instInter.{u_1} (Finset.{u_1} V) fun a b => @Finset.decidableEq.{u_1} V inst_1 a b) D\n                  (@Tuza.edges.{u_1} V k)))\n              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) →\n        ∃ C,\n          And (@Tuza.Covers.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H) C)\n            (And\n              (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) C)\n                (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H)))\n              (And\n                (@LE.le.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                  (@Preorder.toLE.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                    (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                      (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))))\n                  C (@Tuza.support.{u_1} V inst_1 (@Tuza.triangles.{u_1} V inst inst_1 H)))\n                (@LE.le.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                  (@Preorder.toLE.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                    (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                      (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))))\n                  (@Inter.inter.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                    (@Finset.instInter.{u_1} (Finset.{u_1} V) fun a b => @Finset.decidableEq.{u_1} V inst_1 a b) D\n                    (@Tuza.support.{u_1} V inst_1 (@Tuza.triangles.{u_1} V inst inst_1 H)))\n                  C)))",
+      "explicit_hypotheses": "Exhaustive old clique decomposition; entire prescribed footprint has at most one edge per component",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.BlockChoice",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/BlockChoice.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/BlockChoice.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9745245829981286,
+        "peak_tree_rss_bytes": 1570816000,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.BlockChoice.log",
+        "completed_utc": "2026-11-16T09:21:53.901200+00:00",
+        "object_sha256": "23681064a4b93f72d48387ea58dddcb3b327ad8fed36f800d9ae9682ae5bfbbe"
+      }
+    },
+    {
+      "target": "simultaneous_maximum_packing",
+      "declaration": "Tuza23.blocks_max_packing_footprint",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/BlockChoice.lean",
+      "formal_source_sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V}\n  {K : Finset.{u_1} (Finset.{u_1} V)},\n  @Tuza06.CliqueDecomposition.{u_1} V inst inst_1 H K →\n    ∀ {D : Finset.{u_1} (Finset.{u_1} V)},\n      (∀ (k : Finset.{u_1} V),\n          @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n              K k →\n            @LE.le.{0} Nat instLENat\n              (@Finset.card.{u_1} (Finset.{u_1} V)\n                (@Inter.inter.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                  (@Finset.instInter.{u_1} (Finset.{u_1} V) fun a b => @Finset.decidableEq.{u_1} V inst_1 a b) D\n                  (@Tuza.edges.{u_1} V k)))\n              (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) →\n        ∃ P,\n          And (@Tuza.Packing.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H) P)\n            (And\n              (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) P)\n                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H)))\n              (@Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))\n                (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.support.{u_1} V inst_1 P) D))",
+      "explicit_hypotheses": "Same footprint condition; maximum old packing avoids the prescribed family",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.BlockChoice",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/BlockChoice.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/BlockChoice.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "58358fd20053fa7db52ec4c86310b6ea5430d9187363d6d286a993712621a389",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9745245829981286,
+        "peak_tree_rss_bytes": 1570816000,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.BlockChoice.log",
+        "completed_utc": "2026-11-16T09:21:53.901200+00:00",
+        "object_sha256": "23681064a4b93f72d48387ea58dddcb3b327ad8fed36f800d9ae9682ae5bfbbe"
+      }
+    },
+    {
+      "target": "nonbare_page_cover",
+      "declaration": "Tuza23.min_cover_all_nonbare_pages",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/PageAssembly.lean",
+      "formal_source_sha256": "b45080856bf28a9fadb7f7e747340e3670b2b3451b844e77f4cf77b2fb5c990c",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V},\n  @Tuza23.B.{u_1} V inst inst_1 H →\n    ∀ {a b : V},\n      @Ne.{u_1 + 1} V a b →\n        Not (@SimpleGraph.Adj.{u_1} V H a b) →\n          ∃ C,\n            And (@Tuza.Covers.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H) C)\n              (And\n                (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) C)\n                  (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H)))\n                (And\n                  (@LE.le.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                    (@Preorder.toLE.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                      (@PartialOrder.toPreorder.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                        (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))))\n                    C (@Tuza.support.{u_1} V inst_1 (@Tuza.triangles.{u_1} V inst inst_1 H)))\n                  (∀ (t : Finset.{u_1} V),\n                    @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                        (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                          (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                        (@Tuza.triangles.{u_1} V inst inst_1\n                          (@Tuza23.addEdges.{u_1} V inst_1 H\n                            (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                              (@Finset.instSingleton.{u_1} (Finset.{u_1} V))\n                              (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                                (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V)\n                                  b)))))\n                        t →\n                      Or\n                        (∃ e,\n                          And\n                            (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                                (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                              C e)\n                            (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                                (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                              (@Tuza.edges.{u_1} V t) e))\n                        (@Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                          (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))\n                          (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.edges.{u_1} V t)\n                          (@Tuza.support.{u_1} V inst_1 (@Tuza.triangles.{u_1} V inst inst_1 H))))))",
+      "explicit_hypotheses": "B(H), distinct nonadjacent endpoints; all actual single-insertion triangles",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.PageAssembly",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/PageAssembly.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/PageAssembly.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "b45080856bf28a9fadb7f7e747340e3670b2b3451b844e77f4cf77b2fb5c990c",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.0821879589930177,
+        "peak_tree_rss_bytes": 1589542912,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.PageAssembly.log",
+        "completed_utc": "2026-11-16T09:21:54.984092+00:00",
+        "object_sha256": "6385685cc5a5b8998c52d44af94b5304d695616fe0db977440ab72da3e046b66"
+      }
+    },
+    {
+      "target": "tight_increment",
+      "declaration": "Tuza23.tight_two_insertion_increment",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/InsertionAccounting.lean",
+      "formal_source_sha256": "401360733507cd667cfb4b7075a1194dffed6bac046ce8ed19af8ac08a02e5fc",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V}\n  {F : Finset.{u_1} (Finset.{u_1} V)},\n  @Tuza23.B.{u_1} V inst inst_1 H →\n    @Tuza23.Nonedges.{u_1} V H F →\n      @LE.le.{0} Nat instLENat (@Finset.card.{u_1} (Finset.{u_1} V) F)\n          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) →\n        (∃ t,\n            And\n              (@Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)) t)\n              (t ∉ @Tuza.triangles.{u_1} V inst inst_1 H)) →\n          @Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)))\n              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)))) →\n            And\n              (@Eq.{1} Nat (@Finset.card.{u_1} (Finset.{u_1} V) F)\n                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))\n              (And\n                (@Eq.{1} Nat\n                  (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)))\n                  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n                    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))\n                    (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))))\n                (@Eq.{1} Nat\n                  (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)))\n                  (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n                    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n                      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n                      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H)))\n                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))))))",
+      "explicit_hypotheses": "Exact R2 hypotheses and at least one new triangle",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.InsertionAccounting",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/InsertionAccounting.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/InsertionAccounting.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "401360733507cd667cfb4b7075a1194dffed6bac046ce8ed19af8ac08a02e5fc",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9748360410158057,
+        "peak_tree_rss_bytes": 1564147712,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.InsertionAccounting.log",
+        "completed_utc": "2026-11-16T09:21:55.959526+00:00",
+        "object_sha256": "47cfa640477cce015d50e1704fab7bca5513df86dbb357eea0ac4d017983960b"
+      }
+    },
+    {
+      "target": "bare_page_availability",
+      "declaration": "Tuza23.tight_pair_bare_page",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/BarePages.lean",
+      "formal_source_sha256": "f472ab49170a0f98d1a4d39ccca234c1221c951931ac85c53e2688feab8649f7",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V},\n  @Tuza23.B.{u_1} V inst inst_1 H →\n    ∀ {a b : V},\n      @Ne.{u_1 + 1} V a b →\n        Not (@SimpleGraph.Adj.{u_1} V H a b) →\n          ∀ {f : Finset.{u_1} V},\n            @Eq.{1} Nat\n                (@Tuza.tau.{u_1} V\n                  (@Tuza.triangles.{u_1} V inst inst_1\n                    (@Tuza23.addEdges.{u_1} V inst_1 H\n                      (@Insert.insert.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                        (@Finset.instInsert.{u_1} (Finset.{u_1} V) fun a b => @Finset.decidableEq.{u_1} V inst_1 a b)\n                        (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                          (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) b))\n                        (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                          (@Finset.instSingleton.{u_1} (Finset.{u_1} V)) f)))))\n                (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n                  (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n                    (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n                    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H)))\n                  (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →\n              ∃ x,\n                And (@SimpleGraph.Adj.{u_1} V H a x)\n                  (And (@SimpleGraph.Adj.{u_1} V H b x)\n                    (@Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))\n                      (@Finset.instOrderBot.{u_1} (Finset.{u_1} V))\n                      (@Tuza.edges.{u_1} V\n                        (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                          (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) b\n                            (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) x))))\n                      (@Tuza.support.{u_1} V inst_1 (@Tuza.triangles.{u_1} V inst inst_1 H))))",
+      "explicit_hypotheses": "B(H), one named old nonedge, and exact two-edge cover increment",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.BarePages",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/BarePages.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/BarePages.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "f472ab49170a0f98d1a4d39ccca234c1221c951931ac85c53e2688feab8649f7",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9742187500232831,
+        "peak_tree_rss_bytes": 1587625984,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.BarePages.log",
+        "completed_utc": "2026-11-16T09:21:56.934554+00:00",
+        "object_sha256": "4fa7738118b823f13bf9a35414bccbe8fa60d6a43bdc516e053b430b39b04e12"
+      }
+    },
+    {
+      "target": "cross_page_intersection",
+      "declaration": "Tuza23.page_intersects_bare",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/BarePages.lean",
+      "formal_source_sha256": "f472ab49170a0f98d1a4d39ccca234c1221c951931ac85c53e2688feab8649f7",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H G : SimpleGraph.{u_1} V},\n  @LE.le.{u_1} (SimpleGraph.{u_1} V) (@SimpleGraph.instLE.{u_1} V) H G →\n    @Tuza23.B.{u_1} V inst inst_1 H →\n      @Eq.{1} Nat (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))\n          (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n            (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))\n            (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) →\n        ∀ {e s t : Finset.{u_1} V},\n          @Eq.{1} Nat (@Finset.card.{u_1} V e) (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) →\n            Not (@SimpleGraph.IsNClique.{u_1} V H (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e) →\n              @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                    (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                  (@Tuza.triangles.{u_1} V inst inst_1 G) s →\n                @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                    (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                      (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                    (@Tuza.edges.{u_1} V s) e →\n                  @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                      (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                        (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                      (@Tuza.triangles.{u_1} V inst inst_1 G) t →\n                    @Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V)) (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))\n                        (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.edges.{u_1} V t)\n                        (@Tuza.support.{u_1} V inst_1 (@Tuza.triangles.{u_1} V inst inst_1 H)) →\n                      Not\n                        (@Disjoint.{u_1} (Finset.{u_1} (Finset.{u_1} V))\n                          (@Finset.instPartialOrder.{u_1} (Finset.{u_1} V))\n                          (@Finset.instOrderBot.{u_1} (Finset.{u_1} V)) (@Tuza.edges.{u_1} V s) (@Tuza.edges.{u_1} V t))",
+      "explicit_hypotheses": "Old B, actual containing graph, exact packing increment, one nonedge-containing triangle and one bare triangle",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.BarePages",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/BarePages.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/BarePages.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "f472ab49170a0f98d1a4d39ccca234c1221c951931ac85c53e2688feab8649f7",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 0.9742187500232831,
+        "peak_tree_rss_bytes": 1587625984,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.BarePages.log",
+        "completed_utc": "2026-11-16T09:21:56.934554+00:00",
+        "object_sha256": "4fa7738118b823f13bf9a35414bccbe8fa60d6a43bdc516e053b430b39b04e12"
+      }
+    },
+    {
+      "target": "adjacent_case",
+      "declaration": "Tuza23.adjacent_tight_impossible",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/AdjacentRestoration.lean",
+      "formal_source_sha256": "4614e2ef592fc2023a3596ccde86135f413fd77b3f8b9c6f69e94585599754bd",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V},\n  @Tuza23.B.{u_1} V inst inst_1 H →\n    ∀ {a b c : V},\n      @Ne.{u_1 + 1} V a b →\n        @Ne.{u_1 + 1} V a c →\n          @Ne.{u_1 + 1} V b c →\n            Not (@SimpleGraph.Adj.{u_1} V H a b) →\n              Not (@SimpleGraph.Adj.{u_1} V H a c) →\n                @Eq.{1} Nat\n                    (@Tuza.nu.{u_1} V\n                      (@Tuza.triangles.{u_1} V inst inst_1\n                        (@Tuza23.addEdges.{u_1} V inst_1 H\n                          (@Insert.insert.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                            (@Finset.instInsert.{u_1} (Finset.{u_1} V) fun a b =>\n                              @Finset.decidableEq.{u_1} V inst_1 a b)\n                            (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                              (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) b))\n                            (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                              (@Finset.instSingleton.{u_1} (Finset.{u_1} V))\n                              (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                                (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V)\n                                  c)))))))\n                    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n                      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))\n                      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) →\n                  @Eq.{1} Nat\n                      (@Tuza.tau.{u_1} V\n                        (@Tuza.triangles.{u_1} V inst inst_1\n                          (@Tuza23.addEdges.{u_1} V inst_1 H\n                            (@Insert.insert.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                              (@Finset.instInsert.{u_1} (Finset.{u_1} V) fun a b =>\n                                @Finset.decidableEq.{u_1} V inst_1 a b)\n                              (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                                (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) b))\n                              (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                                (@Finset.instSingleton.{u_1} (Finset.{u_1} V))\n                                (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                                  (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V)\n                                    c)))))))\n                      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n                        (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n                          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n                          (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H)))\n                        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →\n                    False",
+      "explicit_hypotheses": "Two distinct adjacent old nonedges and the forced exact increments",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.AdjacentRestoration",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/AdjacentRestoration.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/AdjacentRestoration.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "4614e2ef592fc2023a3596ccde86135f413fd77b3f8b9c6f69e94585599754bd",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.0829312500136439,
+        "peak_tree_rss_bytes": 1595424768,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.AdjacentRestoration.log",
+        "completed_utc": "2026-11-16T09:21:58.993077+00:00",
+        "object_sha256": "84dce3ea9492338433b828cd89946de9f99119ffc03392eafe41c20f553cb005"
+      }
+    },
+    {
+      "target": "disjoint_case",
+      "declaration": "Tuza23.disjoint_tight_restoration",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/DisjointRestoration.lean",
+      "formal_source_sha256": "a339b13fed0cf91ce726533cadc67687193a8f37137f8d4aea4c413ec85c21b8",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {H : SimpleGraph.{u_1} V},\n  @Tuza23.B.{u_1} V inst inst_1 H →\n    ∀ {a b c d : V},\n      @Ne.{u_1 + 1} V a b →\n        @Ne.{u_1 + 1} V c d →\n          @Disjoint.{u_1} (Finset.{u_1} V) (@Finset.instPartialOrder.{u_1} V) (@Finset.instOrderBot.{u_1} V)\n              (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) b))\n              (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) c\n                (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) d)) →\n            Not (@SimpleGraph.Adj.{u_1} V H a b) →\n              Not (@SimpleGraph.Adj.{u_1} V H c d) →\n                @Eq.{1} Nat\n                    (@Tuza.nu.{u_1} V\n                      (@Tuza.triangles.{u_1} V inst inst_1\n                        (@Tuza23.addEdges.{u_1} V inst_1 H\n                          (@Insert.insert.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                            (@Finset.instInsert.{u_1} (Finset.{u_1} V) fun a b =>\n                              @Finset.decidableEq.{u_1} V inst_1 a b)\n                            (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                              (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) b))\n                            (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                              (@Finset.instSingleton.{u_1} (Finset.{u_1} V))\n                              (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) c\n                                (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V)\n                                  d)))))))\n                    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n                      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H))\n                      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1)))) →\n                  @Eq.{1} Nat\n                      (@Tuza.tau.{u_1} V\n                        (@Tuza.triangles.{u_1} V inst inst_1\n                          (@Tuza23.addEdges.{u_1} V inst_1 H\n                            (@Insert.insert.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                              (@Finset.instInsert.{u_1} (Finset.{u_1} V) fun a b =>\n                                @Finset.decidableEq.{u_1} V inst_1 a b)\n                              (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                                (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) b))\n                              (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                                (@Finset.instSingleton.{u_1} (Finset.{u_1} V))\n                                (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) c\n                                  (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V)\n                                    d)))))))\n                      (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n                        (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n                          (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n                          (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 H)))\n                        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))) →\n                    @Tuza23.B.{u_1} V inst inst_1\n                      (@Tuza23.addEdges.{u_1} V inst_1 H\n                        (@Insert.insert.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                          (@Finset.instInsert.{u_1} (Finset.{u_1} V) fun a b => @Finset.decidableEq.{u_1} V inst_1 a b)\n                          (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) a\n                            (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) b))\n                          (@Singleton.singleton.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                            (@Finset.instSingleton.{u_1} (Finset.{u_1} V))\n                            (@Insert.insert.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instInsert.{u_1} V inst_1) c\n                              (@Singleton.singleton.{u_1, u_1} V (Finset.{u_1} V) (@Finset.instSingleton.{u_1} V) d)))))",
+      "explicit_hypotheses": "Two disjoint old nonedges and the forced exact increments",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.DisjointRestoration",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/DisjointRestoration.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/DisjointRestoration.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "a339b13fed0cf91ce726533cadc67687193a8f37137f8d4aea4c413ec85c21b8",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.0819459579943214,
+        "peak_tree_rss_bytes": 1595785216,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.DisjointRestoration.log",
+        "completed_utc": "2026-11-16T09:22:01.166618+00:00",
+        "object_sha256": "2224f7df899578b0d67606692c6f6b6be63baf1f25cdd0bef4b05da67a318ade"
+      }
+    },
+    {
+      "target": "R2",
+      "declaration": "Tuza23.r2",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/R2.lean",
+      "formal_source_sha256": "79766812d134e499174e4d1fe0cb6051780707a923b9c1df09ec62f1941f1c70",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (H : SimpleGraph.{u_1} V)\n  (F : Finset.{u_1} (Finset.{u_1} V)),\n  @Tuza23.Nonedges.{u_1} V H F →\n    @LE.le.{0} Nat instLENat (@Finset.card.{u_1} (Finset.{u_1} V) F)\n        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) →\n      @Tuza23.B.{u_1} V inst inst_1 H →\n        @Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)))\n            (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n              (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n              (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)))) →\n          @Tuza23.B.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)",
+      "explicit_hypotheses": "ONLY: finite simple H; F at most two distinct old nonedges; B(H); tau(H+F)=2nu(H+F)",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.R2",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/R2.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/R2.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "79766812d134e499174e4d1fe0cb6051780707a923b9c1df09ec62f1941f1c70",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.0755485000263434,
+        "peak_tree_rss_bytes": 1578336256,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.R2.log",
+        "completed_utc": "2026-11-16T09:22:02.242771+00:00",
+        "object_sha256": "5051dca0e8d712224f94e966340df352d6430c7cbe54cf5212c1d378865b2062"
+      }
+    },
+    {
+      "target": "M0",
+      "declaration": "Tuza23.minimal_cs_package",
+      "status": "KERNEL_CHECKED_CONDITIONAL",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/restoration.md",
+        "sha256": "7c6436c694edd930139984d201564645c40ed1f9d62cbceea23b0113aa353d71"
+      },
+      "formal_source": "Tuza23/M0.lean",
+      "formal_source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},\n  @Tuza23.MinimalCS.{u_1} V inst inst_1 G →\n    And (@Finset.Nonempty.{u_1} (Finset.{u_1} V) (@Tuza.triangles.{u_1} V inst inst_1 G))\n      (And\n        (∀ (s : Finset.{u_1} V),\n          @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n              (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n              (@Tuza.triangles.{u_1} V inst inst_1 G) s →\n            ∀ (t : Finset.{u_1} V),\n              @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                  (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                    (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                  (@Tuza.triangles.{u_1} V inst inst_1 G) t →\n                @Tuza06.TriangleConnected.{u_1} V inst inst_1 G s t)\n        (And\n          (∀ (e : Finset.{u_1} V),\n            @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e →\n              @Membership.mem.{u_1, u_1} (Finset.{u_1} V) (Finset.{u_1} (Finset.{u_1} V))\n                (@SetLike.instMembership.{u_1, u_1} (Finset.{u_1} (Finset.{u_1} V)) (Finset.{u_1} V)\n                  (@Finset.instSetLike.{u_1} (Finset.{u_1} V)))\n                (@Tuza.support.{u_1} V inst_1 (@Tuza.triangles.{u_1} V inst inst_1 G)) e)\n          (And\n            (@Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))\n              (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n                (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n                (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))\n            (∀ (e : Finset.{u_1} V),\n              @SimpleGraph.IsNClique.{u_1} V G (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) e →\n                And\n                  (@Eq.{1} Nat\n                    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza.deleteTriangle.{u_1} V G e)))\n                    (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G)))\n                  (@Eq.{1} Nat\n                    (@HAdd.hAdd.{0, 0, 0} Nat Nat Nat (@instHAdd.{0} Nat instAddNat)\n                      (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza.deleteTriangle.{u_1} V G e)))\n                      (@OfNat.ofNat.{0} Nat (nat_lit 1) (instOfNatNat (nat_lit 1))))\n                    (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n                      (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n                      (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 G))))))))",
+      "explicit_hypotheses": "MinimalCS: G fails unrestricted CS, every strict same-vertex edge-subgraph satisfies CS",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "Proper-subgraph CS / existence of a failure is explicit in the conditional statement; not a universal CS proof",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.M0",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/M0.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/M0.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.1823061250033788,
+        "peak_tree_rss_bytes": 1602109440,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.M0.log",
+        "completed_utc": "2026-11-16T09:22:03.426131+00:00",
+        "object_sha256": "953dd4b72dbe951a91da489ba1b19b561e3ab0b04d623f84944f12bd6d5c7656"
+      }
+    },
+    {
+      "target": "minimum_failure_exists",
+      "declaration": "Tuza23.exists_minimal_cs",
+      "status": "KERNEL_CHECKED_CONDITIONAL",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/restoration.md",
+        "sha256": "7c6436c694edd930139984d201564645c40ed1f9d62cbceea23b0113aa353d71"
+      },
+      "formal_source": "Tuza23/M0.lean",
+      "formal_source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] {G : SimpleGraph.{u_1} V},\n  Not (@Tuza23.CS.{u_1} V inst inst_1 G) →\n    ∃ H,\n      And (@LE.le.{u_1} (SimpleGraph.{u_1} V) (@SimpleGraph.instLE.{u_1} V) H G)\n        (@Tuza23.MinimalCS.{u_1} V inst inst_1 H)",
+      "explicit_hypotheses": "An explicit CS failure on a fixed finite vertex type",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "Proper-subgraph CS / existence of a failure is explicit in the conditional statement; not a universal CS proof",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.M0",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/M0.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/M0.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.1823061250033788,
+        "peak_tree_rss_bytes": 1602109440,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.M0.log",
+        "completed_utc": "2026-11-16T09:22:03.426131+00:00",
+        "object_sha256": "953dd4b72dbe951a91da489ba1b19b561e3ab0b04d623f84944f12bd6d5c7656"
+      }
+    },
+    {
+      "target": "hereditary_minimum_failure",
+      "declaration": "Tuza23.exists_minimal_cs_in_class",
+      "status": "KERNEL_CHECKED_CONDITIONAL",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/restoration.md",
+        "sha256": "7c6436c694edd930139984d201564645c40ed1f9d62cbceea23b0113aa353d71"
+      },
+      "formal_source": "Tuza23/M0.lean",
+      "formal_source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (P : SimpleGraph.{u_1} V → Prop),\n  (∀ (G H : SimpleGraph.{u_1} V), @LE.le.{u_1} (SimpleGraph.{u_1} V) (@SimpleGraph.instLE.{u_1} V) H G → P G → P H) →\n    ∀ {G : SimpleGraph.{u_1} V},\n      P G →\n        Not (@Tuza23.CS.{u_1} V inst inst_1 G) →\n          ∃ H,\n            And (@LE.le.{u_1} (SimpleGraph.{u_1} V) (@SimpleGraph.instLE.{u_1} V) H G)\n              (And (P H) (@Tuza23.MinimalCS.{u_1} V inst inst_1 H))",
+      "explicit_hypotheses": "An explicit failure in a stated edge-subgraph-hereditary class on the same finite vertex type",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "Proper-subgraph CS / existence of a failure is explicit in the conditional statement; not a universal CS proof",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.M0",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/M0.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/M0.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "5c26e9b5ac4a2828990bd7579820aed303c6aeb44060260d6e88c6ec9ec1de4d",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.1823061250033788,
+        "peak_tree_rss_bytes": 1602109440,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.M0.log",
+        "completed_utc": "2026-11-16T09:22:03.426131+00:00",
+        "object_sha256": "953dd4b72dbe951a91da489ba1b19b561e3ab0b04d623f84944f12bd6d5c7656"
+      }
+    },
+    {
+      "target": "exact_R2_type_guard",
+      "declaration": "Tuza23.Controls.exact_r2_type",
+      "status": "KERNEL_CHECKED",
+      "ordinary_or_prior_formal_source": {
+        "path": "sources/tuza22/notes/r2_proof_v1.md",
+        "sha256": "c636a53ea94cfcb35382b52c5637321a788e90d4185141ee71036fd89ebcdd13"
+      },
+      "formal_source": "Tuza23/ControlRestoration.lean",
+      "formal_source_sha256": "d5c96a50f33837e8a82ce47d66e9c6dce0be1023fb9582fa7c3550e15427181c",
+      "exact_type": "∀ {V : Type u_1} [inst : Fintype.{u_1} V] [inst_1 : DecidableEq.{u_1 + 1} V] (H : SimpleGraph.{u_1} V)\n  (F : Finset.{u_1} (Finset.{u_1} V)),\n  @Tuza23.Nonedges.{u_1} V H F →\n    @LE.le.{0} Nat instLENat (@Finset.card.{u_1} (Finset.{u_1} V) F)\n        (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2))) →\n      @Tuza23.B.{u_1} V inst inst_1 H →\n        @Eq.{1} Nat (@Tuza.tau.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)))\n            (@HMul.hMul.{0, 0, 0} Nat Nat Nat (@instHMul.{0} Nat instMulNat)\n              (@OfNat.ofNat.{0} Nat (nat_lit 2) (instOfNatNat (nat_lit 2)))\n              (@Tuza.nu.{u_1} V (@Tuza.triangles.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)))) →\n          @Tuza23.B.{u_1} V inst inst_1 (@Tuza23.addEdges.{u_1} V inst_1 H F)",
+      "explicit_hypotheses": "The exact required exported type, including old B",
+      "transitive_project_axioms": [],
+      "standard_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "unproved_mathematical_inputs": "None beyond stated hypotheses",
+      "verification_receipt": "verification/independent-20261116T092129409939Z/summary.json",
+      "declaration_audit": "verification/independent-20261116T092129409939Z/declarations.json",
+      "module_build_receipt": {
+        "module": "Tuza23.ControlRestoration",
+        "command": [
+          "PRIVATE_PATH_REMOVED",
+          "-j1",
+          "-M2200",
+          "-o",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/.lake/build/lib/lean/Tuza23/ControlRestoration.olean",
+          "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean/Tuza23/ControlRestoration.lean"
+        ],
+        "cwd": "problems/TUZA-23/verification/independent-20261116T092129409939Z/clean",
+        "source_sha256": "d5c96a50f33837e8a82ce47d66e9c6dce0be1023fb9582fa7c3550e15427181c",
+        "exit_code": 0,
+        "limit_reason": null,
+        "elapsed_seconds": 1.3020885000005364,
+        "peak_tree_rss_bytes": 1612513280,
+        "log": "problems/TUZA-23/verification/independent-20261116T092129409939Z/logs/Tuza23.ControlRestoration.log",
+        "completed_utc": "2026-11-16T09:22:11.442093+00:00",
+        "object_sha256": "79d62cc49c7f2bd4754db91ae7c12adf26bbedb695882ca2199043559fd1a312"
+      }
+    },
+    {
+      "target": "forest_cover_CS",
+      "status": "ORDINARY_ONLY",
+      "formal_declaration": null,
+      "exact_statement": "For every finite simple G, existence of ANY actual-edge triangle cover C with selectedGraph(C).IsAcyclic implies CS(G).",
+      "plan": "FOREST_FORMALIZATION_PLAN.md",
+      "unformalized_obligations": "Forest matching/alternating-reach interface; anchored construction; complete perfect/nonperfect apex-forest footprint exclusions; assembly",
+      "ordinary_source": {
+        "path": "sources/tuza22/notes/forest_triangle_cover_cs_v1.md",
+        "sha256": "c4c50c12294a609d00ea49fee692c3328f489826173d07defc2e08e040f63893"
+      }
+    },
+    {
+      "target": "unrestricted_Tuza_and_universal_CS",
+      "status": "INCOMPLETE",
+      "meaning": "OPEN. Not proved or refuted by this mission; no universal blocker is assumed in R2."
+    }
+  ]
+}

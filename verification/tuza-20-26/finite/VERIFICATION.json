@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-11-17T19:02:58.230660+00:00",
+  "completed_utc": "2026-11-17T19:03:10.769825+00:00",
+  "missions": [
+    "20",
+    "21",
+    "22",
+    "25",
+    "26"
+  ],
+  "commands": 21,
+  "runner_sha256": "92c75c1be201adfd4f3b3dd04713709ad11a55e9c5cdb2846de56a172caf6b82",
+  "sources_unchanged": true,
+  "source_manifest": "SOURCE_MANIFEST.json",
+  "adaptations": "ADAPTATIONS.json",
+  "commands_receipt": "COMMANDS.json",
+  "max_process_tree_rss_bytes": 176357376,
+  "scope": "Fresh execution of selected independent finite validators, bounded exact domains and explicitly supplied certificates; not all historical searches, no new all-size theorem, no Lean build, no external human review."
+}

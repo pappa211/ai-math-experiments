@@ -1,0 +1,1 @@
+../../../../TUZA-22/notes/cover_component_interaction_v1.md

@@ -1,0 +1,9 @@
+{
+  "result": "EXPECTED_API_TYPE_REJECTION",
+  "receipt": "operations/controls-negative-missing-B-20261116T092030895797Z",
+  "scope": "Omitting old B fails application to exact exported R2; no claim of mathematical independence",
+  "excluded_from_accepted_library": true,
+  "expected_exit_code": 1,
+  "observed_exit_code": 1,
+  "diagnostic_verified": true
+}

@@ -1,0 +1,32 @@
+problems/TUZA-23/Tuza23/M0.lean:121:63: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+F : Finset (Finset V)
+hF : TriangleClosed G F
+hgoodF : Good (supportGraph G F)
+hgoodR : Good (supportGraph G (triangles G \ F))
+hR : TriangleClosed G (triangles G \ F)
+hsplit : triangles G = F ∪ triangles G \ F
+hd : Disjoint (support F) (support (triangles G \ F))
+hvF : Triangles F
+hvR : Triangles (triangles G \ F)
+⊢ nu F + nu (triangles G \ F) = nu F + nu ((F ∪ triangles G \ F) \ F)
+problems/TUZA-23/Tuza23/M0.lean:123:67: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+F : Finset (Finset V)
+hF : TriangleClosed G F
+hgoodF : Good (supportGraph G F)
+hgoodR : Good (supportGraph G (triangles G \ F))
+hR : TriangleClosed G (triangles G \ F)
+hsplit : triangles G = F ∪ triangles G \ F
+hd : Disjoint (support F) (support (triangles G \ F))
+hvF : Triangles F
+hvR : Triangles (triangles G \ F)
+hnu : nu (triangles G) = nu F + nu (triangles G \ F)
+⊢ tau F + tau (triangles G \ F) = tau F + tau ((F ∪ triangles G \ F) \ F)
+problems/TUZA-23/Tuza23/M0.lean:256:10: error(lean.unknownIdentifier): Unknown identifier `hn`

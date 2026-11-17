@@ -1,0 +1,296 @@
+{
+  "graph_universe": "networkx graph_atlas_g, at most 7 vertices, one isomorphism representative; all graph edges for N empty. Named controls: N empty and every singleton N, each admissible e.",
+  "graphs": 1080,
+  "admissible_branches": 14461,
+  "inadmissible_branches": 0,
+  "packing_stable_branches": 8778,
+  "packing_stable_positive_jump": 2653,
+  "max_surcharge": 3,
+  "failures": {
+    "stable_surcharge_at_most_one": 97
+  },
+  "elapsed_seconds": 35.773372173309326
+}
+first witnesses [
+  {
+    "failed": [
+      "stable_surcharge_at_most_one"
+    ],
+    "source": "atlas_195",
+    "n": 6,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "triangles": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        2,
+        5
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        3,
+        4,
+        5
+      ]
+    ],
+    "N": 0,
+    "e": 1,
+    "edge": [
+      0,
+      2
+    ],
+    "base": {
+      "status": "EXACT",
+      "nu": 2,
+      "tau": 3,
+      "packing": [
+        1,
+        4
+      ],
+      "cover": 322,
+      "packing_states": 12,
+      "cover_states": 15
+    },
+    "deletion": {
+      "status": "EXACT",
+      "nu": 2,
+      "tau": 2,
+      "packing": [
+        0,
+        2
+      ],
+      "cover": 320,
+      "packing_states": 7,
+      "cover_states": 10
+    },
+    "forbid": {
+      "status": "EXACT",
+      "nu": 3,
+      "tau": 4,
+      "packing": [
+        0,
+        2,
+        4
+      ],
+      "cover": 1169,
+      "packing_states": 10,
+      "cover_states": 13
+    },
+    "delta": 1,
+    "surcharge": 2
+  },
+  {
+    "failed": [
+      "stable_surcharge_at_most_one"
+    ],
+    "source": "atlas_195",
+    "n": 6,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "triangles": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        5
+      ],
+      [
+        0,
+        2,
+        5
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        3,
+        4,
+        5
+      ]
+    ],
+    "N": 0,
+    "e": 6,
+    "edge": [
+      1,
+      5
+    ],
+    "base": {
+      "status": "EXACT",
+      "nu": 2,
+      "tau": 3,
+      "packing": [
+        1,
+        4
+      ],
+      "cover": 322,
+      "packing_states": 12,
+      "cover_states": 15
+    },
+    "deletion": {
+      "status": "EXACT",
+      "nu": 2,
+      "tau": 2,
+      "packing": [
+        0,
+        2
+      ],
+      "cover": 258,
+      "packing_states": 5,
+      "cover_states": 5
+    },
+    "forbid": {
+      "status": "EXACT",
+      "nu": 4,
+      "tau": 4,
+      "packing": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "cover": 1169,
+      "packing_states": 13,
+      "cover_states": 21
+    },
+    "delta": 2,
+    "surcharge": 2
+  }
+]

@@ -1,0 +1,19 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent exact-defect-two empty-link descent review
+
+Status: ACCEPTED ORDINARY on the EXACT branch tau(W)=2m-2, with codegree exactly two at uv and the stated minimum-Q hypotheses. This neither supplies that lower bound in the general empty-link case nor classifies a larger-defect W. No numerical or Lean verification.
+
+Bound source: notes/matching26_empty_link_defect_two_descent_v1.md SHA-256 afbdc0ccc8b01057ed649cf39cfbad57a1bda231182737b1ebc4c5090ef1762b.
+
+The marked outside graph has nu(W)=m from the actual all-outside maximum L packing. Every endpoint rim except xy is critical by the already accepted literal endpoint-triangle plus reserved-page augmentation. This does not require W to be connected or resilient.
+
+For any ineligible critical W edge r, exact defect two and proper CS force S=W-r to be B with nu=m-1 and tau=2m-2. A minimum W cover of that same size spends its entire budget on minimum covers of the edge-disjoint old tight components. Therefore no restored r-page can have both spokes background. Every maximum W packing has an old full packing plus exactly one r-page. These conclusions include arbitrary old background and vertex sharing.
+
+For at least two r-pages, a given old clique is touched by at most one page: a whole base footprint has at most one edge, and that base together with the footprint determines its unique apex. Choose another page to avoid the clique containing a prescribed old supported edge g, pack that clique avoiding g, and pack the others avoiding their single page footprints. This gives a maximum W packing avoiding g. A background old edge occurs in at most one page and is avoided the same way. Thus r is the only critical edge. Minimum degree four supplies a u-exclusive neighbor, whose Q edge to u has at least two actual triangles and hence two distinct critical W rims; neither can be xy. Contradiction.
+
+For one r-page T, the critical-edge graph is exactly T plus the opposite edge from each supporting K4. The full local packing check is correct: K4 packings avoiding one footprint all use its opposite edge, while every other edge can be avoided with that footprint; K5 avoids any prescribed pair. Untouched pieces avoid a prescribed edge and unrelated old background is unused. A maximum containing the sole page gives necessity for its three edges. Lower packing bounds after any deletion follow from old S resilience. The extra opposite edges avoid T and each other: two supporting cliques already share the page apex and cannot share a second vertex without merging through an old edge and forcing the absent base. Thus each extra edge is isolated in the critical graph, even with other allowed old-component identifications.
+
+Each endpoint has an exclusive neighbor by degree at least four and common-neighbor set exactly {x,y}. Such a vertex has at least two critical incident W rims, so it must lie on T and both its T neighbors must also be neighbors of that endpoint. Repeating for the other endpoint puts all three T vertices in their common-neighbor set, contradiction. This excludes every ineligible critical edge of exact-defect-two W.
+
+Consequently each critical deletion gives the actual defect-one response nu=m-1,tau=2m-3. Resilience of that residual is not established here. If it is resilient, only its unique active smaller defect-one component qualifies for fixed-G minimum-Q naming. If it is fragile, the further critical deletion is B and W restores two edges with gains (2,2), exactly as stated. Neither subsequent reconstruction nor the larger-defect W branch is closed by this review.

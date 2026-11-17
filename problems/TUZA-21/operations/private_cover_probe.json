@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T18:09:22.120675+00:00",
+  "end_utc": "2026-11-15T18:09:22.242787+00:00",
+  "seconds": 0.12211298942565918,
+  "command": [
+    "PRIVATE_PATH_REMOVED",
+    "scripts/private_cover_probe.py"
+  ],
+  "pid": 54701,
+  "peak_sampled_tree_rss_mib": 4.296875,
+  "rss_ceiling_mib": 2200,
+  "wall_seconds_cap": 180.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

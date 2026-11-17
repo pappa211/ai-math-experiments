@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-15T18:17:50.899984+00:00",
+  "end_utc": "2026-11-15T18:17:51.021982+00:00",
+  "seconds": 0.12200117111206055,
+  "command": [
+    "python",
+    "scripts/pk_successor_probe.py"
+  ],
+  "pid": 55494,
+  "peak_sampled_tree_rss_mib": 4.296875,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 90.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}

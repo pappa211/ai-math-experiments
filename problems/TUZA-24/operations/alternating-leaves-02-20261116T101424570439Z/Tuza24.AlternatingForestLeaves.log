@@ -1,0 +1,30 @@
+problems/TUZA-24/Tuza24/AlternatingForestLeaves.lean:12:19: error: Tactic `introN` failed: There are no additional binders or `let` bindings in the goal to introduce
+
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+⊢ Std.Symm fun a b => G.Adj a b ∧ (Exposable G a ∨ Exposable G b)
+problems/TUZA-24/Tuza24/AlternatingForestLeaves.lean:13:23: error: Tactic `introN` failed: There are no additional binders or `let` bindings in the goal to introduce
+
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+⊢ Std.Irrefl fun a b => G.Adj a b ∧ (Exposable G a ∨ Exposable G b)
+problems/TUZA-24/Tuza24/AlternatingForestLeaves.lean:35:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+problems/TUZA-24/Tuza24/AlternatingForestLeaves.lean:36:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`

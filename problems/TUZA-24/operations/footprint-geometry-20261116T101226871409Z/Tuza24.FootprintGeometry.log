@@ -1,0 +1,100 @@
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:26:11: error(lean.unknownIdentifier): Unknown identifier `erase_eq_of_not_mem`
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:26:4: error: Type mismatch: After simplification, term
+  have this := Decidable.byContradiction fun a => apexForest_clique_card_le_three._proof_1_2 hc a;
+  this
+ has type
+  #(S.erase w) ≤ 3
+but is expected to have type
+  #S ≤ 3
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:84:45: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+a b z : V
+hab : a ≠ b
+hbase : ¬H.Adj a b
+k : Finset V
+hk : H.IsClique ↑k
+he : {a, z} ∈ edges {a, b, z} ∩ edges k
+hek : {a, z} ⊆ k
+hf : {a, b} ∈ edges {a, b, z} ∩ edges k
+hfk : {a, b} ⊆ k
+⊢ b = a ∨ b = z
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:84:45: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+a b z : V
+hab : a ≠ b
+hbase : ¬H.Adj a b
+k : Finset V
+hk : H.IsClique ↑k
+he : {a, z} ∈ edges {a, b, z} ∩ edges k
+hek : {a, z} ⊆ k
+hf : {b, z} ∈ edges {a, b, z} ∩ edges k
+hfk : {b, z} ⊆ k
+⊢ b = a ∨ b = z
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:84:29: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+a b z : V
+hab : a ≠ b
+hbase : ¬H.Adj a b
+k : Finset V
+hk : H.IsClique ↑k
+he : {b, z} ∈ edges {a, b, z} ∩ edges k
+hek : {b, z} ⊆ k
+hf : {a, b} ∈ edges {a, b, z} ∩ edges k
+hfk : {a, b} ⊆ k
+⊢ a = b ∨ a = z
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:84:29: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+a b z : V
+hab : a ≠ b
+hbase : ¬H.Adj a b
+k : Finset V
+hk : H.IsClique ↑k
+he : {b, z} ∈ edges {a, b, z} ∩ edges k
+hek : {b, z} ⊆ k
+hf : {a, z} ∈ edges {a, b, z} ∩ edges k
+hfk : {a, z} ⊆ k
+⊢ a = b ∨ a = z
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:105:33: error: Application type mismatch: The argument
+  hg
+has type
+  g ∈ A
+of sort `Prop` but is expected to have type
+  Finset V
+of sort `Type u_1` in the application
+  card_le_one.mp hA hg
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:106:33: error: Application type mismatch: The argument
+  hg
+has type
+  g ∈ B
+of sort `Prop` but is expected to have type
+  Finset V
+of sort `Type u_1` in the application
+  card_le_one.mp hB hg
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:111:31: error: Application type mismatch: The argument
+  hgA
+has type
+  g ∈ A
+of sort `Prop` but is expected to have type
+  Finset V
+of sort `Type u_1` in the application
+  card_le_one.mp hA hgA
+problems/TUZA-24/Tuza24/FootprintGeometry.lean:118:31: error: Application type mismatch: The argument
+  hgB
+has type
+  g ∈ B
+of sort `Prop` but is expected to have type
+  Finset V
+of sort `Type u_1` in the application
+  card_le_one.mp hB hgB

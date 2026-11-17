@@ -1,0 +1,9 @@
+progress 100 unknown 0 seconds 1.76
+progress 200 unknown 0 seconds 3.67
+progress 300 unknown 0 seconds 5.01
+progress 400 unknown 0 seconds 6.67
+progress 500 unknown 0 seconds 8.47
+progress 600 unknown 0 seconds 10.13
+progress 700 unknown 0 seconds 11.67
+STRUCTURAL_HIT K5minus01 4 (0, 1) 3 5 [(0, 5), (0, 6), (1, 5), (1, 6)]
+done 798 unknown 0 hits 1 elapsed 13.4159397080075

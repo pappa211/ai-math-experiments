@@ -1,0 +1,5 @@
+sources/public/papers/tuza-five-degenerate/main.md:3: trailing whitespace.
++**AI-developed mathematical research report — AI Math Experiments**  
+sources/public/papers/tuza-five-degenerate/main.md:610: trailing whitespace.
++This is an explicitly AI-developed mathematical research experiment and technical report. The [public archive](../../problems/TUZA-06/README.md) [7] provides the ordinary proof records, exact Lean sources, finite certificates, reproduction instructions and internal review records. The title-page disclosure identifies the AI development and the human participant's coordination role. Internal AI reviews and kernel checking do not constitute external specialist peer review or establish historical priority. Published results used here retain their human authors' attribution. 
+sources/tuza22/review/coordinator_research_reviews_0408.md:53: new blank line at EOF.

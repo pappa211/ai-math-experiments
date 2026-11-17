@@ -1,0 +1,19 @@
+{
+  "module": "Tuza23.FourSet",
+  "cmd": [
+    "PRIVATE_PATH_REMOVED",
+    "-j1",
+    "-M2200",
+    "-o",
+    "problems/TUZA-23/.lake/build/lib/lean/Tuza23/FourSet.olean",
+    "problems/TUZA-23/Tuza23/FourSet.lean"
+  ],
+  "cwd": "problems/TUZA-23",
+  "lean_path": "problems/TUZA-23/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/mathlib/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/plausible/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/LeanSearchClient/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/importGraph/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/proofwidgets/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/aesop/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Qq/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/batteries/.lake/build/lib/lean:problems/TUZA-23/.lake/packages/Cli/.lake/build/lib/lean",
+  "source_sha256": "e73a1210375f33a5c89a6471957e76b63d4804dd762e3967644a8b1ba25e7469",
+  "elapsed_seconds": 2.3880754170240834,
+  "peak_process_tree_rss_bytes": 1583218688,
+  "exit_code": 1,
+  "limit_reason": null,
+  "completed_utc": "2026-11-16T09:11:20.224329+00:00"
+}

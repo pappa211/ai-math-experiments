@@ -1,0 +1,32 @@
+problems/TUZA-24/Tuza24/ControlsMatching.lean:12:2: error: failed to synthesize
+  Decidable
+    (((∀ e ∈ ∅, ⊥.IsNClique 2 e) ∧ ∀ e ∈ ∅, ∀ f ∈ ∅, e ≠ f → Disjoint e f) ∧
+      (∀ (e : Finset (Fin 1)), ⊥.IsNClique 2 e → e ∉ ∅ → ¬Disjoint e ∅) ∧ #∅ ≤ #∅ ∧ (0 ∈ ∅.biUnion id → 0 ∈ ∅))
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+problems/TUZA-24/Tuza24/ControlsMatching.lean:20:4: error: failed to synthesize
+  Decidable
+    (((∀ e ∈ {{1, 2}}, ⊤.IsNClique 2 e) ∧ ∀ e ∈ {{1, 2}}, ∀ f ∈ {{1, 2}}, e ≠ f → Disjoint e f) ∧
+      (∀ (e : Finset (Fin 3)), ⊤.IsNClique 2 e → e ∉ {{1, 2}} → ¬Disjoint e {0}) ∧
+        #{0} ≤ #{{1, 2}} ∧ (0 ∈ {{1, 2}}.biUnion id → 0 ∈ {0}))
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+problems/TUZA-24/Tuza24/ControlsMatching.lean:37:2: error: failed to synthesize
+  Decidable
+    (((∀ e ∈ {{0, 1}, {2, 3}}, (Controls.edgeGraph {{0, 1}, {1, 2}, {2, 3}, {0, 3}}).IsNClique 2 e) ∧
+        ∀ e ∈ {{0, 1}, {2, 3}}, ∀ f ∈ {{0, 1}, {2, 3}}, e ≠ f → Disjoint e f) ∧
+      (∀ (e : Finset (Fin 4)),
+          (Controls.edgeGraph {{0, 1}, {1, 2}, {2, 3}, {0, 3}}).IsNClique 2 e →
+            e ∉ {{0, 1}, {2, 3}} → ¬Disjoint e {0, 2}) ∧
+        #{0, 2} ≤ #{{0, 1}, {2, 3}} ∧ (0 ∈ {{0, 1}, {2, 3}}.biUnion id → 0 ∈ {0, 2}))
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.
+problems/TUZA-24/Tuza24/ControlsMatching.lean:44:4: error: failed to synthesize
+  Decidable
+    ((∀ e ∈ {{1, 2}},
+        { Adj := fun a b => (Controls.edgeGraph {{0, 1}, {1, 2}, {2, 3}, {0, 3}}).Adj a b ∧ a ∉ {0} ∧ b ∉ {0},
+              symm := ⋯, loopless := ⋯ }.IsNClique
+          2 e) ∧
+      ∀ e ∈ {{1, 2}}, ∀ f ∈ {{1, 2}}, e ≠ f → Disjoint e f)
+
+Hint: Additional diagnostic information may be available using the `set_option diagnostics true` command.

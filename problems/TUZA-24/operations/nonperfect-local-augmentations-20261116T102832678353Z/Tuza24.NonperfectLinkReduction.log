@@ -1,0 +1,108 @@
+problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean:18:8: error: Tactic `rewrite` failed: Did not find an occurrence of the pattern
+  #((filter (G.Adj v) univ).erase w)
+in the target expression
+  4 ≤ #((peelNeighbors G univ v).erase w)
+
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+hG : MinimalCS G
+v w : V
+hvw : G.Adj v w
+hF : (isolate (linkGraph G v) {w}).IsAcyclic
+M : Finset (Finset V)
+hM : MaximumMatching (isolate (linkGraph G v) {w}) M
+hdef : 2 * #M < #((peelNeighbors G univ v).erase w)
+hn : 5 ≤ #(peelNeighbors G univ v)
+⊢ 4 ≤ #((peelNeighbors G univ v).erase w)
+problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean:55:25: error: don't know how to synthesize implicit argument `v`
+  @minimal_forest_link_active V inst✝¹ inst✝ G hG (?m.115 u) w u hu
+context:
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+hG : MinimalCS G
+v w a b : V
+hvw : G.Adj v w
+hF : (isolate (linkGraph G v) {w}).IsAcyclic
+M : Finset (Finset V)
+hM : MaximumMatching (isolate (linkGraph G v) {w}) M
+hdef : 2 * #M < #((peelNeighbors G univ v).erase w)
+he : {a, b} ∈ M
+ht : {a, b, w} ∈ triangles G
+F : SimpleGraph V := ⋯
+heF : F.IsNClique 2 {a, b}
+hab : a ≠ b
+habF : F.Adj a b
+u : V
+hu : u ∈ (peelNeighbors G univ (?m.115 u)).erase w
+⊢ V
+problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean:55:19: error(lean.inferBinderTypeFailed): Failed to infer type of binder `hu`
+problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean:55:7: error: failed to infer `have` declaration type
+problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean:49:79: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+hG : MinimalCS G
+v w a b : V
+hvw : G.Adj v w
+hF : (isolate (linkGraph G v) {w}).IsAcyclic
+M : Finset (Finset V)
+hM : MaximumMatching (isolate (linkGraph G v) {w}) M
+hdef : 2 * #M < #((peelNeighbors G univ v).erase w)
+he : {a, b} ∈ M
+ht : {a, b, w} ∈ triangles G
+F : SimpleGraph V := isolate (linkGraph G v) {w}
+heF : F.IsNClique 2 {a, b}
+hab : a ≠ b
+habF : F.Adj a b
+⊢ False
+problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean:97:25: error: don't know how to synthesize implicit argument `v`
+  @minimal_forest_link_active V inst✝¹ inst✝ G hG (?m.122 u) w u hu
+context:
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+hG : MinimalCS G
+v w a b : V
+hvw : G.Adj v w
+hF : (isolate (linkGraph G v) {w}).IsAcyclic
+M : Finset (Finset V)
+hM : MaximumMatching (isolate (linkGraph G v) {w}) M
+hdef : 2 * #M < #((peelNeighbors G univ v).erase w)
+he : {a, b} ∈ M
+hnoa : ∀ t ∈ triangles (linkGraph G v), a ∉ t
+hnob : ∀ t ∈ triangles (linkGraph G v), b ∉ t
+F : SimpleGraph V := ⋯
+heF : F.IsNClique 2 {a, b}
+hab : a ≠ b
+habF : F.Adj a b
+u : V
+hu : u ∈ (peelNeighbors G univ (?m.122 u)).erase w
+⊢ V
+problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean:97:19: error(lean.inferBinderTypeFailed): Failed to infer type of binder `hu`
+problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean:97:7: error: failed to infer `have` declaration type
+problems/TUZA-24/Tuza24/NonperfectLinkReduction.lean:91:58: error: unsolved goals
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+G : SimpleGraph V
+hG : MinimalCS G
+v w a b : V
+hvw : G.Adj v w
+hF : (isolate (linkGraph G v) {w}).IsAcyclic
+M : Finset (Finset V)
+hM : MaximumMatching (isolate (linkGraph G v) {w}) M
+hdef : 2 * #M < #((peelNeighbors G univ v).erase w)
+he : {a, b} ∈ M
+hnoa : ∀ t ∈ triangles (linkGraph G v), a ∉ t
+hnob : ∀ t ∈ triangles (linkGraph G v), b ∉ t
+F : SimpleGraph V := isolate (linkGraph G v) {w}
+heF : F.IsNClique 2 {a, b}
+hab : a ≠ b
+habF : F.Adj a b
+⊢ False

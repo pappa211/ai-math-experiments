@@ -1,0 +1,12 @@
+{
+  "identity": "TUZA22 independent targeted restoration discriminator v1",
+  "seed": 2215112026,
+  "elapsed_seconds": 21.790965583000798,
+  "case_count": 1145,
+  "unknown": 0,
+  "tight": 24,
+  "tight_non_B": 0,
+  "domain": "Sampled B bases on11-14 vertices with actual triangle-free background and one/two/triangle-three added edges; NOT exhaustive",
+  "per_instance_seconds": 0.75,
+  "internal_search_seconds": 240
+}

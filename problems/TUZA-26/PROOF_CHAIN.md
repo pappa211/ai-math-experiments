@@ -1,0 +1,53 @@
+> **Editorial scope correction (17 November 2026):** the unqualified “global R” sufficiency sentence below is not a claim about the broader R-F candidate. Only the explicitly defined R12 route is justified here; see [the rigidity clarification](PUBLICATION_STATUS.md#clarification-of-the-rigidity-route). The historical text is retained.
+
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# TUZA-26 proof chain
+
+Live synthesis, 2026-11-17. Universal Tuza, universal combined CS and global defect-one rigidity R remain OPEN. All triangles are actual graph triangles, all packings are edge-disjoint, and all restoration arguments retain background edges. B means literal K4/K5 supports of components connected through shared triangle edges. Defect is delta=2nu-tau; defect one satisfies Tuza.
+
+## Archived starting arrows and the two universes
+
+At the exact archived scopes, a minimum-edge CS failure G is tight, non-B, triangle-supported, triangle-connected and two-edge packing-resilient. Write nu(G)=k and tau(G)=2k. Every actual single-triangle residual G-T has nu=k-1, tau=2k-3, connected resilient defect-one triangle support, and every-triangle extension. Strict triangle restoration excludes frozen C12 as its support. Two edge-disjoint actual triangles extend simultaneously. These are ordinary archived dependencies, selectively reconstructed during this mission; the full chain has not received a new Lean verification.
+
+The wider minimum-Q universe is different: minimize supported-edge count among connected resilient defect-one supports outside C12 inside proper edge-subgraphs of this fixed G. It is nonempty by the preceding parent facts. Proper-subgraph CS classifies defect ZERO only. The separate Q minimum names strictly smaller qualifying connected resilient defect-one supports, and nothing else. Q does not inherit a missing-triangle parent or arbitrary parent properties. Conversely, arbitrary actual G residuals do not inherit Q's minimum degree, boundary exclusions or minimality.
+
+## Wider-Q route: accepted noncircular deductions
+
+1. The archived two-edge-B classification excludes such a deletion in Q. The ineligible-edge descent then names its smaller active defect-one component; exact neutral edge insertion over C12 plus tight pieces gives a contradiction. Thus every Q edge belongs to a minimum cover. Every packing-blocker pair is jointly minimum-cover eligible and leaves defect one.
+2. A fragile blocker residual gives B after restoring three actual edges with gains (2,3). All five three-edge shapes are paid: triangle, star, P4, matching, and P3 plus a disjoint edge. Ordinary domain reductions and independently replayed finite interfaces are distinguished in the status matrix. Every blocker residual is resilient.
+3. Completion-free degree-three wedge and simplicial reductions give minimum degree four. Complete tight-piece boundary and K5 triangle-leaf payments remove all tight components from a blocker residual. The smaller active C12 support then has complete disjoint/adjacent two-edge reconstruction, independently replayed and reviewed. Hence Q has NO blocker pair: it is two-edge packing-resilient. The order is acyclic; later degree-four results are not used here.
+4. Two-edge resilience gives every-triangle extension and separately forbids B after triangle deletion. Counting with proper CS permits defects 0,1,2; zero is excluded only by that no-B lemma and the equality clause of proper CS. The exact hypotheses and source are in notes/defect_zero_triangle_exclusion_dependency.md and reviews/opening_defect_zero_dependency_review.md.
+5. The triangle-plus-critical-edge B branch is excluded in Q. Complete tight boundaries and named triangle restoration then exclude every defect-one triangle residual. Thus every Q-T has defect TWO, and each actual triangle lies wholly in some minimum Q cover.
+6. Every Q-e is itself connected, supported, single-edge resilient, with (nu,tau)=(nu(Q),2nu(Q)-2). Its defect-two support is NOT named. If e=uv and uvx is a page, P_x={ux,vx} is a jointly cover-eligible blocker in K=Q-e, and K-P_x has (nu,tau)=(nu(Q)-1,2nu(Q)-4). Each page has a compatible partner. No minimum K cover meets all restored pages.
+7. These marked predecessors enable actual payments: complete-boundary strip and crossing augmentations; cap/compulsory-spine reconstruction; all three degree-four link exclusions; and the uniform K2,t link exclusion with optional hub edge. Consequently Q has minimum degree at least FIVE and every vertex link has vertex-cover number at least three. Exact codegree-two dual analysis forces some edge of codegree at least three. It does not force an edge of codegree two.
+8. At fixed outside packing, every profitable release compresses to a singleton at codegree two, or at most codegree-minus-one doubly supplying labels at arbitrary codegree, keeping physical rim conflicts. Reviewed outside switches can augment but their configurations are not forced. Compatible-pair rebasing proves a strict outside-retention loss, not a payment for it.
+9. In the separately supplied codegree-two outside-packing interface nu(W)=nu(Q)-1, every W component is fragile with defect at least two, and total defect two is completely excluded by bare-page reconstruction. Thus that interface requires defect at least three. The earlier 32-vertex envelope was not enumerated. No further defect ladder is a universal argument.
+
+Exact remaining wider-Q arrow:
+
+    conditional minimum G -> minimum Q with all accepted constraints
+    -> an AVAILABLE paid cover/packing reduction or contradiction [OPEN]
+    -> no minimum CS failure -> universal CS -> unrestricted Tuza.
+
+A correct switch with an unforced interface does not fill the OPEN arrow. The relevant full-profile controls fail some Q premises and therefore neither refute nor establish availability.
+
+## Actual-parent route: new paid operations
+
+For every edge-disjoint actual pair T,U in G, R=G-T-U has nu=k-2 and defect 1 or 2. Defect zero is excluded by the ARCHIVED full B-plus-two-triangle CS theorem, including its equality branch; it is not a new counting deduction.
+
+**Defect-one double residuals are resilient.** If R has a critical edge e, proper CS gives B=R-e. Actual single-residual resilience and the explicit neutral K5-e insertion lemma give the exact intermediate square: each B+T, B+U has gains (2,2). Vertex-disjoint T,U give a direct cover/packing contradiction. Otherwise a proved bare e-page E0 rebases to the ACTUAL single residual H0=G-E0=B'+T+U, with connected resilient support, gains (2,3), and each individual new family of packing number one. All six cross-graph orbits are paid or have literal C12 support. Strict actual-parent restoration contradicts G. This proves resilience of R without asserting connectedness or C12 membership of R. Source: notes/actual_parent_double_residual_resilience_v1.md; independent binding: reviews/opening_actual_parent_composition_binding.md.
+
+**Every triangle extends in a defect-one double residual.** If V fails extension in R, proper CS forces R-V=B, and the complete new V-family is bare K5-e plus old B components. In H=G-T=B+V+U, shared-vertex and disjoint zero/one-peripheral placements have explicit packing/cover payments. The remaining two-peripheral case yields exactly C12 stars 5,45,55 as the support of the ACTUAL single residual H, where strict restoration applies. Source: notes/actual_parent_defect_one_triple_extension_v1.md; independent composition: reviews/opening_actual_parent_triple_extension_composition.md. This proof does not use the newly established resilience of R.
+
+Thus any failure of simultaneous extension for three actual edge-disjoint triangles requires ALL THREE corresponding double residuals to have defect two. This is a real reduction of the obstruction. It does not supply a defect-one pair or settle the remaining branch.
+
+The final unconditional selected-triangle dichotomy is notes/actual_parent_selected_triangle_dichotomy_v2.md, independently bound by reviews/opening_selected_triangle_dichotomy_v2_review.md. Choose T globally maximizing support(G-T), then U globally maximizing support((G-T)-U) within that fixed actual first residual. The no-bare-page exchange needs full-minimum-cover eligibility only for the selected maximizer. The selected T always has it. If selected R=G-T-U has defect one, the accepted resilience/extension theorems apply. If it has defect two, U itself has the required full-cover property, so no ordinary U-page is residual-bare. Both selections are unconditional; no all-partner or all-pair homogeneity is needed. Neither outcome names R, yields a contradiction, or forces a useful third residual.
+
+Under the stronger hypothesis that every double residual is defect two, pairwise triangle coeligibility in minimum G covers is exact. It has no automatic Helly extension: K9 is an ordinary, sharp cover-side countercontrol that fails tight-parent hypotheses. The five exact triple-residual profiles are recorded in notes/apex_actual_parent_triple_selection_v1.md. In its low-packing tight B row, any vertex-disjoint pair of restored triangles is excluded by a paid cover/packing argument; the ENTIRE distinct-intersection core is now paid, including the exceptional-family case. Common-center all-A and all-B cases are also paid; mixed A/B and one-exceptional cases remain open. Mixed triangles must be covered explicitly. The cube also applies to ANY actual failed triple whose triple residual is tight: the accepted defect-one extension theorem makes its three double residuals defect two, and no global all-pair assumption is needed. This does not force failure, tightness, or selected-pair containment.
+
+## Logical and verification limits
+
+Neither route requires global R. Global R would be a stronger sufficient route through archived restoration, but remains OPEN and is not equivalent to Tuza. A counterexample to R would itself still satisfy Tuza. No arbitrary defect-two support is classified anywhere in this chain.
+
+The mission adds ordinary theorems, some complete finite interface replays, and diagnostic controls. It reaches zero previously unresolved defect-one cores computationally. No new unrestricted proof, counterexample, full Lean verification, or historical originality claim is made. STATUS_MATRIX.json and the bound independent receipts determine the accepted scope; frozen candidate headings remain as historical records.

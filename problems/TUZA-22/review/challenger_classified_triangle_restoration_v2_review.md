@@ -1,0 +1,17 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Fresh review of strict triangle restoration from a resilient two-edge-B residual
+
+2026-11-16. Reviewer: challenger, independently reconstructing the literal packing and cover arguments in the corrected v2 source.
+
+**ACCEPT as an ordinary proof using the declared ordinary classification/restoration inputs.** Source: `notes/classified_two_edge_B_residual_triangle_restoration_v2.md`, SHA256 `cfb4a6bc6ce6bf8fd136982a8b997359293db0b14ce9aa32ba74220fd69b92c4`.
+
+The three-page argument is valid for the whole old collection: independent restored terminals meet each old clique at most once, and three distinct page bases use each terminal at most twice. Hence the whole footprint in each old clique is a star of at most two edges. The collection supplies p−1 triangles, so the resulting p+2 packing is legitimate. The cited page-incidence classification then gives either a two-edge new-family cover or precisely two full apices. Every full-apex spoke is eligible in a three-edge new-family cover, establishing the minimum-old-cover obstruction.
+
+For two root attachments, eligibility of an arbitrary edge in either attached block uses the OTHER attachment for the one-edge overlap with the root opposite cover. No unsupported coeligibility assumption about a K4 is made. For one K5 attachment, any pair of prescribed K5 edges is coeligible: incident edges lie in the triangle of a triangle-plus-disjoint-edge minimum cover, while disjoint edges can be assigned to the triangle and the complementary edge. The chosen root packing and all attached packings avoid every attachment edge, so the old packing is edge-disjoint even when the avoided root star contains an attachment edge.
+
+The v2 distinction between triangle-supported old footprint and arbitrary old background is essential and correct. Background spokes can exist, but belong to no old triangle and therefore cause no packing conflict. With all attached-block spokes ruled out by eligibility, the remaining supported footprint lies in one root star and is simultaneously avoidable by a maximum old packing.
+
+For old K5−e, adjacency of the two full apices would create old triangles through all three independent restored terminals, impossible inside the single K5−e component. At most one old apex gives two new pages with total supported footprint at most one edge; the old two-packing can avoid it. Two old apices are the unique nonadjacent pair. Their only possible supported terminal is a single vertex of the common triangle, and the stated old/new covers then overlap in both spokes. All actual triangles are either old triangles or the restored triangle and its pages, since a triangle other than the restored triangle cannot contain two of its newly inserted edges.
+
+The one-K4 attachment case is explicitly delegated to the accepted ordinary two-edge-glued-K4 restoration theorem. The final minimum-CS consequence imports the accepted residual component/resilience identities; it does not manufacture two-edge packing resilience or availability of a B residual. The ONE SHARED-EDGE COMPONENT hypothesis is retained. No finite certificate, ambient order bound, GE, or Kotzig theorem is used here.

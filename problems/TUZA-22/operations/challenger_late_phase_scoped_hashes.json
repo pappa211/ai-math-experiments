@@ -1,0 +1,137 @@
+{
+  "scope": "Explicit late-phase new artifacts, fresh reviews, and additional inputs used 04:40\u201305:09:44 UTC; not a whole-workspace or archive hash",
+  "records": [
+    {
+      "path": "notes/challenger_one_cycle_cover_cs_v1.md",
+      "sha256": "e8412e3e36014cfa1067c3d98ae3b51640051d9bdb600b26f019b171a2e86418"
+    },
+    {
+      "path": "notes/challenger_two_cycle_cover_tuza_v1.md",
+      "sha256": "4bedc397de0e9c1f7c72e4808b086fb0f03d0ea54bb2599db6425cdd1aa5ba52"
+    },
+    {
+      "path": "notes/challenger_two_cycle_cover_tuza_v2.md",
+      "sha256": "8a086bbf8276250c9af094c17ed6a08f1170cebf7eba70550e33b15ac84840cd"
+    },
+    {
+      "path": "notes/challenger_three_neighbor_four_cycle_bouquet_exclusion_v1.md",
+      "sha256": "c75c92699a9fea6b1b6588b8cf89e2e89b4322e802bf9ecd81263b8423019017"
+    },
+    {
+      "path": "notes/challenger_cone_matching_robustness_boundary_v1.md",
+      "sha256": "687c494c1ff6e664b62839d4c4db4be15a624be89dd326633a0dc944fd07e447"
+    },
+    {
+      "path": "notes/challenger_whole_cone_triangle_free_matching_residual_exclusion_v1.md",
+      "sha256": "859fb1886e7ce98bc9a6aa9fa13326dcb2e0668712a8ede7f89db45c15d1f305"
+    },
+    {
+      "path": "notes/challenger_outside_supported_matching_base_restrictions_v1.md",
+      "sha256": "2e4930e20f03010c6fcd48c2cd0bdd69d9ca39084f58939f8eed738d58ac0b6d"
+    },
+    {
+      "path": "review/challenger_classified_triangle_restoration_v2_review.md",
+      "sha256": "5ef8084e4a95337241a50fb83f67a62d526aa468062d9255a6d72707ed6bce34"
+    },
+    {
+      "path": "review/challenger_fresh_clique_triangle_restoration_review.md",
+      "sha256": "41561857d3bea8d2f333748e41847335445d3e82b27f8f15be30014d3b56a9b5"
+    },
+    {
+      "path": "review/challenger_apex_pseudoforest_full_assembly_review.md",
+      "sha256": "216ed192713f9270773bb67ea4cdfd4633c5009d510d80a0de4db695f1ea43b2"
+    },
+    {
+      "path": "review/challenger_four_branch_triangle_doubles_review.md",
+      "sha256": "a7c590a6ce659ebe444027f6e7096946295c7e2078e76cf58adf758c0645e124"
+    },
+    {
+      "path": "review/challenger_pseudoforest_cover_two_factor_review.md",
+      "sha256": "b10a65083ca7a77de33255807dfb90a632baf8bc91f4bcff9d5190fbe247a126"
+    },
+    {
+      "path": "notes/classified_two_edge_B_residual_triangle_restoration_v2.md",
+      "sha256": "cfb4a6bc6ce6bf8fd136982a8b997359293db0b14ce9aa32ba74220fd69b92c4"
+    },
+    {
+      "path": "notes/fresh_clique_defect_one_triangle_restoration_v1.md",
+      "sha256": "e7f61f375de2e11ecb26226bd398234a40c464c70935c3b41598eeaadf39a13e"
+    },
+    {
+      "path": "notes/apex_pseudoforest_full_exclusion_v1.md",
+      "sha256": "a4329ae4b512eb74e7efbf016e9299e756309052876a876dc6ad11cc82846ceb"
+    },
+    {
+      "path": "notes/four_branch_triangle_doubles_ordinary_exclusion_v1.md",
+      "sha256": "f34a13d77e679b77083b48970da521e97fd3688bafe826d3198ba9ada8bb235e"
+    },
+    {
+      "path": "notes/coordinator_pseudoforest_cover_two_factor_reduction_v1.md",
+      "sha256": "d6410115d97b1c436b4c5456f9f024411be4e14e93d708d0d05375b16bb27088"
+    },
+    {
+      "path": "notes/coordinator_TF_residual_equal_matching_exclusion_v1.md",
+      "sha256": "1c40a0c8be58ca926e7f35175448dc80c0d891c22128a6596af9a379775d88b6"
+    },
+    {
+      "path": "notes/coordinator_triangle_free_WKE_residual_interface_v1.md",
+      "sha256": "e18b148c7903a71ea13213fbcdd9c2d0200f78182f62a4d94a3a80d0a3d2c793"
+    },
+    {
+      "path": "review/one_cycle_cover_cs_independent_assembly_review.md",
+      "sha256": "2c39311fafa5a60bbc4d9c179dc55d3e9d16a52f97c99da484a9cf663774eab4"
+    },
+    {
+      "path": "review/two_cycle_cover_tuza_independent_review.md",
+      "sha256": "31bfef715f71d87a9157edf1e15b9be81f47dbcdaa0f03d4b60af1581bb34e56"
+    },
+    {
+      "path": "review/restoration_three_neighbor_bouquet_review.md",
+      "sha256": "abedbc321ab83161a81910d972061d997d5dca73b5f07e5938a54fd6171a34b6"
+    },
+    {
+      "path": "review/cone_matching_robustness_boundary_independent_review.md",
+      "sha256": "ab1ee9d9307f97911a09f143b53d270776a87ae89f6dedc63cd4654112b6a179"
+    },
+    {
+      "path": "review/restoration_whole_cone_TF_matching_residual_review.md",
+      "sha256": "5c86bb51f0bd5562e45b4d7a3b5544a9876df4655a0a328ecfefcb04952ddeb1"
+    },
+    {
+      "path": "review/challenger_cone_common_apices_review.md",
+      "sha256": "c697a3cb1d8bdd20d2885615470977befe2581b10dbc1d09cbbd43b85edb94a3"
+    },
+    {
+      "path": "review/challenger_four_branch_path_and_extra_even_review.md",
+      "sha256": "69d1cae7673296c1ce482b113dbecf850fbc507855b17e9e593c50241d5cf738"
+    },
+    {
+      "path": "review/challenger_four_branch_ordinary_completion_review.md",
+      "sha256": "4e04859f9fd7334bd698836f93857ce03be0d0bfcd278925c7c1e21073b248dc"
+    },
+    {
+      "path": "notes/cone_residual_cover_common_apices_v1.md",
+      "sha256": "da2b31b25d07c653ccd4860606c1dadbf4e091cf7d474befd7a3922113ab8fce"
+    },
+    {
+      "path": "notes/four_branch_path_doubles_ordinary_exclusion_v1.md",
+      "sha256": "a0695f0fa2cc00f73dabd26bb01311831e5a6b7922f7a6de5e8d2103b77eeedd"
+    },
+    {
+      "path": "notes/four_branch_two_doubles_extra_even_ordinary_v1.md",
+      "sha256": "aa03b5b129a83383d07c424747f37e0d1fc53ae0c50526a74429d60c67b20fcb"
+    },
+    {
+      "path": "notes/coordinator_four_branch_ordinary_completion_v1.md",
+      "sha256": "a67ee9350b06917ad3b77b098244e35c160d7ef8074b0679a891090c0920a81b"
+    },
+    {
+      "path": "notes/four_branch_many_even_threads_v1.md",
+      "sha256": "85ee58a58525eac621e79c8e3063c72b49c99f2b67b314766fa555dc06b623c9"
+    },
+    {
+      "path": "notes/four_branch_after_pseudoforest_boundary_v1.md",
+      "sha256": "5989066caa71a743b319de79a3c209cf76cbf3fb41cab5a95a64818236f90d93"
+    }
+  ]
+}

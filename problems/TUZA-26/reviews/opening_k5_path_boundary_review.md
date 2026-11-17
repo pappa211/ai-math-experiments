@@ -1,0 +1,23 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Independent review: K5 complete three-edge path boundary
+
+Verdict: PASS, PROVED_ORDINARY for notes/k5_three_edge_path_boundary_v1.md, SHA-256 ee0f7612099879f15d489c530cb505400bc33d0ca2d0801fcfb22bf2edace8eb. This is a paid forbidden region inside the conditional minimum-Q universe. No new finite run or Lean verification was needed.
+
+If fewer than all three path edges are actual boundary, the already accepted at-most-two theorem applies. Otherwise retain the complete boundary path F and delete the seven private K5 edges. The two triangles acz,bdz avoid F and all retained edges, so they append to any residual packing. Conversely every Q packing has at most two wholly internal K5 triangles and all other triangles survive the deletion. Therefore nu(Q)=nu(K)+2 exactly. After deleting any surviving K edge the same upper bound and Q resilience force K resilience. All outside triangles and shared vertices remain literal.
+
+For a K cover selecting s path edges, the exact minimum extension cost is4-min(s,2). Any one or two prescribed K5 edges occur in a minimum four-cover: adjacent ones extend to a triangle plus its disjoint edge, and disjoint ones extend similarly using the fifth vertex. No four-cover contains all three edges of a P4. Indeed the complement of a four-cover is a six-edge triangle-free graph on five vertices, necessarily K2,3: maximum degree cannot be four or at most two; at a degree-three vertex its independent neighborhood forces the other vertex to join all three. Thus the cover is a triangle plus a disjoint edge and cannot contain a connected four-vertex path. The three path edges plus az,dz give a five-cover, proving the s=3 extension cost two. Extra F edges may be added as part of an extension; the minimum-over-covers identity remains exact.
+
+Minimizing these costs gives tau(Q)=4+min_{P subset F,|P|=2}tau(K-P). Restriction of a K cover and extension of a K-P cover by P justify the inner equality in both directions. With t=nu(K), tau(Q)=2t+3 and proper CS imply tau(K) in{2t-1,2t} and every pair-deletion cover number at least2t-1, with equality for some pair.
+
+If K is tight, every actual boundary edge remains supported. Different path edges cannot lie in one literal old clique, since their endpoints force a deleted private K5 chord. Two such eligible edges in distinct components can be selected together in a minimum K cover, giving a pair deletion cover number2t-2, contradiction.
+
+If K has defect one, all F edges are ineligible: eligibility of any one lowers the cover number after deleting a pair containing it below2t-1. No F edge can lie in a tight component, whose edges are eligible, so all lie in the unique resilient active component C. This strictly smaller support is named only by explicit minimum-Q choice. The four path vertices induce exactly a P4 in C, since every nonpath edge between them was private to D and deleted.
+
+The final named obstruction is valid. One may use the already independently accepted stronger fact from two_edge_tight_boundary_v2.md / reviews/apex_boundary_review.md: every ineligible C12 edge has a universal endpoint. Any vertex on an induced P4 has at most two neighbors among its four vertices, so no universal endpoint can lie on that path. Thus even one ineligible path edge is impossible.
+
+The source's weaker ordinary star-forest derivation is also correct. For fresh central-K4 stars, the exact cover objective is the sum of leaf cover costs plus a root cover cost reduced by one for each selected attachment; its minimum reduced root cost is one. Root opposite-pair covers make every attachment eligible; K5 leaf covers can contain attachment plus any other edge. With two or three leaves, suitable opposite-pair or triangle root covers make every non-root central edge eligible. With one K4 leaf, the remaining possible ineligible edges after deleting universal root0 are all incident to its other attachment endpoint; with one K5 leaf only the analogous root edges remain. Consequently the ineligible-edge graph after removing0 is a union of stars. W5, K5-e and double K5 have all edges eligible. This independently validates the stated P4 obstruction without any new unknown-core census.
+
+The supplied K5 boundary is therefore excluded. No existence of such a piece or completion of the C4-link restoration is inferred here; those are separate obligations.
+
+Frozen UTC: 2026-11-17T00:19:49.884896+00:00

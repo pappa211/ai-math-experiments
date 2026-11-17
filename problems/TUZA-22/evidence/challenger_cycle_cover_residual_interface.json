@@ -1,0 +1,4537 @@
+{
+  "identity": "TUZA22 complete14 path-forest cycle-cover residual interface",
+  "status": "STOPPED_FIRST_UNKNOWN",
+  "raw_ordered_states": 67360,
+  "rejected_degree_connected": 57954,
+  "rejected_k4": 1186,
+  "domain_records": 8220,
+  "processed": 49,
+  "shape_records": [
+    {
+      "id": "P2",
+      "path_orders": [
+        2
+      ],
+      "isolates": 0,
+      "n_F": 2,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "raw": 32,
+      "eligible": 7,
+      "rejected_degree_connected": 24,
+      "rejected_k4": 1
+    },
+    {
+      "id": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "raw": 128,
+      "eligible": 15,
+      "rejected_degree_connected": 112,
+      "rejected_k4": 1
+    },
+    {
+      "id": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "raw": 128,
+      "eligible": 41,
+      "rejected_degree_connected": 82,
+      "rejected_k4": 5
+    },
+    {
+      "id": "P3_I1",
+      "path_orders": [
+        3
+      ],
+      "isolates": 1,
+      "n_F": 4,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "raw": 512,
+      "eligible": 63,
+      "rejected_degree_connected": 444,
+      "rejected_k4": 5
+    },
+    {
+      "id": "P4",
+      "path_orders": [
+        4
+      ],
+      "isolates": 0,
+      "n_F": 4,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "raw": 512,
+      "eligible": 199,
+      "rejected_degree_connected": 286,
+      "rejected_k4": 27
+    },
+    {
+      "id": "P4_I1",
+      "path_orders": [
+        4
+      ],
+      "isolates": 1,
+      "n_F": 5,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "raw": 2048,
+      "eligible": 253,
+      "rejected_degree_connected": 1768,
+      "rejected_k4": 27
+    },
+    {
+      "id": "P5",
+      "path_orders": [
+        5
+      ],
+      "isolates": 0,
+      "n_F": 5,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "raw": 2048,
+      "eligible": 878,
+      "rejected_degree_connected": 1038,
+      "rejected_k4": 132
+    },
+    {
+      "id": "P5_I1",
+      "path_orders": [
+        5
+      ],
+      "isolates": 1,
+      "n_F": 6,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "raw": 8192,
+      "eligible": 1004,
+      "rejected_degree_connected": 7056,
+      "rejected_k4": 132
+    },
+    {
+      "id": "P2_P2",
+      "path_orders": [
+        2,
+        2
+      ],
+      "isolates": 0,
+      "n_F": 4,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "raw": 512,
+      "eligible": 123,
+      "rejected_degree_connected": 372,
+      "rejected_k4": 17
+    },
+    {
+      "id": "P2_P2_I1",
+      "path_orders": [
+        2,
+        2
+      ],
+      "isolates": 1,
+      "n_F": 5,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "raw": 2048,
+      "eligible": 143,
+      "rejected_degree_connected": 1888,
+      "rejected_k4": 17
+    },
+    {
+      "id": "P2_P3",
+      "path_orders": [
+        2,
+        3
+      ],
+      "isolates": 0,
+      "n_F": 5,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "raw": 2048,
+      "eligible": 524,
+      "rejected_degree_connected": 1448,
+      "rejected_k4": 76
+    },
+    {
+      "id": "P2_P3_I1",
+      "path_orders": [
+        2,
+        3
+      ],
+      "isolates": 1,
+      "n_F": 6,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "raw": 8192,
+      "eligible": 568,
+      "rejected_degree_connected": 7548,
+      "rejected_k4": 76
+    },
+    {
+      "id": "P3_P3",
+      "path_orders": [
+        3,
+        3
+      ],
+      "isolates": 0,
+      "n_F": 6,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "raw": 8192,
+      "eligible": 2153,
+      "rejected_degree_connected": 5704,
+      "rejected_k4": 335
+    },
+    {
+      "id": "P3_P3_I1",
+      "path_orders": [
+        3,
+        3
+      ],
+      "isolates": 1,
+      "n_F": 7,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "raw": 32768,
+      "eligible": 2249,
+      "rejected_degree_connected": 30184,
+      "rejected_k4": 335
+    }
+  ],
+  "counts": {
+    "ORDINARY_BRANCH_AT_MOST_3": 42,
+    "TF_RESIDUAL_EQUAL_MATCHING": 6,
+    "UNKNOWN_NO_APPROVED_CERTIFICATE": 1
+  },
+  "elapsed_seconds": 0.5883154170005582,
+  "first_unknown": {
+    "shape": "P3",
+    "path_orders": [
+      3
+    ],
+    "isolates": 0,
+    "n_F": 3,
+    "F_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "a": 3,
+    "b": 4,
+    "a_mask": 5,
+    "b_mask": 7,
+    "ab": 1,
+    "a_neighbors": [
+      0,
+      2
+    ],
+    "b_neighbors": [
+      0,
+      1,
+      2
+    ],
+    "n": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "triangles": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        2,
+        3,
+        4
+      ]
+    ],
+    "degrees": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "certificate": {
+      "kind": "UNKNOWN_NO_APPROVED_CERTIFICATE",
+      "tested_matchings": 18
+    }
+  },
+  "rows": [
+    {
+      "shape": "P2",
+      "path_orders": [
+        2
+      ],
+      "isolates": 0,
+      "n_F": 2,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 2,
+      "b": 3,
+      "a_mask": 1,
+      "b_mask": 2,
+      "ab": 1,
+      "a_neighbors": [
+        0
+      ],
+      "b_neighbors": [
+        1
+      ],
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triangles": [],
+      "degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2",
+      "path_orders": [
+        2
+      ],
+      "isolates": 0,
+      "n_F": 2,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 2,
+      "b": 3,
+      "a_mask": 1,
+      "b_mask": 3,
+      "ab": 1,
+      "a_neighbors": [
+        0
+      ],
+      "b_neighbors": [
+        0,
+        1
+      ],
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "degrees": [
+        3,
+        2,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          3
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2",
+      "path_orders": [
+        2
+      ],
+      "isolates": 0,
+      "n_F": 2,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 2,
+      "b": 3,
+      "a_mask": 2,
+      "b_mask": 1,
+      "ab": 1,
+      "a_neighbors": [
+        1
+      ],
+      "b_neighbors": [
+        0
+      ],
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triangles": [],
+      "degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2",
+      "path_orders": [
+        2
+      ],
+      "isolates": 0,
+      "n_F": 2,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 2,
+      "b": 3,
+      "a_mask": 2,
+      "b_mask": 3,
+      "ab": 1,
+      "a_neighbors": [
+        1
+      ],
+      "b_neighbors": [
+        0,
+        1
+      ],
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          3
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2",
+      "path_orders": [
+        2
+      ],
+      "isolates": 0,
+      "n_F": 2,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 2,
+      "b": 3,
+      "a_mask": 3,
+      "b_mask": 1,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        1
+      ],
+      "b_neighbors": [
+        0
+      ],
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          3
+        ]
+      ],
+      "degrees": [
+        3,
+        2,
+        3,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          2
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2",
+      "path_orders": [
+        2
+      ],
+      "isolates": 0,
+      "n_F": 2,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 2,
+      "b": 3,
+      "a_mask": 3,
+      "b_mask": 2,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        1
+      ],
+      "b_neighbors": [
+        1
+      ],
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        3,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          2
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2",
+      "path_orders": [
+        2
+      ],
+      "isolates": 0,
+      "n_F": 2,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 2,
+      "b": 3,
+      "a_mask": 3,
+      "b_mask": 3,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        1
+      ],
+      "b_neighbors": [
+        0,
+        1
+      ],
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "degrees": [
+        3,
+        3,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          1
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 4,
+      "b_mask": 7,
+      "ab": 1,
+      "a_neighbors": [
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        2,
+        2,
+        2,
+        4
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 6,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [],
+      "degrees": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 6,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          3,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 7,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 7,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        2,
+        2,
+        3,
+        4
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          3,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 6,
+      "b_mask": 5,
+      "ab": 0,
+      "a_neighbors": [
+        1,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [],
+      "degrees": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 6,
+      "b_mask": 5,
+      "ab": 1,
+      "a_neighbors": [
+        1,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          3,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 6,
+      "b_mask": 7,
+      "ab": 0,
+      "a_neighbors": [
+        1,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 6,
+      "b_mask": 7,
+      "ab": 1,
+      "a_neighbors": [
+        1,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        2,
+        3,
+        4
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          3,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 7,
+      "b_mask": 4,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "b_neighbors": [
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        2,
+        2,
+        4,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          3
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 7,
+      "b_mask": 5,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "degrees": [
+        3,
+        2,
+        2,
+        3,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          3
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 7,
+      "b_mask": 5,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        2,
+        2,
+        4,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          3,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 7,
+      "b_mask": 6,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "b_neighbors": [
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          3
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 7,
+      "b_mask": 6,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "b_neighbors": [
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        2,
+        4,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          3,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P2_I1",
+      "path_orders": [
+        2
+      ],
+      "isolates": 1,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 7,
+      "b_mask": 7,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "certificate": {
+        "P": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "Q": [
+          3,
+          4
+        ],
+        "tested_matchings": 1,
+        "kind": "TF_RESIDUAL_EQUAL_MATCHING",
+        "R_matching": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "dependency_sha256": "1c40a0c8be58ca926e7f35175448dc80c0d891c22128a6596af9a379775d88b6"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 1,
+      "b_mask": 4,
+      "ab": 1,
+      "a_neighbors": [
+        0
+      ],
+      "b_neighbors": [
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [],
+      "degrees": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 1,
+      "b_mask": 5,
+      "ab": 1,
+      "a_neighbors": [
+        0
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        2,
+        2,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 1,
+      "b_mask": 6,
+      "ab": 1,
+      "a_neighbors": [
+        0
+      ],
+      "b_neighbors": [
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 1,
+      "b_mask": 7,
+      "ab": 1,
+      "a_neighbors": [
+        0
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        3,
+        2,
+        2,
+        4
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          1,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 2,
+      "b_mask": 5,
+      "ab": 1,
+      "a_neighbors": [
+        1
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [],
+      "degrees": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 2,
+      "b_mask": 7,
+      "ab": 1,
+      "a_neighbors": [
+        1
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        4,
+        2,
+        2,
+        4
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 3,
+      "b_mask": 4,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        1
+      ],
+      "b_neighbors": [
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          3
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 3,
+      "b_mask": 5,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        1
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "degrees": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          1
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 3,
+      "b_mask": 5,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        1
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "certificate": {
+        "P": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "Q": [
+          1,
+          4
+        ],
+        "tested_matchings": 3,
+        "kind": "TF_RESIDUAL_EQUAL_MATCHING",
+        "R_matching": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "dependency_sha256": "1c40a0c8be58ca926e7f35175448dc80c0d891c22128a6596af9a379775d88b6"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 3,
+      "b_mask": 6,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        1
+      ],
+      "b_neighbors": [
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        4,
+        2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 3,
+      "b_mask": 6,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        1
+      ],
+      "b_neighbors": [
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        4,
+        2,
+        3,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          3,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 3,
+      "b_mask": 7,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        1
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        4,
+        2,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          1,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 4,
+      "b_mask": 1,
+      "ab": 1,
+      "a_neighbors": [
+        2
+      ],
+      "b_neighbors": [
+        0
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [],
+      "degrees": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 4,
+      "b_mask": 3,
+      "ab": 1,
+      "a_neighbors": [
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        2,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 4,
+      "b_mask": 5,
+      "ab": 1,
+      "a_neighbors": [
+        2
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        2,
+        3,
+        2,
+        3
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          2,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 4,
+      "b_mask": 7,
+      "ab": 1,
+      "a_neighbors": [
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        3,
+        2,
+        4
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          2,
+          4
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 1,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        0
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        2,
+        2,
+        3,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          3
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 2,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        1
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [],
+      "degrees": [
+        2,
+        3,
+        2,
+        3,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          3
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 3,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          1
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 3,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        3,
+        2,
+        3,
+        3
+      ],
+      "certificate": {
+        "P": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "Q": [
+          1,
+          3
+        ],
+        "tested_matchings": 5,
+        "kind": "TF_RESIDUAL_EQUAL_MATCHING",
+        "R_matching": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "dependency_sha256": "1c40a0c8be58ca926e7f35175448dc80c0d891c22128a6596af9a379775d88b6"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 4,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        2,
+        3,
+        3,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          2,
+          3
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 5,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [],
+      "degrees": [
+        3,
+        2,
+        3,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          0,
+          2
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 5,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        2,
+        3,
+        3,
+        3
+      ],
+      "certificate": {
+        "P": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "Q": [
+          0,
+          2
+        ],
+        "tested_matchings": 3,
+        "kind": "TF_RESIDUAL_EQUAL_MATCHING",
+        "R_matching": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "dependency_sha256": "1c40a0c8be58ca926e7f35175448dc80c0d891c22128a6596af9a379775d88b6"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 6,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        3,
+        2,
+        2
+      ],
+      "certificate": {
+        "kind": "ORDINARY_BRANCH_AT_MOST_3",
+        "branch_vertices": [
+          1,
+          2
+        ],
+        "dependency_sha256": "dd530b892b10279fda98b195522f1027376deadfbce7a769ae2aec28d62bafa4"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 6,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        2,
+        3,
+        3,
+        3,
+        3
+      ],
+      "certificate": {
+        "P": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "Q": [
+          1,
+          3
+        ],
+        "tested_matchings": 2,
+        "kind": "TF_RESIDUAL_EQUAL_MATCHING",
+        "R_matching": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "dependency_sha256": "1c40a0c8be58ca926e7f35175448dc80c0d891c22128a6596af9a379775d88b6"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 7,
+      "ab": 0,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        3,
+        3,
+        2,
+        3
+      ],
+      "certificate": {
+        "P": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "Q": [
+          0,
+          2
+        ],
+        "tested_matchings": 4,
+        "kind": "TF_RESIDUAL_EQUAL_MATCHING",
+        "R_matching": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "dependency_sha256": "1c40a0c8be58ca926e7f35175448dc80c0d891c22128a6596af9a379775d88b6"
+      }
+    },
+    {
+      "shape": "P3",
+      "path_orders": [
+        3
+      ],
+      "isolates": 0,
+      "n_F": 3,
+      "F_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "a": 3,
+      "b": 4,
+      "a_mask": 5,
+      "b_mask": 7,
+      "ab": 1,
+      "a_neighbors": [
+        0,
+        2
+      ],
+      "b_neighbors": [
+        0,
+        1,
+        2
+      ],
+      "n": 5,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "triangles": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "degrees": [
+        3,
+        3,
+        3,
+        3,
+        4
+      ],
+      "certificate": {
+        "kind": "UNKNOWN_NO_APPROVED_CERTIFICATE",
+        "tested_matchings": 18
+      }
+    }
+  ],
+  "scope": "Exactly seven nontrivial path forests of matching number at most2, each with0/1 isolate; every ordered pair of apex neighborhoods and optional apex edge. Filters only actual minimum degree>=2, connectedness, K4-freeness. No symmetry quotient or further pruning. First UNKNOWN stops. Independent full-domain and literal-certificate validation required."
+}

@@ -1,0 +1,11 @@
+> Historical research record, curated for the 17 November 2026 archive. Read the [final scope, corrections and evidence status](../PUBLICATION_STATUS.md) before using any claim. Earlier proposals and future-work decisions are historical; the series is now paused. Internal reviews are AI reviews.
+
+# Fresh review: P4 doubles and two doubles with an even single
+
+2026-11-16, before the research cutoff. ACCEPT both as ordinary all-size exclusions at their stated exact-shape scopes.
+
+Sources: `notes/four_branch_path_doubles_ordinary_exclusion_v1.md`, SHA a0695f0fa2cc00f73dabd26bb01311831e5a6b7922f7a6de5e8d2103b77eeedd; `notes/four_branch_two_doubles_extra_even_ordinary_v1.md`, SHA aa03b5b129a83383d07c424747f37e0d1fc53ae0c50526a74429d60c67b20fcb.
+
+For P4 doubles, the starts a,b,d are distinct and every even-thread interior is matched once. Odd single-thread interiors are disjoint from them. The residual cover count |Q|=|P|+1-q is exact. No direct core edge is deleted, so q=1 leaves the actual diamond; q>=2 is strict, and q=0 explicitly imports the ordinary K4-bearing theorem. I independently proposed the same proof with the alternative distinct-tail orientation a,b,c before reading this source.
+
+For the extra-even shape, take the consecutive internal matching on the ac path starting at its first interior vertex and leaving its last interior vertex unmatched. Together with the starts a,c of the two even double threads, the full bd path matching, and internal ad/bc matchings, this matches every vertex except that one interior vertex. The vertex count is odd and the stated |P| equals floor(n/2). The residual direct core has only cross edges between {a,c} and {b,d}. Every residual thread piece is detached or pendant except the minimum-length ac path, which joins a to c by an even path and respects their equal color. At larger ac length it separates into a pendant edge, isolated edges, and a pendant length-two path. Thus the WHOLE residual is bipartite. Ordinary bipartite matching-cover equality supplies Q<=|P|; strictness or the accepted equal-matching residual theorem then excludes the tuple. No finite certificate is used. Whole outside losses on P bases remain covered by those bases in the standard closed-link deletion.

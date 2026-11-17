@@ -1,0 +1,2792 @@
+{
+  "status": "VERIFIED_FINITE",
+  "scope": "All12 C12 eligibility sets and all ineligible-edge-pair geometries, plus all allowed<=2-edge K4/K5 avoidance/minimum-cover controls. Independent exact recurrence.",
+  "source": "problems/TUZA-25/evidence/residual_edge_exchange_seeds.json",
+  "models": [
+    {
+      "name": "central_K4_star_4",
+      "tau": 3,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "ineligible_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ]
+      ],
+      "universal_vertices": [
+        0,
+        1
+      ],
+      "pair_geometry": [
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "type": "crossing_diamond",
+          "second_universal": 1
+        },
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "type": "crossing_diamond",
+          "second_universal": 1
+        },
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ],
+          "type": "crossing_diamond",
+          "second_universal": 1
+        },
+        {
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "type": "crossing_diamond",
+          "second_universal": 1
+        },
+        {
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              0,
+              5
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              5
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              5
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              4,
+              5
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "type": "crossing_diamond",
+          "second_universal": 0
+        },
+        {
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "type": "crossing_diamond",
+          "second_universal": 0
+        },
+        {
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ],
+          "type": "crossing_diamond",
+          "second_universal": 0
+        },
+        {
+          "edges": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "type": "crossing_diamond",
+          "second_universal": 0
+        },
+        {
+          "edges": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              4,
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "central_K4_star_5",
+      "tau": 5,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "ineligible_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "universal_vertices": [
+        0,
+        1
+      ],
+      "pair_geometry": [
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "type": "third_old_edge",
+          "extra_edges": [
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "central_K4_star_44",
+      "tau": 5,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "ineligible_edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "universal_vertices": [
+        0
+      ],
+      "pair_geometry": []
+    },
+    {
+      "name": "central_K4_star_45",
+      "tau": 7,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "ineligible_edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "universal_vertices": [
+        0
+      ],
+      "pair_geometry": []
+    },
+    {
+      "name": "central_K4_star_55",
+      "tau": 9,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "ineligible_edges": [
+        [
+          0,
+          3
+        ]
+      ],
+      "universal_vertices": [
+        0
+      ],
+      "pair_geometry": []
+    },
+    {
+      "name": "central_K4_star_444",
+      "tau": 7,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "ineligible_edges": [],
+      "universal_vertices": [
+        0
+      ],
+      "pair_geometry": []
+    },
+    {
+      "name": "central_K4_star_445",
+      "tau": 9,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          10
+        ]
+      ],
+      "ineligible_edges": [],
+      "universal_vertices": [
+        0
+      ],
+      "pair_geometry": []
+    },
+    {
+      "name": "central_K4_star_455",
+      "tau": 11,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "ineligible_edges": [],
+      "universal_vertices": [
+        0
+      ],
+      "pair_geometry": []
+    },
+    {
+      "name": "central_K4_star_555",
+      "tau": 13,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          11
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "ineligible_edges": [],
+      "universal_vertices": [
+        0
+      ],
+      "pair_geometry": []
+    },
+    {
+      "name": "two_K5_edge",
+      "tau": 7,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "ineligible_edges": [],
+      "universal_vertices": [
+        0,
+        1
+      ],
+      "pair_geometry": []
+    },
+    {
+      "name": "W5",
+      "tau": 3,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "ineligible_edges": [],
+      "universal_vertices": [
+        5
+      ],
+      "pair_geometry": []
+    },
+    {
+      "name": "K5-e",
+      "tau": 3,
+      "eligible_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "ineligible_edges": [],
+      "universal_vertices": [
+        0,
+        1,
+        2
+      ],
+      "pair_geometry": []
+    }
+  ],
+  "clique_controls": [
+    {
+      "n": 4,
+      "boundary": [],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          1
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          2
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          1,
+          2
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 4,
+      "boundary": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 1
+    },
+    {
+      "n": 5,
+      "boundary": [],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          2
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          2
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          2,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          0,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    },
+    {
+      "n": 5,
+      "boundary": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "nu_after_deletion": 2
+    }
+  ],
+  "seconds": 1.4366540908813477
+}

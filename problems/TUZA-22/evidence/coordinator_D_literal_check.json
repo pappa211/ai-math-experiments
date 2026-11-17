@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-15T22:19:08.188807+00:00",
+  "scope": "independent coordinator literal certificate checks; tau lower bound separately ordinary reviewed",
+  "n": 52,
+  "m": 216,
+  "triangles": 160,
+  "cover": 44,
+  "private_family": 100,
+  "private_packing": 20,
+  "private_upper_cover": 20,
+  "bad_Q_full_maximal": true,
+  "good_Q": 20,
+  "good_extension": 32,
+  "source_sha256": "c93e3f922ddbeb345100cb8935b690b930a8c07e487d1c2cd54a1ded7676570a"
+}

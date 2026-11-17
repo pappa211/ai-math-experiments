@@ -1,0 +1,33 @@
+{
+  "scope": "two specified crossedge completions only",
+  "rows": [
+    {
+      "added_pair": [
+        2,
+        5
+      ],
+      "result": {
+        "n": 9,
+        "edge_count": 21,
+        "triangle_count": 20,
+        "nu": 5,
+        "tau": 7,
+        "defect": 3
+      }
+    },
+    {
+      "added_pair": [
+        2,
+        6
+      ],
+      "result": {
+        "n": 9,
+        "edge_count": 21,
+        "triangle_count": 20,
+        "nu": 5,
+        "tau": 7,
+        "defect": 3
+      }
+    }
+  ]
+}

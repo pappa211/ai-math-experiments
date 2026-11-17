@@ -1,0 +1,6 @@
+problems/TUZA-24/Tuza24/ResidualMatching.lean:23:10: error: Type mismatch: After simplification, term
+  ⟨ha, hb⟩
+ has type
+  And (a ∈ ↑e) (b ∈ ↑e)
+but is expected to have type
+  And (a ∈ e) (b ∈ e)

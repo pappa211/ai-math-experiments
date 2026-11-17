@@ -1,0 +1,47 @@
+problems/TUZA-23/Tuza23/GraphAPI.lean:17:2: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  DecidableRel G.Adj
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+problems/TUZA-23/Tuza23/GraphAPI.lean:20:42: error: Type mismatch
+  SimpleGraph.mem_cliqueFinset_iff
+has type
+  ?m.14 ∈ SimpleGraph.cliqueFinset ?m.9 ?m.13 ↔ SimpleGraph.IsNClique ?m.9 ?m.13 ?m.14
+but is expected to have type
+  e ∈ graphEdges G ↔ G.IsNClique 2 e
+problems/TUZA-23/Tuza23/GraphAPI.lean:44:53: error: unexpected token '·'; expected '⟩'
+problems/TUZA-23/Tuza23/GraphAPI.lean:44:11: error: unsolved goals
+case inl
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+F : Finset (Finset V)
+a b : V
+h : H.Adj a b
+⊢ H.Adj b a ∨ b ≠ a ∧ {b, a} ∈ F
+
+case inr
+V : Type u_1
+inst✝¹ : Fintype V
+inst✝ : DecidableEq V
+H : SimpleGraph V
+F : Finset (Finset V)
+a b : V
+hne : a ≠ b
+hf : {a, b} ∈ F
+⊢ H.Adj b a ∨ b ≠ a ∧ {b, a} ∈ F
+problems/TUZA-23/Tuza23/GraphAPI.lean:51:0: warning: automatically included section variable(s) unused in theorem `Tuza23.le_addEdges`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+problems/TUZA-23/Tuza23/GraphAPI.lean:56:8: warning: declaration uses `sorry`
+problems/TUZA-23/Tuza23/GraphAPI.lean:54:8: warning: declaration uses `sorry`
+problems/TUZA-23/Tuza23/GraphAPI.lean:67:43: error: `simp` made no progress
+problems/TUZA-23/Tuza23/GraphAPI.lean:87:14: error: Type mismatch: After simplification, term
+  h
+ has type
+  H.Adj a b
+but is expected to have type
+  ¬a = b → H.Adj a b

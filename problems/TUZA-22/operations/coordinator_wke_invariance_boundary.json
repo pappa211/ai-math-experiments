@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-16T02:12:14.105899+00:00",
+  "end_utc": "2026-11-16T02:12:14.228677+00:00",
+  "seconds": 0.12277984619140625,
+  "command": [
+    "python",
+    "scripts/coordinator_wke_invariance_boundary.py"
+  ],
+  "pid": 93029,
+  "peak_sampled_tree_rss_mib": 4.953125,
+  "rss_ceiling_mib": 2200.0,
+  "wall_seconds_cap": 30.0,
+  "returncode": 0,
+  "termination_reason": null,
+  "owned_process_finished": true
+}
