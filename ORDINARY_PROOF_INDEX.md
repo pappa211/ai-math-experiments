@@ -1,5 +1,11 @@
 # Ordinary proof index: TUZA-11-15
 
+## Comprehensive proof exposition: TUZA-1–26
+
+The [synthesis](papers/tuza-1-26-synthesis/main.md) organizes the main results by dependence and supplies its extended project case proofs and literal witnesses in Appendix B. [Claim/evidence locations](papers/tuza-1-26-synthesis/CLAIM_LEDGER.md) distinguish direct source associations, equivalent mathematical presentations and secondary reference-only records. Deep external inputs remain attributed; not every historical ledger row is a newly reconstructed theorem.
+
+The final ordinary four-branch exclusion concerns a closed link in a minimum-CS failure. It supports the separate hereditary heavy-core CS localization; it does not replace the historical finite premise of the universal WKE theorem or its constructive signed-defect survivor route. [Explicit scope clarification](verification/tuza-1-26/FOUR_BRANCH_SCOPE_CORRECTION.md).
+
 All statements concern full actual triangle families, edge-disjoint packings
 and actual-edge covers. Internal AI audit is not external peer review. No row
 adds a Lean declaration. [Formal declarations](DECLARATION_INDEX.md) retain their

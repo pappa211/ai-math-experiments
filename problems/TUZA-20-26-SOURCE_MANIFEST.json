@@ -2334,8 +2334,10 @@
       "source_bytes": 62958,
       "disposition": "sanitized",
       "public_file": "problems/TUZA-22/PROOFS_AND_OBSTRUCTIONS.md",
-      "public_sha256": "a31dbe0f4ecc521992358bfeb6b5de4c6bcfe71cf507bc0a2666c3dfa953a95a",
-      "reason": "Operational paths/identifiers removed; historical status banner added."
+      "public_sha256": "d9e2424362d7f3dd433bed06ba54720a900fa35918623164421b91bb360d2832",
+      "reason": "Operational paths/identifiers removed; historical status banner added.",
+      "publication_supplement_correction": "verification/tuza-1-26/FOUR_BRANCH_SCOPE_CORRECTION.md",
+      "archive_baseline_public_sha256": "a31dbe0f4ecc521992358bfeb6b5de4c6bcfe71cf507bc0a2666c3dfa953a95a"
     },
     {
       "mission": "TUZA-22",
@@ -11941,9 +11943,11 @@
       "source_bytes": 62958,
       "disposition": "deduplicated",
       "public_file": "problems/TUZA-23/sources/tuza22/PROOFS_AND_OBSTRUCTIONS.md",
-      "public_sha256": "a31dbe0f4ecc521992358bfeb6b5de4c6bcfe71cf507bc0a2666c3dfa953a95a",
+      "public_sha256": "d9e2424362d7f3dd433bed06ba54720a900fa35918623164421b91bb360d2832",
       "reason": "Exact original source hash matches canonical file; relative in-repository symlink preserves inherited lookup and provenance. Canonical editorial curation, if any, applies.",
-      "canonical_public_file": "problems/TUZA-22/PROOFS_AND_OBSTRUCTIONS.md"
+      "canonical_public_file": "problems/TUZA-22/PROOFS_AND_OBSTRUCTIONS.md",
+      "publication_supplement_correction": "verification/tuza-1-26/FOUR_BRANCH_SCOPE_CORRECTION.md",
+      "archive_baseline_public_sha256": "a31dbe0f4ecc521992358bfeb6b5de4c6bcfe71cf507bc0a2666c3dfa953a95a"
     },
     {
       "mission": "TUZA-23",
@@ -23499,9 +23503,11 @@
       "source_bytes": 62958,
       "disposition": "deduplicated",
       "public_file": "problems/TUZA-24/sources/tuza22/PROOFS_AND_OBSTRUCTIONS.md",
-      "public_sha256": "a31dbe0f4ecc521992358bfeb6b5de4c6bcfe71cf507bc0a2666c3dfa953a95a",
+      "public_sha256": "d9e2424362d7f3dd433bed06ba54720a900fa35918623164421b91bb360d2832",
       "reason": "Exact original source hash matches canonical file; relative in-repository symlink preserves inherited lookup and provenance. Canonical editorial curation, if any, applies.",
-      "canonical_public_file": "problems/TUZA-22/PROOFS_AND_OBSTRUCTIONS.md"
+      "canonical_public_file": "problems/TUZA-22/PROOFS_AND_OBSTRUCTIONS.md",
+      "publication_supplement_correction": "verification/tuza-1-26/FOUR_BRANCH_SCOPE_CORRECTION.md",
+      "archive_baseline_public_sha256": "a31dbe0f4ecc521992358bfeb6b5de4c6bcfe71cf507bc0a2666c3dfa953a95a"
     },
     {
       "mission": "TUZA-24",
@@ -29751,5 +29757,10 @@
       "public_sha256": "404ff14ad368bdfcbe966c3d3d4cbb971c501079f930d76c7815637cdb0be1bf",
       "reason": "Exact source bytes retained."
     }
-  ]
+  ],
+  "publication_supplement": {
+    "baseline": "e04d2b5d3a9eeb6f01f3724acc30607f7274bd62",
+    "correction": "verification/tuza-1-26/FOUR_BRANCH_SCOPE_CORRECTION.md",
+    "mathematical_proof_sources_changed": false
+  }
 }

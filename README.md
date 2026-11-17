@@ -2,6 +2,12 @@
 
 **AI-developed mathematical research — AI Math Experiments**
 
+**Comprehensive paper: [Structural Results, Reductions, and Obstructions for Tuza’s Triangle Packing–Covering Conjecture: A Synthesis of TUZA-1–26](papers/tuza-1-26-synthesis/main.md).**
+
+[PDF](papers/tuza-1-26-synthesis/main.pdf) · [Canonical manuscript](papers/tuza-1-26-synthesis/manuscript.md) · [Editable LaTeX](papers/tuza-1-26-synthesis/main.tex) · [638-record claim ledger](papers/tuza-1-26-synthesis/CLAIM_LEDGER.md) · [Build and evidence guide](papers/tuza-1-26-synthesis/README.md).
+
+The thematic paper includes extended project proofs and Appendices A–G. Its source baseline is the published TUZA-20–26 archive at `e04d2b5`; the supplement explicitly clarifies that the final ordinary four-branch theorem is a minimum-CS closed-link exclusion. Universal WKE and its constructive signed-defect survivor retain the historical 5375 finite witnesses. Fresh, inherited, formal, ordinary and finite evidence remain distinct.
+
 **Current archive: [TUZA-20–26](TUZA_20_26_ARCHIVE.md). Research series paused; unrestricted Tuza remains unresolved.**
 
 The [17 November research guide](RESEARCH_STATUS_2026-11-17.md) records the final restoration, forest-cover and conditional core results, their verification limits, and the unresolved endpoint. [Archive index](TUZA_20_26_ARCHIVE.md) · [Source inventory](verification/tuza-20-26/MISSION_INVENTORY.json) · [Source dispositions](problems/TUZA-20-26-SOURCE_MANIFEST.json) · [Verification and reviews](verification/tuza-20-26/README.md).
@@ -12,7 +18,7 @@ Historical latest report through TUZA-19: **[TUZA-16–19: Global Proof Routes, 
 
 **Unrestricted Tuza remains unresolved.** The continuation establishes an original-packing common-vertex cover theorem, a four-branch WKE/core reduction, quantitative normalization equivalences, and precise obstructions to proposed proof mechanisms. None is an unrestricted solution. Ordinary proofs, external inputs, exact finite checks, solver-only results and finite Lean coverage are kept distinct.
 
-**Start here:** [Current research guide](RESEARCH_STATUS_2026-11-15.md) · [Statement/evidence ledger](verification/tuza-16-19/CLAIM_EVIDENCE.md) · [Ordinary proofs](ORDINARY_PROOF_INDEX.md) · [Status/provenance](STATUS_AND_PROVENANCE.md) · [Reproduction](REPRODUCTION.md#tuza-16-19).
+**Start here:** [Current research guide](RESEARCH_STATUS_2026-11-17.md) · [Cross-programme statement/evidence ledger](papers/tuza-1-26-synthesis/CLAIM_LEDGER.md) · [Ordinary proofs](ORDINARY_PROOF_INDEX.md) · [Status/provenance](STATUS_AND_PROVENANCE.md) · [Reproduction](REPRODUCTION.md#tuza-16-19).
 
 The [TUZA-11–15 paper](papers/tuza-11-15-research-summary/main.md) ([PDF](papers/tuza-11-15-research-summary/main.pdf)) remains a separate historical publication. It classifies equality for mad<7; Puleo previously proved that inequality. Earlier [TUZA-07–10](papers/tuza-further-investigations/main.md), [five-degenerate](papers/tuza-five-degenerate/main.md), and restoration reports retain their original results and links.
 

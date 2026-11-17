@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "baseline": "e04d2b5d3a9eeb6f01f3724acc30607f7274bd62",
+  "new_or_modified_files": 81,
+  "modified_preexisting_files": [
+    "DECLARATION_INDEX.md",
+    "ORDINARY_PROOF_INDEX.md",
+    "README.md",
+    "REPRODUCTION.md",
+    "RESEARCH_STATUS_2026-11-17.md",
+    "STATUS_AND_PROVENANCE.md",
+    "papers/README.md",
+    "problems/TUZA-20-26-SOURCE_MANIFEST.json",
+    "problems/TUZA-22/PROOFS_AND_OBSTRUCTIONS.md",
+    "problems/TUZA-22/PUBLICATION_STATUS.md",
+    "problems/TUZA-22/README.md",
+    "verification/tuza-20-26/MATHEMATICAL_REVIEW.md",
+    "verification/tuza-20-26/README.md"
+  ],
+  "all_other_preexisting_tracked_blobs_unchanged": true,
+  "privacy_hits": [],
+  "invalid_json": [],
+  "missing_local_links": [],
+  "claims": 638,
+  "formal_names": 85
+}

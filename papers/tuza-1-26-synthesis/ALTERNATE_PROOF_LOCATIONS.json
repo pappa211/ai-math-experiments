@@ -1,0 +1,2102 @@
+{
+  "scope": {
+    "manuscript_sha256": "1906b62908224ef97e6b5ac9773f2ea4d0dda09121fd4729c222ab5fea4fb562",
+    "manuscript_path": "papers/tuza-1-26-synthesis/manuscript.md",
+    "positive_source_unassociated_rows_inspected": 228,
+    "rows_with_shared_mathematical_passage": 6,
+    "manual_verified_counterpart_claims": [
+      "M06-SOURCE-THEOREM-1",
+      "M04-EQ4",
+      "M04-EQ5NO",
+      "M07-A1",
+      "M17-COLOURABLE_TIGHT_K4",
+      "M25-archived_minimum_cs_profile",
+      "M25-archived_lean_scopes",
+      "M26-no_blockers_composed",
+      "M26-exact_codegree_two_exclusion",
+      "M26-defect_zero_triangle_exclusion",
+      "M22-matching_triangle_cover",
+      "M22-four_branch_CS_link_exclusion",
+      "M22-high_codegree_five_core_localization",
+      "M26-opening_dependencies",
+      "M25-critical_triangle_exclusion"
+    ],
+    "policy": "Original source association and mathematical presentation are distinct fields. A missing exact source match never asserts absence of another proof."
+  },
+  "rows": [
+    {
+      "claim_id": "M04-EQ4",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 225,
+          "heading": "Equality in two incomparable sparse classes",
+          "exact_location_text": "The combined theorem holds for every five-degenerate graph.",
+          "relationship": "direct corollary of stronger theorem",
+          "scope": "Four-degenerate graphs are five-degenerate; no new formal declaration is inferred."
+        },
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [
+        {
+          "source": "problems/TUZA-06/history/tuza04/EQUALITY_THEOREMS.md",
+          "source_line": 21,
+          "manuscript_line": 1853,
+          "matching_words": 28,
+          "source_exact_passage": "disjoint triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "manuscript_exact_passage": "disjoint triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "problems/TUZA-06/history/tuza04/EQUALITY_THEOREMS.md",
+          "source_line": 21,
+          "manuscript_line": 1853,
+          "matching_words": 27,
+          "source_exact_passage": "triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "manuscript_exact_passage": "triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "problems/TUZA-06/history/tuza04/EQUALITY_THEOREMS.md",
+          "source_line": 21,
+          "manuscript_line": 1853,
+          "matching_words": 26,
+          "source_exact_passage": "would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "manuscript_exact_passage": "would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        }
+      ],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M04-EQ5NO",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 225,
+          "heading": "Equality in two incomparable sparse classes",
+          "exact_location_text": "The combined theorem holds for every five-degenerate graph.",
+          "relationship": "combined-theorem part is a direct corollary",
+          "scope": "The stronger five-degenerate result removes the forbidden-subgraph premise. Its K5-free equality specialization uses the literal K4/K5 support classification; no new independent theorem is claimed."
+        }
+      ],
+      "shared_passages": [
+        {
+          "source": "problems/TUZA-06/history/tuza04/EQUALITY_THEOREMS.md",
+          "source_line": 21,
+          "manuscript_line": 1853,
+          "matching_words": 28,
+          "source_exact_passage": "disjoint triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "manuscript_exact_passage": "disjoint triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "problems/TUZA-06/history/tuza04/EQUALITY_THEOREMS.md",
+          "source_line": 21,
+          "manuscript_line": 1853,
+          "matching_words": 27,
+          "source_exact_passage": "triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "manuscript_exact_passage": "triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "problems/TUZA-06/history/tuza04/EQUALITY_THEOREMS.md",
+          "source_line": 21,
+          "manuscript_line": 1853,
+          "matching_words": 26,
+          "source_exact_passage": "would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "manuscript_exact_passage": "would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        }
+      ],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M04-RLOCAL",
+      "explicit_counterparts": [],
+      "shared_passages": [
+        {
+          "source": "problems/TUZA-06/history/tuza04/EQUALITY_THEOREMS.md",
+          "source_line": 21,
+          "manuscript_line": 1853,
+          "matching_words": 28,
+          "source_exact_passage": "disjoint triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "manuscript_exact_passage": "disjoint triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "problems/TUZA-06/history/tuza04/EQUALITY_THEOREMS.md",
+          "source_line": 21,
+          "manuscript_line": 1853,
+          "matching_words": 27,
+          "source_exact_passage": "triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "manuscript_exact_passage": "triangles would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "problems/TUZA-06/history/tuza04/EQUALITY_THEOREMS.md",
+          "source_line": 21,
+          "manuscript_line": 1853,
+          "matching_words": 26,
+          "source_exact_passage": "would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "manuscript_exact_passage": "would use nine edges and leave one edge, impossible because every degree in a union of edge-disjoint triangles is even whereas removing one edge from",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        }
+      ],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M05-P78",
+      "explicit_counterparts": [],
+      "shared_passages": [
+        {
+          "source": "problems/TUZA-06/history/tuza05/notes/PAIR_REDUCTION_ROUTE.md",
+          "source_line": 206,
+          "manuscript_line": 2102,
+          "matching_words": 28,
+          "source_exact_passage": "on {a,b,c,d,e}, the six triangles\nxbc, xde, ybd, yce, abe, acd\nare disjoint. The cover increment ten is strictly smaller than twelve.\n\nWhen A",
+          "manuscript_exact_passage": "on $\\{a,b,c,d,e\\}$, the six triangles\n$xbc$, $xde$, $ybd$, $yce$, $abe$, $acd$\nare disjoint. The cover increment ten is strictly smaller than twelve.\n\nWhen $A",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "problems/TUZA-06/history/tuza05/notes/PAIR_REDUCTION_ROUTE.md",
+          "source_line": 206,
+          "manuscript_line": 2102,
+          "matching_words": 27,
+          "source_exact_passage": "a,b,c,d,e}, the six triangles\nxbc, xde, ybd, yce, abe, acd\nare disjoint. The cover increment ten is strictly smaller than twelve.\n\nWhen A",
+          "manuscript_exact_passage": "a,b,c,d,e\\}$, the six triangles\n$xbc$, $xde$, $ybd$, $yce$, $abe$, $acd$\nare disjoint. The cover increment ten is strictly smaller than twelve.\n\nWhen $A",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "problems/TUZA-06/history/tuza05/notes/PAIR_REDUCTION_ROUTE.md",
+          "source_line": 206,
+          "manuscript_line": 2102,
+          "matching_words": 26,
+          "source_exact_passage": "b,c,d,e}, the six triangles\nxbc, xde, ybd, yce, abe, acd\nare disjoint. The cover increment ten is strictly smaller than twelve.\n\nWhen A",
+          "manuscript_exact_passage": "b,c,d,e\\}$, the six triangles\n$xbc$, $xde$, $ybd$, $yce$, $abe$, $acd$\nare disjoint. The cover increment ten is strictly smaller than twelve.\n\nWhen $A",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        }
+      ],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M05-DENSE",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M07-A1",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 145,
+          "heading": "Why the two minimality frameworks cannot be merged",
+          "exact_location_text": "**Inequality-critical package.**",
+          "relationship": "principal elementary assertions proved in Chapter3",
+          "scope": "Edge-deletion equations, general edge-set resilience and prescribed one/two-triangle extension are proved here. The original row also aggregates further A1 assertions; exact formal interfaces remain AppendixC. This is not an assertion that the whole historical source is reprinted."
+        },
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [
+        {
+          "source": "papers/tuza-further-investigations/manuscript.md",
+          "source_line": 39,
+          "manuscript_line": 2346,
+          "matching_words": 41,
+          "source_exact_passage": "B1 (constructive completion and scalar consequences) and B2 (full gain-one equality and converse). Historical notes used the label \"B2\" once for a four-edge corollary; this report consistently reserves B2 for equality rigidity. The three/four-edge statements are consequences",
+          "manuscript_exact_passage": "B1 (constructive completion and scalar consequences) and B2 (full gain-one equality and converse). Historical notes used the label \"B2\" once for a four-edge corollary; this report consistently reserves B2 for equality rigidity. The three/four-edge statements are consequences",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "papers/tuza-further-investigations/manuscript.md",
+          "source_line": 39,
+          "manuscript_line": 2346,
+          "matching_words": 40,
+          "source_exact_passage": "constructive completion and scalar consequences) and B2 (full gain-one equality and converse). Historical notes used the label \"B2\" once for a four-edge corollary; this report consistently reserves B2 for equality rigidity. The three/four-edge statements are consequences",
+          "manuscript_exact_passage": "constructive completion and scalar consequences) and B2 (full gain-one equality and converse). Historical notes used the label \"B2\" once for a four-edge corollary; this report consistently reserves B2 for equality rigidity. The three/four-edge statements are consequences",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        },
+        {
+          "source": "papers/tuza-further-investigations/manuscript.md",
+          "source_line": 39,
+          "manuscript_line": 2346,
+          "matching_words": 39,
+          "source_exact_passage": "completion and scalar consequences) and B2 (full gain-one equality and converse). Historical notes used the label \"B2\" once for a four-edge corollary; this report consistently reserves B2 for equality rigidity. The three/four-edge statements are consequences",
+          "manuscript_exact_passage": "completion and scalar consequences) and B2 (full gain-one equality and converse). Historical notes used the label \"B2\" once for a four-edge corollary; this report consistently reserves B2 for equality rigidity. The three/four-edge statements are consequences",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        }
+      ],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M11-GLUE",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M11-KERNEL",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M12-ROOT",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M12-NEUTRAL",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M13-TWORED",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M14B-SMALL",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M14B-SLACK",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M14B-ATTACH",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M14B-FRACTION",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M16-A_FIXED_R",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M16-B1",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M16-B_DENSE_OBSTRUCTION",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M16-C1",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M16-C2_EXACT",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M16-C2_DENSE_LIMIT",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M16-C_STRICT_MIXED",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-COLOURABLE_TIGHT_K4",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 48,
+          "heading": "Equality supplies compatible packings",
+          "exact_location_text": "**Rainbow equality lemma.**",
+          "relationship": "same mathematical equality extraction",
+          "scope": "Tripartite actual-triangle hypergraph and tightness are explicit; extracted K4s exhaust actual triangles and may share vertices, with irrelevant edges allowed. Detailed proof B.R.3."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M17-BLOWUP_COLOUR_COST",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-CRITICAL_NONSATURATION",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-MATCHING_BUDGET_BOUND",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-MATCHING3_COVER4",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-SATURATED_MATCHING_AC",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-TIGHT_H_AC",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-SLACK1_ESSENTIAL_AC",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-FRONTIER_ESSENTIAL_AC",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-TIGHT_DELETION_COMPONENT_TRANSFER",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-BUDGETS_LE6_AC",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-LINK_MU5_VC7_CRITICAL_EDGE",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-TIGHT_FRONTIER_FORCED_EDGES",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-K4_EAR_REDUCTION",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-DEGREE2_EAR_REDUCTION",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-BUDGET7_VC9_AC",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M17-FRONTIER_MATCHING_CERTIFICATE",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M14B-FINAL-T1",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M14B-FINAL-T2",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M14B-FINAL-T3",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M14B-FINAL-T4",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M20-C01-exact-values",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M20-C02-exact-values",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M20-book-interface",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M21-H-D-implication",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M21-H-D-small-k",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M21-book-control-proof",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M21-Clebsch-ordinary",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-matching_triangle_cover",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 276,
+          "heading": "Equality throughout the forest-cover class",
+          "exact_location_text": "## Equality throughout the forest-cover class",
+          "relationship": "direct corollary of forest-cover theorem",
+          "scope": "A matching triangle cover is an acyclic triangle cover. Equality has literal K4 support; this is a stronger-source consequence rather than reprinting the original matching proof."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M22-k2_defect_one",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-interacting_Clebsch_D",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-minimum_CS_nu_at_least4",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-H-D_one_B_residual",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-book_residual_restoration",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-odd_cycle_link_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-triangle_free_WKE_link_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-k4_cover_kernel",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-triangle_plus_matching_minimum_cover",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-minimum_CS_nu4_order",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-CS_nu_at_most4",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-minimum_CS_packing_lower_bound",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-common_apex_defect_one",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-one_edge_active_kernel",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-safe_clique_patch_peeling",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-bipartite_page_strictness",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-sparse_triangle_free_WKE",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-cover10_outside_degree",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-bipartite_triangle_matching_private_bound",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-connected_matching_cover",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-isolated_cover_bases",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-classified_resilient_defect_one",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-independent_side_cover_identity",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-universal_independent_apices",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-independent_side_critical_swaps",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-one_sided_forest_exact_packing",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-two_full_apices_disjoint_cores",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-cover_component_conflicts",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-cover_leaf_sees_cycle",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-extremal_triangle_cover_components",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-three_pages_disjoint_triangle_cores",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-C4_induced_core_exact",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-triangle_edge_three_color_CS",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-independent_hub_fiber_saving",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-matching_and_triangle_mincover_Tuza",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-two_page_triangle_matching_CS",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-minimum_CS_small_cover_components_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-one_cycle_cover_Tuza",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-minimum_vertex_cover_matching_saturation",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-weighted_cover_component_internal_strictness",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-conditional_tree_internal_interface",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-tree_mixed_hall_selection",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-private_tree_component_weighted",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-forest_external_family_minmax",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-codegree_two_defect_one",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-high_codegree_four_core_localization",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-perfect_triangle_intersection_CS",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-crown_classified_residual_interface",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-anchor_residual_packing_bound",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-anchor_one_private_case",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-claw_free_triangle_intersection_CS",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-centered_three_sun_core_localization",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-anchor_implication_repeated_base",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-clique_odd_cycle_cover_certificate",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-four_branch_CS_link_exclusion",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12139,
+          "heading": "BP121 — Ordinary completion of the at-most-four-branch closed-link exclusion",
+          "exact_location_text": "## BP121 — Ordinary completion of the at-most-four-branch closed-link exclusion",
+          "relationship": "same minimum-CS endpoint with ordinary replacement proof",
+          "scope": "Does not replace the separate arbitrary-link universal WKE/constructive survivor theorem."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M22-high_codegree_five_core_localization",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12245,
+          "heading": "B-heavy — Ordinary heavy-core localization",
+          "exact_location_text": "In a minimum CS failure within any class closed under edge-subgraphs, every nonempty closed link has at least five branch vertices",
+          "relationship": "ordinary hereditary localization counterpart",
+          "scope": "Exact minimum-CS and subgraph-closed class assumptions retained; no claim that all graph cores vanish."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M22-tree_triangle_minimum_cover_Tuza",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-independent_branch_link_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-tree_triangle_any_cover_Tuza",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-mixed_cover_q3_strictness",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-original_HD_colored_interface",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-mixed_cover_q2_K5",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-mixed_cover_low_cost_triangle",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-TF_apex_unicyclic_deficiency_one",
+      "explicit_counterparts": [],
+      "shared_passages": [
+        {
+          "source": "problems/TUZA-22/notes/apex_unicyclic_triangle_free_deficiency_one_exclusion_v1.md",
+          "source_line": 9,
+          "manuscript_line": 10973,
+          "matching_words": 24,
+          "source_exact_passage": "In a minimum combined-CS failure G, globally or within an edge-subgraph-hereditary class, there is no closed link component L at h",
+          "manuscript_exact_passage": "In a minimum combined-CS failure G, globally or within an edge-subgraph-hereditary class, there is no closed link component L at h",
+          "meaning": "Verified shared mathematical passage; does not by itself assert equivalence of the entire aggregated claim."
+        }
+      ],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M22-unicyclic_exposable_leaf_facts",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-tree_triangle_any_cover_CS",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-near_TF_WKE_full_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-H-D_unicyclic_component_weighted_packing",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-external_page_clique_footprint_certificate",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-H-D_blue_deletion_survivor_bound",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-two_apex_forest_link_matching_bound",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-WKE_degree_two_residual_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-two_apex_forest_link_matching_bound_finite",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-H-D_book_defect_count",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-H-D_blue_deletion_survivor_bound_original",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-cycle_cover_two_link_transport",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-one_cycle_cover_full_CS",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-red_book_rerooting",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-H-D_parameterized_book_blocker_kernel",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-two_cycle_cover_Tuza",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-H-D_regular_diagonal_singleton_bound",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-all_minimum_exact_TF_cone_blocker",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-whole_cone_TF_matching_residual_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-outside_supported_WKE_matching_base",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-all_minimum_exact_cone_unique_family",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-cone_exact_cover_local_matching_interfaces",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-pseudoforest_cover_two_factor_reduction",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M22-cone_residual_cover_common_apices",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M23-maximum_packing",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-actual_minimum_cover",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-cover_optimum_bridge",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-component_equivalence",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-packing_additivity",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-cover_additivity",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-component_graph_realization",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-K4_parameters",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-K5_parameters",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-clique_prescribed_cover",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-clique_edge_avoidance",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-B_implies_equality",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-one_edge_insertion",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-whole_page_footprint",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-simultaneous_minimum_cover",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-simultaneous_maximum_packing",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-nonbare_page_cover",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-tight_increment",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-bare_page_availability",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-cross_page_intersection",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-adjacent_case",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-disjoint_case",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-R2",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-M0",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-minimum_failure_exists",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-hereditary_minimum_failure",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M23-exact_R2_type_guard",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_cover_cs",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_cover_inequality",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_cover_anchor",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_cover_equality",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_cover_equality_k4",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-pointed_apex_forest",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_maximum_matching_cover",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_matching_exposure_card",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_matching_eq_of_vertices_eq",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_retain_edge_expose_leaf",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_avoid_edge_expose_leaf",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_nonperfect_deficiency_two",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forest_safe_allowed_edge",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-perfect_apex_link_excluded",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-nonperfect_apex_link_excluded",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-minimal_internal_page_augmentation",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-minimal_safe_external_page_augmentation",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forestCover_no_five_clique",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M24-Tuza24-forestCover_B_iff_K4",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "exact formal counterpart via AppendixC linked table",
+          "scope": "Only the specified named declarations and exact hypotheses, not every informal synonym, are formal claims."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M25-archived_minimum_cs_profile",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 439,
+          "heading": "A residual core is not the original residual",
+          "exact_location_text": "Its single residual has connected, single-edge-resilient slack-one support and every triangle extends to a maximum packing.",
+          "relationship": "same actual-parent residual profile",
+          "scope": "Chapter8 opening retains the minimum-CS parent and actual single-triangle residual. Does not transfer minimum-Q conclusions to that residual."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M25-archived_lean_scopes",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12255,
+          "heading": "Appendix C. Formal correspondence and assumptions",
+          "exact_location_text": "The complete `FORMAL_CORRESPONDENCE.json` resolves 85 exact declaration names",
+          "relationship": "formal evidence counterpart",
+          "scope": "Historical R2/M0/forest scope record is by reference; exact inherited/fresh boundaries are specified separately."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M25-critical_triangle_exclusion",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 481,
+          "heading": "The final necessary profile of the minimum core",
+          "exact_location_text": "The complete triangle-residual reconstruction then excludes slack one as well.",
+          "relationship": "later composed core consequence",
+          "scope": "Only the explicitly minimum Q is subject to this profile. This does not identify every actual residual or reprint all intermediate TUZA25 arguments."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M25-circularity_audit",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M25-topology_accounting",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M25-kernel_transfers",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-opening_dependencies",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12173,
+          "heading": "B-compose — Two-edge resilience in the fixed-G minimum-Q universe",
+          "exact_location_text": "## B-compose — Two-edge resilience in the fixed-G minimum-Q universe",
+          "relationship": "dependency composition reconstructed",
+          "scope": "Does not prove availability of a global paid operation."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M26-no_blockers_composed",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12173,
+          "heading": "B-compose — Two-edge resilience in the fixed-G minimum-Q universe",
+          "exact_location_text": "## B-compose — Two-edge resilience in the fixed-G minimum-Q universe",
+          "relationship": "complete composition proof",
+          "scope": "The explicit fixed-G minimum-Q selection supplies naming; later consequences are stronger than the original minimum-degree-four profile but do not alter its conditional hypotheses."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M26-defect_zero_triangle_exclusion",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 479,
+          "heading": "The final necessary profile of the minimum core",
+          "exact_location_text": "A separate lemma excludes B in this residual.",
+          "relationship": "same no-B argument in Chapter8",
+          "scope": "Counting alone still permits slack0; the complete page/independent-terminal argument is retained, with B-compose referencing the standalone proof."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M26-codegree_two_short_cover_exchange",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-full_disagreement_cover_operation",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-compatible_page_partners",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-marked_strip_augmentation",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-marked_crossing_repairs",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-local_cap_operation",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-endpoint_link_operations",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-one_outside_triangle_repair",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-degree_four_cap_first_descent",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-degree_four_cap_critical_wedge",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-critical_wedge_background",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-critical_wedge_same_edge",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-critical_wedge_cap_complete",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-release_set_compression",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-outside_hub_repair",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-exact_codegree_two_exclusion",
+      "explicit_counterparts": [
+        {
+          "path": "papers/tuza-1-26-synthesis/manuscript.md",
+          "line": 12193,
+          "heading": "Theorem B-dual: exact triangle codegree two",
+          "exact_location_text": "## Theorem B-dual: exact triangle codegree two",
+          "relationship": "complete alternate ordinary proof",
+          "scope": "Brooks and Tutte–Berge are declared external inputs. This gives some codegree at least3 in Q, not an edge of codegree exactly2."
+        }
+      ],
+      "shared_passages": [],
+      "result": "counterpart or passage identified"
+    },
+    {
+      "claim_id": "M26-one_unit_cover_exchange",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-canonical_outside_packing",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-arbitrary_book_release_compression",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-arbitrary_book_crossing_switch",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-triangle_surplus_commutation",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-empty_link_exact_defect_two_descent",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-empty_link_multiple_extendable_pages",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-two_edge_critical_envelope",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-compatible_pair_rebasing",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-outside_fragile_component_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-outside_resilient_component_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-outside_unique_page_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-outside_two_edge_paid_exclusion",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-actual_parent_common_center_discriminator",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-actual_parent_common_center_conflict_star",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-actual_parent_q2_family_frontier",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-actual_parent_common_center_three_opposite_B",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    },
+    {
+      "claim_id": "M26-actual_parent_common_center_one_hub_B",
+      "explicit_counterparts": [],
+      "shared_passages": [],
+      "result": "original source by reference; no verified mathematical counterpart identified in this inspection, not an assertion of absence"
+    }
+  ]
+}

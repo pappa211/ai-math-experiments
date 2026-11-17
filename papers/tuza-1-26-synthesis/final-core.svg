@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="title desc">
+<title id="title">Final eight-vertex core B</title>
+<desc id="desc">Exactly 23 edges: a b c d e form K5, u joins all other vertices, v also joins a b c, and w also joins a d e. Outside attachments are not drawn.</desc>
+<rect width="720" height="490" fill="white"/>
+<line data-edge="a-b" data-kind="clique" x1="360.00" y1="220.40" x2="227.40" y2="310.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="a-c" data-kind="clique" x1="360.00" y1="220.40" x2="273.30" y2="439.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="a-d" data-kind="clique" x1="360.00" y1="220.40" x2="446.70" y2="439.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="a-e" data-kind="clique" x1="360.00" y1="220.40" x2="492.60" y2="310.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="a-u" data-kind="hub" x1="360.00" y1="220.40" x2="360.00" y2="82.80" stroke="#b14444" stroke-width="2.1" stroke-dasharray="6 4"/>
+<line data-edge="a-v" data-kind="arm" x1="360.00" y1="220.40" x2="84.60" y2="293.50" stroke="#147a72" stroke-width="2.1"/>
+<line data-edge="a-w" data-kind="arm" x1="360.00" y1="220.40" x2="635.40" y2="293.50" stroke="#147a72" stroke-width="2.1"/>
+<line data-edge="b-c" data-kind="clique" x1="227.40" y1="310.70" x2="273.30" y2="439.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="b-d" data-kind="clique" x1="227.40" y1="310.70" x2="446.70" y2="439.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="b-e" data-kind="clique" x1="227.40" y1="310.70" x2="492.60" y2="310.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="b-u" data-kind="hub" x1="227.40" y1="310.70" x2="360.00" y2="82.80" stroke="#b14444" stroke-width="2.1" stroke-dasharray="6 4"/>
+<line data-edge="b-v" data-kind="arm" x1="227.40" y1="310.70" x2="84.60" y2="293.50" stroke="#147a72" stroke-width="2.1"/>
+<line data-edge="c-d" data-kind="clique" x1="273.30" y1="439.70" x2="446.70" y2="439.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="c-e" data-kind="clique" x1="273.30" y1="439.70" x2="492.60" y2="310.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="c-u" data-kind="hub" x1="273.30" y1="439.70" x2="360.00" y2="82.80" stroke="#b14444" stroke-width="2.1" stroke-dasharray="6 4"/>
+<line data-edge="c-v" data-kind="arm" x1="273.30" y1="439.70" x2="84.60" y2="293.50" stroke="#147a72" stroke-width="2.1"/>
+<line data-edge="d-e" data-kind="clique" x1="446.70" y1="439.70" x2="492.60" y2="310.70" stroke="#8b9299" stroke-width="2.1"/>
+<line data-edge="d-u" data-kind="hub" x1="446.70" y1="439.70" x2="360.00" y2="82.80" stroke="#b14444" stroke-width="2.1" stroke-dasharray="6 4"/>
+<line data-edge="d-w" data-kind="arm" x1="446.70" y1="439.70" x2="635.40" y2="293.50" stroke="#147a72" stroke-width="2.1"/>
+<line data-edge="e-u" data-kind="hub" x1="492.60" y1="310.70" x2="360.00" y2="82.80" stroke="#b14444" stroke-width="2.1" stroke-dasharray="6 4"/>
+<line data-edge="e-w" data-kind="arm" x1="492.60" y1="310.70" x2="635.40" y2="293.50" stroke="#147a72" stroke-width="2.1"/>
+<line data-edge="u-v" data-kind="hub" x1="360.00" y1="82.80" x2="84.60" y2="293.50" stroke="#b14444" stroke-width="2.1" stroke-dasharray="6 4"/>
+<line data-edge="u-w" data-kind="hub" x1="360.00" y1="82.80" x2="635.40" y2="293.50" stroke="#b14444" stroke-width="2.1" stroke-dasharray="6 4"/>
+<circle cx="360.00" cy="82.80" r="13" fill="white" stroke="#222" stroke-width="1.4"/>
+<text x="360.00" y="88.80" text-anchor="middle" font-family="serif" font-style="italic" font-size="21">u</text>
+<circle cx="84.60" cy="293.50" r="13" fill="white" stroke="#222" stroke-width="1.4"/>
+<text x="84.60" y="299.50" text-anchor="middle" font-family="serif" font-style="italic" font-size="21">v</text>
+<circle cx="635.40" cy="293.50" r="13" fill="white" stroke="#222" stroke-width="1.4"/>
+<text x="635.40" y="299.50" text-anchor="middle" font-family="serif" font-style="italic" font-size="21">w</text>
+<circle cx="360.00" cy="220.40" r="13" fill="white" stroke="#222" stroke-width="1.4"/>
+<text x="360.00" y="226.40" text-anchor="middle" font-family="serif" font-style="italic" font-size="21">a</text>
+<circle cx="227.40" cy="310.70" r="13" fill="white" stroke="#222" stroke-width="1.4"/>
+<text x="227.40" y="316.70" text-anchor="middle" font-family="serif" font-style="italic" font-size="21">b</text>
+<circle cx="273.30" cy="439.70" r="13" fill="white" stroke="#222" stroke-width="1.4"/>
+<text x="273.30" y="445.70" text-anchor="middle" font-family="serif" font-style="italic" font-size="21">c</text>
+<circle cx="446.70" cy="439.70" r="13" fill="white" stroke="#222" stroke-width="1.4"/>
+<text x="446.70" y="445.70" text-anchor="middle" font-family="serif" font-style="italic" font-size="21">d</text>
+<circle cx="492.60" cy="310.70" r="13" fill="white" stroke="#222" stroke-width="1.4"/>
+<text x="492.60" y="316.70" text-anchor="middle" font-family="serif" font-style="italic" font-size="21">e</text>
+<text x="360" y="477" text-anchor="middle" font-family="sans-serif" font-size="15">Gray: K5 on A · Dashed red: edges at u · Teal: the two arms</text>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "archive_baseline": "e04d2b5d3a9eeb6f01f3724acc30607f7274bd62",
+  "changes": [
+    {
+      "path": "problems/TUZA-22/PROOFS_AND_OBSTRUCTIONS.md",
+      "original_public_sha256": "a31dbe0f4ecc521992358bfeb6b5de4c6bcfe71cf507bc0a2666c3dfa953a95a",
+      "current_public_sha256": "d9e2424362d7f3dd433bed06ba54720a900fa35918623164421b91bb360d2832"
+    },
+    {
+      "path": "problems/TUZA-23/sources/tuza22/PROOFS_AND_OBSTRUCTIONS.md",
+      "original_public_sha256": "a31dbe0f4ecc521992358bfeb6b5de4c6bcfe71cf507bc0a2666c3dfa953a95a",
+      "current_public_sha256": "d9e2424362d7f3dd433bed06ba54720a900fa35918623164421b91bb360d2832"
+    },
+    {
+      "path": "problems/TUZA-24/sources/tuza22/PROOFS_AND_OBSTRUCTIONS.md",
+      "original_public_sha256": "a31dbe0f4ecc521992358bfeb6b5de4c6bcfe71cf507bc0a2666c3dfa953a95a",
+      "current_public_sha256": "d9e2424362d7f3dd433bed06ba54720a900fa35918623164421b91bb360d2832"
+    }
+  ]
+}
