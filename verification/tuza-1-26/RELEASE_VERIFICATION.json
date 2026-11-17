@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "frozen_content": "a8d76761fb6634729910a108bc1395f8b94a7794cf31a11fe0f8e2067debb500",
+  "clean_git_paper_reproduction": {
+    "status": "PASS",
+    "source_commit": "eb003880534df60c08bb053904bed766dc0ba65f",
+    "source_tree": "ce27aaae9087a97b924e16d68d93f57f61883228",
+    "clean_git_checkout_before_and_after": true,
+    "frozen_content_sha256": "a8d76761fb6634729910a108bc1395f8b94a7794cf31a11fe0f8e2067debb500",
+    "frozen_file_count": 5834,
+    "started_utc": "2026-11-17T20:00:06.062292+00:00",
+    "completed_utc": "2026-11-17T20:00:14.011717+00:00",
+    "elapsed_seconds": 7.6863872919930145,
+    "sampled_peak_process_tree_rss_bytes": 690798592,
+    "exit_code": 0,
+    "limit_reason": null,
+    "commands": [
+      "python papers/tuza-1-26-synthesis/build.py --output <FRESH_OUTPUT>/build --pandoc <PINNED_PANDOC> --tectonic <PINNED_TECTONIC>"
+    ],
+    "build_environment": {
+      "status": "COMPILED",
+      "canonical_source": "manuscript.md",
+      "source_sha256": "1906b62908224ef97e6b5ac9773f2ea4d0dda09121fd4729c222ab5fea4fb562",
+      "bibliography_sha256": "dfa16bb733087fba5aff03ab63629b8e9162c8614951dbd6a36ec965c310c6f2",
+      "filter_sha256": "7bb8012c08a1e578b02682e719e5e5707b5c200279fe8994a0de0aa0757f0162",
+      "build_script_sha256": "00df13e9bad3031068b028230296ddf03b0f203607d5d0677e5e128a4605c21f",
+      "style_sha256": "ad87814675ef1df8d841e5043be7be0fb3966f45509f4941475f96887c9280f7",
+      "code_font": "Menlo from installed macOS font collection",
+      "code_font_sha256": "f2d400484a6aace67980730ec0a9ef24ce9e535a2604f118e6fdc2510021b85f",
+      "figure_svg_sha256": "3a710080670c36b31525979131834d963206926b10a00a8adde01624e944f88c",
+      "figure_pdf_sha256": "d4feee8aed25a3cef793bf466173c7d12b545c9ca3a0d33900bed900e45d75e2",
+      "artifacts": {
+        "main.md": "1216c3bfde4a76bf6a837634b4d3b395a97f3f2e4d0e9447adcb29d84c3294a3",
+        "main.tex": "bff60876b78c365b90d60e7a98775d17b601b1cfd29ad57a1c0e6ec3f2183ca9",
+        "main.pdf": "f162a763fc654d2e53efae9d0ddca6322e35d839eb45460f152cd5bfb9c14b88"
+      },
+      "pandoc": "pandoc 3.13",
+      "tectonic": "Tectonic 0.17.0",
+      "cache_policy": "Existing bundle assets only; no download; SOURCE_DATE_EPOCH=1794873600",
+      "parity": "Markdown and LaTeX share the same citation-resolved manuscript; final visual/text checks recorded separately."
+    },
+    "artifact_comparison": {
+      "main.md": {
+        "expected_sha256": "1216c3bfde4a76bf6a837634b4d3b395a97f3f2e4d0e9447adcb29d84c3294a3",
+        "actual_sha256": "1216c3bfde4a76bf6a837634b4d3b395a97f3f2e4d0e9447adcb29d84c3294a3",
+        "identical": true
+      },
+      "main.tex": {
+        "expected_sha256": "bff60876b78c365b90d60e7a98775d17b601b1cfd29ad57a1c0e6ec3f2183ca9",
+        "actual_sha256": "bff60876b78c365b90d60e7a98775d17b601b1cfd29ad57a1c0e6ec3f2183ca9",
+        "identical": true
+      },
+      "main.pdf": {
+        "expected_sha256": "f162a763fc654d2e53efae9d0ddca6322e35d839eb45460f152cd5bfb9c14b88",
+        "actual_sha256": "f162a763fc654d2e53efae9d0ddca6322e35d839eb45460f152cd5bfb9c14b88",
+        "identical": true
+      }
+    },
+    "formal_reference_commit": "27b26e436d927b65dbd63db23187f08efa305951",
+    "formal_occurrences_equal": 110,
+    "all_formal_pins_equal": true,
+    "finite_reference": "verification/tuza-1-26/finite/PUBLIC_SUMMARY.json",
+    "finite_reference_sha256": "ff6567a6bfe9987d8154ed6c1ca524f5b640a9af72918012dec3cc739920ef99",
+    "finite_inputs_equal": 1310,
+    "finite_runner_and_source_mapping_equal": true,
+    "new_formal_build": false,
+    "new_finite_run": false,
+    "scope": "Exact clean Git-checkout paper build with all Markdown/LaTeX/PDF bytes and BUILD.json identical. Prior finite/formal evidence reused only after exact byte comparisons. Cache-only typesetting and installed pinned Mac font; no compiler/dependency bootstrap or fresh mathematical search."
+  },
+  "final_independent_review_sha256": "b262c2f114699fe9cdc6a340a669365d460e95644472b259b8a2d1aac39b396a",
+  "original_source_files_unchanged": 2656,
+  "original_workspaces_clean": true,
+  "source_manifest_sha256": "c934f8e4e9ad4c1c15c7c2f90e2b19c109f97d53ceba5d1188f463cfbf3659a0",
+  "mathematical_review_sha256": "b850cd2e861aef03528826fb2f9da2b2a64eb5fd35e0a38f57164e9b27f3cb44",
+  "layout_review_sha256": "16232f3b58800d1ba9d5ae3f6c4d10fac52f5b78b9f500311d934727a518f009",
+  "all_page_geometry_sha256": "ec3c39e60bdf2f84338ab43cacc1e6be162220ffb776bb4739fc52c4d755a851",
+  "claim_ledger_sha256": "002f4d5d7385fc515b76777f7bfb104bb92dd882ef049136cfe1a8f6e5cc4c6b",
+  "note": "This receipt binds reviewed source and clean reproduction. The eventual merge identity is available from the public pull request and Git history; no self-referential merge hash is guessed."
+}
